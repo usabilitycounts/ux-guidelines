@@ -217,7 +217,7 @@
       if (staged.theme !== 'light') root.classList.add(staged.theme);
       applyFont(staged.font);
       close();
-      if (staged.lang !== before.lang) location.reload();
+      if (staged.lang !== before.lang) location.href = window.uxLangUrl ? window.uxLangUrl(staged.lang) : location.href;
     });
     const cancel = document.createElement('button');
     cancel.className = 'btn-cancel';
@@ -248,17 +248,33 @@
   });
 })();
 
-// Lazy-load translations when a non-English language is active.
-// A ?lang= URL parameter (used by sitemap hreflang alternates) selects and persists a language.
+// Language URLs: /fr/... path prefixes (hreflang alternates, rewritten by
+// .htaccess to the same page shell) and legacy ?lang= parameters both select
+// and persist a language. The path prefix is the canonical form.
 (() => {
   try {
-    const m = location.search.match(/[?&]lang=([a-z]{2})\b/);
-    if (m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].includes(m[1])) localStorage.setItem('ux-lang', m[1]);
+    const pm = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    const qm = location.search.match(/[?&]lang=([a-z]{2})\b/);
+    const code = pm ? pm[1] : (qm && ['en', 'es', 'de', 'fr', 'zh', 'ja'].includes(qm[1]) ? qm[1] : null);
+    if (code) localStorage.setItem('ux-lang', code);
+    if (pm) {
+      const page = location.pathname.replace(/^\/(fr|de|es|ja|zh)\/?/, '');
+      const self = 'https://www.ux-guidelines.com/' + pm[1] + '/' + page;
+      const c = document.querySelector('link[rel="canonical"]');
+      if (c) c.href = self;
+      const og = document.querySelector('meta[property="og:url"]');
+      if (og) og.content = self;
+    }
   } catch (e) {}
+  // Build the URL for a language on the current page (used by every switcher).
+  window.uxLangUrl = code => {
+    const page = location.pathname.replace(/^\/(fr|de|es|ja|zh)(?:\/|$)/, '/').replace(/^\//, '');
+    return code === 'en' ? '/' + page : '/' + code + '/' + page;
+  };
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=25';
+  s.src = 'i18n.js?v=26';
   document.head.appendChild(s);
 })();
 

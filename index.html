@@ -16,6 +16,13 @@
 <meta name="description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <title>UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns</title>
 <link rel="canonical" href="https://www.ux-guidelines.com/">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/">
 <meta property="og:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta property="og:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <meta property="og:type" content="website">
@@ -90,7 +97,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=52"></script>
+<script defer src="tokens.js?v=54"></script>
 </head>
 <body>
 
@@ -230,8 +237,9 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 (function () {
   var cur = 'en';
   try {
+    var pm = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
     var m = location.search.match(/[?&]lang=([a-z]{2})\b/);
-    cur = (m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en');
+    cur = pm ? pm[1] : ((m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en'));
   } catch (e) {}
   document.querySelectorAll('.lang-tab').forEach(function (b) {
     var active = b.dataset.lang === cur;
@@ -240,7 +248,8 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     b.addEventListener('click', function () {
       if (b.dataset.lang === cur) return;
       try { localStorage.setItem('ux-lang', b.dataset.lang); } catch (e) {}
-      location.reload();
+      if (window.uxLangUrl) location.href = window.uxLangUrl(b.dataset.lang);
+      else location.reload();
     });
   });
 })();

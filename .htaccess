@@ -1,0 +1,5 @@
+# Language-prefixed URLs serve the same page shell; tokens.js renders the
+# language from the path. /fr/hicks-law.html -> hicks-law.html, /fr/ -> index.
+RewriteEngine On
+RewriteRule ^(fr|de|es|ja|zh)/?$ index.html [L]
+RewriteRule ^(fr|de|es|ja|zh)/(.+)$ $2 [L]
