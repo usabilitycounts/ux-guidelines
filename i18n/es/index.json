@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 44 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 45 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "10 principios",
@@ -28,6 +28,7 @@
   "10 aplicaciones",
   "+ Era de la IA",
   "10 patrones",
+  "Mosier, 1996",
   "10 aplicaciones",
   "6 túneles",
   "Bar, 2006",
@@ -80,6 +81,7 @@
   "Ley de Hick",
   "Ley de Jakob",
   "Paradoja de la elección",
+  "Sesgo de automatización",
   "Ley de Fitts",
   "Ley de conducción",
   "Sesgo de contorno",
@@ -132,6 +134,7 @@
   "Más opciones, decisiones más largas — y cómo mantener menús rápidos.",
   "Los usuarios viven en otros sitios — el tuyo debe funcionar igual.",
   "Más opciones, menos decisiones — y los patrones que rompen la parálisis.",
+  "La gente acepta lo que sugiere la máquina — incluso cuando se equivoca.",
   "Grande y cerca es rápido — la ley detrás de cada botón y objetivo.",
   "Cuanto más estrecho el camino, más lenta la conducción.",
   "Las formas redondeadas dan confianza — los ángulos afilados se leen como alertas.",

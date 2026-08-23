@@ -9,7 +9,7 @@ BASE = 'https://www.ux-guidelines.com/'
 GROUPS = [
  ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','gestalt-principles','von-restorff-effect','weber-fechner-law']),
  ("Present And Explain", ['data-visualization','universal-icons','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
- ("Structure The Choices", ['hicks-law','jakobs-law','paradox-of-choice']),
+ ("Structure The Choices", ['hicks-law','jakobs-law','paradox-of-choice','automation-bias']),
  ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),
  ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
  ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','pareto-principle']),

@@ -29,6 +29,7 @@
 - [Hick’s Law: More Choices, Longer Decision Times](https://www.ux-guidelines.com/hicks-law.html): The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.
 - [Jakob’s Law: Users Expect Your Site to Work Like the Rest](https://www.ux-guidelines.com/jakobs-law.html): People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.
 - [Paradox of Choice: Choice Overload and Decision Paralysis](https://www.ux-guidelines.com/paradox-of-choice.html): More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.
+- [Automation Bias: Why People Over-Trust the Machine](https://www.ux-guidelines.com/automation-bias.html): Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.
 
 ## Design Actions And Controls
 

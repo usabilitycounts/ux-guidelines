@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en" data-page="automation-bias">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.">
+<title>Automation Bias: Why People Over-Trust the Machine — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/automation-bias.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/automation-bias.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/automation-bias.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/automation-bias.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/automation-bias.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/automation-bias.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/automation-bias.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/automation-bias.html">
+<meta property="og:title" content="Automation Bias: Why People Over-Trust the Machine — UX Guidelines">
+<meta property="og:description" content="Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/automation-bias.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/automation-bias.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/automation-bias.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Automation Bias: Why People Over-Trust the Machine — UX Guidelines">
+<meta name="twitter:description" content="Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Automation Bias: Why People Over-Trust the Machine", "description": "Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.", "url": "https://www.ux-guidelines.com/automation-bias.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/automation-bias.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Structure The Choices"}, {"@type": "ListItem", "position": 3, "name": "Automation Bias: Why People Over-Trust the Machine", "item": "https://www.ux-guidelines.com/automation-bias.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=72">
+<style>
+  .ab-rows { display: flex; flex-direction: column; justify-content: center; gap: 14px; padding: 0 30px; }
+  .ab-row { display: flex; align-items: center; gap: 12px; }
+  .ab-line { height: 9px; border-radius: 4.5px; background: var(--skel); opacity: 0.35; }
+  .ab-chip { flex: 0 0 auto; height: 26px; border-radius: 13px; background: var(--il-accent); opacity: 0.9; width: 40%; }
+  .ab-chip.ghost { background: var(--skel); opacity: 0.2; }
+  .ab-check { width: 20px; height: 20px; border-radius: 50%; background: var(--il-accent); opacity: 0.9; flex: 0 0 auto; position: relative; }
+  .ab-check::after { content: ''; position: absolute; left: 5px; top: 5px; width: 8px; height: 5px; border-left: 2.5px solid var(--bg); border-bottom: 2.5px solid var(--bg); transform: rotate(-45deg); }
+  .ab-dot { width: 14px; height: 14px; border-radius: 50%; background: var(--skel); opacity: 0.3; flex: 0 0 auto; }
+  .ab-gauge { display: flex; align-items: center; gap: 6px; }
+  .ab-seg { width: 26px; height: 10px; border-radius: 5px; background: var(--skel); opacity: 0.25; }
+  .ab-seg.on { background: var(--il-accent); opacity: 0.9; }
+</style>
+<script defer src="tokens.js?v=61"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link active">Automation Bias</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Automation <em>Bias</em></h1>
+  <p class="tagline">If the machine said it, it must be right.</p>
+  <p class="subtitle">Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Linda_J._Skitka" target="_blank" rel="noopener">Linda Skitka</a> and Kathleen Mosier studied flight crews working with cockpit automation in the 1990s. Given a faulty automated cue, experienced pilots followed it into errors they would never have made unaided — and when automation stayed silent, they missed events they were trained to catch.</p>
+    <p class="body-text">Their work named automation bias and split it into two failures: errors of commission — doing what the machine wrongly suggests — and errors of omission — not doing what the machine failed to flag. The findings moved from aviation into medicine, security screening, and every interface that offers an automated answer.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Bias</div>
+    <p class="body-text law-desc">People treat automated suggestions as a replacement for their own vigilance rather than one more input. Trust in the machine rises above its actual reliability, attention decays, and both wrong suggestions and silent misses go unchallenged.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-kathleen-mosier">Kathleen Mosier</a> and <a href="people.html#p-linda-skitka">Linda Skitka</a> (1996)</div></div>
+      <div><div class="label">Source</div><div class="value">Cockpit automation studies</div></div>
+      <div><div class="label">In practice</div><div class="value">Design for review, not just accept</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The research</span>
+      <span class="num">01 / 08</span>
+      <h3>The Cockpit Studies</h3>
+      <p class="desc">Trained pilots in simulators followed false automated warnings — shutting down healthy engines — and overlooked failures the automation never announced. Expertise did not protect them; the presence of an automated aid changed how carefully they looked.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-chip" style="width:46%"></span><span class="ab-check"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:60%"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:48%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Setting</div><div class="value">Flight simulators, real crews</div></div>
+      <div><div class="label">Finding</div><div class="value">The aid replaced the checking</div></div>
+      <div><div class="label">Expertise</div><div class="value">Did not protect them</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Two failures</span>
+      <span class="num">02 / 08</span>
+      <h3>Commission and Omission</h3>
+      <p class="desc">Commission: doing what the machine wrongly suggests. Omission: missing what the machine failed to flag. The second is quieter and worse — nothing on the screen ever asked to be doubted.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-chip ghost" style="width:44%"></span><span class="ab-check"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:52%;opacity:0.15"></span><span class="ab-dot"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Commission</div><div class="value">Following the wrong advice</div></div>
+      <div><div class="label">Omission</div><div class="value">Missing the silent failure</div></div>
+      <div><div class="label">Worse</div><div class="value">Omission — nothing prompts doubt</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Defaults</span>
+      <span class="num">03 / 08</span>
+      <h3>Suggestions Become Answers</h3>
+      <p class="desc">A pre-filled field, a ranked first result, a highlighted recommendation — whatever the system offers first is what most users submit. Automation bias is why default quality is a safety property, not a convenience.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-chip" style="width:52%"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:44%"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:38%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Offered first</div><div class="value">Chosen most</div></div>
+      <div><div class="label">Default quality</div><div class="value">A safety property</div></div>
+      <div><div class="label">Audit</div><div class="value">What do we pre-select?</div></div>
+
+
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Trust</span>
+      <span class="num">04 / 08</span>
+      <h3>Calibrate the Trust</h3>
+      <p class="desc">The goal is not less trust — it is accurate trust. Show confidence levels, show what the system checked and did not check, and let reliability be felt. A system that admits uncertainty earns better decisions than one that always sounds sure.</p>
+    </div>
+    <div class="demo"><div class="il-stage" style="display:flex;align-items:center;justify-content:center"><div class="ab-gauge">
+      <span class="ab-seg on"></span><span class="ab-seg on"></span><span class="ab-seg on"></span><span class="ab-seg"></span><span class="ab-seg"></span>
+    </div></div></div>
+    <div class="meta">
+      <div><div class="label">Goal</div><div class="value">Accurate trust, not blind trust</div></div>
+      <div><div class="label">Show</div><div class="value">Confidence and coverage</div></div>
+      <div><div class="label">Earns</div><div class="value">Better human decisions</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <span class="num">05 / 08</span>
+      <h3>Friction Where It Counts</h3>
+      <p class="desc">One-tap accept is right for low-stakes suggestions and wrong for consequential ones. Match the effort to the cost of being wrong: a deliberate confirmation, a diff to review, a second source — friction as a feature, applied sparingly.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-line" style="width:40%"></span><span class="ab-check" style="opacity:0.35"></span></div>
+      <div class="ab-row"><span class="ab-chip" style="width:40%"></span><span class="ab-dot"></span><span class="ab-dot"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Low stakes</div><div class="value">One tap is fine</div></div>
+      <div><div class="label">High stakes</div><div class="value">Deliberate steps</div></div>
+      <div><div class="label">Rule</div><div class="value">Effort matches the cost of wrong</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Boundary</span>
+      <span class="num">06 / 08</span>
+      <h3>Vigilance Decays</h3>
+      <p class="desc">The better the automation, the less people check it — right up until the failure that matters. Reviews that are always rubber-stamped stop being reviews. If a human is the safety net, the interface has to keep them genuinely engaged.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-check"></span><span class="ab-line" style="width:52%"></span></div>
+      <div class="ab-row"><span class="ab-check" style="opacity:0.5"></span><span class="ab-line" style="width:46%"></span></div>
+      <div class="ab-row"><span class="ab-check" style="opacity:0.2"></span><span class="ab-line" style="width:49%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Reliability breeds inattention</div></div>
+      <div><div class="label">Rubber stamp</div><div class="value">A review in name only</div></div>
+      <div><div class="label">Design job</div><div class="value">Keep the human engaged</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Automation Bias in the Age of AI</h3>
+    <p>Mosier and Skitka studied a cockpit. Now every writing tool, code editor, and search box offers automated answers — and the accept button is always one tap away.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Accept-All Era</h3>
+      <p class="desc">Model output arrives fluent, confident, and formatted — every surface cue says finished. Users accept code they did not read and prose they did not check. Interfaces that make review easier than acceptance are the counterweight.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-chip" style="width:56%"></span><span class="ab-check"></span></div>
+      <div class="ab-row"><span class="ab-chip" style="width:48%"></span><span class="ab-check"></span></div>
+      <div class="ab-row"><span class="ab-chip" style="width:52%"></span><span class="ab-check"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Surface cues</div><div class="value">Fluent means finished</div></div>
+      <div><div class="label">Counterweight</div><div class="value">Review easier than accept</div></div>
+
+
+    <div class="related"><span class="related-label">Related</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Show the Seams</h3>
+      <p class="desc">Expose sources, show what was checked, mark the uncertain parts, and make disagreeing with the model a first-class action. An AI interface that hides its seams invites blind trust; one that shows them invites judgment.</p>
+    </div>
+    <div class="demo"><div class="il-stage ab-rows">
+      <div class="ab-row"><span class="ab-line" style="width:56%;background:var(--il-accent);opacity:0.85"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:40%"></span><span class="ab-line" style="width:14%;opacity:0.15"></span></div>
+      <div class="ab-row"><span class="ab-line" style="width:48%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Expose</div><div class="value">Sources · checks · uncertainty</div></div>
+      <div><div class="label">First-class action</div><div class="value">Disagreeing with the model</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Automation_bias" target="_blank" rel="noopener"><span class="title">Automation Bias</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Linda_J._Skitka" target="_blank" rel="noopener"><span class="title">Linda Skitka — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1207/s15327108ijap0801_3" target="_blank" rel="noopener"><span class="title">Automation Bias, Accountability, and Verification Behaviors</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Automation Bias</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Automation <em>Bias</em>"
+ ],
+ "header .tagline": [
+  "Wenn die Maschine es sagt, wird es stimmen."
+ ],
+ "header .subtitle": [
+  "Mosier und Skitka zeigten in den 1990ern, dass Menschen automatisierten Vorschlägen zu sehr vertrauen — ihnen folgen, wenn sie falsch sind, und übersehen, was die Maschine übersieht. Im KI-Zeitalter ist das der Bias, gegen den jedes Interface entworfen werden muss."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Linda_J._Skitka\" target=\"_blank\" rel=\"noopener\">Linda Skitka</a> und Kathleen Mosier untersuchten in den 1990ern Flugbesatzungen mit Cockpit-Automatisierung. Bei einem fehlerhaften automatischen Hinweis folgten erfahrene Piloten ihm in Fehler, die sie allein nie gemacht hätten — und blieb die Automatik stumm, übersahen sie Ereignisse, für die sie trainiert waren.",
+  "Ihre Arbeit benannte den Automation Bias und teilte ihn in zwei Fehlerarten: Kommissionsfehler — tun, was die Maschine fälschlich vorschlägt — und Omissionsfehler — unterlassen, was die Maschine nicht gemeldet hat. Die Befunde wanderten in Medizin, Sicherheitskontrollen und jedes Interface mit automatischer Antwort."
+ ],
+ ".law-content .law-desc": [
+  "Menschen behandeln automatisierte Vorschläge als Ersatz für die eigene Wachsamkeit statt als eine Eingabe von mehreren. Das Vertrauen in die Maschine übersteigt ihre tatsächliche Zuverlässigkeit, die Aufmerksamkeit verfällt, und weder falsche Vorschläge noch stilles Versagen werden hinterfragt."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-mosier\">Kathleen Mosier</a> und <a href=\"people.html#p-linda-skitka\">Linda Skitka</a> (1996)",
+  "Cockpit-Automatisierungsstudien",
+  "Für Prüfung entwerfen, nicht nur fürs Annehmen"
+ ],
+ ".card .tag": [
+  "Die Forschung",
+  "Zwei Fehler",
+  "Vorgaben",
+  "Vertrauen",
+  "Praxis",
+  "Grenze",
+  "Im KI-Zeitalter",
+  "Im KI-Zeitalter"
+ ],
+ ".card h3": [
+  "Die Cockpit-Studien",
+  "Kommission und Omission",
+  "Vorschläge werden Antworten",
+  "Vertrauen kalibrieren",
+  "Reibung, wo sie zählt",
+  "Wachsamkeit verfällt",
+  "Die Alles-Annehmen-Ära",
+  "Die Nähte zeigen"
+ ],
+ ".card .desc": [
+  "Trainierte Piloten folgten im Simulator falschen automatischen Warnungen — und schalteten gesunde Triebwerke ab — während sie Ausfälle übersahen, die die Automatik nie meldete. Erfahrung schützte sie nicht; die bloße Anwesenheit einer automatischen Hilfe veränderte ihr Prüfen.",
+  "Kommission: tun, was die Maschine fälschlich vorschlägt. Omission: übersehen, was die Maschine nicht gemeldet hat. Das Zweite ist leiser und schlimmer — nichts auf dem Bildschirm hat je um Zweifel gebeten.",
+  "Ein vorausgefülltes Feld, ein erstes Ranking-Ergebnis, eine hervorgehobene Empfehlung — was das System zuerst anbietet, reichen die meisten ein. Automation Bias macht die Qualität von Vorgaben zur Sicherheitseigenschaft, nicht zum Komfort.",
+  "Das Ziel ist nicht weniger Vertrauen — sondern zutreffendes Vertrauen. Zeigen Sie Konfidenz, zeigen Sie, was geprüft wurde und was nicht, und machen Sie Zuverlässigkeit spürbar. Ein System, das Unsicherheit zugibt, erzeugt bessere Entscheidungen als eines, das immer sicher klingt.",
+  "Annehmen mit einem Tipp passt zu folgenlosen Vorschlägen und nicht zu folgenschweren. Passen Sie den Aufwand an die Kosten des Irrtums an: eine bewusste Bestätigung, ein Diff zum Prüfen, eine zweite Quelle — Reibung als Feature, sparsam eingesetzt.",
+  "Je besser die Automatik, desto weniger wird sie geprüft — bis zu dem Ausfall, der zählt. Prüfungen, die immer durchgewinkt werden, sind keine Prüfungen mehr. Ist ein Mensch das Sicherheitsnetz, muss das Interface ihn wirklich beteiligt halten.",
+  "Modell-Ausgaben kommen flüssig, selbstsicher und formatiert an — jedes Oberflächensignal sagt „fertig“. Nutzer übernehmen Code, den sie nicht gelesen, und Prosa, die sie nicht geprüft haben. Interfaces, die Prüfen leichter machen als Annehmen, sind das Gegengewicht.",
+  "Legen Sie Quellen offen, zeigen Sie, was geprüft wurde, markieren Sie das Unsichere, und machen Sie Widerspruch gegen das Modell zur erstklassigen Aktion. Ein KI-Interface, das seine Nähte versteckt, lädt zu blindem Vertrauen ein; eines, das sie zeigt, zu Urteilskraft."
+ ],
+ ".meta .label": [
+  "Umfeld",
+  "Befund",
+  "Erfahrung",
+  "Kommission",
+  "Omission",
+  "Schlimmer",
+  "Zuerst angeboten",
+  "Vorgabenqualität",
+  "Audit",
+  "Ziel",
+  "Zeigen",
+  "Erzeugt",
+  "Geringer Einsatz",
+  "Hoher Einsatz",
+  "Regel",
+  "Muster",
+  "Durchwinken",
+  "Designaufgabe",
+  "Oberflächensignale",
+  "Gegengewicht",
+  "Offenlegen",
+  "Erstklassige Aktion"
+ ],
+ ".meta .value": [
+  "Simulatoren, echte Crews",
+  "Die Hilfe ersetzte das Prüfen",
+  "Schützte sie nicht",
+  "Dem falschen Rat folgen",
+  "Das stille Versagen übersehen",
+  "Omission — nichts weckt Zweifel",
+  "Am häufigsten gewählt",
+  "Eine Sicherheitseigenschaft",
+  "Was wählen wir vor?",
+  "Zutreffendes Vertrauen",
+  "Konfidenz und Abdeckung",
+  "Bessere menschliche Entscheidungen",
+  "Ein Tipp genügt",
+  "Bewusste Schritte",
+  "Aufwand folgt den Fehlerkosten",
+  "Zuverlässigkeit macht unaufmerksam",
+  "Prüfung nur dem Namen nach",
+  "Den Menschen beteiligt halten",
+  "Flüssig heißt fertig",
+  "Prüfen leichter als Annehmen",
+  "Quellen · Prüfungen · Unsicherheit",
+  "Dem Modell widersprechen"
+ ],
+ ".ai-divider h3": [
+  "Automation Bias im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Mosier und Skitka untersuchten ein Cockpit. Heute bietet jedes Schreibwerkzeug, jeder Code-Editor und jedes Suchfeld automatisierte Antworten — und der Annehmen-Knopf ist immer einen Tipp entfernt."
+ ]
+}

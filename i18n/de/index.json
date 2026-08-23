@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Eine wachsende Bibliothek von 44 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
+  "Eine wachsende Bibliothek von 45 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
  ],
  ".card .tag": [
   "10 Prinzipien",
@@ -28,6 +28,7 @@
   "10 Anwendungen",
   "+ KI-Ära",
   "10 Muster",
+  "Mosier, 1996",
   "10 Anwendungen",
   "6 Tunnel",
   "Bar, 2006",
@@ -80,6 +81,7 @@
   "Hicksches Gesetz",
   "Jakobs Gesetz",
   "Paradox der Wahl",
+  "Automation Bias",
   "Fitts' Gesetz",
   "Steering-Gesetz",
   "Kontur-Bias",
@@ -132,6 +134,7 @@
   "Mehr Auswahl, längere Entscheidungen — und wie Menüs schnell bleiben.",
   "Nutzer leben auf anderen Websites — deine sollte genauso funktionieren.",
   "Mehr Optionen, weniger Entscheidungen — und die Muster dagegen.",
+  "Menschen übernehmen, was die Maschine vorschlägt — auch wenn es falsch ist.",
   "Groß und nah ist schnell — das Gesetz hinter jedem Button und Ziel.",
   "Je schmaler der Pfad, desto langsamer das Steuern.",
   "Runde Formen wirken sicher — spitze Winkel lesen sich als Warnung.",

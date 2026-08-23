@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Sesgo de <em>automatización</em>"
+ ],
+ "header .tagline": [
+  "Si lo dice la máquina, será verdad."
+ ],
+ "header .subtitle": [
+  "Mosier y Skitka demostraron en los años noventa que confiamos demasiado en las sugerencias automatizadas — siguiéndolas cuando son erróneas y pasando por alto lo que la máquina pasa por alto. En la era de la IA, este es el sesgo contra el que toda interfaz debe diseñarse."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Linda_J._Skitka\" target=\"_blank\" rel=\"noopener\">Linda Skitka</a> y Kathleen Mosier estudiaron en los años noventa a tripulaciones que trabajaban con automatización de cabina. Ante una señal automatizada defectuosa, pilotos experimentados la siguieron hasta errores que jamás habrían cometido solos — y cuando la automatización callaba, pasaron por alto eventos que estaban entrenados para detectar.",
+  "Su trabajo bautizó el sesgo de automatización y lo dividió en dos fallos: errores de comisión — hacer lo que la máquina sugiere erróneamente — y errores de omisión — no hacer lo que la máquina no señaló. Los hallazgos pasaron a la medicina, los controles de seguridad y toda interfaz que ofrece una respuesta automatizada."
+ ],
+ ".law-content .law-desc": [
+  "La gente trata las sugerencias automatizadas como sustituto de su propia vigilancia y no como un dato más. La confianza en la máquina supera su fiabilidad real, la atención decae, y ni las sugerencias erróneas ni los silencios se cuestionan."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-mosier\">Kathleen Mosier</a> y <a href=\"people.html#p-linda-skitka\">Linda Skitka</a> (1996)",
+  "Estudios de automatización de cabina",
+  "Diseñar para revisar, no solo para aceptar"
+ ],
+ ".card .tag": [
+  "La investigación",
+  "Dos fallos",
+  "Predeterminados",
+  "Confianza",
+  "Práctica",
+  "Límite",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Los estudios de cabina",
+  "Comisión y omisión",
+  "Las sugerencias se vuelven respuestas",
+  "Calibrar la confianza",
+  "Fricción donde importa",
+  "La vigilancia decae",
+  "La era de aceptar todo",
+  "Mostrar las costuras"
+ ],
+ ".card .desc": [
+  "Pilotos entrenados siguieron en simulador falsas alertas automatizadas — apagando motores sanos — y pasaron por alto fallos que la automatización nunca anunció. La pericia no los protegió; la presencia de una ayuda automatizada cambió su forma de comprobar.",
+  "Comisión: hacer lo que la máquina sugiere erróneamente. Omisión: no ver lo que la máquina no señaló. La segunda es más silenciosa y peor — nada en la pantalla pidió jamás ser puesto en duda.",
+  "Un campo prellenado, un primer resultado, una recomendación destacada — lo que el sistema ofrece primero es lo que la mayoría envía. El sesgo de automatización convierte la calidad de lo predeterminado en una propiedad de seguridad, no en una comodidad.",
+  "La meta no es menos confianza — es confianza precisa. Muestra niveles de certeza, muestra qué comprobó el sistema y qué no, y deja que la fiabilidad se sienta. Un sistema que admite incertidumbre gana mejores decisiones que uno que siempre suena seguro.",
+  "Aceptar con un toque va bien para sugerencias sin riesgo y mal para las decisivas. Ajusta el esfuerzo al costo del error: una confirmación deliberada, un diff que revisar, una segunda fuente — la fricción como virtud, aplicada con mesura.",
+  "Cuanto mejor la automatización, menos se comprueba — hasta el fallo que importa. Las revisiones que siempre se aprueban dejan de ser revisiones. Si un humano es la red de seguridad, la interfaz debe mantenerlo genuinamente atento.",
+  "La salida del modelo llega fluida, segura y formateada — cada señal superficial dice terminado. La gente acepta código que no leyó y prosa que no comprobó. Las interfaces que hacen la revisión más fácil que la aceptación son el contrapeso.",
+  "Expón las fuentes, muestra qué se comprobó, marca lo incierto y haz de discrepar con el modelo una acción de primera clase. Una interfaz de IA que oculta sus costuras invita a la confianza ciega; una que las muestra invita al juicio."
+ ],
+ ".meta .label": [
+  "Entorno",
+  "Hallazgo",
+  "Pericia",
+  "Comisión",
+  "Omisión",
+  "Peor",
+  "Ofrecido primero",
+  "Calidad predeterminada",
+  "Auditoría",
+  "Meta",
+  "Mostrar",
+  "Gana",
+  "Riesgo bajo",
+  "Riesgo alto",
+  "Regla",
+  "Patrón",
+  "Sello automático",
+  "Tarea del diseño",
+  "Señales superficiales",
+  "Contrapeso",
+  "Exponer",
+  "Acción de primera clase"
+ ],
+ ".meta .value": [
+  "Simuladores, tripulaciones reales",
+  "La ayuda sustituyó la comprobación",
+  "No los protegió",
+  "Seguir el mal consejo",
+  "No ver el fallo silencioso",
+  "La omisión — nada invita a dudar",
+  "El más elegido",
+  "Una propiedad de seguridad",
+  "¿Qué preseleccionamos?",
+  "Confianza precisa, no ciega",
+  "Certeza y cobertura",
+  "Mejores decisiones humanas",
+  "Un toque basta",
+  "Pasos deliberados",
+  "El esfuerzo sigue al costo del error",
+  "La fiabilidad adormece la atención",
+  "Una revisión solo de nombre",
+  "Mantener al humano atento",
+  "Fluido parece terminado",
+  "Revisar más fácil que aceptar",
+  "Fuentes · comprobaciones · incertidumbre",
+  "Discrepar del modelo"
+ ],
+ ".ai-divider h3": [
+  "El sesgo de automatización en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Mosier y Skitka estudiaron una cabina. Ahora cada herramienta de escritura, editor de código y buscador ofrece respuestas automatizadas — y el botón de aceptar está siempre a un toque."
+ ]
+}

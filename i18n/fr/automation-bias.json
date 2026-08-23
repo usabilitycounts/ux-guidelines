@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Biais d’<em>automatisation</em>"
+ ],
+ "header .tagline": [
+  "Si la machine le dit, ce doit être vrai."
+ ],
+ "header .subtitle": [
+  "Mosier et Skitka ont montré dans les années 1990 que l’on fait trop confiance aux suggestions automatisées — en les suivant quand elles sont fausses et en ratant ce que la machine rate. À l’ère de l’IA, c’est le biais contre lequel chaque interface doit être conçue."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Linda_J._Skitka\" target=\"_blank\" rel=\"noopener\">Linda Skitka</a> et Kathleen Mosier ont étudié dans les années 1990 des équipages travaillant avec l’automatisation du cockpit. Face à un signal automatisé défectueux, des pilotes expérimentés le suivaient jusqu’à des erreurs qu’ils n’auraient jamais commises seuls — et quand l’automatisation restait muette, ils rataient des événements qu’ils étaient entraînés à repérer.",
+  "Leurs travaux ont nommé le biais d’automatisation et l’ont scindé en deux échecs : les erreurs de commission — faire ce que la machine suggère à tort — et les erreurs d’omission — ne pas faire ce que la machine n’a pas signalé. Les résultats ont gagné la médecine, la sûreté et toute interface qui propose une réponse automatisée."
+ ],
+ ".law-content .law-desc": [
+  "Les gens traitent les suggestions automatisées comme un substitut à leur propre vigilance plutôt que comme une donnée parmi d’autres. La confiance dans la machine dépasse sa fiabilité réelle, l’attention décline, et ni les suggestions fausses ni les silences ne sont remis en cause."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-mosier\">Kathleen Mosier</a> et <a href=\"people.html#p-linda-skitka\">Linda Skitka</a> (1996)",
+  "Études sur l’automatisation du cockpit",
+  "Concevoir pour la relecture, pas seulement l’acceptation"
+ ],
+ ".card .tag": [
+  "La recherche",
+  "Deux échecs",
+  "Défauts",
+  "Confiance",
+  "Pratique",
+  "Limite",
+  "À l’ère de l’IA",
+  "À l’ère de l’IA"
+ ],
+ ".card h3": [
+  "Les études de cockpit",
+  "Commission et omission",
+  "Les suggestions deviennent des réponses",
+  "Calibrer la confiance",
+  "De la friction là où il faut",
+  "La vigilance s’érode",
+  "L’ère du tout-accepter",
+  "Montrer les coutures"
+ ],
+ ".card .desc": [
+  "En simulateur, des pilotes entraînés ont suivi de fausses alertes automatisées — éteignant des moteurs sains — et ont manqué des pannes que l’automatisation n’annonçait pas. L’expertise ne les a pas protégés : la présence d’une aide automatisée a changé leur façon de vérifier.",
+  "Commission : faire ce que la machine suggère à tort. Omission : rater ce que la machine n’a pas signalé. La seconde est plus silencieuse et pire — rien à l’écran n’a jamais demandé à être mis en doute.",
+  "Un champ prérempli, un premier résultat classé, une recommandation mise en avant — ce que le système propose en premier est ce que la plupart des gens valident. Le biais d’automatisation fait de la qualité des défauts une propriété de sécurité, pas un confort.",
+  "L’objectif n’est pas moins de confiance — c’est une confiance juste. Affichez les niveaux de certitude, montrez ce qui a été vérifié ou non, et laissez la fiabilité se ressentir. Un système qui avoue son incertitude produit de meilleures décisions qu’un système toujours sûr de lui.",
+  "L’acceptation en un geste convient aux suggestions sans enjeu et pas aux décisions lourdes. Ajustez l’effort au coût de l’erreur : une confirmation délibérée, un diff à relire, une seconde source — la friction comme qualité, appliquée avec parcimonie.",
+  "Plus l’automatisation est bonne, moins on la vérifie — jusqu’à la panne qui compte. Une relecture toujours approuvée d’office cesse d’être une relecture. Si un humain est le filet de sécurité, l’interface doit le garder réellement engagé.",
+  "La sortie du modèle arrive fluide, confiante, mise en forme — chaque indice de surface dit « terminé ». On accepte du code qu’on n’a pas lu et de la prose qu’on n’a pas vérifiée. Les interfaces qui rendent la relecture plus facile que l’acceptation sont le contrepoids.",
+  "Exposez les sources, montrez ce qui a été vérifié, marquez les passages incertains, et faites du désaccord avec le modèle une action de premier ordre. Une interface d’IA qui cache ses coutures invite à la confiance aveugle ; celle qui les montre invite au jugement."
+ ],
+ ".meta .label": [
+  "Cadre",
+  "Constat",
+  "Expertise",
+  "Commission",
+  "Omission",
+  "Pire",
+  "Proposé en premier",
+  "Qualité des défauts",
+  "Audit",
+  "Objectif",
+  "Montrer",
+  "Produit",
+  "Faible enjeu",
+  "Fort enjeu",
+  "Règle",
+  "Schéma",
+  "Tampon",
+  "Mission du design",
+  "Indices de surface",
+  "Contrepoids",
+  "Exposer",
+  "Action de premier ordre"
+ ],
+ ".meta .value": [
+  "Simulateurs, équipages réels",
+  "L’aide a remplacé la vérification",
+  "Ne les a pas protégés",
+  "Suivre le mauvais conseil",
+  "Rater la panne silencieuse",
+  "L’omission — rien n’incite au doute",
+  "Choisi le plus souvent",
+  "Une propriété de sécurité",
+  "Que présélectionnons-nous ?",
+  "Confiance juste, pas aveugle",
+  "Certitude et couverture",
+  "De meilleures décisions humaines",
+  "Un geste suffit",
+  "Des étapes délibérées",
+  "L’effort suit le coût de l’erreur",
+  "La fiabilité endort l’attention",
+  "Une relecture de façade",
+  "Garder l’humain engagé",
+  "Fluide veut dire fini",
+  "Relire plus facile qu’accepter",
+  "Sources · vérifications · incertitude",
+  "Contredire le modèle"
+ ],
+ ".ai-divider h3": [
+  "Le biais d’automatisation à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Mosier et Skitka ont étudié un cockpit. Désormais chaque outil d’écriture, éditeur de code et moteur de recherche propose des réponses automatisées — et le bouton accepter est toujours à un geste."
+ ]
+}

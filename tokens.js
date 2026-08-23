@@ -32,7 +32,7 @@
     'curse-of-knowledge.html', 'doherty-threshold.html', 'fitts-law.html',
     'fogg-behavior-model.html', 'galls-law.html', 'goodharts-law.html', 'hicks-law.html',
     'hofstadters-law.html', 'hook-model.html', 'ikea-effect.html', 'jakobs-law.html', 'millers-law.html',
-    'paradox-of-choice.html', 'pareto-principle.html', 'peak-end-rule.html',
+    'paradox-of-choice.html', 'automation-bias.html', 'pareto-principle.html', 'peak-end-rule.html',
     'postels-law.html', 'power-law-of-practice.html', 'serial-position-effect.html',
     'steering-law.html', 'teslers-law.html', 'uncanny-valley.html', 'von-restorff-effect.html',
     'weber-fechner-law.html', 'yerkes-dodson-law.html', 'zeigarnik-effect.html'
@@ -279,7 +279,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=27';
+  s.src = 'i18n.js?v=28';
   document.head.appendChild(s);
 })();
 

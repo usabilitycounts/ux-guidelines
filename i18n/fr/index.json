@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Une bibliothèque grandissante de 44 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
+  "Une bibliothèque grandissante de 45 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
   "10 principes",
@@ -28,6 +28,7 @@
   "10 applications",
   "+ Ère de l'IA",
   "10 modèles",
+  "Mosier, 1996",
   "10 applications",
   "6 tunnels",
   "Bar, 2006",
@@ -80,6 +81,7 @@
   "Loi de Hick",
   "Loi de Jakob",
   "Paradoxe du choix",
+  "Biais d’automatisation",
   "Loi de Fitts",
   "Loi du pilotage",
   "Biais des contours",
@@ -132,6 +134,7 @@
   "Plus de choix, décisions plus longues — et comment garder des menus rapides.",
   "Les utilisateurs vivent ailleurs — votre site doit fonctionner pareil.",
   "Plus d’options, moins de décisions — et les patterns qui brisent la paralysie.",
+  "Les gens valident ce que la machine suggère — même quand c’est faux.",
   "Grand et proche, c’est rapide — la loi derrière chaque bouton et cible.",
   "Plus le chemin est étroit, plus le pilotage est lent.",
   "Les formes arrondies rassurent — les angles vifs se lisent comme des alertes.",
