@@ -1,0 +1,79 @@
+{
+ "header h1": [
+  "Nach <em>Jahr</em>"
+ ],
+ "header .tagline": [
+  "Zwei Jahrhunderte lernen, wie Menschen Dinge benutzen."
+ ],
+ "header .subtitle": [
+  "Jede Referenz der Bibliothek in chronologischer Reihenfolge — von Webers Verhältnissen 1834 bis zum Hook-Modell 2014 — mit dem Jahr ihrer Entstehung und den Menschen dahinter."
+ ],
+ ".yr-item a": [
+  "Weber-Fechner-Gesetz",
+  "Serieller Positionseffekt",
+  "Pareto-Prinzip",
+  "Yerkes-Dodson-Gesetz",
+  "Gestaltprinzipien",
+  "Zeigarnik-Effekt",
+  "Chestertons Zaun",
+  "Von-Restorff-Effekt",
+  "Hicksches Gesetz",
+  "Fitts' Gesetz",
+  "Gutenberg-Prinzip",
+  "Millers Gesetz",
+  "Conways Gesetz",
+  "Uncanny Valley",
+  "Galls Gesetz",
+  "Goodharts Gesetz",
+  "Dieter Rams' 10 Prinzipien",
+  "Hofstadters Gesetz",
+  "Postels Gesetz",
+  "Raster und Hierarchie",
+  "Potenzgesetz der Übung",
+  "Universelle Icons",
+  "Doherty-Schwelle",
+  "Datenvisualisierung",
+  "Progressive Offenlegung",
+  "Teslers Gesetz",
+  "Shneidermans acht goldene Regeln",
+  "Cognitive-Load-Theorie",
+  "Normans Prinzipien",
+  "Fluch des Wissens",
+  "Peak-End-Regel",
+  "Nielsens 10 Heuristiken",
+  "Ästhetik-Usability-Effekt",
+  "Automation Bias",
+  "Steering-Gesetz",
+  "Navigationsmuster",
+  "WCAG und POUR",
+  "Jakobs Gesetz",
+  "Tognazzinis Grundprinzipien",
+  "Paradox der Wahl",
+  "Kontur-Bias",
+  "Blickmuster",
+  "Fogg-Verhaltensmodell",
+  "IKEA-Effekt",
+  "Hook-Modell"
+ ],
+ ".yr-group h3": [
+  "1830er Jahre",
+  "1880er Jahre",
+  "1890er Jahre",
+  "1900er Jahre",
+  "1910er Jahre",
+  "1920er Jahre",
+  "1930er Jahre",
+  "1950er Jahre",
+  "1960er Jahre",
+  "1970er Jahre",
+  "1980er Jahre",
+  "1990er Jahre",
+  "2000er Jahre",
+  "2010er Jahre"
+ ],
+ ".yr-century h2": [
+  "19. Jahrhundert",
+  "20. Jahrhundert",
+  "21. Jahrhundert"
+ ]
+}

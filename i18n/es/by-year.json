@@ -1,0 +1,79 @@
+{
+ "header h1": [
+  "Por <em>año</em>"
+ ],
+ "header .tagline": [
+  "Dos siglos aprendiendo cómo la gente usa las cosas."
+ ],
+ "header .subtitle": [
+  "Todas las referencias de la biblioteca en orden cronológico — de las razones de Weber en 1834 al modelo Hook en 2014 — con el año en que se establecieron y las personas detrás."
+ ],
+ ".yr-item a": [
+  "Ley de Weber-Fechner",
+  "Efecto de posición serial",
+  "Principio de Pareto",
+  "Ley de Yerkes-Dodson",
+  "Principios de la Gestalt",
+  "Efecto Zeigarnik",
+  "La valla de Chesterton",
+  "Efecto von Restorff",
+  "Ley de Hick",
+  "Ley de Fitts",
+  "Principio de Gutenberg",
+  "Ley de Miller",
+  "Ley de Conway",
+  "Valle inquietante",
+  "Ley de Gall",
+  "Ley de Goodhart",
+  "Los 10 principios de Dieter Rams",
+  "Ley de Hofstadter",
+  "Ley de Postel",
+  "Retícula y jerarquía",
+  "Ley de potencia de la práctica",
+  "Iconos universales",
+  "Umbral de Doherty",
+  "Visualización de datos",
+  "Divulgación progresiva",
+  "Ley de Tesler",
+  "Las ocho reglas de oro de Shneiderman",
+  "Teoría de la carga cognitiva",
+  "Principios de Norman",
+  "Maldición del conocimiento",
+  "Regla del pico y final",
+  "Las 10 heurísticas de Nielsen",
+  "Efecto estética-usabilidad",
+  "Sesgo de automatización",
+  "Ley de conducción",
+  "Patrones de navegación",
+  "WCAG y POUR",
+  "Ley de Jakob",
+  "Primeros principios de Tognazzini",
+  "Paradoja de la elección",
+  "Sesgo de contorno",
+  "Patrones de escaneo visual",
+  "Modelo de conducta de Fogg",
+  "Efecto IKEA",
+  "Modelo Hook"
+ ],
+ ".yr-group h3": [
+  "Años 1830",
+  "Años 1880",
+  "Años 1890",
+  "Años 1900",
+  "Años 1910",
+  "Años 1920",
+  "Años 1930",
+  "Años 1950",
+  "Años 1960",
+  "Años 1970",
+  "Años 1980",
+  "Años 1990",
+  "Años 2000",
+  "Años 2010"
+ ],
+ ".yr-century h2": [
+  "Siglo XIX",
+  "Siglo XX",
+  "Siglo XXI"
+ ]
+}

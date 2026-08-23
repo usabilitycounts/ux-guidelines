@@ -97,6 +97,7 @@
     "IKEA Effect": ["Effet IKEA", "IKEA-Effekt", "Efecto IKEA", "イケア効果", "宜家效应"],
     "Contour Bias": ["Biais des contours", "Kontur-Bias", "Sesgo de contorno", "輪郭バイアス", "轮廓偏好"],
     "Automation Bias": ["Biais d’automatisation", "Automation Bias", "Sesgo de automatización", "自動化バイアス", "自动化偏差"],
+    "By Year": ["Par année", "Nach Jahr", "Por año", "年代順", "按年份"],
     "Uncanny Valley": ["Vallée de l’étrange", "Uncanny Valley", "Valle inquietante", "不気味の谷", "恐怖谷"],
     "Von Restorff Effect": ["Effet von Restorff", "Von-Restorff-Effekt", "Efecto von Restorff", "フォン・レストルフ効果", "冯·雷斯托夫效应"],
     "Zeigarnik Effect": ["Effet Zeigarnik", "Zeigarnik-Effekt", "Efecto Zeigarnik", "ツァイガルニク効果", "蔡格尼克效应"],
@@ -423,7 +424,7 @@
   };
   const loadOverlay = () => {
     const page = (location.pathname.split('/').pop() || 'index.html').replace('.html', '') || 'index';
-    fetch('i18n/' + lang + '/' + page + '.json?v=14')
+    fetch('i18n/' + lang + '/' + page + '.json?v=15')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});

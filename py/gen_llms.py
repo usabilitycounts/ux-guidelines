@@ -34,7 +34,7 @@ def main():
         out.append('')
     out.append('## Reference')
     out.append('')
-    for p, label in [('glossary', 'Glossary of UX terms'), ('people', 'The researchers behind the laws'), ('about', 'About the site')]:
+    for p, label in [('glossary', 'Glossary of UX terms'), ('people', 'The researchers behind the laws'), ('by-year', 'Chronological timeline of the laws'), ('about', 'About the site')]:
         out.append(f'- [{label}]({BASE}{p}.html)')
     with open(f'{SITE}/llms.txt', 'w') as f:
         f.write('\n'.join(out) + '\n')

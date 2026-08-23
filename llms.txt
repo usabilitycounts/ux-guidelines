@@ -75,4 +75,5 @@
 
 - [Glossary of UX terms](https://www.ux-guidelines.com/glossary.html)
 - [The researchers behind the laws](https://www.ux-guidelines.com/people.html)
+- [Chronological timeline of the laws](https://www.ux-guidelines.com/by-year.html)
 - [About the site](https://www.ux-guidelines.com/about.html)
