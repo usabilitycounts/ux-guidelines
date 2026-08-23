@@ -28,10 +28,15 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.ux-guidelines.com/">
 <meta property="og:site_name" content="UX Guidelines">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://www.ux-guidelines.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
-<link rel="stylesheet" href="tokens.css?v=69">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
+<link rel="stylesheet" href="tokens.css?v=71">
 <style>
   :root {
     --bg: #ffffff;
@@ -59,11 +64,11 @@
   .home-side .card .desc { font-size: var(--fs-ui); color: var(--text-secondary); line-height: var(--lh-body); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
   .home-main .section { padding: 0 0 20px; }
-  .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 6px; }
+  .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; }
   .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
   .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
   .home-main .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 44px; padding: 0; }
-  .home-main .card { display: flex; align-items: baseline; text-decoration: none; color: inherit; padding: 8px 0; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
+  .home-main .card { display: flex; align-items: baseline; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
   .home-main .card h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
   .home-main .card:hover h3 { text-decoration: underline; }
   .home-main .card .desc { display: none; }
@@ -81,7 +86,7 @@
 @media (hover: none) {
   .home-side .card:hover { box-shadow: none; transform: none; }
 }
-header { text-align: center; padding-top: 36px; }
+header { text-align: center; padding-top: 34px; }
 .hero-title { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 0 0 12px; }
 header h1 { font-size: clamp(2.5rem, 5vw, 3.4375rem); letter-spacing: -1.5px; line-height: 1.1; margin: 0; }
 header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-height: 1.6; color: var(--text-secondary); }
@@ -98,7 +103,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=55"></script>
+<script defer src="tokens.js?v=57"></script>
 </head>
 <body>
 
@@ -204,7 +209,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     <svg aria-hidden="true" class="landing-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V7"/><path d="m16 12 2 2 4-4"/><path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-2"/></svg>
     <h1>UX <em>Guidelines</em></h1>
   </div>
-  <p class="subtitle">A growing library of 44 research-backed UX references.<br>Built for designers, researchers, and engineers who care about getting it right.</p>
+  <p class="subtitle">A growing library of 44 research-backed UX references for designers, researchers, and engineers.</p>
   <div class="lang-tabs theme-tabs" aria-label="Theme">
     <button type="button" class="lang-tab theme-tab" data-theme="light">Light</button>
     <button type="button" class="lang-tab theme-tab" data-theme="dark">Dark</button>

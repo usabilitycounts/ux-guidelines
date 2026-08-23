@@ -1,5 +1,54 @@
+# Force HTTPS on the canonical host
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://www.ux-guidelines.com/$1 [R=301,L]
+
 # Language-prefixed URLs serve the same page shell; tokens.js renders the
 # language from the path. /fr/hicks-law.html -> hicks-law.html, /fr/ -> index.
-RewriteEngine On
 RewriteRule ^(fr|de|es|ja|zh)/?$ index.html [L]
 RewriteRule ^(fr|de|es|ja|zh)/(.+)$ $2 [L]
+
+# Legacy short filenames from before the full-concept rename
+Redirect 301 /aesthetic-usability.html https://www.ux-guidelines.com/aesthetic-usability-effect.html
+Redirect 301 /cognitive-load.html https://www.ux-guidelines.com/cognitive-load-theory.html
+Redirect 301 /contour.html https://www.ux-guidelines.com/contour-bias.html
+Redirect 301 /conways.html https://www.ux-guidelines.com/conways-law.html
+Redirect 301 /dataviz.html https://www.ux-guidelines.com/data-visualization.html
+Redirect 301 /doherty.html https://www.ux-guidelines.com/doherty-threshold.html
+Redirect 301 /eye-scanning.html https://www.ux-guidelines.com/eye-scanning-patterns.html
+Redirect 301 /fitts.html https://www.ux-guidelines.com/fitts-law.html
+Redirect 301 /fogg-behavior.html https://www.ux-guidelines.com/fogg-behavior-model.html
+Redirect 301 /galls.html https://www.ux-guidelines.com/galls-law.html
+Redirect 301 /gestalt.html https://www.ux-guidelines.com/gestalt-principles.html
+Redirect 301 /goodharts.html https://www.ux-guidelines.com/goodharts-law.html
+Redirect 301 /grid.html https://www.ux-guidelines.com/grid-and-hierarchy.html
+Redirect 301 /gutenberg.html https://www.ux-guidelines.com/gutenberg-principle.html
+Redirect 301 /hicks.html https://www.ux-guidelines.com/hicks-law.html
+Redirect 301 /hofstadters.html https://www.ux-guidelines.com/hofstadters-law.html
+Redirect 301 /hook.html https://www.ux-guidelines.com/hook-model.html
+Redirect 301 /icons.html https://www.ux-guidelines.com/universal-icons.html
+Redirect 301 /ikea.html https://www.ux-guidelines.com/ikea-effect.html
+Redirect 301 /jakobs.html https://www.ux-guidelines.com/jakobs-law.html
+Redirect 301 /millers.html https://www.ux-guidelines.com/millers-law.html
+Redirect 301 /navigation.html https://www.ux-guidelines.com/navigation-patterns.html
+Redirect 301 /nielsen.html https://www.ux-guidelines.com/nielsens-heuristics.html
+Redirect 301 /nielsens.html https://www.ux-guidelines.com/nielsens-heuristics.html
+Redirect 301 /norman.html https://www.ux-guidelines.com/normans-principles.html
+Redirect 301 /normans.html https://www.ux-guidelines.com/normans-principles.html
+Redirect 301 /pareto.html https://www.ux-guidelines.com/pareto-principle.html
+Redirect 301 /peak-end.html https://www.ux-guidelines.com/peak-end-rule.html
+Redirect 301 /postels.html https://www.ux-guidelines.com/postels-law.html
+Redirect 301 /rams.html https://www.ux-guidelines.com/rams-principles.html
+Redirect 301 /serial-position.html https://www.ux-guidelines.com/serial-position-effect.html
+Redirect 301 /shneiderman.html https://www.ux-guidelines.com/shneiderman-eight-golden-rules.html
+Redirect 301 /steering.html https://www.ux-guidelines.com/steering-law.html
+Redirect 301 /teslers.html https://www.ux-guidelines.com/teslers-law.html
+Redirect 301 /tognazzini.html https://www.ux-guidelines.com/tognazzinis-first-principles.html
+Redirect 301 /tognazzinis-first.html https://www.ux-guidelines.com/tognazzinis-first-principles.html
+Redirect 301 /uncanny.html https://www.ux-guidelines.com/uncanny-valley.html
+Redirect 301 /von-restorff.html https://www.ux-guidelines.com/von-restorff-effect.html
+Redirect 301 /wcag.html https://www.ux-guidelines.com/wcag-pour.html
+Redirect 301 /weber-fechner.html https://www.ux-guidelines.com/weber-fechner-law.html
+Redirect 301 /yerkes-dodson.html https://www.ux-guidelines.com/yerkes-dodson-law.html
+Redirect 301 /zeigarnik.html https://www.ux-guidelines.com/zeigarnik-effect.html

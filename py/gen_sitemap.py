@@ -22,9 +22,10 @@ def main():
                    if os.path.basename(p) not in SKIP)
     pages.remove('index.html')
     pages.insert(0, 'index.html')
-    today = datetime.date.today().isoformat()
+
 
     out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
            '        xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for p in pages:
@@ -33,10 +34,12 @@ def main():
                    f'href="{BASE}{prefix}{page}"/>' for c, prefix in CODES]
         cluster.append(f'    <xhtml:link rel="alternate" hreflang="x-default" '
                        f'href="{BASE}{page}"/>')
+        mtime = datetime.date.fromtimestamp(
+            os.path.getmtime(os.path.join(SITE, p))).isoformat()
         for c, prefix in CODES:
             out.append('  <url>')
             out.append(f'    <loc>{BASE}{prefix}{page}</loc>')
-            out.append(f'    <lastmod>{today}</lastmod>')
+            out.append(f'    <lastmod>{mtime}</lastmod>')
             out.extend(cluster)
             out.append('  </url>')
     out.append('</urlset>')
@@ -44,7 +47,7 @@ def main():
     with open(f'{SITE}/sitemap.xml', 'w') as f:
         f.write('\n'.join(out) + '\n')
     print(f'sitemap.xml: {len(pages)} pages, {len(pages) * len(CODES)} urls, '
-          f'lastmod {today}')
+          'per-file lastmod')
 
 
 if __name__ == '__main__':

@@ -276,7 +276,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=26';
+  s.src = 'i18n.js?v=27';
   document.head.appendChild(s);
 })();
 
@@ -538,6 +538,11 @@
     else if (e.key === 'Escape') { close(); input.focus(); }
   });
   document.addEventListener('click', e => { if (!wrap.contains(e.target)) close(); });
+  // ?q= deep link (schema.org SearchAction target)
+  try {
+    const qp = new URLSearchParams(location.search).get('q');
+    if (qp) { input.value = qp; input.dispatchEvent(new Event('input')); input.focus(); }
+  } catch (e) {}
 })();
 
 // Accessibility: skip link, decorative art, icon svgs, aria-current

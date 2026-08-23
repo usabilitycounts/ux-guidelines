@@ -151,11 +151,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une bibliothèque grandissante de 44 références UX fondées sur la recherche.<br>Conçue pour les designers, chercheurs et ingénieurs qui veulent bien faire les choses.",
-      de: "Eine wachsende Bibliothek von 44 forschungsbasierten UX-Referenzen.<br>Für Designer, Forschende und Entwickler, denen Qualität wichtig ist.",
-      es: "Una biblioteca creciente de 44 referencias de UX basadas en la investigación.<br>Hecha para diseñadores, investigadores e ingenieros que quieren hacerlo bien.",
-      ja: "研究に裏付けられた44件のUXリファレンスからなる、成長し続けるライブラリ。<br>良いものづくりを大切にするデザイナー、リサーチャー、エンジニアのために。",
-      zh: "一个不断成长的资料库，收录44篇以研究为依据的UX参考。<br>为在乎品质的设计师、研究者和工程师而建。" } },
+      fr: "Une bibliothèque grandissante de 44 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
+      de: "Eine wachsende Bibliothek von 44 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
+      es: "Una biblioteca creciente de 44 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
+      ja: "研究に裏付けられた44件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
+      zh: "一个不断成长的资料库，收录44篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -422,7 +422,7 @@
   };
   const loadOverlay = () => {
     const page = (location.pathname.split('/').pop() || 'index.html').replace('.html', '') || 'index';
-    fetch('i18n/' + lang + '/' + page + '.json?v=12')
+    fetch('i18n/' + lang + '/' + page + '.json?v=13')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});

@@ -33,7 +33,7 @@ h1, h2, .card h3 { letter-spacing: -1px; }
   font-size: var(--fs-body); font-weight: 600; color: var(--text-primary);
   display: flex; align-items: center; gap: 10px;
 }
-.brand-row { display: flex; align-items: center; gap: 14px; }
+.brand-row { display: flex; align-items: center; gap: 6px; }
 
 /* ---------- Hamburger menu ---------- */
 .hamburger {
@@ -808,13 +808,11 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
   .bm-panel { right: 8px; left: 8px; width: auto; }
 }
 
-/* Left-edge gradient strip, mirroring the scrollbar gutter on the right */
-body::after { content: ''; position: fixed; top: 0; bottom: 0; left: 0; width: 44px; background: linear-gradient(90deg, var(--surface-2), var(--bg)); background: linear-gradient(90deg, var(--surface-2) 0%, color-mix(in srgb, var(--surface-2) 45%, var(--bg)) 45%, var(--bg) 100%); mix-blend-mode: multiply; pointer-events: none; z-index: 300; }
 
 /* Lighter scrollbar to match */
-html { scrollbar-color: var(--scrollbar-thumb) var(--surface-2); }
+html { scrollbar-color: var(--scrollbar-thumb) var(--bg); }
 ::-webkit-scrollbar { width: 14px; }
-::-webkit-scrollbar-track { background: var(--surface-2); background: linear-gradient(270deg, color-mix(in srgb, var(--surface-2) 90%, transparent) 0%, color-mix(in srgb, var(--surface-2) 45%, transparent) 70%, color-mix(in srgb, var(--surface-2) 20%, transparent) 100%); }
+::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 7px; border: 3px solid var(--bg); }
 ::-webkit-scrollbar-thumb:hover { background: #111111; }
 
@@ -939,7 +937,6 @@ html.has-scroller .topnav { flex: 0 0 auto; }
   .page-scroll { overflow: visible; height: auto; }
   .topnav, .menu-panel, .menu-overlay, .settings-sheet, .bm-panel, .share-menu,
   .title-actions, .skip-link, .lang-tabs, .search-results, footer { display: none !important; }
-  body::after { display: none; }
   .card, .demo, .law-feature, .ref-group { break-inside: avoid; }
   header { background: none; padding-top: 20px; }
 }

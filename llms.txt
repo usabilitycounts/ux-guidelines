@@ -1,0 +1,77 @@
+# UX Guidelines
+
+> A library of research-backed UX references — laws, heuristics, and design
+> patterns — each explained with its origin, practice guidance, and what
+> changes in the age of AI. Available in English, Spanish, German, French,
+> Chinese, and Japanese (language-prefixed URLs, e.g. /fr/).
+
+## Lay Out The Page
+
+- [Eye Scanning Patterns: F-Pattern, Z-Pattern, Layer-Cake, and Spotted](https://www.ux-guidelines.com/eye-scanning-patterns.html): Decades of eye-tracking research show people don&#x27;t read interfaces — they scan them in predictable shapes. Here are the six patterns and where each one shows up.
+- [Gutenberg Principle: Reading Gravity and Page Layout](https://www.ux-guidelines.com/gutenberg-principle.html): On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters.
+- [Grid and Hierarchy: The Invisible Scaffolding of Interface Design](https://www.ux-guidelines.com/grid-and-hierarchy.html): Grids organize space and hierarchy directs attention. Together they form the silent layer beneath every well-resolved interface — the part users never notice when it&#x27;s right.
+- [Gestalt Principles: How Perception Groups an Interface](https://www.ux-guidelines.com/gestalt-principles.html): The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.
+- [Von Restorff Effect: The Isolation Effect in Interface Design](https://www.ux-guidelines.com/von-restorff-effect.html): Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t.
+- [Weber-Fechner Law: Perception Scales with Ratios, Not Amounts](https://www.ux-guidelines.com/weber-fechner-law.html): Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn&#x27;t a fixed amount — it&#x27;s a fixed proportion of what&#x27;s already there. The law shows up in volume, brightness, price, weight, ani
+
+## Present And Explain
+
+- [Data Visualization: Sixteen Chart Types and When to Use Them](https://www.ux-guidelines.com/data-visualization.html): Sixteen chart types grouped by the question they answer — comparison, relationship, distribution, and composition. Pick the chart that fits the question, not the one that looks impressive.
+- [Universal Icons: The Glyphs Every User Already Knows](https://www.ux-guidelines.com/universal-icons.html): A small set of glyphs has become a near-universal language. Use them as they&#x27;re understood, pair them with labels, and keep one consistent set.
+- [Progressive Disclosure: Show Less First, Reveal on Demand](https://www.ux-guidelines.com/progressive-disclosure.html): Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity.
+- [Cognitive Load Theory: Intrinsic, Extraneous, and Germane Load](https://www.ux-guidelines.com/cognitive-load-theory.html): John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one.
+- [Miller’s Law: The Magical Number Seven and Chunking](https://www.ux-guidelines.com/millers-law.html): George Miller&#x27;s 1956 paper put a number on working memory — about seven chunks. The number itself is fuzzy; the lesson is that memory is small, and the design&#x27;s job is to group information so users can hold it without strain.
+- [Serial Position Effect: Primacy, Recency, and List Design](https://www.ux-guidelines.com/serial-position-effect.html): Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows.
+- [Curse of Knowledge: Why Experts Design Confusing Interfaces](https://www.ux-guidelines.com/curse-of-knowledge.html): Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon.
+
+## Structure The Choices
+
+- [Hick’s Law: More Choices, Longer Decision Times](https://www.ux-guidelines.com/hicks-law.html): The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.
+- [Jakob’s Law: Users Expect Your Site to Work Like the Rest](https://www.ux-guidelines.com/jakobs-law.html): People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.
+- [Paradox of Choice: Choice Overload and Decision Paralysis](https://www.ux-guidelines.com/paradox-of-choice.html): More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.
+
+## Design Actions And Controls
+
+- [Fitts’s Law: Target Size, Distance, and Time to Click](https://www.ux-guidelines.com/fitts-law.html): The time to hit a target depends on its size and distance. Fitts&#x27;s Law governs every button, link, and tap target — and explains why edges and corners feel so fast.
+- [Steering Law: Moving Through Tunnels, Menus, and Sliders](https://www.ux-guidelines.com/steering-law.html): Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.
+- [Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent](https://www.ux-guidelines.com/contour-bias.html): Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.
+- [Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search](https://www.ux-guidelines.com/navigation-patterns.html): Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.
+- [Doherty Threshold: Response Time Under 400 Milliseconds](https://www.ux-guidelines.com/doherty-threshold.html): Walter Doherty and Ahrvind Thadani&#x27;s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by.
+- [Power Law of Practice: How the Learning Curve Shapes UX](https://www.ux-guidelines.com/power-law-of-practice.html): Snoddy (1926) observed and Newell and Rosenbloom (1981) formalized: as people repeat a task, the time it takes follows a power-law curve. Sharp early gains, gentler later ones, and a long tail where additional practice still pays — just less.
+- [Yerkes-Dodson Law: Stress, Arousal, and Task Performance](https://www.ux-guidelines.com/yerkes-dodson-law.html): Robert Yerkes and John Dodson&#x27;s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones.
+
+## Keep Them Coming Back
+
+- [Aesthetic-Usability Effect: Beautiful Feels Easier to Use](https://www.ux-guidelines.com/aesthetic-usability-effect.html): Masaaki Kurosu and Kaori Kashimura’s 1995 ATM study: interfaces people find beautiful are rated easier to use — regardless of whether they are. Polish buys patience and trust, and can hide real problems.
+- [Peak-End Rule: People Remember the Peak and the Ending](https://www.ux-guidelines.com/peak-end-rule.html): Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first.
+- [Uncanny Valley: Why Almost-Human Design Unsettles](https://www.ux-guidelines.com/uncanny-valley.html): Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces.
+- [Zeigarnik Effect: Why Unfinished Tasks Stick in the Mind](https://www.ux-guidelines.com/zeigarnik-effect.html): Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every &quot;complete your profile&quot; nudge.
+- [Fogg Behavior Model: Motivation, Ability, and Prompts](https://www.ux-guidelines.com/fogg-behavior-model.html): BJ Fogg&#x27;s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn&#x27;t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method.
+- [Hook Model: Trigger, Action, Variable Reward, Investment](https://www.ux-guidelines.com/hook-model.html): Nir Eyal&#x27;s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The follow-up book draws the line between hooks the user is glad you built and hooks they regret.
+- [IKEA Effect: When Labor Leads to Love](https://www.ux-guidelines.com/ikea-effect.html): Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners.
+
+## Build The System
+
+- [Tesler’s Law: The Conservation of Complexity](https://www.ux-guidelines.com/teslers-law.html): Every system carries an irreducible amount of complexity. The only question is who absorbs it — the system or the user. Good design quietly takes on as much as it can.
+- [Gall’s Law: Working Complex Systems Grow from Simple Ones](https://www.ux-guidelines.com/galls-law.html): John Gall&#x27;s 1975 observation, from Systemantics: you can&#x27;t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes.
+- [Conway’s Law: Why Products Mirror Org Charts](https://www.ux-guidelines.com/conways-law.html): Melvin Conway&#x27;s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too.
+- [Postel’s Law: The Robustness Principle in Interface Design](https://www.ux-guidelines.com/postels-law.html): Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.
+- [Goodhart’s Law: When Metrics Become Targets and Stop Working](https://www.ux-guidelines.com/goodharts-law.html): Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.
+- [Hofstadter’s Law: Why Software Always Takes Longer](https://www.ux-guidelines.com/hofstadters-law.html): From Douglas Hofstadter&#x27;s 1979 book Gödel, Escher, Bach. The self-referential joke that is also a working rule for software estimation: every project takes longer than your honest estimate, and padding the estimate doesn&#x27;t fix it. The law has become foundational for how teams ship — and fo
+- [Pareto Principle: The 80/20 Rule in Product and UX Design](https://www.ux-guidelines.com/pareto-principle.html): Vilfredo Pareto noticed in 1906 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.
+
+## Follow The Rulebooks
+
+- [Nielsen’s 10 Heuristics: The Usability Checklist, Explained](https://www.ux-guidelines.com/nielsens-heuristics.html): Jakob Nielsen&#x27;s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example.
+- [Norman’s Principles: Affordances, Signifiers, and Feedback](https://www.ux-guidelines.com/normans-principles.html): Don Norman&#x27;s &quot;The Design of Everyday Things&quot; (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual.
+- [Dieter Rams’ 10 Principles: Less, But Better](https://www.ux-guidelines.com/rams-principles.html): Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good.
+- [Shneiderman’s Eight Golden Rules of Interface Design](https://www.ux-guidelines.com/shneiderman-eight-golden-rules.html): Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load.
+- [Tognazzini’s First Principles: Working Rules of Interaction Design](https://www.ux-guidelines.com/tognazzinis-first-principles.html): Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.
+- [WCAG and POUR: Web Accessibility Principles, Explained](https://www.ux-guidelines.com/wcag-pour.html): Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.
+- [Chesterton’s Fence: Understand It Before You Remove It](https://www.ux-guidelines.com/chestertons-fence.html): G. K. Chesterton’s rule for reformers: the fence you find pointless was built by someone with a reason. Understand the reason first — then you’ve earned the right to remove it.
+
+## Reference
+
+- [Glossary of UX terms](https://www.ux-guidelines.com/glossary.html)
+- [The researchers behind the laws](https://www.ux-guidelines.com/people.html)
+- [About the site](https://www.ux-guidelines.com/about.html)
