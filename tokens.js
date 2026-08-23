@@ -258,7 +258,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=22';
+  s.src = 'i18n.js?v=24';
   document.head.appendChild(s);
 })();
 

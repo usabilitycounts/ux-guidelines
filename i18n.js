@@ -151,11 +151,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une collection grandissante de 44 références pratiques et fondées sur la recherche sur le comportement réel des interfaces — et la façon dont les gens les utilisent vraiment. Conçue pour les designers, chercheurs et ingénieurs qui veulent bien faire les choses.",
-      de: "Eine wachsende Sammlung von 44 praktischen, evidenzbasierten Referenzen darüber, wie sich Interfaces tatsächlich verhalten — und wie Menschen sie wirklich nutzen. Für Designer, Forschende und Entwickler, denen Qualität wichtig ist.",
-      es: "Una colección creciente de 44 referencias prácticas y basadas en evidencia sobre cómo se comportan realmente las interfaces — y cómo las usa la gente. Hecha para diseñadores, investigadores e ingenieros que quieren hacerlo bien.",
-      ja: "インターフェースが実際にどう機能し、人々がどう使うかについての、実践的で研究に裏付けられた44件のリファレンス集。良いものづくりを大切にするデザイナー、リサーチャー、エンジニアのために。",
-      zh: "一个不断增长的参考库，收录44篇基于研究的实用参考，揭示界面的真实行为方式——以及人们实际的使用方式。为在乎品质的设计师、研究者和工程师而建。" } },
+      fr: "Une collection grandissante de 44 références pratiques et fondées sur la recherche sur le comportement réel des interfaces — et la façon dont les gens les utilisent vraiment.<br>Conçue pour les designers, chercheurs et ingénieurs qui veulent bien faire les choses.",
+      de: "Eine wachsende Sammlung von 44 praktischen, evidenzbasierten Referenzen darüber, wie sich Interfaces tatsächlich verhalten — und wie Menschen sie wirklich nutzen.<br>Für Designer, Forschende und Entwickler, denen Qualität wichtig ist.",
+      es: "Una colección creciente de 44 referencias prácticas y basadas en evidencia sobre cómo se comportan realmente las interfaces — y cómo las usa la gente.<br>Hecha para diseñadores, investigadores e ingenieros que quieren hacerlo bien.",
+      ja: "インターフェースが実際にどう機能し、人々がどう使うかについての、実践的で研究に裏付けられた44件のリファレンス集。<br>良いものづくりを大切にするデザイナー、リサーチャー、エンジニアのために。",
+      zh: "一个不断增长的参考库，收录44篇基于研究的实用参考，揭示界面的真实行为方式——以及人们实际的使用方式。<br>为在乎品质的设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -382,7 +382,7 @@
   const apply = () => {
     document.documentElement.lang = lang;
     // chrome strings
-    document.querySelectorAll('.related-label, .card .related a, .sheet-title, .sheet-label, .sheet-opt, .btn-save, .btn-cancel, .footer-head, .footer-col a, .feature-label, .menu-label, .menu-group-label, .menu-link, .cat-label, .gl-group h2, .pp-group h2, .about-section h2, .map-group h2, .meta .label, .ref-label, .eyeline, .category-label, .share-label, .bm-label, .bm-empty, .search-recent-label').forEach(el => {
+    document.querySelectorAll('.related-label, .card .related a, .sheet-title, .sheet-label, .sheet-opt, .btn-save, .btn-cancel, .footer-head, .footer-col a, .feature-label, .menu-label, .menu-group-label, .menu-link, .cat-label, .gl-group h2, .pp-group h2, .about-section h2, .map-group h2, .meta .label, .ref-label, .eyeline, .category-label, .theme-tab, .share-label, .bm-label, .bm-empty, .search-recent-label').forEach(el => {
       const tr = t(el.textContent) || title(el.textContent);
       if (tr) el.textContent = tr;
     });
@@ -422,7 +422,7 @@
   };
   const loadOverlay = () => {
     const page = (location.pathname.split('/').pop() || 'index.html').replace('.html', '') || 'index';
-    fetch('i18n/' + lang + '/' + page + '.json?v=10')
+    fetch('i18n/' + lang + '/' + page + '.json?v=11')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});
