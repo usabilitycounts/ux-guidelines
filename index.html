@@ -97,6 +97,10 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 .lang-tab { border: 0; background: transparent; font-family: var(--font-sans); font-size: 0.8125rem; color: var(--text-secondary); padding: 5px 14px; border-radius: 5px; cursor: pointer; line-height: 1.4; }
 .lang-tab:hover { color: var(--text-primary); }
 .lang-tab.active { background: var(--bg); color: var(--text-primary); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); }
+.lang-tabs { position: relative; }
+.tab-indicator { position: absolute; top: 3px; bottom: 3px; left: 0; width: 0; border-radius: 5px; background: var(--bg); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); transition: left 0.18s ease, width 0.18s ease; opacity: 0; }
+.lang-tabs .lang-tab { position: relative; z-index: 1; }
+.lang-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; }
 .lang-tab .lang-abbr { display: none; }
 @media (max-width: 600px) {
   .lang-tab { padding: 8px 12px; }
@@ -222,6 +226,34 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </header>
 <script>
 (function () {
+  document.querySelectorAll('.lang-tabs').forEach(function (group) {
+    var ind = document.createElement('span');
+    ind.className = 'tab-indicator';
+    ind.setAttribute('aria-hidden', 'true');
+    group.prepend(ind);
+    group.classList.add('has-ind');
+    function place(animate) {
+      var a = group.querySelector('.lang-tab.active');
+      if (!a) { ind.style.opacity = '0'; return; }
+      if (!animate) ind.style.transition = 'none';
+      ind.style.opacity = '1';
+      ind.style.left = a.offsetLeft + 'px';
+      ind.style.width = a.offsetWidth + 'px';
+      if (!animate) { void ind.offsetWidth; ind.style.transition = ''; }
+    }
+    place(false);
+    group.addEventListener('click', function (e) {
+      var b = e.target.closest('.lang-tab');
+      if (!b) return;
+      group.querySelectorAll('.lang-tab').forEach(function (x) { x.classList.remove('active'); });
+      b.classList.add('active');
+      place(true);
+    });
+    window.addEventListener('resize', function () { place(false); });
+    setTimeout(function () { place(false); }, 1400);
+  });
+})();
+(function () {
   var cur = 'light';
   try { cur = localStorage.getItem('ux-theme') || 'light'; } catch (e) {}
   document.querySelectorAll('.theme-tab').forEach(function (b) {
@@ -259,8 +291,11 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     b.addEventListener('click', function () {
       if (b.dataset.lang === cur) return;
       try { localStorage.setItem('ux-lang', b.dataset.lang); } catch (e) {}
-      if (window.uxLangUrl) location.href = window.uxLangUrl(b.dataset.lang);
-      else location.reload();
+      var go = function () {
+        if (window.uxLangUrl) location.href = window.uxLangUrl(b.dataset.lang);
+        else location.reload();
+      };
+      setTimeout(go, 190);
     });
   });
 })();

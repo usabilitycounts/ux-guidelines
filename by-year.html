@@ -48,8 +48,8 @@
   .yr-group h3 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; margin: 0; color: var(--text-secondary); }
   .yr-sum { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 2px 0 6px; }
   .yr-sum::-webkit-details-marker { display: none; }
-  .yr-sum::after { content: ''; width: 7px; height: 7px; border-right: 2px solid var(--text-faint); border-bottom: 2px solid var(--text-faint); transform: rotate(-45deg); transition: transform 0.15s ease; }
-  .yr-group[open] .yr-sum::after { transform: rotate(45deg); }
+  .yr-sum::before { content: ''; width: 7px; height: 7px; border-right: 2px solid var(--text-faint); border-bottom: 2px solid var(--text-faint); transform: rotate(-45deg); transition: transform 0.15s ease; flex: 0 0 auto; }
+  .yr-group[open] .yr-sum::before { transform: rotate(45deg); }
   .yr-sum:hover h3 { color: var(--text-primary); }
   @media (max-width: 980px) { .yr-centuries { grid-template-columns: 1fr; } }
   .yr-list { list-style: none; margin: 0; padding: 0; }
