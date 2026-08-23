@@ -573,7 +573,7 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 }
 
 /* ---------- Settings (language) menu ---------- */
-.settings-wrap { position: relative; flex: none; margin-left: 18px; display: flex; align-items: center; }
+.settings-wrap { position: relative; flex: none; margin-left: 4px; display: flex; align-items: center; }
 .settings-btn { background: none; border: 0; padding: 0; width: 40px; height: 40px; cursor: pointer; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; border-radius: 10px; }
 .settings-btn:hover { color: var(--text-primary); }
 .settings-btn svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
@@ -678,6 +678,9 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
 
 /* ---------- Topnav search ---------- */
 .search-wrap { position: relative; margin: 0 auto; flex: 0 0 440px; min-width: 0; }
+@media (min-width: 981px) {
+  .search-wrap { position: absolute; left: 50%; transform: translateX(-50%); width: 440px; margin: 0; }
+}
 @media (max-width: 980px) { .search-wrap { flex: 0 1 440px; } }
 .search-input { width: 100%; height: 44px; border-radius: 10px; background: var(--surface); border: none; padding: 0 40px 0 42px; font-family: inherit; font-size: var(--fs-body); color: var(--text-primary); outline: none; -webkit-appearance: none; appearance: none; }
 .search-input::placeholder { color: var(--text-faint); }
@@ -790,7 +793,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .share-item { display: flex; align-items: center; gap: 11px; width: 100%; padding: 9px 12px; border-radius: 8px; font-family: var(--font-sans); font-size: var(--fs-ui); color: var(--text-primary); text-decoration: none; background: transparent; border: 0; cursor: pointer; text-align: left; }
 .share-item:hover { background: var(--surface); }
 .share-item svg { flex: 0 0 auto; color: var(--text-secondary); }
-.bm-wrap { position: relative; }
+.bm-wrap { position: relative; margin-left: auto; }
 .bm-panel { position: fixed; right: 16px; width: 300px; max-height: 60vh; overflow-y: auto; background: var(--topnav-bg); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow-pop); padding: 10px; display: none; z-index: 350; }
 .bm-panel.open { display: block; }
 .bm-label { font-size: var(--fs-ui); font-weight: 600; color: var(--text-primary); padding: 6px 12px 8px; }

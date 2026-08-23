@@ -31,7 +31,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
-<link rel="stylesheet" href="tokens.css?v=66">
+<link rel="stylesheet" href="tokens.css?v=69">
 <style>
   :root {
     --bg: #ffffff;
@@ -44,7 +44,7 @@
   }
 
   /* ---------- Directory layout ---------- */
-  .home-layout { display: grid; grid-template-columns: 300px 1fr; gap: 64px; max-width: 1440px; margin: 0 auto; padding: 44px 32px 72px; }
+  .home-layout { display: grid; grid-template-columns: 300px 1fr; gap: 64px; max-width: 1440px; margin: 0 auto; padding: 0 32px 72px; }
   .home-side { align-self: start; }
   .home-side .section-head { margin-bottom: 0; }
   .home-side .card { display: block; position: relative; padding: 18px 20px; margin-bottom: 14px; text-decoration: none; color: inherit; background: var(--bg); border: 1px solid var(--border); grid-template-rows: unset; grid-row: unset; transition: box-shadow 0.15s ease, transform 0.15s ease; }
@@ -81,11 +81,12 @@
 @media (hover: none) {
   .home-side .card:hover { box-shadow: none; transform: none; }
 }
-header { text-align: center; padding-top: 48px; }
-header h1 { font-size: clamp(2.5rem, 5vw, 3.4375rem); letter-spacing: -1.5px; line-height: 1.1; margin: 0 0 12px; }
+header { text-align: center; padding-top: 36px; }
+.hero-title { display: flex; align-items: center; justify-content: center; gap: 14px; margin: 0 0 12px; }
+header h1 { font-size: clamp(2.5rem, 5vw, 3.4375rem); letter-spacing: -1.5px; line-height: 1.1; margin: 0; }
 header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-height: 1.6; color: var(--text-secondary); }
 .theme-tabs { margin: 12px 0 0; }
-.landing-logo { display: block; margin: 0 auto; color: var(--icon); }
+.landing-logo { width: clamp(2.5rem, 5vw, 3.4375rem); height: clamp(2.5rem, 5vw, 3.4375rem); color: var(--icon); flex: 0 0 auto; }
 .lang-tabs { display: inline-flex; margin-bottom: 12px; background: var(--surface-2); border-radius: 8px; padding: 3px; gap: 2px; flex-wrap: wrap; justify-content: center; }
 .lang-tab { border: 0; background: transparent; font-family: var(--font-sans); font-size: 0.8125rem; color: var(--text-secondary); padding: 5px 14px; border-radius: 5px; cursor: pointer; line-height: 1.4; }
 .lang-tab:hover { color: var(--text-primary); }
@@ -97,7 +98,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=54"></script>
+<script defer src="tokens.js?v=55"></script>
 </head>
 <body>
 
@@ -199,8 +200,10 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     <button type="button" class="lang-tab" data-lang="zh" lang="zh"><span class="lang-full">中文</span><span class="lang-abbr" aria-hidden="true">中文</span></button>
     <button type="button" class="lang-tab" data-lang="ja" lang="ja"><span class="lang-full">日本語</span><span class="lang-abbr" aria-hidden="true">日本語</span></button>
   </div>
-  <svg aria-hidden="true" class="landing-logo" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V7"/><path d="m16 12 2 2 4-4"/><path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-2"/></svg>
-  <h1>UX <em>Guidelines</em></h1>
+  <div class="hero-title">
+    <svg aria-hidden="true" class="landing-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V7"/><path d="m16 12 2 2 4-4"/><path d="M22 6V4a1 1 0 0 0-1-1h-5a4 4 0 0 0-4 4 4 4 0 0 0-4-4H3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h6a3 3 0 0 1 3 3 3 3 0 0 1 3-3h6a1 1 0 0 0 1-1v-2"/></svg>
+    <h1>UX <em>Guidelines</em></h1>
+  </div>
   <p class="subtitle">A growing library of 44 research-backed UX references.<br>Built for designers, researchers, and engineers who care about getting it right.</p>
   <div class="lang-tabs theme-tabs" aria-label="Theme">
     <button type="button" class="lang-tab theme-tab" data-theme="light">Light</button>
@@ -241,7 +244,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     var m = location.search.match(/[?&]lang=([a-z]{2})\b/);
     cur = pm ? pm[1] : ((m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en'));
   } catch (e) {}
-  document.querySelectorAll('.lang-tab').forEach(function (b) {
+  document.querySelectorAll('.lang-tab:not(.theme-tab)').forEach(function (b) {
     var active = b.dataset.lang === cur;
     if (active) b.classList.add('active');
     b.setAttribute('aria-pressed', active ? 'true' : 'false');

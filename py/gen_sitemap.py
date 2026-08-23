@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+"""Regenerate sitemap.xml.
+
+One <url> entry per language variant of every public page (49 pages x 6
+languages), each carrying the page's full reciprocal hreflang cluster.
+Language URLs use the /fr|de|es|ja|zh/ path prefixes served by .htaccess;
+English and x-default are the bare URLs. Chinese is declared zh-Hans.
+"""
+import datetime
+import glob
+import os
+
+SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE = 'https://www.ux-guidelines.com/'
+CODES = [('en', ''), ('es', 'es/'), ('de', 'de/'), ('fr', 'fr/'),
+         ('zh-Hans', 'zh/'), ('ja', 'ja/')]
+SKIP = {'design-system.html'}
+
+
+def main():
+    pages = sorted(os.path.basename(p) for p in glob.glob(f'{SITE}/*.html')
+                   if os.path.basename(p) not in SKIP)
+    pages.remove('index.html')
+    pages.insert(0, 'index.html')
+    today = datetime.date.today().isoformat()
+
+    out = ['<?xml version="1.0" encoding="UTF-8"?>',
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+           '        xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    for p in pages:
+        page = '' if p == 'index.html' else p
+        cluster = [f'    <xhtml:link rel="alternate" hreflang="{c}" '
+                   f'href="{BASE}{prefix}{page}"/>' for c, prefix in CODES]
+        cluster.append(f'    <xhtml:link rel="alternate" hreflang="x-default" '
+                       f'href="{BASE}{page}"/>')
+        for c, prefix in CODES:
+            out.append('  <url>')
+            out.append(f'    <loc>{BASE}{prefix}{page}</loc>')
+            out.append(f'    <lastmod>{today}</lastmod>')
+            out.extend(cluster)
+            out.append('  </url>')
+    out.append('</urlset>')
+
+    with open(f'{SITE}/sitemap.xml', 'w') as f:
+        f.write('\n'.join(out) + '\n')
+    print(f'sitemap.xml: {len(pages)} pages, {len(pages) * len(CODES)} urls, '
+          f'lastmod {today}')
+
+
+if __name__ == '__main__':
+    main()

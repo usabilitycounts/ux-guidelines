@@ -257,6 +257,8 @@
     const qm = location.search.match(/[?&]lang=([a-z]{2})\b/);
     const code = pm ? pm[1] : (qm && ['en', 'es', 'de', 'fr', 'zh', 'ja'].includes(qm[1]) ? qm[1] : null);
     if (code) localStorage.setItem('ux-lang', code);
+    // repair any corrupted stored language (e.g. the literal string "undefined")
+    if (!['en', 'es', 'de', 'fr', 'zh', 'ja'].includes(localStorage.getItem('ux-lang') || 'en')) localStorage.setItem('ux-lang', 'en');
     if (pm) {
       const page = location.pathname.replace(/^\/(fr|de|es|ja|zh)\/?/, '');
       const self = 'https://www.ux-guidelines.com/' + pm[1] + '/' + page;
