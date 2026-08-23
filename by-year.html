@@ -37,21 +37,30 @@
 <meta name="twitter:description" content="Every law and reference on UX Guidelines in chronological order — from Weber in 1834 to the Hook Model in 2014, with the year each was established and the people behind it.">
 <link rel="stylesheet" href="tokens.css?v=72">
 <style>
-  .yr-wrap { max-width: 1440px; margin: 0 auto; padding: 8px 32px 72px; }
-  .yr-centuries { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px 56px; align-items: start; }
+  .yr-wrap { max-width: 1440px; margin: 0; padding: 8px 32px 72px; }
+  .yr-centuries { display: grid; grid-template-columns: repeat(3, minmax(220px, 360px)); justify-content: start; gap: 12px 64px; align-items: start; }
+  details.yr-group:not([open]) > .yr-list { display: none; }
+  .yr-controls { display: flex; gap: 6px; padding: 4px 0 10px; }
+  .yr-ctl { border: 0; background: var(--surface); color: var(--text-secondary); font-family: var(--font-sans); font-size: var(--fs-tag); padding: 6px 14px; border-radius: 12px; cursor: pointer; }
+  .yr-ctl:hover { color: var(--text-primary); background: var(--surface-2); }
   .yr-century h2 { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; letter-spacing: -1px; margin: 0 0 6px; }
   .yr-group { padding: 12px 0 6px; }
-  .yr-group h3 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; margin: 0 0 6px; color: var(--text-secondary); }
+  .yr-group h3 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; margin: 0; color: var(--text-secondary); }
+  .yr-sum { list-style: none; cursor: pointer; display: flex; align-items: center; gap: 10px; padding: 2px 0 6px; }
+  .yr-sum::-webkit-details-marker { display: none; }
+  .yr-sum::after { content: ''; width: 7px; height: 7px; border-right: 2px solid var(--text-faint); border-bottom: 2px solid var(--text-faint); transform: rotate(-45deg); transition: transform 0.15s ease; }
+  .yr-group[open] .yr-sum::after { transform: rotate(45deg); }
+  .yr-sum:hover h3 { color: var(--text-primary); }
   @media (max-width: 980px) { .yr-centuries { grid-template-columns: 1fr; } }
   .yr-list { list-style: none; margin: 0; padding: 0; }
   .yr-item { display: flex; align-items: baseline; gap: 16px; padding: 7px 0; }
-  .yr { flex: 0 0 52px; font-family: var(--font-mono); font-size: var(--fs-ui); color: var(--text-faint); }
+  .yr { flex: 0 0 52px; font-size: var(--fs-ui); color: var(--text-faint); }
   .yr-item a { font-size: var(--fs-body); color: var(--text-primary); text-decoration: none; }
   .yr-item a:hover { text-decoration: underline; }
-  .yr-by { font-size: var(--fs-ui); color: var(--text-secondary); }
-  @media (max-width: 600px) { .yr-wrap { padding: 8px 20px 48px; } .yr-by { display: none; } }
+  .yr-by { display: none; }
+  @media (max-width: 600px) { .yr-wrap { padding: 8px 20px 48px; } }
 </style>
-<script defer src="tokens.js?v=62"></script>
+<script defer src="tokens.js?v=63"></script>
 </head>
 <body>
 
@@ -153,133 +162,145 @@
 </header>
 
 <main class="yr-wrap">
+  <div class="yr-controls">
+    <button type="button" class="yr-ctl" data-act="expand">Expand all</button>
+    <button type="button" class="yr-ctl" data-act="collapse">Collapse all</button>
+  </div>
   <div class="yr-centuries">
     <section class="yr-century">
       <h2>1800s</h2>
-  <section class="yr-group">
-    <h3>1830s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1834</span><a href="weber-fechner-law.html">Weber-Fechner Law</a><span class="yr-by">Ernst Weber and Gustav Fechner</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1880s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1885</span><a href="serial-position-effect.html">Serial Position Effect</a><span class="yr-by">Hermann Ebbinghaus</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1890s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1896</span><a href="pareto-principle.html">Pareto Principle</a><span class="yr-by">Vilfredo Pareto</span></li>
-    </ul>
-  </section>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1830s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1834</span><a href="weber-fechner-law.html">Weber-Fechner Law</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1880s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1885</span><a href="serial-position-effect.html">Serial Position Effect</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1890s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1896</span><a href="pareto-principle.html">Pareto Principle</a></li>
+        </ul>
+      </details>
     </section>
     <section class="yr-century">
       <h2>1900s</h2>
-  <section class="yr-group">
-    <h3>1900s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1908</span><a href="yerkes-dodson-law.html">Yerkes-Dodson Law</a><span class="yr-by">Robert Yerkes and John Dodson</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1910s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1912</span><a href="gestalt-principles.html">Gestalt Principles</a><span class="yr-by">Wertheimer, Koffka, and Köhler</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1920s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1927</span><a href="zeigarnik-effect.html">Zeigarnik Effect</a><span class="yr-by">Bluma Zeigarnik</span></li>
-      <li class="yr-item"><span class="yr">1929</span><a href="chestertons-fence.html">Chesterton’s Fence</a><span class="yr-by">G. K. Chesterton</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1930s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1933</span><a href="von-restorff-effect.html">Von Restorff Effect</a><span class="yr-by">Hedwig von Restorff</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1950s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1952</span><a href="hicks-law.html">Hick’s Law</a><span class="yr-by">William Hick and Ray Hyman</span></li>
-      <li class="yr-item"><span class="yr">1954</span><a href="fitts-law.html">Fitts’s Law</a><span class="yr-by">Paul Fitts</span></li>
-      <li class="yr-item"><span class="yr">1956</span><a href="gutenberg-principle.html">Gutenberg Principle</a><span class="yr-by">Edmund C. Arnold</span></li>
-      <li class="yr-item"><span class="yr">1956</span><a href="millers-law.html">Miller’s Law</a><span class="yr-by">George A. Miller</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1960s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1967</span><a href="conways-law.html">Conway’s Law</a><span class="yr-by">Melvin Conway</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1970s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1970</span><a href="uncanny-valley.html">Uncanny Valley</a><span class="yr-by">Masahiro Mori</span></li>
-      <li class="yr-item"><span class="yr">1975</span><a href="galls-law.html">Gall’s Law</a><span class="yr-by">John Gall</span></li>
-      <li class="yr-item"><span class="yr">1975</span><a href="goodharts-law.html">Goodhart’s Law</a><span class="yr-by">Charles Goodhart</span></li>
-      <li class="yr-item"><span class="yr">1976</span><a href="rams-principles.html">Dieter Rams’ 10 Principles</a><span class="yr-by">Dieter Rams</span></li>
-      <li class="yr-item"><span class="yr">1979</span><a href="hofstadters-law.html">Hofstadter’s Law</a><span class="yr-by">Douglas Hofstadter</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1980s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1980</span><a href="postels-law.html">Postel’s Law</a><span class="yr-by">Jon Postel</span></li>
-      <li class="yr-item"><span class="yr">1981</span><a href="grid-and-hierarchy.html">Grid and Hierarchy</a></li>
-      <li class="yr-item"><span class="yr">1981</span><a href="power-law-of-practice.html">Power Law of Practice</a><span class="yr-by">Allen Newell and Paul Rosenbloom</span></li>
-      <li class="yr-item"><span class="yr">1981</span><a href="universal-icons.html">Universal Icons</a></li>
-      <li class="yr-item"><span class="yr">1982</span><a href="doherty-threshold.html">Doherty Threshold</a><span class="yr-by">Doherty and Thadani</span></li>
-      <li class="yr-item"><span class="yr">1983</span><a href="data-visualization.html">Data Visualization</a></li>
-      <li class="yr-item"><span class="yr">1983</span><a href="progressive-disclosure.html">Progressive Disclosure</a><span class="yr-by">Jack Carroll · Jakob Nielsen</span></li>
-      <li class="yr-item"><span class="yr">1984</span><a href="teslers-law.html">Tesler’s Law</a><span class="yr-by">Larry Tesler</span></li>
-      <li class="yr-item"><span class="yr">1986</span><a href="shneiderman-eight-golden-rules.html">Shneiderman’s Eight Golden Rules</a><span class="yr-by">Ben Shneiderman</span></li>
-      <li class="yr-item"><span class="yr">1988</span><a href="cognitive-load-theory.html">Cognitive Load Theory</a><span class="yr-by">John Sweller</span></li>
-      <li class="yr-item"><span class="yr">1988</span><a href="normans-principles.html">Norman’s Principles</a><span class="yr-by">Don Norman</span></li>
-      <li class="yr-item"><span class="yr">1989</span><a href="curse-of-knowledge.html">Curse of Knowledge</a><span class="yr-by">Camerer, Loewenstein, Weber</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>1990s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">1993</span><a href="peak-end-rule.html">Peak-End Rule</a><span class="yr-by">Kahneman and Fredrickson</span></li>
-      <li class="yr-item"><span class="yr">1994</span><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a><span class="yr-by">Jakob Nielsen and Rolf Molich</span></li>
-      <li class="yr-item"><span class="yr">1995</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a><span class="yr-by">Kurosu and Kashimura</span></li>
-      <li class="yr-item"><span class="yr">1996</span><a href="automation-bias.html">Automation Bias</a><span class="yr-by">Kathleen Mosier and Linda Skitka</span></li>
-      <li class="yr-item"><span class="yr">1997</span><a href="steering-law.html">Steering Law</a><span class="yr-by">Accot and Zhai</span></li>
-      <li class="yr-item"><span class="yr">1998</span><a href="navigation-patterns.html">Navigation Patterns</a></li>
-      <li class="yr-item"><span class="yr">1999</span><a href="wcag-pour.html">WCAG and POUR</a><span class="yr-by">W3C Web Accessibility Initiative</span></li>
-    </ul>
-  </section>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1900s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1908</span><a href="yerkes-dodson-law.html">Yerkes-Dodson Law</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1910s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1912</span><a href="gestalt-principles.html">Gestalt Principles</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1920s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1927</span><a href="zeigarnik-effect.html">Zeigarnik Effect</a></li>
+        <li class="yr-item"><span class="yr">1929</span><a href="chestertons-fence.html">Chesterton’s Fence</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1930s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1933</span><a href="von-restorff-effect.html">Von Restorff Effect</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1950s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1952</span><a href="hicks-law.html">Hick’s Law</a></li>
+        <li class="yr-item"><span class="yr">1954</span><a href="fitts-law.html">Fitts’s Law</a></li>
+        <li class="yr-item"><span class="yr">1956</span><a href="gutenberg-principle.html">Gutenberg Principle</a></li>
+        <li class="yr-item"><span class="yr">1956</span><a href="millers-law.html">Miller’s Law</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1960s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1967</span><a href="conways-law.html">Conway’s Law</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1970s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1970</span><a href="uncanny-valley.html">Uncanny Valley</a></li>
+        <li class="yr-item"><span class="yr">1975</span><a href="galls-law.html">Gall’s Law</a></li>
+        <li class="yr-item"><span class="yr">1975</span><a href="goodharts-law.html">Goodhart’s Law</a></li>
+        <li class="yr-item"><span class="yr">1976</span><a href="rams-principles.html">Dieter Rams’ 10 Principles</a></li>
+        <li class="yr-item"><span class="yr">1979</span><a href="hofstadters-law.html">Hofstadter’s Law</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1980s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1980</span><a href="postels-law.html">Postel’s Law</a></li>
+        <li class="yr-item"><span class="yr">1981</span><a href="grid-and-hierarchy.html">Grid and Hierarchy</a></li>
+        <li class="yr-item"><span class="yr">1981</span><a href="power-law-of-practice.html">Power Law of Practice</a></li>
+        <li class="yr-item"><span class="yr">1981</span><a href="universal-icons.html">Universal Icons</a></li>
+        <li class="yr-item"><span class="yr">1982</span><a href="doherty-threshold.html">Doherty Threshold</a></li>
+        <li class="yr-item"><span class="yr">1983</span><a href="data-visualization.html">Data Visualization</a></li>
+        <li class="yr-item"><span class="yr">1983</span><a href="progressive-disclosure.html">Progressive Disclosure</a></li>
+        <li class="yr-item"><span class="yr">1984</span><a href="teslers-law.html">Tesler’s Law</a></li>
+        <li class="yr-item"><span class="yr">1986</span><a href="shneiderman-eight-golden-rules.html">Shneiderman’s Eight Golden Rules</a></li>
+        <li class="yr-item"><span class="yr">1988</span><a href="cognitive-load-theory.html">Cognitive Load Theory</a></li>
+        <li class="yr-item"><span class="yr">1988</span><a href="normans-principles.html">Norman’s Principles</a></li>
+        <li class="yr-item"><span class="yr">1989</span><a href="curse-of-knowledge.html">Curse of Knowledge</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>1990s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">1993</span><a href="peak-end-rule.html">Peak-End Rule</a></li>
+        <li class="yr-item"><span class="yr">1994</span><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a></li>
+        <li class="yr-item"><span class="yr">1995</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a></li>
+        <li class="yr-item"><span class="yr">1996</span><a href="automation-bias.html">Automation Bias</a></li>
+        <li class="yr-item"><span class="yr">1997</span><a href="steering-law.html">Steering Law</a></li>
+        <li class="yr-item"><span class="yr">1998</span><a href="navigation-patterns.html">Navigation Patterns</a></li>
+        <li class="yr-item"><span class="yr">1999</span><a href="wcag-pour.html">WCAG and POUR</a></li>
+        </ul>
+      </details>
     </section>
     <section class="yr-century">
       <h2>2000s</h2>
-  <section class="yr-group">
-    <h3>2000s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">2000</span><a href="jakobs-law.html">Jakob’s Law</a><span class="yr-by">Jakob Nielsen</span></li>
-      <li class="yr-item"><span class="yr">2003</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a><span class="yr-by">Bruce Tognazzini</span></li>
-      <li class="yr-item"><span class="yr">2004</span><a href="paradox-of-choice.html">Paradox of Choice</a><span class="yr-by">Barry Schwartz</span></li>
-      <li class="yr-item"><span class="yr">2006</span><a href="contour-bias.html">Contour Bias</a><span class="yr-by">Moshe Bar and Maital Neta</span></li>
-      <li class="yr-item"><span class="yr">2006</span><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a><span class="yr-by">Jakob Nielsen’s eye-tracking team</span></li>
-      <li class="yr-item"><span class="yr">2009</span><a href="fogg-behavior-model.html">Fogg Behavior Model</a><span class="yr-by">BJ Fogg</span></li>
-    </ul>
-  </section>
-  <section class="yr-group">
-    <h3>2010s</h3>
-    <ul class="yr-list">
-      <li class="yr-item"><span class="yr">2011</span><a href="ikea-effect.html">IKEA Effect</a><span class="yr-by">Michael Norton, Daniel Mochon, and Dan Ariely</span></li>
-      <li class="yr-item"><span class="yr">2014</span><a href="hook-model.html">Hook Model</a><span class="yr-by">Nir Eyal</span></li>
-    </ul>
-  </section>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>2000s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">2000</span><a href="jakobs-law.html">Jakob’s Law</a></li>
+        <li class="yr-item"><span class="yr">2003</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></li>
+        <li class="yr-item"><span class="yr">2004</span><a href="paradox-of-choice.html">Paradox of Choice</a></li>
+        <li class="yr-item"><span class="yr">2006</span><a href="contour-bias.html">Contour Bias</a></li>
+        <li class="yr-item"><span class="yr">2006</span><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a></li>
+        <li class="yr-item"><span class="yr">2009</span><a href="fogg-behavior-model.html">Fogg Behavior Model</a></li>
+        </ul>
+      </details>
+      <details class="yr-group" open>
+        <summary class="yr-sum"><h3>2010s</h3></summary>
+        <ul class="yr-list">
+        <li class="yr-item"><span class="yr">2011</span><a href="ikea-effect.html">IKEA Effect</a></li>
+        <li class="yr-item"><span class="yr">2014</span><a href="hook-model.html">Hook Model</a></li>
+        </ul>
+      </details>
     </section>
   </div>
 </main>
+<script>
+document.querySelectorAll('.yr-ctl').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var open = b.dataset.act === 'expand';
+    document.querySelectorAll('details.yr-group').forEach(function (d) { d.open = open; });
+  });
+});
+</script>
 
 <footer>
   <div class="copyright">© UX Guidelines · By Year</div>
