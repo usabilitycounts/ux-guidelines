@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" data-page="navigation">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.">
+<title>Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/navigation-patterns.html">
+<meta property="og:title" content="Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search — UX Guidelines">
+<meta property="og:description" content="Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/navigation-patterns.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search — UX Guidelines">
+<meta name="twitter:description" content="Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --ai: #0d9488;
+  }
+
+  /* AI section banner */
+  .ai-divider { grid-column: 1 / -1; background: var(--ink); color: var(--text-inverse); padding: 22px 32px; display: flex; align-items: center; gap: 14px; }
+
+  /* Demo helpers */
+  .browser-mini { background: var(--bg); border: 1.5px solid var(--border); border-radius: 14px; overflow: hidden; }
+  .bm-bar { height: 30px; background: #ececec; border-bottom: 1.5px solid var(--border); display: flex; align-items: center; gap: 8px; padding: 0 14px; }
+  .bm-dot { width: 13px; height: 13px; border-radius: 50%; background: #9a9a9a; }
+  .bm-url { flex: 1; height: 13px; margin-left: 10px; border-radius: 6.5px; background: rgba(107, 107, 107, 0.22); }
+
+  
+  .bf-body { flex: 1 1 auto; min-height: 0; padding: 0; background: transparent; display: flex; }
+  /* browser-frame illustrations fill the whole tile (match .browser) */
+  .demo:has(.browser-frame), .demo:has(.browser-mini) { padding: 0 !important; background: none; border: none; }
+  .demo:has(.browser-frame) > .demo-label, .demo:has(.browser-frame) > .demo-tag, .demo:has(.browser-mini) > .demo-label, .demo:has(.browser-mini) > .demo-tag { display: none; }
+
+  /* Navigation pattern illustrations */
+  .nv { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; }
+  .nv .b { background: var(--skel); opacity: 0.55; border-radius: 4px; display: block; }
+  .nv .b.faint { opacity: 0.32; }
+  .nv .hot { background: var(--il-accent); opacity: 1; border-radius: 4px; }
+  .nv .hotwash { background: var(--il-accent); opacity: 0.14; border-radius: 8px; }
+  .nv-bar { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 8px; }
+  .nv-bar .logo { width: 9px; height: 9px; border-radius: 50%; background: var(--skel-strong); opacity: 0.7; }
+  .nv-bar .pill { width: 26px; height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.6; }
+  .nv-bar .pill.hot { opacity: 1; }
+  .nv-body { flex: 1; display: flex; flex-direction: column; gap: 7px; padding: 6px 0; }
+  .nv-body .b { height: 6px; }
+  .nv-body .blk { height: 26px; border-radius: 6px; margin-top: 4px; }
+  .nv-cols { display: flex; gap: 12px; flex: 1; }
+  .nv-side { flex: 0 0 30%; display: flex; flex-direction: column; gap: 8px; padding: 10px; border-radius: 8px; }
+  .nv-side .b { height: 7px; }
+  .nv-main { flex: 1; display: flex; flex-direction: column; gap: 7px; padding: 10px 0; }
+  .nv-main .b { height: 6px; }
+  .nv-crumbs { display: flex; align-items: center; gap: 7px; padding: 4px 0; }
+  .nv-crumbs .c { height: 8px; width: 34px; border-radius: 4px; background: var(--skel); opacity: 0.5; }
+  .nv-crumbs .sep { width: 4px; height: 4px; border-radius: 50%; background: var(--skel); opacity: 0.5; }
+  .nv-crumbs .c.hot { opacity: 1; width: 46px; }
+  .nv-foot { border-radius: 8px; padding: 12px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px 16px; }
+  .nv-foot .b { height: 5px; }
+  .nv-chat { flex: 1; min-height: 0; overflow: hidden; display: flex; flex-direction: column; gap: 8px; justify-content: flex-end; padding: 6px 0; }
+  .nv-chat .bub { border-radius: 10px; padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; max-width: 62%; }
+  .nv-chat .bub.user { align-self: flex-end; background: var(--skel-strong); opacity: 0.75; border-bottom-right-radius: 3px; }
+  .nv-chat .bub.user i { height: 5px; border-radius: 2px; background: var(--bg); opacity: 0.8; display: block; }
+  .nv-chat .bub.ai { align-self: flex-start; background: var(--surface); border-bottom-left-radius: 3px; }
+  .nv-chat .bub.ai i { height: 5px; border-radius: 2px; background: var(--skel); opacity: 0.7; display: block; }
+  .nv-input { display: flex; align-items: center; gap: 8px; }
+  .nv-input .box { flex: 1; height: 24px; background: var(--surface); border-radius: 12px; }
+  .nv-input .send { width: 24px; height: 24px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .nv-list { flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .nv-list .row { height: 24px; border-radius: 6px; background: var(--skel); opacity: 0.22; display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .nv-list .row.hot { background: rgba(56,189,248,0.15); opacity: 1; }
+  .nv-list .row i { height: 6px; width: 40%; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .nv-list .row.hot i { background: var(--il-accent); opacity: 1; }
+  .nv-list .row .spark { width: 10px; height: 10px; border-radius: 50%; background: var(--il-accent); margin-left: auto; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link active">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Navigation <em>Patterns</em></h1>
+  <p class="tagline">Help people know <em>where they are</em>, where they can go, and how to get back.</p>
+  <p class="subtitle">Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.</p>
+</header>
+
+<main class="grid">
+
+  <!-- 1. Global / Primary -->
+  <article class="card n1">
+    <div class="card-header">
+      <span class="tag">Primary</span>
+      <h3>Global Navigation</h3>
+      <p class="desc">The persistent top-level nav present across the whole product. It exposes the main sections of the site or app and stays put as users move around — the stable map everything else hangs off of.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-bar hotwash"><span class="logo"></span><span class="flex-1"></span><span class="pill hot" style="background:var(--il-accent)"></span><span class="pill"></span><span class="pill"></span><span class="pill"></span></div>
+      <div class="nv-body">
+        <span class="b" style="width:45%;height:9px"></span>
+        <span class="b faint w-92"></span><span class="b faint w-85"></span>
+        <span class="b faint blk w-100"></span>
+        <span class="b faint w-88"></span><span class="b faint w-70"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Scope</div><div class="value">Whole product</div></div>
+      <div><div class="label">Contains</div><div class="value">Top-level sections</div></div>
+      <div><div class="label">Behavior</div><div class="value">Persistent · always visible</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <!-- 2. Local / Secondary -->
+  <article class="card n2">
+    <div class="card-header">
+      <span class="tag">Secondary</span>
+      <h3>Local Navigation</h3>
+      <p class="desc">Contextual nav within a section, showing the siblings and children of the current area. It lets people browse around where they already are without zooming all the way back out to the top level.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-cols">
+        <div class="nv-side hotwash">
+          <span class="b" style="width:70%;height:8px;opacity:0.6"></span>
+          <span class="hot" style="height:12px;width:100%"></span>
+          <span class="b w-85"></span><span class="b w-75"></span><span class="b w-80"></span>
+          <span class="b" style="width:66%;height:8px;opacity:0.6;margin-top:6px"></span>
+          <span class="b w-82"></span><span class="b w-72"></span><span class="b w-78"></span><span class="b w-64"></span>
+        </div>
+        <div class="nv-main">
+          <span class="b faint" style="width:55%;height:9px"></span>
+          <span class="b faint w-95"></span><span class="b faint w-88"></span>
+          <span class="b faint" style="width:100%;height:22px;opacity:0.12;border-radius:6px"></span>
+          <span class="b faint w-92"></span><span class="b faint w-85"></span><span class="b faint w-60"></span>
+        </div>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Scope</div><div class="value">Within a section</div></div>
+      <div><div class="label">Contains</div><div class="value">Siblings and children</div></div>
+      <div><div class="label">Often a</div><div class="value">Sidebar or sub-tabs</div></div>
+    </div>
+  </article>
+
+  <!-- 3. Utility -->
+  <article class="card n3">
+    <div class="card-header">
+      <span class="tag">Supporting</span>
+      <h3>Utility Navigation</h3>
+      <p class="desc">Account, settings, search, help, cart — the supporting tools that sit apart from the content hierarchy, often in the top-right. They’re available everywhere but aren’t part of the main browsing path.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-bar"><span class="logo"></span><span class="pill" style="opacity:0.35"></span><span class="flex-1"></span><span class="hot" style="width:10px;height:10px;border-radius:50%"></span><span class="hot" style="width:10px;height:10px;border-radius:50%"></span><span class="hot" style="width:14px;height:14px;border-radius:50%"></span></div>
+      <div class="nv-body">
+        <span class="b" style="width:45%;height:9px"></span>
+        <span class="b faint w-92"></span><span class="b faint w-85"></span>
+        <span class="b faint blk w-100"></span>
+        <span class="b faint w-88"></span><span class="b faint w-70"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Examples</div><div class="value">Account · search · help · cart</div></div>
+      <div><div class="label">Placement</div><div class="value">Often top-right</div></div>
+      <div><div class="label">Sits apart</div><div class="value">From content hierarchy</div></div>
+    </div>
+  </article>
+
+  <!-- 4. Breadcrumbs -->
+  <article class="card n4">
+    <div class="card-header">
+      <span class="tag">Wayfinding</span>
+      <h3>Breadcrumbs</h3>
+      <p class="desc">Show the user’s location in the hierarchy and provide a path back up. Best for deep, hierarchical structures where people need to understand how far down they are and step back out one level at a time.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-crumbs"><span class="c"></span><span class="sep"></span><span class="c"></span><span class="sep"></span><span class="c hot" style="background:var(--il-accent)"></span></div>
+      <div class="nv-body">
+        <span class="b" style="width:45%;height:9px"></span>
+        <span class="b faint w-92"></span><span class="b faint w-85"></span>
+        <span class="b faint blk w-100"></span>
+        <span class="b faint w-88"></span><span class="b faint w-70"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Job</div><div class="value">Location + path up</div></div>
+      <div><div class="label">Best for</div><div class="value">Deep hierarchies</div></div>
+      <div><div class="label">Reads</div><div class="value">Home › Section › Page</div></div>
+    </div>
+  </article>
+
+  <!-- 5. Footer -->
+  <article class="card n5">
+    <div class="card-header">
+      <span class="tag">Catch-all</span>
+      <h3>Footer Navigation</h3>
+      <p class="desc">A catch-all for legal links, secondary links, and sitemap-style access. Lower priority than the primary nav, but useful for completeness and for SEO — it’s where people look when the main nav doesn’t have what they need.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-body flex-1">
+        <span class="b faint" style="width:50%;height:9px"></span>
+        <span class="b faint w-90"></span><span class="b faint w-84"></span>
+      </div>
+      <div class="nv-foot hotwash">
+        <span class="b" style="width:60%;height:7px;opacity:0.7"></span><span class="b" style="width:60%;height:7px;opacity:0.7"></span><span class="b" style="width:60%;height:7px;opacity:0.7"></span>
+        <span class="b w-80"></span><span class="b w-75"></span><span class="b w-82"></span>
+        <span class="b w-70"></span><span class="b w-78"></span><span class="b w-65"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Contains</div><div class="value">Legal · secondary · sitemap</div></div>
+      <div><div class="label">Priority</div><div class="value">Lower</div></div>
+      <div><div class="label">Bonus</div><div class="value">SEO and completeness</div></div>
+    </div>
+  </article>
+
+  <!-- ====== AI DIVIDER ====== -->
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Navigation in the Age of AI</h3>
+    <p>Asking is starting to replace browsing. The nav doesn’t disappear — it becomes a fallback and a map for what the assistant can do.</p>
+  </div>
+
+  <!-- 6. AI: Conversational nav -->
+  <article class="card n6">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Ask, Don’t Browse</h3>
+      <p class="desc">A prompt box is becoming a parallel way to navigate: instead of clicking through sections, users describe the destination and the assistant takes them there. Menus stay as the visible map of what’s possible — and the safety net when the ask falls short.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-chat">
+        <div class="bub user"><i style="width:70px"></i></div>
+        <div class="bub ai"><i style="width:110px"></i><i style="width:85px"></i></div>
+        <div class="bub user"><i style="width:90px"></i><i style="width:55px"></i></div>
+        <div class="bub ai"><i style="width:120px"></i><i style="width:95px"></i><i style="width:60px"></i></div>
+        <div class="bub user"><i style="width:64px"></i></div>
+      </div>
+      <div class="chat-input"><span class="box"></span><span class="send"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Click paths → describe</div></div>
+      <div><div class="label">Menus become</div><div class="value">The map and the fallback</div></div>
+      <div><div class="label">Watch for</div><div class="value">Losing discoverability</div></div>
+    </div>
+  </article>
+
+  <!-- 7. AI: Adaptive nav -->
+  <article class="card n7">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Adaptive and Surfaced Destinations</h3>
+      <p class="desc">AI can reorder, surface, or hide destinations based on what a user is likely to need next. Powerful for relevance — but keep the global chrome stable, or you erode the predictable map that makes navigation trustworthy.</p>
+    </div>
+    <div class="demo"><div class="nv">
+      <div class="nv-list">
+        <div class="row hot"><i></i><span class="spark"></span></div>
+        <div class="row"><i class="w-32"></i></div>
+        <div class="row"><i class="w-36"></i></div>
+        <div class="row"><i class="w-28"></i></div>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Upside</div><div class="value">Relevance · less hunting</div></div>
+      <div><div class="label">Keep stable</div><div class="value">Global chrome</div></div>
+      <div><div class="label">Risk</div><div class="value">Unpredictable map</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/navigation-cognitive-strain/" target="_blank" rel="noopener"><span class="title">Navigation: You Are Here</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/breadcrumbs/" target="_blank" rel="noopener"><span class="title">Breadcrumbs: 11 Design Guidelines</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/footers/" target="_blank" rel="noopener"><span class="title">Footers: Design Guidelines</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference and Encyclopedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Web_navigation" target="_blank" rel="noopener"><span class="title">Web Navigation — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Breadcrumb_navigation" target="_blank" rel="noopener"><span class="title">Breadcrumb Navigation — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Patterns and Guidelines</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.smashingmagazine.com/2017/05/basic-patterns-mobile-navigation/" target="_blank" rel="noopener"><span class="title">Basic Patterns for Mobile Navigation</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://m3.material.io/foundations/layout/understanding-layout/overview" target="_blank" rel="noopener"><span class="title">Material Design — Navigation and Layout</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Navigation Patterns</div>
+  <div class="meta-info">Wayfinding · revisited for the AI era</div>
+</footer>
+
+</body>
+</html>

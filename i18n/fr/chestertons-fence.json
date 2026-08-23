@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "La <em>clôture</em> de Chesterton"
+ ],
+ "header .tagline": [
+  "Ne démontez pas une clôture avant de savoir pourquoi elle a été posée."
+ ],
+ "header .subtitle": [
+  "La règle de G. K. Chesterton pour les réformateurs : la clôture qui vous semble inutile a été construite par quelqu'un qui avait une raison. Comprenez d'abord la raison — vous aurez alors gagné le droit de la retirer."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/G._K._Chesterton\" target=\"_blank\" rel=\"noopener\">G. K. Chesterton</a>, écrivain et critique anglais, a formulé la parabole dans The Thing (1929) : un réformateur trouve une clôture en travers d'une route et propose de la supprimer précisément parce qu'il ne lui voit aucune utilité.",
+  "La réponse de Chesterton est devenue le principe : « Si vous n'en voyez pas l'utilité, je ne vous laisserai certainement pas l'enlever. Allez réfléchir. Puis, quand vous pourrez revenir me dire que vous en voyez l'utilité, je vous autoriserai peut-être à la détruire. »"
+ ],
+ ".law-content .law-desc": [
+  "Ne supprimez jamais quelque chose dont vous ne comprenez pas la raison d'être. L'ignorance de la fonction d'une chose est un argument pour enquêter, pas pour supprimer — le bâtisseur de la clôture savait quelque chose, et tant que vous ne le savez pas aussi, la clôture reste."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "G. K. Chesterton (1929)",
+  "The Thing — « The Drift from Domesticity »",
+  "Enquêter avant de supprimer"
+ ],
+ ".card .tag": [
+  "La parabole",
+  "Produit",
+  "Méthode",
+  "Refontes",
+  "Code",
+  "Équilibre",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "La clôture sur la route",
+  "La fonctionnalité que personne ne porte",
+  "Interroger, puis couper",
+  "La refonte qui a oublié",
+  "Supprimer la ligne bizarre",
+  "Les clôtures ne sont pas sacrées",
+  "Le modèle ne peut pas voir la raison",
+  "Faire parler la clôture"
+ ],
+ ".card .desc": [
+  "L'instinct « je ne vois pas pourquoi ça existe, donc ça peut partir » inverse la logique : ce qui persiste gagne généralement sa place d'une manière invisible depuis la route. Mystérieux ne veut pas dire inutile.",
+  "Tout produit mature a des fonctionnalités sans défenseur ni raison d'être évidente — jusqu'au jour de la suppression, où surgissent les factures, les auditeurs, ou les deux clients grands comptes qui en dépendent. Un usage faible n'est pas un usage nul.",
+  "Le principe est une séquence, pas une interdiction : git blame, le vieux ticket, la personne qui était là, les analytics sur le parcours étrange. Une fois la raison connue — et jugée obsolète — la suppression n'est pas seulement permise, elle est en retard.",
+  "Les refontes complètes fauchent les clôtures par hectares : la marge bizarre qui contournait un bug de navigateur, la double confirmation qui a éteint un incendie au support. L'ancien design est un registre de problèmes résolus — lisez-le avant de le remplacer.",
+  "Le sleep(100), la vérification apparemment redondante, le retry que personne ne se souvient d'avoir ajouté — les lignes les plus étranges du code en production sont souvent des rustines sur des modes d'échec invisibles. Supprimez après avoir compris, derrière un flag, avec un plan de retour arrière.",
+  "Le principe joue dans les deux sens : une équipe qui ne supprime jamais rien accumule, elle ne préserve pas. Chesterton autorise la démolition — il la facture simplement au prix d'une enquête. Payez le prix et élaguez librement.",
+  "Un refactoring par IA juge le code d'après ce qui est écrit, mais les clôtures se justifient par l'histoire — la panne, le client, la réglementation. La mémoire institutionnelle vit dans les tickets et les têtes, pas dans le fichier que lit le modèle.",
+  "Le correctif durable : écrire la raison là où celui qui supprimera regardera. Des commentaires qui disent pourquoi, des ADR et des tickets liés transforment chaque clôture en clôture avec panneau — lisible par le prochain ingénieur comme par le prochain modèle."
+ ],
+ ".meta .label": [
+  "Instinct",
+  "Réalité",
+  "Mystérieux",
+  "Usage faible",
+  "Vérifier",
+  "Jour de suppression",
+  "Séquence",
+  "Sources",
+  "Compris + obsolète",
+  "Ancien design",
+  "Détails bizarres",
+  "Lire d'abord",
+  "Lignes étranges",
+  "Supprimer",
+  "Garder",
+  "Ne jamais supprimer",
+  "Le prix",
+  "Ensuite",
+  "Le modèle lit",
+  "La raison vit",
+  "Écrire",
+  "Lisible par"
+ ],
+ ".meta .value": [
+  "« Inutile — à supprimer »",
+  "La raison est invisible",
+  "≠ inutile",
+  "Pas un usage nul",
+  "Qui en dépend",
+  "Jour de découverte",
+  "Comprendre → juger → couper",
+  "Histoire · personnes · données",
+  "Couper en confiance",
+  "Registre de problèmes résolus",
+  "Souvent porteurs",
+  "Puis remplacer",
+  "Rustines sur des fantômes",
+  "Derrière un flag",
+  "Un chemin de retour arrière",
+  "C'est accumuler",
+  "Une enquête",
+  "Élaguer librement",
+  "Le fichier",
+  "Dans l'historique",
+  "Le pourquoi, sur place",
+  "Humains et modèles"
+ ],
+ ".ai-divider h3": [
+  "La clôture de Chesterton à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles refactorent le code et redessinent les écrans sans les notes de réunion. La raison de la clôture ne vit souvent nulle part où la machine puisse la lire."
+ ]
+}

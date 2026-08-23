@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Normans <em>Prinzipien</em>"
+ ],
+ "header .tagline": [
+  "Das Interface spricht für sich — oder es <em>funktioniert nicht</em>."
+ ],
+ "header .subtitle": [
+  "Don Normans \"The Design of Everyday Things\" (1988) legte einen kleinen Satz von Designprinzipien vor, der zum Fundament der HCI wurde. Die Prämisse: Ein gut gestaltetes Objekt sagt Ihnen, was es tut, wie man es benutzt und ob Sie es richtig gemacht haben — ohne Handbuch."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> ist ein amerikanischer Kognitionswissenschaftler, der das Institute for Cognitive Science an der UC San Diego leitete, Apple Fellow war — wo er den Titel \"User Experience Architect\" prägte — und die Nielsen Norman Group mitgründete.",
+  "The Design of Everyday Things (1988, ursprünglich The Psychology of Everyday Things) gab dem Design sein Kernvokabular: Affordanzen, Signifier, Mapping, Feedback und konzeptuelle Modelle. Seine Beispiele verwirrender Türen machten \"Norman Door\" zum Fachbegriff."
+ ],
+ ".law-content .law-desc": [
+  "Gutes Design macht mögliche Aktionen sichtbar, ordnet Bedienelemente ihren Wirkungen zu und meldet, was passiert ist. Wenn Nutzer scheitern, liegt die Schuld meist in der Kommunikation des Designs — nicht beim Nutzer."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Don Norman",
+  "The Design of Everyday Things",
+  "Affordanzen zeigen; sofortiges Feedback geben"
+ ],
+ ".card .tag": [
+  "Aktion",
+  "Hinweis",
+  "Anordnung",
+  "Reaktion",
+  "Grenzen",
+  "Mentales Modell",
+  "Auffindbarkeit",
+  "Gleichheit",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Affordanzen",
+  "Signifier",
+  "Mapping",
+  "Feedback",
+  "Constraints",
+  "Konzeptuelles Modell",
+  "Sichtbarkeit und Auffindbarkeit",
+  "Konsistenz",
+  "Die Kluft der Ausführung kehrt zurück",
+  "Feedback für generierte Ausgaben"
+ ],
+ ".card .desc": [
+  "Die Eigenschaften eines Objekts, die nahelegen, wie es benutzt werden kann. Ein Griff lädt zum Ziehen ein, ein Knopf zum Drücken, ein Drehregler zum Drehen. In Software sind Affordanzen meist wahrgenommen — ein Button \"sieht klickbar aus\", weil seine Form eine physische nachahmt. Lügt die Affordanz, scheitert der Nutzer.",
+  "Norman ergänzte \"Signifier\" in der zweiten Auflage, weil \"Affordanz\" überladen war. Ein Signifier ist das sichtbare Signal — ein Label, eine Unterstreichung, ein Pfeil —, das zeigt, wo Handlung möglich ist. Affordanz ist die zugrunde liegende Fähigkeit; der Signifier ist, was der Nutzer tatsächlich sehen kann.",
+  "Die Beziehung zwischen Bedienelementen und ihren Wirkungen. Lichtschalter, die zur Position der Lampen passen, die sie steuern; Herdknöpfe, die mit ihren Kochfeldern fluchten; Lautstärkeregler, die nach oben gehen, wenn der Ton lauter wird. Schlechtes Mapping ist der Grund, warum Hotelduschen und Waschmaschinen der Dauerwitz der UX sind.",
+  "Jede Aktion bekommt eine sichtbare, hörbare oder fühlbare Antwort. Ohne Feedback bleibt der Nutzer im Ungewissen, ob etwas passiert ist, und beginnt neu zu klicken, neu abzusenden und doppelt zu bezahlen. Spinner, Toasts, Ripple-Effekte, haptische Tipps, Ton — kleine Hinweise, großes Vertrauen.",
+  "Grenzen, die ungültige Aktionen verhindern, bevor sie passieren. Ein USB-Stecker, der nur in eine Richtung passt, ein Datumswähler, der kein Datum vor heute zulässt, ein Steuerformular, das für Ihren Status irrelevante Felder ausgraut. Gute Constraints verhindern Fehler unsichtbar; schlechte frustrieren nur.",
+  "Das vereinfachte Bild davon, wie das Ding funktioniert, das der Nutzer im Kopf trägt. Die Ordner-Metapher auf dem Desktop, die Seiten-Metapher im Browser, die Nachrichtenkette im Chat. Weicht das tatsächliche Verhalten des Systems vom konzeptuellen Modell des Nutzers ab, wird jede Aktion zum Raten.",
+  "Was getan werden kann, sollte sichtbar sein. Versteckte Bedienelemente, reine ⌘-Shortcuts und \"wenn man wüsste, wo man suchen muss\"-Funktionen verletzen das alle. Der Nutzer sollte sich nicht erinnern müssen; das Interface sollte zeigen. Auffindbarkeit macht aus einem mächtigen Produkt ein benutzbares.",
+  "Dasselbe sollte immer gleich aussehen und sich gleich verhalten. Über Screens, über Produkte und gegenüber den Plattformkonventionen, die Nutzer bereits gelernt haben. Inkonsistenz zwingt Nutzer, ständig umzulernen, und untergräbt jedes andere Prinzip auf dieser Seite.",
+  "Normans \"Kluft der Ausführung\" — der Abstand zwischen dem, was man tun will, und dem Wie — war durch direkt manipulierbare Interfaces fast geschlossen. Ein leeres Chatfeld reißt sie wieder auf. Es gibt keinen Signifier dafür, was das Modell kann. Zeigen Sie dem Nutzer die Affordanzen: Beispiele, vorgeschlagene Prompts, Fähigkeitshinweise.",
+  "Wenn das Modell eine Antwort liefert, öffnet sich die Kluft der Bewertung des Nutzers erneut — \"hat es mich verstanden, hat es die richtigen Quellen benutzt?\" Normans Feedback-Prinzip gilt weiter. Machen Sie Argumentation, Quellen und Zuversicht sichtbar. Eine glatte Antwort ohne Gerüst wirkt schnell, bricht aber beim ersten Fehler das Vertrauen."
+ ],
+ ".meta .label": [
+  "Definiert",
+  "In der UI",
+  "Scheitert wenn",
+  "Definiert",
+  "Beispiele",
+  "Passt zu",
+  "Definiert",
+  "Klassischer Fall",
+  "Scheitert wenn",
+  "Definiert",
+  "Kanäle",
+  "Ohne",
+  "Arten",
+  "Wirkung",
+  "Achtung",
+  "Was es ist",
+  "Aufgebaut aus",
+  "Weicht ab",
+  "Definiert",
+  "Nicht verlassen auf",
+  "Schlechtes Zeichen",
+  "Über",
+  "Passt zu",
+  "Kosten des Bruchs",
+  "Wieder offen",
+  "Lösung",
+  "Anwenden",
+  "Prinzip",
+  "Sichtbar machen",
+  "Schließt"
+ ],
+ ".meta .value": [
+  "Legt die Nutzung nahe",
+  "Wahrgenommene Affordanz",
+  "Form führt in die Irre",
+  "Das sichtbare Signal",
+  "Unterstreichung · Pfeil · Label",
+  "Affordanz",
+  "Zuordnung Bedienelement ↔ Wirkung",
+  "Herdknöpfe",
+  "Nutzer muss sich merken, was wozu gehört",
+  "Zeigen, dass es passiert ist",
+  "Visuell · auditiv · haptisch",
+  "Doppelklicken · doppelt abbuchen",
+  "Physisch · logisch · kulturell",
+  "Fehler still verhindert",
+  "Überbeschränkung = Frust",
+  "Vereinfachtes Bild des Nutzers",
+  "Frühere Erfahrung · Metapher",
+  "Jede Aktion wird zum Raten",
+  "Zeigen, was möglich ist",
+  "Gedächtnis",
+  "\"Man muss es wissen\"",
+  "Screens · Produkte · Plattformen",
+  "Jakobs Gesetz",
+  "Umlernen überall",
+  "Kluft der Ausführung",
+  "Vorgeschlagene Prompts · Beispiele",
+  "Sichtbarkeit · Signifier",
+  "Feedback",
+  "Argumentation · Quellen",
+  "Kluft der Bewertung"
+ ],
+ ".ai-divider h3": [
+  "Normans Prinzipien im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Das konversationale Interface stellt jede von Normans Fragen neu — was kann ich tun, hat es funktioniert, was weiß es über mein Modell?"
+ ]
+}

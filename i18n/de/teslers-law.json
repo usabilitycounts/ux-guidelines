@@ -1,0 +1,116 @@
+{
+ "header h1": [
+  "Teslers <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Jedes System hat eine Komplexität, die sich <em>nicht entfernen lässt</em> — nur verschieben."
+ ],
+ "header .subtitle": [
+  "Jedes System trägt ein irreduzibles Maß an Komplexität. Die einzige Frage ist, wer sie absorbiert — das System oder der Nutzer. Gutes Design übernimmt still so viel wie möglich."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Larry_Tesler\" target=\"_blank\" rel=\"noopener\">Larry Tesler</a> war ein amerikanischer Informatiker bei Xerox PARC und später bei Apple, wo er zum Chief Scientist aufstieg. Er erfand Ausschneiden, Kopieren und Einfügen und führte sein Berufsleben lang einen Kreuzzug gegen Modi — sein Nummernschild lautete NO MODES.",
+  "Er formulierte das Gesetz der Erhaltung der Komplexität um 1984 mit dem Argument, dass Ingenieure, die einmal mit einem System arbeiten, Komplexität absorbieren sollten, statt sie auf Nutzer abzuwälzen, die ihr jeden Tag begegnen."
+ ],
+ ".law-content .law-desc": [
+  "Jede Anwendung hat ein irreduzibles Maß an Komplexität. Die einzige Frage ist, wer damit umgeht — das System und seine Erbauer, oder jeder Nutzer, jedes Mal."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Larry Tesler",
+  "Designpraxis bei Xerox PARC und Apple",
+  "Komplexität ins System absorbieren"
+ ],
+ ".card .tag": [
+  "Das Gesetz",
+  "Zwei Arten",
+  "Der Tausch",
+  "Best Practice",
+  "Die Falle",
+  "Technik",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das Gesetz",
+  "Inhärente und zufällige Komplexität",
+  "Wer absorbiert die Komplexität?",
+  "Komplexität ins System verlagern",
+  "Wegvereinfachen geht nicht",
+  "Mit progressiver Offenlegung bändigen",
+  "KI absorbiert die Komplexität",
+  "Das Risiko: Komplexität verschwindet im Verborgenen"
+ ],
+ ".card .desc": [
+  "Jede Anwendung hat ein inhärentes Maß an Komplexität, das sich nicht entfernen lässt. Die einzige Wahl ist, wo es lebt: im Inneren des Systems, wo Ingenieure und Designer damit ringen, oder im Offenen, wo die Nutzer es müssen.",
+  "Manche Komplexität gehört zum Problem — einen Flug zu buchen umfasst nun einmal Daten, Sitze und Tarife. Zufällige Komplexität ist die zusätzliche Reibung, die wir obendrauf setzen. Die zufällige können Sie löschen; die inhärente nur verlagern.",
+  "Jede Designentscheidung schiebt die Last in die eine oder andere Richtung. Ein leeres Textfeld ist einfach zu bauen, aber schwer zu benutzen; ein geführter Ablauf ist schwerer zu bauen, aber mühelos abzuschließen. Die Arbeit verschwindet nicht — jemand bezahlt dafür.",
+  "Kluge Standardwerte, Autofill, Formaterkennung und Ableitung lassen das Produkt die Schwerarbeit machen. Jedes Feld, das Sie vorausfüllen oder berechnen können, ist eine Entscheidung, die der Nutzer nie treffen muss — die Last absorbiert, wo sie hingehört.",
+  "Streicht man wesentliche Komplexität heraus, taucht sie als Verwirrung, Fehler oder Support-Tickets wieder auf. Ein Ablauf, der notwendige Schritte versteckt, entfernt die Arbeit nicht — er überlässt es dem Nutzer, sie auf die harte Tour wiederzuentdecken.",
+  "Muss Komplexität den Nutzer erreichen, enthüllen Sie sie in Schichten. Zeigen Sie zuerst den üblichen Weg und verstauen Sie fortgeschrittene Optionen hinter „Mehr“. Die Menschen bekommen eine einfache Oberfläche, ohne die Tiefe zu verlieren, die sie gelegentlich brauchen.",
+  "Ein Modell kann eine unordentliche, mehrdeutige Anfrage nehmen und die Schritte selbst auflösen — die ultimative Verlagerung der Komplexität vom Nutzer zum System. „Plane meine Reise“ ersetzt ein Dutzend Formulare. Die Last wandert weiter zur Maschine als je zuvor.",
+  "Wenn das Modell alles absorbiert, können auch die notwendigen Teile verschwinden — die Annahmen, Abwägungen und Randfälle, die der Nutzer eigentlich abwägen musste. Die Erhaltung gilt weiterhin: Machen Sie das Wichtige sichtbar, mit Quellen, Bedienelementen und einem Rückgängig."
+ ],
+ ".meta .label": [
+  "Geprägt von",
+  "Auch genannt",
+  "Kernidee",
+  "Inhärent",
+  "Zufällig",
+  "Ziel",
+  "Zum Nutzer schieben",
+  "Zum System schieben",
+  "Standard",
+  "Werkzeuge",
+  "Wirkung",
+  "Kosten",
+  "Fehlermodus",
+  "Kehrt zurück als",
+  "Lösung",
+  "Muster",
+  "Zuerst zeigen",
+  "Verstauen",
+  "Wandel",
+  "Absorbiert",
+  "Vorteil",
+  "Risiko",
+  "Sichtbar halten",
+  "Sicherheitsnetz"
+ ],
+ ".meta .value": [
+  "Larry Tesler (1984)",
+  "Erhaltung der Komplexität",
+  "Komplexität wandert; sie verschwindet nie",
+  "Wesentlich für die Aufgabe",
+  "Selbst verschuldete Reibung",
+  "Zufälliges zuerst löschen",
+  "Billig zu bauen · teuer zu benutzen",
+  "Teuer zu bauen · leicht zu benutzen",
+  "Den Nutzer begünstigen",
+  "Standardwerte · Autofill · Ableitung",
+  "Weniger Entscheidungen für den Nutzer",
+  "Mehr Logik hinter den Kulissen",
+  "Wesentliche Schritte verstecken",
+  "Fehler · Verwirrung · Tickets",
+  "Absorbieren, nicht vergraben",
+  "Schichtweise Offenlegung",
+  "Der übliche 80%-Weg",
+  "Fortgeschrittene und seltene Optionen",
+  "Formulare → Absicht",
+  "Schritte · Entscheidungen · Synthese",
+  "Mühelos für den Nutzer",
+  "Verstecken, was Nutzer abwägen müssen",
+  "Annahmen · Quellen · Bedienelemente",
+  "Rückgängig und Übersteuern"
+ ],
+ ".ai-divider h3": [
+  "Teslers Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI ist der mächtigste Komplexitätsabsorber bislang — und der verlockendste Ort, Komplexität zu verstecken, die der Nutzer noch sehen muss."
+ ]
+}

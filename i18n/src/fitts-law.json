@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Fitts’s Law"
+ ],
+ "header .tagline": [
+  "Big and <em>Close</em>"
+ ],
+ "header .subtitle": [
+  "The time to hit a target depends on its size and distance. Fitts’s Law governs every button, link, and tap target — and explains why edges and corners feel so fast."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> was an American experimental psychologist and a pioneer of human-factors engineering with the U.S. Air Force. His 1954 paper modeled rapid aimed movement as a tradeoff between distance and target size — the foundation of pointing-device research.",
+  "Fitts directed the U.S. Air Force’s psychology branch after World War II, where he studied why trained pilots crashed well-designed planes — founding aviation human factors along the way. His index of difficulty remains the standard model for evaluating pointing devices, from mice to touchscreens."
+ ],
+ ".law-content .law-desc": [
+  "The time to point at a target grows with distance and shrinks with target size — logarithmically. Double the distance, and time goes up by a constant. Double the width, and time falls by the same constant."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-paul-fitts\">Paul Fitts</a> (1954)",
+  "Journal of Experimental Psychology",
+  "Make targets big and close"
+ ],
+ ".card .tag": [
+  "Size (W)",
+  "Distance (D)",
+  "Trade-off",
+  "Edge target",
+  "Corner",
+  "Radial",
+  "Padding",
+  "Touch",
+  "Steering",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Bigger Is Faster",
+  "Closer Is Faster",
+  "The Worst Case",
+  "Edges Are Infinite",
+  "Corners Are Magic",
+  "Radial and Pie Menus",
+  "Hover Buffers",
+  "Mobile Touch Targets",
+  "The Tunneling Effect",
+  "Conversational Input Removes the Target",
+  "AI Anticipates the Next Click"
+ ],
+ ".card .desc": [
+  "Increase W and pointing time drops — fast. The biggest, most-used controls should be the largest controls. The CTA isn’t ornament; size is function.",
+  "Distance increases pointing time logarithmically — meaning the cost of moving across a screen is real. Place the next action near the last one. Don’t make the user travel.",
+  "Small AND far is the slowest possible combination. Most accidental clicks happen here — a tiny “close” icon at the opposite corner of the screen from where the eye and pointer already are.",
+  "The cursor can’t move past a screen edge, so any target placed against the edge effectively has infinite width along that axis. The Mac menu bar is faster than every dropdown in Windows for exactly this reason.",
+  "A corner is infinite in two dimensions. The cursor slams to a stop in both axes regardless of overshoot. Start menus, close buttons, and macOS Hot Corners exploit this — the fastest possible click on the screen.",
+  "A circular menu places all options at the same distance from the cursor — and the slice’s angular width becomes effective target size. Mature users can build muscle memory for direction, not destination.",
+  "A small icon can have a much larger invisible hit area. Extending the clickable region with padding makes the visual element tidy and the actual target generous — a free Fitts’s-Law upgrade.",
+  "On touchscreens, the “cursor” is a finger pad — roughly 9–10mm wide. Apple recommends 44pt minimum, Material 48dp. Below that and accidental taps spike; the fastest UI becomes the most frustrating.",
+  "Moving the cursor through a narrow corridor (cascading submenus, nested context menus) is dramatically slower than hitting an open target — the steering law extends Fitts’s into paths. Slipping out of the tunnel resets the user.",
+  "When you type or speak a request, there’s no button to aim for. Distance and size stop mattering — the “target” becomes language, not a pixel region.",
+  "Predictive UIs surface the likely next action as a large, close suggestion. It’s Fitts’s Law automated — the target travels to the cursor instead of the reverse."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Best for",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Primary CTAs · Frequent actions",
+  "Action is important or repeated",
+  "Equal size = equal priority signal",
+  "Contextual actions · Inline edits",
+  "Next click should be effortless",
+  "Forcing pointer trips across screen",
+  "Audit checklists",
+  "Spotting friction in flows",
+  "Tiny destructive buttons far away",
+  "Persistent toolbars · Tabs",
+  "Hot zones for power users",
+  "Doesn’t apply to browser tabs (window chrome above)",
+  "Global actions · Quit · Start",
+  "Action is system-wide",
+  "Lost in non-fullscreen contexts",
+  "Contextual menus · Games",
+  "Small fixed set of choices",
+  "More than 8 slices = unreadable",
+  "Icon buttons · Toolbars",
+  "Visual must stay compact",
+  "Hit zones overlapping neighbors",
+  "All touch interfaces",
+  "Designing primary mobile UI",
+  "Adjacent targets within 8pt = mistaps",
+  "Audit anti-pattern",
+  "Spotting deep menu cascades",
+  "Tunnel slips reset the user",
+  "Point → describe",
+  "Intent is easy to say",
+  "Discoverability of features",
+  "Aim → anticipate",
+  "Next action is predictable",
+  "Wrong guess adds friction"
+ ],
+ ".ai-divider h3": [
+  "Fitts’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Conversational and predictive interfaces change the geometry — sometimes there is no target to point at; sometimes the target comes to you."
+ ]
+}

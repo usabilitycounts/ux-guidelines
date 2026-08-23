@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Postel"
+ ],
+ "header .tagline": [
+  "Sé conservador en lo que envías, sé <em>liberal</em> en lo que aceptas."
+ ],
+ "header .subtitle": [
+  "El principio de robustez de Jon Postel (1980) salió de la especificación TCP — una regla para que las redes toleren pares descuidados sin volverse descuidadas. La misma regla aplica a las interfaces: estricto con lo que produces, tolerante con lo que te dan los usuarios."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jon_Postel\" target=\"_blank\" rel=\"noopener\">Jon Postel</a> fue un informático estadounidense que editó la serie de RFC y custodió los estándares fundamentales de internet durante décadas. Su principio de robustez — sé conservador en lo que envías, liberal en lo que aceptas — apareció en su especificación TCP de 1980.",
+  "Postel dirigió la IANA — la Internet Assigned Numbers Authority — prácticamente en solitario durante casi treinta años, lo que le valió el título informal de «dios de internet». El principio de robustez sigue debatiéndose en el diseño de protocolos: demasiada tolerancia con lo que aceptas puede osificar errores hasta convertirlos en estándares de facto."
+ ],
+ ".law-content .law-desc": [
+  "Un sistema debe enviar una salida limpia y estricta, pero aceptar una entrada generosa y desordenada. En la red, esto mantuvo hablando a implementaciones TCP incompatibles; en la interfaz, evita que las personas sean castigadas por escribir las cosas en su propio formato."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Jon Postel (1980)",
+  "RFC 761, la especificación TCP",
+  "Aceptar entrada desordenada, emitir salida limpia"
+ ],
+ ".card .tag": [
+  "Entradas",
+  "Salidas",
+  "Errores",
+  "Compatibilidad",
+  "Análisis inteligente",
+  "Predeterminados",
+  "Crítica",
+  "Se combina con",
+  "✦ Era IA",
+  "✦ Era IA"
+ ],
+ ".card h3": [
+  "Campos de formulario tolerantes",
+  "Salidas estrictas y predecibles",
+  "Recupera, no rechaces",
+  "Mantén la retrocompatibilidad",
+  "Analiza como escriben las personas",
+  "Los predeterminados son entrada liberal",
+  "Los límites de la robustez",
+  "Cierra el ciclo de Tesler",
+  "La IA como el analizador liberal definitivo",
+  "El riesgo: compromiso silencioso"
+ ],
+ ".card .desc": [
+  "Acepta el formato del usuario y normalízalo tú. Teléfonos con puntos, barras o espacios; fechas como «mañana» o «12/3»; correos con espacios sueltos — todo es entrada razonable. Limpia, analiza y guarda la versión pulida sin obligar al usuario a repetir lo que escribió.",
+  "La otra mitad de la ley: lo que produces debe ser preciso, conforme a los estándares y sin ambigüedad. Fechas en ISO 8601, IDs con una forma conocida, JSON con un esquema consistente. Las entradas liberales solo funcionan porque las salidas mantienen un contrato en el que el resto del sistema puede confiar.",
+  "Cuando la entrada es ambigua, infiere la intención probable y confirma — no devuelvas al usuario a un campo en blanco. «¿Parece que querías decir 3 de dic?» gana a un borde rojo y un error de «formato inválido». La recuperación es más rápida, más amable y produce más flujos completados.",
+  "Sé liberal con lo que te envían los clientes antiguos, las URLs antiguas y los datos antiguos. No rompas enlaces cuando cambien las rutas — redirige. No rechaces archivos guardados en el formato del año pasado — actualízalos en silencio. El usuario no debería pagar por tu refactorización.",
+  "Nombres con guiones, direcciones con número de apartamento, precios con símbolos de moneda — deja que el analizador haga el trabajo. El usuario tiene una forma mental de lo que está introduciendo; sal a su encuentro en lugar de imponer una forma más estricta que solo le importa a tu base de datos.",
+  "Un campo con un valor predeterminado inteligente está aceptando «no me importa» como entrada válida. País prellenado por IP, moneda por región, rol por equipo — cada suposición segura es una cosa menos que el usuario tiene que enviar. Las salidas estrictas se mantienen; el sistema simplemente adivinó bien.",
+  "La ley de Postel tiene un contraargumento: los analizadores demasiado tolerantes dejan que los datos malos se calcifiquen en la especificación, y el sistema hereda años de lastre del tipo «bueno, eso lo aceptamos». La mitad estricta importa — sé liberal en el borde, estricto en el núcleo, y no tapes la ambigüedad genuina con una suposición.",
+  "Postel y Tesler llegan a la misma conclusión desde direcciones opuestas. Tesler dice que la complejidad tiene que vivir en algún sitio; Postel dice que cuando vive en la frontera, ponla del lado del sistema. La interfaz tolerante es el sistema absorbiendo el desorden del mundo real.",
+  "«Resérvame un vuelo el viernes» antes necesitaba un formulario preciso. Ya no. Los modelos aceptan vaguedades, erratas, entrada en idiomas mezclados, voz y texto a la vez — la puerta de entrada más fiel a Postel que hemos construido jamás. Los campos del formulario no han desaparecido; se han movido dentro del modelo.",
+  "Un analizador liberal que se compromete en silencio con una sola interpretación es peligroso. El usuario dijo «viernes» — el modelo eligió uno. El contrato de Postel sigue vigente: muestra lo que entendiste, deja que el usuario lo corrija y nunca colapses la ambigüedad genuina en una respuesta segura de sí misma."
+ ],
+ ".meta .label": [
+  "Aceptar",
+  "Guardar",
+  "No hacer",
+  "Enviar",
+  "Usar",
+  "Resultado",
+  "Inferir",
+  "Confirmar",
+  "No hacer",
+  "Aplicar",
+  "Táctica",
+  "Regla",
+  "Aceptar",
+  "Normalizar",
+  "Resultado",
+  "Prellenar",
+  "Fuentes",
+  "Objetivo",
+  "Riesgo",
+  "Aplicar",
+  "No hacer",
+  "Se combina con",
+  "Ambos dicen",
+  "Efecto",
+  "Cambio",
+  "Acepta",
+  "Salida",
+  "Riesgo",
+  "Solución",
+  "Siempre"
+ ],
+ ".meta .value": [
+  "Cualquier formato razonable",
+  "Versión canónica limpia",
+  "Rechazar y volver a pedir",
+  "Canónico estricto",
+  "Fechas ISO · esquemas estables",
+  "Predecible aguas abajo",
+  "La intención probable",
+  "«¿Quisiste decir…?»",
+  "Devolver al campo en blanco",
+  "URLs antiguas · datos antiguos",
+  "Redirigir · actualizar solo",
+  "No romper enlaces",
+  "Formas humanas",
+  "Entre bastidores",
+  "Más formularios completados",
+  "Todo lo seguro de adivinar",
+  "IP · región · historial",
+  "Menos que escribir",
+  "El lastre se calcifica",
+  "Borde liberal · núcleo estricto",
+  "Tapar la ambigüedad",
+  "Ley de Tesler",
+  "El sistema absorbe el desorden",
+  "Sensación sin esfuerzo",
+  "Formulario → lenguaje",
+  "Casi cualquier cosa",
+  "Sigue estricta",
+  "Interpretación silenciosa",
+  "Mostrar la interpretación",
+  "Permitir corrección"
+ ],
+ ".ai-divider h3": [
+  "La ley de Postel en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos son los analizadores de entrada más liberales jamás construidos — y los que con más aplomo se comprometen con una única interpretación."
+ ]
+}

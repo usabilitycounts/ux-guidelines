@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "Modelo de <em>conducta</em> de Fogg"
+ ],
+ "header .tagline": [
+  "La conducta ocurre cuando tres cosas convergen en <em>el mismo momento</em>."
+ ],
+ "header .subtitle": [
+  "El modelo de BJ Fogg (2009) dice que una conducta ocurre solo cuando Motivación, Capacidad y Disparador coinciden. Quita cualquiera de los tres y la acción no sucede — aunque los otros dos estén al máximo. El modelo es la base del diseño de conducta, la tecnología persuasiva y el método Tiny Habits."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/B._J._Fogg\" target=\"_blank\" rel=\"noopener\">BJ Fogg</a> es un científico de la conducta en la Universidad de Stanford, donde fundó el Behavior Design Lab. Su Behavior Model de 2009 — la conducta ocurre cuando motivación, capacidad y un disparador convergen — se volvió piedra angular de la tecnología persuasiva.",
+  "Fogg acuñó el término «captología» — el estudio de las computadoras como tecnologías persuasivas — en los años 90, mucho antes de que existieran los equipos de growth. Entre sus alumnos de Stanford estuvo el cofundador de Instagram; su libro posterior, Tiny Habits, volvió el modelo hacia adentro, hacia el cambio de conducta personal."
+ ],
+ ".law-content .law-desc": [
+  "Una conducta ocurre cuando Motivación, Capacidad y un Disparador convergen en el mismo momento. Los tres son multiplicativos — baja cualquiera a cero y el producto es cero, por altos que estén los demás."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "BJ Fogg (2009)",
+  "Stanford Behavior Design Lab",
+  "Combina disparadores con acciones fáciles"
+ ],
+ ".card .tag": [
+  "M · El impulso",
+  "A · La facilidad",
+  "P · El disparador",
+  "El umbral",
+  "La matemática",
+  "Práctica",
+  "Tiny Habits",
+  "Aplicado",
+  "Aplicado",
+  "La otra cara",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Motivación",
+  "Capacidad",
+  "Disparadores",
+  "La línea de acción",
+  "Tres factores, multiplicados",
+  "Haz la conducta diminuta",
+  "Ánclala · celébrala",
+  "Notificaciones como disparadores",
+  "El onboarding es un problema de capacidad",
+  "Persuasión frente a manipulación",
+  "La IA eleva la capacidad",
+  "El disparador personalizado"
+ ],
+ ".card .desc": [
+  "Por qué la persona actuaría siquiera. Fogg agrupa los motivadores en tres pares — placer / dolor, esperanza / miedo, aceptación / rechazo social. La motivación fluctúa salvajemente a lo largo del día, lo que la vuelve la palanca menos fiable en la que apoyarse.",
+  "Qué tan fácil es la conducta ahora mismo. Fogg nombra seis dimensiones de la simplicidad: tiempo, dinero, esfuerzo físico, ciclos mentales, desviación social y lo no rutinario. La más escasa gana. Reducir la fricción en esa dimensión casi siempre es más barato que subir la motivación.",
+  "La señal que dice «hazlo ahora». Sin un disparador, la conducta no se dispara — ni siquiera con motivación y capacidad altas. Fogg distingue tres tipos: la chispa (sube la motivación), el facilitador (lo hace más fácil) y la señal (solo un recordatorio, para gente ya dispuesta y capaz).",
+  "Traza motivación contra capacidad y un umbral curvo separa «actuará» de «no actuará». Por encima de la línea, un disparador dispara la conducta; por debajo, ningún disparador basta. Poca motivación se compensa con muchísima capacidad, y viceversa — pero solo a lo largo de la curva.",
+  "El «MAP» es multiplicación, no suma. Si algún factor es cero — sin motivación, sin capacidad o sin disparador — el producto es cero y no pasa nada. Por eso un disparador perfecto sobre un usuario cansado cae en vacío, y por eso un usuario motivado sin disparador nunca empieza.",
+  "La lección más práctica de Fogg: cuando la motivación no es fiable, aumenta la capacidad — encoge la conducta hasta que casi cualquiera pueda hacerla en un mal día. «Usar hilo dental en un diente» se vuelve la puerta de entrada al hilo dental. Tiny Habits es toda una metodología construida sobre esta única idea.",
+  "Dos piezas más del Tiny Habits de Fogg: engancha la conducta nueva a una rutina existente (el ancla — «después de lavarme los dientes, voy a…») y márcala de inmediato con una pequeña sensación positiva («¡Sí!»). El ancla resuelve el disparador; la celebración lo fija.",
+  "Las notificaciones de un producto son sus disparadores. Envía demasiadas a gente sin motivación y los entrenas para ignorarte. Envía una señal bien programada a un usuario que ya está listo y es capaz, y consigues la acción. Momento oportuno &gt; volumen.",
+  "Los usuarios nuevos casi nunca carecen de motivación — no estarían ahí. Carecen de capacidad. Recorta pasos, prellena, usa valores predeterminados sensatos y demuestra la primera victoria en minutos. La mayoría de los problemas de «engagement» con usuarios nuevos se disuelven cuando sube la capacidad.",
+  "El modelo es simétrico — funciona tanto si ayudas al usuario a alcanzar su meta como si lo empujas más allá de su buen juicio. Los casinos, el scroll infinito y los patrones oscuros son Fogg al revés. Al modelo en sí no le importa; al diseñador le tiene que importar.",
+  "«Redacta un contrato», «programa esta función», «diseña esa pantalla» — la IA colapsa el coste de capacidad de conductas que antes exigían pericia. Cosas que estaban bajo la línea de acción ahora se sitúan cómodamente encima, simplemente porque se volvieron más fáciles.",
+  "Un modelo que sabe cuándo un usuario está motivado y es capaz puede entregar el disparador exactamente en ese momento. Bien hecho, elimina la fricción de averiguar el «ahora». Mal hecho, es acoso hiperdirigido — y la gente deja de confiar en el canal."
+ ],
+ ".meta .label": [
+  "Incluye",
+  "Se comporta",
+  "Aplicar",
+  "Dimensiones",
+  "Regla",
+  "Aplicar",
+  "Chispa",
+  "Facilitador",
+  "Señal",
+  "Encima",
+  "Debajo",
+  "Equilibrio",
+  "Matemática",
+  "Cero en",
+  "Cuidado con",
+  "Palanca",
+  "Táctica",
+  "Construido sobre esto",
+  "Ancla",
+  "Conducta",
+  "Celebra",
+  "Los disparadores son",
+  "Momento equivocado",
+  "Momento correcto",
+  "Palanca",
+  "Táctica",
+  "Prueba",
+  "Prueba",
+  "Lado oscuro",
+  "Trabajo del diseñador",
+  "Efecto",
+  "Resultado",
+  "Ejemplos",
+  "Poder",
+  "Riesgo",
+  "Prueba"
+ ],
+ ".meta .value": [
+  "Placer · esperanza · aceptación",
+  "Fluctúa · poco fiable",
+  "No dependas solo de ella",
+  "Tiempo · dinero · esfuerzo · mente · social · rutina",
+  "La más escasa gana",
+  "Más barato que la motivación",
+  "Para motivación baja",
+  "Para capacidad baja",
+  "Para quien está listo",
+  "El disparador activa la acción",
+  "Ningún disparador basta",
+  "M y A se intercambian por la curva",
+  "Multiplicativo, no aditivo",
+  "Cero total",
+  "Sin disparador = silencio",
+  "Sube capacidad, no motivación",
+  "Encoge la petición",
+  "El método Tiny Habits",
+  "Rutina existente",
+  "Hazla diminuta",
+  "Inmediato y positivo",
+  "Notificaciones · correos · CTAs",
+  "Entrena a ignorar",
+  "Activa la acción",
+  "Capacidad, no motivación",
+  "Recorta · prellena · predetermina",
+  "Primera victoria en minutos",
+  "¿A qué meta sirve?",
+  "Casinos · scroll infinito",
+  "Elegir la correcta",
+  "Baja el coste de capacidad",
+  "Más usuarios sobre la línea",
+  "Escribir · programar · diseñar",
+  "Persona correcta, momento correcto",
+  "Acoso hiperdirigido",
+  "¿El usuario lo quería?"
+ ],
+ ".ai-divider h3": [
+  "El modelo de Fogg en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA baja la Capacidad en todos los frentes y te permite lanzar un Disparador perfectamente programado para un solo usuario — una palanca a una escala que el modelo original de Fogg no anticipó."
+ ],
+ ".law-formula-note": [
+  "la conducta ocurre cuando motivación, capacidad y un disparador se dan a la vez."
+ ]
+}

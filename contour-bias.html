@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" data-page="contour-bias">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.">
+<title>Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/contour-bias.html">
+<meta property="og:title" content="Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent — UX Guidelines">
+<meta property="og:description" content="Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/contour-bias.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent — UX Guidelines">
+<meta name="twitter:description" content="Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  .cb-stage { display: flex; align-items: center; justify-content: space-evenly; padding: 0 24px; }
+  .cb-soft { width: 74px; height: 74px; border-radius: 26px; background: var(--il-accent); opacity: 0.9; }
+  .cb-sharp { width: 74px; height: 74px; background: var(--skel); opacity: 0.4; clip-path: polygon(50% 0, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%); }
+  .cb-col { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .cb-line { height: 9px; border-radius: 4.5px; background: var(--skel); opacity: 0.35; }
+  .cb-pill { height: 26px; border-radius: 13px; background: var(--il-accent); opacity: 0.9; }
+  .cb-block { height: 26px; border-radius: 0; background: var(--skel); opacity: 0.35; }
+  .cb-card { flex: 1; background: var(--bg); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 9px; }
+  .cb-card.sq { border-radius: 0; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link active">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Contour <em>Bias</em></h1>
+  <p class="tagline">Rounded relaxes. Sharp alerts.</p>
+  <p class="subtitle">Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness puts users at ease; sharpness demands attention. Both are tools.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)" target="_blank" rel="noopener">Moshe Bar</a> and Maital Neta at Harvard flashed pairs of everyday objects — identical except for their contours — for a fraction of a second. Viewers consistently preferred the curved versions, even with no time to reason about them.</p>
+    <p class="body-text">Their follow-up work pointed at the mechanism: sharp-angled objects produced more activation in the amygdala, the brain’s threat detector. The preference for curves is not taste — it is a fast, low-level safety judgment that fires before deliberate thought.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Bias</div>
+    <p class="body-text law-desc">At a glance, people judge curved contours as safe and approachable and sharp contours as potentially threatening. The response is fast, automatic, and strongest under time pressure — which is exactly how interfaces are seen.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-moshe-bar">Moshe Bar</a> and <a href="people.html#p-maital-neta">Maital Neta</a> (2006)</div></div>
+      <div><div class="label">Source</div><div class="value">“Humans Prefer Curved Visual Objects”</div></div>
+      <div><div class="label">In practice</div><div class="value">Round to reassure, sharpen to alert</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The research</span>
+      <span class="num">01 / 08</span>
+      <h3>The Split-Second Preference</h3>
+      <p class="desc">Watches, sofas, letterforms — shown curved or angular for 84 milliseconds. Curved won, category after category. The preference held even when viewers could not say why, which is the signature of a pre-attentive judgment.</p>
+    </div>
+    <div class="demo"><div class="il-stage cb-stage"><svg class="il-svg" viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet"><g transform="translate(115 98)"><path d="M-12.8 -38.8 Q0.0 -52.0 12.8 -38.8 Q25.5 -25.5 37.8 -12.8 Q50.0 0.0 37.0 12.0 Q24.0 24.0 12.0 38.0 Q0.0 52.0 -12.8 38.8 Q-25.5 25.5 -37.8 12.8 Q-50.0 0.0 -37.8 -12.8 Q-25.5 -25.5 -12.8 -38.8 Z" fill="var(--il-accent)" opacity="0.9"/></g><circle cx="115" cy="176" r="7" fill="var(--il-accent)"/><g transform="translate(265 98)"><path d="M0.0 -52.0 L25.5 -25.5 L50.0 0.0 L24.0 24.0 L0.0 52.0 L-25.5 25.5 L-50.0 0.0 L-25.5 -25.5 Z" fill="var(--skel)" opacity="0.4"/></g></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Exposure</div><div class="value">84 milliseconds</div></div>
+      <div><div class="label">Verdict</div><div class="value">Curved, consistently</div></div>
+      <div><div class="label">Signature</div><div class="value">Pre-attentive, not reasoned</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Mechanism</span>
+      <span class="num">02 / 08</span>
+      <h3>Sharp Reads as Threat</h3>
+      <p class="desc">In the follow-up imaging study, sharp contours lit up the amygdala — the brain’s threat detector. Edges and points resemble things that cut and pierce, so they get flagged before conscious thought has a say. Designers inherit that wiring.</p>
+    </div>
+    <div class="demo"><div class="il-stage cb-stage"><svg class="il-svg" viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet"><g transform="translate(110 105) scale(0.82)"><path d="M-12.8 -38.8 Q0.0 -52.0 12.8 -38.8 Q25.5 -25.5 37.8 -12.8 Q50.0 0.0 37.0 12.0 Q24.0 24.0 12.0 38.0 Q0.0 52.0 -12.8 38.8 Q-25.5 25.5 -37.8 12.8 Q-50.0 0.0 -37.8 -12.8 Q-25.5 -25.5 -12.8 -38.8 Z" fill="var(--skel)" opacity="0.3"/></g><g transform="translate(268 105) scale(0.82)"><path d="M0.0 -52.0 L25.5 -25.5 L50.0 0.0 L24.0 24.0 L0.0 52.0 L-25.5 25.5 L-50.0 0.0 L-25.5 -25.5 Z" fill="var(--skel)" opacity="0.45"/></g><circle cx="268" cy="105" r="66" fill="none" stroke="var(--il-accent)" stroke-width="5" opacity="0.85" style="transform-origin:268px 105px;animation:pulse 1.6s ease-in-out infinite"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Region</div><div class="value">The amygdala</div></div>
+      <div><div class="label">Pattern</div><div class="value">Points read as danger</div></div>
+      <div><div class="label">Speed</div><div class="value">Before deliberate thought</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <span class="num">03 / 08</span>
+      <h3>Why Buttons Went Round</h3>
+      <p class="desc">Rounded corners on buttons, cards, inputs, and avatars lower the felt risk of interacting. A pill button says “safe to press” before the label is read. The radius is doing emotional work, not decoration.</p>
+    </div>
+    <div class="demo"><div class="cb-stage gap-24"><div class="cb-card"><span class="cb-line w-70"></span><span class="cb-line w-52"></span><span class="cb-pill w-60"></span></div><div class="cb-card sq" style="opacity:0.55"><span class="cb-line w-70"></span><span class="cb-line w-52"></span><span class="cb-block w-60"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Where</div><div class="value">Buttons · cards · inputs</div></div>
+      <div><div class="label">Message</div><div class="value">Safe to press</div></div>
+      <div><div class="label">Radius is</div><div class="value">Emotional, not decorative</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Contrast</span>
+      <span class="num">04 / 08</span>
+      <h3>Sharpen to Alert</h3>
+      <p class="desc">The threat response is a feature when the message is danger. Warning triangles, error badges, and hazard chevrons work because they are angular. An alert with soft corners whispers; the same alert with points shouts.</p>
+    </div>
+    <div class="demo"><div class="il-stage cb-stage"><svg class="il-svg" viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet"><path d="M96 146 L146 58 L196 146 Z" fill="var(--il-accent)" opacity="0.9"/><rect x="236" y="88" width="110" height="36" rx="18" fill="var(--skel)" opacity="0.35"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Use sharp for</div><div class="value">Warnings and hazards</div></div>
+      <div><div class="label">Soft alert</div><div class="value">Whispers</div></div>
+      <div><div class="label">Angular alert</div><div class="value">Shouts</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Boundary</span>
+      <span class="num">05 / 08</span>
+      <h3>A Bias, Not a Rule</h3>
+      <p class="desc">Context can outweigh contour. Precision tools, luxury brands, and editorial design use sharp geometry to signal rigor and edge — and roundness everywhere can read as soft or childish. Choose the feeling first, then the corner.</p>
+    </div>
+    <div class="demo"><div class="cb-stage gap-24"><span class="cb-soft" style="background:var(--skel);opacity:0.4"></span><span style="width:74px;height:74px;background:var(--skel);opacity:0.4;display:block"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Sharp signals</div><div class="value">Rigor · precision · edge</div></div>
+      <div><div class="label">Over-round risk</div><div class="value">Soft or childish</div></div>
+      <div><div class="label">Order</div><div class="value">Feeling first, corner second</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">System</span>
+      <span class="num">06 / 08</span>
+      <h3>One Curvature, Everywhere</h3>
+      <p class="desc">Corner radius is a design token, and mixing radii is how interfaces start feeling off without anyone knowing why. Pick a curvature scale — sharp, subtle, or round — and let every button, card, and dialog agree on it.</p>
+    </div>
+    <div class="demo"><div class="il-stage cb-stage" style="flex-direction:column;gap:12px;align-items:stretch;padding:0 60px"><span class="cb-pill w-78"></span><span class="cb-pill" style="width:58%;opacity:0.55"></span><span class="cb-pill" style="width:68%;opacity:0.3"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Radius is</div><div class="value">A token, not a whim</div></div>
+      <div><div class="label">Mixed radii</div><div class="value">Feels off, invisibly</div></div>
+      <div><div class="label">Fix</div><div class="value">One curvature scale</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Contour Bias in the Age of AI</h3>
+    <p>Generated interfaces ship the same friendly radius by default, and AI products round themselves to feel harmless. Curvature has become a rhetoric — use it honestly.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Radius-12 Default</h3>
+      <p class="desc">Ask a model for a UI and you get the same gentle corners as everyone else — curvature chosen by statistics, not intent. When every product is equally rounded, contour stops carrying brand. Set your radius on purpose.</p>
+    </div>
+    <div class="demo"><div class="cb-stage gap-16"><div class="cb-card" style="opacity:0.35"><span class="cb-line w-66"></span><span class="cb-pill" style="width:52%;opacity:0.5"></span></div><div class="cb-card" style="opacity:0.35"><span class="cb-line w-66"></span><span class="cb-pill" style="width:52%;opacity:0.5"></span></div><div class="cb-card"><span class="cb-line w-66"></span><span class="cb-block" style="width:52%;background:var(--il-accent);opacity:0.9"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Default</div><div class="value">Statistical corners</div></div>
+      <div><div class="label">Cost</div><div class="value">Contour stops branding</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Rounded to Disarm</h3>
+      <p class="desc">Assistants, robots, and AI mascots are styled soft on purpose — orbs, blobs, gentle arcs — because curves lower guard. That is fine when the system is benign, and manipulative when roundness is hiding what a system does.</p>
+    </div>
+    <div class="demo"><div class="il-stage cb-stage" style="flex-direction:column;gap:16px"><div style="position:relative;width:84px;height:84px;border-radius:50%;background:var(--il-accent);opacity:0.95"><span style="position:absolute;left:26px;top:34px;width:9px;height:9px;border-radius:50%;background:var(--bg)"></span><span style="position:absolute;right:26px;top:34px;width:9px;height:9px;border-radius:50%;background:var(--bg)"></span></div><div style="display:flex;flex-direction:column;gap:8px;align-items:center;width:100%"><span style="width:44%;height:9px;border-radius:4.5px;background:var(--skel);opacity:0.35;display:block"></span><span style="width:56%;height:9px;border-radius:4.5px;background:var(--skel);opacity:0.35;display:block"></span><span style="width:38%;height:9px;border-radius:4.5px;background:var(--skel);opacity:0.35;display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Curves lower</div><div class="value">The user’s guard</div></div>
+      <div><div class="label">Line</div><div class="value">Reassure, never conceal</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="uncanny-valley.html">Uncanny Valley</a></div></div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Psychological Science</h3>
+      <ul class="ref-list">
+        <li><a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.2006.01759.x" target="_blank" rel="noopener"><span class="title">Humans Prefer Curved Visual Objects — Bar and Neta, 2006</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)" target="_blank" rel="noopener"><span class="title">Moshe Bar — neuroscientist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Amygdala" target="_blank" rel="noopener"><span class="title">Amygdala — the threat response</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Contour Bias</div>
+</footer>
+
+</body>
+</html>

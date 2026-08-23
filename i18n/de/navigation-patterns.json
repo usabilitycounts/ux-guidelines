@@ -1,0 +1,90 @@
+{
+ "header h1": [
+  "Navigations<em>muster</em>"
+ ],
+ "header .tagline": [
+  "Menschen zeigen, <em>wo sie sind</em>, wohin sie können und wie sie zurückkommen."
+ ],
+ "header .subtitle": [
+  "Navigation ist das Bindegewebe eines Produkts. Jede Ebene hat eine andere Aufgabe — geben Sie ihnen das richtige Gewicht, und die Struktur wird unsichtbar."
+ ],
+ ".card .tag": [
+  "Primär",
+  "Sekundär",
+  "Unterstützend",
+  "Orientierung",
+  "Auffangbecken",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Globale Navigation",
+  "Lokale Navigation",
+  "Utility-Navigation",
+  "Breadcrumbs",
+  "Footer-Navigation",
+  "Fragen statt Stöbern",
+  "Adaptive und eingeblendete Ziele"
+ ],
+ ".card .desc": [
+  "Die dauerhafte Top-Level-Navigation, die im ganzen Produkt präsent ist. Sie zeigt die Hauptbereiche der Website oder App und bleibt an Ort und Stelle, während Nutzer sich bewegen — die stabile Landkarte, an der alles andere hängt.",
+  "Kontextnavigation innerhalb eines Bereichs, die die Geschwister und Kinder des aktuellen Bereichs zeigt. Sie lässt Menschen dort stöbern, wo sie schon sind, ohne ganz zurück auf die oberste Ebene zu zoomen.",
+  "Konto, Einstellungen, Suche, Hilfe, Warenkorb — die unterstützenden Werkzeuge, die abseits der Inhaltshierarchie sitzen, oft oben rechts. Sie sind überall verfügbar, gehören aber nicht zum Hauptpfad des Stöberns.",
+  "Zeigen Sie die Position des Nutzers in der Hierarchie und bieten Sie einen Pfad nach oben. Am besten für tiefe, hierarchische Strukturen, in denen Menschen verstehen müssen, wie weit unten sie sind, und Ebene für Ebene wieder heraussteigen.",
+  "Ein Auffangbecken für rechtliche Links, sekundäre Links und Sitemap-artigen Zugriff. Niedrigere Priorität als die Hauptnavigation, aber nützlich für Vollständigkeit und für SEO — hier suchen Menschen, wenn die Hauptnavigation nicht hat, was sie brauchen.",
+  "Ein Prompt-Feld wird zum parallelen Navigationsweg: Statt durch Bereiche zu klicken, beschreiben Nutzer das Ziel, und der Assistent bringt sie hin. Menüs bleiben als sichtbare Landkarte des Möglichen — und als Sicherheitsnetz, wenn die Anfrage danebengeht.",
+  "KI kann Ziele neu ordnen, einblenden oder verbergen, je nachdem, was ein Nutzer als Nächstes wahrscheinlich braucht. Stark für die Relevanz — aber halten Sie den globalen Rahmen stabil, sonst höhlen Sie die vorhersehbare Landkarte aus, die Navigation vertrauenswürdig macht."
+ ],
+ ".meta .label": [
+  "Reichweite",
+  "Enthält",
+  "Verhalten",
+  "Reichweite",
+  "Enthält",
+  "Oft ein",
+  "Beispiele",
+  "Platzierung",
+  "Sitzt abseits",
+  "Aufgabe",
+  "Am besten für",
+  "Liest sich",
+  "Enthält",
+  "Priorität",
+  "Bonus",
+  "Wandel",
+  "Menüs werden",
+  "Achtung",
+  "Vorteil",
+  "Stabil halten",
+  "Risiko"
+ ],
+ ".meta .value": [
+  "Ganzes Produkt",
+  "Top-Level-Bereiche",
+  "Dauerhaft · immer sichtbar",
+  "Innerhalb eines Bereichs",
+  "Geschwister und Kinder",
+  "Seitenleiste oder Sub-Tabs",
+  "Konto · Suche · Hilfe · Warenkorb",
+  "Oft oben rechts",
+  "Von der Inhaltshierarchie",
+  "Position + Pfad nach oben",
+  "Tiefe Hierarchien",
+  "Start › Bereich › Seite",
+  "Rechtliches · Sekundäres · Sitemap",
+  "Niedriger",
+  "SEO und Vollständigkeit",
+  "Klickpfade → beschreiben",
+  "Landkarte und Rückfallebene",
+  "Verlust der Auffindbarkeit",
+  "Relevanz · weniger Suchen",
+  "Globaler Rahmen",
+  "Unvorhersehbare Landkarte"
+ ],
+ ".ai-divider h3": [
+  "Navigation im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Fragen beginnt, das Stöbern zu ersetzen. Die Navigation verschwindet nicht — sie wird zur Rückfallebene und zur Landkarte dessen, was der Assistent kann."
+ ]
+}

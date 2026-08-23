@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Gutenberg-<em>Prinzip</em>"
+ ],
+ "header .tagline": [
+  "Von <em>oben links</em> nach <em>unten rechts</em>."
+ ],
+ "header .subtitle": [
+  "Auf gleichmäßig gewichteten Seiten schweift das Auge von oben links nach unten rechts. Das Gutenberg-Prinzip kartiert diese Leseschwerkraft — und wo das Wichtige hingehört."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Edmund_C._Arnold\" target=\"_blank\" rel=\"noopener\">Edmund C. Arnold</a> war ein amerikanischer Zeitungsdesigner und Journalistik-Professor, oft als Vater des modernen Zeitungsdesigns bezeichnet. In einer Laufbahn an den Universitäten Syracuse und Virginia Commonwealth gestaltete er Hunderte Zeitungen neu und schrieb mehr als zwei Dutzend Bücher über Publikationslayout.",
+  "Das Diagramm ist nur durch die Assoziation mit dem Druck nach <a href=\"https://en.wikipedia.org/wiki/Johannes_Gutenberg\" target=\"_blank\" rel=\"noopener\">Johannes Gutenberg</a> benannt; es war Arnold, der die Leseschwerkraft beschrieb — den gewohnheitsmäßigen Schwung von oben links nach unten rechts, antrainiert durch westlichen Text — und sie in ein praktisches Layoutwerkzeug verwandelte."
+ ],
+ ".law-content .law-desc": [
+  "Auf gleichmäßig gewichteten Seiten schweift das Auge vom primären optischen Bereich oben links zum Endbereich unten rechts und schenkt den beiden Brachzonen weit weniger Aufmerksamkeit. Setzen Sie Einstiege nach oben links und Handlungsaufrufe nach unten rechts."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Edmund C. Arnold",
+  "Zeitungslayout in Praxis und Lehre",
+  "CTA unten rechts, Marke oben links"
+ ],
+ ".card .tag": [
+  "Quadrant 1",
+  "Quadrant 2",
+  "Quadrant 3",
+  "Quadrant 4",
+  "Schwerkraft",
+  "Achse",
+  "Gilt",
+  "Ausnahme",
+  "Layout",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Primärer optischer Bereich",
+  "Starke Brachzone",
+  "Schwache Brachzone",
+  "Endbereich",
+  "Leseschwerkraft",
+  "Orientierungsachse",
+  "Wann es gilt",
+  "Wann es nicht gilt",
+  "Praktische Anwendungen",
+  "Chat hat keine Quadranten",
+  "Die Antwort ersetzt das Layout"
+ ],
+ ".card .desc": [
+  "Der Quadrant oben links — dort landet das Auge zuerst, wenn kein anderer visueller Reiz es fängt. In westlichen Lesekulturen gehören Schlagzeilen, Logos und identitätsstiftende Markenzeichen standardmäßig hierhin.",
+  "Der Quadrant oben rechts erhält spürbare, aber reduzierte Aufmerksamkeit. Inhalte hier werden gestreift, nicht gelesen. Ein üblicher Platz für Navigation, Suche oder unterstützende Hero-Bilder.",
+  "Der Quadrant unten links bekommt die geringste Aufmerksamkeit aller vier. Das Auge zieht auf dem Weg nach unten rechts daran vorbei — für viele Nutzer könnte Inhalt hier genauso gut nicht existieren.",
+  "Der Quadrant unten rechts ist der Ort, an dem das Auge nach dem Schwung über die Seite zur Ruhe kommt. Der natürliche Platz für einen Handlungsaufruf — das Auge landet buchstäblich hier, bereit für den nächsten Schritt.",
+  "Der diagonale Zug vom primären Bereich zum Endbereich. Leseschwerkraft ist der Standard — das, was passiert, wenn keine andere visuelle Hierarchie den Schwung unterbricht. Verstärken Sie sie mit Inhalten, die die Reise stützen.",
+  "Die senkrechte Linie von oben rechts nach unten links ist die Achse, gegen die sich das Auge aktiv sträubt. Sie zu kreuzen kostet Mühe — deshalb bekommt Inhalt in den Brachecken so wenig Aufmerksamkeit.",
+  "Das Gutenberg-Prinzip beschreibt ein Standard-Lesemuster — das, was bei gleichmäßig verteiltem, visuell homogenem Inhalt passiert. Zeitungsartige Layouts, textlastige Seiten, dichte Dokumente.",
+  "Jedes starke visuelle Element hebt die Leseschwerkraft auf. An ihre Stelle treten F-Muster oder Z-Muster. Die meisten modernen Webseiten — mit Bildern, Buttons und variierter Typografie — brechen Gutenberg vollständig.",
+  "Wo das Diagramm noch gilt: redaktionelle Layouts, Newsletter, dichte Artikelseiten, Nutzungsbedingungen und jede Komposition, die formell und traditionell wirken soll. Setzen Sie die Autorenzeile nach oben links, den CTA nach unten rechts, und lassen Sie die Schwerkraft den Rest erledigen.",
+  "Eine Konversation ist eine einzelne vertikale Spalte ohne primären Bereich und Endbereich. Die Leseschwerkraft glättet sich zu einem schlichten Strom von Gesprächszügen von oben nach unten.",
+  "Wenn KI die Antwort direkt liefert, gibt es oft gar keine Seite mehr zu gestalten. Das Vier-Quadranten-Diagramm weicht einem einzigen, generierten Antwortblock."
+ ],
+ ".meta .label": [
+  "Hier platzieren",
+  "Warum",
+  "Achtung",
+  "Hier platzieren",
+  "Wirkt als",
+  "Achtung",
+  "Hier vermeiden",
+  "Hier okay",
+  "Achtung",
+  "Hier platzieren",
+  "Warum",
+  "Achtung",
+  "Richtung",
+  "Verstärken mit",
+  "Achtung",
+  "Richtung",
+  "Wirkung",
+  "Einsatz",
+  "Am besten für",
+  "Bedingung",
+  "Kulturell",
+  "Bricht wenn",
+  "Ersetzt durch",
+  "Fazit",
+  "Am besten für",
+  "Logo",
+  "CTA",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Logo · Schlagzeile · Marke",
+  "Erster Blickpunkt des Auges",
+  "RTL-Sprachen spiegeln das",
+  "Navigation · Sekundäre Aktionen · Bild",
+  "Streifblick, kein Fokus",
+  "Kritische Inhalte hier verstecken",
+  "CTAs · Kernbotschaften · Preise",
+  "Footer · Standardtexte · Rechtliches",
+  "Alles, was Nutzer sehen müssen",
+  "Primärer CTA · Registrieren · Kaufen",
+  "Natürlicher Endpunkt des Schwungs",
+  "CTA anderswo vergraben",
+  "Oben links → unten rechts",
+  "Entlang der Linie ausgerichteter Inhalt",
+  "Konkurrierende Diagonalen",
+  "Oben rechts → unten links",
+  "Auge sträubt sich gegen diese Kreuzung",
+  "Sekundärinfos auf dieser Linie verbergen",
+  "Print · Lange Prosa · Dokumente",
+  "Homogener Inhalt",
+  "Westliches LTR-Lesen",
+  "Bilder · CTAs · Typokontrast",
+  "F-Muster · Z-Muster · Spotted",
+  "Selten in moderner UI",
+  "Redaktionell · Newsletter · Print",
+  "Oben links (primär)",
+  "Unten rechts (Endbereich)",
+  "Quadranten → Strom",
+  "Lineare Konversations-UI",
+  "Verlust der CTA-Position",
+  "Layout → Antwort",
+  "Direktantwort-Interfaces",
+  "Kein Raum zum Scannen oder Vergleichen"
+ ],
+ ".ai-divider h3": [
+  "Gutenberg im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Eine Konversation hat keine Quadranten — wird die Antwort direkt geliefert, weicht das Vier-Zonen-Lesemodell einem einzigen vertikalen Strom."
+ ]
+}

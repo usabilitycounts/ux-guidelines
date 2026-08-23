@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Vallée de l’<em>étrange</em>"
+ ],
+ "header .tagline": [
+  "Presque humain est pire que clairement artificiel."
+ ],
+ "header .subtitle": [
+  "Masahiro Mori a observé en 1970 que l’affinité pour une figure humanoïde croît avec le réalisme, puis s’effondre dans le malaise juste avant d’être convaincante. La vallée engloutit désormais les voix et les textes, pas seulement les visages."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)\" target=\"_blank\" rel=\"noopener\">Masahiro Mori</a> était professeur de robotique au Tokyo Institute of Technology. Dans un court essai de 1970, « Bukimi no Tani Genshō », il esquissa une courbe : plus les robots deviennent humains, plus notre affinité grandit — jusqu’à ce que, juste avant la ressemblance parfaite, elle s’effondre en répulsion.",
+  "L’essai passa largement inaperçu pendant des décennies, puis les images de synthèse et les robots humanoïdes marchèrent droit dans le creux qu’il avait prédit. IEEE Spectrum publia la première traduction autorisée en 2012, et la vallée de l’étrange devint l’une des idées les plus citées en robotique, en animation et en design d’interface."
+ ],
+ ".law-content .law-desc": [
+  "Plus une figure devient humaine, plus la réponse émotionnelle est positive — jusqu’à ce que, près de la ressemblance parfaite, de petites imperfections déclenchent une chute brutale dans le malaise. Le mouvement approfondit les pics comme la vallée."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masahiro-mori\">Masahiro Mori</a> (1970)",
+  "« Bukimi no Tani », revue Energy",
+  "Styliser ou perfectionner — jamais presque"
+ ],
+ ".card .tag": [
+  "La courbe",
+  "Mouvement",
+  "Design",
+  "Visages",
+  "Pourquoi",
+  "Pratique",
+  "À l’ère de l’IA",
+  "À l’ère de l’IA"
+ ],
+ ".card h3": [
+  "La forme de la vallée",
+  "Le mouvement creuse la vallée",
+  "Styliser ou perfectionner",
+  "Visages, avatars et images de synthèse",
+  "Pourquoi cela se produit",
+  "Concevoir autour de la vallée",
+  "La vallée des voix",
+  "La vallée des textes"
+ ],
+ ".card .desc": [
+  "L’affinité grimpe à mesure qu’une figure gagne en ressemblance humaine — un robot-jouet bat un bras industriel. Puis, juste avant d’être convaincante, la courbe plonge : la figure cesse d’être une machine charmante et devient un humain qui cloche.",
+  "Seconde observation de Mori : le mouvement amplifie tout. Une figure immobile légèrement fausse dérange ; la même figure en mouvement — regard mort, gestes mal synchronisés — est bien pire. L’animation élève les pics et creuse la vallée.",
+  "La vallée a deux rives sûres. La stylisation assumée — visages Pixar, mascottes, robots évidents — vit heureuse sur la rive proche. Le réalisme parfait occupe la rive lointaine. L’erreur coûteuse est de s’arrêter entre les deux.",
+  "Le public a grimacé devant les visages presque humains des premiers films en images de synthèse, tout en adorant les visages stylisés. Les avatars de produit suivent la même règle : un personnage illustré et sympathique surpasse un visage photoréaliste qui cligne un peu faux.",
+  "Les principales explications s’accordent sur le mécanisme : une figure presque humaine fait prédire un humain au cerveau, et chaque léger écart — peau, regard, rythme — est une erreur de prédiction. La figure est jugée comme une personne défectueuse, pas comme une machine impressionnante.",
+  "Choisissez une rive avant de construire. Posez les attentes tôt — une machine qui s’annonce comme machine est jugée comme telle. Et si le réalisme est l’objectif, budgétez les cinq derniers pour cent : c’est là que vit la vallée.",
+  "Les voix de synthèse aux tics humains — respirations, « euh », hésitations chaleureuses — ont déclenché le même recul que les visages presque humains : les gens se sont sentis trompés, pas charmés. Une voix compétente et honnêtement synthétique reste en sécurité sur la rive proche.",
+  "La prose d’IA tombe aussi dans la vallée : chaleur générique, symétrie prudente, empathie sans personne derrière. Les lecteurs sentent le rythme presque humain avant de savoir le nommer. Une écriture honnêtement assistée par la machine se lit mieux qu’une imitation de personne."
+ ],
+ ".meta .label": [
+  "Axe X",
+  "Axe Y",
+  "Le creux",
+  "Immobile",
+  "En mouvement",
+  "Surveiller",
+  "Rive proche",
+  "Rive lointaine",
+  "Le milieu",
+  "Adoré",
+  "Rejeté",
+  "Règle",
+  "Attente",
+  "Perception",
+  "Résultat",
+  "Décider",
+  "Déclarer",
+  "Budgéter",
+  "Rejet",
+  "Parade",
+  "Indice",
+  "Parade"
+ ],
+ ".meta .value": [
+  "Ressemblance humaine",
+  "Affinité",
+  "Presque — mais pas tout à fait",
+  "Creux léger",
+  "Creux profond",
+  "Les yeux et le rythme d’abord",
+  "Stylisation honnête",
+  "Réalisme parfait",
+  "Là où meurent les budgets",
+  "Personnages stylisés",
+  "Visages presque humains",
+  "Le charme bat la fidélité",
+  "Un humain",
+  "Presque un humain",
+  "L’erreur de prédiction sonne faux",
+  "Quelle rive, dès le départ",
+  "La machine comme machine",
+  "Les cinq derniers pour cent",
+  "Sentiment d’être trompé",
+  "Annoncer la machine",
+  "Rythme presque juste",
+  "Voix machine honnête"
+ ],
+ ".ai-divider h3": [
+  "La vallée de l’étrange à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Mori a tracé la courbe pour les visages et les corps. L’IA l’a portée en terrain neuf : des voix qui respirent presque juste, et une prose presque — mais pas tout à fait — humaine."
+ ]
+}

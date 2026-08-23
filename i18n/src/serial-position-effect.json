@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Serial Position <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "First and last stick. The middle fades."
+ ],
+ "header .subtitle": [
+  "Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, the German psychologist who founded the experimental study of memory, documented the serial position effect in the 1880s — memorizing thousands of nonsense syllables on himself and plotting where recall failed.",
+  "His curves showed recall highest at the start of a list (primacy — items get rehearsed into long-term memory) and at the end (recency — items still sit in working memory), with a sag in the middle. The same experiments produced the forgetting curve and the spacing effect."
+ ],
+ ".law-content .law-desc": [
+  "When people recall a series, performance forms a U: the first items benefit from rehearsal into long-term memory, the last from still being in working memory, and the middle items lose both advantages. In interfaces, position is a memory decision."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-hermann-ebbinghaus\">Hermann Ebbinghaus</a> (1885)",
+  "Memory: A Contribution to Experimental Psychology",
+  "Ends carry the weight"
+ ],
+ ".card .tag": [
+  "Primacy",
+  "Recency",
+  "The curve",
+  "Navigation",
+  "The middle",
+  "Flows",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "First Impressions Get Rehearsed",
+  "The Last Thing Lingers",
+  "The U-Shaped Recall Curve",
+  "Anchor the Ends of the Nav",
+  "Put the Middle to Work",
+  "Sequence Steps Like a Story",
+  "Prompts Have Ends Too",
+  "Lost in the Middle"
+ ],
+ ".card .desc": [
+  "The first items in any sequence get the most attention and the most rehearsal — users return to them mentally while processing the rest. The first menu item, first onboarding screen, and first bullet do disproportionate work.",
+  "The final items sit fresh in working memory when the sequence ends. The last screen of a flow, the closing line of a dialog, and the bottom action in a sheet are recalled almost as well as the first.",
+  "Plot recall against position and the shape is a U — high at both ends, sagging in the middle. Anything that must be remembered from the middle of a sequence needs extra help: emphasis, repetition, or relocation.",
+  "Put the most important destinations first and last in menus and tab bars — Home at one end, the profile or cart at the other. The middle is where secondary destinations live comfortably.",
+  "The sag isn’t wasted space — it’s where low-stakes items belong. Settings sub-pages, edge-case options, and legal links can live mid-list without cost, freeing the ends for what must be found and remembered.",
+  "In onboarding and checkout, users remember how it started and how it ended. Lead with the value, end with the win — and keep the tedious parts (forms, permissions) in the middle where they blur.",
+  "Instructions at the start and end of a long prompt are followed more reliably than ones buried in the middle. The same primacy-recency shape that governs human lists governs what a model attends to.",
+  "Long-context models recall the start and end of their context best — retrieval quality sags for material in between. Feed a model a hundred documents and the middle ones need the most deliberate surfacing."
+ ],
+ ".meta .label": [
+  "Position",
+  "Mechanism",
+  "Use for",
+  "Position",
+  "Mechanism",
+  "Use for",
+  "Shape",
+  "Primacy",
+  "Recency",
+  "First slot",
+  "Last slot",
+  "Middle",
+  "Middle is for",
+  "Ends are for",
+  "Watch for",
+  "Open with",
+  "Close with",
+  "Bury",
+  "Pattern",
+  "Middle",
+  "Known as",
+  "Counter"
+ ],
+ ".meta .value": [
+  "First",
+  "Rehearsal into memory",
+  "Core action · key claim",
+  "Last",
+  "Working memory",
+  "Confirmation · next step",
+  "High ends, low middle",
+  "Long-term memory",
+  "Working memory",
+  "Primary destination",
+  "Second anchor",
+  "Secondary items",
+  "Low-stakes items",
+  "Findable · memorable",
+  "Burying essentials",
+  "The value",
+  "The win",
+  "The paperwork",
+  "Key rules first and last",
+  "Context, not commands",
+  "Lost-in-the-middle",
+  "Rerank · cite · chunk"
+ ],
+ ".ai-divider h3": [
+  "Serial Position in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models have their own middle problem — long contexts recall their start and end best. The old memory curve found a new machine."
+ ]
+}

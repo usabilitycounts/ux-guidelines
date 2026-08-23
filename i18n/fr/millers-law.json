@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Miller"
+ ],
+ "header .tagline": [
+  "Environ <em>sept</em> éléments, plus ou moins deux."
+ ],
+ "header .subtitle": [
+  "L'article de George Miller (1956) a chiffré la mémoire de travail — environ sept blocs. Le chiffre est flou ; la leçon est que la mémoire est limitée, et que le design doit regrouper l'information pour qu'on la retienne sans effort."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/George_Armitage_Miller\" target=\"_blank\" rel=\"noopener\">George A. Miller</a> était un psychologue cognitif américain à Harvard et Princeton et l'un des fondateurs des sciences cognitives. Son article de 1956, The Magical Number Seven, Plus or Minus Two, examinait les limites de la mémoire à court terme — et est devenu l'un des travaux les plus cités de la psychologie.",
+  "Miller a cofondé le Harvard Center for Cognitive Studies avec <a href=\"https://en.wikipedia.org/wiki/Jerome_Bruner\" target=\"_blank\" rel=\"noopener\">Jerome Bruner</a> en 1960, contribuant à mettre fin à la domination du béhaviorisme dans la psychologie américaine. Il a ensuite créé WordNet à Princeton, une base de données lexicale devenue fondatrice pour la linguistique computationnelle. Il a pris soin de préciser que « sept » était un procédé rhétorique — la vraie leçon est le regroupement."
+ ],
+ ".law-content .law-desc": [
+  "Il existe un plafond bas à ce qu'une personne peut garder en mémoire de travail à un instant donné. L'astuce n'est pas de rétrécir les interfaces sous ce plafond — c'est de regrouper l'information en blocs que l'utilisateur peut y faire tenir."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "George A. Miller (1956)",
+  "The Magical Number Seven, Plus or Minus Two",
+  "Regrouper l'information"
+ ],
+ ".card .tag": [
+  "Étude de 1956",
+  "Compression",
+  "Heuristique liée",
+  "Cas classique",
+  "Architecture d'info",
+  "Modèle",
+  "Parcours",
+  "Mythe",
+  "À retenir",
+  "Raffinement",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le nombre magique sept",
+  "Le regroupement",
+  "La reconnaissance plutôt que le rappel",
+  "Formater les nombres en blocs",
+  "Regrouper l'architecture d'information",
+  "Divulgation progressive",
+  "Assistants en plusieurs étapes",
+  "Le contresens courant",
+  "La taille des blocs, pas leur nombre",
+  "Le chiffre a diminué",
+  "L'assistant garde le contexte pour vous",
+  "Le risque : faire confiance à ce qu'on ne peut pas retenir"
+ ],
+ ".card .desc": [
+  "Miller a passé en revue des études sur la perception des hauteurs, la discrimination des goûts et le rappel à court terme — et le même plafond revenait sans cesse : environ sept éléments. Il n'a jamais soutenu que cela devait fixer la longueur des menus ; c'est un contresens devenu parole d'évangile.",
+  "Le moyen de contourner la limite. Regroupez les éléments bruts en blocs porteurs de sens et vous en faites tenir davantage en mémoire. Un numéro de téléphone à 10 chiffres est difficile ; (555) 867-5309 est facile — trois blocs au lieu de dix chiffres, et les blocs eux-mêmes ont des formes familières.",
+  "Même quand la mémoire est bornée, la reconnaissance coûte bien moins cher que le rappel. Affichez les options à l'écran et laissez l'utilisateur pointer la bonne. Menus, autocomplétion, fils d'Ariane, listes d'éléments récents et recherches enregistrées sont autant de contournements de Miller déguisés en fonctionnalités.",
+  "L'exemple d'école. (555) 867-5309 fait trois blocs ; 5558675309 est un magma de dix chiffres. La même logique s'applique aux cartes bancaires, aux IBAN, aux dates, aux numéros de référence et aux codes OTP — formatez pour l'œil et la mémoire, pas pour la colonne de base de données.",
+  "La navigation fonctionne le mieux quand chaque niveau offre un petit ensemble facile à parcourir. Les recherches par tri de cartes convergent régulièrement autour de cinq à neuf catégories par niveau. Au-delà, les utilisateurs perdent la carte mentale de l'emplacement des choses, et les retours en arrière explosent.",
+  "Montrez les quelques choix qui comptent maintenant, révélez le reste à la demande. Panneaux de réglages, formulaires et onboarding en profitent tous — chaque écran reste sous le plafond de la mémoire de travail sans cacher à plus d'un clic ce dont les utilisateurs avancés ont besoin.",
+  "Les longs formulaires se replient en assistants pour des raisons milleriennes. Chaque étape demande un bloc assez petit pour être retenu pendant la décision — l'alternative est une page de quarante champs où l'utilisateur perd le fil de ce qu'il a déjà répondu à mi-parcours.",
+  "« Les menus devraient avoir au plus sept éléments » — Miller n'a jamais dit cela. Ses travaux portaient sur les blocs en mémoire de travail, pas sur le nombre d'éléments d'interface. Les menus se parcourent des yeux, ils ne se retiennent pas. Le 7 ± 2 est un guide de regroupement, pas un plafond strict sur ce qui est à l'écran.",
+  "La bonne lecture : quand un utilisateur doit garder quelque chose en tête au fil d'une tâche — un code, une étape, une comparaison — limitez le bloc à cinq éléments ou moins. Quand il parcourt l'écran qui lui sert de mémoire, la limite ne s'applique pas. Distinguez « le porter » de « le voir ».",
+  "Des décennies de recherches ultérieures ont resserré le chiffre — l'article de Cowan (2001) suggère plutôt quatre blocs pour la véritable mémoire de travail. Le principe tient, en plus tranchant : la mémoire est petite, coûteuse, et le travail du design est de la protéger.",
+  "Un modèle peut porter l'ensemble complet de variables que l'utilisateur ne peut pas retenir. « Quel était le forfait de ce client ? » ou « rappelle-moi quel fichier nous avons modifié en dernier » n'exige plus de le garder en tête — l'assistant s'en souvient tout au long de la session et le ressort au bon moment.",
+  "Quand le modèle gère les blocs que l'utilisateur ne peut pas retenir, l'utilisateur perd la capacité de vérifier. Exposez les sources, les étapes intermédiaires et l'annulation pour que chacun puisse rétablir la vérité de terrain — ne laissez pas « je ne peux pas tout retenir » devenir « je n'ai jamais eu à vérifier »."
+ ],
+ ".meta .label": [
+  "Original",
+  "Plage",
+  "Mal lu comme",
+  "Mécanisme",
+  "Classique",
+  "Effet",
+  "Moins coûteux",
+  "Coûteux",
+  "Appliquer",
+  "Modèle",
+  "Appliquer à",
+  "Éviter",
+  "Cible",
+  "Recherche",
+  "Symptôme",
+  "Montrer",
+  "Révéler",
+  "À surveiller",
+  "Modèle",
+  "Idéal pour",
+  "À surveiller",
+  "Mythe",
+  "Réalité",
+  "Appliquer",
+  "En mémoire",
+  "À l'écran",
+  "Test",
+  "Original",
+  "Affiné",
+  "Pratique",
+  "Évolution",
+  "Aide",
+  "À surveiller",
+  "Risque",
+  "Exposer",
+  "Toujours"
+ ],
+ ".meta .value": [
+  "Hauteurs · goûts · rappel",
+  "5–9 blocs",
+  "« Menus à 7 éléments »",
+  "Regrouper par le sens",
+  "Téléphone · IBAN · dates",
+  "Plus d'infos, même charge",
+  "La reconnaissance",
+  "Le rappel à partir de rien",
+  "Afficher, ne pas interroger",
+  "Grouper les chiffres",
+  "Téléphone · carte · IBAN · OTP",
+  "Chaînes brutes d'un seul tenant",
+  "5–9 par niveau",
+  "Tri de cartes",
+  "Perdu dans la navigation",
+  "Les 5–9 qui comptent",
+  "À la demande",
+  "Cacher l'essentiel",
+  "Un bloc par étape",
+  "Longs formulaires · parcours de configuration",
+  "L'inflation d'étapes masque la longueur totale",
+  "Menus à 7 éléments",
+  "Regrouper, pas compter",
+  "Grouper, puis dimensionner",
+  "≤ 5–9 blocs",
+  "Pas de plafond strict",
+  "Peuvent-ils le retenir ?",
+  "Miller, 1956 · ~7",
+  "Cowan, 2001 · ~4",
+  "Prévoir ≈ 4 par sécurité",
+  "Mémoire utilisateur → assistant",
+  "Longues tâches en plusieurs étapes",
+  "Contexte périmé ou faux",
+  "Réponses invérifiables",
+  "Sources et étapes",
+  "Un chemin de vérification facile"
+ ],
+ ".ai-divider h3": [
+  "La loi de Miller à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'assistant peut porter les blocs qu'un utilisateur ne peut pas retenir — mais l'utilisateur doit encore vérifier ce qu'il ne pouvait pas garder en tête lui-même."
+ ],
+ ".law-formula-note": [
+  "l'empan de mémoire de travail que Miller a observé à travers les tâches."
+ ]
+}

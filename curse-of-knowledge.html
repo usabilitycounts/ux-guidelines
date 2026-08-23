@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-page="curse-of-knowledge">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon.">
+<title>Curse of Knowledge: Why Experts Design Confusing Interfaces — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/curse-of-knowledge.html">
+<meta property="og:title" content="Curse of Knowledge: Why Experts Design Confusing Interfaces — UX Guidelines">
+<meta property="og:description" content="Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/curse-of-knowledge.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Curse of Knowledge: Why Experts Design Confusing Interfaces — UX Guidelines">
+<meta name="twitter:description" content="Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link active">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Curse of <em>Knowledge</em></h1>
+  <p class="tagline">Once you know, you can’t imagine not knowing.</p>
+  <p class="subtitle">Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Colin_Camerer" target="_blank" rel="noopener">Colin Camerer</a>, <a href="https://en.wikipedia.org/wiki/George_Loewenstein" target="_blank" rel="noopener">George Loewenstein</a>, and Martin Weber coined the term in a 1989 economics paper: better-informed traders couldn’t ignore their own knowledge when predicting the behavior of less-informed ones.</p>
+    <p class="body-text">Elizabeth Newton’s 1990 tapping study made it famous — tappers drumming well-known songs predicted listeners would name half of them; listeners got 2.5%. Chip and Dan Heath’s Made to Stick carried the idea into communication and design.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Curse</div>
+    <p class="body-text law-desc">Knowledge is one-way glass: once acquired, it silently rewrites your model of what other people can see. Experts systematically overestimate how much novices know — not from arrogance, but because un-knowing is cognitively impossible.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-colin-camerer">Camerer</a>, <a href="people.html#p-george-loewenstein">Loewenstein</a>, <a href="people.html#p-martin-weber">Weber</a> (1989)</div></div>
+      <div><div class="label">Source</div><div class="value">The Curse of Knowledge in Economic Settings</div></div>
+      <div><div class="label">In practice</div><div class="value">Test on people who don’t know</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The study</span>
+      <span class="num">01 / 08</span>
+      <h3>Tappers and Listeners</h3>
+      <p class="desc">Newton’s tappers heard the full song in their heads and predicted a 50% success rate. Listeners heard knuckles on a table and named 2.5%. Every expert demoing their product is a tapper.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;padding:18px 30px"><div style="display:flex;align-items:center;gap:10px"><span class="ln" style="width:12%;opacity:0.55"></span><span style="height:14px;width:50%;border-radius:7px;background:var(--skel);opacity:0.35;display:block"></span></div><div style="display:flex;align-items:center;gap:10px"><span class="ln" style="width:12%;opacity:0.55"></span><span style="height:14px;width:4%;border-radius:7px;background:var(--il-accent);display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Tappers predicted</div><div class="value">50%</div></div>
+      <div><div class="label">Listeners scored</div><div class="value">2.5%</div></div>
+      <div><div class="label">Every demo</div><div class="value">Is a tapping</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Language</span>
+      <span class="num">02 / 08</span>
+      <h3>Jargon Is Invisible to Its Speakers</h3>
+      <p class="desc">Inside the team, “sync,” “workspace,” and “instance” are plain words. To a new user they’re a locked door. The curse hides exactly which of your words are jargon — only outsiders can see the list.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div style="display:flex;gap:8px;flex-wrap:wrap"><span class="chip"><i style="width:20px"></i></span><span class="chip b"><i style="width:26px"></i></span><span class="chip"><i style="width:16px"></i></span><span class="chip b"><i style="width:22px"></i></span></div><span class="ln faint w-70"></span></div></div>
+    <div class="meta">
+      <div><div class="label">To the team</div><div class="value">Plain words</div></div>
+      <div><div class="label">To new users</div><div class="value">Locked doors</div></div>
+      <div><div class="label">Only outsiders</div><div class="value">See which is which</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Onboarding</span>
+      <span class="num">03 / 08</span>
+      <h3>Written by People Who Know</h3>
+      <p class="desc">Onboarding fails when it’s designed by people who can’t remember not understanding the product. The empty state that “explains everything” explains it in the vocabulary of someone on the other side of the curse.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><span class="ln" style="width:44%;opacity:0.55"></span><span class="ln faint w-88"></span><span class="ln faint w-80"></span><div class="row hot w-46"><i class="w-44"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Written by</div><div class="value">People who know</div></div>
+      <div><div class="label">Read by</div><div class="value">People who don’t</div></div>
+      <div><div class="label">Gap</div><div class="value">The curse itself</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Interfaces</span>
+      <span class="num">04 / 08</span>
+      <h3>The Obvious Icon Isn’t</h3>
+      <p class="desc">To its designer, the icon obviously means export. To users it means whatever their history says it means — often nothing. Pair icons with labels until recognition is proven, not assumed.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;align-items:center"><div style="display:flex;gap:16px"><span class="dot" style="width:22px;height:22px"></span><span class="dot" style="width:22px;height:22px"></span><span class="dot b" style="width:22px;height:22px"></span></div><span class="ln faint w-40"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Obvious to</div><div class="value">Its designer</div></div>
+      <div><div class="label">Fix</div><div class="value">Icon plus label</div></div>
+      <div><div class="label">Assume</div><div class="value">Nothing is obvious</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Antidote</span>
+      <span class="num">05 / 08</span>
+      <h3>Watch Someone Who Doesn’t Know</h3>
+      <p class="desc">The only reliable cure is borrowed ignorance: five first-time users narrating their confusion will find what no expert review can, because the experts literally cannot see it. Usability testing is curse removal.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><span class="dot"></span><i class="w-34"></i></div><div class="row hot"><span class="dot b"></span><i class="w-40"></i></div><div class="row"><span class="dot"></span><i class="w-30"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Cure</div><div class="value">Borrowed ignorance</div></div>
+      <div><div class="label">Five users</div><div class="value">Beat expert review</div></div>
+      <div><div class="label">Testing</div><div class="value">Is curse removal</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Writing</span>
+      <span class="num">06 / 08</span>
+      <h3>Explain Like They’re Smart, Not Informed</h3>
+      <p class="desc">The fix for cursed writing isn’t dumbing down — it’s supplying context. Assume intelligence, assume zero shared vocabulary, define terms at first use, and lead with what the reader can already picture.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><span class="ln" style="width:52%;opacity:0.55"></span><span class="ln faint w-90"></span><span class="ln faint w-84"></span><span class="ln faint w-62"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Assume</div><div class="value">Smart, uninformed</div></div>
+      <div><div class="label">Define</div><div class="value">At first use</div></div>
+      <div><div class="label">Lead with</div><div class="value">The familiar</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Curse of Knowledge in the Age of AI</h3>
+    <p>Prompts assume context the model doesn’t have — and models explain with knowledge the reader doesn’t have. The curse now runs in both directions.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>Prompts Assume Context</h3>
+      <p class="desc">A prompt that fails often fails as a tapper: the writer heard the full song — the codebase, the constraints, the goal — and typed three words of it. The model, like the listener, gets knuckles on a table.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub me w-40"><span class="l w-80"></span></div><div class="bub w-80"><span class="l w-92"></span><span class="l w-84"></span><span class="l w-56"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Failed prompt</div><div class="value">A tapped song</div></div>
+      <div><div class="label">Fix</div><div class="value">Say the context out loud</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>The Model Is Cursed Too</h3>
+      <p class="desc">A model that knows everything explains accordingly — the response assumes vocabulary the reader may not have. Asking for the audience (“explain for a new hire”) is de-cursing the machine.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub w-84"><span class="l w-94"></span><span class="l w-88"></span><span class="l w-80"></span></div><div style="display:flex;gap:8px"><span class="chip b"><i style="width:26px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Cursed output</div><div class="value">Assumes your vocabulary</div></div>
+      <div><div class="label">De-curse</div><div class="value">Name the audience</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.jstor.org/stable/1831894" target="_blank" rel="noopener"><span class="title">The Curse of Knowledge in Economic Settings — Camerer, Loewenstein, Weber, 1989</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Curse_of_knowledge" target="_blank" rel="noopener"><span class="title">Curse of Knowledge</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Colin_Camerer" target="_blank" rel="noopener"><span class="title">Colin Camerer — economist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/George_Loewenstein" target="_blank" rel="noopener"><span class="title">George Loewenstein — economist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Books</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Made_to_Stick" target="_blank" rel="noopener"><span class="title">Made to Stick — Chip and Dan Heath</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Curse of Knowledge</div>
+</footer>
+
+</body>
+</html>

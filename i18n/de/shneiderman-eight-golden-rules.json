@@ -1,0 +1,130 @@
+{
+ "header h1": [
+  "Shneidermans <em>acht goldene Regeln</em>"
+ ],
+ "header .tagline": [
+  "Acht Regeln, die das Interface-Design seit 1985 bestimmen."
+ ],
+ "header .subtitle": [
+  "Ben Shneidermans acht goldene Regeln des Interface-Designs aus Designing the User Interface verdichten Jahrzehnte der HCI-Forschung zu Regeln, die noch immer jeden Bildschirm bestimmen: Konsistenz, Shortcuts, Feedback, Abschluss, Fehlerbehandlung, Umkehrbarkeit, Kontrolle und Gedächtnislast."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> ist Informatiker an der University of Maryland und eine Gründerfigur der Mensch-Computer-Interaktion — er gründete 1983 deren HCI-Labor, und seine Studierenden und Mitarbeiter prägten die Methoden des Fachs.",
+  "Die acht goldenen Regeln erschienen in Designing the User Interface (1986), inzwischen in der sechsten Auflage. Daneben durchziehen Shneidermans Konzept der direkten Manipulation und seine Arbeit zur Informationsvisualisierung („overview first, zoom and filter, details on demand“) moderne Interfaces."
+ ],
+ ".law-content .law-desc": [
+  "Acht Arbeitsregeln für interaktive Systeme: nach Konsistenz streben, universelle Nutzbarkeit anstreben, informatives Feedback bieten, Dialoge mit Abschluss gestalten, Fehler verhindern, einfaches Rückgängigmachen erlauben, Nutzer in Kontrolle halten und die Kurzzeitgedächtnislast senken."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Ben Shneiderman (1986)",
+  "Designing the User Interface",
+  "Die Checkliste vor dem Start"
+ ],
+ ".card .tag": [
+  "Regel 1",
+  "Regel 2",
+  "Regel 3",
+  "Regel 4",
+  "Regel 5",
+  "Regel 6",
+  "Regel 7",
+  "Regel 8",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Nach Konsistenz streben",
+  "Universelle Nutzbarkeit anstreben",
+  "Informatives Feedback bieten",
+  "Dialoge mit Abschluss gestalten",
+  "Fehler verhindern",
+  "Einfaches Rückgängigmachen erlauben",
+  "Nutzer in Kontrolle halten",
+  "Kurzzeitgedächtnislast senken",
+  "Konsistenz gegen Improvisation",
+  "Rückgängigmachen für generierte Arbeit"
+ ],
+ ".card .desc": [
+  "Ähnliche Situationen sollten ähnliche Aktionen erfordern: identische Terminologie, Layouts und Befehlsfolgen im ganzen Produkt. Jede Inkonsistenz ist eine kleine Steuer, die der Nutzer bei jedem Besuch zahlt.",
+  "Gestalten Sie für die ganze Bandbreite der Nutzer: Neulinge brauchen Anleitung und Erklärungen, Experten brauchen Shortcuts und Beschleuniger, und alle brauchen ein Interface, das Unterschiede in Fähigkeiten, Alter, Sprache und Technik respektiert.",
+  "Jede Aktion bekommt eine Antwort, die ihrer Bedeutung entspricht: eine dezente Zustandsänderung für einen Klick, eine klare Bestätigung für einen Kauf. Stille nach einer Aktion ist das Interface-Äquivalent des Ignoriertwerdens.",
+  "Aktionsfolgen brauchen Anfang, Mitte und Ende. Die Bestätigungsseite, der „Gesendet“-Zustand, die abgehakte Checkliste — der Abschluss sagt Nutzern, dass sie loslassen und weitergehen können.",
+  "Die beste Fehlermeldung ist die, die nie erscheint: ungültige Optionen deaktivieren, Formate direkt bei der Eingabe begrenzen, Destruktives bestätigen lassen. Passieren Fehler dennoch, bieten Sie eine einfache, konstruktive Rettung.",
+  "Rückgängig ist die Lizenz zum Ausprobieren. Wenn Aktionen umkehrbar sind, sinkt die Angst und Nutzer probieren Dinge aus — das Produkt wird entdeckt statt studiert. Das Rückgängigmachen sollte Gruppen von Aktionen umfassen, nicht nur die letzte.",
+  "Erfahrene Nutzer wollen spüren, dass das Interface auf ihre Initiative reagiert — nicht, dass sie auf seine reagieren. Überraschungen, Unterbrechungen, erzwungene Touren und unerbetene Änderungen untergraben allesamt das Gefühl von Eigenverantwortung.",
+  "Menschen halten nur eine Handvoll Einheiten gleichzeitig. Halten Sie Informationen über Schritte hinweg sichtbar, bevorzugen Sie Wiedererkennen vor Erinnern, und verlangen Sie nie, dass Nutzer sich merken, was das Interface ihnen gerade gesagt hat.",
+  "Ein Modell kann dieselbe Antwort auf zehn Arten formulieren — charmant im Chat, zersetzend in einem Interface. Beschränken Sie generierte Oberflächen und Texte auf Ihre Muster und Ihr Vokabular: Das Modell improvisiert, das Designsystem hält die Linie.",
+  "Wenn KI Ihr Dokument oder Ihren Code bearbeitet, wird Regel sechs existenziell: Jede generierte Änderung braucht einen prüfbaren Diff und ein einstufiges Rückgängig. Kontrolle und Umkehrbarkeit machen das Delegieren sicher."
+ ],
+ ".meta .label": [
+  "Gleiche Aktion",
+  "Umfasst",
+  "Inkonsistenz",
+  "Neulinge",
+  "Experten",
+  "Alle",
+  "Kleine Aktion",
+  "Große Aktion",
+  "Stille",
+  "Abläufen geben",
+  "Abschluss",
+  "Fehlendes Ende",
+  "Zuerst",
+  "Dann",
+  "Ton",
+  "Rückgängig",
+  "Umfang",
+  "Wirkung",
+  "Initiator",
+  "Vermeiden",
+  "Untergraben durch",
+  "Kontext mitführen",
+  "Bevorzugen",
+  "Nie",
+  "Modell",
+  "Designsystem",
+  "Jede KI-Änderung",
+  "Macht"
+ ],
+ ".meta .value": [
+  "Gleiches Aussehen, gleicher Ort",
+  "Wörter · Layout · Reihenfolge",
+  "Eine wiederkehrende Steuer",
+  "Anleitung",
+  "Beschleuniger",
+  "Zugang",
+  "Dezente Antwort",
+  "Klare Bestätigung",
+  "Wirkt kaputt",
+  "Ein sichtbares Ende",
+  "Gibt Aufmerksamkeit frei",
+  "Bleibender Zweifel",
+  "Fehler unmöglich machen",
+  "Rettung leicht machen",
+  "Konstruktiv, konkret",
+  "Lizenz zum Ausprobieren",
+  "Aktionen und Gruppen",
+  "Angst sinkt",
+  "Der Nutzer",
+  "Unterbrechungen · Überraschungen",
+  "Unerbetene Änderung",
+  "Über Schritte hinweg",
+  "Wiedererkennen vor Erinnern",
+  "Nutzer erneut erinnern lassen",
+  "Improvisiert",
+  "Hält die Linie",
+  "Diff und Rückgängig",
+  "Delegieren sicher"
+ ],
+ ".ai-divider h3": [
+  "Die goldenen Regeln im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Probabilistische Interfaces biegen jede Regel — Konsistenz, Umkehrbarkeit und Kontrolle bedeuten etwas Neues, wenn das System improvisiert."
+ ]
+}

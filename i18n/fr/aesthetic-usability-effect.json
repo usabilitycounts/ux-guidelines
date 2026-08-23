@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Effet</em> esthétique-utilisabilité"
+ ],
+ "header .tagline": [
+  "Un beau design est perçu comme plus facile à utiliser."
+ ],
+ "header .subtitle": [
+  "L'étude de Masaaki Kurosu et Kaori Kashimura sur les distributeurs bancaires (1995) : les interfaces jugées belles sont notées plus faciles à utiliser — qu'elles le soient ou non. Le soin visuel achète de la patience et de la confiance, et peut masquer de vrais problèmes."
+ ],
+ ".law-origin .body-text": [
+  "Masaaki Kurosu et Kaori Kashimura, chercheurs au Hitachi Design Center, ont testé 26 mises en page de distributeurs bancaires en 1995. Les notes de facilité d'utilisation apparente suivaient bien plus fidèlement l'attrait visuel des interfaces que leur utilisabilité réelle.",
+  "Noam Tractinsky a répliqué le résultat dans d'autres cultures en 1997 — « ce qui est beau est utilisable » — et <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> lui a ensuite donné un mécanisme dans Emotional Design : l'affect positif élargit la pensée et rend les gens plus tolérants aux petites difficultés."
+ ],
+ ".law-content .law-desc": [
+  "Les utilisateurs perçoivent un design esthétiquement plaisant comme plus utilisable — et lui accordent plus de patience, plus de confiance et plus d'indulgence pour les petits défauts. L'effet est réel et utile, et il joue dans les deux sens : la beauté peut masquer des problèmes que les tests révéleraient."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masaaki-kurosu\">Kurosu</a> et <a href=\"people.html#p-kaori-kashimura\">Kashimura</a> (1995)",
+  "Utilisabilité apparente — étude ATM, Hitachi",
+  "Le soin visuel achète de la patience"
+ ],
+ ".card .tag": [
+  "L'effet",
+  "Tolérance",
+  "Confiance",
+  "Le piège",
+  "Priorité",
+  "Pratique",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Même fonction, ressenti différent",
+  "Le soin visuel achète de la patience",
+  "La beauté se lit comme de la compétence",
+  "La beauté cache les problèmes",
+  "L'utilisabilité passe toujours en premier",
+  "Investir le soin là où il compte",
+  "Du poli généré, instantanément",
+  "Fluide, assuré, faux"
+ ],
+ ".card .desc": [
+  "Deux écrans aux fonctionnalités identiques : celui qui est aligné, aéré, soigné est jugé plus facile à utiliser avant le moindre clic. L'utilisabilité perçue se forme au premier regard, pas à la première tâche.",
+  "Sur un écran qui semble soigné, les utilisateurs s'attribuent la faute des petits accrocs et réessaient. Sur un écran négligé, le même accroc devient la faute du produit et l'onglet se ferme. L'esthétique est un budget d'indulgence.",
+  "Le soin visuel est pris comme un indicateur du soin d'ingénierie — souvent à raison : une équipe qui a soigné le crénage des titres a probablement testé le tunnel de paiement. Confiance à la première visite, taux d'inscription et tolérance au prix évoluent tous avec le degré de finition.",
+  "L'effet contamine la recherche : les utilisateurs jugent les beaux prototypes utilisables même après y avoir échoué leurs tâches. Observez ce que les gens font, pas ce qu'ils notent — les scores de satisfaction flattent les designs séduisants.",
+  "L'effet pardonne les petits défauts, pas les parcours cassés. Un magnifique tunnel de paiement qui perd le panier reste un tunnel raté — la finition multiplie une expérience qui fonctionne et ne fait que retarder le verdict sur une expérience cassée.",
+  "Soignez les surfaces qui forment le jugement : premier lancement, accueil, paiement et états vides. Une échelle typographique cohérente, des bords alignés et des espacements honnêtes livrent l'essentiel de l'effet sans la moindre illustration.",
+  "Les modèles produisent par défaut des interfaces propres, alignées, plausibles — la finition n'est plus une preuve de soin. Le signal que les utilisateurs lisent comme de la compétence peut désormais être frappé en quelques secondes, ce qui rend les vrais tests d'utilisabilité plus importants, pas moins.",
+  "L'effet esthétique-utilisabilité a une forme textuelle : une prose fluide et bien structurée est jugée plus exacte qu'une prose maladroite disant la même chose. L'assurance d'un modèle est un habillage — vérifiez l'affirmation, pas la finition."
+ ],
+ ".meta .label": [
+  "Jugé",
+  "Suit",
+  "Pas",
+  "Soigné",
+  "Négligé",
+  "Esthétique",
+  "Indicateur de",
+  "Fait bouger",
+  "Se gagne par",
+  "Risque recherche",
+  "Confiance",
+  "Métrique",
+  "Pardonne",
+  "Pas",
+  "Finition",
+  "Soigner d'abord",
+  "Gains faciles",
+  "Ignorer",
+  "Finition",
+  "Donc",
+  "Fluidité",
+  "Vérifier"
+ ],
+ ".meta .value": [
+  "Au premier regard",
+  "L'attrait visuel",
+  "La réussite réelle des tâches",
+  "Les utilisateurs réessaient",
+  "Les utilisateurs abandonnent",
+  "Un budget d'indulgence",
+  "Le soin d'ingénierie",
+  "Confiance et conversion",
+  "La cohérence, pas la décoration",
+  "Notes gonflées",
+  "Le comportement plutôt que l'opinion",
+  "Réussite des tâches",
+  "Les petits défauts",
+  "Les parcours cassés",
+  "Multiplie, ne sauve jamais",
+  "Premier lancement · paiement",
+  "Alignement · espacement",
+  "La décoration pour elle-même",
+  "N'est plus une preuve de soin",
+  "Tester ce qu'elle fait",
+  "Se lit comme de l'exactitude",
+  "L'affirmation, pas la finition"
+ ],
+ ".ai-divider h3": [
+  "L'effet esthétique-utilisabilité à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les interfaces générées arrivent soignées par défaut — et une prose fluide et assurée déclenche le même effet dans le texte. Une belle sortie n'est pas une sortie correcte."
+ ]
+}

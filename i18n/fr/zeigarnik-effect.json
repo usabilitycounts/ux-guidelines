@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Effet</em> Zeigarnik"
+ ],
+ "header .tagline": [
+  "Ce qui est inachevé reste en mémoire."
+ ],
+ "header .subtitle": [
+  "Bluma Zeigarnik a découvert que les tâches interrompues et incomplètes sont bien mieux mémorisées que les tâches terminées. Les boucles ouvertes ramènent les gens — le moteur derrière les barres de progression, les séries et chaque relance « complétez votre profil »."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a> était une psychologue lituano-soviétique formée auprès de Kurt Lewin à Berlin. La légende veut que l'idée soit née dans un café : les serveurs se rappelaient parfaitement les commandes impayées et les oubliaient à l'instant où l'addition était réglée.",
+  "Ses expériences de 1927 l'ont confirmé — les participants interrompus en pleine tâche se rappelaient ces tâches environ deux fois mieux que celles terminées. Elle a ensuite cofondé la pathopsychologie expérimentale à Moscou, et l'effet de boucle ouverte qui porte son nom est devenu un classique du design produit."
+ ],
+ ".law-content .law-desc": [
+  "Les tâches interrompues ou incomplètes sont mieux mémorisées que les tâches terminées. Une boucle ouverte crée une tension diffuse qui ramène sans cesse l'attention jusqu'à ce que la boucle se ferme — l'achèvement la libère, et le souvenir s'estompe."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Bluma Zeigarnik (1927)",
+  "On Finished and Unfinished Tasks",
+  "Montrer ce qui reste ouvert"
+ ],
+ ".card .tag": [
+  "La boucle",
+  "Progression",
+  "Check-lists",
+  "Complétion",
+  "Éthique",
+  "Clôture",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Les boucles ouvertes attirent l'attention",
+  "Montrer les étapes restantes",
+  "La case non cochée",
+  "La complétude du profil",
+  "Ne pas transformer la boucle en arme",
+  "Laisser les boucles vraiment se fermer",
+  "Le brouillon laissé ouvert",
+  "Les agents gardent des boucles ouvertes"
+ ],
+ ".card .desc": [
+  "Une barre de progression incomplète est un petit crochet psychologique — l'esprit garde un fil d'arrière-plan sur tout ce qui est visiblement inachevé. Les produits qui montrent leurs boucles ouvertes font revenir les utilisateurs sans envoyer une seule notification.",
+  "Un indicateur d'étapes qui montre deux étapes sur quatre accomplies recrute l'effet honnêtement : l'utilisateur voit exactement ce qui est ouvert et ce que la fermeture exige. Une progression vague (« vous y êtes presque ! ») gaspille la tension qu'elle crée.",
+  "Les check-lists d'onboarding fonctionnent parce que chaque élément non coché est sa propre boucle ouverte. Trois faits et un ouvert, c'est presque irrésistible — c'est pourquoi les meilleures check-lists sont courtes, réelles et achevables.",
+  "La jauge de complétude de LinkedIn est l'usage canonique : un 70 % visible rend l'achèvement nécessaire. Cela fonctionne quand chaque étape restante améliore réellement l'expérience — et tourne au vinaigre quand ce n'est que de la collecte de données.",
+  "Les séries qui punissent un jour manqué, les paniers qui harcèlent pendant des semaines, les faux messages « plus qu'une étape » — l'incomplétude fabriquée brûle la confiance dont l'effet dépend. Si la boucle n'a pas été ouverte par l'utilisateur, la fermer n'est pas son travail.",
+  "L'effet a une seconde moitié : l'achèvement libère la tension, et cette libération est la récompense. Des états « terminé » clairs, des confirmations satisfaisantes et des boîtes de réception vides donnent aux utilisateurs la clôture que la boucle ouverte promettait.",
+  "Un assistant qui laisse un brouillon visible — un e-mail à moitié écrit, une modification en pause — ramène l'utilisateur pour finir sa pensée. L'état reprenable, c'est l'effet Zeigarnik travaillant pour l'utilisateur plutôt que contre lui.",
+  "Un agent en arrière-plan est une boucle ouverte que l'utilisateur n'avait pas autrefois. Montrez la tâche en cours, sa progression et sa fin — une boucle invisible génère de l'anxiété, une boucle visible génère de la confiance."
+ ],
+ ".meta .label": [
+  "Mécanisme",
+  "Libérée par",
+  "Rétention gratuite",
+  "Montrer",
+  "Être",
+  "Éviter",
+  "Garder les listes",
+  "Chaque élément",
+  "La dernière case ouverte",
+  "Fonctionne quand",
+  "Tourne mal quand",
+  "Zone idéale",
+  "Test",
+  "Tension fabriquée",
+  "Respecter",
+  "États terminés",
+  "La libération",
+  "Ensuite",
+  "Modèle",
+  "Effet",
+  "Montrer",
+  "Boucles invisibles"
+ ],
+ ".meta .value": [
+  "Tension de tâche",
+  "L'achèvement",
+  "Aucune notification nécessaire",
+  "Fait et restant",
+  "Précis",
+  "Un vague « presque fini »",
+  "Courtes et achevables",
+  "Une étape réelle",
+  "Fait toute l'attraction",
+  "Les étapes ajoutent une vraie valeur",
+  "C'est de la collecte de données",
+  "60–90 % affichés",
+  "Qui a ouvert la boucle ?",
+  "Brûle la confiance",
+  "Le « terminé » de l'utilisateur",
+  "Les rendre sensibles",
+  "Est la récompense",
+  "Cesser de demander",
+  "Brouillons visibles et reprenables",
+  "Les utilisateurs reviennent finir",
+  "En cours · terminé · en attente",
+  "Se lisent comme de l'anxiété"
+ ],
+ ".ai-divider h3": [
+  "L'effet Zeigarnik à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les agents laissent désormais des boucles ouvertes en votre nom — brouillons, tâches en cours, travaux à moitié finis. Montrer l'inachevé, c'est ainsi que la confiance survit à la délégation."
+ ]
+}

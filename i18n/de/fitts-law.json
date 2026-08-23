@@ -1,0 +1,146 @@
+{
+ "header h1": [
+  "Fitts' Gesetz"
+ ],
+ "header .tagline": [
+  "Groß und <em>nah</em>"
+ ],
+ "header .subtitle": [
+  "Die Zeit zum Treffen eines Ziels hängt von Größe und Entfernung ab. Fitts' Gesetz bestimmt jeden Button, Link und jedes Tippziel — und erklärt, warum sich Ränder und Ecken so schnell anfühlen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> war ein amerikanischer Experimentalpsychologe und Pionier des Human-Factors-Engineering bei der U.S. Air Force. Sein Paper von 1954 modellierte schnelle Zielbewegungen als Abwägung zwischen Distanz und Zielgröße — das Fundament der Zeigegeräte-Forschung.",
+  "Fitts leitete nach dem Zweiten Weltkrieg die Psychologie-Abteilung der U.S. Air Force, wo er untersuchte, warum ausgebildete Piloten gut konstruierte Flugzeuge abstürzen ließen — und nebenbei die Human Factors der Luftfahrt begründete. Sein Schwierigkeitsindex bleibt das Standardmodell zur Bewertung von Zeigegeräten, von Mäusen bis Touchscreens."
+ ],
+ ".law-content .law-desc": [
+  "Die Zeit, ein Ziel anzusteuern, wächst mit der Distanz und schrumpft mit der Zielgröße — logarithmisch. Wird die Distanz verdoppelt, steigt die Zeit um eine Konstante. Wird die Breite verdoppelt, sinkt sie um dieselbe Konstante."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Paul Fitts (1954)",
+  "Journal of Experimental Psychology",
+  "Ziele groß und nah machen"
+ ],
+ ".card .tag": [
+  "Größe (W)",
+  "Distanz (D)",
+  "Abwägung",
+  "Randziel",
+  "Ecke",
+  "Radial",
+  "Padding",
+  "Touch",
+  "Steering",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Größer ist schneller",
+  "Näher ist schneller",
+  "Der schlimmste Fall",
+  "Ränder sind unendlich",
+  "Ecken sind Magie",
+  "Radial- und Pie-Menüs",
+  "Hover-Puffer",
+  "Mobile Touch-Ziele",
+  "Der Tunneleffekt",
+  "Konversationale Eingabe entfernt das Ziel",
+  "KI antizipiert den nächsten Klick"
+ ],
+ ".card .desc": [
+  "W vergrößern, und die Zeigezeit sinkt — schnell. Die größten, meistgenutzten Bedienelemente sollten die größten Bedienelemente sein. Der CTA ist kein Ornament; Größe ist Funktion.",
+  "Distanz erhöht die Zeigezeit logarithmisch — die Kosten einer Bewegung quer über den Bildschirm sind real. Die nächste Aktion neben die letzte legen. Nutzer nicht auf Reisen schicken.",
+  "Klein UND weit weg ist die langsamste mögliche Kombination. Die meisten versehentlichen Klicks passieren hier — ein winziges „Schließen“-Icon in der Ecke gegenüber von Auge und Zeiger.",
+  "Der Cursor kann nicht über die Bildschirmkante hinaus, also hat jedes an die Kante gelegte Ziel entlang dieser Achse effektiv unendliche Breite. Die Mac-Menüleiste ist genau deshalb schneller als jedes Dropdown in Windows.",
+  "Eine Ecke ist in zwei Dimensionen unendlich. Der Cursor stoppt in beiden Achsen abrupt, egal wie stark das Überschießen. Startmenüs, Schließen-Buttons und macOS Hot Corners nutzen das aus — der schnellstmögliche Klick auf dem Bildschirm.",
+  "Ein kreisförmiges Menü legt alle Optionen in dieselbe Distanz zum Cursor — und die Winkelbreite des Segments wird zur effektiven Zielgröße. Geübte Nutzer können Muskelgedächtnis für Richtungen aufbauen, nicht für Zielorte.",
+  "Ein kleines Icon kann eine viel größere unsichtbare Trefferfläche haben. Die klickbare Region per Padding zu erweitern hält das visuelle Element aufgeräumt und das eigentliche Ziel großzügig — ein kostenloses Fitts-Gesetz-Upgrade.",
+  "Auf Touchscreens ist der „Cursor“ eine Fingerkuppe — etwa 9–10 mm breit. Apple empfiehlt mindestens 44 pt, Material 48 dp. Darunter schnellen versehentliche Taps in die Höhe; die schnellste UI wird zur frustrierendsten.",
+  "Den Cursor durch einen engen Korridor zu steuern (kaskadierende Untermenüs, verschachtelte Kontextmenüs) ist dramatisch langsamer als ein offenes Ziel zu treffen — das Steering-Gesetz erweitert Fitts auf Pfade. Aus dem Tunnel zu rutschen setzt den Nutzer zurück.",
+  "Wer eine Anfrage tippt oder spricht, hat keinen Button anzuvisieren. Distanz und Größe hören auf zu zählen — das „Ziel“ wird Sprache, nicht eine Pixelregion.",
+  "Prädiktive UIs zeigen die wahrscheinliche nächste Aktion als großen, nahen Vorschlag. Es ist Fitts' Gesetz, automatisiert — das Ziel reist zum Cursor statt umgekehrt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Am besten für",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Primäre CTAs · Häufige Aktionen",
+  "Aktion ist wichtig oder wiederholt",
+  "Gleiche Größe = Signal gleicher Priorität",
+  "Kontextaktionen · Inline-Bearbeitung",
+  "Der nächste Klick soll mühelos sein",
+  "Erzwungene Zeigerreisen über den Bildschirm",
+  "Audit-Checklisten",
+  "Reibung in Abläufen aufspüren",
+  "Winzige destruktive Buttons weit weg",
+  "Persistente Toolbars · Tabs",
+  "Hot Zones für Power-Nutzer",
+  "Gilt nicht für Browser-Tabs (Fensterrahmen darüber)",
+  "Globale Aktionen · Beenden · Start",
+  "Aktion ist systemweit",
+  "Geht in Nicht-Vollbild-Kontexten verloren",
+  "Kontextmenüs · Spiele",
+  "Kleine feste Auswahl",
+  "Mehr als 8 Segmente = unlesbar",
+  "Icon-Buttons · Toolbars",
+  "Das Visuelle muss kompakt bleiben",
+  "Trefferzonen überlappen Nachbarn",
+  "Alle Touch-Interfaces",
+  "Primäre mobile UI gestalten",
+  "Nachbarziele unter 8 pt = Fehltaps",
+  "Audit-Antimuster",
+  "Tiefe Menükaskaden aufspüren",
+  "Tunnel-Ausrutscher setzen den Nutzer zurück",
+  "Zeigen → beschreiben",
+  "Absicht lässt sich leicht sagen",
+  "Auffindbarkeit von Features",
+  "Zielen → antizipieren",
+  "Nächste Aktion ist vorhersehbar",
+  "Falsche Vermutung erzeugt Reibung"
+ ],
+ ".ai-divider h3": [
+  "Fitts' Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Konversationale und prädiktive Interfaces verändern die Geometrie — manchmal gibt es kein Ziel zum Anvisieren; manchmal kommt das Ziel zu dir."
+ ],
+ ".law-formula-note": [
+  "die Bewegungszeit wächst mit der Distanz (D) und schrumpft mit der Zielbreite (W)."
+ ]
+}

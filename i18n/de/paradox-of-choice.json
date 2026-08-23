@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Paradox der <em>Wahl</em>"
+ ],
+ "header .tagline": [
+  "Wenn mehr Optionen <em>weniger Entscheidungen</em> bedeuten."
+ ],
+ "header .subtitle": [
+  "Mehr Optionen können weniger Entscheidungen bedeuten. Die Forschung hinter Choice Overload — und die Muster, die Menschen aus der Entscheidungslähmung führen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)\" target=\"_blank\" rel=\"noopener\">Barry Schwartz</a> ist ein amerikanischer Psychologe, der seine Laufbahn am Swarthmore College der Schnittstelle von Psychologie und Ökonomie widmete. Sein Buch The Paradox of Choice von 2004 argumentierte, dass jenseits einer bescheidenen Schwelle zusätzliche Optionen Menschen unzufriedener machen, nicht zufriedener.",
+  "Ausgebildet an der NYU und der University of Pennsylvania, lehrte Schwartz vier Jahrzehnte Psychologie in Swarthmore. Sein TED-Talk über das Paradox wurde einer der meistgesehenen überhaupt, und seine spätere Arbeit erkundete, wie Standardwerte, Satisficing und \"gut genug\"-Entscheidungen Menschen vor Entscheidungsmüdigkeit schützen."
+ ],
+ ".law-content .law-desc": [
+  "Das Hicksche Gesetz sagt Ihnen, dass eine Entscheidung langsamer wird. Das Paradox der Wahl sagt Ihnen, dass sie ganz ausbleiben kann. Überschreitet ein Set eine Schwelle (oft rund ein Dutzend Einträge), fühlen sich Nutzer überfordert, schieben auf und konvertieren seltener."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Barry Schwartz (2004)",
+  "The Paradox of Choice",
+  "Auswahl nahe einem Dutzend deckeln; Standards kuratieren"
+ ],
+ ".card .tag": [
+  "Feldstudie",
+  "Lähmung",
+  "Reue",
+  "Kuratierung",
+  "Architektur",
+  "Filter",
+  "Personalisieren",
+  "Vergleichen",
+  "Sweet Spot",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Marmeladen-Studie",
+  "Entscheidungslähmung",
+  "Reue nach der Entscheidung",
+  "Kuratierung statt Menge",
+  "Entscheidungsarchitektur",
+  "Filtern und Sortieren zum Reduzieren",
+  "Empfehlungen",
+  "Vergleichsgrenzen",
+  "Der Arbeitsbereich",
+  "KI kuratiert das Set",
+  "Der Vertrauenshandel"
+ ],
+ ".card .desc": [
+  "Sheena Iyengars Supermarkt-Experiment von 2000: Ein Probierstand mit 24 Marmeladen zog mehr Kundschaft an, aber ein Stand mit nur 6 Marmeladen verkaufte zehnmal mehr. Mehr Auswahl zog die Menge an; weniger Auswahl schloss den Verkauf ab.",
+  "Wenn die kognitiven Kosten des Wählens den wahrgenommenen Nutzen übersteigen, schieben Nutzer die Entscheidung ganz auf. Sie schließen den Tab, heben den Warenkorb für später auf oder wählen \"Ich überlege es mir\" — und die meisten kommen nie zurück.",
+  "Nutzer, die schließlich aus einem großen Set wählen, sind unzufriedener als die, die aus einem kleinen wählten. Jede Alternative wird zur hypothetischen Reue — \"was, wenn ich die andere genommen hätte?\"",
+  "Redaktionelle Vorauswahl — \"unsere 5 Favoriten\" — konvertiert besser als der volle Katalog. Der Nutzer tauscht unendliche Optionalität gegen Vertrauen in Ihren Geschmack — und akzeptiert meist.",
+  "Wie Optionen gerahmt werden, prägt, welche gewählt werden. Ein vorausgewählter Standard, ein Empfehlungs-Badge oder schlicht eine bestimmte Reihenfolge lenkt das Verhalten stärker als die Wahl selbst.",
+  "Wenn Sie den Katalog nicht reduzieren können, lassen Sie den Nutzer ihn reduzieren. Filter verwandeln unüberschaubare 2.000 in handhabbare 20, die der Nutzer wirklich will. Gute Filter-UI ist das Überdruckventil des Choice Overload.",
+  "Nutzen Sie Daten — Beliebtheit, ähnliche Nutzer, früheres Verhalten —, um das Set vorab zu verengen. \"Weil Sie … gesehen haben\" ist eine getarnte Auswahlreduktion — und der Grund, warum Streamingdienste nicht ihren vollen Katalog vorneweg zeigen.",
+  "Der direkte Vergleich nebeneinander taugt für 2–4 Einträge. Darüber hinaus wird die Tabelle selbst zur neuen Überlastungsquelle — zu viele Zeilen mit feinen Unterschieden, keine klare \"beste\" Antwort.",
+  "Keine magische Zahl — es hängt vom Gewicht der Entscheidung, der Erfahrung des Nutzers und der visuellen Unterscheidbarkeit ab. Aber der praxiserprobte Bereich, der sowohl willkürlich wirkende Kargheit als auch Überlastung vermeidet, liegt grob bei 3 bis 10, die meisten Teams landen bei 5 bis 7.",
+  "Statt 10.000 Optionen zeigt das Modell drei gute — oder erledigt die Aufgabe einfach. Die Überlastung löst sich auf, ersetzt durch eine neue Frage: Vertrauen Sie der Kuratierung?",
+  "KI wählen zu lassen beseitigt die Entscheidungsmüdigkeit, fügt aber Vertrauenskosten hinzu. Die besten KI-Entscheidungen bleiben umkehrbar und erklären sich selbst, damit der Nutzer das Gefühl von Kontrolle behält."
+ ],
+ ".meta .label": [
+  "Studie",
+  "Ergebnis",
+  "Lehre",
+  "Symptom",
+  "Ursache",
+  "Abmildern",
+  "Berichtet",
+  "Warum",
+  "Gegenmittel",
+  "Am besten für",
+  "Muster",
+  "Achtung",
+  "Hebel",
+  "Konzept",
+  "Achtung",
+  "Am besten für",
+  "Zeigen",
+  "Achtung",
+  "Am besten für",
+  "Eingaben",
+  "Achtung",
+  "Sweet Spot",
+  "Über 4",
+  "Achtung",
+  "Standardbereich",
+  "Verwandt",
+  "Über 10",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Tauscht",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Iyengar und Lepper, 2000",
+  "6 Marmeladen → 10× mehr Verkäufe",
+  "Aufmerksamkeit ≠ Konversion",
+  "Verlassener Warenkorb · lange Sitzungen",
+  "Kosten der Wahl &gt; wahrgenommener Gewinn",
+  "Kleinere Sets · klare Empfehlung",
+  "Geringere Zufriedenheit beim gleichen Produkt",
+  "Hypothetische Alternativen drohen",
+  "Weniger zeigen, das Richtige empfehlen",
+  "Entdecken · Onboarding",
+  "Redaktionstipps · Team-Favoriten",
+  "Den Rest ganz verstecken",
+  "Standards · Reihenfolge · Rahmung · Badges",
+  "Thaler und Sunstein · \"Nudge\"",
+  "Kippt in Dark Patterns",
+  "E-Commerce · Kataloge · Suche",
+  "Aktive Filter · Trefferzahl",
+  "Filter, die alle Treffer verbergen",
+  "Medien · Shopping · News-Feeds",
+  "Historie · Kohorte · explizite Präferenzen",
+  "Filterblasen · Überanpassung",
+  "2 – 4 Einträge",
+  "Nutzer 2 zum Vergleich wählen lassen",
+  "Datenblatt-Zahlenwand",
+  "3 – 10",
+  "Millers Gesetz (7 ± 2)",
+  "Gruppieren · filtern · suchen · empfehlen",
+  "Stöbern → kuratiert",
+  "Das Set erdrückend ist",
+  "Undurchsichtige, verzerrte Filterung",
+  "Lähmung → Vertrauen",
+  "Entscheidungen wenig auf dem Spiel haben",
+  "Unumkehrbare Automatik-Entscheidungen"
+ ],
+ ".ai-divider h3": [
+  "Das Paradox der Wahl im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI verspricht, die Überlastung zu heilen, indem sie für Sie entscheidet — und tauscht die Lähmung durch zu viele Optionen gegen die Frage, ob man der Wahl vertraut."
+ ]
+}

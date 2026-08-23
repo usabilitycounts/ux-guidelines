@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" data-page="hick">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.">
+<title>Hick’s Law: More Choices, Longer Decision Times — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/hicks-law.html">
+<meta property="og:title" content="Hick&#x27;s Law: More Choices, Longer Decision Times — UX Guidelines">
+<meta property="og:description" content="The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/hicks-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hick&#x27;s Law: More Choices, Longer Decision Times — UX Guidelines">
+<meta name="twitter:description" content="The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --h1c: #6b6b6b;   /* the law */
+    --h2c: #6b6b6b;   /* fewer */
+    --h3c: #6b6b6b;   /* group */
+    --h4c: #6b6b6b;   /* progressive disclosure */
+    --h5c: #6b6b6b;   /* defaults */
+    --h6c: #6b6b6b;   /* categories */
+    --h7c: #6b6b6b;   /* search */
+    --h8c: #6b6b6b;   /* visual distinction */
+    --h9c: #6b6b6b;   /* fatigue */
+    --h10c:#6b6b6b;   /* sweet spot */
+  }
+  /* Tags use one neutral muted scheme */
+
+  /* Card 1 spans full row (the law) */
+  .card.h1c .demo { aspect-ratio: 16 / 10; height: auto; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .card.h1c .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-feature); color: var(--text-primary); font-weight: 500; line-height: var(--lh-heading); }
+  .card.h1c .formula .var {  font-weight: 600; }
+  .card.h1c .meta { grid-template-columns: 1fr 1fr; }
+
+  @keyframes grow-bar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+  .fi-6 { animation-delay: 0.85s; }
+  
+  .bar-grow { transform-origin: bottom; transform-box: fill-box; animation: grow-bar 0.9s ease-out forwards; }
+
+  /* Option pills */
+  .opt-list { display: flex; flex-direction: column; gap: 6px; }
+  .opt.faded { opacity: 0.5; }
+  .opt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  @media (max-width: 600px) {
+    .card.h1c { grid-column: unset; }
+    .card.h1c .meta { grid-template-columns: 1fr 1fr; }
+    
+    
+  }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* ---------- Law feature block (above the card grid) ---------- */
+  .law-feature .formula-box .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-feature); color: var(--text-primary); font-weight: 500; line-height: var(--lh-heading); text-align: center; }
+
+  /* Hick illustrations */
+  .kx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .kx .opt { height: 20px; border-radius: 6px; background: var(--skel); opacity: 0.45; }
+  .kx .opt.hot { background: var(--il-accent); opacity: 1; }
+  .kx .opt.faint { opacity: 0.3; }
+  .kx .roww { display: flex; gap: 8px; }
+  .kx .roww .opt { flex: 1; }
+  .kx .grp { background: var(--surface); border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+  .kx .grp .lab { height: 6px; width: 34%; border-radius: 3px; background: var(--skel-strong); opacity: 0.6; }
+  .kx .grp .opt { height: 12px; }
+  .kx .split { flex-direction: row; display: flex; gap: 16px; align-items: stretch; }
+  .kx .col { flex: 1; display: flex; flex-direction: column; gap: 6px; justify-content: center; }
+  .kx .field { height: 24px; background: var(--surface); border-radius: 12px; display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .kx .field .dot-b { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .kx .chev { width: 14px; height: 14px; background: var(--surface); border-radius: 4px; flex: none; }
+  .kx .col.dense .opt { height: 12px; }
+
+  .kx .row-item { height: 22px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .kx .row-item i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .kx .row-item.sel { background: rgba(56,189,248,0.15); }
+  .kx .row-item.sel i { background: var(--il-accent); opacity: 1; }
+  .kx .row-item .chk { width: 10px; height: 10px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .kx .row-item.ghost { background: var(--skel); opacity: 0.12; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link active">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Hick’s <em>Law</em></h1>
+  <p class="tagline">More choices, <em>longer decisions</em>.</p>
+  <p class="subtitle">The more choices you present, the longer every decision takes. Hick’s Law shapes menus, settings, and onboarding — along with the techniques that work around it.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">RT = a + b · log₂(n + 1)</div>
+    <div class="law-formula-note">reaction time grows with the log of the number of choices (n).</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/William_Edmund_Hick" target="_blank" rel="noopener">William Edmund Hick</a>, a British psychologist, and <a href="https://en.wikipedia.org/wiki/Ray_Hyman" target="_blank" rel="noopener">Ray Hyman</a>, an American psychologist, independently showed in the early 1950s that reaction time grows logarithmically with the number of choices — work that became the Hick-Hyman Law.</p>
+    <p class="body-text">Hick conducted his experiments at Cambridge’s Applied Psychology Unit using telegraph keys and lamps; Hyman, at Johns Hopkins, confirmed the logarithmic relationship with different stimuli a year later. Hyman later became a noted skeptic of parapsychology and a founding fellow of CSICOP.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">Reaction time grows with the logarithm of the number of equally probable choices. Double the number of options, and decision time goes up by a fixed amount — not double, because the brain searches the set, it doesn’t read it linearly.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-william-edmund-hick">William Hick</a> and <a href="people.html#p-ray-hyman">Ray Hyman</a> (1952)</div></div>
+      <div><div class="label">Source</div><div class="value">Choice reaction-time experiments</div></div>
+      <div><div class="label">In practice</div><div class="value">Cut and group options</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<!-- 2. Fewer Options -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Reduce</span>
+      <span class="num">02 / 10</span>
+      <h3>Fewer Options, Faster Choice</h3>
+      <p class="desc">The clearest single application of the law: a menu of 4 is faster to navigate than a menu of 12 — even though the 12 might cover more ground. Reduce what’s not essential and the rest gets faster.</p>
+    </div>
+    <div class="demo"><div class="kx split">
+      <div class="col dense">
+        <span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span>
+        <span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span>
+      </div>
+      <div class="col"><span class="opt"></span><span class="opt hot"></span><span class="opt"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Toolbars · Nav menus · Forms</div></div>
+      <div><div class="label">Test</div><div class="value">Can two items be combined?</div></div>
+      <div><div class="label">Watch for</div><div class="value">Combining beloved features</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="steering-law.html">Steering Law</a></div></div>
+  </article>
+
+  <!-- 3. Group Related Items -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Chunking</span>
+      <span class="num">03 / 10</span>
+      <h3>Group Related Items</h3>
+      <p class="desc">A flat list of 16 is a Hick’s Law nightmare. The same 16 split into 4 groups of 4 is two faster decisions in a row — a 4-way pick, then another 4-way pick. log₂(4)+log₂(4) ≪ log₂(16).</p>
+    </div>
+    <div class="demo"><div class="kx">
+      <div class="grp"><span class="lab"></span><div class="roww"><span class="opt"></span><span class="opt"></span><span class="opt"></span></div></div>
+      <div class="grp"><span class="lab w-26"></span><div class="roww"><span class="opt"></span><span class="opt"></span></div></div>
+      <div class="grp"><span class="lab w-40"></span><div class="roww"><span class="opt"></span><span class="opt"></span><span class="opt"></span><span class="opt"></span></div></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Settings · Long forms · Catalogs</div></div>
+      <div><div class="label">Test</div><div class="value">Can items share a parent label?</div></div>
+      <div><div class="label">Watch for</div><div class="value">Groups too deep — 2 levels max</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+
+  <!-- 4. Progressive Disclosure -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Disclosure</span>
+      <span class="num">04 / 10</span>
+      <h3><a href="progressive-disclosure.html">Progressive Disclosure</a></h3>
+      <p class="desc">Hide advanced or rarely-used options behind an expander. Most users see only the common 5; power users open the full set when they need it. Same UI, two different decision trees.</p>
+    </div>
+    <div class="demo"><div class="kx gap-7">
+      <div class="row-item"><i class="w-36"></i></div>
+      <div class="row-item"><i class="w-28"></i></div>
+      <div class="row-item sel"><i class="w-32"></i><span class="chev" style="margin-left:auto"></span></div>
+      <div class="row-item ghost" style="margin-left:20px"></div>
+      <div class="row-item ghost" style="margin-left:20px"></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Settings · Filters · Power tools</div></div>
+      <div><div class="label">Pattern</div><div class="value">More ⇩ · Show advanced · Expander</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding the option users need most</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="progressive-disclosure.html">Progressive Disclosure</a></div></div>
+  </article>
+
+  <!-- 5. Smart Defaults -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Defaults</span>
+      <span class="num">05 / 10</span>
+      <h3>Smart Defaults</h3>
+      <p class="desc">A well-chosen default removes the decision entirely. If 90% of users pick the same value, make it the default — they get to skip the choice altogether, and the law no longer applies.</p>
+    </div>
+    <div class="demo"><div class="kx gap-7">
+      <div class="row-item"><i class="w-30"></i></div>
+      <div class="row-item sel"><i class="w-38"></i><span class="chk"></span></div>
+      <div class="row-item"><i class="w-26"></i></div>
+      <div class="row-item"><i class="w-34"></i></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Forms · Settings · Wizards</div></div>
+      <div><div class="label">Test</div><div class="value">90/10 rule — what does most pick?</div></div>
+      <div><div class="label">Watch for</div><div class="value">Opt-in vs opt-out ethics</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <!-- 6. Categories vs Long Lists -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Scale</span>
+      <span class="num">06 / 10</span>
+      <h3>Categories vs Long Lists</h3>
+      <p class="desc">At small n, a flat list is fastest. Past ~7 items, breaking into a 2-level hierarchy beats scrolling. Past ~50, hierarchy alone isn’t enough — you need search.</p>
+    </div>
+    <div class="demo"><div class="kx split">
+      <div class="col gap-5">
+        <span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span>
+        <span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span>
+        <span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span><span class="opt faint hpx-11"></span>
+      </div>
+      <div class="col gap-8">
+        <div class="grp"><span class="lab"></span><div class="roww"><span class="opt hpx-10"></span><span class="opt hpx-10"></span></div></div>
+        <div class="grp" style="background:rgba(56,189,248,0.12)"><span class="lab fill-accent"></span><div class="roww"><span class="opt hpx-10"></span><span class="opt hpx-10"></span></div></div>
+        <div class="grp"><span class="lab w-28"></span><div class="roww"><span class="opt hpx-10"></span><span class="opt hpx-10"></span></div></div>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">≤ 7 items</div><div class="value">Flat list — no hierarchy needed</div></div>
+      <div><div class="label">7 – 50</div><div class="value">Categories or filters</div></div>
+      <div><div class="label">50+</div><div class="value">Add search</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Search Beats Browse -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Search</span>
+      <span class="num">07 / 10</span>
+      <h3>Search Beats Browse at Scale</h3>
+      <p class="desc">Browsing forces every user through the full Hick’s curve. Search collapses it to one decision: type the thing you want. For catalogs of hundreds, a search input is the most accessibility win you can ship.</p>
+    </div>
+    <div class="demo"><div class="kx">
+      <div class="chat-input"><span class="box"></span><span class="send"></span></div>
+      <div class="roww"><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span></div>
+      <div class="roww"><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span></div>
+      <div class="roww"><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Catalogs · Docs · Settings &gt; 50</div></div>
+      <div><div class="label">Add</div><div class="value">⌘K shortcut · typeahead</div></div>
+      <div><div class="label">Watch for</div><div class="value">Empty-results dead end</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="wcag-pour.html">WCAG and POUR</a></div></div>
+  </article>
+
+  <!-- 8. Visual Distinction -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Differentiate</span>
+      <span class="num">08 / 10</span>
+      <h3>Visual Distinction Speeds Choice</h3>
+      <p class="desc">Hick’s Law assumes equally probable choices. In practice, making options visually distinct (icon, color, size) cuts the search space — users discard wrong options before reading them.</p>
+    </div>
+    <div class="demo"><div class="kx">
+      <div class="roww"><span class="opt hpx-26"></span><span class="opt hpx-26"></span></div>
+      <div class="roww"><span class="opt hot hpx-26"></span><span class="opt hpx-26"></span></div>
+      <div class="roww"><span class="opt hpx-26"></span><span class="opt hpx-26"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Multi-option lists</div></div>
+      <div><div class="label">Tools</div><div class="value">Icons · Color · Badges · Order</div></div>
+      <div><div class="label">Watch for</div><div class="value">Decoration without meaning</div></div>
+    </div>
+  </article>
+
+  <!-- 9. Decision Fatigue -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Cumulative</span>
+      <span class="num">09 / 10</span>
+      <h3>Decision Fatigue</h3>
+      <p class="desc">Hick’s Law applies once. Decision fatigue is the cumulative cost — every choice draws down a finite pool of mental energy. A wizard of 12 short steps is harder than the math predicts.</p>
+    </div>
+    <div class="demo"><div class="kx gap-6">
+      <div class="roww"><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span></div>
+      <div class="roww"><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span></div>
+      <div class="roww"><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span></div>
+      <div class="roww"><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span></div>
+      <div class="roww"><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span><span class="opt faint hpx-14"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Cumulative cost</div><div class="value">N choices · N decisions</div></div>
+      <div><div class="label">Result</div><div class="value">Users default · skip · abandon</div></div>
+      <div><div class="label">Mitigate</div><div class="value">Save progress · ask less · pre-fill</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="paradox-of-choice.html">Paradox of Choice</a></div></div>
+  </article>
+
+  <!-- 10. The Sweet Spot -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Balance</span>
+      <span class="num">10 / 10</span>
+      <h3>The Sweet Spot</h3>
+      <p class="desc">Hick’s Law doesn’t say “show one option.” Too few choices feels arbitrary or constraining. The right number is the smallest set that still covers the user’s real intent — often 3 to 7 for primary actions.</p>
+    </div>
+    <div class="demo"><div class="kx">
+      <div class="roww"><span class="opt"></span><span class="opt hot"></span><span class="opt"></span></div>
+      <div class="roww"><span class="opt"></span><span class="opt"></span><span class="opt"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Primary actions</div><div class="value">3 – 5</div></div>
+      <div><div class="label">Nav menus</div><div class="value">5 – 7</div></div>
+      <div><div class="label">Filters</div><div class="value">≤ 10 visible (rest progressive)</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Hick’s Law in the Age of AI</h3>
+    <p>The prompt and the agent both attack decision cost from a new angle — replacing the menu with language, or removing the choice entirely.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="kx">
+      <div class="roww"><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span></div>
+      <div class="roww"><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span><span class="opt faint hpx-12"></span></div>
+      <div class="chat-input" style="margin-top:14px"><span class="box"></span><span class="send"></span></div>
+    </div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Prompt Replaces the Menu</h3>
+      <p class="desc">Instead of choosing from N options, the user describes what they want. Hick’s Law is sidestepped — there’s a single input box, not a branching list to scan.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Menu → prompt</div></div><div><div class="label">Use when</div><div class="value">Options are vast</div></div><div><div class="label">Watch for</div><div class="value">Hidden capabilities</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="kx">
+      <div class="roww"><span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span><span class="opt faint"></span></div>
+      <div class="roww" style="justify-content:center"><span class="opt hot" style="flex:0 0 55%;height:28px;border-radius:14px"></span></div>
+    </div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Narrows to One</h3>
+      <p class="desc">Recommenders and agents collapse the option set to a single suggested action — removing the decision entirely. Powerful when right, frustrating when wrong.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Many → one</div></div><div><div class="label">Use when</div><div class="value">A best answer exists</div></div><div><div class="label">Watch for</div><div class="value">No way to see alternatives</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Hick%27s_law" target="_blank" rel="noopener"><span class="title">Hick’s Law</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/William_Edmund_Hick" target="_blank" rel="noopener"><span class="title">William Edmund Hick — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Decision_fatigue" target="_blank" rel="noopener"><span class="title">Decision Fatigue</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Progressive_disclosure" target="_blank" rel="noopener"><span class="title">Progressive Disclosure</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/progressive-disclosure/" target="_blank" rel="noopener"><span class="title">Progressive Disclosure</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/menu-design/" target="_blank" rel="noopener"><span class="title">Menu Design — When You Should Use Which</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/defaults/" target="_blank" rel="noopener"><span class="title">The Power of Defaults</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/hicks-law/" target="_blank" rel="noopener"><span class="title">Hick’s Law on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Hick’s Law</div>
+  <div class="meta-info">Hick and Hyman, 1952</div>
+</footer>
+
+</body>
+</html>

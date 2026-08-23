@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "Über"
+ ],
+ "header .subtitle": [
+  "Wer diese Website macht und warum es sie gibt."
+ ],
+ ".about-section h2": [
+  "Anderswo",
+  "Patrick Neeman",
+  "Über diese Website"
+ ],
+ ".about-section p": [
+  "Patrick Neeman ist ein UX- und Produktdesign-Leader, der seine Laufbahn damit verbracht hat, Software für die Menschen einfacher zu machen, die damit arbeiten müssen. Er schreibt in Langform über UX und KI — auf <a href=\"https://medium.com/@usabilitycounts\" target=\"_blank\" rel=\"noopener\">Medium</a>, <a href=\"https://substack.com/@patrickneeman\" target=\"_blank\" rel=\"noopener\">Substack</a> und <a href=\"https://www.linkedin.com/in/patrick-neeman-ux/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> — für Designer, Produktmanager und User-Researcher, die den Wandel ihres Handwerks navigieren.",
+  "Unter dem Namen Usability Counts schreibt er seit langem über Usability und ist der Erfinder des UX Drinking Game — der Beweis, dass Heuristiken mehr Spaß machen, wenn etwas auf dem Spiel steht.",
+  "Seine aktuelle Arbeit sitzt an der Schnittstelle von Designpraxis und KI: wie Modelle verändern, was Designer gestalten, wie Teams arbeiten und welche der alten Regeln weiterhin gelten. Spoiler: die meisten — und genau deshalb gibt es diese Website.",
+  "UX Guidelines ist eine Arbeitsreferenz für die forschungsgestützten Regeln des Interface-Designs — die Blickmuster, kognitiven Gesetze, Heuristiken und Prinzipien, die Jahrzehnt für Jahrzehnt in guten Produkten auftauchen.",
+  "Jedes Gesetz bekommt dieselbe Behandlung: woher es stammt und wer es entdeckt hat, was es tatsächlich besagt und was es in der Praxis bedeutet — einschließlich dessen, was sich im Zeitalter der KI ändert und was nicht. Die Illustrationen teilen eine gemeinsame Bildsprache: Skeleton Screens, graue Blöcke und ein einziger blauer Akzent, damit die Idee das Gewicht trägt und nicht das Artwork.",
+  "Der Einstieg ist überall möglich. Die <a href=\"sitemap.html\">Sitemap</a> listet jede Seite auf, und das <a href=\"glossary.html\">Glossar</a> erklärt jeden Begriff. Die Pfeiltasten links und rechts wechseln zwischen den Seiten."
+ ]
+}

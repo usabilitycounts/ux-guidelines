@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" data-page="postel">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.">
+<title>Postel’s Law: The Robustness Principle in Interface Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/postels-law.html">
+<meta property="og:title" content="Postel&#x27;s Law: The Robustness Principle in Interface Design — UX Guidelines">
+<meta property="og:description" content="Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/postels-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Postel&#x27;s Law: The Robustness Principle in Interface Design — UX Guidelines">
+<meta name="twitter:description" content="Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
+    --ink: #111111; --muted: #6b6b6b;
+    --p1: #6b6b6b; --p2: #6b6b6b; --p3: #6b6b6b; --p4: #6b6b6b; --p5: #6b6b6b;
+    --p6: #6b6b6b; --p7: #6b6b6b; --p8: #6b6b6b; --ai: #0d9488;
+  }
+
+  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-heading); color: var(--text-primary); text-align: center; max-width: 520px; }
+  .law-feature .formula-box .quote em {  font-style: italic; font-weight: 600; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .demo{width:100%;aspect-ratio: 16 / 10; height: auto;background:var(--bg);border:1.5px solid var(--border);border-radius:14px;padding: 44px 28px 22px;position:relative;overflow:hidden;margin-bottom:24px;order:-1;display:flex;flex-direction:column}.demo::before{content:"";position:absolute;top:0;left:0;right:0;height:30px;background:radial-gradient(circle at 20.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 44.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 68.5px 15px,#9a9a9a 6.5px,transparent 7px),#ececec;border-bottom:1.5px solid var(--border);z-index:1}.demo::after{content:"";position:absolute;top:8.5px;left:92px;right:14px;height:13px;background:rgba(107,107,107,0.22);border-radius:6.5px;z-index:2}.demo-label{position:absolute;top:40px;left:28px;z-index:3;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500}
+  .copyright, .meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; }
+  
+
+  /* Postel illustrations */
+  .px { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .px .b { background: var(--skel); opacity: 0.55; border-radius: 6px; display: block; }
+  .px .b.faint { opacity: 0.32; }
+  .px .b.dark { background: var(--skel-strong); opacity: 0.7; }
+  .px .hot { background: var(--il-accent); opacity: 1; border-radius: 6px; }
+  .px .roww { display: flex; gap: 10px; align-items: center; }
+  .px .field { height: 26px; background: var(--surface); border-radius: 7px; flex: 1; display: flex; align-items: center; padding: 0 12px; gap: 8px; }
+  .px .field.ok { box-shadow: inset 0 0 0 2px var(--il-accent); background: rgba(56,189,248,0.07); }
+  .px .chk { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); flex: none; margin-left: auto; }
+  .px .messy { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.6; }
+  .px .clean { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.7; }
+  .px .funnel { stroke: var(--il-accent); stroke-width: 4; stroke-linecap: round; fill: none; }
+  .px .tile { background: var(--surface); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 7px; flex: 1; justify-content: center; }
+
+  .px .lab { height: 5px; width: 24%; border-radius: 3px; background: var(--skel-strong); opacity: 0.45; display: block; }
+  .px .cellrow { display: flex; gap: 8px; align-items: center; }
+  .px .cell { height: 8px; border-radius: 4px; background: var(--skel-strong); opacity: 0.6; }
+  .px .out { background: var(--surface); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 7px; }
+  .px .bub { border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 5px; background: var(--surface); align-self: flex-start; max-width: 70%; border-bottom-left-radius: 3px; }
+  .px .bub i { height: 5px; border-radius: 2px; background: var(--skel-strong); opacity: 0.6; display: block; }
+  .px .chip { display: inline-block; height: 8px; border-radius: 4px; background: rgba(56,189,248,0.45); }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link active">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Postel’s <em>Law</em></h1>
+  <p class="tagline">Be conservative in what you send, be <em>liberal</em> in what you accept.</p>
+  <p class="subtitle">Jon Postel’s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Jon_Postel" target="_blank" rel="noopener">Jon Postel</a> was an American computer scientist who edited the RFC series and stewarded core internet standards for decades. His robustness principle — be conservative in what you send, liberal in what you accept — appeared in his 1980 TCP specification.</p>
+    <p class="body-text">Postel ran IANA — the Internet Assigned Numbers Authority — essentially by himself for nearly thirty years, earning the informal title ‘god of the internet.’ The robustness principle remains debated in protocol design: too much liberality in what you accept can ossify bugs into de facto standards.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">A system should send clean, strict output but accept generous, messy input. On the network this kept incompatible TCP implementations talking; on the interface, it keeps humans from being punished for typing things in their own format.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-jon-postel">Jon Postel</a> (1980)</div></div>
+      <div><div class="label">Source</div><div class="value">RFC 761, the TCP specification</div></div>
+      <div><div class="label">In practice</div><div class="value">Accept messy input, emit clean output</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card p1">
+    <div class="card-header">
+      <span class="tag">Inputs</span>
+      <h3>Forgiving Form Fields</h3>
+      <p class="desc">Accept the user’s format, then normalize it yourself. Phone numbers with dots, slashes, or spaces; dates as “tomorrow” or “12/3”; emails with stray whitespace — all reasonable input. Strip, parse, and store the clean version without making the user redo their typing.</p>
+    </div>
+    <div class="demo"><div class="px gap-7">
+      <span class="lab"></span>
+      <div class="field ok"><span class="messy w-38"></span><span class="chk"></span></div>
+      <span class="lab w-18"></span>
+      <div class="field ok"><span class="messy w-52"></span><span class="chk"></span></div>
+      <span class="lab w-28"></span>
+      <div class="field ok"><span class="messy w-30"></span><span class="chk"></span></div>
+      <div class="roww" style="margin-top:4px"><span class="hot" style="height:16px;width:60px;border-radius:8px"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Accept</div><div class="value">Any reasonable format</div></div>
+      <div><div class="label">Store</div><div class="value">Clean canonical</div></div>
+      <div><div class="label">Don’t</div><div class="value">Reject and re-ask</div></div>
+    </div>
+  </article>
+
+  <article class="card p2">
+    <div class="card-header">
+      <span class="tag">Outputs</span>
+      <h3>Strict, Predictable Outputs</h3>
+      <p class="desc">The other half of the law: what you produce should be tight, standards-compliant, and unambiguous. Dates in ISO 8601, IDs in a known shape, JSON with a consistent schema. Liberal inputs only work because outputs hold a contract that the rest of the system can rely on.</p>
+    </div>
+    <div class="demo"><div class="px">
+      <div class="out">
+        <div class="cellrow" style="padding-bottom:7px;margin-bottom:2px"><span class="cell" style="width:30%;opacity:0.9;background:var(--skel-emphasis)"></span><span class="cell" style="width:20%;opacity:0.9;background:var(--skel-emphasis)"></span><span class="cell" style="width:24%;opacity:0.9;background:var(--skel-emphasis)"></span></div>
+        <div class="cellrow"><span class="cell w-30"></span><span class="cell w-20"></span><span class="cell w-24"></span></div>
+        <div class="cellrow"><span class="cell w-30"></span><span class="cell w-20"></span><span class="cell w-24"></span></div>
+        <div class="cellrow"><span class="cell w-30"></span><span class="cell w-20"></span><span class="cell w-24"></span></div>
+        <div class="cellrow"><span class="cell w-30"></span><span class="cell w-20"></span><span class="cell w-24"></span></div>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Send</div><div class="value">Strict canonical</div></div>
+      <div><div class="label">Use</div><div class="value">ISO dates · stable schemas</div></div>
+      <div><div class="label">Result</div><div class="value">Predictable downstream</div></div>
+    </div>
+  </article>
+
+  <article class="card p3">
+    <div class="card-header">
+      <span class="tag">Errors</span>
+      <h3>Recover, Don’t Reject</h3>
+      <p class="desc">When input is ambiguous, infer the likely intent and confirm — don’t dump the user back to a blank field. “Looks like you meant Dec 3?” beats a red border and a “format invalid” error. Recovery is faster, kinder, and produces more completed flows.</p>
+    </div>
+    <div class="demo"><div class="px gap-7">
+      <span class="lab"></span>
+      <div class="field ok"><span class="messy" style="width:34%;transform:none"></span><span class="chk"></span></div>
+      <span class="lab w-20"></span>
+      <div class="field"><span class="messy w-46"></span></div>
+      <div class="roww" style="padding-left:12px"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b dark" style="height:6px;width:46%"></span></div>
+      <div class="roww"><span class="hot" style="height:16px;width:58px;border-radius:8px"></span><span class="b faint" style="height:16px;width:58px;border-radius:8px;background:var(--surface)"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Infer</div><div class="value">The likely intent</div></div>
+      <div><div class="label">Confirm</div><div class="value">“Did you mean…?”</div></div>
+      <div><div class="label">Don’t</div><div class="value">Dump back to blank</div></div>
+    </div>
+  </article>
+
+  <article class="card p4">
+    <div class="card-header">
+      <span class="tag">Compatibility</span>
+      <h3>Stay Backwards-Compatible</h3>
+      <p class="desc">Be liberal with what older clients, older URLs, and older data send you. Don’t break links when paths change — redirect. Don’t reject saved files in last year’s format — upgrade them silently. The user shouldn’t pay for your refactor.</p>
+    </div>
+    <div class="demo"><div class="px" style="flex-direction:row;align-items:stretch">
+      <div class="tile" style="opacity:0.5"><span class="b" style="height:8px;width:50%"></span><span class="b faint" style="height:6px;width:82%"></span><span class="b faint" style="height:6px;width:74%"></span><span class="b faint" style="height:6px;width:66%"></span></div>
+      <svg viewBox="0 0 40 40" style="width:34px;flex:none;align-self:center;overflow:visible"><path class="funnel" d="M4 20 L30 20"/><path class="funnel" d="M24 13 L32 20 L24 27"/></svg>
+      <div class="tile" style="background:rgba(56,189,248,0.12)"><span class="b dark" style="height:8px;width:50%"></span><span class="b" style="height:6px;width:82%"></span><span class="b" style="height:6px;width:74%"></span><span class="b" style="height:6px;width:66%"></span><span class="hot" style="height:6px;width:56%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Apply</div><div class="value">Old URLs · old data</div></div>
+      <div><div class="label">Tactic</div><div class="value">Redirect · auto-upgrade</div></div>
+      <div><div class="label">Rule</div><div class="value">Don’t break links</div></div>
+    </div>
+  </article>
+
+  <article class="card p5">
+    <div class="card-header">
+      <span class="tag">Smart parsing</span>
+      <h3>Parse the Way Humans Type</h3>
+      <p class="desc">Names with hyphens, addresses with apartment numbers, prices with currency symbols — let the parser do the work. The user has a mental shape for what they’re entering; meet them at it rather than imposing a stricter shape that only your database cares about.</p>
+    </div>
+    <div class="demo"><div class="px" style="flex-direction:row;align-items:center;gap:14px">
+      <div style="flex:1;display:flex;flex-direction:column;gap:10px">
+        <div class="field"><span class="messy w-56"></span></div>
+        <div class="field"><span class="messy w-40"></span></div>
+        <div class="field"><span class="messy w-66"></span></div>
+      </div>
+      <svg viewBox="0 0 40 40" style="width:30px;flex:none;overflow:visible"><path class="funnel" d="M4 20 L30 20"/><path class="funnel" d="M24 13 L32 20 L24 27"/></svg>
+      <div class="out flex-1"><span class="clean w-85"></span><span class="clean w-85"></span><span class="clean w-60"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Accept</div><div class="value">Human shapes</div></div>
+      <div><div class="label">Normalize</div><div class="value">Behind the scenes</div></div>
+      <div><div class="label">Outcome</div><div class="value">Form completion goes up</div></div>
+    </div>
+  </article>
+
+  <article class="card p6">
+    <div class="card-header">
+      <span class="tag">Defaults</span>
+      <h3>Defaults Are Liberal Input</h3>
+      <p class="desc">A field with a smart default is accepting “I don’t care” as valid input. Country pre-filled by IP, currency by locale, role by team — every safe assumption is one fewer thing the user has to send. Strict outputs still hold; the system just guessed well.</p>
+    </div>
+    <div class="demo"><div class="px gap-7">
+      <span class="lab"></span>
+      <div class="field"><span class="b faint" style="height:6px;width:34%"></span></div>
+      <span class="lab w-20"></span>
+      <div class="field ok" style="background:rgba(56,189,248,0.08)"><span class="hot" style="height:6px;width:42%;border-radius:3px"></span><span class="chk"></span></div>
+      <span class="lab w-26"></span>
+      <div class="field"><span class="b faint" style="height:6px;width:28%"></span></div>
+      <div class="roww" style="margin-top:4px"><span class="hot" style="height:16px;width:60px;border-radius:8px"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Pre-fill</div><div class="value">Anything safe to guess</div></div>
+      <div><div class="label">Sources</div><div class="value">IP · locale · history</div></div>
+      <div><div class="label">Goal</div><div class="value">Less to type</div></div>
+    </div>
+  </article>
+
+  <article class="card p7">
+    <div class="card-header">
+      <span class="tag">Critique</span>
+      <h3>The Limits of Robustness</h3>
+      <p class="desc">Postel’s law has a counter-case: too-tolerant parsers let bad data calcify into the spec, and the system inherits years of “well, we accept that” cruft. The strict half matters — be liberal at the edge, strict in the core, and don’t paper over genuine ambiguity with a guess.</p>
+    </div>
+    <div class="demo"><div class="px gap-7">
+      <div class="field ok"><span class="messy w-40"></span><span class="chk"></span></div>
+      <div class="field ok"><span class="messy w-52"></span><span class="chk"></span></div>
+      <div class="field" style="box-shadow:inset 0 0 0 2px var(--skel-strong)"><span class="messy" style="width:64%;opacity:0.8"></span><span class="b dark" style="width:12px;height:12px;border-radius:50%;flex:none;margin-left:auto"></span></div>
+      <div class="roww" style="padding-left:12px"><span class="b dark" style="height:6px;width:44%"></span></div>
+      <div class="roww" style="padding-left:12px"><span class="b faint" style="height:5px;width:60%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Risk</div><div class="value">Cruft calcifies into spec</div></div>
+      <div><div class="label">Apply</div><div class="value">Liberal edge · strict core</div></div>
+      <div><div class="label">Don’t</div><div class="value">Paper over ambiguity</div></div>
+    </div>
+  </article>
+
+  <article class="card p8">
+    <div class="card-header">
+      <span class="tag">Pairs with</span>
+      <h3>Closes the Tesler Loop</h3>
+      <p class="desc">Postel and Tesler reach the same conclusion from opposite directions. Tesler says complexity has to live somewhere; Postel says when it lives at the boundary, put it on the system side. The forgiving interface is the system absorbing the messiness of the real world.</p>
+    </div>
+    <div class="demo"><div class="px" style="flex-direction:row;align-items:center;gap:14px">
+      <div class="tile"><span class="lab w-40"></span><span class="messy w-88"></span><span class="messy w-70"></span></div>
+      <svg viewBox="0 0 60 60" style="width:58px;flex:none;overflow:visible">
+        <path class="funnel" d="M8 22 A22 18 0 0 1 52 22" style="stroke:var(--il-accent);stroke-width:5"/>
+        <path class="funnel" d="M52 38 A22 18 0 0 1 8 38" style="stroke:var(--skel);opacity:0.7;stroke-width:5"/>
+        <path class="funnel" d="M46 15 L53 23 L44 26" style="stroke:var(--il-accent);stroke-width:5"/>
+        <path class="funnel" d="M14 45 L7 37 L16 34" style="stroke:var(--skel);opacity:0.7;stroke-width:5"/>
+      </svg>
+      <div class="tile"><span class="lab w-40"></span><span class="clean w-88"></span><span class="clean w-70"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Pairs with</div><div class="value"><a href="teslers-law.html">Tesler’s Law</a></div></div>
+      <div><div class="label">Both say</div><div class="value">System absorbs mess</div></div>
+      <div><div class="label">Effect</div><div class="value">Effortless feel</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Postel’s Law in the Age of AI</h3>
+    <p>Models are the most liberal input parsers ever built — and the strictest committee about which interpretation they commit to.</p>
+  </div>
+
+  <article class="card p9">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI as the Ultimate Liberal Parser</h3>
+      <p class="desc">“Book me a flight on Friday” used to need a precise form. Now it doesn’t. Models accept hand-waving, typos, mixed-language input, voice and text together — the most Postel-compliant front door we’ve ever shipped. The form fields haven’t gone away; they’ve moved inside the model.</p>
+    </div>
+    <div class="demo"><div class="px gap-8">
+      <div class="roww"><span class="messy w-24"></span><span class="messy w-34"></span><span class="messy w-18"></span></div>
+      <div class="roww"><span class="messy w-40"></span><span class="messy w-26"></span></div>
+      <div class="chat-input" style="margin-top:6px"><span class="box"></span><span class="send"></span></div>
+      <div class="bub"><i style="width:120px"></i><i style="width:90px"></i></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Form → language</div></div>
+      <div><div class="label">Accepts</div><div class="value">Almost anything</div></div>
+      <div><div class="label">Output</div><div class="value">Still strict</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <article class="card p10">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Risk: Quiet Commitment</h3>
+      <p class="desc">A liberal parser that silently commits to one interpretation is dangerous. The user said “Friday” — the model picked one. Postel’s contract still applies: show what you understood, let the user fix it, never collapse genuine ambiguity into a confident answer.</p>
+    </div>
+    <div class="demo"><div class="px gap-8">
+      <div class="bub" style="max-width:85%"><i style="width:150px"></i><i style="width:120px"></i><span class="cellrow" style="margin-top:2px"><i style="width:40px"></i><span class="chip" style="width:64px"></span><i style="width:52px"></i></span></div>
+      <div class="roww" style="padding-left:4px"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b dark" style="height:6px;width:40%"></span></div>
+      <div class="roww"><span class="hot" style="height:16px;width:64px;border-radius:8px"></span><span class="b" style="height:16px;width:64px;border-radius:8px;background:var(--surface)"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Risk</div><div class="value">Silent interpretation</div></div>
+      <div><div class="label">Fix</div><div class="value">Surface the parse</div></div>
+      <div><div class="label">Always</div><div class="value">Allow correction</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original Source</h3>
+      <ul class="ref-list">
+        <li><a href="https://datatracker.ietf.org/doc/html/rfc760" target="_blank" rel="noopener"><span class="title">RFC 760 — Postel’s original TCP spec</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://datatracker.ietf.org/doc/html/rfc1122" target="_blank" rel="noopener"><span class="title">RFC 1122 — Robustness Principle formalized</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Robustness_principle" target="_blank" rel="noopener"><span class="title">Robustness Principle — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Jon_Postel" target="_blank" rel="noopener"><span class="title">Jon Postel — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Critique</h3>
+      <ul class="ref-list">
+        <li><a href="https://datatracker.ietf.org/doc/html/draft-iab-protocol-maintenance" target="_blank" rel="noopener"><span class="title">IAB — The Harmful Consequences of the Robustness Principle</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Postel’s Law</div>
+  <div class="meta-info">Postel, 1980 · the robustness principle</div>
+</footer>
+
+</body>
+</html>

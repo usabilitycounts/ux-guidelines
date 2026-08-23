@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Peak-End-<em>Regel</em>"
+ ],
+ "header .tagline": [
+  "Erlebnisse werden nach ihrem Höhepunkt und ihrem Ende beurteilt."
+ ],
+ "header .subtitle": [
+  "Daniel Kahnemans Forschung zeigt: Menschen beurteilen ein Erlebnis nach seinem intensivsten Moment und seinem letzten — nicht nach dem Durchschnitt. Gestalten Sie den Höhepunkt, landen Sie sauber und beheben Sie zuerst den schlimmsten Moment."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Daniel_Kahneman\" target=\"_blank\" rel=\"noopener\">Daniel Kahneman</a>, der Nobelpreis-gekrönte Psychologe, etablierte die Regel Anfang der 1990er Jahre mit Barbara Fredrickson — am bekanntesten in einer Kaltwasser-Studie von 1993, in der ein längerer Durchgang mit etwas wärmerem Ende einem kürzeren, objektiv besseren vorgezogen wurde.",
+  "Die Arbeit trennte das erlebende Selbst vom erinnernden Selbst: Was wir wiederholen wollen, entscheidet die Erinnerung, nicht das Erlebnis. Koloskopie-Studien mit Donald Redelmeier bestätigten es klinisch — Enden veränderten, wie ganze Eingriffe erinnert wurden."
+ ],
+ ".law-content .law-desc": [
+  "Menschen beurteilen ein Erlebnis vor allem danach, wie es sich am Höhepunkt anfühlte — dem intensivsten Punkt, gut oder schlecht — und am Ende, nicht nach der Summe oder dem Durchschnitt aller Momente. Die Dauer registriert kaum; die erinnerte Form ist, was zurückkehrt."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-kahneman\">Kahneman</a> und <a href=\"people.html#p-barbara-fredrickson\">Fredrickson</a> (1993)",
+  "When More Pain Is Preferred to Less",
+  "Höhepunkte und Enden gestalten"
+ ],
+ ".card .tag": [
+  "Die Regel",
+  "Der Höhepunkt",
+  "Das Ende",
+  "Ausstiege",
+  "Das Tal",
+  "Dauer",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Die erinnerte Form",
+  "Einen Höhepunkt konstruieren",
+  "Die Landung sauber setzen",
+  "Offboarding ist ein Ende",
+  "Den schlimmsten Moment zuerst beheben",
+  "Vernachlässigung der Dauer",
+  "Die letzte Antwort gewinnt",
+  "Die Rettung ist der Höhepunkt"
+ ],
+ ".card .desc": [
+  "Tragen Sie ein Erlebnis über die Zeit auf, und die Erinnerung behält nur zwei Punkte: das Extrem und das Finale. Alles andere — auch wie lange es dauerte — fällt in sich zusammen. Zwei Momente entscheiden über Bewertung, Verlängerung und Empfehlung.",
+  "Jeder Ablauf verdient einen bewussten Höhepunkt: das Konfetti beim ersten Veröffentlichen, die sofortige Vorschau, der Moment, in dem der Import einfach funktioniert. Ein konstruierter Höhepunkt wiegt in der Erinnerung ein Dutzend kleiner Annehmlichkeiten auf.",
+  "Der letzte Screen eines Ablaufs bleibt überproportional in Erinnerung. Eine klare Bestätigung, eine Zusammenfassung des Geschehenen und ein offensichtlicher nächster Schritt verwandeln eine gewöhnliche Transaktion in eine gute Erinnerung an Ihr Produkt.",
+  "Kündigungen, Retouren und Kontolöschungen sind auch Enden — oft die letzte Erinnerung, die ein Nutzer mitnimmt. Ein würdevoller Abschied macht aus einem abgewanderten Nutzer eine mögliche Rückkehr; ein feindseliger schreibt die bleibende Bewertung.",
+  "Ein negativer Höhepunkt dominiert die Erinnerung genauso wie ein positiver. Bevor Sie irgendetwas polieren, finden Sie den einen schlimmsten Moment der Reise — den Absturz, das verlorene Formular, die überraschende Abbuchung — und beseitigen Sie ihn.",
+  "Ein kurzer Ablauf mit flachem Finale bleibt schlechter in Erinnerung als ein längerer, der gut endet. Ein befriedigender Schlussakkord kann eingesparte Sekunden schlagen — die Erinnerung rechnet nicht nach Minuten ab.",
+  "Nutzer beurteilen eine ganze Sitzung nach der letzten Antwort. Eine Konversation, die mit einer Korrektur, einer Absage oder einer halben Antwort endet, wird als Fehlschlag erinnert — schließen Sie mit der gelösten Antwort und einem sauberen nächsten Schritt.",
+  "Wenn das Modell etwas falsch macht, wird der Moment der Korrektur zum emotionalen Höhepunkt der Sitzung. Eine schnelle, großzügige Rettung bleibt besser in Erinnerung als eine Sitzung, die durchgehend bloß in Ordnung war."
+ ],
+ ".meta .label": [
+  "Behalten",
+  "Verworfen",
+  "Entscheidet",
+  "Eine pro Ablauf",
+  "Schlägt",
+  "Platzieren",
+  "Letzter Screen",
+  "Anbieten",
+  "Nie enden mit",
+  "Abwanderungs-Abläufe",
+  "Würdevoller Abschied",
+  "Feindseliger Abschied",
+  "Priorität",
+  "Negative Höhepunkte",
+  "Dann",
+  "Erinnerung ignoriert",
+  "Erinnerung behält",
+  "Tausch",
+  "Sitzungserinnerung",
+  "Schließen mit",
+  "Der Fehler",
+  "Die Rettung"
+ ],
+ ".meta .value": [
+  "Höhepunkt und Ende",
+  "Durchschnitt und Dauer",
+  "Bewertungen und Wiederkehr",
+  "Bewusster Höhepunkt",
+  "Ein Dutzend Annehmlichkeiten",
+  "Wo der Wert ankommt",
+  "Bestätigen und zusammenfassen",
+  "Der nächste Schritt",
+  "Einer Sackgasse",
+  "Bleiben in Erinnerung",
+  "Lädt zur Rückkehr ein",
+  "Schreibt die Bewertung",
+  "Schlimmster Moment zuerst",
+  "Dominieren die Erinnerung",
+  "Den Höhepunkt bauen",
+  "Länge",
+  "Das Finale",
+  "Sekunden für ein gutes Ende",
+  "Die letzte Antwort",
+  "Auflösung, kein Achselzucken",
+  "Bereitet den Höhepunkt vor",
+  "Ist, was erinnert wird"
+ ],
+ ".ai-divider h3": [
+  "Die Peak-End-Regel im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Eine Konversation mit einem Modell ist ein Erlebnis mit Höhepunkt und Ende. Die letzte Antwort — und die schlechteste — ist, was der Nutzer mitnimmt."
+ ]
+}

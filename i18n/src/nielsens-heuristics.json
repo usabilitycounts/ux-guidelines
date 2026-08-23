@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Nielsen’s 10 Heuristics"
+ ],
+ "header .tagline": [
+  "Ten <em>Rules of Thumb</em> for Spotting What’s Wrong"
+ ],
+ "header .subtitle": [
+  "Jakob Nielsen’s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> is a Danish usability engineer who popularized fast, cheap usability methods at Sun Microsystems before co-founding Nielsen Norman Group with <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> in 1998. His ‘discount usability’ movement made testing with five users an industry standard.",
+  "The ten heuristics were developed with <a href=\"https://en.wikipedia.org/wiki/Rolf_Molich\" target=\"_blank\" rel=\"noopener\">Rolf Molich</a> in 1990 and refined in 1994 from a factor analysis of 249 usability problems. They remain the most widely used checklist in expert review — durable because they describe human constraints, not technologies."
+ ],
+ ".law-content .law-desc": [
+  "Ten broad rules of thumb for interface design — visibility of status, match to the real world, user control, consistency, error prevention, recognition over recall, flexibility, minimalism, good error messages, and help. Not laws: heuristics for finding problems fast."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> and <a href=\"people.html#p-rolf-molich\">Rolf Molich</a>",
+  "Refined from 249 analyzed usability problems",
+  "Run heuristic reviews before user tests"
+ ],
+ ".card .tag": [
+  "Feedback",
+  "Familiarity",
+  "Reversibility",
+  "Predictability",
+  "Guard rails",
+  "Memory load",
+  "Accelerators",
+  "Signal-to-noise",
+  "Plain language",
+  "Just-in-time",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Visibility of System Status",
+  "Match Between System and the Real World",
+  "User Control and Freedom",
+  "Consistency and Standards",
+  "Error Prevention",
+  "Recognition Rather Than Recall",
+  "Flexibility and Efficiency of Use",
+  "Aesthetic and Minimalist Design",
+  "Help Recognize, Diagnose and Recover",
+  "Help and Documentation",
+  "Show the Model Thinking",
+  "Stop & Regenerate"
+ ],
+ ".card .desc": [
+  "The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.",
+  "Speak the user’s language. Use words, phrases, and concepts familiar to them, not system-oriented terms. Follow real-world conventions.",
+  "Users often choose system functions by mistake and need a clearly marked “emergency exit” to leave the unwanted state — support undo and redo.",
+  "Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.",
+  "Better than good error messages is a careful design that prevents the problem from occurring in the first place — guard rails over guides.",
+  "Minimize memory load by making objects, actions, and options visible. Users should not have to remember information from one part of the interface to another.",
+  "Accelerators — unseen by novices — may speed up interaction for experts so the system serves both. Let users tailor frequent actions.",
+  "Interfaces should not contain information that is irrelevant or rarely needed. Every extra unit of information competes with the relevant units and diminishes their visibility.",
+  "Error messages should be expressed in plain language, precisely indicate the problem, and constructively suggest a solution. Tell the user what’s wrong and how to fix it.",
+  "Even though it’s better if the system can be used without documentation, it may be necessary to provide help. Any such information should be easy to search and focused on the user’s task.",
+  "Visibility of system status now means streaming tokens, a thinking shimmer, and tool-call progress. Ten silent seconds during generation reads as a frozen, broken app.",
+  "User control and freedom, AI edition: a stop button mid-stream and a regenerate after. The model’s first answer is a draft, never a dead end."
+ ],
+ ".meta .label": [
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Watch for",
+  "Context",
+  "Implication",
+  "Heuristic",
+  "Show",
+  "Watch for",
+  "Heuristic",
+  "Offer",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Silent loading · Hidden saves",
+  "Long-running actions · Forms",
+  "Show progress, time, and state",
+  "Jargon · System-speak",
+  "Labels · Icons · Error copy",
+  "Borrow from the physical world",
+  "Dead-end flows · No exit",
+  "Forms · Editors · Wizards",
+  "Always offer undo and escape",
+  "Renamed actions · Drift",
+  "Design systems · Multi-page apps",
+  "Codify the pattern, repeat it",
+  "Silent destructive actions",
+  "Delete · Send · Submit",
+  "Confirm or constrain risky paths",
+  "Blank inputs · Cryptic codes",
+  "Forms · Filters · Commands",
+  "Show options; let users pick",
+  "Power users stuck with novice flows",
+  "Productivity tools · Dashboards",
+  "Layer shortcuts on top of basics",
+  "Visual clutter · Information bloat",
+  "Onboarding · Landing · Empty states",
+  "Cut anything that doesn’t earn its place",
+  "“Error 504” · Vague copy",
+  "Forms · APIs · System errors",
+  "Explain what, why, and how to fix",
+  "Buried help · Long manuals",
+  "Settings · Complex features",
+  "Contextual help; concrete steps",
+  "#1 Visibility of status",
+  "Streaming · progress · tools",
+  "Silent waits",
+  "#3 Control & freedom",
+  "Stop · regenerate · edit",
+  "Unstoppable generation"
+ ],
+ ".ai-divider h3": [
+  "Heuristics in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "The ten heuristics still hold — but “system status,” “user control,” and “error prevention” take on new meaning when the system is a probabilistic model."
+ ]
+}

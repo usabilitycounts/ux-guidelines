@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Efecto</em> Zeigarnik"
+ ],
+ "header .tagline": [
+  "Los asuntos pendientes se quedan en la memoria."
+ ],
+ "header .subtitle": [
+  "Bluma Zeigarnik descubrió que las tareas interrumpidas e incompletas se recuerdan mucho mejor que las terminadas. Los ciclos abiertos hacen volver a la gente — el motor detrás de las barras de progreso, las rachas y cada aviso de «completa tu perfil»."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a> fue una psicóloga lituano-soviética que estudió con Kurt Lewin en Berlín. La leyenda dice que la idea nació en un café: los camareros recordaban a la perfección las comandas sin pagar y las olvidaban en cuanto se saldaba la cuenta.",
+  "Sus experimentos de 1927 lo confirmaron — los participantes interrumpidos a mitad de tarea recordaban esas tareas aproximadamente el doble de bien que las terminadas. Después cofundó la patopsicología experimental en Moscú, y el efecto del ciclo abierto que lleva su nombre se convirtió en un básico del diseño de producto."
+ ],
+ ".law-content .law-desc": [
+  "Las tareas interrumpidas o incompletas se recuerdan mejor que las completadas. Un ciclo abierto crea una tensión de baja intensidad que sigue atrayendo la atención hasta que el ciclo se cierra — completarlo la libera, y el recuerdo se desvanece."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Bluma Zeigarnik (1927)",
+  "On Finished and Unfinished Tasks",
+  "Mostrar lo que queda abierto"
+ ],
+ ".card .tag": [
+  "El ciclo",
+  "Progreso",
+  "Listas",
+  "Completitud",
+  "Ética",
+  "Cierre",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Los ciclos abiertos atraen la atención",
+  "Muestra los pasos restantes",
+  "La casilla sin marcar",
+  "Completitud del perfil",
+  "No conviertas el ciclo en un arma",
+  "Deja que los ciclos se cierren de verdad",
+  "El borrador dejado abierto",
+  "Los agentes mantienen ciclos abiertos"
+ ],
+ ".card .desc": [
+  "Una barra de progreso incompleta es un pequeño anzuelo psicológico — la mente mantiene un hilo de fondo sobre cualquier cosa visiblemente inacabada. Los productos que muestran ciclos abiertos recuperan a los usuarios sin enviar una sola notificación.",
+  "Un indicador de pasos que muestra dos de cuatro completados recluta el efecto con honestidad: el usuario puede ver exactamente qué está abierto y qué cuesta cerrarlo. El progreso vago («¡ya casi!») desperdicia la tensión que crea.",
+  "Las listas de onboarding funcionan porque cada elemento sin marcar es su propio ciclo abierto. Tres hechos y uno abierto es casi irresistible — por eso las mejores listas son cortas, reales y terminables.",
+  "El medidor de completitud de LinkedIn es el uso canónico: un 70% visible hace que terminar se sienta necesario. Funciona cuando cada paso restante mejora genuinamente la experiencia — y se agria cuando solo es recolección de datos.",
+  "Las rachas que castigan un día perdido, los carritos que insisten durante semanas, los falsos avisos de «queda 1 paso» — la incompletitud fabricada quema la confianza de la que depende el efecto. Si el ciclo no lo abrió el usuario, cerrarlo no es su trabajo.",
+  "El efecto tiene una segunda mitad: completar libera la tensión, y esa liberación es la recompensa. Los estados de terminado claros, las confirmaciones satisfactorias y las bandejas vacías dan al usuario el cierre que el ciclo abierto prometió.",
+  "Un asistente que deja un borrador visible — medio correo, una edición en pausa — atrae al usuario de vuelta a terminar el pensamiento. El estado reanudable es el efecto Zeigarnik trabajando para el usuario en lugar de contra él.",
+  "Un agente en segundo plano es un ciclo abierto que el usuario antes no tenía. Muestra la tarea en marcha, su progreso y su final — un ciclo invisible genera ansiedad, uno visible genera confianza."
+ ],
+ ".meta .label": [
+  "Mecanismo",
+  "Se libera con",
+  "Retención gratis",
+  "Mostrar",
+  "Ser",
+  "Evitar",
+  "Mantener las listas",
+  "Cada elemento",
+  "La última casilla abierta",
+  "Funciona cuando",
+  "Se agria cuando",
+  "Punto óptimo",
+  "Prueba",
+  "Tensión fabricada",
+  "Respetar",
+  "Estados de terminado",
+  "La liberación",
+  "Después",
+  "Patrón",
+  "Efecto",
+  "Mostrar",
+  "Ciclos invisibles"
+ ],
+ ".meta .value": [
+  "Tensión de tarea",
+  "La finalización",
+  "Sin notificaciones",
+  "Hecho y pendiente",
+  "Específico",
+  "El vago «ya casi»",
+  "Cortas y terminables",
+  "Un paso real",
+  "Es la que tira",
+  "Los pasos añaden valor real",
+  "Es recolección de datos",
+  "60–90% mostrado",
+  "¿Quién abrió el ciclo?",
+  "Quema la confianza",
+  "El «hecho» del usuario",
+  "Hacerlos sentir",
+  "Es la recompensa",
+  "Dejar de pedir",
+  "Borradores visibles y reanudables",
+  "Los usuarios vuelven a terminar",
+  "En marcha · hecho · en cola",
+  "Se leen como ansiedad"
+ ],
+ ".ai-divider h3": [
+  "El efecto Zeigarnik en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Ahora los agentes dejan ciclos abiertos en tu nombre — borradores, tareas en marcha, trabajos a medias. Mostrar lo inacabado es la forma en que la confianza sobrevive a la delegación."
+ ]
+}

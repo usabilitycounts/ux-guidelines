@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Jakob"
+ ],
+ "header .tagline": [
+  "Los usuarios pasan la mayor parte del tiempo en <em>otros</em> sitios."
+ ],
+ "header .subtitle": [
+  "La gente pasa la mayor parte del tiempo en otros sitios, así que espera que el tuyo funcione igual. Sigue las convenciones — y presta atención, porque la IA está reescribiendo lo que significan."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> — el mismo ingeniero de usabilidad danés detrás de las diez heurísticas — enunció su ley de la experiencia de usuario en internet en el año 2000, en pleno apogeo de la época en que cada sitio inventaba su propia navegación.",
+  "La ley es un argumento aritmético: los usuarios pasan casi todo su tiempo en sitios distintos del tuyo, así que tu sitio es la excepción a sus hábitos, no la regla. La familiaridad es una ventaja que obtienes gratis al seguir las convenciones."
+ ],
+ ".law-content .law-desc": [
+  "Los usuarios pasan la mayor parte del tiempo en otros sitios, así que esperan que el tuyo funcione igual. Rompe las convenciones solo donde la ganancia supere claramente el coste de reaprender."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen",
+  "End of Web Design, Alertbox",
+  "Sigue la convención por defecto; innova con moderación"
+ ],
+ ".card .tag": [
+  "La ley",
+  "Transferencia mental",
+  "Convención",
+  "Reutilizar",
+  "Modelo mental",
+  "Excepción",
+  "✦ Era de la IA",
+  "✦ Era de la IA",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La ley",
+  "Transferencia de expectativas",
+  "Las convenciones son poderosas",
+  "No reinventes los patrones estándar",
+  "El modelo mental",
+  "Cuándo romper la convención",
+  "El chat es la nueva convención",
+  "El lenguaje natural como entrada por defecto",
+  "UI adaptativa frente a consistencia",
+  "La convención se está reescribiendo"
+ ],
+ ".card .desc": [
+  "Los usuarios forman su modelo mental de cómo debería funcionar una interfaz a partir de todas las demás interfaces que han usado. Cuanto más se acerque la tuya a esa expectativa acumulada, menos tienen que aprender — y más usable se siente.",
+  "Cada producto que un usuario ha tocado deja un depósito de expectativas. Llegan al tuyo ya \"sabiendo\" dónde deberían estar el carrito, la búsqueda y el menú — porque cien sitios más los pusieron ahí.",
+  "El logo arriba a la izquierda lleva al inicio. El carrito arriba a la derecha. La navegación principal en la parte superior. El texto azul subrayado es un enlace. No son leyes de la naturaleza — son convenciones tan compartidas que bien podrían serlo.",
+  "Un selector de fecha \"creativo\", una barra de desplazamiento novedosa, un desplegable a medida — casi siempre cuestan más de lo que valen. Los controles familiares funcionan porque los usuarios ya llevan miles de repeticiones con ellos.",
+  "Los usuarios no leen tu UI desde cero — la contrastan con un modelo interno construido con la experiencia. Cuando tu interfaz coincide con el modelo, se siente intuitiva. Cuando entra en conflicto, se siente rota.",
+  "La convención no es una jaula. Rómpela solo cuando la ganancia supere claramente el coste de reaprender — y cuando tu nuevo patrón sea tan superior que pueda convertirse en la próxima convención.",
+  "ChatGPT entrenó a cientos de millones de personas en un único patrón: un cuadro de mensaje abajo, respuestas en streaming arriba, un pulgar arriba/abajo. Esa es ahora una expectativa que los usuarios llevan a <em>cada</em> funcionalidad de IA.",
+  "Los usuarios esperan cada vez más <em>escribir lo que quieren</em> en lugar de rebuscar en menús. La paleta de comandos y el prompt de IA están convergiendo — \"dime qué necesitas\" se está convirtiendo en la nueva puerta de entrada.",
+  "La IA puede generar una interfaz distinta para cada usuario — lo contrario del llamado a la uniformidad de la ley de Jakob. La tensión es real: la personalización aumenta la relevancia pero erosiona las convenciones compartidas de las que dependen los usuarios.",
+  "La ley de Jakob sigue vigente — pero el conjunto de \"otros sitios\" al que apunta está cambiando rápido. La base segura ahora incluye affordances de IA: un cuadro de prompt, salida en streaming, \"regenerar\", fuentes citadas y un deshacer para todo lo que el modelo haya tocado."
+ ],
+ ".meta .label": [
+  "Acuñado por",
+  "Idea central",
+  "Implicación",
+  "Fuente",
+  "Depósito",
+  "Beneficio",
+  "Ejemplos",
+  "Fortaleza",
+  "Coste de romperla",
+  "Reutilizar",
+  "Prueba",
+  "Cuidado con",
+  "Construido a partir de",
+  "Coincidencia",
+  "Conflicto",
+  "Romper cuando",
+  "Ejemplos",
+  "Riesgo",
+  "Fijado por",
+  "Expectativa",
+  "Implicación",
+  "Cambio",
+  "Convergen",
+  "Cuidado con",
+  "Ventaja",
+  "Desventaja",
+  "Equilibrio",
+  "Sigue siendo cierto",
+  "Nueva base",
+  "Conclusión"
+ ],
+ ".meta .value": [
+  "Jakob Nielsen (2000)",
+  "Las expectativas se transfieren entre productos",
+  "Sigue las convenciones establecidas",
+  "Cada producto que han usado",
+  "Dónde \"deberían\" estar las cosas",
+  "Curva de aprendizaje cero",
+  "Logo · Carrito · Navegación · Enlaces",
+  "Casi universal en toda la web",
+  "El usuario tiene que reaprender",
+  "Controles nativos · patrones conocidos",
+  "¿La novedad aporta valor real?",
+  "Teatro de innovación",
+  "Experiencia previa",
+  "Se siente intuitivo · invisible",
+  "Se siente roto · frustrante",
+  "Ganancia ≫ coste de reaprender",
+  "Deslizar para refrescar · gestos de swipe",
+  "Confusión · abandono",
+  "ChatGPT · Claude · Copilot",
+  "Cuadro de mensaje · streaming · feedback",
+  "Sigue el idioma de chat que los usuarios conocen",
+  "Navegar → describir",
+  "Paleta ⌘K + prompt de IA",
+  "Ocultar por completo la descubribilidad",
+  "Relevancia · menos desorden",
+  "Sin modelo mental compartido",
+  "Adapta el contenido, mantén el chrome estable",
+  "Cumple las expectativas del usuario",
+  "Prompt · stream · regenerar · citar",
+  "Revisa las convenciones en cada ciclo"
+ ],
+ ".ai-divider h3": [
+  "La ley de Jakob en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA está reescribiendo las convenciones que los usuarios llevan consigo. El punto de referencia está pasando de \"todos los sitios web\" a \"todas las herramientas de IA\"."
+ ]
+}

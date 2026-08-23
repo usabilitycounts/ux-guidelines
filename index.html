@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
+<title>UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/">
+<meta property="og:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
+<meta property="og:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ux-guidelines.com/">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
+<meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --accent: #d4380d;
+  }
+
+  /* ---------- Directory layout ---------- */
+  .home-layout { display: grid; grid-template-columns: 300px 1fr; gap: 64px; max-width: 1440px; margin: 0 auto; padding: 44px 32px 72px; }
+  .home-side { align-self: start; }
+  .home-side .section-head { margin-bottom: 0; }
+  .home-side .card { display: block; position: relative; padding: 18px 20px; margin-bottom: 14px; text-decoration: none; color: inherit; background: var(--bg); border: 1px solid var(--border); grid-template-rows: unset; grid-row: unset; transition: box-shadow 0.15s ease, transform 0.15s ease; }
+  .home-side .card:hover { box-shadow: var(--shadow-lift); transform: translateY(-1px); }
+  .home-side .card h3 { padding-right: 26px; }
+  .home-side .card .card-foot { display: block; margin: 0; padding: 0; }
+  .home-side .card .tag { display: none; }
+  .home-side .card .arrow { position: absolute; top: 14px; right: 16px; font-size: 0; color: var(--text-faint); display: inline-flex; }
+  .home-side .card:hover .arrow { color: var(--text-primary); }
+  .home-side .card .arrow svg { width: 16px; height: 16px; }
+  .home-side .card h3 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-heading); margin: 0 0 6px; }
+  .home-side .card .desc { font-size: var(--fs-ui); color: var(--text-secondary); line-height: var(--lh-body); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+  .home-main .section { padding: 0 0 20px; }
+  .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 6px; }
+  .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
+  .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
+  .home-main .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 44px; padding: 0; }
+  .home-main .card { display: flex; align-items: baseline; text-decoration: none; color: inherit; padding: 8px 0; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
+  .home-main .card h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
+  .home-main .card:hover h3 { text-decoration: underline; }
+  .home-main .card .desc { display: none; }
+  .home-main .card .card-foot { display: none; }
+  .home-main .card .arrow { display: none; }
+
+  @media (max-width: 980px) {
+    .home-layout { grid-template-columns: 1fr; gap: 32px; padding: 32px 20px 48px; }
+    .home-side { position: static; }
+    .home-main .cards-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .home-main .cards-grid { grid-template-columns: 1fr; }
+  }
+@media (hover: none) {
+  .home-side .card:hover { box-shadow: none; transform: none; }
+}
+header { text-align: center; }
+header .subtitle { max-width: 620px; margin-left: auto; margin-right: auto; }
+.lang-tabs { display: inline-flex; margin-bottom: 34px; background: var(--surface-2); border-radius: 10px; padding: 4px; gap: 2px; flex-wrap: wrap; justify-content: center; }
+.lang-tab { border: 0; background: transparent; font-family: var(--font-sans); font-size: var(--fs-ui); color: var(--text-secondary); padding: 8px 16px; border-radius: 8px; cursor: pointer; line-height: 1; }
+.lang-tab:hover { color: var(--text-primary); }
+.lang-tab.active { background: var(--bg); color: var(--text-primary); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); }
+.lang-tab .lang-abbr { display: none; }
+@media (max-width: 600px) {
+  .lang-tab { padding: 8px 12px; }
+  .lang-tab .lang-full { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .lang-tab .lang-abbr { display: inline; }
+}
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link active">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <div class="lang-tabs" aria-label="Language">
+    <button type="button" class="lang-tab" data-lang="en" lang="en"><span class="lang-full">English</span><span class="lang-abbr" aria-hidden="true">EN</span></button>
+    <button type="button" class="lang-tab" data-lang="es" lang="es"><span class="lang-full">Español</span><span class="lang-abbr" aria-hidden="true">ES</span></button>
+    <button type="button" class="lang-tab" data-lang="de" lang="de"><span class="lang-full">Deutsch</span><span class="lang-abbr" aria-hidden="true">DE</span></button>
+    <button type="button" class="lang-tab" data-lang="fr" lang="fr"><span class="lang-full">Français</span><span class="lang-abbr" aria-hidden="true">FR</span></button>
+    <button type="button" class="lang-tab" data-lang="zh" lang="zh"><span class="lang-full">中文</span><span class="lang-abbr" aria-hidden="true">中文</span></button>
+    <button type="button" class="lang-tab" data-lang="ja" lang="ja"><span class="lang-full">日本語</span><span class="lang-abbr" aria-hidden="true">日本語</span></button>
+  </div>
+  <h1>UX <em>Guidelines</em></h1>
+  <p class="subtitle">A growing collection of 44 practical, evidence-based references on how interfaces actually behave — and how people actually use them. Built for designers, researchers, and engineers who care about getting it right.</p>
+</header>
+<script>
+(function () {
+  var cur = 'en';
+  try {
+    var m = location.search.match(/[?&]lang=([a-z]{2})\b/);
+    cur = (m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en');
+  } catch (e) {}
+  document.querySelectorAll('.lang-tab').forEach(function (b) {
+    var active = b.dataset.lang === cur;
+    if (active) b.classList.add('active');
+    b.setAttribute('aria-pressed', active ? 'true' : 'false');
+    b.addEventListener('click', function () {
+      if (b.dataset.lang === cur) return;
+      try { localStorage.setItem('ux-lang', b.dataset.lang); } catch (e) {}
+      location.reload();
+    });
+  });
+})();
+</script>
+
+<main>
+<div class="home-layout">
+<aside class="home-side">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg><h2 class="category-label">Start Here</h2></div>
+      <a class="card" href="nielsens-heuristics.html">
+        <h3>Nielsen’s 10 Heuristics</h3>
+        <p class="desc">Jakob Nielsen’s ten usability principles — the standard checklist.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="fitts-law.html">
+        <h3>Fitts’s Law</h3>
+        <p class="desc">Big and close is fast — the law behind every button and tap target.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="hicks-law.html">
+        <h3>Hick’s Law</h3>
+        <p class="desc">More choices, longer decisions — and how to keep menus fast.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="jakobs-law.html">
+        <h3>Jakob’s Law</h3>
+        <p class="desc">Users live on other sites — yours should work like them.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="eye-scanning-patterns.html">
+        <h3>Eye-Scanning Patterns</h3>
+        <p class="desc">Six scan shapes from decades of eye-tracking research.</p>
+        <div class="card-foot">
+          <span class="tag">6 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="aesthetic-usability-effect.html">
+        <h3>Aesthetic-Usability Effect</h3>
+        <p class="desc">Beautiful design feels easier to use — polish buys patience and trust.</p>
+        <div class="card-foot">
+          <span class="tag">6 lessons</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+</aside>
+<div class="home-main">
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Lay Out The Page</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="eye-scanning-patterns.html">
+        <h3>Eye-Scanning Patterns</h3>
+        <p class="desc">Six scan shapes from decades of eye-tracking research.</p>
+        <div class="card-foot">
+          <span class="tag">6 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="gutenberg-principle.html">
+        <h3>Gutenberg Principle</h3>
+        <p class="desc">Reading gravity flows from top-left down to bottom-right.</p>
+        <div class="card-foot">
+          <span class="tag">4 quadrants</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="grid-and-hierarchy.html">
+        <h3>Grid and Hierarchy</h3>
+        <p class="desc">Grids organize space, hierarchy directs attention.</p>
+        <div class="card-foot">
+          <span class="tag">10 systems</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="gestalt-principles.html">
+        <h3>Gestalt Principles</h3>
+        <p class="desc">How the mind groups what it sees — proximity, similarity, closure.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="von-restorff-effect.html">
+        <h3>Von Restorff Effect</h3>
+        <p class="desc">The one that differs is the one that gets remembered.</p>
+        <div class="card-foot">
+          <span class="tag">6 uses</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="weber-fechner-law.html">
+        <h3>Weber-Fechner Law</h3>
+        <p class="desc">Perception scales with ratios, not absolute amounts.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg><h2 class="category-label">Present And Explain</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="data-visualization.html">
+        <h3>Data Visualization</h3>
+        <p class="desc">Sixteen chart types grouped by the question they answer.</p>
+        <div class="card-foot">
+          <span class="tag">16 chart types</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="universal-icons.html">
+        <h3>Universal Icons</h3>
+        <p class="desc">The small set of glyphs the whole world already reads.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="progressive-disclosure.html">
+        <h3>Progressive Disclosure</h3>
+        <p class="desc">Show what matters right now, reveal the rest on demand.</p>
+        <div class="card-foot">
+          <span class="tag">6 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="cognitive-load-theory.html">
+        <h3>Cognitive Load Theory</h3>
+        <p class="desc">Working memory is the bottleneck — cut the interface’s overhead.</p>
+        <div class="card-foot">
+          <span class="tag">3 loads</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="millers-law.html">
+        <h3>Miller’s Law</h3>
+        <p class="desc">About seven chunks, plus or minus two — working memory’s limit.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="serial-position-effect.html">
+        <h3>Serial Position Effect</h3>
+        <p class="desc">First and last stick, the middle fades — position is memory.</p>
+        <div class="card-foot">
+          <span class="tag">6 positions</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="curse-of-knowledge.html">
+        <h3>Curse of Knowledge</h3>
+        <p class="desc">Once you know something, you can’t imagine not knowing it.</p>
+        <div class="card-foot">
+          <span class="tag">6 antidotes</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg><h2 class="category-label">Structure The Choices</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="hicks-law.html">
+        <h3>Hick’s Law</h3>
+        <p class="desc">More choices, longer decisions — and how to keep menus fast.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="jakobs-law.html">
+        <h3>Jakob’s Law</h3>
+        <p class="desc">Users live on other sites — yours should work like them.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="paradox-of-choice.html">
+        <h3>Paradox of Choice</h3>
+        <p class="desc">More options, fewer decisions — and the patterns that break paralysis.</p>
+        <div class="card-foot">
+          <span class="tag">10 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg><h2 class="category-label">Design Actions And Controls</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="fitts-law.html">
+        <h3>Fitts’s Law</h3>
+        <p class="desc">Big and close is fast — the law behind every button and tap target.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="steering-law.html">
+        <h3>Steering Law</h3>
+        <p class="desc">The narrower the path, the slower the steering gets.</p>
+        <div class="card-foot">
+          <span class="tag">6 tunnels</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="contour-bias.html">
+        <h3>Contour Bias</h3>
+        <p class="desc">Rounded shapes feel safe to press — sharp angles read as alerts.</p>
+        <div class="card-foot">
+          <span class="tag">Bar, 2006</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="navigation-patterns.html">
+        <h3>Navigation Patterns</h3>
+        <p class="desc">Global, local, utility, breadcrumbs — the layers that place the user.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="doherty-threshold.html">
+        <h3>Doherty Threshold</h3>
+        <p class="desc">Under 400 milliseconds, work becomes a conversation.</p>
+        <div class="card-foot">
+          <span class="tag">400 ms</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="power-law-of-practice.html">
+        <h3>Power Law of Practice</h3>
+        <p class="desc">Task time drops as a power of repetitions — the learning curve.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="yerkes-dodson-law.html">
+        <h3>Yerkes-Dodson Law</h3>
+        <p class="desc">Performance rises with arousal, peaks, then falls.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><h2 class="category-label">Keep Them Coming Back</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="aesthetic-usability-effect.html">
+        <h3>Aesthetic-Usability Effect</h3>
+        <p class="desc">Beautiful design feels easier to use — polish buys patience and trust.</p>
+        <div class="card-foot">
+          <span class="tag">6 lessons</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="peak-end-rule.html">
+        <h3>Peak-End Rule</h3>
+        <p class="desc">Experiences get judged by their peak moment and their end.</p>
+        <div class="card-foot">
+          <span class="tag">6 moments</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="uncanny-valley.html">
+        <h3>Uncanny Valley</h3>
+        <p class="desc">Almost-human faces, voices, and text unsettle more than machines.</p>
+        <div class="card-foot">
+          <span class="tag">Mori, 1970</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="zeigarnik-effect.html">
+        <h3>Zeigarnik Effect</h3>
+        <p class="desc">Unfinished tasks stay in memory — open loops pull people back.</p>
+        <div class="card-foot">
+          <span class="tag">6 loops</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="fogg-behavior-model.html">
+        <h3>Fogg Behavior Model</h3>
+        <p class="desc">Behavior needs motivation, ability, and a prompt — B = M · A · P.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="hook-model.html">
+        <h3>Hook Model</h3>
+        <p class="desc">Trigger, action, variable reward, investment — the habit loop.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="ikea-effect.html">
+        <h3>IKEA Effect</h3>
+        <p class="desc">Users value what they help build — labor turns into ownership.</p>
+        <div class="card-foot">
+          <span class="tag">Norton, 2011</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg><h2 class="category-label">Build The System</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="teslers-law.html">
+        <h3>Tesler’s Law</h3>
+        <p class="desc">Complexity never disappears — it only moves. Who absorbs it?</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="galls-law.html">
+        <h3>Gall’s Law</h3>
+        <p class="desc">Working complex systems grow from simple ones that worked.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="conways-law.html">
+        <h3>Conway’s Law</h3>
+        <p class="desc">Products come to mirror the org charts that build them.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="postels-law.html">
+        <h3>Postel’s Law</h3>
+        <p class="desc">Strict in what you send, forgiving in what you accept.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="goodharts-law.html">
+        <h3>Goodhart’s Law</h3>
+        <p class="desc">When a measure becomes a target, it ceases to measure well.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="hofstadters-law.html">
+        <h3>Hofstadter’s Law</h3>
+        <p class="desc">It always takes longer than you expect — even knowing this law.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="pareto-principle.html">
+        <h3>Pareto Principle</h3>
+        <p class="desc">Eighty percent of effects come from twenty percent of causes.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg><h2 class="category-label">Follow The Rulebooks</h2></div>
+  <div class="cards-grid">
+      <a class="card" href="nielsens-heuristics.html">
+        <h3>Nielsen’s 10 Heuristics</h3>
+        <p class="desc">Jakob Nielsen’s ten usability principles — the standard checklist.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="normans-principles.html">
+        <h3>Norman’s Principles</h3>
+        <p class="desc">Affordances, signifiers, mapping, feedback — Norman’s foundations.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="rams-principles.html">
+        <h3>Rams’ 10 Principles</h3>
+        <p class="desc">Less, but better — ten principles of good design, fifty years on.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="shneiderman-eight-golden-rules.html">
+        <h3>Shneiderman’s Eight Golden Rules</h3>
+        <p class="desc">Eight rules that have governed interface design since 1985.</p>
+        <div class="card-foot">
+          <span class="tag">8 rules</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="tognazzinis-first-principles.html">
+        <h3>Tognazzini’s First Principles</h3>
+        <p class="desc">Sixteen working rules for software that respects the user.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="wcag-pour.html">
+        <h3>WCAG and POUR</h3>
+        <p class="desc">The four POUR principles of accessible interface design.</p>
+        <div class="card-foot">
+          <span class="tag">4 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="chestertons-fence.html">
+        <h3>Chesterton’s Fence</h3>
+        <p class="desc">Don’t remove a fence until you know why it’s there.</p>
+        <div class="card-foot">
+          <span class="tag">6 rules</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+</div>
+</div>
+</main>
+
+<footer>
+  <div class="copyright">© UX Guidelines</div>
+  <div class="meta-info">Updated 2026 · Research-backed · Open reference</div>
+</footer>
+
+</body>
+</html>

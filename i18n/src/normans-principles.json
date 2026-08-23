@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Norman’s <em>Principles</em>"
+ ],
+ "header .tagline": [
+  "The interface speaks for itself — or it <em>doesn’t work</em>."
+ ],
+ "header .subtitle": [
+  "Don Norman’s “The Design of Everyday Things” (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> is an American cognitive scientist who directed the Institute for Cognitive Science at UC San Diego, served as an Apple Fellow — where he coined the title ‘user experience architect’ — and co-founded Nielsen Norman Group.",
+  "The Design of Everyday Things (1988, originally The Psychology of Everyday Things) gave design its core vocabulary: affordances, signifiers, mapping, feedback, and conceptual models. Its examples of confusing doors made ‘Norman door’ a term of art."
+ ],
+ ".law-content .law-desc": [
+  "Good design makes possible actions visible, maps controls to effects, and reports what happened. When users fail, the fault usually lies in the design’s communication — not in the user."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-don-norman\">Don Norman</a>",
+  "The Design of Everyday Things",
+  "Show affordances; give instant feedback"
+ ],
+ ".card .tag": [
+  "Action",
+  "Cue",
+  "Layout",
+  "Response",
+  "Limits",
+  "Mental model",
+  "Discoverability",
+  "Sameness",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Affordances",
+  "Signifiers",
+  "Mapping",
+  "Feedback",
+  "Constraints",
+  "Conceptual Model",
+  "Visibility and Discoverability",
+  "Consistency",
+  "The Gulf of Execution Returns",
+  "Feedback for Generated Output"
+ ],
+ ".card .desc": [
+  "The properties of an object that suggest how it can be used. A handle affords pulling, a button affords pushing, a knob affords turning. In software, affordances are mostly perceived — a button “looks clickable” because its shape echoes a physical one. When the affordance lies, the user fails.",
+  "Norman added “signifier” to the second edition because “affordance” had been overloaded. A signifier is the visible signal — a label, an underline, an arrow — that points to where action is possible. Affordance is the underlying capability; signifier is what the user can actually see.",
+  "The relationship between controls and their effects. Light switches that match the position of the bulbs they control; stove knobs aligned with their burners; volume sliders that go up when sound goes up. Bad mapping is why hotel showers and laundry machines are the running joke of UX.",
+  "Every action gets a visible, audible, or tactile response. Without feedback, the user is left guessing whether anything happened, and starts re-clicking, re-submitting, and double-paying. Spinners, toasts, ripple effects, haptic taps, sound — small cues, huge confidence.",
+  "Limits that prevent invalid actions before they happen. A USB plug that only fits one way, a date picker that won’t let you pick before today, a tax form that grays out fields irrelevant to your filing status. Good constraints prevent errors invisibly; bad ones just frustrate.",
+  "The simplified picture of how the thing works that the user carries in their head. The folder metaphor on the desktop, the page metaphor in a browser, the chain of messages in chat. When the system’s actual behavior diverges from the user’s conceptual model, every action becomes a guess.",
+  "Whatever can be done should be visible. Hidden controls, ⌘-only shortcuts, and “if you knew where to look” features all violate this. The user shouldn’t have to remember; the interface should show. Discoverability is what turns a powerful product into a usable one.",
+  "The same thing should always look the same and behave the same. Across screens, across products, and against the platform conventions users have already learned. Inconsistency forces users to constantly re-learn, undermining every other principle on this page.",
+  "Norman’s “gulf of execution” — the distance between what you want to do and how to do it — was nearly closed by direct manipulation interfaces. A blank chat box reopens it. There’s no signifier for what the model can do. Show the affordances back to the user: examples, suggested prompts, capability hints.",
+  "When the model returns an answer, the user’s gulf of evaluation reopens — “did it understand me, did it use the right sources?” Norman’s feedback principle still applies. Surface the reasoning, the sources, the confidence. A clean answer with no scaffolding feels fast but breaks trust on first error."
+ ],
+ ".meta .label": [
+  "Defined",
+  "In UI",
+  "Fails when",
+  "Defined",
+  "Examples",
+  "Pairs with",
+  "Defined",
+  "Classic case",
+  "Fails when",
+  "Defined",
+  "Channels",
+  "Without it",
+  "Kinds",
+  "Effect",
+  "Watch for",
+  "What it is",
+  "Built from",
+  "Diverges",
+  "Defined",
+  "Don’t rely on",
+  "Bad sign",
+  "Across",
+  "Pairs with",
+  "Cost of breaking",
+  "Reopened",
+  "Fix",
+  "Apply",
+  "Principle",
+  "Surface",
+  "Closes"
+ ],
+ ".meta .value": [
+  "Suggests how to use",
+  "Perceived affordance",
+  "Shape misleads",
+  "The visible signal",
+  "Underline · arrow · label",
+  "Affordance",
+  "Control ↔ effect alignment",
+  "Stove knobs",
+  "User has to remember which is which",
+  "Show that it happened",
+  "Visual · auditory · haptic",
+  "Double-clicking · double-charging",
+  "Physical · logical · cultural",
+  "Errors prevented quietly",
+  "Over-constraint = frustration",
+  "User’s simplified picture",
+  "Past experience · metaphor",
+  "Every action is a guess",
+  "Show what’s possible",
+  "Memory",
+  "“You have to know”",
+  "Screens · products · platforms",
+  "<a href=\"jakobs-law.html\">Jakob’s Law</a>",
+  "Re-learning everywhere",
+  "Gulf of execution",
+  "Suggested prompts · examples",
+  "Visibility · signifiers",
+  "Feedback",
+  "Reasoning · sources",
+  "Gulf of evaluation"
+ ],
+ ".ai-divider h3": [
+  "Norman’s Principles in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "The conversational interface re-poses every one of Norman’s questions — what can I do, did it work, what does it know about my model?"
+ ]
+}

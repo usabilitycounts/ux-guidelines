@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Conway"
+ ],
+ "header .tagline": [
+  "Toute organisation qui conçoit un système produit un design qui <em>copie son organigramme</em>."
+ ],
+ "header .subtitle": [
+  "L'observation de Melvin Conway (1967) sur la programmation — et la règle la plus fiable pour prédire où un produit aura des coutures. Partout où l'équipe doit passer le relais, le produit le fait aussi."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> est un informaticien américain. Dans son article de 1968 How Do Committees Invent?, il a observé que les organisations produisent des designs qui copient leurs propres structures de communication — une observation que <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> a plus tard baptisée loi de Conway.",
+  "Conway a obtenu des diplômes de physique et de mathématiques avant de construire des compilateurs et des systèmes d'exploitation dans les années 1960. La Harvard Business Review a rejeté l'article faute de preuves ; des décennies de recherche en génie logiciel depuis — y compris des études chez Microsoft et au MIT — ont confirmé empiriquement l'effet miroir."
+ ],
+ ".law-content .law-desc": [
+  "La forme d'un produit suit la forme de l'équipe qui l'a construit. Les scissions dans l'équipe deviennent des scissions dans l'architecture. Une coordination fluide dans l'organisation devient des transitions propres dans l'UX. L'organigramme est une spécification plus longue et plus silencieuse que tout ce qu'il y a dans le PRD."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Melvin Conway (1967)",
+  "How Do Committees Invent?",
+  "Structurez les équipes comme le produit que vous voulez"
+ ],
+ ".card .tag": [
+  "Définition",
+  "Miroir",
+  "Tactique",
+  "Modèle",
+  "Quotidien",
+  "Loi sœur",
+  "Deux pizzas",
+  "Prudence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Les organisations livrent leur organigramme",
+  "Le miroir des microservices",
+  "La manœuvre de Conway inversée",
+  "Team Topologies",
+  "Conway dans les revues de design",
+  "Le coût de la communication",
+  "Petites équipes, boucles courtes",
+  "Les réorganisations se livrent en refontes",
+  "L'IA abaisse le coût de coordination",
+  "L'assistant devient un membre de l'équipe"
+ ],
+ ".card .desc": [
+  "Les coutures de votre produit sont les coutures de votre équipe. Les passages de relais dans votre équipe sont les passages de relais dans votre code. Le modèle tient encore un demi-siècle après que Conway l'a écrit, parce que le mécanisme sous-jacent — les humains se coordonnent par les canaux que leur donne leur organisation — n'a pas changé.",
+  "Pourquoi votre monolithe est-il difficile à découper ? Parce que l'équipe est une seule équipe. Pourquoi les microservices sont-ils difficiles à fusionner ? Parce que les équipes sont quatre équipes. La loi de Conway apparaît le plus clairement dans l'architecture de services : les frontières que vous avez taillées dans le code reflètent celles que l'organigramme a tracées des années plus tôt.",
+  "Vous voulez une architecture particulière ? Construisez l'organisation qui la produirait. Vous voulez un monolithe propre avec un solide modèle de domaine partagé ? Une seule équipe. Vous voulez des services de plateforme indépendants ? Des équipes indépendantes avec des astreintes indépendantes. Concevoir l'équipe d'abord coûte moins cher que combattre Conway plus tard.",
+  "Le livre de Skelton et Pais (2019) rend la règle opérationnelle. Quatre types d'équipes — alignées sur un flux, facilitatrices, sous-système complexe, plateforme — et trois modes d'interaction. C'est Conway transformé en véritable manuel de jeu que vous pouvez appliquer.",
+  "Cela apparaît aussi dans le design. Une page de réglages détenue par quatre équipes se lit comme quatre pages. Un tunnel de paiement copropriété du mobile et du web a des dérives de comportement subtiles qu'aucune spécification ne corrigera. Quand une revue fait surgir ces coutures, demandez qui possède la couture. Si personne, c'est ça le bug.",
+  "La loi de Brooks découle de Conway : ajouter des personnes à un projet en retard le retarde davantage, parce que les nouvelles arêtes du graphe de communication coûtent plus que le nouveau débit. Conway vous dit la forme d'organisation qui livre ; Brooks vous dit le coût d'en changer en cours de route.",
+  "La règle des équipes « deux pizzas » d'Amazon, c'est Conway transformé en métrique : si une équipe ne peut pas être nourrie avec deux pizzas, elle est trop grande pour livrer proprement. Les petites équipes possèdent des services étroits, communiquent vite en interne, lentement entre elles — et le produit prend exactement ce grain.",
+  "Conway fonctionne dans les deux sens. Si vous réorganisez l'entreprise, attendez-vous à ce que le produit dérive vers la nouvelle forme — lentement, parfois silencieusement, mais sûrement. Une réorganisation est une décision de design déguisée. L'organigramme est la plus longue spécification de l'entreprise.",
+  "Les modèles peuvent porter un contexte inter-équipes que les humains ne pouvaient pas porter. Revue de code entre services, revue de design entre surfaces, support entre équipes — tout devient abordable pour des organisations plus petites. La loi de Conway n'est pas abrogée, mais le coût d'un graphe d'équipe plus large chute, et des formes de produit qui exigeaient autrefois de nombreuses équipes deviennent accessibles à moins d'équipes.",
+  "La loi de Conway suppose que les nœuds sont humains. Les modèles sont désormais des nœuds aussi — ils génèrent du code, écrivent des spécifications, lancent des tests. Quel que soit le chemin de communication sur lequel se trouve l'assistant, il devient partie du graphe de l'organisation, et les coutures du produit se forment autour. Une équipe de trois plus un modèle n'est pas la même équipe qu'une équipe de trois."
+ ],
+ ".meta .label": [
+  "Formulé par",
+  "Domaine",
+  "Exemple",
+  "Symptôme",
+  "Nom",
+  "Manœuvre",
+  "Livre",
+  "Auteurs",
+  "À lire pour",
+  "Sans propriétaire",
+  "Loi de Brooks",
+  "Maths",
+  "Règle Amazon",
+  "Effet",
+  "Règle à double sens",
+  "Spécification",
+  "Effet",
+  "À surveiller",
+  "À lire",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Melvin Conway, 1967",
+  "Programmation → partout",
+  "Microservices ↔ équipes",
+  "Scissions et fusions lentes",
+  "Manœuvre de Conway inversée",
+  "Concevoir l'équipe d'abord",
+  "Team Topologies, 2019",
+  "Skelton et Pais",
+  "La propriété des coutures",
+  "C'est ça le bug",
+  "Les ajouts vous ralentissent",
+  "n(n-1)/2 arêtes",
+  "Équipe deux pizzas",
+  "Frontières de services nettes",
+  "Organisation ↔ produit",
+  "L'organigramme",
+  "Les graphes larges coûtent moins",
+  "Dérive de la forme du produit",
+  "L'assistant comme nœud",
+  "Membre invisible de l'équipe"
+ ],
+ ".ai-divider h3": [
+  "La loi de Conway à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA déplace le lieu de la communication — ce qui déplace discrètement l'organigramme, puis le produit."
+ ]
+}

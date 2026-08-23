@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-page="weber-fechner"><head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
+<meta name="description" content="Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn&#x27;t a fixed amount — it&#x27;s a fixed proportion of what&#x27;s already there. The law shows up in volume, brightness, price, weight, ani">
+<title>Weber-Fechner Law: Perception Scales with Ratios, Not Amounts — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/weber-fechner-law.html">
+<meta property="og:title" content="Weber-Fechner Law: Perception Scales with Ratios, Not Amounts — UX Guidelines">
+<meta property="og:description" content="Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn&#x27;t a fixed amount — it&#x27;s a fixed proportion of what&#x27;s already there. The law shows up in volume, brightness, price, weight, ani">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/weber-fechner-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Weber-Fechner Law: Perception Scales with Ratios, Not Amounts — UX Guidelines">
+<meta name="twitter:description" content="Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn&#x27;t a fixed amount — it&#x27;s a fixed proportion of what&#x27;s already there. The law shows up in volume, brightness, price, weight, ani">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+:root{--bg:#ffffff;--surface:#f4f4f4;--demo-bg:#ececec;--border:#e2e2e2;--ink:#111111;--muted:#6b6b6b;--ai:#0d9488}.law-feature .formula-box .formula{font-family:'JetBrains Mono','Archivo',monospace;font-size: var(--fs-feature);color: var(--text-primary);font-weight:500;line-height: var(--lh-heading);text-align:center}.law-feature .formula-box .formula .var{font-weight:600}.law-feature .formula-box .formula .sub{display:block;font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin-top:16px;font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;line-height: var(--lh-tight)}@media(max-width:800px){.law-feature{grid-template-columns:1fr;padding:32px 20px;gap:24px}.law-feature .formula-box{padding:28px 20px}}.demo{width:100%;aspect-ratio: 16 / 10; height: auto;background:var(--bg);border:1.5px solid var(--border);border-radius:14px;padding: 44px 28px 22px;position:relative;overflow:hidden;margin-bottom:24px;order:-1;display:flex;flex-direction:column}.demo::before{content:"";position:absolute;top:0;left:0;right:0;height:30px;background:radial-gradient(circle at 20.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 44.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 68.5px 15px,#9a9a9a 6.5px,transparent 7px),#ececec;border-bottom:1.5px solid var(--border);z-index:1}.demo::after{content:"";position:absolute;top:8.5px;left:92px;right:14px;height:13px;background:rgba(107,107,107,0.22);border-radius:6.5px;z-index:2}.demo-label{position:absolute;top:40px;left:28px;z-index:3;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500}@media(max-width:600px){header{padding:32px 20px 28px}footer{padding:20px;flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset}.ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px}.ai-divider p{margin-left:0;text-align:left}}
+
+  /* Weber-Fechner illustrations */
+  .wf { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .wf .lane { display: flex; align-items: center; gap: 10px; }
+  .wf .bar { height: 14px; border-radius: 7px; background: var(--skel); opacity: 0.45; }
+  .wf .delta { height: 14px; border-radius: 7px; background: var(--il-accent); }
+  .wf .tick { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .wf .tick.off { background: var(--skel); opacity: 0.25; }
+  .wf .tbar { border-radius: 4px; background: var(--skel-strong); opacity: 0.6; }
+  .wf .sw { flex: 1; border-radius: 8px; }
+  .wf .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .wf .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .wf .toast { height: 22px; border-radius: 8px; background: var(--surface); display: flex; align-items: center; gap: 8px; padding: 0 10px; }
+  .wf .toast .ic { width: 10px; height: 10px; border-radius: 50%; background: var(--skel-strong); opacity: 0.6; flex: none; }
+  .wf .toast i { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+</style><script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+<nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true"><button class="menu-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+<div class="menu-label">Navigate</div>
+<div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link active">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+<h1>Weber-Fechner <em>Law</em></h1>
+<p class="tagline">The smallest noticeable change <em>scales with the original</em>.</p>
+<p class="subtitle">Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn’t a fixed amount — it’s a fixed proportion of what’s already there. The law shows up in volume, brightness, price, weight, animation timing, and design contrast.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">ΔI / I = k (Weber) and S = k · log(I) (Fechner)</div>
+    <div class="law-formula-note">the noticeable change is a constant fraction of the stimulus, so sensation grows logarithmically.</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber" target="_blank" rel="noopener">Ernst Heinrich Weber</a>, a German physician, measured in the 1830s how much a stimulus must change before people notice. <a href="https://en.wikipedia.org/wiki/Gustav_Fechner" target="_blank" rel="noopener">Gustav Fechner</a>, his student, formalized the relationship as a logarithmic law in 1860 — founding the field of psychophysics.</p>
+    <p class="body-text">Weber established the just-noticeable difference through meticulous weight-lifting experiments at Leipzig. Fechner — physicist, philosopher, and occasional satirist under the pen name Dr. Mises — had the insight on the morning of 22 October 1850, a date psychophysicists still celebrate as Fechner Day.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">The just-noticeable difference (JND) in a stimulus is a constant fraction of the stimulus itself. Going from a $10 latte to $11 is noticeable; going from a $1,000 laptop to $1,001 isn’t. The eye, the ear, and the wallet all run on ratios, not absolutes.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-ernst-weber">Ernst Weber</a> (1834) and <a href="people.html#p-gustav-fechner">Gustav Fechner</a> (1860)</div></div>
+      <div><div class="label">Source</div><div class="value">Psychophysics</div></div>
+      <div><div class="label">In practice</div><div class="value">Make changes proportionally noticeable</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<article class="card"><div class="card-header"><span class="tag">JND</span><h3>The Just-Noticeable Difference</h3><p class="desc">Pick up a 200g weight; add 10g and you’ll feel it. Pick up a 2,000g weight; add 10g and you won’t. The threshold for detecting change isn’t 10g — it’s about 5% of whatever you started with. Every sensory channel has its own Weber fraction, and they’re surprisingly stable.</p></div>
+<div class="demo"><div class="wf" style="padding:18px 30px;gap:14px"><div class="lane"><span class="bar w-18"></span><span class="delta w-8"></span><span class="tick"></span></div><div class="lane"><span class="bar w-66"></span><span class="delta" style="width:8%;opacity:0.35"></span><span class="tick off"></span></div></div></div>
+<div class="meta"><div><div class="label">Rule</div><div class="value">JND scales with stimulus</div></div><div><div class="label">Channels</div><div class="value">Weight · sound · light · price</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Pricing</span><h3>Pricing Runs on Ratios</h3><p class="desc">Marketers internalized this a long time ago. Discounts get framed as percentages, not amounts; an upsell is “just $5 more” on a small purchase and “barely 5%” on a big one. The user’s perceived price-change is a Weber fraction of the anchor.</p></div>
+<div class="demo"><div class="wf" style="padding:18px 30px;gap:14px"><div class="lane"><span class="bar w-22"></span><span class="delta w-11"></span></div><div class="lane"><span class="bar w-80"></span><span class="delta" style="width:11%;opacity:0.3"></span></div></div></div>
+<div class="meta"><div><div class="label">Framing</div><div class="value">Percentage beats absolute</div></div><div><div class="label">Apply to</div><div class="value">Discount · upsell · tier</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Typography</span><h3>Type Scales Are Weber Curves</h3><p class="desc">Modular type scales — 1.125, 1.25, 1.333, 1.5, the golden ratio — exist because absolute jumps look uneven. A scale where each step is the same percentage larger than the last reads as a proportional hierarchy: each level is noticeably bigger than the one below it.</p></div>
+<div class="demo"><div class="wf" style="flex-direction:row;align-items:flex-end;gap:16px;padding:24px 34px"><span class="tbar" style="width:16%;height:18%"></span><span class="tbar" style="width:16%;height:26%"></span><span class="tbar" style="width:16%;height:38%"></span><span class="tbar" style="width:16%;height:55%"></span><span class="tbar" style="width:16%;height:80%;background:var(--il-accent);opacity:1"></span></div></div>
+<div class="meta"><div><div class="label">Common ratios</div><div class="value">1.25 · 1.333 · 1.5</div></div><div><div class="label">Effect</div><div class="value">Hierarchy reads as steps</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Contrast</span><h3>Contrast Is Multiplicative</h3><p class="desc">WCAG contrast ratios are Weber-Fechner under the hood — perceived contrast scales with the ratio of luminances, not the difference. That’s why dark mode and light mode need different absolute colors to feel equally readable, but the same minimum ratio (4.5:1 for body text).</p></div>
+<div class="demo"><div class="wf" style="flex-direction:row;gap:12px;padding:22px"><div class="sw" style="background:#3a3a3a;display:flex;align-items:center;justify-content:center"><span style="width:56%;height:8px;border-radius:4px;background:#fff;display:block"></span></div><div class="sw" style="background:#8a8a8a;display:flex;align-items:center;justify-content:center"><span style="width:56%;height:8px;border-radius:4px;background:#b5b5b5;display:block"></span></div><div class="sw" style="background:var(--surface);display:flex;align-items:center;justify-content:center"><span style="width:56%;height:8px;border-radius:4px;background:#dcdcdc;display:block"></span></div></div></div>
+<div class="meta"><div><div class="label">WCAG</div><div class="value">Ratio-based</div></div><div><div class="label">Test</div><div class="value">Body ≥ 4.5:1</div></div><div class="related"><span class="related-label">Related</span><a href="wcag-pour.html">WCAG and POUR</a></div></div>
+  </article>
+
+<article class="card"><div class="card-header"><span class="tag">Animation</span><h3>Animation Timing Is Logarithmic</h3><p class="desc">Animation duration follows perception, not stopwatch. Doubling a 100ms transition to 200ms feels twice as long; doubling a 1000ms transition to 2000ms feels much less than twice. Material’s motion guidelines bake this in — durations curve with element size and distance, not with raw pixels.</p></div>
+<div class="demo"><div class="wf" style="padding:18px 30px;gap:14px"><div class="lane"><span class="bar w-10"></span><span class="delta w-10"></span><span class="tick"></span></div><div class="lane"><span class="bar w-70"></span><span class="delta" style="width:10%;opacity:0.3"></span><span class="tick off"></span></div></div></div>
+<div class="meta"><div><div class="label">Implication</div><div class="value">Long ≠ proportionally long</div></div><div><div class="label">In Material</div><div class="value">Distance-scaled timing</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">A/B</span><h3>A/B Tests Need Proportional Deltas</h3><p class="desc">A 5% improvement at a baseline of 10% conversion is huge; the same 5% at a baseline of 80% is barely detectable. Most A/B test power calculations are Weber in disguise — you need to translate the absolute delta into a proportional one before judging whether it’s worth chasing.</p></div>
+<div class="demo"><div class="wf" style="padding:18px 30px;gap:14px"><div class="lane"><span class="bar w-14"></span><span class="delta w-7"></span><span class="tick"></span></div><div class="lane"><span class="bar w-74"></span><span class="delta" style="width:7%;opacity:0.3"></span><span class="tick off"></span></div></div></div>
+<div class="meta"><div><div class="label">Compare</div><div class="value">Proportional, not absolute</div></div><div><div class="label">Power-calc</div><div class="value">Weber in disguise</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Notifications</span><h3>Notification Fatigue Is Weber Too</h3><p class="desc">The fifteenth notification of the morning gets less attention than the first — not because anything changed about that single notification, but because it’s now 7% of fifteen instead of 100% of one. Each new alert is judged against the baseline noise it’s added to.</p></div>
+<div class="demo"><div class="wf gap-8"><div class="toast" style="background:rgba(56,189,248,0.15)"><span class="ic fill-accent"></span><i style="width:46%;background:var(--il-accent);opacity:1"></i></div><div class="toast"><span class="ic"></span><i class="w-40"></i></div><div class="toast" style="opacity:0.55"><span class="ic"></span><i class="w-44"></i></div><div class="toast" style="opacity:0.3"><span class="ic"></span><i class="w-36"></i></div><div class="toast" style="opacity:0.15"><span class="ic"></span><i class="w-42"></i></div></div></div>
+<div class="meta"><div><div class="label">Pattern</div><div class="value">Each Δ shrinks vs baseline</div></div><div><div class="label">Tactic</div><div class="value">Send fewer · clearer</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Limits</span><h3>The Law Holds at Mid-Range</h3><p class="desc">Weber-Fechner is most reliable in the middle of a sensory range. At very faint stimuli (whispers, faint colors) and very intense ones (loud noises, blinding light) the ratio drifts. For UX purposes you’re almost always in the mid-range, where the law works cleanly.</p></div>
+<div class="demo"><div class="wf"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><rect x="64" y="8" width="72" height="104" rx="6" fill="var(--il-accent)" opacity="0.12"/><path d="M12,110 C 60,96 80,60 100,48 C 120,36 160,20 188,12" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Holds at</div><div class="value">Mid-range stimuli</div></div><div><div class="label">Drifts at</div><div class="value">Very faint · very intense</div></div></div>
+</article>
+
+<div class="ai-divider"><span class="spark">✦</span><h3>Weber-Fechner in the Age of AI</h3><p>AI is the new stimulus stream — and it arrives at a volume that quickly resets every baseline.</p></div>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>AI Resets the Baseline</h3><p class="desc">A year ago, an auto-summary was novel. Today it is invisible because every product has one. The user’s baseline keeps shifting up, and the same feature has to keep getting better to feel like the same delta. Weber-Fechner in motion: shipping the third-best summary in 2026 will feel worse than shipping the best summary did in 2024.</p></div>
+<div class="demo"><div class="wf gap-8"><div class="toast" style="background:rgba(56,189,248,0.18)"><span class="ic fill-accent"></span><i style="width:52%;background:var(--il-accent);opacity:1"></i></div><div class="toast"><span class="ic"></span><i class="w-52"></i></div><div class="toast"><span class="ic"></span><i class="w-52"></i></div><div class="toast"><span class="ic"></span><i class="w-52"></i></div></div></div>
+<div class="meta"><div><div class="label">Effect</div><div class="value">Wow shrinks fast</div></div><div><div class="label">Implication</div><div class="value">Ship fast · raise bar</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>Generated Variation Hits Weber</h3><p class="desc">A model that varies an image slightly across users, or tweaks a notification by a few percent, may be operating below the JND. Lots of tuning that looks busy in code is invisible to users. Worth checking whether the variation is meaningful — or just noise the user can’t detect.</p></div>
+<div class="demo"><div class="wf" style="flex-direction:row;gap:14px;padding:22px"><div class="sw" style="background:var(--surface);display:flex;flex-direction:column;gap:7px;padding:12px"><span style="height:6px;width:60%;border-radius:3px;background:var(--skel-strong);opacity:0.55;display:block"></span><span style="height:5px;width:85%;border-radius:2.5px;background:var(--skel);opacity:0.4;display:block"></span><span style="height:5px;width:70%;border-radius:2.5px;background:var(--skel);opacity:0.4;display:block"></span></div><div class="sw" style="background:var(--surface);display:flex;flex-direction:column;gap:7px;padding:12px"><span style="height:6px;width:63%;border-radius:3px;background:var(--skel-strong);opacity:0.55;display:block"></span><span style="height:5px;width:85%;border-radius:2.5px;background:var(--skel);opacity:0.4;display:block"></span><span style="height:5px;width:67%;border-radius:2.5px;background:var(--skel);opacity:0.4;display:block"></span></div></div></div>
+<div class="meta"><div><div class="label">Question</div><div class="value">Is the variation noticeable?</div></div><div><div class="label">Tactic</div><div class="value">Measure the JND first</div></div></div>
+</article>
+
+</main>
+
+<section class="references">
+<div class="ref-label">Further Reading</div>
+<div class="ref-groups">
+<div class="ref-group"><h3 class="label ref-source-label">Reference</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law" target="_blank" rel="noopener"><span class="title">Weber-Fechner Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Just-noticeable_difference" target="_blank" rel="noopener"><span class="title">Just-Noticeable Difference — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+<div class="ref-group"><h3 class="label ref-source-label">Origin</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Gustav_Fechner" target="_blank" rel="noopener"><span class="title">Gustav Fechner — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber" target="_blank" rel="noopener"><span class="title">Ernst Heinrich Weber — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+</div></section>
+
+<footer><div class="copyright">© UX Guidelines · Weber-Fechner Law</div><div class="meta-info">Weber 1834 · Fechner 1860</div></footer>
+
+<script>(()=>{const h=document.querySelector('.hamburger'),o=document.getElementById('menu-overlay'),p=document.getElementById('menu-panel'),c=document.querySelector('.menu-close');if(!h||!o||!p||!c)return;const open=()=>{p.classList.add('open');o.classList.add('open');h.setAttribute('aria-expanded','true');p.setAttribute('aria-hidden','false');};const close=()=>{p.classList.remove('open');o.classList.remove('open');h.setAttribute('aria-expanded','false');p.setAttribute('aria-hidden','true');};h.addEventListener('click',open);c.addEventListener('click',close);o.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});})();</script>
+
+</body></html>

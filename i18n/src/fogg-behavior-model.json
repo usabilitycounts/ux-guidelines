@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Fogg Behavior <em>Model</em>"
+ ],
+ "header .tagline": [
+  "Behavior happens when three things converge at <em>the same moment</em>."
+ ],
+ "header .subtitle": [
+  "BJ Fogg’s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn’t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/B._J._Fogg\" target=\"_blank\" rel=\"noopener\">BJ Fogg</a> is a behavior scientist at Stanford University, where he founded the Behavior Design Lab. His 2009 Behavior Model — behavior happens when motivation, ability, and a prompt converge — became a cornerstone of persuasive technology.",
+  "Fogg coined the term ‘captology’ — the study of computers as persuasive technologies — in the 1990s, long before growth teams existed. His students at Stanford included the co-founder of Instagram; his later book Tiny Habits turned the model inward, toward personal behavior change."
+ ],
+ ".law-content .law-desc": [
+  "A behavior occurs when Motivation, Ability, and a Prompt converge at the same moment. The three are multiplicative — drop any one to zero and the product is zero, no matter how high the others are."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-bj-fogg\">BJ Fogg</a> (2009)",
+  "Stanford Behavior Design Lab",
+  "Pair prompts with easy actions"
+ ],
+ ".card .tag": [
+  "M · The drive",
+  "A · The ease",
+  "P · The trigger",
+  "The threshold",
+  "The math",
+  "Practice",
+  "Tiny Habits",
+  "Applied",
+  "Applied",
+  "The flip side",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Motivation",
+  "Ability",
+  "Prompts",
+  "The Action Line",
+  "Three Factors, Multiplied",
+  "Make the Behavior Tiny",
+  "Anchor It · Celebrate It",
+  "Notifications as Prompts",
+  "Onboarding Is an Ability Problem",
+  "Persuasion vs Manipulation",
+  "AI Raises Ability",
+  "The Personalized Prompt"
+ ],
+ ".card .desc": [
+  "Why the person would act at all. Fogg groups motivators into three pairs — pleasure / pain, hope / fear, social acceptance / rejection. Motivation fluctuates wildly through the day, which makes it the least reliable lever to lean on.",
+  "How easy the behavior is right now. Fogg names six dimensions of simplicity: time, money, physical effort, brain cycles, social deviance, and non-routine. The scarcest one wins. Reducing friction along that dimension is almost always cheaper than boosting motivation.",
+  "The signal that says “do it now.” Without a prompt, behavior doesn’t fire — even when motivation and ability are both high. Fogg distinguishes three kinds: a spark (boosts motivation), a facilitator (makes it easier), and a signal (just a reminder, for people already willing and able).",
+  "Plot motivation against ability and a curved threshold separates “will act” from “won’t.” Above the line, a prompt fires the behavior; below it, no prompt is enough. Low motivation can be compensated by very high ability, and vice versa — but only along the curve.",
+  "The “MAP” is multiplication, not addition. If any factor is zero — no motivation, no ability, or no prompt — the product is zero, and nothing happens. That’s why a perfect prompt on a tired user falls flat, and why a motivated user with no prompt never starts.",
+  "Fogg’s most practical takeaway: when motivation is unreliable, increase ability instead — shrink the behavior until almost anyone can do it on a bad day. “Floss one tooth” becomes the entry point to flossing. Tiny Habits is the whole methodology built around this single insight.",
+  "Two more pieces from Fogg’s Tiny Habits: attach the new behavior to an existing routine (the anchor — “after I brush my teeth, I’ll…”) and immediately mark it with a small positive feeling (“Yes!”). The anchor handles the prompt; the celebration wires it in.",
+  "A product’s notifications are its prompts. Send too many to people without motivation and you train them to ignore. Send a well-timed signal to a user who’s already ready and able, and you get the action. Timing &gt; volume.",
+  "New users almost never lack motivation — they wouldn’t be there. They lack ability. Cut steps, pre-fill, use sensible defaults, and demonstrate the first win in minutes. Most “engagement” problems with new users dissolve when ability goes up.",
+  "The model is symmetrical — it works whether you’re helping a user reach their goal or pushing them past their better judgment. Casinos, infinite scrolls, and dark patterns are Fogg in reverse. The model itself doesn’t care; the designer has to.",
+  "“Write a contract,” “code this feature,” “design that screen” — AI collapses the ability cost of behaviors that used to require expertise. Things that sat below the action line now sit comfortably above it, simply because they got easier.",
+  "A model that knows when a user is motivated and able can deliver the prompt at exactly that moment. Done well, it removes the friction of figuring out “now.” Done poorly, it’s hyper-targeted nagging — and people stop trusting the channel."
+ ],
+ ".meta .label": [
+  "Includes",
+  "Behaves",
+  "Apply",
+  "Dimensions",
+  "Rule",
+  "Apply",
+  "Spark",
+  "Facilitator",
+  "Signal",
+  "Above",
+  "Below",
+  "Trade-off",
+  "Math",
+  "Zero in",
+  "Watch for",
+  "Lever",
+  "Tactic",
+  "Built on this",
+  "Anchor",
+  "Behavior",
+  "Celebrate",
+  "Prompts are",
+  "Wrong moment",
+  "Right moment",
+  "Lever",
+  "Tactic",
+  "Test",
+  "Test",
+  "Dark side",
+  "Designer’s job",
+  "Effect",
+  "Result",
+  "Examples",
+  "Power",
+  "Risk",
+  "Test"
+ ],
+ ".meta .value": [
+  "Pleasure · hope · acceptance",
+  "Fluctuates · unreliable",
+  "Don’t depend on it alone",
+  "Time · money · effort · brain · social · routine",
+  "Scarcest wins",
+  "Cheaper than motivation",
+  "For low motivation",
+  "For low ability",
+  "For ready-to-act",
+  "Prompt fires action",
+  "No prompt is enough",
+  "M and A swap along curve",
+  "Multiplicative, not additive",
+  "Zero out",
+  "Missing prompt = silence",
+  "Boost ability, not motivation",
+  "Shrink the ask",
+  "Tiny Habits method",
+  "Existing routine",
+  "Make it tiny",
+  "Immediate and positive",
+  "Notifications · emails · CTAs",
+  "Trains ignoring",
+  "Fires the action",
+  "Ability, not motivation",
+  "Cut · pre-fill · default",
+  "First win in minutes",
+  "Whose goal does it serve?",
+  "Casinos · infinite scroll",
+  "Pick the right one",
+  "Lowers ability cost",
+  "More users above the line",
+  "Writing · coding · design",
+  "Right person, right moment",
+  "Hyper-targeted nagging",
+  "Did the user want it?"
+ ],
+ ".ai-divider h3": [
+  "The Fogg Model in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI lowers Ability across the board and lets you fire a perfectly timed Prompt for one user — leverage at a scale Fogg’s original model didn’t anticipate."
+ ]
+}

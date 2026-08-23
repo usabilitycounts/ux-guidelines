@@ -1,0 +1,116 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Tesler"
+ ],
+ "header .tagline": [
+  "Todo sistema tiene una complejidad que <em>no se puede eliminar</em> — solo mover."
+ ],
+ "header .subtitle": [
+  "Todo sistema carga una cantidad irreducible de complejidad. La única pregunta es quién la absorbe — el sistema o el usuario. El buen diseño asume silenciosamente toda la que puede."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Larry_Tesler\" target=\"_blank\" rel=\"noopener\">Larry Tesler</a> fue un informático estadounidense en Xerox PARC y después en Apple, donde llegó a ser científico jefe. Inventó cortar, copiar y pegar, y pasó su carrera en cruzada contra los modos — su matrícula decía NO MODES.",
+  "Formuló la ley de conservación de la complejidad hacia 1984 mientras argumentaba que los ingenieros, que trabajan con un sistema una vez, deberían absorber la complejidad en lugar de empujarla hacia los usuarios, que la enfrentan cada día."
+ ],
+ ".law-content .law-desc": [
+  "Toda aplicación tiene una cantidad irreducible de complejidad. La única pregunta es quién lidia con ella — el sistema y sus constructores, o cada usuario, cada vez."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Larry Tesler",
+  "La práctica de diseño de Xerox PARC y Apple",
+  "Absorber la complejidad en el sistema"
+ ],
+ ".card .tag": [
+  "La ley",
+  "Dos tipos",
+  "El intercambio",
+  "Buena práctica",
+  "La trampa",
+  "Técnica",
+  "✦ Era IA",
+  "✦ Era IA"
+ ],
+ ".card h3": [
+  "La ley",
+  "Complejidad inherente frente a accidental",
+  "¿Quién absorbe la complejidad?",
+  "Desplaza la complejidad al sistema",
+  "No puedes simplificarla hasta hacerla desaparecer",
+  "Gestiónala con divulgación progresiva",
+  "La IA absorbe la complejidad",
+  "El riesgo: la complejidad se esconde"
+ ],
+ ".card .desc": [
+  "Toda aplicación tiene una cantidad inherente de complejidad que no puede eliminarse. La única elección es dónde vive: dentro del sistema, donde ingenieros y diseñadores forcejean con ella, o a la vista, donde deben hacerlo los usuarios.",
+  "Parte de la complejidad es esencial al problema — reservar un vuelo realmente implica fechas, asientos y tarifas. La complejidad accidental es la fricción extra que añadimos encima. Puedes borrar la accidental; la inherente solo puedes reubicarla.",
+  "Cada decisión de diseño empuja la carga hacia un lado o hacia el otro. Un campo de texto en blanco es simple de construir pero difícil de usar; un flujo guiado es más difícil de construir pero se completa sin esfuerzo. El trabajo no desaparece — alguien lo paga.",
+  "Los predeterminados inteligentes, el autocompletado, la detección de formato y la inferencia dejan que el producto haga el trabajo pesado. Cada campo que puedes prellenar o calcular es una decisión que el usuario nunca tiene que tomar — la carga absorbida donde corresponde.",
+  "Elimina la complejidad esencial y resurge como confusión, errores o tickets de soporte. Un flujo que oculta pasos necesarios no elimina el trabajo — solo deja que el usuario lo redescubra por las malas.",
+  "Cuando la complejidad debe llegar al usuario, revélala en capas. Muestra primero el camino común y guarda las opciones avanzadas detrás de «Más». La gente recibe una superficie simple sin perder la profundidad que ocasionalmente necesita.",
+  "Un modelo puede tomar una petición desordenada y ambigua y resolver los pasos por sí mismo — el desplazamiento definitivo de la complejidad del usuario al sistema. «Planifica mi viaje» sustituye a una docena de formularios. La carga se mueve hacia la máquina más que nunca.",
+  "Cuando el modelo lo absorbe todo, las partes necesarias también pueden desvanecerse — los supuestos, los compromisos y los casos límite que el usuario realmente necesitaba sopesar. La conservación se mantiene: haz visible lo que importa, con fuentes, controles y un deshacer."
+ ],
+ ".meta .label": [
+  "Acuñado por",
+  "También llamada",
+  "Idea central",
+  "Inherente",
+  "Accidental",
+  "Objetivo",
+  "Empujar al usuario",
+  "Empujar al sistema",
+  "Predeterminado",
+  "Herramientas",
+  "Efecto",
+  "Coste",
+  "Modo de fallo",
+  "Vuelve como",
+  "Solución",
+  "Patrón",
+  "Mostrar primero",
+  "Guardar aparte",
+  "Cambio",
+  "Absorbe",
+  "Ventaja",
+  "Riesgo",
+  "Mantener visible",
+  "Red de seguridad"
+ ],
+ ".meta .value": [
+  "Larry Tesler (1984)",
+  "Conservación de la complejidad",
+  "La complejidad se mueve; nunca desaparece",
+  "Esencial a la tarea",
+  "Fricción autoinfligida",
+  "Borrar primero la accidental",
+  "Barato de construir · caro de usar",
+  "Caro de construir · fácil de usar",
+  "Favorecer al usuario",
+  "Predeterminados · autocompletar · inferencia",
+  "Menos decisiones para el usuario",
+  "Más lógica entre bastidores",
+  "Ocultar pasos esenciales",
+  "Errores · confusión · tickets",
+  "Absorberla, no enterrarla",
+  "Revelado en capas",
+  "El camino común del 80%",
+  "Opciones avanzadas y raras",
+  "Formularios → intención",
+  "Pasos · elecciones · síntesis",
+  "Sin esfuerzo para el usuario",
+  "Ocultar lo que el usuario debe sopesar",
+  "Supuestos · fuentes · controles",
+  "Deshacer y anular"
+ ],
+ ".ai-divider h3": [
+  "La ley de Tesler en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA es el absorbedor de complejidad más potente hasta la fecha — y el lugar más tentador para esconder la complejidad que el usuario todavía necesita ver."
+ ]
+}

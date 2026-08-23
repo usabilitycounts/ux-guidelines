@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "<em>Primeros principios</em> de Tognazzini"
+ ],
+ "header .tagline": [
+  "Dieciséis <em>reglas</em> de trabajo para diseñar software que respete al usuario."
+ ],
+ "header .subtitle": [
+  "Los First Principles of Interaction Design de Bruce «Tog» Tognazzini, escritos y refinados en AskTog.com a lo largo de décadas en Apple, Sun y Nielsen Norman Group. Menos un catecismo que un conjunto de reglas de trabajo — cada una ganada con productos que se lanzaron y patrones que escalaron."
+ ],
+ ".law-origin .body-text": [
+  "Bruce «Tog» Tognazzini fue el empleado número 66 de Apple, escribió las primeras directrices de interfaz humana de la compañía y dio forma al aspecto y comportamiento del primer Macintosh a lo largo de catorce años y ocho ediciones de las directrices.",
+  "Tras Apple trabajó en Sun y WebMD antes de unirse a Nielsen y Norman como tercer socio principal de Nielsen Norman Group. Sus First Principles of Interaction Design, publicados en su sitio AskTog desde 1978 y revisados continuamente, reúnen el oficio en una lista canónica."
+ ],
+ ".law-content .law-desc": [
+  "Una lista viva de fundamentos del diseño de interacción — anticipación, autonomía, consistencia, descubribilidad, eficiencia, interfaces explorables, la ley de Fitts, reducción de latencia, facilidad de aprendizaje y más."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Bruce Tognazzini",
+  "First Principles of Interaction Design, AskTog",
+  "Auditar los flujos contra la lista"
+ ],
+ ".card .tag": [
+  "Previsión",
+  "Control",
+  "Uniformidad",
+  "Punto de partida inteligente",
+  "Velocidad",
+  "Descubribilidad",
+  "Rendimiento",
+  "Confianza",
+  "Continuidad",
+  "Orientación",
+  "✦ Era IA",
+  "✦ Era IA"
+ ],
+ ".card h3": [
+  "Anticipación",
+  "Autonomía",
+  "Consistencia",
+  "Predeterminados",
+  "Eficiencia del usuario",
+  "Interfaces explorables",
+  "Reducción de latencia",
+  "Protege el trabajo del usuario",
+  "Rastrea el estado del usuario",
+  "Navegación visible",
+  "Anticipación a escala",
+  "El compromiso de la latencia"
+ ],
+ ".card .desc": [
+  "Acerca al usuario lo que probablemente necesitará a continuación — información, herramientas, opciones — antes de que tenga que pedirlo. Anticipar la siguiente acción es lo que separa una herramienta competente de una que se siente inteligente.",
+  "El usuario, no el sistema, está al mando. Muestra el estado con claridad, nunca atrapes a la gente en un flujo del que no puede escapar y haz explícitas las reglas para que puedan sortearse. El software que decide cosas por el usuario sin preguntar es software que se desinstala.",
+  "La misma acción debería verse y comportarse igual en todas partes — dentro del producto, en toda la suite y frente a las convenciones de la plataforma. La inconsistencia es carga cognitiva gratuita. Rómpela solo cuando tengas una respuesta mucho mejor y solo en un punto del flujo.",
+  "Da a los usuarios un estado inicial seguro. Los predeterminados deben ser reversibles, útiles para la mayoría en la mayoría de los casos y claramente elegidos — no «se nos olvidó decidir». Un gran predeterminado hace el trabajo que el usuario iba a hacer de todos modos, y se aparta.",
+  "Optimiza el tiempo del usuario, no el del sistema. Ahorrarle diez segundos al ingeniero a costa de diez segundos del usuario, diez mil veces al día, es un mal negocio. Acciones masivas, atajos de teclado, pegado inteligente y elementos recientes devuelven minutos a quienes hacen el trabajo.",
+  "Premia la curiosidad. Deja que los usuarios prueben cosas sin miedo — las acciones deben ser obvias de encontrar y obvias de revertir. La nota de Tog: cada acción necesita un camino de vuelta. Sin deshacer, cada clic es un compromiso, y la mayoría de los usuarios deja de hacer clic.",
+  "Donde el sistema no pueda ser más rápido, haz que se sienta más rápido. La interfaz optimista confirma el cambio antes de que la red lo confirme; las pantallas esqueleto le dan al ojo dónde aterrizar; el sonido y la animación acusan recibo del clic antes de que llegue la respuesta. La latencia percibida es la palanca del diseño.",
+  "La regla más importante de todas. Guarda automáticamente sin parar, recupérate de los fallos, versiona todo, nunca sobrescribas en silencio. Tog: nada erosiona la confianza más rápido que perder el trabajo de un usuario. Una vez que ocurre, ese usuario pulsa guardar compulsivamente para siempre — o deja de usar el producto.",
+  "Recuerda dónde lo dejó el usuario. Abre el documento que estaba editando, desplázate a la línea que estaba leyendo, restaura el filtro que había aplicado. La continuidad entre sesiones cuesta poco de implementar y ahorra al usuario reconstruir su espacio de trabajo cada mañana.",
+  "Los usuarios nunca deberían preguntarse «¿dónde estoy, adónde puedo ir y cómo vuelvo?». La navegación visible, las migas de pan y los estados activos claros cuestan unos píxeles y se pagan solos en cada sesión. Tog lo llamó el principio más olvidado del diseño web moderno.",
+  "El principio de anticipación de Tog trataba de siguientes acciones elegidas a mano. Los modelos lo hacen de forma generativa, por usuario, por momento. Bien hecho, es lo más cerca que ha estado el software de «sentirse inteligente». Hecho con descuido, es un flujo constante de suposiciones que no aciertan del todo, y el usuario empieza a ignorar las sugerencias.",
+  "Los modelos son listos, pero no rápidos. Una respuesta que tarda cuatro segundos viola todo lo que Tog escribió sobre la latencia. Transmitir tokens en streaming ayuda; precalentar el modelo ayuda; las respuestas esqueleto ayudan. Sin eso, hasta una gran respuesta llega sintiéndose como un producto lento."
+ ],
+ ".meta .label": [
+  "Definición",
+  "Ejemplos",
+  "Se siente como",
+  "Definición",
+  "Mostrar",
+  "No hacer",
+  "A través de",
+  "Coste",
+  "Cuándo romperla",
+  "Propiedades",
+  "Fuente",
+  "No hacer",
+  "Optimizar",
+  "Tácticas",
+  "Prueba",
+  "Definición",
+  "Requiere",
+  "Efecto",
+  "Palanca",
+  "Tácticas",
+  "Riesgo",
+  "Regla",
+  "Tácticas",
+  "Al perderlo",
+  "Rastrear",
+  "A través de",
+  "Resultado",
+  "Mostrar",
+  "Se combina con",
+  "Coste de omitirla",
+  "Bien hecho",
+  "Mal hecho",
+  "Prueba",
+  "Problema",
+  "Tácticas",
+  "Regla"
+ ],
+ ".meta .value": [
+  "Acercar lo siguiente, ahora",
+  "Acciones sugeridas · prellenado",
+  "Inteligencia",
+  "El usuario lleva el volante",
+  "Estado · salida",
+  "Atrapar o decidir en silencio",
+  "Pantallas · suite · plataforma",
+  "De romperla: reaprender",
+  "Una idea mucho mejor",
+  "Seguros · reversibles · sensatos",
+  "IP · historial · lo más común",
+  "Usarlos como patrón oscuro",
+  "Los segundos del usuario",
+  "Masivo · atajos · recientes",
+  "Ejecútalo 100 veces",
+  "Seguro de probar, fácil de deshacer",
+  "Deshacer para todo",
+  "Confianza para explorar",
+  "Percibida &gt; latencia real",
+  "Interfaz optimista · esqueletos",
+  "Mentir sobre el éxito",
+  "Nunca perder trabajo",
+  "Autoguardado · historial · recuperación",
+  "La confianza nunca vuelve del todo",
+  "Posición · filtro · selección",
+  "Sesiones · dispositivos",
+  "Menos reconstrucción",
+  "Dónde · adónde · volver",
+  "Patrones de navegación",
+  "Usuarios perdidos",
+  "Se siente inteligente",
+  "Ruido · los usuarios desconectan",
+  "¿Tasa de aceptación &gt; 30%?",
+  "Listo pero lento",
+  "Streaming · precalentar · esqueleto",
+  "Nunca en silencio &gt; 1s"
+ ],
+ ".ai-divider h3": [
+  "Los principios de Tog en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La anticipación y la reducción de latencia — dos de los principios más antiguos de Tog — son exactamente las palancas que un modelo te da, y exactamente las que amenaza con romper."
+ ]
+}

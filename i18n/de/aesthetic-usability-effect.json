@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Ästhetik-Usability-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Schönes Design wird als einfacher bedienbar wahrgenommen."
+ ],
+ "header .subtitle": [
+  "Masaaki Kurosu und Kaori Kashimuras Geldautomaten-Studie von 1995: Interfaces, die Menschen schön finden, werden als einfacher bedienbar bewertet — unabhängig davon, ob sie es sind. Politur kauft Geduld und Vertrauen und kann echte Probleme verdecken."
+ ],
+ ".law-origin .body-text": [
+  "Masaaki Kurosu und Kaori Kashimura, Forscher am Hitachi Design Center, testeten 1995 26 Geldautomaten-Layouts. Die Bewertungen der scheinbaren Benutzerfreundlichkeit folgten weit enger der Attraktivität der Layouts als ihrer tatsächlichen Usability.",
+  "Noam Tractinsky replizierte das Ergebnis 1997 über Kulturen hinweg — „what is beautiful is usable“ — und <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> lieferte später in Emotional Design einen Mechanismus: Positiver Affekt weitet das Denken und macht Menschen toleranter gegenüber kleinen Schwierigkeiten."
+ ],
+ ".law-content .law-desc": [
+  "Nutzer nehmen ästhetisch ansprechendes Design als benutzerfreundlicher wahr — und schenken ihm mehr Geduld, mehr Vertrauen und mehr Nachsicht bei kleinen Fehlern. Der Effekt ist real und nützlich, und er wirkt in beide Richtungen: Schönheit kann Probleme verdecken, die Tests aufdecken würden."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masaaki-kurosu\">Kurosu</a> und <a href=\"people.html#p-kaori-kashimura\">Kashimura</a> (1995)",
+  "Scheinbare Usability — ATM-Studie, Hitachi",
+  "Politur kauft Geduld"
+ ],
+ ".card .tag": [
+  "Der Effekt",
+  "Toleranz",
+  "Vertrauen",
+  "Die Falle",
+  "Priorität",
+  "Praxis",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Gleiche Funktion, anderes Gefühl",
+  "Politur kauft Geduld",
+  "Schönheit liest sich als Kompetenz",
+  "Schönheit verdeckt Probleme",
+  "Usability kommt weiterhin zuerst",
+  "Politur dort einsetzen, wo sie zählt",
+  "Generierte Politur, sofort",
+  "Flüssig, selbstsicher, falsch"
+ ],
+ ".card .desc": [
+  "Zwei Screens mit identischer Funktionalität: Der ausgerichtete, gut gesetzte, durchdachte wird vor dem ersten Klick als einfacher bewertet. Wahrgenommene Usability entsteht beim ersten Blick, nicht bei der ersten Aufgabe.",
+  "Auf einem durchdacht wirkenden Screen geben sich Nutzer bei kleinen Stolperern selbst die Schuld und versuchen es erneut. Auf einem schlampigen ist derselbe Stolperer die Schuld des Produkts, und der Tab wird geschlossen. Ästhetik ist ein Nachsichtsbudget.",
+  "Visuelle Sorgfalt wird als Stellvertreter für technische Sorgfalt gelesen — oft zu Recht: Ein Team, das die Überschriften sauber unterschnitten hat, hat vermutlich auch den Checkout getestet. Vertrauen beim Erstbesuch, Registrierungsraten und Preistoleranz bewegen sich alle mit der Politur.",
+  "Der Effekt verfälscht die Forschung: Nutzer bewerten schöne Prototypen als benutzerfreundlich, selbst nachdem sie darin an Aufgaben gescheitert sind. Beobachten, was Menschen tun, nicht, was sie bewerten — Zufriedenheitswerte schmeicheln attraktiven Designs.",
+  "Der Effekt verzeiht kleine Fehler, keine kaputten Abläufe. Ein wunderschöner Checkout, der den Warenkorb verliert, bleibt ein gescheiterter Checkout — Politur multipliziert ein funktionierendes Erlebnis und verzögert bei einem kaputten nur das Urteil.",
+  "Die Flächen polieren, auf denen Urteile entstehen: First-Run, Startseite, Checkout und Empty States. Eine konsistente Typografie-Skala, ausgerichtete Kanten und ehrliche Abstände liefern den Großteil des Effekts ohne eine einzige Illustration.",
+  "Modelle erzeugen standardmäßig saubere, ausgerichtete, plausible Interfaces — Politur ist kein Beleg für Sorgfalt mehr. Das Signal, das Nutzer als Kompetenz lesen, lässt sich jetzt in Sekunden prägen, was echte Usability-Tests wichtiger macht, nicht unwichtiger.",
+  "Der Ästhetik-Usability-Effekt hat eine Textform: Flüssige, gut strukturierte Prosa wird als korrekter bewertet als ungelenke Prosa mit derselben Aussage. Die Zuversicht eines Modells ist Styling — die Aussage prüfen, nicht die Oberfläche."
+ ],
+ ".meta .label": [
+  "Beurteilt",
+  "Folgt",
+  "Nicht",
+  "Poliert",
+  "Schlampig",
+  "Ästhetik",
+  "Stellvertreter für",
+  "Bewegt",
+  "Verdient durch",
+  "Forschungsrisiko",
+  "Vertrauen",
+  "Metrik",
+  "Verzeiht",
+  "Nicht",
+  "Politur",
+  "Zuerst polieren",
+  "Günstigste Gewinne",
+  "Überspringen",
+  "Politur",
+  "Also",
+  "Flüssigkeit",
+  "Prüfen"
+ ],
+ ".meta .value": [
+  "Auf den ersten Blick",
+  "Attraktivität",
+  "Tatsächlicher Aufgabenerfolg",
+  "Nutzer versuchen es erneut",
+  "Nutzer springen ab",
+  "Ein Nachsichtsbudget",
+  "Technische Sorgfalt",
+  "Vertrauen und Conversion",
+  "Konsistenz, nicht Dekoration",
+  "Aufgeblähte Bewertungen",
+  "Verhalten vor Meinung",
+  "Aufgabenerfolg",
+  "Kleine Fehler",
+  "Kaputte Abläufe",
+  "Multipliziert, rettet nie",
+  "First-Run · Checkout",
+  "Ausrichtung · Abstände",
+  "Dekoration um ihrer selbst willen",
+  "Kein Beleg für Sorgfalt mehr",
+  "Testen, was es tut",
+  "Liest sich als Korrektheit",
+  "Die Aussage, nicht die Oberfläche"
+ ],
+ ".ai-divider h3": [
+  "Der Ästhetik-Usability-Effekt im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte Interfaces kommen standardmäßig poliert daher — und flüssige, selbstsichere Prosa löst denselben Effekt im Text aus. Schöner Output ist nicht korrekter Output."
+ ]
+}

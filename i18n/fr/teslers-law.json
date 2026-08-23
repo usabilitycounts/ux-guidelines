@@ -1,0 +1,116 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Tesler"
+ ],
+ "header .tagline": [
+  "Tout système a une complexité qu'on <em>ne peut pas supprimer</em> — seulement déplacer."
+ ],
+ "header .subtitle": [
+  "Tout système porte une part irréductible de complexité. La seule question est de savoir qui l'absorbe — le système ou l'utilisateur. Un bon design en prend discrètement autant qu'il peut."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Larry_Tesler\" target=\"_blank\" rel=\"noopener\">Larry Tesler</a> était un informaticien américain du Xerox PARC puis d'Apple, où il devint scientifique en chef. Il a inventé le couper-copier-coller et passé sa carrière à combattre les modes — sa plaque d'immatriculation disait NO MODES.",
+  "Il a formulé la loi de conservation de la complexité vers 1984, en défendant l'idée que les ingénieurs, qui affrontent un système une seule fois, devraient absorber la complexité plutôt que de la reporter sur les utilisateurs, qui y font face chaque jour."
+ ],
+ ".law-content .law-desc": [
+  "Toute application comporte une part irréductible de complexité. La seule question est de savoir qui s'en charge — le système et ses concepteurs, ou chaque utilisateur, à chaque fois."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Larry Tesler",
+  "La pratique du design au Xerox PARC et chez Apple",
+  "Absorber la complexité dans le système"
+ ],
+ ".card .tag": [
+  "La loi",
+  "Deux natures",
+  "L'échange",
+  "Bonne pratique",
+  "Le piège",
+  "Technique",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La loi",
+  "Complexité inhérente contre accidentelle",
+  "Qui absorbe la complexité ?",
+  "Déplacer la complexité vers le système",
+  "On ne peut pas la sursimplifier",
+  "La gérer par la divulgation progressive",
+  "L'IA absorbe la complexité",
+  "Le risque : la complexité devient invisible"
+ ],
+ ".card .desc": [
+  "Toute application possède une part de complexité inhérente qu'on ne peut pas supprimer. Le seul choix est l'endroit où elle vit : à l'intérieur du système, où ingénieurs et designers se débattent avec elle, ou au grand jour, où les utilisateurs doivent le faire.",
+  "Une part de la complexité est essentielle au problème — réserver un vol implique réellement des dates, des sièges et des tarifs. La complexité accidentelle est la friction supplémentaire que nous ajoutons par-dessus. On peut supprimer l'accidentelle ; on ne peut que déplacer l'inhérente.",
+  "Chaque décision de design pousse le fardeau d'un côté ou de l'autre. Un champ de texte vide est simple à construire mais difficile à utiliser ; un parcours guidé est plus dur à construire mais s'accomplit sans effort. Le travail ne disparaît pas — quelqu'un le paie.",
+  "Valeurs par défaut intelligentes, remplissage automatique, détection de format et inférence laissent le produit faire le gros du travail. Chaque champ que vous pouvez préremplir ou calculer est une décision que l'utilisateur n'aura jamais à prendre — le fardeau absorbé là où il doit l'être.",
+  "Retirez la complexité essentielle et elle refait surface en confusion, en erreurs ou en tickets de support. Un parcours qui masque des étapes nécessaires ne supprime pas le travail — il laisse simplement l'utilisateur le redécouvrir à ses dépens.",
+  "Quand la complexité doit atteindre l'utilisateur, révélez-la par couches. Montrez d'abord le chemin courant et rangez les options avancées derrière « Plus ». Les gens obtiennent une surface simple sans perdre la profondeur dont ils ont parfois besoin.",
+  "Un modèle peut prendre une demande confuse et ambiguë et résoudre les étapes lui-même — le déplacement ultime de la complexité de l'utilisateur vers le système. « Planifie mon voyage » remplace une douzaine de formulaires. Le fardeau se déplace vers la machine plus loin que jamais.",
+  "Quand le modèle absorbe tout, les parties nécessaires peuvent disparaître aussi — les hypothèses, les compromis et les cas limites que l'utilisateur avait réellement besoin de peser. La conservation tient toujours : faites remonter ce qui compte, avec sources, contrôles et annulation."
+ ],
+ ".meta .label": [
+  "Formulé par",
+  "Aussi appelée",
+  "Idée centrale",
+  "Inhérente",
+  "Accidentelle",
+  "Objectif",
+  "Reporter sur l'utilisateur",
+  "Reporter sur le système",
+  "Défaut",
+  "Outils",
+  "Effet",
+  "Coût",
+  "Mode d'échec",
+  "Elle revient en",
+  "Correctif",
+  "Modèle",
+  "Montrer d'abord",
+  "Ranger",
+  "Évolution",
+  "Absorbe",
+  "Avantage",
+  "Risque",
+  "Garder visible",
+  "Filet de sécurité"
+ ],
+ ".meta .value": [
+  "Larry Tesler (1984)",
+  "Conservation de la complexité",
+  "La complexité se déplace ; elle ne disparaît jamais",
+  "Essentielle à la tâche",
+  "Friction auto-infligée",
+  "Supprimer d'abord l'accidentelle",
+  "Peu cher à construire · coûteux à utiliser",
+  "Coûteux à construire · facile à utiliser",
+  "Favoriser l'utilisateur",
+  "Défauts · remplissage auto · inférence",
+  "Moins de décisions pour l'utilisateur",
+  "Plus de logique en coulisses",
+  "Masquer des étapes essentielles",
+  "Erreurs · confusion · tickets",
+  "L'absorber, pas l'enterrer",
+  "Révélation par couches",
+  "Le chemin courant des 80 %",
+  "Options avancées et rares",
+  "Formulaires → intention",
+  "Étapes · choix · synthèse",
+  "Sans effort pour l'utilisateur",
+  "Masquer ce que l'utilisateur doit peser",
+  "Hypothèses · sources · contrôles",
+  "Annulation et reprise en main"
+ ],
+ ".ai-divider h3": [
+  "La loi de Tesler à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA est l'absorbeur de complexité le plus puissant à ce jour — et l'endroit le plus tentant pour cacher la complexité que l'utilisateur doit encore voir."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Valle <em>inquietante</em>"
+ ],
+ "header .tagline": [
+  "Casi humano es peor que claramente artificial."
+ ],
+ "header .subtitle": [
+  "Masahiro Mori observó en 1970 que la afinidad por una figura de aspecto humano crece con el realismo y luego se desploma en inquietud justo antes de resultar convincente. El valle ahora se traga voces y textos, no solo rostros."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)\" target=\"_blank\" rel=\"noopener\">Masahiro Mori</a> era profesor de robótica en el Instituto Tecnológico de Tokio. En un breve ensayo de 1970, «Bukimi no Tani Genshō», trazó una curva: cuanto más humanos se vuelven los robots, mayor es nuestra afinidad — hasta que, justo antes de la semejanza total, se desploma en repulsión.",
+  "El ensayo pasó casi inadvertido durante décadas; luego los gráficos por computadora y los robots humanoides marcharon directo hacia la hondonada que él predijo. IEEE Spectrum publicó la primera traducción autorizada en 2012, y el valle inquietante se convirtió en una de las ideas más citadas en robótica, animación y diseño de interfaces."
+ ],
+ ".law-content .law-desc": [
+  "Cuanto más humana se vuelve una figura, más positiva es la respuesta emocional — hasta que, cerca de la semejanza total, pequeñas imperfecciones provocan una caída brusca hacia la inquietud. El movimiento profundiza tanto los picos como el valle."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masahiro-mori\">Masahiro Mori</a> (1970)",
+  "«Bukimi no Tani», revista Energy",
+  "Estilizar o perfeccionar — nunca casi"
+ ],
+ ".card .tag": [
+  "La curva",
+  "Movimiento",
+  "Diseño",
+  "Rostros",
+  "Por qué",
+  "Práctica",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "La forma del valle",
+  "El movimiento ahonda el valle",
+  "Estilizar o perfeccionar",
+  "Rostros, avatares y CGI",
+  "Por qué ocurre",
+  "Diseñar alrededor del valle",
+  "El valle de las voces",
+  "El valle de los textos"
+ ],
+ ".card .desc": [
+  "La afinidad sube a medida que una figura gana semejanza humana — un robot de juguete supera a un brazo industrial. Luego, justo antes de convencer, la curva se desploma: la figura deja de leerse como una máquina encantadora y empieza a leerse como un humano defectuoso.",
+  "La segunda observación de Mori: el movimiento lo amplifica todo. Una figura quieta y ligeramente rara inquieta; la misma figura en movimiento — con ojos muertos o gestos a destiempo — es mucho peor. La animación eleva los picos y cava el valle más hondo.",
+  "El valle tiene dos orillas seguras. La estilización deliberada — rostros de Pixar, mascotas de caricatura, robots evidentes — vive feliz en la orilla cercana. El realismo impecable ocupa la lejana. El error caro es detenerse en medio.",
+  "El público se estremeció ante los rostros casi humanos de las primeras películas CGI mientras adoraba los estilizados. Los avatares de producto siguen la misma regla: un personaje ilustrado y simpático supera a un rostro fotorrealista que parpadea un poco mal.",
+  "Las principales explicaciones coinciden en el mecanismo: una figura casi humana hace que el cerebro prediga un humano, y cada leve fallo — piel, mirada, ritmo — es un error de predicción. La figura se juzga como una persona defectuosa, no como una máquina impresionante.",
+  "Elige una orilla antes de construir. Fija las expectativas pronto — una máquina que se anuncia como máquina se juzga como tal. Y cuando el realismo es la meta, presupuesta el último cinco por ciento, porque ahí vive el valle.",
+  "Las voces sintéticas con muletillas humanas — respiraciones, «em», titubeos cálidos — provocaron el mismo rechazo que los rostros casi humanos: la gente se sintió engañada, no encantada. Una voz capaz y honestamente sintética queda a salvo en la orilla cercana.",
+  "La prosa de IA también cae en el valle: calidez genérica, simetría cautelosa, empatía sin nadie detrás. Los lectores perciben el ritmo casi humano antes de poder nombrarlo. La escritura honesta, asistida por máquina, se lee mejor que la imitación de una persona."
+ ],
+ ".meta .label": [
+  "Eje X",
+  "Eje Y",
+  "La hondonada",
+  "Quieto",
+  "En movimiento",
+  "Vigilar",
+  "Orilla cercana",
+  "Orilla lejana",
+  "El medio",
+  "Amado",
+  "Rechazado",
+  "Regla",
+  "Expectativa",
+  "Percepción",
+  "Resultado",
+  "Decidir",
+  "Declarar",
+  "Presupuestar",
+  "Rechazo",
+  "Antídoto",
+  "Señal",
+  "Antídoto"
+ ],
+ ".meta .value": [
+  "Semejanza humana",
+  "Afinidad",
+  "Casi — pero no del todo",
+  "Hondonada leve",
+  "Hondonada profunda",
+  "Primero ojos y ritmo",
+  "Estilización honesta",
+  "Realismo impecable",
+  "Donde mueren los presupuestos",
+  "Personajes estilizados",
+  "Rostros casi humanos",
+  "El encanto vence a la fidelidad",
+  "Un humano",
+  "Casi un humano",
+  "El error de predicción suena mal",
+  "Qué orilla, desde el inicio",
+  "La máquina como máquina",
+  "El último cinco por ciento",
+  "Sentirse engañado",
+  "Revelar la máquina",
+  "Ritmo casi correcto",
+  "Voz de máquina honesta"
+ ],
+ ".ai-divider h3": [
+  "El valle inquietante en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Mori dibujó la curva para rostros y cuerpos. La IA la llevó a terreno nuevo: voces que respiran casi bien, y prosa que es casi — pero no del todo — como escribe una persona."
+ ]
+}

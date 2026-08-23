@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "IKEA <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Labor leads to love."
+ ],
+ "header .subtitle": [
+  "Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Michael_I._Norton\" target=\"_blank\" rel=\"noopener\">Michael I. Norton</a> of Harvard Business School, with Daniel Mochon and <a href=\"https://en.wikipedia.org/wiki/Dan_Ariely\" target=\"_blank\" rel=\"noopener\">Dan Ariely</a>, had people fold origami and assemble plain IKEA boxes. Builders then bid dramatically more for their own creations — valuing amateur work near the level of experts’ — and assumed everyone else would too.",
+  "The 2011 paper named the effect after the furniture that ships as a box of parts. The idea was older: 1950s marketers had learned that instant cake mixes sold better once the recipe required adding an egg. A little labor made the cake feel like the baker’s own."
+ ],
+ ".law-content .law-desc": [
+  "People assign disproportionate value to things they helped create, even when the labor is small and the result is objectively ordinary. The premium appears only when the work is completed — abandoned or failed builds earn no love."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-michael-norton\">Michael Norton</a>, <a href=\"people.html#p-daniel-mochon\">Daniel Mochon</a>, and <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> (2011)",
+  "“The IKEA Effect: When Labor Leads to Love”",
+  "Let users build — a little"
+ ],
+ ".card .tag": [
+  "The research",
+  "Origins",
+  "Boundary",
+  "Design",
+  "Caution",
+  "Retention",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Experiments",
+  "The Egg in the Cake Mix",
+  "Labor Must Succeed",
+  "Customization Creates Owners",
+  "Effort, Not Busywork",
+  "The Investment Loop",
+  "Co-Creation Attachment",
+  "When the Machine Builds Everything"
+ ],
+ ".card .desc": [
+  "Participants who assembled a plain black IKEA box bid 63 percent more for it than buyers of an identical pre-built one. Origami folders priced their lopsided cranes near expert work. The labor, not the object, carried the value.",
+  "Instant cake mixes stalled in the 1950s until makers took the powdered egg out and asked bakers to crack a fresh one in. One meaningful step converted a factory product into the baker’s own cake — and sales followed.",
+  "The premium exists only for completed work. When builders had to disassemble their creation, or never finished it, the extra value vanished. Effort binds people to outcomes — not to attempts.",
+  "Setting an avatar, naming a workspace, arranging a dashboard — small acts of building make the product feel authored. Users who shaped their setup return to it, defend it, and forgive it more.",
+  "The effect rewards meaningful labor, not friction. Forced steps, hollow wizards, and make-work forms breed resentment, not ownership. Give users one egg to crack — never a form for the sake of a form.",
+  "Playlists, boards, saved views, trained filters — every artifact a user builds inside a product raises what leaving would cost. Stored labor is the strongest retention there is, and the easiest to earn honestly.",
+  "People prize AI output far more when they steered it — wrote the prompt, chose between drafts, edited the result. Surface that authorship: show what the user shaped, and the output stops feeling like the machine’s.",
+  "Full automation is the anti-IKEA: nothing invested, nothing owned, easy to discard. Keep one meaningful decision in the user’s hands — the outline, the pick, the final cut — and the result becomes theirs to keep."
+ ],
+ ".meta .label": [
+  "Pre-built",
+  "Self-built",
+  "Carrier",
+  "All-in-one",
+  "Add an egg",
+  "Lesson",
+  "Finished",
+  "Abandoned",
+  "Design duty",
+  "Moment",
+  "Act",
+  "Payoff",
+  "Meaningful",
+  "Busywork",
+  "Test",
+  "Artifacts",
+  "Mechanism",
+  "Earned",
+  "Labor now",
+  "Design",
+  "One click",
+  "One decision kept"
+ ],
+ ".meta .value": [
+  "Baseline value",
+  "63 percent premium",
+  "The labor itself",
+  "Felt like the factory’s",
+  "Felt like the baker’s",
+  "One real step is enough",
+  "Full premium",
+  "No premium",
+  "Make completion reachable",
+  "Setup and onboarding",
+  "Name it, shape it, place it",
+  "Retention and forgiveness",
+  "Few, consequential steps",
+  "Many, hollow steps",
+  "Would they miss the step?",
+  "Playlists · boards · views",
+  "Stored labor raises exit cost",
+  "Honestly, by usefulness",
+  "Prompting · choosing · editing",
+  "Make authorship visible",
+  "Disposable output",
+  "Owned output"
+ ],
+ ".ai-divider h3": [
+  "The IKEA Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "When a model can build the whole thing in one click, the labor disappears — and with it, the love. The craft now is deciding which egg the user still cracks."
+ ]
+}

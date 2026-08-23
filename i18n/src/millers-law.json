@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Miller’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "About <em>seven</em> things, plus or minus two."
+ ],
+ "header .subtitle": [
+  "George Miller’s 1956 paper put a number on working memory — about seven chunks. The number itself is fuzzy; the lesson is that memory is small, and the design’s job is to group information so users can hold it without strain."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/George_Armitage_Miller\" target=\"_blank\" rel=\"noopener\">George A. Miller</a> was an American cognitive psychologist at Harvard and Princeton and a founder of cognitive science. His 1956 paper The Magical Number Seven, Plus or Minus Two examined the limits of short-term memory — and became one of psychology’s most cited works.",
+  "Miller co-founded the Harvard Center for Cognitive Studies with <a href=\"https://en.wikipedia.org/wiki/Jerome_Bruner\" target=\"_blank\" rel=\"noopener\">Jerome Bruner</a> in 1960, helping end behaviorism’s dominance in American psychology. He later created WordNet at Princeton, a lexical database that became foundational to computational linguistics. He was careful to note that ‘seven’ was a rhetorical device — the real lesson is chunking."
+ ],
+ ".law-content .law-desc": [
+  "There’s a small ceiling to how much a person can hold in working memory at one moment. The trick isn’t to shrink interfaces to that ceiling — it’s to group information into chunks the user can fit under it."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-george-a-miller\">George A. Miller</a> (1956)",
+  "The Magical Number Seven, Plus or Minus Two",
+  "Chunk information"
+ ],
+ ".card .tag": [
+  "1956 study",
+  "Compression",
+  "Related heuristic",
+  "Classic case",
+  "IA",
+  "Pattern",
+  "Flow",
+  "Myth",
+  "Take-away",
+  "Refinement",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Magical Number Seven",
+  "Chunking",
+  "Recognition Over Recall",
+  "Format Numbers Into Chunks",
+  "Group Information Architecture",
+  "<a href=\"progressive-disclosure.html\">Progressive Disclosure</a>",
+  "Multi-step Wizards",
+  "The Common Misuse",
+  "Chunk Size, Not Item Count",
+  "The Number Got Smaller",
+  "The Assistant Holds Context for You",
+  "The Risk: Trusting What You Can’t Hold"
+ ],
+ ".card .desc": [
+  "Miller surveyed studies on pitch perception, taste discrimination, and short-term recall — and the same ceiling kept showing up: about seven items. He never argued this should set menu length; that’s a misreading that became gospel.",
+  "The way around the limit. Group raw items into meaningful chunks and you fit more in memory. A 10-digit phone number is hard; (555) 867-5309 is easy — three chunks instead of ten digits, and the chunks themselves are familiar shapes.",
+  "Even when memory is bounded, recognition is far cheaper than recall. Show the options on screen and let the user point at the right one. Menus, autocomplete, breadcrumbs, recently-used lists, and saved searches are all Miller workarounds dressed as features.",
+  "The textbook example. (555) 867-5309 is three chunks; 5558675309 is one ten-digit blur. The same logic applies to credit cards, IBANs, dates, reference numbers, and OTP codes — format for the eye and the memory, not for the database column.",
+  "Navigation works best when each level has a small, scannable set. Card-sorting research lands consistently around five to nine categories per level. Beyond that, users start to lose the map of where things sit, and back-tracking spikes.",
+  "Show the few choices that matter now, reveal the rest on demand. Settings panels, forms, and onboarding all benefit — keeping any one screen under the working-memory ceiling without hiding what advanced users need a click away.",
+  "Long forms collapse into wizards for Miller-shaped reasons. Each step asks for a chunk small enough to hold while deciding — the alternative is a forty-field page where users lose track of what they’ve already answered halfway down.",
+  "“Menus should have at most seven items” — Miller never said this. His work was about chunks in working memory, not interface element counts. Menus are scanned visually, not held in memory. The 7 ± 2 number is a guide to grouping, not a hard ceiling on what’s on screen.",
+  "The right read: when a user must hold something in mind across a task — a code, a step, a comparison — keep the chunk at five or fewer. When they’re scanning with the screen as memory, the limit doesn’t apply. Distinguish “carry it” from “see it.”",
+  "Decades of follow-on research narrowed the figure — Cowan’s 2001 paper suggests closer to four chunks for genuine working memory. The principle holds, only sharper: memory is small, expensive, and the design’s job is to protect it.",
+  "A model can carry the full set of variables a user can’t. “What was that customer’s plan?” or “remind me which file we last edited” no longer demands the user keep it in head — the assistant remembers across the session and surfaces it on cue.",
+  "When the model handles the chunks the user can’t, the user loses the ability to verify. Surface sources, intermediate steps, and undo so people can re-establish ground truth — don’t let “I can’t hold it all” become “I never had to check.”"
+ ],
+ ".meta .label": [
+  "Original",
+  "Range",
+  "Misread as",
+  "Mechanism",
+  "Classic",
+  "Effect",
+  "Cheaper",
+  "Costly",
+  "Apply",
+  "Pattern",
+  "Apply to",
+  "Avoid",
+  "Target",
+  "Research",
+  "Symptom",
+  "Show",
+  "Reveal",
+  "Watch for",
+  "Pattern",
+  "Best for",
+  "Watch for",
+  "Myth",
+  "Reality",
+  "Apply",
+  "In memory",
+  "On screen",
+  "Test",
+  "Original",
+  "Refined",
+  "Practical",
+  "Shift",
+  "Helps",
+  "Watch for",
+  "Risk",
+  "Surface",
+  "Always"
+ ],
+ ".meta .value": [
+  "Pitch · taste · recall",
+  "5–9 chunks",
+  "“7-item menus”",
+  "Group into meaning",
+  "Phone · IBAN · dates",
+  "More info, same load",
+  "Recognition",
+  "Recall from blank",
+  "Surface, don’t quiz",
+  "Group digits",
+  "Phone · card · IBAN · OTP",
+  "Raw run-on strings",
+  "5–9 per level",
+  "Card sorting",
+  "Lost in navigation",
+  "The 5–9 that matter",
+  "On request",
+  "Hiding the essential",
+  "One chunk per step",
+  "Long forms · setup flows",
+  "Step bloat hides total length",
+  "7-item menus",
+  "Chunking, not counting",
+  "Group, then size",
+  "≤ 5–9 chunks",
+  "No hard cap",
+  "Can they hold it?",
+  "Miller, 1956 · ~7",
+  "Cowan, 2001 · ~4",
+  "Plan around ≈ 4 safe",
+  "User → assistant memory",
+  "Long multi-step tasks",
+  "Stale or wrong context",
+  "Unverifiable answers",
+  "Sources and steps",
+  "An easy verify path"
+ ],
+ ".ai-divider h3": [
+  "Miller’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "The assistant can hold the chunks a user can’t — but the user still has to verify what they couldn’t keep in mind themselves."
+ ]
+}

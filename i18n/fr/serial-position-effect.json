@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Effet</em> de position sérielle"
+ ],
+ "header .tagline": [
+  "Le premier et le dernier restent. Le milieu s'efface."
+ ],
+ "header .subtitle": [
+  "Hermann Ebbinghaus a découvert que les gens retiennent le mieux les premiers et derniers éléments d'une série — primauté et récence — tandis que le milieu se brouille. L'effet décide de ce qui va aux extrémités de vos menus, listes et parcours."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, psychologue allemand fondateur de l'étude expérimentale de la mémoire, a documenté l'effet de position sérielle dans les années 1880 — en mémorisant sur lui-même des milliers de syllabes sans signification et en traçant où le rappel échouait.",
+  "Ses courbes montraient un rappel maximal en début de liste (primauté — les éléments sont répétés jusqu'en mémoire à long terme) et en fin de liste (récence — les éléments sont encore en mémoire de travail), avec un creux au milieu. Les mêmes expériences ont produit la courbe de l'oubli et l'effet d'espacement."
+ ],
+ ".law-content .law-desc": [
+  "Quand les gens se rappellent une série, la performance forme un U : les premiers éléments bénéficient de la répétition vers la mémoire à long terme, les derniers d'être encore en mémoire de travail, et les éléments du milieu perdent les deux avantages. Dans les interfaces, la position est une décision de mémoire."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Hermann Ebbinghaus (1885)",
+  "Memory: A Contribution to Experimental Psychology",
+  "Les extrémités portent le poids"
+ ],
+ ".card .tag": [
+  "Primauté",
+  "Récence",
+  "La courbe",
+  "Navigation",
+  "Le milieu",
+  "Parcours",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Les premières impressions sont répétées",
+  "La dernière chose s'attarde",
+  "La courbe de rappel en U",
+  "Ancrer les extrémités de la navigation",
+  "Mettre le milieu au travail",
+  "Séquencer les étapes comme une histoire",
+  "Les prompts aussi ont des extrémités",
+  "Perdu au milieu"
+ ],
+ ".card .desc": [
+  "Les premiers éléments de toute séquence reçoivent le plus d'attention et le plus de répétition — les utilisateurs y reviennent mentalement en traitant le reste. Le premier élément de menu, le premier écran d'onboarding et la première puce font un travail disproportionné.",
+  "Les derniers éléments sont encore frais en mémoire de travail quand la séquence se termine. Le dernier écran d'un parcours, la phrase de clôture d'une boîte de dialogue et l'action du bas d'un panneau sont rappelés presque aussi bien que les premiers.",
+  "Tracez le rappel en fonction de la position et la forme est un U — haut aux deux extrémités, affaissé au milieu. Tout ce qui doit être retenu depuis le milieu d'une séquence a besoin d'aide supplémentaire : emphase, répétition ou déplacement.",
+  "Placez les destinations les plus importantes en premier et en dernier dans les menus et barres d'onglets — l'accueil à un bout, le profil ou le panier à l'autre. Le milieu est l'endroit où les destinations secondaires vivent confortablement.",
+  "Le creux n'est pas de l'espace perdu — c'est la place des éléments à faible enjeu. Sous-pages de réglages, options de cas limites et liens juridiques peuvent vivre en milieu de liste sans coût, libérant les extrémités pour ce qui doit être trouvé et retenu.",
+  "Dans l'onboarding et le paiement, les utilisateurs se souviennent de comment ça a commencé et comment ça a fini. Ouvrez sur la valeur, terminez sur la victoire — et gardez les parties fastidieuses (formulaires, autorisations) au milieu, où elles se brouillent.",
+  "Les instructions au début et à la fin d'un long prompt sont suivies plus fidèlement que celles enfouies au milieu. La même forme primauté-récence qui gouverne les listes humaines gouverne ce à quoi un modèle prête attention.",
+  "Les modèles à long contexte rappellent le mieux le début et la fin de leur contexte — la qualité de récupération s'affaisse pour ce qui se trouve entre les deux. Donnez cent documents à un modèle et ceux du milieu exigent la mise en avant la plus délibérée."
+ ],
+ ".meta .label": [
+  "Position",
+  "Mécanisme",
+  "Utiliser pour",
+  "Position",
+  "Mécanisme",
+  "Utiliser pour",
+  "Forme",
+  "Primauté",
+  "Récence",
+  "Première place",
+  "Dernière place",
+  "Milieu",
+  "Le milieu est pour",
+  "Les extrémités sont pour",
+  "À surveiller",
+  "Ouvrir avec",
+  "Clore avec",
+  "Enfouir",
+  "Modèle",
+  "Milieu",
+  "Connu comme",
+  "Contre-mesure"
+ ],
+ ".meta .value": [
+  "Premier",
+  "Répétition vers la mémoire",
+  "Action clé · argument clé",
+  "Dernier",
+  "Mémoire de travail",
+  "Confirmation · étape suivante",
+  "Extrémités hautes, milieu bas",
+  "Mémoire à long terme",
+  "Mémoire de travail",
+  "Destination principale",
+  "Second ancrage",
+  "Éléments secondaires",
+  "Éléments à faible enjeu",
+  "Trouvable · mémorable",
+  "Enterrer l'essentiel",
+  "La valeur",
+  "La victoire",
+  "La paperasse",
+  "Règles clés au début et à la fin",
+  "Contexte, pas commandes",
+  "Lost-in-the-middle",
+  "Reclasser · citer · segmenter"
+ ],
+ ".ai-divider h3": [
+  "La position sérielle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles ont leur propre problème de milieu — les longs contextes rappellent le mieux leur début et leur fin. La vieille courbe de la mémoire a trouvé une nouvelle machine."
+ ]
+}

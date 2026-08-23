@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Cognitive Load <em>Theory</em>"
+ ],
+ "header .tagline": [
+  "Working memory is the bottleneck. Spend it well."
+ ],
+ "header .subtitle": [
+  "John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, an Australian educational psychologist at the University of New South Wales, developed cognitive load theory in 1988 from studies of how students learn from worked examples versus raw problem solving.",
+  "His experiments showed that instruction fails when working memory is spent on the format instead of the content — the split-attention and redundancy effects. The theory became one of the most cited frameworks in instructional design, and maps directly onto interfaces."
+ ],
+ ".law-content .law-desc": [
+  "Working memory is sharply limited. Total load divides into intrinsic (the task’s inherent difficulty), extraneous (effort imposed by presentation), and germane (effort that builds understanding). Reduce extraneous load, manage intrinsic load, and protect what’s left for germane work."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-sweller\">John Sweller</a> (1988)",
+  "Cognitive Science 12 — problem-solving studies",
+  "Cut the interface’s overhead"
+ ],
+ ".card .tag": [
+  "Three loads",
+  "Cut",
+  "Manage",
+  "Split attention",
+  "Germane",
+  "Signals",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Intrinsic, Extraneous, Germane",
+  "Delete Extraneous Load",
+  "Chunk the Intrinsic",
+  "Keep Related Things Together",
+  "Worked Examples Teach",
+  "Recognizing Overload",
+  "The Great Load Absorber",
+  "Verification Is the New Load"
+ ],
+ ".card .desc": [
+  "Intrinsic load comes with the task — booking a flight involves dates and fares. Extraneous load comes from presentation — hunting for the fare rules. Germane load is the useful effort of understanding. Only one of the three is yours to delete.",
+  "Every decoration, redundant label, competing accent, and split reference costs working memory that the task needed. The cluttered and clean version do the same job; only one leaves room to think.",
+  "Intrinsic load can’t be deleted, but it can be sequenced. Wizards, sensible defaults, and part-by-part reveals hold the task’s difficulty constant while capping how much of it lands at once.",
+  "Sweller’s split-attention effect: when the diagram is here and its explanation is there, integrating them is pure overhead. Put labels on the thing, errors at the field, and help where the question arises.",
+  "Novices learn more from a completed example than from solving cold — germane load in action. Templates, sample data, and pre-filled starting points are the interface version of the worked example.",
+  "Overload has signatures: re-reading the same line, abandoning mid-form, wrong defaults accepted, support tickets that quote the interface back to you. When users think about the tool instead of the task, load is misallocated.",
+  "An assistant that reads the docs, fills the form, and reconciles the formats is deleting extraneous load at industrial scale. The task’s intrinsic difficulty remains — but the overhead around it collapses.",
+  "What AI removes in mechanics it partially returns in checking: is the summary faithful, the number right, the citation real? Design for cheap verification — sources inline, diffs visible — or the load returns as anxiety."
+ ],
+ ".meta .label": [
+  "Intrinsic",
+  "Extraneous",
+  "Germane",
+  "Delete",
+  "Same job",
+  "Freed memory",
+  "Can’t delete",
+  "Tools",
+  "Cap",
+  "Label",
+  "Error",
+  "Help",
+  "Novices",
+  "Interface form",
+  "Blank slates",
+  "Signatures",
+  "Tell",
+  "Measure",
+  "Deletes",
+  "Remains",
+  "New load",
+  "Make it cheap"
+ ],
+ ".meta .value": [
+  "The task itself",
+  "Your interface’s overhead",
+  "Learning that sticks",
+  "Decoration · redundancy",
+  "Less overhead",
+  "Goes to the task",
+  "Only sequence",
+  "Wizards · defaults",
+  "Load per moment",
+  "On the thing",
+  "At the field",
+  "Where the question is",
+  "Learn from examples",
+  "Templates · sample data",
+  "Are expensive",
+  "Re-reads · abandons",
+  "Thinking about the tool",
+  "Task success · time",
+  "The overhead",
+  "The real decision",
+  "Checking the machine",
+  "Sources · diffs inline"
+ ],
+ ".ai-divider h3": [
+  "Cognitive Load in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Assistants absorb enormous extraneous load — and mint a new kind: the effort of verifying what the machine claims."
+ ]
+}

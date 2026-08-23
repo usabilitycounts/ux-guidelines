@@ -1,0 +1,117 @@
+{
+ "header h1": [
+  "Loi de puissance de la <em>pratique</em>"
+ ],
+ "header .tagline": [
+  "Le temps d'exécution d'une tâche décroît en <em>puissance</em> des répétitions."
+ ],
+ "header .subtitle": [
+  "Snoddy (1926) l'a observé et Newell et Rosenbloom (1981) l'ont formalisé : à mesure qu'on répète une tâche, son temps suit une courbe en loi de puissance. Gains rapides au début, plus doux ensuite, et une longue traîne où la pratique paie encore — juste moins."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Allen_Newell\" target=\"_blank\" rel=\"noopener\">Allen Newell</a>, figure fondatrice de l'intelligence artificielle, et <a href=\"https://en.wikipedia.org/wiki/Paul_Rosenbloom\" target=\"_blank\" rel=\"noopener\">Paul Rosenbloom</a>, son collaborateur à Carnegie Mellon, ont montré en 1981 que l'amélioration par la pratique suit une loi de puissance — gains rapides d'abord, puis rendements toujours décroissants.",
+  "Newell fut un père fondateur de l'intelligence artificielle — co-créateur du Logic Theorist, le premier programme d'IA — et a reçu le prix Turing en 1975. Rosenbloom a ensuite codirigé l'architecture cognitive Soar. Des recherches ultérieures suggèrent que les courbes d'apprentissage individuelles sont plus proches d'une exponentielle ; la loi de puissance émerge quand on moyenne entre apprenants."
+ ],
+ ".law-content .law-desc": [
+  "Tracez le temps par tâche en fonction des répétitions sur des axes log-log et vous obtenez une droite. Les plus grands gains arrivent tôt — de la première à la dixième minute, tout change. Au-delà, chaque doublement de la pratique produit un gain relatif plus petit, mais jamais nul."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Allen Newell et Paul Rosenbloom (1981)",
+  "Mechanisms of Skill Acquisition",
+  "Concevoir pour l'usage répété"
+ ],
+ ".card .tag": [
+  "La courbe",
+  "Rendements",
+  "Onboarding",
+  "Plateaux",
+  "Raccourcis",
+  "Pratique délibérée",
+  "Mythe",
+  "Quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La courbe d'apprentissage est une loi de puissance",
+  "Décroissants, mais jamais nuls",
+  "Les premières minutes portent la courbe",
+  "Le plateau est réel",
+  "Rendre réel le parcours utilisateur avancé",
+  "Toutes les répétitions ne se valent pas",
+  "Le contresens des 10 000 heures",
+  "Concevoir pour toute la courbe",
+  "L'IA aplatit la courbe du débutant",
+  "La pratique compte encore · pour le jugement"
+ ],
+ ".card .desc": [
+  "Le temps par tâche et les répétitions dessinent une décroissance abrupte. Les dix premiers essais rabotent l'essentiel du coût. Les répétitions cent à mille font encore baisser le temps — mais lentement, sur une courbe qui s'aplatit vers une asymptote plutôt que vers zéro.",
+  "La plupart des décisions d'onboarding en dépendent. La première heure de pratique vaut plus que les dix suivantes. Les dix suivantes valent plus que les cent d'après. Mais la courbe continue — les experts de tout outil complexe gagnent encore en vitesse des années plus tard, à un rythme que les débutants ne remarqueraient pas.",
+  "Parce que l'essentiel de l'apprentissage se joue tôt, les décisions d'onboarding ont un levier démesuré. Une première expérience qui fait passer la configuration de 8 minutes à 2 déplace toute la courbe vers la droite — moins d'abandons, un temps vers la valeur plus court, plus d'utilisateurs qui restent assez longtemps pour atteindre la partie plate de la courbe.",
+  "Les courbes de pratique sont rarement lisses. Les utilisateurs rencontrent des plateaux — des périodes où le temps cesse de baisser malgré les répétitions. La sortie passe souvent par une nouvelle technique (un raccourci, un autre modèle mental), pas par plus de pratique de la même. Concevez pour le plateau : montrez le prochain geste, ne comptez pas seulement les répétitions.",
+  "La pente de la courbe dépend de la technique disponible. Un utilisateur qui ne fait que cliquer dans le menu reste sur une courbe plus douce que celui qui apprend les raccourcis clavier. Montrez tôt et souvent le chemin le plus rapide — les utilisateurs avancés gagnent non par talent mais par une courbe d'apprentissage plus raide.",
+  "La recherche d'Ericsson : la pratique délibérée — concentrée, avec du feedback, à la limite de ses capacités — produit une courbe plus raide que des répétitions machinales. La vitesse de frappe, de code, de revue de design progresse plus vite quand le feedback est immédiat et que la prochaine cible difficile est en vue.",
+  "Gladwell a transformé la recherche d'Ericsson en « 10 000 heures » — mais le travail original portait sur des formes précises de pratique délibérée dans des domaines précis. Dix mille heures machinales produisent un utilisateur expérimenté qui stagne, pas un champion. La courbe s'applique toujours ; le multiplicateur dépend de la qualité de la pratique.",
+  "Votre produit est utilisé par des personnes situées en tout point de la courbe. L'utilisateur du premier jour a besoin de valeurs par défaut visibles et d'une première tâche réussie. Celui de la semaine 100 a besoin de raccourcis, d'actions groupées et de personnalisation. Chaque cohorte occupe une portion différente de la courbe — et toutes voient la même interface.",
+  "Un utilisateur de premier jour épaulé par un assistant peut produire un résultat de niveau expert. La partie raide du début de la courbe — celle où la plupart des utilisateurs abandonnaient — devient presque verticale. L'expert et le novice n'ont jamais été aussi proches, du moins sur le résultat. Savoir s'ils sont plus proches en jugement est une autre question.",
+  "Le modèle gère la mécanique ; l'humain doit toujours savoir à quoi ressemble un bon résultat. La courbe du jugement — savoir quelle sortie est juste, laquelle est une absurdité plausible, laquelle est subtilement fausse — n'a été aplatie par rien. Les répétitions la construisent toujours, et les débutants en ont toujours besoin."
+ ],
+ ".meta .label": [
+  "Forme",
+  "Jamais",
+  "Modèle",
+  "Gain expert",
+  "Levier",
+  "Effet",
+  "Modèle",
+  "Pour en sortir",
+  "Montrer",
+  "Effet",
+  "Source",
+  "Exige",
+  "Contresens",
+  "Réalité",
+  "Concevoir pour",
+  "À surveiller",
+  "Effet",
+  "Question",
+  "Sortie",
+  "Jugement"
+ ],
+ ".meta .value": [
+  "Raide puis plate",
+  "N'atteint zéro",
+  "Rendements logarithmiques",
+  "Réel mais invisible",
+  "Défauts · préremplissage · passer",
+  "Toute la courbe se décale à droite",
+  "Fonction en escalier, pas lisse",
+  "Nouvelle technique · raccourci",
+  "Raccourcis · palette de commandes",
+  "Courbe d'utilisateur avancé · activée",
+  "Ericsson, 1993",
+  "Feedback · limite des capacités",
+  "Les heures, pas la qualité",
+  "La qualité compte plus",
+  "Chaque cohorte",
+  "Seulement le nouvel utilisateur",
+  "Débutant ≈ expert · sur le résultat",
+  "Et sur le jugement ?",
+  "L'IA gère la vitesse",
+  "Coûte encore des répétitions"
+ ],
+ ".ai-divider h3": [
+  "La loi de puissance à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles peuvent rendre presque plat le début de la courbe — et cela change qui compte comme expert."
+ ],
+ ".law-formula-note": [
+  "le temps par tâche (T) décroît en puissance du nombre d'essais de pratique (P)."
+ ]
+}

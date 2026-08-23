@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Postel"
+ ],
+ "header .tagline": [
+  "Soyez conservateur dans ce que vous envoyez, <em>libéral</em> dans ce que vous acceptez."
+ ],
+ "header .subtitle": [
+  "Le principe de robustesse de Jon Postel (1980) est né de la spécification TCP — une règle pour que les réseaux tolèrent des pairs négligents sans le devenir eux-mêmes. La même règle s'applique aux interfaces : soyez strict sur ce que vous produisez, indulgent avec ce que les utilisateurs vous donnent."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jon_Postel\" target=\"_blank\" rel=\"noopener\">Jon Postel</a> était un informaticien américain qui a édité la série des RFC et veillé sur les standards fondamentaux d'internet pendant des décennies. Son principe de robustesse — soyez conservateur dans ce que vous envoyez, libéral dans ce que vous acceptez — est apparu dans sa spécification TCP de 1980.",
+  "Postel a dirigé l'IANA — l'Internet Assigned Numbers Authority — pratiquement seul pendant près de trente ans, ce qui lui a valu le titre officieux de « dieu d'internet ». Le principe de robustesse reste débattu en conception de protocoles : trop de tolérance dans ce que l'on accepte peut figer des bugs en standards de fait."
+ ],
+ ".law-content .law-desc": [
+  "Un système devrait émettre une sortie propre et stricte, mais accepter des entrées généreuses et désordonnées. Sur le réseau, cette règle a permis à des implémentations TCP incompatibles de continuer à dialoguer ; dans l'interface, elle évite de punir les humains qui saisissent les choses dans leur propre format."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Jon Postel (1980)",
+  "RFC 761, la spécification TCP",
+  "Accepter des entrées désordonnées, émettre des sorties propres"
+ ],
+ ".card .tag": [
+  "Entrées",
+  "Sorties",
+  "Erreurs",
+  "Compatibilité",
+  "Analyse intelligente",
+  "Valeurs par défaut",
+  "Critique",
+  "S'associe à",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Des champs de formulaire indulgents",
+  "Des sorties strictes et prévisibles",
+  "Récupérer, ne pas rejeter",
+  "Rester rétrocompatible",
+  "Analyser comme les humains tapent",
+  "Les valeurs par défaut sont des entrées libérales",
+  "Les limites de la robustesse",
+  "Boucle la boucle de Tesler",
+  "L'IA, analyseur libéral ultime",
+  "Le risque : l'engagement silencieux"
+ ],
+ ".card .desc": [
+  "Acceptez le format de l'utilisateur, puis normalisez-le vous-même. Numéros de téléphone avec points, barres ou espaces ; dates en « demain » ou « 12/3 » ; e-mails avec des espaces parasites — tout cela est une saisie raisonnable. Nettoyez, analysez et stockez la version propre sans obliger l'utilisateur à retaper.",
+  "L'autre moitié de la loi : ce que vous produisez doit être rigoureux, conforme aux standards et sans ambiguïté. Dates en ISO 8601, identifiants d'une forme connue, JSON au schéma cohérent. Les entrées libérales ne fonctionnent que parce que les sorties tiennent un contrat sur lequel le reste du système peut compter.",
+  "Quand l'entrée est ambiguë, inférez l'intention probable et confirmez — ne renvoyez pas l'utilisateur vers un champ vide. « On dirait que vous vouliez dire le 3 déc. ? » vaut mieux qu'une bordure rouge et une erreur « format invalide ». La récupération est plus rapide, plus bienveillante, et produit davantage de parcours menés à terme.",
+  "Soyez libéral avec ce que vous envoient les anciens clients, les anciennes URL et les anciennes données. Ne cassez pas les liens quand les chemins changent — redirigez. Ne rejetez pas les fichiers enregistrés au format de l'an dernier — mettez-les à niveau silencieusement. L'utilisateur ne devrait pas payer pour votre refactorisation.",
+  "Noms avec traits d'union, adresses avec numéros d'appartement, prix avec symboles monétaires — laissez l'analyseur faire le travail. L'utilisateur a une représentation mentale de ce qu'il saisit ; rejoignez-le plutôt que d'imposer une forme plus stricte qui n'intéresse que votre base de données.",
+  "Un champ doté d'une valeur par défaut intelligente accepte « peu m'importe » comme entrée valide. Pays prérempli d'après l'IP, devise selon la locale, rôle selon l'équipe — chaque supposition sûre est une chose de moins que l'utilisateur doit envoyer. Les sorties strictes tiennent toujours ; le système a simplement bien deviné.",
+  "La loi de Postel a son contre-exemple : des analyseurs trop tolérants laissent les mauvaises données se calcifier dans la spécification, et le système hérite d'années de scories du type « bon, on accepte ça ». La moitié stricte compte — soyez libéral en périphérie, strict au cœur, et ne masquez pas une véritable ambiguïté derrière une supposition.",
+  "Postel et Tesler arrivent à la même conclusion par des chemins opposés. Tesler dit que la complexité doit bien vivre quelque part ; Postel dit que lorsqu'elle vit à la frontière, il faut la placer côté système. L'interface indulgente, c'est le système qui absorbe le désordre du monde réel.",
+  "« Réserve-moi un vol vendredi » exigeait autrefois un formulaire précis. Plus maintenant. Les modèles acceptent l'approximation, les fautes de frappe, les entrées multilingues, la voix et le texte ensemble — la porte d'entrée la plus conforme à Postel jamais livrée. Les champs de formulaire n'ont pas disparu ; ils se sont déplacés à l'intérieur du modèle.",
+  "Un analyseur libéral qui s'engage silencieusement sur une seule interprétation est dangereux. L'utilisateur a dit « vendredi » — le modèle en a choisi un. Le contrat de Postel s'applique toujours : montrez ce que vous avez compris, laissez l'utilisateur corriger, et ne réduisez jamais une véritable ambiguïté à une réponse assurée."
+ ],
+ ".meta .label": [
+  "Accepter",
+  "Stocker",
+  "À ne pas faire",
+  "Envoyer",
+  "Utiliser",
+  "Résultat",
+  "Inférer",
+  "Confirmer",
+  "À ne pas faire",
+  "Appliquer",
+  "Tactique",
+  "Règle",
+  "Accepter",
+  "Normaliser",
+  "Résultat",
+  "Préremplir",
+  "Sources",
+  "Objectif",
+  "Risque",
+  "Appliquer",
+  "À ne pas faire",
+  "S'associe à",
+  "Tous deux disent",
+  "Effet",
+  "Évolution",
+  "Accepte",
+  "Sortie",
+  "Risque",
+  "Correctif",
+  "Toujours"
+ ],
+ ".meta .value": [
+  "Tout format raisonnable",
+  "Version canonique propre",
+  "Rejeter et redemander",
+  "Canonique strict",
+  "Dates ISO · schémas stables",
+  "Prévisible en aval",
+  "L'intention probable",
+  "« Vouliez-vous dire… ? »",
+  "Renvoyer au champ vide",
+  "Anciennes URL · anciennes données",
+  "Rediriger · mise à niveau auto",
+  "Ne pas casser les liens",
+  "Formes humaines",
+  "En coulisses",
+  "Plus de formulaires complétés",
+  "Tout ce qu'on peut deviner sans risque",
+  "IP · locale · historique",
+  "Moins à taper",
+  "Les scories se calcifient dans la spec",
+  "Périphérie libérale · cœur strict",
+  "Masquer l'ambiguïté",
+  "Loi de Tesler",
+  "Le système absorbe le désordre",
+  "Sensation d'aisance",
+  "Formulaire → langage",
+  "Presque tout",
+  "Toujours stricte",
+  "Interprétation silencieuse",
+  "Montrer l'interprétation",
+  "Permettre la correction"
+ ],
+ ".ai-divider h3": [
+  "La loi de Postel à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles sont les analyseurs d'entrée les plus libéraux jamais construits — et les plus stricts quant à l'interprétation sur laquelle ils s'engagent."
+ ]
+}

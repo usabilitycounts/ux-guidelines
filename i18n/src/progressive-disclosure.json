@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Progressive <em>Disclosure</em>"
+ ],
+ "header .tagline": [
+  "Show what matters now. Reveal the rest on demand."
+ ],
+ "header .subtitle": [
+  "Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity."
+ ],
+ ".law-origin .body-text": [
+  "The technique was studied at IBM in the early 1980s, where <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a>’s training-wheels interface cut novice errors by hiding advanced functions until users were ready for them.",
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> named and popularized the pattern for interface design, calling progressive disclosure one of the best ways to satisfy both novice and expert users with a single interface."
+ ],
+ ".law-content .law-desc": [
+  "Show users only what they need for the current task, and provide a clearly labeled path to the rest. Primary options stay immediate; advanced, rare, or dangerous options sit one deliberate step away — present, but not in the way."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jack-carroll\">Jack Carroll</a> (1983) · <a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a>",
+  "Training-wheels studies, IBM",
+  "Primary now, the rest on demand"
+ ],
+ ".card .tag": [
+  "The pattern",
+  "Selection",
+  "Mechanics",
+  "Sequence",
+  "Failure",
+  "Detail",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Two Layers, One Interface",
+  "Choosing the Primary Set",
+  "Accordions, Drawers, and “Advanced”",
+  "Wizards Are Disclosure in Time",
+  "Don’t Bury the Essentials",
+  "Details on Demand",
+  "The Short Answer First",
+  "Reasoning on Demand"
+ ],
+ ".card .desc": [
+  "The core move: a small primary set shown immediately, and a labeled door to everything else. Novices never meet the complexity; experts reach it in one click. Both groups use the same product.",
+  "The pattern lives or dies on what goes in layer one. Usage data decides: the handful of options that cover the great majority of tasks stay visible. Guess wrong and you’ve buried the product’s core.",
+  "The disclosure controls are a small family: the accordion, the “Show advanced” link, the overflow menu, the details drawer. Each needs an honest label — users must predict what’s behind the door before opening it.",
+  "A multi-step wizard discloses progressively across time instead of space: each step shows one decision’s worth of interface. The full form would terrify; the sequence feels manageable.",
+  "The pattern’s failure mode is over-hiding: when a frequently needed option lands in layer two, every user pays a click forever, and support tickets read “where did X go?” Frequency, not complexity, decides placement.",
+  "Tooltips, popovers, and expandable rows disclose depth in place — the summary stays scannable while the detail waits underneath. Shneiderman’s mantra applies: overview first, details on demand.",
+  "A good model response is progressive disclosure in prose: the direct answer up top, the derivation expandable below. Dumping the full reasoning on everyone is the wall-of-form mistake, rewritten in text.",
+  "Agent traces, tool calls, and chain-of-thought belong behind a disclosure: visible enough to audit, folded enough to stay out of the way. Trust needs the door to exist; flow needs it closed by default."
+ ],
+ ".meta .label": [
+  "Layer one",
+  "Layer two",
+  "Serves",
+  "Decide by",
+  "Layer one",
+  "Wrong guess",
+  "Family",
+  "Labels",
+  "Mystery doors",
+  "Discloses",
+  "Each step",
+  "Kills",
+  "Failure mode",
+  "Placement by",
+  "Symptom",
+  "In place",
+  "Summary",
+  "Mantra",
+  "Top",
+  "Expandable",
+  "Audit",
+  "Flow"
+ ],
+ ".meta .value": [
+  "What most need",
+  "One labeled step away",
+  "Novice and expert",
+  "Usage, not opinion",
+  "Covers most tasks",
+  "Buries the core",
+  "Accordion · drawer · more",
+  "Predict the contents",
+  "Never get opened",
+  "Across time",
+  "One decision",
+  "The wall-of-form",
+  "Over-hiding",
+  "Frequency of use",
+  "“Where did X go?”",
+  "Tooltip · popover · row",
+  "Stays scannable",
+  "Overview first",
+  "The direct answer",
+  "The working",
+  "The door exists",
+  "Closed by default"
+ ],
+ ".ai-divider h3": [
+  "Progressive Disclosure in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Chat answers and agent reasoning are disclosure problems: the short answer first, the working shown to those who ask."
+ ]
+}

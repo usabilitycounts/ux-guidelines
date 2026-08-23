@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "Millers <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Etwa <em>sieben</em> Dinge, plus oder minus zwei."
+ ],
+ "header .subtitle": [
+  "George Millers Aufsatz von 1956 bezifferte das Arbeitsgedächtnis — etwa sieben Einheiten. Die Zahl ist unscharf; die Lehre ist, dass das Gedächtnis klein ist und Design Informationen so gruppieren muss, dass Nutzer sie ohne Anstrengung halten können."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/George_Armitage_Miller\" target=\"_blank\" rel=\"noopener\">George A. Miller</a> war ein amerikanischer Kognitionspsychologe in Harvard und Princeton und ein Begründer der Kognitionswissenschaft. Sein Aufsatz The Magical Number Seven, Plus or Minus Two von 1956 untersuchte die Grenzen des Kurzzeitgedächtnisses — und wurde zu einem der meistzitierten Werke der Psychologie.",
+  "Miller gründete 1960 zusammen mit <a href=\"https://en.wikipedia.org/wiki/Jerome_Bruner\" target=\"_blank\" rel=\"noopener\">Jerome Bruner</a> das Harvard Center for Cognitive Studies und half so, die Dominanz des Behaviorismus in der amerikanischen Psychologie zu beenden. Später schuf er in Princeton WordNet, eine lexikalische Datenbank, die grundlegend für die Computerlinguistik wurde. Er betonte stets, dass die \"Sieben\" ein rhetorisches Mittel war — die eigentliche Lehre ist das Chunking."
+ ],
+ ".law-content .law-desc": [
+  "Es gibt eine niedrige Obergrenze dafür, wie viel ein Mensch in einem Moment im Arbeitsgedächtnis halten kann. Der Trick ist nicht, Interfaces auf diese Grenze zu schrumpfen — sondern Informationen in Einheiten zu gruppieren, die der Nutzer darunter unterbringt."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "George A. Miller (1956)",
+  "The Magical Number Seven, Plus or Minus Two",
+  "Informationen in Chunks gruppieren"
+ ],
+ ".card .tag": [
+  "Studie von 1956",
+  "Kompression",
+  "Verwandte Heuristik",
+  "Klassischer Fall",
+  "IA",
+  "Muster",
+  "Ablauf",
+  "Mythos",
+  "Fazit",
+  "Verfeinerung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die magische Zahl Sieben",
+  "Chunking",
+  "Wiedererkennen statt Erinnern",
+  "Zahlen in Chunks formatieren",
+  "Informationsarchitektur gruppieren",
+  "Progressive Offenlegung",
+  "Mehrstufige Assistenten",
+  "Der verbreitete Missbrauch",
+  "Chunk-Größe, nicht Elementzahl",
+  "Die Zahl wurde kleiner",
+  "Der Assistent hält den Kontext für Sie",
+  "Das Risiko: vertrauen, was man nicht halten kann"
+ ],
+ ".card .desc": [
+  "Miller wertete Studien zu Tonhöhenwahrnehmung, Geschmacksunterscheidung und Kurzzeiterinnerung aus — und dieselbe Grenze tauchte immer wieder auf: etwa sieben Elemente. Er behauptete nie, das solle die Menülänge bestimmen; das ist eine Fehllesart, die zum Dogma wurde.",
+  "Der Weg um die Grenze herum. Gruppieren Sie rohe Elemente zu bedeutungsvollen Einheiten, und mehr passt ins Gedächtnis. Eine 10-stellige Telefonnummer ist schwer; (555) 867-5309 ist leicht — drei Chunks statt zehn Ziffern, und die Chunks selbst haben vertraute Formen.",
+  "Selbst bei begrenztem Gedächtnis ist Wiedererkennen weit billiger als Erinnern. Zeigen Sie die Optionen auf dem Bildschirm und lassen Sie den Nutzer auf die richtige zeigen. Menüs, Autovervollständigung, Breadcrumbs, Zuletzt-verwendet-Listen und gespeicherte Suchen sind alles Miller-Umgehungen im Gewand von Features.",
+  "Das Lehrbuchbeispiel. (555) 867-5309 sind drei Chunks; 5558675309 ist ein zehnstelliger Nebel. Dieselbe Logik gilt für Kreditkarten, IBANs, Daten, Referenznummern und OTP-Codes — formatieren Sie für Auge und Gedächtnis, nicht für die Datenbankspalte.",
+  "Navigation funktioniert am besten, wenn jede Ebene ein kleines, überschaubares Set hat. Card-Sorting-Forschung landet konsistent bei fünf bis neun Kategorien pro Ebene. Darüber hinaus verlieren Nutzer die Landkarte, wo die Dinge liegen, und das Zurückspringen schnellt hoch.",
+  "Zeigen Sie die wenigen Wahlmöglichkeiten, die jetzt zählen, und enthüllen Sie den Rest auf Wunsch. Einstellungspanels, Formulare und Onboarding profitieren alle — jeder einzelne Screen bleibt unter der Arbeitsgedächtnisgrenze, ohne das zu verstecken, was Power-User einen Klick entfernt brauchen.",
+  "Lange Formulare kollabieren aus millerschen Gründen zu Assistenten. Jeder Schritt fragt nach einem Chunk, der klein genug ist, um ihn während der Entscheidung zu halten — die Alternative ist eine Seite mit vierzig Feldern, auf der Nutzer auf halber Strecke vergessen, was sie schon beantwortet haben.",
+  "\"Menüs sollten höchstens sieben Einträge haben\" — das hat Miller nie gesagt. Seine Arbeit handelte von Chunks im Arbeitsgedächtnis, nicht von der Zahl der Interface-Elemente. Menüs werden visuell abgesucht, nicht im Gedächtnis gehalten. Die Zahl 7 ± 2 ist ein Leitfaden fürs Gruppieren, keine harte Obergrenze für den Bildschirm.",
+  "Die richtige Lesart: Wenn ein Nutzer etwas über eine Aufgabe hinweg im Kopf behalten muss — einen Code, einen Schritt, einen Vergleich — halten Sie den Chunk bei fünf oder weniger. Wenn er mit dem Bildschirm als Gedächtnis scannt, gilt die Grenze nicht. Unterscheiden Sie \"tragen\" von \"sehen\".",
+  "Jahrzehnte der Folgeforschung engten die Zahl ein — Cowans Aufsatz von 2001 legt eher vier Chunks für echtes Arbeitsgedächtnis nahe. Das Prinzip hält, nur schärfer: Das Gedächtnis ist klein, teuer, und die Aufgabe des Designs ist, es zu schützen.",
+  "Ein Modell kann den vollen Satz an Variablen tragen, den ein Nutzer nicht halten kann. \"Welchen Tarif hatte dieser Kunde?\" oder \"Erinnere mich, welche Datei wir zuletzt bearbeitet haben\" verlangt vom Nutzer nicht mehr, es im Kopf zu behalten — der Assistent erinnert sich über die Sitzung hinweg und liefert es auf Stichwort.",
+  "Wenn das Modell die Chunks übernimmt, die der Nutzer nicht halten kann, verliert der Nutzer die Fähigkeit zu prüfen. Machen Sie Quellen, Zwischenschritte und Rückgängig sichtbar, damit Menschen die Grundlage wiederherstellen können — lassen Sie aus \"ich kann nicht alles halten\" nicht \"ich musste nie prüfen\" werden."
+ ],
+ ".meta .label": [
+  "Original",
+  "Spanne",
+  "Fehllesart",
+  "Mechanismus",
+  "Klassiker",
+  "Wirkung",
+  "Billiger",
+  "Teuer",
+  "Anwenden",
+  "Muster",
+  "Anwenden auf",
+  "Vermeiden",
+  "Ziel",
+  "Forschung",
+  "Symptom",
+  "Zeigen",
+  "Enthüllen",
+  "Achtung",
+  "Muster",
+  "Am besten für",
+  "Achtung",
+  "Mythos",
+  "Realität",
+  "Anwenden",
+  "Im Gedächtnis",
+  "Auf dem Bildschirm",
+  "Test",
+  "Original",
+  "Verfeinert",
+  "Praktisch",
+  "Wandel",
+  "Hilft",
+  "Achtung",
+  "Risiko",
+  "Sichtbar machen",
+  "Immer"
+ ],
+ ".meta .value": [
+  "Tonhöhe · Geschmack · Erinnern",
+  "5–9 Chunks",
+  "\"7-Einträge-Menüs\"",
+  "Zu Bedeutung gruppieren",
+  "Telefon · IBAN · Daten",
+  "Mehr Info, gleiche Last",
+  "Wiedererkennen",
+  "Erinnern aus dem Nichts",
+  "Zeigen, nicht abfragen",
+  "Ziffern gruppieren",
+  "Telefon · Karte · IBAN · OTP",
+  "Rohe Endlos-Zeichenketten",
+  "5–9 pro Ebene",
+  "Card Sorting",
+  "In der Navigation verloren",
+  "Die 5–9, die zählen",
+  "Auf Anfrage",
+  "Das Wesentliche verstecken",
+  "Ein Chunk pro Schritt",
+  "Lange Formulare · Setup-Abläufe",
+  "Schrittwildwuchs verbirgt Gesamtlänge",
+  "7-Einträge-Menüs",
+  "Chunking, nicht Zählen",
+  "Gruppieren, dann bemessen",
+  "≤ 5–9 Chunks",
+  "Keine harte Grenze",
+  "Können sie es halten?",
+  "Miller, 1956 · ~7",
+  "Cowan, 2001 · ~4",
+  "Mit ≈ 4 sicher planen",
+  "Nutzer- → Assistentengedächtnis",
+  "Lange mehrstufige Aufgaben",
+  "Veralteter oder falscher Kontext",
+  "Nicht überprüfbare Antworten",
+  "Quellen und Schritte",
+  "Ein leichter Prüfpfad"
+ ],
+ ".ai-divider h3": [
+  "Millers Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Der Assistent kann die Chunks halten, die ein Nutzer nicht halten kann — aber der Nutzer muss weiterhin prüfen, was er selbst nicht im Kopf behalten konnte."
+ ],
+ ".law-formula-note": [
+  "die Spanne des Arbeitsgedächtnisses, die Miller über Aufgaben hinweg beobachtete."
+ ]
+}

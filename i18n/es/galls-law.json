@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Ley de <em>Gall</em>"
+ ],
+ "header .tagline": [
+  "Los sistemas complejos que funcionan <em>evolucionaron</em> de sistemas simples que funcionaban."
+ ],
+ "header .subtitle": [
+  "La observación de John Gall (1975), de <em>Systemantics</em>: no puedes diseñar un sistema complejo desde cero y que funcione. Los complejos descienden de sistemas simples que se entregaron y usaron. Sáltate el ancestro simple y el descendiente nunca respira."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Gall_(author)\" target=\"_blank\" rel=\"noopener\">John Gall</a> fue un pediatra y teórico de sistemas estadounidense. Su libro de 1975, Systemantics, reunió observaciones mordaces sobre por qué fallan los sistemas; su pasaje más conocido — los sistemas complejos que funcionan evolucionan de sistemas simples que funcionaban — se convirtió en la ley de Gall.",
+  "Gall ejerció la pediatría en Ann Arbor, Michigan, durante décadas mientras escribía teoría de sistemas con ironía en su tiempo libre. Systemantics tuvo tres ediciones como The Systems Bible; sus axiomas — como «un sistema complejo diseñado desde cero nunca funciona» — se citan mucho más en ingeniería de software que en medicina."
+ ],
+ ".law-content .law-desc": [
+  "Los sistemas grandes se cultivan, no se diseñan. Empieza con lo más pequeño que funcione de extremo a extremo, entrégalo, aprende de ello y luego hazlo crecer. El gran diseño construido desde cero — aquel del que nunca se entregó una versión simple — rara vez sobrevive al contacto con el mundo real."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "John Gall (1975)",
+  "Systemantics",
+  "Entrega primero la versión simple"
+ ],
+ ".card .tag": [
+  "Empieza pequeño",
+  "Antipatrón",
+  "Ejemplos",
+  "Metodología",
+  "Diseño",
+  "La trampa",
+  "Contracaso",
+  "A diario",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Entrega el esqueleto andante",
+  "La reescritura big bang",
+  "La web creció · no fue diseñada",
+  "Se combina con el MVP",
+  "Los sistemas de diseño también crecen",
+  "«Funcionó a pequeña escala»",
+  "Cuando gana el diseño previo",
+  "Resiste el gran plan",
+  "La IA genera saltándose al ancestro",
+  "Itera más rápido, itera igual"
+ ],
+ ".card .desc": [
+  "La primera versión debería hacer lo mínimo posible de extremo a extremo. Iniciar sesión, publicar una cosa, verla. El esqueleto andante demuestra que el camino existe; los músculos se construyen sobre una columna que funciona.",
+  "La violación clásica de Gall. Dos años en un reemplazo «desde cero», ninguna versión funcional a la vista, la fecha límite no deja de deslizarse. Para cuando se entrega, los requisitos cambiaron y la gente que los conocía se fue. El sistema nunca encuentra la versión en la que de verdad funcionó.",
+  "HTTP empezó como un protocolo para traer páginas. La web de hoy — aplicaciones, video, pagos, IA — es el mismo protocolo con treinta años de capas soldadas encima. Todo sistema complejo que funciona se lee así: TCP, Linux, el sistema del iPhone, Notion, tu base de código. Ninguno se construyó bien; se construyeron primero.",
+  "Lean, Agile, Eric Ries — todos son Gall con distinto vocabulario. Entrega lo más pequeño que demuestre la idea, aprende de usuarios reales, itera. El MVP no es un concepto de marketing; es la única forma en que la mayoría de los sistemas complejos que funcionan llegan a existir.",
+  "Material, las HIG, tu propio sistema de diseño — ninguno se especificó desde arriba. Empezaron como un botón, una escala tipográfica, un color. Crecieron porque la versión simple se usó. El enfoque de «diseñemos primero todo el sistema» ha producido un cementerio de tokens sin uso y componentes muertos.",
+  "La otra advertencia de Gall: un sistema que funcionó a pequeña escala no necesariamente funcionará a una mayor — y las roturas solo se descubren al crecer hasta ellas. No extrapoles; observa. La versión simple demuestra que <em>este</em> caso funcionó, no todos los casos futuros.",
+  "Gall no es universal. Puentes, aviones, sistemas de pago, robots quirúrgicos — todo aquello donde iterar en producción es catastrófico — necesitan especificaciones formales por adelantado. La regla aplica donde iterar es barato y recuperable, que es la mayor parte del software, la mayor parte del tiempo.",
+  "Cuando un compañero propone la arquitectura perfecta a tres trimestres vista, la respuesta de Gall es: ¿cuál es la versión más pequeña de esto que podemos entregar el próximo sprint? Fuerza el ancestro funcional. El gran plan puede sobrevivir a esa pregunta; si no puede, no era grande: solo era enorme.",
+  "«Constrúyeme una aplicación completa» produce un resultado que parece un sistema. Pero no tiene ancestro — ninguna versión simple que alguien usara en serio, ninguna cicatriz de uso real. El código puede compilar, pero el diseño no se ha ganado el derecho a ser complejo. Usa la IA para entregar algo simple rápido, no algo complejo sin probar.",
+  "La ventaja es real. La IA acorta el ciclo entre la «versión 1 que funciona» y la «versión 2 que funciona» — código, textos, diseño, todo generado más rápido. La ley de Gall no queda derogada; queda acelerada. Sigues necesitando un ancestro funcional en cada paso. Solo que ahora puedes hacer muchos más."
+ ],
+ ".meta .label": [
+  "Prueba",
+  "Omitir",
+  "Después",
+  "Patrón",
+  "Falla cuando",
+  "Cuesta",
+  "Ejemplos",
+  "En común",
+  "Léelo como",
+  "Ecos",
+  "Regla",
+  "Extra",
+  "Construye primero",
+  "Después",
+  "Evitar",
+  "Verdad",
+  "No hacer",
+  "Hacer",
+  "Itera",
+  "Especifica",
+  "Casi todo el software",
+  "Pregunta",
+  "Pregunta",
+  "Después",
+  "Riesgo",
+  "Usa la IA para",
+  "No para",
+  "Aceleración",
+  "Regla intacta",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "¿Funciona de extremo a extremo?",
+  "Pulido · escala · casos límite",
+  "Crece desde código que funciona",
+  "Diseñado por adelantado · completo",
+  "La realidad difiere de la especificación",
+  "Tiempo · confianza · gente",
+  "Web · Linux · iOS",
+  "Entregados pronto · crecieron bajo carga",
+  "Una restricción de diseño",
+  "MVP · Lean · Agile",
+  "Ten siempre una versión entregable",
+  "Puedes pivotar desde cualquier anillo",
+  "El botón que se entrega",
+  "El patrón que ves dos veces",
+  "Tokens para pantallas sin construir",
+  "Cada escala revela roturas nuevas",
+  "Extrapolar · prepararse",
+  "Construir · observar · crecer",
+  "Cuando los errores son baratos",
+  "Cuando los errores matan",
+  "Es del primer tipo",
+  "«¿Lo mínimo entregable?»",
+  "«¿Funcionó el ancestro?»",
+  "Construye",
+  "Complejidad sin aprendizaje",
+  "Una v1 simple más rápida",
+  "Saltarse la evolución",
+  "Más iteraciones por semana",
+  "Cada anillo debe funcionar",
+  "Saltarse un anillo que funciona"
+ ],
+ ".ai-divider h3": [
+  "La ley de Gall en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA te permite generar un sistema «completo» en un día — y entregar entonces algo que no tiene ningún ancestro funcional del que crecer."
+ ]
+}

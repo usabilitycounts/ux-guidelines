@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Chestertons <em>Zaun</em>"
+ ],
+ "header .tagline": [
+  "Einen Zaun erst abreißen, wenn klar ist, warum er errichtet wurde."
+ ],
+ "header .subtitle": [
+  "G. K. Chestertons Regel für Reformer: Der Zaun, der sinnlos erscheint, wurde von jemandem mit einem Grund gebaut. Erst den Grund verstehen — dann ist das Recht verdient, ihn zu entfernen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/G._K._Chesterton\" target=\"_blank\" rel=\"noopener\">G. K. Chesterton</a>, der englische Schriftsteller und Kritiker, formulierte die Parabel in The Thing (1929): Ein Reformer findet einen Zaun quer über einer Straße und schlägt vor, ihn wegzuräumen — gerade weil er keinen Nutzen darin erkennt.",
+  "Chestertons Antwort wurde zum Prinzip: „Wenn du den Nutzen nicht siehst, lasse ich dich ihn gewiss nicht wegräumen. Geh und denk nach. Wenn du dann zurückkommst und mir sagen kannst, dass du den Nutzen siehst, erlaube ich dir vielleicht, ihn zu zerstören.“"
+ ],
+ ".law-content .law-desc": [
+  "Niemals etwas entfernen, dessen Zweck man nicht versteht. Unkenntnis über die Funktion einer Sache ist ein Argument für Untersuchung, nicht für Löschung — der Zaunbauer wusste etwas, und bis man es auch weiß, bleibt der Zaun stehen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "G. K. Chesterton (1929)",
+  "The Thing — „The Drift from Domesticity“",
+  "Erst untersuchen, dann löschen"
+ ],
+ ".card .tag": [
+  "Die Parabel",
+  "Produkt",
+  "Methode",
+  "Redesigns",
+  "Code",
+  "Balance",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Der Zaun auf der Straße",
+  "Das Feature ohne Besitzer",
+  "Erst befragen, dann streichen",
+  "Das Redesign, das vergaß",
+  "Die seltsame Zeile löschen",
+  "Zäune sind nicht heilig",
+  "Das Modell sieht den Grund nicht",
+  "Den Zaun sich selbst erklären lassen"
+ ],
+ ".card .desc": [
+  "Der Instinkt „Ich sehe nicht, wozu das existiert, also kann es weg“ kehrt die Logik um: Dinge, die überdauern, verdienen sich ihren Platz meist auf Weisen, die von der Straße aus nicht sichtbar sind. Rätselhaft ist nicht dasselbe wie nutzlos.",
+  "Jedes reife Produkt hat Features ohne Fürsprecher und ohne erkennbaren Zweck — bis zum Tag der Entfernung, an dem die Rechnungen, die Auditoren oder die zwei Enterprise-Kunden auftauchen, die damit arbeiten. Geringe Nutzung ist nicht keine Nutzung.",
+  "Das Prinzip ist eine Abfolge, kein Verbot: git blame, das alte Ticket, die Person, die dabei war, die Analytics zum seltsamen Pfad. Sobald der Grund bekannt ist — und sich als überholt erweist — ist die Entfernung nicht nur erlaubt, sondern überfällig.",
+  "Redesigns von Grund auf mähen Zäune hektarweise nieder: den seltsamen Abstand, der einem Browser-Bug auswich, die doppelte Bestätigung, die einen Support-Brand beendete. Das alte Design ist ein Protokoll gelöster Probleme — erst lesen, dann ersetzen.",
+  "Das sleep(100), die scheinbar redundante Prüfung, der Retry, an dessen Hinzufügen sich niemand erinnert — die seltsamsten Zeilen im Produktionscode sind oft Flicken über unsichtbaren Fehlermodi. Erst verstehen, dann löschen: hinter einem Flag, mit einem Rollback.",
+  "Das Prinzip wirkt in beide Richtungen: Ein Team, das nie etwas entfernt, hortet, statt zu bewahren. Chesterton lizenziert den Abriss — er bepreist ihn nur mit einer Untersuchung. Den Preis zahlen und frei zurückschneiden.",
+  "Ein KI-Refactoring beurteilt Code nach dem, was geschrieben steht, aber Zäune rechtfertigen sich aus der Geschichte — dem Ausfall, dem Kunden, der Regulierung. Institutionelles Gedächtnis lebt in Tickets und Köpfen, nicht in der Datei, die das Modell liest.",
+  "Die dauerhafte Lösung: den Grund dort niederschreiben, wo der Entferner hinschaut. Kommentare, die das Warum nennen, ADRs und verlinkte Tickets machen aus jedem Zaun einen mit Schild — lesbar für den nächsten Entwickler und das nächste Modell gleichermaßen."
+ ],
+ ".meta .label": [
+  "Instinkt",
+  "Realität",
+  "Rätselhaft",
+  "Geringe Nutzung",
+  "Prüfen",
+  "Tag der Entfernung",
+  "Abfolge",
+  "Quellen",
+  "Verstanden + überholt",
+  "Altes Design",
+  "Seltsame Details",
+  "Erst lesen",
+  "Seltsame Zeilen",
+  "Löschen",
+  "Behalten",
+  "Nie entfernen",
+  "Der Preis",
+  "Dann",
+  "Modell liest",
+  "Grund lebt",
+  "Niederschreiben",
+  "Lesbar für"
+ ],
+ ".meta .value": [
+  "„Nutzlos — weg damit“",
+  "Zweck ist unsichtbar",
+  "≠ nutzlos",
+  "Nicht keine Nutzung",
+  "Wer davon abhängt",
+  "Ist Entdeckungstag",
+  "Verstehen → urteilen → streichen",
+  "Geschichte · Menschen · Daten",
+  "Mit Zuversicht streichen",
+  "Protokoll gelöster Probleme",
+  "Oft tragend",
+  "Dann ersetzen",
+  "Flicken über Geistern",
+  "Hinter einem Flag",
+  "Einen Rollback-Pfad",
+  "Ist Horten",
+  "Eine Untersuchung",
+  "Frei zurückschneiden",
+  "Die Datei",
+  "In der Geschichte",
+  "Das Warum, vor Ort",
+  "Menschen und Modelle"
+ ],
+ ".ai-divider h3": [
+  "Chestertons Zaun im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle refaktorieren Code und gestalten Screens neu — ohne die Meeting-Notizen. Der Grund für den Zaun lebt oft nirgendwo, wo die Maschine lesen kann."
+ ]
+}

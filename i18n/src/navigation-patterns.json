@@ -1,0 +1,90 @@
+{
+ "header h1": [
+  "Navigation <em>Patterns</em>"
+ ],
+ "header .tagline": [
+  "Help people know <em>where they are</em>, where they can go, and how to get back."
+ ],
+ "header .subtitle": [
+  "Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible."
+ ],
+ ".card .tag": [
+  "Primary",
+  "Secondary",
+  "Supporting",
+  "Wayfinding",
+  "Catch-all",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Global Navigation",
+  "Local Navigation",
+  "Utility Navigation",
+  "Breadcrumbs",
+  "Footer Navigation",
+  "Ask, Don’t Browse",
+  "Adaptive and Surfaced Destinations"
+ ],
+ ".card .desc": [
+  "The persistent top-level nav present across the whole product. It exposes the main sections of the site or app and stays put as users move around — the stable map everything else hangs off of.",
+  "Contextual nav within a section, showing the siblings and children of the current area. It lets people browse around where they already are without zooming all the way back out to the top level.",
+  "Account, settings, search, help, cart — the supporting tools that sit apart from the content hierarchy, often in the top-right. They’re available everywhere but aren’t part of the main browsing path.",
+  "Show the user’s location in the hierarchy and provide a path back up. Best for deep, hierarchical structures where people need to understand how far down they are and step back out one level at a time.",
+  "A catch-all for legal links, secondary links, and sitemap-style access. Lower priority than the primary nav, but useful for completeness and for SEO — it’s where people look when the main nav doesn’t have what they need.",
+  "A prompt box is becoming a parallel way to navigate: instead of clicking through sections, users describe the destination and the assistant takes them there. Menus stay as the visible map of what’s possible — and the safety net when the ask falls short.",
+  "AI can reorder, surface, or hide destinations based on what a user is likely to need next. Powerful for relevance — but keep the global chrome stable, or you erode the predictable map that makes navigation trustworthy."
+ ],
+ ".meta .label": [
+  "Scope",
+  "Contains",
+  "Behavior",
+  "Scope",
+  "Contains",
+  "Often a",
+  "Examples",
+  "Placement",
+  "Sits apart",
+  "Job",
+  "Best for",
+  "Reads",
+  "Contains",
+  "Priority",
+  "Bonus",
+  "Shift",
+  "Menus become",
+  "Watch for",
+  "Upside",
+  "Keep stable",
+  "Risk"
+ ],
+ ".meta .value": [
+  "Whole product",
+  "Top-level sections",
+  "Persistent · always visible",
+  "Within a section",
+  "Siblings and children",
+  "Sidebar or sub-tabs",
+  "Account · search · help · cart",
+  "Often top-right",
+  "From content hierarchy",
+  "Location + path up",
+  "Deep hierarchies",
+  "Home › Section › Page",
+  "Legal · secondary · sitemap",
+  "Lower",
+  "SEO and completeness",
+  "Click paths → describe",
+  "The map and the fallback",
+  "Losing discoverability",
+  "Relevance · less hunting",
+  "Global chrome",
+  "Unpredictable map"
+ ],
+ ".ai-divider h3": [
+  "Navigation in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Asking is starting to replace browsing. The nav doesn’t disappear — it becomes a fallback and a map for what the assistant can do."
+ ]
+}

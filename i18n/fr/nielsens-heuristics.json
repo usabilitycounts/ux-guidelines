@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Les 10 heuristiques de Nielsen"
+ ],
+ "header .tagline": [
+  "Dix <em>règles empiriques</em> pour repérer ce qui cloche"
+ ],
+ "header .subtitle": [
+  "Les dix heuristiques d'utilisabilité de Jakob Nielsen restent la liste de contrôle la plus utilisée pour trouver les problèmes d'interface — chacune expliquée avec un exemple moderne et concret."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> est un ingénieur en utilisabilité danois qui a popularisé des méthodes d'utilisabilité rapides et peu coûteuses chez Sun Microsystems avant de cofonder le Nielsen Norman Group avec <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> en 1998. Son mouvement de « discount usability » a fait des tests avec cinq utilisateurs un standard de l'industrie.",
+  "Les dix heuristiques ont été développées avec <a href=\"https://en.wikipedia.org/wiki/Rolf_Molich\" target=\"_blank\" rel=\"noopener\">Rolf Molich</a> en 1990 et affinées en 1994 à partir d'une analyse factorielle de 249 problèmes d'utilisabilité. Elles restent la liste de contrôle la plus utilisée en revue experte — durables parce qu'elles décrivent des contraintes humaines, pas des technologies."
+ ],
+ ".law-content .law-desc": [
+  "Dix grandes règles empiriques pour le design d'interface — visibilité de l'état, correspondance avec le monde réel, contrôle utilisateur, cohérence, prévention des erreurs, reconnaissance plutôt que rappel, flexibilité, minimalisme, bons messages d'erreur et aide. Pas des lois : des heuristiques pour trouver les problèmes vite."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen et Rolf Molich",
+  "Affinées à partir de 249 problèmes d'utilisabilité analysés",
+  "Mener des revues heuristiques avant les tests utilisateurs"
+ ],
+ ".card .tag": [
+  "Retour d'information",
+  "Familiarité",
+  "Réversibilité",
+  "Prévisibilité",
+  "Garde-fous",
+  "Charge mémorielle",
+  "Accélérateurs",
+  "Rapport signal-bruit",
+  "Langage clair",
+  "Au bon moment",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Visibilité de l'état du système",
+  "Correspondance entre le système et le monde réel",
+  "Contrôle et liberté de l'utilisateur",
+  "Cohérence et standards",
+  "Prévention des erreurs",
+  "Reconnaissance plutôt que rappel",
+  "Flexibilité et efficacité d'utilisation",
+  "Design esthétique et minimaliste",
+  "Aider à reconnaître, diagnostiquer et récupérer",
+  "Aide et documentation",
+  "Montrer le modèle en train de réfléchir",
+  "Arrêter et régénérer"
+ ],
+ ".card .desc": [
+  "Le système devrait toujours tenir les utilisateurs informés de ce qui se passe, par un retour d'information approprié dans un délai raisonnable.",
+  "Parlez la langue de l'utilisateur. Utilisez des mots, expressions et concepts qui lui sont familiers, pas des termes orientés système. Suivez les conventions du monde réel.",
+  "Les utilisateurs choisissent souvent des fonctions par erreur et ont besoin d'une « sortie de secours » clairement signalée pour quitter l'état non désiré — proposez annuler et rétablir.",
+  "Les utilisateurs ne devraient pas avoir à se demander si des mots, situations ou actions différents signifient la même chose. Suivez les conventions de la plateforme et du secteur.",
+  "Mieux qu'un bon message d'erreur : une conception soignée qui empêche le problème de survenir en premier lieu — des garde-fous plutôt que des guides.",
+  "Réduisez la charge mémorielle en rendant objets, actions et options visibles. Les utilisateurs ne devraient pas avoir à mémoriser des informations d'une partie de l'interface à l'autre.",
+  "Les accélérateurs — invisibles pour les novices — peuvent accélérer l'interaction pour les experts, de sorte que le système serve les deux. Laissez les utilisateurs personnaliser les actions fréquentes.",
+  "Les interfaces ne devraient pas contenir d'informations non pertinentes ou rarement utiles. Chaque unité d'information supplémentaire rivalise avec les unités pertinentes et diminue leur visibilité.",
+  "Les messages d'erreur devraient être exprimés en langage clair, indiquer précisément le problème et suggérer une solution de façon constructive. Dites à l'utilisateur ce qui ne va pas et comment le corriger.",
+  "Même s'il est préférable que le système puisse s'utiliser sans documentation, il peut être nécessaire de fournir de l'aide. Ces informations devraient être faciles à chercher et centrées sur la tâche de l'utilisateur.",
+  "La visibilité de l'état du système signifie désormais un flux de tokens, un miroitement de réflexion et l'avancement des appels d'outils. Dix secondes de silence pendant la génération se lisent comme une app figée et cassée.",
+  "Contrôle et liberté de l'utilisateur, version IA : un bouton d'arrêt en plein flux et une régénération ensuite. La première réponse du modèle est un brouillon, jamais une impasse."
+ ],
+ ".meta .label": [
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "À surveiller",
+  "Contexte",
+  "Implication",
+  "Heuristique",
+  "Montrer",
+  "À surveiller",
+  "Heuristique",
+  "Offrir",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Chargements silencieux · Enregistrements cachés",
+  "Actions longues · Formulaires",
+  "Montrer l'avancement, le temps et l'état",
+  "Jargon · Langage système",
+  "Libellés · Icônes · Textes d'erreur",
+  "Emprunter au monde physique",
+  "Parcours sans issue · Pas de sortie",
+  "Formulaires · Éditeurs · Assistants",
+  "Toujours offrir annulation et échappatoire",
+  "Actions renommées · Dérive",
+  "Systèmes de design · Apps multi-pages",
+  "Codifier le modèle, le répéter",
+  "Actions destructives silencieuses",
+  "Supprimer · Envoyer · Soumettre",
+  "Confirmer ou contraindre les chemins risqués",
+  "Champs vides · Codes cryptiques",
+  "Formulaires · Filtres · Commandes",
+  "Montrer les options ; laisser choisir",
+  "Experts coincés dans des parcours de novices",
+  "Outils de productivité · Tableaux de bord",
+  "Superposer les raccourcis aux bases",
+  "Encombrement visuel · Inflation d'informations",
+  "Onboarding · Pages d'accueil · États vides",
+  "Couper tout ce qui ne mérite pas sa place",
+  "« Erreur 504 » · Textes vagues",
+  "Formulaires · API · Erreurs système",
+  "Expliquer quoi, pourquoi et comment corriger",
+  "Aide enfouie · Longs manuels",
+  "Paramètres · Fonctionnalités complexes",
+  "Aide contextuelle ; étapes concrètes",
+  "N° 1 Visibilité de l'état",
+  "Flux · avancement · outils",
+  "Attentes silencieuses",
+  "N° 3 Contrôle et liberté",
+  "Arrêter · régénérer · modifier",
+  "Génération impossible à arrêter"
+ ],
+ ".ai-divider h3": [
+  "Les heuristiques à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les dix heuristiques tiennent toujours — mais « état du système », « contrôle utilisateur » et « prévention des erreurs » prennent un sens nouveau quand le système est un modèle probabiliste."
+ ]
+}

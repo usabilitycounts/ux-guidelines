@@ -1,0 +1,90 @@
+{
+ "header h1": [
+  "<em>Patrones</em> de navegación"
+ ],
+ "header .tagline": [
+  "Ayuda a la gente a saber <em>dónde está</em>, adónde puede ir y cómo volver."
+ ],
+ "header .subtitle": [
+  "La navegación es el tejido conectivo de un producto. Cada capa hace un trabajo distinto — dales el peso adecuado y la estructura se vuelve invisible."
+ ],
+ ".card .tag": [
+  "Primaria",
+  "Secundaria",
+  "De apoyo",
+  "Orientación",
+  "Cajón de sastre",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Navegación global",
+  "Navegación local",
+  "Navegación de utilidad",
+  "Migas de pan",
+  "Navegación de pie de página",
+  "Pregunta, no navegues",
+  "Destinos adaptativos y destacados"
+ ],
+ ".card .desc": [
+  "La navegación persistente de nivel superior presente en todo el producto. Expone las secciones principales del sitio o la app y permanece fija mientras los usuarios se mueven — el mapa estable del que cuelga todo lo demás.",
+  "Navegación contextual dentro de una sección, que muestra los hermanos e hijos del área actual. Permite a la gente explorar donde ya está sin tener que volver a subir hasta el nivel superior.",
+  "Cuenta, ajustes, búsqueda, ayuda, carrito — las herramientas de apoyo que se sitúan aparte de la jerarquía de contenido, a menudo arriba a la derecha. Están disponibles en todas partes pero no forman parte de la ruta principal de navegación.",
+  "Muestra la ubicación del usuario en la jerarquía y ofrece un camino de vuelta hacia arriba. Ideal para estructuras profundas y jerárquicas donde la gente necesita entender a qué profundidad está y retroceder un nivel cada vez.",
+  "Un cajón de sastre para enlaces legales, enlaces secundarios y acceso tipo mapa del sitio. Menor prioridad que la navegación principal, pero útil por completitud y para el SEO — es donde la gente mira cuando la navegación principal no tiene lo que necesita.",
+  "Un cuadro de prompt se está convirtiendo en una forma paralela de navegar: en lugar de hacer clic por las secciones, los usuarios describen el destino y el asistente los lleva allí. Los menús permanecen como el mapa visible de lo posible — y como red de seguridad cuando la petición se queda corta.",
+  "La IA puede reordenar, destacar u ocultar destinos según lo que un usuario probablemente necesite a continuación. Potente para la relevancia — pero mantén estable el chrome global, o erosionarás el mapa predecible que hace confiable la navegación."
+ ],
+ ".meta .label": [
+  "Alcance",
+  "Contiene",
+  "Comportamiento",
+  "Alcance",
+  "Contiene",
+  "A menudo es",
+  "Ejemplos",
+  "Ubicación",
+  "Se sitúa aparte",
+  "Trabajo",
+  "Ideal para",
+  "Se lee",
+  "Contiene",
+  "Prioridad",
+  "Extra",
+  "Cambio",
+  "Los menús se vuelven",
+  "Cuidado con",
+  "Ventaja",
+  "Mantener estable",
+  "Riesgo"
+ ],
+ ".meta .value": [
+  "Todo el producto",
+  "Secciones de nivel superior",
+  "Persistente · siempre visible",
+  "Dentro de una sección",
+  "Hermanos e hijos",
+  "Barra lateral o subpestañas",
+  "Cuenta · búsqueda · ayuda · carrito",
+  "A menudo arriba a la derecha",
+  "De la jerarquía de contenido",
+  "Ubicación + camino hacia arriba",
+  "Jerarquías profundas",
+  "Inicio › Sección › Página",
+  "Legal · secundario · mapa del sitio",
+  "Menor",
+  "SEO y completitud",
+  "Rutas de clics → describir",
+  "El mapa y el respaldo",
+  "Perder la descubribilidad",
+  "Relevancia · menos búsqueda",
+  "Chrome global",
+  "Mapa impredecible"
+ ],
+ ".ai-divider h3": [
+  "La navegación en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Preguntar empieza a reemplazar a navegar. La navegación no desaparece — se convierte en un respaldo y en un mapa de lo que el asistente puede hacer."
+ ]
+}

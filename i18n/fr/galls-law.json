@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Gall"
+ ],
+ "header .tagline": [
+  "Les systèmes complexes qui fonctionnent ont <em>évolué</em> à partir de systèmes simples qui fonctionnaient."
+ ],
+ "header .subtitle": [
+  "L'observation de John Gall (1975), tirée de <em>Systemantics</em> : on ne peut pas concevoir un système complexe de zéro et le faire fonctionner. Les systèmes complexes descendent de systèmes simples livrés et utilisés. Sautez l'ancêtre simple et le descendant ne respire jamais."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Gall_(author)\" target=\"_blank\" rel=\"noopener\">John Gall</a> était un pédiatre et théoricien des systèmes américain. Son livre de 1975, Systemantics, rassemblait des observations narquoises sur les raisons pour lesquelles les systèmes échouent ; son passage le plus célèbre — les systèmes complexes qui fonctionnent évoluent à partir de systèmes simples qui fonctionnaient — est devenu la loi de Gall.",
+  "Gall a exercé la pédiatrie à Ann Arbor, dans le Michigan, pendant des décennies, tout en écrivant en parallèle une théorie des systèmes pleine d'ironie. Systemantics a connu trois éditions sous le titre The Systems Bible ; ses axiomes — comme « un système complexe conçu de zéro ne fonctionne jamais » — sont bien plus cités en génie logiciel qu'en médecine."
+ ],
+ ".law-content .law-desc": [
+  "Les grands systèmes se cultivent, ils ne se conçoivent pas. Commencez par la plus petite chose qui fonctionne de bout en bout, livrez-la, apprenez-en, puis faites-la grandir. Le grand design bâti de zéro — celui dont aucune version simple n'a jamais été livrée — survit rarement au contact du monde réel."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "John Gall (1975)",
+  "Systemantics",
+  "Livrer d'abord la version simple"
+ ],
+ ".card .tag": [
+  "Commencer petit",
+  "Anti-modèle",
+  "Exemples",
+  "Méthodologie",
+  "Design",
+  "Le piège",
+  "Contre-exemple",
+  "Quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Livrer le squelette qui marche",
+  "La réécriture big bang",
+  "Le web a grandi · il n'a pas été conçu",
+  "S'associe au MVP",
+  "Les systèmes de design grandissent aussi",
+  "« Ça marchait à petite échelle »",
+  "Quand la conception en amont gagne",
+  "Résister au grand plan",
+  "L'IA génère en sautant l'ancêtre",
+  "Itérer plus vite, itérer pareil"
+ ],
+ ".card .desc": [
+  "La première version devrait faire la plus petite chose possible de bout en bout. Se connecter, publier une chose, la voir. Le squelette qui marche prouve que le chemin existe ; les muscles se construisent sur une colonne vertébrale qui fonctionne.",
+  "La violation classique de Gall. Deux ans sur un remplacement « à partir de zéro », aucune version fonctionnelle en vue, l'échéance qui glisse sans cesse. Le jour où il est livré, les exigences ont changé et les gens qui les connaissaient sont partis. Le système ne trouve jamais la version où il fonctionnait vraiment.",
+  "HTTP a commencé comme un simple protocole de récupération de pages. Le web d'aujourd'hui — applis, vidéo, paiements, IA — est le même protocole avec trente ans de couches soudées dessus. Tout système complexe qui fonctionne se lit ainsi : TCP, Linux, l'OS de l'iPhone, Notion, votre base de code. Aucun n'a été construit juste ; ils ont été construits d'abord.",
+  "Lean, Agile, Eric Ries — tous sont du Gall dans un vocabulaire différent. Livrez la plus petite chose qui prouve l'idée, apprenez des vrais utilisateurs, itérez. Le MVP n'est pas un concept marketing ; c'est la seule façon dont la plupart des systèmes complexes fonctionnels viennent au monde.",
+  "Material, les HIG, votre propre système de design — aucun n'a été spécifié depuis le sommet. Ils ont commencé comme un bouton, une échelle typographique, une couleur. Ils ont grandi parce que la version simple était utilisée. L'approche « concevons d'abord tout le système » a produit un cimetière de tokens inutilisés et de composants morts.",
+  "L'autre avertissement de Gall : un système qui fonctionnait à petite échelle ne fonctionnera pas nécessairement à une plus grande — et on ne découvre les cassures qu'en grandissant dedans. N'extrapolez pas ; observez. La version simple prouve que <em>ce</em> cas a fonctionné, pas tous les cas futurs.",
+  "Gall n'est pas universel. Ponts, avions, systèmes de paiement, robots chirurgicaux — tout ce où itérer en production est catastrophique — exigent des spécifications formelles en amont. La règle s'applique là où l'itération est peu coûteuse et récupérable, c'est-à-dire la plupart du logiciel, la plupart du temps.",
+  "Quand un coéquipier propose l'architecture parfaite à trois trimestres d'ici, la réponse de Gall est : quelle est la plus petite version qu'on peut livrer au prochain sprint ? Forcez l'ancêtre fonctionnel. Le grand plan peut survivre à cette question ; s'il ne le peut pas, il n'était pas grand, il était juste gros.",
+  "« Construis-moi une appli entière » produit une sortie qui ressemble à un système. Mais elle n'a pas d'ancêtre — aucune version simple que quelqu'un a fait tourner pour de vrai, aucune cicatrice d'usage réel. Le code peut compiler, mais le design n'a pas gagné le droit d'être complexe. Utilisez l'IA pour livrer vite une chose simple, pas une chose complexe non testée.",
+  "Le gain est réel. L'IA raccourcit le cycle entre « version 1 qui marche » et « version 2 qui marche » — code, textes, design, tout est généré plus vite. La loi de Gall n'est pas abrogée ; elle est accélérée. Il vous faut toujours un ancêtre fonctionnel à chaque étape. Vous pouvez simplement en produire beaucoup plus."
+ ],
+ ".meta .label": [
+  "Test",
+  "Ignorer",
+  "Ensuite",
+  "Modèle",
+  "Échoue quand",
+  "Coûte",
+  "Exemples",
+  "En commun",
+  "À lire comme",
+  "Fait écho à",
+  "Règle",
+  "Bonus",
+  "Construire d'abord",
+  "Ensuite",
+  "Éviter",
+  "Vérité",
+  "À ne pas faire",
+  "À faire",
+  "Itérer",
+  "Spécifier",
+  "La plupart du logiciel",
+  "Demander",
+  "Demander",
+  "Ensuite",
+  "Risque",
+  "Utiliser l'IA pour",
+  "Pas pour",
+  "Accélération",
+  "Règle inchangée",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Fonctionne-t-il de bout en bout ?",
+  "Finitions · échelle · cas limites",
+  "Grandir depuis du code qui marche",
+  "Conçu en amont · en entier",
+  "La réalité diffère de la spécification",
+  "Temps · confiance · personnes",
+  "Web · Linux · iOS",
+  "Livrés tôt · grandis sous charge",
+  "Une contrainte de design",
+  "MVP · Lean · Agile",
+  "Toujours avoir une version livrable",
+  "On peut pivoter depuis n'importe quel anneau",
+  "Le bouton qui est livré",
+  "Le motif qu'on voit deux fois",
+  "Des tokens pour des écrans jamais construits",
+  "Chaque échelle révèle de nouvelles cassures",
+  "Extrapoler · préparer",
+  "Construire · observer · grandir",
+  "Quand les erreurs coûtent peu",
+  "Quand les erreurs tuent",
+  "Est du premier genre",
+  "« Le plus petit livrable ? »",
+  "« L'ancêtre a-t-il fonctionné ? »",
+  "Construire",
+  "Complexité sans apprentissage",
+  "Une v1 simple plus vite",
+  "Sauter l'évolution",
+  "Plus d'itérations / semaine",
+  "Chaque anneau doit fonctionner",
+  "Sauter un anneau qui marche"
+ ],
+ ".ai-divider h3": [
+  "La loi de Gall à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA vous permet de générer un système « complet » en une journée — puis de livrer quelque chose qui n'a aucun ancêtre fonctionnel d'où grandir."
+ ]
+}

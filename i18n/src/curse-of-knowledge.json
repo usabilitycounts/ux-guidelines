@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Curse of <em>Knowledge</em>"
+ ],
+ "header .tagline": [
+  "Once you know, you can’t imagine not knowing."
+ ],
+ "header .subtitle": [
+  "Named by economists Camerer, Loewenstein, and Weber in 1989: once you know something, you can no longer simulate the mind of someone who doesn’t. It’s why experts write confusing docs and teams ship jargon."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Colin_Camerer\" target=\"_blank\" rel=\"noopener\">Colin Camerer</a>, <a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>, and Martin Weber coined the term in a 1989 economics paper: better-informed traders couldn’t ignore their own knowledge when predicting the behavior of less-informed ones.",
+  "Elizabeth Newton’s 1990 tapping study made it famous — tappers drumming well-known songs predicted listeners would name half of them; listeners got 2.5%. Chip and Dan Heath’s Made to Stick carried the idea into communication and design."
+ ],
+ ".law-content .law-desc": [
+  "Knowledge is one-way glass: once acquired, it silently rewrites your model of what other people can see. Experts systematically overestimate how much novices know — not from arrogance, but because un-knowing is cognitively impossible."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-colin-camerer\">Camerer</a>, <a href=\"people.html#p-george-loewenstein\">Loewenstein</a>, <a href=\"people.html#p-martin-weber\">Weber</a> (1989)",
+  "The Curse of Knowledge in Economic Settings",
+  "Test on people who don’t know"
+ ],
+ ".card .tag": [
+  "The study",
+  "Language",
+  "Onboarding",
+  "Interfaces",
+  "Antidote",
+  "Writing",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Tappers and Listeners",
+  "Jargon Is Invisible to Its Speakers",
+  "Written by People Who Know",
+  "The Obvious Icon Isn’t",
+  "Watch Someone Who Doesn’t Know",
+  "Explain Like They’re Smart, Not Informed",
+  "Prompts Assume Context",
+  "The Model Is Cursed Too"
+ ],
+ ".card .desc": [
+  "Newton’s tappers heard the full song in their heads and predicted a 50% success rate. Listeners heard knuckles on a table and named 2.5%. Every expert demoing their product is a tapper.",
+  "Inside the team, “sync,” “workspace,” and “instance” are plain words. To a new user they’re a locked door. The curse hides exactly which of your words are jargon — only outsiders can see the list.",
+  "Onboarding fails when it’s designed by people who can’t remember not understanding the product. The empty state that “explains everything” explains it in the vocabulary of someone on the other side of the curse.",
+  "To its designer, the icon obviously means export. To users it means whatever their history says it means — often nothing. Pair icons with labels until recognition is proven, not assumed.",
+  "The only reliable cure is borrowed ignorance: five first-time users narrating their confusion will find what no expert review can, because the experts literally cannot see it. Usability testing is curse removal.",
+  "The fix for cursed writing isn’t dumbing down — it’s supplying context. Assume intelligence, assume zero shared vocabulary, define terms at first use, and lead with what the reader can already picture.",
+  "A prompt that fails often fails as a tapper: the writer heard the full song — the codebase, the constraints, the goal — and typed three words of it. The model, like the listener, gets knuckles on a table.",
+  "A model that knows everything explains accordingly — the response assumes vocabulary the reader may not have. Asking for the audience (“explain for a new hire”) is de-cursing the machine."
+ ],
+ ".meta .label": [
+  "Tappers predicted",
+  "Listeners scored",
+  "Every demo",
+  "To the team",
+  "To new users",
+  "Only outsiders",
+  "Written by",
+  "Read by",
+  "Gap",
+  "Obvious to",
+  "Fix",
+  "Assume",
+  "Cure",
+  "Five users",
+  "Testing",
+  "Assume",
+  "Define",
+  "Lead with",
+  "Failed prompt",
+  "Fix",
+  "Cursed output",
+  "De-curse"
+ ],
+ ".meta .value": [
+  "50%",
+  "2.5%",
+  "Is a tapping",
+  "Plain words",
+  "Locked doors",
+  "See which is which",
+  "People who know",
+  "People who don’t",
+  "The curse itself",
+  "Its designer",
+  "Icon plus label",
+  "Nothing is obvious",
+  "Borrowed ignorance",
+  "Beat expert review",
+  "Is curse removal",
+  "Smart, uninformed",
+  "At first use",
+  "The familiar",
+  "A tapped song",
+  "Say the context out loud",
+  "Assumes your vocabulary",
+  "Name the audience"
+ ],
+ ".ai-divider h3": [
+  "The Curse of Knowledge in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Prompts assume context the model doesn’t have — and models explain with knowledge the reader doesn’t have. The curse now runs in both directions."
+ ]
+}

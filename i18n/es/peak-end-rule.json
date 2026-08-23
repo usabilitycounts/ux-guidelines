@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Regla</em> del pico y final"
+ ],
+ "header .tagline": [
+  "Las experiencias se juzgan por su pico y su final."
+ ],
+ "header .subtitle": [
+  "La investigación de Daniel Kahneman muestra que la gente juzga una experiencia por su momento más intenso y por el último — no por su promedio. Diseña el pico, clava el aterrizaje y arregla primero el peor momento."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Daniel_Kahneman\" target=\"_blank\" rel=\"noopener\">Daniel Kahneman</a>, el psicólogo ganador del Nobel, estableció la regla con Barbara Fredrickson a principios de los años 90 — de forma más famosa en un estudio de 1993 con agua fría, donde una prueba más larga con un final ligeramente más templado fue preferida sobre una más corta y objetivamente mejor.",
+  "El trabajo separó el yo que experimenta del yo que recuerda: lo que elegimos repetir lo decide la memoria, no la experiencia. Los estudios de colonoscopias con Donald Redelmeier lo confirmaron clínicamente — los finales cambiaban cómo se recordaban procedimientos enteros."
+ ],
+ ".law-content .law-desc": [
+  "La gente juzga una experiencia en gran medida por cómo se sintió en su pico — el punto más intenso, bueno o malo — y en su final, más que por la suma o el promedio de cada momento. La duración apenas cuenta; la forma recordada es lo que vuelve."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-kahneman\">Kahneman</a> y <a href=\"people.html#p-barbara-fredrickson\">Fredrickson</a> (1993)",
+  "When More Pain Is Preferred to Less",
+  "Diseña picos y finales"
+ ],
+ ".card .tag": [
+  "La regla",
+  "El pico",
+  "El final",
+  "Salidas",
+  "El valle",
+  "Duración",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "La forma recordada",
+  "Diseña un punto alto",
+  "Clava el aterrizaje",
+  "El offboarding es un final",
+  "Arregla primero el peor momento",
+  "Negligencia de la duración",
+  "La última respuesta gana",
+  "La recuperación es el pico"
+ ],
+ ".card .desc": [
+  "Traza una experiencia en el tiempo y la memoria conserva solo dos puntos: el extremo y el final. Todo lo demás — incluido cuánto tardó — colapsa. Dos momentos deciden la reseña, la renovación y la recomendación.",
+  "Cada flujo merece un pico deliberado: el confeti de la primera publicación, la vista previa instantánea, el momento en que la importación simplemente funciona. Un punto alto bien diseñado pesa más en la memoria que una docena de pequeñas comodidades.",
+  "La última pantalla de un flujo se recuerda de forma desproporcionada. Una confirmación clara, un resumen de lo ocurrido y un siguiente paso evidente convierten una transacción ordinaria en un buen recuerdo de tu producto.",
+  "Las cancelaciones, devoluciones y eliminaciones de cuenta también son finales — a menudo el último recuerdo que un usuario se lleva. Una salida elegante convierte a un usuario perdido en un posible regreso; una hostil escribe la reseña duradera.",
+  "Un pico negativo domina la memoria igual que uno positivo. Antes de pulir nada, encuentra el peor momento del recorrido — el crash, el formulario perdido, el cargo sorpresa — y elimínalo.",
+  "Un flujo corto con un final plano se recuerda peor que uno más largo que termina bien. Añadir un compás final satisfactorio puede ganar a recortar segundos — la memoria no factura por minutos.",
+  "Los usuarios juzgan toda una sesión por la respuesta final. Una conversación que termina en una corrección, una negativa o una respuesta a medias se recuerda como un fracaso — cierra con la respuesta resuelta y un siguiente paso limpio.",
+  "Cuando el modelo se equivoca en algo, el momento de la corrección se convierte en el pico emocional de la sesión. Una recuperación rápida y cortés se recuerda mejor que una sesión que fue simplemente correcta de principio a fin."
+ ],
+ ".meta .label": [
+  "Se conserva",
+  "Se descarta",
+  "Decide",
+  "Uno por flujo",
+  "Gana a",
+  "Colócalo",
+  "Última pantalla",
+  "Ofrecer",
+  "Nunca terminar en",
+  "Flujos de baja",
+  "Salida elegante",
+  "Salida hostil",
+  "Prioridad",
+  "Picos negativos",
+  "Después",
+  "La memoria ignora",
+  "La memoria conserva",
+  "Intercambio",
+  "Memoria de sesión",
+  "Cerrar con",
+  "El error",
+  "La recuperación"
+ ],
+ ".meta .value": [
+  "Pico y final",
+  "Promedio y duración",
+  "Reseñas y regresos",
+  "Punto alto deliberado",
+  "Una docena de comodidades",
+  "Donde aterriza el valor",
+  "Confirma y resume",
+  "El siguiente paso",
+  "Un callejón sin salida",
+  "Se recuerdan",
+  "Invita a volver",
+  "Escribe la reseña",
+  "Primero el peor momento",
+  "Dominan la memoria",
+  "Construye el punto alto",
+  "La duración",
+  "El desenlace",
+  "Segundos por un buen final",
+  "La respuesta final",
+  "Resolución, no un encogimiento de hombros",
+  "Prepara el pico",
+  "Es lo que se recuerda"
+ ],
+ ".ai-divider h3": [
+  "La regla del pico y final en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Una conversación con un modelo es una experiencia con un pico y un final. La última respuesta — y la peor — es lo que el usuario se lleva."
+ ]
+}

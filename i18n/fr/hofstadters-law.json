@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Hofstadter"
+ ],
+ "header .tagline": [
+  "Cela prend toujours plus de temps que prévu — <em>même en tenant compte de cette loi</em>."
+ ],
+ "header .subtitle": [
+  "Tirée du livre de Douglas Hofstadter (1979) Gödel, Escher, Bach. La blague autoréférentielle qui est aussi une règle de travail pour l'estimation logicielle : chaque projet prend plus de temps que votre estimation honnête, et gonfler l'estimation n'y change rien. La loi est devenue fondatrice de la façon dont les équipes livrent — et des barres de progression que les utilisateurs fixent des yeux."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Douglas_Hofstadter\" target=\"_blank\" rel=\"noopener\">Douglas Hofstadter</a> est un chercheur américain en sciences cognitives et auteur lauréat du Pulitzer. Il a formulé sa loi récursive — cela prend toujours plus de temps que prévu, même en tenant compte de la loi de Hofstadter — dans son livre de 1979, Gödel, Escher, Bach.",
+  "Hofstadter a remporté le prix Pulitzer pour Gödel, Escher, Bach à 35 ans. Professeur de sciences cognitives à l'université de l'Indiana, il a consacré sa carrière à l'étude de l'analogie et de l'autoréférence — la loi elle-même est une blague autoréférentielle qui se trouve être empiriquement vraie pour chaque projet logiciel."
+ ],
+ ".law-content .law-desc": [
+  "Les estimations sont systématiquement optimistes. Vous ajoutez une marge ; le projet la dépasse. Vous ajoutez une marge plus grande ; il la dépasse aussi. L'astuce n'est pas plus de rembourrage — c'est la prévision par classe de référence, un avancement réel, et l'honnêteté envers les utilisateurs sur ce que « presque terminé » veut vraiment dire."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Douglas Hofstadter (1979)",
+  "Gödel, Escher, Bach",
+  "Gonfler chaque estimation"
+ ],
+ ".card .tag": [
+  "Le phénomène",
+  "Tactique",
+  "UI",
+  "UI",
+  "Modèle",
+  "Anti-modèle",
+  "Estimation",
+  "Quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le biais de planification",
+  "Prévision par classe de référence",
+  "Barres de progression honnêtes",
+  "Montrer le temps, pas le pourcentage",
+  "La longue traîne du « terminé »",
+  "Le rembourrage ne règle rien",
+  "Les story points cachent le biais",
+  "Estimer deux fois",
+  "L'IA baisse l'estimation · Même biais",
+  "Montrer le flux de tokens"
+ ],
+ ".card .desc": [
+  "Le nom donné par Kahneman et Tversky au même bug que décrivait Hofstadter. Les gens estiment comme si tout allait bien se passer, même en sachant — dans l'abstrait — que ce n'est jamais le cas. Chaque étape prise isolément paraît raisonnable ; la somme rate à coup sûr. Le biais est robuste, bien documenté, et résiste à un entraînement intensif pour le surmonter.",
+  "Le remède recommandé par Kahneman : cessez d'estimer de l'intérieur. Trouvez cinq projets passés similaires. Utilisez leur durée moyenne, pas votre plan construit de bas en haut. La vue extérieure bat systématiquement la vue intérieure parce qu'elle inclut les surprises que vous ne pouvez pas prédire mais qui sont statistiquement susceptibles de se reproduire.",
+  "Une barre de progression qui atteint 99 % et y reste deux minutes est l'UX hofstadterienne par excellence. La barre reposait sur une estimation optimiste ; la longue traîne du « finissage » n'a jamais été comptée. Les barres honnêtes réservent un budget pour les derniers 10 % — ou admettent qu'elles ne peuvent pas le mesurer et basculent sur un indicateur indéterminé.",
+  "« 4 minutes restantes » est une promesse hofstadterienne que le système va probablement manquer. « Démarré il y a 2 minutes » est simplement vrai. Temps écoulé + étapes accomplies est plus honnête qu'un temps restant projeté, car la projection est précisément l'estimation qui dérape toujours. La plupart des gestionnaires de téléchargement modernes ont discrètement abandonné la prédiction.",
+  "Les projets logiciels ne se terminent pas ; ils deviennent suffisamment terminés. Les derniers 10 % d'une fonctionnalité contiennent 90 % des surprises — cas limites, accessibilité, performance, textes à livrer dans trois langues de plus. Une planification honnête donne à la longue traîne son propre budget au lieu de prétendre qu'elle tient dans l'estimation initiale.",
+  "La défense naïve — doubler l'estimation — déplace l'échéance sans changer le biais. L'équipe interprète la nouvelle échéance comme la vraie, et le comportement s'étale pour la remplir. La loi de Parkinson par-dessus celle de Hofstadter. Le remède n'est pas plus de marge ; c'est une autre méthode d'estimation, et une politique explicite pour ce qui dérape.",
+  "Les équipes agiles utilisent les story points pour esquiver le piège de Hofstadter, puis le réintroduisent discrètement en traitant la vélocité comme une promesse. L'intérêt de l'estimation relative est que vous ignorez combien de temps prend chaque chose — vous laissez la courbe émerger. Tenter d'extraire une date de la vélocité, c'est faire revenir Hofstadter.",
+  "Une règle de travail : écrivez votre estimation instinctive, puis doublez-la. Comparez avec la vue extérieure. Si ces trois chiffres divergent fortement, le projet est structurellement incertain — dites-le à voix haute. La plupart des échéances manquées commencent par des estimations que quelqu'un savait en privé optimistes, mais a données quand même.",
+  "« L'IA nous permettra de livrer ça en deux jours » est la phrase la plus hofstadterienne de 2026. L'IA supprime bien certaines étapes ; elle en ajoute aussi de nouvelles — relecture, réglage des prompts, évaluation, correction des sorties fausses avec assurance. Le total dérive toujours. La loi s'applique aux projets accélérés par l'IA exactement comme aux projets manuels ; la constante est l'optimisme humain, pas l'outillage.",
+  "La question d'interface hofstadterienne surgit dans chaque fonctionnalité d'IA. Un indicateur qui tourne pendant 8 secondes de réflexion du modèle semble cassé ; le flux de tokens, « lecture de 12 sources » et les messages de « réflexion » étape par étape recadrent l'attente en mouvement. Le total est le même ; c'est l'expérience du « presque terminé » qui change."
+ ],
+ ".meta .label": [
+  "Nommé par",
+  "Biais",
+  "Utiliser",
+  "Ignorer",
+  "Honnête",
+  "Repli",
+  "Préférer",
+  "Éviter",
+  "Modèle",
+  "Budgéter",
+  "Ne règle rien",
+  "Règle le problème",
+  "Utiliser pour",
+  "À ne pas faire",
+  "Coût",
+  "Détecte",
+  "Constante",
+  "Ajoute",
+  "Montrer",
+  "Éviter"
+ ],
+ ".meta .value": [
+  "Kahneman et Tversky, 1979",
+  "Vue intérieure · ignore l'historique",
+  "Durées réelles des projets passés",
+  "Estimation de bas en haut",
+  "Budget pour la longue traîne",
+  "Indicateur indéterminé",
+  "Temps écoulé · étapes accomplies",
+  "« X min restantes »",
+  "Traîne de surprises à la fin",
+  "A11y · perf · i18n · QA",
+  "Une marge plus grande",
+  "Une autre méthode",
+  "Dimensionnement relatif",
+  "Convertir points → dates",
+  "Deux minutes",
+  "Estimation instinctive optimiste",
+  "L'optimisme humain",
+  "Éval · relecture · vérification",
+  "Étapes · flux · sources",
+  "Indicateur silencieux"
+ ],
+ ".ai-divider h3": [
+  "La loi de Hofstadter à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA accélère les étapes que vous voyez — et en révèle de nouvelles que vous ne voyiez pas, exactement comme la loi le prédit."
+ ]
+}

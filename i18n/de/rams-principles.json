@@ -1,0 +1,161 @@
+{
+ "header h1": [
+  "Dieter Rams' 10 <em>Prinzipien</em>"
+ ],
+ "header .tagline": [
+  "„Weniger, aber <em>besser</em>.“"
+ ],
+ "header .subtitle": [
+  "Dieter Rams schrieb diese Prinzipien guten Designs in den 1970ern bei Braun. Fünfzig Jahre später beschreiben sie noch immer, was ein digitales Produkt wirklich gut macht."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Dieter_Rams\" target=\"_blank\" rel=\"noopener\">Dieter Rams</a> ist ein deutscher Industriedesigner, der über drei Jahrzehnte das Design bei Braun leitete und Produkte vom Plattenspieler bis zum Taschenrechner prägte, deren Formen bis heute in Apple-Hardware nachklingen. Seine Philosophie: Weniger, aber besser.",
+  "Die zehn Prinzipien schrieb er Ende der 1970er als Antwort auf seine eigene Frage: Ist mein Design gutes Design? Für physische Produkte gedacht, lassen sie sich fast ohne Änderung auf Software übertragen — ehrlich, unaufdringlich, gründlich, und so wenig Design wie möglich."
+ ],
+ ".law-content .law-desc": [
+  "Gutes Design ist innovativ, macht ein Produkt brauchbar, ist ästhetisch, verständlich, unaufdringlich, ehrlich, langlebig, konsequent bis ins letzte Detail, umweltfreundlich — und so wenig Design wie möglich."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Dieter Rams",
+  "Designpraxis bei Braun",
+  "Weglassen, bis nur das Nützliche bleibt"
+ ],
+ ".card .tag": [
+  "Prinzip 1",
+  "Prinzip 2",
+  "Prinzip 3",
+  "Prinzip 4",
+  "Prinzip 5",
+  "Prinzip 6",
+  "Prinzip 7",
+  "Prinzip 8",
+  "Prinzip 9",
+  "Prinzip 10",
+  "✦ KI-Ära",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Innovativ",
+  "Macht ein Produkt brauchbar",
+  "Ästhetisch",
+  "Verständlich",
+  "Unaufdringlich",
+  "Ehrlich",
+  "Langlebig",
+  "Konsequent bis ins letzte Detail",
+  "Umweltfreundlich",
+  "So wenig Design wie möglich",
+  "Weniger, aber besser — auf KI angewandt",
+  "Ehrliche KI",
+  "Verständliche KI"
+ ],
+ ".card .desc": [
+  "Innovation im Design entsteht neben der Innovation in der Technologie — und sie ist nie Selbstzweck. Gutes Design folgt der Technologie dort, wo sie tatsächlich neue Möglichkeiten schafft, nicht dort, wo sie nur neu aussieht.",
+  "Ein Produkt wird gekauft, um benutzt zu werden. Sein Design muss diesem Gebrauch dienen — das Nützliche betonen und alles unterdrücken, was davon ablenkt.",
+  "Die ästhetische Qualität eines Produkts ist integraler Teil seiner Brauchbarkeit — gut ausgeführte Objekte können schön sein, und Wohlbefinden hängt auch von den Dingen ab, die wir täglich benutzen.",
+  "Das Design eines Produkts sollte seine Struktur verdeutlichen. Im besten Fall erklärt es sich selbst. Der Nutzer sollte nie ein Handbuch brauchen, um zu wissen, was zu tun ist.",
+  "Produkte, die einen Zweck erfüllen, sind wie Werkzeuge — weder Dekorationsobjekte noch Kunstwerke. Ihr Design sollte Raum für die Selbstentfaltung des Nutzers lassen.",
+  "Gutes Design gibt nicht vor, innovativer, leistungsfähiger oder wertvoller zu sein, als es tatsächlich ist. Es manipuliert Nutzer nicht mit Versprechen, die sich nicht halten lassen.",
+  "Gutes Design vermeidet es, modisch zu sein, und wirkt deshalb nie antiquiert. Anders als Mode hält es viele Jahre — selbst in der heutigen Wegwerfgesellschaft.",
+  "Nichts darf willkürlich sein oder dem Zufall überlassen bleiben. Sorgfalt und Genauigkeit im Designprozess zeigen Respekt gegenüber dem Nutzer.",
+  "Design leistet einen wichtigen Beitrag zur Erhaltung der Umwelt. Es schont Ressourcen und minimiert physische wie visuelle Verschmutzung über den gesamten Lebenszyklus des Produkts.",
+  "Weniger, aber besser. Konzentration auf das Wesentliche, damit das Produkt nicht mit Unwesentlichem beladen wird. Zurück zur Reinheit, zurück zur Einfachheit.",
+  "Die meisten Produkte brauchen keinen Chatbot. Fügen Sie KI nur dort hinzu, wo sie das Produkt wirklich brauchbarer macht — nicht, um dem Trend hinterherzujagen. Rams' erster Instinkt gilt weiterhin: weglassen.",
+  "Gutes Design gibt nicht vor, das Modell sei fähiger, als es ist. Zeigen Sie die Zuversicht des Modells, nennen Sie Quellen und täuschen Sie nie eine Antwort vor. Ehrlichkeit ist Prinzip sechs in der KI-Ära.",
+  "Ein Produkt mit einem Modell darin muss sich weiterhin erklären. Zeigen Sie vor dem ersten Prompt, was der Assistent kann, während der Arbeit, was er tut, und danach, warum er so geantwortet hat. Prinzip vier gilt unverändert."
+ ],
+ ".meta .label": [
+  "Achtung",
+  "Test",
+  "Gegenmittel",
+  "Priorität",
+  "Test",
+  "Gegenmittel",
+  "Qualität",
+  "Ergebnis",
+  "Gegenmittel",
+  "Ziel",
+  "Test",
+  "Gegenmittel",
+  "Charakter",
+  "Test",
+  "Gegenmittel",
+  "Achtung",
+  "Test",
+  "Gegenmittel",
+  "Widersteht",
+  "Test",
+  "Gegenmittel",
+  "Haltung",
+  "Test",
+  "Gegenmittel",
+  "Schont",
+  "Test",
+  "Gegenmittel",
+  "Original",
+  "Ziel",
+  "Test",
+  "Prinzip",
+  "Test",
+  "Achtung",
+  "Prinzip",
+  "Zeigen",
+  "Achtung",
+  "Prinzip",
+  "Zeigen",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Neuheit um der Neuheit willen",
+  "Ermöglicht die Technik etwas Reales?",
+  "Skeuomorphismus · Trendjagd",
+  "Funktion zuerst",
+  "Erfüllt es seine Aufgabe besser?",
+  "Stil vor Substanz",
+  "Untrennbar von der Brauchbarkeit",
+  "Tägliche Freude",
+  "Hässliche Zweckmäßigkeit · Ornament",
+  "Selbsterklärend",
+  "Kein Handbuch nötig",
+  "Rätselhafte Oberfläche",
+  "Werkzeug, kein Statement",
+  "Verschwindet im Gebrauch",
+  "Lautes Branding · schreiende Oberfläche",
+  "Dark Patterns · gefälschte Bewertungen",
+  "Marketing deckt sich mit Verhalten",
+  "Manipulative UX",
+  "Modezyklen · Trends",
+  "Sieht es in 20 Jahren noch richtig aus?",
+  "Trendgetriebenes Redesign",
+  "Sorgfalt = Respekt",
+  "Hineinzoomen — hält es stand?",
+  "„Gut genug“-Details",
+  "Material · Energie · Aufmerksamkeit",
+  "Lebenszyklus bedacht?",
+  "Wegwerfware · überkonstruiert",
+  "Weniger, aber besser (1980er)",
+  "Reinheit · Essenz · Zurückhaltung",
+  "Was lässt sich weglassen?",
+  "Nr. 10 So wenig wie möglich",
+  "Bringt KI echten Nutzen?",
+  "KI als Dekoration",
+  "Nr. 6 Ehrlich",
+  "Zuversicht · Quellen · Grenzen",
+  "Übertriebene Fähigkeiten",
+  "Nr. 4 Verständlich",
+  "Fähigkeiten · Zustand · Gründe",
+  "Das Rätsel des leeren Prompts"
+ ],
+ ".ai-divider h3": [
+  "Rams im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "„Weniger, aber besser“ und „ehrlich“ sind die Prinzipien, die am meisten zählen, wenn jedes Produkt versucht ist, sich einen Chatbot anzuschrauben."
+ ]
+}

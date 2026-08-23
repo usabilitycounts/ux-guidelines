@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en" data-page="rams">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good.">
+<title>Dieter Rams’ 10 Principles: Less, But Better — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/rams-principles.html">
+<meta property="og:title" content="Dieter Rams&#x27; 10 Principles: Less, But Better — UX Guidelines">
+<meta property="og:description" content="Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/rams-principles.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Dieter Rams&#x27; 10 Principles: Less, But Better — UX Guidelines">
+<meta name="twitter:description" content="Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --r1: #6b6b6b;   /* innovative */
+    --r2: #6b6b6b;   /* useful */
+    --r3: #6b6b6b;   /* aesthetic */
+    --r4: #6b6b6b;   /* understandable */
+    --r5: #6b6b6b;   /* unobtrusive */
+    --r6: #6b6b6b;   /* honest */
+    --r7: #6b6b6b;   /* long-lasting */
+    --r8: #6b6b6b;   /* thorough */
+    --r9: #6b6b6b;   /* environmental */
+    --r10:#6b6b6b;   /* as little as possible */
+  }
+  .tagline em { font-style: normal; color: var(--text-secondary); font-weight: 600; }
+
+  /* Card 10 full row */
+  .card.r10 .meta { grid-template-columns: 1fr 1fr; }
+
+  .pulse { animation: pulse 1.6s ease-in-out infinite; }
+
+  /* Quote-style demo for principles 10 */
+  .quote {
+    font-size: var(--fs-h2); font-weight: 300; color: var(--text-primary); line-height: var(--lh-heading);
+    text-align: center; max-width: 520px;
+  }
+  .quote .accent { font-style: italic; font-weight: 400; color: var(--text-primary); }
+
+  @media (max-width: 600px) {
+    .card.r10 { grid-column: unset; }
+    .card.r10 .meta { grid-template-columns: 1fr 1fr; }
+    
+    
+  }
+  /* tags neutralized to match beige illustrations */
+  .card .tag { background: rgba(107, 107, 107,.12) !important; color: var(--text-secondary) !important; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* Rams illustrations */
+  .rx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .rx .b { background: var(--skel); opacity: 0.55; border-radius: 6px; display: block; }
+  .rx .b.faint { opacity: 0.32; }
+  .rx .b.dark { background: var(--skel-strong); opacity: 0.7; }
+  .rx .hot { background: var(--il-accent); opacity: 1; border-radius: 6px; }
+  .rx .roww { display: flex; gap: 10px; align-items: center; }
+  .rx .tile { background: var(--surface); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link active">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Dieter Rams’ 10 <em>Principles</em></h1>
+  <p class="tagline">"Less, but <em>better</em>."</p>
+  <p class="subtitle">Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Dieter_Rams" target="_blank" rel="noopener">Dieter Rams</a> is a German industrial designer who led design at Braun for over three decades, shaping products from record players to calculators whose forms echo in Apple hardware today. His philosophy: Weniger, aber besser — less, but better.</p>
+    <p class="body-text">He wrote the ten principles in the late 1970s as an answer to his own question: is my design good design? Conceived for physical products, they translate to software almost without editing — honest, unobtrusive, thorough, and as little design as possible.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principles</div>
+    <p class="body-text law-desc">Good design is innovative, useful, aesthetic, understandable, unobtrusive, honest, long-lasting, thorough to the last detail, environmentally friendly — and as little design as possible.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-dieter-rams">Dieter Rams</a></div></div>
+      <div><div class="label">Source</div><div class="value">Braun design practice</div></div>
+      <div><div class="label">In practice</div><div class="value">Remove until only the useful remains</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Innovative -->
+  <article class="card r1">
+    <div class="card-header">
+      <span class="tag">Principle 1</span>
+      <span class="num">01 / 10</span>
+      <h3>Innovative</h3>
+      <p class="desc">Innovation in design comes alongside innovation in technology — and it’s never an end in itself. Good design follows technology where it actually creates new possibilities, not where it just looks new.</p>
+    </div>
+    <div class="demo"><div class="rx" style="flex-direction:row;align-items:center">
+      <div class="tile"><span class="b" style="height:8px;width:70%"></span><span class="b faint" style="height:6px;width:90%"></span><span class="b faint" style="height:6px;width:80%"></span></div>
+      <div class="tile" style="border-color:var(--il-accent);border-width:2px"><span class="hot" style="height:8px;width:60%"></span><span class="b" style="height:6px;width:85%"></span><div class="roww" style="margin-top:4px"><span class="hot" style="width:22px;height:22px;border-radius:50%"></span><span class="b" style="height:6px;flex:1"></span></div></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Watch for</div><div class="value">Novelty for novelty’s sake</div></div>
+      <div><div class="label">Test</div><div class="value">Does the tech enable something real?</div></div>
+      <div><div class="label">Counter</div><div class="value">Skeuomorphism · trend-chasing</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="gestalt-principles.html">Gestalt Principles</a></div></div>
+  </article>
+
+  <!-- 2. Useful -->
+  <article class="card r2">
+    <div class="card-header">
+      <span class="tag">Principle 2</span>
+      <span class="num">02 / 10</span>
+      <h3>Makes a Product Useful</h3>
+      <p class="desc">A product is bought to be used. Its design must serve that use — emphasize what is useful, suppress everything that detracts from it.</p>
+    </div>
+    <div class="demo"><div class="rx">
+      <div class="roww"><span class="hot" style="width:18px;height:18px;border-radius:50%;flex:none"></span><span class="b dark" style="height:10px;flex:0 0 46%"></span></div>
+      <span class="b" style="height:6px;width:88%"></span>
+      <span class="b" style="height:6px;width:75%"></span>
+      <div class="roww" style="margin-top:6px"><span class="hot" style="height:20px;width:78px;border-radius:10px"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Priority</div><div class="value">Function first</div></div>
+      <div><div class="label">Test</div><div class="value">Does it do its job better?</div></div>
+      <div><div class="label">Counter</div><div class="value">Style over substance</div></div>
+    </div>
+  </article>
+
+  <!-- 3. Aesthetic -->
+  <article class="card r3">
+    <div class="card-header">
+      <span class="tag">Principle 3</span>
+      <span class="num">03 / 10</span>
+      <h3>Aesthetic</h3>
+      <p class="desc">The aesthetic quality of a product is integral to its usefulness — well-executed objects can be beautiful, and well-being depends in part on the objects we use every day.</p>
+    </div>
+    <div class="demo"><div class="rx" style="align-items:center;gap:14px">
+      <span class="b dark" style="height:12px;width:40%"></span>
+      <span class="b" style="height:6px;width:56%"></span>
+      <div class="roww" style="width:70%;justify-content:center;gap:12px">
+        <span class="b" style="height:44px;flex:1;border-radius:8px"></span>
+        <span class="hot" style="height:44px;flex:1;border-radius:8px;opacity:0.25"></span>
+        <span class="b" style="height:44px;flex:1;border-radius:8px"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Quality</div><div class="value">Inseparable from usefulness</div></div>
+      <div><div class="label">Result</div><div class="value">Daily delight</div></div>
+      <div><div class="label">Counter</div><div class="value">Ugly utility · ornament</div></div>
+    </div>
+  </article>
+
+  <!-- 4. Understandable -->
+  <article class="card r4">
+    <div class="card-header">
+      <span class="tag">Principle 4</span>
+      <span class="num">04 / 10</span>
+      <h3>Understandable</h3>
+      <p class="desc">A product’s design should clarify its structure. At best, it’s self-explanatory. The user should never need a manual to know what to do.</p>
+    </div>
+    <div class="demo"><div class="rx">
+      <div class="roww"><span class="hot" style="width:14px;height:14px;border-radius:50%;flex:none"></span><span class="b" style="height:8px;flex:0 0 40%"></span></div>
+      <div class="roww"><span class="b" style="width:14px;height:14px;border-radius:50%;flex:none;opacity:0.3"></span><span class="b faint" style="height:8px;flex:0 0 52%"></span></div>
+      <div class="roww"><span class="b" style="width:14px;height:14px;border-radius:50%;flex:none;opacity:0.3"></span><span class="b faint" style="height:8px;flex:0 0 34%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Goal</div><div class="value">Self-explanatory</div></div>
+      <div><div class="label">Test</div><div class="value">No manual needed</div></div>
+      <div><div class="label">Counter</div><div class="value">Mystery-meat UI</div></div>
+    </div>
+  </article>
+
+  <!-- 5. Unobtrusive -->
+  <article class="card r5">
+    <div class="card-header">
+      <span class="tag">Principle 5</span>
+      <span class="num">05 / 10</span>
+      <h3>Unobtrusive</h3>
+      <p class="desc">Products fulfilling a purpose are like tools — neither decorative objects nor works of art. Their design should leave room for the user’s self-expression.</p>
+    </div>
+    <div class="demo"><div class="rx gap-10">
+      <div style="flex:1;min-height:0;border-radius:10px;background:var(--surface);display:flex;flex-direction:column;justify-content:center;gap:9px;padding:16px 18px">
+        <span class="b dark" style="height:10px;width:56%"></span>
+        <span class="b" style="height:6px;width:88%"></span>
+        <span class="b" style="height:6px;width:74%"></span>
+      </div>
+      <div class="roww" style="justify-content:center;gap:8px;opacity:0.3">
+        <span class="b" style="height:10px;width:10px;border-radius:50%"></span>
+        <span class="b" style="height:10px;width:10px;border-radius:50%"></span>
+        <span class="b" style="height:10px;width:10px;border-radius:50%"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Character</div><div class="value">Tool, not statement</div></div>
+      <div><div class="label">Test</div><div class="value">Disappears in use</div></div>
+      <div><div class="label">Counter</div><div class="value">Loud branding · screaming UI</div></div>
+    </div>
+  </article>
+
+  <!-- 6. Honest -->
+  <article class="card r6">
+    <div class="card-header">
+      <span class="tag">Principle 6</span>
+      <span class="num">06 / 10</span>
+      <h3>Honest</h3>
+      <p class="desc">Good design doesn’t pretend to be more innovative, powerful, or valuable than it actually is. It doesn’t manipulate users with promises that can’t be kept.</p>
+    </div>
+    <div class="demo"><div class="rx" style="flex-direction:row;align-items:center">
+      <div class="tile"><span class="b" style="height:8px;width:60%"></span><span class="b faint" style="height:6px;width:85%"></span><span class="hot" style="height:14px;width:52px;border-radius:7px;margin-top:6px"></span></div>
+      <div class="tile" style="opacity:0.45"><span class="b" style="height:8px;width:60%"></span><span class="b faint" style="height:6px;width:85%"></span><div class="roww" style="margin-top:6px"><span class="b dark" style="height:14px;width:52px;border-radius:7px"></span><span class="b dark" style="height:14px;width:52px;border-radius:7px"></span></div></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Watch for</div><div class="value">Dark patterns · fake reviews</div></div>
+      <div><div class="label">Test</div><div class="value">Marketing matches behavior</div></div>
+      <div><div class="label">Counter</div><div class="value">Manipulative UX</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Long-lasting -->
+  <article class="card r7">
+    <div class="card-header">
+      <span class="tag">Principle 7</span>
+      <span class="num">07 / 10</span>
+      <h3>Long-Lasting</h3>
+      <p class="desc">Good design avoids being fashionable, and therefore never appears antiquated. Unlike fashion, it lasts many years — even in today’s throwaway society.</p>
+    </div>
+    <div class="demo"><div class="rx" style="gap:11px;justify-content:center">
+      <span class="b" style="height:10px;width:24%;border-radius:5px;opacity:0.5"></span>
+      <span class="b" style="height:10px;width:22%;margin-left:26%;border-radius:5px;opacity:0.35"></span>
+      <span class="b" style="height:10px;width:24%;margin-left:54%;border-radius:5px;opacity:0.2"></span>
+      <span class="hot" style="height:12px;width:100%;border-radius:6px;margin-top:6px"></span>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Resists</div><div class="value">Fashion cycles · trends</div></div>
+      <div><div class="label">Test</div><div class="value">Will it look right in 20 years?</div></div>
+      <div><div class="label">Counter</div><div class="value">Trend-driven redesign</div></div>
+    </div>
+  </article>
+
+  <!-- 8. Thorough -->
+  <article class="card r8">
+    <div class="card-header">
+      <span class="tag">Principle 8</span>
+      <span class="num">08 / 10</span>
+      <h3>Thorough Down to the Last Detail</h3>
+      <p class="desc">Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect toward the user.</p>
+    </div>
+    <div class="demo"><div class="rx">
+      <div class="roww"><span class="b dark" style="height:10px;flex:0 0 40%"></span><span class="flex-1"></span><span class="hot" style="width:8px;height:8px;border-radius:50%"></span></div>
+      <div class="roww"><span class="b" style="height:6px;flex:0 0 70%"></span><span class="flex-1"></span><span class="hot" style="width:8px;height:8px;border-radius:50%"></span></div>
+      <div class="roww"><span class="b" style="height:6px;flex:0 0 55%"></span><span class="flex-1"></span><span class="hot" style="width:8px;height:8px;border-radius:50%"></span></div>
+      <div class="roww"><span class="b faint" style="height:6px;flex:0 0 62%"></span><span class="flex-1"></span><span class="hot" style="width:8px;height:8px;border-radius:50%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Attitude</div><div class="value">Care = respect</div></div>
+      <div><div class="label">Test</div><div class="value">Zoom in — does it hold up?</div></div>
+      <div><div class="label">Counter</div><div class="value">“Good enough” details</div></div>
+    </div>
+  </article>
+
+  <!-- 9. Environmental -->
+  <article class="card r9">
+    <div class="card-header">
+      <span class="tag">Principle 9</span>
+      <span class="num">09 / 10</span>
+      <h3>Environmentally Friendly</h3>
+      <p class="desc">Design makes an important contribution to preserving the environment. It conserves resources and minimizes physical and visual pollution throughout the lifecycle of the product.</p>
+    </div>
+    <div class="demo"><div class="rx" style="align-items:center;gap:12px">
+      <div class="roww gap-14">
+        <span class="b" style="width:52px;height:52px;border-radius:10px;opacity:0.2"></span>
+        <span class="b" style="width:52px;height:52px;border-radius:10px;opacity:0.35"></span>
+        <span class="hot" style="width:52px;height:52px;border-radius:10px"></span>
+      </div>
+      <span class="b faint" style="height:6px;width:44%"></span>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Conserves</div><div class="value">Materials · energy · attention</div></div>
+      <div><div class="label">Test</div><div class="value">Lifecycle impact considered?</div></div>
+      <div><div class="label">Counter</div><div class="value">Disposable · over-engineered</div></div>
+    </div>
+  </article>
+
+  <!-- 10. As little design as possible (full row) -->
+  <article class="card r10">
+    <div class="card-header">
+      <span class="tag">Principle 10</span>
+      <span class="num">10 / 10</span>
+      <h3>As Little Design as Possible</h3>
+      <p class="desc">Less, but better. Concentrate on the essential aspects, so the product isn’t burdened with non-essentials. Back to purity, back to simplicity.</p>
+    </div>
+    <div class="demo"><div class="rx" style="align-items:center;justify-content:center">
+      <span class="b dark" style="height:12px;width:34%"></span>
+      <span class="hot" style="height:18px;width:64px;border-radius:9px;margin-top:14px"></span>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Original</div><div class="value">Weniger, aber besser (1980s)</div></div>
+      <div><div class="label">Goal</div><div class="value">Purity · essence · restraint</div></div>
+      <div><div class="label">Test</div><div class="value">What can you remove?</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Rams in the Age of AI</h3>
+    <p>“Less, but better” and “honest” are the principles that matter most when every product is tempted to bolt on a chatbot.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="rx">
+      <div class="roww"><span class="b faint" style="height:14px;flex:1;border-radius:7px"></span><span class="b faint" style="height:14px;flex:1;border-radius:7px"></span><span class="b faint" style="height:14px;flex:1;border-radius:7px"></span><span class="b faint" style="height:14px;flex:1;border-radius:7px"></span></div>
+      <div class="roww" style="justify-content:center;margin-top:10px"><span class="hot" style="height:26px;flex:0 0 60%;border-radius:13px"></span></div>
+    </div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Less, but Better — Applied to AI</h3>
+      <p class="desc">Most products don’t need a chatbot. Add AI only where it genuinely makes the product more useful — not to chase the trend. Rams’ first instinct still applies: remove.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Principle</div><div class="value">#10 As little as possible</div></div><div><div class="label">Test</div><div class="value">Does AI add real use?</div></div><div><div class="label">Watch for</div><div class="value">AI as decoration</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="rx">
+      <span class="b" style="height:6px;width:90%"></span>
+      <span class="b" style="height:6px;width:82%"></span>
+      <div class="roww" style="margin-top:8px"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b dark" style="height:7px;flex:0 0 36%"></span></div>
+      <div class="roww"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b dark" style="height:7px;flex:0 0 28%"></span></div>
+    </div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Honest AI</h3>
+      <p class="desc">Good design doesn’t pretend the model is more capable than it is. Show confidence, cite sources, and never fake an answer. Honesty is principle six in the AI era.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Principle</div><div class="value">#6 Honest</div></div><div><div class="label">Show</div><div class="value">Confidence · sources · limits</div></div><div><div class="label">Watch for</div><div class="value">Overstated capability</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="rx gap-9">
+      <div class="roww"><span class="b faint" style="height:16px;flex:0 0 30%;border-radius:8px;background:rgba(56,189,248,0.18);opacity:1"></span><span class="b faint" style="height:16px;flex:0 0 24%;border-radius:8px;background:rgba(56,189,248,0.18);opacity:1"></span><span class="b faint" style="height:16px;flex:0 0 27%;border-radius:8px;background:rgba(56,189,248,0.18);opacity:1"></span></div>
+      <div class="tile" style="flex:0 0 auto">
+        <span class="b dark" style="height:7px;width:52%"></span>
+        <span class="b" style="height:6px;width:88%"></span>
+      </div>
+      <div class="roww"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b" style="height:6px;flex:0 0 42%"></span></div>
+    </div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Understandable AI</h3>
+      <p class="desc">A product with a model inside still has to explain itself. Show what the assistant can do before the first prompt, what it is doing while it works, and why it answered the way it did. Principle four doesn’t bend for probability.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Principle</div><div class="value">#4 Understandable</div></div><div><div class="label">Show</div><div class="value">Capabilities · state · reasons</div></div><div><div class="label">Watch for</div><div class="value">The blank-prompt mystery</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Vitsœ (Rams’ studio)</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.vitsoe.com/us/about/good-design" target="_blank" rel="noopener"><span class="title">The 10 Principles of Good Design</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.vitsoe.com/us/about/dieter-rams" target="_blank" rel="noopener"><span class="title">About Dieter Rams</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Dieter_Rams" target="_blank" rel="noopener"><span class="title">Dieter Rams</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Braun_(company)" target="_blank" rel="noopener"><span class="title">Braun — Rams’ employer 1955–1995</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Functionalism_(architecture)" target="_blank" rel="noopener"><span class="title">Functionalism — design philosophy roots</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Film and Books</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.hustwit.com/rams" target="_blank" rel="noopener"><span class="title">Rams (2018, dir. Gary Hustwit)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.phaidon.com/store/design/dieter-rams-as-little-design-as-possible-9780714849188/" target="_blank" rel="noopener"><span class="title">“As Little Design as Possible” — Phaidon</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Rams’ 10 Principles</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Malédiction du <em>savoir</em>"
+ ],
+ "header .tagline": [
+  "Une fois que vous savez, vous ne pouvez plus imaginer ne pas savoir."
+ ],
+ "header .subtitle": [
+  "Nommée par les économistes Camerer, Loewenstein et Weber en 1989 : une fois que vous savez quelque chose, vous ne pouvez plus simuler l'esprit de quelqu'un qui l'ignore. C'est pourquoi les experts écrivent des documentations confuses et les équipes livrent du jargon."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Colin_Camerer\" target=\"_blank\" rel=\"noopener\">Colin Camerer</a>, <a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a> et Martin Weber ont forgé le terme dans un article d'économie de 1989 : les traders mieux informés ne pouvaient pas ignorer leur propre savoir en prédisant le comportement des moins informés.",
+  "L'étude du tapotement d'Elizabeth Newton (1990) l'a rendue célèbre — les tapoteurs qui pianotaient des chansons connues prédisaient que les auditeurs en nommeraient la moitié ; les auditeurs en ont trouvé 2,5 %. Made to Stick de Chip et Dan Heath a porté l'idée dans la communication et le design."
+ ],
+ ".law-content .law-desc": [
+  "Le savoir est une vitre sans tain : une fois acquis, il réécrit silencieusement votre modèle de ce que les autres peuvent voir. Les experts surestiment systématiquement ce que savent les novices — non par arrogance, mais parce que désapprendre est cognitivement impossible."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-colin-camerer\">Camerer</a>, <a href=\"people.html#p-george-loewenstein\">Loewenstein</a>, <a href=\"people.html#p-martin-weber\">Weber</a> (1989)",
+  "The Curse of Knowledge in Economic Settings",
+  "Tester sur des gens qui ne savent pas"
+ ],
+ ".card .tag": [
+  "L'étude",
+  "Langage",
+  "Onboarding",
+  "Interfaces",
+  "Antidote",
+  "Écriture",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Tapoteurs et auditeurs",
+  "Le jargon est invisible pour qui le parle",
+  "Écrit par des gens qui savent",
+  "L'icône évidente ne l'est pas",
+  "Observer quelqu'un qui ne sait pas",
+  "Expliquer comme à des gens intelligents, pas informés",
+  "Les prompts présument le contexte",
+  "Le modèle est maudit aussi"
+ ],
+ ".card .desc": [
+  "Les tapoteurs de Newton entendaient la chanson entière dans leur tête et prédisaient un taux de réussite de 50 %. Les auditeurs entendaient des jointures sur une table et en ont nommé 2,5 %. Tout expert qui fait la démonstration de son produit est un tapoteur.",
+  "Au sein de l'équipe, « sync », « workspace » et « instance » sont des mots ordinaires. Pour un nouvel utilisateur, ce sont des portes verrouillées. La malédiction cache précisément lesquels de vos mots sont du jargon — seuls les gens de l'extérieur peuvent voir la liste.",
+  "L'onboarding échoue quand il est conçu par des gens qui ne se souviennent plus de ne pas avoir compris le produit. L'état vide qui « explique tout » l'explique dans le vocabulaire de quelqu'un de l'autre côté de la malédiction.",
+  "Pour son designer, l'icône signifie évidemment exporter. Pour les utilisateurs, elle signifie ce que leur histoire dit qu'elle signifie — souvent rien. Associez les icônes à des libellés jusqu'à ce que la reconnaissance soit prouvée, pas présumée.",
+  "Le seul remède fiable est l'ignorance empruntée : cinq utilisateurs novices racontant leur confusion trouveront ce qu'aucune revue d'expert ne peut trouver, parce que les experts ne peuvent littéralement pas le voir. Le test d'utilisabilité est une levée de malédiction.",
+  "Le remède à l'écriture maudite n'est pas de simplifier à outrance — c'est de fournir le contexte. Présumez l'intelligence, présumez zéro vocabulaire partagé, définissez les termes à la première occurrence, et commencez par ce que le lecteur peut déjà se représenter.",
+  "Un prompt qui échoue échoue souvent en tapoteur : son auteur entendait la chanson entière — la base de code, les contraintes, l'objectif — et en a tapé trois mots. Le modèle, comme l'auditeur, reçoit des jointures sur une table.",
+  "Un modèle qui sait tout explique en conséquence — la réponse présume un vocabulaire que le lecteur n'a peut-être pas. Préciser l'audience (« explique pour une nouvelle recrue ») revient à lever la malédiction de la machine."
+ ],
+ ".meta .label": [
+  "Tapoteurs prédisaient",
+  "Score des auditeurs",
+  "Chaque démo",
+  "Pour l'équipe",
+  "Pour les nouveaux",
+  "Seuls les extérieurs",
+  "Écrit par",
+  "Lu par",
+  "Écart",
+  "Évident pour",
+  "Correctif",
+  "Présumer",
+  "Remède",
+  "Cinq utilisateurs",
+  "Le test",
+  "Présumer",
+  "Définir",
+  "Commencer par",
+  "Prompt raté",
+  "Correctif",
+  "Sortie maudite",
+  "Lever la malédiction"
+ ],
+ ".meta .value": [
+  "50 %",
+  "2,5 %",
+  "Est un tapotement",
+  "Mots ordinaires",
+  "Portes verrouillées",
+  "Voient la différence",
+  "Des gens qui savent",
+  "Des gens qui ne savent pas",
+  "La malédiction elle-même",
+  "Son designer",
+  "Icône plus libellé",
+  "Rien n'est évident",
+  "L'ignorance empruntée",
+  "Battent la revue d'expert",
+  "Lève la malédiction",
+  "Intelligents, non informés",
+  "À la première occurrence",
+  "Le familier",
+  "Une chanson tapotée",
+  "Dire le contexte à voix haute",
+  "Présume votre vocabulaire",
+  "Nommer l'audience"
+ ],
+ ".ai-divider h3": [
+  "La malédiction du savoir à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les prompts présument un contexte que le modèle n'a pas — et les modèles expliquent avec un savoir que le lecteur n'a pas. La malédiction court désormais dans les deux sens."
+ ]
+}

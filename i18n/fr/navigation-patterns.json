@@ -1,0 +1,90 @@
+{
+ "header h1": [
+  "<em>Modèles</em> de navigation"
+ ],
+ "header .tagline": [
+  "Aider les gens à savoir <em>où ils sont</em>, où ils peuvent aller et comment revenir."
+ ],
+ "header .subtitle": [
+  "La navigation est le tissu conjonctif d'un produit. Chaque couche joue un rôle différent — donnez-leur le bon poids et la structure devient invisible."
+ ],
+ ".card .tag": [
+  "Principale",
+  "Secondaire",
+  "Support",
+  "Repérage",
+  "Fourre-tout",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Navigation globale",
+  "Navigation locale",
+  "Navigation utilitaire",
+  "Fil d'Ariane",
+  "Navigation de pied de page",
+  "Demander plutôt que naviguer",
+  "Destinations adaptatives et mises en avant"
+ ],
+ ".card .desc": [
+  "La navigation persistante de premier niveau, présente dans tout le produit. Elle expose les sections principales du site ou de l'app et reste en place pendant que les utilisateurs se déplacent — la carte stable à laquelle tout le reste s'accroche.",
+  "La navigation contextuelle au sein d'une section, montrant les éléments frères et enfants de la zone courante. Elle permet aux gens de circuler là où ils se trouvent déjà, sans devoir remonter jusqu'au premier niveau.",
+  "Compte, réglages, recherche, aide, panier — les outils de support qui se tiennent à l'écart de la hiérarchie de contenu, souvent en haut à droite. Ils sont disponibles partout mais ne font pas partie du chemin de navigation principal.",
+  "Montrer la position de l'utilisateur dans la hiérarchie et offrir un chemin pour remonter. Idéal pour les structures profondes et hiérarchiques où les gens doivent comprendre à quelle profondeur ils se trouvent et remonter d'un niveau à la fois.",
+  "Un fourre-tout pour les liens légaux, les liens secondaires et un accès de type plan du site. Priorité moindre que la navigation principale, mais utile pour l'exhaustivité et pour le SEO — c'est là que les gens regardent quand la navigation principale n'a pas ce qu'il leur faut.",
+  "Une zone de prompt devient une façon parallèle de naviguer : au lieu de cliquer de section en section, les utilisateurs décrivent la destination et l'assistant les y emmène. Les menus restent la carte visible du possible — et le filet de sécurité quand la demande échoue.",
+  "L'IA peut réordonner, mettre en avant ou masquer des destinations selon ce dont un utilisateur aura probablement besoin ensuite. Puissant pour la pertinence — mais gardez le cadre global stable, sous peine d'éroder la carte prévisible qui rend la navigation digne de confiance."
+ ],
+ ".meta .label": [
+  "Portée",
+  "Contient",
+  "Comportement",
+  "Portée",
+  "Contient",
+  "Souvent",
+  "Exemples",
+  "Emplacement",
+  "À l'écart",
+  "Rôle",
+  "Idéal pour",
+  "Se lit",
+  "Contient",
+  "Priorité",
+  "Bonus",
+  "Évolution",
+  "Les menus deviennent",
+  "À surveiller",
+  "Avantage",
+  "Garder stable",
+  "Risque"
+ ],
+ ".meta .value": [
+  "Tout le produit",
+  "Sections de premier niveau",
+  "Persistante · toujours visible",
+  "Au sein d'une section",
+  "Éléments frères et enfants",
+  "Barre latérale ou sous-onglets",
+  "Compte · recherche · aide · panier",
+  "Souvent en haut à droite",
+  "De la hiérarchie de contenu",
+  "Position + chemin de remontée",
+  "Hiérarchies profondes",
+  "Accueil › Section › Page",
+  "Légal · secondaire · plan du site",
+  "Moindre",
+  "SEO et exhaustivité",
+  "Parcours de clics → description",
+  "La carte et le repli",
+  "Perdre la découvrabilité",
+  "Pertinence · moins de recherche",
+  "Le cadre global",
+  "Carte imprévisible"
+ ],
+ ".ai-divider h3": [
+  "La navigation à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Demander commence à remplacer naviguer. La navigation ne disparaît pas — elle devient un repli et une carte de ce que l'assistant sait faire."
+ ]
+}

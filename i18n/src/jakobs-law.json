@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Jakob’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Users spend most of their time on <em>other</em> sites."
+ ],
+ "header .subtitle": [
+  "People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> — the same Danish usability engineer behind the ten heuristics — stated his law of the internet user experience in 2000, at the height of every site inventing its own navigation.",
+  "The law is an argument from arithmetic: users spend nearly all their time on sites other than yours, so your site is the exception to their habits, not the rule. Familiarity is a feature you get for free by following convention."
+ ],
+ ".law-content .law-desc": [
+  "Users spend most of their time on other sites, so they expect yours to work the same way. Break convention only where the payoff clearly outweighs the relearning cost."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a>",
+  "End of Web Design, Alertbox",
+  "Default to convention; innovate sparingly"
+ ],
+ ".card .tag": [
+  "The law",
+  "Mental transfer",
+  "Convention",
+  "Reuse",
+  "Mental model",
+  "Exception",
+  "✦ AI Era",
+  "✦ AI Era",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Law",
+  "Transfer of Expectations",
+  "Conventions Are Powerful",
+  "Don’t Reinvent Standard Patterns",
+  "The Mental Model",
+  "When to Break Convention",
+  "Chat Is the New Convention",
+  "Natural Language as Default Input",
+  "Adaptive UI vs. Consistency",
+  "The Convention Is Being Rewritten"
+ ],
+ ".card .desc": [
+  "Users form their mental model of how an interface should work from every other interface they’ve used. The closer yours matches that accumulated expectation, the less they have to learn — and the more usable it feels.",
+  "Every product a user has touched leaves a deposit of expectation. They arrive at yours already “knowing” where the cart, the search, and the menu should be — because a hundred other sites put them there.",
+  "Logo top-left links home. Cart top-right. Primary nav across the top. Underlined blue text is a link. These aren’t laws of nature — they’re conventions so widely shared they may as well be.",
+  "A “creative” date picker, a novel scrollbar, a bespoke dropdown — these almost always cost more than they’re worth. Familiar controls work because users have thousands of reps with them already.",
+  "Users don’t read your UI fresh — they match it against an internal model built from experience. When your interface matches the model, it feels intuitive. When it conflicts, it feels broken.",
+  "Convention isn’t a cage. Break it only when the gain clearly outweighs the cost of re-learning — and when your new pattern is so much better that it could become the next convention.",
+  "ChatGPT trained hundreds of millions of people on a single pattern: a message box at the bottom, streaming responses above, a thumbs up/down. That’s now an expectation users bring to <em>every</em> AI feature.",
+  "Users increasingly expect to <em>type what they want</em> instead of hunting through menus. The command palette and the AI prompt are converging — “tell me what you need” is becoming the new front door.",
+  "AI can generate a different interface for every user — the opposite of Jakob’s Law’s call for sameness. The tension is real: personalization boosts relevance but erodes the shared conventions users rely on.",
+  "Jakob’s Law still holds — but the body of “other sites” it points to is changing fast. The safe baseline now includes AI affordances: a prompt box, streaming output, “regenerate,” cited sources, and an undo for anything the model touched."
+ ],
+ ".meta .label": [
+  "Coined by",
+  "Core idea",
+  "Implication",
+  "Source",
+  "Deposit",
+  "Benefit",
+  "Examples",
+  "Strength",
+  "Cost to break",
+  "Reuse",
+  "Test",
+  "Watch for",
+  "Built from",
+  "Match",
+  "Conflict",
+  "Break when",
+  "Examples",
+  "Risk",
+  "Set by",
+  "Expectation",
+  "Implication",
+  "Shift",
+  "Converging",
+  "Watch for",
+  "Upside",
+  "Downside",
+  "Balance",
+  "Still true",
+  "New baseline",
+  "Takeaway"
+ ],
+ ".meta .value": [
+  "<a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> (2000)",
+  "Expectations transfer between products",
+  "Follow established conventions",
+  "Every product they’ve used",
+  "Where things “should” be",
+  "Zero learning curve",
+  "Logo · Cart · Nav · Links",
+  "Near-universal across the web",
+  "User has to re-learn",
+  "Native controls · known patterns",
+  "Does novelty add real value?",
+  "Innovation theater",
+  "Prior experience",
+  "Feels intuitive · invisible",
+  "Feels broken · frustrating",
+  "Gain ≫ re-learning cost",
+  "Pull-to-refresh · swipe gestures",
+  "Confusion · abandonment",
+  "ChatGPT · Claude · Copilot",
+  "Message box · streaming · feedback",
+  "Match the chat idiom users know",
+  "Navigate → describe",
+  "⌘K palette + AI prompt",
+  "Hiding discoverability entirely",
+  "Relevance · less clutter",
+  "No shared mental model",
+  "Adapt content, keep the chrome stable",
+  "Match user expectations",
+  "Prompt · stream · regenerate · cite",
+  "Re-check conventions every cycle"
+ ],
+ ".ai-divider h3": [
+  "Jakob’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI is rewriting the conventions users carry with them. The reference point is shifting from “every website” to “every AI tool.”"
+ ]
+}

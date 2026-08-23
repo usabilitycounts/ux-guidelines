@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "À propos"
+ ],
+ "header .subtitle": [
+  "Qui fait ce site, et pourquoi il existe."
+ ],
+ ".about-section h2": [
+  "Ailleurs",
+  "Patrick Neeman",
+  "À propos de ce site"
+ ],
+ ".about-section p": [
+  "Patrick Neeman est un leader du design UX et produit qui a consacré sa carrière à rendre les logiciels plus faciles pour les personnes qui doivent les utiliser. Il écrit des articles de fond sur l'UX et l'IA — sur <a href=\"https://medium.com/@usabilitycounts\" target=\"_blank\" rel=\"noopener\">Medium</a>, <a href=\"https://substack.com/@patrickneeman\" target=\"_blank\" rel=\"noopener\">Substack</a> et <a href=\"https://www.linkedin.com/in/patrick-neeman-ux/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> — pour les designers, chefs de produit et chercheurs UX qui cherchent à comprendre comment le métier évolue.",
+  "Il écrit sur l'utilisabilité depuis longtemps sous le nom Usability Counts, et il est le créateur du UX Drinking Game — la preuve que les heuristiques sont plus amusantes quand il y a un enjeu.",
+  "Son travail actuel se situe à l'intersection de la pratique du design et de l'IA : comment les modèles changent ce que les designers produisent, comment les équipes travaillent, et lesquelles des anciennes règles tiennent encore. Spoiler : la plupart tiennent toujours, et c'est pourquoi ce site existe.",
+  "UX Guidelines est une référence de travail pour les règles du design d'interface fondées sur la recherche — les schémas de lecture, lois cognitives, heuristiques et principes qui reviennent dans les bons produits, décennie après décennie.",
+  "Chaque loi reçoit le même traitement : d'où elle vient et qui l'a découverte, ce qu'elle dit vraiment, et ce qu'elle signifie en pratique — y compris ce qui change, et ce qui ne change pas, à l'ère de l'IA. Les illustrations partagent un même langage visuel : écrans squelettes, blocs gris et un unique accent bleu, pour que l'idée porte le poids plutôt que le dessin.",
+  "Commencez où vous voulez. Le <a href=\"sitemap.html\">plan du site</a> liste toutes les pages, et le <a href=\"glossary.html\">glossaire</a> couvre tous les termes. Les flèches gauche et droite permettent de passer d'une page à l'autre."
+ ]
+}

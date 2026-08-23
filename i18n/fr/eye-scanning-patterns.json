@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "Schémas de lecture visuelle"
+ ],
+ "header .tagline": [
+  "Comment les utilisateurs lisent <em>vraiment</em> votre interface"
+ ],
+ "header .subtitle": [
+  "Des décennies de recherche en oculométrie montrent que les gens ne lisent pas les interfaces — ils les balaient selon des formes prévisibles. Voici les six schémas et où chacun apparaît."
+ ],
+ ".law-origin .body-text": [
+  "Les schémas de lecture visuelle viennent de deux décennies de recherche en oculométrie menée par Nielsen Norman Group, le cabinet fondé par <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> et <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> en 1998. Leur étude de 2006 sur le schéma en F, fondée sur les enregistrements de centaines d'utilisateurs lisant des milliers de pages, est devenue l'un des résultats les plus cités de l'utilisabilité web.",
+  "Les études suivantes ont élargi le tableau : la forme en F est le repli des lecteurs quand une page ne leur offre pas de meilleure structure. Des titres forts, un contenu qui commence par l'essentiel et une hiérarchie visuelle claire remplacent le balayage paresseux par une lecture intentionnelle."
+ ],
+ ".law-content .law-desc": [
+  "Les gens lisent rarement les interfaces mot à mot. Ils balaient selon des formes prévisibles — F, Z, gâteau à étages, pointillé — déterminées par la structure de la page et leur objectif. Concevez pour le balayage, pas pour la lecture."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "L'équipe d'oculométrie de Jakob Nielsen",
+  "F-Shaped Pattern for Reading Web Content",
+  "Commencer par les titres et les mots clés"
+ ],
+ ".card .tag": [
+  "Pages denses en texte",
+  "Mises en page épurées",
+  "Défilement continu",
+  "Balayage ciblé",
+  "Guidé par la hiérarchie",
+  "Contenu répétitif",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Schéma en F",
+  "Schéma en Z",
+  "Schéma de marquage",
+  "Schéma pointillé",
+  "Schéma en gâteau à étages",
+  "Schéma de contournement",
+  "Les résumés IA court-circuitent le balayage",
+  "Balayer à la recherche des citations"
+ ],
+ ".card .desc": [
+  "Les utilisateurs lisent le haut de la page en travers, descendent un peu et balaient une partie de la ligne suivante, puis laissent glisser leurs yeux le long du bord gauche — décrivant la forme d'un F. Dominant sur les pages denses en texte à la hiérarchie visuelle faible.",
+  "Les yeux traversent le haut, descendent en diagonale vers le bas-gauche, puis traversent le bas — traçant un Z. Courant sur les pages épurées avec quelques éléments focaux et un appel à l'action clair.",
+  "Le regard du lecteur reste collé à une bande verticale pendant le défilement — typiquement la colonne centrale. Courant sur mobile et lors de la lecture en défilement continu, où le curseur ou le pouce guide l'œil.",
+  "Les utilisateurs sautent de grandes sections de contenu et se posent sur des points visuellement distincts — boutons, prix, chiffres ou gras — comme on trouve des îlots de sens dans une mer de texte.",
+  "Les yeux glissent de titre en titre le long de la page, en sautant entièrement le corps du texte — et ne plongent que lorsqu'un titre promet quelque chose de pertinent. La hiérarchie porte toute l'expérience.",
+  "Quand les lignes partagent des débuts répétés — « Étape 1 : », « Note : », ou le même mot d'ouverture dans chaque rangée d'un tableau — les lecteurs sautent complètement le préfixe et vont droit au contenu unique. C'est le schéma dominant pour balayer les tableaux et les listes d'informations structurées, où l'œil contourne le texte redondant le long de chaque colonne.",
+  "Quand une réponse générée trône au-dessus de la page, les utilisateurs la lisent au lieu de balayer ce qui est dessous. Les schémas en F et en Z s'effondrent en « lire la réponse, peut-être jeter un œil en dessous ».",
+  "Dans une réponse d'IA, la nouvelle cible de fixation est la citation. Les utilisateurs survolent la prose pour trouver — et cliquer — la source qui prouve l'affirmation avant de lui faire confiance."
+ ],
+ ".meta .label": [
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Effet",
+  "À surveiller",
+  "Concevoir pour",
+  "Nouvelle cible",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Lecteurs survolant un texte dense",
+  "Articles · résultats de recherche · textes longs",
+  "Commencer par l'essentiel ; intertitres en gras",
+  "Visiteurs cherchant un CTA",
+  "Pages d'atterrissage · accueils marketing",
+  "Placer le CTA aux coins terminaux",
+  "Utilisateurs mobiles / en défilement",
+  "Articles longs · fils mobiles",
+  "Centrer les informations critiques",
+  "Chercheurs orientés objectif",
+  "Résultats de recherche · fiches produit",
+  "Rendre les cibles visuellement distinctes",
+  "Lecteurs décidés et pressés",
+  "Documents structurés · pages longues",
+  "Les titres doivent se décrire eux-mêmes",
+  "Lecteurs de contenu procédural",
+  "Tableaux · listes · tutoriels · guides pas à pas",
+  "Varier les débuts ; commencer par la partie unique",
+  "Le balayage cède à la lecture",
+  "Réponse fausse, page ignorée",
+  "Une réponse fiable et survolable",
+  "Liens sources · citations",
+  "Les réponses font des affirmations factuelles",
+  "Texte assuré mais invérifiable"
+ ],
+ ".meta-cell .label": [
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication",
+  "Audience",
+  "Contexte",
+  "Implication"
+ ],
+ ".meta-cell .value": [
+  "Lecteurs survolant un texte dense",
+  "Articles · résultats de recherche · textes longs",
+  "Commencer par l'essentiel ; intertitres en gras",
+  "Visiteurs cherchant un CTA",
+  "Pages d'atterrissage · accueils marketing",
+  "Placer le CTA aux coins terminaux",
+  "Utilisateurs mobiles / en défilement",
+  "Articles longs · fils mobiles",
+  "Centrer les informations critiques",
+  "Chercheurs orientés objectif",
+  "Résultats de recherche · fiches produit",
+  "Rendre les cibles visuellement distinctes",
+  "Lecteurs décidés et pressés",
+  "Documents structurés · pages longues",
+  "Les titres doivent se décrire eux-mêmes",
+  "Lecteurs de contenu procédural",
+  "Tableaux · listes · tutoriels · guides pas à pas",
+  "Varier les débuts ; commencer par la partie unique"
+ ],
+ ".ai-divider h3": [
+  "La lecture visuelle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Quand une réponse d'IA trône en haut de la page, les schémas de balayage classiques cèdent la place à la lecture de la réponse — et à la vérification de ses sources."
+ ]
+}

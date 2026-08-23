@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" data-page="yerkes-dodson"><head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
+<meta name="description" content="Robert Yerkes and John Dodson&#x27;s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones.">
+<title>Yerkes-Dodson Law: Stress, Arousal, and Task Performance — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/yerkes-dodson-law.html">
+<meta property="og:title" content="Yerkes-Dodson Law: Stress, Arousal, and Task Performance — UX Guidelines">
+<meta property="og:description" content="Robert Yerkes and John Dodson&#x27;s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/yerkes-dodson-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Yerkes-Dodson Law: Stress, Arousal, and Task Performance — UX Guidelines">
+<meta name="twitter:description" content="Robert Yerkes and John Dodson&#x27;s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+:root{--bg:#ffffff;--surface:#f4f4f4;--demo-bg:#ececec;--border:#e2e2e2;--ink:#111111;--muted:#6b6b6b;--ai:#0d9488}.law-feature .formula-box svg{max-width:100%;height:auto}@media(max-width:800px){.law-feature{grid-template-columns:1fr;padding:32px 20px;gap:24px}.law-feature .formula-box{padding:28px 20px}}.demo-label{font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500;margin:0 0 8px}@media(max-width:600px){header{padding:32px 20px 28px}footer{padding:20px;flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset}.ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px}.ai-divider p{margin-left:0;text-align:left}}
+
+  /* Yerkes-Dodson illustrations */
+  .yd { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .yd .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .yd .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .yd .pt { position: absolute; width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); transform: translate(-50%,-50%); }
+  .yd .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel); opacity: 0.35; }
+  .yd .chip { height: 18px; border-radius: 9px; background: var(--surface); padding: 0 12px; display: flex; align-items: center; flex: none; }
+  .yd .chip i { height: 5px; width: 24px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .yd .btn { height: 26px; border-radius: 9px; background: var(--il-accent); width: 46%; }
+</style><script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+<nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true"><button class="menu-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+<div class="menu-label">Navigate</div>
+<div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link active">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+<h1>Yerkes-Dodson <em>Law</em></h1>
+<p class="tagline">Performance rises with arousal — to a point — then <em>falls</em>.</p>
+<p class="subtitle">Robert Yerkes and John Dodson’s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Robert_Yerkes" target="_blank" rel="noopener">Robert Yerkes</a> and <a href="https://en.wikipedia.org/wiki/John_Dillingham_Dodson" target="_blank" rel="noopener">John Dillingham Dodson</a> were American psychologists whose 1908 experiments showed performance rises with arousal only up to a point — beyond it, pressure degrades performance. Their inverted-U curve bears their names.</p>
+    <p class="body-text">Their original 1908 experiments used mice, mazes, and mild shocks; the elegant inverted-U curve now printed in textbooks was largely a later simplification. Yerkes went on to develop the Army Alpha intelligence tests in World War I and to found Yale’s primate research laboratory.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">Some pressure is good. Too little, and the user is bored, drifting, missing things. Too much, and they freeze, click the wrong button, abandon the flow. The peak is in the middle — and where it sits depends on the task.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-robert-yerkes">Robert Yerkes</a> and <a href="people.html#p-john-dillingham-dodson">John Dodson</a> (1908)</div></div>
+      <div><div class="label">Source</div><div class="value">Comparative-psychology experiments</div></div>
+      <div><div class="label">In practice</div><div class="value">Keep pressure moderate</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<article class="card"><div class="card-header"><span class="tag">The curve</span><h3>The Inverted U</h3><p class="desc">Performance on a task is highest at a moderate level of arousal. Below that, attention fades; above it, attention narrows too much and slips. The curve was first observed in mice running mazes; a century later it shows up in user-testing labs as cleanly as it did then.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:50%;top:23%"></span></div></div></div>
+<div><div class="label">Shape</div><div class="value">Inverted U</div></div><div><div class="label">Year</div><div class="value">1908</div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Low side</span><h3>Under-Stimulation Drops Attention</h3><p class="desc">At the bottom-left of the curve: the user is bored or under-engaged. Sign-off pages, fifth-time-this-month interactions, screens after a long auto-play. Performance drops because attention drops. The fix isn’t more friction — it’s an active reason to be present.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:14%;top:78%;background:var(--skel-strong);opacity:0.7"></span></div></div></div>
+<div class="meta"><div><div class="label">Symptoms</div><div class="value">Skip · scroll past</div></div><div><div class="label">Fix</div><div class="value">A reason to be present</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">High side</span><h3>Over-Stimulation Collapses Performance</h3><p class="desc">At the top-right: stress, urgency, deadline-driven pressure. The user freezes, mis-clicks, takes the visible path even when it is wrong. Banking error messages, mid-flight booking changes, “your card has been declined” — all live here. The fix is to lower the stakes, not to add more dialogs.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:86%;top:78%;background:#111"></span></div></div></div>
+<div class="meta"><div><div class="label">Symptoms</div><div class="value">Freeze · misclick · abandon</div></div><div><div class="label">Fix</div><div class="value">Lower the stakes</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Modulator</span><h3>Complex Tasks Have Tighter Peaks</h3><p class="desc">A second insight from Yerkes-Dodson: the optimum shifts left for harder tasks. A simple task — single click, single number — tolerates pressure well. A complex task — review a document, fill 30 fields — needs lower arousal to perform well. Crank up urgency on the hard task and you lose the user fastest.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.4" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M12,110 C 40,34 76,30 100,74 C 120,104 150,110 188,112" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Simple task</div><div class="value">Tolerates pressure</div></div><div><div class="label">Complex task</div><div class="value">Needs lower arousal</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Flow</span><h3>Flow Is the Sweet Spot</h3><p class="desc">Csíkszentmihályi’s flow state is the modern phrasing of the Yerkes-Dodson peak. The challenge is just above the user’s ability, the feedback is immediate, the goals are clear — and the user disappears into the task. Designing for flow is designing for the top of the curve.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><rect x="74" y="8" width="52" height="104" rx="6" fill="var(--il-accent)" opacity="0.14"/><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:50%;top:23%"></span></div></div></div>
+<div class="meta"><div><div class="label">Coined by</div><div class="value"><a href="people.html#p-mihaly-csikszentmihalyi">Csíkszentmihályi</a>, 1975</div></div><div><div class="label">Recipe</div><div class="value">Just above ability</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Design</span><h3>Calm UI for Hard Tasks</h3><p class="desc">When the task is complex — annual review, tax filing, codebase audit — the UI should feel calm. Plenty of whitespace, clear progress, no animations chasing the cursor. Pushing the user up the arousal curve while they are already loaded sends them over the peak. Spreadsheets and IDEs intuitively get this right; most consumer apps do not.</p></div>
+<div class="demo"><div class="yd" style="gap:14px;padding:26px 40px"><span class="ln" style="width:44%;opacity:0.5"></span><span class="ln" style="width:80%;opacity:0.22"></span><span class="ln" style="width:68%;opacity:0.22"></span><div style="height:26px;border-radius:8px;background:#fff;box-shadow:inset 0 0 0 1.5px rgba(0,0,0,0.14);width:70%"></div></div></div>
+<div class="meta"><div><div class="label">For complex tasks</div><div class="value">Lower the arousal</div></div><div><div class="label">Tactics</div><div class="value">Whitespace · steady pace</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Design</span><h3>Energy for Easy Tasks</h3><p class="desc">The flip side. When the task is trivial — one tap, one swipe — a little extra arousal helps. A vibration on a like, a satisfying snap on a swipe, a small celebration on a sign-up. The simple task can ride higher on the curve, and the extra stimulation pays back in engagement.</p></div>
+<div class="demo"><div class="yd" style="align-items:center;gap:12px"><div style="position:relative;display:flex;align-items:center;justify-content:center"><span class="btn" style="width:120px"></span><span style="position:absolute;right:-18px;top:-10px;width:10px;height:10px;border-radius:50%;background:var(--il-accent);display:block"></span><span style="position:absolute;left:-14px;bottom:-8px;width:7px;height:7px;border-radius:50%;background:var(--il-accent);opacity:0.6;display:block"></span></div></div></div>
+<div class="meta"><div><div class="label">For simple tasks</div><div class="value">A little stimulation</div></div><div><div class="label">Tactics</div><div class="value">Haptic · sound · micro-animation</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Watch for</span><h3>Avoid Synthetic Urgency</h3><p class="desc">Countdown timers, “only 2 left,” forced-decision dialogs — all push the user up the curve in ways that hurt complex decisions. They feel like motivation; they perform like overload. If you find yourself adding pressure to a hard task, the right answer is almost always to ease the task, not crank the stress.</p></div>
+<div class="demo"><div class="yd gap-12"><div style="display:flex;gap:8px;opacity:0.35"><span class="chip"><i></i></span><span class="chip"><i style="width:16px"></i></span><span class="chip"><i style="width:30px"></i></span></div><div style="height:24px;border-radius:8px;background:rgba(56,189,248,0.15);display:flex;align-items:center;padding:0 10px"><span style="height:6px;width:34%;border-radius:3px;background:var(--il-accent);display:block"></span></div></div></div>
+<div class="meta"><div><div class="label">Pattern</div><div class="value">Manufactured urgency</div></div><div><div class="label">Fix</div><div class="value">Ease the task</div></div></div>
+</article>
+
+<div class="ai-divider"><span class="spark">✦</span><h3>Yerkes-Dodson in the Age of AI</h3><p>AI can read where on the curve a user is — and lower the arousal at exactly the right moment, or fail to.</p></div>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>AI Can Read the Curve</h3><p class="desc">Models can sense overload in real time — long pauses, repeated edits, abandoned tabs — and respond. Drop a step, surface a shortcut, offer to take over. The Yerkes-Dodson peak becomes adaptive: the product itself slides the user back toward it, instead of leaving them stuck on the wrong side.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M150,62 C 132,42 118,32 106,28" fill="none" stroke="var(--il-accent)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:75%;top:52%;background:#111"></span><span class="pt" style="left:50%;top:23%"></span></div></div></div>
+<div class="meta"><div><div class="label">Signal</div><div class="value">Pauses · repeats · abandons</div></div><div><div class="label">Response</div><div class="value">Lower the arousal</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>Or AI Can Push You Off It</h3><p class="desc">The same channel runs in reverse. A model that surfaces a flood of suggestions, interrupts every few seconds, or generates plausible nonsense that demands review can drive the user past the peak fast. AI defaults toward arousal — there is always one more suggestion. The discipline is to leave the user alone when they are flowing.</p></div>
+<div class="demo"><div class="yd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,108 C 50,20 150,20 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M106,28 C 130,34 150,50 166,72" fill="none" stroke="#111" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:50%;top:23%;background:var(--skel-strong);opacity:0.7"></span><span class="pt" style="left:86%;top:68%;background:#111"></span></div></div></div>
+<div class="meta"><div><div class="label">Default</div><div class="value">Suggest, suggest, suggest</div></div><div><div class="label">Discipline</div><div class="value">Leave flow alone</div></div></div>
+</article>
+
+</main>
+
+<section class="references">
+<div class="ref-label">Further Reading</div>
+<div class="ref-groups">
+<div class="ref-group"><h3 class="label ref-source-label">Reference</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law" target="_blank" rel="noopener"><span class="title">Yerkes-Dodson Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Robert_Yerkes" target="_blank" rel="noopener"><span class="title">Robert Yerkes — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+<div class="ref-group"><h3 class="label ref-source-label">Modern echo</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Flow_(psychology)" target="_blank" rel="noopener"><span class="title">Flow (psychology) — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+</div></section>
+
+<footer><div class="copyright">© UX Guidelines · Yerkes-Dodson Law</div><div class="meta-info">Yerkes and Dodson, 1908</div></footer>
+
+<script>(()=>{const h=document.querySelector('.hamburger'),o=document.getElementById('menu-overlay'),p=document.getElementById('menu-panel'),c=document.querySelector('.menu-close');if(!h||!o||!p||!c)return;const open=()=>{p.classList.add('open');o.classList.add('open');h.setAttribute('aria-expanded','true');p.setAttribute('aria-hidden','false');};const close=()=>{p.classList.remove('open');o.classList.remove('open');h.setAttribute('aria-expanded','false');p.setAttribute('aria-hidden','true');};h.addEventListener('click',open);c.addEventListener('click',close);o.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});})();</script>
+
+</body></html>

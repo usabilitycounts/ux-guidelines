@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "<em>Modèle</em> Hook"
+ ],
+ "header .tagline": [
+  "Déclencheur · Action · Récompense variable · <em>Investissement</em>."
+ ],
+ "header .subtitle": [
+  "Le cadre de Nir Eyal (2014) pour créer des produits générateurs d'habitudes. Quatre phases que l'utilisateur traverse, encore et encore, jusqu'à ce que le produit devienne un réflexe. Son livre suivant trace la ligne entre les hooks dont l'utilisateur est reconnaissant et ceux qu'il regrette."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Nir_Eyal\" target=\"_blank\" rel=\"noopener\">Nir Eyal</a> est un auteur et conférencier en design comportemental qui a enseigné à la Graduate School of Business de Stanford. Son livre de 2014, Hooked, a distillé les produits générateurs d'habitudes en une boucle à quatre étapes : déclencheur, action, récompense variable et investissement.",
+  "Eyal a passé des années dans les industries du jeu vidéo et de la publicité avant de distiller ce qu'il y a observé dans le modèle Hook. Fait notable, il a fait suivre Hooked de Indistractable — un livre sur la façon de se défendre contre les techniques mêmes qu'il avait documentées — en soutenant que l'éthique dépend de la question de savoir si les produits servent les intentions propres des utilisateurs."
+ ],
+ ".law-content .law-desc": [
+  "La plupart des produits générateurs d'habitudes exécutent la même boucle à quatre étapes. Un déclencheur se déclenche, l'utilisateur accomplit une action peu coûteuse, obtient une récompense variable et investit quelque chose — du contenu, des données, une relation — qui réarme le déclencheur suivant. Chaque tour renforce l'habitude et augmente le coût du changement."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Nir Eyal (2014)",
+  "Hooked",
+  "Boucler la boucle par l'investissement de l'utilisateur"
+ ],
+ ".card .tag": [
+  "Boucle",
+  "Externe",
+  "Interne",
+  "Action",
+  "Récompense",
+  "Investir",
+  "Éthique",
+  "Quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La boucle à quatre étapes",
+  "Les déclencheurs viennent d'abord de l'extérieur",
+  "Les déclencheurs passent à l'intérieur",
+  "Rendre l'action dérisoirement facile",
+  "Les récompenses variables accrochent",
+  "Les faire investir",
+  "Persuasion contre manipulation",
+  "Auditer votre boucle",
+  "L'IA personnalise chaque étape",
+  "La barre éthique monte"
+ ],
+ ".card .desc": [
+  "Un déclencheur externe donne l'impulsion ; une action sans friction suit ; une récompense variable tombe ; l'utilisateur investit quelque chose qui réarme le déclencheur suivant. Répétez le cycle quatre fois et vous avez une habitude ; quarante fois et vous avez une app quotidienne.",
+  "Les premiers déclencheurs viennent de l'extérieur de l'utilisateur : une notification, un e-mail, une publicité, un ami qui partage. Le produit ne peut pas encore compter sur la mémoire. Chaque déclencheur externe est une tentative de lancer la boucle ; la plupart échouent. Ceux qui mènent l'action à son terme apprennent au déclencheur suivant à coûter moins cher.",
+  "Le produit gagne quand le déclencheur vient de l'intérieur de l'utilisateur. L'ennui déclenche Instagram, l'anxiété déclenche Twitter, la solitude déclenche Tinder. Aucune notification nécessaire ; l'émotion est le signal. Les déclencheurs internes séparent les apps qu'on utilise des apps vers lesquelles on tend la main.",
+  "L'action doit être plus petite que la motivation. Ouvrir l'app, tirer vers le bas, appuyer, taper un mot. Tout ce qui dépasse le seuil de friction casse la boucle. Stories, swipes, double-taps, défilement infini — tous conçus pour abaisser le coût de l'action sous ce que le déclencheur peut fournir.",
+  "La troisième étape est celle qui rend accro. Si chaque actualisation donnait le même contenu, la boucle mourrait. La récompense est variable : le plus souvent quelconque, parfois formidable. Machines à sous, fils Twitter, apps de rencontre et boîtes de réception partagent tous cette forme. L'imprévisibilité est le moteur.",
+  "La quatrième étape est ce qui construit le déclencheur suivant. Publier, suivre, personnaliser, téléverser, noter, ajouter des amis — autant d'investissements de l'utilisateur qui chargent le produit de valeur. Plus l'utilisateur a investi, plus le produit devient irremplaçable. Le coût du changement se cumule à chaque tour.",
+  "Le livre suivant d'Eyal est Indistractable — il trace une ligne nette entre les hooks pour des choses que l'utilisateur sera content d'avoir faites (Duolingo, apprentissage des langues) et les hooks pour des choses qu'il regrette (apps de casino, doom-scrolling). Le modèle en soi est neutre ; le test est de savoir si l'utilisateur vous remercierait de la boucle dans un moment de calme.",
+  "Parcourez les quatre étapes pour une fonctionnalité : déclencheur, action, récompense, investissement. Si une étape est faible, la boucle ne prendra pas — l'utilisateur touche le produit une fois et l'oublie. Si chaque étape est conçue au détriment de l'utilisateur, vous avez construit une machine à sous et devriez la corriger.",
+  "Un modèle peut choisir le bon déclencheur pour cet utilisateur à cet instant, rendre l'action plus petite, mieux varier la récompense et cadrer l'investissement plus habilement. Le modèle Hook était une seule boucle réglée ; il y en a maintenant des millions, chacune réglée pour une personne. Fait avec intention : phénoménal. Fait sans : des machines à sous à grande échelle.",
+  "Quand la boucle est réglée pour une personne, l'utilisateur ne peut pas voir la version que reçoivent les autres ; il ne peut pas savoir si sa boucle a été réglée pour la rétention ou pour lui. Transparence, désinscription et « montrez-moi ce qui est réglé pour moi » deviennent des exigences morales, pas des fonctionnalités."
+ ],
+ ".meta .label": [
+  "De",
+  "Modèle",
+  "Exemples",
+  "À surveiller",
+  "Tactique",
+  "Exemples",
+  "Règle",
+  "S'associe à",
+  "Mécanisme",
+  "Exemples",
+  "Exemples",
+  "Effet",
+  "Test",
+  "2e livre d'Eyal",
+  "Coût",
+  "Détecte",
+  "Puissance",
+  "Risque",
+  "Requis",
+  "Requis"
+ ],
+ ".meta .value": [
+  "Nir Eyal, 2014",
+  "Auto-renforçante",
+  "Push · e-mail · pub",
+  "User le canal jusqu'à l'insensibilité",
+  "Cartographier l'émotion",
+  "Ennui · anxiété",
+  "Action ≪ motivation",
+  "Modèle comportemental de Fogg",
+  "Renforcement variable",
+  "Machine à sous · fil · boîte de réception",
+  "Publications · abonnements · personnalisations",
+  "Coût du changement ↑",
+  "Le merci du moment de calme",
+  "Indistractable, 2019",
+  "Cinq minutes",
+  "Boucles faibles",
+  "Réglage par utilisateur",
+  "Machines à sous à grande échelle",
+  "Visibilité · désinscription",
+  "Divulgation par utilisateur"
+ ],
+ ".ai-divider h3": [
+  "Le modèle Hook à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles peuvent personnaliser chaque étape de la boucle en temps réel — pour le meilleur et pour le pire."
+ ]
+}

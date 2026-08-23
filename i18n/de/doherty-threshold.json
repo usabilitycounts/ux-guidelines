@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "Doherty-<em>Schwelle</em>"
+ ],
+ "header .tagline": [
+  "Unter 400 Millisekunden wird Arbeit zum Gespräch."
+ ],
+ "header .subtitle": [
+  "Walter Doherty und Ahrvind Thadanis IBM-Forschung von 1982: Antwortet ein System in unter 400 Millisekunden, schnellt die Produktivität in die Höhe — Nutzer und Computer bleiben im selben Gedankengang. Hier gepaart mit den klassischen Antwortzeit-Grenzen, nach denen jedes Interface noch immer lebt."
+ ],
+ ".law-origin .body-text": [
+  "Walter J. Doherty und Ahrvind J. Thadani waren IBM-Forscher, die die Ökonomie des interaktiven Rechnens untersuchten. Ihr Paper The Economic Value of Rapid Response Time von 1982 kippte die damalige Annahme, zwei Sekunden Antwortzeit seien gut genug — die Produktivität stieg steil, sobald Antworten unter 400 Millisekunden fielen.",
+  "Der Befund machte Systemgeschwindigkeit zum ökonomischen Argument: Schnellere Maschinen bezahlten sich selbst durch zurückgewonnene menschliche Aufmerksamkeit. Jahrzehnte später taucht dieselbe Schwelle in Web-Performance-Budgets auf, und die Antwortzeit-Grenzen von <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> führen das Framework fort."
+ ],
+ ".law-content .law-desc": [
+  "Die Produktivität schnellt in die Höhe, wenn Computer und Nutzer in einem Tempo interagieren — unter 400 Millisekunden —, bei dem keiner auf den anderen warten muss. Unter der Schwelle fühlt sich Arbeit wie ein Gespräch an; darüber bricht jede Pause den Gedankengang des Nutzers, und die Fehler steigen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-walter-j-doherty\">Doherty</a> und <a href=\"people.html#p-ahrvind-thadani\">Thadani</a> (1982)",
+  "The Economic Value of Rapid Response Time",
+  "Schnell antworten oder schnell bestätigen"
+ ],
+ ".card .tag": [
+  "Die Linie",
+  "Begleiter",
+  "Wahrnehmung",
+  "Muster",
+  "Kosten",
+  "Praxis",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Die 400-Millisekunden-Linie",
+  "Die Antwortzeit-Grenzen",
+  "Feedback schlägt rohe Geschwindigkeit",
+  "Optimistische UI",
+  "Latenz summiert sich",
+  "Ein Performance-Budget setzen",
+  "Streaming schlägt den Spinner",
+  "Bestätigen, dann denken"
+ ],
+ ".card .desc": [
+  "Doherty und Thadani maßen Transaktionen pro Stunde bei sinkender Antwortzeit. Die Kurve ist nicht linear — unter 400 ms hören Nutzer auf, ihr Denken um die Pausen der Maschine herum zu bündeln, und die Produktivität springt.",
+  "Jakob Nielsens drei Grenzen stehen neben Dohertys Schwelle: 0,1 Sekunden fühlen sich sofort an, 1 Sekunde hält den Gedankenfluss, und 10 Sekunden sind der äußerste Rand der Aufmerksamkeit — danach wechseln Nutzer die Aufgabe.",
+  "Wenn das System nicht in 400 ms antworten kann, kann es trotzdem in 400 ms bestätigen. Skeleton Screens, Pressed States und sofortiges lokales Echo lassen eine langsame Operation reaktionsschnell wirken — gefühlte Geschwindigkeit ist ein Gestaltungsmaterial.",
+  "Die Änderung auf dem Bildschirm festschreiben, bevor das Netzwerk sie bestätigt. Die Nachricht erscheint im Thread, der Schalter kippt, der Eintrag sortiert sich ein — und das System gleicht im Hintergrund ab. Der Nutzer wartet nie auf einen Roundtrip.",
+  "Keine einzelne Verzögerung tötet einen Workflow — die Anhäufung tut es. Eine Suche mit 700 ms, ein Filter mit 900 ms, ein Speichern mit 1,2 s: Über einen Arbeitstag summieren sich die Pausen zu gebrochener Konzentration und gebündelter, fehleranfälliger Arbeit.",
+  "400 ms so behandeln wie eine visuelle Spezifikation. Jeder Interaktion ein Budget geben, den langsamsten realen Pfad messen — nicht die Demo-Maschine — und Engineering-Zeit dort investieren, wo Nutzer wirklich warten.",
+  "Ein Modell, das acht Sekunden braucht, verletzt jede Grenze auf dieser Seite — außer es streamt. Tokens, die in Lesegeschwindigkeit erscheinen, halten den Nutzer im 400-ms-Gespräch, selbst wenn die vollständige Antwort noch Sekunden entfernt ist.",
+  "Der Prompt sollte sofort landen — innerhalb von 100 ms im Thread geechot —, während das Modell arbeitet. Die Schwelle regiert die Bestätigung, nicht die Antwort. Funkstille nach dem Absenden ist die eine unverzeihliche KI-Latenz."
+ ],
+ ".meta .label": [
+  "Schwelle",
+  "Darunter",
+  "Darüber",
+  "0,1 s",
+  "1 s",
+  "10 s",
+  "Regel",
+  "Werkzeuge",
+  "Achtung",
+  "Am besten für",
+  "Braucht",
+  "Achtung",
+  "Symptom",
+  "Lösung",
+  "Ziel",
+  "Messen",
+  "Budget",
+  "Investieren in",
+  "Muster",
+  "Wirkung",
+  "Sofort",
+  "Ehrlich"
+ ],
+ ".meta .value": [
+  "Etwa 400 ms",
+  "Flow und Momentum",
+  "Gebrochene Aufmerksamkeit",
+  "Fühlt sich sofort an",
+  "Flow überlebt",
+  "Aufmerksamkeit ist weg",
+  "Sofort bestätigen",
+  "Skeletons · Pressed States",
+  "Klicks in Funkstille",
+  "Senden · Schalter · Speichern",
+  "Sauberes Rollback",
+  "Über Fehler lügen",
+  "Nutzer bündeln ihre Arbeit",
+  "Jede Interaktion budgetieren",
+  "Je unter 400 ms",
+  "Echte Geräte, echte Netze",
+  "Pro Interaktion",
+  "Den langsamsten Pfad",
+  "Streamen statt drehen",
+  "Warten fühlt sich wie Lesen an",
+  "Den Prompt echoen",
+  "Denkzustand zeigen"
+ ],
+ ".ai-divider h3": [
+  "Die Doherty-Schwelle im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle brauchen Sekunden, nicht Millisekunden. Die Schwelle gibt nicht nach — also muss das Interface die Wartezeit ehrlich verbringen."
+ ],
+ ".law-formula-note": [
+  "die Antwortzeit, unter der Aufmerksamkeit, Flow und Produktivität erhalten bleiben."
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Jakob"
+ ],
+ "header .tagline": [
+  "Les utilisateurs passent le plus clair de leur temps sur <em>d'autres</em> sites."
+ ],
+ "header .subtitle": [
+  "Les gens passent le plus clair de leur temps sur d'autres sites, donc ils s'attendent à ce que le vôtre fonctionne pareil. Suivez les conventions — et restez attentif, car l'IA est en train de les réécrire."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> — le même ingénieur en utilisabilité danois derrière les dix heuristiques — a énoncé sa loi de l'expérience utilisateur sur Internet en 2000, à l'apogée de l'époque où chaque site inventait sa propre navigation.",
+  "La loi est un argument arithmétique : les utilisateurs passent la quasi-totalité de leur temps sur des sites autres que le vôtre, donc votre site est l'exception à leurs habitudes, pas la règle. La familiarité est une qualité que vous obtenez gratuitement en suivant les conventions."
+ ],
+ ".law-content .law-desc": [
+  "Les utilisateurs passent le plus clair de leur temps sur d'autres sites, donc ils s'attendent à ce que le vôtre fonctionne pareil. Ne rompez avec la convention que là où le gain dépasse clairement le coût du réapprentissage."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen",
+  "End of Web Design, Alertbox",
+  "La convention par défaut ; innover avec parcimonie"
+ ],
+ ".card .tag": [
+  "La loi",
+  "Transfert mental",
+  "Convention",
+  "Réutilisation",
+  "Modèle mental",
+  "Exception",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La loi",
+  "Transfert des attentes",
+  "Les conventions sont puissantes",
+  "Ne pas réinventer les modèles standard",
+  "Le modèle mental",
+  "Quand rompre avec la convention",
+  "Le chat est la nouvelle convention",
+  "Le langage naturel comme saisie par défaut",
+  "UI adaptative contre cohérence",
+  "La convention est en cours de réécriture"
+ ],
+ ".card .desc": [
+  "Les utilisateurs se forgent leur modèle mental du fonctionnement d'une interface à partir de toutes les autres interfaces qu'ils ont utilisées. Plus la vôtre correspond à cette attente accumulée, moins ils ont à apprendre — et plus elle semble utilisable.",
+  "Chaque produit qu'un utilisateur a touché laisse un dépôt d'attentes. Il arrive chez vous en « sachant » déjà où devraient se trouver le panier, la recherche et le menu — parce que cent autres sites les ont mis là.",
+  "Le logo en haut à gauche renvoie à l'accueil. Le panier en haut à droite. La navigation principale en haut. Le texte bleu souligné est un lien. Ce ne sont pas des lois de la nature — mais des conventions si largement partagées qu'elles pourraient tout aussi bien l'être.",
+  "Un sélecteur de date « créatif », une barre de défilement inédite, un menu déroulant sur mesure — cela coûte presque toujours plus que cela ne rapporte. Les contrôles familiers fonctionnent parce que les utilisateurs ont déjà des milliers de répétitions avec eux.",
+  "Les utilisateurs ne lisent pas votre interface à neuf — ils la confrontent à un modèle interne construit par l'expérience. Quand votre interface correspond au modèle, elle semble intuitive. Quand elle le contredit, elle semble cassée.",
+  "La convention n'est pas une cage. Ne la rompez que lorsque le gain dépasse clairement le coût du réapprentissage — et lorsque votre nouveau modèle est tellement meilleur qu'il pourrait devenir la prochaine convention.",
+  "ChatGPT a entraîné des centaines de millions de personnes à un seul modèle : une zone de message en bas, des réponses en flux au-dessus, un pouce vers le haut ou le bas. C'est désormais une attente que les utilisateurs apportent à <em>chaque</em> fonctionnalité d'IA.",
+  "Les utilisateurs s'attendent de plus en plus à <em>taper ce qu'ils veulent</em> au lieu de fouiller dans des menus. La palette de commandes et le prompt d'IA convergent — « dites-moi ce qu'il vous faut » devient la nouvelle porte d'entrée.",
+  "L'IA peut générer une interface différente pour chaque utilisateur — l'opposé de l'appel à l'uniformité de la loi de Jakob. La tension est réelle : la personnalisation augmente la pertinence mais érode les conventions partagées sur lesquelles les utilisateurs s'appuient.",
+  "La loi de Jakob tient toujours — mais le corpus des « autres sites » qu'elle désigne change vite. La base de référence sûre inclut désormais les affordances de l'IA : une zone de prompt, une sortie en flux, « régénérer », des sources citées, et un moyen d'annuler tout ce que le modèle a touché."
+ ],
+ ".meta .label": [
+  "Formulé par",
+  "Idée centrale",
+  "Implication",
+  "Source",
+  "Dépôt",
+  "Bénéfice",
+  "Exemples",
+  "Force",
+  "Coût de la rupture",
+  "Réutiliser",
+  "Test",
+  "À surveiller",
+  "Construit à partir de",
+  "Correspondance",
+  "Conflit",
+  "Rompre quand",
+  "Exemples",
+  "Risque",
+  "Établi par",
+  "Attente",
+  "Implication",
+  "Évolution",
+  "Convergence",
+  "À surveiller",
+  "Avantage",
+  "Inconvénient",
+  "Équilibre",
+  "Toujours vrai",
+  "Nouvelle base",
+  "À retenir"
+ ],
+ ".meta .value": [
+  "Jakob Nielsen (2000)",
+  "Les attentes se transfèrent entre produits",
+  "Suivre les conventions établies",
+  "Chaque produit qu'ils ont utilisé",
+  "Où les choses « devraient » être",
+  "Courbe d'apprentissage nulle",
+  "Logo · Panier · Nav · Liens",
+  "Quasi universelles sur le web",
+  "L'utilisateur doit réapprendre",
+  "Contrôles natifs · modèles connus",
+  "La nouveauté apporte-t-elle une vraie valeur ?",
+  "Le théâtre de l'innovation",
+  "L'expérience antérieure",
+  "Semble intuitif · invisible",
+  "Semble cassé · frustrant",
+  "Gain ≫ coût de réapprentissage",
+  "Tirer pour actualiser · gestes de balayage",
+  "Confusion · abandon",
+  "ChatGPT · Claude · Copilot",
+  "Zone de message · flux · retour",
+  "Adopter l'idiome de chat connu des utilisateurs",
+  "Naviguer → décrire",
+  "Palette ⌘K + prompt IA",
+  "Cacher entièrement la découvrabilité",
+  "Pertinence · moins d'encombrement",
+  "Pas de modèle mental partagé",
+  "Adapter le contenu, garder le cadre stable",
+  "Répondre aux attentes des utilisateurs",
+  "Prompt · flux · régénérer · citer",
+  "Revérifier les conventions à chaque cycle"
+ ],
+ ".ai-divider h3": [
+  "La loi de Jakob à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA réécrit les conventions que les utilisateurs emportent avec eux. Le point de référence passe de « tous les sites web » à « tous les outils d'IA »."
+ ]
+}

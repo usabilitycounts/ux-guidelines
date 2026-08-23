@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-page="zeigarnik">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every &quot;complete your profile&quot; nudge.">
+<title>Zeigarnik Effect: Why Unfinished Tasks Stick in the Mind — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/zeigarnik-effect.html">
+<meta property="og:title" content="Zeigarnik Effect: Why Unfinished Tasks Stick in the Mind — UX Guidelines">
+<meta property="og:description" content="Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every &quot;complete your profile&quot; nudge.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/zeigarnik-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zeigarnik Effect: Why Unfinished Tasks Stick in the Mind — UX Guidelines">
+<meta name="twitter:description" content="Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every &quot;complete your profile&quot; nudge.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link active">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Zeigarnik <em>Effect</em></h1>
+  <p class="tagline">Unfinished business stays in memory.</p>
+  <p class="subtitle">Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every “complete your profile” nudge.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Bluma_Zeigarnik" target="_blank" rel="noopener">Bluma Zeigarnik</a> was a Lithuanian-Soviet psychologist who studied under Kurt Lewin in Berlin. Legend says the idea began at a café: waiters recalled unpaid orders perfectly and forgot them the moment the bill was settled.</p>
+    <p class="body-text">Her 1927 experiments confirmed it — participants interrupted mid-task recalled those tasks roughly twice as well as finished ones. She went on to co-found experimental pathopsychology in Moscow, and the open-loop effect that bears her name became a staple of product design.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">Interrupted or incomplete tasks are remembered better than completed ones. An open loop creates a low-grade tension that keeps pulling attention back until the loop closes — completion releases it, and the memory fades.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-bluma-zeigarnik">Bluma Zeigarnik</a> (1927)</div></div>
+      <div><div class="label">Source</div><div class="value">On Finished and Unfinished Tasks</div></div>
+      <div><div class="label">In practice</div><div class="value">Show what’s left open</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The loop</span>
+      <span class="num">01 / 08</span>
+      <h3>Open Loops Pull Attention</h3>
+      <p class="desc">An incomplete progress bar is a small psychological hook — the mind keeps a background thread on anything visibly unfinished. Products that show open loops get users back without sending a single notification.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;padding:18px 30px"><div class="meter hpx-14"><i class="w-68"></i></div><span class="ln faint w-56"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Mechanism</div><div class="value">Task tension</div></div>
+      <div><div class="label">Released by</div><div class="value">Completion</div></div>
+      <div><div class="label">Free retention</div><div class="value">No notification needed</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Progress</span>
+      <span class="num">02 / 08</span>
+      <h3>Show the Remaining Steps</h3>
+      <p class="desc">A stepper that shows two of four steps done recruits the effect honestly: the user can see exactly what’s open and what closing it takes. Vague progress (“almost there!”) wastes the tension it creates.</p>
+    </div>
+    <div class="demo"><div class="il gap-14"><div class="stepper"><span class="nd b"></span><span class="lnk b"></span><span class="nd b"></span><span class="lnk"></span><span class="nd"></span><span class="lnk"></span><span class="nd"></span></div><span class="ln faint w-64"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Show</div><div class="value">Done and remaining</div></div>
+      <div><div class="label">Be</div><div class="value">Specific</div></div>
+      <div><div class="label">Avoid</div><div class="value">Vague “almost there”</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Checklists</span>
+      <span class="num">03 / 08</span>
+      <h3>The Unchecked Box</h3>
+      <p class="desc">Onboarding checklists work because every unchecked item is its own open loop. Three done and one open is nearly irresistible — which is why the best checklists are short, real, and finishable.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><span class="dot b"></span><i class="w-30"></i></div><div class="row"><span class="dot b"></span><i class="w-34"></i></div><div class="row"><span class="dot b"></span><i class="w-26"></i></div><div class="row hot"><span class="dot"></span><i class="w-32"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Keep lists</div><div class="value">Short and finishable</div></div>
+      <div><div class="label">Each item</div><div class="value">A real step</div></div>
+      <div><div class="label">The last open box</div><div class="value">Does the pulling</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a><a href="ikea-effect.html">IKEA Effect</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Completion</span>
+      <span class="num">04 / 08</span>
+      <h3>Profile Completeness</h3>
+      <p class="desc">LinkedIn’s completeness meter is the canonical use: a visible 70% makes finishing feel necessary. It works when each remaining step genuinely improves the experience — and curdles when it’s just data harvesting.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div style="display:flex;align-items:center;gap:10px"><span class="dot" style="width:26px;height:26px"></span><div style="flex:1;display:flex;flex-direction:column;gap:6px"><span class="ln w-40"></span><div class="meter hpx-8"><i class="w-70"></i></div></div></div><div class="row"><i class="w-36"></i><span class="chk"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Works when</div><div class="value">Steps add real value</div></div>
+      <div><div class="label">Curdles when</div><div class="value">It’s data harvesting</div></div>
+      <div><div class="label">Sweet spot</div><div class="value">60–90% shown</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Ethics</span>
+      <span class="num">05 / 08</span>
+      <h3>Don’t Weaponize the Loop</h3>
+      <p class="desc">Streaks that punish a missed day, carts that nag for weeks, fake “1 step left” prompts — manufactured incompleteness burns the trust the effect depends on. If the loop wasn’t opened by the user, closing it isn’t their job.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div style="display:flex;gap:8px;opacity:0.4"><span class="chip"><i></i></span><span class="chip"><i style="width:16px"></i></span><span class="chip"><i style="width:28px"></i></span></div><div class="row hot"><i class="w-38"></i><span class="chk"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Test</div><div class="value">Who opened the loop?</div></div>
+      <div><div class="label">Manufactured tension</div><div class="value">Burns trust</div></div>
+      <div><div class="label">Respect</div><div class="value">The user’s “done”</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Closure</span>
+      <span class="num">06 / 08</span>
+      <h3>Let Loops Actually Close</h3>
+      <p class="desc">The effect has a second half: completion releases the tension, and that release is the reward. Clear done-states, satisfying confirmations, and empty inboxes give users the closure the open loop promised.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><span class="dot b"></span><i class="w-30"></i></div><div class="row"><span class="dot b"></span><i class="w-34"></i></div><div class="row"><span class="dot b"></span><i class="w-28"></i></div><div class="meter hpx-10"><i class="w-100"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Done-states</div><div class="value">Make them felt</div></div>
+      <div><div class="label">The release</div><div class="value">Is the reward</div></div>
+      <div><div class="label">Then</div><div class="value">Stop asking</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Zeigarnik Effect in the Age of AI</h3>
+    <p>Agents leave loops open on your behalf now — drafts, running tasks, half-finished jobs. Showing what’s unfinished is how trust survives the delegation.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Draft Left Open</h3>
+      <p class="desc">An assistant that leaves a visible draft — half an email, a paused edit — pulls the user back to finish the thought. Resumable state is the Zeigarnik effect working for the user instead of on them.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div class="bub w-82"><span class="l w-92"></span><span class="l w-78"></span><span class="l" style="width:34%;background:var(--il-accent);opacity:1"></span></div><div style="display:flex;gap:8px"><span class="chip b"><i style="width:26px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Visible, resumable drafts</div></div>
+      <div><div class="label">Effect</div><div class="value">Users return to finish</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Agents Keep Loops Open</h3>
+      <p class="desc">A background agent is an open loop the user didn’t used to have. Show the running task, its progress, and its finish — an invisible loop generates anxiety, a visible one generates trust.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-34"></i><span class="chk"></span></div><div class="row hot"><i class="w-40"></i><span class="think" style="margin-left:auto"><b></b><b></b><b></b></span></div><div class="row ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Show</div><div class="value">Running · done · queued</div></div>
+      <div><div class="label">Invisible loops</div><div class="value">Read as anxiety</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Zeigarnik_effect" target="_blank" rel="noopener"><span class="title">Zeigarnik Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bluma_Zeigarnik" target="_blank" rel="noopener"><span class="title">Bluma Zeigarnik — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/zeigarnik-effect/" target="_blank" rel="noopener"><span class="title">Zeigarnik Effect on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Zeigarnik Effect</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Efecto <em>estética-usabilidad</em>"
+ ],
+ "header .tagline": [
+  "El diseño bello se percibe como más fácil de usar."
+ ],
+ "header .subtitle": [
+  "El estudio de cajeros automáticos de Masaaki Kurosu y Kaori Kashimura en 1995: las interfaces que la gente encuentra bellas se califican como más fáciles de usar — lo sean o no. El acabado compra paciencia y confianza, y puede ocultar problemas reales."
+ ],
+ ".law-origin .body-text": [
+  "Masaaki Kurosu y Kaori Kashimura, investigadores del Hitachi Design Center, probaron 26 diseños de cajero automático en 1995. Las valoraciones de facilidad de uso aparente de los usuarios siguieron mucho más de cerca lo atractivos que eran los diseños que lo usables que realmente eran.",
+  "Noam Tractinsky replicó el resultado en otras culturas en 1997 — «lo bello es usable» — y <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> le dio después un mecanismo en Emotional Design: el afecto positivo amplía el pensamiento y vuelve a la gente más tolerante con las dificultades menores."
+ ],
+ ".law-content .law-desc": [
+  "Los usuarios perciben el diseño estéticamente agradable como más usable — y le conceden más paciencia, más confianza y más perdón por los fallos pequeños. El efecto es real y útil, y corta en ambos sentidos: la belleza puede enmascarar problemas que las pruebas detectarían."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masaaki-kurosu\">Kurosu</a> y <a href=\"people.html#p-kaori-kashimura\">Kashimura</a> (1995)",
+  "Usabilidad aparente — estudio de cajeros, Hitachi",
+  "El acabado compra paciencia"
+ ],
+ ".card .tag": [
+  "El efecto",
+  "Tolerancia",
+  "Confianza",
+  "La trampa",
+  "Prioridad",
+  "Práctica",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Misma función, distinta sensación",
+  "El acabado compra paciencia",
+  "La belleza se lee como competencia",
+  "La belleza oculta problemas",
+  "La usabilidad sigue siendo lo primero",
+  "Invierte el acabado donde cuenta",
+  "Acabado generado, al instante",
+  "Fluido, seguro, equivocado"
+ ],
+ ".card .desc": [
+  "Dos pantallas con funcionalidad idéntica: la alineada, espaciada y cuidada se califica como más fácil de usar antes de un solo clic. La usabilidad percibida se forma en el primer vistazo, no en la primera tarea.",
+  "En una pantalla que se ve cuidada, los usuarios se culpan a sí mismos por los tropiezos pequeños y vuelven a intentarlo. En una descuidada, el mismo tropiezo es culpa del producto y la pestaña se cierra. La estética es un presupuesto de perdón.",
+  "El cuidado visual se toma como indicador del cuidado de ingeniería — a menudo con razón: un equipo que ajustó el interletrado de los títulos probablemente probó el proceso de pago. La confianza en la primera visita, las tasas de registro y la tolerancia al precio se mueven con el acabado.",
+  "El efecto contamina la investigación: los usuarios califican los prototipos bellos como usables incluso después de fallar tareas en ellos. Observa lo que la gente hace, no lo que puntúa — las notas de satisfacción favorecen a los diseños atractivos.",
+  "El efecto perdona fallos pequeños, no flujos rotos. Un checkout precioso que pierde el carrito sigue siendo un checkout fallido — el acabado multiplica una experiencia que funciona y solo retrasa el veredicto sobre una rota.",
+  "Pule las superficies donde se forma el juicio: primera ejecución, inicio, checkout y estados vacíos. Una escala tipográfica consistente, bordes alineados y espaciado honesto entregan la mayor parte del efecto sin una sola ilustración.",
+  "Los modelos producen interfaces limpias, alineadas y plausibles por defecto — el acabado ya no es evidencia de cuidado. La señal que los usuarios leen como competencia ahora puede acuñarse en segundos, lo que hace que las pruebas de usabilidad reales importen más, no menos.",
+  "El efecto estética-usabilidad tiene una forma textual: la prosa fluida y bien estructurada se califica como más precisa que la prosa torpe que dice lo mismo. La seguridad de un modelo es estilo — verifica la afirmación, no el acabado."
+ ],
+ ".meta .label": [
+  "Se juzga",
+  "Sigue",
+  "No",
+  "Pulida",
+  "Descuidada",
+  "Estética",
+  "Indicador de",
+  "Mueve",
+  "Se gana con",
+  "Riesgo en investigación",
+  "Confianza",
+  "Métrica",
+  "Perdona",
+  "No",
+  "Acabado",
+  "Pulir primero",
+  "Victorias baratas",
+  "Omitir",
+  "Acabado",
+  "Así que",
+  "Fluidez",
+  "Verifica"
+ ],
+ ".meta .value": [
+  "Al primer vistazo",
+  "El atractivo",
+  "El éxito real en la tarea",
+  "Los usuarios reintentan",
+  "Los usuarios abandonan",
+  "Un presupuesto de perdón",
+  "Cuidado de ingeniería",
+  "Confianza y conversión",
+  "Consistencia, no decoración",
+  "Valoraciones infladas",
+  "Conducta sobre opinión",
+  "Éxito en la tarea",
+  "Fallos pequeños",
+  "Flujos rotos",
+  "Multiplica, nunca rescata",
+  "Primera ejecución · checkout",
+  "Alineación · espaciado",
+  "Decoración porque sí",
+  "Ya no prueba cuidado",
+  "Prueba lo que hace",
+  "Se lee como precisión",
+  "La afirmación, no el acabado"
+ ],
+ ".ai-divider h3": [
+  "La estética-usabilidad en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las interfaces generadas llegan pulidas por defecto — y la prosa fluida y segura dispara el mismo efecto en el texto. Un resultado bello no es un resultado correcto."
+ ]
+}

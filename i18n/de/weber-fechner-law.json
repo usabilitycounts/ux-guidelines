@@ -1,0 +1,117 @@
+{
+ "header h1": [
+  "Weber-Fechner-<em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Die kleinste wahrnehmbare Änderung <em>skaliert mit dem Ausgangswert</em>."
+ ],
+ "header .subtitle": [
+  "Ernst Weber (1834) und Gustav Fechner (1860) formalisierten die Beziehung zwischen physischem Reiz und wahrgenommener Intensität. Die kleinste erkennbare Änderung ist kein fester Betrag — sondern ein fester Anteil des Vorhandenen. Das Gesetz zeigt sich bei Lautstärke, Helligkeit, Preis, Gewicht, Animationstiming und Kontrast."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber\" target=\"_blank\" rel=\"noopener\">Ernst Heinrich Weber</a>, ein deutscher Mediziner, maß in den 1830ern, wie stark sich ein Reiz ändern muss, bevor Menschen es bemerken. <a href=\"https://en.wikipedia.org/wiki/Gustav_Fechner\" target=\"_blank\" rel=\"noopener\">Gustav Fechner</a>, sein Schüler, formalisierte die Beziehung 1860 als logarithmisches Gesetz — und begründete damit die Psychophysik.",
+  "Weber etablierte die eben merkliche Differenz durch akribische Gewichtheber-Experimente in Leipzig. Fechner — Physiker, Philosoph und gelegentlicher Satiriker unter dem Pseudonym Dr. Mises — hatte die Eingebung am Morgen des 22. Oktober 1850, ein Datum, das Psychophysiker bis heute als Fechner Day feiern."
+ ],
+ ".law-content .law-desc": [
+  "Die eben merkliche Differenz (JND) eines Reizes ist ein konstanter Bruchteil des Reizes selbst. Von einem 10-Dollar-Latte auf 11 Dollar zu gehen fällt auf; von einem 1.000-Dollar-Laptop auf 1.001 Dollar nicht. Auge, Ohr und Geldbeutel laufen alle auf Verhältnissen, nicht auf Absolutwerten."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Ernst Weber (1834) und Gustav Fechner (1860)",
+  "Psychophysik",
+  "Änderungen proportional wahrnehmbar machen"
+ ],
+ ".card .tag": [
+  "JND",
+  "Preisgestaltung",
+  "Typografie",
+  "Kontrast",
+  "Animation",
+  "A/B",
+  "Benachrichtigungen",
+  "Grenzen",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die eben merkliche Differenz",
+  "Preisgestaltung läuft auf Verhältnissen",
+  "Schriftskalen sind Weber-Kurven",
+  "Kontrast ist multiplikativ",
+  "Animationstiming ist logarithmisch",
+  "A/B-Tests brauchen proportionale Deltas",
+  "Benachrichtigungsmüdigkeit ist auch Weber",
+  "Das Gesetz gilt im mittleren Bereich",
+  "KI setzt die Basislinie neu",
+  "Generierte Variation trifft auf Weber"
+ ],
+ ".card .desc": [
+  "Heben Sie ein 200-g-Gewicht; legen Sie 10 g dazu, und Sie spüren es. Heben Sie ein 2.000-g-Gewicht; legen Sie 10 g dazu, und Sie spüren nichts. Die Schwelle für das Erkennen einer Änderung liegt nicht bei 10 g — sondern bei etwa 5% dessen, womit Sie begonnen haben. Jeder Sinneskanal hat seinen eigenen Weber-Bruch, und sie sind erstaunlich stabil.",
+  "Marketer haben das längst verinnerlicht. Rabatte werden als Prozente gerahmt, nicht als Beträge; ein Upsell ist „nur 5 Dollar mehr“ bei einem kleinen Kauf und „kaum 5%“ bei einem großen. Die vom Nutzer wahrgenommene Preisänderung ist ein Weber-Bruch des Ankers.",
+  "Modulare Schriftskalen — 1,125, 1,25, 1,333, 1,5, der Goldene Schnitt — existieren, weil absolute Sprünge ungleichmäßig aussehen. Eine Skala, bei der jede Stufe um denselben Prozentsatz größer ist als die vorige, liest sich als proportionale Hierarchie: Jede Ebene ist spürbar größer als die darunter.",
+  "WCAG-Kontrastverhältnisse sind unter der Haube Weber-Fechner — wahrgenommener Kontrast skaliert mit dem Verhältnis der Leuchtdichten, nicht mit der Differenz. Deshalb brauchen Dark Mode und Light Mode unterschiedliche absolute Farben, um gleich lesbar zu wirken, aber dasselbe Mindestverhältnis (4,5:1 für Fließtext).",
+  "Animationsdauer folgt der Wahrnehmung, nicht der Stoppuhr. Eine 100-ms-Transition auf 200 ms zu verdoppeln fühlt sich doppelt so lang an; eine 1000-ms-Transition auf 2000 ms zu verdoppeln fühlt sich deutlich weniger als doppelt an. Materials Motion-Richtlinien bauen das ein — Dauern folgen einer Kurve mit Elementgröße und Distanz, nicht mit rohen Pixeln.",
+  "Eine Verbesserung um 5% bei einer Basis von 10% Conversion ist riesig; dieselben 5% bei einer Basis von 80% sind kaum erkennbar. Die meisten Power-Berechnungen für A/B-Tests sind verkappter Weber — Sie müssen das absolute Delta in ein proportionales übersetzen, bevor Sie beurteilen, ob es die Jagd wert ist.",
+  "Die fünfzehnte Benachrichtigung des Morgens bekommt weniger Aufmerksamkeit als die erste — nicht weil sich an dieser einen Benachrichtigung etwas geändert hätte, sondern weil sie jetzt 7% von fünfzehn ist statt 100% von einer. Jeder neue Alarm wird gegen das Grundrauschen beurteilt, zu dem er beigetragen hat.",
+  "Weber-Fechner ist in der Mitte eines Sinnesbereichs am zuverlässigsten. Bei sehr schwachen Reizen (Flüstern, blasse Farben) und sehr intensiven (lauter Lärm, blendendes Licht) driftet das Verhältnis. Für UX-Zwecke sind Sie fast immer im mittleren Bereich, wo das Gesetz sauber funktioniert.",
+  "Vor einem Jahr war eine automatische Zusammenfassung neu. Heute ist sie unsichtbar, weil jedes Produkt eine hat. Die Basislinie des Nutzers wandert stetig nach oben, und dasselbe Feature muss immer besser werden, um sich nach demselben Delta anzufühlen. Weber-Fechner in Bewegung: 2026 die drittbeste Zusammenfassung auszuliefern wird sich schlechter anfühlen, als 2024 die beste auszuliefern.",
+  "Ein Modell, das ein Bild von Nutzer zu Nutzer leicht variiert oder eine Benachrichtigung um ein paar Prozent anpasst, arbeitet womöglich unterhalb der JND. Viel Feintuning, das im Code geschäftig aussieht, ist für Nutzer unsichtbar. Es lohnt sich zu prüfen, ob die Variation bedeutsam ist — oder nur Rauschen, das der Nutzer nicht wahrnehmen kann."
+ ],
+ ".meta .label": [
+  "Regel",
+  "Kanäle",
+  "Rahmung",
+  "Anwenden auf",
+  "Übliche Verhältnisse",
+  "Wirkung",
+  "WCAG",
+  "Test",
+  "Folge",
+  "In Material",
+  "Vergleichen",
+  "Power-Berechnung",
+  "Muster",
+  "Taktik",
+  "Gilt bei",
+  "Driftet bei",
+  "Wirkung",
+  "Folge",
+  "Frage",
+  "Taktik"
+ ],
+ ".meta .value": [
+  "JND skaliert mit dem Reiz",
+  "Gewicht · Ton · Licht · Preis",
+  "Prozent schlägt absolut",
+  "Rabatt · Upsell · Tarif",
+  "1,25 · 1,333 · 1,5",
+  "Hierarchie liest sich als Stufen",
+  "Verhältnisbasiert",
+  "Fließtext ≥ 4,5:1",
+  "Lang ≠ proportional lang",
+  "Distanzskaliertes Timing",
+  "Proportional, nicht absolut",
+  "Verkappter Weber",
+  "Jedes Δ schrumpft gegen die Basis",
+  "Weniger senden · klarer",
+  "Reizen im mittleren Bereich",
+  "Sehr schwach · sehr intensiv",
+  "Das Wow schrumpft schnell",
+  "Schnell liefern · Latte höher legen",
+  "Ist die Variation wahrnehmbar?",
+  "Erst die JND messen"
+ ],
+ ".ai-divider h3": [
+  "Weber-Fechner im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI ist der neue Reizstrom — und er kommt in einer Menge, die jede Basislinie schnell neu setzt."
+ ],
+ ".law-formula-note": [
+  "die wahrnehmbare Änderung ist ein konstanter Bruchteil des Reizes, also wächst die Empfindung logarithmisch."
+ ]
+}

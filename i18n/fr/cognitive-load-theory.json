@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Théorie</em> de la charge cognitive"
+ ],
+ "header .tagline": [
+  "La mémoire de travail est le goulot d'étranglement. Dépensez-la bien."
+ ],
+ "header .subtitle": [
+  "La théorie de John Sweller divise l'effort mental en trois charges : intrinsèque (la tâche elle-même), extrinsèque (le surcoût de l'interface) et essentielle (l'apprentissage réel). Le travail du design est de réduire celle du milieu."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psychologue de l'éducation australien à l'université de Nouvelle-Galles du Sud, a développé la théorie de la charge cognitive en 1988 à partir d'études sur la façon dont les étudiants apprennent à partir d'exemples résolus plutôt que par résolution brute de problèmes.",
+  "Ses expériences ont montré que l'enseignement échoue quand la mémoire de travail est dépensée sur le format plutôt que sur le contenu — les effets d'attention divisée et de redondance. La théorie est devenue l'un des cadres les plus cités en ingénierie pédagogique, et se transpose directement aux interfaces."
+ ],
+ ".law-content .law-desc": [
+  "La mémoire de travail est fortement limitée. La charge totale se divise en charge intrinsèque (la difficulté inhérente à la tâche), extrinsèque (l'effort imposé par la présentation) et essentielle (l'effort qui construit la compréhension). Réduisez la charge extrinsèque, gérez la charge intrinsèque, et protégez ce qui reste pour le travail essentiel."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "John Sweller (1988)",
+  "Cognitive Science 12 — études sur la résolution de problèmes",
+  "Réduire le surcoût de l'interface"
+ ],
+ ".card .tag": [
+  "Trois charges",
+  "Réduire",
+  "Gérer",
+  "Attention divisée",
+  "Essentielle",
+  "Signaux",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Intrinsèque, extrinsèque, essentielle",
+  "Supprimer la charge extrinsèque",
+  "Découper l'intrinsèque",
+  "Garder ensemble ce qui va ensemble",
+  "Les exemples résolus enseignent",
+  "Reconnaître la surcharge",
+  "Le grand absorbeur de charge",
+  "La vérification est la nouvelle charge"
+ ],
+ ".card .desc": [
+  "La charge intrinsèque vient avec la tâche — réserver un vol implique des dates et des tarifs. La charge extrinsèque vient de la présentation — chercher les conditions tarifaires. La charge essentielle est l'effort utile de compréhension. Une seule des trois est à vous de supprimer.",
+  "Chaque décoration, libellé redondant, accent concurrent et référence éclatée coûte de la mémoire de travail dont la tâche avait besoin. La version encombrée et la version épurée font le même travail ; une seule laisse de la place pour réfléchir.",
+  "La charge intrinsèque ne peut pas être supprimée, mais elle peut être séquencée. Assistants pas à pas, valeurs par défaut sensées et révélations progressives maintiennent la difficulté de la tâche constante tout en plafonnant ce qui arrive d'un coup.",
+  "L'effet d'attention divisée de Sweller : quand le schéma est ici et son explication là-bas, les intégrer est du pur surcoût. Mettez les libellés sur la chose, les erreurs au niveau du champ, et l'aide là où la question se pose.",
+  "Les novices apprennent davantage d'un exemple complété qu'en résolvant à froid — la charge essentielle en action. Modèles, données d'exemple et points de départ préremplis sont la version interface de l'exemple résolu.",
+  "La surcharge a des signatures : relire la même ligne, abandonner en plein formulaire, accepter de mauvaises valeurs par défaut, des tickets de support qui vous citent l'interface. Quand les utilisateurs pensent à l'outil plutôt qu'à la tâche, la charge est mal allouée.",
+  "Un assistant qui lit la documentation, remplit le formulaire et réconcilie les formats supprime la charge extrinsèque à l'échelle industrielle. La difficulté intrinsèque de la tâche demeure — mais le surcoût qui l'entoure s'effondre.",
+  "Ce que l'IA retire en mécanique, elle le rend en partie en vérification : le résumé est-il fidèle, le chiffre juste, la citation réelle ? Concevez pour une vérification peu coûteuse — sources en contexte, différences visibles — ou la charge revient sous forme d'anxiété."
+ ],
+ ".meta .label": [
+  "Intrinsèque",
+  "Extrinsèque",
+  "Essentielle",
+  "Supprimer",
+  "Même travail",
+  "Mémoire libérée",
+  "Insupprimable",
+  "Outils",
+  "Plafond",
+  "Libellé",
+  "Erreur",
+  "Aide",
+  "Novices",
+  "Forme interface",
+  "Pages blanches",
+  "Signatures",
+  "Révélateur",
+  "Mesurer",
+  "Supprime",
+  "Demeure",
+  "Nouvelle charge",
+  "La rendre peu coûteuse"
+ ],
+ ".meta .value": [
+  "La tâche elle-même",
+  "Le surcoût de votre interface",
+  "L'apprentissage qui reste",
+  "Décoration · redondance",
+  "Moins de surcoût",
+  "Va à la tâche",
+  "Seulement séquencer",
+  "Assistants · défauts",
+  "Charge par instant",
+  "Sur la chose",
+  "Au niveau du champ",
+  "Là où est la question",
+  "Apprennent par l'exemple",
+  "Modèles · données d'exemple",
+  "Coûtent cher",
+  "Relectures · abandons",
+  "Penser à l'outil",
+  "Réussite · temps",
+  "Le surcoût",
+  "La vraie décision",
+  "Vérifier la machine",
+  "Sources · diffs en contexte"
+ ],
+ ".ai-divider h3": [
+  "La charge cognitive à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les assistants absorbent une énorme charge extrinsèque — et en frappent une nouvelle : l'effort de vérifier ce que la machine affirme."
+ ]
+}

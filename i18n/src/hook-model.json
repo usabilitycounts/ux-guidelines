@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Hook <em>Model</em>"
+ ],
+ "header .tagline": [
+  "Trigger · Action · Variable Reward · <em>Investment</em>."
+ ],
+ "header .subtitle": [
+  "Nir Eyal’s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The follow-up book draws the line between hooks the user is glad you built and hooks they regret."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Nir_Eyal\" target=\"_blank\" rel=\"noopener\">Nir Eyal</a> is an author and lecturer on behavioral design who taught at Stanford’s Graduate School of Business. His 2014 book Hooked distilled habit-forming products into a four-step loop: trigger, action, variable reward, and investment.",
+  "Eyal spent years in the video-gaming and advertising industries before distilling what he saw into the Hook Model. Notably, he followed Hooked with Indistractable — a book about defending yourself against the very techniques he documented — arguing the ethics depend on whether products serve users’ own intentions."
+ ],
+ ".law-content .law-desc": [
+  "Most habit-forming products run the same four-step loop. A trigger fires, the user takes a low-cost action, gets a variable reward, and invests something — content, data, a relationship — that re-arms the next trigger. Each turn strengthens the habit and raises the switch cost."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-nir-eyal\">Nir Eyal</a> (2014)",
+  "Hooked",
+  "Close the loop with user investment"
+ ],
+ ".card .tag": [
+  "Loop",
+  "External",
+  "Internal",
+  "Action",
+  "Reward",
+  "Invest",
+  "Ethics",
+  "Daily",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Four-Step Loop",
+  "Triggers Start Outside",
+  "Triggers Move Inside",
+  "Make It Trivially Easy",
+  "Variable Rewards Hook",
+  "Make Them Invest",
+  "Persuasion vs. Manipulation",
+  "Auditing Your Loop",
+  "AI Personalizes Every Step",
+  "The Ethical Bar Goes Up"
+ ],
+ ".card .desc": [
+  "An external trigger nudges; a low-friction action follows; a variable reward fires; the user invests something that re-arms the next trigger. Cycle four times and you have a habit; cycle forty and you have a daily app.",
+  "The first triggers come from outside the user: a notification, an email, an ad, a friend sharing. The product cannot yet rely on memory. Each external trigger is one attempt to start the loop; most fail. The ones that complete the action teach the next trigger to be cheaper.",
+  "The product wins when the trigger comes from inside the user. Boredom triggers Instagram, anxiety triggers Twitter, loneliness triggers Tinder. No notification needed; the emotion is the cue. Internal triggers separate apps people use from apps people reach for.",
+  "The action has to be smaller than the motivation. Open the app, pull down, tap, type one word. Anything above the friction line breaks the loop. Stories, swipes, double-taps, infinite scroll — all engineered to lower action cost below whatever the trigger could supply.",
+  "The third step is the addictive one. If every refresh gave the same content, the loop would die. The reward is variable: usually meh, occasionally great. Slot machines, Twitter feeds, dating apps, and inboxes all share this shape. The unpredictability is the engine.",
+  "The fourth step is what builds the next trigger. Posting, following, customizing, uploading, rating, friending — all are user investment that loads value into the product. The more the user has invested, the more the product becomes irreplaceable. Switch cost compounds with each turn.",
+  "Eyal’s follow-up book is Indistractable — he draws a sharp line between hooks for things users will be glad they did (Duolingo, language learning) and hooks for things they regret (slot apps, doom-scrolling). The model itself is neutral; the test is whether the user would thank you for the loop in a calm moment.",
+  "Walk through the four steps for a feature: trigger, action, reward, investment. If any step is weak, the loop will not catch — the user touches the product once and forgets. If every step is engineered for the user’s regret, you built a slot machine and should fix it.",
+  "A model can pick the right trigger for this user at this moment, generate the action smaller, vary the reward better, and frame the investment more cleverly. The Hook Model used to be one tuned loop; now it is millions, each tuned to one person. Done with intent: phenomenal. Done without: slot machines at scale.",
+  "When the loop is tuned for one person, the user cannot see the version other people get; they cannot tell whether their loop was tuned for retention or for them. Transparency, opt-out, and “show me what is set for me” become moral requirements, not features."
+ ],
+ ".meta .label": [
+  "From",
+  "Pattern",
+  "Examples",
+  "Watch for",
+  "Tactic",
+  "Examples",
+  "Rule",
+  "Pairs with",
+  "Mechanism",
+  "Examples",
+  "Examples",
+  "Effect",
+  "Test",
+  "Eyal book 2",
+  "Cost",
+  "Catches",
+  "Power",
+  "Risk",
+  "Required",
+  "Required"
+ ],
+ ".meta .value": [
+  "Nir Eyal, 2014",
+  "Self-reinforcing",
+  "Push · email · ad",
+  "Numbing the channel",
+  "Map the feeling",
+  "Boredom · anxiety",
+  "Action ≪ motivation",
+  "<a href=\"fogg-behavior-model.html\">Fogg Behavior Model</a>",
+  "Variable reinforcement",
+  "Slot · feed · inbox",
+  "Posts · follows · customizations",
+  "Switch cost ↑",
+  "Calm-moment thank-you",
+  "Indistractable, 2019",
+  "Five minutes",
+  "Weak loops",
+  "Per-user tuning",
+  "Slot machines at scale",
+  "Visibility · opt-out",
+  "Per-user disclosure"
+ ],
+ ".ai-divider h3": [
+  "The Hook Model in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models can personalize every step of the loop in real time — for good and for ill."
+ ]
+}

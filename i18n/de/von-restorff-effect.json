@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Von-Restorff-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Was sich unterscheidet, wird erinnert."
+ ],
+ "header .subtitle": [
+  "Hedwig von Restorff zeigte 1933: Wenn sich ein Element einer Gruppe vom Rest unterscheidet, ist es das, was Menschen erinnern. Der Isolationseffekt ist der Grund, warum eine einzelne Akzentfarbe funktioniert — und zehn nicht."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hedwig_von_Restorff\" target=\"_blank\" rel=\"noopener\">Hedwig von Restorff</a> war eine deutsche Psychiaterin und Kinderärztin, die in der Gestalt-Tradition an der Universität Berlin arbeitete. Ihre Experimente von 1933 zeigten, dass ein Element, das sich von seinen Nachbarn abhebt — in Farbe, Größe oder Art — dramatisch besser erinnert wird.",
+  "Der Befund wurde als Isolationseffekt bekannt. Ihre akademische Laufbahn endete früh, als die Gestaltschule um sie herum im Deutschland der 1930er zerschlagen wurde, doch der von ihr dokumentierte Effekt wurde zu einem der meistgenutzten Hebel in Werbung und Interface-Design."
+ ],
+ ".law-content .law-desc": [
+  "Werden mehrere ähnliche Elemente zusammen präsentiert, wird am ehesten das bemerkt und erinnert, das sich vom Rest unterscheidet. Unverwechselbarkeit ist ein Budget: Je weniger Dinge sich unterscheiden, desto kraftvoller wirkt jeder Unterschied."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Hedwig von Restorff (1933)",
+  "Isolationseffekt-Experimente, Berlin",
+  "Eine Betonung nach der anderen"
+ ],
+ ".card .tag": [
+  "Der Effekt",
+  "Budget",
+  "CTAs",
+  "Missbrauch",
+  "Zugang",
+  "Commerce",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Der Isolationseffekt",
+  "Nur ein Akzent",
+  "Primäre Aktionen verdienen die Farbe",
+  "Nicht das Falsche isolieren",
+  "Nie Farbe allein",
+  "Der hervorgehobene Tarif",
+  "Der Funkel hat aufgehört zu funkeln",
+  "Maschinell gewählte Betonung"
+ ],
+ ".card .desc": [
+  "Neun graue Quadrate und ein blaues: Niemand vergisst, welches blau war. Unterschied gegen ein einheitliches Feld ist das stärkste Aufmerksamkeitssignal, das ein Layout senden kann — stärker als Größe, Position oder Wiederholung.",
+  "Der Effekt verbraucht ein Budget. Ein hervorgehobenes Element pro Bildschirm ist unvergesslich; drei konkurrieren; zehn heben sich gegenseitig auf, und der Bildschirm liest sich als Rauschen. Jede Betonung, die Sie hinzufügen, besteuert jede bereits vorhandene.",
+  "Das ist die Theorie hinter dem primären Button. Eine gefüllte, farbige Aktion vor ruhigen Nachbarn wird gefunden, gewählt und erinnert. Sekundäre Aktionen bleiben genau deshalb grau, damit die primäre sich unterscheiden kann.",
+  "Der Effekt wirkt auf alles, was sich unterscheidet — auch auf ein Werbebanner, ein dekoratives Abzeichen oder eine Anzeige. Wenn das auffälligste Element auf dem Bildschirm nicht das wichtigste ist, haben Sie den Isolationseffekt auf den eigenen Fuß gerichtet.",
+  "Für farbenblinde und sehschwache Nutzer verschwindet eine Isolation, die rein auf dem Farbton beruht. Kombinieren Sie den Farbunterschied mit einem zweiten Kanal — Strichstärke, ein Icon, eine Füllung, Position — damit das besondere Element für alle besonders bleibt.",
+  "Preistabellen laufen auf von Restorff: Der empfohlene Tarif bekommt den Rahmen, das Abzeichen und die Tönung — und konvertiert weit über seinen Anteil hinaus. Isolieren Sie den Tarif, den Sie ehrlich empfehlen würden — Nutzer merken, wenn die Betonung zynisch ist.",
+  "Als die KI ankam, war der ✦-Funkel isoliert — ein leuchtendes Feature in einer vertrauten Oberfläche. Jetzt hat jede Werkzeugleiste einen. Ein Unverwechselbarkeitssignal, das alle übernehmen, ist ein Unverwechselbarkeitssignal für niemanden.",
+  "Modelle können inzwischen entscheiden, welches Element hervorgehoben wird — pro Nutzer, pro Moment. Das setzt den Isolationseffekt auf Autopilot: kraftvoll, wenn das Modell hervorhebt, was der Nutzer braucht; zersetzend, wenn es hervorhebt, was das Unternehmen angeklickt sehen will."
+ ],
+ ".meta .label": [
+  "Signal",
+  "Stärke",
+  "Erfordert",
+  "Regel",
+  "Zwei+",
+  "Alles",
+  "Primär",
+  "Sekundär",
+  "Achtung",
+  "Fragen",
+  "Antwort sollte sein",
+  "Häufiger Fehler",
+  "Regel",
+  "Farbe kombinieren mit",
+  "Standard",
+  "Muster",
+  "Wirkung",
+  "Halten Sie es",
+  "Lektion",
+  "Gegenmittel",
+  "Vorteil",
+  "Risiko"
+ ],
+ ".meta .value": [
+  "Unterschied zum Feld",
+  "Schlägt Größe und Position",
+  "Einen einheitlichen Hintergrund",
+  "Eines pro Bildschirm",
+  "Sie konkurrieren",
+  "Nichts sticht heraus",
+  "Das, was sich unterscheidet",
+  "Bewusst leise",
+  "Zwei Primäre",
+  "Was unterscheidet sich am meisten?",
+  "Was am meisten zählt",
+  "Werbung übertönt Aktionen",
+  "Mindestens zwei Kanäle",
+  "Form · Strichstärke · Icon",
+  "WCAG 1.4.1",
+  "Ein hervorgehobener Tarif",
+  "Überproportionale Wahl",
+  "Ehrlich",
+  "Geteilte Signale verblassen",
+  "Im Verhalten unterscheiden, nicht im Abzeichen",
+  "Das Richtige zur richtigen Zeit",
+  "Dark-Pattern-Autopilot"
+ ],
+ ".ai-divider h3": [
+  "Von Restorff im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Wenn jedes Produkt seine KI-Funktionen mit demselben Funkel markiert, ist nichts mehr isoliert — und maschinell gewählte Betonung wirft die Frage auf, wer entscheidet, was heraussticht."
+ ]
+}

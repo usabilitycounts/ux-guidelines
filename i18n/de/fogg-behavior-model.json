@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "Fogg-Verhaltens<em>modell</em>"
+ ],
+ "header .tagline": [
+  "Verhalten entsteht, wenn drei Dinge <em>im selben Moment</em> zusammenkommen."
+ ],
+ "header .subtitle": [
+  "BJ Foggs Modell von 2009 besagt: Ein Verhalten tritt nur auf, wenn Motivation, Fähigkeit und ein Prompt zusammentreffen. Fehlt eines, passiert die Handlung nicht — selbst wenn die anderen beiden maximal sind. Das Modell ist die Grundlage von Behavior Design, persuasiver Technologie und der Tiny-Habits-Methode."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/B._J._Fogg\" target=\"_blank\" rel=\"noopener\">BJ Fogg</a> ist Verhaltensforscher an der Stanford University, wo er das Behavior Design Lab gründete. Sein Behavior Model von 2009 — Verhalten entsteht, wenn Motivation, Fähigkeit und ein Prompt zusammenkommen — wurde ein Grundpfeiler der persuasiven Technologie.",
+  "Fogg prägte in den 1990ern den Begriff „Captology“ — das Studium von Computern als persuasive Technologien —, lange bevor es Growth-Teams gab. Zu seinen Studenten in Stanford gehörte der Mitgründer von Instagram; sein späteres Buch Tiny Habits wendete das Modell nach innen, auf persönliche Verhaltensänderung."
+ ],
+ ".law-content .law-desc": [
+  "Ein Verhalten tritt auf, wenn Motivation, Fähigkeit und ein Prompt im selben Moment zusammenkommen. Die drei sind multiplikativ — fällt einer auf null, ist das Produkt null, egal wie hoch die anderen sind."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "BJ Fogg (2009)",
+  "Stanford Behavior Design Lab",
+  "Prompts mit einfachen Aktionen paaren"
+ ],
+ ".card .tag": [
+  "M · Der Antrieb",
+  "A · Die Leichtigkeit",
+  "P · Der Auslöser",
+  "Die Schwelle",
+  "Die Mathematik",
+  "Praxis",
+  "Tiny Habits",
+  "Angewendet",
+  "Angewendet",
+  "Die Kehrseite",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Motivation",
+  "Fähigkeit",
+  "Prompts",
+  "Die Aktionslinie",
+  "Drei Faktoren, multipliziert",
+  "Das Verhalten winzig machen",
+  "Verankern · Feiern",
+  "Benachrichtigungen als Prompts",
+  "Onboarding ist ein Fähigkeitsproblem",
+  "Überzeugung vs. Manipulation",
+  "KI hebt die Fähigkeit",
+  "Der personalisierte Prompt"
+ ],
+ ".card .desc": [
+  "Warum die Person überhaupt handeln würde. Fogg gruppiert Motivatoren in drei Paare — Vergnügen / Schmerz, Hoffnung / Angst, soziale Akzeptanz / Ablehnung. Motivation schwankt im Tagesverlauf wild, was sie zum unzuverlässigsten Hebel macht.",
+  "Wie leicht das Verhalten jetzt gerade ist. Fogg benennt sechs Dimensionen der Einfachheit: Zeit, Geld, körperliche Anstrengung, Denkzyklen, soziale Abweichung und Nicht-Routine. Die knappste gewinnt. Reibung entlang dieser Dimension zu senken ist fast immer günstiger, als Motivation zu steigern.",
+  "Das Signal, das sagt: „Tu es jetzt.“ Ohne Prompt zündet das Verhalten nicht — selbst wenn Motivation und Fähigkeit beide hoch sind. Fogg unterscheidet drei Arten: einen Spark (steigert Motivation), einen Facilitator (macht es leichter) und ein Signal (nur eine Erinnerung, für ohnehin willige und fähige Menschen).",
+  "Trägt man Motivation gegen Fähigkeit auf, trennt eine gekrümmte Schwelle „wird handeln“ von „wird nicht“. Über der Linie zündet ein Prompt das Verhalten; darunter reicht kein Prompt. Niedrige Motivation lässt sich durch sehr hohe Fähigkeit kompensieren und umgekehrt — aber nur entlang der Kurve.",
+  "Das „MAP“ ist Multiplikation, nicht Addition. Ist ein Faktor null — keine Motivation, keine Fähigkeit oder kein Prompt —, ist das Produkt null, und nichts passiert. Deshalb verpufft ein perfekter Prompt bei einem müden Nutzer, und deshalb legt ein motivierter Nutzer ohne Prompt nie los.",
+  "Foggs praktischste Erkenntnis: Wenn Motivation unzuverlässig ist, stattdessen die Fähigkeit erhöhen — das Verhalten schrumpfen, bis fast jeder es auch an einem schlechten Tag schafft. „Einen Zahn flossen“ wird zum Einstieg ins Zahnseide-Benutzen. Tiny Habits ist die gesamte Methodik rund um diese eine Einsicht.",
+  "Zwei weitere Bausteine aus Foggs Tiny Habits: das neue Verhalten an eine bestehende Routine hängen (der Anker — „nachdem ich mir die Zähne geputzt habe, werde ich …“) und es sofort mit einem kleinen positiven Gefühl markieren („Yes!“). Der Anker übernimmt den Prompt; das Feiern verdrahtet es.",
+  "Die Benachrichtigungen eines Produkts sind seine Prompts. Wer zu viele an Menschen ohne Motivation sendet, trainiert sie aufs Ignorieren. Ein gut getimtes Signal an einen Nutzer, der bereits bereit und fähig ist, bringt die Aktion. Timing &gt; Menge.",
+  "Neuen Nutzern fehlt fast nie die Motivation — sonst wären sie nicht da. Ihnen fehlt die Fähigkeit. Schritte streichen, vorausfüllen, sinnvolle Defaults nutzen und den ersten Erfolg in Minuten zeigen. Die meisten „Engagement“-Probleme mit neuen Nutzern lösen sich auf, wenn die Fähigkeit steigt.",
+  "Das Modell ist symmetrisch — es funktioniert, ob man einem Nutzer zu seinem Ziel verhilft oder ihn über sein besseres Urteil hinausdrängt. Casinos, endloses Scrollen und Dark Patterns sind Fogg rückwärts. Dem Modell selbst ist es egal; dem Designer darf es das nicht sein.",
+  "„Schreib einen Vertrag“, „programmiere dieses Feature“, „gestalte diesen Screen“ — KI lässt die Fähigkeitskosten von Verhalten kollabieren, das früher Expertise erforderte. Dinge, die unter der Aktionslinie lagen, sitzen jetzt bequem darüber, einfach weil sie leichter wurden.",
+  "Ein Modell, das weiß, wann ein Nutzer motiviert und fähig ist, kann den Prompt genau in diesem Moment liefern. Gut gemacht, beseitigt das die Mühe, das „Jetzt“ zu erwischen. Schlecht gemacht, ist es hyper-zielgenaues Nörgeln — und die Menschen hören auf, dem Kanal zu vertrauen."
+ ],
+ ".meta .label": [
+  "Umfasst",
+  "Verhält sich",
+  "Anwenden",
+  "Dimensionen",
+  "Regel",
+  "Anwenden",
+  "Spark",
+  "Facilitator",
+  "Signal",
+  "Darüber",
+  "Darunter",
+  "Abwägung",
+  "Mathematik",
+  "Null bei",
+  "Achtung",
+  "Hebel",
+  "Taktik",
+  "Darauf gebaut",
+  "Anker",
+  "Verhalten",
+  "Feiern",
+  "Prompts sind",
+  "Falscher Moment",
+  "Richtiger Moment",
+  "Hebel",
+  "Taktik",
+  "Test",
+  "Test",
+  "Dunkle Seite",
+  "Job des Designers",
+  "Wirkung",
+  "Ergebnis",
+  "Beispiele",
+  "Kraft",
+  "Risiko",
+  "Test"
+ ],
+ ".meta .value": [
+  "Vergnügen · Hoffnung · Akzeptanz",
+  "Schwankt · unzuverlässig",
+  "Nicht allein darauf bauen",
+  "Zeit · Geld · Anstrengung · Denken · Soziales · Routine",
+  "Die knappste gewinnt",
+  "Günstiger als Motivation",
+  "Bei niedriger Motivation",
+  "Bei niedriger Fähigkeit",
+  "Für Handlungsbereite",
+  "Prompt zündet die Aktion",
+  "Kein Prompt reicht",
+  "M und A tauschen entlang der Kurve",
+  "Multiplikativ, nicht additiv",
+  "Null ausschalten",
+  "Fehlender Prompt = Stille",
+  "Fähigkeit stärken, nicht Motivation",
+  "Die Bitte schrumpfen",
+  "Tiny-Habits-Methode",
+  "Bestehende Routine",
+  "Winzig machen",
+  "Sofort und positiv",
+  "Benachrichtigungen · E-Mails · CTAs",
+  "Trainiert Ignorieren",
+  "Zündet die Aktion",
+  "Fähigkeit, nicht Motivation",
+  "Streichen · vorausfüllen · Default",
+  "Erster Erfolg in Minuten",
+  "Wessen Ziel dient es?",
+  "Casinos · endloses Scrollen",
+  "Die richtige Seite wählen",
+  "Senkt die Fähigkeitskosten",
+  "Mehr Nutzer über der Linie",
+  "Schreiben · Coden · Design",
+  "Richtige Person, richtiger Moment",
+  "Hyper-zielgenaues Nörgeln",
+  "Wollte der Nutzer es?"
+ ],
+ ".ai-divider h3": [
+  "Das Fogg-Modell im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI senkt die Fähigkeitshürde auf ganzer Linie und erlaubt einen perfekt getimten Prompt für einen einzelnen Nutzer — Hebelwirkung in einem Maßstab, den Foggs ursprüngliches Modell nicht vorhersah."
+ ],
+ ".law-formula-note": [
+  "Verhalten entsteht, wenn Motivation, Fähigkeit (Ability) und ein Prompt zusammen auftreten."
+ ]
+}

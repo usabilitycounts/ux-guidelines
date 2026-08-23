@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-page="progressive-disclosure">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity.">
+<title>Progressive Disclosure: Show Less First, Reveal on Demand — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/progressive-disclosure.html">
+<meta property="og:title" content="Progressive Disclosure: Show Less First, Reveal on Demand — UX Guidelines">
+<meta property="og:description" content="Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/progressive-disclosure.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Progressive Disclosure: Show Less First, Reveal on Demand — UX Guidelines">
+<meta name="twitter:description" content="Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link active">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Progressive <em>Disclosure</em></h1>
+  <p class="tagline">Show what matters now. Reveal the rest on demand.</p>
+  <p class="subtitle">Progressive disclosure defers advanced or rarely used options to a secondary layer, keeping the first screen focused on what most users need most of the time. It is the working compromise between power and simplicity.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The technique was studied at IBM in the early 1980s, where <a href="https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)" target="_blank" rel="noopener">Jack Carroll</a>’s training-wheels interface cut novice errors by hiding advanced functions until users were ready for them.</p>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)" target="_blank" rel="noopener">Jakob Nielsen</a> named and popularized the pattern for interface design, calling progressive disclosure one of the best ways to satisfy both novice and expert users with a single interface.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Pattern</div>
+    <p class="body-text law-desc">Show users only what they need for the current task, and provide a clearly labeled path to the rest. Primary options stay immediate; advanced, rare, or dangerous options sit one deliberate step away — present, but not in the way.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-jack-carroll">Jack Carroll</a> (1983) · <a href="people.html#p-jakob-nielsen">Jakob Nielsen</a></div></div>
+      <div><div class="label">Source</div><div class="value">Training-wheels studies, IBM</div></div>
+      <div><div class="label">In practice</div><div class="value">Primary now, the rest on demand</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The pattern</span>
+      <span class="num">01 / 08</span>
+      <h3>Two Layers, One Interface</h3>
+      <p class="desc">The core move: a small primary set shown immediately, and a labeled door to everything else. Novices never meet the complexity; experts reach it in one click. Both groups use the same product.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-36"></i></div><div class="row"><i class="w-30"></i></div><div class="row hot"><i class="w-28"></i><span class="dot" style="margin-left:auto;width:10px;height:10px;background:var(--il-accent);opacity:1"></span></div><div class="row ghost" style="margin-left:20px"></div><div class="row ghost" style="margin-left:20px"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Layer one</div><div class="value">What most need</div></div>
+      <div><div class="label">Layer two</div><div class="value">One labeled step away</div></div>
+      <div><div class="label">Serves</div><div class="value">Novice and expert</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Selection</span>
+      <span class="num">02 / 08</span>
+      <h3>Choosing the Primary Set</h3>
+      <p class="desc">The pattern lives or dies on what goes in layer one. Usage data decides: the handful of options that cover the great majority of tasks stay visible. Guess wrong and you’ve buried the product’s core.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="bars"><i class="b" style="height:88%"></i><i class="b" style="height:64%"></i><i style="height:26%"></i><i style="height:16%"></i><i style="height:10%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Decide by</div><div class="value">Usage, not opinion</div></div>
+      <div><div class="label">Layer one</div><div class="value">Covers most tasks</div></div>
+      <div><div class="label">Wrong guess</div><div class="value">Buries the core</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Mechanics</span>
+      <span class="num">03 / 08</span>
+      <h3>Accordions, Drawers, and “Advanced”</h3>
+      <p class="desc">The disclosure controls are a small family: the accordion, the “Show advanced” link, the overflow menu, the details drawer. Each needs an honest label — users must predict what’s behind the door before opening it.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-34"></i><span class="dot" style="margin-left:auto;width:10px;height:10px"></span></div><div class="row hot"><i class="w-30"></i><span class="dot b" style="margin-left:auto;width:10px;height:10px"></span></div><div class="row" style="margin-left:20px;height:16px"><i class="w-26"></i></div><div class="row" style="margin-left:20px;height:16px"><i class="w-32"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Family</div><div class="value">Accordion · drawer · more</div></div>
+      <div><div class="label">Labels</div><div class="value">Predict the contents</div></div>
+      <div><div class="label">Mystery doors</div><div class="value">Never get opened</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Sequence</span>
+      <span class="num">04 / 08</span>
+      <h3>Wizards Are Disclosure in Time</h3>
+      <p class="desc">A multi-step wizard discloses progressively across time instead of space: each step shows one decision’s worth of interface. The full form would terrify; the sequence feels manageable.</p>
+    </div>
+    <div class="demo"><div class="il gap-12"><div class="stepper" style="justify-content:space-between"><span class="nd b"></span><span class="nd b"></span><span class="nd"></span><span class="nd"></span></div><div class="field"><i class="w-40"></i></div><div class="field"><i class="w-32"></i></div><div class="field"><i class="w-26"></i></div><span style="display:block;height:24px;width:34%;border-radius:9px;background:var(--il-accent)"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Discloses</div><div class="value">Across time</div></div>
+      <div><div class="label">Each step</div><div class="value">One decision</div></div>
+      <div><div class="label">Kills</div><div class="value">The wall-of-form</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Failure</span>
+      <span class="num">05 / 08</span>
+      <h3>Don’t Bury the Essentials</h3>
+      <p class="desc">The pattern’s failure mode is over-hiding: when a frequently needed option lands in layer two, every user pays a click forever, and support tickets read “where did X go?” Frequency, not complexity, decides placement.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-30"></i></div><div class="row ghost"></div><div class="row hot" style="margin-left:20px"><i class="w-36"></i></div><div class="row ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Failure mode</div><div class="value">Over-hiding</div></div>
+      <div><div class="label">Placement by</div><div class="value">Frequency of use</div></div>
+      <div><div class="label">Symptom</div><div class="value">“Where did X go?”</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Detail</span>
+      <span class="num">06 / 08</span>
+      <h3>Details on Demand</h3>
+      <p class="desc">Tooltips, popovers, and expandable rows disclose depth in place — the summary stays scannable while the detail waits underneath. Shneiderman’s mantra applies: overview first, details on demand.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-36"></i></div><div class="bub" style="width:64%;margin-left:24px;background:#111"><span class="l" style="width:88%;background:#fff;opacity:0.85"></span><span class="l" style="width:60%;background:#fff;opacity:0.85"></span></div><div class="row"><i class="w-30"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">In place</div><div class="value">Tooltip · popover · row</div></div>
+      <div><div class="label">Summary</div><div class="value">Stays scannable</div></div>
+      <div><div class="label">Mantra</div><div class="value">Overview first</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="shneiderman-eight-golden-rules.html">Shneiderman’s Eight Golden Rules</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Progressive Disclosure in the Age of AI</h3>
+    <p>Chat answers and agent reasoning are disclosure problems: the short answer first, the working shown to those who ask.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Short Answer First</h3>
+      <p class="desc">A good model response is progressive disclosure in prose: the direct answer up top, the derivation expandable below. Dumping the full reasoning on everyone is the wall-of-form mistake, rewritten in text.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub" style="width:80%;background:rgba(56,189,248,0.12)"><span class="l" style="width:88%;background:var(--il-accent);opacity:1"></span></div><div class="row w-52"><i class="w-40"></i><span class="dot" style="margin-left:auto;width:10px;height:10px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Top</div><div class="value">The direct answer</div></div>
+      <div><div class="label">Expandable</div><div class="value">The working</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Reasoning on Demand</h3>
+      <p class="desc">Agent traces, tool calls, and chain-of-thought belong behind a disclosure: visible enough to audit, folded enough to stay out of the way. Trust needs the door to exist; flow needs it closed by default.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row hot"><i class="w-40"></i><span class="chk"></span></div><div class="row ghost" style="margin-left:20px"></div><div class="row ghost" style="margin-left:20px"></div><div class="row ghost" style="margin-left:20px"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Audit</div><div class="value">The door exists</div></div>
+      <div><div class="label">Flow</div><div class="value">Closed by default</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Progressive_disclosure" target="_blank" rel="noopener"><span class="title">Progressive Disclosure</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)" target="_blank" rel="noopener"><span class="title">Jack Carroll — information scientist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/progressive-disclosure/" target="_blank" rel="noopener"><span class="title">Progressive Disclosure</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Progressive Disclosure</div>
+</footer>
+
+</body>
+</html>

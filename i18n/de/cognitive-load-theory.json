@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Cognitive-Load-<em>Theorie</em>"
+ ],
+ "header .tagline": [
+  "Das Arbeitsgedächtnis ist der Engpass. Gut damit haushalten."
+ ],
+ "header .subtitle": [
+  "John Swellers Theorie teilt mentale Anstrengung in drei Lasten: intrinsisch (die Aufgabe selbst), extrinsisch (der Overhead des Interfaces) und lernbezogen (echtes Lernen). Die Aufgabe des Designs ist es, die mittlere zu senken."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, ein australischer Bildungspsychologe an der University of New South Wales, entwickelte die Cognitive-Load-Theorie 1988 aus Studien dazu, wie Studierende aus ausgearbeiteten Beispielen lernen — im Vergleich zu rohem Problemlösen.",
+  "Seine Experimente zeigten, dass Unterricht scheitert, wenn das Arbeitsgedächtnis für das Format statt für den Inhalt aufgewendet wird — die Split-Attention- und Redundanzeffekte. Die Theorie wurde eines der meistzitierten Frameworks im Instructional Design und lässt sich direkt auf Interfaces übertragen."
+ ],
+ ".law-content .law-desc": [
+  "Das Arbeitsgedächtnis ist stark begrenzt. Die Gesamtlast teilt sich in intrinsisch (die inhärente Schwierigkeit der Aufgabe), extrinsisch (durch die Darstellung auferlegte Anstrengung) und lernbezogen (Anstrengung, die Verständnis aufbaut). Extrinsische Last reduzieren, intrinsische Last steuern und den Rest für die lernbezogene Arbeit schützen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "John Sweller (1988)",
+  "Cognitive Science 12 — Problemlöse-Studien",
+  "Den Overhead des Interfaces senken"
+ ],
+ ".card .tag": [
+  "Drei Lasten",
+  "Senken",
+  "Steuern",
+  "Geteilte Aufmerksamkeit",
+  "Lernbezogen",
+  "Signale",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Intrinsisch, extrinsisch, lernbezogen",
+  "Extrinsische Last löschen",
+  "Das Intrinsische portionieren",
+  "Zusammengehöriges zusammenhalten",
+  "Ausgearbeitete Beispiele lehren",
+  "Überlastung erkennen",
+  "Der große Lastabsorber",
+  "Verifikation ist die neue Last"
+ ],
+ ".card .desc": [
+  "Intrinsische Last gehört zur Aufgabe — einen Flug zu buchen umfasst Daten und Tarife. Extrinsische Last kommt aus der Darstellung — die Jagd nach den Tarifbedingungen. Lernbezogene Last ist die nützliche Anstrengung des Verstehens. Nur eine der drei lässt sich löschen.",
+  "Jede Dekoration, jedes redundante Label, jeder konkurrierende Akzent und jeder verstreute Verweis kostet Arbeitsgedächtnis, das die Aufgabe gebraucht hätte. Die überladene und die aufgeräumte Version erledigen denselben Job; nur eine lässt Raum zum Denken.",
+  "Intrinsische Last lässt sich nicht löschen, aber sequenzieren. Wizards, sinnvolle Defaults und schrittweises Aufdecken halten die Schwierigkeit der Aufgabe konstant und begrenzen zugleich, wie viel davon auf einmal ankommt.",
+  "Swellers Split-Attention-Effekt: Wenn das Diagramm hier steht und seine Erklärung dort, ist die Integration reiner Overhead. Labels ans Objekt, Fehler ans Feld und Hilfe dorthin, wo die Frage entsteht.",
+  "Anfänger lernen mehr aus einem fertigen Beispiel als aus dem Lösen bei null — lernbezogene Last in Aktion. Templates, Beispieldaten und vorausgefüllte Startpunkte sind die Interface-Version des ausgearbeiteten Beispiels.",
+  "Überlastung hat Signaturen: dieselbe Zeile mehrfach lesen, mitten im Formular abbrechen, falsche Defaults akzeptieren, Support-Tickets, die das Interface wörtlich zitieren. Wenn Nutzer über das Werkzeug statt über die Aufgabe nachdenken, ist die Last falsch verteilt.",
+  "Ein Assistent, der die Doku liest, das Formular ausfüllt und die Formate abgleicht, löscht extrinsische Last im industriellen Maßstab. Die intrinsische Schwierigkeit der Aufgabe bleibt — aber der Overhead darum herum kollabiert.",
+  "Was KI an Mechanik entfernt, gibt sie teilweise als Prüfaufwand zurück: Ist die Zusammenfassung treu, die Zahl richtig, die Quelle echt? Für günstige Verifikation gestalten — Quellen inline, Diffs sichtbar — sonst kehrt die Last als Angst zurück."
+ ],
+ ".meta .label": [
+  "Intrinsisch",
+  "Extrinsisch",
+  "Lernbezogen",
+  "Löschen",
+  "Derselbe Job",
+  "Freies Gedächtnis",
+  "Nicht löschbar",
+  "Werkzeuge",
+  "Deckel",
+  "Label",
+  "Fehler",
+  "Hilfe",
+  "Anfänger",
+  "Interface-Form",
+  "Leere Flächen",
+  "Signaturen",
+  "Verrät",
+  "Messen",
+  "Löscht",
+  "Bleibt",
+  "Neue Last",
+  "Günstig machen"
+ ],
+ ".meta .value": [
+  "Die Aufgabe selbst",
+  "Der Overhead des Interfaces",
+  "Lernen, das bleibt",
+  "Dekoration · Redundanz",
+  "Weniger Overhead",
+  "Fließt in die Aufgabe",
+  "Nur sequenzieren",
+  "Wizards · Defaults",
+  "Last pro Moment",
+  "Am Objekt",
+  "Am Feld",
+  "Wo die Frage ist",
+  "Lernen aus Beispielen",
+  "Templates · Beispieldaten",
+  "Sind teuer",
+  "Mehrfachlesen · Abbrüche",
+  "Nachdenken übers Werkzeug",
+  "Aufgabenerfolg · Zeit",
+  "Den Overhead",
+  "Die echte Entscheidung",
+  "Die Maschine prüfen",
+  "Quellen · Diffs inline"
+ ],
+ ".ai-divider h3": [
+  "Kognitive Last im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Assistenten absorbieren enorme extrinsische Last — und prägen eine neue: die Anstrengung, zu verifizieren, was die Maschine behauptet."
+ ]
+}

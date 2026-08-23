@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Tognazzini’s <em>First Principles</em>"
+ ],
+ "header .tagline": [
+  "Sixteen working <em>rules</em> for designing software that respects the user."
+ ],
+ "header .subtitle": [
+  "Bruce “Tog” Tognazzini’s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled."
+ ],
+ ".law-origin .body-text": [
+  "Bruce ‘Tog’ Tognazzini was Apple employee number 66, wrote the company’s first human interface guidelines, and shaped the look and feel of the early Macintosh across fourteen years and eight editions of the guidelines.",
+  "After Apple he worked at Sun and WebMD before joining Nielsen and Norman as the third principal of Nielsen Norman Group. His First Principles of Interaction Design, published on his site AskTog since 1978 and continuously revised, collect the craft into one canonical list."
+ ],
+ ".law-content .law-desc": [
+  "A living checklist of interaction design fundamentals — anticipation, autonomy, consistency, discoverability, efficiency, explorable interfaces, Fitts’s law, latency reduction, learnability, and more."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-bruce-tognazzini\">Bruce Tognazzini</a>",
+  "First Principles of Interaction Design, AskTog",
+  "Audit flows against the checklist"
+ ],
+ ".card .tag": [
+  "Foresight",
+  "Control",
+  "Sameness",
+  "Smart starting point",
+  "Speed",
+  "Discoverability",
+  "Performance",
+  "Trust",
+  "Continuity",
+  "Wayfinding",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Anticipation",
+  "Autonomy",
+  "Consistency",
+  "Defaults",
+  "Efficiency of the User",
+  "Explorable Interfaces",
+  "Latency Reduction",
+  "Protect the User’s Work",
+  "Track the User’s State",
+  "Visible Navigation",
+  "Anticipation at Scale",
+  "The Latency Trade-off"
+ ],
+ ".card .desc": [
+  "Bring to the user whatever they’re likely to need next — information, tools, options — before they have to ask. Anticipating the next action is what separates a competent tool from one that feels intelligent.",
+  "The user, not the system, is in charge. Show status clearly, never trap people in a flow they can’t escape, and make rules explicit so they can be steered around. Software that decides things for the user without asking is software that gets uninstalled.",
+  "The same action should look and behave the same everywhere — within the product, across the suite, and against platform conventions. Inconsistency is unforced cognitive load. Break it only when you have a much better answer and only at one point in the flow.",
+  "Give users a safe starting state. Defaults should be reversible, useful for most users in most cases, and clearly chosen — not “we forgot to pick.” A great default does the work the user was about to do anyway, and gets out of the way.",
+  "Optimize the user’s time, not the system’s. Saving the engineer ten seconds at the cost of ten user-seconds, ten thousand times a day, is a bad trade. Bulk actions, keyboard shortcuts, smart pasting, and recent items all hand minutes back to the people who do the work.",
+  "Reward curiosity. Let users try things without fear — actions should be obvious to find, and obvious to reverse. Tog’s note: every action needs a way back. Without undo, every click is a commitment, and most users stop clicking.",
+  "Where the system can’t get faster, make it feel faster. Optimistic UI commits the change before the network confirms; skeleton screens give the eye something to land on; sound and animation acknowledge a click before the response arrives. Perceived latency is design’s lever.",
+  "The single most important rule. Auto-save constantly, recover from crashes, version everything, never silently overwrite. Tog: nothing erodes trust faster than losing a user’s work. Once it happens, that user reaches for their save key compulsively, forever — or stops using the product.",
+  "Remember where the user left off. Open the document they were editing, scroll to the line they were reading, restore the filter they had applied. Continuity across sessions costs little to ship and saves the user from rebuilding their workspace every morning.",
+  "Users should never wonder “where am I, where can I go, and how do I get back?” Visible nav, breadcrumbs, and clear active states cost a few pixels and pay for themselves in every session. Tog called this the single most missed principle in modern web design.",
+  "Tog’s anticipation principle was about hand-picked next-actions. Models do it generatively, per user, per moment. Done well, it’s the closest software has come to “feels intelligent.” Done sloppily, it’s a constant stream of guesses that aren’t quite right, and the user starts ignoring the suggestions.",
+  "Models are smart, but they’re not fast. A response that takes four seconds violates everything Tog wrote about latency. Streaming tokens helps; pre-warming the model helps; skeleton answers help. Without those, even a great answer arrives feeling like a slow product."
+ ],
+ ".meta .label": [
+  "Defined",
+  "Examples",
+  "Feels like",
+  "Defined",
+  "Show",
+  "Don’t",
+  "Across",
+  "Cost",
+  "When break",
+  "Properties",
+  "Source",
+  "Don’t",
+  "Optimize",
+  "Tactics",
+  "Test",
+  "Defined",
+  "Require",
+  "Effect",
+  "Lever",
+  "Tactics",
+  "Risk",
+  "Rule",
+  "Tactics",
+  "When lost",
+  "Track",
+  "Across",
+  "Result",
+  "Show",
+  "Pairs with",
+  "Cost of skipping",
+  "Done well",
+  "Done badly",
+  "Test",
+  "Problem",
+  "Tactics",
+  "Rule"
+ ],
+ ".meta .value": [
+  "Bring what’s next, now",
+  "Suggested actions · pre-fill",
+  "Intelligence",
+  "User holds the wheel",
+  "Status · way out",
+  "Trap or decide silently",
+  "Screens · suite · platform",
+  "Of breaking it: relearning",
+  "A much better idea",
+  "Safe · reversible · sensible",
+  "IP · history · most common",
+  "Use as a dark pattern",
+  "User’s seconds",
+  "Bulk · shortcuts · recents",
+  "Run it 100 times",
+  "Safe to try, easy to back out",
+  "Undo for everything",
+  "Confidence to explore",
+  "Perceived &gt; actual latency",
+  "Optimistic UI · skeletons",
+  "Lying about success",
+  "Never lose work",
+  "Auto-save · history · recovery",
+  "Trust never fully returns",
+  "Position · filter · selection",
+  "Sessions · devices",
+  "Less rebuilding",
+  "Where · where else · back",
+  "<a href=\"navigation-patterns.html\">Navigation Patterns</a>",
+  "Lost users",
+  "Feels intelligent",
+  "Noise · users tune out",
+  "Take rate &gt; 30%?",
+  "Smart but slow",
+  "Stream · pre-warm · skeleton",
+  "Never silent for &gt; 1s"
+ ],
+ ".ai-divider h3": [
+  "Tog’s Principles in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Anticipation and latency reduction — two of Tog’s oldest principles — are exactly the levers a model gives you, and exactly the levers it threatens to break."
+ ]
+}

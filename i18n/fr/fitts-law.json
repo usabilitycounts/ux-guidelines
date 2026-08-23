@@ -1,0 +1,146 @@
+{
+ "header h1": [
+  "Loi de Fitts"
+ ],
+ "header .tagline": [
+  "Grand et <em>proche</em>"
+ ],
+ "header .subtitle": [
+  "Le temps pour atteindre une cible dépend de sa taille et de sa distance. La loi de Fitts régit chaque bouton, lien et zone tactile — et explique pourquoi les bords et les coins semblent si rapides."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> était un psychologue expérimental américain et un pionnier de l'ingénierie des facteurs humains au sein de l'U.S. Air Force. Son article de 1954 a modélisé le mouvement rapide visé comme un compromis entre distance et taille de la cible — le fondement de la recherche sur les dispositifs de pointage.",
+  "Fitts a dirigé la branche psychologie de l'U.S. Air Force après la Seconde Guerre mondiale, où il a étudié pourquoi des pilotes entraînés écrasaient des avions bien conçus — fondant au passage les facteurs humains en aviation. Son indice de difficulté reste le modèle standard pour évaluer les dispositifs de pointage, de la souris aux écrans tactiles."
+ ],
+ ".law-content .law-desc": [
+  "Le temps pour pointer une cible croît avec la distance et diminue avec la taille de la cible — de façon logarithmique. Doublez la distance, et le temps augmente d'une constante. Doublez la largeur, et le temps diminue de la même constante."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Paul Fitts (1954)",
+  "Journal of Experimental Psychology",
+  "Faire des cibles grandes et proches"
+ ],
+ ".card .tag": [
+  "Taille (W)",
+  "Distance (D)",
+  "Compromis",
+  "Cible en bord",
+  "Coin",
+  "Radial",
+  "Padding",
+  "Tactile",
+  "Pilotage",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Plus grand, plus rapide",
+  "Plus proche, plus rapide",
+  "Le pire des cas",
+  "Les bords sont infinis",
+  "Les coins sont magiques",
+  "Menus radiaux et circulaires",
+  "Zones de clic étendues",
+  "Cibles tactiles mobiles",
+  "L'effet tunnel",
+  "La saisie conversationnelle supprime la cible",
+  "L'IA anticipe le prochain clic"
+ ],
+ ".card .desc": [
+  "Augmentez W et le temps de pointage chute — vite. Les contrôles les plus importants et les plus utilisés devraient être les plus grands. Le CTA n'est pas un ornement ; la taille est une fonction.",
+  "La distance augmente le temps de pointage de façon logarithmique — le coût d'une traversée d'écran est bien réel. Placez l'action suivante près de la précédente. Ne faites pas voyager l'utilisateur.",
+  "Petit ET loin est la combinaison la plus lente possible. La plupart des clics accidentels se produisent là — une minuscule icône « fermer » au coin opposé de l'écran par rapport à l'œil et au pointeur.",
+  "Le curseur ne peut pas dépasser le bord de l'écran, donc toute cible placée contre le bord a effectivement une largeur infinie sur cet axe. La barre de menus du Mac est plus rapide que tous les menus déroulants de Windows exactement pour cette raison.",
+  "Un coin est infini en deux dimensions. Le curseur s'arrête net sur les deux axes quel que soit le dépassement. Menus Démarrer, boutons de fermeture et Hot Corners de macOS l'exploitent — le clic le plus rapide possible à l'écran.",
+  "Un menu circulaire place toutes les options à la même distance du curseur — et la largeur angulaire de la part devient la taille effective de la cible. Les utilisateurs aguerris peuvent construire une mémoire musculaire de la direction, pas de la destination.",
+  "Une petite icône peut avoir une zone de clic invisible bien plus grande. Étendre la région cliquable avec du padding garde l'élément visuel net et la cible réelle généreuse — une amélioration Fitts gratuite.",
+  "Sur les écrans tactiles, le « curseur » est la pulpe d'un doigt — environ 9–10 mm de large. Apple recommande 44 pt minimum, Material 48 dp. En dessous, les touchers accidentels explosent ; l'UI la plus rapide devient la plus frustrante.",
+  "Déplacer le curseur dans un couloir étroit (sous-menus en cascade, menus contextuels imbriqués) est spectaculairement plus lent que d'atteindre une cible dégagée — la loi du pilotage étend Fitts aux trajectoires. Glisser hors du tunnel remet l'utilisateur à zéro.",
+  "Quand vous tapez ou dictez une requête, il n'y a pas de bouton à viser. Distance et taille cessent de compter — la « cible » devient le langage, pas une région de pixels.",
+  "Les interfaces prédictives font remonter l'action probable suivante sous forme de suggestion grande et proche. C'est la loi de Fitts automatisée — la cible voyage vers le curseur au lieu de l'inverse."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "CTA principaux · actions fréquentes",
+  "L'action est importante ou répétée",
+  "Taille égale = signal de priorité égale",
+  "Actions contextuelles · éditions en ligne",
+  "Le prochain clic doit être sans effort",
+  "Forcer des allers-retours de pointeur",
+  "Check-lists d'audit",
+  "Repérer la friction dans les parcours",
+  "Minuscules boutons destructifs éloignés",
+  "Barres d'outils persistantes · onglets",
+  "Zones chaudes pour utilisateurs experts",
+  "Ne s'applique pas aux onglets du navigateur (chrome de fenêtre au-dessus)",
+  "Actions globales · Quitter · Démarrer",
+  "L'action est à l'échelle du système",
+  "Perdu hors plein écran",
+  "Menus contextuels · jeux",
+  "Petit ensemble fixe de choix",
+  "Plus de 8 parts = illisible",
+  "Boutons-icônes · barres d'outils",
+  "Le visuel doit rester compact",
+  "Zones de clic chevauchant les voisines",
+  "Toutes les interfaces tactiles",
+  "Concevoir l'UI mobile principale",
+  "Cibles adjacentes à moins de 8 pt = touchers ratés",
+  "Anti-modèle d'audit",
+  "Repérer les cascades de menus profondes",
+  "Les sorties de tunnel remettent à zéro",
+  "Pointer → décrire",
+  "L'intention est facile à dire",
+  "La découvrabilité des fonctions",
+  "Viser → anticiper",
+  "L'action suivante est prévisible",
+  "Une mauvaise prédiction ajoute de la friction"
+ ],
+ ".ai-divider h3": [
+  "La loi de Fitts à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les interfaces conversationnelles et prédictives changent la géométrie — parfois il n'y a pas de cible à viser ; parfois la cible vient à vous."
+ ],
+ ".law-formula-note": [
+  "le temps de mouvement croît avec la distance (D) et diminue avec la largeur de la cible (W)."
+ ]
+}

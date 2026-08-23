@@ -1,0 +1,161 @@
+{
+ "header h1": [
+  "Dieter Rams’ 10 <em>Principles</em>"
+ ],
+ "header .tagline": [
+  "\"Less, but <em>better</em>.\""
+ ],
+ "header .subtitle": [
+  "Dieter Rams wrote these principles of good design in the 1970s at Braun. Fifty years on, they still describe what makes a digital product genuinely good."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Dieter_Rams\" target=\"_blank\" rel=\"noopener\">Dieter Rams</a> is a German industrial designer who led design at Braun for over three decades, shaping products from record players to calculators whose forms echo in Apple hardware today. His philosophy: Weniger, aber besser — less, but better.",
+  "He wrote the ten principles in the late 1970s as an answer to his own question: is my design good design? Conceived for physical products, they translate to software almost without editing — honest, unobtrusive, thorough, and as little design as possible."
+ ],
+ ".law-content .law-desc": [
+  "Good design is innovative, useful, aesthetic, understandable, unobtrusive, honest, long-lasting, thorough to the last detail, environmentally friendly — and as little design as possible."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-dieter-rams\">Dieter Rams</a>",
+  "Braun design practice",
+  "Remove until only the useful remains"
+ ],
+ ".card .tag": [
+  "Principle 1",
+  "Principle 2",
+  "Principle 3",
+  "Principle 4",
+  "Principle 5",
+  "Principle 6",
+  "Principle 7",
+  "Principle 8",
+  "Principle 9",
+  "Principle 10",
+  "✦ AI Era",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Innovative",
+  "Makes a Product Useful",
+  "Aesthetic",
+  "Understandable",
+  "Unobtrusive",
+  "Honest",
+  "Long-Lasting",
+  "Thorough Down to the Last Detail",
+  "Environmentally Friendly",
+  "As Little Design as Possible",
+  "Less, but Better — Applied to AI",
+  "Honest AI",
+  "Understandable AI"
+ ],
+ ".card .desc": [
+  "Innovation in design comes alongside innovation in technology — and it’s never an end in itself. Good design follows technology where it actually creates new possibilities, not where it just looks new.",
+  "A product is bought to be used. Its design must serve that use — emphasize what is useful, suppress everything that detracts from it.",
+  "The aesthetic quality of a product is integral to its usefulness — well-executed objects can be beautiful, and well-being depends in part on the objects we use every day.",
+  "A product’s design should clarify its structure. At best, it’s self-explanatory. The user should never need a manual to know what to do.",
+  "Products fulfilling a purpose are like tools — neither decorative objects nor works of art. Their design should leave room for the user’s self-expression.",
+  "Good design doesn’t pretend to be more innovative, powerful, or valuable than it actually is. It doesn’t manipulate users with promises that can’t be kept.",
+  "Good design avoids being fashionable, and therefore never appears antiquated. Unlike fashion, it lasts many years — even in today’s throwaway society.",
+  "Nothing must be arbitrary or left to chance. Care and accuracy in the design process show respect toward the user.",
+  "Design makes an important contribution to preserving the environment. It conserves resources and minimizes physical and visual pollution throughout the lifecycle of the product.",
+  "Less, but better. Concentrate on the essential aspects, so the product isn’t burdened with non-essentials. Back to purity, back to simplicity.",
+  "Most products don’t need a chatbot. Add AI only where it genuinely makes the product more useful — not to chase the trend. Rams’ first instinct still applies: remove.",
+  "Good design doesn’t pretend the model is more capable than it is. Show confidence, cite sources, and never fake an answer. Honesty is principle six in the AI era.",
+  "A product with a model inside still has to explain itself. Show what the assistant can do before the first prompt, what it is doing while it works, and why it answered the way it did. Principle four doesn’t bend for probability."
+ ],
+ ".meta .label": [
+  "Watch for",
+  "Test",
+  "Counter",
+  "Priority",
+  "Test",
+  "Counter",
+  "Quality",
+  "Result",
+  "Counter",
+  "Goal",
+  "Test",
+  "Counter",
+  "Character",
+  "Test",
+  "Counter",
+  "Watch for",
+  "Test",
+  "Counter",
+  "Resists",
+  "Test",
+  "Counter",
+  "Attitude",
+  "Test",
+  "Counter",
+  "Conserves",
+  "Test",
+  "Counter",
+  "Original",
+  "Goal",
+  "Test",
+  "Principle",
+  "Test",
+  "Watch for",
+  "Principle",
+  "Show",
+  "Watch for",
+  "Principle",
+  "Show",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Novelty for novelty’s sake",
+  "Does the tech enable something real?",
+  "Skeuomorphism · trend-chasing",
+  "Function first",
+  "Does it do its job better?",
+  "Style over substance",
+  "Inseparable from usefulness",
+  "Daily delight",
+  "Ugly utility · ornament",
+  "Self-explanatory",
+  "No manual needed",
+  "Mystery-meat UI",
+  "Tool, not statement",
+  "Disappears in use",
+  "Loud branding · screaming UI",
+  "Dark patterns · fake reviews",
+  "Marketing matches behavior",
+  "Manipulative UX",
+  "Fashion cycles · trends",
+  "Will it look right in 20 years?",
+  "Trend-driven redesign",
+  "Care = respect",
+  "Zoom in — does it hold up?",
+  "“Good enough” details",
+  "Materials · energy · attention",
+  "Lifecycle impact considered?",
+  "Disposable · over-engineered",
+  "Weniger, aber besser (1980s)",
+  "Purity · essence · restraint",
+  "What can you remove?",
+  "#10 As little as possible",
+  "Does AI add real use?",
+  "AI as decoration",
+  "#6 Honest",
+  "Confidence · sources · limits",
+  "Overstated capability",
+  "#4 Understandable",
+  "Capabilities · state · reasons",
+  "The blank-prompt mystery"
+ ],
+ ".ai-divider h3": [
+  "Rams in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "“Less, but better” and “honest” are the principles that matter most when every product is tempted to bolt on a chatbot."
+ ]
+}

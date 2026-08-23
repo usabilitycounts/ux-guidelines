@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Efecto</em> von Restorff"
+ ],
+ "header .tagline": [
+  "El que difiere es el que se recuerda."
+ ],
+ "header .subtitle": [
+  "Hedwig von Restorff demostró en 1933 que cuando un elemento de un grupo difiere del resto, es el que la gente recuerda. El efecto de aislamiento es la razón por la que un solo color de acento funciona — y por la que diez no."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hedwig_von_Restorff\" target=\"_blank\" rel=\"noopener\">Hedwig von Restorff</a> fue una psiquiatra y pediatra alemana que trabajaba en la tradición de la Gestalt en la Universidad de Berlín. Sus experimentos de 1933 demostraron que un elemento que destaca entre sus vecinos — en color, tamaño o tipo — se recuerda drásticamente mejor.",
+  "El hallazgo pasó a conocerse como el efecto de aislamiento. Su carrera académica se truncó cuando la escuela de la Gestalt a su alrededor fue desmantelada en la Alemania de los años 30, pero el efecto que documentó se convirtió en una de las palancas más usadas en publicidad y diseño de interfaces."
+ ],
+ ".law-content .law-desc": [
+  "Cuando se presentan juntos varios elementos similares, el que difiere del resto es el que tiene más probabilidades de ser notado y recordado. La distintividad es un presupuesto: cuantas menos cosas difieran, con más fuerza trabaja cada diferencia."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Hedwig von Restorff (1933)",
+  "Experimentos del efecto de aislamiento, Berlín",
+  "Un énfasis a la vez"
+ ],
+ ".card .tag": [
+  "El efecto",
+  "Presupuesto",
+  "CTAs",
+  "Mal uso",
+  "Acceso",
+  "Comercio",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "El efecto de aislamiento",
+  "Un solo acento",
+  "Las acciones primarias se ganan el color",
+  "No aísles lo que no toca",
+  "Nunca solo con color",
+  "El plan destacado",
+  "El destello dejó de destellar",
+  "Énfasis elegido por la máquina"
+ ],
+ ".card .desc": [
+  "Nueve cuadrados grises y uno azul: nadie olvida cuál era el azul. La diferencia contra un campo uniforme es la señal de atención más fuerte que puede enviar una composición — más fuerte que el tamaño, la posición o la repetición.",
+  "El efecto gasta un presupuesto. Un elemento destacado por pantalla es inolvidable; tres compiten; diez se anulan y la pantalla se lee como ruido. Cada énfasis que añades grava todos los énfasis que ya estaban.",
+  "Esta es la teoría bajo el botón primario. Una sola acción rellena y con color contra vecinos silenciosos se encuentra, se elige y se recuerda. Las acciones secundarias se quedan en gris precisamente para que la primaria pueda diferir.",
+  "El efecto actúa sobre lo que sea que difiera — incluido un banner promocional, una insignia decorativa o un anuncio. Si el elemento más distintivo de la pantalla no es el más importante, has apuntado el efecto de aislamiento a tu propio pie.",
+  "Para usuarios con daltonismo o baja visión, un aislamiento construido solo sobre el tono desaparece. Acompaña la diferencia de color con un segundo canal — grosor, un icono, un relleno, la posición — para que el elemento distinto siga siendo distinto para todos.",
+  "Las tablas de precios funcionan con von Restorff: el plan recomendado recibe el borde, la insignia y el tinte, y convierte muy por encima de su cuota. Aísla el plan que honestamente recomendarías — los usuarios notan cuándo el énfasis es cínico.",
+  "Cuando llegó la IA, el destello ✦ estaba aislado — una sola función brillante en una interfaz familiar. Ahora cada barra de herramientas tiene uno. Una señal de distintividad adoptada por todos es una señal de distintividad para nadie.",
+  "Los modelos ya pueden decidir qué elemento destacar — por usuario, por momento. Eso pone el efecto de aislamiento en piloto automático: poderoso cuando el modelo destaca lo que el usuario necesita, corrosivo cuando destaca lo que el negocio quiere que se clique."
+ ],
+ ".meta .label": [
+  "Señal",
+  "Fuerza",
+  "Requiere",
+  "Regla",
+  "Dos o más",
+  "Todo",
+  "Primario",
+  "Secundario",
+  "Cuidado con",
+  "Preguntar",
+  "La respuesta debe ser",
+  "Fallo común",
+  "Regla",
+  "Acompañar el color con",
+  "Estándar",
+  "Patrón",
+  "Efecto",
+  "Mantenerlo",
+  "Lección",
+  "Contramedida",
+  "Ventaja",
+  "Riesgo"
+ ],
+ ".meta .value": [
+  "Diferencia frente al campo",
+  "Gana al tamaño y la posición",
+  "Un fondo uniforme",
+  "Uno por pantalla",
+  "Compiten",
+  "Nada destaca",
+  "El que difiere",
+  "Deliberadamente silencioso",
+  "Dos primarios",
+  "¿Qué difiere más?",
+  "Lo que más importa",
+  "Las promos gritan más que las acciones",
+  "Dos canales como mínimo",
+  "Forma · grosor · icono",
+  "WCAG 1.4.1",
+  "Un plan destacado",
+  "Selección desproporcionada",
+  "Honesto",
+  "Las señales compartidas se apagan",
+  "Diferir en conducta, no en insignia",
+  "Lo correcto, en el momento correcto",
+  "Piloto automático de patrón oscuro"
+ ],
+ ".ai-divider h3": [
+  "Von Restorff en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Cuando cada producto marca sus funciones de IA con el mismo destello, ya nada está aislado — y el énfasis elegido por la máquina plantea quién decide qué destaca."
+ ]
+}

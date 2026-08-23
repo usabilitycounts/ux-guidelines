@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-page="cognitive-load">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one.">
+<title>Cognitive Load Theory: Intrinsic, Extraneous, and Germane Load — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/cognitive-load-theory.html">
+<meta property="og:title" content="Cognitive Load Theory: Intrinsic, Extraneous, and Germane Load — UX Guidelines">
+<meta property="og:description" content="John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/cognitive-load-theory.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cognitive Load Theory: Intrinsic, Extraneous, and Germane Load — UX Guidelines">
+<meta name="twitter:description" content="John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link active">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Cognitive Load <em>Theory</em></h1>
+  <p class="tagline">Working memory is the bottleneck. Spend it well.</p>
+  <p class="subtitle">John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/John_Sweller" target="_blank" rel="noopener">John Sweller</a>, an Australian educational psychologist at the University of New South Wales, developed cognitive load theory in 1988 from studies of how students learn from worked examples versus raw problem solving.</p>
+    <p class="body-text">His experiments showed that instruction fails when working memory is spent on the format instead of the content — the split-attention and redundancy effects. The theory became one of the most cited frameworks in instructional design, and maps directly onto interfaces.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Theory</div>
+    <p class="body-text law-desc">Working memory is sharply limited. Total load divides into intrinsic (the task’s inherent difficulty), extraneous (effort imposed by presentation), and germane (effort that builds understanding). Reduce extraneous load, manage intrinsic load, and protect what’s left for germane work.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-john-sweller">John Sweller</a> (1988)</div></div>
+      <div><div class="label">Source</div><div class="value">Cognitive Science 12 — problem-solving studies</div></div>
+      <div><div class="label">In practice</div><div class="value">Cut the interface’s overhead</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Three loads</span>
+      <span class="num">01 / 08</span>
+      <h3>Intrinsic, Extraneous, Germane</h3>
+      <p class="desc">Intrinsic load comes with the task — booking a flight involves dates and fares. Extraneous load comes from presentation — hunting for the fare rules. Germane load is the useful effort of understanding. Only one of the three is yours to delete.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:9px;padding:18px 30px"><div style="height:14px;border-radius:7px;background:var(--skel);opacity:0.5;width:60%"></div><div style="height:14px;border-radius:7px;background:#111;width:34%"></div><div style="height:14px;border-radius:7px;background:var(--il-accent);width:44%"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Intrinsic</div><div class="value">The task itself</div></div>
+      <div><div class="label">Extraneous</div><div class="value">Your interface’s overhead</div></div>
+      <div><div class="label">Germane</div><div class="value">Learning that sticks</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Cut</span>
+      <span class="num">02 / 08</span>
+      <h3>Delete Extraneous Load</h3>
+      <p class="desc">Every decoration, redundant label, competing accent, and split reference costs working memory that the task needed. The cluttered and clean version do the same job; only one leaves room to think.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col" style="opacity:0.75"><span class="ln w-90"></span><span class="ln w-84"></span><span class="ln w-88"></span><span class="ln w-80"></span><span class="ln w-86"></span></div><div class="col"><span class="ln" style="width:56%;opacity:0.55"></span><span class="ln faint w-80"></span><div class="row hot w-52"><i class="w-44"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Delete</div><div class="value">Decoration · redundancy</div></div>
+      <div><div class="label">Same job</div><div class="value">Less overhead</div></div>
+      <div><div class="label">Freed memory</div><div class="value">Goes to the task</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Manage</span>
+      <span class="num">03 / 08</span>
+      <h3>Chunk the Intrinsic</h3>
+      <p class="desc">Intrinsic load can’t be deleted, but it can be sequenced. Wizards, sensible defaults, and part-by-part reveals hold the task’s difficulty constant while capping how much of it lands at once.</p>
+    </div>
+    <div class="demo"><div class="il gap-12"><div class="stepper" style="justify-content:space-between"><span class="nd b"></span><span class="nd b"></span><span class="nd"></span></div><div class="field"><i class="w-38"></i></div><div class="field"><i class="w-30"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Can’t delete</div><div class="value">Only sequence</div></div>
+      <div><div class="label">Tools</div><div class="value">Wizards · defaults</div></div>
+      <div><div class="label">Cap</div><div class="value">Load per moment</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Split attention</span>
+      <span class="num">04 / 08</span>
+      <h3>Keep Related Things Together</h3>
+      <p class="desc">Sweller’s split-attention effect: when the diagram is here and its explanation is there, integrating them is pure overhead. Put labels on the thing, errors at the field, and help where the question arises.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><span class="ln" style="width:26%;opacity:0.55"></span><div class="field"><i class="w-40"></i></div><div style="display:flex;gap:8px;align-items:center"><span class="dot b" style="width:9px;height:9px"></span><span class="ln faint w-48"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Label</div><div class="value">On the thing</div></div>
+      <div><div class="label">Error</div><div class="value">At the field</div></div>
+      <div><div class="label">Help</div><div class="value">Where the question is</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Germane</span>
+      <span class="num">05 / 08</span>
+      <h3>Worked Examples Teach</h3>
+      <p class="desc">Novices learn more from a completed example than from solving cold — germane load in action. Templates, sample data, and pre-filled starting points are the interface version of the worked example.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row hot"><i class="w-40"></i><span class="chk"></span></div><div class="row"><i class="w-34"></i></div><div class="row"><i class="w-30"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Novices</div><div class="value">Learn from examples</div></div>
+      <div><div class="label">Interface form</div><div class="value">Templates · sample data</div></div>
+      <div><div class="label">Blank slates</div><div class="value">Are expensive</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Signals</span>
+      <span class="num">06 / 08</span>
+      <h3>Recognizing Overload</h3>
+      <p class="desc">Overload has signatures: re-reading the same line, abandoning mid-form, wrong defaults accepted, support tickets that quote the interface back to you. When users think about the tool instead of the task, load is misallocated.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-36"></i></div><div class="row" style="opacity:0.6"><i class="w-36"></i></div><div class="row" style="opacity:0.35"><i class="w-36"></i></div><span class="ln faint w-40"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Signatures</div><div class="value">Re-reads · abandons</div></div>
+      <div><div class="label">Tell</div><div class="value">Thinking about the tool</div></div>
+      <div><div class="label">Measure</div><div class="value">Task success · time</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Cognitive Load in the Age of AI</h3>
+    <p>Assistants absorb enormous extraneous load — and mint a new kind: the effort of verifying what the machine claims.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Great Load Absorber</h3>
+      <p class="desc">An assistant that reads the docs, fills the form, and reconciles the formats is deleting extraneous load at industrial scale. The task’s intrinsic difficulty remains — but the overhead around it collapses.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div style="height:12px;border-radius:6px;background:#111;width:70%"></div><div style="height:12px;border-radius:6px;background:#111;width:34%"></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Deletes</div><div class="value">The overhead</div></div>
+      <div><div class="label">Remains</div><div class="value">The real decision</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Verification Is the New Load</h3>
+      <p class="desc">What AI removes in mechanics it partially returns in checking: is the summary faithful, the number right, the citation real? Design for cheap verification — sources inline, diffs visible — or the load returns as anxiety.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub w-82"><span class="l w-92"></span><span class="l w-78"></span></div><div style="display:flex;gap:8px"><span class="chip b"><i style="width:16px"></i></span><span class="chip b"><i style="width:22px"></i></span><span class="chip"><i style="width:14px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">New load</div><div class="value">Checking the machine</div></div>
+      <div><div class="label">Make it cheap</div><div class="value">Sources · diffs inline</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://onlinelibrary.wiley.com/doi/10.1207/s15516709cog1202_4" target="_blank" rel="noopener"><span class="title">Cognitive Load During Problem Solving — Sweller, 1988</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank" rel="noopener"><span class="title">Cognitive Load</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/John_Sweller" target="_blank" rel="noopener"><span class="title">John Sweller — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Worked-example_effect" target="_blank" rel="noopener"><span class="title">Worked-Example Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/minimize-cognitive-load/" target="_blank" rel="noopener"><span class="title">Minimize Cognitive Load to Maximize Usability</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Cognitive Load Theory</div>
+</footer>
+
+</body>
+</html>

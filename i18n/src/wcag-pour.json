@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "WCAG and <em>POUR</em>"
+ ],
+ "header .tagline": [
+  "Perceivable · Operable · Understandable · <em>Robust</em>"
+ ],
+ "header .subtitle": [
+  "Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here’s what each means and the success criteria every team should know."
+ ],
+ ".law-origin .body-text": [
+  "The Web Content Accessibility Guidelines are produced by the World Wide Web Consortium’s Web Accessibility Initiative, launched in 1997 with <a href=\"https://en.wikipedia.org/wiki/Tim_Berners-Lee\" target=\"_blank\" rel=\"noopener\">Tim Berners-Lee</a>’s declaration that the power of the web is in its universality.",
+  "WCAG 1.0 arrived in 1999; 2.0 (2008) reorganized everything under the four POUR principles and became an ISO standard and the legal benchmark in much of the world. Successive versions — 2.1, 2.2 — extended coverage to mobile, low vision, and cognitive needs."
+ ],
+ ".law-content .law-desc": [
+  "Content must be Perceivable, Operable, Understandable, and Robust. POUR is the durable core: every specific success criterion is one of these four promises made concrete."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "W3C Web Accessibility Initiative",
+  "WCAG 2.x specifications",
+  "Test against POUR, not just checkboxes"
+ ],
+ ".card .tag": [
+  "Principle 1",
+  "Principle 2",
+  "Principle 3",
+  "Principle 4",
+  "SC 1.4.3",
+  "SC 1.1.1",
+  "SC 2.1.1",
+  "SC 2.4.7",
+  "SC 2.5.5",
+  "SC 4.1.2",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Perceivable",
+  "Operable",
+  "Understandable",
+  "Robust",
+  "Color Contrast (1.4.3)",
+  "Text Alternatives (1.1.1)",
+  "Keyboard Accessible (2.1.1)",
+  "Focus Visible (2.4.7)",
+  "Touch Target Size (2.5.5)",
+  "Name, Role, Value (4.1.2)",
+  "AI-Generated Alt Text & Captions",
+  "AI as the New Assistive Layer"
+ ],
+ ".card .desc": [
+  "Information and UI components must be presented in ways users can perceive — through sight, sound, or touch. If users can’t sense it, they can’t use it.",
+  "UI components and navigation must be operable. If something requires a mouse with pixel-perfect aim or a steady hand, large portions of users are locked out.",
+  "Information and the operation of the UI must be understandable. Predictable behavior and plain language matter as much as visual design.",
+  "Content must be robust enough to be reliably interpreted by user agents — including assistive technologies. Today’s accessible page must still be accessible to tomorrow’s screen readers and devices.",
+  "Text against its background must reach 4.5:1 for normal text or 3:1 for large text (18pt+, or 14pt+ bold). Anything below makes copy unreadable for low-vision users.",
+  "Every non-text element needs a text alternative that conveys the same meaning. Decorative images use empty alt; informative images describe the content.",
+  "Every interactive element must be reachable and operable using a keyboard. No mouse-only menus, no drag-and-drop without a fallback, no hover-only reveal of critical info.",
+  "Keyboard focus must always be visible. Removing the default outline without providing a clearer replacement strands keyboard users — they literally cannot see where they are.",
+  "Pointer targets must be at least 24×24 CSS pixels (AA, WCAG 2.2) — 44×44 for AAA. Tiny tap targets make mobile sites useless for anyone with low precision or large fingers.",
+  "Every UI component must expose its name, role, and current state to assistive technology. Use the right element for the right job — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> for actions, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> for navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> for inputs. ARIA only when native HTML can’t express it.",
+  "Vision and speech models can describe images and transcribe audio at scale. But the output needs review — a confident, wrong caption is worse than none at all.",
+  "Screen readers, live captions, and “explain this page” are becoming AI features. Ship clean semantics so the model has accurate structure to work from."
+ ],
+ ".meta .label": [
+  "Guidelines",
+  "Sense covered",
+  "Failure mode",
+  "Guidelines",
+  "Input methods",
+  "Failure mode",
+  "Guidelines",
+  "Reading level",
+  "Failure mode",
+  "Guideline",
+  "Targets",
+  "Failure mode",
+  "Ratio · Normal",
+  "Ratio · Large",
+  "Tools",
+  "Required on",
+  "Decorative",
+  "Avoid",
+  "Test method",
+  "Watch for",
+  "Order",
+  "Default",
+  "Custom ring",
+  "Property",
+  "AA",
+  "AAA",
+  "Spacing",
+  "Name",
+  "Role",
+  "Value",
+  "Generates",
+  "Use when",
+  "Watch for",
+  "Becomes",
+  "Design for",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "1.1 – 1.4",
+  "Sight · Hearing · Touch",
+  "User can’t detect content",
+  "2.1 – 2.5",
+  "Keyboard · Touch · Switch",
+  "User can’t interact",
+  "3.1 – 3.3",
+  "Lower-secondary recommended",
+  "User confused or misled",
+  "4.1",
+  "Screen readers · Voice · Future",
+  "AT can’t parse markup",
+  "4.5 : 1 (AA) · 7 : 1 (AAA)",
+  "3 : 1 (AA) · 4.5 : 1 (AAA)",
+  "WebAIM Contrast Checker",
+  "&lt;img&gt; · SVG · icon fonts",
+  "alt=“” hides from screen reader",
+  "“image of …” prefix",
+  "Unplug your mouse",
+  "div onclick · custom widgets",
+  "Visual ≡ DOM ≡ tab order",
+  "Browser-blue outline · do not strip",
+  "3 px · 2 px offset · ≥3:1 contrast",
+  ":focus-visible (not :focus)",
+  "24 × 24 CSS px",
+  "44 × 44 CSS px",
+  "Adjacent targets ≥ 8 px apart",
+  "Accessible text label",
+  "What kind of element",
+  "Current state / value",
+  "Alt text · captions · labels",
+  "Volume is too high for manual",
+  "Plausible but wrong output",
+  "AI-powered AT",
+  "Clean roles & semantics",
+  "Garbage-in → garbage-out"
+ ],
+ ".ai-divider h3": [
+  "Accessibility in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI is becoming both a way to generate accessibility metadata at scale and the assistive layer itself — neither replaces human review."
+ ],
+ ".cat-label": [
+  "The Four Principles",
+  "Key Success Criteria"
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Postels <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Sei konservativ in dem, was du sendest, <em>liberal</em> in dem, was du akzeptierst."
+ ],
+ "header .subtitle": [
+  "Jon Postels Robustheitsprinzip von 1980 stammt aus der TCP-Spezifikation — eine Regel, damit Netzwerke schlampige Gegenstellen tolerieren, ohne selbst schlampig zu werden. Dieselbe Regel gilt für Interfaces: streng bei dem, was man erzeugt, nachsichtig mit dem, was Nutzer liefern."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jon_Postel\" target=\"_blank\" rel=\"noopener\">Jon Postel</a> war ein amerikanischer Informatiker, der die RFC-Reihe herausgab und über Jahrzehnte zentrale Internetstandards betreute. Sein Robustheitsprinzip — sei konservativ in dem, was du sendest, liberal in dem, was du akzeptierst — erschien 1980 in seiner TCP-Spezifikation.",
+  "Postel leitete die IANA — die Internet Assigned Numbers Authority — fast dreißig Jahre lang praktisch im Alleingang und erhielt dafür den inoffiziellen Titel „Gott des Internets“. Das Robustheitsprinzip bleibt im Protokolldesign umstritten: Zu viel Nachsicht bei dem, was man akzeptiert, kann Bugs zu De-facto-Standards verfestigen."
+ ],
+ ".law-content .law-desc": [
+  "Ein System sollte sauberen, strikten Output senden, aber großzügigen, unordentlichen Input akzeptieren. Im Netzwerk hielt das inkompatible TCP-Implementierungen im Gespräch; im Interface bewahrt es Menschen davor, dafür bestraft zu werden, dass sie Dinge in ihrem eigenen Format eintippen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Jon Postel (1980)",
+  "RFC 761, die TCP-Spezifikation",
+  "Unordentlichen Input akzeptieren, sauberen Output liefern"
+ ],
+ ".card .tag": [
+  "Eingaben",
+  "Ausgaben",
+  "Fehler",
+  "Kompatibilität",
+  "Intelligentes Parsen",
+  "Standardwerte",
+  "Kritik",
+  "Passt zu",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Nachsichtige Formularfelder",
+  "Strikte, vorhersagbare Ausgaben",
+  "Retten statt abweisen",
+  "Rückwärtskompatibel bleiben",
+  "So parsen, wie Menschen tippen",
+  "Standardwerte sind liberaler Input",
+  "Die Grenzen der Robustheit",
+  "Schließt den Tesler-Kreis",
+  "KI als der ultimative liberale Parser",
+  "Das Risiko: stille Festlegung"
+ ],
+ ".card .desc": [
+  "Akzeptieren Sie das Format des Nutzers und normalisieren Sie es selbst. Telefonnummern mit Punkten, Schrägstrichen oder Leerzeichen; Daten als „morgen“ oder „12/3“; E-Mail-Adressen mit überflüssigen Leerzeichen — alles vernünftige Eingaben. Bereinigen, parsen und die saubere Version speichern, ohne dass der Nutzer seine Eingabe wiederholen muss.",
+  "Die andere Hälfte des Gesetzes: Was Sie erzeugen, sollte präzise, standardkonform und eindeutig sein. Daten in ISO 8601, IDs in bekannter Form, JSON mit konsistentem Schema. Liberale Eingaben funktionieren nur, weil die Ausgaben einen Vertrag einhalten, auf den sich der Rest des Systems verlassen kann.",
+  "Ist die Eingabe mehrdeutig, leiten Sie die wahrscheinliche Absicht ab und bestätigen Sie sie — werfen Sie den Nutzer nicht auf ein leeres Feld zurück. „Meinten Sie den 3. Dezember?“ schlägt einen roten Rahmen und einen „Format ungültig“-Fehler. Die Rettung ist schneller, freundlicher und führt zu mehr abgeschlossenen Abläufen.",
+  "Seien Sie liberal mit dem, was ältere Clients, ältere URLs und ältere Daten Ihnen senden. Brechen Sie keine Links, wenn sich Pfade ändern — leiten Sie um. Weisen Sie gespeicherte Dateien im Format des Vorjahres nicht zurück — aktualisieren Sie sie stillschweigend. Der Nutzer sollte nicht für Ihr Refactoring bezahlen.",
+  "Namen mit Bindestrichen, Adressen mit Wohnungsnummern, Preise mit Währungssymbolen — lassen Sie den Parser die Arbeit machen. Der Nutzer hat eine mentale Form für das, was er eingibt; kommen Sie ihm dort entgegen, statt eine striktere Form aufzuzwingen, die nur Ihre Datenbank interessiert.",
+  "Ein Feld mit einem klugen Standardwert akzeptiert „ist mir egal“ als gültige Eingabe. Land per IP vorausgefüllt, Währung per Locale, Rolle per Team — jede sichere Annahme ist eine Sache weniger, die der Nutzer senden muss. Strikte Ausgaben gelten weiterhin; das System hat nur gut geraten.",
+  "Postels Gesetz hat einen Gegenfall: Zu tolerante Parser lassen schlechte Daten in der Spezifikation verkalken, und das System erbt Jahre von „na ja, das akzeptieren wir eben“-Altlasten. Die strikte Hälfte zählt — liberal am Rand, strikt im Kern, und echte Mehrdeutigkeit nicht mit einer Vermutung übertünchen.",
+  "Postel und Tesler kommen aus entgegengesetzten Richtungen zum selben Schluss. Tesler sagt, Komplexität muss irgendwo leben; Postel sagt, wenn sie an der Grenze lebt, gehört sie auf die Systemseite. Das nachsichtige Interface ist das System, das die Unordnung der realen Welt absorbiert.",
+  "„Buch mir einen Flug am Freitag“ brauchte früher ein präzises Formular. Jetzt nicht mehr. Modelle akzeptieren vage Angaben, Tippfehler, gemischtsprachige Eingaben, Sprache und Text zusammen — die Postel-konformste Eingangstür, die wir je ausgeliefert haben. Die Formularfelder sind nicht verschwunden; sie sind ins Modell gewandert.",
+  "Ein liberaler Parser, der sich still auf eine Interpretation festlegt, ist gefährlich. Der Nutzer sagte „Freitag“ — das Modell hat einen ausgewählt. Postels Vertrag gilt weiterhin: Zeigen Sie, was Sie verstanden haben, lassen Sie den Nutzer korrigieren, und lassen Sie echte Mehrdeutigkeit nie zu einer selbstsicheren Antwort zusammenfallen."
+ ],
+ ".meta .label": [
+  "Akzeptieren",
+  "Speichern",
+  "Nicht tun",
+  "Senden",
+  "Verwenden",
+  "Ergebnis",
+  "Ableiten",
+  "Bestätigen",
+  "Nicht tun",
+  "Anwenden",
+  "Taktik",
+  "Regel",
+  "Akzeptieren",
+  "Normalisieren",
+  "Ergebnis",
+  "Vorausfüllen",
+  "Quellen",
+  "Ziel",
+  "Risiko",
+  "Anwenden",
+  "Nicht tun",
+  "Passt zu",
+  "Beide sagen",
+  "Wirkung",
+  "Wandel",
+  "Akzeptiert",
+  "Ausgabe",
+  "Risiko",
+  "Lösung",
+  "Immer"
+ ],
+ ".meta .value": [
+  "Jedes vernünftige Format",
+  "Sauber und kanonisch",
+  "Abweisen und neu abfragen",
+  "Strikt kanonisch",
+  "ISO-Daten · stabile Schemata",
+  "Vorhersagbar für alles Nachgelagerte",
+  "Die wahrscheinliche Absicht",
+  "„Meinten Sie …?“",
+  "Auf leeres Feld zurückwerfen",
+  "Alte URLs · alte Daten",
+  "Umleiten · automatisch aktualisieren",
+  "Keine Links brechen",
+  "Menschliche Formen",
+  "Hinter den Kulissen",
+  "Mehr abgeschlossene Formulare",
+  "Alles, was sich sicher raten lässt",
+  "IP · Locale · Verlauf",
+  "Weniger zu tippen",
+  "Altlasten verkalken zur Spezifikation",
+  "Liberaler Rand · strikter Kern",
+  "Mehrdeutigkeit übertünchen",
+  "Teslers Gesetz",
+  "System absorbiert Unordnung",
+  "Müheloses Gefühl",
+  "Formular → Sprache",
+  "Fast alles",
+  "Weiterhin strikt",
+  "Stille Interpretation",
+  "Interpretation sichtbar machen",
+  "Korrektur erlauben"
+ ],
+ ".ai-divider h3": [
+  "Postels Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle sind die liberalsten Input-Parser, die je gebaut wurden — und das strengste Gremium bei der Frage, auf welche Interpretation sie sich festlegen."
+ ]
+}

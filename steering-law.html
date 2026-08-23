@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-page="steering">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.">
+<title>Steering Law: Moving Through Tunnels, Menus, and Sliders — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/steering-law.html">
+<meta property="og:title" content="Steering Law: Moving Through Tunnels, Menus, and Sliders — UX Guidelines">
+<meta property="og:description" content="Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/steering-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Steering Law: Moving Through Tunnels, Menus, and Sliders — UX Guidelines">
+<meta name="twitter:description" content="Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link active">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Steering <em>Law</em></h1>
+  <p class="tagline">The narrower the path, the slower the steering.</p>
+  <p class="subtitle">Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">T = a + b · ∫ ds ⁄ W(s)</div>
+    <div class="law-formula-note">steering time integrates path length over path width.</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Johnny Accot and <a href="https://en.wikipedia.org/wiki/Shumin_Zhai" target="_blank" rel="noopener">Shumin Zhai</a> derived the steering law in 1997 while researching input at IBM Almaden. Where Fitts modeled hitting a target, they modeled traveling a path — and found an elegant integral form of the same trade-off.</p>
+    <p class="body-text">Zhai went on to shape modern text input at Google, where his work underlies gesture typing on billions of keyboards. The steering law remains one of the few HCI models precise enough to predict interaction times before a prototype exists.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">The time to steer a pointer through a constrained path grows with the path’s length and inversely with its width. Halve the tunnel’s width and steering takes roughly twice as long — every narrow corridor in an interface is a tax on the hand.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-johnny-accot">Accot</a> and <a href="people.html#p-shumin-zhai">Zhai</a> (1997)</div></div>
+      <div><div class="label">Source</div><div class="value">Beyond Fitts’ Law — CHI ’97</div></div>
+      <div><div class="label">In practice</div><div class="value">Widen the path or shorten it</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The tunnel</span>
+      <span class="num">01 / 08</span>
+      <h3>Length Over Width</h3>
+      <p class="desc">Steering a cursor down a corridor is a continuous aim: every pixel of travel re-tests the width. Long and narrow is slow and error-prone; short and wide is effortless. The integral is the whole design brief.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><line x1="16" y1="40" x2="184" y2="40" stroke="#9a9a9a" stroke-width="3" opacity="0.4" vector-effect="non-scaling-stroke" stroke-linecap="round"/><line x1="16" y1="80" x2="184" y2="80" stroke="#9a9a9a" stroke-width="3" opacity="0.4" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M20,60 C 70,52 130,68 180,58" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Time grows with</div><div class="value">Length</div></div>
+      <div><div class="label">Shrinks with</div><div class="value">Width</div></div>
+      <div><div class="label">Every pixel</div><div class="value">Re-tests the aim</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Menus</span>
+      <span class="num">02 / 08</span>
+      <h3>The Nested-Menu Diagonal</h3>
+      <p class="desc">Cascading submenus are the classic steering trap: move diagonally toward the submenu and you exit the hover corridor, collapsing it. Good menus add a grace triangle or delay so the diagonal path survives.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col" style="flex:0.9"><div class="row hot hpx-16"><i class="w-40"></i></div><div class="row hpx-16"><i class="w-34"></i></div><div class="row hpx-16"><i class="w-38"></i></div></div><div class="col"><div class="row hpx-16"><i class="w-36"></i></div><div class="row hot hpx-16"><i class="w-30"></i></div><div class="row hpx-16"><i class="w-34"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Trap</div><div class="value">Diagonal exits the corridor</div></div>
+      <div><div class="label">Fix</div><div class="value">Grace triangle · delay</div></div>
+      <div><div class="label">Or</div><div class="value">Click-to-open</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Width</span>
+      <span class="num">03 / 08</span>
+      <h3>Wide Paths Win</h3>
+      <p class="desc">The cheapest steering fix is width: taller menu rows, thicker slider tracks, bigger drag handles. Doubling the corridor’s width halves the steering cost for every user, on every visit, forever.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;padding:18px 26px"><div style="height:26px;border-radius:8px;background:rgba(56,189,248,0.15);display:flex;align-items:center;padding:0 10px"><span style="height:6px;width:40%;border-radius:3px;background:var(--il-accent);display:block"></span></div><div style="height:12px;border-radius:6px;background:var(--surface);display:flex;align-items:center;padding:0 10px"><span style="height:4px;width:40%;border-radius:2px;background:var(--skel-strong);opacity:0.5;display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Cheapest fix</div><div class="value">Make it wider</div></div>
+      <div><div class="label">Double width</div><div class="value">Half the cost</div></div>
+      <div><div class="label">Applies to</div><div class="value">Rows · tracks · handles</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Precision</span>
+      <span class="num">04 / 08</span>
+      <h3>Sliders and Fine Control</h3>
+      <p class="desc">A slider is a one-dimensional tunnel, and precision demands make it narrow. For exact values, pair the drag with stepper buttons or direct numeric input — steering is for coarse moves, typing is for precise ones.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:14px;padding:18px 30px"><div style="position:relative;height:8px;border-radius:4px;background:var(--surface)"><span style="position:absolute;left:0;top:0;bottom:0;width:58%;border-radius:4px;background:rgba(56,189,248,0.35);display:block"></span><span style="position:absolute;left:58%;top:50%;width:16px;height:16px;border-radius:50%;background:var(--il-accent);transform:translate(-50%,-50%);display:block"></span></div><div style="display:flex;gap:8px"><span class="chip"><i style="width:12px"></i></span><span class="chip"><i style="width:12px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Slider</div><div class="value">Coarse adjustment</div></div>
+      <div><div class="label">Exact values</div><div class="value">Type or step</div></div>
+      <div><div class="label">Never</div><div class="value">Pixel-perfect drags</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Edges</span>
+      <span class="num">05 / 08</span>
+      <h3>Rails at the Edges</h3>
+      <p class="desc">Screen edges are infinitely deep walls — a cursor thrown against one stays in the corridor no matter how fast the motion. Scrollbars, docks, and panel handles that hug an edge steer themselves.</p>
+    </div>
+    <div class="demo"><div class="il" style="flex-direction:row;gap:12px;align-items:stretch"><div style="flex:1;display:flex;flex-direction:column;gap:7px;justify-content:center"><span class="ln faint w-88"></span><span class="ln faint w-76"></span><span class="ln faint w-82"></span></div><div style="flex:0 0 10px;background:var(--surface);border-radius:5px;position:relative"><span style="position:absolute;left:2px;right:2px;top:30%;height:26%;border-radius:3px;background:var(--il-accent);display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Edges</div><div class="value">Infinite walls</div></div>
+      <div><div class="label">Edge controls</div><div class="value">Steer themselves</div></div>
+      <div><div class="label">See also</div><div class="value">Fitts’s corners</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="fitts-law.html">Fitts’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Touch</span>
+      <span class="num">06 / 08</span>
+      <h3>Fingers Steer Badly</h3>
+      <p class="desc">Touch steering is worse than mouse steering: no hover, a fat imprecise contact, and an arm that occludes the path. On touch, replace steering with taps — stepped controls, tap-to-place, and generous snap.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div style="display:flex;gap:8px"><span class="chip b"><i style="width:14px"></i></span><span class="chip"><i style="width:14px"></i></span><span class="chip"><i style="width:14px"></i></span><span class="chip"><i style="width:14px"></i></span></div><span class="ln faint w-64"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Touch</div><div class="value">No hover, fat pointer</div></div>
+      <div><div class="label">Prefer</div><div class="value">Taps over drags</div></div>
+      <div><div class="label">Add</div><div class="value">Snap and steps</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Steering Law in the Age of AI</h3>
+    <p>Language input skips the tunnel entirely — and gesture interfaces rediscover it. The law decides which interactions deserve to survive.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>Language Skips the Tunnel</h3>
+      <p class="desc">Saying “set brightness to 70” replaces a steering task with a sentence. Where precision matters and paths are narrow, prompt and voice input aren’t novelties — they’re the wide path the law has been asking for.</p>
+    </div>
+    <div class="demo"><div class="il gap-12"><div style="position:relative;height:8px;border-radius:4px;background:var(--surface);opacity:0.4"><span style="position:absolute;left:70%;top:50%;width:14px;height:14px;border-radius:50%;background:var(--skel-strong);transform:translate(-50%,-50%);display:block"></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">A sentence</div><div class="value">Replaces the steer</div></div>
+      <div><div class="label">Best for</div><div class="value">Precise, nameable targets</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Gestures Rediscover the Law</h3>
+      <p class="desc">Air gestures, AR pointers, and pen interfaces reintroduce steering with shakier hands and no armrest. The old math still applies: every gesture corridor needs to be wider than the tremor it must survive.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><line x1="16" y1="34" x2="184" y2="34" stroke="#9a9a9a" stroke-width="3" opacity="0.4" vector-effect="non-scaling-stroke" stroke-linecap="round"/><line x1="16" y1="86" x2="184" y2="86" stroke="#9a9a9a" stroke-width="3" opacity="0.4" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M20,60 C 50,42 70,78 100,56 C 130,38 160,74 180,58" fill="none" stroke="var(--il-accent)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">New inputs</div><div class="value">Old math</div></div>
+      <div><div class="label">Corridor</div><div class="value">Wider than the tremor</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://dl.acm.org/doi/10.1145/258549.258760" target="_blank" rel="noopener"><span class="title">Beyond Fitts’ Law: Models for Trajectory-Based HCI — Accot and Zhai, CHI ’97</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Steering_law" target="_blank" rel="noopener"><span class="title">Steering Law</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Shumin_Zhai" target="_blank" rel="noopener"><span class="title">Shumin Zhai — HCI researcher</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Fitts%27s_law" target="_blank" rel="noopener"><span class="title">Fitts’s Law</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Steering Law</div>
+</footer>
+
+</body>
+</html>

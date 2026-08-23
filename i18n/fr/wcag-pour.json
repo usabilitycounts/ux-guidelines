@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "WCAG et <em>POUR</em>"
+ ],
+ "header .tagline": [
+  "Perceptible · Utilisable · Compréhensible · <em>Robuste</em>"
+ ],
+ "header .subtitle": [
+  "L'accessibilité repose sur quatre principes — Perceptible, Utilisable, Compréhensible, Robuste. Voici ce que chacun signifie et les critères de succès que chaque équipe devrait connaître."
+ ],
+ ".law-origin .body-text": [
+  "Les Web Content Accessibility Guidelines sont produites par la Web Accessibility Initiative du World Wide Web Consortium, lancée en 1997 avec la déclaration de <a href=\"https://en.wikipedia.org/wiki/Tim_Berners-Lee\" target=\"_blank\" rel=\"noopener\">Tim Berners-Lee</a> selon laquelle la puissance du web réside dans son universalité.",
+  "WCAG 1.0 est arrivé en 1999 ; la version 2.0 (2008) a tout réorganisé sous les quatre principes POUR et est devenue un standard ISO et la référence légale dans une grande partie du monde. Les versions suivantes — 2.1, 2.2 — ont étendu la couverture au mobile, à la basse vision et aux besoins cognitifs."
+ ],
+ ".law-content .law-desc": [
+  "Le contenu doit être Perceptible, Utilisable, Compréhensible et Robuste. POUR est le noyau durable : chaque critère de succès spécifique est l'une de ces quatre promesses rendue concrète."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "La Web Accessibility Initiative du W3C",
+  "Les spécifications WCAG 2.x",
+  "Tester contre POUR, pas seulement cocher des cases"
+ ],
+ ".card .tag": [
+  "Principe 1",
+  "Principe 2",
+  "Principe 3",
+  "Principe 4",
+  "CS 1.4.3",
+  "CS 1.1.1",
+  "CS 2.1.1",
+  "CS 2.4.7",
+  "CS 2.5.5",
+  "CS 4.1.2",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Perceptible",
+  "Utilisable",
+  "Compréhensible",
+  "Robuste",
+  "Contraste des couleurs (1.4.3)",
+  "Équivalents textuels (1.1.1)",
+  "Accessible au clavier (2.1.1)",
+  "Focus visible (2.4.7)",
+  "Taille des cibles tactiles (2.5.5)",
+  "Nom, rôle, valeur (4.1.2)",
+  "Textes alternatifs et sous-titres générés par IA",
+  "L'IA comme nouvelle couche d'assistance"
+ ],
+ ".card .desc": [
+  "L'information et les composants d'interface doivent être présentés de façon à ce que les utilisateurs puissent les percevoir — par la vue, l'ouïe ou le toucher. Si l'utilisateur ne peut pas le sentir, il ne peut pas l'utiliser.",
+  "Les composants d'interface et la navigation doivent être utilisables. Si quelque chose exige une souris avec une visée au pixel près ou une main parfaitement stable, une grande partie des utilisateurs est exclue.",
+  "L'information et le fonctionnement de l'interface doivent être compréhensibles. Un comportement prévisible et un langage simple comptent autant que le design visuel.",
+  "Le contenu doit être assez robuste pour être interprété de manière fiable par les agents utilisateurs — y compris les technologies d'assistance. La page accessible d'aujourd'hui doit rester accessible aux lecteurs d'écran et appareils de demain.",
+  "Le texte doit atteindre un contraste de 4,5:1 avec son fond pour le texte normal ou de 3:1 pour le grand texte (18 pt et plus, ou 14 pt et plus en gras). En dessous, la copie devient illisible pour les utilisateurs malvoyants.",
+  "Chaque élément non textuel a besoin d'un équivalent textuel qui transmet le même sens. Les images décoratives utilisent un alt vide ; les images informatives décrivent le contenu.",
+  "Chaque élément interactif doit être atteignable et utilisable au clavier. Pas de menus réservés à la souris, pas de glisser-déposer sans solution de repli, pas d'information critique révélée uniquement au survol.",
+  "Le focus clavier doit toujours être visible. Supprimer le contour par défaut sans fournir un remplacement plus clair abandonne les utilisateurs au clavier — ils ne peuvent littéralement pas voir où ils se trouvent.",
+  "Les cibles de pointeur doivent mesurer au moins 24×24 pixels CSS (AA, WCAG 2.2) — 44×44 pour AAA. Des cibles tactiles minuscules rendent les sites mobiles inutilisables pour quiconque a une précision réduite ou de grands doigts.",
+  "Chaque composant d'interface doit exposer son nom, son rôle et son état courant aux technologies d'assistance. Utilisez le bon élément pour le bon travail — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> pour les actions, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> pour la navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> pour les champs. ARIA seulement quand le HTML natif ne peut pas l'exprimer.",
+  "Les modèles de vision et de parole peuvent décrire des images et transcrire de l'audio à grande échelle. Mais le résultat exige une relecture — une légende assurée mais fausse est pire qu'aucune légende.",
+  "Lecteurs d'écran, sous-titres en direct et « explique cette page » deviennent des fonctions IA. Livrez une sémantique propre pour que le modèle dispose d'une structure exacte sur laquelle travailler."
+ ],
+ ".meta .label": [
+  "Recommandations",
+  "Sens couverts",
+  "Mode d'échec",
+  "Recommandations",
+  "Modes de saisie",
+  "Mode d'échec",
+  "Recommandations",
+  "Niveau de lecture",
+  "Mode d'échec",
+  "Recommandation",
+  "Cibles",
+  "Mode d'échec",
+  "Ratio · Normal",
+  "Ratio · Grand",
+  "Outils",
+  "Requis sur",
+  "Décoratif",
+  "Éviter",
+  "Méthode de test",
+  "À surveiller",
+  "Ordre",
+  "Défaut",
+  "Anneau personnalisé",
+  "Propriété",
+  "AA",
+  "AAA",
+  "Espacement",
+  "Nom",
+  "Rôle",
+  "Valeur",
+  "Génère",
+  "À utiliser quand",
+  "À surveiller",
+  "Devient",
+  "Concevoir pour",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "1.1 – 1.4",
+  "Vue · Ouïe · Toucher",
+  "L'utilisateur ne peut pas détecter le contenu",
+  "2.1 – 2.5",
+  "Clavier · Tactile · Contacteur",
+  "L'utilisateur ne peut pas interagir",
+  "3.1 – 3.3",
+  "Niveau collège recommandé",
+  "Utilisateur confus ou induit en erreur",
+  "4.1",
+  "Lecteurs d'écran · Voix · Futur",
+  "Les TA ne peuvent pas analyser le balisage",
+  "4,5 : 1 (AA) · 7 : 1 (AAA)",
+  "3 : 1 (AA) · 4,5 : 1 (AAA)",
+  "WebAIM Contrast Checker",
+  "&lt;img&gt; · SVG · polices d'icônes",
+  "alt=\"\" masque au lecteur d'écran",
+  "Préfixe « image de… »",
+  "Débranchez votre souris",
+  "div onclick · widgets personnalisés",
+  "Visuel ≡ DOM ≡ ordre de tabulation",
+  "Contour bleu du navigateur · ne pas retirer",
+  "3 px · décalage 2 px · contraste ≥3:1",
+  ":focus-visible (pas :focus)",
+  "24 × 24 px CSS",
+  "44 × 44 px CSS",
+  "Cibles adjacentes espacées de ≥ 8 px",
+  "Libellé textuel accessible",
+  "Quel type d'élément",
+  "État / valeur courants",
+  "Alt · sous-titres · libellés",
+  "Volume trop grand pour le manuel",
+  "Résultat plausible mais faux",
+  "TA propulsées par l'IA",
+  "Rôles et sémantique propres",
+  "Déchets en entrée → déchets en sortie"
+ ],
+ ".ai-divider h3": [
+  "L'accessibilité à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA devient à la fois un moyen de générer des métadonnées d'accessibilité à grande échelle et la couche d'assistance elle-même — ni l'un ni l'autre ne remplace la relecture humaine."
+ ],
+ ".cat-label": [
+  "Les quatre principes",
+  "Critères de succès clés"
+ ]
+}

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" data-page="gall">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
+<meta name="description" content="John Gall&#x27;s 1975 observation, from Systemantics: you can&#x27;t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes.">
+<title>Gall’s Law: Working Complex Systems Grow from Simple Ones — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/galls-law.html">
+<meta property="og:title" content="Gall&#x27;s Law: Working Complex Systems Grow from Simple Ones — UX Guidelines">
+<meta property="og:description" content="John Gall&#x27;s 1975 observation, from Systemantics: you can&#x27;t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/galls-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gall&#x27;s Law: Working Complex Systems Grow from Simple Ones — UX Guidelines">
+<meta name="twitter:description" content="John Gall&#x27;s 1975 observation, from Systemantics: you can&#x27;t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root { --bg:#ffffff; --surface:#f4f4f4; --demo-bg:#ececec; --border:#e2e2e2; --ink:#111111; --muted:#6b6b6b; --ai:#0d9488; }
+  h1 { font-size: var(--fs-h1); font-weight:700; line-height: var(--lh-tight); max-width:1000px; }
+  h1 em { font-style:normal; color: var(--text-primary); font-weight:700; }
+  .tagline { font-size: var(--fs-h2); font-weight:500; color: var(--text-primary); margin-top:18px; max-width:900px; line-height: var(--lh-heading); }
+  .tagline em { font-style:normal; font-weight:600; }
+  .law-feature .formula-box { background:var(--demo-bg); border:1px solid var(--border); border-radius:8px; padding:40px 32px; display:flex; align-items:center; justify-content:center; }
+  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight:500; line-height: var(--lh-base); color: var(--text-primary); text-align:center; max-width:540px; }
+  .law-feature .formula-box .quote em {  font-style:italic; font-weight:600; }
+  .law-feature .law-meta { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .card { background: var(--bg); border: 1px solid var(--border); padding:36px 32px 32px; display:grid; grid-template-rows:subgrid; grid-row:span 3; position:relative; }
+  .card-header { display:flex; flex-direction:column; align-items:flex-start; gap:12px; padding-bottom:24px; }
+  .card-header .tag { margin-bottom:2px; }
+  .card h2, .card h3 { font-size: var(--fs-h3); font-weight:600; line-height: var(--lh-heading); }
+  .ai-divider { grid-column:1/-1; background:var(--ink); color: var(--text-inverse); padding:22px 32px; display:flex; align-items:center; gap:14px; }
+  .ai-divider h3 { font-size: var(--fs-body); font-weight:600; }
+  .ai-divider p { font-size: var(--fs-ui); color: var(--text-faint); margin-left:auto; max-width:420px; line-height: var(--lh-tight); text-align:right; }
+  .demo > svg { flex:1 1 auto; min-height:0; }
+  .demo svg { width:100%; height:100%; display:block; overflow:visible; }
+  .meta { display:grid; grid-template-columns:1fr 1fr; gap:18px 24px; padding-top:0; }
+  .tag { display:inline-block; font-size: var(--fs-tag); padding:4px 10px; border-radius:3px; font-weight:500; }
+  .card .tag { background:rgba(107, 107, 107,0.12); color: var(--text-secondary); }
+  .card .tag.ai-tag { background:rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
+
+  
+  .ref-list { list-style:none; display:grid; grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr)); gap:0 32px; }
+  .ref-list .title { font-size: var(--fs-ui); font-weight:500; line-height: var(--lh-heading); flex:1; }
+  .ref-list svg { flex-shrink:0; color: var(--text-secondary); }
+  .ref-groups { display:flex; flex-direction:column; gap:36px; }
+  footer { display:flex; justify-content:space-between; align-items:center; padding:28px 32px;  background:var(--bg); flex-wrap:wrap; gap:16px; }
+  .copyright,.meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight:500; }
+  @media (max-width:600px){ header{padding:32px 20px 28px;} footer{padding:20px;flex-direction:column;align-items:flex-start;} .grid{grid-template-columns:1fr;} .card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset;} .ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px;} .ai-divider p{margin-left:0;text-align:left;}   }
+
+  /* Gall illustrations */
+  .ga { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .ga .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .ga .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .ga .grid { display: grid; gap: 8px; }
+  .ga .cell { border-radius: 6px; background: var(--skel); aspect-ratio: 1; }
+  .ga .steps { display: flex; align-items: flex-end; gap: 10px; height: 100%; }
+  .ga .steps i { flex: 1; border-radius: 6px 6px 0 0; background: var(--skel); opacity: 0.4; display: block; }
+  .ga .steps i.b { background: var(--il-accent); opacity: 1; }
+  .ga .stack { display: flex; flex-direction: column; gap: 6px; }
+  .ga .layer { height: 18px; border-radius: 6px; background: var(--surface); }
+  .ga .layer.ghost { background: var(--skel); opacity: 0.12; }
+  .ga .tile { border-radius: 8px; background: var(--surface); }
+  .ga .tilerow { display: flex; gap: 8px; align-items: center; }
+  .ga .check { width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); flex: none; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link active">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Gall’s <em>Law</em></h1>
+  <p class="tagline">Complex systems that work <em>evolved</em> from simple systems that worked.</p>
+  <p class="subtitle">John Gall’s 1975 observation, from <em>Systemantics</em>: you can’t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/John_Gall_(author)" target="_blank" rel="noopener">John Gall</a> was an American pediatrician and systems theorist. His 1975 book Systemantics collected wry observations on why systems fail; its best-known passage — complex systems that work evolve from simple systems that worked — became Gall’s Law.</p>
+    <p class="body-text">Gall practiced pediatrics in Ann Arbor, Michigan for decades while writing wry systems theory on the side. Systemantics went through three editions as The Systems Bible; its axioms — like ‘a complex system designed from scratch never works’ — are quoted in software engineering far more than in medicine.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">Big systems are grown, not designed. Start with the smallest thing that works end-to-end, ship it, learn from it, then grow it. The grand design built from scratch — the one no simple version ever shipped — rarely survives contact with the real world.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-john-gall">John Gall</a> (1975)</div></div>
+      <div><div class="label">Source</div><div class="value">Systemantics</div></div>
+      <div><div class="label">In practice</div><div class="value">Ship the simple version first</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Start small</span><h3>Ship the Walking Skeleton</h3>
+      <p class="desc">The first version should do the smallest possible thing end-to-end. Sign in, post one thing, see it. The walking skeleton proves the path exists; the muscles get built on top of a working spine.</p></div>
+    <div class="demo"><div class="ga"><div class="plot"><svg viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet"><g stroke="var(--il-accent)" stroke-width="3.5" stroke-linecap="round"><line x1="46" y1="50" x2="88" y2="50"/><line x1="112" y1="50" x2="154" y2="50"/></g><g fill="#9a9a9a" opacity="0.6"><circle cx="34" cy="50" r="12"/><circle cx="100" cy="50" r="12"/></g><circle cx="166" cy="50" r="12" fill="var(--il-accent)"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Test</div><div class="value">Does it work end-to-end?</div></div>
+      <div><div class="label">Skip</div><div class="value">Polish · scale · edge cases</div></div>
+      <div><div class="label">Then</div><div class="value">Grow from working code</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Anti-pattern</span><h3>The Big Bang Rewrite</h3>
+      <p class="desc">The classic Gall violation. Two years on a “from scratch” replacement, no working version in sight, deadline keeps slipping. By the time it ships, the requirements have changed and the people who knew them have left. The system never finds the version where it actually worked.</p></div>
+    <div class="demo"><div class="ga"><div class="grid" style="grid-template-columns:repeat(5,1fr)"><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.12"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Designed up-front · in full</div></div>
+      <div><div class="label">Fails when</div><div class="value">Reality differs from spec</div></div>
+      <div><div class="label">Costs</div><div class="value">Time · trust · people</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Examples</span><h3>The Web Grew · It Wasn’t Designed</h3>
+      <p class="desc">HTTP started as one page-fetching protocol. The web today — apps, video, payments, AI — is the same protocol with thirty years of layers welded on. Every working complex system reads like that: TCP, Linux, the iPhone OS, Notion, your codebase. None of them were built right; they were built first.</p></div>
+    <div class="demo"><div class="ga"><div class="plot"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><circle cx="50" cy="50" r="40" fill="none" stroke="#9a9a9a" stroke-width="2.5" opacity="0.25"/><circle cx="50" cy="50" r="28" fill="none" stroke="#9a9a9a" stroke-width="2.5" opacity="0.4"/><circle cx="50" cy="50" r="16" fill="none" stroke="#9a9a9a" stroke-width="2.5" opacity="0.55"/><circle cx="50" cy="50" r="6" fill="var(--il-accent)"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Examples</div><div class="value">Web · Linux · iOS</div></div>
+      <div><div class="label">In common</div><div class="value">Shipped early · grew under load</div></div>
+      <div><div class="label">Read this as</div><div class="value">A design constraint</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Methodology</span><h3>Pairs with the MVP</h3>
+      <p class="desc">Lean, Agile, <a href="people.html#p-eric-ries">Eric Ries</a> — all of them are Gall in different vocabulary. Ship the smallest thing that proves the idea, learn from real users, iterate. The MVP isn’t a marketing concept; it’s the only way most working complex systems come into existence.</p></div>
+    <div class="demo"><div class="ga"><div class="steps"><i style="height:22%"></i><i style="height:42%"></i><i style="height:64%"></i><i class="b" style="height:88%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Echoes</div><div class="value">MVP · Lean · Agile</div></div>
+      <div><div class="label">Rule</div><div class="value">Always have a shippable version</div></div>
+      <div><div class="label">Bonus</div><div class="value">You can pivot from any ring</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Design</span><h3>Design Systems Grow Too</h3>
+      <p class="desc">Material, HIG, your own design system — none of them were specced from the top. They started as a button, a font scale, a color. They grew because the simple version was used. The “let’s design the whole system first” approach has produced a graveyard of unused tokens and dead components.</p></div>
+    <div class="demo"><div class="ga gap-10"><div class="tilerow" style="height:22%"><div class="tile" style="width:26%;height:100%;background:rgba(56,189,248,0.25)"></div></div><div class="tilerow" style="height:22%"><div class="tile" style="width:26%;height:100%"></div><div class="tile" style="width:26%;height:100%"></div></div><div class="tilerow" style="height:22%"><div class="tile" style="width:26%;height:100%"></div><div class="tile" style="width:26%;height:100%"></div><div class="tile" style="width:26%;height:100%"></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Build first</div><div class="value">The button that ships</div></div>
+      <div><div class="label">Then</div><div class="value">The pattern you see twice</div></div>
+      <div><div class="label">Avoid</div><div class="value">Tokens for unbuilt screens</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">The trap</span><h3>“It Worked at Small Scale”</h3>
+      <p class="desc">Gall’s other warning: a system that worked at a small scale won’t necessarily work at a larger one — and you discover the breaks only by growing into them. Don’t extrapolate; observe. The simple version proves <em>this</em> case worked, not every future case.</p></div>
+    <div class="demo"><div class="ga" style="flex-direction:row;gap:20px;align-items:center"><div class="grid" style="grid-template-columns:repeat(2,22px);gap:6px"><span class="cell" style="opacity:0.5"></span><span class="cell" style="opacity:0.5"></span><span class="cell" style="opacity:0.5"></span><span class="cell" style="opacity:0.5"></span></div><div class="grid" style="flex:1;grid-template-columns:repeat(5,1fr);gap:6px"><span class="cell" style="opacity:0.35"></span><span class="cell" style="opacity:0.2"></span><span class="cell" style="opacity:0.35;transform:translateY(4px)"></span><span class="cell" style="opacity:0.12"></span><span class="cell" style="opacity:0.35"></span><span class="cell" style="opacity:0.15;transform:translateY(-3px)"></span><span class="cell" style="opacity:0.35"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.3;transform:translateY(5px)"></span><span class="cell" style="opacity:0.2"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Truth</div><div class="value">Each scale reveals new breaks</div></div>
+      <div><div class="label">Don’t</div><div class="value">Extrapolate · prepare</div></div>
+      <div><div class="label">Do</div><div class="value">Build · observe · grow</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Counter-case</span><h3>When Up-Front Design Wins</h3>
+      <p class="desc">Gall isn’t universal. Bridges, planes, payment systems, surgery robots — anything where iterating in production is catastrophic — need formal specs up front. The rule applies where iteration is cheap and recoverable, which is most of software, most of the time.</p></div>
+    <div class="demo"><div class="ga"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><g stroke="#9a9a9a" stroke-width="1.5" opacity="0.35"><line x1="0" y1="30" x2="200" y2="30"/><line x1="0" y1="60" x2="200" y2="60"/><line x1="0" y1="90" x2="200" y2="90"/><line x1="50" y1="0" x2="50" y2="120"/><line x1="100" y1="0" x2="100" y2="120"/><line x1="150" y1="0" x2="150" y2="120"/></g><rect x="58" y="38" width="84" height="44" rx="6" fill="var(--il-accent)" opacity="0.3"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Iterate</div><div class="value">When mistakes are cheap</div></div>
+      <div><div class="label">Spec</div><div class="value">When mistakes kill</div></div>
+      <div><div class="label">Most software</div><div class="value">Is the first kind</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag">Daily</span><h3>Resist the Grand Plan</h3>
+      <p class="desc">When a teammate proposes the perfect architecture three quarters out, the Gall response is: what’s the smallest version of this we can ship next sprint? Force the working ancestor. The grand plan can survive that question; if it can’t, it wasn’t grand, it was just big.</p></div>
+    <div class="demo"><div class="ga" style="flex-direction:row;gap:20px;align-items:center"><div class="grid" style="flex:1.4;grid-template-columns:repeat(4,1fr);gap:6px"><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span><span class="cell" style="opacity:0.1"></span></div><div style="display:flex;flex-direction:column;align-items:center;gap:10px"><div class="tile" style="width:56px;height:56px;background:rgba(56,189,248,0.25)"></div><span class="check"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Ask</div><div class="value">“Smallest shippable?”</div></div>
+      <div><div class="label">Ask</div><div class="value">“Did the ancestor work?”</div></div>
+      <div><div class="label">Then</div><div class="value">Build</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider"><span class="spark">✦</span><h3>Gall’s Law in the Age of AI</h3><p>AI lets you generate a “complete” system in a day — and then ship something that has no working ancestor to grow from.</p></div>
+
+  <article class="card">
+    <div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>AI Generates Skipping the Ancestor</h3>
+      <p class="desc">“Build me an entire app” produces output that looks like a system. But it has no ancestor — no simple version that anyone ran in anger, no scars from real use. The code may compile, but the design hasn’t earned the right to be complex. Use AI to ship a simple thing fast, not a complex thing untested.</p></div>
+    <div class="demo"><div class="ga stack" style="padding:18px 60px"><div class="layer"></div><div class="layer"></div><div class="layer"></div><div class="layer ghost"></div><div class="layer ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Risk</div><div class="value">Complexity without learning</div></div>
+      <div><div class="label">Use AI for</div><div class="value">Faster simple v1</div></div>
+      <div><div class="label">Not for</div><div class="value">Skipping evolution</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+
+  <article class="card">
+    <div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>Iterate Faster, Iterate the Same</h3>
+      <p class="desc">The upside is real. AI shortens the cycle between “working version 1” and “working version 2” — code, copy, design, all generated faster. Gall’s law isn’t repealed; it’s accelerated. You still need a working ancestor at every step. You just get to make many more of them.</p></div>
+    <div class="demo"><div class="ga"><div class="plot"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><path d="M50,14 A36,36 0 1,1 22,26" fill="none" stroke="var(--il-accent)" stroke-width="4" stroke-linecap="round"/><path d="M22,26 L14,16 M22,26 L34,24" stroke="var(--il-accent)" stroke-width="4" stroke-linecap="round" fill="none"/><circle cx="50" cy="50" r="8" fill="#9a9a9a" opacity="0.5"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Speedup</div><div class="value">More iterations / week</div></div>
+      <div><div class="label">Rule unchanged</div><div class="value">Each ring must work</div></div>
+      <div><div class="label">Watch for</div><div class="value">Skipping a working ring</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group"><h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/John_Gall_(author)" target="_blank" rel="noopener"><span class="title">John Gall — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Systemantics" target="_blank" rel="noopener"><span class="title">Systemantics — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul></div>
+    <div class="ref-group"><h3 class="label ref-source-label">Related</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Minimum_viable_product" target="_blank" rel="noopener"><span class="title">Minimum Viable Product — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul></div>
+  </div>
+</section>
+
+<footer><div class="copyright">© UX Guidelines · Gall’s Law</div><div class="meta-info">Gall, 1975 · Systemantics</div></footer>
+
+<script>(()=>{const h=document.querySelector('.hamburger'),o=document.getElementById('menu-overlay'),p=document.getElementById('menu-panel'),c=document.querySelector('.menu-close');if(!h||!o||!p||!c)return;const open=()=>{p.classList.add('open');o.classList.add('open');h.setAttribute('aria-expanded','true');p.setAttribute('aria-hidden','false');};const close=()=>{p.classList.remove('open');o.classList.remove('open');h.setAttribute('aria-expanded','false');p.setAttribute('aria-hidden','true');};h.addEventListener('click',open);c.addEventListener('click',close);o.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});})();</script>
+
+</body>
+</html>

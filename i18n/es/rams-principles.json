@@ -1,0 +1,161 @@
+{
+ "header h1": [
+  "Los 10 <em>principios</em> de Dieter Rams"
+ ],
+ "header .tagline": [
+  "«Menos, pero <em>mejor</em>»."
+ ],
+ "header .subtitle": [
+  "Dieter Rams escribió estos principios del buen diseño en los años 70 en Braun. Cincuenta años después, siguen describiendo qué hace genuinamente bueno a un producto digital."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Dieter_Rams\" target=\"_blank\" rel=\"noopener\">Dieter Rams</a> es un diseñador industrial alemán que dirigió el diseño en Braun durante más de tres décadas, dando forma a productos —de tocadiscos a calculadoras— cuyas formas resuenan hoy en el hardware de Apple. Su filosofía: Weniger, aber besser — menos, pero mejor.",
+  "Escribió los diez principios a finales de los años 70 como respuesta a su propia pregunta: ¿es mi diseño un buen diseño? Concebidos para productos físicos, se traducen al software casi sin edición — honesto, discreto, minucioso y con tan poco diseño como sea posible."
+ ],
+ ".law-content .law-desc": [
+  "El buen diseño es innovador, útil, estético, comprensible, discreto, honesto, duradero, minucioso hasta el último detalle, respetuoso con el medio ambiente — y con tan poco diseño como sea posible."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Dieter Rams",
+  "La práctica de diseño de Braun",
+  "Eliminar hasta que solo quede lo útil"
+ ],
+ ".card .tag": [
+  "Principio 1",
+  "Principio 2",
+  "Principio 3",
+  "Principio 4",
+  "Principio 5",
+  "Principio 6",
+  "Principio 7",
+  "Principio 8",
+  "Principio 9",
+  "Principio 10",
+  "✦ Era IA",
+  "✦ Era IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Innovador",
+  "Hace útil un producto",
+  "Estético",
+  "Comprensible",
+  "Discreto",
+  "Honesto",
+  "Duradero",
+  "Minucioso hasta el último detalle",
+  "Respetuoso con el medio ambiente",
+  "Tan poco diseño como sea posible",
+  "Menos, pero mejor — aplicado a la IA",
+  "IA honesta",
+  "IA comprensible"
+ ],
+ ".card .desc": [
+  "La innovación en el diseño llega junto con la innovación en la tecnología — y nunca es un fin en sí misma. El buen diseño sigue a la tecnología allí donde realmente crea nuevas posibilidades, no donde solo parece nueva.",
+  "Un producto se compra para usarse. Su diseño debe servir a ese uso — enfatizar lo útil y suprimir todo lo que le reste.",
+  "La calidad estética de un producto es parte integral de su utilidad — los objetos bien ejecutados pueden ser bellos, y el bienestar depende en parte de los objetos que usamos a diario.",
+  "El diseño de un producto debe clarificar su estructura. En el mejor de los casos, se explica solo. El usuario nunca debería necesitar un manual para saber qué hacer.",
+  "Los productos que cumplen un propósito son como herramientas — ni objetos decorativos ni obras de arte. Su diseño debe dejar espacio para la autoexpresión del usuario.",
+  "El buen diseño no pretende ser más innovador, potente o valioso de lo que realmente es. No manipula a los usuarios con promesas que no puede cumplir.",
+  "El buen diseño evita estar de moda y, por tanto, nunca parece anticuado. A diferencia de la moda, dura muchos años — incluso en la sociedad desechable de hoy.",
+  "Nada debe ser arbitrario ni dejarse al azar. El cuidado y la precisión en el proceso de diseño muestran respeto hacia el usuario.",
+  "El diseño hace una contribución importante a la preservación del medio ambiente. Conserva recursos y minimiza la contaminación física y visual a lo largo del ciclo de vida del producto.",
+  "Menos, pero mejor. Concéntrate en los aspectos esenciales, para que el producto no cargue con lo no esencial. De vuelta a la pureza, de vuelta a la simplicidad.",
+  "La mayoría de los productos no necesita un chatbot. Añade IA solo donde de verdad haga el producto más útil — no para perseguir la tendencia. El primer instinto de Rams sigue vigente: eliminar.",
+  "El buen diseño no finge que el modelo es más capaz de lo que es. Muestra la confianza, cita las fuentes y nunca inventes una respuesta. La honestidad es el principio seis en la era de la IA.",
+  "Un producto con un modelo dentro sigue teniendo que explicarse. Muestra lo que el asistente puede hacer antes del primer prompt, lo que hace mientras trabaja y por qué respondió como respondió. El cuarto principio sigue exigiendo cumplirse."
+ ],
+ ".meta .label": [
+  "Cuidado con",
+  "Prueba",
+  "Contramedida",
+  "Prioridad",
+  "Prueba",
+  "Contramedida",
+  "Cualidad",
+  "Resultado",
+  "Contramedida",
+  "Objetivo",
+  "Prueba",
+  "Contramedida",
+  "Carácter",
+  "Prueba",
+  "Contramedida",
+  "Cuidado con",
+  "Prueba",
+  "Contramedida",
+  "Resiste",
+  "Prueba",
+  "Contramedida",
+  "Actitud",
+  "Prueba",
+  "Contramedida",
+  "Conserva",
+  "Prueba",
+  "Contramedida",
+  "Original",
+  "Objetivo",
+  "Prueba",
+  "Principio",
+  "Prueba",
+  "Cuidado con",
+  "Principio",
+  "Mostrar",
+  "Cuidado con",
+  "Principio",
+  "Mostrar",
+  "Vigilar"
+ ],
+ ".meta .value": [
+  "Novedad por la novedad",
+  "¿La tecnología habilita algo real?",
+  "Esqueuomorfismo · perseguir tendencias",
+  "La función primero",
+  "¿Hace mejor su trabajo?",
+  "Estilo sobre sustancia",
+  "Inseparable de la utilidad",
+  "Deleite diario",
+  "Utilidad fea · ornamento",
+  "Se explica solo",
+  "Sin manual",
+  "Interfaz enigmática",
+  "Herramienta, no declaración",
+  "Desaparece en el uso",
+  "Marca ruidosa · interfaz a gritos",
+  "Patrones oscuros · reseñas falsas",
+  "El marketing coincide con la conducta",
+  "UX manipuladora",
+  "Ciclos de moda · tendencias",
+  "¿Se verá bien en 20 años?",
+  "Rediseño guiado por tendencias",
+  "Cuidado = respeto",
+  "Acércate — ¿aguanta?",
+  "Detalles «suficientemente buenos»",
+  "Materiales · energía · atención",
+  "¿Ciclo de vida considerado?",
+  "Desechable · sobreingeniería",
+  "Weniger, aber besser (años 80)",
+  "Pureza · esencia · contención",
+  "¿Qué puedes eliminar?",
+  "#10 Tan poco como sea posible",
+  "¿La IA añade uso real?",
+  "IA como decoración",
+  "#6 Honesto",
+  "Confianza · fuentes · límites",
+  "Capacidad exagerada",
+  "N.º 4 Comprensible",
+  "Capacidades · estado · razones",
+  "El misterio del prompt vacío"
+ ],
+ ".ai-divider h3": [
+  "Rams en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "«Menos, pero mejor» y «honesto» son los principios que más importan cuando cada producto siente la tentación de añadir un chatbot."
+ ]
+}

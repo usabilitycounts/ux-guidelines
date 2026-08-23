@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Goodhart"
+ ],
+ "header .tagline": [
+  "Quand une mesure devient un <em>objectif</em>, elle cesse d'être une bonne mesure."
+ ],
+ "header .subtitle": [
+  "L'observation de Charles Goodhart (1975), affûtée par Marilyn Strathern : dès qu'un chiffre sert à juger des personnes, il dérive de ce qu'il mesurait. KPIs, OKRs et signaux d'entraînement d'IA s'y heurtent de plein fouet."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Charles_Goodhart\" target=\"_blank\" rel=\"noopener\">Charles Goodhart</a> est un économiste britannique, conseiller de longue date de la Banque d'Angleterre et professeur à la London School of Economics. Sa remarque de 1975 sur les cibles monétaires — une fois qu'une mesure devient un objectif, elle cesse d'être une bonne mesure — a dépassé l'économie pour devenir une loi des incitations, partout.",
+  "Goodhart a passé dix-sept ans à la Banque d'Angleterre et a contribué à concevoir le currency board de Hong Kong. La formulation moderne de la loi — « quand une mesure devient un objectif, elle cesse d'être une bonne mesure » — a été forgée par l'anthropologue <a href=\"https://en.wikipedia.org/wiki/Marilyn_Strathern\" target=\"_blank\" rel=\"noopener\">Marilyn Strathern</a> en 1997, généralisant son observation sur les agrégats monétaires."
+ ],
+ ".law-content .law-desc": [
+  "À la minute où vous utilisez une métrique pour évaluer des personnes — promouvoir, financer, classer — elles se mettent à travailler directement sur la métrique, pas sur la chose qu'elle était censée suivre. Le chiffre monte ; le résultat ne suit pas toujours."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Charles Goodhart (1975)",
+  "Commentaire de politique monétaire",
+  "Surveiller l'objectif, pas seulement la métrique"
+ ],
+ ".card .tag": [
+  "Définition",
+  "Classique",
+  "En produit",
+  "Loi sœur",
+  "Goodhart doux",
+  "Concevoir",
+  "Pratique",
+  "Quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Quand la métrique devient le jeu",
+  "Les métriques de vanité",
+  "Le hacking de KPI",
+  "La loi de Campbell",
+  "La dérive innocente",
+  "Choisir des métriques qui résistent à la triche",
+  "Utiliser des paires de métriques",
+  "Faire l'expérience de pensée de la triche",
+  "Les modèles optimisent exactement la métrique",
+  "Les modèles de récompense sont des usines à Goodhart"
+ ],
+ ".card .desc": [
+  "À la minute où une équipe est récompensée sur un chiffre, ce chiffre cesse de mesurer ce qu'il mesurait. Les gens atteindront la métrique — en changeant le travail, en changeant le décompte, ou les deux. Le phénomène d'origine glisse hors de sa portée.",
+  "Pages vues par session, ratios DAU/MAU, inscriptions brutes. Les chiffres montent en rang serré et rien dans le produit ne s'améliore vraiment. Les métriques de vanité sont truquées d'avance — elles n'ont jamais été connectées à la valeur.",
+  "Fixez « temps de résolution au support » comme objectif et les tickets sont fermés avant d'être résolus. Fixez « fonctionnalité livrée » comme cible et livré devient synonyme de « fusionné mais inutilisé ». L'équipe apprend vite — elle optimise le chiffre, exactement comme demandé.",
+  "La version de Donald Campbell (1976), en politique publique : plus un indicateur social quantitatif sert à la prise de décision, plus il corrompt les processus qu'il est censé mesurer. Les tests standardisés en sont le cas d'école — enseigner pour le test, optimiser le score, et l'éducation sous-jacente se dégrade en silence.",
+  "Tout Goodhart n'est pas de la triche. Parfois la métrique dérive en silence parce que le monde a changé — ce qui comptait comme « actif » il y a trois ans est aujourd'hui du défilement passif, ce qui comptait comme « engagement » est devenu du rafraîchissement anxieux. Le chiffre tient ; le sens glisse. Réexaminez les mesures chaque année.",
+  "Certains chiffres filtrent bien : revenu par utilisateur retenu, délai jusqu'à l'action significative, NPS des personnes qui ont terminé la tâche. D'autres filtrent mal : clics, pages vues, décomptes bruts. Les bons sont difficiles à falsifier sans produire la valeur sous-jacente ; c'est leur qualité.",
+  "La défense la plus fiable : suivre deux métriques qui évoluent en sens opposés quand la première est truquée. La vitesse appariée à la qualité ; le revenu apparié aux remboursements ; l'engagement apparié aux résiliations. Si l'une monte et l'autre s'effondre, vous avez repéré la triche tôt.",
+  "Avant de fixer un KPI, demandez : comment une équipe astucieuse pourrait-elle faire monter ce chiffre sans réellement faire le travail ? Si la réponse est « facilement », affinez la métrique. Si c'est « seulement en faisant le travail », adoptez-la. Cinq minutes d'imagination attrapent la plupart des triches en amont.",
+  "Un modèle entraîné sur le taux de clic maximisera le taux de clic, point final. Les systèmes de recommandation apprennent à faire remonter le contenu rageur parce que le contenu rageur récolte des clics. La loi de Goodhart en mode difficile : l'optimiseur est plus rapide, plus implacable, et ne se lasse jamais de tricher.",
+  "Les systèmes RLHF s'entraînent sur un proxy appris de la « bonne réponse ». Le modèle optimise le proxy. Le proxy diverge en silence de ce que les gens voulaient vraiment — flagornerie, précautions excessives, préambules en « Certainement ! ». Chaque génération éloigne un peu plus la métrique du sens."
+ ],
+ ".meta .label": [
+  "Définition",
+  "Effet",
+  "Exemples",
+  "Correctif",
+  "À surveiller",
+  "Apparier à",
+  "Énoncé par",
+  "Cas célèbre",
+  "Cause",
+  "Tactique",
+  "Préférer",
+  "Test",
+  "Apparier vitesse à",
+  "Apparier revenu à",
+  "Coût",
+  "Affiner jusqu'à",
+  "Effet",
+  "Correctif",
+  "Modèle",
+  "Symptômes"
+ ],
+ ".meta .value": [
+  "Mesure → objectif → corruption",
+  "Le chiffre monte · le sens tombe",
+  "Pages vues · inscriptions · DAU",
+  "Lier au résultat, pas à l'activité",
+  "Conformité soudaine",
+  "Métrique de résultat client",
+  "Donald Campbell, 1976",
+  "Tests standardisés",
+  "La réalité a changé",
+  "Réexaminer chaque année",
+  "Lié au résultat · multi-étapes",
+  "Puis-je truquer ça en une heure ?",
+  "La qualité",
+  "Les remboursements",
+  "Cinq minutes",
+  "La réponse est « seulement en travaillant »",
+  "Goodhart, automatisé",
+  "Multi-objectifs · garde-fous",
+  "La métrique apprise dérive",
+  "Flagornerie · précautions excessives"
+ ],
+ ".ai-divider h3": [
+  "La loi de Goodhart à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA optimise exactement ce que vous mesurez — et trouve le coup de triche plus vite qu'aucune équipe ne le pourrait."
+ ]
+}

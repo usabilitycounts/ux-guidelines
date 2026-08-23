@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "About"
+ ],
+ "header .subtitle": [
+  "Who makes this site, and why it exists."
+ ],
+ ".about-section h2": [
+  "Elsewhere",
+  "Patrick Neeman",
+  "About This Site"
+ ],
+ ".about-section p": [
+  "Patrick Neeman is a UX and product design leader who has spent his career making software easier for the people who have to use it. He writes long-form about UX and AI — on <a href=\"https://medium.com/@usabilitycounts\" target=\"_blank\" rel=\"noopener\">Medium</a>, <a href=\"https://substack.com/@patrickneeman\" target=\"_blank\" rel=\"noopener\">Substack</a>, and <a href=\"https://www.linkedin.com/in/patrick-neeman-ux/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> — for designers, product managers, and user researchers navigating how the craft is changing.",
+  "He has been writing about usability for a long time under the name Usability Counts, and is the creator of the UX Drinking Game — proof that heuristics are more fun when there are stakes.",
+  "His current work sits at the intersection of design practice and AI: how models change what designers make, how teams work, and which of the old rules still hold. Spoiler: most of them do, which is why this site exists.",
+  "UX Guidelines is a working reference for the research-backed rules of interface design — the scanning patterns, cognitive laws, heuristics, and principles that keep showing up in good products decade after decade.",
+  "Every law gets the same treatment: where it came from and who found it, what it actually says, and what it means in practice — including what changes, and what doesn’t, in the age of AI. The illustrations share one visual language: skeleton screens, grey blocks, and a single blue accent, so the idea carries the weight instead of the artwork.",
+  "Start anywhere. The <a href=\"sitemap.html\">site map</a> lists every page, and the <a href=\"glossary.html\">glossary</a> covers every term. Left and right arrow keys move between pages."
+ ]
+}

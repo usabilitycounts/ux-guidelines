@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "<em>Principio</em> de Pareto"
+ ],
+ "header .tagline": [
+  "Aproximadamente el <em>80 por ciento</em> de los efectos viene del <em>20 por ciento</em> de las causas."
+ ],
+ "header .subtitle": [
+  "Vilfredo Pareto notó en 1906 que el 80 % de la tierra de Italia pertenecía al 20 % de su gente. El patrón se repite en software, soporte, rendimiento y estrategia de producto — la mayor parte del valor viene de una pequeña fracción del esfuerzo. Saber cuál 20 % es todo el juego."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> fue un economista y sociólogo italiano. En 1896 observó que aproximadamente el 80 % de la tierra de Italia pertenecía al 20 % de su gente; el pensador de gestión <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> generalizó más tarde el patrón como la regla del 80/20 y le puso el nombre de Pareto.",
+  "Pareto se formó como ingeniero y dirigió los ferrocarriles italianos antes de dedicarse a la economía en la Universidad de Lausana. Su obra más amplia sobre la circulación de las élites influyó en la sociología durante un siglo; el atajo del 80/20 vino del pionero de la gestión de calidad Joseph Juran, que lo llamó 'los pocos vitales y los muchos triviales'."
+ ],
+ ".law-content .law-desc": [
+  "Una pequeña parte de las causas produce la mayor parte del efecto. La proporción exacta no es sagrada — 70/30, 90/10 — pero el desequilibrio sí. En producto, diseño e ingeniería, encontrar la minoría de alto apalancamiento es donde el trabajo se paga solo."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Vilfredo Pareto (1896)",
+  "Cours d'économie politique",
+  "Optimiza los pocos vitales"
+ ],
+ ".card .tag": [
+  "Origen",
+  "Producto",
+  "Priorización",
+  "Rendimiento",
+  "Bugs y soporte",
+  "Contraejemplo",
+  "Trampa",
+  "Uso diario",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "De la tierra a todo lo demás",
+  "El 80 % de los usuarios toca el 20 % de las funciones",
+  "Recorta hasta los pocos críticos",
+  "La ruta caliente carga con el coste",
+  "Pocos bugs, la mayor parte del dolor",
+  "La larga cola sigue importando",
+  "La trampa de la sobrepoda",
+  "Piensa en 80/20 por defecto",
+  "La IA abarata la larga cola",
+  "El riesgo: 80 % seguro, 20 % equivocado"
+ ],
+ ".card .desc": [
+  "Pareto era un economista italiano que estudiaba la propiedad de la tierra en 1906. Notó que cerca del 80 % de la tierra estaba en manos del 20 % de la gente — y luego vio la misma distribución desequilibrada en las vainas de guisantes de su jardín. El patrón resultó estar en todas partes, y el nombre se quedó.",
+  "El equipo de Office de Microsoft descubrió, célebremente, que la mayoría de los usuarios nunca tocaba la mayoría de los menús. La misma forma se repite en casi todos los productos: un pequeño núcleo de funciones carga con la mayor parte del engagement, y el resto queda sin usar — a veces a propósito, a menudo por accidente.",
+  "Cuando todo parece importante, la jugada correcta suele ser averiguar qué 20 % del backlog impulsa el 80 % del resultado. El MVP, los roadmaps y los OKR trimestrales dependen del razonamiento de Pareto — elegir el pequeño conjunto de apuestas que cargará con la mayor parte del resultado.",
+  "Perfila cualquier sistema en producción y casi siempre encontrarás la misma forma: una pequeña fracción del código (o de las consultas, o de los recursos) es responsable de la mayor parte del tiempo. La optimización prematura se desperdicia en todo lo demás — pero en la ruta caliente, las matemáticas devuelven con creces.",
+  "Joel Spolsky, Microsoft y un sinfín de equipos de soporte han observado el mismo desequilibrio en crashes y tickets. Un puñado de bugs causa la mayor parte de la miseria visible para el usuario; el resto es larga cola. Prioriza por impacto, no por orden de llegada.",
+  "La \"larga cola\" de Chris Anderson es la advertencia: agrega suficiente del 80 % sin uso y a veces encuentras un mercado mayor que la cabeza. Amazon y Spotify construyeron negocios sobre ella. Pareto te dice dónde enfocarte primero, no qué mercados abandonar.",
+  "Una lectura ingenua de Pareto es \"recorta el 80 % que nadie usa\". Pero las funciones sin uso a menudo sirven a unos pocos usuarios críticos — accesibilidad, contables, administradores, guardias. Antes de recortar, segmenta por quién, no solo por cuántos. El 20 % de funciones del que depende el 5 % inferior suele ser estructural.",
+  "El principio es más útil como hábito. Antes de cualquier revisión, pregunta: ¿qué 20 % de usuarios, pantallas, tareas o errores carga aquí con el 80 % del peso? Rara vez responde la pregunta completa — pero casi siempre reordena el trabajo de una forma que compensa.",
+  "Pareto era en parte una afirmación sobre costes: el 80 % no valía la pena servirlo porque cada unidad era demasiado cara. Los modelos invierten eso — traducir, resumir, dar soporte o diseñar para un caso oscuro ahora cuesta casi lo mismo que para uno común. El 80 % sin uso se vuelve alcanzable.",
+  "Los modelos también invierten a Pareto de una forma más traicionera. Son geniales en el 80 % de casos comunes y peores en el 20 % de casos límite — pero suenan igual de seguros en ambos. Los modos de fallo restantes son exactamente los que duelen: raros, plausibles y sin verificar."
+ ],
+ ".meta .label": [
+  "Año",
+  "Visto primero en",
+  "Generalizado",
+  "Patrón",
+  "Aplicar",
+  "Cuidado con",
+  "Táctica",
+  "Método",
+  "Prueba",
+  "Aplicar",
+  "Omitir",
+  "Regla",
+  "Priorizar por",
+  "No por",
+  "Prueba",
+  "Cuándo",
+  "Ejemplos",
+  "No hacer",
+  "Riesgo",
+  "Segmentar por",
+  "Comprobar",
+  "Hábito",
+  "Efecto",
+  "Coste",
+  "Cambio",
+  "Ejemplos",
+  "Oportunidad",
+  "Riesgo",
+  "Solución",
+  "Siempre"
+ ],
+ ".meta .value": [
+  "1906",
+  "Tierra italiana · vainas de guisantes",
+  "Por Juran, años 40",
+  "Uso de funciones de larga cola",
+  "Pule primero el 20 %",
+  "Recortar la larga cola necesaria",
+  "Encuentra los pocos con apalancamiento",
+  "Impacto × confianza × esfuerzo",
+  "¿Podrías recortarlo a la mitad?",
+  "Perfila y luego optimiza",
+  "El otro 80 %",
+  "Mide antes de afinar",
+  "Alcance × gravedad",
+  "Orden de llegada",
+  "Ordena el registro de crashes por frecuencia",
+  "Distribuir y agregar es barato",
+  "Amazon · Spotify",
+  "Confundir foco con abandono",
+  "Recortar funciones estructurales",
+  "Quién, no solo cuántos",
+  "A11y · operaciones · usuarios avanzados",
+  "Pregunta antes de revisar",
+  "Reordena el trabajo",
+  "Cinco segundos de reflexión",
+  "La larga cola ahora es barata",
+  "Traducción · soporte · código",
+  "Servir a quien antes se omitía",
+  "Los casos límite suenan seguros",
+  "Haz visible la incertidumbre",
+  "Verifica el 20 %"
+ ],
+ ".ai-divider h3": [
+  "El principio de Pareto en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA cambia las matemáticas de la larga cola — el 80 % de casos límite que antes era demasiado caro servir ahora está al alcance."
+ ],
+ ".law-formula-note": [
+  "la proporción varía; el desequilibrio es lo importante."
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "Blickmuster"
+ ],
+ "header .tagline": [
+  "Wie Nutzer ein Interface <em>wirklich</em> lesen"
+ ],
+ "header .subtitle": [
+  "Jahrzehnte der Eye-Tracking-Forschung zeigen: Menschen lesen Interfaces nicht — sie scannen sie in vorhersehbaren Formen. Hier sind die sechs Muster und wo jedes auftaucht."
+ ],
+ ".law-origin .body-text": [
+  "Die Blickmuster stammen aus zwei Jahrzehnten Eye-Tracking-Forschung der Nielsen Norman Group, der Beratung, die <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> und <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> 1998 gründeten. Ihre F-Muster-Studie von 2006, basierend auf Aufzeichnungen Hunderter Nutzer beim Lesen Tausender Seiten, wurde einer der meistzitierten Befunde der Web-Usability.",
+  "Folgestudien erweiterten das Bild: Die F-Form ist das, worauf Menschen zurückfallen, wenn eine Seite ihnen keine bessere Struktur gibt. Starke Überschriften, vorangestellte Kernaussagen und klare visuelle Hierarchie ersetzen träges Scannen durch zielgerichtetes Lesen."
+ ],
+ ".law-content .law-desc": [
+  "Menschen lesen Interfaces selten Wort für Wort. Sie scannen in vorhersehbaren Formen — F, Z, Schichttorte, gefleckt — bestimmt durch die Struktur der Seite und ihr Ziel. Für den Scan gestalten, nicht für das Lesen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsens Eye-Tracking-Team",
+  "F-Shaped Pattern for Reading Web Content",
+  "Überschriften und Schlüsselwörter voranstellen"
+ ],
+ ".card .tag": [
+  "Textlastige Seiten",
+  "Sparsame Layouts",
+  "Endloses Scrollen",
+  "Gezieltes Scannen",
+  "Hierarchiegetrieben",
+  "Repetitiver Inhalt",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "F-Muster",
+  "Z-Muster",
+  "Markierungsmuster",
+  "Geflecktes Muster",
+  "Schichttorten-Muster",
+  "Umgehungsmuster",
+  "KI-Zusammenfassungen kürzen das Scannen ab",
+  "Scannen nach Quellenangaben"
+ ],
+ ".card .desc": [
+  "Nutzer lesen den oberen Seitenbereich quer, rutschen etwas nach unten und scannen einen Teil der nächsten Zeile, dann wandern die Augen die linke Kante hinunter — die Form eines F. Dominant auf textlastigen Seiten mit schwacher visueller Hierarchie.",
+  "Die Augen wandern über den oberen Rand, diagonal hinunter nach links unten, dann über den unteren Rand — ein Z. Häufig auf sparsamen Seiten mit wenigen Fokuspunkten und einem klaren Call-to-Action.",
+  "Der Blick des Lesers klebt beim Scrollen an einem vertikalen Band — typischerweise der mittleren Spalte. Häufig auf Mobilgeräten und beim Lesen mit endlosem Scrollen, wo Cursor oder Daumen das Auge führen.",
+  "Nutzer überspringen große Inhaltsblöcke und landen auf visuell markanten Stellen — Buttons, Preisen, Zahlen oder Fettdruck — wie beim Finden von Bedeutungsinseln in einem Meer aus Text.",
+  "Die Augen gleiten von Überschrift zu Überschrift die Seite hinunter und überspringen den Fließtext komplett — sie tauchen nur ein, wenn eine Überschrift etwas Relevantes verspricht. Die Hierarchie trägt das gesamte Erlebnis.",
+  "Wenn Zeilen mit denselben Wörtern beginnen — „Schritt 1:“, „Hinweis:“ oder dem identischen Anfangswort in jeder Tabellenzeile — überspringen Leser den Präfix komplett und springen direkt zum einzigartigen Inhalt. Es ist das dominante Muster beim Scannen von Tabellen und Listen strukturierter Information, wo das Auge den redundanten Text jeder Spalte umgeht.",
+  "Sitzt eine generierte Antwort über der Seite, lesen Nutzer sie, statt zu scannen, was darunter liegt. Die F- und Z-Muster kollabieren zu „die Antwort lesen, vielleicht kurz nach unten schauen“.",
+  "In einer KI-Antwort ist das neue Fixationsziel die Quellenangabe. Nutzer überfliegen die Prosa, um die Quelle zu finden — und anzuklicken —, die die Behauptung belegt, bevor sie ihr vertrauen."
+ ],
+ ".meta .label": [
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Wirkung",
+  "Achtung",
+  "Gestalten für",
+  "Neues Ziel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Leser, die dichten Text überfliegen",
+  "Artikel · Suchergebnisse · Lange Texte",
+  "Kerninfo voranstellen; Zwischentitel fetten",
+  "Besucher auf der Suche nach einem CTA",
+  "Landingpages · Marketing-Splash",
+  "CTA an die Endpunkte setzen",
+  "Mobile / scrollfokussierte Nutzer",
+  "Lange Artikel · Mobile Feeds",
+  "Kritische Infos mittig ausrichten",
+  "Zielorientierte Suchende",
+  "Suchergebnisse · Produktspezifikationen",
+  "Ziele visuell abheben",
+  "Entschlossene, eilige Leser",
+  "Strukturierte Dokus · Langform-Seiten",
+  "Überschriften müssen sich selbst erklären",
+  "Prozedurale / anleitungsorientierte Leser",
+  "Tabellen · Listen · Tutorials · Schrittfolgen",
+  "Anfänge variieren; mit dem Einzigartigen beginnen",
+  "Scannen wird durch Lesen ersetzt",
+  "Antwort falsch, Seite ignoriert",
+  "Eine vertrauenswürdige, überfliegbare Antwort",
+  "Quellenlinks · Zitate",
+  "Antworten machen Faktenaussagen",
+  "Unbelegbarer selbstsicherer Text"
+ ],
+ ".meta-cell .label": [
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge",
+  "Zielgruppe",
+  "Kontext",
+  "Folge"
+ ],
+ ".meta-cell .value": [
+  "Leser, die dichten Text überfliegen",
+  "Artikel · Suchergebnisse · Lange Texte",
+  "Kerninfo voranstellen; Zwischentitel fetten",
+  "Besucher auf der Suche nach einem CTA",
+  "Landingpages · Marketing-Splash",
+  "CTA an die Endpunkte setzen",
+  "Mobile / scrollfokussierte Nutzer",
+  "Lange Artikel · Mobile Feeds",
+  "Kritische Infos mittig ausrichten",
+  "Zielorientierte Suchende",
+  "Suchergebnisse · Produktspezifikationen",
+  "Ziele visuell abheben",
+  "Entschlossene, eilige Leser",
+  "Strukturierte Dokus · Langform-Seiten",
+  "Überschriften müssen sich selbst erklären",
+  "Prozedurale / anleitungsorientierte Leser",
+  "Tabellen · Listen · Tutorials · Schrittfolgen",
+  "Anfänge variieren; mit dem Einzigartigen beginnen"
+ ],
+ ".ai-divider h3": [
+  "Blickmuster im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Sitzt eine KI-Antwort oben auf der Seite, weichen die klassischen Scanmuster dem Lesen der Antwort — und dem Prüfen ihrer Quellen."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Kontur-<em>Bias</em>"
+ ],
+ "header .tagline": [
+  "Rund entspannt. Spitz alarmiert."
+ ],
+ "header .subtitle": [
+  "Moshe Bar und Maital Neta zeigten 2006, dass Menschen runde Objekte spitzen vorziehen — kantige Konturen wirken auf den ersten Blick wie eine Bedrohung. Rundung beruhigt; Schärfe fordert Aufmerksamkeit. Beides sind Werkzeuge."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)\" target=\"_blank\" rel=\"noopener\">Moshe Bar</a> und Maital Neta zeigten in Harvard Paare von Alltagsobjekten — identisch bis auf die Kontur — für den Bruchteil einer Sekunde. Die Betrachter bevorzugten durchgängig die runden Versionen, selbst ohne Zeit zum Nachdenken.",
+  "Ihre Folgearbeit benannte den Mechanismus: Spitze Objekte aktivierten stärker die Amygdala, den Bedrohungsdetektor des Gehirns. Die Vorliebe für Kurven ist kein Geschmack — sie ist ein schnelles, tief sitzendes Sicherheitsurteil, das vor dem bewussten Denken feuert."
+ ],
+ ".law-content .law-desc": [
+  "Auf den ersten Blick wirken runde Konturen sicher und zugänglich, spitze potenziell bedrohlich. Die Reaktion ist schnell, automatisch und unter Zeitdruck am stärksten — genau so, wie Interfaces betrachtet werden."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-moshe-bar\">Moshe Bar</a> und <a href=\"people.html#p-maital-neta\">Maital Neta</a> (2006)",
+  "„Humans Prefer Curved Visual Objects“",
+  "Runden zum Beruhigen, schärfen zum Warnen"
+ ],
+ ".card .tag": [
+  "Die Forschung",
+  "Mechanismus",
+  "Praxis",
+  "Kontrast",
+  "Grenze",
+  "System",
+  "Im KI-Zeitalter",
+  "Im KI-Zeitalter"
+ ],
+ ".card h3": [
+  "Die Vorliebe im Sekundenbruchteil",
+  "Spitz wirkt bedrohlich",
+  "Warum Buttons rund wurden",
+  "Schärfen zum Warnen",
+  "Ein Bias, keine Regel",
+  "Eine Rundung, überall",
+  "Der Radius-12-Standard",
+  "Gerundet, um zu entwaffnen"
+ ],
+ ".card .desc": [
+  "Uhren, Sofas, Buchstaben — 84 Millisekunden lang rund oder kantig gezeigt. Rund gewann, Kategorie für Kategorie. Die Vorliebe blieb, auch wenn niemand sie begründen konnte — das Kennzeichen eines vorbewussten Urteils.",
+  "Die anschließende Bildgebungsstudie zeigte spitze Konturen, die die Amygdala aufleuchten ließen. Kanten und Spitzen ähneln dem, was schneidet und sticht — das Gehirn meldet sie zuerst und fragt nie nach. Designer erben diese Verdrahtung.",
+  "Abgerundete Ecken an Buttons, Karten, Feldern und Avataren senken das gefühlte Risiko der Interaktion. Ein Pill-Button sagt „gefahrlos drückbar“, bevor das Label gelesen ist. Der Radius leistet emotionale Arbeit, keine Dekoration.",
+  "Die Bedrohungsreaktion wird zur Stärke, wenn die Botschaft Gefahr lautet. Warndreiecke, Fehler-Badges und Chevrons funktionieren, weil sie kantig sind. Ein Alert mit weichen Ecken flüstert; derselbe Alert mit Spitzen schreit.",
+  "Kontext kann die Kontur überstimmen. Präzisionswerkzeuge, Luxusmarken und Editorial Design nutzen scharfe Geometrie als Zeichen von Strenge — und Rundung überall kann weich oder kindlich wirken. Erst das Gefühl wählen, dann die Ecke.",
+  "Der Eckenradius ist ein Design-Token, und gemischte Radien sind der Grund, warum sich Interfaces falsch anfühlen, ohne dass jemand weiß warum. Wählen Sie eine Rundungsskala — scharf, dezent oder rund — und lassen Sie alles ihr folgen.",
+  "Wer ein Modell nach einer UI fragt, bekommt dieselben sanften Ecken wie alle anderen — eine Rundung aus Statistik, nicht aus Absicht. Wenn alles gleich rund ist, trägt die Kontur keine Marke mehr. Setzen Sie Ihren Radius mit Absicht.",
+  "Assistenten, Roboter und KI-Maskottchen sind absichtlich weich gestaltet — Kugeln, Blobs, sanfte Bögen — weil Kurven die Wachsamkeit senken. In Ordnung, wenn das System harmlos ist; manipulativ, wenn Rundung verbirgt, was ein System tut."
+ ],
+ ".meta .label": [
+  "Darbietung",
+  "Urteil",
+  "Kennzeichen",
+  "Region",
+  "Muster",
+  "Tempo",
+  "Wo",
+  "Botschaft",
+  "Der Radius ist",
+  "Spitz dient",
+  "Weicher Alert",
+  "Kantiger Alert",
+  "Spitz signalisiert",
+  "Risiko der Rundung",
+  "Reihenfolge",
+  "Der Radius ist",
+  "Gemischte Radien",
+  "Lösung",
+  "Standard",
+  "Kosten",
+  "Kurven senken",
+  "Leitlinie"
+ ],
+ ".meta .value": [
+  "84 Millisekunden",
+  "Rund, durchgängig",
+  "Vorbewusst, nicht überlegt",
+  "Die Amygdala",
+  "Spitzen bedeuten Gefahr",
+  "Vor dem bewussten Denken",
+  "Buttons · Karten · Felder",
+  "Gefahrlos drückbar",
+  "Emotional, nicht dekorativ",
+  "Warnungen und Gefahren",
+  "Flüstert",
+  "Schreit",
+  "Strenge · Präzision · Kante",
+  "Weich oder kindlich",
+  "Erst Gefühl, dann Ecke",
+  "Ein Token, keine Laune",
+  "Fühlt sich unsichtbar falsch an",
+  "Eine Rundungsskala",
+  "Statistische Ecken",
+  "Kontur trägt keine Marke mehr",
+  "Die Wachsamkeit der Nutzer",
+  "Beruhigen, nie verbergen"
+ ],
+ ".ai-divider h3": [
+  "Der Kontur-Bias im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Generierte Interfaces liefern denselben freundlichen Radius als Standard, und KI-Produkte runden sich, um harmlos zu wirken. Rundung ist Rhetorik geworden — nutzen Sie sie ehrlich."
+ ]
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-page="serial-position">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows.">
+<title>Serial Position Effect: Primacy, Recency, and List Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/serial-position-effect.html">
+<meta property="og:title" content="Serial Position Effect: Primacy, Recency, and List Design — UX Guidelines">
+<meta property="og:description" content="Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/serial-position-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Serial Position Effect: Primacy, Recency, and List Design — UX Guidelines">
+<meta name="twitter:description" content="Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link active">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Serial Position <em>Effect</em></h1>
+  <p class="tagline">First and last stick. The middle fades.</p>
+  <p class="subtitle">Hermann Ebbinghaus found that people best recall the first and last items in a series — primacy and recency — while the middle blurs. The effect decides what goes at the ends of your menus, lists, and flows.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Hermann_Ebbinghaus" target="_blank" rel="noopener">Hermann Ebbinghaus</a>, the German psychologist who founded the experimental study of memory, documented the serial position effect in the 1880s — memorizing thousands of nonsense syllables on himself and plotting where recall failed.</p>
+    <p class="body-text">His curves showed recall highest at the start of a list (primacy — items get rehearsed into long-term memory) and at the end (recency — items still sit in working memory), with a sag in the middle. The same experiments produced the forgetting curve and the spacing effect.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">When people recall a series, performance forms a U: the first items benefit from rehearsal into long-term memory, the last from still being in working memory, and the middle items lose both advantages. In interfaces, position is a memory decision.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-hermann-ebbinghaus">Hermann Ebbinghaus</a> (1885)</div></div>
+      <div><div class="label">Source</div><div class="value">Memory: A Contribution to Experimental Psychology</div></div>
+      <div><div class="label">In practice</div><div class="value">Ends carry the weight</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Primacy</span>
+      <span class="num">01 / 08</span>
+      <h3>First Impressions Get Rehearsed</h3>
+      <p class="desc">The first items in any sequence get the most attention and the most rehearsal — users return to them mentally while processing the rest. The first menu item, first onboarding screen, and first bullet do disproportionate work.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row hot"><i class="w-36"></i></div><div class="row"><i class="w-30"></i></div><div class="row"><i class="w-33"></i></div><div class="row"><i class="w-27"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Position</div><div class="value">First</div></div>
+      <div><div class="label">Mechanism</div><div class="value">Rehearsal into memory</div></div>
+      <div><div class="label">Use for</div><div class="value">Core action · key claim</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Recency</span>
+      <span class="num">02 / 08</span>
+      <h3>The Last Thing Lingers</h3>
+      <p class="desc">The final items sit fresh in working memory when the sequence ends. The last screen of a flow, the closing line of a dialog, and the bottom action in a sheet are recalled almost as well as the first.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-30"></i></div><div class="row"><i class="w-34"></i></div><div class="row"><i class="w-26"></i></div><div class="row hot"><i class="w-38"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Position</div><div class="value">Last</div></div>
+      <div><div class="label">Mechanism</div><div class="value">Working memory</div></div>
+      <div><div class="label">Use for</div><div class="value">Confirmation · next step</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The curve</span>
+      <span class="num">03 / 08</span>
+      <h3>The U-Shaped Recall Curve</h3>
+      <p class="desc">Plot recall against position and the shape is a U — high at both ends, sagging in the middle. Anything that must be remembered from the middle of a sequence needs extra help: emphasis, repetition, or relocation.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,22 C 40,72 70,92 100,94 C 130,92 165,64 188,30" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:6%;top:18%"></span><span class="pt" style="left:94%;top:25%"></span><span class="pt g" style="left:50%;top:78%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Shape</div><div class="value">High ends, low middle</div></div>
+      <div><div class="label">Primacy</div><div class="value">Long-term memory</div></div>
+      <div><div class="label">Recency</div><div class="value">Working memory</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Navigation</span>
+      <span class="num">04 / 08</span>
+      <h3>Anchor the Ends of the Nav</h3>
+      <p class="desc">Put the most important destinations first and last in menus and tab bars — Home at one end, the profile or cart at the other. The middle is where secondary destinations live comfortably.</p>
+    </div>
+    <div class="demo"><div class="il" style="justify-content:flex-start;gap:12px"><div style="display:flex;gap:10px;align-items:center"><span style="width:16%;height:8px;border-radius:4px;background:var(--il-accent);display:block"></span><span class="ln faint w-12"></span><span class="ln faint w-12"></span><span class="ln faint w-12"></span><span style="width:16%;height:8px;border-radius:4px;background:var(--il-accent);display:block;margin-left:auto"></span></div><span class="ln faint w-88"></span><span class="ln faint w-76"></span><span class="ln faint w-82"></span></div></div>
+    <div class="meta">
+      <div><div class="label">First slot</div><div class="value">Primary destination</div></div>
+      <div><div class="label">Last slot</div><div class="value">Second anchor</div></div>
+      <div><div class="label">Middle</div><div class="value">Secondary items</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The middle</span>
+      <span class="num">05 / 08</span>
+      <h3>Put the Middle to Work</h3>
+      <p class="desc">The sag isn’t wasted space — it’s where low-stakes items belong. Settings sub-pages, edge-case options, and legal links can live mid-list without cost, freeing the ends for what must be found and remembered.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-34"></i></div><div class="row ghost"></div><div class="row ghost"></div><div class="row ghost"></div><div class="row"><i class="w-30"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Middle is for</div><div class="value">Low-stakes items</div></div>
+      <div><div class="label">Ends are for</div><div class="value">Findable · memorable</div></div>
+      <div><div class="label">Watch for</div><div class="value">Burying essentials</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Flows</span>
+      <span class="num">06 / 08</span>
+      <h3>Sequence Steps Like a Story</h3>
+      <p class="desc">In onboarding and checkout, users remember how it started and how it ended. Lead with the value, end with the win — and keep the tedious parts (forms, permissions) in the middle where they blur.</p>
+    </div>
+    <div class="demo"><div class="il gap-14"><div class="stepper" style="gap:22px;justify-content:center"><span class="nd b"></span><span class="nd"></span><span class="nd"></span><span class="nd b"></span></div><span class="ln faint w-70"></span><span class="ln faint w-54"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Open with</div><div class="value">The value</div></div>
+      <div><div class="label">Close with</div><div class="value">The win</div></div>
+      <div><div class="label">Bury</div><div class="value">The paperwork</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Serial Position in the Age of AI</h3>
+    <p>Models have their own middle problem — long contexts recall their start and end best. The old memory curve found a new machine.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>Prompts Have Ends Too</h3>
+      <p class="desc">Instructions at the start and end of a long prompt are followed more reliably than ones buried in the middle. The same primacy-recency shape that governs human lists governs what a model attends to.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub w-84"><span class="l" style="width:90%;background:var(--il-accent);opacity:1"></span><span class="l w-84"></span><span class="l w-88"></span><span class="l w-80"></span><span class="l" style="width:62%;background:var(--il-accent);opacity:1"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Key rules first and last</div></div>
+      <div><div class="label">Middle</div><div class="value">Context, not commands</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Lost in the Middle</h3>
+      <p class="desc">Long-context models recall the start and end of their context best — retrieval quality sags for material in between. Feed a model a hundred documents and the middle ones need the most deliberate surfacing.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,26 C 50,80 90,94 100,94 C 120,92 160,70 188,32" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:6%;top:22%"></span><span class="pt g" style="left:50%;top:78%"></span><span class="pt" style="left:94%;top:27%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Known as</div><div class="value">Lost-in-the-middle</div></div>
+      <div><div class="label">Counter</div><div class="value">Rerank · cite · chunk</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://psychclassics.yorku.ca/Ebbinghaus/index.htm" target="_blank" rel="noopener"><span class="title">Memory: A Contribution to Experimental Psychology — Ebbinghaus, 1885</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Serial-position_effect" target="_blank" rel="noopener"><span class="title">Serial-Position Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Hermann_Ebbinghaus" target="_blank" rel="noopener"><span class="title">Hermann Ebbinghaus — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Forgetting_curve" target="_blank" rel="noopener"><span class="title">Forgetting Curve</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/serial-position-effect/" target="_blank" rel="noopener"><span class="title">Serial Position Effect on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Serial Position Effect</div>
+</footer>
+
+</body>
+</html>

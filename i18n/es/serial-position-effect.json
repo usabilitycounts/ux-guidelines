@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Efecto</em> de posición serial"
+ ],
+ "header .tagline": [
+  "Lo primero y lo último se quedan. El medio se difumina."
+ ],
+ "header .subtitle": [
+  "Hermann Ebbinghaus descubrió que las personas recuerdan mejor los primeros y los últimos elementos de una serie — primacía y recencia — mientras el medio se desdibuja. El efecto decide qué va en los extremos de tus menús, listas y flujos."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, el psicólogo alemán que fundó el estudio experimental de la memoria, documentó el efecto de posición serial en la década de 1880 — memorizando miles de sílabas sin sentido sobre sí mismo y trazando dónde fallaba el recuerdo.",
+  "Sus curvas mostraban el recuerdo más alto al inicio de una lista (primacía — los elementos se ensayan hasta la memoria a largo plazo) y al final (recencia — los elementos aún están en la memoria de trabajo), con una caída en el medio. Los mismos experimentos produjeron la curva del olvido y el efecto de espaciado."
+ ],
+ ".law-content .law-desc": [
+  "Cuando las personas recuerdan una serie, el rendimiento forma una U: los primeros elementos se benefician del ensayo hacia la memoria a largo plazo, los últimos de seguir en la memoria de trabajo, y los del medio pierden ambas ventajas. En las interfaces, la posición es una decisión de memoria."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Hermann Ebbinghaus (1885)",
+  "Memory: A Contribution to Experimental Psychology",
+  "Los extremos cargan el peso"
+ ],
+ ".card .tag": [
+  "Primacía",
+  "Recencia",
+  "La curva",
+  "Navegación",
+  "El medio",
+  "Flujos",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Las primeras impresiones se ensayan",
+  "Lo último perdura",
+  "La curva de recuerdo en U",
+  "Ancla los extremos de la navegación",
+  "Pon el medio a trabajar",
+  "Secuencia los pasos como una historia",
+  "Los prompts también tienen extremos",
+  "Perdido en el medio"
+ ],
+ ".card .desc": [
+  "Los primeros elementos de cualquier secuencia reciben la mayor atención y el mayor ensayo — los usuarios vuelven a ellos mentalmente mientras procesan el resto. El primer elemento del menú, la primera pantalla de onboarding y el primer punto de una lista hacen un trabajo desproporcionado.",
+  "Los elementos finales están frescos en la memoria de trabajo cuando la secuencia termina. La última pantalla de un flujo, la línea de cierre de un diálogo y la acción inferior de una hoja se recuerdan casi tan bien como los primeros.",
+  "Representa el recuerdo frente a la posición y la forma es una U — alta en ambos extremos, hundida en el medio. Cualquier cosa que deba recordarse desde el medio de una secuencia necesita ayuda extra: énfasis, repetición o reubicación.",
+  "Coloca los destinos más importantes al principio y al final de menús y barras de pestañas — Inicio en un extremo, el perfil o el carrito en el otro. El medio es donde los destinos secundarios viven cómodamente.",
+  "La caída no es espacio desperdiciado — es donde pertenecen los elementos de bajo riesgo. Las subpáginas de ajustes, las opciones de casos límite y los enlaces legales pueden vivir a mitad de lista sin coste, liberando los extremos para lo que debe encontrarse y recordarse.",
+  "En el onboarding y el checkout, los usuarios recuerdan cómo empezó y cómo terminó. Abre con el valor, cierra con la victoria — y deja las partes tediosas (formularios, permisos) en el medio, donde se difuminan.",
+  "Las instrucciones al principio y al final de un prompt largo se siguen con más fiabilidad que las enterradas en el medio. La misma forma de primacía y recencia que gobierna las listas humanas gobierna a qué atiende un modelo.",
+  "Los modelos de contexto largo recuerdan mejor el inicio y el final de su contexto — la calidad de recuperación se hunde para el material intermedio. Dale a un modelo cien documentos y los del medio necesitarán el realce más deliberado."
+ ],
+ ".meta .label": [
+  "Posición",
+  "Mecanismo",
+  "Usar para",
+  "Posición",
+  "Mecanismo",
+  "Usar para",
+  "Forma",
+  "Primacía",
+  "Recencia",
+  "Primer puesto",
+  "Último puesto",
+  "Medio",
+  "El medio es para",
+  "Los extremos son para",
+  "Cuidado con",
+  "Abrir con",
+  "Cerrar con",
+  "Enterrar",
+  "Patrón",
+  "Medio",
+  "Conocido como",
+  "Contramedida"
+ ],
+ ".meta .value": [
+  "Primero",
+  "Ensayo hacia la memoria",
+  "Acción central · afirmación clave",
+  "Último",
+  "Memoria de trabajo",
+  "Confirmación · siguiente paso",
+  "Extremos altos, medio bajo",
+  "Memoria a largo plazo",
+  "Memoria de trabajo",
+  "Destino primario",
+  "Segundo ancla",
+  "Elementos secundarios",
+  "Elementos de bajo riesgo",
+  "Encontrable · memorable",
+  "Enterrar lo esencial",
+  "El valor",
+  "La victoria",
+  "El papeleo",
+  "Reglas clave al principio y al final",
+  "Contexto, no órdenes",
+  "Lost-in-the-middle",
+  "Reordenar · citar · trocear"
+ ],
+ ".ai-divider h3": [
+  "La posición serial en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos tienen su propio problema con el medio — los contextos largos recuerdan mejor su inicio y su final. La vieja curva de la memoria encontró una máquina nueva."
+ ]
+}

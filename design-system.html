@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A canonical reference for every token, component, and pattern used across the site. If it appears more than once, it lives here.">
+<title>Design System — UX Guidelines (internal)</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/design-system.html">
+<meta property="og:title" content="Design System — UX Guidelines (internal)">
+<meta property="og:description" content="A canonical reference for every token, component, and pattern used across the site. If it appears more than once, it lives here.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/design-system.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Design System — UX Guidelines (internal)">
+<meta name="twitter:description" content="A canonical reference for every token, component, and pattern used across the site. If it appears more than once, it lives here.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+
+    /* Page accents (one per topic page) */
+    --eye-f:    #d4380d;
+    --eye-z:    #b45309;
+    --eye-mk:   #0e7490;
+    --eye-sp:   #a16207;
+    --eye-lc:   #166534;
+    --eye-by:   #6d28d9;
+    --eye-co:   #be185d;
+
+    --niel-1:   #0e7490;
+    --niel-2:   #b45309;
+    --niel-3:   #d4380d;
+    --niel-4:   #166534;
+    --niel-5:   #be185d;
+    --niel-6:   #6d28d9;
+
+    --dv-bar:   #166534;
+    --dv-line:  #d4380d;
+    --dv-area:  #b45309;
+    --dv-pie:   #be185d;
+    --dv-scat:  #0e7490;
+    --dv-tree:  #1e40af;
+
+    --gr-12:    #1e3a8a;
+    --gr-mod:   #0d9488;
+    --gr-base:  #c2410c;
+    --gr-gold:  #ca8a04;
+    --gr-aln:   #4f46e5;
+
+    --ge-prox:  #ea580c;
+    --ge-sim:   #0891b2;
+    --ge-clos:  #c026d3;
+    --ge-fig:   #15803d;
+
+    --fi-law:   #1e293b;
+    --fi-bg:    #059669;
+    --fi-cl:    #ea580c;
+    --fi-pri:   #0891b2;
+  }
+
+  code, .mono { font-family: 'JetBrains Mono', monospace; }
+
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .brand {
+    font-size: var(--fs-body);
+    font-weight: 600;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .internal-tag {
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    font-weight: 500;
+    padding: 4px 10px;
+    border: 1px solid var(--border);
+    border-radius: 3px;
+  }
+
+  /* ---------- Section ---------- */
+  .section {
+    padding: 60px 32px;
+    border-bottom: 1px solid var(--border);
+  }
+  .section + .section { border-top: 0; }
+  .section h2 {
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .section h3 {
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-top: 36px;
+    margin-bottom: 18px;
+  }
+  .section h3:first-child { margin-top: 0; }
+
+  /* ---------- Color swatches ---------- */
+  .swatch-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+    gap: 16px;
+  }
+  .swatch {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .swatch-color {
+    height: 80px;
+  }
+  .swatch-meta {
+    padding: 12px 14px 14px;
+  }
+  .swatch-name {
+    font-size: var(--fs-label);
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .swatch-var {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    margin-top: 4px;
+  }
+  .swatch-hex {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    margin-top: 2px;
+  }
+
+  .accent-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr));
+    gap: 8px;
+  }
+  .accent-cell {
+    border-radius: 6px;
+    padding: 14px;
+    color: var(--text-inverse);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--fs-caption);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 88px;
+  }
+  .accent-name {
+    font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: var(--fs-tag);
+    font-weight: 600;
+    opacity: 0.85;
+  }
+
+  /* ---------- Typography ---------- */
+  .type-row {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 24px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: baseline;
+  }
+  .type-row:last-child { border-bottom: 0; }
+  .type-spec {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    line-height: var(--lh-body);
+  }
+  .type-spec strong {
+    color: var(--text-primary);
+    font-weight: 500;
+  }
+
+  /* ---------- Component examples ---------- */
+  .demo-frame {
+    background: var(--demo-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+  }
+  .demo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr));
+    gap: 16px;
+  }
+  .demo-cell {
+    background: var(--demo-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .demo-cell .label {
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+
+  /* Tag */
+  .tag {
+    display: inline-block;
+    font-size: var(--fs-tag);
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+
+  /* Button */
+  .btn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: var(--fs-label);
+    font-weight: 500;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-primary);
+    font-family: inherit;
+    cursor: pointer;
+  }
+  .btn.primary {
+    background: var(--ink);
+    color: var(--text-inverse);
+    border-color: var(--ink);
+  }
+  .btn.danger {
+    background: var(--eye-co);
+    color: var(--text-inverse);
+    border-color: var(--eye-co);
+  }
+
+  .hamburger-preview {
+    background: none; border: none; cursor: pointer;
+    width: 36px; height: 36px;
+    padding: 6px;
+    display: inline-flex; align-items: center; justify-content: center;
+    color: var(--text-primary);
+    border-radius: 4px;
+  }
+
+  /* Meta cell */
+  .meta-cell {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px 18px;
+  }
+
+  /* Card preview */
+  .card-preview {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 32px 28px;
+    max-width: 380px;
+  }
+  .card-num {
+    font-size: var(--fs-label);
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-right: 14px;
+  }
+  .card-title { display: inline; font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; 
+    font-size: var(--fs-h2);
+    font-weight: 600;
+    display: inline;
+  }
+  .card-desc {
+    font-size: var(--fs-body);
+    color: var(--text-secondary);
+    line-height: var(--lh-body);
+    margin-top: 12px;
+  }
+  .card-section-divider {
+    border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+
+  /* Pattern: browser frame — canonical spec from design.md */
+  .pattern-browser-frame {
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 460px;
+  }
+  .pattern-browser-frame .toolbar { height: 30px; background: #ececec; border-bottom: 1.5px solid var(--border); display: flex; align-items: center; gap: 8px; padding: 0 14px; flex: none; }
+  .pattern-browser-frame .dot { width: 13px; height: 13px; border-radius: 50%; background: #9a9a9a; }
+  .pattern-browser-frame .url-pill {
+    flex: 1;
+    height: 13px;
+    border-radius: 6.5px;
+    background: rgba(107, 107, 107,0.22);
+    margin-left: 10px;
+  }
+  .pattern-browser-frame .body {
+    padding: 18px;
+    height: 200px;
+    background: var(--surface);
+  }
+
+  /* Pattern: chat window — mini browser used in AI sections */
+  .pattern-chat-window {
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 320px;
+  }
+  .pattern-chat-window .toolbar { height: 30px; background: #ececec; border-bottom: 1.5px solid var(--border); display: flex; align-items: center; gap: 8px; padding: 0 14px; flex: none; }
+  .pattern-chat-window .dot { width: 13px; height: 13px; border-radius: 50%; background: #9a9a9a; }
+  .pattern-chat-window .url-pill {
+    flex: 1; height: 13px; border-radius: 6.5px; background: rgba(107, 107, 107,0.22); margin-left: 10px;
+  }
+  .pattern-chat-window .body { padding: 16px; display: flex; flex-direction: column; gap: 10px; height: 200px; }
+  .bubble-user, .bubble-ai {
+    padding: 8px 12px; border-radius: 12px; font-size: var(--fs-tag); max-width: 80%;
+  }
+
+  /* Pattern: demo container — beige sandbox that holds illustrations */
+  .pattern-demo {
+    background: var(--demo-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 22px;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pattern-demo .demo-label {
+    position: absolute; top: 14px; left: 22px;
+    font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500;
+  }
+
+  /* Pattern: skeleton primitives — building blocks inside browser frames.
+     All use #9a9a9a so the skeleton recedes behind annotations / scan paths. */
+
+  /* Text */
+  
+  .skel-nav span { height: 6px; background: #9a9a9a; border-radius: 2px; }
+
+  /* Interactive */
+  .skel-button   { display: inline-block; height: 22px; min-width: 64px; background: #9a9a9a; border-radius: 4px; }
+  .skel-button-primary { display: inline-block; height: 22px; min-width: 64px; background: var(--ink); border-radius: 4px; }
+  .skel-input    { height: 22px; background: transparent; border: 1px solid #9a9a9a; border-radius: 4px; }
+  .skel-checkbox { display: inline-block; width: 12px; height: 12px; border: 1.5px solid #9a9a9a; border-radius: 2px; vertical-align: middle; }
+  .skel-radio    { display: inline-block; width: 12px; height: 12px; border: 1.5px solid #9a9a9a; border-radius: 50%; vertical-align: middle; }
+  .skel-toggle   { display: inline-block; width: 22px; height: 12px; background: #9a9a9a; border-radius: 6px; vertical-align: middle; position: relative; }
+  .skel-toggle::after { content: ''; position: absolute; top: 1px; right: 1px; width: 10px; height: 10px; background: var(--surface); border-radius: 50%; }
+
+  /* Media / identity */
+  .skel-avatar   { display: inline-block; width: 24px; height: 24px; background: #9a9a9a; border-radius: 50%; vertical-align: middle; }
+  .skel-icon     { display: inline-block; width: 14px; height: 14px; background: #9a9a9a; border-radius: 3px; vertical-align: middle; }
+  .skel-thumb    { background: #9a9a9a; border-radius: 4px; width: 48px; height: 48px; }
+
+  /* Pills / tags */
+  .skel-tag      { display: inline-block; height: 14px; min-width: 40px; padding: 0 8px; background: rgba(196,187,167,0.45); border-radius: 7px; }
+  .skel-badge    { display: inline-block; width: 14px; height: 14px; background: var(--ink); color: var(--text-inverse); border-radius: 50%; font-size: var(--fs-caption); line-height: var(--lh-base); text-align: center; }
+
+  /* Structure */
+  .skel-divider  { height: 1px; background: #9a9a9a; margin: 12px 0; opacity: 0.6; }
+  .skel-breadcrumb { display: flex; align-items: center; gap: 6px; }
+  .skel-breadcrumb span { height: 6px; background: #9a9a9a; border-radius: 2px; }
+  .skel-breadcrumb .sep { width: 4px; height: 4px; background: #9a9a9a; border-radius: 50%; opacity: 0.6; }
+  .skel-tabs { display: flex; gap: 14px; border-bottom: 1px solid #9a9a9a; padding-bottom: 6px; }
+  .skel-tabs span { height: 6px; width: 36px; background: #9a9a9a; border-radius: 2px; opacity: 0.5; }
+  .skel-tabs span.active { opacity: 1; }
+
+  /* Layout blocks */
+  .skel-card     { background: #9a9a9a; border-radius: 4px; opacity: 0.35; padding: 10px; }
+  .skel-card 
+  .skel-sidebar  { width: 60px; height: 100%; background: #9a9a9a; border-radius: 4px; opacity: 0.45; }
+  .skel-footer   { display: flex; gap: 14px; padding-top: 8px; border-top: 1px solid #9a9a9a; opacity: 0.7; }
+  .skel-footer span { height: 5px; width: 40px; background: #9a9a9a; border-radius: 2px; }
+
+  /* Table */
+  .skel-table { display: grid; gap: 6px; }
+  .skel-row   { display: grid; grid-template-columns: 1.4fr 1fr 1fr 0.6fr; gap: 10px; align-items: center; }
+  .skel-row span { height: 6px; background: #9a9a9a; border-radius: 2px; }
+  .skel-row.header span { height: 4px; opacity: 0.55; }
+
+  /* Data viz */
+  .skel-bars { display: flex; align-items: flex-end; gap: 6px; height: 60px; }
+  .skel-bars span { flex: 1; background: #9a9a9a; border-radius: 2px 2px 0 0; }
+  .skel-spark { width: 100%; height: 24px; }
+  .skel-spark path { fill: none; stroke: #9a9a9a; stroke-width: 1.5; }
+
+  /* Legacy aliases kept so existing examples still render */
+  .browser-preview { background: var(--surface); border: 1.5px solid var(--border); border-radius: 14px; overflow: hidden; width: 100%; max-width: 460px; }
+  .browser-toolbar { height: 30px; background: #ececec; border-bottom: 1.5px solid var(--border); display: flex; align-items: center; padding: 0 14px; gap: 8px; }
+  .browser-dot { width: 13px; height: 13px; border-radius: 50%; background: #9a9a9a; }
+  .browser-url { flex: 1; height: 13px; border-radius: 6.5px; background: rgba(107, 107, 107,0.22); margin-left: 10px; }
+  .browser-content { padding: 18px; height: 200px; background: var(--surface); }
+  .mini-head { height: 14px; background: #9a9a9a; border-radius: 2px; margin-bottom: 10px; width: 60%; }
+  .mini-line { height: 5px; background: #9a9a9a; border-radius: 2px; margin-bottom: 6px; }
+
+  /* Reference row */
+  .ref-row {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+  }
+  .ref-title {
+    font-size: var(--fs-ui);
+    font-weight: 500;
+    color: var(--text-primary);
+    flex: 1;
+  }
+  .ref-source {
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    font-weight: 500;
+  }
+
+  /* Code block */
+  pre.code {
+    background: #fffdf8;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px 18px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: var(--fs-tag);
+    line-height: var(--lh-body);
+    color: var(--text-primary);
+    overflow-x: auto;
+    white-space: pre;
+    margin-top: 14px;
+  }
+  pre.code .com { color: var(--text-secondary); }
+
+  /* ---------- Footer ---------- */
+  footer {
+    padding: 28px 32px;
+    
+    background: var(--bg);
+    font-size: var(--fs-label);
+    color: var(--text-secondary);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  @media (max-width: 600px) {
+    .top-bar, header, .section, footer { padding-left: 20px; padding-right: 20px; }
+    header { padding-top: 32px; padding-bottom: 28px; }
+    .section { padding-top: 32px; padding-bottom: 32px; }
+    .type-row { grid-template-columns: 1fr; gap: 12px; }
+  }
+
+  /* Skeleton primitives shown inside real screen frames */
+  .demo-cell { background: transparent; border: none; padding: 0; }
+  .demo-cell .label { margin-bottom: 10px; }
+  .demo .skel-stage, .demo.skel-stage { margin-bottom: 0; }
+  .demo.skel-stage { justify-content: center; gap: 8px; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<div class="top-bar">
+  <div class="brand">UX Guidelines</div>
+  <span class="internal-tag">Design System · Internal</span>
+</div>
+
+<header>
+  <div class="eyeline">Design Tokens · Components · Patterns</div>
+  <h1>Design <em>System</em></h1>
+  <p class="tagline">The Visual Language Behind UX Guidelines</p>
+  <p class="subtitle">A canonical reference for every token, component, and pattern used across the site. If it appears more than once, it lives here.</p>
+</header>
+
+<!-- ============ COLORS ============ -->
+<section class="section">
+  <h2>1. Color Tokens</h2>
+  <p class="lede">A neutral palette with a single ink for primary text, one blue illustration accent, and theme overrides layered on top. Every surface uses one of these tokens — no exceptions.</p>
+
+  <div class="swatch-grid">
+    <div class="swatch">
+      <div class="swatch-color" style="background: #ffffff"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Background</div>
+        <div class="swatch-var">--bg</div>
+        <div class="swatch-hex">#ffffff</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #f4f4f4"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Surface</div>
+        <div class="swatch-var">--surface</div>
+        <div class="swatch-hex">#f4f4f4</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #ececec"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Demo / Inset</div>
+        <div class="swatch-var">--demo-bg</div>
+        <div class="swatch-hex">#ececec</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #e2e2e2"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Border</div>
+        <div class="swatch-var">--border</div>
+        <div class="swatch-hex">#e2e2e2</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #111111"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Ink (primary text)</div>
+        <div class="swatch-var">--ink</div>
+        <div class="swatch-hex">#111111</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #6b6b6b"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Muted (secondary)</div>
+        <div class="swatch-var">--muted</div>
+        <div class="swatch-hex">#6b6b6b</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #38bdf8"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Illustration accent</div>
+        <div class="swatch-var">accent (illustrations)</div>
+        <div class="swatch-hex">#38bdf8</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #d9d9d9"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Chart grey</div>
+        <div class="swatch-var">--skel-strong in .chart</div>
+        <div class="swatch-hex">#d9d9d9</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #ffffff;border:1px solid #e2e2e2"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Topnav / panels</div>
+        <div class="swatch-var">--topnav-bg</div>
+        <div class="swatch-hex">#ffffff</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: linear-gradient(180deg,#eceef1,#ffffff)"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Header gradient</div>
+        <div class="swatch-var">--header-grad → --bg</div>
+        <div class="swatch-hex">#eceef1 → #ffffff</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Page accents</h3>
+  <p class="lede" style="margin-top: -10px">Each topic page reserves its own accent color for headings, tags, scan paths, and chart fills. Use the page’s accent only inside that page — never mix.</p>
+
+  <div class="accent-grid">
+    <div class="accent-cell" style="background:#d4380d"><span class="accent-name">F Pattern</span><span>#d4380d</span></div>
+    <div class="accent-cell" style="background:#b45309"><span class="accent-name">Z / Real-World</span><span>#b45309</span></div>
+    <div class="accent-cell" style="background:#0e7490"><span class="accent-name">Marking / Status</span><span>#0e7490</span></div>
+    <div class="accent-cell" style="background:#a16207"><span class="accent-name">Spotted / Minimal</span><span>#a16207</span></div>
+    <div class="accent-cell" style="background:#166534"><span class="accent-name">Layer-Cake / Bar</span><span>#166534</span></div>
+    <div class="accent-cell" style="background:#6d28d9"><span class="accent-name">Bypassing / Recog.</span><span>#6d28d9</span></div>
+    <div class="accent-cell" style="background:#be185d"><span class="accent-name">Commitment / Prev.</span><span>#be185d</span></div>
+    <div class="accent-cell" style="background:#1e40af"><span class="accent-name">Treemap / Flex</span><span>#1e40af</span></div>
+    <div class="accent-cell" style="background:#1e3a8a"><span class="accent-name">12-Col Grid</span><span>#1e3a8a</span></div>
+    <div class="accent-cell" style="background:#0d9488"><span class="accent-name">Modular / Radial</span><span>#0d9488</span></div>
+    <div class="accent-cell" style="background:#c2410c"><span class="accent-name">Baseline / Heatmap</span><span>#c2410c</span></div>
+    <div class="accent-cell" style="background:#ca8a04"><span class="accent-name">Golden Ratio</span><span>#ca8a04</span></div>
+    <div class="accent-cell" style="background:#4f46e5"><span class="accent-name">Alignment / Symmetry</span><span>#4f46e5</span></div>
+    <div class="accent-cell" style="background:#ea580c"><span class="accent-name">Proximity / Closer</span><span>#ea580c</span></div>
+    <div class="accent-cell" style="background:#0891b2"><span class="accent-name">Similarity / Fitts</span><span>#0891b2</span></div>
+    <div class="accent-cell" style="background:#c026d3"><span class="accent-name">Closure</span><span>#c026d3</span></div>
+    <div class="accent-cell" style="background:#15803d"><span class="accent-name">Figure / Ground</span><span>#15803d</span></div>
+    <div class="accent-cell" style="background:#059669"><span class="accent-name">Bigger Is Faster</span><span>#059669</span></div>
+    <div class="accent-cell" style="background:#1e293b"><span class="accent-name">The Law</span><span>#1e293b</span></div>
+    <div class="accent-cell" style="background:#7c3aed"><span class="accent-name">Corners</span><span>#7c3aed</span></div>
+  </div>
+</section>
+
+<!-- ============ TYPOGRAPHY ============ -->
+<section class="section">
+  <h2>2. Typography</h2>
+  <p class="lede">Helvetica Neue across the board (system fallbacks: Helvetica, Arial, system-ui). Weights 400–700. Headings track −1px; labels are sentence case at weight 500 — no uppercase tracking outside the settings sheet.</p>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-feature);font-weight:700;line-height: var(--lh-tight)">H1 / Display</div>
+    <div class="type-spec">
+      <strong>clamp(36px, 5vw, 64px)</strong> · --fs-h1<br>
+      weight 700 · ls −1px<br>
+      line-height var(--lh-tight)
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-h2);font-weight:700;">H2 / Section</div>
+    <div class="type-spec">
+      <strong>21px</strong> · --fs-h2<br>
+      weight 700 · ls −1px
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-h2);font-weight:500;">Tagline (sub-h1)</div>
+    <div class="type-spec">
+      <strong>21px</strong> · --fs-h2<br>
+      weight 500 · em weight 600
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-h3);font-weight:600;letter-spacing:-1px">Card title (h3)</div>
+    <div class="type-spec">
+      <strong>18px</strong> · --fs-h3<br>
+      weight 600 · ls −1px
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: calc(var(--fs-body) * 2);font-weight:400;letter-spacing:-1px">E = mc²</div>
+    <div class="type-spec">
+      <strong>32px</strong> · calc(--fs-body × 2)<br>
+      weight 400 · ls −1px<br>
+      formula banner (.law-formula-eq)
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-body);color: var(--text-secondary);line-height: var(--lh-body);max-width:430px">Body text — used for card descriptions and subtitles. Set at 1.55 line-height in the muted token for readable but quiet copy.</div>
+    <div class="type-spec">
+      <strong>16px</strong><br>
+      weight 400 · ls 0<br>
+      color: var(--text-secondary)<br>
+      line-height 1.55
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500">Label · eyeline and meta labels</div>
+    <div class="type-spec">
+      <strong>15px</strong> · --fs-label<br>
+      weight 500 · sentence case<br>
+      color: var(--text-secondary)
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-ui);color: var(--text-primary)">UI text · nav links, chips, footer links</div>
+    <div class="type-spec">
+      <strong>14px</strong> · --fs-ui
+    </div>
+  </div>
+
+  <div class="type-row">
+    <div style="font-size: var(--fs-tag);color: var(--text-secondary)">Tag · 12px &nbsp;&nbsp;<span style="font-size: var(--fs-caption)">Caption · 11px (settings sheet labels, uppercase)</span></div>
+    <div class="type-spec">
+      <strong>12px</strong> · --fs-tag<br>
+      <strong>11px</strong> · --fs-caption
+    </div>
+  </div>
+</section>
+
+<!-- ============ ELEMENTS ============ -->
+<section class="section">
+  <h2>3. Elements</h2>
+  <p class="lede">Atomic building blocks reused across every page.</p>
+
+  <h3>Tags</h3>
+  <div class="demo-frame">
+    <span class="tag" style="background:rgba(212,56,13,.10);color: var(--text-secondary)">Text-heavy pages</span>
+    <span class="tag" style="background:rgba(14,116,144,.10);color: var(--text-secondary)">Continuous scroll</span>
+    <span class="tag" style="background:rgba(22,101,52,.10);color: var(--text-secondary)">Hierarchy-driven</span>
+    <span class="tag" style="background:rgba(190,24,93,.10);color: var(--text-secondary)">Deep engagement</span>
+    <span class="tag" style="background:rgba(107, 107, 107,.12);color: var(--text-secondary)">Neutral / muted</span>
+  </div>
+  <pre class="code"><span class="com">/* Recipe */</span>
+.tag {
+  font-size: var(--fs-tag);
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-weight: 500;
+  background: rgba(R,G,B, 0.10);  <span class="com">/* accent at 10% */</span>
+  color: var(--text-secondary);
+}</pre>
+
+  <h3>Buttons</h3>
+  <div class="demo-frame">
+    <button class="btn primary">Primary</button>
+    <button class="btn">Secondary</button>
+    <button class="btn danger">Destructive</button>
+  </div>
+
+  <h3>Hamburger</h3>
+  <div class="demo-frame">
+    <button class="hamburger-preview" aria-label="Open menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <button class="hamburger-preview" aria-label="Close menu" style="color: var(--text-secondary)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+    <span style="font-size: var(--fs-tag);color: var(--text-secondary);margin-left:8px">Lucide · 22px stroke 2</span>
+  </div>
+
+  <h3>Meta cell</h3>
+  <div class="demo-grid">
+    <div class="meta-cell">
+      <div class="label">Audience</div>
+      <div class="value">Readers skimming dense text</div>
+    </div>
+    <div class="meta-cell">
+      <div class="label">Context</div>
+      <div class="value">Articles · Search results</div>
+    </div>
+    <div class="meta-cell">
+      <div class="label">Implication</div>
+      <div class="value">Front-load key info; bold subheads</div>
+    </div>
+  </div>
+
+  <h3>Reference row</h3>
+  <div class="demo-grid">
+    <div class="ref-row">
+      <span class="ref-title">F-Shaped Pattern of Reading on the Web</span>
+      <span class="ref-source">NN/g</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--muted)"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+    </div>
+    <div class="ref-row">
+      <span class="ref-title">Eye Tracking</span>
+      <span class="ref-source">Wikipedia</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--muted)"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COMPOSED ============ -->
+<section class="section">
+  <h2>4. Composed Components</h2>
+  <p class="lede">How the atoms come together. Every topic-page card follows this pattern.</p>
+
+  <h3>Card</h3>
+  <div class="demo-frame" style="background: var(--border); padding: 1px">
+    <div class="card-preview">
+      <div>
+        <span class="card-num">01 / 07</span>
+        <h3 class="card-title">F Pattern</h3>
+      </div>
+      <p class="body-text">Users read the top of a page across, drop down a bit and scan part of the next line, then trail their eyes down the left edge — describing the shape of an F.</p>
+
+      <div style="margin-top:20px">
+        <div class="browser-preview" style="max-width:100%">
+          <div class="browser-toolbar">
+            <div class="browser-dot"></div>
+            <div class="browser-dot"></div>
+            <div class="browser-dot"></div>
+            <div class="browser-url"></div>
+          </div>
+          <div class="browser-content">
+            <div class="mini-head"></div>
+            <div class="mini-line" style="width:90%"></div>
+            <div class="mini-line" style="width:78%"></div>
+            <div class="mini-line" style="width:60%"></div>
+            <div style="height:8px"></div>
+            <div class="mini-line" style="width:50%"></div>
+            <div class="mini-line" style="width:30%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-section-divider"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px 20px">
+        <div>
+          <div class="meta-cell" style="background:transparent;border:0;padding:0">
+            <div class="label">Audience</div>
+            <div class="value">Readers skimming dense text</div>
+          </div>
+        </div>
+        <div>
+          <div class="meta-cell" style="background:transparent;border:0;padding:0">
+            <div class="label">Context</div>
+            <div class="value">Articles · Search results</div>
+          </div>
+        </div>
+        <div>
+          <div class="meta-cell" style="background:transparent;border:0;padding:0">
+            <div class="label">Implication</div>
+            <div class="value">Front-load key info</div>
+          </div>
+        </div>
+        <div>
+          <span class="tag" style="background:rgba(212,56,13,.10);color: var(--text-secondary)">Text-heavy pages</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Screen frame <span style="font-family:'JetBrains Mono',monospace;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:400;margin-left:8px">.demo · .frame</span></h3>
+  <p class="lede" style="max-width:640px">The canonical illustration chrome — one single div. The toolbar, dots, and URL pill are drawn with <code>::before</code> and <code>::after</code>; the frame holds a 16:10 aspect ratio at any width.</p>
+  <div style="max-width:420px">
+    <div class="demo" style="margin-bottom:0"></div>
+  </div>
+  <pre class="code"><span class="com">/* One div is a complete frame */</span>
+&lt;div class=“demo”&gt;&lt;/div&gt;
+
+.demo, .frame {
+  aspect-ratio: 16 / 10;
+  background: var(--bg);
+  border: 1.5px solid var(--border);
+  border-radius: 14px;
+}
+<span class="com">/* ::before — 30px toolbar + three 13px dots (radial-gradients) */</span>
+<span class="com">/* ::after  — 13px URL pill, radius 6.5px, --skel-fill-strong  */</span></pre>
+
+  <h3>Copyable SVG version</h3>
+  <p class="lede" style="max-width:640px">The same frame as a standalone SVG — copy the code below to use it in decks, docs, or design tools.</p>
+  <div style="max-width:420px;margin-bottom:14px">
+    <svg viewBox="0 0 760 475" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;display:block">
+      <rect x="1" y="1" width="758" height="473" rx="14" fill="#ffffff" stroke="#e2e2e2" stroke-width="1.5"/>
+      <path d="M1 15 A 14 14 0 0 1 15 1 L 745 1 A 14 14 0 0 1 759 15 L 759 56 L 1 56 Z" fill="#ececec"/>
+      <line x1="1" y1="56" x2="759" y2="56" stroke="#e2e2e2" stroke-width="1.5"/>
+      <circle cx="32" cy="28" r="6.5" fill="#9a9a9a"/>
+      <circle cx="56" cy="28" r="6.5" fill="#9a9a9a"/>
+      <circle cx="80" cy="28" r="6.5" fill="#9a9a9a"/>
+      <rect x="104" y="22" width="635" height="13" rx="6.5" fill="#6b6b6b" fill-opacity="0.22"/>
+    </svg>
+  </div>
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
+    <button class="btn" id="copy-frame-svg" type="button">Copy SVG code</button>
+    <span id="copy-frame-status" class="label" style="margin:0"></span>
+  </div>
+  <pre class="code" id="frame-svg-code">&lt;svg viewBox=“0 0 760 475” xmlns=“http://www.w3.org/2000/svg” width=“760” height=“475”&gt;
+  &lt;rect x=“1” y=“1” width=“758” height=“473” rx=“14” fill=“#ffffff” stroke=“#e2e2e2” stroke-width=“1.5”/&gt;
+  &lt;path d=“M1 15 A 14 14 0 0 1 15 1 L 745 1 A 14 14 0 0 1 759 15 L 759 56 L 1 56 Z” fill=“#ececec”/&gt;
+  &lt;line x1=“1” y1=“56” x2=“759” y2=“56” stroke=“#e2e2e2” stroke-width=“1.5”/&gt;
+  &lt;circle cx=“32” cy=“28” r=“6.5” fill=“#9a9a9a”/&gt;
+  &lt;circle cx=“56” cy=“28” r=“6.5” fill=“#9a9a9a”/&gt;
+  &lt;circle cx=“80” cy=“28” r=“6.5” fill=“#9a9a9a”/&gt;
+  &lt;rect x=“104” y=“22” width=“635” height=“13” rx=“6.5” fill=“#6b6b6b” fill-opacity=“0.22”/&gt;
+&lt;/svg&gt;</pre>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('copy-frame-svg');
+      const status = document.getElementById('copy-frame-status');
+      const code = document.getElementById('frame-svg-code');
+      if (!btn) return;
+      btn.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(code.textContent);
+          status.textContent = 'Copied';
+        } catch (e) {
+          status.textContent = 'Select and copy the code below';
+        }
+        setTimeout(() => { status.textContent = ''; }, 2000);
+      });
+    });
+  </script>
+
+  <h3>Chat window <span style="font-family:'JetBrains Mono',monospace;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:400;margin-left:8px">.pattern-chat-window</span></h3>
+  <p class="lede" style="max-width:640px">Mini browser frame used in AI sections to demonstrate conversational UI patterns. Same chrome spec as the full browser frame, narrower body.</p>
+  <div class="demo-frame">
+    <div class="pattern-chat-window">
+      <div class="toolbar">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="url-pill"></div>
+      </div>
+      <div class="body">
+        <div class="bubble-user">How do I improve scannability?</div>
+        <div class="bubble-ai">Front-load key terms. Use short paragraphs and bold subheads.</div>
+        <div class="bubble-user">Thanks!</div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Demo container <span style="font-family:'JetBrains Mono',monospace;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:400;margin-left:8px">.pattern-demo</span></h3>
+  <p class="lede" style="max-width:640px">Beige sandbox that wraps abstract SVG illustrations (eye-scan paths, layout diagrams, charts). Used when the example is not a UI mockup — for UI mockups, use the browser frame directly.</p>
+  <div class="demo-frame">
+    <div class="pattern-demo" style="width:100%;max-width:460px">
+      <span class="demo-label">Diagram</span>
+      <svg viewBox="0 0 400 200" style="width:100%;height:100%" preserveAspectRatio="xMidYMid meet">
+        <circle cx="200" cy="100" r="50" fill="none" stroke="var(--ink)" stroke-width="1.5"/>
+        <line x1="100" y1="100" x2="300" y2="100" stroke="var(--muted)" stroke-width="1.5" stroke-dasharray="4 4"/>
+      </svg>
+    </div>
+  </div>
+
+  <h3>Skeleton hierarchy <span style="font-family:'JetBrains Mono',monospace;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:400;margin-left:8px">--skel-h-*</span></h3>
+  <p class="lede" style="max-width:640px">Five heights cover every piece of skeleton text, mirroring the real type scale. Darker tone = higher in the hierarchy.</p>
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:28px 32px;display:grid;grid-template-columns:150px 1fr 120px;gap:18px 24px;align-items:center">
+    <div class="label" style="margin:0">--skel-h-head · 14px</div>
+    <div style="height:14px;width:45%;background:var(--skel-strong);border-radius:2px"></div>
+    <div class="label" style="margin:0;text-align:right">headline</div>
+    <div class="label" style="margin:0">--skel-h-sub · 10px</div>
+    <div style="height:10px;width:35%;background:var(--skel-strong);opacity:0.8;border-radius:2px"></div>
+    <div class="label" style="margin:0;text-align:right">subhead</div>
+    <div class="label" style="margin:0">--skel-h-nav · 8px</div>
+    <div style="display:flex;gap:10px"><span style="height:8px;width:44px;background:var(--skel);border-radius:2px"></span><span style="height:8px;width:36px;background:var(--skel);border-radius:2px"></span><span style="height:8px;width:40px;background:var(--skel);border-radius:2px"></span></div>
+    <div class="label" style="margin:0;text-align:right">nav · chips</div>
+    <div class="label" style="margin:0">--skel-h-body · 6px</div>
+    <div><div style="height:6px;width:92%;background:var(--skel);border-radius:2px;margin-bottom:6px"></div><div style="height:6px;width:78%;background:var(--skel);border-radius:2px"></div></div>
+    <div class="label" style="margin:0;text-align:right">body lines</div>
+    <div class="label" style="margin:0">--skel-h-caption · 4px</div>
+    <div style="height:4px;width:22%;background:var(--skel);opacity:0.7;border-radius:2px"></div>
+    <div class="label" style="margin:0;text-align:right">captions · ticks</div>
+  </div>
+  <div style="margin-top:14px;display:flex;gap:24px;flex-wrap:wrap">
+    <div style="display:flex;align-items:center;gap:8px"><span style="width:14px;height:14px;border-radius:3px;background:var(--skel-emphasis)"></span><span class="label" style="margin:0">--skel-emphasis · CTA</span></div>
+    <div style="display:flex;align-items:center;gap:8px"><span style="width:14px;height:14px;border-radius:3px;background:var(--skel-strong)"></span><span class="label" style="margin:0">--skel-strong · headings</span></div>
+    <div style="display:flex;align-items:center;gap:8px"><span style="width:14px;height:14px;border-radius:3px;background:var(--skel)"></span><span class="label" style="margin:0">--skel · default</span></div>
+  </div>
+
+  <h3>Skeleton primitives <span style="font-family:'JetBrains Mono',monospace;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:400;margin-left:8px">.skel-*</span></h3>
+  <p class="lede" style="max-width:640px">Building blocks for fake page content inside browser frames. All use the skeleton tokens so the skeleton recedes and any overlaid annotation reads as the dominant signal.</p>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Text</h4>
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">.skel-nav</div>
+      <div class="demo skel-stage">
+      <div class="skel-nav"><span style="width:36px"></span><span style="width:28px"></span><span style="width:32px"></span><span style="width:24px;margin-left:auto"></span></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-head · .skel-sub</div>
+      <div class="demo skel-stage">
+      <div class="skel-head" style="width:70%"></div>
+      <div class="skel-sub" style="width:50%"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-line</div>
+      <div class="demo skel-stage">
+      <div class="skel-line" style="width:95%"></div>
+      <div class="skel-line" style="width:80%"></div>
+      <div class="skel-line" style="width:60%"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-breadcrumb</div>
+      <div class="demo skel-stage">
+      <div class="skel-breadcrumb"><span style="width:32px"></span><span class="sep"></span><span style="width:42px"></span><span class="sep"></span><span style="width:36px"></span></div>
+      </div>
+    </div>
+  </div>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Interactive</h4>
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">.skel-button · .skel-button-primary</div>
+      <div class="demo skel-stage">
+      <div style="display:flex;gap:8px;align-items:center"><span class="skel-button-primary"></span><span class="skel-button"></span></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-input</div>
+      <div class="demo skel-stage">
+      <div class="skel-input"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-checkbox · .skel-radio · .skel-toggle</div>
+      <div class="demo skel-stage">
+      <div style="display:flex;gap:12px;align-items:center"><span class="skel-checkbox"></span><span class="skel-radio"></span><span class="skel-toggle"></span></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-tabs</div>
+      <div class="demo skel-stage">
+      <div class="skel-tabs"><span class="active"></span><span></span><span></span></div>
+      </div>
+    </div>
+  </div>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Media and identity</h4>
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">.skel-avatar · .skel-icon</div>
+      <div class="demo skel-stage">
+      <div style="display:flex;gap:12px;align-items:center"><span class="skel-avatar"></span><span class="skel-icon"></span></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-thumb</div>
+      <div class="demo skel-stage">
+      <div class="skel-thumb"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-img</div>
+      <div class="demo skel-stage">
+      <div class="skel-img" style="height:60px;width:100%"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-tag · .skel-badge</div>
+      <div class="demo skel-stage">
+      <div style="display:flex;gap:8px;align-items:center"><span class="skel-tag"></span><span class="skel-tag" style="min-width:54px"></span><span class="skel-badge">3</span></div>
+      </div>
+    </div>
+  </div>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Structure and layout</h4>
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">.skel-card</div>
+      <div class="demo skel-stage">
+      <div class="skel-card"><div class="skel-line" style="width:70%"></div><div class="skel-line" style="width:50%"></div></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-divider</div>
+      <div class="demo skel-stage">
+      <div class="skel-line" style="width:60%"></div>
+      <div class="skel-divider"></div>
+      <div class="skel-line" style="width:80%"></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-sidebar</div>
+      <div class="demo skel-stage">
+      <div style="display:flex;gap:10px;height:80px"><div class="skel-sidebar"></div><div style="flex:1;display:flex;flex-direction:column;justify-content:center"><div class="skel-line" style="width:90%"></div><div class="skel-line" style="width:70%"></div></div></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-footer</div>
+      <div class="demo skel-stage">
+      <div class="skel-footer"><span></span><span></span><span></span></div>
+      </div>
+    </div>
+  </div>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Data</h4>
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">.skel-table</div>
+      <div class="demo skel-stage">
+      <div class="skel-table">
+        <div class="skel-row header"><span style="width:60%"></span><span style="width:50%"></span><span style="width:70%"></span><span style="width:40%"></span></div>
+        <div class="skel-row"><span style="width:80%"></span><span style="width:60%"></span><span style="width:90%"></span><span style="width:50%"></span></div>
+        <div class="skel-row"><span style="width:70%"></span><span style="width:70%"></span><span style="width:60%"></span><span style="width:50%"></span></div>
+      </div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-bars</div>
+      <div class="demo skel-stage">
+      <div class="skel-bars"><span style="height:30%"></span><span style="height:55%"></span><span style="height:40%"></span><span style="height:80%"></span><span style="height:65%"></span><span style="height:90%"></span></div>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">.skel-spark</div>
+      <div class="demo skel-stage">
+      <svg class="skel-spark" viewBox="0 0 100 24" preserveAspectRatio="none"><path d="M0,18 L15,14 L30,16 L45,8 L60,12 L75,4 L100,6"/></svg>
+      </div>
+    </div>
+  </div>
+
+  <h4 style="font-size: var(--fs-label);color: var(--text-secondary);font-weight:500;margin:24px 0 12px">Composed example</h4>
+  <p class="lede" style="max-width:640px">A realistic dashboard built entirely from primitives — header nav, sidebar, breadcrumb, KPI row, chart, table.</p>
+  <div class="demo-frame">
+    <div class="pattern-browser-frame" style="max-width:100%">
+      <div class="toolbar">
+        <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+        <div class="url-pill"></div>
+      </div>
+      <div class="body" style="height:340px;padding:0">
+        <div style="display:flex;height:100%">
+          <div class="skel-sidebar" style="border-radius:0;width:50px;height:100%;display:flex;flex-direction:column;align-items:center;padding-top:14px;gap:14px;opacity:1;background:#ececec">
+            <span class="skel-icon"></span><span class="skel-icon"></span><span class="skel-icon"></span><span class="skel-icon"></span>
+          </div>
+          <div style="flex:1;padding:14px 18px;display:flex;flex-direction:column;gap:12px">
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="skel-breadcrumb"><span style="width:32px"></span><span class="sep"></span><span style="width:42px"></span></div>
+              <div style="display:flex;gap:8px;align-items:center"><span class="skel-button"></span><span class="skel-avatar"></span></div>
+            </div>
+            <div class="skel-head" style="width:38%"></div>
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+              <div class="skel-card"><div class="skel-line" style="width:50%"></div><div class="skel-head" style="width:70%;margin-top:4px;margin-bottom:0"></div></div>
+              <div class="skel-card"><div class="skel-line" style="width:50%"></div><div class="skel-head" style="width:70%;margin-top:4px;margin-bottom:0"></div></div>
+              <div class="skel-card"><div class="skel-line" style="width:50%"></div><div class="skel-head" style="width:70%;margin-top:4px;margin-bottom:0"></div></div>
+            </div>
+            <div class="skel-bars" style="height:70px"><span style="height:30%"></span><span style="height:55%"></span><span style="height:40%"></span><span style="height:80%"></span><span style="height:65%"></span><span style="height:90%"></span><span style="height:50%"></span><span style="height:70%"></span></div>
+            <div class="skel-table">
+              <div class="skel-row header"><span style="width:60%"></span><span style="width:50%"></span><span style="width:70%"></span><span style="width:40%"></span></div>
+              <div class="skel-row"><span style="width:80%"></span><span style="width:60%"></span><span style="width:90%"></span><span style="width:50%"></span></div>
+              <div class="skel-row"><span style="width:70%"></span><span style="width:70%"></span><span style="width:60%"></span><span style="width:50%"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3>Grid (auto-fill)</h3>
+  <pre class="code">.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+  gap: 24px; padding: 40px 32px 60px; background: transparent;  <span class="com">/* hairline dividers */</span>
+}
+.card { background: var(--bg); border: 1px solid var(--border); padding: 36px 32px 32px;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 3;  <span class="com">/* aligns header / demo / meta across row */</span>
+}</pre>
+</section>
+
+<!-- ============ PAGE LAYOUT ============ -->
+<section class="section">
+  <h2>5. Page Layout</h2>
+  <p class="lede">Every topic page follows the same vertical structure.</p>
+
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:32px;display:grid;gap:14px;font-family:'JetBrains Mono',monospace;font-size: var(--fs-tag);color: var(--text-secondary);line-height: var(--lh-body)">
+    <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">1.</strong> &nbsp; topnav &nbsp;<span style="opacity:0.6">— sticky white bar · hamburger and brand left · centered search · About and settings gear right</span></div>
+    <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">2.</strong> &nbsp; header &nbsp;<span style="opacity:0.6">— eyeline · h1 · tagline · subtitle · soft gradient from --header-grad to --bg</span></div>
+    <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">3.</strong> &nbsp; law-feature or main.grid &nbsp;<span style="opacity:0.6">— formula banner (if any) full width, then Origin and Law columns, then cards on hairline dividers</span></div>
+    <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">4.</strong> &nbsp; section.references &nbsp;<span style="opacity:0.6">— Further Reading · 1–2 col grid of ref rows</span></div>
+    <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">5.</strong> &nbsp; fat footer &nbsp;<span style="opacity:0.6">— black · brand + blurb + social | Site links | Sister Sites · copyright bar beneath</span></div>
+  </div>
+
+  <h3>Header spacing</h3>
+  <pre class="code">header {
+  padding: 60px 32px 28px;       <span class="com">/* desktop */</span>
+  background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%);
+}
+
+@media (max-width: 600px) {
+  header { padding: 32px 20px 28px; }
+}</pre>
+
+  <h3>Card subgrid</h3>
+  <p class="lede" style="max-width:640px">Each card has three internal sections: header, demo, meta. By using <code>grid-template-rows: subgrid; grid-row: span 3</code>, header rows line up across each row of cards regardless of description length.</p>
+</section>
+
+<!-- ============ MOTION ============ -->
+<section class="section">
+  <h2>6. Motion</h2>
+  <p class="lede">Three primitives, used sparingly.</p>
+
+  <div class="demo-grid">
+    <div class="demo-cell">
+      <div class="label">Fade-in (entrance)</div>
+      <div class="demo skel-stage">
+      <pre class="code" style="margin-top:0">@keyframes fade-in {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+<span class="com">/* duration 0.6s ease · stagger 0.15s */</span></pre>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">Draw-on (SVG path)</div>
+      <div class="demo skel-stage">
+      <pre class="code" style="margin-top:0">@keyframes dash {
+  to { stroke-dashoffset: 0; }
+}
+<span class="com">/* duration 1.4–2.4s ease forwards */</span></pre>
+      </div>
+    </div>
+    <div class="demo-cell">
+      <div class="label">Pulse (attention dot)</div>
+      <div class="demo skel-stage">
+      <pre class="code" style="margin-top:0">@keyframes pulse {
+  0%,100% { transform: scale(1); opacity: 0.8; }
+  50%     { transform: scale(1.15); opacity: 1; }
+}
+<span class="com">/* duration 1.6s ease-in-out infinite */</span></pre>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ICONOGRAPHY ============ -->
+<section class="section">
+  <h2>7. Iconography</h2>
+  <p class="lede">All UI icons use Lucide. Stroke 2, line-cap round, currentColor. Bespoke SVG illustrations (chart shapes, eye-scan paths) are intentional one-off compositions, not icons.</p>
+
+  <div class="demo-frame">
+    <div style="display:flex;align-items:center;gap:8px;color: var(--text-primary)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      <span style="font-size: var(--fs-tag);color: var(--text-secondary)">menu</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;color: var(--text-primary)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      <span style="font-size: var(--fs-tag);color: var(--text-secondary)">x</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;color: var(--text-primary)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      <span style="font-size: var(--fs-tag);color: var(--text-secondary)">arrow-right</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;color: var(--text-primary)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+      <span style="font-size: var(--fs-tag);color: var(--text-secondary)">arrow-up-right</span>
+    </div>
+  </div>
+</section>
+
+<section class="ds-section" id="themes">
+  <h2>8. Themes</h2>
+  <p class="lede">Four themes, implemented as a class on the html element (like ux-components.com): light is the default, and dark, beige, and blue re-map the surface tokens. Chosen in the settings sheet and applied on Save, persisted in localStorage as ux-theme, with an inline head script preventing a flash of the wrong theme. The Font Size setting scales the whole page (85–130%) and persists as ux-font.</p>
+  <div class="swatch-grid">
+    <div class="swatch">
+      <div class="swatch-color" style="background: #161616"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Dark · background</div>
+        <div class="swatch-var">:root.dark --bg</div>
+        <div class="swatch-hex">#161616</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #222222"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Dark · surface</div>
+        <div class="swatch-var">:root.dark --surface</div>
+        <div class="swatch-hex">#222222</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #f5f0e8"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Beige · background</div>
+        <div class="swatch-var">:root.beige --bg</div>
+        <div class="swatch-hex">#f5f0e8</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #ece5d8"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Beige · surface</div>
+        <div class="swatch-var">:root.beige --surface</div>
+        <div class="swatch-hex">#ece5d8</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #f2f6fb"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Blue · background</div>
+        <div class="swatch-var">:root.blue --bg</div>
+        <div class="swatch-hex">#f2f6fb</div>
+      </div>
+    </div>
+    <div class="swatch">
+      <div class="swatch-color" style="background: #e6edf6"></div>
+      <div class="swatch-meta">
+        <div class="swatch-name">Blue · surface</div>
+        <div class="swatch-var">:root.blue --surface</div>
+        <div class="swatch-hex">#e6edf6</div>
+      </div>
+    </div>
+  </div>
+  <p class="body-text">Because every component reads its colors from tokens, themes require no per-component work — dark mode additionally re-maps text and skeleton tones and gives form fields an inset light ring.</p>
+</section>
+
+<section class="ds-section" id="navigation-chrome">
+  <h2>9. Navigation Chrome</h2>
+  <p class="lede">The topnav is white with a soft drop shadow and holds four things: the hamburger, the brand, a centered search field, and the About link with the settings gear on the right. There is no breadcrumb.</p>
+  <p class="body-text">The hamburger opens a full-page panel that slides down from beneath the topnav, showing every page grouped by category in left-to-right columns on desktop and collapsing to accordions on mobile. The settings gear opens a right-anchored sheet (340px) with Theme, Language, and a Font Size slider (85–130%). Choices are staged and applied on Save; Cancel reverts, and the sheet closes only via Save, Cancel, or the X — never by clicking outside or pressing Escape. Labels are 11px uppercase; the active option row carries a left bar.</p>
+  <p class="body-text">Search is a centered grey pill (44px tall, 10px radius) with a magnifier icon on the left and a clear button when text is entered — no focus outline; focus darkens the field and adds a soft halo. Results load from a generated search-index.json (one entry per page, card, glossary term, and person), rank title matches above body matches, and drop down full-width beneath the topnav with a 280ms slide animation. Focusing the empty field shows Recently viewed — the last pages visited, kept in localStorage. On mobile the field collapses to an icon; tapping it hands the whole topnav to search.</p>
+  <p class="body-text">The footer is a black fat footer in two tiers. The top tier has three columns: the brand with a short blurb and social icons (LinkedIn, Medium, Substack, X, Bluesky); Site links (About, Glossary, People, Site Map); and Sister Sites (UX Components, GPT Prompt Guides, Extend Chrome). A bottom bar carries the copyright. Column headings are 14px, and every external link opens a new window. The topnav chrome, search, settings sheet, and footer are all injected by tokens.js, so pages never carry the markup.</p>
+</section>
+
+<section class="ds-section" id="detail-patterns">
+  <h2>10. Detail Page Patterns</h2>
+  <p class="lede">Recurring structures on law and principle pages, all driven by shared tokens.css rules.</p>
+  <p class="body-text">Formula banner — pages whose law has an equation (Fitts, Hick, Miller, Doherty, Pareto, Steering, Weber–Fechner, Power Law, Fogg) open the law-feature section with a full-width .law-formula banner: the equation at twice body size (32px, weight 400, −1px tracking) with a one-line plain-language reading beneath, above the Origin and Law columns.</p>
+  <p class="body-text">Related chips — cards that overlap with other laws end with a Related row: small bordered chips linking to the sibling pages. The label is localized, and links use full-concept filenames (hicks-law.html, not hicks.html).</p>
+  <p class="body-text">People links — every “Coined by” name links to its anchor on the People page (people.html#p-slug), where each person has an alphabetized entry.</p>
+  <p class="body-text">Accessibility — a skip link jumps past the injected chrome, decorative illustrations are aria-hidden, search results announce through a live region, theme options use radio semantics, faint text stays at or above 4.5:1, and prefers-reduced-motion disables the draw-on and entrance animations.</p>
+</section>
+
+<section class="ds-section" id="localization">
+  <h2>11. Localization</h2>
+  <p class="lede">Six languages — English, French, German, Spanish, Japanese, Chinese — selected from the settings gear and persisted as ux-lang. English pages ship with zero overhead.</p>
+  <p class="body-text">For any other language, i18n.js loads lazily and applies two layers: a chrome dictionary (menus, labels, titles, the search placeholder) and a per-page content overlay from i18n/&lt;lang&gt;/&lt;page&gt;.json that translates every card, bio, definition, and meta value. Overlays apply by selector and index, and any section whose element count no longer matches falls back to English silently. Sources for the overlays live in i18n/src/ (not deployed); regenerating them after copy changes keeps translations in sync.</p>
+</section>
+
+<footer>
+  <div>© UX Guidelines · Internal Reference</div>
+  <div>Updated 2026</div>
+</footer>
+
+</body>
+</html>

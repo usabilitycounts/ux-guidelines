@@ -1,0 +1,110 @@
+{
+ "header h1": [
+  "Yerkes-Dodson <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Performance rises with arousal — to a point — then <em>falls</em>."
+ ],
+ "header .subtitle": [
+  "Robert Yerkes and John Dodson’s 1908 finding: performance on a task improves with a moderate level of stress or stimulation, but only up to a point. Past that, performance drops. The shape is an inverted U — and complex tasks have a tighter optimum than simple ones."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> and <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> were American psychologists whose 1908 experiments showed performance rises with arousal only up to a point — beyond it, pressure degrades performance. Their inverted-U curve bears their names.",
+  "Their original 1908 experiments used mice, mazes, and mild shocks; the elegant inverted-U curve now printed in textbooks was largely a later simplification. Yerkes went on to develop the Army Alpha intelligence tests in World War I and to found Yale’s primate research laboratory."
+ ],
+ ".law-content .law-desc": [
+  "Some pressure is good. Too little, and the user is bored, drifting, missing things. Too much, and they freeze, click the wrong button, abandon the flow. The peak is in the middle — and where it sits depends on the task."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-robert-yerkes\">Robert Yerkes</a> and <a href=\"people.html#p-john-dillingham-dodson\">John Dodson</a> (1908)",
+  "Comparative-psychology experiments",
+  "Keep pressure moderate"
+ ],
+ ".card .tag": [
+  "The curve",
+  "Low side",
+  "High side",
+  "Modulator",
+  "Flow",
+  "Design",
+  "Design",
+  "Watch for",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Inverted U",
+  "Under-Stimulation Drops Attention",
+  "Over-Stimulation Collapses Performance",
+  "Complex Tasks Have Tighter Peaks",
+  "Flow Is the Sweet Spot",
+  "Calm UI for Hard Tasks",
+  "Energy for Easy Tasks",
+  "Avoid Synthetic Urgency",
+  "AI Can Read the Curve",
+  "Or AI Can Push You Off It"
+ ],
+ ".card .desc": [
+  "Performance on a task is highest at a moderate level of arousal. Below that, attention fades; above it, attention narrows too much and slips. The curve was first observed in mice running mazes; a century later it shows up in user-testing labs as cleanly as it did then.",
+  "At the bottom-left of the curve: the user is bored or under-engaged. Sign-off pages, fifth-time-this-month interactions, screens after a long auto-play. Performance drops because attention drops. The fix isn’t more friction — it’s an active reason to be present.",
+  "At the top-right: stress, urgency, deadline-driven pressure. The user freezes, mis-clicks, takes the visible path even when it is wrong. Banking error messages, mid-flight booking changes, “your card has been declined” — all live here. The fix is to lower the stakes, not to add more dialogs.",
+  "A second insight from Yerkes-Dodson: the optimum shifts left for harder tasks. A simple task — single click, single number — tolerates pressure well. A complex task — review a document, fill 30 fields — needs lower arousal to perform well. Crank up urgency on the hard task and you lose the user fastest.",
+  "Csíkszentmihályi’s flow state is the modern phrasing of the Yerkes-Dodson peak. The challenge is just above the user’s ability, the feedback is immediate, the goals are clear — and the user disappears into the task. Designing for flow is designing for the top of the curve.",
+  "When the task is complex — annual review, tax filing, codebase audit — the UI should feel calm. Plenty of whitespace, clear progress, no animations chasing the cursor. Pushing the user up the arousal curve while they are already loaded sends them over the peak. Spreadsheets and IDEs intuitively get this right; most consumer apps do not.",
+  "The flip side. When the task is trivial — one tap, one swipe — a little extra arousal helps. A vibration on a like, a satisfying snap on a swipe, a small celebration on a sign-up. The simple task can ride higher on the curve, and the extra stimulation pays back in engagement.",
+  "Countdown timers, “only 2 left,” forced-decision dialogs — all push the user up the curve in ways that hurt complex decisions. They feel like motivation; they perform like overload. If you find yourself adding pressure to a hard task, the right answer is almost always to ease the task, not crank the stress.",
+  "Models can sense overload in real time — long pauses, repeated edits, abandoned tabs — and respond. Drop a step, surface a shortcut, offer to take over. The Yerkes-Dodson peak becomes adaptive: the product itself slides the user back toward it, instead of leaving them stuck on the wrong side.",
+  "The same channel runs in reverse. A model that surfaces a flood of suggestions, interrupts every few seconds, or generates plausible nonsense that demands review can drive the user past the peak fast. AI defaults toward arousal — there is always one more suggestion. The discipline is to leave the user alone when they are flowing."
+ ],
+ ".meta .label": [
+  "Symptoms",
+  "Fix",
+  "Symptoms",
+  "Fix",
+  "Simple task",
+  "Complex task",
+  "Coined by",
+  "Recipe",
+  "For complex tasks",
+  "Tactics",
+  "For simple tasks",
+  "Tactics",
+  "Pattern",
+  "Fix",
+  "Signal",
+  "Response",
+  "Default",
+  "Discipline"
+ ],
+ ".meta .value": [
+  "Skip · scroll past",
+  "A reason to be present",
+  "Freeze · misclick · abandon",
+  "Lower the stakes",
+  "Tolerates pressure",
+  "Needs lower arousal",
+  "<a href=\"people.html#p-mihaly-csikszentmihalyi\">Csíkszentmihályi</a>, 1975",
+  "Just above ability",
+  "Lower the arousal",
+  "Whitespace · steady pace",
+  "A little stimulation",
+  "Haptic · sound · micro-animation",
+  "Manufactured urgency",
+  "Ease the task",
+  "Pauses · repeats · abandons",
+  "Lower the arousal",
+  "Suggest, suggest, suggest",
+  "Leave flow alone"
+ ],
+ ".ai-divider h3": [
+  "Yerkes-Dodson in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can read where on the curve a user is — and lower the arousal at exactly the right moment, or fail to."
+ ]
+}

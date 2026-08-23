@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Uncanny <em>Valley</em>"
+ ],
+ "header .tagline": [
+  "Almost human is worse than clearly not."
+ ],
+ "header .subtitle": [
+  "Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)\" target=\"_blank\" rel=\"noopener\">Masahiro Mori</a> was a robotics professor at the Tokyo Institute of Technology. In a short 1970 essay, “Bukimi no Tani Genshō,” he sketched a curve: as robots become more humanlike, our affinity for them grows — until, just before full human likeness, it collapses into revulsion.",
+  "The essay went largely unnoticed for decades, then computer graphics and humanoid robots marched straight into the dip he predicted. IEEE Spectrum published the first authorized translation in 2012, and the uncanny valley became one of the most cited ideas in robotics, animation, and interface design."
+ ],
+ ".law-content .law-desc": [
+  "As a figure becomes more humanlike, emotional response becomes more positive — until, near full human likeness, small imperfections trigger a sharp drop into unease. Movement deepens both the peaks and the valley."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masahiro-mori\">Masahiro Mori</a> (1970)",
+  "“Bukimi no Tani,” Energy journal",
+  "Stylize or perfect — never almost"
+ ],
+ ".card .tag": [
+  "The curve",
+  "Motion",
+  "Design",
+  "Faces",
+  "Why",
+  "Practice",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Shape of the Valley",
+  "Movement Deepens the Valley",
+  "Stylize or Perfect",
+  "Faces, Avatars, and CGI",
+  "Why It Happens",
+  "Designing Around the Valley",
+  "The Voice Valley",
+  "The Text Valley"
+ ],
+ ".card .desc": [
+  "Affinity climbs as a figure gains human likeness — a toy robot beats an industrial arm. Then, just short of convincing, the curve plunges: the figure stops reading as a charming machine and starts reading as a wrong human.",
+  "Mori’s second observation: motion amplifies everything. A still figure that is slightly off is unsettling; the same figure moving — with dead eyes or mistimed gestures — is far worse. Animation raises the peaks and digs the valley deeper.",
+  "The valley has two safe shores. Deliberate stylization — Pixar faces, cartoon mascots, obvious robots — sits happily on the near side. Flawless realism sits on the far side. The expensive mistake is stopping in between.",
+  "Audiences flinched at the near-human faces of early CGI films while cheerfully loving stylized ones. Product avatars follow the same rule: a friendly illustrated character outperforms a photoreal face that blinks a little wrong.",
+  "The leading explanations agree on the mechanism: a near-human figure makes the brain predict a human, and every subtle miss — skin, gaze, rhythm — is a prediction error. The figure is judged as a defective person, not an impressive machine.",
+  "Pick a shore before you build. Set expectations early — a machine that announces itself as a machine is judged as one. And when realism is the goal, budget for the last five percent, because that is where the valley lives.",
+  "Synthetic voices with human fillers — breaths, “um,” warm hesitation — triggered the same recoil as near-human faces: people felt tricked, not charmed. A capable voice that is honestly synthetic sits safely on the near shore.",
+  "AI prose falls into the valley too: generic warmth, hedged symmetry, empathy with nobody behind it. Readers sense the almost-human rhythm before they can name it. Honest, plainly machine-assisted writing reads better than an imitation of a person."
+ ],
+ ".meta .label": [
+  "X axis",
+  "Y axis",
+  "The dip",
+  "Still",
+  "Moving",
+  "Watch",
+  "Near shore",
+  "Far shore",
+  "The middle",
+  "Loved",
+  "Flinched at",
+  "Rule",
+  "Expectation",
+  "Perception",
+  "Result",
+  "Decide",
+  "Declare",
+  "Budget",
+  "Backlash",
+  "Counter",
+  "Tell",
+  "Counter"
+ ],
+ ".meta .value": [
+  "Human likeness",
+  "Affinity",
+  "Almost — but not quite",
+  "Shallow dip",
+  "Deep dip",
+  "Eyes and timing first",
+  "Honest stylization",
+  "Flawless realism",
+  "Where budgets die",
+  "Stylized characters",
+  "Near-human faces",
+  "Charm beats fidelity",
+  "A human",
+  "Almost a human",
+  "Prediction error reads as wrong",
+  "Which shore, up front",
+  "Machine as machine",
+  "The last five percent",
+  "Feeling deceived",
+  "Disclose the machine",
+  "Almost-right rhythm",
+  "Honest machine voice"
+ ],
+ ".ai-divider h3": [
+  "The Uncanny Valley in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Mori drew the curve for faces and bodies. AI walked it into new terrain: voices that breathe almost right, and prose that is almost — but not quite — how a person writes."
+ ]
+}

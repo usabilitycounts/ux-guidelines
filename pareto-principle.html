@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" data-page="pareto">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Vilfredo Pareto noticed in 1906 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.">
+<title>Pareto Principle: The 80/20 Rule in Product and UX Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/pareto-principle.html">
+<meta property="og:title" content="Pareto Principle: The 80/20 Rule in Product and UX Design — UX Guidelines">
+<meta property="og:description" content="Vilfredo Pareto noticed in 1906 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/pareto-principle.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Pareto Principle: The 80/20 Rule in Product and UX Design — UX Guidelines">
+<meta name="twitter:description" content="Vilfredo Pareto noticed in 1906 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
+    --ink: #111111; --muted: #6b6b6b;
+    --pa1: #6b6b6b; --pa2: #6b6b6b; --pa3: #6b6b6b; --pa4: #6b6b6b; --pa5: #6b6b6b;
+    --pa6: #6b6b6b; --pa7: #6b6b6b; --pa8: #6b6b6b; --ai: #0d9488;
+  }
+
+  .law-feature .formula-box .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-h1); color: var(--text-primary); font-weight: 500; line-height: var(--lh-tight); text-align: center; }
+  .law-feature .formula-box .formula .sub { display: block; font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-top: 18px; font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif; line-height: var(--lh-tight); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .copyright, .meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; }
+  
+
+  /* Pareto illustrations */
+  .pa { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .pa .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .pa .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .pa .splitbar { display: flex; height: 22px; border-radius: 8px; overflow: hidden; }
+  .pa .splitbar .a { background: var(--il-accent); }
+  .pa .splitbar .z { background: var(--skel); opacity: 0.25; }
+  .pa .grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; flex: 1; min-height: 0; }
+  .pa .cell { border-radius: 6px; background: var(--skel); opacity: 0.15; }
+  .pa .cell.b { background: var(--il-accent); opacity: 1; }
+  .pa .row { height: 18px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .pa .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .pa .row.hot { background: rgba(56,189,248,0.15); }
+  .pa .row.hot i { background: var(--il-accent); opacity: 1; }
+  .pa .row.ghost { background: var(--skel); opacity: 0.12; }
+  .pa .bars { display: flex; align-items: flex-end; gap: 8px; flex: 1; min-height: 0; }
+  .pa .bars i { flex: 1; border-radius: 5px 5px 0 0; background: var(--skel); opacity: 0.35; display: block; }
+  .pa .bars i.b { background: var(--il-accent); opacity: 1; }
+  .pa .dotfield { position: relative; flex: 1; min-height: 0; }
+  .pa .pd { position: absolute; border-radius: 50%; background: var(--skel); opacity: 0.4; transform: translate(-50%,-50%); }
+  .pa .pd.b { background: var(--il-accent); opacity: 1; }
+  .pa .check { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link active">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Pareto <em>Principle</em></h1>
+  <p class="tagline">Roughly <em>80 percent</em> of the effects come from <em>20 percent</em> of the causes.</p>
+  <p class="subtitle">Vilfredo Pareto noticed in 1906 that 80% of Italy’s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">Roughly 80% of effects come from 20% of causes</div>
+    <div class="law-formula-note">the ratio varies; the imbalance is the point.</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Vilfredo_Pareto" target="_blank" rel="noopener">Vilfredo Pareto</a> was an Italian economist and sociologist. In 1896 he observed that roughly 80% of Italy’s land belonged to 20% of its people; management thinker <a href="https://en.wikipedia.org/wiki/Joseph_M._Juran" target="_blank" rel="noopener">Joseph Juran</a> later generalized the pattern as the 80/20 rule and named it for Pareto.</p>
+    <p class="body-text">Pareto trained as an engineer and directed Italian railways before turning to economics at the University of Lausanne. His broader work on elite circulation influenced sociology for a century; the 80/20 shorthand came from quality-management pioneer <a href="people.html#p-joseph-juran">Joseph Juran</a>, who called it ‘the vital few and the trivial many.’</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principle</div>
+    <p class="body-text law-desc">A small share of causes produces most of the effect. The exact ratio isn’t sacred — 70/30, 90/10 — but the imbalance is. In product, design, and engineering, finding the high-leverage minority is where the work pays for itself.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-vilfredo-pareto">Vilfredo Pareto</a> (1896)</div></div>
+      <div><div class="label">Source</div><div class="value">Cours d’économie politique</div></div>
+      <div><div class="label">In practice</div><div class="value">Optimize the vital few</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card pa1">
+    <div class="card-header">
+      <span class="tag">Origin</span>
+      <h3>From Land to Everything</h3>
+      <p class="desc">Pareto was an Italian economist studying land ownership in 1906. He noticed about 80% of the land sat with 20% of the people — and then saw the same lopsided distribution in pea pods in his garden. The pattern turned out to be everywhere, and the name stuck.</p>
+    </div>
+    <div class="demo"><div class="pa" style="gap:14px;padding:18px 30px"><div class="splitbar"><span class="a w-20"></span><span class="z w-80"></span></div><div class="splitbar hpx-36"><span class="a" style="width:80%;opacity:0.35;background:var(--il-accent)"></span><span class="z w-20"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Year</div><div class="value">1906</div></div>
+      <div><div class="label">First seen in</div><div class="value">Italian land · pea pods</div></div>
+      <div><div class="label">Generalized</div><div class="value">By Juran, 1940s</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hofstadters-law.html">Hofstadter’s Law</a></div></div>
+  </article>
+
+  <article class="card pa2">
+    <div class="card-header">
+      <span class="tag">Product</span>
+      <h3>80% of Users Touch 20% of Features</h3>
+      <p class="desc">Microsoft’s Office team famously found that most users never touched most of the menus. The same shape recurs in nearly every product: a small core of features carries most of the engagement, and the rest sits unused — sometimes purposefully, often accidentally.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="grid"><span class="cell b"></span><span class="cell b"></span><span class="cell b"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Long-tail feature use</div></div>
+      <div><div class="label">Apply</div><div class="value">Polish the 20% first</div></div>
+      <div><div class="label">Watch for</div><div class="value">Cutting needed long tail</div></div>
+    </div>
+  </article>
+
+  <article class="card pa3">
+    <div class="card-header">
+      <span class="tag">Prioritization</span>
+      <h3>Cut to the Critical Few</h3>
+      <p class="desc">When everything looks important, the right move is usually to figure out which 20% of the backlog drives 80% of the outcome. MVP, roadmaps, and quarterly OKRs all rely on Pareto reasoning — picking the small set of bets that will carry most of the result.</p>
+    </div>
+    <div class="demo"><div class="pa gap-7"><div class="row hot"><i class="w-38"></i></div><div class="row hot"><i class="w-30"></i></div><div class="row hot"><i class="w-34"></i></div><div class="row ghost"></div><div class="row ghost"></div><div class="row ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Tactic</div><div class="value">Find the leverage few</div></div>
+      <div><div class="label">Method</div><div class="value">Impact × confidence × effort</div></div>
+      <div><div class="label">Test</div><div class="value">Could you cut it in half?</div></div>
+    </div>
+  </article>
+
+  <article class="card pa4">
+    <div class="card-header">
+      <span class="tag">Performance</span>
+      <h3>The Hot Path Carries the Cost</h3>
+      <p class="desc">Profile any production system and you almost always find the same shape: a small fraction of the code (or queries, or assets) is responsible for most of the time. Premature optimization is wasted everywhere else — but on the hot path, the math pays back massively.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="bars"><i class="b" style="height:92%"></i><i style="height:30%"></i><i style="height:18%"></i><i style="height:12%"></i><i style="height:9%"></i><i style="height:7%"></i><i style="height:5%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Apply</div><div class="value">Profile, then optimize</div></div>
+      <div><div class="label">Skip</div><div class="value">The other 80%</div></div>
+      <div><div class="label">Rule</div><div class="value">Measure before tuning</div></div>
+    </div>
+  </article>
+
+  <article class="card pa5">
+    <div class="card-header">
+      <span class="tag">Bugs and support</span>
+      <h3>Few Bugs, Most Pain</h3>
+      <p class="desc"><a href="people.html#p-joel-spolsky">Joel Spolsky</a>, Microsoft, and countless support teams have observed the same lopsidedness in crashes and tickets. A handful of bugs cause the majority of the user-visible misery; the rest are long-tail. Triage by impact, not by submission order.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="dotfield"><span class="pd b" style="left:28%;top:36%;width:34px;height:34px"></span><span class="pd b" style="left:58%;top:62%;width:26px;height:26px"></span><span class="pd" style="left:14%;top:70%;width:10px;height:10px"></span><span class="pd" style="left:42%;top:18%;width:10px;height:10px"></span><span class="pd" style="left:74%;top:26%;width:10px;height:10px"></span><span class="pd" style="left:86%;top:52%;width:10px;height:10px"></span><span class="pd" style="left:66%;top:84%;width:10px;height:10px"></span><span class="pd" style="left:38%;top:82%;width:10px;height:10px"></span><span class="pd" style="left:88%;top:80%;width:10px;height:10px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Triage by</div><div class="value">Reach × severity</div></div>
+      <div><div class="label">Not by</div><div class="value">Submission order</div></div>
+      <div><div class="label">Test</div><div class="value">Sort crash log by frequency</div></div>
+    </div>
+  </article>
+
+  <article class="card pa6">
+    <div class="card-header">
+      <span class="tag">Counter-case</span>
+      <h3>The Long Tail Still Matters</h3>
+      <p class="desc"><a href="people.html#p-chris-anderson">Chris Anderson</a>’s “long tail” is the warning: aggregate enough of the unused 80% and you sometimes find a market larger than the head. Amazon and Spotify both built businesses on it. Pareto tells you where to focus first, not which markets to abandon.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,14 C 40,90 80,104 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M80,102 C 120,106 160,107 188,108 L188,114 L80,114 Z" fill="var(--il-accent)" opacity="0.4"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">When</div><div class="value">Distribution and aggregation are cheap</div></div>
+      <div><div class="label">Examples</div><div class="value">Amazon · Spotify</div></div>
+      <div><div class="label">Don’t</div><div class="value">Confuse focus with abandonment</div></div>
+    </div>
+  </article>
+
+  <article class="card pa7">
+    <div class="card-header">
+      <span class="tag">Trap</span>
+      <h3>The Over-Prune Trap</h3>
+      <p class="desc">A naïve read of Pareto is “cut the 80% no one uses.” But unused features often serve a few critical users — accessibility, accountants, admins, oncall. Before cutting, segment by who, not just by how many. The 20% of features the bottom 5% relies on is usually load-bearing.</p>
+    </div>
+    <div class="demo"><div class="pa gap-7"><div class="row"><i class="w-34"></i></div><div class="row"><i class="w-28"></i></div><div class="row ghost"></div><div class="row hot"><i class="w-30"></i></div><div class="row ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Risk</div><div class="value">Cutting load-bearing features</div></div>
+      <div><div class="label">Segment by</div><div class="value">Who, not just how many</div></div>
+      <div><div class="label">Check</div><div class="value">A11y · ops · power users</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="wcag-pour.html">WCAG and POUR</a></div></div>
+  </article>
+
+  <article class="card pa8">
+    <div class="card-header">
+      <span class="tag">Daily use</span>
+      <h3>Default to 80/20 Thinking</h3>
+      <p class="desc">The principle is most useful as a habit. Before any review, ask: which 20% of users, screens, tasks, or errors carries 80% of the weight here? It rarely answers the whole question — but it almost always reorders the work in a way that pays off.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="plot"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><circle cx="50" cy="50" r="32" fill="none" stroke="#9a9a9a" stroke-width="10" opacity="0.25"/><circle cx="50" cy="50" r="32" fill="none" stroke="var(--il-accent)" stroke-width="10" stroke-dasharray="40.2 160.8" stroke-dashoffset="50.3" transform="rotate(-90 50 50)"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Habit</div><div class="value">Ask before reviewing</div></div>
+      <div><div class="label">Effect</div><div class="value">Reorders the work</div></div>
+      <div><div class="label">Cost</div><div class="value">Five seconds of thought</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Pareto Principle in the Age of AI</h3>
+    <p>AI changes the math of the long tail — the 80% of edge cases that used to be too expensive to serve are now within reach.</p>
+  </div>
+
+  <article class="card pa9">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Makes the Long Tail Cheap</h3>
+      <p class="desc">Pareto was partly a statement about cost: the 80% wasn’t worth serving because each unit was too expensive. Models flip that — translating, summarizing, supporting, or designing for one obscure case now costs nearly the same as one common case. The unused 80% gets reachable.</p>
+    </div>
+    <div class="demo"><div class="pa"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,14 C 40,90 80,104 188,108" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M40,60 C 80,96 140,104 188,106 L188,114 L40,114 Z" fill="var(--il-accent)" opacity="0.45"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Long tail now cheap</div></div>
+      <div><div class="label">Examples</div><div class="value">Translation · support · code</div></div>
+      <div><div class="label">Opportunity</div><div class="value">Serve who used to be skipped</div></div>
+    </div>
+  </article>
+
+  <article class="card pa10">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Risk: 80% Confident, 20% Wrong</h3>
+      <p class="desc">Models invert Pareto in a sneakier way too. They’re great at the 80% common case and worst at the 20% edge — but they sound equally confident about both. The remaining failure modes are exactly the ones that hurt: rare, plausible, and unverified.</p>
+    </div>
+    <div class="demo"><div class="pa gap-7"><div class="row"><i class="w-36"></i><span class="check"></span></div><div class="row"><i class="w-30"></i><span class="check"></span></div><div class="row"><i class="w-33"></i><span class="check"></span></div><div class="row" style="background:rgba(56,189,248,0.06)"><i style="width:28%;opacity:0.25"></i><span class="check" style="background:var(--skel);opacity:0.35"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Risk</div><div class="value">Edge cases sound certain</div></div>
+      <div><div class="label">Fix</div><div class="value">Surface uncertainty</div></div>
+      <div><div class="label">Always</div><div class="value">Verify the 20%</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Pareto_principle" target="_blank" rel="noopener"><span class="title">Pareto Principle — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Vilfredo_Pareto" target="_blank" rel="noopener"><span class="title">Vilfredo Pareto — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Counter-case</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.wired.com/2004/10/tail/" target="_blank" rel="noopener"><span class="title">The Long Tail — Chris Anderson (Wired)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/pareto-principle/" target="_blank" rel="noopener"><span class="title">Pareto Principle on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Pareto Principle</div>
+  <div class="meta-info">Pareto, 1906 · the 80/20 rule</div>
+</footer>
+
+</body>
+</html>

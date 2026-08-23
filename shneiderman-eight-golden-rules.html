@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-page="shneiderman">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load.">
+<title>Shneiderman’s Eight Golden Rules of Interface Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/shneiderman-eight-golden-rules.html">
+<meta property="og:title" content="Shneiderman&#x27;s Eight Golden Rules of Interface Design — UX Guidelines">
+<meta property="og:description" content="Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/shneiderman-eight-golden-rules.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shneiderman&#x27;s Eight Golden Rules of Interface Design — UX Guidelines">
+<meta name="twitter:description" content="Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link active">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Shneiderman’s <em>Eight Golden Rules</em></h1>
+  <p class="tagline">Eight rules that have governed interface design since 1985.</p>
+  <p class="subtitle">Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Ben_Shneiderman" target="_blank" rel="noopener">Ben Shneiderman</a> is a computer scientist at the University of Maryland and a founding figure of human-computer interaction — he founded its HCI lab in 1983, and his students and collaborators shaped the field’s methods.</p>
+    <p class="body-text">The Eight Golden Rules appeared in Designing the User Interface (1986), now in its sixth edition. Alongside them, Shneiderman’s direct-manipulation concept and his work on information visualization (“overview first, zoom and filter, details on demand”) run through modern interfaces.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Rules</div>
+    <p class="body-text law-desc">Eight working rules for interactive systems: strive for consistency, seek universal usability, offer informative feedback, design dialogs to yield closure, prevent errors, permit easy reversal of actions, keep users in control, and reduce short-term memory load.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-ben-shneiderman">Ben Shneiderman</a> (1986)</div></div>
+      <div><div class="label">Source</div><div class="value">Designing the User Interface</div></div>
+      <div><div class="label">In practice</div><div class="value">The pre-flight checklist</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 1</span>
+      <span class="num">01 / 10</span>
+      <h3>Strive for Consistency</h3>
+      <p class="desc">Similar situations should require similar actions: identical terminology, layouts, and command sequences across the product. Every inconsistency is a small tax the user pays on every visit.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col"><span class="ln" style="width:50%;opacity:0.55"></span><span class="ln faint w-86"></span><div class="row hot w-56"><i class="w-46"></i></div></div><div class="col"><span class="ln" style="width:50%;opacity:0.55"></span><span class="ln faint w-86"></span><div class="row hot w-56"><i class="w-46"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Same action</div><div class="value">Same look, same place</div></div>
+      <div><div class="label">Covers</div><div class="value">Words · layout · order</div></div>
+      <div><div class="label">Inconsistency</div><div class="value">A recurring tax</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 2</span>
+      <span class="num">02 / 10</span>
+      <h3>Seek Universal Usability</h3>
+      <p class="desc">Design for the full range of users: novices need guidance and explanations, experts need shortcuts and accelerators, and everyone needs the interface to respect ability, age, language, and technology differences.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-44"></i></div><div style="display:flex;gap:7px"><span class="chip"><i style="width:14px"></i></span><span class="chip"><i style="width:14px"></i></span><span class="chip b"><i style="width:20px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Novices</div><div class="value">Guidance</div></div>
+      <div><div class="label">Experts</div><div class="value">Accelerators</div></div>
+      <div><div class="label">Everyone</div><div class="value">Access</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="progressive-disclosure.html">Progressive Disclosure</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 3</span>
+      <span class="num">03 / 10</span>
+      <h3>Offer Informative Feedback</h3>
+      <p class="desc">Every action gets a response scaled to its importance: a subtle state change for a click, a clear confirmation for a purchase. Silence after an action is the interface equivalent of being ignored.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row hot"><i class="w-36"></i><span class="chk"></span></div><span class="ln faint w-70"></span><span class="ln faint w-58"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Small action</div><div class="value">Subtle response</div></div>
+      <div><div class="label">Big action</div><div class="value">Clear confirmation</div></div>
+      <div><div class="label">Silence</div><div class="value">Reads as broken</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 4</span>
+      <span class="num">04 / 10</span>
+      <h3>Design Dialogs to Yield Closure</h3>
+      <p class="desc">Sequences of actions need a beginning, middle, and end. The confirmation page, the “sent” state, the completed checklist — closure tells users they can stop tracking and move on.</p>
+    </div>
+    <div class="demo"><div class="il" style="padding:0;align-items:center;justify-content:center"><span style="position:absolute;inset:0;background:rgba(17,17,17,0.18);display:block"></span><div style="position:relative;width:62%;background:var(--topnav-bg);border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.18);padding:14px 16px;display:flex;flex-direction:column;gap:9px"><span style="display:block;height:8px;width:46%;border-radius:4px;background:var(--skel-strong);opacity:0.6"></span><span style="display:block;height:6px;width:88%;border-radius:3px;background:var(--skel);opacity:0.35"></span><div style="display:flex;align-items:center;gap:10px;margin-top:4px"><span style="display:block;height:22px;width:38%;border-radius:8px;background:var(--il-accent)"></span><span style="width:12px;height:12px;border-radius:50%;background:var(--il-accent);margin-left:auto;flex:none;display:block"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Give flows</div><div class="value">A visible end</div></div>
+      <div><div class="label">Closure</div><div class="value">Releases attention</div></div>
+      <div><div class="label">Missing end</div><div class="value">Lingering doubt</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 5</span>
+      <span class="num">05 / 10</span>
+      <h3>Prevent Errors</h3>
+      <p class="desc">The best error message is the one that never appears: disable invalid options, constrain formats at the input, confirm the destructive. When errors happen anyway, offer simple, constructive recovery.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="field"><i class="w-40"></i><span class="chk"></span></div><div class="row ghost w-56"></div><div class="field"><i class="w-28"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">First</div><div class="value">Make errors impossible</div></div>
+      <div><div class="label">Then</div><div class="value">Make recovery easy</div></div>
+      <div><div class="label">Tone</div><div class="value">Constructive, specific</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 6</span>
+      <span class="num">06 / 10</span>
+      <h3>Permit Easy Reversal</h3>
+      <p class="desc">Undo is the license to explore. When actions are reversible, anxiety drops and users try things — the product gets discovered instead of studied. Reversal should extend to groups of actions, not just the last one.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-34"></i></div><div class="row ghost"></div><div class="row"><i class="w-28"></i></div><div style="margin-top:6px;height:28px;width:72%;border-radius:9px;background:#111;display:flex;align-items:center;gap:10px;padding:0 12px"><span style="display:block;height:6px;width:38%;border-radius:3px;background:#fff;opacity:0.75"></span><span style="display:block;height:6px;width:18%;border-radius:3px;background:var(--il-accent);margin-left:auto"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Undo</div><div class="value">License to explore</div></div>
+      <div><div class="label">Scope</div><div class="value">Actions and groups</div></div>
+      <div><div class="label">Effect</div><div class="value">Anxiety drops</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 7</span>
+      <span class="num">07 / 10</span>
+      <h3>Keep Users in Control</h3>
+      <p class="desc">Experienced users want to feel the interface responds to their initiative — not that they’re responding to its. Surprises, interruptions, forced tours, and unrequested changes all erode the sense of ownership.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row hot"><i class="w-38"></i></div><div style="display:flex;gap:8px;opacity:0.35"><span class="chip"><i></i></span><span class="chip"><i style="width:16px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Initiator</div><div class="value">The user</div></div>
+      <div><div class="label">Avoid</div><div class="value">Interruptions · surprises</div></div>
+      <div><div class="label">Erosion</div><div class="value">Unrequested change</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Rule 8</span>
+      <span class="num">08 / 10</span>
+      <h3>Reduce Short-Term Memory Load</h3>
+      <p class="desc">Humans hold a handful of chunks at a time. Keep information visible across steps, prefer recognition to recall, and never ask users to remember something the interface just told them.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="chip b" style="align-self:flex-start"><i style="width:26px"></i></div><div class="field"><i class="w-36"></i></div><span class="ln faint w-64"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Carry context</div><div class="value">Across steps</div></div>
+      <div><div class="label">Prefer</div><div class="value">Recognition over recall</div></div>
+      <div><div class="label">Never</div><div class="value">Ask users to re-remember</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Golden Rules in the Age of AI</h3>
+    <p>Probabilistic interfaces bend every rule — consistency, reversal, and control mean something new when the system improvises.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">09 / 10</span>
+      <h3>Consistency vs Improvisation</h3>
+      <p class="desc">A model can phrase the same answer ten ways — charming in chat, corrosive in an interface. Constrain generated UI and copy to your patterns and vocabulary: the model improvises, the design system holds the line.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub w-78"><span class="l w-90"></span><span class="l w-72"></span></div><div style="display:flex;gap:7px"><span class="chip b"><i style="width:20px"></i></span><span class="chip b"><i style="width:20px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Model</div><div class="value">Improvises</div></div>
+      <div><div class="label">Design system</div><div class="value">Holds the line</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">10 / 10</span>
+      <h3>Reversal for Generated Work</h3>
+      <p class="desc">When AI edits your document or your code, rule six becomes existential: every generated change needs an inspectable diff and a one-step undo. Control and reversal are what make delegation safe.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-36"></i></div><div class="row hot"><i class="w-44"></i></div><div style="display:flex;gap:8px"><span class="chip"><i style="width:20px"></i></span><span class="chip"><i style="width:16px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Every AI change</div><div class="value">Diff and undo</div></div>
+      <div><div class="label">Makes</div><div class="value">Delegation safe</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Ben_Shneiderman" target="_blank" rel="noopener"><span class="title">Ben Shneiderman — computer scientist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Designing_the_User_Interface" target="_blank" rel="noopener"><span class="title">Designing the User Interface</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Sources</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.cs.umd.edu/users/ben/goldenrules.html" target="_blank" rel="noopener"><span class="title">The Eight Golden Rules of Interface Design — Ben Shneiderman</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Shneiderman’s Eight Golden Rules</div>
+</footer>
+
+</body>
+</html>

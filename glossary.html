@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-page="glossary">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Every term used across UX Guidelines, in one alphabetical reference.">
+<title>Glossary: UX Terms, Laws, and Definitions — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/glossary.html">
+<meta property="og:title" content="Glossary: UX Terms, Laws, and Definitions — UX Guidelines">
+<meta property="og:description" content="Every term used across UX Guidelines, in one alphabetical reference.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/glossary.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Glossary: UX Terms, Laws, and Definitions — UX Guidelines">
+<meta name="twitter:description" content="Every term used across UX Guidelines, in one alphabetical reference.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  .alpha-nav { position: sticky; top: 0; z-index: 20; background: #fff; padding: 14px 32px; display: flex; flex-wrap: wrap; gap: 4px; }
+  .alpha-nav a, .alpha-nav span { display: flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; font-size: var(--fs-label); color: var(--text-primary); }
+  .alpha-nav a:hover { background: var(--surface); }
+  .alpha-nav span { color: var(--text-faint); }
+  .gl-group { padding: 8px 32px 28px; scroll-margin-top: 72px; }
+  .gl-group h2 { margin-bottom: 14px; }
+  .gl-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 20px 32px; }
+  .gl-term .label { color: var(--text-primary); margin-bottom: 4px; }
+  .gl-term .label a { color: inherit; }
+  .gl-term .label a:hover { color: var(--text-secondary); }
+  .gl-term p { font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-secondary); }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="eye-scanning-patterns.html" class="nav-link">Eye Scanning</a>
+    <a href="nielsens-heuristics.html" class="nav-link">Heuristics</a>
+    <a href="data-visualization.html" class="nav-link">Data Viz</a>
+    <a href="grid-and-hierarchy.html" class="nav-link">Grid and Hierarchy</a>
+    <a href="gestalt-principles.html" class="nav-link">Gestalt</a>
+    <a href="fitts-law.html" class="nav-link">Fitts’s Law</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link active">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Glossary</h1>
+  <p class="subtitle">Every term used across UX Guidelines, in one alphabetical reference.</p>
+</header>
+
+<nav class="alpha-nav" aria-label="Alphabetical navigation">
+  <a href="#gl-a">A</a>
+  <a href="#gl-b">B</a>
+  <a href="#gl-c">C</a>
+  <a href="#gl-d">D</a>
+  <a href="#gl-e">E</a>
+  <a href="#gl-f">F</a>
+  <a href="#gl-g">G</a>
+  <a href="#gl-h">H</a>
+  <a href="#gl-i">I</a>
+  <a href="#gl-j">J</a>
+  <span>K</span>
+  <a href="#gl-l">L</a>
+  <a href="#gl-m">M</a>
+  <a href="#gl-n">N</a>
+  <a href="#gl-o">O</a>
+  <a href="#gl-p">P</a>
+  <span>Q</span>
+  <a href="#gl-r">R</a>
+  <a href="#gl-s">S</a>
+  <a href="#gl-t">T</a>
+  <a href="#gl-u">U</a>
+  <a href="#gl-v">V</a>
+  <a href="#gl-w">W</a>
+  <span>X</span>
+  <a href="#gl-y">Y</a>
+  <a href="#gl-z">Z</a>
+</nav>
+
+<main>
+  <section class="gl-group" id="gl-a">
+    <h2>A</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Ability</a></div><p>The ease of performing a behavior right now — one of the three factors in the Fogg Behavior Model, measured across time, money, effort, brain cycles, social deviance, and routine.</p></div>
+      <div class="gl-term"><div class="label"><a href="wcag-pour.html">Accessibility</a></div><p>Designing products that people with disabilities can perceive, operate, and understand. Codified for the web in the WCAG standard.</p></div>
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Action Line</a></div><p>The curved threshold in the Fogg Behavior Model separating behaviors that fire from those that don’t, plotted on motivation against ability.</p></div>
+      
+      <div class="gl-term"><div class="label"><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a></div><p>Interfaces people find beautiful are perceived as easier to use — polish buys patience and trust, and can mask real usability problems.</p></div><div class="gl-term"><div class="label"><a href="normans-principles.html">Affordance</a></div><p>What an object’s properties allow a person to do with it — a handle affords pulling, a flat plate affords pushing. Popularized in design by <a href="people.html#p-don-norman">Don Norman</a>.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-b">
+    <h2>B</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">Baseline Grid</a></div><p>An invisible set of evenly spaced horizontal lines that text and elements align to, keeping vertical rhythm consistent across columns.</p></div>
+      <div class="gl-term"><div class="label"><a href="navigation-patterns.html">Breadcrumb</a></div><p>A navigation trail showing where the current page sits in the site hierarchy, letting users jump back up any level.</p></div>
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">Bypassing Pattern</a></div><p>An eye-scanning behavior where readers skip the first words of each line when successive lines begin with the same word.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-c">
+    <h2>C</h2>
+    <div class="gl-list">
+      
+      <div class="gl-term"><div class="label"><a href="chestertons-fence.html">Chesterton’s Fence</a></div><p>Never remove something whose purpose you don’t understand — investigate the reason it exists first, then decide.</p></div><div class="gl-term"><div class="label"><a href="millers-law.html">Chunking</a></div><p>Grouping individual pieces of information into larger meaningful units so more fits in working memory — the practical core of Miller’s Law.</p></div>
+      <div class="gl-term"><div class="label"><a href="cognitive-load-theory.html">Cognitive Load</a></div><p>The total mental effort a task demands of working memory. Good interfaces reduce it; every extra choice, step, or inconsistency raises it.</p></div>
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Conceptual Model</a></div><p>The story a user builds in their head about how a system works. Design succeeds when the interface teaches an accurate one.</p></div>
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Consistency and Standards</a></div><p>Nielsen’s heuristic: follow platform and industry conventions so users never wonder whether different words or actions mean the same thing.</p></div>
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Constraints</a></div><p>Limits that prevent wrong actions before they happen — a plug that only fits one way, a form field that only accepts digits.</p></div>
+      <div class="gl-term"><div class="label"><a href="conways-law.html">Conway’s Law</a></div><p>Organizations design systems that mirror their own communication structures. Your org chart ships in your product.</p></div>
+      <div class="gl-term"><div class="label"><a href="curse-of-knowledge.html">Curse of Knowledge</a></div><p>Once you know something, you can’t simulate not knowing it — why experts write confusing docs and ship jargon.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-d">
+    <h2>D</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label">Dark Pattern</div><p>An interface deliberately designed to push users toward choices they wouldn’t otherwise make — the manipulative flip side of behavior design.</p></div>
+      <div class="gl-term"><div class="label"><a href="data-visualization.html">Data Visualization</a></div><p>Encoding data as visual form — position, length, angle, color — so patterns and comparisons can be read at a glance.</p></div>
+      <div class="gl-term"><div class="label"><a href="hicks-law.html">Decision Fatigue</a></div><p>The declining quality of decisions after a long run of choices. Interfaces that demand many small decisions burn it fast.</p></div>
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Discoverability</a></div><p>How easily users can find out what actions are possible and where — determined by visibility, signifiers, and feedback.</p></div>
+      <div class="gl-term"><div class="label"><a href="doherty-threshold.html">Doherty Threshold</a></div><p>Productivity soars when system response stays under about 400 milliseconds — the user and computer keep pace with each other.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-e">
+    <h2>E</h2>
+    <div class="gl-list">
+      
+      <div class="gl-term"><div class="label"><a href="shneiderman-eight-golden-rules.html">Eight Golden Rules</a></div><p><a href="people.html#p-ben-shneiderman">Ben Shneiderman</a>’s eight rules of interface design: consistency, universal usability, feedback, closure, error prevention, reversal, control, and low memory load.</p></div><div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Error Prevention</a></div><p>Nielsen’s heuristic: eliminate error-prone conditions or catch them before the user commits, rather than relying on good error messages.</p></div>
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a></div><p>The predictable paths eyes take across a page — F, Z, layer-cake, spotted — documented through decades of eye-tracking research.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-f">
+    <h2>F</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">F-Pattern</a></div><p>The most common reading pattern on text-heavy pages: two horizontal sweeps near the top, then a vertical scan down the left edge.</p></div>
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Feedback</a></div><p>The system’s immediate, visible response to a user action — the confirmation that something happened and what it was.</p></div>
+      <div class="gl-term"><div class="label"><a href="fitts-law.html">Fitts’s Law</a></div><p>The time to acquire a target is a function of its distance and size. Bigger, closer targets are faster to hit.</p></div>
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Fogg Behavior Model</a></div><p>Behavior happens when motivation, ability, and a prompt converge at the same moment: B = M · A · P.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-g">
+    <h2>G</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="galls-law.html">Gall’s Law</a></div><p>A complex system that works has invariably evolved from a simple system that worked. Complex systems designed from scratch don’t work.</p></div>
+      <div class="gl-term"><div class="label"><a href="gestalt-principles.html">Gestalt Principles</a></div><p>Rules describing how perception groups visual elements — by proximity, similarity, closure, continuity, and figure-ground relationships.</p></div>
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">Golden Ratio</a></div><p>The proportion 1 : 1.618, long used to derive layout and typographic scale relationships that feel naturally balanced.</p></div>
+      <div class="gl-term"><div class="label"><a href="goodharts-law.html">Goodhart’s Law</a></div><p>When a measure becomes a target, it ceases to be a good measure. Metrics optimized directly get gamed.</p></div>
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Gulf of Execution</a></div><p>The gap between what a user wants to do and how the interface lets them do it. Its mirror, the gulf of evaluation, is the gap in understanding what happened.</p></div>
+      <div class="gl-term"><div class="label"><a href="gutenberg-principle.html">Gutenberg Principle</a></div><p>On evenly weighted layouts, attention flows diagonally from top-left to bottom-right, favoring the primary optical area and terminal area.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-h">
+    <h2>H</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Heuristic Evaluation</a></div><p>Inspecting an interface against a short list of usability principles — a fast, expert-driven complement to user testing.</p></div>
+      <div class="gl-term"><div class="label"><a href="hicks-law.html">Hick’s Law</a></div><p>Decision time grows logarithmically with the number of choices. Fewer, better-organized options mean faster decisions.</p></div>
+      <div class="gl-term"><div class="label"><a href="hofstadters-law.html">Hofstadter’s Law</a></div><p>It always takes longer than you expect, even when you take into account Hofstadter’s Law.</p></div>
+      <div class="gl-term"><div class="label"><a href="hook-model.html">Hook Model</a></div><p><a href="people.html#p-nir-eyal">Nir Eyal</a>’s four-phase loop — trigger, action, variable reward, investment — describing how products build habits.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-i">
+    <h2>I</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label">Information Scent</div><p>The cues — labels, links, snippets — users sniff to judge whether a path will lead to what they want. Strong scent keeps them moving; weak scent makes them pogo-stick.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-j">
+    <h2>J</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="jakobs-law.html">Jakob’s Law</a></div><p>Users spend most of their time on other sites, so they expect yours to work the same way as the ones they already know.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-l">
+    <h2>L</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">Layer-Cake Pattern</a></div><p>Scanning only the headings and subheadings of a page, skipping the body text between them — the reward for good heading hierarchy.</p></div>
+      <div class="gl-term"><div class="label"><a href="navigation-patterns.html">Local Navigation</a></div><p>The section-level menu showing a page’s siblings and children, complementing the site-wide global navigation.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-m">
+    <h2>M</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="normans-principles.html">Mapping</a></div><p>The relationship between controls and their effects. Natural mapping — stove knobs arranged like the burners — needs no labels.</p></div>
+      <div class="gl-term"><div class="label"><a href="jakobs-law.html">Mental Model</a></div><p>What a user believes about how a system works, built from every similar system they’ve used before. Interfaces fail when they fight it.</p></div>
+      <div class="gl-term"><div class="label"><a href="millers-law.html">Miller’s Law</a></div><p>Working memory holds about seven items, plus or minus two. Chunking is how interfaces respect the limit.</p></div>
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">Modular Grid</a></div><p>A grid with both columns and rows, creating repeatable modules that give complex layouts consistent structure.</p></div>
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Motivation</a></div><p>The drive to act — one of the three Fogg factors, fluctuating through pleasure and pain, hope and fear, acceptance and rejection.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-n">
+    <h2>N</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="navigation-patterns.html">Navigation Patterns</a></div><p>The recurring structures — global nav, local nav, breadcrumbs, search, site maps — that let users move through an information space.</p></div>
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Nielsen’s Heuristics</a></div><p><a href="people.html#p-jakob-nielsen">Jakob Nielsen</a>’s ten general principles for interaction design, the most widely used checklist in usability evaluation.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-o">
+    <h2>O</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Onboarding</a></div><p>A new user’s first guided experience with a product. Mostly an ability problem: cut steps, pre-fill, and show the first win fast.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-p">
+    <h2>P</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="paradox-of-choice.html">Paradox of Choice</a></div><p>More options attract attention but depress action and satisfaction — <a href="people.html#p-barry-schwartz">Barry Schwartz</a>’s extension of choice-overload research.</p></div>
+      <div class="gl-term"><div class="label"><a href="pareto-principle.html">Pareto Principle</a></div><p>Roughly 80 percent of effects come from 20 percent of causes. In products: most usage concentrates in a few features.</p></div>
+      
+      <div class="gl-term"><div class="label"><a href="peak-end-rule.html">Peak-End Rule</a></div><p>People judge an experience by its most intense moment and its ending, not its average — design the peak and stick the landing.</p></div><div class="gl-term"><div class="label"><a href="postels-law.html">Postel’s Law</a></div><p>Be liberal in what you accept, conservative in what you send. Interfaces should tolerate messy input and return clean output.</p></div>
+      <div class="gl-term"><div class="label"><a href="power-law-of-practice.html">Power Law of Practice</a></div><p>Task time drops as a power function of repetitions — fast gains early, diminishing gains forever after.</p></div>
+      <div class="gl-term"><div class="label"><a href="progressive-disclosure.html">Progressive Disclosure</a></div><p>Showing only the options needed now and revealing the rest on demand, keeping each decision small.</p></div>
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Prompt</a></div><p>The signal that says “do it now” — the third Fogg factor. Without one, even motivated and able users don’t act.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-r">
+    <h2>R</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="rams-principles.html">Rams’ Ten Principles</a></div><p><a href="people.html#p-dieter-rams">Dieter Rams</a>’ criteria for good design — innovative, useful, aesthetic, understandable, honest, long-lasting, thorough, environmentally friendly, and as little design as possible.</p></div>
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Recognition over Recall</a></div><p>Nielsen’s heuristic: show options rather than making users remember them. Menus beat command lines for occasional tasks.</p></div>
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">Rule of Thirds</a></div><p>Dividing a frame into a 3 by 3 grid and placing key elements on the lines and intersections for natural visual balance.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-s">
+    <h2>S</h2>
+    <div class="gl-list">
+      
+      <div class="gl-term"><div class="label"><a href="serial-position-effect.html">Serial Position Effect</a></div><p>The first and last items in a series are recalled best; the middle sags — position is a memory decision.</p></div><div class="gl-term"><div class="label"><a href="normans-principles.html">Signifier</a></div><p>The perceivable mark that communicates an affordance — the label, icon, or shading that says “this is clickable.”</p></div>
+      <div class="gl-term"><div class="label">Skeleton Screen</div><p>A placeholder layout of grey blocks shown while content loads — and the visual language every illustration on this site is drawn in.</p></div>
+      <div class="gl-term"><div class="label"><a href="hicks-law.html">Smart Defaults</a></div><p>Pre-selecting the choice most users want, converting a decision into a confirmation.</p></div>
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">Spotted Pattern</a></div><p>Scanning that skips around a page fixating on visually distinct elements — links, numbers, buttons — rather than reading in order.</p></div>
+      <div class="gl-term"><div class="label"><a href="steering-law.html">Steering Law</a></div><p>Time to steer through a constrained path grows with its length and shrinks with its width — the law of tunnels, menus, and sliders.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-t">
+    <h2>T</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="teslers-law.html">Tesler’s Law</a></div><p>Every application has an irreducible amount of complexity. The only question is who has to deal with it — the user or the designer.</p></div>
+      <div class="gl-term"><div class="label"><a href="fogg-behavior-model.html">Tiny Habits</a></div><p><a href="people.html#p-bj-fogg">BJ Fogg</a>’s method of building behavior by shrinking it until it’s almost effortless, anchoring it to a routine, and celebrating immediately.</p></div>
+      <div class="gl-term"><div class="label"><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div><p><a href="people.html#p-bruce-tognazzini">Bruce Tognazzini</a>’s foundational rules of interaction design, spanning anticipation, autonomy, consistency, and latency.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-u">
+    <h2>U</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="universal-icons.html">Universal Icons</a></div><p>The handful of symbols users recognize without labels — search, home, cart, settings — earned through decades of consistent placement.</p></div>
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">User Control and Freedom</a></div><p>Nielsen’s heuristic: provide clearly marked exits — undo, redo, cancel — so mistakes are cheap to escape.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-v">
+    <h2>V</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="nielsens-heuristics.html">Visibility of System Status</a></div><p>Nielsen’s first heuristic: keep users informed about what’s happening through timely, appropriate feedback.</p></div>
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">Visual Hierarchy</a></div><p>Arranging elements by size, weight, color, and position so the eye meets them in order of importance.</p></div>
+      <div class="gl-term"><div class="label"><a href="von-restorff-effect.html">Von Restorff Effect</a></div><p>When one item differs from its neighbors, it’s the one remembered — the isolation effect behind every accent color.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-w">
+    <h2>W</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="wcag-pour.html">WCAG</a></div><p>The Web Content Accessibility Guidelines — the W3C standard organized around four principles: perceivable, operable, understandable, robust.</p></div>
+      <div class="gl-term"><div class="label"><a href="weber-fechner-law.html">Weber-Fechner Law</a></div><p>Perceived change is relative to the starting magnitude — a change users notice at small scale disappears at large scale.</p></div>
+      <div class="gl-term"><div class="label"><a href="grid-and-hierarchy.html">White Space</a></div><p>The empty space around and between elements. Not wasted space — it groups, separates, and gives hierarchy room to work.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-y">
+    <h2>Y</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="yerkes-dodson-law.html">Yerkes-Dodson Law</a></div><p>Performance rises with arousal to a point, then falls — moderate pressure helps, high pressure hurts, especially on hard tasks.</p></div>
+    </div>
+  </section>
+
+  <section class="gl-group" id="gl-z">
+    <h2>Z</h2>
+    <div class="gl-list">
+      <div class="gl-term"><div class="label"><a href="eye-scanning-patterns.html">Z-Pattern</a></div><p>The scanning path on sparse layouts: across the top, diagonally down to the lower left, then across the bottom — where the call to action belongs.</p></div>
+      <div class="gl-term"><div class="label"><a href="zeigarnik-effect.html">Zeigarnik Effect</a></div><p>Unfinished tasks are remembered better than finished ones — the open loop behind progress bars and completion meters.</p></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Glossary</div>
+</footer>
+
+</body>
+</html>

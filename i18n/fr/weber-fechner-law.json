@@ -1,0 +1,117 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Weber-Fechner"
+ ],
+ "header .tagline": [
+  "Le plus petit changement perceptible est <em>proportionnel à l'original</em>."
+ ],
+ "header .subtitle": [
+  "Ernst Weber (1834) et Gustav Fechner (1860) ont formalisé la relation entre stimulus physique et intensité perçue. Le plus petit changement détectable n'est pas une quantité fixe — c'est une proportion fixe de ce qui existe déjà. La loi apparaît dans le volume, la luminosité, les prix, le poids, le timing d'animation et le contraste."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber\" target=\"_blank\" rel=\"noopener\">Ernst Heinrich Weber</a>, médecin allemand, a mesuré dans les années 1830 de combien un stimulus doit changer pour qu'on le remarque. <a href=\"https://en.wikipedia.org/wiki/Gustav_Fechner\" target=\"_blank\" rel=\"noopener\">Gustav Fechner</a>, son élève, a formalisé la relation en loi logarithmique en 1860 — fondant la psychophysique.",
+  "Weber a établi la différence juste perceptible par de méticuleuses expériences de levée de poids à Leipzig. Fechner — physicien, philosophe et satiriste occasionnel sous le pseudonyme de Dr. Mises — eut l'intuition au matin du 22 octobre 1850, une date que les psychophysiciens célèbrent encore comme le Fechner Day."
+ ],
+ ".law-content .law-desc": [
+  "La différence juste perceptible (JND) d'un stimulus est une fraction constante du stimulus lui-même. Passer d'un latte à 10 $ à 11 $ se remarque ; passer d'un ordinateur portable à 1 000 $ à 1 001 $ ne se remarque pas. L'œil, l'oreille et le portefeuille fonctionnent tous en ratios, pas en absolus."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Ernst Weber (1834) et Gustav Fechner (1860)",
+  "La psychophysique",
+  "Rendre les changements proportionnellement perceptibles"
+ ],
+ ".card .tag": [
+  "JND",
+  "Tarification",
+  "Typographie",
+  "Contraste",
+  "Animation",
+  "A/B",
+  "Notifications",
+  "Limites",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La différence juste perceptible",
+  "La tarification fonctionne en ratios",
+  "Les échelles typographiques sont des courbes de Weber",
+  "Le contraste est multiplicatif",
+  "Le timing d'animation est logarithmique",
+  "Les tests A/B exigent des deltas proportionnels",
+  "La fatigue notificationnelle est aussi du Weber",
+  "La loi tient dans le registre moyen",
+  "L'IA réinitialise la ligne de base",
+  "La variation générée se heurte à Weber"
+ ],
+ ".card .desc": [
+  "Soulevez un poids de 200 g ; ajoutez 10 g et vous le sentirez. Soulevez un poids de 2 000 g ; ajoutez 10 g et vous ne sentirez rien. Le seuil de détection du changement n'est pas 10 g — c'est environ 5 % de ce avec quoi vous avez commencé. Chaque canal sensoriel a sa propre fraction de Weber, et elles sont étonnamment stables.",
+  "Les marketeurs ont intériorisé cela depuis longtemps. Les remises sont présentées en pourcentages, pas en montants ; une montée en gamme, c'est « seulement 5 $ de plus » sur un petit achat et « à peine 5 % » sur un gros. Le changement de prix perçu par l'utilisateur est une fraction de Weber de l'ancre.",
+  "Les échelles typographiques modulaires — 1,125, 1,25, 1,333, 1,5, le nombre d'or — existent parce que les sauts absolus paraissent irréguliers. Une échelle où chaque palier est plus grand du même pourcentage que le précédent se lit comme une hiérarchie proportionnelle : chaque niveau est perceptiblement plus grand que celui d'en dessous.",
+  "Les ratios de contraste WCAG sont du Weber-Fechner sous le capot — le contraste perçu suit le ratio des luminances, pas leur différence. C'est pourquoi le mode sombre et le mode clair exigent des couleurs absolues différentes pour sembler également lisibles, mais le même ratio minimal (4,5:1 pour le texte courant).",
+  "La durée d'animation suit la perception, pas le chronomètre. Doubler une transition de 100 ms à 200 ms semble deux fois plus long ; doubler une transition de 1 000 ms à 2 000 ms semble bien moins que le double. Les directives de mouvement de Material l'intègrent — les durées suivent la taille et la distance des éléments, pas les pixels bruts.",
+  "Une amélioration de 5 % sur une base de conversion de 10 % est énorme ; les mêmes 5 % sur une base de 80 % sont à peine détectables. La plupart des calculs de puissance des tests A/B sont du Weber déguisé — il faut traduire le delta absolu en delta proportionnel avant de juger s'il vaut la peine d'être poursuivi.",
+  "La quinzième notification de la matinée reçoit moins d'attention que la première — non que cette notification ait changé, mais parce qu'elle représente désormais 7 % de quinze au lieu de 100 % d'une. Chaque nouvelle alerte est jugée par rapport au bruit de fond qu'elle vient grossir.",
+  "Weber-Fechner est le plus fiable au milieu d'un registre sensoriel. Aux stimuli très faibles (chuchotements, couleurs pâles) et très intenses (bruits forts, lumière aveuglante), le ratio dérive. En UX, vous êtes presque toujours dans le registre moyen, où la loi fonctionne proprement.",
+  "Il y a un an, un résumé automatique était une nouveauté. Aujourd'hui il est invisible, car chaque produit en a un. La ligne de base de l'utilisateur ne cesse de monter, et la même fonctionnalité doit continuer à s'améliorer pour donner l'impression du même delta. Weber-Fechner en mouvement : livrer le troisième meilleur résumé en 2026 semblera pire que livrer le meilleur en 2024.",
+  "Un modèle qui fait légèrement varier une image d'un utilisateur à l'autre, ou ajuste une notification de quelques pour cent, opère peut-être sous la JND. Beaucoup de réglages qui semblent actifs dans le code sont invisibles pour les utilisateurs. Il vaut la peine de vérifier si la variation est significative — ou juste du bruit indétectable."
+ ],
+ ".meta .label": [
+  "Règle",
+  "Canaux",
+  "Cadrage",
+  "Appliquer à",
+  "Ratios courants",
+  "Effet",
+  "WCAG",
+  "Test",
+  "Implication",
+  "Dans Material",
+  "Comparer",
+  "Calcul de puissance",
+  "Modèle",
+  "Tactique",
+  "Tient à",
+  "Dérive à",
+  "Effet",
+  "Implication",
+  "Question",
+  "Tactique"
+ ],
+ ".meta .value": [
+  "La JND suit le stimulus",
+  "Poids · son · lumière · prix",
+  "Le pourcentage bat l'absolu",
+  "Remise · montée en gamme · palier",
+  "1,25 · 1,333 · 1,5",
+  "La hiérarchie se lit par paliers",
+  "Fondé sur les ratios",
+  "Texte courant ≥ 4,5:1",
+  "Long ≠ proportionnellement long",
+  "Timing selon la distance",
+  "Proportionnel, pas absolu",
+  "Du Weber déguisé",
+  "Chaque Δ rétrécit face à la base",
+  "En envoyer moins · plus claires",
+  "Stimuli du registre moyen",
+  "Très faibles · très intenses",
+  "L'effet waouh rétrécit vite",
+  "Livrer vite · relever la barre",
+  "La variation est-elle perceptible ?",
+  "Mesurer d'abord la JND"
+ ],
+ ".ai-divider h3": [
+  "Weber-Fechner à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA est le nouveau flux de stimuli — et elle arrive à un volume qui réinitialise rapidement toutes les lignes de base."
+ ],
+ ".law-formula-note": [
+  "le changement perceptible est une fraction constante du stimulus, donc la sensation croît de façon logarithmique."
+ ]
+}

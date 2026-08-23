@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "Steering-<em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Je schmaler der Pfad, desto langsamer das Steuern."
+ ],
+ "header .subtitle": [
+  "Johnny Accot und Shumin Zhai erweiterten Fitts' Gesetz auf Bewegung entlang eines begrenzten Pfades: Die Zeit wächst mit der Länge des Tunnels und schrumpft mit seiner Breite. Es bestimmt verschachtelte Menüs, Slider und jedes Ziehen."
+ ],
+ ".law-origin .body-text": [
+  "Johnny Accot und <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> leiteten das Steering-Gesetz 1997 bei ihrer Eingabeforschung am IBM Almaden Research Center her. Wo Fitts das Treffen eines Ziels modellierte, modellierten sie das Durchqueren eines Pfades — und fanden eine elegante Integralform desselben Zielkonflikts.",
+  "Zhai prägte später die moderne Texteingabe bei Google, wo seine Arbeit dem Gestentippen auf Milliarden von Tastaturen zugrunde liegt. Das Steering-Gesetz bleibt eines der wenigen HCI-Modelle, die präzise genug sind, um Interaktionszeiten vorherzusagen, bevor ein Prototyp existiert."
+ ],
+ ".law-content .law-desc": [
+  "Die Zeit, einen Zeiger durch einen begrenzten Pfad zu steuern, wächst mit der Länge des Pfades und umgekehrt zu seiner Breite. Halbieren Sie die Breite des Tunnels, und das Steuern dauert etwa doppelt so lang — jeder schmale Korridor in einem Interface ist eine Steuer auf die Hand."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-johnny-accot\">Accot</a> und <a href=\"people.html#p-shumin-zhai\">Zhai</a> (1997)",
+  "Beyond Fitts' Law — CHI '97",
+  "Den Pfad verbreitern oder verkürzen"
+ ],
+ ".card .tag": [
+  "Der Tunnel",
+  "Menüs",
+  "Breite",
+  "Präzision",
+  "Ränder",
+  "Touch",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Länge über Breite",
+  "Die Diagonale im verschachtelten Menü",
+  "Breite Pfade gewinnen",
+  "Slider und Feinsteuerung",
+  "Leitplanken an den Rändern",
+  "Finger steuern schlecht",
+  "Sprache überspringt den Tunnel",
+  "Gesten entdecken das Gesetz neu"
+ ],
+ ".card .desc": [
+  "Einen Cursor durch einen Korridor zu steuern ist ein kontinuierliches Zielen: Jedes Pixel der Strecke prüft die Breite erneut. Lang und schmal ist langsam und fehleranfällig; kurz und breit ist mühelos. Das Integral ist das ganze Design-Briefing.",
+  "Kaskadierende Untermenüs sind die klassische Steering-Falle: Bewegt man sich diagonal auf das Untermenü zu, verlässt man den Hover-Korridor und lässt es zuklappen. Gute Menüs ergänzen ein Toleranzdreieck oder eine Verzögerung, damit der diagonale Pfad überlebt.",
+  "Die billigste Steering-Lösung ist Breite: höhere Menüzeilen, dickere Slider-Spuren, größere Ziehgriffe. Die Verdopplung der Korridorbreite halbiert die Steuerkosten für jeden Nutzer, bei jedem Besuch, für immer.",
+  "Ein Slider ist ein eindimensionaler Tunnel, und Präzisionsanforderungen machen ihn schmal. Für exakte Werte kombinieren Sie das Ziehen mit Stepper-Buttons oder direkter Zahleneingabe — Steuern ist für grobe Bewegungen, Tippen für präzise.",
+  "Bildschirmränder sind unendlich tiefe Wände — ein Cursor, der dagegen geworfen wird, bleibt im Korridor, egal wie schnell die Bewegung ist. Scrollleisten, Docks und Panelgriffe, die sich an einen Rand schmiegen, steuern sich von selbst.",
+  "Touch-Steuern ist schlechter als Maus-Steuern: kein Hover, ein breiter, unpräziser Kontakt und ein Arm, der den Pfad verdeckt. Ersetzen Sie Steuern auf Touch durch Tippen — gestufte Bedienelemente, Tippen-zum-Platzieren und großzügiges Einrasten.",
+  "„Stell die Helligkeit auf 70“ zu sagen ersetzt eine Steueraufgabe durch einen Satz. Wo Präzision zählt und Pfade schmal sind, sind Prompt- und Spracheingabe keine Spielereien — sie sind der breite Pfad, nach dem das Gesetz immer verlangt hat.",
+  "Luftgesten, AR-Zeiger und Stift-Interfaces führen das Steuern mit zittrigeren Händen und ohne Armlehne wieder ein. Die alte Mathematik gilt weiterhin: Jeder Gestenkorridor muss breiter sein als das Zittern, das er überstehen muss."
+ ],
+ ".meta .label": [
+  "Zeit wächst mit",
+  "Schrumpft mit",
+  "Jedes Pixel",
+  "Falle",
+  "Lösung",
+  "Oder",
+  "Billigste Lösung",
+  "Doppelte Breite",
+  "Gilt für",
+  "Slider",
+  "Exakte Werte",
+  "Nie",
+  "Ränder",
+  "Rand-Bedienelemente",
+  "Siehe auch",
+  "Touch",
+  "Bevorzugen",
+  "Ergänzen",
+  "Ein Satz",
+  "Am besten für",
+  "Neue Eingaben",
+  "Korridor"
+ ],
+ ".meta .value": [
+  "Länge",
+  "Breite",
+  "Prüft das Zielen erneut",
+  "Diagonale verlässt den Korridor",
+  "Toleranzdreieck · Verzögerung",
+  "Klicken zum Öffnen",
+  "Breiter machen",
+  "Halbe Kosten",
+  "Zeilen · Spuren · Griffe",
+  "Grobe Anpassung",
+  "Tippen oder Stufen",
+  "Pixelgenaues Ziehen",
+  "Unendliche Wände",
+  "Steuern sich von selbst",
+  "Fitts' Ecken",
+  "Kein Hover, breiter Zeiger",
+  "Tippen statt Ziehen",
+  "Einrasten und Stufen",
+  "Ersetzt das Steuern",
+  "Präzise, benennbare Ziele",
+  "Alte Mathematik",
+  "Breiter als das Zittern"
+ ],
+ ".ai-divider h3": [
+  "Das Steering-Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Spracheingabe überspringt den Tunnel komplett — und Gesten-Interfaces entdecken ihn neu. Das Gesetz entscheidet, welche Interaktionen es verdienen zu überleben."
+ ],
+ ".law-formula-note": [
+  "die Steuerzeit integriert die Pfadlänge über die Pfadbreite."
+ ]
+}

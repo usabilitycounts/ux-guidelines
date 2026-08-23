@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "<em>Principe</em> de Gutenberg"
+ ],
+ "header .tagline": [
+  "Du <em>haut-gauche</em> au <em>bas-droite</em>."
+ ],
+ "header .subtitle": [
+  "Sur les pages au poids uniforme, l'œil balaie du haut-gauche au bas-droite. Le principe de Gutenberg cartographie cette gravité de lecture — et où placer ce qui compte."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Edmund_C._Arnold\" target=\"_blank\" rel=\"noopener\">Edmund C. Arnold</a> était un maquettiste de presse américain et professeur de journalisme, souvent appelé le père du design moderne des journaux. Au fil d'une carrière passée entre les universités de Syracuse et Virginia Commonwealth, il a redessiné des centaines de journaux et écrit plus de deux douzaines de livres sur la mise en page des publications.",
+  "Le diagramme ne porte le nom de <a href=\"https://en.wikipedia.org/wiki/Johannes_Gutenberg\" target=\"_blank\" rel=\"noopener\">Johannes Gutenberg</a> que par association avec l'imprimé ; c'est Arnold qui a décrit la gravité de lecture — le balayage habituel du haut-gauche au bas-droite, façonné par le texte occidental — et qui en a fait un outil pratique de mise en page."
+ ],
+ ".law-content .law-desc": [
+  "Sur les pages au poids uniforme, l'œil balaie de la zone optique primaire, en haut à gauche, vers la zone terminale, en bas à droite, laissant aux deux coins en friche bien moins d'attention. Placez les ouvertures en haut à gauche et les appels à l'action en bas à droite."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Edmund C. Arnold",
+  "Pratique et enseignement de la mise en page de presse",
+  "CTA en bas à droite, marque en haut à gauche"
+ ],
+ ".card .tag": [
+  "Quadrant 1",
+  "Quadrant 2",
+  "Quadrant 3",
+  "Quadrant 4",
+  "Gravité",
+  "Axe",
+  "S'applique",
+  "Exception",
+  "Mise en page",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Zone optique primaire",
+  "Zone en friche forte",
+  "Zone en friche faible",
+  "Zone terminale",
+  "Gravité de lecture",
+  "Axe d'orientation",
+  "Quand il s'applique",
+  "Quand il ne s'applique pas",
+  "Applications pratiques",
+  "Le chat n'a pas de quadrants",
+  "La réponse remplace la mise en page"
+ ],
+ ".card .desc": [
+  "Le quadrant supérieur gauche — là où l'œil se pose en premier quand aucun autre signal visuel ne l'accroche. Dans les cultures de lecture occidentales, c'est là que titres, logos et marques d'identité ont leur place par défaut.",
+  "Le quadrant supérieur droit reçoit une attention réelle mais réduite. Le contenu placé ici est parcouru du regard, pas lu. Un emplacement courant pour la navigation, la recherche ou une image hero secondaire.",
+  "Le quadrant inférieur gauche reçoit le moins d'attention des quatre. L'œil le survole en descendant vers la droite — pour beaucoup d'utilisateurs, le contenu placé ici pourrait aussi bien ne pas exister.",
+  "Le quadrant inférieur droit est l'endroit où l'œil se repose après avoir balayé la page. C'est la place naturelle d'un appel à l'action — l'œil y termine littéralement sa course, prêt pour l'étape suivante.",
+  "L'attraction diagonale de la zone primaire vers la zone terminale. La gravité de lecture est le comportement par défaut — ce qui se produit quand aucune autre hiérarchie visuelle n'interrompt le balayage. Renforcez-la avec du contenu qui accompagne le trajet.",
+  "La ligne perpendiculaire, du haut-droite au bas-gauche, est l'axe auquel l'œil résiste activement. Le franchir demande un effort — c'est pourquoi le contenu placé dans les coins en friche reçoit si peu d'attention.",
+  "Le principe de Gutenberg décrit un schéma de lecture par défaut — ce qui se produit avec un contenu réparti uniformément et visuellement homogène. Mises en page de type journal, pages riches en prose, documents denses.",
+  "Tout élément visuel fort prend le pas sur la gravité de lecture. Les schémas en F ou en Z émergent à sa place. La plupart des pages web modernes — avec images, boutons et typographie variée — rompent complètement avec Gutenberg.",
+  "Là où le diagramme s'applique encore : mises en page éditoriales, newsletters, pages d'articles denses, conditions d'utilisation, et toute composition qui doit sembler formelle et traditionnelle. Placez la signature en haut à gauche, le CTA en bas à droite, et laissez la gravité faire le reste.",
+  "Une conversation est une seule colonne verticale sans zone primaire ni zone terminale. La gravité de lecture s'aplatit en un simple flux de tours, de haut en bas.",
+  "Quand l'IA renvoie directement la réponse, il n'y a souvent plus de page à mettre en forme. Le diagramme en quatre quadrants cède la place à un unique bloc de réponse généré."
+ ],
+ ".meta .label": [
+  "Placer ici",
+  "Pourquoi",
+  "À surveiller",
+  "Placer ici",
+  "Se lit comme",
+  "À surveiller",
+  "À éviter ici",
+  "Acceptable ici",
+  "À surveiller",
+  "Placer ici",
+  "Pourquoi",
+  "À surveiller",
+  "Direction",
+  "Renforcer avec",
+  "À surveiller",
+  "Direction",
+  "Effet",
+  "Cas d'usage",
+  "Idéal pour",
+  "Condition",
+  "Culturel",
+  "Se brise quand",
+  "Remplacé par",
+  "Verdict",
+  "Idéal pour",
+  "Logo",
+  "CTA",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Logo · Titre · Marque",
+  "Premier endroit où l'œil se pose",
+  "Les langues RTL inversent tout",
+  "Nav · Actions secondaires · Image",
+  "Coup d'œil, pas de focus",
+  "Y cacher du contenu critique",
+  "CTA · Titres clés · Tarifs",
+  "Pied de page · Mentions · Légal",
+  "Tout ce que l'utilisateur doit voir",
+  "CTA principal · Inscription · Achat",
+  "Point d'arrivée naturel du balayage",
+  "Enterrer le CTA ailleurs",
+  "Haut-gauche → bas-droite",
+  "Contenu aligné le long de la ligne",
+  "Diagonales concurrentes",
+  "Haut-droite → bas-gauche",
+  "L'œil résiste à cette traversée",
+  "Y placer les infos secondaires",
+  "Print · Prose longue · Documents",
+  "Contenu homogène",
+  "Lecture occidentale de gauche à droite",
+  "Images · CTA · Contrastes typographiques",
+  "Schéma en F · Schéma en Z · en taches",
+  "Rare dans les interfaces modernes",
+  "Éditorial · Newsletters · Print",
+  "Haut-gauche (primaire)",
+  "Bas-droite (terminale)",
+  "Quadrants → flux",
+  "Interface conversationnelle linéaire",
+  "Perdre la position du CTA",
+  "Mise en page → réponse",
+  "Interfaces à réponse directe",
+  "Pas d'espace pour parcourir ou comparer"
+ ],
+ ".ai-divider h3": [
+  "Gutenberg à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Une conversation n'a pas de quadrants — quand la réponse est renvoyée directement, le modèle de lecture en quatre zones cède la place à un seul flux vertical."
+ ]
+}

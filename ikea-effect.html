@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" data-page="ikea-effect">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners.">
+<title>IKEA Effect: When Labor Leads to Love — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/ikea-effect.html">
+<meta property="og:title" content="IKEA Effect: When Labor Leads to Love — UX Guidelines">
+<meta property="og:description" content="Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/ikea-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="IKEA Effect: When Labor Leads to Love — UX Guidelines">
+<meta name="twitter:description" content="Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  .ik-stage { display: flex; align-items: center; justify-content: center; }
+  .ik-bars { display: flex; align-items: flex-end; gap: 34px; height: 72%; }
+  .ik-bar { width: 54px; border-radius: 8px 8px 0 0; background: var(--skel); opacity: 0.3; align-self: flex-end; }
+  .ik-bar.b { background: var(--il-accent); opacity: 0.9; }
+  .ik-cols { display: flex; gap: 24px; padding: 22px 28px; align-items: center; }
+  .ik-col { flex: 1; display: flex; flex-direction: column; gap: 9px; }
+  .ik-line { height: 9px; border-radius: 4.5px; background: var(--skel); opacity: 0.35; }
+  .ik-piece { width: 15px; height: 15px; border-radius: 4px; background: var(--skel); opacity: 0.4; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link active">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>IKEA <em>Effect</em></h1>
+  <p class="tagline">Labor leads to love.</p>
+  <p class="subtitle">Norton, Mochon, and Ariely showed in 2011 that people value things far more once they helped build them. Effort — even a little of it — turns users into co-creators, and co-creators into owners.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Michael_I._Norton" target="_blank" rel="noopener">Michael I. Norton</a> of Harvard Business School, with Daniel Mochon and <a href="https://en.wikipedia.org/wiki/Dan_Ariely" target="_blank" rel="noopener">Dan Ariely</a>, had people fold origami and assemble plain IKEA boxes. Builders then bid dramatically more for their own creations — valuing amateur work near the level of experts’ — and assumed everyone else would too.</p>
+    <p class="body-text">The 2011 paper named the effect after the furniture that ships as a box of parts. The idea was older: 1950s marketers had learned that instant cake mixes sold better once the recipe required adding an egg. A little labor made the cake feel like the baker’s own.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">People assign disproportionate value to things they helped create, even when the labor is small and the result is objectively ordinary. The premium appears only when the work is completed — abandoned or failed builds earn no love.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-michael-norton">Michael Norton</a>, <a href="people.html#p-daniel-mochon">Daniel Mochon</a>, and <a href="people.html#p-dan-ariely">Dan Ariely</a> (2011)</div></div>
+      <div><div class="label">Source</div><div class="value">“The IKEA Effect: When Labor Leads to Love”</div></div>
+      <div><div class="label">In practice</div><div class="value">Let users build — a little</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The research</span>
+      <span class="num">01 / 08</span>
+      <h3>The Experiments</h3>
+      <p class="desc">Participants who assembled a plain black IKEA box bid 63 percent more for it than buyers of an identical pre-built one. Origami folders priced their lopsided cranes near expert work. The labor, not the object, carried the value.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-stage"><div class="ik-bars"><span class="ik-bar" style="height:38%"></span><span class="ik-bar b" style="height:76%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pre-built</div><div class="value">Baseline value</div></div>
+      <div><div class="label">Self-built</div><div class="value">63 percent premium</div></div>
+      <div><div class="label">Carrier</div><div class="value">The labor itself</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Origins</span>
+      <span class="num">02 / 08</span>
+      <h3>The Egg in the Cake Mix</h3>
+      <p class="desc">Instant cake mixes stalled in the 1950s until makers took the powdered egg out and asked bakers to crack a fresh one in. One meaningful step converted a factory product into the baker’s own cake — and sales followed.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols"><div class="ik-col"><span class="ik-line w-90"></span><span class="ik-line w-78"></span><span class="ik-line w-84"></span></div><div class="ik-col"><span class="ik-line w-84"></span><span class="ik-line" style="width:80%;background:var(--il-accent);opacity:0.9"></span><span class="ik-line w-76"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">All-in-one</div><div class="value">Felt like the factory’s</div></div>
+      <div><div class="label">Add an egg</div><div class="value">Felt like the baker’s</div></div>
+      <div><div class="label">Lesson</div><div class="value">One real step is enough</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Boundary</span>
+      <span class="num">03 / 08</span>
+      <h3>Labor Must Succeed</h3>
+      <p class="desc">The premium exists only for completed work. When builders had to disassemble their creation, or never finished it, the extra value vanished. Effort binds people to outcomes — not to attempts.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols" style="flex-direction:column;justify-content:center;gap:20px;align-items:stretch"><div style="display:flex;align-items:center;gap:12px"><span class="ik-line" style="flex:1;height:12px;border-radius:6px;background:var(--il-accent);opacity:0.9"></span><span class="ik-piece" style="border-radius:50%;background:var(--il-accent);opacity:0.9"></span></div><div style="display:flex;align-items:center;gap:12px"><span class="ik-line" style="flex:0 0 42%;height:12px;border-radius:6px;opacity:0.22"></span><span class="flex-1"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Finished</div><div class="value">Full premium</div></div>
+      <div><div class="label">Abandoned</div><div class="value">No premium</div></div>
+      <div><div class="label">Design duty</div><div class="value">Make completion reachable</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="zeigarnik-effect.html">Zeigarnik Effect</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Design</span>
+      <span class="num">04 / 08</span>
+      <h3>Customization Creates Owners</h3>
+      <p class="desc">Setting an avatar, naming a workspace, arranging a dashboard — small acts of building make the product feel authored. Users who shaped their setup return to it, defend it, and forgive it more.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols"><div class="ik-col" style="flex:0 0 34%;align-items:center;gap:12px"><span class="ik-piece" style="width:44px;height:44px;border-radius:50%;background:var(--il-accent);opacity:0.85"></span><span class="ik-line w-70"></span></div><div class="ik-col"><span class="ik-line w-88"></span><span class="ik-line w-72"></span><span class="ik-line w-80"></span><span class="ik-line w-64"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Moment</div><div class="value">Setup and onboarding</div></div>
+      <div><div class="label">Act</div><div class="value">Name it, shape it, place it</div></div>
+      <div><div class="label">Payoff</div><div class="value">Retention and forgiveness</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">05 / 08</span>
+      <h3>Effort, Not Busywork</h3>
+      <p class="desc">The effect rewards meaningful labor, not friction. Forced steps, hollow wizards, and make-work forms breed resentment, not ownership. Give users one egg to crack — never a form for the sake of a form.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols"><div class="ik-col"><span class="ik-line" style="width:80%;background:var(--il-accent);opacity:0.85"></span><span class="ik-line" style="width:70%;background:var(--il-accent);opacity:0.85"></span><span class="ik-line" style="width:76%;background:var(--il-accent);opacity:0.85"></span></div><div class="ik-col gap-6"><span class="ik-line" style="width:80%;opacity:0.18"></span><span class="ik-line" style="width:74%;opacity:0.18"></span><span class="ik-line" style="width:78%;opacity:0.18"></span><span class="ik-line" style="width:70%;opacity:0.18"></span><span class="ik-line" style="width:76%;opacity:0.18"></span><span class="ik-line" style="width:72%;opacity:0.18"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Meaningful</div><div class="value">Few, consequential steps</div></div>
+      <div><div class="label">Busywork</div><div class="value">Many, hollow steps</div></div>
+      <div><div class="label">Test</div><div class="value">Would they miss the step?</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Retention</span>
+      <span class="num">06 / 08</span>
+      <h3>The Investment Loop</h3>
+      <p class="desc">Playlists, boards, saved views, trained filters — every artifact a user builds inside a product raises what leaving would cost. Stored labor is the strongest retention there is, and the easiest to earn honestly.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-stage"><svg class="il-svg" viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet"><circle cx="190" cy="40" r="8" fill="var(--skel)" opacity="0.45"/><circle cx="300" cy="105" r="8" fill="var(--il-accent)"/><circle cx="80" cy="105" r="8" fill="var(--il-accent)"/><circle cx="190" cy="170" r="8" fill="var(--il-accent)"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Artifacts</div><div class="value">Playlists · boards · views</div></div>
+      <div><div class="label">Mechanism</div><div class="value">Stored labor raises exit cost</div></div>
+      <div><div class="label">Earned</div><div class="value">Honestly, by usefulness</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hook-model.html">Hook Model</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The IKEA Effect in the Age of AI</h3>
+    <p>When a model can build the whole thing in one click, the labor disappears — and with it, the love. The craft now is deciding which egg the user still cracks.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>Co-Creation Attachment</h3>
+      <p class="desc">People prize AI output far more when they steered it — wrote the prompt, chose between drafts, edited the result. Surface that authorship: show what the user shaped, and the output stops feeling like the machine’s.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols"><div class="ik-col"><span class="ik-line" style="width:60%;background:var(--il-accent);opacity:0.85;align-self:flex-end"></span><span class="ik-line w-84"></span><span class="ik-line" style="width:52%;background:var(--il-accent);opacity:0.85;align-self:flex-end"></span><span class="ik-line w-78"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Labor now</div><div class="value">Prompting · choosing · editing</div></div>
+      <div><div class="label">Design</div><div class="value">Make authorship visible</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>When the Machine Builds Everything</h3>
+      <p class="desc">Full automation is the anti-IKEA: nothing invested, nothing owned, easy to discard. Keep one meaningful decision in the user’s hands — the outline, the pick, the final cut — and the result becomes theirs to keep.</p>
+    </div>
+    <div class="demo"><div class="il-stage ik-cols"><div class="ik-col gap-7"><span class="ik-line" style="width:88%;opacity:0.15"></span><span class="ik-line" style="width:82%;opacity:0.15"></span><span class="ik-line" style="width:86%;opacity:0.15"></span></div><div class="ik-col gap-7"><span class="ik-line w-84"></span><span class="ik-line" style="width:78%;background:var(--il-accent);opacity:0.9"></span><span class="ik-line w-82"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">One click</div><div class="value">Disposable output</div></div>
+      <div><div class="label">One decision kept</div><div class="value">Owned output</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/IKEA_effect" target="_blank" rel="noopener"><span class="title">IKEA Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Dan_Ariely" target="_blank" rel="noopener"><span class="title">Dan Ariely — behavioral economist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Journal of Consumer Psychology</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.hbs.edu/faculty/Pages/item.aspx?num=41121" target="_blank" rel="noopener"><span class="title">The IKEA Effect: When Labor Leads to Love — original paper</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · IKEA Effect</div>
+</footer>
+
+</body>
+</html>

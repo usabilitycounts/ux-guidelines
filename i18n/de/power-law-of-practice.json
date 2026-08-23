@@ -1,0 +1,117 @@
+{
+ "header h1": [
+  "Potenzgesetz der <em>Übung</em>"
+ ],
+ "header .tagline": [
+  "Die Zeit für eine Aufgabe sinkt als <em>Potenz</em> der Wiederholungen."
+ ],
+ "header .subtitle": [
+  "Snoddy (1926) beobachtete es, Newell und Rosenbloom (1981) formalisierten es: Wiederholt man eine Aufgabe, folgt die Zeit einer Potenzkurve. Starke frühe Gewinne, sanftere später, und ein langer Schwanz, in dem Übung sich noch lohnt — nur weniger."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Allen_Newell\" target=\"_blank\" rel=\"noopener\">Allen Newell</a>, eine Gründerfigur der künstlichen Intelligenz, und <a href=\"https://en.wikipedia.org/wiki/Paul_Rosenbloom\" target=\"_blank\" rel=\"noopener\">Paul Rosenbloom</a>, sein Mitarbeiter an der Carnegie Mellon University, zeigten 1981, dass Verbesserung durch Übung einem Potenzgesetz folgt — zunächst schnelle Gewinne, dann immer weiter abnehmende Erträge.",
+  "Newell war ein Gründervater der künstlichen Intelligenz — Mitschöpfer des Logic Theorist, des ersten KI-Programms — und erhielt 1975 den Turing Award. Rosenbloom leitete später die kognitive Architektur Soar mit. Neuere Forschung legt nahe, dass individuelle Lernkurven eher exponentiell verlaufen; das Potenzgesetz entsteht beim Mitteln über viele Lernende."
+ ],
+ ".law-content .law-desc": [
+  "Trägt man die Zeit pro Aufgabe gegen die Wiederholungen auf einer Log-Log-Achse auf, ergibt sich eine Gerade. Die größten Gewinne kommen früh — von Minute eins zu Minute zehn ändert sich alles. Danach bringt jede Verdopplung der Übung einen kleineren relativen Gewinn, aber nie null."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Allen Newell und Paul Rosenbloom (1981)",
+  "Mechanisms of Skill Acquisition",
+  "Für wiederholte Nutzung gestalten"
+ ],
+ ".card .tag": [
+  "Die Kurve",
+  "Erträge",
+  "Onboarding",
+  "Plateaus",
+  "Shortcuts",
+  "Gezielte Übung",
+  "Mythos",
+  "Täglich",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Lernkurve ist ein Potenzgesetz",
+  "Abnehmend, aber nicht null",
+  "Die ersten Minuten tragen die Kurve",
+  "Das Plateau ist real",
+  "Den Power-User-Pfad real machen",
+  "Nicht alle Wiederholungen sind gleich",
+  "Die 10.000-Stunden-Fehldeutung",
+  "Für die ganze Kurve gestalten",
+  "KI glättet die Anfängerkurve",
+  "Übung zählt weiterhin · für das Urteilsvermögen"
+ ],
+ ".card .desc": [
+  "Zeit pro Aufgabe und Wiederholungen bilden einen steilen Abfall. Die ersten zehn Versuche streichen den Großteil der Kosten. Die Wiederholungen hundert bis tausend senken die Zeit weiter — aber langsam, auf einer Kurve, die sich einer Asymptote annähert statt der Null.",
+  "Die meisten Onboarding-Entscheidungen hängen daran. Die erste Übungsstunde ist mehr wert als die nächsten zehn. Die nächsten zehn sind mehr wert als die nächsten hundert. Aber die Kurve geht weiter — Experten werden in jedem komplexen Werkzeug auch nach Jahren noch schneller, nur in einem Tempo, das Anfängern nicht auffallen würde.",
+  "Weil der Großteil des Lernens früh passiert, haben Onboarding-Entscheidungen überproportionalen Hebel. Ein Ersteinstieg, der die Einrichtung von 8 Minuten auf 2 senkt, verschiebt die gesamte Kurve nach rechts — weniger Abbrüche, schneller zum Wert, mehr Nutzer, die lange genug bleiben, um den flachen Teil der Kurve zu erreichen.",
+  "Übungskurven sind selten glatt. Nutzer treffen auf Plateaus — Strecken, in denen die Zeit trotz Wiederholungen nicht mehr sinkt. Oft führt eine neue Technik heraus (ein Shortcut, ein anderes mentales Modell), nicht mehr Übung derselben. Gestalten Sie für das Plateau: Machen Sie den nächsten Schritt sichtbar, zählen Sie nicht nur Wiederholungen.",
+  "Die Steigung der Kurve hängt von der verfügbaren Technik ab. Ein Nutzer, der immer nur ins Menü klickt, bleibt auf einer flacheren Kurve als einer, der die Tastenkürzel lernt. Zeigen Sie den schnelleren Weg früh und oft — Power-User sparen nicht durch Talent, sondern durch eine steilere Lernkurve.",
+  "Ericssons Forschung: Gezielte Übung — fokussiert, mit Feedback, an der Grenze des Könnens — erzeugt eine steilere Kurve als gedankenlose Wiederholungen. Tippgeschwindigkeit, Code-Geschwindigkeit, Tempo im Design-Review verbessern sich alle schneller, wenn das Feedback unmittelbar ist und das nächstschwerere Ziel in Sicht bleibt.",
+  "Gladwell machte aus Ericssons Forschung „10.000 Stunden“ — aber die Originalarbeit handelte von bestimmten Arten gezielter Übung in bestimmten Domänen. Zehntausend gedankenlose Stunden erzeugen einen flachen, erfahrenen Nutzer, keinen Spitzenkönner. Die Kurve gilt weiterhin; der Multiplikator hängt von der Qualität der Übung ab.",
+  "Ihr Produkt wird von Nutzern an jedem Punkt der Kurve verwendet. Der Nutzer am ersten Tag braucht sichtbare Standardwerte und eine erfolgreiche erste Aufgabe. Der Nutzer in Woche 100 braucht Shortcuts, Massenaktionen und Anpassung. Jede Kohorte sitzt auf einem anderen Teil der Kurve — und alle sehen dieselbe Oberfläche.",
+  "Ein Nutzer am ersten Tag kann mit einem Assistenten Ergebnisse auf Expertenniveau erzeugen. Der steile frühe Teil der Übungskurve — der Teil, an dem früher die meisten Nutzer abgesprungen sind — wird fast senkrecht. Experte und Neuling liegen heute näher beieinander als je zuvor, zumindest beim Ergebnis. Ob sie beim Urteilsvermögen näher beieinander liegen, ist eine andere Frage.",
+  "Das Modell übernimmt die Mechanik; der Mensch muss weiterhin wissen, wie gut aussieht. Die Kurve für das Urteilsvermögen — zu wissen, welches Ergebnis richtig ist, welches plausibler Unsinn, welches subtil daneben — hat nichts geglättet. Wiederholungen bauen sie noch immer auf, und Anfänger brauchen sie noch immer."
+ ],
+ ".meta .label": [
+  "Form",
+  "Nie",
+  "Muster",
+  "Expertengewinn",
+  "Hebel",
+  "Wirkung",
+  "Muster",
+  "Ausweg",
+  "Sichtbar machen",
+  "Wirkung",
+  "Quelle",
+  "Erfordert",
+  "Fehldeutung",
+  "Realität",
+  "Gestalten für",
+  "Achtung",
+  "Wirkung",
+  "Frage",
+  "Ergebnis",
+  "Urteilsvermögen"
+ ],
+ ".meta .value": [
+  "Steil, dann flach",
+  "Erreicht null",
+  "Logarithmische Erträge",
+  "Real, aber unsichtbar",
+  "Standardwerte · Vorausfüllen · Überspringen",
+  "Ganze Kurve wandert nach rechts",
+  "Stufenfunktion, nicht glatt",
+  "Neue Technik · Shortcut",
+  "Shortcuts · Befehlspalette",
+  "Power-User-Kurve · freigeschaltet",
+  "Ericsson, 1993",
+  "Feedback · Grenze des Könnens",
+  "Stunden statt Qualität",
+  "Qualität zählt mehr",
+  "Jede Kohorte",
+  "Nur der neue Nutzer",
+  "Anfänger ≈ Experte · beim Ergebnis",
+  "Beim Urteilsvermögen?",
+  "KI übernimmt das Schnelle",
+  "Kostet weiterhin Wiederholungen"
+ ],
+ ".ai-divider h3": [
+  "Das Potenzgesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle können den frühen Teil der Kurve fast flach legen — und das verändert, wer als Experte gilt."
+ ],
+ ".law-formula-note": [
+  "die Zeit pro Aufgabe (T) sinkt als Potenz der Zahl der Übungsdurchläufe (P)."
+ ]
+}

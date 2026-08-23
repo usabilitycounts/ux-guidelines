@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Serieller <em>Positionseffekt</em>"
+ ],
+ "header .tagline": [
+  "Anfang und Ende bleiben haften. Die Mitte verblasst."
+ ],
+ "header .subtitle": [
+  "Hermann Ebbinghaus fand heraus, dass Menschen die ersten und letzten Elemente einer Reihe am besten erinnern — Primacy und Recency — während die Mitte verschwimmt. Der Effekt entscheidet, was an die Enden Ihrer Menüs, Listen und Abläufe gehört."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, der deutsche Psychologe, der die experimentelle Gedächtnisforschung begründete, dokumentierte den seriellen Positionseffekt in den 1880ern — er lernte im Selbstversuch Tausende sinnloser Silben auswendig und zeichnete auf, wo die Erinnerung versagte.",
+  "Seine Kurven zeigten die höchste Erinnerungsleistung am Anfang einer Liste (Primacy — Elemente werden ins Langzeitgedächtnis eingeübt) und am Ende (Recency — Elemente liegen noch im Arbeitsgedächtnis), mit einem Durchhänger in der Mitte. Dieselben Experimente brachten die Vergessenskurve und den Spacing-Effekt hervor."
+ ],
+ ".law-content .law-desc": [
+  "Wenn Menschen eine Reihe erinnern, bildet die Leistung ein U: Die ersten Elemente profitieren vom Einüben ins Langzeitgedächtnis, die letzten davon, noch im Arbeitsgedächtnis zu liegen, und die mittleren verlieren beide Vorteile. In Interfaces ist Position eine Gedächtnisentscheidung."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Hermann Ebbinghaus (1885)",
+  "Über das Gedächtnis",
+  "Die Enden tragen das Gewicht"
+ ],
+ ".card .tag": [
+  "Primacy",
+  "Recency",
+  "Die Kurve",
+  "Navigation",
+  "Die Mitte",
+  "Abläufe",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Erste Eindrücke werden eingeübt",
+  "Das Letzte bleibt präsent",
+  "Die U-förmige Erinnerungskurve",
+  "Die Enden der Navigation verankern",
+  "Die Mitte arbeiten lassen",
+  "Schritte wie eine Geschichte anordnen",
+  "Auch Prompts haben Enden",
+  "Verloren in der Mitte"
+ ],
+ ".card .desc": [
+  "Die ersten Elemente jeder Abfolge bekommen die meiste Aufmerksamkeit und die meiste Wiederholung — Nutzer kehren gedanklich zu ihnen zurück, während sie den Rest verarbeiten. Der erste Menüpunkt, der erste Onboarding-Bildschirm und der erste Stichpunkt leisten überproportionale Arbeit.",
+  "Die letzten Elemente liegen frisch im Arbeitsgedächtnis, wenn die Abfolge endet. Der letzte Bildschirm eines Ablaufs, die Schlusszeile eines Dialogs und die unterste Aktion in einem Sheet werden fast so gut erinnert wie die ersten.",
+  "Trägt man Erinnerung gegen Position auf, entsteht ein U — hoch an beiden Enden, durchhängend in der Mitte. Alles, was aus der Mitte einer Abfolge erinnert werden muss, braucht zusätzliche Hilfe: Betonung, Wiederholung oder Umplatzierung.",
+  "Setzen Sie die wichtigsten Ziele an den Anfang und das Ende von Menüs und Tab-Leisten — Start an einem Ende, Profil oder Warenkorb am anderen. In der Mitte wohnen sekundäre Ziele bequem.",
+  "Der Durchhänger ist kein verschwendeter Platz — dort gehören Elemente mit geringem Gewicht hin. Unterseiten der Einstellungen, Randfall-Optionen und rechtliche Links können ohne Kosten in der Listenmitte leben und machen die Enden frei für das, was gefunden und erinnert werden muss.",
+  "Beim Onboarding und im Checkout erinnern Nutzer, wie es begann und wie es endete. Beginnen Sie mit dem Wert, enden Sie mit dem Erfolg — und halten Sie die mühsamen Teile (Formulare, Berechtigungen) in der Mitte, wo sie verschwimmen.",
+  "Anweisungen am Anfang und Ende eines langen Prompts werden zuverlässiger befolgt als solche, die in der Mitte vergraben sind. Dieselbe Primacy-Recency-Form, die menschliche Listen bestimmt, bestimmt, worauf ein Modell achtet.",
+  "Modelle mit langem Kontext erinnern Anfang und Ende ihres Kontexts am besten — die Abrufqualität sackt für das Material dazwischen ab. Füttert man ein Modell mit hundert Dokumenten, brauchen die mittleren die bewussteste Hervorhebung."
+ ],
+ ".meta .label": [
+  "Position",
+  "Mechanismus",
+  "Verwenden für",
+  "Position",
+  "Mechanismus",
+  "Verwenden für",
+  "Form",
+  "Primacy",
+  "Recency",
+  "Erster Platz",
+  "Letzter Platz",
+  "Mitte",
+  "Mitte ist für",
+  "Enden sind für",
+  "Achtung",
+  "Beginnen mit",
+  "Enden mit",
+  "Vergraben",
+  "Muster",
+  "Mitte",
+  "Bekannt als",
+  "Gegenmittel"
+ ],
+ ".meta .value": [
+  "Zuerst",
+  "Einüben ins Gedächtnis",
+  "Kernaktion · zentrale Aussage",
+  "Zuletzt",
+  "Arbeitsgedächtnis",
+  "Bestätigung · nächster Schritt",
+  "Hohe Enden, tiefe Mitte",
+  "Langzeitgedächtnis",
+  "Arbeitsgedächtnis",
+  "Primäres Ziel",
+  "Zweiter Anker",
+  "Sekundäre Elemente",
+  "Elemente mit geringem Gewicht",
+  "Auffindbar · einprägsam",
+  "Wesentliches vergraben",
+  "Dem Wert",
+  "Dem Erfolg",
+  "Den Papierkram",
+  "Kernregeln zuerst und zuletzt",
+  "Kontext, keine Befehle",
+  "Lost in the Middle",
+  "Neu ranken · zitieren · aufteilen"
+ ],
+ ".ai-divider h3": [
+  "Serielle Position im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle haben ihr eigenes Mittenproblem — lange Kontexte erinnern Anfang und Ende am besten. Die alte Gedächtniskurve hat eine neue Maschine gefunden."
+ ]
+}

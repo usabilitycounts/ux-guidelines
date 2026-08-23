@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "<em>Modèle</em> comportemental de Fogg"
+ ],
+ "header .tagline": [
+  "Le comportement survient quand trois choses convergent <em>au même moment</em>."
+ ],
+ "header .subtitle": [
+  "Le modèle de BJ Fogg (2009) dit qu'un comportement ne se produit que lorsque Motivation, Capacité et Déclencheur atterrissent ensemble. Retirez-en un et l'action n'a pas lieu — même si les deux autres sont au maximum. Le modèle fonde le behavior design, la technologie persuasive et la méthode Tiny Habits."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/B._J._Fogg\" target=\"_blank\" rel=\"noopener\">BJ Fogg</a> est un scientifique du comportement à l'université Stanford, où il a fondé le Behavior Design Lab. Son modèle comportemental de 2009 — le comportement survient quand motivation, capacité et déclencheur convergent — est devenu une pierre angulaire de la technologie persuasive.",
+  "Fogg a forgé le terme « captologie » — l'étude des ordinateurs comme technologies persuasives — dans les années 1990, bien avant l'existence des équipes growth. Parmi ses étudiants à Stanford figurait le cofondateur d'Instagram ; son livre ultérieur Tiny Habits a retourné le modèle vers l'intérieur, vers le changement de comportement personnel."
+ ],
+ ".law-content .law-desc": [
+  "Un comportement se produit quand Motivation, Capacité et Déclencheur convergent au même moment. Les trois sont multiplicatifs — ramenez l'un d'eux à zéro et le produit est zéro, quelle que soit la hauteur des autres."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "BJ Fogg (2009)",
+  "Stanford Behavior Design Lab",
+  "Associer les déclencheurs à des actions faciles"
+ ],
+ ".card .tag": [
+  "M · L'élan",
+  "A · La facilité",
+  "P · Le signal",
+  "Le seuil",
+  "Les maths",
+  "Pratique",
+  "Tiny Habits",
+  "Appliqué",
+  "Appliqué",
+  "Le revers",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Motivation",
+  "Capacité",
+  "Déclencheurs",
+  "La ligne d'action",
+  "Trois facteurs, multipliés",
+  "Rendre le comportement minuscule",
+  "L'ancrer · le célébrer",
+  "Les notifications comme déclencheurs",
+  "L'onboarding est un problème de capacité",
+  "Persuasion contre manipulation",
+  "L'IA élève la capacité",
+  "Le déclencheur personnalisé"
+ ],
+ ".card .desc": [
+  "Pourquoi la personne agirait, tout simplement. Fogg regroupe les motivateurs en trois paires — plaisir / douleur, espoir / peur, acceptation sociale / rejet. La motivation fluctue énormément au fil de la journée, ce qui en fait le levier le moins fiable sur lequel s'appuyer.",
+  "À quel point le comportement est facile maintenant. Fogg nomme six dimensions de la simplicité : temps, argent, effort physique, cycles mentaux, déviance sociale et non-routine. La plus rare l'emporte. Réduire la friction sur cette dimension coûte presque toujours moins cher que doper la motivation.",
+  "Le signal qui dit « fais-le maintenant ». Sans déclencheur, le comportement ne part pas — même quand motivation et capacité sont élevées. Fogg en distingue trois sortes : l'étincelle (dope la motivation), le facilitateur (rend l'action plus facile) et le signal (un simple rappel, pour les gens déjà disposés et capables).",
+  "Tracez la motivation contre la capacité, et un seuil courbe sépare « agira » de « n'agira pas ». Au-dessus de la ligne, un déclencheur fait partir le comportement ; en dessous, aucun déclencheur ne suffit. Une motivation faible peut être compensée par une très grande capacité, et inversement — mais seulement le long de la courbe.",
+  "Le « MAP » est une multiplication, pas une addition. Si un facteur est à zéro — pas de motivation, pas de capacité, pas de déclencheur — le produit est zéro, et rien ne se passe. C'est pourquoi un déclencheur parfait sur un utilisateur fatigué tombe à plat, et pourquoi un utilisateur motivé sans déclencheur ne commence jamais.",
+  "L'enseignement le plus pratique de Fogg : quand la motivation n'est pas fiable, augmentez plutôt la capacité — rétrécissez le comportement jusqu'à ce que presque n'importe qui puisse le faire un mauvais jour. « Passer le fil dentaire sur une dent » devient la porte d'entrée du fil dentaire. Tiny Habits est toute une méthodologie bâtie autour de cette seule idée.",
+  "Deux autres pièces des Tiny Habits de Fogg : attachez le nouveau comportement à une routine existante (l'ancre — « après m'être brossé les dents, je vais… ») et marquez-le immédiatement d'un petit sentiment positif (« Oui ! »). L'ancre gère le déclencheur ; la célébration l'ancre dans le cerveau.",
+  "Les notifications d'un produit sont ses déclencheurs. Envoyez-en trop à des gens sans motivation et vous les entraînez à ignorer. Envoyez un signal bien synchronisé à un utilisateur déjà prêt et capable, et vous obtenez l'action. Le timing &gt; le volume.",
+  "Les nouveaux utilisateurs ne manquent presque jamais de motivation — ils ne seraient pas là. Ils manquent de capacité. Coupez des étapes, préremplissez, utilisez des valeurs par défaut sensées, et démontrez la première victoire en quelques minutes. La plupart des problèmes d'« engagement » des nouveaux utilisateurs se dissolvent quand la capacité monte.",
+  "Le modèle est symétrique — il fonctionne que vous aidiez un utilisateur à atteindre son objectif ou que vous le poussiez au-delà de son meilleur jugement. Casinos, défilements infinis et dark patterns sont du Fogg à l'envers. Le modèle lui-même s'en moque ; le designer, lui, ne le doit pas.",
+  "« Rédige un contrat », « code cette fonctionnalité », « designe cet écran » — l'IA effondre le coût en capacité des comportements qui exigeaient autrefois une expertise. Des choses qui étaient sous la ligne d'action se trouvent maintenant confortablement au-dessus, simplement parce qu'elles sont devenues plus faciles.",
+  "Un modèle qui sait quand un utilisateur est motivé et capable peut délivrer le déclencheur exactement à ce moment. Bien fait, cela supprime la friction de deviner « maintenant ». Mal fait, c'est du harcèlement hyper-ciblé — et les gens cessent de faire confiance au canal."
+ ],
+ ".meta .label": [
+  "Comprend",
+  "Se comporte",
+  "Appliquer",
+  "Dimensions",
+  "Règle",
+  "Appliquer",
+  "Étincelle",
+  "Facilitateur",
+  "Signal",
+  "Au-dessus",
+  "En dessous",
+  "Compromis",
+  "Maths",
+  "Zéro sur",
+  "À surveiller",
+  "Levier",
+  "Tactique",
+  "Bâti là-dessus",
+  "Ancre",
+  "Comportement",
+  "Célébrer",
+  "Les déclencheurs sont",
+  "Mauvais moment",
+  "Bon moment",
+  "Levier",
+  "Tactique",
+  "Test",
+  "Test",
+  "Face sombre",
+  "Rôle du designer",
+  "Effet",
+  "Résultat",
+  "Exemples",
+  "Pouvoir",
+  "Risque",
+  "Test"
+ ],
+ ".meta .value": [
+  "Plaisir · espoir · acceptation",
+  "Fluctue · peu fiable",
+  "Ne pas s'y fier seul",
+  "Temps · argent · effort · cerveau · social · routine",
+  "La plus rare l'emporte",
+  "Moins cher que la motivation",
+  "Pour motivation faible",
+  "Pour capacité faible",
+  "Pour les prêts à agir",
+  "Le déclencheur lance l'action",
+  "Aucun déclencheur ne suffit",
+  "M et A s'échangent le long de la courbe",
+  "Multiplicatif, pas additif",
+  "Mise à zéro",
+  "Déclencheur manquant = silence",
+  "Doper la capacité, pas la motivation",
+  "Rétrécir la demande",
+  "Méthode Tiny Habits",
+  "Routine existante",
+  "Le rendre minuscule",
+  "Immédiat et positif",
+  "Notifications · e-mails · CTA",
+  "Entraîne à ignorer",
+  "Lance l'action",
+  "La capacité, pas la motivation",
+  "Couper · préremplir · défaut",
+  "Première victoire en minutes",
+  "Au service de quel objectif ?",
+  "Casinos · défilement infini",
+  "Choisir le bon",
+  "Abaisse le coût en capacité",
+  "Plus d'utilisateurs au-dessus de la ligne",
+  "Écriture · code · design",
+  "Bonne personne, bon moment",
+  "Harcèlement hyper-ciblé",
+  "L'utilisateur le voulait-il ?"
+ ],
+ ".ai-divider h3": [
+  "Le modèle de Fogg à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA abaisse la Capacité sur toute la ligne et permet de lancer un Déclencheur parfaitement synchronisé pour un seul utilisateur — un levier à une échelle que le modèle original de Fogg n'avait pas anticipée."
+ ],
+ ".law-formula-note": [
+  "le comportement survient quand motivation, capacité et déclencheur se produisent ensemble."
+ ]
+}

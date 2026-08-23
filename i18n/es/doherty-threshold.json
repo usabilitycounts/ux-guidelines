@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "Umbral de <em>Doherty</em>"
+ ],
+ "header .tagline": [
+  "Por debajo de 400 milisegundos, el trabajo se vuelve una conversación."
+ ],
+ "header .subtitle": [
+  "La investigación de Walter Doherty y Ahrvind Thadani en IBM (1982): cuando un sistema responde en menos de 400 milisegundos, la productividad se dispara — el usuario y la computadora se mantienen en el mismo hilo de pensamiento. Acompañado aquí de los límites clásicos de tiempo de respuesta que toda interfaz sigue respetando."
+ ],
+ ".law-origin .body-text": [
+  "Walter J. Doherty y Ahrvind J. Thadani eran investigadores de IBM que estudiaban la economía de la computación interactiva. Su artículo de 1982, The Economic Value of Rapid Response Time, tumbó la suposición de la época de que dos segundos de respuesta bastaban — la productividad subía con fuerza cuando las respuestas bajaban de 400 milisegundos.",
+  "El hallazgo replanteó la velocidad del sistema como argumento económico: las máquinas más rápidas se pagaban solas en atención humana recuperada. Décadas después el mismo umbral aparece en los presupuestos de rendimiento web, y los límites de tiempo de respuesta de <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> llevan el marco hacia adelante."
+ ],
+ ".law-content .law-desc": [
+  "La productividad se dispara cuando una computadora y sus usuarios interactúan a un ritmo — menos de 400 milisegundos — que garantiza que ninguno espere al otro. Por debajo del umbral, el trabajo se siente como una conversación; por encima, cada pausa rompe el hilo de pensamiento del usuario y los errores aumentan."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-walter-j-doherty\">Doherty</a> y <a href=\"people.html#p-ahrvind-thadani\">Thadani</a> (1982)",
+  "The Economic Value of Rapid Response Time",
+  "Responde o acusa recibo rápido"
+ ],
+ ".card .tag": [
+  "La línea",
+  "Complemento",
+  "Percepción",
+  "Patrón",
+  "Coste",
+  "Práctica",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "La línea de los 400 milisegundos",
+  "Los límites de tiempo de respuesta",
+  "El feedback gana a la velocidad bruta",
+  "UI optimista",
+  "La latencia se acumula",
+  "Fija un presupuesto de rendimiento",
+  "El streaming gana al spinner",
+  "Acusa recibo, luego piensa"
+ ],
+ ".card .desc": [
+  "Doherty y Thadani midieron transacciones por hora a medida que caía el tiempo de respuesta. La curva no es lineal — por debajo de 400 ms, los usuarios dejan de organizar su pensamiento alrededor de las pausas de la máquina y la productividad salta.",
+  "Los tres límites de Jakob Nielsen conviven con el umbral de Doherty: 0,1 segundos se siente instantáneo, 1 segundo mantiene el hilo de pensamiento y 10 segundos es el borde exterior de la atención — pasado ese punto, los usuarios cambian de tarea.",
+  "Cuando el sistema no puede responder en 400 ms, aún puede acusar recibo en 400 ms. Los skeleton screens, los estados presionados y el eco local instantáneo hacen que una operación lenta se sienta receptiva — la velocidad percibida es un material de diseño.",
+  "Confirma el cambio en pantalla antes de que la red lo confirme. El mensaje aparece en el hilo, el interruptor cambia, el elemento se archiva solo — y el sistema reconcilia entre bastidores. El usuario nunca espera un viaje de ida y vuelta.",
+  "Ningún retraso aislado mata un flujo de trabajo — la acumulación sí. Una búsqueda de 700 ms, un filtro de 900 ms, un guardado de 1,2 s: a lo largo de una jornada, las pausas suman concentración rota y trabajo por lotes, propenso a errores.",
+  "Trata los 400 ms como tratas una especificación visual. Da a cada interacción un presupuesto, mide la ruta real más lenta — no la máquina de la demo — y gasta el tiempo de ingeniería donde los usuarios de verdad esperan.",
+  "Un modelo que tarda ocho segundos viola todos los límites de esta página — salvo que haga streaming. Los tokens apareciendo a velocidad de lectura mantienen al usuario dentro de la conversación de 400 ms aunque la respuesta completa esté a segundos de distancia.",
+  "El prompt debe aterrizar al instante — con eco en el hilo en menos de 100 ms — mientras el modelo trabaja. El umbral gobierna el acuse de recibo, no la respuesta. El silencio muerto tras un envío es la única latencia de IA imperdonable."
+ ],
+ ".meta .label": [
+  "Umbral",
+  "Por debajo",
+  "Por encima",
+  "0,1 s",
+  "1 s",
+  "10 s",
+  "Regla",
+  "Herramientas",
+  "Cuidado con",
+  "Ideal para",
+  "Necesita",
+  "Cuidado con",
+  "Síntoma",
+  "Solución",
+  "Objetivo",
+  "Mide",
+  "Presupuesto",
+  "Gasta en",
+  "Patrón",
+  "Efecto",
+  "Instantáneo",
+  "Honesto"
+ ],
+ ".meta .value": [
+  "Unos 400 ms",
+  "Flujo e impulso",
+  "Atención rota",
+  "Se siente instantáneo",
+  "El flujo sobrevive",
+  "La atención se fue",
+  "Acusa recibo al instante",
+  "Skeletons · estados presionados",
+  "Clics en silencio muerto",
+  "Envíos · interruptores · guardados",
+  "Reversión elegante",
+  "Mentir sobre los fallos",
+  "Los usuarios agrupan su trabajo",
+  "Presupuesta cada interacción",
+  "Menos de 400 ms cada una",
+  "Dispositivos reales, redes reales",
+  "Por interacción",
+  "La ruta más lenta",
+  "Streaming, no spinner",
+  "La espera se siente como leer",
+  "Haz eco del prompt",
+  "Muestra el estado de pensamiento"
+ ],
+ ".ai-divider h3": [
+  "El umbral de Doherty en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos tardan segundos, no milisegundos. El umbral no cede — así que la interfaz tiene que gastar la espera con honestidad."
+ ],
+ ".law-formula-note": [
+  "el tiempo de respuesta bajo el cual la atención, el flujo y la productividad se mantienen."
+ ]
+}

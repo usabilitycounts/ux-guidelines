@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en" data-page="dataviz">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Sixteen chart types grouped by the question they answer — comparison, relationship, distribution, and composition. Pick the chart that fits the question, not the one that looks impressive.">
+<title>Data Visualization: Sixteen Chart Types and When to Use Them — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/data-visualization.html">
+<meta property="og:title" content="Data Visualization: Sixteen Chart Types and When to Use Them — UX Guidelines">
+<meta property="og:description" content="Sixteen chart types grouped by the question they answer — comparison, relationship, distribution, and composition. Pick the chart that fits the question, not the one that looks impressive.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/data-visualization.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Data Visualization: Sixteen Chart Types and When to Use Them — UX Guidelines">
+<meta name="twitter:description" content="Sixteen chart types grouped by the question they answer — comparison, relationship, distribution, and composition. Pick the chart that fits the question, not the one that looks impressive.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --axis: #9a9a9a;
+    --grid-l: #d8d1c0;
+    --c1:  #6b6b6b; /* bar */
+    --c2:  #6b6b6b; /* line */
+    --c3:  #6b6b6b; /* area */
+    --c4:  #6b6b6b; /* pie */
+    --c5:  #6b6b6b; /* scatter */
+    --c6:  #6b6b6b; /* histogram */
+    --c7:  #6b6b6b; /* heatmap */
+    --c8:  #6b6b6b; /* treemap */
+    --c9:  #6b6b6b; /* boxplot */
+    --c10: #6b6b6b; /* sankey */
+    --c11: #6b6b6b; /* bar (horizontal) */
+  }
+
+  /* ---------- Grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  /* ---------- Card ---------- */
+  .card { background: var(--bg); border: 1px solid var(--border); padding: 36px 32px 32px;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+    position: relative;
+  }
+
+  /* ---------- Chart frame ---------- */
+  .chart { width: 100%; aspect-ratio: 16 / 10; height: auto; background: var(--bg); border: 1.5px solid var(--border); border-radius: 14px; padding: 54px 24px 24px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  /* Browser toolbar (bar + traffic-light dots) */
+  .chart::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 30px;
+    background:
+      radial-gradient(circle at 20.5px 15px, #9a9a9a 6.5px, transparent 7px),
+      radial-gradient(circle at 44.5px 15px, #9a9a9a 6.5px, transparent 7px),
+      radial-gradient(circle at 68.5px 15px, #9a9a9a 6.5px, transparent 7px),
+      #ececec;
+    border-bottom: 1.5px solid var(--border);
+    z-index: 1;
+  }
+  /* URL pill */
+  .chart::after {
+    content: '';
+    position: absolute;
+    top: 8.5px; left: 92px; right: 14px;
+    height: 13px;
+    background: rgba(107, 107, 107,0.22);
+    border-radius: 6.5px;
+    z-index: 2;
+  }
+  .chart svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: visible;
+  }
+  .chart-label { display: none; }
+  .chart-value {
+    position: absolute;
+    top: 14px;
+    right: 22px;
+    font-size: var(--fs-caption);
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* card 10 spans full row */
+  .card.k10 .chart { max-width: 720px; }
+  .card.k10 .meta { grid-template-columns: 1fr 1fr; }
+
+  @keyframes dv-slice { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes grow-bar {
+    from { transform: scaleY(0); }
+    to   { transform: scaleY(1); }
+  }
+
+  .bar-rect {
+    transform-origin: bottom;
+    transform-box: fill-box;
+    animation: grow-bar 0.9s ease-out forwards;
+  }
+  @keyframes grow-bar-h {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+  .bar-rect-h {
+    transform-origin: left;
+    transform-box: fill-box;
+    animation: grow-bar-h 0.9s ease-out forwards;
+  }
+  .bar-rect.d1 { animation-delay: 0.05s; }
+  .bar-rect.d2 { animation-delay: 0.15s; }
+  .bar-rect.d3 { animation-delay: 0.25s; }
+  .bar-rect.d4 { animation-delay: 0.35s; }
+  .bar-rect.d5 { animation-delay: 0.45s; }
+  .bar-rect.d6 { animation-delay: 0.55s; }
+  .bar-rect.d7 { animation-delay: 0.65s; }
+  .bar-rect.d8 { animation-delay: 0.75s; }
+
+  .draw-line {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 2.2s ease forwards;
+  }
+
+  .fade-in { opacity: 0; animation: fade-in 0.6s ease forwards; }
+  .fi-d1 { animation-delay: 0.5s; }
+  .fi-d2 { animation-delay: 0.7s; }
+  .fi-d3 { animation-delay: 0.9s; }
+  .fi-d4 { animation-delay: 1.1s; }
+  .fi-d5 { animation-delay: 1.3s; }
+  .fi-d6 { animation-delay: 1.5s; }
+  .fi-d7 { animation-delay: 1.7s; }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width: 600px) {
+    .card.k10 { grid-column: unset; }
+    .card.k10 .meta { grid-template-columns: 1fr 1fr; }
+
+  }
+  /* tags neutralized to match beige illustrations */
+  .card .tag { background: rgba(107, 107, 107,.12) !important; color: var(--text-secondary) !important; }
+  /* illustration above headline */
+  .chart { order: -1; }
+  /* category sections */
+  .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 40px 32px 8px; line-height: var(--lh-heading); }
+  @media (max-width: 600px) { .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 28px 20px 8px; line-height: var(--lh-heading); } }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* Lighter chart marks (page-scoped) */
+  .chart { --skel-strong: #d9d9d9; }
+
+  /* AI-card illustrations */
+  .aix { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .aix .bars { display: flex; align-items: flex-end; gap: 8px; flex: 1; min-height: 0; padding: 0 8px; }
+  .aix .bars i { flex: 1; border-radius: 5px 5px 0 0; background: #d9d9d9; display: block; }
+  .aix .bars i.b { background: var(--il-accent); opacity: 1; }
+  .aix .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="eye-scanning-patterns.html" class="nav-link">Eye Scanning</a>
+    <a href="nielsens-heuristics.html" class="nav-link">Heuristics</a>
+    <a href="data-visualization.html" class="nav-link active">Data Viz</a>
+    <a href="grid-and-hierarchy.html" class="nav-link">Grid and Hierarchy</a>
+    <a href="gestalt-principles.html" class="nav-link">Gestalt</a>
+    <a href="fitts-law.html" class="nav-link">Fitts’s Law</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link active">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Data Visualization</h1>
+  <p class="tagline">Charts That Actually <em>Communicate</em></p>
+  <p class="subtitle">Sixteen chart types grouped by the question they answer — comparison, relationship, distribution, and composition. Pick the chart that fits the question, not the one that looks impressive.</p>
+</header>
+
+<main>
+
+  <section class="cat">
+    <h2 class="cat-label">Comparison</h2>
+    <div class="grid">
+<article class="card k11">
+    <div class="card-header">
+      <span class="tag">Ranking</span>
+      <span class="num"></span>
+      <h3>Bar Chart</h3>
+      <p class="desc">Horizontal bars excel at ranking. Long category names read naturally left-to-right, and dozens of items stack tidily down the page without sacrificing label clarity.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="80.0 20.0 220.0 128.0" preserveAspectRatio="none">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="end"></g>
+        <!-- vertical axis -->
+        
+        <!-- gridlines (vertical) -->
+        <!-- horizontal bars (already sorted, largest at top) — pitch 22 = height 18 + gap 4 -->
+        <rect class="bar-rect-h d1" x="80" y="20"  width="220" height="18" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect-h d2" x="80" y="42"  width="180" height="18" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect-h d3" x="80" y="64"  width="148" height="18" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect-h d4" x="80" y="86"  width="120" height="18" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect-h d5" x="80" y="108" width="88"  height="18" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect-h d6" x="80" y="130" width="60"  height="18" fill="var(--skel-strong)" rx="3"/>
+        <!-- category labels (vertically centered on each bar) -->
+        
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Ranking · Top-N lists</div></div>
+      <div><div class="label">Use when</div><div class="value">Long labels · Many items</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Time-series data</div></div>
+    </div>
+  </article>
+<article class="card k1">
+    <div class="card-header">
+      <span class="tag">Comparison</span>
+      <span class="num"></span>
+      <h3>Column Chart</h3>
+      <p class="desc">The workhorse of comparison. Vertical columns let the eye judge length along a common baseline — one of the most accurate visual encodings for categorical data with short labels.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="40.0 38.0 330.0 122.0" preserveAspectRatio="none">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="middle"></g>
+        <!-- gridlines -->
+        <!-- columns — pitch 42 = width 36 + gap 6 -->
+        <rect class="bar-rect d1" x="40"  y="60"  width="36" height="100" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d2" x="82"  y="38"  width="36" height="122" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d3" x="124" y="84"  width="36" height="76"  fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d4" x="166" y="52"  width="36" height="108" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d5" x="208" y="100" width="36" height="60"  fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d6" x="250" y="72"  width="36" height="88"  fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d7" x="292" y="46" width="36" height="114" fill="var(--skel-strong)" rx="3"/>
+        <rect class="bar-rect d8" x="334" y="90" width="36" height="70" fill="var(--skel-strong)" rx="3"/>
+        <!-- labels -->
+        
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Comparing categories · Time-series</div></div>
+      <div><div class="label">Use when</div><div class="value">5–12 items · Short labels</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Labels are long or angled</div></div>
+    </div>
+  </article>
+<article class="card k2">
+    <div class="card-header">
+      <span class="tag">Trend</span>
+      <span class="num"></span>
+      <h3>Line Chart</h3>
+      <p class="desc">The clearest way to show change over a continuous variable — usually time. Slope tells you direction, steepness tells you rate, crossings tell you where one series overtakes another.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="7.0 24.0 309.0 109.0" preserveAspectRatio="xMidYMid meet">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="middle"></g>
+        <path class="draw-line"
+              d="M10 130 L40 115 L70 120 L100 95 L130 105 L160 80 L190 70 L220 55 L250 60 L280 40 L310 30"
+              fill="none" stroke="var(--skel-strong)" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="var(--skel-strong)">
+          <circle class="fade-in fi-d1" cx="10"  cy="130" r="3"/>
+          <circle class="fade-in fi-d2" cx="70"  cy="120" r="3"/>
+          <circle class="fade-in fi-d3" cx="130" cy="105" r="3"/>
+          <circle class="fade-in fi-d4" cx="190" cy="70"  r="3"/>
+          <circle class="fade-in fi-d5" cx="250" cy="60"  r="3"/>
+          <circle class="fade-in fi-d6" cx="310" cy="30"  r="4"/>
+          <circle class="pulse-dot"     cx="310" cy="30"  r="6" opacity="0.3"/>
+        </g>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Trends over time</div></div>
+      <div><div class="label">Use when</div><div class="value">Continuous data · Many points</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Categories aren’t sequential</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comparison</span>
+      <span class="num"></span>
+      <h3>Radar Chart</h3>
+      <p class="desc">Plots several quantitative variables on spokes radiating from a shared center. Best for comparing the overall “shape” of a few items across the same set of metrics.</p>
+    </div>
+    <div class="chart"><svg viewBox="99.0 9.0 113.0 141.0" preserveAspectRatio="xMidYMid meet">
+        <g stroke="var(--border)" stroke-width="1" opacity="0.8" fill="none"><polygon points="160,9 212,74 203,150 134,128 99,72"/><line x1="161" y1="86" x2="160" y2="9"/><line x1="161" y1="86" x2="212" y2="74"/><line x1="161" y1="86" x2="203" y2="150"/><line x1="161" y1="86" x2="134" y2="128"/><line x1="161" y1="86" x2="99" y2="72"/></g>
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9"></g>
+        <polygon class="fade-in fi-d2" points="160,27 200,77 193,135 140,118 113,75" fill="var(--skel-strong)" fill-opacity="0.28" stroke="var(--skel-strong)" stroke-width="2" stroke-linejoin="round"/>
+        <g fill="var(--skel-strong)">
+          <circle class="fade-in fi-d3" cx="160" cy="27" r="3"/><circle class="fade-in fi-d3" cx="200" cy="77" r="3"/>
+          <circle class="fade-in fi-d4" cx="193" cy="135" r="3"/><circle class="fade-in fi-d4" cx="140" cy="118" r="3"/>
+          <circle class="fade-in fi-d5" cx="113" cy="75" r="3"/>
+        </g>
+      </svg></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Multi-metric profiles</div></div>
+      <div><div class="label">Use when</div><div class="value">3–8 axes · 1–2 series</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Many overlapping series</div></div>
+    </div>
+  </article>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Relationship</h2>
+    <div class="grid">
+<article class="card k5">
+    <div class="card-header">
+      <span class="tag">Relationship</span>
+      <span class="num"></span>
+      <h3>Scatter Plot</h3>
+      <p class="desc">Each point is one observation across two variables. Reveals correlation, clusters, and outliers — the chart that lets the data’s structure show itself, rather than imposing one.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="26.0 41.0 283.0 103.0" preserveAspectRatio="xMidYMid meet">
+        <!-- scatter dots — correlation cloud -->
+        <g fill="var(--skel-strong)">
+          <circle class="fade-in fi-d1" cx="30"  cy="130" r="4"/>
+          <circle class="fade-in fi-d1" cx="45"  cy="140" r="4"/>
+          <circle class="fade-in fi-d2" cx="60"  cy="120" r="4"/>
+          <circle class="fade-in fi-d2" cx="78"  cy="135" r="4"/>
+          <circle class="fade-in fi-d3" cx="92"  cy="110" r="4"/>
+          <circle class="fade-in fi-d3" cx="110" cy="118" r="4"/>
+          <circle class="fade-in fi-d3" cx="125" cy="100" r="4"/>
+          <circle class="fade-in fi-d4" cx="140" cy="92"  r="4"/>
+          <circle class="fade-in fi-d4" cx="155" cy="105" r="4"/>
+          <circle class="fade-in fi-d4" cx="170" cy="85"  r="4"/>
+          <circle class="fade-in fi-d5" cx="188" cy="78"  r="4"/>
+          <circle class="fade-in fi-d5" cx="205" cy="68"  r="4"/>
+          <circle class="fade-in fi-d5" cx="220" cy="80"  r="4"/>
+          <circle class="fade-in fi-d6" cx="238" cy="60"  r="4"/>
+          <circle class="fade-in fi-d6" cx="255" cy="70"  r="4"/>
+          <circle class="fade-in fi-d6" cx="272" cy="52"  r="4"/>
+          <circle class="fade-in fi-d7" cx="290" cy="45"  r="4"/>
+          <circle class="fade-in fi-d7" cx="305" cy="55"  r="4"/>
+          <!-- outliers -->
+          <circle class="fade-in fi-d3" cx="50"  cy="55"  r="4" opacity="0.6"/>
+          <circle class="fade-in fi-d4" cx="280" cy="125" r="4" opacity="0.6"/>
+        </g>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Correlation · Outliers</div></div>
+      <div><div class="label">Use when</div><div class="value">Two numeric variables</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Tracking change over time</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Relationship</span>
+      <span class="num"></span>
+      <h3>Bubble Chart</h3>
+      <p class="desc">A scatter plot with a third variable encoded as dot size. Reveals relationships across three dimensions at once — x position, y position, and magnitude.</p>
+    </div>
+    <div class="chart"><svg viewBox="36.0 40.0 270.0 96.0" preserveAspectRatio="xMidYMid meet">
+        <g fill="var(--skel-strong)">
+          <circle class="fade-in fi-d1" cx="50" cy="122" r="14"/>
+          <circle class="fade-in fi-d2" cx="105" cy="92" r="22"/>
+          <circle class="fade-in fi-d3" cx="155" cy="118" r="10"/>
+          <circle class="fade-in fi-d3" cx="205" cy="68" r="28"/>
+          <circle class="fade-in fi-d4" cx="252" cy="100" r="16"/>
+          <circle class="fade-in fi-d5" cx="294" cy="52" r="12"/>
+        </g>
+      </svg></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Three numeric variables</div></div>
+      <div><div class="label">Use when</div><div class="value">Size adds real meaning</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Bubbles overlap heavily</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Relationship</span>
+      <span class="num"></span>
+      <h3>Connected Scatter</h3>
+      <p class="desc">A scatter plot whose points are joined in time order. Shows how the relationship between two variables evolves — tracing a path rather than a static cloud.</p>
+    </div>
+    <div class="chart"><svg viewBox="20.0 39.0 285.0 105.0" preserveAspectRatio="xMidYMid meet">
+        <path class="draw-line" d="M24 140 L70 118 L112 128 L150 86 L196 104 L244 58 L300 44" fill="none" stroke="var(--skel-strong)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="var(--skel-strong)">
+          <circle class="fade-in fi-d2" cx="24" cy="140" r="4"/><circle class="fade-in fi-d3" cx="112" cy="128" r="4"/>
+          <circle class="fade-in fi-d4" cx="150" cy="86" r="4"/><circle class="fade-in fi-d5" cx="244" cy="58" r="4"/>
+          <circle class="fade-in fi-d6" cx="300" cy="44" r="5"/>
+        </g>
+      </svg></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Two variables over time</div></div>
+      <div><div class="label">Use when</div><div class="value">Order / trajectory matters</div></div>
+      <div><div class="label">Avoid when</div><div class="value">No natural ordering</div></div>
+    </div>
+  </article>
+<article class="card k7">
+    <div class="card-header">
+      <span class="tag">Density</span>
+      <span class="num"></span>
+      <h3>Heatmap</h3>
+      <p class="desc">A grid where color intensity encodes a third value across two dimensions. Excellent for spotting density and pattern at a glance — calendar usage, correlation matrices, geographic clusters.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="40.0 20.0 270.0 138.0" preserveAspectRatio="none">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="8.5" text-anchor="end"></g>
+        <g fill="var(--skel)" font-family="Helvetica" font-size="8.5" text-anchor="middle"></g>
+        <!-- 7 days × 8 hours = 56 cells -->
+        <g>
+          <!-- helper: opacity values per cell to simulate intensity -->
+          <!-- row 0: Mon -->
+          <rect class="fade-in fi-d1" x="40"  y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.10" rx="3"/>
+          <rect class="fade-in fi-d1" x="74"  y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.18" rx="3"/>
+          <rect class="fade-in fi-d1" x="108" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.32" rx="3"/>
+          <rect class="fade-in fi-d1" x="142" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.55" rx="3"/>
+          <rect class="fade-in fi-d1" x="176" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.78" rx="3"/>
+          <rect class="fade-in fi-d1" x="210" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.62" rx="3"/>
+          <rect class="fade-in fi-d1" x="244" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.40" rx="3"/>
+          <rect class="fade-in fi-d1" x="278" y="20" width="32" height="18" fill="var(--skel-strong)" opacity="0.20" rx="3"/>
+          <!-- row 1: Tue -->
+          <rect class="fade-in fi-d2" x="40"  y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.12" rx="3"/>
+          <rect class="fade-in fi-d2" x="74"  y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.22" rx="3"/>
+          <rect class="fade-in fi-d2" x="108" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.45" rx="3"/>
+          <rect class="fade-in fi-d2" x="142" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.78" rx="3"/>
+          <rect class="fade-in fi-d2" x="176" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.92" rx="3"/>
+          <rect class="fade-in fi-d2" x="210" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.75" rx="3"/>
+          <rect class="fade-in fi-d2" x="244" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.48" rx="3"/>
+          <rect class="fade-in fi-d2" x="278" y="40" width="32" height="18" fill="var(--skel-strong)" opacity="0.22" rx="3"/>
+          <!-- row 2: Wed -->
+          <rect class="fade-in fi-d3" x="40"  y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.14" rx="3"/>
+          <rect class="fade-in fi-d3" x="74"  y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.28" rx="3"/>
+          <rect class="fade-in fi-d3" x="108" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.50" rx="3"/>
+          <rect class="fade-in fi-d3" x="142" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.85" rx="3"/>
+          <rect class="fade-in fi-d3" x="176" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.98" rx="3"/>
+          <rect class="fade-in fi-d3" x="210" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.82" rx="3"/>
+          <rect class="fade-in fi-d3" x="244" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.55" rx="3"/>
+          <rect class="fade-in fi-d3" x="278" y="60" width="32" height="18" fill="var(--skel-strong)" opacity="0.25" rx="3"/>
+          <!-- row 3: Thu -->
+          <rect class="fade-in fi-d4" x="40"  y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.12" rx="3"/>
+          <rect class="fade-in fi-d4" x="74"  y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.24" rx="3"/>
+          <rect class="fade-in fi-d4" x="108" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.42" rx="3"/>
+          <rect class="fade-in fi-d4" x="142" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.70" rx="3"/>
+          <rect class="fade-in fi-d4" x="176" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.88" rx="3"/>
+          <rect class="fade-in fi-d4" x="210" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.68" rx="3"/>
+          <rect class="fade-in fi-d4" x="244" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.42" rx="3"/>
+          <rect class="fade-in fi-d4" x="278" y="80" width="32" height="18" fill="var(--skel-strong)" opacity="0.20" rx="3"/>
+          <!-- row 4: Fri -->
+          <rect class="fade-in fi-d5" x="40"  y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.10" rx="3"/>
+          <rect class="fade-in fi-d5" x="74"  y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.20" rx="3"/>
+          <rect class="fade-in fi-d5" x="108" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.34" rx="3"/>
+          <rect class="fade-in fi-d5" x="142" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.55" rx="3"/>
+          <rect class="fade-in fi-d5" x="176" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.62" rx="3"/>
+          <rect class="fade-in fi-d5" x="210" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.45" rx="3"/>
+          <rect class="fade-in fi-d5" x="244" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.30" rx="3"/>
+          <rect class="fade-in fi-d5" x="278" y="100" width="32" height="18" fill="var(--skel-strong)" opacity="0.15" rx="3"/>
+          <!-- row 5: Sat -->
+          <rect class="fade-in fi-d6" x="40"  y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.06" rx="3"/>
+          <rect class="fade-in fi-d6" x="74"  y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.10" rx="3"/>
+          <rect class="fade-in fi-d6" x="108" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.20" rx="3"/>
+          <rect class="fade-in fi-d6" x="142" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.32" rx="3"/>
+          <rect class="fade-in fi-d6" x="176" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.30" rx="3"/>
+          <rect class="fade-in fi-d6" x="210" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.22" rx="3"/>
+          <rect class="fade-in fi-d6" x="244" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.15" rx="3"/>
+          <rect class="fade-in fi-d6" x="278" y="120" width="32" height="18" fill="var(--skel-strong)" opacity="0.08" rx="3"/>
+          <!-- row 6: Sun -->
+          <rect class="fade-in fi-d7" x="40"  y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.05" rx="3"/>
+          <rect class="fade-in fi-d7" x="74"  y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.10" rx="3"/>
+          <rect class="fade-in fi-d7" x="108" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.16" rx="3"/>
+          <rect class="fade-in fi-d7" x="142" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.24" rx="3"/>
+          <rect class="fade-in fi-d7" x="176" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.26" rx="3"/>
+          <rect class="fade-in fi-d7" x="210" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.20" rx="3"/>
+          <rect class="fade-in fi-d7" x="244" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.14" rx="3"/>
+          <rect class="fade-in fi-d7" x="278" y="140" width="32" height="18" fill="var(--skel-strong)" opacity="0.07" rx="3"/>
+        </g>
+        <!-- row labels -->
+        
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Density across two dims</div></div>
+      <div><div class="label">Use when</div><div class="value">Patterns matter more than exact values</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Accuracy is critical</div></div>
+    </div>
+  </article>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Distribution</h2>
+    <div class="grid">
+<article class="card k6">
+    <div class="card-header">
+      <span class="tag">Distribution</span>
+      <span class="num"></span>
+      <h3>Histogram</h3>
+      <p class="desc">A bar chart for a single continuous variable, binned into ranges. Reveals the shape of a distribution — where the mass is, whether it’s skewed, whether you’re looking at one population or several.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="14.0 38.0 286.0 122.0" preserveAspectRatio="none">
+        <!-- 12 bars, touching, roughly bell-shaped -->
+        <g fill="var(--skel-strong)">
+          <rect class="bar-rect d1" x="14"  y="140" width="22" height="20" rx="3"/>
+          <rect class="bar-rect d1" x="38"  y="125" width="22" height="35" rx="3"/>
+          <rect class="bar-rect d2" x="62"  y="105" width="22" height="55" rx="3"/>
+          <rect class="bar-rect d2" x="86"  y="80"  width="22" height="80" rx="3"/>
+          <rect class="bar-rect d3" x="110" y="55"  width="22" height="105" rx="3"/>
+          <rect class="bar-rect d3" x="134" y="38"  width="22" height="122" rx="3"/>
+          <rect class="bar-rect d4" x="158" y="48"  width="22" height="112" rx="3"/>
+          <rect class="bar-rect d4" x="182" y="68"  width="22" height="92" rx="3"/>
+          <rect class="bar-rect d5" x="206" y="92"  width="22" height="68" rx="3"/>
+          <rect class="bar-rect d5" x="230" y="115" width="22" height="45" rx="3"/>
+          <rect class="bar-rect d6" x="254" y="132" width="22" height="28" rx="3"/>
+          <rect class="bar-rect d6" x="278" y="148" width="22" height="12" rx="3"/>
+        </g>
+        <!-- median line -->
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Distribution shape</div></div>
+      <div><div class="label">Use when</div><div class="value">One continuous variable</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Comparing categories</div></div>
+    </div>
+  </article>
+<article class="card k9">
+    <div class="card-header">
+      <span class="tag">Statistical</span>
+      <span class="num"></span>
+      <h3>Box Plot</h3>
+      <p class="desc">A compact summary of a distribution: median, quartiles, range, and outliers — all in one mark. Indispensable when comparing the spread of many groups side-by-side.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="32.0 22.0 246.0 136.0" preserveAspectRatio="xMidYMid meet">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="middle"></g>
+        <!-- 4 box plots -->
+        <!-- box 1 -->
+        <g class="fade-in fi-d1">
+          <line x1="50" y1="40" x2="50" y2="140" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="42" y1="40" x2="58" y2="40"  stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="42" y1="140" x2="58" y2="140" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <rect x="32" y="62" width="36" height="55" fill="var(--skel-strong)" fill-opacity="0.20" stroke="var(--skel-strong)" stroke-width="1.5" rx="3"/>
+          <line x1="32" y1="92" x2="68" y2="92" stroke="var(--skel-strong)" stroke-width="2.5"/>
+          <circle cx="50" cy="25" r="3" fill="var(--skel-strong)"/>
+        </g>
+        <!-- box 2 -->
+        <g class="fade-in fi-d2">
+          <line x1="120" y1="55" x2="120" y2="148" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="112" y1="55" x2="128" y2="55"  stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="112" y1="148" x2="128" y2="148" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <rect x="102" y="78" width="36" height="50" fill="var(--skel-strong)" fill-opacity="0.20" stroke="var(--skel-strong)" stroke-width="1.5" rx="3"/>
+          <line x1="102" y1="108" x2="138" y2="108" stroke="var(--skel-strong)" stroke-width="2.5"/>
+        </g>
+        <!-- box 3 with outliers -->
+        <g class="fade-in fi-d3">
+          <line x1="190" y1="48" x2="190" y2="135" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="182" y1="48" x2="198" y2="48"  stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="182" y1="135" x2="198" y2="135" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <rect x="172" y="68" width="36" height="48" fill="var(--skel-strong)" fill-opacity="0.20" stroke="var(--skel-strong)" stroke-width="1.5" rx="3"/>
+          <line x1="172" y1="88" x2="208" y2="88" stroke="var(--skel-strong)" stroke-width="2.5"/>
+          <circle cx="190" cy="155" r="3" fill="var(--skel-strong)"/>
+        </g>
+        <!-- box 4 -->
+        <g class="fade-in fi-d4">
+          <line x1="260" y1="65" x2="260" y2="145" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="252" y1="65" x2="268" y2="65"  stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <line x1="252" y1="145" x2="268" y2="145" stroke="var(--skel-strong)" stroke-width="1.5"/>
+          <rect x="242" y="85" width="36" height="42" fill="var(--skel-strong)" fill-opacity="0.20" stroke="var(--skel-strong)" stroke-width="1.5" rx="3"/>
+          <line x1="242" y1="100" x2="278" y2="100" stroke="var(--skel-strong)" stroke-width="2.5"/>
+        </g>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Comparing distributions</div></div>
+      <div><div class="label">Use when</div><div class="value">Spread + median matter</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Audience isn’t stats-literate</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Distribution</span>
+      <span class="num"></span>
+      <h3>Violin Plot</h3>
+      <p class="desc">A box plot crossed with a density curve — the width at each value shows where data clusters. Reveals multi-modal shapes a plain box plot would hide.</p>
+    </div>
+    <div class="chart"><svg viewBox="48.0 28.0 218.0 122.0" preserveAspectRatio="xMidYMid meet">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="middle"></g>
+        <path class="fade-in fi-d1" d="M70 28 C 48 60, 50 110, 70 148 C 90 110, 92 60, 70 28 Z" fill="var(--skel-strong)" fill-opacity="0.3" stroke="var(--skel-strong)" stroke-width="1.5"/>
+        <line class="fade-in fi-d2" x1="70" y1="55" x2="70" y2="135" stroke="var(--skel-strong)" stroke-width="1.5"/><circle class="fade-in fi-d2" cx="70" cy="95" r="3.5" fill="var(--skel-strong)"/>
+        <path class="fade-in fi-d3" d="M160 40 C 132 58, 138 92, 160 100 C 182 92, 188 58, 160 40 Z M160 100 C 145 112, 145 140, 160 150 C 175 140, 175 112, 160 100 Z" fill="var(--skel-strong)" fill-opacity="0.3" stroke="var(--skel-strong)" stroke-width="1.5"/>
+        <line class="fade-in fi-d4" x1="160" y1="52" x2="160" y2="146" stroke="var(--skel-strong)" stroke-width="1.5"/><circle class="fade-in fi-d4" cx="160" cy="105" r="3.5" fill="var(--skel-strong)"/>
+        <path class="fade-in fi-d5" d="M250 50 C 234 78, 234 122, 250 145 C 266 122, 266 78, 250 50 Z" fill="var(--skel-strong)" fill-opacity="0.3" stroke="var(--skel-strong)" stroke-width="1.5"/>
+        <line class="fade-in fi-d6" x1="250" y1="62" x2="250" y2="134" stroke="var(--skel-strong)" stroke-width="1.5"/><circle class="fade-in fi-d6" cx="250" cy="100" r="3.5" fill="var(--skel-strong)"/>
+        
+      </svg></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Comparing full distributions</div></div>
+      <div><div class="label">Use when</div><div class="value">Shape matters, not just quartiles</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Audience isn’t stats-literate</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Distribution</span>
+      <span class="num"></span>
+      <h3>Strip Plot</h3>
+      <p class="desc">Every observation plotted along one axis, jittered to avoid overlap. Honest about sample size and outliers — you see the real data points, not a summary of them.</p>
+    </div>
+    <div class="chart"><svg viewBox="44.5 46.5 223.0 99.0" preserveAspectRatio="xMidYMid meet">
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="middle"></g>
+        <g fill="var(--skel-strong)" fill-opacity="0.6">
+          <circle class="fade-in fi-d1" cx="58" cy="70" r="3.5"/><circle class="fade-in fi-d1" cx="68" cy="92" r="3.5"/><circle class="fade-in fi-d1" cx="50" cy="108" r="3.5"/><circle class="fade-in fi-d1" cx="64" cy="120" r="3.5"/><circle class="fade-in fi-d2" cx="56" cy="138" r="3.5"/><circle class="fade-in fi-d2" cx="72" cy="60" r="3.5"/><circle class="fade-in fi-d2" cx="48" cy="86" r="3.5"/>
+          <circle class="fade-in fi-d3" cx="158" cy="58" r="3.5"/><circle class="fade-in fi-d3" cx="168" cy="80" r="3.5"/><circle class="fade-in fi-d3" cx="150" cy="96" r="3.5"/><circle class="fade-in fi-d4" cx="164" cy="112" r="3.5"/><circle class="fade-in fi-d4" cx="154" cy="128" r="3.5"/><circle class="fade-in fi-d4" cx="172" cy="68" r="3.5"/>
+          <circle class="fade-in fi-d5" cx="250" cy="50" r="3.5"/><circle class="fade-in fi-d5" cx="260" cy="74" r="3.5"/><circle class="fade-in fi-d5" cx="244" cy="90" r="3.5"/><circle class="fade-in fi-d6" cx="256" cy="104" r="3.5"/><circle class="fade-in fi-d6" cx="248" cy="124" r="3.5"/><circle class="fade-in fi-d6" cx="264" cy="142" r="3.5"/><circle class="fade-in fi-d6" cx="238" cy="64" r="3.5"/>
+        </g>
+        
+      </svg></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Small-to-mid datasets</div></div>
+      <div><div class="label">Use when</div><div class="value">Showing every observation</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Thousands of points overlap</div></div>
+    </div>
+  </article>
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Composition</h2>
+    <div class="grid">
+<article class="card k4">
+    <div class="card-header">
+      <span class="tag">Proportion</span>
+      <span class="num"></span>
+      <h3>Pie and Donut</h3>
+      <p class="desc">Parts of a whole, expressed as angle. Reliable only for two or three slices — beyond that, eyes can’t distinguish small angular differences and a bar chart will read clearer.</p>
+    </div>
+
+    <div class="chart" style="flex-direction:row;align-items:center;justify-content:center;gap:28px">
+      <svg viewBox="0 0 200 200" style="height:70%;width:auto;aspect-ratio:1;flex:none" preserveAspectRatio="xMidYMid meet">
+        <!-- pie: three slices, 50/30/20 -->
+        <circle cx="100" cy="100" r="50" fill="none" stroke="#bdbdbd"
+                stroke-width="100" stroke-dasharray="157 314"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 0.2s ease forwards"/>
+        <circle cx="100" cy="100" r="50" fill="none" stroke="#d4d4d4"
+                stroke-width="100" stroke-dasharray="94.2 314"
+                stroke-dashoffset="-157"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 0.6s ease forwards"/>
+        <circle cx="100" cy="100" r="50" fill="none" stroke="#e7e7e7"
+                stroke-width="100" stroke-dasharray="62.8 314"
+                stroke-dashoffset="-251.2"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 1.0s ease forwards"/>
+      </svg>
+      <svg viewBox="0 0 200 200" style="height:70%;width:auto;aspect-ratio:1;flex:none" preserveAspectRatio="xMidYMid meet">
+        <!-- donut: same outer size, same 50/30/20 ratios, same colors -->
+        <circle cx="100" cy="100" r="84" fill="none" stroke="#bdbdbd"
+                stroke-width="32" stroke-dasharray="264 528"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 0.2s ease forwards"/>
+        <circle cx="100" cy="100" r="84" fill="none" stroke="#d4d4d4"
+                stroke-width="32" stroke-dasharray="158.4 528"
+                stroke-dashoffset="-264"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 0.6s ease forwards"/>
+        <circle cx="100" cy="100" r="84" fill="none" stroke="#e7e7e7"
+                stroke-width="32" stroke-dasharray="105.6 528"
+                stroke-dashoffset="-422.4"
+                transform="rotate(-90 100 100)"
+                style="opacity:0;animation:dv-slice 0.5s 1.0s ease forwards"/>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Two-way splits</div></div>
+      <div><div class="label">Use when</div><div class="value">≤ 3 slices · Whole = 100%</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Many slices · Close values</div></div>
+    </div>
+  </article>
+<article class="card k3">
+    <div class="card-header">
+      <span class="tag">Volume</span>
+      <span class="num"></span>
+      <h3>Area Chart</h3>
+      <p class="desc">A line chart with the area below filled in. Adds visual weight that emphasizes volume or cumulative magnitude — useful for showing how a total accumulates or how parts stack up.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="0.0 0.0 310.0 160.0" preserveAspectRatio="none">
+        <path class="fade-in fi-d1"
+              d="M10 120 L50 100 L90 110 L130 80 L170 90 L210 60 L250 70 L290 40 L310 50 L310 160 L10 160 Z"
+              fill="var(--skel-strong)"/>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Volume + trend together</div></div>
+      <div><div class="label">Use when</div><div class="value">Cumulative or stacked totals</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Series overlap and hide each other</div></div>
+    </div>
+  </article>
+<article class="card k8">
+    <div class="card-header">
+      <span class="tag">Hierarchy</span>
+      <span class="num"></span>
+      <h3>Treemap</h3>
+      <p class="desc">Hierarchical proportions packed into a rectangle. Each block’s area represents its value, and nesting shows containment — efficient for showing both share and structure in a single dense view.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="0.0 0.0 320.0 180.0" preserveAspectRatio="none">
+        <!-- beige ramp, dark → light · 4px gaps show the demo bg between tiles -->
+        <!-- Engineering 42% -->
+        <rect class="fade-in fi-d1" x="0" y="0" width="176" height="116" fill="#e9e9e9" rx="3"/>
+        <!-- Sales 22% -->
+        <rect class="fade-in fi-d2" x="180" y="0" width="140" height="66" fill="#d1d1d1" rx="3"/>
+        <!-- Marketing 14% -->
+        <rect class="fade-in fi-d3" x="180" y="70" width="140" height="46" fill="#d9d9d9" rx="3"/>
+        <!-- Design 9% -->
+        <rect class="fade-in fi-d4" x="0" y="120" width="106" height="60" fill="#e1e1e1" rx="3"/>
+        <!-- Ops 7% -->
+        <rect class="fade-in fi-d5" x="110" y="120" width="76" height="60" fill="#e9e9e9" rx="3"/>
+        <!-- Other 6% -->
+        <rect class="fade-in fi-d6" x="190" y="120" width="130" height="60" fill="#d9d9d9" rx="3"/>
+        <g font-family="Helvetica" font-weight="600">
+        </g>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hierarchical part-of-whole</div></div>
+      <div><div class="label">Use when</div><div class="value">Many categories · Nested data</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Precise comparison is needed</div></div>
+    </div>
+  </article>
+<article class="card k10">
+    <div class="card-header">
+      <span class="tag">Flow</span>
+      <span class="num"></span>
+      <h3>Sankey Diagram</h3>
+      <p class="desc">Shows flow between states. Thickness of each ribbon represents quantity transferred — the best chart for tracing how a user, a dollar, or an electron moves through a system.</p>
+    </div>
+
+    <div class="chart"><svg viewBox="10.0 20.0 300.0 140.0" preserveAspectRatio="none">
+        <defs>
+          <linearGradient id="sankeyA" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="var(--skel-strong)" stop-opacity="0.55"/>
+            <stop offset="100%" stop-color="var(--skel-strong)" stop-opacity="0.30"/>
+          </linearGradient>
+          <linearGradient id="sankeyB" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="var(--skel-strong)" stop-opacity="0.40"/>
+            <stop offset="100%" stop-color="var(--skel-strong)" stop-opacity="0.20"/>
+          </linearGradient>
+          <linearGradient id="sankeyC" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="var(--skel-strong)" stop-opacity="0.25"/>
+            <stop offset="100%" stop-color="var(--skel-strong)" stop-opacity="0.12"/>
+          </linearGradient>
+        </defs>
+
+        <!-- source bars -->
+        <rect x="10" y="20" width="14" height="140" fill="var(--skel-strong)" opacity="0.85" rx="3"/>
+
+        <!-- destination bars -->
+        <rect class="fade-in fi-d1" x="296" y="20"  width="14" height="70" fill="var(--skel-strong)" opacity="0.85" rx="3"/>
+        <rect class="fade-in fi-d2" x="296" y="100" width="14" height="38" fill="var(--skel-strong)" opacity="0.65" rx="3"/>
+        <rect class="fade-in fi-d3" x="296" y="148" width="14" height="12" fill="var(--skel-strong)" opacity="0.40" rx="3"/>
+
+        <!-- flow ribbons (cubic bezier) -->
+        <path class="fade-in fi-d1"
+              d="M24 20 C 160 20, 160 20, 296 20 L296 90 C 160 90, 160 90, 24 90 Z"
+              fill="url(#sankeyA)"/>
+        <path class="fade-in fi-d2"
+              d="M24 90 C 160 90, 160 100, 296 100 L296 138 C 160 138, 160 130, 24 130 Z"
+              fill="url(#sankeyB)"/>
+        <path class="fade-in fi-d3"
+              d="M24 130 C 160 130, 160 148, 296 148 L296 160 C 160 160, 160 160, 24 160 Z"
+              fill="url(#sankeyC)"/>
+
+        <!-- labels -->
+        <g fill="var(--skel)" font-family="Helvetica" font-size="9" text-anchor="end"></g>
+      </svg></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Flow between states</div></div>
+      <div><div class="label">Use when</div><div class="value">Funnels · Energy · Network flow</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Many cross-overs make it tangled</div></div>
+    </div>
+  </article>
+    </div>
+  </section>
+
+  <div class="ai-divider" style="margin-top:0">
+    <span class="spark">✦</span>
+    <h3>Data Viz in the Age of AI</h3>
+    <p>Charts are increasingly generated from a sentence — and the model can pick the encoding and narrate the insight for you.</p>
+  </div>
+  <div class="grid">
+  <article class="card">
+    <div class="demo"><div class="aix"><div class="bars" style="flex:0 0 46%"><i style="height:40%"></i><i style="height:66%"></i><i class="b" style="height:90%"></i><i style="height:52%"></i><i style="height:74%"></i></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Describe, Don’t Configure</h3>
+      <p class="desc">Natural-language charting: “show revenue by region as bars” produces the chart. The prompt replaces the chart-type picker and the axis menus.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Configure → describe</div></div><div><div class="label">Use when</div><div class="value">Exploratory analysis</div></div><div><div class="label">Watch for</div><div class="value">Misread intent → wrong chart</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="aix"><div class="bars" style="flex:0 0 46%"><i style="height:30%"></i><i style="height:48%"></i><i style="height:62%"></i><i class="b" style="height:84%"></i></div><span class="l" style="width:78%;background:var(--il-accent);opacity:1"></span><span class="l w-56"></span></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Picks the Encoding</h3>
+      <p class="desc">Given raw data, a model can suggest the right chart type and narrate the takeaway in plain language above it — a first draft a human still edits.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Adds</div><div class="value">Suggested type + narration</div></div><div><div class="label">Use when</div><div class="value">User isn’t a chart expert</div></div><div><div class="label">Watch for</div><div class="value">Confident wrong insight</div></div>
+    </div>
+  </article>
+  </div>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Data_and_information_visualization" target="_blank" rel="noopener"><span class="title">Data and Information Visualization</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Bar_chart" target="_blank" rel="noopener"><span class="title">Bar Chart</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Line_chart" target="_blank" rel="noopener"><span class="title">Line Chart</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Pie_chart" target="_blank" rel="noopener"><span class="title">Pie Chart</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Scatter_plot" target="_blank" rel="noopener"><span class="title">Scatter Plot</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Histogram" target="_blank" rel="noopener"><span class="title">Histogram</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Heat_map" target="_blank" rel="noopener"><span class="title">Heat Map</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Treemapping" target="_blank" rel="noopener"><span class="title">Treemapping</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Box_plot" target="_blank" rel="noopener"><span class="title">Box Plot</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Sankey_diagram" target="_blank" rel="noopener"><span class="title">Sankey Diagram</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Edward Tufte</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.edwardtufte.com/tufte/" target="_blank" rel="noopener"><span class="title">Books and Essays — edwardtufte.com</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Datawrapper</h3>
+      <ul class="ref-list">
+        <li><a href="https://academy.datawrapper.de/" target="_blank" rel="noopener"><span class="title">Datawrapper Academy — Chart Choice</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Visualization Types</div>
+</footer>
+
+</body>
+</html>

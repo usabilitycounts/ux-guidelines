@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Conways <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Jede Organisation, die ein System entwirft, erzeugt ein Design, das <em>ihr Organigramm kopiert</em>."
+ ],
+ "header .subtitle": [
+  "Melvin Conways Beobachtung von 1967 über das Programmieren — und die zuverlässigste Regel, um vorherzusagen, wo ein Produkt Nähte haben wird. Wo immer das Team Arbeit übergeben muss, tut es das Produkt auch."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> ist ein amerikanischer Informatiker. In seinem Paper How Do Committees Invent? von 1968 beobachtete er, dass Organisationen Designs erzeugen, die ihre eigenen Kommunikationsstrukturen kopieren — eine Beobachtung, die <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> später Conways Gesetz nannte.",
+  "Conway erwarb Abschlüsse in Physik und Mathematik, bevor er in den 1960ern Compiler und Betriebssysteme baute. Die Harvard Business Review lehnte das Paper mangels Belegen ab; Jahrzehnte der Softwareforschung seither — darunter Studien bei Microsoft und am MIT — haben den Spiegelungseffekt empirisch bestätigt."
+ ],
+ ".law-content .law-desc": [
+  "Die Form eines Produkts folgt der Form des Teams, das es gebaut hat. Trennlinien im Team werden zu Trennlinien in der Architektur. Reibungslose Koordination in der Organisation wird zu sauberen Übergängen in der UX. Das Organigramm ist eine längere, leisere Spezifikation als alles im PRD."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Melvin Conway (1967)",
+  "How Do Committees Invent?",
+  "Teams so strukturieren wie das gewünschte Produkt"
+ ],
+ ".card .tag": [
+  "Definition",
+  "Spiegel",
+  "Taktik",
+  "Muster",
+  "Alltag",
+  "Schwestergesetz",
+  "Zwei Pizzen",
+  "Vorsicht",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Organisationen liefern ihr Organigramm aus",
+  "Der Microservices-Spiegel",
+  "Das inverse Conway-Manöver",
+  "Team Topologies",
+  "Conway in Design-Reviews",
+  "Kommunikations-Overhead",
+  "Kleine Teams, enge Schleifen",
+  "Re-Orgs erscheinen als Redesigns",
+  "KI senkt die Koordinationskosten",
+  "Der Assistent wird Teammitglied"
+ ],
+ ".card .desc": [
+  "Die Nähte im Produkt sind die Nähte im Team. Die Übergaben im Team sind die Übergaben im Code. Das Modell gilt ein halbes Jahrhundert nach Conway noch immer, weil sich der zugrunde liegende Mechanismus — Menschen koordinieren sich über die Kanäle, die ihre Organisation ihnen gibt — nicht geändert hat.",
+  "Warum ist der Monolith schwer zu zerlegen? Weil das Team ein Team ist. Warum sind die Microservices schwer zu verschmelzen? Weil die Teams vier Teams sind. Conways Gesetz zeigt sich am deutlichsten in der Service-Architektur: Die Grenzen, die in den Code geschnitten wurden, spiegeln die, die das Organigramm vor Jahren zog.",
+  "Eine bestimmte Architektur gewünscht? Die Organisation bauen, die sie hervorbringen würde. Einen sauberen Monolithen mit starkem gemeinsamem Domänenmodell? Ein Team. Unabhängige Plattform-Services? Unabhängige Teams mit unabhängigem Bereitschaftsdienst. Zuerst das Team zu entwerfen ist günstiger, als später gegen Conway zu kämpfen.",
+  "Das Buch von Skelton und Pais aus dem Jahr 2019 macht die Regel operativ. Vier Teamtypen — stream-aligned, enabling, complicated-subsystem, platform — und drei Interaktionsmodi. Es ist Conway, verwandelt in ein Playbook, das sich tatsächlich anwenden lässt.",
+  "Es zeigt sich auch im Design. Eine Einstellungsseite im Besitz von vier Teams liest sich wie vier Seiten. Ein Checkout, den Mobile und Web gemeinsam besitzen, hat subtile Verhaltensdrift, die keine Spezifikation behebt. Wenn ein Review diese Nähte aufdeckt, fragen, wem die Naht gehört. Gehört sie niemandem, ist genau das der Bug.",
+  "Brooks' Gesetz folgt aus Conway: Menschen zu einem verspäteten Projekt hinzuzufügen macht es später, weil die neuen Kanten des Kommunikationsgraphen mehr kosten als der neue Durchsatz. Conway verrät die Organisationsform, die ausliefert; Brooks verrät die Kosten, sie mittendrin zu ändern.",
+  "Amazons Zwei-Pizzen-Regel ist Conway als Metrik: Wenn zwei Pizzen ein Team nicht satt machen, ist es zu groß, um sauber auszuliefern. Kleine Teams besitzen schmale Services, kommunizieren schnell nach innen, langsam nach außen — und das Produkt nimmt genau diese Maserung an.",
+  "Conway läuft in beide Richtungen. Wer das Unternehmen umorganisiert, sollte erwarten, dass das Produkt zur neuen Form driftet — langsam, manchmal lautlos, aber zuverlässig. Eine Re-Org ist eine verkleidete Designentscheidung. Das Organigramm ist die längste Spezifikation im Unternehmen.",
+  "Modelle können teamübergreifenden Kontext tragen, den die Menschen nicht tragen konnten. Code-Review über Services hinweg, Design-Review über Oberflächen hinweg, Support über Teams hinweg — all das wird für kleinere Organisationen machbar. Conways Gesetz ist nicht aufgehoben, aber die Kosten eines breiteren Teamgraphen sinken, und Produktformen, die früher viele Teams erforderten, werden für wenige zugänglich.",
+  "Conways Gesetz nimmt an, dass die Knoten Menschen sind. Modelle sind jetzt auch Knoten — sie generieren Code, schreiben Spezifikationen, führen Tests aus. Welcher Kommunikationspfad auch immer den Assistenten trägt, er wird Teil des Organisationsgraphen, und Produktnähte bilden sich um ihn herum. Ein Team aus drei plus einem Modell ist nicht dasselbe Team wie ein Team aus drei."
+ ],
+ ".meta .label": [
+  "Geprägt von",
+  "Feld",
+  "Beispiel",
+  "Symptom",
+  "Name",
+  "Zug",
+  "Buch",
+  "Autoren",
+  "Lesen wegen",
+  "Ohne Besitzer",
+  "Brooks' Gesetz",
+  "Mathematik",
+  "Amazon-Regel",
+  "Wirkung",
+  "Regel beidseitig",
+  "Spezifikation",
+  "Wirkung",
+  "Achtung",
+  "Lesen",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Melvin Conway, 1967",
+  "Programmierung → überall",
+  "Microservices ↔ Teams",
+  "Teilen und Verschmelzen sind langsam",
+  "Inverses Conway-Manöver",
+  "Zuerst das Team entwerfen",
+  "Team Topologies, 2019",
+  "Skelton und Pais",
+  "Naht-Besitz",
+  "Genau das ist der Bug",
+  "Zugänge bremsen",
+  "n(n-1)/2 Kanten",
+  "Zwei-Pizzen-Team",
+  "Scharfe Service-Grenzen",
+  "Organisation ↔ Produkt",
+  "Das Organigramm",
+  "Breitere Graphen werden günstiger",
+  "Drift in der Produktform",
+  "Assistent als Knoten",
+  "Unsichtbares Teammitglied"
+ ],
+ ".ai-divider h3": [
+  "Conways Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI verschiebt, wo die Kommunikation stattfindet — und das verschiebt leise das Organigramm, dann das Produkt."
+ ]
+}

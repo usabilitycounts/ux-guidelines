@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "<em>Règle</em> pic-fin"
+ ],
+ "header .tagline": [
+  "Les expériences sont jugées à leur pic et à leur fin."
+ ],
+ "header .subtitle": [
+  "Les recherches de Daniel Kahneman montrent que les gens jugent une expérience à son moment le plus intense et à son moment final — pas à sa moyenne. Concevez le pic, réussissez l'atterrissage, et corrigez d'abord le pire moment."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Daniel_Kahneman\" target=\"_blank\" rel=\"noopener\">Daniel Kahneman</a>, le psychologue lauréat du Nobel, a établi la règle avec Barbara Fredrickson au début des années 1990 — le plus fameusement dans une étude de 1993 sur l'eau froide, où un essai plus long avec une fin légèrement plus chaude était préféré à un essai plus court et objectivement meilleur.",
+  "Ces travaux ont séparé le moi qui vit du moi qui se souvient : ce que nous choisissons de répéter est décidé par la mémoire, pas par l'expérience. Les études sur la coloscopie avec Donald Redelmeier l'ont confirmé cliniquement — les fins changeaient la façon dont des procédures entières étaient mémorisées."
+ ],
+ ".law-content .law-desc": [
+  "Les gens jugent une expérience en grande partie à ce qu'ils ont ressenti à son pic — le point le plus intense, bon ou mauvais — et à sa fin, plutôt qu'à la somme ou à la moyenne de chaque instant. La durée compte à peine ; c'est la forme mémorisée qui revient."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-kahneman\">Kahneman</a> et <a href=\"people.html#p-barbara-fredrickson\">Fredrickson</a> (1993)",
+  "When More Pain Is Preferred to Less",
+  "Concevoir les pics et les fins"
+ ],
+ ".card .tag": [
+  "La règle",
+  "Le pic",
+  "La fin",
+  "Sorties",
+  "Le creux",
+  "Durée",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "La forme mémorisée",
+  "Concevoir un point culminant",
+  "Réussir l'atterrissage",
+  "L'offboarding est une fin",
+  "Corriger d'abord le pire moment",
+  "La négligence de la durée",
+  "La dernière réponse l'emporte",
+  "La récupération est le pic"
+ ],
+ ".card .desc": [
+  "Tracez une expérience dans le temps et la mémoire ne garde que deux points : l'extrême et le final. Tout le reste — y compris la durée — s'efface. Deux moments décident de l'avis, du renouvellement et de la recommandation.",
+  "Chaque parcours mérite un pic délibéré : les confettis d'une première publication, l'aperçu instantané, le moment où l'import fonctionne du premier coup. Un point culminant conçu pèse plus lourd dans la mémoire qu'une douzaine de petites commodités.",
+  "Le dernier écran d'un parcours est mémorisé de façon disproportionnée. Une confirmation claire, un résumé de ce qui s'est passé et une prochaine étape évidente transforment une transaction ordinaire en bon souvenir de votre produit.",
+  "Résiliations, retours et suppressions de compte sont aussi des fins — souvent le dernier souvenir qu'emporte un utilisateur. Une sortie élégante convertit un utilisateur perdu en retour possible ; une sortie hostile écrit l'avis qui reste.",
+  "Un pic négatif domine la mémoire autant qu'un pic positif. Avant de peaufiner quoi que ce soit, trouvez le pire moment du parcours — le plantage, le formulaire perdu, le prélèvement surprise — et supprimez-le.",
+  "Un parcours court avec une fin plate est moins bien mémorisé qu'un parcours plus long qui se termine bien. Ajouter une note finale satisfaisante peut battre le gain de quelques secondes — la mémoire ne facture pas à la minute.",
+  "Les utilisateurs jugent toute une session à la réponse finale. Une conversation qui se termine sur une correction, un refus ou une demi-réponse est mémorisée comme un échec — concluez avec la réponse résolue et une prochaine étape nette.",
+  "Quand le modèle se trompe, le moment de la correction devient le pic émotionnel de la session. Une récupération rapide et élégante est mieux mémorisée qu'une session simplement correcte de bout en bout."
+ ],
+ ".meta .label": [
+  "Gardé",
+  "Écarté",
+  "Décide",
+  "Un par parcours",
+  "Bat",
+  "Le placer",
+  "Dernier écran",
+  "Offrir",
+  "Ne jamais finir sur",
+  "Parcours de départ",
+  "Sortie élégante",
+  "Sortie hostile",
+  "Priorité",
+  "Pics négatifs",
+  "Ensuite",
+  "La mémoire ignore",
+  "La mémoire garde",
+  "Échange",
+  "Mémoire de session",
+  "Conclure avec",
+  "L'erreur",
+  "La récupération"
+ ],
+ ".meta .value": [
+  "Pic et fin",
+  "Moyenne et durée",
+  "Avis et retours",
+  "Point culminant délibéré",
+  "Une douzaine de commodités",
+  "Là où la valeur arrive",
+  "Confirmer et résumer",
+  "La prochaine étape",
+  "Une impasse",
+  "Restent en mémoire",
+  "Invite au retour",
+  "Écrit l'avis",
+  "Le pire moment d'abord",
+  "Dominent la mémoire",
+  "Construire le point culminant",
+  "La longueur",
+  "La fin",
+  "Des secondes contre une bonne fin",
+  "La réponse finale",
+  "Une résolution, pas un haussement d'épaules",
+  "Prépare le pic",
+  "Est ce qui reste en mémoire"
+ ],
+ ".ai-divider h3": [
+  "La règle pic-fin à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Une conversation avec un modèle est une expérience avec un pic et une fin. La dernière réponse — et la pire — est ce que l'utilisateur emporte."
+ ]
+}

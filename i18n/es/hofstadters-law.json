@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Hofstadter"
+ ],
+ "header .tagline": [
+  "Siempre tarda más de lo que esperas — <em>incluso teniendo en cuenta esta ley</em>."
+ ],
+ "header .subtitle": [
+  "Del libro de Douglas Hofstadter (1979) Gödel, Escher, Bach. El chiste autorreferencial que también es una regla práctica de estimación de software: cada proyecto tarda más que tu estimación honesta, y acolchar la estimación no lo arregla. La ley se ha vuelto fundamental para cómo los equipos lanzan producto — y para las barras de progreso que los usuarios miran fijamente."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Douglas_Hofstadter\" target=\"_blank\" rel=\"noopener\">Douglas Hofstadter</a> es un científico cognitivo estadounidense y autor ganador del Pulitzer. Acuñó su ley recursiva — siempre tarda más de lo que esperas, incluso teniendo en cuenta la ley de Hofstadter — en su libro de 1979 Gödel, Escher, Bach.",
+  "Hofstadter ganó el Premio Pulitzer por Gödel, Escher, Bach a los 35 años. Profesor de ciencia cognitiva en la Universidad de Indiana, ha dedicado su carrera a estudiar la analogía y la autorreferencia — la ley misma es un chiste autorreferencial que resulta ser empíricamente cierto en todo proyecto de software."
+ ],
+ ".law-content .law-desc": [
+  "Las estimaciones son sistemáticamente optimistas. Añades un margen; el proyecto se lo come. Añades un margen mayor; también se lo come. El truco no es más colchón — es el pronóstico por clase de referencia, el progreso real y la honestidad con los usuarios sobre qué significa realmente \"casi terminado\"."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Douglas Hofstadter (1979)",
+  "Gödel, Escher, Bach",
+  "Acolcha cada estimación"
+ ],
+ ".card .tag": [
+  "El fenómeno",
+  "Táctica",
+  "UI",
+  "UI",
+  "Patrón",
+  "Antipatrón",
+  "Estimación",
+  "Diario",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La falacia de la planificación",
+  "Pronóstico por clase de referencia",
+  "Barras de progreso honestas",
+  "Muestra tiempo, no porcentaje",
+  "La larga cola del \"terminado\"",
+  "Acolchar no lo arregla",
+  "Los puntos de historia esconden el sesgo",
+  "Estima dos veces",
+  "La IA baja la estimación · Mismo sesgo",
+  "Muestra el progreso del flujo de tokens"
+ ],
+ ".card .desc": [
+  "El nombre que Kahneman y Tversky dieron al mismo fallo que describió Hofstadter. La gente estima como si todo fuera a salir bien, incluso sabiendo — en abstracto — que nunca es así. Cada paso individual parece razonable; la suma falla de forma fiable. La falacia es robusta, está bien documentada y sobrevive a un entrenamiento extenso para superarla.",
+  "La solución que recomienda Kahneman: deja de estimar desde dentro. Busca cinco proyectos pasados similares. Usa su duración media, no tu plan de abajo arriba. La vista externa gana sistemáticamente a la interna porque incluye las sorpresas que no puedes predecir pero que estadísticamente tienden a repetirse.",
+  "Una barra de progreso que llega al 99 % y se queda ahí dos minutos es la UX de Hofstadter por antonomasia. La barra se construyó sobre una estimación optimista; la larga cola del \"terminando\" nunca se contabilizó. Las barras honestas reservan presupuesto para el último 10 % — o admiten que no pueden medirlo y cambian a un spinner indeterminado.",
+  "\"4 minutos restantes\" es una promesa de Hofstadter que el sistema probablemente incumplirá. \"Iniciado hace 2 minutos\" es simplemente cierto. Tiempo transcurrido + pasos completados es más honesto que el tiempo proyectado hasta el final, porque la proyección es exactamente la estimación que siempre se desliza. La mayoría de los gestores de descargas modernos han abandonado discretamente la predicción.",
+  "Los proyectos de software no terminan; llegan a estar suficientemente terminados. El último 10 % de una funcionalidad contiene el 90 % de las sorpresas — casos límite, accesibilidad, rendimiento, textos que deben salir en tres idiomas más. La planificación honesta da a la larga cola su propio presupuesto en vez de fingir que vive dentro de la estimación original.",
+  "La defensa ingenua — duplicar la estimación — mueve la fecha límite sin cambiar el sesgo. El equipo interpreta la nueva fecha como la real, y el comportamiento se expande hasta llenarla. La ley de Parkinson encima de la de Hofstadter. La solución no es más colchón; es otra forma de estimar, y una política explícita para lo que se desliza.",
+  "Los equipos ágiles usan puntos de historia para esquivar la trampa de Hofstadter, y luego la reintroducen discretamente al tratar la velocidad como una promesa. La gracia de la estimación relativa es que no sabes cuánto tarda ninguna cosa concreta — dejas que la curva emerja. Intentar extraer una fecha de la velocidad es traer a Hofstadter de vuelta.",
+  "Una regla práctica: escribe tu estimación intuitiva y luego duplícala. Compárala con la vista externa. Si esos tres números divergen mucho, el proyecto es estructuralmente incierto — dilo en voz alta. La mayoría de las fechas incumplidas empiezan como estimaciones que alguien sabía en privado que eran optimistas pero dijo de todos modos.",
+  "\"La IA nos dejará lanzar esto en dos días\" es la frase con más forma de Hofstadter de 2026. La IA sí recorta algunos pasos; también añade nuevos — revisión, ajuste de prompts, evaluación, arreglar la salida equivocada pero segura de sí misma. El total sigue derivando. La ley aplica a los proyectos acelerados por IA exactamente igual que a los manuales; la constante es el optimismo humano, no las herramientas.",
+  "La pregunta de UI de Hofstadter aparece en cada funcionalidad de IA. Un spinner durante 8 segundos de razonamiento del modelo se siente roto; los tokens en streaming, \"leyendo 12 fuentes\" y los mensajes de \"pensando\" paso a paso reencuadran la espera como movimiento. El total es el mismo; lo que cambia es la experiencia del usuario de \"casi terminado\"."
+ ],
+ ".meta .label": [
+  "Nombrada por",
+  "Sesgo",
+  "Usar",
+  "Omitir",
+  "Honesto",
+  "Alternativa",
+  "Preferir",
+  "Evitar",
+  "Patrón",
+  "Presupuestar",
+  "No lo arregla",
+  "Sí lo arregla",
+  "Usar para",
+  "No hacer",
+  "Coste",
+  "Detecta",
+  "Constante",
+  "Añade",
+  "Mostrar",
+  "Evitar"
+ ],
+ ".meta .value": [
+  "Kahneman y Tversky, 1979",
+  "Vista interna · ignora el historial",
+  "Tiempos reales de proyectos pasados",
+  "Estimación de abajo arriba",
+  "Presupuesto para la larga cola",
+  "Spinner indeterminado",
+  "Tiempo transcurrido · pasos hechos",
+  "\"X min restantes\"",
+  "Cola de sorpresas al final",
+  "A11y · rendimiento · i18n · QA",
+  "Un colchón mayor",
+  "Un método distinto",
+  "Tamaños relativos",
+  "Convertir puntos → fechas",
+  "Dos minutos",
+  "Estimación intuitiva optimista",
+  "El optimismo humano",
+  "Evaluar · revisar · verificar",
+  "Pasos · streaming · fuentes",
+  "Spinner silencioso"
+ ],
+ ".ai-divider h3": [
+  "La ley de Hofstadter en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA acelera los pasos que puedes ver — y revela otros nuevos que no podías, exactamente como predice la ley."
+ ]
+}

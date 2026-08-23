@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Power Law of <em>Practice</em>"
+ ],
+ "header .tagline": [
+  "Time to perform a task drops as a <em>power</em> of repetitions."
+ ],
+ "header .subtitle": [
+  "Snoddy (1926) observed and Newell and Rosenbloom (1981) formalized: as people repeat a task, the time it takes follows a power-law curve. Sharp early gains, gentler later ones, and a long tail where additional practice still pays — just less."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Allen_Newell\" target=\"_blank\" rel=\"noopener\">Allen Newell</a>, a founding figure of artificial intelligence, and <a href=\"https://en.wikipedia.org/wiki/Paul_Rosenbloom\" target=\"_blank\" rel=\"noopener\">Paul Rosenbloom</a>, his collaborator at Carnegie Mellon, showed in 1981 that improvement with practice follows a power law — fast gains at first, then ever-diminishing returns.",
+  "Newell was a founding father of artificial intelligence — co-creator of the Logic Theorist, the first AI program — and won the Turing Award in 1975. Rosenbloom went on to co-lead the Soar cognitive architecture. Later research suggests individual learning curves are closer to exponential; the power law emerges when averaging across learners."
+ ],
+ ".law-content .law-desc": [
+  "Plot time-per-task against repetitions on a log-log axis and you get a straight line. The biggest gains come early — minute one to minute ten changes everything. Beyond that, each doubling of practice produces a smaller relative gain, but never zero."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-allen-newell\">Allen Newell</a> and <a href=\"people.html#p-paul-rosenbloom\">Paul Rosenbloom</a> (1981)",
+  "Mechanisms of Skill Acquisition",
+  "Design for repeat use"
+ ],
+ ".card .tag": [
+  "The curve",
+  "Returns",
+  "Onboarding",
+  "Plateaus",
+  "Shortcuts",
+  "Deliberate practice",
+  "Myth",
+  "Daily",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Learning Curve Is a Power Law",
+  "Diminishing, But Not Zero",
+  "The First Minutes Carry the Curve",
+  "The Plateau Is Real",
+  "Make the Power-User Path Real",
+  "Not All Reps Are Equal",
+  "The 10,000 Hours Misread",
+  "Design for the Whole Curve",
+  "AI Flattens the Beginner Curve",
+  "Practice Still Matters · for Judgment"
+ ],
+ ".card .desc": [
+  "Time-per-task and reps form a sharp decay. The first ten tries shave off most of the cost. Reps a hundred through a thousand still bring the time down — but slowly, on a curve that flattens toward an asymptote rather than zero.",
+  "Most onboarding decisions hinge on this. The first hour of practice is worth more than the next ten. The next ten are worth more than the next hundred. But the curve keeps going — experts in any complex tool keep getting faster years in, just at a rate beginners would not notice.",
+  "Because most of the learning happens early, onboarding decisions have outsized leverage. A first-run experience that drops setup from 8 minutes to 2 moves the entire curve to the right — fewer drop-offs, faster time-to-value, more users who stay long enough to get to the flat part of the curve.",
+  "Practice curves are rarely smooth. Users hit plateaus — stretches where time stops dropping despite reps. Often the way out is a new technique (a shortcut, a different mental model), not more practice on the same one. Design for the plateau: surface the next move, do not just count reps.",
+  "The slope of the curve depends on the technique available. A user who only ever clicks the menu stays on a gentler curve than one who learns the keyboard shortcuts. Surface the faster path early and often — power-users save not from talent but from a steeper learning curve.",
+  "Ericsson’s research: deliberate practice — focused, with feedback, at the edge of ability — produces a steeper curve than mindless reps. Speed of typing, speed of code, speed of design review all improve faster when feedback is immediate and the next-hardest target is in view.",
+  "Gladwell turned Ericsson’s research into “10,000 hours” — but the original work was about specific kinds of deliberate practice in specific domains. Ten thousand mindless hours produce a flat experienced user, not a top performer. The curve still applies; the multiplier depends on practice quality.",
+  "Your product is used by users at every point on the curve. The first-day user needs visible defaults and a successful first task. The week-100 user needs shortcuts, bulk actions, and customization. Each cohort sits on a different part of the curve — and they all see the same UI.",
+  "A first-day user with an assistant can produce expert-level output. The steep early part of the practice curve — the part where most users used to drop off — becomes almost vertical. The expert and the novice are now closer than they have ever been, at least on the output. Whether they are closer on judgment is a different question.",
+  "The model handles the mechanics; the human still has to know what good looks like. The curve for judgment — knowing which output is right, which is plausible nonsense, which is subtly off — has not been flattened by anything. Reps still build it, and beginners still need them."
+ ],
+ ".meta .label": [
+  "Shape",
+  "Never",
+  "Pattern",
+  "Expert gain",
+  "Lever",
+  "Effect",
+  "Pattern",
+  "Out of it",
+  "Surface",
+  "Effect",
+  "Source",
+  "Requires",
+  "Misread",
+  "Reality",
+  "Design for",
+  "Watch for",
+  "Effect",
+  "Question",
+  "Output",
+  "Judgment"
+ ],
+ ".meta .value": [
+  "Steep then flat",
+  "Hits zero",
+  "Logarithmic returns",
+  "Real but invisible",
+  "Defaults · pre-fill · skip",
+  "Whole curve shifts right",
+  "Step function, not smooth",
+  "New technique · shortcut",
+  "Shortcuts · command palette",
+  "Power user curve · enabled",
+  "Ericsson, 1993",
+  "Feedback · edge of ability",
+  "Hours, not quality",
+  "Quality matters more",
+  "Every cohort",
+  "Only the new user",
+  "Beginner ≈ expert · on output",
+  "On judgment?",
+  "AI handles fast",
+  "Still costs reps"
+ ],
+ ".ai-divider h3": [
+  "The Power Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models can drop the early part of the curve to almost flat — and that changes who counts as an expert."
+ ]
+}

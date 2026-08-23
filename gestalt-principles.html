@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en" data-page="gestalt">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.">
+<title>Gestalt Principles: How Perception Groups an Interface — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/gestalt-principles.html">
+<meta property="og:title" content="Gestalt Principles: How Perception Groups an Interface — UX Guidelines">
+<meta property="og:description" content="The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/gestalt-principles.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gestalt Principles: How Perception Groups an Interface — UX Guidelines">
+<meta name="twitter:description" content="The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    /* All pattern accents unified to one beige — same as eye scanning */
+    --p1:  #6b6b6b;
+    --p2:  #6b6b6b;
+    --p3:  #6b6b6b;
+    --p4:  #6b6b6b;
+    --p5:  #6b6b6b;
+    --p6:  #6b6b6b;
+    --p7:  #6b6b6b;
+    --p8:  #6b6b6b;
+    --p9:  #6b6b6b;
+    --p10: #6b6b6b; }
+
+  /* ---------- Card grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  /* ---------- Demo frame ---------- */
+  .demo {
+    width: 100%;
+    aspect-ratio: 16 / 10; height: auto;
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    border-radius: 14px;
+    padding: 44px 28px 22px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Tags use one neutral muted scheme — no per-pattern color */
+
+  /* card 10 spans full row */
+  .card.p10 .demo { max-width: 720px; }
+  .card.p10 .meta { grid-template-columns: 1fr 1fr; }
+
+  @keyframes drift {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(0, -6px); }
+  }
+  @keyframes drift-right {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(6px, 0); }
+  }
+
+  .fi-6 { animation-delay: 0.85s; }
+  .fi-7 { animation-delay: 1.0s; }
+  .pulse { animation: pulse 1.8s ease-in-out infinite; }
+  .drift { animation: drift 2s ease-in-out infinite; }
+  .drift-right { animation: drift-right 2s ease-in-out infinite; }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width: 600px) {
+    .card.p10 { grid-column: unset; }
+    .card.p10 .meta { grid-template-columns: 1fr 1fr; }
+
+  }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* Gestalt illustrations */
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; align-items: center; }
+  .gx .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--skel); opacity: 0.55; flex: none; }
+  .gx .dot.b { background: var(--il-accent); opacity: 1; }
+  .gx .dotgrid { display: grid; grid-template-columns: repeat(3, 14px); gap: 12px; }
+  .gx .dotgrid.c4 { grid-template-columns: repeat(4, 14px); }
+  .gx .sq { width: 14px; height: 14px; border-radius: 3px; background: var(--skel); opacity: 0.55; }
+  .gx .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .gx .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .gx .region { background: var(--surface); border-radius: 12px; padding: 16px 22px; display: flex; gap: 24px; }
+  .gx .mrow { display: flex; align-items: center; width: 100%; gap: 12px; }
+  .gx .mrow .half { flex: 1; display: flex; }
+  .gx .mrow .bar { height: 12px; border-radius: 6px; background: var(--skel); opacity: 0.5; }
+  .gx .axis { width: 4px; align-self: stretch; border-radius: 2px; background: var(--skel); opacity: 0.25; }
+  .gx .mini { background: var(--surface); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 7px; }
+  .gx .mini .t { height: 7px; width: 50%; border-radius: 3px; background: var(--skel-strong); opacity: 0.6; }
+  .gx .mini .l { height: 5px; border-radius: 2.5px; background: var(--skel); opacity: 0.4; }
+  .gx .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; width: 100%; }
+  .gx .blob { position: absolute; border-radius: 40px; background: rgba(56,189,248,0.14); }
+  .gx .pdot { position: absolute; width: 12px; height: 12px; border-radius: 50%; background: var(--skel-strong); opacity: 0.6; transform: translate(-50%,-50%); }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="eye-scanning-patterns.html" class="nav-link">Eye Scanning</a>
+    <a href="nielsens-heuristics.html" class="nav-link">Heuristics</a>
+    <a href="data-visualization.html" class="nav-link">Data Viz</a>
+    <a href="grid-and-hierarchy.html" class="nav-link">Grid and Hierarchy</a>
+    <a href="gestalt-principles.html" class="nav-link active">Gestalt</a>
+    <a href="fitts-law.html" class="nav-link">Fitts’s Law</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link active">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Gestalt Principles</h1>
+  <p class="tagline">How the Mind <em>Groups</em> What it Sees</p>
+  <p class="subtitle">The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Gestalt psychology began in 1912 with <a href="https://en.wikipedia.org/wiki/Max_Wertheimer" target="_blank" rel="noopener">Max Wertheimer</a>’s studies of apparent motion, developed alongside <a href="https://en.wikipedia.org/wiki/Kurt_Koffka" target="_blank" rel="noopener">Kurt Koffka</a> and <a href="https://en.wikipedia.org/wiki/Wolfgang_K%C3%B6hler" target="_blank" rel="noopener">Wolfgang Köhler</a> in Berlin. Their maxim — the whole is other than the sum of its parts — reframed perception as an active organizing process rather than passive reception.</p>
+    <p class="body-text">All three emigrated to the United States as the Nazis rose, seeding gestalt thinking into American psychology. Interface design adopted their grouping principles wholesale: proximity, similarity, closure, and continuity are now the grammar of layout.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principles</div>
+    <p class="body-text law-desc">The mind groups what it sees before reading a single word — by nearness, likeness, connectedness, and closure. A layout that works with these instincts communicates structure for free; one that fights them needs borders and labels everywhere.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-max-wertheimer">Wertheimer</a>, <a href="people.html#p-kurt-koffka">Koffka</a>, and <a href="people.html#p-wolfgang-k-hler">Köhler</a></div></div>
+      <div><div class="label">Source</div><div class="value">Berlin School of experimental psychology</div></div>
+      <div><div class="label">In practice</div><div class="value">Group by spacing before adding lines</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- ========== 1. Proximity ========== -->
+  <article class="card p1">
+    <div class="card-header">
+      <span class="tag">Grouping</span>
+      <span class="num">01 / 10</span>
+      <h3>Proximity</h3>
+      <p class="desc">Objects close together are perceived as belonging to the same group. The single fastest way to communicate relationships — without any borders, dividers, or labels.</p>
+    </div>
+
+    <div class="demo"><div class="gx" style="flex-direction:row;gap:56px"><div class="dotgrid"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div><div class="dotgrid"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Form fields · Card content</div></div>
+      <div><div class="label">Use when</div><div class="value">Implying group without dividers</div></div>
+      <div><div class="label">Watch for</div><div class="value">Mixed spacing creates confusion</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <!-- ========== 2. Similarity ========== -->
+  <article class="card p2">
+    <div class="card-header">
+      <span class="tag">Visual link</span>
+      <span class="num">02 / 10</span>
+      <h3>Similarity</h3>
+      <p class="desc">Items that share appearance — shape, color, size — are perceived as related. Style links objects without forcing them to live next to each other in space.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="dotgrid c4 gap-14"><span class="sq"></span><span class="dot b"></span><span class="sq"></span><span class="sq"></span><span class="sq"></span><span class="dot b"></span><span class="sq"></span><span class="sq"></span><span class="sq"></span><span class="dot b"></span><span class="sq"></span><span class="sq"></span></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Category encoding · Tags</div></div>
+      <div><div class="label">Use when</div><div class="value">Visual link across distance</div></div>
+      <div><div class="label">Watch for</div><div class="value">Accidental similarity = false group</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 3. Continuity ========== -->
+  <article class="card p3">
+    <div class="card-header">
+      <span class="tag">Flow</span>
+      <span class="num">03 / 10</span>
+      <h3>Continuity</h3>
+      <p class="desc">The eye follows smooth, continuous paths. Two crossing lines are perceived as two flowing curves rather than four disconnected segments — guiding the eye along the intended trajectory.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet"><circle cx="16.0" cy="20.0" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="37.0" cy="26.5" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="58.0" cy="34.0" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="79.0" cy="42.5" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="121.0" cy="62.5" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="142.0" cy="74.0" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="163.0" cy="86.5" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="184.0" cy="100.0" r="6" fill="#9a9a9a" opacity="0.55"/><circle cx="16.0" cy="100.0" r="6" fill="var(--il-accent)"/><circle cx="37.0" cy="86.5" r="6" fill="var(--il-accent)"/><circle cx="58.0" cy="74.0" r="6" fill="var(--il-accent)"/><circle cx="79.0" cy="62.5" r="6" fill="var(--il-accent)"/><circle cx="100.0" cy="52.0" r="6" fill="var(--il-accent)"/><circle cx="121.0" cy="42.5" r="6" fill="var(--il-accent)"/><circle cx="142.0" cy="34.0" r="6" fill="var(--il-accent)"/><circle cx="163.0" cy="26.5" r="6" fill="var(--il-accent)"/><circle cx="184.0" cy="20.0" r="6" fill="var(--il-accent)"/></svg></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Onboarding paths · Carousels</div></div>
+      <div><div class="label">Use when</div><div class="value">Implying sequence or flow</div></div>
+      <div><div class="label">Watch for</div><div class="value">Forced break in alignment</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+
+  <!-- ========== 4. Closure ========== -->
+  <article class="card p4">
+    <div class="card-header">
+      <span class="tag">Completion</span>
+      <span class="num">04 / 10</span>
+      <h3>Closure</h3>
+      <p class="desc">The mind completes incomplete shapes. A few well-placed strokes can imply a circle, triangle, or letter — using less ink and making the viewer’s brain do the satisfying work.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet"><circle cx="50" cy="50" r="32" fill="none" stroke="var(--il-accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="26 18"/></svg></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Logos · Icons · Loaders</div></div>
+      <div><div class="label">Use when</div><div class="value">Minimal forms imply a whole</div></div>
+      <div><div class="label">Watch for</div><div class="value">Too little = nothing reads</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 5. Figure / Ground ========== -->
+  <article class="card p5">
+    <div class="card-header">
+      <span class="tag">Subject and field</span>
+      <span class="num">05 / 10</span>
+      <h3>Figure and Ground</h3>
+      <p class="desc">The mind separates an object (figure) from its background (ground). Strong contrast makes the figure obvious; ambiguous contrast lets the same image flip between two readings.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot" style="background:var(--surface);border-radius:12px;display:flex;align-items:center;justify-content:center"><span style="width:64px;height:64px;border-radius:50%;background:var(--skel-emphasis);display:block;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)"></span></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Logo design · Hero compositions</div></div>
+      <div><div class="label">Use when</div><div class="value">Foreground/background must read fast</div></div>
+      <div><div class="label">Watch for</div><div class="value">Ambiguity unless intentional</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 6. Common Fate ========== -->
+  <article class="card p6">
+    <div class="card-header">
+      <span class="tag">Motion</span>
+      <span class="num">06 / 10</span>
+      <h3>Common Fate</h3>
+      <p class="desc">Elements that move together are perceived as a group. Animation, even subtle, ties objects into a unit — the principle behind synchronized list reveals and staggered loaders.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet"><g stroke="#9a9a9a" stroke-width="3" opacity="0.4" stroke-linecap="round"><line x1="34" y1="34" x2="58" y2="34"/><line x1="24" y1="60" x2="48" y2="60"/><line x1="40" y1="86" x2="64" y2="86"/></g><circle cx="76" cy="34" r="8" fill="var(--il-accent)"/><circle cx="66" cy="60" r="8" fill="var(--il-accent)"/><circle cx="82" cy="86" r="8" fill="var(--il-accent)"/><g stroke="#9a9a9a" stroke-width="3" opacity="0.4" stroke-linecap="round"><line x1="118" y1="46" x2="142" y2="46"/><line x1="126" y1="74" x2="150" y2="74"/></g><circle cx="160" cy="46" r="8" fill="var(--il-accent)"/><circle cx="168" cy="74" r="8" fill="var(--il-accent)"/></svg></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">List reveals · Stagger animation</div></div>
+      <div><div class="label">Use when</div><div class="value">Implying a unit on motion</div></div>
+      <div><div class="label">Watch for</div><div class="value">Conflicting motions read chaotic</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <!-- ========== 7. Symmetry ========== -->
+  <article class="card p7">
+    <div class="card-header">
+      <span class="tag">Balance</span>
+      <span class="num">07 / 10</span>
+      <h3>Symmetry</h3>
+      <p class="desc">Symmetrical pairs are perceived as belonging together — even when separated. Mirrored composition feels stable, balanced, and resolved without further explanation.</p>
+    </div>
+
+    <div class="demo"><div class="gx gap-12"><div class="mrow"><div class="half" style="justify-content:flex-end"><span class="bar w-60"></span></div><span class="axis"></span><div class="half"><span class="bar w-60"></span></div></div><div class="mrow"><div class="half" style="justify-content:flex-end"><span class="bar" style="width:35%;background:var(--il-accent);opacity:1"></span></div><span class="axis"></span><div class="half"><span class="bar" style="width:35%;background:var(--il-accent);opacity:1"></span></div></div><div class="mrow"><div class="half" style="justify-content:flex-end"><span class="bar w-48"></span></div><span class="axis"></span><div class="half"><span class="bar w-48"></span></div></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero layouts · Logos</div></div>
+      <div><div class="label">Use when</div><div class="value">Balance, calm, stability</div></div>
+      <div><div class="label">Watch for</div><div class="value">Predictability can feel static</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+
+  <!-- ========== 8. Common Region ========== -->
+  <article class="card p8">
+    <div class="card-header">
+      <span class="tag">Containment</span>
+      <span class="num">08 / 10</span>
+      <h3>Common Region</h3>
+      <p class="desc">Items inside the same enclosed area are perceived as a group — even if they’re farther apart than items outside it. A simple border or background panel overrides proximity entirely.</p>
+    </div>
+
+    <div class="demo"><div class="gx" style="flex-direction:row;gap:20px"><div class="region"><span class="dot"></span><span class="dot"></span></div><div class="region" style="background:rgba(56,189,248,0.12)"><span class="dot b"></span><span class="dot b"></span></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Cards · Settings sections</div></div>
+      <div><div class="label">Use when</div><div class="value">Grouping spread-out items</div></div>
+      <div><div class="label">Watch for</div><div class="value">Too many boxes = nested noise</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 9. Connectedness ========== -->
+  <article class="card p9">
+    <div class="card-header">
+      <span class="tag">Linking</span>
+      <span class="num">09 / 10</span>
+      <h3>Connectedness</h3>
+      <p class="desc">Items joined by a line, stroke, or shape are perceived as related — and this link is stronger than proximity, similarity, or common region. A wire turns separate nodes into a graph.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet"><g stroke="#9a9a9a" stroke-width="3.5" stroke-linecap="round" opacity="0.6"><line x1="28" y1="36" x2="70" y2="64"/><line x1="130" y1="64" x2="172" y2="36"/></g><g fill="#9a9a9a" opacity="0.6"><circle cx="28" cy="36" r="9"/><circle cx="70" cy="64" r="9"/><circle cx="100" cy="50" r="9"/><circle cx="130" cy="64" r="9"/><circle cx="172" cy="36" r="9"/></g></svg></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Diagrams · Stepper UIs</div></div>
+      <div><div class="label">Use when</div><div class="value">Sequence or graph relationships</div></div>
+      <div><div class="label">Watch for</div><div class="value">Overcrowded lines = spaghetti</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="rams-principles.html">Rams’ 10 Principles</a></div></div>
+  </article>
+
+  <!-- ========== 10. Prägnanz / Simplicity ========== -->
+  <article class="card p10">
+    <div class="card-header">
+      <span class="tag">Meta-principle</span>
+      <span class="num">10 / 10</span>
+      <h3>Prägnanz (Simplicity)</h3>
+      <p class="desc">The unifying meta-principle behind every other Gestalt rule: when the mind has a choice, it picks the simplest interpretation. Five overlapping rings read as the Olympic logo, not as a tangle of 30+ arcs. Design with this bias in mind and the interface will resolve into the cleanest possible mental model — fight it and the design will feel busy no matter how organized it actually is.</p>
+    </div>
+
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet"><rect x="86" y="30" width="72" height="60" rx="8" fill="#9a9a9a" opacity="0.35"/><circle cx="76" cy="60" r="34" fill="none" stroke="var(--il-accent)" stroke-width="4"/></svg></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Every design decision</div></div>
+      <div><div class="label">Use when</div><div class="value">Two readings possible — pick simpler</div></div>
+      <div><div class="label">Watch for</div><div class="value">Complexity dressed as cleverness</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Gestalt in the Age of AI</h3>
+    <p>Machines now group content too — but whether a human sees structure or noise still comes down to the same laws of perception.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid meet"><circle cx="60" cy="46" r="34" fill="var(--il-accent)" opacity="0.12"/><circle cx="142" cy="78" r="34" fill="#9a9a9a" opacity="0.1"/><g fill="var(--il-accent)"><circle cx="48" cy="36" r="7"/><circle cx="66" cy="30" r="7"/><circle cx="56" cy="54" r="7"/><circle cx="74" cy="48" r="7"/></g><g fill="#9a9a9a" opacity="0.6"><circle cx="130" cy="70" r="7"/><circle cx="148" cy="64" r="7"/><circle cx="138" cy="88" r="7"/><circle cx="156" cy="82" r="7"/></g><circle cx="110" cy="18" r="7" fill="#9a9a9a" opacity="0.25"/></svg></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Clusters Like the Eye</h3>
+      <p class="desc">Embedding-based grouping mirrors proximity and similarity — the model clusters related items much the way perception does, automating what designers once did by hand.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Parallel</div><div class="value">Embeddings ≈ grouping</div></div><div><div class="label">Use when</div><div class="value">Auto-organizing content</div></div><div><div class="label">Watch for</div><div class="value">Clusters that confuse</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="grid2"><div class="mini"><span class="t"></span><span class="l w-90"></span><span class="l w-70"></span></div><div class="mini"><span class="t"></span><span class="l w-84"></span><span class="l w-64"></span></div><div class="mini"><span class="t fill-accent"></span><span class="l w-88"></span><span class="l w-58"></span></div><div class="mini"><span class="t"></span><span class="l w-80"></span><span class="l w-68"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Perception Is Still Human</h3>
+      <p class="desc">However an AI arranges a screen, the laws of grouping decide whether a person reads structure or chaos. Gestalt is the human check on generated layouts.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Constant</div><div class="value">Human perception</div></div><div><div class="label">Use as</div><div class="value">A QA lens on AI output</div></div><div><div class="label">Watch for</div><div class="value">Machine-logical, human-noisy</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Gestalt_psychology" target="_blank" rel="noopener"><span class="title">Gestalt Psychology</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Principles_of_grouping" target="_blank" rel="noopener"><span class="title">Principles of Grouping</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Figure%E2%80%93ground_(perception)" target="_blank" rel="noopener"><span class="title">Figure–Ground (Perception)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Closure_(psychology)" target="_blank" rel="noopener"><span class="title">Closure (Psychology)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Kanizsa_triangle" target="_blank" rel="noopener"><span class="title">Kanizsa Triangle</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Symmetry" target="_blank" rel="noopener"><span class="title">Symmetry</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Max_Wertheimer" target="_blank" rel="noopener"><span class="title">Max Wertheimer — founder of Gestalt school</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/principles-visual-design/" target="_blank" rel="noopener"><span class="title">Visual Design Principles</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Interaction Design Foundation</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.interaction-design.org/literature/topics/gestalt-principles" target="_blank" rel="noopener"><span class="title">Gestalt Principles Topic</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Gestalt Principles</div>
+</footer>
+
+</body>
+</html>

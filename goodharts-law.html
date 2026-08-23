@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" data-page="goodhart"><head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
+<meta name="description" content="Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.">
+<title>Goodhart’s Law: When Metrics Become Targets and Stop Working — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/goodharts-law.html">
+<meta property="og:title" content="Goodhart&#x27;s Law: When Metrics Become Targets and Stop Working — UX Guidelines">
+<meta property="og:description" content="Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/goodharts-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Goodhart&#x27;s Law: When Metrics Become Targets and Stop Working — UX Guidelines">
+<meta name="twitter:description" content="Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root { --bg:#ffffff; --surface:#f4f4f4; --demo-bg:#ececec; --border:#e2e2e2; --ink:#111111; --muted:#6b6b6b; --ai:#0d9488; }
+  h1 { font-size: var(--fs-h1); font-weight:700; line-height: var(--lh-tight); max-width:1000px; }
+  h1 em { font-style:normal; color: var(--text-primary); font-weight:700; }
+  .tagline { font-size: var(--fs-h2); font-weight:500; color: var(--text-primary); margin-top:18px; max-width:900px; line-height: var(--lh-heading); }
+  .tagline em { font-style:normal; font-weight:600; }
+  .law-feature .formula-box { background:var(--demo-bg); border:1px solid var(--border); border-radius:8px; padding:40px 32px; display:flex; align-items:center; justify-content:center; }
+  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight:500; line-height: var(--lh-base); color: var(--text-primary); text-align:center; max-width:540px; }
+  .law-feature .formula-box .quote em {  font-style:italic; font-weight:600; }
+  .law-feature .law-meta { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+  @media (max-width:800px){ .law-feature{grid-template-columns:1fr;padding:32px 20px;gap:24px;} .law-feature .formula-box{padding:28px 20px;} }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .card { background: var(--bg); border: 1px solid var(--border); padding:36px 32px 32px; display:grid; grid-template-rows:subgrid; grid-row:span 3; position:relative; }
+  .card-header { display:flex; flex-direction:column; align-items:flex-start; gap:12px; padding-bottom:24px; }
+  .card-header .tag { margin-bottom:2px; }
+  .card h2, .card h3 { font-size: var(--fs-h3); font-weight:600; line-height: var(--lh-heading); }
+  .ai-divider { grid-column:1/-1; background:var(--ink); color: var(--text-inverse); padding:22px 32px; display:flex; align-items:center; gap:14px; }
+  .ai-divider h3 { font-size: var(--fs-body); font-weight:600; }
+  .ai-divider p { font-size: var(--fs-ui); color: var(--text-faint); margin-left:auto; max-width:420px; line-height: var(--lh-tight); text-align:right; }
+  .demo > svg { flex:1 1 auto; min-height:0; width:100%; height:100%; display:block; overflow:visible; }
+  .meta { display:grid; grid-template-columns:1fr 1fr; gap:18px 24px; }
+  .tag { display:inline-block; font-size: var(--fs-tag); padding:4px 10px; border-radius:3px; font-weight:500; }
+  .card .tag { background:rgba(107, 107, 107,.12); color: var(--text-secondary); }
+  .card .tag.ai-tag { background:rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
+
+  
+  .ref-list { list-style:none; display:grid; grid-template-columns:repeat(auto-fill,minmax(min(380px,100%),1fr)); gap:0 32px; }
+  .ref-list .title { font-size: var(--fs-ui); font-weight:500; line-height: var(--lh-heading); flex:1; }
+  .ref-list svg { flex-shrink:0; color: var(--text-secondary); }
+  .ref-groups { display:flex; flex-direction:column; gap:36px; }
+  footer { display:flex; justify-content:space-between; align-items:center; padding:28px 32px;  background:var(--bg); flex-wrap:wrap; gap:16px; }
+  .copyright,.meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight:500; }
+  @media (max-width:600px){ header{padding:32px 20px 28px;} footer{padding:20px;flex-direction:column;align-items:flex-start;} .grid{grid-template-columns:1fr;} .card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset;} .ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px;} .ai-divider p{margin-left:0;text-align:left;}   }
+
+  /* Goodhart illustrations */
+  .gd { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .gd .plot { position: relative; width: 100%; flex: 1; min-height: 0; }
+  .gd .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .gd .bars { display: flex; align-items: flex-end; gap: 8px; flex: 1; min-height: 0; }
+  .gd .bars i { flex: 1; border-radius: 5px 5px 0 0; background: var(--skel); opacity: 0.4; display: block; }
+  .gd .bars i.b { background: var(--il-accent); opacity: 1; }
+  .gd .row { height: 18px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .gd .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .gd .check { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .gd .ghostln { height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.12; }
+</style><script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+<nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true"><button class="menu-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+<div class="menu-label">Navigate</div>
+<div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link active">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+<h1>Goodhart’s <em>Law</em></h1>
+<p class="tagline">When a measure becomes a <em>target</em>, it ceases to be a good measure.</p>
+<p class="subtitle">Charles Goodhart’s 1975 observation, sharpened by <a href="people.html#p-marilyn-strathern">Marilyn Strathern</a>: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Charles_Goodhart" target="_blank" rel="noopener">Charles Goodhart</a> is a British economist, a long-time adviser to the Bank of England and professor at the London School of Economics. His 1975 remark about monetary targets — once a measure becomes a target, it ceases to be a good measure — outgrew economics and became a law of incentives everywhere.</p>
+    <p class="body-text">Goodhart spent seventeen years at the Bank of England and helped design Hong Kong’s currency board. The law’s modern phrasing — ‘when a measure becomes a target, it ceases to be a good measure’ — was coined by anthropologist <a href="https://en.wikipedia.org/wiki/Marilyn_Strathern" target="_blank" rel="noopener">Marilyn Strathern</a> in 1997, generalizing his observation about monetary aggregates.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">The minute you use a metric to evaluate people — promote, fund, rank — they start working on the metric directly, not the thing it was supposed to track. The number rises; the outcome doesn’t always follow.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-charles-goodhart">Charles Goodhart</a> (1975)</div></div>
+      <div><div class="label">Source</div><div class="value">Monetary-policy commentary</div></div>
+      <div><div class="label">In practice</div><div class="value">Watch the goal, not just the metric</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<article class="card">
+<div class="card-header"><span class="tag">Definition</span><h3>When the Metric Becomes the Game</h3><p class="desc">The minute a team is rewarded on a number, that number stops measuring what it used to. People will hit the metric — by changing the work, changing the count, or both. The original phenomenon drifts out from under it.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,96 L60,78 L110,52 L188,16" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M12,60 L60,68 L110,84 L188,102" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Defined</div><div class="value">Measure → target → corrupt</div></div><div><div class="label">Effect</div><div class="value">Number rises · meaning falls</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Classic</span><h3>Vanity Metrics</h3><p class="desc">Page views per session, DAU/MAU ratios, raw sign-ups. The numbers march up and nothing in the product actually improves. Vanity metrics are pre-gamed — they were never connected to value in the first place.</p></div>
+<div class="demo"><div class="gd gap-12"><div class="bars" style="flex:1.6"><i style="height:30%"></i><i style="height:44%"></i><i style="height:58%"></i><i style="height:72%"></i><i class="b" style="height:92%"></i></div><div class="bars" style="flex:0.7;opacity:0.6"><i style="height:38%"></i><i style="height:36%"></i><i style="height:40%"></i><i style="height:37%"></i><i style="height:39%"></i></div></div></div>
+<div class="meta"><div><div class="label">Examples</div><div class="value">Page views · sign-ups · DAU</div></div><div><div class="label">Fix</div><div class="value">Tie to outcome, not activity</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">In product</span><h3>KPI Hacking</h3><p class="desc">Set “support resolution time” as a goal and tickets get closed before they’re fixed. Set “feature shipped” as the target and shipped becomes a synonym for “merged but unused.” The team learns fast — they’re optimizing the number, exactly as told.</p></div>
+<div class="demo"><div class="gd gap-7"><div class="row"><i class="w-34"></i><span class="check"></span></div><div class="row"><span class="ghostln w-40"></span><span class="check"></span></div><div class="row"><span class="ghostln w-28"></span><span class="check"></span></div><div class="row"><span class="ghostln w-36"></span><span class="check"></span></div></div></div>
+<div class="meta"><div><div class="label">Watch for</div><div class="value">Sudden compliance</div></div><div><div class="label">Pair with</div><div class="value">Customer outcome metric</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Sibling law</span><h3>Campbell’s Law</h3><p class="desc">Donald Campbell’s 1976 version, in policy: the more a quantitative social indicator is used for decision-making, the more it corrupts the processes it’s meant to measure. Standardized testing is the textbook case — teach to the test, optimize the score, the underlying education quietly degrades.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,60 L70,60 L110,40 L188,18" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><line x1="12" y1="60" x2="188" y2="60" stroke="#9a9a9a" stroke-width="2.5" opacity="0.35" vector-effect="non-scaling-stroke"/><circle cx="70" cy="60" r="7" fill="#111"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Said by</div><div class="value">Donald Campbell, 1976</div></div><div><div class="label">Famous case</div><div class="value">Standardized testing</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Soft Goodhart</span><h3>Innocent Drift</h3><p class="desc">Not all Goodhart is gaming. Sometimes the metric drifts quietly because the world changed — what counted as “active” three years ago is now passive scrolling, what counted as “engagement” is now anxious refreshing. The number holds; the meaning slips. Re-examine measures yearly.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><line x1="12" y1="50" x2="188" y2="50" stroke="#9a9a9a" stroke-width="2.5" opacity="0.35" vector-effect="non-scaling-stroke"/><path d="M12,50 C 70,50 120,56 188,84" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Cause</div><div class="value">Reality changed</div></div><div><div class="label">Tactic</div><div class="value">Re-examine yearly</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Designing</span><h3>Pick Metrics That Resist Gaming</h3><p class="desc">Some numbers gate well: revenue per retained user, time-to-meaningful-action, NPS from people who completed the task. Others gate badly: clicks, page views, raw counts. The good ones are hard to fake without producing the underlying value; that’s their feature.</p></div>
+<div class="demo"><div class="gd gap-12"><div class="bars"><i style="height:52%"></i><i style="height:58%"></i><i style="height:56%"></i><i style="height:62%"></i><i class="b" style="height:66%"></i></div><div style="display:flex;align-items:center;gap:8px"><span class="check" style="margin-left:0"></span><span style="height:6px;width:36%;border-radius:3px;background:var(--skel);opacity:0.4;display:block"></span></div></div></div>
+<div class="meta"><div><div class="label">Prefer</div><div class="value">Outcome-tied · multi-step</div></div><div><div class="label">Test</div><div class="value">Could I fake this in an hour?</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Practice</span><h3>Use Metric Pairs</h3><p class="desc">The most reliable defense: track two metrics that move in opposite directions when the first is gamed. Speed paired with quality; revenue paired with refunds; engagement paired with cancellations. If one rises and the other plummets, you found the gaming early.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,88 L70,64 L120,48 L188,30" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M12,36 L70,44 L120,52 L188,58" fill="none" stroke="#6b6b6b" stroke-width="3" opacity="0.6" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Pair speed with</div><div class="value">Quality</div></div><div><div class="label">Pair revenue with</div><div class="value">Refunds</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag">Daily</span><h3>Run the Gaming Thought Experiment</h3><p class="desc">Before setting any KPI, ask: how could a clever team make this number rise without actually doing the work? If the answer is “easily,” refine the metric. If it’s “only by doing the work,” ship it. Five minutes of imagination catches most gaming up front.</p></div>
+<div class="demo"><div class="gd gap-12"><div class="bars"><i style="height:40%"></i><i style="height:52%"></i><i class="b" style="height:78%"></i><i style="height:46%"></i></div><div class="plot" style="flex:0 0 26%"><svg viewBox="0 0 200 40" preserveAspectRatio="none"><circle cx="104" cy="16" r="11" fill="none" stroke="#111" stroke-width="3"/><line x1="112" y1="25" x2="126" y2="36" stroke="#111" stroke-width="3.5" stroke-linecap="round"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Cost</div><div class="value">Five minutes</div></div><div><div class="label">Refine until</div><div class="value">Answer is “only by working”</div></div></div>
+</article>
+
+<div class="ai-divider"><span class="spark">✦</span><h3>Goodhart’s Law in the Age of AI</h3><p>AI optimizes exactly what you measure — and finds the gaming move faster than any team ever could.</p></div>
+
+<article class="card">
+<div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>Models Optimize Exactly the Metric</h3><p class="desc">A model trained on click-through rate will maximize click-through, full stop. Recommendation systems learn to surface rage-bait because rage-bait gets clicks. Goodhart’s Law on hard mode: the optimizer is faster, more relentless, and doesn’t get tired of the gaming.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet"><circle cx="70" cy="50" r="30" fill="none" stroke="var(--il-accent)" stroke-width="3"/><circle cx="70" cy="50" r="17" fill="none" stroke="var(--il-accent)" stroke-width="3"/><circle cx="70" cy="50" r="5" fill="var(--il-accent)"/><circle cx="156" cy="50" r="22" fill="none" stroke="#9a9a9a" stroke-width="2.5" opacity="0.35"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Effect</div><div class="value">Goodhart, automated</div></div><div><div class="label">Fix</div><div class="value">Multi-objective · guardrails</div></div></div>
+</article>
+
+<article class="card">
+<div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>Reward Models Are Goodhart Factories</h3><p class="desc">RLHF systems train on a learned proxy for “good answer.” The model optimizes the proxy. The proxy quietly diverges from what people actually wanted — sycophancy, over-hedging, “Certainly!” preambles. Each generation pushes the metric and the meaning further apart.</p></div>
+<div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 100" preserveAspectRatio="xMidYMid meet"><g stroke="#9a9a9a" stroke-width="3" opacity="0.5" stroke-linecap="round"><line x1="42" y1="50" x2="86" y2="50"/></g><line x1="114" y1="50" x2="152" y2="30" stroke="var(--il-accent)" stroke-width="3.5" stroke-linecap="round"/><line x1="114" y1="50" x2="152" y2="70" stroke="#9a9a9a" stroke-width="2.5" opacity="0.35" stroke-linecap="round"/><circle cx="30" cy="50" r="11" fill="#9a9a9a" opacity="0.55"/><circle cx="100" cy="50" r="11" fill="var(--il-accent)"/><circle cx="162" cy="26" r="9" fill="var(--il-accent)"/><circle cx="162" cy="74" r="9" fill="#9a9a9a" opacity="0.35"/></svg></div></div></div>
+<div class="meta"><div><div class="label">Pattern</div><div class="value">Trained metric drifts</div></div><div><div class="label">Symptoms</div><div class="value">Sycophancy · over-hedge</div></div></div>
+</article>
+
+</main>
+
+<section class="references">
+<div class="ref-label">Further Reading</div>
+<div class="ref-groups">
+<div class="ref-group"><h3 class="label ref-source-label">Reference</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Goodhart%27s_law" target="_blank" rel="noopener"><span class="title">Goodhart’s Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Charles_Goodhart" target="_blank" rel="noopener"><span class="title">Charles Goodhart — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+<div class="ref-group"><h3 class="label ref-source-label">Related</h3>
+<ul class="ref-list">
+<li><a href="https://en.wikipedia.org/wiki/Campbell%27s_law" target="_blank" rel="noopener"><span class="title">Campbell’s Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+</div></section>
+
+<footer><div class="copyright">© UX Guidelines · Goodhart’s Law</div><div class="meta-info">Goodhart, 1975</div></footer>
+
+<script>(()=>{const h=document.querySelector('.hamburger'),o=document.getElementById('menu-overlay'),p=document.getElementById('menu-panel'),c=document.querySelector('.menu-close');if(!h||!o||!p||!c)return;const open=()=>{p.classList.add('open');o.classList.add('open');h.setAttribute('aria-expanded','true');p.setAttribute('aria-hidden','false');};const close=()=>{p.classList.remove('open');o.classList.remove('open');h.setAttribute('aria-expanded','false');p.setAttribute('aria-hidden','true');};h.addEventListener('click',open);c.addEventListener('click',close);o.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});})();</script>
+
+</body></html>

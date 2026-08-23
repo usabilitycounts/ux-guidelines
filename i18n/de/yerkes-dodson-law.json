@@ -1,0 +1,110 @@
+{
+ "header h1": [
+  "Yerkes-Dodson-<em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Leistung steigt mit Erregung — bis zu einem Punkt — dann <em>fällt</em> sie."
+ ],
+ "header .subtitle": [
+  "Der Befund von Robert Yerkes und John Dodson (1908): Leistung verbessert sich mit moderatem Stress oder Stimulation, aber nur bis zu einem Punkt. Danach fällt sie. Die Form ist ein umgekehrtes U — und komplexe Aufgaben haben ein engeres Optimum als einfache."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> und <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> waren amerikanische Psychologen, deren Experimente von 1908 zeigten, dass Leistung mit der Erregung nur bis zu einem Punkt steigt — jenseits davon verschlechtert Druck die Leistung. Ihre umgekehrte U-Kurve trägt ihre Namen.",
+  "Ihre ursprünglichen Experimente von 1908 verwendeten Mäuse, Labyrinthe und milde Stromreize; die elegante umgekehrte U-Kurve, die heute in Lehrbüchern steht, war weitgehend eine spätere Vereinfachung. Yerkes entwickelte später die Army-Alpha-Intelligenztests im Ersten Weltkrieg und gründete das Primatenforschungslabor in Yale."
+ ],
+ ".law-content .law-desc": [
+  "Etwas Druck ist gut. Zu wenig, und der Nutzer ist gelangweilt, driftet ab, übersieht Dinge. Zu viel, und er erstarrt, klickt den falschen Button, bricht den Ablauf ab. Der Gipfel liegt in der Mitte — und wo er sitzt, hängt von der Aufgabe ab."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Robert Yerkes und John Dodson (1908)",
+  "Experimente der vergleichenden Psychologie",
+  "Den Druck moderat halten"
+ ],
+ ".card .tag": [
+  "Die Kurve",
+  "Untere Seite",
+  "Obere Seite",
+  "Modulator",
+  "Flow",
+  "Design",
+  "Design",
+  "Achtung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das umgekehrte U",
+  "Unterstimulation senkt die Aufmerksamkeit",
+  "Überstimulation lässt die Leistung einbrechen",
+  "Komplexe Aufgaben haben engere Gipfel",
+  "Flow ist der Sweet Spot",
+  "Ruhige Oberfläche für schwere Aufgaben",
+  "Energie für leichte Aufgaben",
+  "Künstliche Dringlichkeit vermeiden",
+  "KI kann die Kurve lesen",
+  "Oder KI kann Sie von ihr stoßen"
+ ],
+ ".card .desc": [
+  "Die Leistung bei einer Aufgabe ist bei moderater Erregung am höchsten. Darunter lässt die Aufmerksamkeit nach; darüber verengt sie sich zu stark und entgleitet. Die Kurve wurde zuerst an Mäusen in Labyrinthen beobachtet; ein Jahrhundert später zeigt sie sich in User-Testing-Laboren genauso sauber wie damals.",
+  "Unten links auf der Kurve: Der Nutzer ist gelangweilt oder wenig engagiert. Freigabeseiten, Interaktionen zum fünften Mal im Monat, Bildschirme nach langem Auto-Play. Die Leistung sinkt, weil die Aufmerksamkeit sinkt. Die Lösung ist nicht mehr Reibung — sondern ein aktiver Grund, präsent zu sein.",
+  "Oben rechts: Stress, Dringlichkeit, deadline-getriebener Druck. Der Nutzer erstarrt, verklickt sich, nimmt den sichtbaren Weg, selbst wenn er falsch ist. Banking-Fehlermeldungen, Buchungsänderungen mitten im Flug, „Ihre Karte wurde abgelehnt“ — alles wohnt hier. Die Lösung ist, den Einsatz zu senken, nicht mehr Dialoge hinzuzufügen.",
+  "Eine zweite Erkenntnis aus Yerkes-Dodson: Das Optimum verschiebt sich bei schwereren Aufgaben nach links. Eine einfache Aufgabe — ein Klick, eine Zahl — verträgt Druck gut. Eine komplexe Aufgabe — ein Dokument prüfen, 30 Felder ausfüllen — braucht niedrigere Erregung, um gut zu gelingen. Drehen Sie die Dringlichkeit bei der schweren Aufgabe hoch, verlieren Sie den Nutzer am schnellsten.",
+  "Csíkszentmihályis Flow-Zustand ist die moderne Formulierung des Yerkes-Dodson-Gipfels. Die Herausforderung liegt knapp über dem Können des Nutzers, das Feedback ist unmittelbar, die Ziele sind klar — und der Nutzer verschwindet in der Aufgabe. Für Flow zu gestalten heißt, für den Gipfel der Kurve zu gestalten.",
+  "Wenn die Aufgabe komplex ist — Jahresbericht, Steuererklärung, Codebase-Audit — sollte sich die Oberfläche ruhig anfühlen. Viel Weißraum, klarer Fortschritt, keine Animationen, die dem Cursor hinterherjagen. Den Nutzer die Erregungskurve hochzuschieben, während er schon ausgelastet ist, treibt ihn über den Gipfel. Tabellenkalkulationen und IDEs machen das intuitiv richtig; die meisten Consumer-Apps nicht.",
+  "Die Kehrseite. Wenn die Aufgabe trivial ist — ein Tipp, ein Wisch — hilft ein wenig zusätzliche Erregung. Eine Vibration beim Like, ein befriedigendes Einrasten beim Wischen, eine kleine Feier bei der Registrierung. Die einfache Aufgabe kann höher auf der Kurve reiten, und die zusätzliche Stimulation zahlt sich in Engagement zurück.",
+  "Countdown-Timer, „nur noch 2 verfügbar“, erzwungene Entscheidungsdialoge — alle schieben den Nutzer die Kurve hinauf, auf eine Weise, die komplexen Entscheidungen schadet. Sie fühlen sich wie Motivation an; sie wirken wie Überlastung. Wenn Sie sich dabei ertappen, einer schweren Aufgabe Druck hinzuzufügen, ist die richtige Antwort fast immer, die Aufgabe zu erleichtern, nicht den Stress hochzudrehen.",
+  "Modelle können Überlastung in Echtzeit erkennen — lange Pausen, wiederholte Korrekturen, verlassene Tabs — und reagieren. Einen Schritt weglassen, einen Shortcut anbieten, das Übernehmen vorschlagen. Der Yerkes-Dodson-Gipfel wird adaptiv: Das Produkt selbst schiebt den Nutzer zu ihm zurück, statt ihn auf der falschen Seite stecken zu lassen.",
+  "Derselbe Kanal läuft auch rückwärts. Ein Modell, das eine Flut von Vorschlägen ausschüttet, alle paar Sekunden unterbricht oder plausiblen Unsinn erzeugt, der Prüfung verlangt, kann den Nutzer schnell über den Gipfel treiben. KI tendiert von Haus aus zur Erregung — es gibt immer noch einen Vorschlag mehr. Die Disziplin besteht darin, den Nutzer in Ruhe zu lassen, wenn er im Flow ist."
+ ],
+ ".meta .label": [
+  "Symptome",
+  "Lösung",
+  "Symptome",
+  "Lösung",
+  "Einfache Aufgabe",
+  "Komplexe Aufgabe",
+  "Geprägt von",
+  "Rezept",
+  "Für komplexe Aufgaben",
+  "Taktiken",
+  "Für einfache Aufgaben",
+  "Taktiken",
+  "Muster",
+  "Lösung",
+  "Signal",
+  "Reaktion",
+  "Standard",
+  "Disziplin"
+ ],
+ ".meta .value": [
+  "Überspringen · vorbeiscrollen",
+  "Ein Grund, präsent zu sein",
+  "Erstarren · verklicken · abbrechen",
+  "Den Einsatz senken",
+  "Verträgt Druck",
+  "Braucht niedrigere Erregung",
+  "Csíkszentmihályi, 1975",
+  "Knapp über dem Können",
+  "Die Erregung senken",
+  "Weißraum · gleichmäßiges Tempo",
+  "Ein wenig Stimulation",
+  "Haptik · Ton · Mikroanimation",
+  "Fabrizierte Dringlichkeit",
+  "Die Aufgabe erleichtern",
+  "Pausen · Wiederholungen · Abbrüche",
+  "Die Erregung senken",
+  "Vorschlagen, vorschlagen, vorschlagen",
+  "Den Flow in Ruhe lassen"
+ ],
+ ".ai-divider h3": [
+  "Yerkes-Dodson im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI kann lesen, wo auf der Kurve ein Nutzer steht — und die Erregung genau im richtigen Moment senken, oder eben nicht."
+ ]
+}

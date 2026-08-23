@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Peak-End <em>Rule</em>"
+ ],
+ "header .tagline": [
+  "Experiences are judged by their peak and their end."
+ ],
+ "header .subtitle": [
+  "Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Daniel_Kahneman\" target=\"_blank\" rel=\"noopener\">Daniel Kahneman</a>, the Nobel-winning psychologist, established the rule with Barbara Fredrickson in the early 1990s — most famously in a 1993 cold-water study where a longer trial with a slightly warmer ending was preferred over a shorter, objectively better one.",
+  "The work separated the experiencing self from the remembering self: what we choose to repeat is decided by the memory, not the experience. Colonoscopy studies with Donald Redelmeier confirmed it clinically — endings changed how whole procedures were remembered."
+ ],
+ ".law-content .law-desc": [
+  "People judge an experience largely by how it felt at its peak — the most intense point, good or bad — and at its end, rather than by the sum or average of every moment. Duration barely registers; the remembered shape is what returns."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-kahneman\">Kahneman</a> and <a href=\"people.html#p-barbara-fredrickson\">Fredrickson</a> (1993)",
+  "When More Pain Is Preferred to Less",
+  "Design peaks and endings"
+ ],
+ ".card .tag": [
+  "The rule",
+  "The peak",
+  "The end",
+  "Exits",
+  "The valley",
+  "Duration",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Remembered Shape",
+  "Engineer One High Point",
+  "Stick the Landing",
+  "Offboarding Is an Ending",
+  "Fix the Worst Moment First",
+  "Duration Neglect",
+  "The Last Answer Wins",
+  "Recovery Is the Peak"
+ ],
+ ".card .desc": [
+  "Plot an experience over time and memory keeps only two points: the extreme and the final. Everything else — including how long it took — collapses. Two moments decide the review, the renewal, and the recommendation.",
+  "Every flow deserves a deliberate peak: the confetti on a first publish, the instant preview, the moment the import just works. One engineered high point outweighs a dozen small conveniences in memory.",
+  "The last screen of a flow is disproportionately remembered. A clear confirmation, a summary of what happened, and an obvious next step turn an ordinary transaction into a good memory of your product.",
+  "Cancellations, returns, and account deletions are endings too — often the final memory a user takes away. A graceful exit converts a churned user into a possible return; a hostile one writes the lasting review.",
+  "A negative peak dominates memory the same way a positive one does. Before polishing anything, find the single worst moment in the journey — the crash, the lost form, the surprise charge — and remove it.",
+  "A short flow with a flat finish is remembered worse than a longer one that ends well. Adding a satisfying final beat can beat shaving seconds — memory doesn’t bill by the minute.",
+  "Users judge a whole session by the final response. A conversation that ends on a correction, a refusal, or a half-answer is remembered as a failure — close with the resolved answer and a clean next step.",
+  "When the model gets something wrong, the correction moment becomes the emotional peak of the session. A fast, gracious recovery is remembered better than a session that was merely fine throughout."
+ ],
+ ".meta .label": [
+  "Kept",
+  "Discarded",
+  "Decides",
+  "One per flow",
+  "Beats",
+  "Place it",
+  "Last screen",
+  "Offer",
+  "Never end on",
+  "Churn flows",
+  "Graceful exit",
+  "Hostile exit",
+  "Priority",
+  "Negative peaks",
+  "Then",
+  "Memory ignores",
+  "Memory keeps",
+  "Trade",
+  "Session memory",
+  "Close with",
+  "The error",
+  "The recovery"
+ ],
+ ".meta .value": [
+  "Peak and end",
+  "Average and duration",
+  "Reviews and returns",
+  "Deliberate high point",
+  "A dozen conveniences",
+  "Where value lands",
+  "Confirm and summarize",
+  "The next step",
+  "A dead end",
+  "Are remembered",
+  "Invites return",
+  "Writes the review",
+  "Worst moment first",
+  "Dominate memory",
+  "Build the high point",
+  "Length",
+  "The finish",
+  "Seconds for a good end",
+  "The final response",
+  "Resolution, not a shrug",
+  "Sets up the peak",
+  "Is what’s remembered"
+ ],
+ ".ai-divider h3": [
+  "The Peak-End Rule in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "A conversation with a model is an experience with a peak and an end. The last answer — and the worst one — is what the user carries away."
+ ]
+}

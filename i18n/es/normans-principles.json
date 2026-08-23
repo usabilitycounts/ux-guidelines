@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "<em>Principios</em> de Norman"
+ ],
+ "header .tagline": [
+  "La interfaz habla por sí misma — o <em>no funciona</em>."
+ ],
+ "header .subtitle": [
+  "\"The Design of Everyday Things\" (1988) de Don Norman estableció un pequeño conjunto de principios de diseño que se convirtió en el fundamento de la HCI. La premisa: un objeto bien diseñado te dice qué hace, cómo usarlo y si lo hiciste bien — sin manual."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> es un científico cognitivo estadounidense que dirigió el Institute for Cognitive Science en UC San Diego, fue Apple Fellow — donde acuñó el título de 'arquitecto de experiencia de usuario' — y cofundó Nielsen Norman Group.",
+  "The Design of Everyday Things (1988, originalmente The Psychology of Everyday Things) dio al diseño su vocabulario esencial: affordances, significantes, mapeo, retroalimentación y modelos conceptuales. Sus ejemplos de puertas confusas convirtieron 'puerta de Norman' en un término del oficio."
+ ],
+ ".law-content .law-desc": [
+  "El buen diseño hace visibles las acciones posibles, mapea los controles a sus efectos e informa de lo que ocurrió. Cuando los usuarios fallan, la culpa suele estar en la comunicación del diseño — no en el usuario."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Don Norman",
+  "The Design of Everyday Things",
+  "Muestra las affordances; da retroalimentación instantánea"
+ ],
+ ".card .tag": [
+  "Acción",
+  "Señal",
+  "Disposición",
+  "Respuesta",
+  "Límites",
+  "Modelo mental",
+  "Descubribilidad",
+  "Uniformidad",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Affordances",
+  "Significantes",
+  "Mapeo",
+  "Retroalimentación",
+  "Restricciones",
+  "Modelo conceptual",
+  "Visibilidad y descubribilidad",
+  "Consistencia",
+  "El golfo de ejecución regresa",
+  "Retroalimentación para la salida generada"
+ ],
+ ".card .desc": [
+  "Las propiedades de un objeto que sugieren cómo puede usarse. Un asa invita a tirar, un botón invita a pulsar, una perilla invita a girar. En software, las affordances son mayormente percibidas — un botón \"parece clicable\" porque su forma evoca una física. Cuando la affordance miente, el usuario falla.",
+  "Norman añadió \"significante\" a la segunda edición porque \"affordance\" se había sobrecargado. Un significante es la señal visible — una etiqueta, un subrayado, una flecha — que apunta a dónde es posible actuar. La affordance es la capacidad subyacente; el significante es lo que el usuario puede ver de verdad.",
+  "La relación entre los controles y sus efectos. Interruptores de luz que coinciden con la posición de las bombillas que controlan; perillas de la cocina alineadas con sus fogones; controles de volumen que suben cuando el sonido sube. El mal mapeo es la razón por la que las duchas de hotel y las lavadoras son el chiste recurrente de la UX.",
+  "Cada acción recibe una respuesta visible, audible o táctil. Sin retroalimentación, el usuario queda adivinando si pasó algo, y empieza a volver a hacer clic, reenviar y pagar dos veces. Spinners, toasts, efectos de onda, toques hápticos, sonido — señales pequeñas, confianza enorme.",
+  "Límites que impiden acciones inválidas antes de que ocurran. Un conector USB que solo entra de una forma, un selector de fecha que no deja elegir antes de hoy, un formulario fiscal que atenúa los campos irrelevantes para tu situación. Las buenas restricciones previenen errores de forma invisible; las malas solo frustran.",
+  "La imagen simplificada de cómo funciona la cosa que el usuario lleva en la cabeza. La metáfora de las carpetas en el escritorio, la metáfora de la página en el navegador, la cadena de mensajes en el chat. Cuando el comportamiento real del sistema diverge del modelo conceptual del usuario, cada acción se vuelve una conjetura.",
+  "Todo lo que se pueda hacer debería ser visible. Los controles ocultos, los atajos solo con ⌘ y las funciones de \"si supieras dónde mirar\" violan esto. El usuario no debería tener que recordar; la interfaz debería mostrar. La descubribilidad es lo que convierte un producto potente en uno usable.",
+  "Lo mismo debería verse siempre igual y comportarse siempre igual. Entre pantallas, entre productos y frente a las convenciones de plataforma que los usuarios ya han aprendido. La inconsistencia obliga a los usuarios a reaprender constantemente, socavando todos los demás principios de esta página.",
+  "El \"golfo de ejecución\" de Norman — la distancia entre lo que quieres hacer y cómo hacerlo — quedó casi cerrado por las interfaces de manipulación directa. Un cuadro de chat en blanco lo reabre. No hay significante de lo que el modelo puede hacer. Devuelve las affordances al usuario: ejemplos, prompts sugeridos, pistas de capacidades.",
+  "Cuando el modelo devuelve una respuesta, el golfo de evaluación del usuario se reabre — \"¿me entendió, usó las fuentes correctas?\". El principio de retroalimentación de Norman sigue aplicando. Muestra el razonamiento, las fuentes, la confianza. Una respuesta limpia sin andamiaje se siente rápida pero rompe la confianza al primer error."
+ ],
+ ".meta .label": [
+  "Definición",
+  "En la UI",
+  "Falla cuando",
+  "Definición",
+  "Ejemplos",
+  "Se combina con",
+  "Definición",
+  "Caso clásico",
+  "Falla cuando",
+  "Definición",
+  "Canales",
+  "Sin ella",
+  "Tipos",
+  "Efecto",
+  "Cuidado con",
+  "Qué es",
+  "Construido a partir de",
+  "Diverge",
+  "Definición",
+  "No depender de",
+  "Mala señal",
+  "A través de",
+  "Se combina con",
+  "Coste de romperla",
+  "Reabierto",
+  "Solución",
+  "Aplicar",
+  "Principio",
+  "Hacer visible",
+  "Cierra"
+ ],
+ ".meta .value": [
+  "Sugiere cómo usar",
+  "Affordance percibida",
+  "La forma engaña",
+  "La señal visible",
+  "Subrayado · flecha · etiqueta",
+  "Affordance",
+  "Alineación control ↔ efecto",
+  "Perillas de cocina",
+  "El usuario debe recordar cuál es cuál",
+  "Mostrar que ocurrió",
+  "Visual · auditivo · háptico",
+  "Doble clic · doble cargo",
+  "Físicas · lógicas · culturales",
+  "Errores prevenidos en silencio",
+  "Sobre-restricción = frustración",
+  "La imagen simplificada del usuario",
+  "Experiencia previa · metáfora",
+  "Cada acción es una conjetura",
+  "Mostrar lo posible",
+  "La memoria",
+  "\"Tienes que saberlo\"",
+  "Pantallas · productos · plataformas",
+  "Ley de Jakob",
+  "Reaprender en todas partes",
+  "Golfo de ejecución",
+  "Prompts sugeridos · ejemplos",
+  "Visibilidad · significantes",
+  "Retroalimentación",
+  "Razonamiento · fuentes",
+  "Golfo de evaluación"
+ ],
+ ".ai-divider h3": [
+  "Los principios de Norman en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La interfaz conversacional vuelve a plantear cada una de las preguntas de Norman — ¿qué puedo hacer?, ¿funcionó?, ¿qué sabe de mi modelo?"
+ ]
+}

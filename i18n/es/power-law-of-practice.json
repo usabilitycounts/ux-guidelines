@@ -1,0 +1,117 @@
+{
+ "header h1": [
+  "Ley de potencia de la <em>práctica</em>"
+ ],
+ "header .tagline": [
+  "El tiempo para realizar una tarea cae como una <em>potencia</em> de las repeticiones."
+ ],
+ "header .subtitle": [
+  "Snoddy (1926) lo observó y Newell y Rosenbloom (1981) lo formalizaron: al repetir una tarea, el tiempo sigue una curva de ley de potencia. Ganancias fuertes al principio, más suaves después, y una larga cola donde la práctica aún paga — solo menos."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Allen_Newell\" target=\"_blank\" rel=\"noopener\">Allen Newell</a>, figura fundadora de la inteligencia artificial, y <a href=\"https://en.wikipedia.org/wiki/Paul_Rosenbloom\" target=\"_blank\" rel=\"noopener\">Paul Rosenbloom</a>, su colaborador en Carnegie Mellon, demostraron en 1981 que la mejora con la práctica sigue una ley de potencia — ganancias rápidas al principio y rendimientos cada vez menores después.",
+  "Newell fue un padre fundador de la inteligencia artificial — cocreador del Logic Theorist, el primer programa de IA — y ganó el Premio Turing en 1975. Rosenbloom pasó a codirigir la arquitectura cognitiva Soar. Investigaciones posteriores sugieren que las curvas de aprendizaje individuales se acercan más a una exponencial; la ley de potencia emerge al promediar entre aprendices."
+ ],
+ ".law-content .law-desc": [
+  "Representa el tiempo por tarea frente a las repeticiones en ejes log-log y obtienes una línea recta. Las mayores ganancias llegan pronto — del minuto uno al minuto diez todo cambia. A partir de ahí, cada duplicación de la práctica produce una ganancia relativa menor, pero nunca cero."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Allen Newell y Paul Rosenbloom (1981)",
+  "Mechanisms of Skill Acquisition",
+  "Diseñar para el uso repetido"
+ ],
+ ".card .tag": [
+  "La curva",
+  "Rendimientos",
+  "Onboarding",
+  "Mesetas",
+  "Atajos",
+  "Práctica deliberada",
+  "Mito",
+  "A diario",
+  "✦ Era IA",
+  "✦ Era IA"
+ ],
+ ".card h3": [
+  "La curva de aprendizaje es una ley de potencia",
+  "Decrecientes, pero no cero",
+  "Los primeros minutos sostienen la curva",
+  "La meseta es real",
+  "Haz real el camino del usuario avanzado",
+  "No todas las repeticiones valen igual",
+  "La mala lectura de las 10.000 horas",
+  "Diseña para toda la curva",
+  "La IA aplana la curva del principiante",
+  "La práctica sigue importando · para el criterio"
+ ],
+ ".card .desc": [
+  "El tiempo por tarea y las repeticiones forman una caída pronunciada. Los primeros diez intentos eliminan la mayor parte del coste. De la repetición cien a la mil el tiempo sigue bajando — pero despacio, en una curva que se aplana hacia una asíntota en lugar de hacia cero.",
+  "La mayoría de las decisiones de onboarding dependen de esto. La primera hora de práctica vale más que las diez siguientes. Las diez siguientes valen más que las cien posteriores. Pero la curva continúa — los expertos en cualquier herramienta compleja siguen ganando velocidad años después, solo que a un ritmo que un principiante no notaría.",
+  "Como la mayor parte del aprendizaje ocurre al principio, las decisiones de onboarding tienen una palanca desproporcionada. Una primera experiencia que reduce la configuración de 8 minutos a 2 desplaza toda la curva hacia la derecha — menos abandonos, menos tiempo hasta el valor y más usuarios que se quedan lo suficiente para llegar a la parte plana de la curva.",
+  "Las curvas de práctica rara vez son suaves. Los usuarios chocan con mesetas — tramos donde el tiempo deja de bajar pese a las repeticiones. A menudo la salida es una técnica nueva (un atajo, otro modelo mental), no más práctica con la misma. Diseña para la meseta: haz visible el siguiente movimiento, no te limites a contar repeticiones.",
+  "La pendiente de la curva depende de la técnica disponible. Un usuario que solo hace clic en el menú se queda en una curva más suave que uno que aprende los atajos de teclado. Muestra el camino rápido pronto y a menudo — los usuarios avanzados ahorran tiempo no por talento, sino por una curva de aprendizaje más empinada.",
+  "La investigación de Ericsson: la práctica deliberada — concentrada, con retroalimentación, al límite de la habilidad — produce una curva más empinada que las repeticiones mecánicas. La velocidad al teclear, al programar y al revisar diseño mejora más rápido cuando la retroalimentación es inmediata y el siguiente objetivo difícil está a la vista.",
+  "Gladwell convirtió la investigación de Ericsson en las «10.000 horas» — pero el trabajo original trataba de tipos concretos de práctica deliberada en dominios concretos. Diez mil horas mecánicas producen un usuario experimentado y plano, no a alguien de élite. La curva sigue aplicando; el multiplicador depende de la calidad de la práctica.",
+  "Tu producto lo usan personas en todos los puntos de la curva. El usuario del primer día necesita valores predeterminados visibles y una primera tarea con éxito. El de la semana 100 necesita atajos, acciones masivas y personalización. Cada cohorte está en una parte distinta de la curva — y todas ven la misma interfaz.",
+  "Un usuario de primer día con un asistente puede producir resultados de nivel experto. La parte empinada inicial de la curva de práctica — donde antes abandonaba la mayoría — se vuelve casi vertical. El experto y el novato están ahora más cerca que nunca, al menos en el resultado. Si están más cerca en criterio es otra pregunta.",
+  "El modelo se encarga de la mecánica; el humano todavía tiene que saber qué aspecto tiene lo bueno. La curva del criterio — saber qué resultado es correcto, cuál es un disparate plausible, cuál está sutilmente mal — no la ha aplanado nada. Las repeticiones siguen construyéndola, y los principiantes siguen necesitándolas."
+ ],
+ ".meta .label": [
+  "Forma",
+  "Nunca",
+  "Patrón",
+  "Ganancia experta",
+  "Palanca",
+  "Efecto",
+  "Patrón",
+  "La salida",
+  "Hacer visible",
+  "Efecto",
+  "Fuente",
+  "Requiere",
+  "Mala lectura",
+  "Realidad",
+  "Diseñar para",
+  "Cuidado con",
+  "Efecto",
+  "Pregunta",
+  "Resultado",
+  "Criterio"
+ ],
+ ".meta .value": [
+  "Empinada y luego plana",
+  "Llega a cero",
+  "Rendimientos logarítmicos",
+  "Real pero invisible",
+  "Predeterminados · prellenado · omitir",
+  "Toda la curva se desplaza a la derecha",
+  "Función escalonada, no suave",
+  "Técnica nueva · atajo",
+  "Atajos · paleta de comandos",
+  "Curva de usuario avanzado · habilitada",
+  "Ericsson, 1993",
+  "Retroalimentación · límite de la habilidad",
+  "Horas, no calidad",
+  "La calidad importa más",
+  "Cada cohorte",
+  "Solo el usuario nuevo",
+  "Principiante ≈ experto · en resultado",
+  "¿En criterio?",
+  "La IA lo resuelve rápido",
+  "Sigue costando repeticiones"
+ ],
+ ".ai-divider h3": [
+  "La ley de potencia en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos pueden dejar la parte inicial de la curva casi plana — y eso cambia quién cuenta como experto."
+ ],
+ ".law-formula-note": [
+  "el tiempo por tarea (T) cae como una potencia del número de ensayos de práctica (P)."
+ ]
+}

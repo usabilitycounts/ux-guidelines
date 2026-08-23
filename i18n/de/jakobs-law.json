@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Jakobs <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Nutzer verbringen die meiste Zeit auf <em>anderen</em> Websites."
+ ],
+ "header .subtitle": [
+  "Menschen verbringen die meiste Zeit auf anderen Websites und erwarten, dass Ihre genauso funktioniert. Folgen Sie den Konventionen — und bleiben Sie wachsam, denn KI schreibt gerade um, was Konvention bedeutet."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> — derselbe dänische Usability-Ingenieur hinter den zehn Heuristiken — formulierte sein Gesetz der Internet-User-Experience im Jahr 2000, auf dem Höhepunkt einer Zeit, in der jede Website ihre eigene Navigation erfand.",
+  "Das Gesetz ist ein Argument aus der Arithmetik: Nutzer verbringen fast ihre gesamte Zeit auf anderen Websites als Ihrer, also ist Ihre Website die Ausnahme von ihren Gewohnheiten, nicht die Regel. Vertrautheit ist ein Feature, das Sie gratis bekommen, wenn Sie Konventionen folgen."
+ ],
+ ".law-content .law-desc": [
+  "Nutzer verbringen die meiste Zeit auf anderen Websites und erwarten, dass Ihre genauso funktioniert. Brechen Sie Konventionen nur dort, wo der Gewinn die Kosten des Umlernens klar überwiegt."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen",
+  "End of Web Design, Alertbox",
+  "Standardmäßig Konvention; sparsam innovieren"
+ ],
+ ".card .tag": [
+  "Das Gesetz",
+  "Mentaler Transfer",
+  "Konvention",
+  "Wiederverwendung",
+  "Mentales Modell",
+  "Ausnahme",
+  "✦ KI-Ära",
+  "✦ KI-Ära",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das Gesetz",
+  "Transfer von Erwartungen",
+  "Konventionen sind mächtig",
+  "Standardmuster nicht neu erfinden",
+  "Das mentale Modell",
+  "Wann man Konventionen bricht",
+  "Chat ist die neue Konvention",
+  "Natürliche Sprache als Standardeingabe",
+  "Adaptive UI vs. Konsistenz",
+  "Die Konvention wird umgeschrieben"
+ ],
+ ".card .desc": [
+  "Nutzer bilden ihr mentales Modell davon, wie ein Interface funktionieren sollte, aus jedem anderen Interface, das sie je benutzt haben. Je näher Ihres dieser angesammelten Erwartung kommt, desto weniger müssen sie lernen — und desto benutzbarer fühlt es sich an.",
+  "Jedes Produkt, das ein Nutzer berührt hat, hinterlässt eine Schicht Erwartung. Er kommt zu Ihnen und \"weiß\" bereits, wo Warenkorb, Suche und Menü sein sollten — weil hundert andere Websites sie dort platziert haben.",
+  "Logo oben links führt zur Startseite. Warenkorb oben rechts. Hauptnavigation quer über den Kopf. Unterstrichener blauer Text ist ein Link. Das sind keine Naturgesetze — aber so weit geteilte Konventionen, dass sie es genauso gut sein könnten.",
+  "Ein \"kreativer\" Datumswähler, eine neuartige Scrollleiste, ein maßgeschneidertes Dropdown — sie kosten fast immer mehr, als sie wert sind. Vertraute Bedienelemente funktionieren, weil Nutzer bereits Tausende Wiederholungen mit ihnen hinter sich haben.",
+  "Nutzer lesen Ihre UI nicht neu — sie gleichen sie mit einem inneren Modell aus Erfahrung ab. Passt Ihr Interface zum Modell, fühlt es sich intuitiv an. Kollidiert es, fühlt es sich kaputt an.",
+  "Konvention ist kein Käfig. Brechen Sie sie nur, wenn der Gewinn die Kosten des Umlernens klar überwiegt — und wenn Ihr neues Muster so viel besser ist, dass es die nächste Konvention werden könnte.",
+  "ChatGPT hat Hunderte Millionen Menschen auf ein einziges Muster trainiert: ein Eingabefeld unten, gestreamte Antworten darüber, Daumen hoch/runter. Das ist jetzt eine Erwartung, die Nutzer an <em>jedes</em> KI-Feature herantragen.",
+  "Nutzer erwarten zunehmend, <em>einzutippen, was sie wollen</em>, statt durch Menüs zu jagen. Command-Palette und KI-Prompt laufen zusammen — \"sag mir, was du brauchst\" wird zur neuen Eingangstür.",
+  "KI kann für jeden Nutzer ein anderes Interface generieren — das Gegenteil von Jakobs Gesetz und seinem Ruf nach Gleichheit. Die Spannung ist real: Personalisierung steigert die Relevanz, höhlt aber die geteilten Konventionen aus, auf die sich Nutzer verlassen.",
+  "Jakobs Gesetz gilt weiter — aber der Korpus der \"anderen Websites\", auf den es zeigt, ändert sich schnell. Die sichere Basis umfasst jetzt KI-Affordanzen: ein Prompt-Feld, gestreamte Ausgabe, \"neu generieren\", zitierte Quellen und ein Rückgängig für alles, was das Modell angefasst hat."
+ ],
+ ".meta .label": [
+  "Geprägt von",
+  "Kernidee",
+  "Folge",
+  "Quelle",
+  "Ablagerung",
+  "Nutzen",
+  "Beispiele",
+  "Stärke",
+  "Kosten des Bruchs",
+  "Wiederverwendung",
+  "Test",
+  "Achtung",
+  "Aufgebaut aus",
+  "Passung",
+  "Konflikt",
+  "Brechen wenn",
+  "Beispiele",
+  "Risiko",
+  "Gesetzt von",
+  "Erwartung",
+  "Folge",
+  "Wandel",
+  "Konvergiert",
+  "Achtung",
+  "Vorteil",
+  "Nachteil",
+  "Balance",
+  "Gilt weiter",
+  "Neue Basis",
+  "Fazit"
+ ],
+ ".meta .value": [
+  "Jakob Nielsen (2000)",
+  "Erwartungen wandern zwischen Produkten",
+  "Etablierten Konventionen folgen",
+  "Jedes je benutzte Produkt",
+  "Wo Dinge \"sein sollten\"",
+  "Null Lernkurve",
+  "Logo · Warenkorb · Navigation · Links",
+  "Nahezu universell im Web",
+  "Nutzer muss umlernen",
+  "Native Controls · bekannte Muster",
+  "Bringt Neuheit echten Wert?",
+  "Innovationstheater",
+  "Frühere Erfahrung",
+  "Fühlt sich intuitiv an · unsichtbar",
+  "Fühlt sich kaputt an · frustrierend",
+  "Gewinn ≫ Umlernkosten",
+  "Pull-to-Refresh · Wischgesten",
+  "Verwirrung · Abbruch",
+  "ChatGPT · Claude · Copilot",
+  "Eingabefeld · Streaming · Feedback",
+  "Dem bekannten Chat-Idiom entsprechen",
+  "Navigieren → beschreiben",
+  "⌘K-Palette + KI-Prompt",
+  "Auffindbarkeit ganz verstecken",
+  "Relevanz · weniger Ballast",
+  "Kein geteiltes mentales Modell",
+  "Inhalt anpassen, Rahmen stabil halten",
+  "Nutzererwartungen entsprechen",
+  "Prompt · Stream · Regenerieren · Zitieren",
+  "Konventionen jeden Zyklus neu prüfen"
+ ],
+ ".ai-divider h3": [
+  "Jakobs Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI schreibt die Konventionen um, die Nutzer mit sich tragen. Der Bezugspunkt verschiebt sich von \"jeder Website\" zu \"jedem KI-Werkzeug\"."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Steering <em>Law</em>"
+ ],
+ "header .tagline": [
+  "The narrower the path, the slower the steering."
+ ],
+ "header .subtitle": [
+  "Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag."
+ ],
+ ".law-origin .body-text": [
+  "Johnny Accot and <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derived the steering law in 1997 while researching input at IBM Almaden. Where Fitts modeled hitting a target, they modeled traveling a path — and found an elegant integral form of the same trade-off.",
+  "Zhai went on to shape modern text input at Google, where his work underlies gesture typing on billions of keyboards. The steering law remains one of the few HCI models precise enough to predict interaction times before a prototype exists."
+ ],
+ ".law-content .law-desc": [
+  "The time to steer a pointer through a constrained path grows with the path’s length and inversely with its width. Halve the tunnel’s width and steering takes roughly twice as long — every narrow corridor in an interface is a tax on the hand."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-johnny-accot\">Accot</a> and <a href=\"people.html#p-shumin-zhai\">Zhai</a> (1997)",
+  "Beyond Fitts’ Law — CHI ’97",
+  "Widen the path or shorten it"
+ ],
+ ".card .tag": [
+  "The tunnel",
+  "Menus",
+  "Width",
+  "Precision",
+  "Edges",
+  "Touch",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Length Over Width",
+  "The Nested-Menu Diagonal",
+  "Wide Paths Win",
+  "Sliders and Fine Control",
+  "Rails at the Edges",
+  "Fingers Steer Badly",
+  "Language Skips the Tunnel",
+  "Gestures Rediscover the Law"
+ ],
+ ".card .desc": [
+  "Steering a cursor down a corridor is a continuous aim: every pixel of travel re-tests the width. Long and narrow is slow and error-prone; short and wide is effortless. The integral is the whole design brief.",
+  "Cascading submenus are the classic steering trap: move diagonally toward the submenu and you exit the hover corridor, collapsing it. Good menus add a grace triangle or delay so the diagonal path survives.",
+  "The cheapest steering fix is width: taller menu rows, thicker slider tracks, bigger drag handles. Doubling the corridor’s width halves the steering cost for every user, on every visit, forever.",
+  "A slider is a one-dimensional tunnel, and precision demands make it narrow. For exact values, pair the drag with stepper buttons or direct numeric input — steering is for coarse moves, typing is for precise ones.",
+  "Screen edges are infinitely deep walls — a cursor thrown against one stays in the corridor no matter how fast the motion. Scrollbars, docks, and panel handles that hug an edge steer themselves.",
+  "Touch steering is worse than mouse steering: no hover, a fat imprecise contact, and an arm that occludes the path. On touch, replace steering with taps — stepped controls, tap-to-place, and generous snap.",
+  "Saying “set brightness to 70” replaces a steering task with a sentence. Where precision matters and paths are narrow, prompt and voice input aren’t novelties — they’re the wide path the law has been asking for.",
+  "Air gestures, AR pointers, and pen interfaces reintroduce steering with shakier hands and no armrest. The old math still applies: every gesture corridor needs to be wider than the tremor it must survive."
+ ],
+ ".meta .label": [
+  "Time grows with",
+  "Shrinks with",
+  "Every pixel",
+  "Trap",
+  "Fix",
+  "Or",
+  "Cheapest fix",
+  "Double width",
+  "Applies to",
+  "Slider",
+  "Exact values",
+  "Never",
+  "Edges",
+  "Edge controls",
+  "See also",
+  "Touch",
+  "Prefer",
+  "Add",
+  "A sentence",
+  "Best for",
+  "New inputs",
+  "Corridor"
+ ],
+ ".meta .value": [
+  "Length",
+  "Width",
+  "Re-tests the aim",
+  "Diagonal exits the corridor",
+  "Grace triangle · delay",
+  "Click-to-open",
+  "Make it wider",
+  "Half the cost",
+  "Rows · tracks · handles",
+  "Coarse adjustment",
+  "Type or step",
+  "Pixel-perfect drags",
+  "Infinite walls",
+  "Steer themselves",
+  "Fitts’s corners",
+  "No hover, fat pointer",
+  "Taps over drags",
+  "Snap and steps",
+  "Replaces the steer",
+  "Precise, nameable targets",
+  "Old math",
+  "Wider than the tremor"
+ ],
+ ".ai-divider h3": [
+  "The Steering Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Language input skips the tunnel entirely — and gesture interfaces rediscover it. The law decides which interactions deserve to survive."
+ ]
+}

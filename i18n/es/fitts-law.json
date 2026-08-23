@@ -1,0 +1,146 @@
+{
+ "header h1": [
+  "Ley de Fitts"
+ ],
+ "header .tagline": [
+  "Grande y <em>cerca</em>"
+ ],
+ "header .subtitle": [
+  "El tiempo para alcanzar un objetivo depende de su tamaño y distancia. La ley de Fitts gobierna cada botón, enlace y zona táctil — y explica por qué los bordes y esquinas se sienten tan rápidos."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> fue un psicólogo experimental estadounidense y pionero de la ingeniería de factores humanos en la Fuerza Aérea de Estados Unidos. Su artículo de 1954 modeló el movimiento rápido dirigido como un equilibrio entre distancia y tamaño del objetivo — la base de la investigación sobre dispositivos de puntero.",
+  "Fitts dirigió la rama de psicología de la Fuerza Aérea estadounidense tras la Segunda Guerra Mundial, donde estudió por qué pilotos entrenados estrellaban aviones bien diseñados — fundando de paso los factores humanos en aviación. Su índice de dificultad sigue siendo el modelo estándar para evaluar dispositivos de puntero, del ratón a las pantallas táctiles."
+ ],
+ ".law-content .law-desc": [
+  "El tiempo para apuntar a un objetivo crece con la distancia y se reduce con el tamaño del objetivo — de forma logarítmica. Duplica la distancia y el tiempo sube una constante. Duplica el ancho y el tiempo baja la misma constante."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Paul Fitts (1954)",
+  "Journal of Experimental Psychology",
+  "Haz los objetivos grandes y cercanos"
+ ],
+ ".card .tag": [
+  "Tamaño (W)",
+  "Distancia (D)",
+  "Equilibrio",
+  "Objetivo en el borde",
+  "Esquina",
+  "Radial",
+  "Relleno",
+  "Táctil",
+  "Conducción",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Más grande es más rápido",
+  "Más cerca es más rápido",
+  "El peor caso",
+  "Los bordes son infinitos",
+  "Las esquinas son mágicas",
+  "Menús radiales y de pastel",
+  "Zonas de impacto ampliadas",
+  "Objetivos táctiles en móvil",
+  "El efecto túnel",
+  "La entrada conversacional elimina el objetivo",
+  "La IA anticipa el próximo clic"
+ ],
+ ".card .desc": [
+  "Aumenta W y el tiempo de puntería cae — rápido. Los controles más grandes deberían ser los más usados. El CTA no es adorno; el tamaño es función.",
+  "La distancia aumenta el tiempo de puntería de forma logarítmica — lo que significa que el coste de cruzar la pantalla es real. Coloca la siguiente acción cerca de la anterior. No hagas viajar al usuario.",
+  "Pequeño Y lejano es la combinación más lenta posible. La mayoría de los clics accidentales ocurren aquí — un diminuto icono de «cerrar» en la esquina opuesta de la pantalla respecto a donde ya están el ojo y el puntero.",
+  "El cursor no puede pasar del borde de la pantalla, así que cualquier objetivo pegado al borde tiene, en la práctica, un ancho infinito en ese eje. La barra de menús del Mac es más rápida que cualquier desplegable de Windows exactamente por esta razón.",
+  "Una esquina es infinita en dos dimensiones. El cursor frena en seco en ambos ejes sin importar cuánto te pases. Los menús de inicio, los botones de cerrar y las Hot Corners de macOS lo explotan — el clic más rápido posible de la pantalla.",
+  "Un menú circular coloca todas las opciones a la misma distancia del cursor — y el ancho angular de la porción se vuelve el tamaño efectivo del objetivo. Los usuarios expertos pueden crear memoria muscular de la dirección, no del destino.",
+  "Un icono pequeño puede tener un área de impacto invisible mucho mayor. Extender la región clicable con relleno mantiene el elemento visual ordenado y el objetivo real generoso — una mejora gratuita de la ley de Fitts.",
+  "En pantallas táctiles, el «cursor» es la yema de un dedo — de unos 9–10 mm de ancho. Apple recomienda un mínimo de 44 pt, Material 48 dp. Por debajo, los toques accidentales se disparan; la UI más rápida se vuelve la más frustrante.",
+  "Mover el cursor por un pasillo estrecho (submenús en cascada, menús contextuales anidados) es dramáticamente más lento que acertar a un objetivo abierto — la ley de conducción extiende la de Fitts a trayectos. Salirse del túnel devuelve al usuario al inicio.",
+  "Cuando escribes o dices una petición, no hay botón al que apuntar. La distancia y el tamaño dejan de importar — el «objetivo» se vuelve lenguaje, no una región de píxeles.",
+  "Las UI predictivas muestran la siguiente acción probable como una sugerencia grande y cercana. Es la ley de Fitts automatizada — el objetivo viaja hacia el cursor en lugar de al revés."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Ideal para",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "CTAs primarios · acciones frecuentes",
+  "La acción es importante o repetida",
+  "Tamaño igual = señal de prioridad igual",
+  "Acciones contextuales · ediciones en línea",
+  "El siguiente clic debe ser sin esfuerzo",
+  "Forzar viajes del puntero por la pantalla",
+  "Listas de auditoría",
+  "Detectar fricción en los flujos",
+  "Botones destructivos diminutos y lejanos",
+  "Barras persistentes · pestañas",
+  "Zonas calientes para usuarios expertos",
+  "No aplica a las pestañas del navegador (hay chrome de ventana encima)",
+  "Acciones globales · salir · inicio",
+  "La acción abarca todo el sistema",
+  "Se pierde fuera de pantalla completa",
+  "Menús contextuales · juegos",
+  "Conjunto pequeño y fijo de opciones",
+  "Más de 8 porciones = ilegible",
+  "Botones de icono · barras de herramientas",
+  "Lo visual debe seguir compacto",
+  "Zonas de impacto solapando vecinos",
+  "Todas las interfaces táctiles",
+  "Diseñar la UI móvil principal",
+  "Objetivos a menos de 8 pt = toques errados",
+  "Antipatrón de auditoría",
+  "Detectar cascadas de menús profundas",
+  "Salirse del túnel reinicia al usuario",
+  "Apuntar → describir",
+  "La intención es fácil de decir",
+  "La descubribilidad de las funciones",
+  "Apuntar → anticipar",
+  "La siguiente acción es predecible",
+  "Adivinar mal añade fricción"
+ ],
+ ".ai-divider h3": [
+  "La ley de Fitts en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las interfaces conversacionales y predictivas cambian la geometría — a veces no hay objetivo al que apuntar; a veces el objetivo viene a ti."
+ ],
+ ".law-formula-note": [
+  "el tiempo de movimiento crece con la distancia (D) y se reduce con el ancho del objetivo (W)."
+ ]
+}

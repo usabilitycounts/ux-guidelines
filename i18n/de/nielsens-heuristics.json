@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Nielsens 10 Heuristiken"
+ ],
+ "header .tagline": [
+  "Zehn <em>Faustregeln</em>, um zu erkennen, was schiefläuft"
+ ],
+ "header .subtitle": [
+  "Jakob Nielsens zehn Usability-Heuristiken sind noch immer die meistgenutzte Checkliste zum Aufspüren von Interface-Problemen — jede erklärt mit einem modernen, praktischen Beispiel."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> ist ein dänischer Usability-Ingenieur, der bei Sun Microsystems schnelle, günstige Usability-Methoden populär machte, bevor er 1998 mit <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> die Nielsen Norman Group gründete. Seine \"Discount Usability\"-Bewegung machte das Testen mit fünf Nutzern zum Industriestandard.",
+  "Die zehn Heuristiken entstanden 1990 zusammen mit <a href=\"https://en.wikipedia.org/wiki/Rolf_Molich\" target=\"_blank\" rel=\"noopener\">Rolf Molich</a> und wurden 1994 aus einer Faktorenanalyse von 249 Usability-Problemen verfeinert. Sie bleiben die meistgenutzte Checkliste im Expert Review — langlebig, weil sie menschliche Beschränkungen beschreiben, keine Technologien."
+ ],
+ ".law-content .law-desc": [
+  "Zehn breite Faustregeln für Interface-Design — Sichtbarkeit des Status, Bezug zur realen Welt, Nutzerkontrolle, Konsistenz, Fehlervermeidung, Wiedererkennen statt Erinnern, Flexibilität, Minimalismus, gute Fehlermeldungen und Hilfe. Keine Gesetze: Heuristiken, um Probleme schnell zu finden."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen und Rolf Molich",
+  "Verfeinert aus 249 analysierten Usability-Problemen",
+  "Heuristische Reviews vor Nutzertests durchführen"
+ ],
+ ".card .tag": [
+  "Feedback",
+  "Vertrautheit",
+  "Umkehrbarkeit",
+  "Vorhersehbarkeit",
+  "Leitplanken",
+  "Gedächtnislast",
+  "Beschleuniger",
+  "Signal-Rausch-Verhältnis",
+  "Klare Sprache",
+  "Just-in-time",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Sichtbarkeit des Systemstatus",
+  "Übereinstimmung von System und realer Welt",
+  "Nutzerkontrolle und Freiheit",
+  "Konsistenz und Standards",
+  "Fehlervermeidung",
+  "Wiedererkennen statt Erinnern",
+  "Flexibilität und Effizienz der Nutzung",
+  "Ästhetisches und minimalistisches Design",
+  "Fehler erkennen, verstehen und beheben helfen",
+  "Hilfe und Dokumentation",
+  "Das Denken des Modells zeigen",
+  "Stoppen und neu generieren"
+ ],
+ ".card .desc": [
+  "Das System sollte Nutzer stets darüber informiert halten, was gerade passiert — durch angemessenes Feedback in vertretbarer Zeit.",
+  "Sprechen Sie die Sprache der Nutzer. Verwenden Sie ihnen vertraute Wörter, Wendungen und Konzepte, keine systemorientierten Begriffe. Folgen Sie den Konventionen der realen Welt.",
+  "Nutzer wählen Systemfunktionen oft aus Versehen und brauchen einen klar markierten \"Notausgang\", um den unerwünschten Zustand zu verlassen — unterstützen Sie Rückgängig und Wiederholen.",
+  "Nutzer sollten sich nicht fragen müssen, ob verschiedene Wörter, Situationen oder Aktionen dasselbe bedeuten. Folgen Sie Plattform- und Branchenkonventionen.",
+  "Besser als gute Fehlermeldungen ist ein sorgfältiges Design, das das Problem gar nicht erst entstehen lässt — Leitplanken statt Wegweiser.",
+  "Minimieren Sie die Gedächtnislast, indem Objekte, Aktionen und Optionen sichtbar sind. Nutzer sollten sich Informationen nicht von einem Teil des Interfaces zum anderen merken müssen.",
+  "Beschleuniger — für Einsteiger unsichtbar — können die Interaktion für Experten beschleunigen, sodass das System beiden dient. Lassen Sie Nutzer häufige Aktionen anpassen.",
+  "Interfaces sollten keine Informationen enthalten, die irrelevant sind oder selten gebraucht werden. Jede zusätzliche Informationseinheit konkurriert mit den relevanten und mindert deren Sichtbarkeit.",
+  "Fehlermeldungen sollten in klarer Sprache verfasst sein, das Problem präzise benennen und konstruktiv eine Lösung vorschlagen. Sagen Sie dem Nutzer, was falsch ist und wie es sich beheben lässt.",
+  "Auch wenn es besser ist, wenn das System ohne Dokumentation nutzbar ist, kann Hilfe nötig sein. Solche Informationen sollten leicht durchsuchbar und auf die Aufgabe des Nutzers fokussiert sein.",
+  "Sichtbarkeit des Systemstatus bedeutet heute gestreamte Tokens, ein Denk-Schimmern und Fortschritt bei Tool-Aufrufen. Zehn stille Sekunden während der Generierung wirken wie eine eingefrorene, kaputte App.",
+  "Nutzerkontrolle und Freiheit, KI-Ausgabe: ein Stopp-Knopf mitten im Stream und ein Neu-Generieren danach. Die erste Antwort des Modells ist ein Entwurf, nie eine Sackgasse."
+ ],
+ ".meta .label": [
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Achtung",
+  "Kontext",
+  "Folge",
+  "Heuristik",
+  "Zeigen",
+  "Achtung",
+  "Heuristik",
+  "Anbieten",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Stilles Laden · Verstecktes Speichern",
+  "Lang laufende Aktionen · Formulare",
+  "Fortschritt, Zeit und Zustand zeigen",
+  "Jargon · Systemsprache",
+  "Labels · Icons · Fehlertexte",
+  "Aus der physischen Welt entlehnen",
+  "Sackgassen-Abläufe · Kein Ausgang",
+  "Formulare · Editoren · Assistenten",
+  "Immer Rückgängig und Ausweg anbieten",
+  "Umbenannte Aktionen · Drift",
+  "Designsysteme · Mehrseitige Apps",
+  "Muster festschreiben, wiederholen",
+  "Stille destruktive Aktionen",
+  "Löschen · Senden · Absenden",
+  "Riskante Pfade bestätigen oder begrenzen",
+  "Leere Eingaben · Kryptische Codes",
+  "Formulare · Filter · Befehle",
+  "Optionen zeigen; Nutzer wählen lassen",
+  "Power-User in Einsteiger-Abläufen gefangen",
+  "Produktivitätswerkzeuge · Dashboards",
+  "Shortcuts über die Grundlagen legen",
+  "Visueller Ballast · Informationsflut",
+  "Onboarding · Landingpages · Leere Zustände",
+  "Alles streichen, was seinen Platz nicht verdient",
+  "\"Fehler 504\" · Vage Texte",
+  "Formulare · APIs · Systemfehler",
+  "Erklären, was, warum und wie zu beheben",
+  "Vergrabene Hilfe · Lange Handbücher",
+  "Einstellungen · Komplexe Funktionen",
+  "Kontexthilfe; konkrete Schritte",
+  "Nr. 1 Sichtbarkeit des Status",
+  "Streaming · Fortschritt · Werkzeuge",
+  "Stilles Warten",
+  "Nr. 3 Kontrolle und Freiheit",
+  "Stoppen · Neu generieren · Bearbeiten",
+  "Nicht stoppbare Generierung"
+ ],
+ ".ai-divider h3": [
+  "Heuristiken im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Die zehn Heuristiken gelten weiter — aber \"Systemstatus\", \"Nutzerkontrolle\" und \"Fehlervermeidung\" bekommen neue Bedeutung, wenn das System ein probabilistisches Modell ist."
+ ]
+}

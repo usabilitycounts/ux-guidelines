@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "Eye Scanning Patterns"
+ ],
+ "header .tagline": [
+  "How Users <em>Actually</em> Read Your Interface"
+ ],
+ "header .subtitle": [
+  "Decades of eye-tracking research show people don’t read interfaces — they scan them in predictable shapes. Here are the six patterns and where each one shows up."
+ ],
+ ".law-origin .body-text": [
+  "The eye-scanning patterns come from two decades of eye-tracking research by Nielsen Norman Group, the consultancy founded by <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> and <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> in 1998. Their 2006 F-pattern study, based on recordings of hundreds of users reading thousands of pages, became one of the most cited findings in web usability.",
+  "Follow-up studies broadened the picture: the F-shape is what people fall back on when a page gives them no better structure. Strong headings, front-loaded copy, and clear visual hierarchy replace lazy scanning with purposeful reading."
+ ],
+ ".law-content .law-desc": [
+  "People rarely read interfaces word by word. They scan in predictable shapes — F, Z, layer-cake, spotted — determined by the page’s structure and their goal. Design for the scan, not the read."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a>’s eye-tracking team",
+  "F-Shaped Pattern for Reading Web Content",
+  "Front-load headings and key words"
+ ],
+ ".card .tag": [
+  "Text-heavy pages",
+  "Sparse layouts",
+  "Continuous scroll",
+  "Targeted scanning",
+  "Hierarchy-driven",
+  "Repetitive content",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "F Pattern",
+  "Z Pattern",
+  "Marking Pattern",
+  "Spotted Pattern",
+  "Layer-Cake Pattern",
+  "Bypassing Pattern",
+  "AI Summaries Short-Circuit Scanning",
+  "Scanning for Citations"
+ ],
+ ".card .desc": [
+  "Users read the top of a page across, drop down a bit and scan part of the next line, then trail their eyes down the left edge — describing the shape of an F. Dominant on text-heavy pages with weak visual hierarchy.",
+  "Eyes travel across the top, diagonally down to the lower-left, then across the bottom — tracing a Z. Common on sparse pages with a few focal elements and a clear call-to-action.",
+  "A reader’s gaze sticks to one vertical band while scrolling — typically the center column. Common on mobile and during continuous-scroll reading where the cursor or thumb leads the eye.",
+  "Users skip large sections of content and land on visually distinct spots — buttons, prices, numbers, or boldface — like finding islands of meaning across a sea of text.",
+  "Eyes glide from heading to heading down the page, skipping body text entirely — only diving in when a heading promises something relevant. Hierarchy carries the entire experience.",
+  "When lines share repeated openings — “Step 1:”, “Note:”, or the identical leading word in every row of a table — readers skip the prefix entirely and jump straight to the unique content. It’s the dominant pattern for scanning tables and lists of structured information, where the eye bypasses the redundant text down each column.",
+  "When a generated answer sits above the page, users read it instead of scanning what’s beneath. The F- and Z-patterns collapse into “read the answer, maybe glance below.”",
+  "In an AI answer the new fixation target is the citation. Users skim past the prose to find — and click — the source that proves the claim before they trust it."
+ ],
+ ".meta .label": [
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Effect",
+  "Watch for",
+  "Design for",
+  "New target",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Readers skimming dense text",
+  "Articles · Search results · Long copy",
+  "Front-load key info; bold subheads",
+  "Visitors scanning for a CTA",
+  "Landing pages · Marketing splash",
+  "Place CTA at terminal corners",
+  "Mobile / scroll-focused users",
+  "Long articles · Mobile feeds",
+  "Keep critical info center-aligned",
+  "Goal-oriented searchers",
+  "Search results · Product specs",
+  "Make targets visually distinct",
+  "Decisive, time-pressed readers",
+  "Structured docs · Long-form pages",
+  "Headings must self-describe",
+  "Procedural / instructional readers",
+  "Tables · Lists · Tutorials · Step guides",
+  "Vary openings; lead with the unique part",
+  "Scanning replaced by reading",
+  "Answer wrong, page ignored",
+  "A trustworthy, skimmable answer",
+  "Source links · citations",
+  "Answers make factual claims",
+  "Unverifiable confident text"
+ ],
+ ".meta-cell .label": [
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication",
+  "Audience",
+  "Context",
+  "Implication"
+ ],
+ ".meta-cell .value": [
+  "Readers skimming dense text",
+  "Articles · Search results · Long copy",
+  "Front-load key info; bold subheads",
+  "Visitors scanning for a CTA",
+  "Landing pages · Marketing splash",
+  "Place CTA at terminal corners",
+  "Mobile / scroll-focused users",
+  "Long articles · Mobile feeds",
+  "Keep critical info center-aligned",
+  "Goal-oriented searchers",
+  "Search results · Product specs",
+  "Make targets visually distinct",
+  "Decisive, time-pressed readers",
+  "Structured docs · Long-form pages",
+  "Headings must self-describe",
+  "Procedural / instructional readers",
+  "Tables · Lists · Tutorials · Step guides",
+  "Vary openings; lead with the unique part"
+ ],
+ ".ai-divider h3": [
+  "Eye Scanning in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "When an AI answer sits at the top of the page, the classic scan patterns give way to reading the response — and verifying its sources."
+ ]
+}

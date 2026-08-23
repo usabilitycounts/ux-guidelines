@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "IKEA-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Arbeit führt zu Liebe."
+ ],
+ "header .subtitle": [
+  "Norton, Mochon und Ariely zeigten 2011, dass Menschen Dinge weit höher schätzen, sobald sie beim Bauen mitgeholfen haben. Aufwand — selbst ein kleiner — macht Nutzer zu Mitschöpfern, und Mitschöpfer zu Eigentümern."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Michael_I._Norton\" target=\"_blank\" rel=\"noopener\">Michael I. Norton</a> von der Harvard Business School ließ mit Daniel Mochon und <a href=\"https://en.wikipedia.org/wiki/Dan_Ariely\" target=\"_blank\" rel=\"noopener\">Dan Ariely</a> Menschen Origami falten und schlichte IKEA-Kisten zusammenbauen. Die Bauenden boten anschließend deutlich mehr für ihre eigenen Werke — und bewerteten Amateurarbeit fast auf Expertenniveau — und nahmen an, alle anderen würden das auch tun.",
+  "Das Paper von 2011 benannte den Effekt nach dem Möbel, das als Kiste voller Teile geliefert wird. Die Idee war älter: Vermarkter der 1950er hatten gelernt, dass Instant-Kuchenmischungen sich besser verkauften, sobald das Rezept ein frisches Ei verlangte. Ein wenig Arbeit machte den Kuchen zum eigenen."
+ ],
+ ".law-content .law-desc": [
+  "Menschen schreiben Dingen, an deren Entstehung sie beteiligt waren, unverhältnismäßig hohen Wert zu — selbst bei kleiner Mühe und objektiv gewöhnlichem Ergebnis. Der Aufschlag erscheint nur bei vollendeter Arbeit: abgebrochene oder gescheiterte Bauten ernten keine Liebe."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-michael-norton\">Michael Norton</a>, <a href=\"people.html#p-daniel-mochon\">Daniel Mochon</a> und <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> (2011)",
+  "„The IKEA Effect: When Labor Leads to Love“",
+  "Lassen Sie Nutzer bauen — ein wenig"
+ ],
+ ".card .tag": [
+  "Die Forschung",
+  "Ursprünge",
+  "Grenze",
+  "Design",
+  "Vorsicht",
+  "Bindung",
+  "Im KI-Zeitalter",
+  "Im KI-Zeitalter"
+ ],
+ ".card h3": [
+  "Die Experimente",
+  "Das Ei in der Backmischung",
+  "Die Arbeit muss gelingen",
+  "Anpassung schafft Eigentümer",
+  "Aufwand, keine Beschäftigungstherapie",
+  "Die Investitionsschleife",
+  "Bindung durch Mitgestaltung",
+  "Wenn die Maschine alles baut"
+ ],
+ ".card .desc": [
+  "Wer eine schlichte schwarze IKEA-Kiste selbst zusammengebaut hatte, bot 63 Prozent mehr dafür als Käufer einer identischen, fertig montierten. Origami-Falter bewerteten ihre schiefen Kraniche nahe Expertenarbeit. Die Arbeit, nicht das Objekt, trug den Wert.",
+  "Instant-Backmischungen stockten in den 1950ern — bis die Hersteller das Eipulver entfernten und ein frisches Ei verlangten. Ein bedeutsamer Schritt machte aus dem Fabrikprodukt den Kuchen der Bäckerin — und der Verkauf zog an.",
+  "Den Aufschlag gibt es nur für vollendete Arbeit. Mussten Bauende ihr Werk wieder zerlegen oder wurden nie fertig, verschwand der Mehrwert. Mühe bindet an Ergebnisse — nicht an Versuche.",
+  "Einen Avatar wählen, den Arbeitsbereich benennen, das Dashboard anordnen — kleine Bauakte lassen das Produkt wie selbst geschaffen wirken. Wer sein Setup geformt hat, kehrt zurück, verteidigt es und verzeiht ihm mehr.",
+  "Der Effekt belohnt sinnvolle Arbeit, keine Reibung. Erzwungene Schritte, hohle Assistenten und Formulare um des Formulars willen erzeugen Groll, kein Eigentum. Geben Sie ein Ei zum Aufschlagen — nie ein Formular als Selbstzweck.",
+  "Playlists, Boards, gespeicherte Ansichten, trainierte Filter — jedes Artefakt, das Nutzer im Produkt bauen, erhöht die Kosten des Gehens. Gespeicherte Arbeit ist die stärkste Bindung überhaupt — und die am ehrlichsten verdiente.",
+  "Menschen schätzen KI-Ergebnisse weit mehr, wenn sie sie gelenkt haben — den Prompt geschrieben, zwischen Entwürfen gewählt, das Ergebnis überarbeitet. Machen Sie diese Urheberschaft sichtbar: Zeigen Sie, was der Nutzer geformt hat, und das Ergebnis fühlt sich nicht mehr wie das der Maschine an.",
+  "Vollautomatik ist das Anti-IKEA: nichts investiert, nichts besessen, leicht verworfen. Lassen Sie eine bedeutsame Entscheidung in Nutzerhand — die Gliederung, die Auswahl, den letzten Schliff — und das Ergebnis wird zum eigenen."
+ ],
+ ".meta .label": [
+  "Fertig montiert",
+  "Selbst gebaut",
+  "Träger",
+  "Alles drin",
+  "Ei hinzufügen",
+  "Lektion",
+  "Vollendet",
+  "Abgebrochen",
+  "Designpflicht",
+  "Moment",
+  "Akt",
+  "Ertrag",
+  "Sinnvoll",
+  "Beschäftigung",
+  "Test",
+  "Artefakte",
+  "Mechanismus",
+  "Verdient",
+  "Arbeit heute",
+  "Design",
+  "Ein Klick",
+  "Eine Entscheidung bleibt"
+ ],
+ ".meta .value": [
+  "Basiswert",
+  "63 Prozent Aufschlag",
+  "Die Arbeit selbst",
+  "Wirkte wie aus der Fabrik",
+  "Wirkte wie selbst gebacken",
+  "Ein echter Schritt genügt",
+  "Voller Aufschlag",
+  "Kein Aufschlag",
+  "Vollendung erreichbar machen",
+  "Setup und Onboarding",
+  "Benennen, formen, platzieren",
+  "Bindung und Nachsicht",
+  "Wenige, folgenreiche Schritte",
+  "Viele, hohle Schritte",
+  "Würde der Schritt fehlen?",
+  "Playlists · Boards · Ansichten",
+  "Gespeicherte Arbeit erhöht die Wechselkosten",
+  "Ehrlich, durch Nützlichkeit",
+  "Prompten · Wählen · Überarbeiten",
+  "Urheberschaft sichtbar machen",
+  "Wegwerf-Ergebnis",
+  "Eigenes Ergebnis"
+ ],
+ ".ai-divider h3": [
+  "Der IKEA-Effekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Wenn ein Modell alles mit einem Klick bauen kann, verschwindet die Arbeit — und mit ihr die Liebe. Die Kunst ist nun zu entscheiden, welches Ei der Nutzer noch selbst aufschlägt."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Effet <em>IKEA</em>"
+ ],
+ "header .tagline": [
+  "Le travail mène à l’attachement."
+ ],
+ "header .subtitle": [
+  "Norton, Mochon et Ariely ont montré en 2011 que les gens accordent bien plus de valeur aux choses qu’ils ont aidé à construire. L’effort — même minime — transforme les utilisateurs en co-créateurs, et les co-créateurs en propriétaires."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Michael_I._Norton\" target=\"_blank\" rel=\"noopener\">Michael I. Norton</a> de la Harvard Business School, avec Daniel Mochon et <a href=\"https://en.wikipedia.org/wiki/Dan_Ariely\" target=\"_blank\" rel=\"noopener\">Dan Ariely</a>, a fait plier des origamis et assembler de simples caisses IKEA. Les monteurs enchérissaient ensuite bien plus pour leurs propres créations — valorisant un travail d’amateur presque au niveau de celui d’experts — et supposaient que tout le monde ferait de même.",
+  "L’article de 2011 a nommé l’effet d’après le meuble livré en boîte de pièces détachées. L’idée était plus ancienne : dans les années 1950, les industriels avaient appris que les préparations à gâteau se vendaient mieux quand la recette exigeait d’ajouter un œuf. Un peu de travail faisait du gâteau celui du pâtissier."
+ ],
+ ".law-content .law-desc": [
+  "Les gens accordent une valeur disproportionnée aux choses qu’ils ont aidé à créer, même quand l’effort est faible et le résultat objectivement ordinaire. La prime n’apparaît que si le travail est achevé — les constructions abandonnées ou ratées ne gagnent aucun attachement."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-michael-norton\">Michael Norton</a>, <a href=\"people.html#p-daniel-mochon\">Daniel Mochon</a> et <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> (2011)",
+  "« The IKEA Effect: When Labor Leads to Love »",
+  "Laissez les utilisateurs construire — un peu"
+ ],
+ ".card .tag": [
+  "La recherche",
+  "Origines",
+  "Limite",
+  "Design",
+  "Prudence",
+  "Rétention",
+  "À l’ère de l’IA",
+  "À l’ère de l’IA"
+ ],
+ ".card h3": [
+  "Les expériences",
+  "L’œuf dans la préparation",
+  "Le travail doit aboutir",
+  "La personnalisation crée des propriétaires",
+  "De l’effort, pas des corvées",
+  "La boucle d’investissement",
+  "L’attachement par co-création",
+  "Quand la machine construit tout"
+ ],
+ ".card .desc": [
+  "Les participants qui avaient assemblé une simple caisse IKEA noire enchérissaient 63 pour cent de plus que les acheteurs d’une caisse identique déjà montée. Les plieurs d’origami estimaient leurs grues bancales près du niveau d’un expert. C’est le travail, pas l’objet, qui portait la valeur.",
+  "Les préparations à gâteau instantanées stagnaient dans les années 1950, jusqu’à ce que les fabricants retirent l’œuf en poudre et demandent d’en casser un frais. Une étape significative a transformé un produit d’usine en gâteau du pâtissier — et les ventes ont suivi.",
+  "La prime n’existe que pour un travail achevé. Quand les monteurs devaient démonter leur création, ou ne la finissaient jamais, la valeur supplémentaire disparaissait. L’effort attache les gens aux résultats — pas aux tentatives.",
+  "Choisir un avatar, nommer un espace de travail, organiser un tableau de bord — de petits actes de construction donnent au produit un air d’œuvre personnelle. Les utilisateurs qui ont façonné leur installation y reviennent, la défendent et lui pardonnent davantage.",
+  "L’effet récompense le travail significatif, pas la friction. Les étapes forcées, les assistants creux et les formulaires inutiles engendrent du ressentiment, pas de l’appropriation. Donnez un œuf à casser — jamais un formulaire pour le formulaire.",
+  "Playlists, tableaux, vues enregistrées, filtres entraînés — chaque artefact qu’un utilisateur construit dans un produit augmente le coût du départ. Le travail accumulé est la rétention la plus forte qui soit, et la plus facile à gagner honnêtement.",
+  "Les gens tiennent bien plus aux résultats d’IA qu’ils ont dirigés — écrit l’invite, choisi entre les brouillons, retouché le résultat. Rendez cette paternité visible : montrez ce que l’utilisateur a façonné, et le résultat cesse d’appartenir à la machine.",
+  "L’automatisation totale est l’anti-IKEA : rien d’investi, rien de possédé, facile à jeter. Gardez une décision significative entre les mains de l’utilisateur — le plan, le choix, la coupe finale — et le résultat devient le sien."
+ ],
+ ".meta .label": [
+  "Prémonté",
+  "Auto-assemblé",
+  "Porteur",
+  "Tout-en-un",
+  "Ajouter un œuf",
+  "Leçon",
+  "Achevé",
+  "Abandonné",
+  "Devoir du designer",
+  "Moment",
+  "Acte",
+  "Bénéfice",
+  "Significatif",
+  "Corvée",
+  "Test",
+  "Artefacts",
+  "Mécanisme",
+  "Gagné",
+  "Le travail aujourd’hui",
+  "Design",
+  "Un clic",
+  "Une décision gardée"
+ ],
+ ".meta .value": [
+  "Valeur de référence",
+  "63 pour cent de prime",
+  "Le travail lui-même",
+  "Semblait venir de l’usine",
+  "Semblait venir du pâtissier",
+  "Une vraie étape suffit",
+  "Prime entière",
+  "Aucune prime",
+  "Rendre l’achèvement accessible",
+  "Installation et onboarding",
+  "Nommer, façonner, placer",
+  "Rétention et indulgence",
+  "Peu d’étapes, décisives",
+  "Beaucoup d’étapes creuses",
+  "Cette étape manquerait-elle ?",
+  "Playlists · tableaux · vues",
+  "Le travail stocké élève le coût de sortie",
+  "Honnêtement, par l’utilité",
+  "Écrire · choisir · retoucher",
+  "Rendre la paternité visible",
+  "Résultat jetable",
+  "Résultat possédé"
+ ],
+ ".ai-divider h3": [
+  "L’effet IKEA à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Quand un modèle peut tout construire en un clic, le travail disparaît — et l’attachement avec lui. L’art consiste désormais à décider quel œuf l’utilisateur casse encore."
+ ]
+}

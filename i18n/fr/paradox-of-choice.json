@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Paradoxe du <em>choix</em>"
+ ],
+ "header .tagline": [
+  "Quand plus d'options signifie <em>moins de décisions</em>."
+ ],
+ "header .subtitle": [
+  "Plus d'options peut signifier moins de décisions. La recherche derrière la surcharge de choix — et les patterns qui aident à sortir de la paralysie décisionnelle."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)\" target=\"_blank\" rel=\"noopener\">Barry Schwartz</a> est un psychologue américain qui a passé sa carrière au Swarthmore College à étudier l'intersection de la psychologie et de l'économie. Son livre de 2004, The Paradox of Choice, soutenait qu'au-delà d'un seuil modeste, ajouter des options rend les gens moins satisfaits, pas plus.",
+  "Formé à NYU et à l'université de Pennsylvanie, Schwartz a enseigné la psychologie pendant quatre décennies à Swarthmore. Sa conférence TED sur le paradoxe est devenue l'une des plus regardées de tous les temps, et ses travaux ultérieurs ont exploré comment les défauts, le satisficing et les choix « suffisamment bons » protègent les gens de la fatigue décisionnelle."
+ ],
+ ".law-content .law-desc": [
+  "La loi de Hick vous dit qu'une décision devient plus lente. Le paradoxe du choix vous dit qu'elle peut ne pas avoir lieu du tout. Une fois qu'un ensemble franchit un seuil (souvent autour d'une douzaine d'éléments), les utilisateurs se sentent dépassés, remettent à plus tard et convertissent moins."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Barry Schwartz (2004)",
+  "The Paradox of Choice",
+  "Plafonner les choix vers la douzaine ; soigner les défauts"
+ ],
+ ".card .tag": [
+  "Étude de terrain",
+  "Paralysie",
+  "Regret",
+  "Curation",
+  "Architecture",
+  "Filtrer",
+  "Personnaliser",
+  "Comparer",
+  "Juste milieu",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "L'étude des confitures",
+  "Paralysie décisionnelle",
+  "Regret post-décision",
+  "La curation plutôt que la quantité",
+  "Architecture du choix",
+  "Filtrer et trier pour réduire",
+  "Recommandations",
+  "Limites de la comparaison",
+  "La plage de travail",
+  "L'IA sélectionne l'ensemble",
+  "L'échange contre la confiance"
+ ],
+ ".card .desc": [
+  "L'expérience de supermarché de Sheena Iyengar en 2000 : un stand de dégustation de 24 confitures attirait plus de clients, mais un stand de seulement 6 confitures vendait dix fois plus. Plus de choix attirait la foule ; moins de choix concluait la vente.",
+  "Quand le coût cognitif du choix dépasse le bénéfice perçu, les utilisateurs reportent entièrement la décision. Ils ferment l'onglet, gardent le panier pour plus tard ou choisissent « je vais y réfléchir » — et la plupart ne reviennent jamais.",
+  "Les utilisateurs qui finissent par choisir dans un grand ensemble sont moins satisfaits que ceux qui ont choisi dans un petit. Chaque alternative devient un regret hypothétique — « et si j'avais pris l'autre ? »",
+  "La présélection éditoriale — « nos 5 favoris » — convertit mieux que le catalogue complet. L'utilisateur échange l'optionalité infinie contre la confiance en votre goût, et l'accepte généralement.",
+  "La façon dont les options sont présentées détermine lesquelles sont choisies. Un défaut présélectionné, un badge « recommandé » ou le simple ordre de la liste orientent le comportement plus que le choix lui-même.",
+  "Quand vous ne pouvez pas réduire le catalogue, laissez l'utilisateur le réduire. Les filtres transforment 2 000 éléments imparcourables en 20 gérables que l'utilisateur veut vraiment. Une bonne interface de filtres est la soupape de sécurité de la surcharge de choix.",
+  "Utilisez les données — popularité, utilisateurs similaires, comportement passé — pour pré-réduire l'ensemble. « Parce que vous avez regardé… » est une réduction de choix déguisée, et c'est pourquoi les services de streaming ne montrent pas d'emblée leur catalogue complet.",
+  "La comparaison côte à côte est utile pour 2 à 4 éléments. Au-delà, le tableau devient une nouvelle source de surcharge — trop de lignes aux différences subtiles, aucune réponse « meilleure » claire.",
+  "Pas de nombre magique — cela dépend des enjeux de la décision, de l'expertise de l'utilisateur et de la différenciation visuelle. Mais la plage éprouvée sur le terrain, qui évite à la fois la rareté arbitraire et la surcharge, est d'environ 3 à 10, la plupart des équipes se fixant autour de 5 à 7.",
+  "Au lieu de 10 000 options, le modèle en fait remonter trois bonnes — ou fait simplement la tâche. La surcharge se dissout, remplacée par une nouvelle question : faites-vous confiance à la curation ?",
+  "Laisser l'IA choisir supprime la fatigue décisionnelle mais ajoute un coût de confiance. Les meilleurs choix de l'IA restent réversibles et s'expliquent, pour que l'utilisateur garde un sentiment de contrôle."
+ ],
+ ".meta .label": [
+  "Étude",
+  "Résultat",
+  "Leçon",
+  "Symptôme",
+  "Cause",
+  "Atténuer",
+  "Constaté",
+  "Pourquoi",
+  "Contre-mesure",
+  "Idéal pour",
+  "Modèle",
+  "À surveiller",
+  "Leviers",
+  "Concept",
+  "À surveiller",
+  "Idéal pour",
+  "Montrer",
+  "À surveiller",
+  "Idéal pour",
+  "Entrées",
+  "À surveiller",
+  "Juste milieu",
+  "Au-delà de 4",
+  "À surveiller",
+  "Plage par défaut",
+  "Lié",
+  "Au-delà de 10",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Échange",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Iyengar et Lepper, 2000",
+  "6 confitures → 10× plus de ventes",
+  "Attention ≠ conversion",
+  "Panier abandonné · longues sessions",
+  "Coût du choix &gt; gain perçu",
+  "Ensembles plus petits · recommandation claire",
+  "Satisfaction moindre pour le même article",
+  "Les alternatives hypothétiques planent",
+  "Montrer moins, recommander le bon",
+  "Découverte · Onboarding",
+  "Choix de la rédaction · Favoris de l'équipe",
+  "Cacher entièrement le reste",
+  "Défauts · ordre · cadrage · badges",
+  "Thaler et Sunstein · \"Nudge\"",
+  "Bascule dans les dark patterns",
+  "E-commerce · Catalogues · Recherche",
+  "Filtres actifs · nombre de résultats",
+  "Filtres qui masquent tous les résultats",
+  "Médias · Shopping · Fils d'actualité",
+  "Historique · cohorte · préférences explicites",
+  "Bulles de filtres · sur-ajustement",
+  "2 – 4 éléments",
+  "Laisser choisir 2 à comparer",
+  "Mur de chiffres façon fiche technique",
+  "3 – 10",
+  "Loi de Miller (7 ± 2)",
+  "Grouper · filtrer · chercher · recommander",
+  "Parcourir → sélectionné",
+  "L'ensemble est écrasant",
+  "Filtrage opaque et biaisé",
+  "Paralysie → confiance",
+  "Les décisions sont à faible enjeu",
+  "Choix automatiques irréversibles"
+ ],
+ ".ai-divider h3": [
+  "Le paradoxe du choix à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA promet de guérir la surcharge en décidant pour vous — échangeant la paralysie du trop grand nombre d'options contre la question de savoir s'il faut faire confiance au choix."
+ ]
+}

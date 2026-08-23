@@ -1,0 +1,155 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Miller"
+ ],
+ "header .tagline": [
+  "Unas <em>siete</em> cosas, más o menos dos."
+ ],
+ "header .subtitle": [
+  "El artículo de George Miller (1956) puso número a la memoria de trabajo — unos siete bloques. El número es difuso; la lección es que la memoria es pequeña y el trabajo del diseño es agrupar la información para que los usuarios puedan retenerla sin esfuerzo."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/George_Armitage_Miller\" target=\"_blank\" rel=\"noopener\">George A. Miller</a> fue un psicólogo cognitivo estadounidense en Harvard y Princeton y uno de los fundadores de la ciencia cognitiva. Su artículo de 1956 The Magical Number Seven, Plus or Minus Two examinó los límites de la memoria a corto plazo — y se convirtió en una de las obras más citadas de la psicología.",
+  "Miller cofundó el Harvard Center for Cognitive Studies con <a href=\"https://en.wikipedia.org/wiki/Jerome_Bruner\" target=\"_blank\" rel=\"noopener\">Jerome Bruner</a> en 1960, ayudando a poner fin al dominio del conductismo en la psicología estadounidense. Más tarde creó WordNet en Princeton, una base de datos léxica que se volvió fundamental para la lingüística computacional. Se cuidó de señalar que el 'siete' era un recurso retórico — la verdadera lección es el chunking."
+ ],
+ ".law-content .law-desc": [
+  "Hay un techo bajo para lo que una persona puede retener en la memoria de trabajo en un momento dado. El truco no es encoger las interfaces hasta ese techo — es agrupar la información en bloques que el usuario pueda hacer caber debajo."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "George A. Miller (1956)",
+  "The Magical Number Seven, Plus or Minus Two",
+  "Agrupa la información en bloques"
+ ],
+ ".card .tag": [
+  "Estudio de 1956",
+  "Compresión",
+  "Heurística relacionada",
+  "Caso clásico",
+  "Arquitectura de información",
+  "Patrón",
+  "Flujo",
+  "Mito",
+  "Conclusión",
+  "Refinamiento",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El mágico número siete",
+  "Chunking",
+  "Reconocimiento antes que recuerdo",
+  "Formatea los números en bloques",
+  "Agrupa la arquitectura de información",
+  "Divulgación progresiva",
+  "Asistentes de varios pasos",
+  "El mal uso habitual",
+  "Tamaño del bloque, no número de elementos",
+  "El número se hizo más pequeño",
+  "El asistente retiene el contexto por ti",
+  "El riesgo: confiar en lo que no puedes retener"
+ ],
+ ".card .desc": [
+  "Miller revisó estudios sobre percepción del tono, discriminación del gusto y recuerdo a corto plazo — y el mismo techo aparecía una y otra vez: unos siete elementos. Nunca sostuvo que esto debiera fijar la longitud de los menús; esa es una mala lectura que se convirtió en dogma.",
+  "La forma de rodear el límite. Agrupa elementos sueltos en bloques con significado y cabrá más en la memoria. Un número de teléfono de 10 dígitos es difícil; (555) 867-5309 es fácil — tres bloques en vez de diez dígitos, y los bloques mismos son formas familiares.",
+  "Aunque la memoria sea limitada, el reconocimiento es mucho más barato que el recuerdo. Muestra las opciones en pantalla y deja que el usuario señale la correcta. Menús, autocompletado, migas de pan, listas de usados recientemente y búsquedas guardadas son todos atajos de Miller disfrazados de funcionalidades.",
+  "El ejemplo de manual. (555) 867-5309 son tres bloques; 5558675309 es un borrón de diez dígitos. La misma lógica aplica a tarjetas de crédito, IBANs, fechas, números de referencia y códigos OTP — formatea para el ojo y la memoria, no para la columna de la base de datos.",
+  "La navegación funciona mejor cuando cada nivel tiene un conjunto pequeño y escaneable. La investigación con card sorting aterriza sistemáticamente en torno a cinco a nueve categorías por nivel. Más allá, los usuarios empiezan a perder el mapa de dónde está cada cosa, y el retroceso se dispara.",
+  "Muestra las pocas opciones que importan ahora, revela el resto bajo demanda. Los paneles de ajustes, los formularios y el onboarding se benefician — manteniendo cada pantalla bajo el techo de la memoria de trabajo sin esconder lo que los usuarios avanzados necesitan a un clic.",
+  "Los formularios largos se pliegan en asistentes por razones con forma de Miller. Cada paso pide un bloque lo bastante pequeño para retenerlo mientras se decide — la alternativa es una página de cuarenta campos donde los usuarios pierden la cuenta de lo que ya respondieron a mitad de camino.",
+  "\"Los menús deberían tener como máximo siete elementos\" — Miller nunca dijo esto. Su trabajo trataba de bloques en la memoria de trabajo, no de recuentos de elementos de interfaz. Los menús se escanean visualmente, no se retienen en memoria. El 7 ± 2 es una guía para agrupar, no un techo duro sobre lo que está en pantalla.",
+  "La lectura correcta: cuando un usuario debe retener algo en mente durante una tarea — un código, un paso, una comparación — mantén el bloque en cinco o menos. Cuando escanea con la pantalla como memoria, el límite no aplica. Distingue \"llevarlo encima\" de \"verlo\".",
+  "Décadas de investigación posterior estrecharon la cifra — el artículo de Cowan de 2001 sugiere más bien cuatro bloques para la memoria de trabajo genuina. El principio se mantiene, solo que más afilado: la memoria es pequeña, cara, y el trabajo del diseño es protegerla.",
+  "Un modelo puede cargar con el conjunto completo de variables que el usuario no puede. \"¿Cuál era el plan de ese cliente?\" o \"recuérdame qué archivo editamos por última vez\" ya no exige que el usuario lo lleve en la cabeza — el asistente recuerda durante la sesión y lo saca a relucir cuando toca.",
+  "Cuando el modelo maneja los bloques que el usuario no puede, el usuario pierde la capacidad de verificar. Muestra fuentes, pasos intermedios y deshacer para que la gente pueda restablecer la verdad de base — no dejes que \"no puedo retenerlo todo\" se convierta en \"nunca tuve que comprobarlo\"."
+ ],
+ ".meta .label": [
+  "Original",
+  "Rango",
+  "Malinterpretado como",
+  "Mecanismo",
+  "Clásico",
+  "Efecto",
+  "Más barato",
+  "Costoso",
+  "Aplicar",
+  "Patrón",
+  "Aplicar a",
+  "Evitar",
+  "Objetivo",
+  "Investigación",
+  "Síntoma",
+  "Mostrar",
+  "Revelar",
+  "Cuidado con",
+  "Patrón",
+  "Ideal para",
+  "Cuidado con",
+  "Mito",
+  "Realidad",
+  "Aplicar",
+  "En memoria",
+  "En pantalla",
+  "Prueba",
+  "Original",
+  "Refinado",
+  "Práctico",
+  "Cambio",
+  "Ayuda",
+  "Cuidado con",
+  "Riesgo",
+  "Hacer visible",
+  "Siempre"
+ ],
+ ".meta .value": [
+  "Tono · gusto · recuerdo",
+  "5–9 bloques",
+  "\"Menús de 7 elementos\"",
+  "Agrupar con significado",
+  "Teléfono · IBAN · fechas",
+  "Más información, misma carga",
+  "Reconocimiento",
+  "Recordar desde cero",
+  "Muestra, no examines",
+  "Agrupar dígitos",
+  "Teléfono · tarjeta · IBAN · OTP",
+  "Cadenas corridas sin formato",
+  "5–9 por nivel",
+  "Card sorting",
+  "Perderse en la navegación",
+  "Los 5–9 que importan",
+  "Bajo demanda",
+  "Ocultar lo esencial",
+  "Un bloque por paso",
+  "Formularios largos · flujos de configuración",
+  "El exceso de pasos oculta la longitud total",
+  "Menús de 7 elementos",
+  "Chunking, no recuento",
+  "Agrupa, luego dimensiona",
+  "≤ 5–9 bloques",
+  "Sin tope duro",
+  "¿Pueden retenerlo?",
+  "Miller, 1956 · ~7",
+  "Cowan, 2001 · ~4",
+  "Planifica con ≈ 4 como seguro",
+  "Memoria del usuario → del asistente",
+  "Tareas largas de varios pasos",
+  "Contexto obsoleto o erróneo",
+  "Respuestas inverificables",
+  "Fuentes y pasos",
+  "Una vía fácil de verificación"
+ ],
+ ".ai-divider h3": [
+  "La ley de Miller en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "El asistente puede retener los bloques que un usuario no puede — pero el usuario todavía tiene que verificar lo que no pudo mantener en mente por sí mismo."
+ ],
+ ".law-formula-note": [
+  "el alcance de la memoria de trabajo que Miller observó en distintas tareas."
+ ]
+}

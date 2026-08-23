@@ -1,0 +1,130 @@
+{
+ "header h1": [
+  "Shneiderman’s <em>Eight Golden Rules</em>"
+ ],
+ "header .tagline": [
+  "Eight rules that have governed interface design since 1985."
+ ],
+ "header .subtitle": [
+  "Ben Shneiderman’s Eight Golden Rules of Interface Design, from Designing the User Interface, distill decades of HCI research into rules that still govern every screen: consistency, shortcuts, feedback, closure, error handling, reversal, control, and memory load."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> is a computer scientist at the University of Maryland and a founding figure of human-computer interaction — he founded its HCI lab in 1983, and his students and collaborators shaped the field’s methods.",
+  "The Eight Golden Rules appeared in Designing the User Interface (1986), now in its sixth edition. Alongside them, Shneiderman’s direct-manipulation concept and his work on information visualization (“overview first, zoom and filter, details on demand”) run through modern interfaces."
+ ],
+ ".law-content .law-desc": [
+  "Eight working rules for interactive systems: strive for consistency, seek universal usability, offer informative feedback, design dialogs to yield closure, prevent errors, permit easy reversal of actions, keep users in control, and reduce short-term memory load."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ben-shneiderman\">Ben Shneiderman</a> (1986)",
+  "Designing the User Interface",
+  "The pre-flight checklist"
+ ],
+ ".card .tag": [
+  "Rule 1",
+  "Rule 2",
+  "Rule 3",
+  "Rule 4",
+  "Rule 5",
+  "Rule 6",
+  "Rule 7",
+  "Rule 8",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Strive for Consistency",
+  "Seek Universal Usability",
+  "Offer Informative Feedback",
+  "Design Dialogs to Yield Closure",
+  "Prevent Errors",
+  "Permit Easy Reversal",
+  "Keep Users in Control",
+  "Reduce Short-Term Memory Load",
+  "Consistency vs Improvisation",
+  "Reversal for Generated Work"
+ ],
+ ".card .desc": [
+  "Similar situations should require similar actions: identical terminology, layouts, and command sequences across the product. Every inconsistency is a small tax the user pays on every visit.",
+  "Design for the full range of users: novices need guidance and explanations, experts need shortcuts and accelerators, and everyone needs the interface to respect ability, age, language, and technology differences.",
+  "Every action gets a response scaled to its importance: a subtle state change for a click, a clear confirmation for a purchase. Silence after an action is the interface equivalent of being ignored.",
+  "Sequences of actions need a beginning, middle, and end. The confirmation page, the “sent” state, the completed checklist — closure tells users they can stop tracking and move on.",
+  "The best error message is the one that never appears: disable invalid options, constrain formats at the input, confirm the destructive. When errors happen anyway, offer simple, constructive recovery.",
+  "Undo is the license to explore. When actions are reversible, anxiety drops and users try things — the product gets discovered instead of studied. Reversal should extend to groups of actions, not just the last one.",
+  "Experienced users want to feel the interface responds to their initiative — not that they’re responding to its. Surprises, interruptions, forced tours, and unrequested changes all erode the sense of ownership.",
+  "Humans hold a handful of chunks at a time. Keep information visible across steps, prefer recognition to recall, and never ask users to remember something the interface just told them.",
+  "A model can phrase the same answer ten ways — charming in chat, corrosive in an interface. Constrain generated UI and copy to your patterns and vocabulary: the model improvises, the design system holds the line.",
+  "When AI edits your document or your code, rule six becomes existential: every generated change needs an inspectable diff and a one-step undo. Control and reversal are what make delegation safe."
+ ],
+ ".meta .label": [
+  "Same action",
+  "Covers",
+  "Inconsistency",
+  "Novices",
+  "Experts",
+  "Everyone",
+  "Small action",
+  "Big action",
+  "Silence",
+  "Give flows",
+  "Closure",
+  "Missing end",
+  "First",
+  "Then",
+  "Tone",
+  "Undo",
+  "Scope",
+  "Effect",
+  "Initiator",
+  "Avoid",
+  "Erosion",
+  "Carry context",
+  "Prefer",
+  "Never",
+  "Model",
+  "Design system",
+  "Every AI change",
+  "Makes"
+ ],
+ ".meta .value": [
+  "Same look, same place",
+  "Words · layout · order",
+  "A recurring tax",
+  "Guidance",
+  "Accelerators",
+  "Access",
+  "Subtle response",
+  "Clear confirmation",
+  "Reads as broken",
+  "A visible end",
+  "Releases attention",
+  "Lingering doubt",
+  "Make errors impossible",
+  "Make recovery easy",
+  "Constructive, specific",
+  "License to explore",
+  "Actions and groups",
+  "Anxiety drops",
+  "The user",
+  "Interruptions · surprises",
+  "Unrequested change",
+  "Across steps",
+  "Recognition over recall",
+  "Ask users to re-remember",
+  "Improvises",
+  "Holds the line",
+  "Diff and undo",
+  "Delegation safe"
+ ],
+ ".ai-divider h3": [
+  "The Golden Rules in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Probabilistic interfaces bend every rule — consistency, reversal, and control mean something new when the system improvises."
+ ]
+}

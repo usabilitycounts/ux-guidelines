@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Pareto <em>Principle</em>"
+ ],
+ "header .tagline": [
+  "Roughly <em>80 percent</em> of the effects come from <em>20 percent</em> of the causes."
+ ],
+ "header .subtitle": [
+  "Vilfredo Pareto noticed in 1906 that 80% of Italy’s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> was an Italian economist and sociologist. In 1896 he observed that roughly 80% of Italy’s land belonged to 20% of its people; management thinker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> later generalized the pattern as the 80/20 rule and named it for Pareto.",
+  "Pareto trained as an engineer and directed Italian railways before turning to economics at the University of Lausanne. His broader work on elite circulation influenced sociology for a century; the 80/20 shorthand came from quality-management pioneer <a href=\"people.html#p-joseph-juran\">Joseph Juran</a>, who called it ‘the vital few and the trivial many.’"
+ ],
+ ".law-content .law-desc": [
+  "A small share of causes produces most of the effect. The exact ratio isn’t sacred — 70/30, 90/10 — but the imbalance is. In product, design, and engineering, finding the high-leverage minority is where the work pays for itself."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-vilfredo-pareto\">Vilfredo Pareto</a> (1896)",
+  "Cours d’économie politique",
+  "Optimize the vital few"
+ ],
+ ".card .tag": [
+  "Origin",
+  "Product",
+  "Prioritization",
+  "Performance",
+  "Bugs and support",
+  "Counter-case",
+  "Trap",
+  "Daily use",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "From Land to Everything",
+  "80% of Users Touch 20% of Features",
+  "Cut to the Critical Few",
+  "The Hot Path Carries the Cost",
+  "Few Bugs, Most Pain",
+  "The Long Tail Still Matters",
+  "The Over-Prune Trap",
+  "Default to 80/20 Thinking",
+  "AI Makes the Long Tail Cheap",
+  "The Risk: 80% Confident, 20% Wrong"
+ ],
+ ".card .desc": [
+  "Pareto was an Italian economist studying land ownership in 1906. He noticed about 80% of the land sat with 20% of the people — and then saw the same lopsided distribution in pea pods in his garden. The pattern turned out to be everywhere, and the name stuck.",
+  "Microsoft’s Office team famously found that most users never touched most of the menus. The same shape recurs in nearly every product: a small core of features carries most of the engagement, and the rest sits unused — sometimes purposefully, often accidentally.",
+  "When everything looks important, the right move is usually to figure out which 20% of the backlog drives 80% of the outcome. MVP, roadmaps, and quarterly OKRs all rely on Pareto reasoning — picking the small set of bets that will carry most of the result.",
+  "Profile any production system and you almost always find the same shape: a small fraction of the code (or queries, or assets) is responsible for most of the time. Premature optimization is wasted everywhere else — but on the hot path, the math pays back massively.",
+  "<a href=\"people.html#p-joel-spolsky\">Joel Spolsky</a>, Microsoft, and countless support teams have observed the same lopsidedness in crashes and tickets. A handful of bugs cause the majority of the user-visible misery; the rest are long-tail. Triage by impact, not by submission order.",
+  "<a href=\"people.html#p-chris-anderson\">Chris Anderson</a>’s “long tail” is the warning: aggregate enough of the unused 80% and you sometimes find a market larger than the head. Amazon and Spotify both built businesses on it. Pareto tells you where to focus first, not which markets to abandon.",
+  "A naïve read of Pareto is “cut the 80% no one uses.” But unused features often serve a few critical users — accessibility, accountants, admins, oncall. Before cutting, segment by who, not just by how many. The 20% of features the bottom 5% relies on is usually load-bearing.",
+  "The principle is most useful as a habit. Before any review, ask: which 20% of users, screens, tasks, or errors carries 80% of the weight here? It rarely answers the whole question — but it almost always reorders the work in a way that pays off.",
+  "Pareto was partly a statement about cost: the 80% wasn’t worth serving because each unit was too expensive. Models flip that — translating, summarizing, supporting, or designing for one obscure case now costs nearly the same as one common case. The unused 80% gets reachable.",
+  "Models invert Pareto in a sneakier way too. They’re great at the 80% common case and worst at the 20% edge — but they sound equally confident about both. The remaining failure modes are exactly the ones that hurt: rare, plausible, and unverified."
+ ],
+ ".meta .label": [
+  "Year",
+  "First seen in",
+  "Generalized",
+  "Pattern",
+  "Apply",
+  "Watch for",
+  "Tactic",
+  "Method",
+  "Test",
+  "Apply",
+  "Skip",
+  "Rule",
+  "Triage by",
+  "Not by",
+  "Test",
+  "When",
+  "Examples",
+  "Don’t",
+  "Risk",
+  "Segment by",
+  "Check",
+  "Habit",
+  "Effect",
+  "Cost",
+  "Shift",
+  "Examples",
+  "Opportunity",
+  "Risk",
+  "Fix",
+  "Always"
+ ],
+ ".meta .value": [
+  "1906",
+  "Italian land · pea pods",
+  "By Juran, 1940s",
+  "Long-tail feature use",
+  "Polish the 20% first",
+  "Cutting needed long tail",
+  "Find the leverage few",
+  "Impact × confidence × effort",
+  "Could you cut it in half?",
+  "Profile, then optimize",
+  "The other 80%",
+  "Measure before tuning",
+  "Reach × severity",
+  "Submission order",
+  "Sort crash log by frequency",
+  "Distribution and aggregation are cheap",
+  "Amazon · Spotify",
+  "Confuse focus with abandonment",
+  "Cutting load-bearing features",
+  "Who, not just how many",
+  "A11y · ops · power users",
+  "Ask before reviewing",
+  "Reorders the work",
+  "Five seconds of thought",
+  "Long tail now cheap",
+  "Translation · support · code",
+  "Serve who used to be skipped",
+  "Edge cases sound certain",
+  "Surface uncertainty",
+  "Verify the 20%"
+ ],
+ ".ai-divider h3": [
+  "The Pareto Principle in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI changes the math of the long tail — the 80% of edge cases that used to be too expensive to serve are now within reach."
+ ]
+}

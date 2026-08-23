@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "<em>Seuil</em> de Doherty"
+ ],
+ "header .tagline": [
+  "Sous 400 millisecondes, le travail devient une conversation."
+ ],
+ "header .subtitle": [
+  "La recherche IBM de Walter Doherty et Ahrvind Thadani (1982) : quand un système répond en moins de 400 millisecondes, la productivité s'envole — l'utilisateur et l'ordinateur restent dans le même fil de pensée. Associée ici aux limites classiques de temps de réponse que toute interface respecte encore."
+ ],
+ ".law-origin .body-text": [
+  "Walter J. Doherty et Ahrvind J. Thadani étaient des chercheurs d'IBM qui étudiaient l'économie de l'informatique interactive. Leur article de 1982, The Economic Value of Rapid Response Time, a renversé le postulat de l'époque selon lequel des réponses en deux secondes suffisaient — la productivité montait en flèche dès que les réponses passaient sous les 400 millisecondes.",
+  "Cette découverte a recadré la vitesse des systèmes en argument économique : des machines plus rapides s'amortissaient en attention humaine récupérée. Des décennies plus tard, le même seuil apparaît dans les budgets de performance web, et les limites de temps de réponse de <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> prolongent le cadre."
+ ],
+ ".law-content .law-desc": [
+  "La productivité s'envole quand un ordinateur et ses utilisateurs interagissent à un rythme — sous 400 millisecondes — qui garantit que ni l'un ni l'autre n'attend. Sous le seuil, le travail ressemble à une conversation ; au-dessus, chaque pause brise le fil de pensée de l'utilisateur et les erreurs grimpent."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-walter-j-doherty\">Doherty</a> et <a href=\"people.html#p-ahrvind-thadani\">Thadani</a> (1982)",
+  "The Economic Value of Rapid Response Time",
+  "Répondre ou accuser réception vite"
+ ],
+ ".card .tag": [
+  "La ligne",
+  "Complément",
+  "Perception",
+  "Modèle",
+  "Coût",
+  "Pratique",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "La ligne des 400 millisecondes",
+  "Les limites de temps de réponse",
+  "Le feedback bat la vitesse brute",
+  "UI optimiste",
+  "La latence s'accumule",
+  "Fixer un budget de performance",
+  "Le streaming bat le spinner",
+  "Accuser réception, puis réfléchir"
+ ],
+ ".card .desc": [
+  "Doherty et Thadani ont mesuré les transactions par heure à mesure que le temps de réponse baissait. La courbe n'est pas linéaire — sous 400 ms, les utilisateurs cessent de regrouper leur réflexion autour des pauses de la machine et la productivité bondit.",
+  "Les trois limites de Jakob Nielsen accompagnent le seuil de Doherty : 0,1 seconde semble instantané, 1 seconde préserve le fil de pensée, et 10 secondes marquent la limite extérieure de l'attention — au-delà, les utilisateurs changent de tâche.",
+  "Quand le système ne peut pas répondre en 400 ms, il peut quand même accuser réception en 400 ms. Écrans squelettes, états pressés et écho local instantané font paraître réactive une opération lente — la vitesse perçue est un matériau de design.",
+  "Validez le changement à l'écran avant que le réseau ne le confirme. Le message apparaît dans le fil, l'interrupteur bascule, l'élément se classe tout seul — et le système réconcilie en coulisses. L'utilisateur n'attend jamais un aller-retour.",
+  "Aucun délai isolé ne tue un flux de travail — c'est l'accumulation qui le fait. Une recherche à 700 ms, un filtre à 900 ms, une sauvegarde à 1,2 s : sur une journée de travail, les pauses s'additionnent en concentration brisée et en travail par lots, propice aux erreurs.",
+  "Traitez les 400 ms comme vous traitez une spécification visuelle. Donnez un budget à chaque interaction, mesurez le chemin réel le plus lent — pas la machine de démo — et investissez le temps d'ingénierie là où les utilisateurs attendent vraiment.",
+  "Un modèle qui prend huit secondes viole toutes les limites de cette page — sauf s'il streame. Des tokens qui apparaissent à vitesse de lecture gardent l'utilisateur dans la conversation des 400 ms même quand la réponse complète est à plusieurs secondes.",
+  "Le prompt doit atterrir instantanément — répercuté dans le fil en moins de 100 ms — pendant que le modèle travaille. Le seuil régit l'accusé de réception, pas la réponse. Le silence radio après un envoi est la seule latence d'IA impardonnable."
+ ],
+ ".meta .label": [
+  "Seuil",
+  "En dessous",
+  "Au-dessus",
+  "0,1 s",
+  "1 s",
+  "10 s",
+  "Règle",
+  "Outils",
+  "À surveiller",
+  "Idéal pour",
+  "Exige",
+  "À surveiller",
+  "Symptôme",
+  "Correctif",
+  "Cible",
+  "Mesurer",
+  "Budget",
+  "Investir sur",
+  "Modèle",
+  "Effet",
+  "Instantané",
+  "Honnête"
+ ],
+ ".meta .value": [
+  "Environ 400 ms",
+  "Flow et élan",
+  "Attention brisée",
+  "Semble instantané",
+  "Le flow survit",
+  "L'attention est partie",
+  "Accuser réception instantanément",
+  "Squelettes · états pressés",
+  "Clics dans le vide",
+  "Envois · bascules · sauvegardes",
+  "Retour arrière élégant",
+  "Mentir sur les échecs",
+  "Les utilisateurs travaillent par lots",
+  "Budgéter chaque interaction",
+  "Moins de 400 ms chacune",
+  "Vrais appareils, vrais réseaux",
+  "Par interaction",
+  "Le chemin le plus lent",
+  "Streamer, pas faire tourner",
+  "L'attente devient de la lecture",
+  "Répercuter le prompt",
+  "Montrer l'état de réflexion"
+ ],
+ ".ai-divider h3": [
+  "Le seuil de Doherty à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles prennent des secondes, pas des millisecondes. Le seuil ne plie pas — l'interface doit donc dépenser l'attente honnêtement."
+ ],
+ ".law-formula-note": [
+  "le temps de réponse sous lequel attention, flow et productivité se maintiennent."
+ ]
+}

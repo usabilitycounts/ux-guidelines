@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "Acerca de"
+ ],
+ "header .subtitle": [
+  "Quién hace este sitio y por qué existe."
+ ],
+ ".about-section h2": [
+  "En otros lugares",
+  "Patrick Neeman",
+  "Sobre este sitio"
+ ],
+ ".about-section p": [
+  "Patrick Neeman es un líder de UX y diseño de producto que ha dedicado su carrera a hacer el software más fácil para las personas que tienen que usarlo. Escribe artículos de fondo sobre UX e IA — en <a href=\"https://medium.com/@usabilitycounts\" target=\"_blank\" rel=\"noopener\">Medium</a>, <a href=\"https://substack.com/@patrickneeman\" target=\"_blank\" rel=\"noopener\">Substack</a> y <a href=\"https://www.linkedin.com/in/patrick-neeman-ux/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> — para diseñadores, gerentes de producto e investigadores de usuarios que navegan cómo está cambiando el oficio.",
+  "Lleva mucho tiempo escribiendo sobre usabilidad bajo el nombre Usability Counts, y es el creador del UX Drinking Game — prueba de que las heurísticas son más divertidas cuando hay algo en juego.",
+  "Su trabajo actual se sitúa en la intersección de la práctica del diseño y la IA: cómo los modelos cambian lo que hacen los diseñadores, cómo trabajan los equipos y cuáles de las viejas reglas siguen vigentes. Spoiler: la mayoría sigue vigente, y por eso existe este sitio.",
+  "UX Guidelines es una referencia de trabajo para las reglas del diseño de interfaces respaldadas por la investigación — los patrones de escaneo, las leyes cognitivas, las heurísticas y los principios que siguen apareciendo en los buenos productos década tras década.",
+  "Cada ley recibe el mismo tratamiento: de dónde vino y quién la descubrió, qué dice realmente y qué significa en la práctica — incluido qué cambia, y qué no, en la era de la IA. Las ilustraciones comparten un solo lenguaje visual: skeleton screens, bloques grises y un único acento azul, para que la idea cargue el peso en lugar del arte.",
+  "Empieza por donde quieras. El <a href=\"sitemap.html\">mapa del sitio</a> lista todas las páginas y el <a href=\"glossary.html\">glosario</a> cubre todos los términos. Las flechas izquierda y derecha del teclado mueven entre páginas."
+ ]
+}

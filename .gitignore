@@ -1,0 +1,6 @@
+.DS_Store
+.claude/
+.env
+__pycache__/
+*.log
+py/ftp_credentials.py

@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Conway’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Any organization that designs a system produces a design that <em>copies the org chart</em>."
+ ],
+ "header .subtitle": [
+  "Melvin Conway’s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> is an American computer scientist. In his 1968 paper How Do Committees Invent? he observed that organizations produce designs that copy their own communication structures — an observation <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> later named Conway’s Law.",
+  "Conway earned degrees in physics and mathematics before building compilers and operating systems in the 1960s. Harvard Business Review rejected the paper for lack of evidence; decades of software research since — including studies at Microsoft and MIT — have confirmed the mirroring effect empirically."
+ ],
+ ".law-content .law-desc": [
+  "The shape of a product follows the shape of the team that built it. Splits in the team turn into splits in the architecture. Smooth coordination in the org turns into clean transitions in the UX. The org chart is a longer, quieter spec than anything in the PRD."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a> (1967)",
+  "How Do Committees Invent?",
+  "Structure teams like the product you want"
+ ],
+ ".card .tag": [
+  "Definition",
+  "Mirror",
+  "Tactic",
+  "Pattern",
+  "Daily",
+  "Sibling law",
+  "Two-pizza",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Organizations Ship Their Org Chart",
+  "The Microservices Mirror",
+  "The Inverse Conway Maneuver",
+  "Team Topologies",
+  "Conway in Design Reviews",
+  "Communication Overhead",
+  "Small Teams, Tight Loops",
+  "Re-Orgs Ship as Re-Designs",
+  "AI Lowers Coordination Cost",
+  "The Assistant Becomes a Team Member"
+ ],
+ ".card .desc": [
+  "The seams in your product are the seams in your team. The hand-offs in your team are the hand-offs in your code. The model still holds half a century after Conway wrote it because the underlying mechanism — humans coordinate through the channels their org gives them — hasn’t changed.",
+  "Why is your monolith hard to split? Because the team is one team. Why are the microservices hard to merge? Because the teams are four teams. Conway’s law shows up most clearly in service architecture: the boundaries you carved in the code mirror the ones the org chart drew years ago.",
+  "Want a particular architecture? Build the org that would produce it. Want a clean monolith with a strong shared domain model? One team. Want independent platform services? Independent teams with independent on-call. Designing the team first is cheaper than fighting Conway later.",
+  "Skelton and Pais’s 2019 book makes the rule operational. Four team types — stream-aligned, enabling, complicated-subsystem, platform — and three interaction modes. It’s Conway turned into an actual playbook you can run.",
+  "It shows up in design too. A settings page owned by four teams reads like four pages. A checkout co-owned by mobile and web has subtle behavior drift no spec will fix. When a review surfaces those seams, ask who owns the seam. If no one does, that is the bug.",
+  "Brooks’s Law follows from Conway: adding people to a late project makes it later because the new edges of the communication graph cost more than the new throughput. Conway tells you the org shape that ships; Brooks tells you the cost of changing it midstream.",
+  "Amazon’s two-pizza team rule is Conway turned into a metric: if a team cannot be fed by two pizzas, it is too big to ship cleanly. Small teams own narrow services, communicate fast inside, slowly across — and the product picks up exactly that grain.",
+  "Conway runs both directions. If you re-organize the company, expect the product to drift toward the new shape — slowly, sometimes silently, but reliably. A re-org is a design decision in disguise. The org chart is the longest spec in the company.",
+  "Models can carry cross-team context the humans could not. Code review across services, design review across surfaces, support across teams — all become tractable for smaller orgs. Conway’s law is not repealed, but the cost of a wider team graph drops, and product shapes that used to require many teams become accessible to fewer.",
+  "Conway’s law assumes the nodes are human. Models are nodes now too — they generate code, write specs, run tests. Whatever communication path the assistant sits on becomes part of the org graph, and product seams form around it. A team of three plus a model is not the same team as a team of three."
+ ],
+ ".meta .label": [
+  "Coined by",
+  "Field",
+  "Example",
+  "Symptom",
+  "Name",
+  "Move",
+  "Book",
+  "Authors",
+  "Read for",
+  "If no owner",
+  "Brooks’s Law",
+  "Math",
+  "Amazon rule",
+  "Effect",
+  "Rule both ways",
+  "Spec",
+  "Effect",
+  "Watch for",
+  "Read",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a>, 1967",
+  "Programming → everywhere",
+  "Microservices ↔ teams",
+  "Splits and merges are slow",
+  "Inverse Conway maneuver",
+  "Design the team first",
+  "Team Topologies, 2019",
+  "Skelton and Pais",
+  "Seam ownership",
+  "That is the bug",
+  "Adds slow you down",
+  "n(n-1)/2 edges",
+  "Two-pizza team",
+  "Sharp service boundaries",
+  "Org ↔ product",
+  "The org chart",
+  "Wider graphs are cheaper",
+  "Drift in product shape",
+  "Assistant as a node",
+  "Invisible team member"
+ ],
+ ".ai-divider h3": [
+  "Conway’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI shifts where the communication happens — and that quietly shifts the org chart, then the product."
+ ]
+}

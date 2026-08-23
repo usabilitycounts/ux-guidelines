@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" data-page="jakob">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.">
+<title>Jakob’s Law: Users Expect Your Site to Work Like the Rest — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/jakobs-law.html">
+<meta property="og:title" content="Jakob&#x27;s Law: Users Expect Your Site to Work Like the Rest — UX Guidelines">
+<meta property="og:description" content="People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/jakobs-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jakob&#x27;s Law: Users Expect Your Site to Work Like the Rest — UX Guidelines">
+<meta name="twitter:description" content="People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --j1: #6b6b6b;   /* the law */
+    --j2: #6b6b6b;   /* transfer */
+    --j3: #6b6b6b;   /* conventions */
+    --j4: #6b6b6b;   /* don't reinvent */
+    --j5: #6b6b6b;   /* mental model */
+    --j6: #6b6b6b;   /* when to break */
+    --j7: #6b6b6b;   /* AI new conventions */
+    --j8: #6b6b6b;   /* AI natural language */
+    --j9: #6b6b6b;   /* AI adaptive */
+    --j10:#6b6b6b;   /* AI rewritten */
+    --ai: #0d9488;
+  }
+
+  /* AI section banner */
+  .ai-divider { grid-column: 1 / -1; background: var(--ink); color: var(--text-inverse); padding: 22px 32px; display: flex; align-items: center; gap: 14px; }
+
+  /* Card 1 spans full row (the law) */
+  .card.j1 .demo { aspect-ratio: 16 / 10; height: auto; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .card.j1 .quote { font-size: var(--fs-feature); font-weight: 400; color: var(--text-primary); line-height: var(--lh-heading); max-width: 760px; }
+  .card.j1 .quote em { font-style: italic;  font-weight: 500; }
+  .card.j1 .meta { grid-template-columns: 1fr 1fr; }
+
+  /* Demo helpers */
+  .browser-mini { background: var(--bg); border: 1.5px solid var(--border); border-radius: 14px; overflow: hidden; }
+  .bm-bar { height: 30px; background: #ececec; border-bottom: 1.5px solid var(--border); display: flex; align-items: center; gap: 8px; padding: 0 14px; }
+  .bm-dot { width: 13px; height: 13px; border-radius: 50%; background: #9a9a9a; }
+  .bm-url { flex: 1; height: 13px; margin-left: 10px; border-radius: 6.5px; background: rgba(107, 107, 107, 0.22); }
+
+  @media (max-width: 600px) {
+    .card.j1 { grid-column: unset; }
+    .card.j1 .meta { grid-template-columns: 1fr 1fr; }
+  }
+  /* browser-frame illustrations fill the whole tile (match .browser) */
+  .demo:has(.browser-frame), .demo:has(.browser-mini) { padding: 0 !important; background: none; border: none; }
+  .demo:has(.browser-frame) > .demo-label, .demo:has(.browser-frame) > .demo-tag, .demo:has(.browser-mini) > .demo-label, .demo:has(.browser-mini) > .demo-tag { display: none; }
+
+  /* Jakob illustrations */
+  .jx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .jx .site { border-radius: 8px; background: var(--surface); padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .jx .site .nav { display: flex; gap: 6px; align-items: center; }
+  .jx .site .logo { width: 14px; height: 14px; border-radius: 4px; background: var(--skel-strong); opacity: 0.55; flex: none; }
+  .jx .site .nv { height: 5px; width: 16%; border-radius: 2.5px; background: var(--skel); opacity: 0.45; }
+  .jx .site .hero { flex: 1; border-radius: 5px; background: var(--skel); opacity: 0.18; }
+  .jx .site .l { height: 5px; border-radius: 2.5px; background: var(--skel); opacity: 0.4; }
+  .jx .split { display: flex; gap: 14px; flex: 1; min-height: 0; align-items: stretch; }
+  .jx .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--skel-strong); opacity: 0.55; flex: none; }
+  .jx .dot.b { background: var(--il-accent); opacity: 1; }
+  .jx .field { height: 26px; border-radius: 8px; background: #fff; box-shadow: inset 0 0 0 1.5px rgba(0,0,0,0.14); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .jx .field i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .jx .chev { width: 12px; height: 12px; border-radius: 4px; background: var(--skel); opacity: 0.4; margin-left: auto; flex: none; }
+  .jx .row { height: 18px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .jx .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .jx .row.hot { background: rgba(56,189,248,0.15); }
+  .jx .row.hot i { background: var(--il-accent); opacity: 1; }
+  .jx .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; flex: 1; min-height: 0; }
+  .jx .tile { border-radius: 8px; background: var(--surface); }
+  .jx .bub { border-radius: 10px; background: var(--surface); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; }
+  .jx .bub .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link active">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Jakob’s <em>Law</em></h1>
+  <p class="tagline">Users spend most of their time on <em>other</em> sites.</p>
+  <p class="subtitle">People spend most of their time on other sites, so they expect yours to work the same way. Follow convention — and watch closely, because AI is rewriting what convention means.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)" target="_blank" rel="noopener">Jakob Nielsen</a> — the same Danish usability engineer behind the ten heuristics — stated his law of the internet user experience in 2000, at the height of every site inventing its own navigation.</p>
+    <p class="body-text">The law is an argument from arithmetic: users spend nearly all their time on sites other than yours, so your site is the exception to their habits, not the rule. Familiarity is a feature you get for free by following convention.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">Users spend most of their time on other sites, so they expect yours to work the same way. Break convention only where the payoff clearly outweighs the relearning cost.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-jakob-nielsen">Jakob Nielsen</a></div></div>
+      <div><div class="label">Source</div><div class="value">End of Web Design, Alertbox</div></div>
+      <div><div class="label">In practice</div><div class="value">Default to convention; innovate sparingly</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Law (full row) -->
+  <article class="card j1">
+    <div class="card-header">
+      <span class="tag">The law</span>
+      <span class="num">01 / 10</span>
+      <h3>The Law</h3>
+      <p class="desc">Users form their mental model of how an interface should work from every other interface they’ve used. The closer yours matches that accumulated expectation, the less they have to learn — and the more usable it feels.</p>
+    </div>
+    <div class="demo"><div class="jx split"><div class="site"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span><span class="nv"></span><span class="dot" style="width:10px;height:10px;margin-left:auto"></span></div><div class="hero"></div><span class="l w-80"></span><span class="l w-60"></span></div><div class="site"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span><span class="nv"></span><span class="dot" style="width:10px;height:10px;margin-left:auto"></span></div><div class="hero"></div><span class="l w-80"></span><span class="l w-60"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-jakob-nielsen">Jakob Nielsen</a> (2000)</div></div>
+      <div><div class="label">Core idea</div><div class="value">Expectations transfer between products</div></div>
+      <div><div class="label">Implication</div><div class="value">Follow established conventions</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a></div></div>
+  </article>
+
+  <!-- 2. Transfer of Expectations -->
+  <article class="card j2">
+    <div class="card-header">
+      <span class="tag">Mental transfer</span>
+      <span class="num">02 / 10</span>
+      <h3>Transfer of Expectations</h3>
+      <p class="desc">Every product a user has touched leaves a deposit of expectation. They arrive at yours already “knowing” where the cart, the search, and the menu should be — because a hundred other sites put them there.</p>
+    </div>
+    <div class="demo"><div class="jx" style="flex-direction:row;gap:14px;align-items:center"><div style="flex:1;display:flex;flex-direction:column;gap:8px;align-self:stretch;justify-content:center"><div class="site" style="flex:0 0 30%;opacity:0.5"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span></div></div><div class="site" style="flex:0 0 30%;opacity:0.7"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span></div></div></div><span style="flex:0 0 24px;height:3px;background:var(--il-accent);display:block;border-radius:1.5px"></span><div style="flex:1.2;align-self:stretch;display:flex"><div class="site"><div class="nav"><span class="logo fill-accent"></span><span class="nv"></span><span class="nv"></span><span class="nv"></span><span class="dot" style="width:10px;height:10px;margin-left:auto"></span></div><div class="hero"></div><span class="l w-80"></span><span class="l w-60"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Source</div><div class="value">Every product they’ve used</div></div>
+      <div><div class="label">Deposit</div><div class="value">Where things “should” be</div></div>
+      <div><div class="label">Benefit</div><div class="value">Zero learning curve</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+
+  <!-- 3. Conventions Are Powerful -->
+  <article class="card j3">
+    <div class="card-header">
+      <span class="tag">Convention</span>
+      <span class="num">03 / 10</span>
+      <h3>Conventions Are Powerful</h3>
+      <p class="desc">Logo top-left links home. Cart top-right. Primary nav across the top. Underlined blue text is a link. These aren’t laws of nature — they’re conventions so widely shared they may as well be.</p>
+    </div>
+    <div class="demo"><div class="jx"><div class="site"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span><span class="nv"></span><span class="dot" style="width:10px;height:10px;margin-left:auto;background:var(--il-accent);opacity:1"></span></div><div class="hero"></div><span class="l w-80"></span><span class="l w-60"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Examples</div><div class="value">Logo · Cart · Nav · Links</div></div>
+      <div><div class="label">Strength</div><div class="value">Near-universal across the web</div></div>
+      <div><div class="label">Cost to break</div><div class="value">User has to re-learn</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="doherty-threshold.html">Doherty Threshold</a></div></div>
+  </article>
+
+  <!-- 4. Don't Reinvent -->
+  <article class="card j4">
+    <div class="card-header">
+      <span class="tag">Reuse</span>
+      <span class="num">04 / 10</span>
+      <h3>Don’t Reinvent Standard Patterns</h3>
+      <p class="desc">A “creative” date picker, a novel scrollbar, a bespoke dropdown — these almost always cost more than they’re worth. Familiar controls work because users have thousands of reps with them already.</p>
+    </div>
+    <div class="demo"><div class="jx split" style="align-items:center"><div style="flex:1;display:flex;flex-direction:column;gap:8px"><div class="field"><i class="w-40"></i><span class="chev"></span></div><div class="row hot hpx-16"><i class="w-34"></i></div><div class="row hpx-16"><i class="w-28"></i></div></div><div style="flex:1;display:flex;align-items:center;justify-content:center"><span style="width:64px;height:64px;border-radius:50% 12px 50% 12px;background:var(--skel);opacity:0.18;display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Reuse</div><div class="value">Native controls · known patterns</div></div>
+      <div><div class="label">Test</div><div class="value">Does novelty add real value?</div></div>
+      <div><div class="label">Watch for</div><div class="value">Innovation theater</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="uncanny-valley.html">Uncanny Valley</a></div></div>
+  </article>
+
+  <!-- 5. The Mental Model -->
+  <article class="card j5">
+    <div class="card-header">
+      <span class="tag">Mental model</span>
+      <span class="num">05 / 10</span>
+      <h3>The Mental Model</h3>
+      <p class="desc">Users don’t read your UI fresh — they match it against an internal model built from experience. When your interface matches the model, it feels intuitive. When it conflicts, it feels broken.</p>
+    </div>
+    <div class="demo"><div class="jx" style="flex-direction:row;gap:16px;align-items:center;justify-content:center"><div class="grid" style="flex:0 1 38%;aspect-ratio:1;grid-template-columns:repeat(2,1fr)"><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile" style="background:rgba(56,189,248,0.2)"></span></div><div class="grid" style="flex:0 1 38%;aspect-ratio:1;grid-template-columns:repeat(2,1fr);opacity:0.5"><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile" style="background:rgba(56,189,248,0.35)"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Built from</div><div class="value">Prior experience</div></div>
+      <div><div class="label">Match</div><div class="value">Feels intuitive · invisible</div></div>
+      <div><div class="label">Conflict</div><div class="value">Feels broken · frustrating</div></div>
+    </div>
+  </article>
+
+  <!-- 6. When to Break -->
+  <article class="card j6">
+    <div class="card-header">
+      <span class="tag">Exception</span>
+      <span class="num">06 / 10</span>
+      <h3>When to Break Convention</h3>
+      <p class="desc">Convention isn’t a cage. Break it only when the gain clearly outweighs the cost of re-learning — and when your new pattern is so much better that it could become the next convention.</p>
+    </div>
+    <div class="demo"><div class="jx"><div class="grid"><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile" style="background:var(--il-accent)"></span><span class="tile"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Break when</div><div class="value">Gain ≫ re-learning cost</div></div>
+      <div><div class="label">Examples</div><div class="value">Pull-to-refresh · swipe gestures</div></div>
+      <div><div class="label">Risk</div><div class="value">Confusion · abandonment</div></div>
+    </div>
+  </article>
+
+  <!-- ====== AI DIVIDER ====== -->
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Jakob’s Law in the Age of AI</h3>
+    <p>AI is rewriting the conventions users carry with them. The reference point is shifting from “every website” to “every AI tool.”</p>
+  </div>
+
+  <!-- 7. AI: New Conventions -->
+  <article class="card j7">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">07 / 10</span>
+      <h3>Chat Is the New Convention</h3>
+      <p class="desc">ChatGPT trained hundreds of millions of people on a single pattern: a message box at the bottom, streaming responses above, a thumbs up/down. That’s now an expectation users bring to <em>every</em> AI feature.</p>
+    </div>
+    <div class="demo"><div class="jx gap-10"><div class="bub" style="width:64%;align-self:flex-end;background:rgba(56,189,248,0.15)"><span class="l" style="width:82%;background:var(--il-accent);opacity:1"></span></div><div class="bub w-74"><span class="l w-92"></span><span class="l w-70"></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Set by</div><div class="value">ChatGPT · Claude · Copilot</div></div>
+      <div><div class="label">Expectation</div><div class="value">Message box · streaming · feedback</div></div>
+      <div><div class="label">Implication</div><div class="value">Match the chat idiom users know</div></div>
+    </div>
+  </article>
+
+  <!-- 8. AI: Natural Language -->
+  <article class="card j8">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">08 / 10</span>
+      <h3>Natural Language as Default Input</h3>
+      <p class="desc">Users increasingly expect to <em>type what they want</em> instead of hunting through menus. The command palette and the AI prompt are converging — “tell me what you need” is becoming the new front door.</p>
+    </div>
+    <div class="demo"><div class="jx" style="gap:8px;justify-content:flex-start;padding-top:26px"><div class="chat-input"><span class="box"></span><span class="send"></span></div><div class="row"><i class="w-38"></i></div><div class="row"><i class="w-30"></i></div><div class="row"><i class="w-34"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Navigate → describe</div></div>
+      <div><div class="label">Converging</div><div class="value">⌘K palette + AI prompt</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding discoverability entirely</div></div>
+    </div>
+  </article>
+
+  <!-- 9. AI: Adaptive vs Consistency -->
+  <article class="card j9">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Adaptive UI vs. Consistency</h3>
+      <p class="desc">AI can generate a different interface for every user — the opposite of Jakob’s Law’s call for sameness. The tension is real: personalization boosts relevance but erodes the shared conventions users rely on.</p>
+    </div>
+    <div class="demo"><div class="jx split"><div class="site"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span></div><div class="hero"></div><span class="l w-78"></span></div><div class="site" style="background:rgba(56,189,248,0.12)"><span class="l" style="width:50%;background:var(--il-accent);opacity:1"></span><div style="display:flex;gap:6px;flex:1"><span class="tile" style="flex:1;border-radius:5px;background:rgba(56,189,248,0.25)"></span><span class="tile" style="flex:1;border-radius:5px;background:rgba(56,189,248,0.25)"></span></div><span class="l w-64"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Upside</div><div class="value">Relevance · less clutter</div></div>
+      <div><div class="label">Downside</div><div class="value">No shared mental model</div></div>
+      <div><div class="label">Balance</div><div class="value">Adapt content, keep the chrome stable</div></div>
+    </div>
+  </article>
+
+  <!-- 10. AI: The Convention Is Being Rewritten -->
+  <article class="card j10">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>The Convention Is Being Rewritten</h3>
+      <p class="desc">Jakob’s Law still holds — but the body of “other sites” it points to is changing fast. The safe baseline now includes AI affordances: a prompt box, streaming output, “regenerate,” cited sources, and an undo for anything the model touched.</p>
+    </div>
+    <div class="demo"><div class="jx" style="flex-direction:row;gap:14px;align-items:center"><div class="site" style="opacity:0.45;align-self:stretch"><div class="nav"><span class="logo"></span><span class="nv"></span><span class="nv"></span></div><div class="hero"></div><span class="l w-70"></span></div><span style="flex:0 0 24px;height:3px;background:var(--il-accent);display:block;border-radius:1.5px"></span><div style="flex:1;align-self:stretch;display:flex;flex-direction:column;gap:8px;justify-content:center"><div class="bub" style="width:80%;align-self:flex-end;background:rgba(56,189,248,0.15)"><span class="l" style="width:80%;background:var(--il-accent);opacity:1"></span></div><div class="bub w-90"><span class="l w-92"></span><span class="l w-64"></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Still true</div><div class="value">Match user expectations</div></div>
+      <div><div class="label">New baseline</div><div class="value">Prompt · stream · regenerate · cite</div></div>
+      <div><div class="label">Takeaway</div><div class="value">Re-check conventions every cycle</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="normans-principles.html">Norman’s Principles</a></div></div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/jakobs-law-internet-ux/" target="_blank" rel="noopener"><span class="title">Jakob’s Law of Internet UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/ai-paradigm/" target="_blank" rel="noopener"><span class="title">AI: First New UI Paradigm in 60 Years</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/generative-ui/" target="_blank" rel="noopener"><span class="title">Generative UI and Outcome-Oriented Design</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/jakobs-law/" target="_blank" rel="noopener"><span class="title">Jakob’s Law on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">AI Design Patterns</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.shapeof.ai/" target="_blank" rel="noopener"><span class="title">Shape of AI — emerging UX patterns</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.ibm.com/design/ai/" target="_blank" rel="noopener"><span class="title">IBM — Designing for AI</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Jakob’s Law</div>
+  <div class="meta-info">Nielsen, 2000 · revisited for the AI era</div>
+</footer>
+
+</body>
+</html>

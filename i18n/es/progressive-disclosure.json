@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Divulgación <em>progresiva</em>"
+ ],
+ "header .tagline": [
+  "Muestra lo que importa ahora. Revela el resto bajo demanda."
+ ],
+ "header .subtitle": [
+  "La divulgación progresiva relega las opciones avanzadas o poco usadas a una capa secundaria, manteniendo la primera pantalla centrada en lo que la mayoría de los usuarios necesita la mayor parte del tiempo. Es el compromiso funcional entre potencia y simplicidad."
+ ],
+ ".law-origin .body-text": [
+  "La técnica se estudió en IBM a principios de los años 80, donde la interfaz con «ruedas de aprendizaje» de <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a> redujo los errores de los novatos al ocultar las funciones avanzadas hasta que los usuarios estuvieran listos para ellas.",
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> dio nombre al patrón y lo popularizó para el diseño de interfaces, llamando a la divulgación progresiva una de las mejores maneras de satisfacer a la vez a usuarios novatos y expertos con una sola interfaz."
+ ],
+ ".law-content .law-desc": [
+  "Muestra a los usuarios solo lo que necesitan para la tarea actual y ofrece un camino claramente etiquetado hacia el resto. Las opciones primarias quedan inmediatas; las avanzadas, raras o peligrosas se sitúan a un paso deliberado — presentes, pero sin estorbar."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Jack Carroll (1983) · Jakob Nielsen",
+  "Estudios de training wheels, IBM",
+  "Lo primario ahora, el resto bajo demanda"
+ ],
+ ".card .tag": [
+  "El patrón",
+  "Selección",
+  "Mecánica",
+  "Secuencia",
+  "Fallo",
+  "Detalle",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Dos capas, una interfaz",
+  "Elegir el conjunto primario",
+  "Acordeones, paneles y «Avanzado»",
+  "Los asistentes son divulgación en el tiempo",
+  "No entierres lo esencial",
+  "Detalles bajo demanda",
+  "Primero la respuesta corta",
+  "Razonamiento bajo demanda"
+ ],
+ ".card .desc": [
+  "El movimiento central: un pequeño conjunto primario mostrado de inmediato y una puerta etiquetada hacia todo lo demás. Los novatos nunca se topan con la complejidad; los expertos la alcanzan en un clic. Ambos grupos usan el mismo producto.",
+  "El patrón vive o muere según lo que entra en la capa uno. Los datos de uso deciden: el puñado de opciones que cubre la gran mayoría de las tareas queda visible. Adivina mal y habrás enterrado el núcleo del producto.",
+  "Los controles de divulgación son una familia pequeña: el acordeón, el enlace «Mostrar avanzado», el menú de desbordamiento, el panel de detalles. Cada uno necesita una etiqueta honesta — los usuarios deben poder predecir qué hay detrás de la puerta antes de abrirla.",
+  "Un asistente de varios pasos divulga progresivamente en el tiempo en lugar de en el espacio: cada paso muestra la interfaz de una sola decisión. El formulario completo aterrorizaría; la secuencia se siente manejable.",
+  "El modo de fallo del patrón es ocultar de más: cuando una opción de uso frecuente cae en la capa dos, todos los usuarios pagan un clic para siempre, y los tickets de soporte dicen «¿dónde está X?». La frecuencia, no la complejidad, decide la ubicación.",
+  "Tooltips, popovers y filas expandibles divulgan profundidad en el sitio — el resumen sigue siendo escaneable mientras el detalle espera debajo. Aplica el mantra de Shneiderman: primero la vista general, detalles bajo demanda.",
+  "Una buena respuesta de un modelo es divulgación progresiva en prosa: la respuesta directa arriba, la derivación expandible debajo. Volcar todo el razonamiento sobre todos es el error del muro de formulario, reescrito en texto.",
+  "Las trazas de agentes, las llamadas a herramientas y la cadena de razonamiento pertenecen detrás de una divulgación: lo bastante visibles para auditar, lo bastante plegadas para no estorbar. La confianza necesita que la puerta exista; el flujo necesita que esté cerrada por defecto."
+ ],
+ ".meta .label": [
+  "Capa uno",
+  "Capa dos",
+  "Sirve a",
+  "Decidir por",
+  "Capa uno",
+  "Mala suposición",
+  "Familia",
+  "Etiquetas",
+  "Puertas misteriosas",
+  "Divulga",
+  "Cada paso",
+  "Mata",
+  "Modo de fallo",
+  "Ubicación según",
+  "Síntoma",
+  "En el sitio",
+  "Resumen",
+  "Mantra",
+  "Arriba",
+  "Expandible",
+  "Auditoría",
+  "Flujo"
+ ],
+ ".meta .value": [
+  "Lo que la mayoría necesita",
+  "A un paso etiquetado",
+  "Novato y experto",
+  "Uso, no opinión",
+  "Cubre la mayoría de tareas",
+  "Entierra el núcleo",
+  "Acordeón · panel · más",
+  "Predecir el contenido",
+  "Nunca se abren",
+  "A lo largo del tiempo",
+  "Una decisión",
+  "El muro de formulario",
+  "Ocultar de más",
+  "Frecuencia de uso",
+  "«¿Dónde está X?»",
+  "Tooltip · popover · fila",
+  "Sigue escaneable",
+  "Primero la vista general",
+  "La respuesta directa",
+  "El desarrollo",
+  "La puerta existe",
+  "Cerrada por defecto"
+ ],
+ ".ai-divider h3": [
+  "La divulgación progresiva en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las respuestas de chat y el razonamiento de los agentes son problemas de divulgación: primero la respuesta corta, el desarrollo para quien lo pida."
+ ]
+}

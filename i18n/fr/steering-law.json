@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "<em>Loi</em> du pilotage"
+ ],
+ "header .tagline": [
+  "Plus le chemin est étroit, plus le pilotage est lent."
+ ],
+ "header .subtitle": [
+  "Johnny Accot et Shumin Zhai ont étendu la loi de Fitts au déplacement le long d'un chemin contraint : le temps croît avec la longueur du tunnel et diminue avec sa largeur. Elle gouverne les menus imbriqués, les curseurs et chaque glisser."
+ ],
+ ".law-origin .body-text": [
+  "Johnny Accot et <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> ont dérivé la loi du pilotage en 1997 en étudiant la saisie chez IBM Almaden. Là où Fitts modélisait l'atteinte d'une cible, ils ont modélisé le parcours d'un chemin — et trouvé une élégante forme intégrale du même compromis.",
+  "Zhai a ensuite façonné la saisie de texte moderne chez Google, où son travail sous-tend la frappe gestuelle sur des milliards de claviers. La loi du pilotage reste l'un des rares modèles d'IHM assez précis pour prédire des temps d'interaction avant même qu'un prototype existe."
+ ],
+ ".law-content .law-desc": [
+  "Le temps nécessaire pour piloter un pointeur à travers un chemin contraint croît avec la longueur du chemin et inversement avec sa largeur. Divisez la largeur du tunnel par deux et le pilotage prend environ deux fois plus de temps — chaque couloir étroit d'une interface est une taxe sur la main."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-johnny-accot\">Accot</a> et <a href=\"people.html#p-shumin-zhai\">Zhai</a> (1997)",
+  "Beyond Fitts' Law — CHI '97",
+  "Élargir le chemin ou le raccourcir"
+ ],
+ ".card .tag": [
+  "Le tunnel",
+  "Menus",
+  "Largeur",
+  "Précision",
+  "Bords",
+  "Tactile",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "La longueur sur la largeur",
+  "La diagonale des menus imbriqués",
+  "Les chemins larges gagnent",
+  "Curseurs et contrôle fin",
+  "Des rails sur les bords",
+  "Les doigts pilotent mal",
+  "Le langage saute le tunnel",
+  "Les gestes redécouvrent la loi"
+ ],
+ ".card .desc": [
+  "Piloter un curseur le long d'un couloir est une visée continue : chaque pixel de trajet remet la largeur à l'épreuve. Long et étroit est lent et propice à l'erreur ; court et large est sans effort. L'intégrale est tout le brief de design.",
+  "Les sous-menus en cascade sont le piège de pilotage classique : déplacez-vous en diagonale vers le sous-menu et vous sortez du couloir de survol, ce qui le referme. Les bons menus ajoutent un triangle de tolérance ou un délai pour que le chemin diagonal survive.",
+  "Le correctif de pilotage le moins cher est la largeur : des lignes de menu plus hautes, des pistes de curseur plus épaisses, des poignées de glissement plus grandes. Doubler la largeur du couloir divise par deux le coût du pilotage pour chaque utilisateur, à chaque visite, pour toujours.",
+  "Un curseur est un tunnel unidimensionnel, et l'exigence de précision le rend étroit. Pour des valeurs exactes, associez le glissement à des boutons pas-à-pas ou à une saisie numérique directe — le pilotage sert aux réglages grossiers, la frappe aux réglages précis.",
+  "Les bords de l'écran sont des murs d'une profondeur infinie — un curseur lancé contre l'un d'eux reste dans le couloir quelle que soit la vitesse du mouvement. Barres de défilement, docks et poignées de panneau collés à un bord se pilotent tout seuls.",
+  "Le pilotage tactile est pire que celui à la souris : pas de survol, un contact large et imprécis, et un bras qui masque le chemin. En tactile, remplacez le pilotage par des touchers — contrôles par paliers, toucher-pour-placer et magnétisme généreux.",
+  "Dire « règle la luminosité à 70 » remplace une tâche de pilotage par une phrase. Là où la précision compte et où les chemins sont étroits, le prompt et la voix ne sont pas des gadgets — ils sont le chemin large que la loi réclamait.",
+  "Gestes dans l'air, pointeurs AR et interfaces au stylet réintroduisent le pilotage avec des mains moins stables et sans accoudoir. Les vieilles mathématiques s'appliquent toujours : chaque couloir gestuel doit être plus large que le tremblement auquel il doit survivre."
+ ],
+ ".meta .label": [
+  "Le temps croît avec",
+  "Diminue avec",
+  "Chaque pixel",
+  "Piège",
+  "Correctif",
+  "Ou",
+  "Correctif le moins cher",
+  "Largeur doublée",
+  "S'applique à",
+  "Curseur",
+  "Valeurs exactes",
+  "Jamais",
+  "Bords",
+  "Contrôles de bord",
+  "Voir aussi",
+  "Tactile",
+  "Préférer",
+  "Ajouter",
+  "Une phrase",
+  "Idéal pour",
+  "Nouvelles saisies",
+  "Couloir"
+ ],
+ ".meta .value": [
+  "La longueur",
+  "La largeur",
+  "Remet la visée à l'épreuve",
+  "La diagonale sort du couloir",
+  "Triangle de tolérance · délai",
+  "Clic pour ouvrir",
+  "L'élargir",
+  "Coût divisé par deux",
+  "Lignes · pistes · poignées",
+  "Réglage grossier",
+  "Taper ou incrémenter",
+  "Glissements au pixel près",
+  "Murs infinis",
+  "Se pilotent tout seuls",
+  "Les coins de Fitts",
+  "Pas de survol, pointeur large",
+  "Touchers plutôt que glissements",
+  "Magnétisme et paliers",
+  "Remplace le pilotage",
+  "Cibles précises et nommables",
+  "Vieilles mathématiques",
+  "Plus large que le tremblement"
+ ],
+ ".ai-divider h3": [
+  "La loi du pilotage à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "La saisie en langage saute complètement le tunnel — et les interfaces gestuelles le redécouvrent. La loi décide quelles interactions méritent de survivre."
+ ],
+ ".law-formula-note": [
+  "le temps de pilotage intègre la longueur du chemin sur sa largeur."
+ ]
+}

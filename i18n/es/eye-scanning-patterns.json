@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "Patrones de escaneo visual"
+ ],
+ "header .tagline": [
+  "Cómo leen <em>realmente</em> tu interfaz los usuarios"
+ ],
+ "header .subtitle": [
+  "Décadas de investigación con eye-tracking muestran que la gente no lee las interfaces — las escanea en formas predecibles. Aquí están los seis patrones y dónde aparece cada uno."
+ ],
+ ".law-origin .body-text": [
+  "Los patrones de escaneo visual provienen de dos décadas de investigación con eye-tracking de Nielsen Norman Group, la consultora fundada por <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> y <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> en 1998. Su estudio del patrón F de 2006, basado en grabaciones de cientos de usuarios leyendo miles de páginas, se convirtió en uno de los hallazgos más citados de la usabilidad web.",
+  "Los estudios posteriores ampliaron el cuadro: la forma de F es el recurso al que la gente recurre cuando una página no le ofrece una estructura mejor. Los encabezados fuertes, el texto con lo importante al principio y una jerarquía visual clara reemplazan el escaneo perezoso por una lectura con propósito."
+ ],
+ ".law-content .law-desc": [
+  "La gente rara vez lee las interfaces palabra por palabra. Las escanea en formas predecibles — F, Z, pastel de capas, salteado — determinadas por la estructura de la página y su objetivo. Diseña para el escaneo, no para la lectura."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "El equipo de eye-tracking de Jakob Nielsen",
+  "F-Shaped Pattern for Reading Web Content",
+  "Pon encabezados y palabras clave al principio"
+ ],
+ ".card .tag": [
+  "Páginas con mucho texto",
+  "Diseños dispersos",
+  "Scroll continuo",
+  "Escaneo dirigido",
+  "Guiado por jerarquía",
+  "Contenido repetitivo",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Patrón F",
+  "Patrón Z",
+  "Patrón de marcado",
+  "Patrón salteado",
+  "Patrón de pastel de capas",
+  "Patrón de omisión",
+  "Los resúmenes de IA cortocircuitan el escaneo",
+  "Escanear en busca de citas"
+ ],
+ ".card .desc": [
+  "Los usuarios leen la parte superior de la página de lado a lado, bajan un poco y escanean parte de la siguiente línea, y luego arrastran la mirada por el borde izquierdo — describiendo la forma de una F. Domina en páginas con mucho texto y jerarquía visual débil.",
+  "Los ojos recorren la parte superior, bajan en diagonal hacia la esquina inferior izquierda y cruzan por abajo — trazando una Z. Común en páginas dispersas con pocos elementos focales y un llamado a la acción claro.",
+  "La mirada del lector se queda pegada a una banda vertical mientras hace scroll — típicamente la columna central. Común en móvil y durante la lectura con scroll continuo, donde el cursor o el pulgar guían al ojo.",
+  "Los usuarios se saltan grandes secciones de contenido y aterrizan en puntos visualmente distintos — botones, precios, números o negritas — como quien encuentra islas de significado en un mar de texto.",
+  "Los ojos se deslizan de encabezado en encabezado página abajo, saltándose el cuerpo de texto por completo — y solo se sumergen cuando un encabezado promete algo relevante. La jerarquía carga con toda la experiencia.",
+  "Cuando las líneas comparten aperturas repetidas — «Paso 1:», «Nota:» o la misma palabra inicial en cada fila de una tabla — los lectores se saltan el prefijo por completo y van directo al contenido único. Es el patrón dominante al escanear tablas y listas de información estructurada, donde el ojo omite el texto redundante columna abajo.",
+  "Cuando una respuesta generada se sitúa encima de la página, los usuarios la leen en lugar de escanear lo que hay debajo. Los patrones F y Z colapsan en «leer la respuesta, quizá echar un vistazo abajo».",
+  "En una respuesta de IA el nuevo objetivo de fijación es la cita. Los usuarios pasan de largo la prosa para encontrar — y hacer clic en — la fuente que respalda la afirmación antes de confiar en ella."
+ ],
+ ".meta .label": [
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Efecto",
+  "Cuidado con",
+  "Diseñar para",
+  "Nuevo objetivo",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Lectores que hojean texto denso",
+  "Artículos · resultados de búsqueda · texto largo",
+  "Lo clave al principio; subtítulos en negrita",
+  "Visitantes que buscan un CTA",
+  "Landing pages · portadas de marketing",
+  "CTA en las esquinas terminales",
+  "Usuarios de móvil / scroll",
+  "Artículos largos · feeds móviles",
+  "Lo crítico alineado al centro",
+  "Buscadores orientados a objetivos",
+  "Resultados de búsqueda · fichas de producto",
+  "Objetivos visualmente distintos",
+  "Lectores decididos y con prisa",
+  "Documentos estructurados · páginas largas",
+  "Encabezados autodescriptivos",
+  "Lectores de procedimientos / instrucciones",
+  "Tablas · listas · tutoriales · guías por pasos",
+  "Varía las aperturas; empieza por lo único",
+  "El escaneo cede paso a la lectura",
+  "Respuesta errónea, página ignorada",
+  "Una respuesta fiable y hojeable",
+  "Enlaces a fuentes · citas",
+  "Las respuestas afirman hechos",
+  "Texto seguro e inverificable"
+ ],
+ ".meta-cell .label": [
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación",
+  "Audiencia",
+  "Contexto",
+  "Implicación"
+ ],
+ ".meta-cell .value": [
+  "Lectores que hojean texto denso",
+  "Artículos · resultados de búsqueda · texto largo",
+  "Lo clave al principio; subtítulos en negrita",
+  "Visitantes que buscan un CTA",
+  "Landing pages · portadas de marketing",
+  "CTA en las esquinas terminales",
+  "Usuarios de móvil / scroll",
+  "Artículos largos · feeds móviles",
+  "Lo crítico alineado al centro",
+  "Buscadores orientados a objetivos",
+  "Resultados de búsqueda · fichas de producto",
+  "Objetivos visualmente distintos",
+  "Lectores decididos y con prisa",
+  "Documentos estructurados · páginas largas",
+  "Encabezados autodescriptivos",
+  "Lectores de procedimientos / instrucciones",
+  "Tablas · listas · tutoriales · guías por pasos",
+  "Varía las aperturas; empieza por lo único"
+ ],
+ ".ai-divider h3": [
+  "El escaneo visual en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Cuando una respuesta de IA se sitúa en lo alto de la página, los patrones clásicos de escaneo ceden paso a leer la respuesta — y verificar sus fuentes."
+ ]
+}

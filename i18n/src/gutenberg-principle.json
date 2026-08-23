@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Gutenberg <em>Principle</em>"
+ ],
+ "header .tagline": [
+  "From <em>top-left</em> to <em>bottom-right</em>."
+ ],
+ "header .subtitle": [
+  "On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Edmund_C._Arnold\" target=\"_blank\" rel=\"noopener\">Edmund C. Arnold</a> was an American newspaper designer and journalism professor, often called the father of modern newspaper design. Over a career spanning Syracuse and Virginia Commonwealth universities he redesigned hundreds of papers and wrote more than two dozen books on publication layout.",
+  "The diagram is named for <a href=\"https://en.wikipedia.org/wiki/Johannes_Gutenberg\" target=\"_blank\" rel=\"noopener\">Johannes Gutenberg</a> only by association with print; it was Arnold who described reading gravity — the habitual top-left to bottom-right sweep trained by Western text — and turned it into a practical layout tool."
+ ],
+ ".law-content .law-desc": [
+  "On evenly weighted pages, the eye sweeps from the primary optical area at top-left to the terminal area at bottom-right, giving the two fallow corners far less attention. Put openings top-left and calls to action bottom-right."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edmund-c-arnold\">Edmund C. Arnold</a>",
+  "Newspaper layout practice and teaching",
+  "CTA bottom-right, brand top-left"
+ ],
+ ".card .tag": [
+  "Quadrant 1",
+  "Quadrant 2",
+  "Quadrant 3",
+  "Quadrant 4",
+  "Gravity",
+  "Axis",
+  "Applies",
+  "Override",
+  "Layout",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Primary Optical Area",
+  "Strong Fallow Area",
+  "Weak Fallow Area",
+  "Terminal Area",
+  "Reading Gravity",
+  "Axis of Orientation",
+  "When It Applies",
+  "When It Doesn’t",
+  "Practical Applications",
+  "Chat Has No Quadrants",
+  "The Answer Replaces the Layout"
+ ],
+ ".card .desc": [
+  "The top-left quadrant — where the eye lands first when no other visual cue grabs it. In Western reading cultures, this is where headlines, logos, and identifying brand marks belong by default.",
+  "The top-right quadrant receives meaningful but reduced attention. Content here is glanced at, not read. A common spot for navigation, search, or supporting hero imagery.",
+  "The bottom-left quadrant gets the least attention of all four. The eye sweeps past it on the way down and to the right — for many users, content placed here may as well not exist.",
+  "The bottom-right quadrant is where the eye rests after sweeping across the page. It’s the natural place for a call to action — the eye literally ends up here, ready for the next step.",
+  "The diagonal pull from Primary to Terminal. Reading gravity is the default — what happens when no other visual hierarchy interrupts the sweep. Reinforce it with content that supports the journey.",
+  "The perpendicular line, from top-right to bottom-left, is the axis the eye actively resists. Crossing it costs effort — which is why content placed in the fallow corners gets so little attention.",
+  "The Gutenberg Principle describes a default reading pattern — what happens with evenly distributed, visually homogeneous content. Newspaper-style layouts, prose-heavy pages, dense documents.",
+  "Any strong visual element overrides reading gravity. F-pattern or Z-pattern emerge in their place. Most modern web pages — with images, buttons, and varied type — break Gutenberg entirely.",
+  "Where the diagram still applies: editorial layouts, newsletters, dense article pages, terms of service, and any composition that needs to feel formal and traditional. Put the byline top-left, the CTA bottom-right, and let gravity do the rest.",
+  "A conversation is a single vertical column with no Primary or Terminal zones. Reading gravity flattens into a simple top-to-bottom stream of turns.",
+  "When AI returns the answer directly, there’s often no page to lay out at all. The four-quadrant diagram gives way to a single, generated response block."
+ ],
+ ".meta .label": [
+  "Place here",
+  "Why",
+  "Watch for",
+  "Place here",
+  "Reads as",
+  "Watch for",
+  "Avoid here",
+  "OK here",
+  "Watch for",
+  "Place here",
+  "Why",
+  "Watch for",
+  "Direction",
+  "Reinforce with",
+  "Watch for",
+  "Direction",
+  "Effect",
+  "Use case",
+  "Best for",
+  "Condition",
+  "Cultural",
+  "Breaks when",
+  "Replaced by",
+  "Verdict",
+  "Best for",
+  "Logo",
+  "CTA",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Logo · Headline · Brand",
+  "First place the eye looks",
+  "RTL languages flip this",
+  "Nav · Secondary actions · Image",
+  "Glance, not focus",
+  "Hiding critical content here",
+  "CTAs · Key headlines · Pricing",
+  "Footer · Boilerplate · Legal",
+  "Anything users must see",
+  "Primary CTA · Sign-up · Buy",
+  "Natural endpoint of the sweep",
+  "Burying CTA somewhere else",
+  "Top-left → bottom-right",
+  "Aligned content along the line",
+  "Competing diagonals",
+  "Top-right → bottom-left",
+  "Eye resists this crossing",
+  "Hide secondary info on this line",
+  "Print · Long prose · Documents",
+  "Homogeneous content",
+  "Western LTR reading",
+  "Images · CTAs · Type contrast",
+  "F-pattern · Z-pattern · spotted",
+  "Rare in modern UI",
+  "Editorial · Newsletters · Print",
+  "Top-left (Primary)",
+  "Bottom-right (Terminal)",
+  "Quadrants → stream",
+  "Linear conversation UI",
+  "Losing the CTA position",
+  "Layout → answer",
+  "Direct-answer interfaces",
+  "No room to scan or compare"
+ ],
+ ".ai-divider h3": [
+  "Gutenberg in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "A conversation has no quadrants — when the answer is returned directly, the four-zone reading model gives way to a single vertical stream."
+ ]
+}

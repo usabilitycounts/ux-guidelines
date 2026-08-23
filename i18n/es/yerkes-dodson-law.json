@@ -1,0 +1,110 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Yerkes-Dodson"
+ ],
+ "header .tagline": [
+  "El rendimiento sube con la activación — hasta un punto — y luego <em>cae</em>."
+ ],
+ "header .subtitle": [
+  "El hallazgo de Robert Yerkes y John Dodson (1908): el rendimiento en una tarea mejora con un nivel moderado de estrés o estimulación, pero solo hasta un punto. Pasado ese punto, cae. La forma es una U invertida — y las tareas complejas tienen un óptimo más estrecho que las simples."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> y <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> fueron psicólogos estadounidenses cuyos experimentos de 1908 demostraron que el rendimiento sube con la activación solo hasta un punto — más allá, la presión lo degrada. Su curva en U invertida lleva sus nombres.",
+  "Sus experimentos originales de 1908 usaron ratones, laberintos y descargas leves; la elegante curva en U invertida que hoy imprimen los libros de texto fue en gran parte una simplificación posterior. Yerkes pasó a desarrollar los tests de inteligencia Army Alpha en la Primera Guerra Mundial y a fundar el laboratorio de primates de Yale."
+ ],
+ ".law-content .law-desc": [
+  "Algo de presión es buena. Con demasiado poca, el usuario se aburre, se dispersa, se le escapan cosas. Con demasiada, se paraliza, pulsa el botón equivocado, abandona el flujo. El pico está en el medio — y dónde se sitúa depende de la tarea."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Robert Yerkes y John Dodson (1908)",
+  "Experimentos de psicología comparada",
+  "Mantener la presión moderada"
+ ],
+ ".card .tag": [
+  "La curva",
+  "Lado bajo",
+  "Lado alto",
+  "Modulador",
+  "Flujo",
+  "Diseño",
+  "Diseño",
+  "Cuidado con",
+  "✦ Era IA",
+  "✦ Era IA"
+ ],
+ ".card h3": [
+  "La U invertida",
+  "La subestimulación apaga la atención",
+  "La sobreestimulación colapsa el rendimiento",
+  "Las tareas complejas tienen picos más estrechos",
+  "El flow es el punto óptimo",
+  "Interfaz calmada para tareas difíciles",
+  "Energía para tareas fáciles",
+  "Evita la urgencia sintética",
+  "La IA puede leer la curva",
+  "O la IA puede empujarte fuera de ella"
+ ],
+ ".card .desc": [
+  "El rendimiento en una tarea es máximo con un nivel moderado de activación. Por debajo, la atención se desvanece; por encima, la atención se estrecha demasiado y falla. La curva se observó por primera vez en ratones recorriendo laberintos; un siglo después aparece en los laboratorios de pruebas con usuarios con la misma nitidez que entonces.",
+  "En la parte inferior izquierda de la curva: el usuario está aburrido o poco implicado. Páginas de aprobación, interacciones que se repiten por quinta vez este mes, pantallas tras una larga reproducción automática. El rendimiento cae porque cae la atención. La solución no es más fricción — es una razón activa para estar presente.",
+  "En la parte superior derecha: estrés, urgencia, presión de plazos. El usuario se paraliza, pulsa mal, toma el camino visible aunque sea el equivocado. Los mensajes de error bancarios, los cambios de reserva en pleno vuelo, el «su tarjeta ha sido rechazada» — todos viven aquí. La solución es bajar lo que está en juego, no añadir más diálogos.",
+  "Una segunda idea de Yerkes-Dodson: el óptimo se desplaza a la izquierda en las tareas más difíciles. Una tarea simple — un clic, un número — tolera bien la presión. Una compleja — revisar un documento, rellenar 30 campos — necesita menos activación para hacerse bien. Sube la urgencia en la tarea difícil y es donde antes pierdes al usuario.",
+  "El estado de flow de Csíkszentmihályi es la formulación moderna del pico de Yerkes-Dodson. El desafío está justo por encima de la habilidad del usuario, la retroalimentación es inmediata, los objetivos son claros — y el usuario desaparece dentro de la tarea. Diseñar para el flow es diseñar para la cima de la curva.",
+  "Cuando la tarea es compleja — revisión anual, declaración de impuestos, auditoría de código — la interfaz debe sentirse calmada. Mucho espacio en blanco, progreso claro, sin animaciones persiguiendo el cursor. Empujar al usuario hacia arriba en la curva de activación cuando ya va cargado lo manda más allá del pico. Las hojas de cálculo y los IDE lo entienden por intuición; la mayoría de las apps de consumo, no.",
+  "La otra cara. Cuando la tarea es trivial — un toque, un deslizamiento — un poco de activación extra ayuda. Una vibración en un me gusta, un chasquido satisfactorio en un swipe, una pequeña celebración en un registro. La tarea simple puede ir más arriba en la curva, y la estimulación extra se devuelve en implicación.",
+  "Cuentas atrás, «solo quedan 2», diálogos de decisión forzada — todo empuja al usuario hacia arriba en la curva de formas que dañan las decisiones complejas. Se sienten como motivación; funcionan como sobrecarga. Si te sorprendes añadiendo presión a una tarea difícil, la respuesta correcta casi siempre es facilitar la tarea, no subir el estrés.",
+  "Los modelos pueden detectar la sobrecarga en tiempo real — pausas largas, ediciones repetidas, pestañas abandonadas — y responder. Quitar un paso, mostrar un atajo, ofrecerse a tomar el relevo. El pico de Yerkes-Dodson se vuelve adaptativo: el propio producto desliza al usuario de vuelta hacia él, en lugar de dejarlo atascado en el lado equivocado.",
+  "El mismo canal funciona a la inversa. Un modelo que muestra un aluvión de sugerencias, interrumpe cada pocos segundos o genera disparates plausibles que exigen revisión puede llevar al usuario más allá del pico a toda velocidad. La IA tiende por defecto a la activación — siempre hay una sugerencia más. La disciplina es dejar en paz al usuario cuando está fluyendo."
+ ],
+ ".meta .label": [
+  "Síntomas",
+  "Solución",
+  "Síntomas",
+  "Solución",
+  "Tarea simple",
+  "Tarea compleja",
+  "Acuñado por",
+  "Receta",
+  "Para tareas complejas",
+  "Tácticas",
+  "Para tareas simples",
+  "Tácticas",
+  "Patrón",
+  "Solución",
+  "Señal",
+  "Respuesta",
+  "Predeterminado",
+  "Disciplina"
+ ],
+ ".meta .value": [
+  "Saltar · pasar de largo",
+  "Una razón para estar presente",
+  "Parálisis · clic erróneo · abandono",
+  "Bajar lo que está en juego",
+  "Tolera la presión",
+  "Necesita menos activación",
+  "Csíkszentmihályi, 1975",
+  "Justo por encima de la habilidad",
+  "Bajar la activación",
+  "Espacio en blanco · ritmo estable",
+  "Un poco de estimulación",
+  "Háptica · sonido · microanimación",
+  "Urgencia fabricada",
+  "Facilitar la tarea",
+  "Pausas · repeticiones · abandonos",
+  "Bajar la activación",
+  "Sugerir, sugerir, sugerir",
+  "Dejar el flow en paz"
+ ],
+ ".ai-divider h3": [
+  "Yerkes-Dodson en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede leer en qué punto de la curva está un usuario — y bajar la activación exactamente en el momento adecuado, o no hacerlo."
+ ]
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" data-page="fogg">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="BJ Fogg&#x27;s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn&#x27;t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method.">
+<title>Fogg Behavior Model: Motivation, Ability, and Prompts — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/fogg-behavior-model.html">
+<meta property="og:title" content="Fogg Behavior Model: Motivation, Ability, and Prompts — UX Guidelines">
+<meta property="og:description" content="BJ Fogg&#x27;s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn&#x27;t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/fogg-behavior-model.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Fogg Behavior Model: Motivation, Ability, and Prompts — UX Guidelines">
+<meta name="twitter:description" content="BJ Fogg&#x27;s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn&#x27;t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --fg1: #6b6b6b;
+    --fg2: #6b6b6b;
+    --fg3: #6b6b6b;
+    --fg4: #6b6b6b;
+    --fg5: #6b6b6b;
+    --fg6: #6b6b6b;
+    --fg7: #6b6b6b;
+    --fg8: #6b6b6b;
+    --fg9: #6b6b6b;
+    --fg10: #6b6b6b;
+    --ai: #0d9488;
+  }
+
+  /* Featured "The Model" block */
+  .law-feature .formula-box .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-feature); color: var(--text-primary); font-weight: 500; line-height: var(--lh-heading); text-align: center; }
+  .law-feature .formula-box .formula .sub { display: block; font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-top: 16px; font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif; line-height: var(--lh-tight); }
+
+  /* Card grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+
+  
+
+  /* Fogg illustrations */
+  .fg { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .fg .bars { display: flex; align-items: flex-end; gap: 8px; height: 100%; }
+  .fg .bars i { flex: 1; border-radius: 5px 5px 0 0; background: var(--skel); opacity: 0.4; display: block; }
+  .fg .bars i.hot { background: var(--il-accent); opacity: 1; }
+  .fg .meter { height: 14px; border-radius: 7px; background: var(--surface); overflow: hidden; }
+  .fg .meter i { display: block; height: 100%; border-radius: 7px; background: var(--skel); opacity: 0.5; }
+  .fg .meter.hot i { background: var(--il-accent); opacity: 1; }
+  .fg .toast { height: 28px; border-radius: 8px; background: var(--surface); display: flex; align-items: center; gap: 8px; padding: 0 10px; }
+  .fg .toast i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .fg .toast .ic { width: 12px; height: 12px; border-radius: 50%; background: var(--skel); opacity: 0.6; flex: none; }
+  .fg .toast.hot { background: rgba(56,189,248,0.15); }
+  .fg .toast.hot .ic { background: var(--il-accent); opacity: 1; }
+  .fg .toast.hot i { background: var(--il-accent); opacity: 1; }
+  .fg .toast.faint { opacity: 0.45; }
+  .fg .ln { display: block; height: 8px; border-radius: 4px; background: var(--skel); opacity: 0.4; }
+  .fg .ln.faint { opacity: 0.25; }
+  .fg .plot { position: relative; flex: 1; background: var(--surface); border-radius: 10px; }
+  .fg .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .fg .plot .pt { position: absolute; width: 14px; height: 14px; border-radius: 50%; transform: translate(-50%, -50%); }
+  .fg .plot .pt.hot { background: var(--il-accent); }
+  .fg .plot .pt.cold { background: var(--skel); opacity: 0.6; }
+  .fg .facts { display: flex; align-items: center; gap: 10px; }
+  .fg .fact { flex: 1; aspect-ratio: 1; border-radius: 10px; background: rgba(56,189,248,0.35); }
+  .fg .fact.zero { background: var(--skel); opacity: 0.12; }
+  .fg .op { font-size: 1.125rem; color: var(--text-faint); flex: none; }
+  .fg .result { height: 16px; border-radius: 8px; background: var(--skel); opacity: 0.12; }
+  .fg .steprow { display: flex; align-items: center; gap: 8px; }
+  .fg .steprow .seg { height: 22px; border-radius: 6px; background: var(--surface); }
+  .fg .steprow .seg.new { background: rgba(56,189,248,0.2); }
+  .fg .steprow .spark { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .fg .field { height: 26px; border-radius: 8px; background: #fff; box-shadow: inset 0 0 0 1.5px rgba(0,0,0,0.14); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .fg .field i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .fg .field .chk { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .fg .split2 { display: flex; gap: 16px; flex: 1; min-height: 0; }
+  .fg .split2 .col { flex: 1; display: flex; flex-direction: column; gap: 6px; justify-content: center; }
+  .fg .block { flex: 1; border-radius: 10px; background: rgba(56,189,248,0.15); min-height: 0; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link active">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Fogg Behavior <em>Model</em></h1>
+  <p class="tagline">Behavior happens when three things converge at <em>the same moment</em>.</p>
+  <p class="subtitle">BJ Fogg’s 2009 model says a behavior occurs only when Motivation, Ability, and a Prompt land together. Take any one away and the action doesn’t happen — even if the other two are maxed out. The model is the foundation of behavior design, persuasive technology, and the Tiny Habits method.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">B = M · A · P</div>
+    <div class="law-formula-note">behavior happens when motivation, ability, and a prompt occur together.</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/B._J._Fogg" target="_blank" rel="noopener">BJ Fogg</a> is a behavior scientist at Stanford University, where he founded the Behavior Design Lab. His 2009 Behavior Model — behavior happens when motivation, ability, and a prompt converge — became a cornerstone of persuasive technology.</p>
+    <p class="body-text">Fogg coined the term ‘captology’ — the study of computers as persuasive technologies — in the 1990s, long before growth teams existed. His students at Stanford included the co-founder of Instagram; his later book Tiny Habits turned the model inward, toward personal behavior change.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Model</div>
+    <p class="body-text law-desc">A behavior occurs when Motivation, Ability, and a Prompt converge at the same moment. The three are multiplicative — drop any one to zero and the product is zero, no matter how high the others are.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-bj-fogg">BJ Fogg</a> (2009)</div></div>
+      <div><div class="label">Source</div><div class="value">Stanford Behavior Design Lab</div></div>
+      <div><div class="label">In practice</div><div class="value">Pair prompts with easy actions</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <!-- 1. Motivation -->
+  <article class="card fg1">
+    <div class="card-header">
+      <span class="tag">M · The drive</span>
+      <h3>Motivation</h3>
+      <p class="desc">Why the person would act at all. Fogg groups motivators into three pairs — pleasure / pain, hope / fear, social acceptance / rejection. Motivation fluctuates wildly through the day, which makes it the least reliable lever to lean on.</p>
+    </div>
+    <div class="demo"><div class="fg"><div class="bars">
+  <i style="height:34%"></i><i style="height:58%"></i><i style="height:42%"></i><i class="hot" style="height:88%"></i>
+  <i style="height:52%"></i><i style="height:28%"></i><i style="height:64%"></i><i style="height:38%"></i>
+</div></div></div>
+    <div class="meta">
+      <div><div class="label">Includes</div><div class="value">Pleasure · hope · acceptance</div></div>
+      <div><div class="label">Behaves</div><div class="value">Fluctuates · unreliable</div></div>
+      <div><div class="label">Apply</div><div class="value">Don’t depend on it alone</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hook-model.html">Hook Model</a></div></div>
+  </article>
+
+  <!-- 2. Ability -->
+  <article class="card fg2">
+    <div class="card-header">
+      <span class="tag">A · The ease</span>
+      <h3>Ability</h3>
+      <p class="desc">How easy the behavior is right now. Fogg names six dimensions of simplicity: time, money, physical effort, brain cycles, social deviance, and non-routine. The scarcest one wins. Reducing friction along that dimension is almost always cheaper than boosting motivation.</p>
+    </div>
+    <div class="demo"><div class="fg gap-9">
+  <div class="meter"><i class="w-86"></i></div>
+  <div class="meter"><i class="w-70"></i></div>
+  <div class="meter hot"><i class="w-24"></i></div>
+  <div class="meter"><i class="w-78"></i></div>
+  <div class="meter"><i class="w-62"></i></div>
+  <div class="meter"><i class="w-90"></i></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Dimensions</div><div class="value">Time · money · effort · brain · social · routine</div></div>
+      <div><div class="label">Rule</div><div class="value">Scarcest wins</div></div>
+      <div><div class="label">Apply</div><div class="value">Cheaper than motivation</div></div>
+    </div>
+  </article>
+
+  <!-- 3. Prompt -->
+  <article class="card fg3">
+    <div class="card-header">
+      <span class="tag">P · The trigger</span>
+      <h3>Prompts</h3>
+      <p class="desc">The signal that says “do it now.” Without a prompt, behavior doesn’t fire — even when motivation and ability are both high. Fogg distinguishes three kinds: a spark (boosts motivation), a facilitator (makes it easier), and a signal (just a reminder, for people already willing and able).</p>
+    </div>
+    <div class="demo"><div class="fg" style="justify-content:flex-start;gap:10px">
+  <div class="toast hot"><span class="ic"></span><i class="w-52"></i></div>
+  <div class="ln w-70"></div>
+  <div class="ln faint w-92"></div>
+  <div class="ln faint w-84"></div>
+  <div class="ln faint w-88"></div>
+  <div class="ln faint w-60"></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Spark</div><div class="value">For low motivation</div></div>
+      <div><div class="label">Facilitator</div><div class="value">For low ability</div></div>
+      <div><div class="label">Signal</div><div class="value">For ready-to-act</div></div>
+    </div>
+  </article>
+
+  <!-- 4. The Action Line -->
+  <article class="card fg4">
+    <div class="card-header">
+      <span class="tag">The threshold</span>
+      <h3>The Action Line</h3>
+      <p class="desc">Plot motivation against ability and a curved threshold separates “will act” from “won’t.” Above the line, a prompt fires the behavior; below it, no prompt is enough. Low motivation can be compensated by very high ability, and vice versa — but only along the curve.</p>
+    </div>
+    <div class="demo"><div class="fg"><div class="plot">
+  <svg viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M10,14 C 30,20 40,48 92,84" fill="none" stroke="var(--il-accent)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg>
+  <span class="pt hot" style="left:72%;top:32%"></span>
+  <span class="pt cold" style="left:32%;top:76%"></span>
+</div></div></div>
+    <div class="meta">
+      <div><div class="label">Above</div><div class="value">Prompt fires action</div></div>
+      <div><div class="label">Below</div><div class="value">No prompt is enough</div></div>
+      <div><div class="label">Trade-off</div><div class="value">M and A swap along curve</div></div>
+    </div>
+  </article>
+
+  <!-- 5. Multiplicative -->
+  <article class="card fg5">
+    <div class="card-header">
+      <span class="tag">The math</span>
+      <h3>Three Factors, Multiplied</h3>
+      <p class="desc">The “MAP” is multiplication, not addition. If any factor is zero — no motivation, no ability, or no prompt — the product is zero, and nothing happens. That’s why a perfect prompt on a tired user falls flat, and why a motivated user with no prompt never starts.</p>
+    </div>
+    <div class="demo"><div class="fg gap-14">
+  <div class="facts"><span class="fact"></span><span class="op">×</span><span class="fact zero"></span><span class="op">×</span><span class="fact"></span></div>
+  <div class="result"></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Math</div><div class="value">Multiplicative, not additive</div></div>
+      <div><div class="label">Zero in</div><div class="value">Zero out</div></div>
+      <div><div class="label">Watch for</div><div class="value">Missing prompt = silence</div></div>
+    </div>
+  </article>
+
+  <!-- 6. Make it tiny -->
+  <article class="card fg6">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <h3>Make the Behavior Tiny</h3>
+      <p class="desc">Fogg’s most practical takeaway: when motivation is unreliable, increase ability instead — shrink the behavior until almost anyone can do it on a bad day. “Floss one tooth” becomes the entry point to flossing. Tiny Habits is the whole methodology built around this single insight.</p>
+    </div>
+    <div class="demo"><div class="fg" style="gap:9px;align-items:flex-start">
+  <div class="ln" style="width:100%;height:20px;border-radius:6px"></div>
+  <div class="ln" style="width:64%;height:20px;border-radius:6px"></div>
+  <div class="ln" style="width:36%;height:20px;border-radius:6px"></div>
+  <div style="width:14%;height:20px;border-radius:6px;background:var(--il-accent)"></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Lever</div><div class="value">Boost ability, not motivation</div></div>
+      <div><div class="label">Tactic</div><div class="value">Shrink the ask</div></div>
+      <div><div class="label">Built on this</div><div class="value">Tiny Habits method</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Anchor + Celebrate -->
+  <article class="card fg7">
+    <div class="card-header">
+      <span class="tag">Tiny Habits</span>
+      <h3>Anchor It · Celebrate It</h3>
+      <p class="desc">Two more pieces from Fogg’s Tiny Habits: attach the new behavior to an existing routine (the anchor — “after I brush my teeth, I’ll…”) and immediately mark it with a small positive feeling (“Yes!”). The anchor handles the prompt; the celebration wires it in.</p>
+    </div>
+    <div class="demo"><div class="fg gap-12">
+  <div class="steprow"><span class="seg" style="flex:3"></span></div>
+  <div class="steprow"><span class="seg" style="flex:3"></span><span class="seg new flex-1"></span><span class="spark"></span></div>
+  <div class="steprow" style="opacity:0.5"><span class="seg" style="flex:3"></span></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Anchor</div><div class="value">Existing routine</div></div>
+      <div><div class="label">Behavior</div><div class="value">Make it tiny</div></div>
+      <div><div class="label">Celebrate</div><div class="value">Immediate and positive</div></div>
+    </div>
+  </article>
+
+  <!-- 8. Notifications -->
+  <article class="card fg8">
+    <div class="card-header">
+      <span class="tag">Applied</span>
+      <h3>Notifications as Prompts</h3>
+      <p class="desc">A product’s notifications are its prompts. Send too many to people without motivation and you train them to ignore. Send a well-timed signal to a user who’s already ready and able, and you get the action. Timing &gt; volume.</p>
+    </div>
+    <div class="demo"><div class="fg gap-8">
+  <div class="toast faint"><span class="ic"></span><i class="w-40"></i></div>
+  <div class="toast faint"><span class="ic"></span><i class="w-56"></i></div>
+  <div class="toast hot"><span class="ic"></span><i class="w-48"></i></div>
+  <div class="toast faint"><span class="ic"></span><i class="w-34"></i></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Prompts are</div><div class="value">Notifications · emails · CTAs</div></div>
+      <div><div class="label">Wrong moment</div><div class="value">Trains ignoring</div></div>
+      <div><div class="label">Right moment</div><div class="value">Fires the action</div></div>
+    </div>
+  </article>
+
+  <!-- 9. Onboarding -->
+  <article class="card fg9">
+    <div class="card-header">
+      <span class="tag">Applied</span>
+      <h3>Onboarding Is an Ability Problem</h3>
+      <p class="desc">New users almost never lack motivation — they wouldn’t be there. They lack ability. Cut steps, pre-fill, use sensible defaults, and demonstrate the first win in minutes. Most “engagement” problems with new users dissolve when ability goes up.</p>
+    </div>
+    <div class="demo"><div class="fg gap-9">
+  <div class="meter hot hpx-8"><i class="w-66"></i></div>
+  <div class="field"><i class="w-44"></i><span class="chk"></span></div>
+  <div class="field"><i class="w-36"></i><span class="chk"></span></div>
+  <div class="field"><i class="w-20"></i></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Lever</div><div class="value">Ability, not motivation</div></div>
+      <div><div class="label">Tactic</div><div class="value">Cut · pre-fill · default</div></div>
+      <div><div class="label">Test</div><div class="value">First win in minutes</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+
+  <!-- 10. Ethics -->
+  <article class="card fg10">
+    <div class="card-header">
+      <span class="tag">The flip side</span>
+      <h3>Persuasion vs Manipulation</h3>
+      <p class="desc">The model is symmetrical — it works whether you’re helping a user reach their goal or pushing them past their better judgment. Casinos, infinite scrolls, and dark patterns are Fogg in reverse. The model itself doesn’t care; the designer has to.</p>
+    </div>
+    <div class="demo"><div class="fg split2">
+  <div class="col">
+    <div class="toast"><span class="ic fill-accent"></span><i class="w-50"></i></div>
+    <div class="toast"><span class="ic fill-accent"></span><i class="w-42"></i></div>
+    <div class="toast"><span class="ic fill-accent"></span><i class="w-58"></i></div>
+  </div>
+  <div class="col gap-5">
+    <span class="ln hpx-11"></span><span class="ln hpx-11"></span><span class="ln faint hpx-11"></span>
+    <span class="ln faint hpx-11"></span><span class="ln faint" style="height:11px;opacity:0.18"></span><span class="ln faint" style="height:11px;opacity:0.12"></span>
+    <span class="ln faint" style="height:11px;opacity:0.08"></span>
+  </div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Test</div><div class="value">Whose goal does it serve?</div></div>
+      <div><div class="label">Dark side</div><div class="value">Casinos · infinite scroll</div></div>
+      <div><div class="label">Designer’s job</div><div class="value">Pick the right one</div></div>
+    </div>
+  </article>
+
+  <!-- AI divider -->
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Fogg Model in the Age of AI</h3>
+    <p>AI lowers Ability across the board and lets you fire a perfectly timed Prompt for one user — leverage at a scale Fogg’s original model didn’t anticipate.</p>
+  </div>
+
+  <!-- 11. AI raises ability -->
+  <article class="card fg11">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Raises Ability</h3>
+      <p class="desc">“Write a contract,” “code this feature,” “design that screen” — AI collapses the ability cost of behaviors that used to require expertise. Things that sat below the action line now sit comfortably above it, simply because they got easier.</p>
+    </div>
+    <div class="demo"><div class="fg gap-12">
+  <div class="block"></div>
+  <div class="chat-input"><span class="box"></span><span class="send"></span></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Effect</div><div class="value">Lowers ability cost</div></div>
+      <div><div class="label">Result</div><div class="value">More users above the line</div></div>
+      <div><div class="label">Examples</div><div class="value">Writing · coding · design</div></div>
+    </div>
+  </article>
+
+  <!-- 12. AI personalized prompt -->
+  <article class="card fg12">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Personalized Prompt</h3>
+      <p class="desc">A model that knows when a user is motivated and able can deliver the prompt at exactly that moment. Done well, it removes the friction of figuring out “now.” Done poorly, it’s hyper-targeted nagging — and people stop trusting the channel.</p>
+    </div>
+    <div class="demo"><div class="fg" style="justify-content:flex-start;gap:10px">
+  <div class="ln w-70"></div>
+  <div class="ln faint w-92"></div>
+  <div class="toast hot" style="width:64%;margin-left:auto"><span class="ic"></span><i class="w-52"></i></div>
+  <div class="ln faint w-84"></div>
+  <div class="ln faint w-56"></div>
+</div></div>
+    <div class="meta">
+      <div><div class="label">Power</div><div class="value">Right person, right moment</div></div>
+      <div><div class="label">Risk</div><div class="value">Hyper-targeted nagging</div></div>
+      <div><div class="label">Test</div><div class="value">Did the user want it?</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Behavior Design Lab</h3>
+      <ul class="ref-list">
+        <li><a href="https://behaviordesign.stanford.edu/" target="_blank" rel="noopener"><span class="title">Stanford Behavior Design Lab</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://behaviormodel.org/" target="_blank" rel="noopener"><span class="title">behaviormodel.org — official site</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Tiny Habits and Books</h3>
+      <ul class="ref-list">
+        <li><a href="https://tinyhabits.com/" target="_blank" rel="noopener"><span class="title">Tiny Habits — Fogg’s method</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Fogg_behavior_model" target="_blank" rel="noopener"><span class="title">Fogg Behavior Model — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/BJ_Fogg" target="_blank" rel="noopener"><span class="title">BJ Fogg — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Fogg Behavior Model</div>
+  <div class="meta-info">Fogg, 2009 · Stanford Behavior Design Lab</div>
+</footer>
+
+</body>
+</html>

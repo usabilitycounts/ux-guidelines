@@ -1,0 +1,146 @@
+{
+ "header h1": [
+  "Hicksches <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Mehr Auswahl, <em>längere Entscheidungen</em>."
+ ],
+ "header .subtitle": [
+  "Je mehr Auswahl Sie anbieten, desto länger dauert jede Entscheidung. Das Hicksche Gesetz prägt Menüs, Einstellungen und Onboarding — und die Techniken, die es umgehen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, ein britischer Psychologe, und <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, ein amerikanischer Psychologe, zeigten Anfang der 1950er Jahre unabhängig voneinander, dass die Reaktionszeit logarithmisch mit der Zahl der Wahlmöglichkeiten wächst — Arbeiten, aus denen das Hick-Hyman-Gesetz wurde.",
+  "Hick führte seine Experimente an der Applied Psychology Unit in Cambridge mit Telegrafentasten und Lampen durch; Hyman bestätigte ein Jahr später an der Johns Hopkins University die logarithmische Beziehung mit anderen Reizen. Hyman wurde später ein bekannter Skeptiker der Parapsychologie und Gründungsmitglied des CSICOP."
+ ],
+ ".law-content .law-desc": [
+  "Die Reaktionszeit wächst mit dem Logarithmus der Zahl gleich wahrscheinlicher Wahlmöglichkeiten. Verdoppeln Sie die Optionen, steigt die Entscheidungszeit um einen festen Betrag — nicht aufs Doppelte, denn das Gehirn durchsucht die Menge, statt sie linear zu lesen."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "William Hick und Ray Hyman (1952)",
+  "Experimente zur Wahlreaktionszeit",
+  "Optionen kürzen und gruppieren"
+ ],
+ ".card .tag": [
+  "Reduzieren",
+  "Chunking",
+  "Offenlegung",
+  "Standards",
+  "Skalierung",
+  "Suche",
+  "Unterscheiden",
+  "Kumulativ",
+  "Balance",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Weniger Optionen, schnellere Wahl",
+  "Zusammengehöriges gruppieren",
+  "Progressive Offenlegung",
+  "Kluge Standardwerte",
+  "Kategorien statt langer Listen",
+  "Suche schlägt Stöbern im großen Maßstab",
+  "Visuelle Unterscheidung beschleunigt die Wahl",
+  "Entscheidungsmüdigkeit",
+  "Der Sweet Spot",
+  "Der Prompt ersetzt das Menü",
+  "KI verengt auf eins"
+ ],
+ ".card .desc": [
+  "Die klarste Einzelanwendung des Gesetzes: Ein Menü mit 4 Einträgen ist schneller zu bedienen als eines mit 12 — auch wenn die 12 mehr abdecken. Streichen Sie das Unwesentliche, und der Rest wird schneller.",
+  "Eine flache Liste mit 16 Einträgen ist ein Albtraum nach dem Hickschen Gesetz. Dieselben 16, aufgeteilt in 4 Gruppen zu je 4, sind zwei schnelle Entscheidungen hintereinander — eine 4er-Wahl, dann noch eine. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Verbergen Sie fortgeschrittene oder selten genutzte Optionen hinter einem Aufklapper. Die meisten Nutzer sehen nur die üblichen 5; Power-User öffnen bei Bedarf das volle Set. Gleiche UI, zwei verschiedene Entscheidungsbäume.",
+  "Ein gut gewählter Standardwert beseitigt die Entscheidung ganz. Wenn 90 % der Nutzer denselben Wert wählen, machen Sie ihn zum Standard — sie überspringen die Wahl komplett, und das Gesetz greift nicht mehr.",
+  "Bei kleinem n ist eine flache Liste am schnellsten. Ab etwa 7 Einträgen schlägt eine zweistufige Hierarchie das Scrollen. Ab etwa 50 reicht Hierarchie allein nicht mehr — Sie brauchen eine Suche.",
+  "Stöbern zwingt jeden Nutzer durch die volle Hick-Kurve. Suche kollabiert sie auf eine Entscheidung: Tippen Sie, was Sie wollen. Für Kataloge mit Hunderten Einträgen ist ein Suchfeld der größte Gewinn an Zugänglichkeit, den Sie liefern können.",
+  "Das Hicksche Gesetz nimmt gleich wahrscheinliche Optionen an. In der Praxis verkleinert visuelle Unterscheidung (Icon, Farbe, Größe) den Suchraum — Nutzer verwerfen falsche Optionen, bevor sie sie lesen.",
+  "Das Hicksche Gesetz gilt pro Entscheidung. Entscheidungsmüdigkeit ist der kumulative Preis — jede Wahl zehrt an einem endlichen Vorrat mentaler Energie. Ein Assistent mit 12 kurzen Schritten ist härter, als die Mathematik vorhersagt.",
+  "Das Hicksche Gesetz sagt nicht \"zeige eine Option\". Zu wenig Auswahl wirkt willkürlich oder einengend. Die richtige Zahl ist das kleinste Set, das die echte Absicht der Nutzer noch abdeckt — oft 3 bis 7 für primäre Aktionen.",
+  "Statt aus N Optionen zu wählen, beschreibt der Nutzer, was er will. Das Hicksche Gesetz wird umgangen — es gibt ein einziges Eingabefeld, keine verzweigte Liste zum Absuchen.",
+  "Empfehlungssysteme und Agenten kollabieren die Optionsmenge zu einer einzigen vorgeschlagenen Aktion — die Entscheidung entfällt ganz. Mächtig, wenn sie stimmt, frustrierend, wenn nicht."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Test",
+  "Achtung",
+  "Am besten für",
+  "Test",
+  "Achtung",
+  "Am besten für",
+  "Muster",
+  "Achtung",
+  "Am besten für",
+  "Test",
+  "Achtung",
+  "≤ 7 Einträge",
+  "7 – 50",
+  "50+",
+  "Am besten für",
+  "Hinzufügen",
+  "Achtung",
+  "Am besten für",
+  "Werkzeuge",
+  "Achtung",
+  "Kumulativer Preis",
+  "Ergebnis",
+  "Abmildern",
+  "Primäre Aktionen",
+  "Nav-Menüs",
+  "Filter",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Toolbars · Nav-Menüs · Formulare",
+  "Lassen sich zwei Einträge zusammenlegen?",
+  "Beliebte Funktionen zusammenlegen",
+  "Einstellungen · Lange Formulare · Kataloge",
+  "Teilen Einträge ein Oberlabel?",
+  "Zu tiefe Gruppen — maximal 2 Ebenen",
+  "Einstellungen · Filter · Power-Werkzeuge",
+  "Mehr ⇩ · Erweitert zeigen · Aufklapper",
+  "Die meistgebrauchte Option verstecken",
+  "Formulare · Einstellungen · Assistenten",
+  "90/10-Regel — was wählen die meisten?",
+  "Ethik von Opt-in vs. Opt-out",
+  "Flache Liste — keine Hierarchie nötig",
+  "Kategorien oder Filter",
+  "Suche ergänzen",
+  "Kataloge · Doku · Einstellungen &gt; 50",
+  "⌘K-Kürzel · Typeahead",
+  "Sackgasse bei leeren Ergebnissen",
+  "Listen mit vielen Optionen",
+  "Icons · Farbe · Badges · Reihenfolge",
+  "Dekoration ohne Bedeutung",
+  "N Wahlen · N Entscheidungen",
+  "Nutzer nehmen Standard · überspringen · brechen ab",
+  "Fortschritt speichern · weniger fragen · vorausfüllen",
+  "3 – 5",
+  "5 – 7",
+  "≤ 10 sichtbar (Rest progressiv)",
+  "Menü → Prompt",
+  "Optionen unüberschaubar sind",
+  "Verborgene Fähigkeiten",
+  "Viele → eins",
+  "Eine beste Antwort existiert",
+  "Keine Sicht auf Alternativen"
+ ],
+ ".ai-divider h3": [
+  "Das Hicksche Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Prompt und Agent greifen die Entscheidungskosten aus einem neuen Winkel an — sie ersetzen das Menü durch Sprache oder beseitigen die Wahl ganz."
+ ],
+ ".law-formula-note": [
+  "die Reaktionszeit wächst mit dem Logarithmus der Zahl der Wahlmöglichkeiten (n)."
+ ]
+}

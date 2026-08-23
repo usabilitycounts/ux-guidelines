@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Postel’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Be conservative in what you send, be <em>liberal</em> in what you accept."
+ ],
+ "header .subtitle": [
+  "Jon Postel’s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jon_Postel\" target=\"_blank\" rel=\"noopener\">Jon Postel</a> was an American computer scientist who edited the RFC series and stewarded core internet standards for decades. His robustness principle — be conservative in what you send, liberal in what you accept — appeared in his 1980 TCP specification.",
+  "Postel ran IANA — the Internet Assigned Numbers Authority — essentially by himself for nearly thirty years, earning the informal title ‘god of the internet.’ The robustness principle remains debated in protocol design: too much liberality in what you accept can ossify bugs into de facto standards."
+ ],
+ ".law-content .law-desc": [
+  "A system should send clean, strict output but accept generous, messy input. On the network this kept incompatible TCP implementations talking; on the interface, it keeps humans from being punished for typing things in their own format."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jon-postel\">Jon Postel</a> (1980)",
+  "RFC 761, the TCP specification",
+  "Accept messy input, emit clean output"
+ ],
+ ".card .tag": [
+  "Inputs",
+  "Outputs",
+  "Errors",
+  "Compatibility",
+  "Smart parsing",
+  "Defaults",
+  "Critique",
+  "Pairs with",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Forgiving Form Fields",
+  "Strict, Predictable Outputs",
+  "Recover, Don’t Reject",
+  "Stay Backwards-Compatible",
+  "Parse the Way Humans Type",
+  "Defaults Are Liberal Input",
+  "The Limits of Robustness",
+  "Closes the Tesler Loop",
+  "AI as the Ultimate Liberal Parser",
+  "The Risk: Quiet Commitment"
+ ],
+ ".card .desc": [
+  "Accept the user’s format, then normalize it yourself. Phone numbers with dots, slashes, or spaces; dates as “tomorrow” or “12/3”; emails with stray whitespace — all reasonable input. Strip, parse, and store the clean version without making the user redo their typing.",
+  "The other half of the law: what you produce should be tight, standards-compliant, and unambiguous. Dates in ISO 8601, IDs in a known shape, JSON with a consistent schema. Liberal inputs only work because outputs hold a contract that the rest of the system can rely on.",
+  "When input is ambiguous, infer the likely intent and confirm — don’t dump the user back to a blank field. “Looks like you meant Dec 3?” beats a red border and a “format invalid” error. Recovery is faster, kinder, and produces more completed flows.",
+  "Be liberal with what older clients, older URLs, and older data send you. Don’t break links when paths change — redirect. Don’t reject saved files in last year’s format — upgrade them silently. The user shouldn’t pay for your refactor.",
+  "Names with hyphens, addresses with apartment numbers, prices with currency symbols — let the parser do the work. The user has a mental shape for what they’re entering; meet them at it rather than imposing a stricter shape that only your database cares about.",
+  "A field with a smart default is accepting “I don’t care” as valid input. Country pre-filled by IP, currency by locale, role by team — every safe assumption is one fewer thing the user has to send. Strict outputs still hold; the system just guessed well.",
+  "Postel’s law has a counter-case: too-tolerant parsers let bad data calcify into the spec, and the system inherits years of “well, we accept that” cruft. The strict half matters — be liberal at the edge, strict in the core, and don’t paper over genuine ambiguity with a guess.",
+  "Postel and Tesler reach the same conclusion from opposite directions. Tesler says complexity has to live somewhere; Postel says when it lives at the boundary, put it on the system side. The forgiving interface is the system absorbing the messiness of the real world.",
+  "“Book me a flight on Friday” used to need a precise form. Now it doesn’t. Models accept hand-waving, typos, mixed-language input, voice and text together — the most Postel-compliant front door we’ve ever shipped. The form fields haven’t gone away; they’ve moved inside the model.",
+  "A liberal parser that silently commits to one interpretation is dangerous. The user said “Friday” — the model picked one. Postel’s contract still applies: show what you understood, let the user fix it, never collapse genuine ambiguity into a confident answer."
+ ],
+ ".meta .label": [
+  "Accept",
+  "Store",
+  "Don’t",
+  "Send",
+  "Use",
+  "Result",
+  "Infer",
+  "Confirm",
+  "Don’t",
+  "Apply",
+  "Tactic",
+  "Rule",
+  "Accept",
+  "Normalize",
+  "Outcome",
+  "Pre-fill",
+  "Sources",
+  "Goal",
+  "Risk",
+  "Apply",
+  "Don’t",
+  "Pairs with",
+  "Both say",
+  "Effect",
+  "Shift",
+  "Accepts",
+  "Output",
+  "Risk",
+  "Fix",
+  "Always"
+ ],
+ ".meta .value": [
+  "Any reasonable format",
+  "Clean canonical",
+  "Reject and re-ask",
+  "Strict canonical",
+  "ISO dates · stable schemas",
+  "Predictable downstream",
+  "The likely intent",
+  "“Did you mean…?”",
+  "Dump back to blank",
+  "Old URLs · old data",
+  "Redirect · auto-upgrade",
+  "Don’t break links",
+  "Human shapes",
+  "Behind the scenes",
+  "Form completion goes up",
+  "Anything safe to guess",
+  "IP · locale · history",
+  "Less to type",
+  "Cruft calcifies into spec",
+  "Liberal edge · strict core",
+  "Paper over ambiguity",
+  "<a href=\"teslers-law.html\">Tesler’s Law</a>",
+  "System absorbs mess",
+  "Effortless feel",
+  "Form → language",
+  "Almost anything",
+  "Still strict",
+  "Silent interpretation",
+  "Surface the parse",
+  "Allow correction"
+ ],
+ ".ai-divider h3": [
+  "Postel’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models are the most liberal input parsers ever built — and the strictest committee about which interpretation they commit to."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Chesterton’s <em>Fence</em>"
+ ],
+ "header .tagline": [
+  "Don’t take down a fence until you know why it was put up."
+ ],
+ "header .subtitle": [
+  "G. K. Chesterton’s rule for reformers: the fence you find pointless was built by someone with a reason. Understand the reason first — then you’ve earned the right to remove it."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/G._K._Chesterton\" target=\"_blank\" rel=\"noopener\">G. K. Chesterton</a>, the English writer and critic, framed the parable in The Thing (1929): a reformer finds a fence across a road and proposes clearing it away precisely because he sees no use for it.",
+  "Chesterton’s answer became the principle: “If you don’t see the use of it, I certainly won’t let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it.”"
+ ],
+ ".law-content .law-desc": [
+  "Never remove something whose purpose you don’t understand. Ignorance of a thing’s function is an argument for investigation, not for deletion — the fence-builder knew something, and until you know it too, the fence stays."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-g-k-chesterton\">G. K. Chesterton</a> (1929)",
+  "The Thing — “The Drift from Domesticity”",
+  "Investigate before deleting"
+ ],
+ ".card .tag": [
+  "The parable",
+  "Product",
+  "Method",
+  "Redesigns",
+  "Code",
+  "Balance",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Fence in the Road",
+  "The Feature Nobody Owns",
+  "Interrogate, Then Cut",
+  "The Redesign That Forgot",
+  "Deleting the Odd Line",
+  "Fences Aren’t Sacred",
+  "The Model Can’t See the Reason",
+  "Make the Fence Explain Itself"
+ ],
+ ".card .desc": [
+  "The instinct “I can’t see why this exists, so it can go” inverts the logic: things that persist usually earn their keep in ways that aren’t visible from the road. Mysterious is not the same as useless.",
+  "Every mature product has features with no advocate and no obvious purpose — until removal day, when the invoices, the auditors, or the two enterprise customers who run on it appear. Low usage is not no usage.",
+  "The principle is a sequence, not a prohibition: git blame, the old ticket, the person who was there, the analytics on the odd path. Once the reason is known — and found obsolete — removal is not just allowed but overdue.",
+  "Ground-up redesigns mow down fences by the acre: the weird margin that dodged a browser bug, the double confirmation that ended a support fire. The old design is a record of solved problems — read it before replacing it.",
+  "The sleep(100), the seemingly redundant check, the retry nobody remembers adding — production code’s strangest lines are often patches over invisible failure modes. Delete after understanding, behind a flag, with a rollback.",
+  "The principle cuts both ways: a team that never removes anything is hoarding, not preserving. Chesterton licenses demolition — it just prices it at one investigation. Pay the price and prune freely.",
+  "An AI refactor judges code by what’s written, but fences are justified by history — the outage, the customer, the regulation. Institutional memory lives in tickets and heads, not in the file the model reads.",
+  "The durable fix: write the reason down where the remover will look. Comments that say why, ADRs, and linked tickets turn every fence into one with a sign — readable by the next engineer and the next model alike."
+ ],
+ ".meta .label": [
+  "Instinct",
+  "Reality",
+  "Mysterious",
+  "Low usage",
+  "Check",
+  "Removal day",
+  "Sequence",
+  "Sources",
+  "Understood + obsolete",
+  "Old design",
+  "Weird details",
+  "Read first",
+  "Odd lines",
+  "Delete",
+  "Keep",
+  "Never removing",
+  "The price",
+  "Then",
+  "Model reads",
+  "Reason lives",
+  "Write down",
+  "Readable by"
+ ],
+ ".meta .value": [
+  "“Useless — remove it”",
+  "Purpose is invisible",
+  "≠ useless",
+  "Not no usage",
+  "Who depends on it",
+  "Is discovery day",
+  "Understand → judge → cut",
+  "History · people · data",
+  "Cut with confidence",
+  "Solved-problem record",
+  "Often load-bearing",
+  "Then replace",
+  "Patches over ghosts",
+  "Behind a flag",
+  "A rollback path",
+  "Is hoarding",
+  "One investigation",
+  "Prune freely",
+  "The file",
+  "In the history",
+  "The why, in place",
+  "Humans and models"
+ ],
+ ".ai-divider h3": [
+  "Chesterton’s Fence in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models refactor code and redesign screens without the meeting notes. The fence’s reason often lives nowhere the machine can read."
+ ]
+}

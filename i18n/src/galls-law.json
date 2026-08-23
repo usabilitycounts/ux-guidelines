@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Gall’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Complex systems that work <em>evolved</em> from simple systems that worked."
+ ],
+ "header .subtitle": [
+  "John Gall’s 1975 observation, from <em>Systemantics</em>: you can’t design a complex system from scratch and have it work. The complex ones are descendants of simple ones that were shipped and used. Skip the simple ancestor and the descendant never breathes."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Gall_(author)\" target=\"_blank\" rel=\"noopener\">John Gall</a> was an American pediatrician and systems theorist. His 1975 book Systemantics collected wry observations on why systems fail; its best-known passage — complex systems that work evolve from simple systems that worked — became Gall’s Law.",
+  "Gall practiced pediatrics in Ann Arbor, Michigan for decades while writing wry systems theory on the side. Systemantics went through three editions as The Systems Bible; its axioms — like ‘a complex system designed from scratch never works’ — are quoted in software engineering far more than in medicine."
+ ],
+ ".law-content .law-desc": [
+  "Big systems are grown, not designed. Start with the smallest thing that works end-to-end, ship it, learn from it, then grow it. The grand design built from scratch — the one no simple version ever shipped — rarely survives contact with the real world."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-gall\">John Gall</a> (1975)",
+  "Systemantics",
+  "Ship the simple version first"
+ ],
+ ".card .tag": [
+  "Start small",
+  "Anti-pattern",
+  "Examples",
+  "Methodology",
+  "Design",
+  "The trap",
+  "Counter-case",
+  "Daily",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Ship the Walking Skeleton",
+  "The Big Bang Rewrite",
+  "The Web Grew · It Wasn’t Designed",
+  "Pairs with the MVP",
+  "Design Systems Grow Too",
+  "“It Worked at Small Scale”",
+  "When Up-Front Design Wins",
+  "Resist the Grand Plan",
+  "AI Generates Skipping the Ancestor",
+  "Iterate Faster, Iterate the Same"
+ ],
+ ".card .desc": [
+  "The first version should do the smallest possible thing end-to-end. Sign in, post one thing, see it. The walking skeleton proves the path exists; the muscles get built on top of a working spine.",
+  "The classic Gall violation. Two years on a “from scratch” replacement, no working version in sight, deadline keeps slipping. By the time it ships, the requirements have changed and the people who knew them have left. The system never finds the version where it actually worked.",
+  "HTTP started as one page-fetching protocol. The web today — apps, video, payments, AI — is the same protocol with thirty years of layers welded on. Every working complex system reads like that: TCP, Linux, the iPhone OS, Notion, your codebase. None of them were built right; they were built first.",
+  "Lean, Agile, <a href=\"people.html#p-eric-ries\">Eric Ries</a> — all of them are Gall in different vocabulary. Ship the smallest thing that proves the idea, learn from real users, iterate. The MVP isn’t a marketing concept; it’s the only way most working complex systems come into existence.",
+  "Material, HIG, your own design system — none of them were specced from the top. They started as a button, a font scale, a color. They grew because the simple version was used. The “let’s design the whole system first” approach has produced a graveyard of unused tokens and dead components.",
+  "Gall’s other warning: a system that worked at a small scale won’t necessarily work at a larger one — and you discover the breaks only by growing into them. Don’t extrapolate; observe. The simple version proves <em>this</em> case worked, not every future case.",
+  "Gall isn’t universal. Bridges, planes, payment systems, surgery robots — anything where iterating in production is catastrophic — need formal specs up front. The rule applies where iteration is cheap and recoverable, which is most of software, most of the time.",
+  "When a teammate proposes the perfect architecture three quarters out, the Gall response is: what’s the smallest version of this we can ship next sprint? Force the working ancestor. The grand plan can survive that question; if it can’t, it wasn’t grand, it was just big.",
+  "“Build me an entire app” produces output that looks like a system. But it has no ancestor — no simple version that anyone ran in anger, no scars from real use. The code may compile, but the design hasn’t earned the right to be complex. Use AI to ship a simple thing fast, not a complex thing untested.",
+  "The upside is real. AI shortens the cycle between “working version 1” and “working version 2” — code, copy, design, all generated faster. Gall’s law isn’t repealed; it’s accelerated. You still need a working ancestor at every step. You just get to make many more of them."
+ ],
+ ".meta .label": [
+  "Test",
+  "Skip",
+  "Then",
+  "Pattern",
+  "Fails when",
+  "Costs",
+  "Examples",
+  "In common",
+  "Read this as",
+  "Echoes",
+  "Rule",
+  "Bonus",
+  "Build first",
+  "Then",
+  "Avoid",
+  "Truth",
+  "Don’t",
+  "Do",
+  "Iterate",
+  "Spec",
+  "Most software",
+  "Ask",
+  "Ask",
+  "Then",
+  "Risk",
+  "Use AI for",
+  "Not for",
+  "Speedup",
+  "Rule unchanged",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Does it work end-to-end?",
+  "Polish · scale · edge cases",
+  "Grow from working code",
+  "Designed up-front · in full",
+  "Reality differs from spec",
+  "Time · trust · people",
+  "Web · Linux · iOS",
+  "Shipped early · grew under load",
+  "A design constraint",
+  "MVP · Lean · Agile",
+  "Always have a shippable version",
+  "You can pivot from any ring",
+  "The button that ships",
+  "The pattern you see twice",
+  "Tokens for unbuilt screens",
+  "Each scale reveals new breaks",
+  "Extrapolate · prepare",
+  "Build · observe · grow",
+  "When mistakes are cheap",
+  "When mistakes kill",
+  "Is the first kind",
+  "“Smallest shippable?”",
+  "“Did the ancestor work?”",
+  "Build",
+  "Complexity without learning",
+  "Faster simple v1",
+  "Skipping evolution",
+  "More iterations / week",
+  "Each ring must work",
+  "Skipping a working ring"
+ ],
+ ".ai-divider h3": [
+  "Gall’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI lets you generate a “complete” system in a day — and then ship something that has no working ancestor to grow from."
+ ]
+}

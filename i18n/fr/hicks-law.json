@@ -1,0 +1,146 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Hick"
+ ],
+ "header .tagline": [
+  "Plus de choix, <em>des décisions plus longues</em>."
+ ],
+ "header .subtitle": [
+  "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, psychologue britannique, et <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, psychologue américain, ont montré indépendamment au début des années 1950 que le temps de réaction croît de façon logarithmique avec le nombre de choix — des travaux devenus la loi de Hick-Hyman.",
+  "Hick a mené ses expériences à l'Applied Psychology Unit de Cambridge avec des manipulateurs télégraphiques et des lampes ; Hyman, à Johns Hopkins, a confirmé la relation logarithmique avec d'autres stimuli un an plus tard. Hyman est ensuite devenu un sceptique reconnu de la parapsychologie et un membre fondateur du CSICOP."
+ ],
+ ".law-content .law-desc": [
+  "Le temps de réaction croît avec le logarithme du nombre de choix équiprobables. Doublez le nombre d'options, et le temps de décision augmente d'une quantité fixe — pas du double, car le cerveau fouille l'ensemble, il ne le lit pas de façon linéaire."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "William Hick et Ray Hyman (1952)",
+  "Expériences de temps de réaction au choix",
+  "Réduire et regrouper les options"
+ ],
+ ".card .tag": [
+  "Réduire",
+  "Regroupement",
+  "Divulgation",
+  "Défauts",
+  "Échelle",
+  "Recherche",
+  "Différencier",
+  "Cumulatif",
+  "Équilibre",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Moins d'options, choix plus rapide",
+  "Regrouper les éléments liés",
+  "Divulgation progressive",
+  "Défauts intelligents",
+  "Catégories contre longues listes",
+  "La recherche bat la navigation à grande échelle",
+  "La distinction visuelle accélère le choix",
+  "Fatigue décisionnelle",
+  "Le juste milieu",
+  "Le prompt remplace le menu",
+  "L'IA réduit à un seul choix"
+ ],
+ ".card .desc": [
+  "L'application la plus claire de la loi : un menu de 4 se parcourt plus vite qu'un menu de 12 — même si les 12 couvrent davantage de terrain. Retirez ce qui n'est pas essentiel et le reste devient plus rapide.",
+  "Une liste plate de 16 est un cauchemar au regard de la loi de Hick. Les mêmes 16 répartis en 4 groupes de 4 donnent deux décisions rapides d'affilée — un choix parmi 4, puis un autre choix parmi 4. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Cachez les options avancées ou rarement utilisées derrière un déplieur. La plupart des utilisateurs ne voient que les 5 plus courantes ; les utilisateurs experts ouvrent l'ensemble complet quand ils en ont besoin. Même interface, deux arbres de décision différents.",
+  "Un défaut bien choisi supprime entièrement la décision. Si 90 % des utilisateurs choisissent la même valeur, faites-en le défaut — ils sautent complètement le choix, et la loi ne s'applique plus.",
+  "Pour un petit n, une liste plate est la plus rapide. Au-delà d'environ 7 éléments, une hiérarchie à 2 niveaux bat le défilement. Au-delà d'environ 50, la hiérarchie seule ne suffit plus — il faut la recherche.",
+  "La navigation force chaque utilisateur à parcourir toute la courbe de Hick. La recherche la réduit à une seule décision : taper ce que l'on veut. Pour des catalogues de centaines d'éléments, un champ de recherche est le meilleur gain d'accessibilité que vous puissiez livrer.",
+  "La loi de Hick suppose des choix équiprobables. En pratique, rendre les options visuellement distinctes (icône, couleur, taille) réduit l'espace de recherche — les utilisateurs écartent les mauvaises options avant même de les lire.",
+  "La loi de Hick s'applique une fois. La fatigue décisionnelle est le coût cumulé — chaque choix puise dans une réserve finie d'énergie mentale. Un assistant de 12 petites étapes est plus dur que ce que les calculs prédisent.",
+  "La loi de Hick ne dit pas « montrez une seule option ». Trop peu de choix semble arbitraire ou contraignant. Le bon nombre est le plus petit ensemble qui couvre encore l'intention réelle de l'utilisateur — souvent 3 à 7 pour les actions principales.",
+  "Au lieu de choisir parmi N options, l'utilisateur décrit ce qu'il veut. La loi de Hick est contournée — il y a un seul champ de saisie, pas une liste arborescente à parcourir.",
+  "Les systèmes de recommandation et les agents réduisent l'ensemble des options à une seule action suggérée — supprimant entièrement la décision. Puissant quand c'est juste, frustrant quand c'est faux."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "Test",
+  "À surveiller",
+  "Idéal pour",
+  "Test",
+  "À surveiller",
+  "Idéal pour",
+  "Modèle",
+  "À surveiller",
+  "Idéal pour",
+  "Test",
+  "À surveiller",
+  "≤ 7 éléments",
+  "7 – 50",
+  "50+",
+  "Idéal pour",
+  "Ajouter",
+  "À surveiller",
+  "Idéal pour",
+  "Outils",
+  "À surveiller",
+  "Coût cumulé",
+  "Résultat",
+  "Atténuer",
+  "Actions principales",
+  "Menus de nav",
+  "Filtres",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Barres d'outils · Menus de nav · Formulaires",
+  "Deux éléments peuvent-ils fusionner ?",
+  "Fusionner des fonctions appréciées",
+  "Paramètres · Longs formulaires · Catalogues",
+  "Les éléments partagent-ils un libellé parent ?",
+  "Groupes trop profonds — 2 niveaux max",
+  "Paramètres · Filtres · Outils experts",
+  "Plus ⇩ · Afficher avancé · Déplieur",
+  "Cacher l'option la plus demandée",
+  "Formulaires · Paramètres · Assistants",
+  "Règle 90/10 — que choisit la majorité ?",
+  "Éthique de l'opt-in contre l'opt-out",
+  "Liste plate — pas de hiérarchie nécessaire",
+  "Catégories ou filtres",
+  "Ajouter la recherche",
+  "Catalogues · Docs · Paramètres &gt; 50",
+  "Raccourci ⌘K · saisie semi-automatique",
+  "Impasse des résultats vides",
+  "Listes multi-options",
+  "Icônes · Couleur · Badges · Ordre",
+  "Décoration sans signification",
+  "N choix · N décisions",
+  "Les utilisateurs subissent · sautent · abandonnent",
+  "Sauvegarder · demander moins · pré-remplir",
+  "3 – 5",
+  "5 – 7",
+  "≤ 10 visibles (le reste en progressif)",
+  "Menu → prompt",
+  "Les options sont innombrables",
+  "Capacités cachées",
+  "Plusieurs → un",
+  "Une meilleure réponse existe",
+  "Aucun moyen de voir les alternatives"
+ ],
+ ".ai-divider h3": [
+  "La loi de Hick à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Le prompt et l'agent attaquent tous deux le coût de décision sous un angle nouveau — en remplaçant le menu par le langage, ou en supprimant entièrement le choix."
+ ],
+ ".law-formula-note": [
+  "le temps de réaction croît avec le log du nombre de choix (n)."
+ ]
+}

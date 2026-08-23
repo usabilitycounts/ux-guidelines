@@ -1,0 +1,161 @@
+{
+ "header h1": [
+  "Les 10 <em>principes</em> de Dieter Rams"
+ ],
+ "header .tagline": [
+  "« Moins, mais <em>mieux</em>. »"
+ ],
+ "header .subtitle": [
+  "Dieter Rams a écrit ces principes du bon design dans les années 1970 chez Braun. Cinquante ans plus tard, ils décrivent toujours ce qui rend un produit numérique authentiquement bon."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Dieter_Rams\" target=\"_blank\" rel=\"noopener\">Dieter Rams</a> est un designer industriel allemand qui a dirigé le design chez Braun pendant plus de trois décennies, façonnant des produits — des tourne-disques aux calculatrices — dont les formes résonnent aujourd'hui dans le matériel Apple. Sa philosophie : Weniger, aber besser — moins, mais mieux.",
+  "Il a écrit les dix principes à la fin des années 1970 pour répondre à sa propre question : mon design est-il du bon design ? Conçus pour des produits physiques, ils se transposent au logiciel presque sans retouche — honnête, discret, soigné, et aussi peu de design que possible."
+ ],
+ ".law-content .law-desc": [
+  "Le bon design est innovant, utile, esthétique, compréhensible, discret, honnête, durable, soigné jusqu'au dernier détail, respectueux de l'environnement — et aussi peu de design que possible."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Dieter Rams",
+  "La pratique du design chez Braun",
+  "Retirer jusqu'à ce qu'il ne reste que l'utile"
+ ],
+ ".card .tag": [
+  "Principe 1",
+  "Principe 2",
+  "Principe 3",
+  "Principe 4",
+  "Principe 5",
+  "Principe 6",
+  "Principe 7",
+  "Principe 8",
+  "Principe 9",
+  "Principe 10",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA",
+  "✦ Ère de l’IA"
+ ],
+ ".card h3": [
+  "Innovant",
+  "Rend un produit utile",
+  "Esthétique",
+  "Compréhensible",
+  "Discret",
+  "Honnête",
+  "Durable",
+  "Soigné jusqu'au dernier détail",
+  "Respectueux de l'environnement",
+  "Aussi peu de design que possible",
+  "Moins, mais mieux — appliqué à l'IA",
+  "Une IA honnête",
+  "Une IA compréhensible"
+ ],
+ ".card .desc": [
+  "L'innovation en design accompagne l'innovation technologique — et n'est jamais une fin en soi. Le bon design suit la technologie là où elle crée réellement de nouvelles possibilités, pas là où elle a seulement l'air neuve.",
+  "Un produit est acheté pour être utilisé. Son design doit servir cet usage — mettre en valeur ce qui est utile, effacer tout ce qui s'en écarte.",
+  "La qualité esthétique d'un produit fait partie intégrante de son utilité — les objets bien exécutés peuvent être beaux, et notre bien-être dépend en partie des objets que nous utilisons chaque jour.",
+  "Le design d'un produit doit clarifier sa structure. Au mieux, il est auto-explicatif. L'utilisateur ne devrait jamais avoir besoin d'un manuel pour savoir quoi faire.",
+  "Les produits qui remplissent une fonction sont comme des outils — ni objets décoratifs, ni œuvres d'art. Leur design doit laisser place à l'expression personnelle de l'utilisateur.",
+  "Le bon design ne prétend pas être plus innovant, plus puissant ou plus précieux qu'il ne l'est réellement. Il ne manipule pas les utilisateurs avec des promesses qui ne peuvent être tenues.",
+  "Le bon design évite d'être à la mode, et donc ne paraît jamais démodé. Contrairement à la mode, il dure de nombreuses années — même dans notre société du jetable.",
+  "Rien ne doit être arbitraire ni laissé au hasard. Le soin et la précision dans le processus de design témoignent du respect porté à l'utilisateur.",
+  "Le design apporte une contribution importante à la préservation de l'environnement. Il économise les ressources et minimise la pollution physique et visuelle tout au long du cycle de vie du produit.",
+  "Moins, mais mieux. Se concentrer sur les aspects essentiels, pour que le produit ne soit pas alourdi par le superflu. Retour à la pureté, retour à la simplicité.",
+  "La plupart des produits n'ont pas besoin d'un chatbot. N'ajoutez de l'IA que là où elle rend le produit réellement plus utile — pas pour courir après la tendance. Le premier réflexe de Rams tient toujours : retirer.",
+  "Le bon design ne prétend pas que le modèle est plus capable qu'il ne l'est. Montrez le niveau de confiance, citez les sources, et ne fabriquez jamais une réponse. L'honnêteté est le principe six de l'ère de l'IA.",
+  "Un produit qui embarque un modèle doit toujours s’expliquer. Montrez ce que l’assistant sait faire avant la première requête, ce qu’il fait pendant qu’il travaille, et pourquoi il a répondu ainsi. Le quatrième principe exige toujours d’être satisfait."
+ ],
+ ".meta .label": [
+  "À surveiller",
+  "Test",
+  "Contre-mesure",
+  "Priorité",
+  "Test",
+  "Contre-mesure",
+  "Qualité",
+  "Résultat",
+  "Contre-mesure",
+  "Objectif",
+  "Test",
+  "Contre-mesure",
+  "Caractère",
+  "Test",
+  "Contre-mesure",
+  "À surveiller",
+  "Test",
+  "Contre-mesure",
+  "Résiste à",
+  "Test",
+  "Contre-mesure",
+  "Attitude",
+  "Test",
+  "Contre-mesure",
+  "Économise",
+  "Test",
+  "Contre-mesure",
+  "Original",
+  "Objectif",
+  "Test",
+  "Principe",
+  "Test",
+  "À surveiller",
+  "Principe",
+  "Montrer",
+  "À surveiller",
+  "Principe",
+  "Montrer",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "La nouveauté pour la nouveauté",
+  "La techno permet-elle du concret ?",
+  "Skeuomorphisme · course aux tendances",
+  "La fonction d'abord",
+  "Fait-il mieux son travail ?",
+  "Le style avant le fond",
+  "Inséparable de l'utilité",
+  "Plaisir quotidien",
+  "Utilitaire laid · ornement",
+  "Auto-explicatif",
+  "Aucun manuel nécessaire",
+  "Interface indéchiffrable",
+  "Outil, pas déclaration",
+  "Disparaît à l'usage",
+  "Marque tapageuse · interface criarde",
+  "Dark patterns · faux avis",
+  "Le marketing colle au comportement",
+  "UX manipulatrice",
+  "Cycles de mode · tendances",
+  "Sera-t-il encore juste dans 20 ans ?",
+  "Refonte dictée par les tendances",
+  "Soin = respect",
+  "Zoomez — est-ce que ça tient ?",
+  "Détails « assez bons »",
+  "Matériaux · énergie · attention",
+  "Impact du cycle de vie considéré ?",
+  "Jetable · surconçu",
+  "Weniger, aber besser (années 1980)",
+  "Pureté · essence · retenue",
+  "Que pouvez-vous retirer ?",
+  "Nº 10 Aussi peu que possible",
+  "L'IA ajoute-t-elle un usage réel ?",
+  "L'IA comme décoration",
+  "Nº 6 Honnête",
+  "Confiance · sources · limites",
+  "Capacités surestimées",
+  "N°4 Compréhensible",
+  "Capacités · état · raisons",
+  "Le mystère de l’invite vide"
+ ],
+ ".ai-divider h3": [
+  "Rams à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "« Moins, mais mieux » et « honnête » sont les principes qui comptent le plus quand chaque produit est tenté de se greffer un chatbot."
+ ]
+}

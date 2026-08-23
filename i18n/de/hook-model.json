@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Hook-<em>Modell</em>"
+ ],
+ "header .tagline": [
+  "Auslöser · Aktion · Variable Belohnung · <em>Investition</em>."
+ ],
+ "header .subtitle": [
+  "Nir Eyals Framework von 2014 für gewohnheitsbildende Produkte. Vier Phasen, die der Nutzer wieder und wieder durchläuft, bis das Produkt zum Reflex wird. Das Folgebuch zieht die Linie zwischen Hooks, für die Nutzer dankbar sind, und solchen, die sie bereuen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Nir_Eyal\" target=\"_blank\" rel=\"noopener\">Nir Eyal</a> ist Autor und Dozent für Behavioral Design und lehrte an der Graduate School of Business in Stanford. Sein Buch Hooked von 2014 verdichtete gewohnheitsbildende Produkte zu einer vierstufigen Schleife: Auslöser, Aktion, variable Belohnung und Investition.",
+  "Eyal arbeitete jahrelang in der Videospiel- und Werbebranche, bevor er seine Beobachtungen zum Hook-Modell verdichtete. Bemerkenswert: Auf Hooked folgte Indistractable — ein Buch über die Verteidigung gegen genau die Techniken, die er dokumentiert hatte — mit dem Argument, die Ethik hänge davon ab, ob Produkte den eigenen Absichten der Nutzer dienen."
+ ],
+ ".law-content .law-desc": [
+  "Die meisten gewohnheitsbildenden Produkte durchlaufen dieselbe vierstufige Schleife. Ein Auslöser feuert, der Nutzer führt eine kostengünstige Aktion aus, erhält eine variable Belohnung und investiert etwas — Inhalte, Daten, eine Beziehung —, das den nächsten Auslöser scharf stellt. Jede Runde stärkt die Gewohnheit und erhöht die Wechselkosten."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Nir Eyal (2014)",
+  "Hooked",
+  "Die Schleife mit Nutzerinvestition schließen"
+ ],
+ ".card .tag": [
+  "Schleife",
+  "Extern",
+  "Intern",
+  "Aktion",
+  "Belohnung",
+  "Investieren",
+  "Ethik",
+  "Täglich",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die vierstufige Schleife",
+  "Auslöser beginnen außen",
+  "Auslöser wandern nach innen",
+  "Machen Sie es kinderleicht",
+  "Variable Belohnungen fesseln",
+  "Bringen Sie sie zum Investieren",
+  "Überzeugung vs. Manipulation",
+  "Die eigene Schleife prüfen",
+  "KI personalisiert jeden Schritt",
+  "Die ethische Messlatte steigt"
+ ],
+ ".card .desc": [
+  "Ein externer Auslöser stupst an; eine reibungsarme Aktion folgt; eine variable Belohnung feuert; der Nutzer investiert etwas, das den nächsten Auslöser scharf stellt. Vier Durchläufe ergeben eine Gewohnheit; vierzig ergeben eine tägliche App.",
+  "Die ersten Auslöser kommen von außerhalb des Nutzers: eine Benachrichtigung, eine E-Mail, eine Anzeige, ein Freund, der etwas teilt. Das Produkt kann sich noch nicht auf das Gedächtnis verlassen. Jeder externe Auslöser ist ein Versuch, die Schleife zu starten; die meisten scheitern. Die, bei denen die Aktion abgeschlossen wird, machen den nächsten Auslöser billiger.",
+  "Das Produkt gewinnt, wenn der Auslöser aus dem Nutzer selbst kommt. Langeweile triggert Instagram, Angst triggert Twitter, Einsamkeit triggert Tinder. Keine Benachrichtigung nötig; die Emotion ist das Signal. Interne Auslöser trennen Apps, die Menschen benutzen, von Apps, nach denen sie greifen.",
+  "Die Aktion muss kleiner sein als die Motivation. App öffnen, nach unten ziehen, tippen, ein Wort schreiben. Alles oberhalb der Reibungsschwelle bricht die Schleife. Stories, Swipes, Doppeltipps, endloses Scrollen — alle darauf gebaut, die Aktionskosten unter das zu drücken, was der Auslöser liefern kann.",
+  "Der dritte Schritt ist der süchtig machende. Gäbe jedes Aktualisieren denselben Inhalt, stürbe die Schleife. Die Belohnung ist variabel: meist mäßig, gelegentlich großartig. Spielautomaten, Twitter-Feeds, Dating-Apps und Posteingänge teilen diese Form. Die Unvorhersehbarkeit ist der Motor.",
+  "Der vierte Schritt baut den nächsten Auslöser. Posten, Folgen, Anpassen, Hochladen, Bewerten, Befreunden — alles Nutzerinvestitionen, die Wert ins Produkt laden. Je mehr der Nutzer investiert hat, desto unersetzlicher wird das Produkt. Die Wechselkosten wachsen mit jeder Runde.",
+  "Eyals Folgebuch ist Indistractable — er zieht eine scharfe Linie zwischen Hooks für Dinge, über die Nutzer froh sein werden (Duolingo, Sprachenlernen), und Hooks für Dinge, die sie bereuen (Slot-Apps, Doomscrolling). Das Modell selbst ist neutral; der Test ist, ob der Nutzer Ihnen für die Schleife in einem ruhigen Moment danken würde.",
+  "Gehen Sie die vier Schritte für ein Feature durch: Auslöser, Aktion, Belohnung, Investition. Ist ein Schritt schwach, greift die Schleife nicht — der Nutzer berührt das Produkt einmal und vergisst es. Ist jeder Schritt auf das Bereuen des Nutzers hin gebaut, haben Sie einen Spielautomaten gebaut und sollten das beheben.",
+  "Ein Modell kann für diesen Nutzer in diesem Moment den richtigen Auslöser wählen, die Aktion kleiner erzeugen, die Belohnung besser variieren und die Investition geschickter rahmen. Das Hook-Modell war eine einzige justierte Schleife; jetzt sind es Millionen, jede auf eine Person abgestimmt. Mit Absicht gemacht: phänomenal. Ohne: Spielautomaten im großen Maßstab.",
+  "Ist die Schleife auf eine Person abgestimmt, kann der Nutzer die Version anderer nicht sehen; er kann nicht erkennen, ob seine Schleife für die Bindung oder für ihn justiert wurde. Transparenz, Opt-out und \"zeig mir, was für mich eingestellt ist\" werden zu moralischen Anforderungen, nicht zu Features."
+ ],
+ ".meta .label": [
+  "Von",
+  "Muster",
+  "Beispiele",
+  "Achtung",
+  "Taktik",
+  "Beispiele",
+  "Regel",
+  "Passt zu",
+  "Mechanismus",
+  "Beispiele",
+  "Beispiele",
+  "Wirkung",
+  "Test",
+  "Eyal-Buch 2",
+  "Kosten",
+  "Erkennt",
+  "Stärke",
+  "Risiko",
+  "Erforderlich",
+  "Erforderlich"
+ ],
+ ".meta .value": [
+  "Nir Eyal, 2014",
+  "Selbstverstärkend",
+  "Push · E-Mail · Anzeige",
+  "Abstumpfen des Kanals",
+  "Das Gefühl kartieren",
+  "Langeweile · Angst",
+  "Aktion ≪ Motivation",
+  "Fogg-Verhaltensmodell",
+  "Variable Verstärkung",
+  "Automat · Feed · Posteingang",
+  "Posts · Follows · Anpassungen",
+  "Wechselkosten ↑",
+  "Dank im ruhigen Moment",
+  "Indistractable, 2019",
+  "Fünf Minuten",
+  "Schwache Schleifen",
+  "Abstimmung pro Nutzer",
+  "Spielautomaten im großen Maßstab",
+  "Sichtbarkeit · Opt-out",
+  "Offenlegung pro Nutzer"
+ ],
+ ".ai-divider h3": [
+  "Das Hook-Modell im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle können jeden Schritt der Schleife in Echtzeit personalisieren — zum Guten wie zum Schlechten."
+ ]
+}

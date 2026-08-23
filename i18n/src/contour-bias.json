@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Contour <em>Bias</em>"
+ ],
+ "header .tagline": [
+  "Rounded relaxes. Sharp alerts."
+ ],
+ "header .subtitle": [
+  "Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness puts users at ease; sharpness demands attention. Both are tools."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)\" target=\"_blank\" rel=\"noopener\">Moshe Bar</a> and Maital Neta at Harvard flashed pairs of everyday objects — identical except for their contours — for a fraction of a second. Viewers consistently preferred the curved versions, even with no time to reason about them.",
+  "Their follow-up work pointed at the mechanism: sharp-angled objects produced more activation in the amygdala, the brain’s threat detector. The preference for curves is not taste — it is a fast, low-level safety judgment that fires before deliberate thought."
+ ],
+ ".law-content .law-desc": [
+  "At a glance, people judge curved contours as safe and approachable and sharp contours as potentially threatening. The response is fast, automatic, and strongest under time pressure — which is exactly how interfaces are seen."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-moshe-bar\">Moshe Bar</a> and <a href=\"people.html#p-maital-neta\">Maital Neta</a> (2006)",
+  "“Humans Prefer Curved Visual Objects”",
+  "Round to reassure, sharpen to alert"
+ ],
+ ".card .tag": [
+  "The research",
+  "Mechanism",
+  "Practice",
+  "Contrast",
+  "Boundary",
+  "System",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Split-Second Preference",
+  "Sharp Reads as Threat",
+  "Why Buttons Went Round",
+  "Sharpen to Alert",
+  "A Bias, Not a Rule",
+  "One Curvature, Everywhere",
+  "The Radius-12 Default",
+  "Rounded to Disarm"
+ ],
+ ".card .desc": [
+  "Watches, sofas, letterforms — shown curved or angular for 84 milliseconds. Curved won, category after category. The preference held even when viewers could not say why, which is the signature of a pre-attentive judgment.",
+  "In the follow-up imaging study, sharp contours lit up the amygdala — the brain’s threat detector. Edges and points resemble things that cut and pierce, so they get flagged before conscious thought has a say. Designers inherit that wiring.",
+  "Rounded corners on buttons, cards, inputs, and avatars lower the felt risk of interacting. A pill button says “safe to press” before the label is read. The radius is doing emotional work, not decoration.",
+  "The threat response is a feature when the message is danger. Warning triangles, error badges, and hazard chevrons work because they are angular. An alert with soft corners whispers; the same alert with points shouts.",
+  "Context can outweigh contour. Precision tools, luxury brands, and editorial design use sharp geometry to signal rigor and edge — and roundness everywhere can read as soft or childish. Choose the feeling first, then the corner.",
+  "Corner radius is a design token, and mixing radii is how interfaces start feeling off without anyone knowing why. Pick a curvature scale — sharp, subtle, or round — and let every button, card, and dialog agree on it.",
+  "Ask a model for a UI and you get the same gentle corners as everyone else — curvature chosen by statistics, not intent. When every product is equally rounded, contour stops carrying brand. Set your radius on purpose.",
+  "Assistants, robots, and AI mascots are styled soft on purpose — orbs, blobs, gentle arcs — because curves lower guard. That is fine when the system is benign, and manipulative when roundness is hiding what a system does."
+ ],
+ ".meta .label": [
+  "Exposure",
+  "Verdict",
+  "Signature",
+  "Region",
+  "Pattern",
+  "Speed",
+  "Where",
+  "Message",
+  "Radius is",
+  "Use sharp for",
+  "Soft alert",
+  "Angular alert",
+  "Sharp signals",
+  "Over-round risk",
+  "Order",
+  "Radius is",
+  "Mixed radii",
+  "Fix",
+  "Default",
+  "Cost",
+  "Curves lower",
+  "Line"
+ ],
+ ".meta .value": [
+  "84 milliseconds",
+  "Curved, consistently",
+  "Pre-attentive, not reasoned",
+  "The amygdala",
+  "Points read as danger",
+  "Before deliberate thought",
+  "Buttons · cards · inputs",
+  "Safe to press",
+  "Emotional, not decorative",
+  "Warnings and hazards",
+  "Whispers",
+  "Shouts",
+  "Rigor · precision · edge",
+  "Soft or childish",
+  "Feeling first, corner second",
+  "A token, not a whim",
+  "Feels off, invisibly",
+  "One curvature scale",
+  "Statistical corners",
+  "Contour stops branding",
+  "The user’s guard",
+  "Reassure, never conceal"
+ ],
+ ".ai-divider h3": [
+  "Contour Bias in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated interfaces ship the same friendly radius by default, and AI products round themselves to feel harmless. Curvature has become a rhetoric — use it honestly."
+ ]
+}

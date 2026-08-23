@@ -1,0 +1,110 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Yerkes-Dodson"
+ ],
+ "header .tagline": [
+  "La performance monte avec l'activation — jusqu'à un point — puis <em>chute</em>."
+ ],
+ "header .subtitle": [
+  "La découverte de Robert Yerkes et John Dodson (1908) : la performance s'améliore avec un niveau modéré de stress ou de stimulation, mais seulement jusqu'à un certain point. Au-delà, elle chute. La courbe est un U inversé — et les tâches complexes ont un optimum plus étroit que les simples."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> et <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> étaient des psychologues américains dont les expériences de 1908 ont montré que la performance monte avec l'activation seulement jusqu'à un point — au-delà, la pression dégrade la performance. Leur courbe en U inversé porte leurs noms.",
+  "Leurs expériences originales de 1908 utilisaient des souris, des labyrinthes et de légers chocs ; l'élégante courbe en U inversé imprimée aujourd'hui dans les manuels fut largement une simplification ultérieure. Yerkes développa ensuite les tests d'intelligence Army Alpha pendant la Première Guerre mondiale et fonda le laboratoire de recherche sur les primates de Yale."
+ ],
+ ".law-content .law-desc": [
+  "Un peu de pression fait du bien. Trop peu, et l'utilisateur s'ennuie, dérive, rate des choses. Trop, et il se fige, clique sur le mauvais bouton, abandonne le parcours. Le sommet est au milieu — et sa position dépend de la tâche."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Robert Yerkes et John Dodson (1908)",
+  "Expériences de psychologie comparée",
+  "Garder une pression modérée"
+ ],
+ ".card .tag": [
+  "La courbe",
+  "Côté bas",
+  "Côté haut",
+  "Modulateur",
+  "Flow",
+  "Design",
+  "Design",
+  "À surveiller",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le U inversé",
+  "La sous-stimulation fait chuter l'attention",
+  "La sur-stimulation effondre la performance",
+  "Les tâches complexes ont des sommets plus étroits",
+  "Le flow est le point idéal",
+  "Une interface calme pour les tâches difficiles",
+  "De l'énergie pour les tâches faciles",
+  "Éviter l'urgence artificielle",
+  "L'IA peut lire la courbe",
+  "Ou l'IA peut vous en faire tomber"
+ ],
+ ".card .desc": [
+  "La performance sur une tâche culmine à un niveau modéré d'activation. En dessous, l'attention s'estompe ; au-dessus, elle se rétrécit trop et dérape. La courbe fut d'abord observée chez des souris parcourant des labyrinthes ; un siècle plus tard, elle apparaît dans les labos de tests utilisateurs aussi nettement qu'alors.",
+  "En bas à gauche de la courbe : l'utilisateur s'ennuie ou est sous-engagé. Pages de validation, interactions répétées pour la cinquième fois du mois, écrans après une longue lecture automatique. La performance chute parce que l'attention chute. Le correctif n'est pas plus de friction — c'est une raison active d'être présent.",
+  "En haut à droite : stress, urgence, pression d'échéance. L'utilisateur se fige, clique de travers, prend le chemin visible même quand il est mauvais. Messages d'erreur bancaires, modifications de réservation en plein vol, « votre carte a été refusée » — tout cela vit ici. Le correctif est d'abaisser les enjeux, pas d'ajouter des boîtes de dialogue.",
+  "Une seconde leçon de Yerkes-Dodson : l'optimum se décale vers la gauche pour les tâches plus dures. Une tâche simple — un clic, un chiffre — tolère bien la pression. Une tâche complexe — relire un document, remplir 30 champs — exige une activation plus basse pour être bien exécutée. Montez l'urgence sur la tâche difficile et vous perdez l'utilisateur au plus vite.",
+  "L'état de flow de Csíkszentmihályi est la formulation moderne du sommet de Yerkes-Dodson. Le défi est juste au-dessus des capacités de l'utilisateur, le feedback est immédiat, les objectifs sont clairs — et l'utilisateur disparaît dans la tâche. Concevoir pour le flow, c'est concevoir pour le sommet de la courbe.",
+  "Quand la tâche est complexe — bilan annuel, déclaration d'impôts, audit de code — l'interface doit sembler calme. Beaucoup d'espace blanc, une progression claire, aucune animation qui poursuit le curseur. Pousser l'utilisateur plus haut sur la courbe d'activation alors qu'il est déjà chargé le fait basculer au-delà du sommet. Les tableurs et les IDE le comprennent intuitivement ; la plupart des applications grand public, non.",
+  "Le revers. Quand la tâche est triviale — un toucher, un glissement — un peu d'activation supplémentaire aide. Une vibration sur un like, un claquement satisfaisant sur un balayage, une petite célébration à l'inscription. La tâche simple peut monter plus haut sur la courbe, et la stimulation supplémentaire se rembourse en engagement.",
+  "Comptes à rebours, « plus que 2 en stock », dialogues de décision forcée — tout cela pousse l'utilisateur vers le haut de la courbe d'une manière qui nuit aux décisions complexes. Cela ressemble à de la motivation ; cela fonctionne comme une surcharge. Si vous vous surprenez à ajouter de la pression sur une tâche difficile, la bonne réponse est presque toujours de faciliter la tâche, pas de monter le stress.",
+  "Les modèles peuvent détecter la surcharge en temps réel — longues pauses, corrections répétées, onglets abandonnés — et réagir. Retirer une étape, faire apparaître un raccourci, proposer de prendre le relais. Le sommet de Yerkes-Dodson devient adaptatif : le produit lui-même ramène l'utilisateur vers lui, au lieu de le laisser coincé du mauvais côté.",
+  "Le même canal fonctionne à l'envers. Un modèle qui déverse un flot de suggestions, interrompt toutes les quelques secondes ou génère des absurdités plausibles exigeant une relecture peut propulser l'utilisateur au-delà du sommet en un rien de temps. L'IA penche par défaut vers l'activation — il y a toujours une suggestion de plus. La discipline consiste à laisser l'utilisateur tranquille quand il est dans le flow."
+ ],
+ ".meta .label": [
+  "Symptômes",
+  "Correctif",
+  "Symptômes",
+  "Correctif",
+  "Tâche simple",
+  "Tâche complexe",
+  "Formulé par",
+  "Recette",
+  "Pour les tâches complexes",
+  "Tactiques",
+  "Pour les tâches simples",
+  "Tactiques",
+  "Modèle",
+  "Correctif",
+  "Signal",
+  "Réponse",
+  "Défaut",
+  "Discipline"
+ ],
+ ".meta .value": [
+  "Passer · faire défiler",
+  "Une raison d'être présent",
+  "Se figer · mal cliquer · abandonner",
+  "Abaisser les enjeux",
+  "Tolère la pression",
+  "Exige une activation plus basse",
+  "Csíkszentmihályi, 1975",
+  "Juste au-dessus des capacités",
+  "Abaisser l'activation",
+  "Espace blanc · rythme régulier",
+  "Un peu de stimulation",
+  "Haptique · son · micro-animation",
+  "Urgence fabriquée",
+  "Faciliter la tâche",
+  "Pauses · répétitions · abandons",
+  "Abaisser l'activation",
+  "Suggérer, suggérer, suggérer",
+  "Laisser le flow tranquille"
+ ],
+ ".ai-divider h3": [
+  "Yerkes-Dodson à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut lire où l'utilisateur se trouve sur la courbe — et abaisser l'activation exactement au bon moment, ou échouer à le faire."
+ ]
+}

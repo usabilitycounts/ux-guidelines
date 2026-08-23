@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Zeigarnik <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Unfinished business stays in memory."
+ ],
+ "header .subtitle": [
+  "Bluma Zeigarnik found that interrupted, incomplete tasks are remembered far better than completed ones. Open loops pull people back — the engine behind progress bars, streaks, and every “complete your profile” nudge."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a> was a Lithuanian-Soviet psychologist who studied under Kurt Lewin in Berlin. Legend says the idea began at a café: waiters recalled unpaid orders perfectly and forgot them the moment the bill was settled.",
+  "Her 1927 experiments confirmed it — participants interrupted mid-task recalled those tasks roughly twice as well as finished ones. She went on to co-found experimental pathopsychology in Moscow, and the open-loop effect that bears her name became a staple of product design."
+ ],
+ ".law-content .law-desc": [
+  "Interrupted or incomplete tasks are remembered better than completed ones. An open loop creates a low-grade tension that keeps pulling attention back until the loop closes — completion releases it, and the memory fades."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-bluma-zeigarnik\">Bluma Zeigarnik</a> (1927)",
+  "On Finished and Unfinished Tasks",
+  "Show what’s left open"
+ ],
+ ".card .tag": [
+  "The loop",
+  "Progress",
+  "Checklists",
+  "Completion",
+  "Ethics",
+  "Closure",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Open Loops Pull Attention",
+  "Show the Remaining Steps",
+  "The Unchecked Box",
+  "Profile Completeness",
+  "Don’t Weaponize the Loop",
+  "Let Loops Actually Close",
+  "The Draft Left Open",
+  "Agents Keep Loops Open"
+ ],
+ ".card .desc": [
+  "An incomplete progress bar is a small psychological hook — the mind keeps a background thread on anything visibly unfinished. Products that show open loops get users back without sending a single notification.",
+  "A stepper that shows two of four steps done recruits the effect honestly: the user can see exactly what’s open and what closing it takes. Vague progress (“almost there!”) wastes the tension it creates.",
+  "Onboarding checklists work because every unchecked item is its own open loop. Three done and one open is nearly irresistible — which is why the best checklists are short, real, and finishable.",
+  "LinkedIn’s completeness meter is the canonical use: a visible 70% makes finishing feel necessary. It works when each remaining step genuinely improves the experience — and curdles when it’s just data harvesting.",
+  "Streaks that punish a missed day, carts that nag for weeks, fake “1 step left” prompts — manufactured incompleteness burns the trust the effect depends on. If the loop wasn’t opened by the user, closing it isn’t their job.",
+  "The effect has a second half: completion releases the tension, and that release is the reward. Clear done-states, satisfying confirmations, and empty inboxes give users the closure the open loop promised.",
+  "An assistant that leaves a visible draft — half an email, a paused edit — pulls the user back to finish the thought. Resumable state is the Zeigarnik effect working for the user instead of on them.",
+  "A background agent is an open loop the user didn’t used to have. Show the running task, its progress, and its finish — an invisible loop generates anxiety, a visible one generates trust."
+ ],
+ ".meta .label": [
+  "Mechanism",
+  "Released by",
+  "Free retention",
+  "Show",
+  "Be",
+  "Avoid",
+  "Keep lists",
+  "Each item",
+  "The last open box",
+  "Works when",
+  "Curdles when",
+  "Sweet spot",
+  "Test",
+  "Manufactured tension",
+  "Respect",
+  "Done-states",
+  "The release",
+  "Then",
+  "Pattern",
+  "Effect",
+  "Show",
+  "Invisible loops"
+ ],
+ ".meta .value": [
+  "Task tension",
+  "Completion",
+  "No notification needed",
+  "Done and remaining",
+  "Specific",
+  "Vague “almost there”",
+  "Short and finishable",
+  "A real step",
+  "Does the pulling",
+  "Steps add real value",
+  "It’s data harvesting",
+  "60–90% shown",
+  "Who opened the loop?",
+  "Burns trust",
+  "The user’s “done”",
+  "Make them felt",
+  "Is the reward",
+  "Stop asking",
+  "Visible, resumable drafts",
+  "Users return to finish",
+  "Running · done · queued",
+  "Read as anxiety"
+ ],
+ ".ai-divider h3": [
+  "The Zeigarnik Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Agents leave loops open on your behalf now — drafts, running tasks, half-finished jobs. Showing what’s unfinished is how trust survives the delegation."
+ ]
+}

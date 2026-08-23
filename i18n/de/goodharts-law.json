@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Goodharts <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Wird eine Messgröße zum <em>Ziel</em>, hört sie auf, eine gute Messgröße zu sein."
+ ],
+ "header .subtitle": [
+  "Charles Goodharts Beobachtung von 1975, geschärft von Marilyn Strathern: Sobald eine Zahl benutzt wird, um Menschen zu beurteilen, entfernt sie sich von dem, was sie maß. KPIs, OKRs und KI-Trainingssignale laufen frontal dagegen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Charles_Goodhart\" target=\"_blank\" rel=\"noopener\">Charles Goodhart</a> ist ein britischer Ökonom, langjähriger Berater der Bank of England und Professor an der London School of Economics. Seine Bemerkung von 1975 über geldpolitische Ziele — sobald eine Messgröße zum Ziel wird, hört sie auf, eine gute Messgröße zu sein — wuchs über die Ökonomie hinaus und wurde ein Gesetz der Anreize überall.",
+  "Goodhart verbrachte siebzehn Jahre bei der Bank of England und half beim Entwurf von Hongkongs Currency Board. Die moderne Formulierung des Gesetzes — „when a measure becomes a target, it ceases to be a good measure“ — prägte die Anthropologin <a href=\"https://en.wikipedia.org/wiki/Marilyn_Strathern\" target=\"_blank\" rel=\"noopener\">Marilyn Strathern</a> 1997 und verallgemeinerte damit seine Beobachtung über Geldmengenaggregate."
+ ],
+ ".law-content .law-desc": [
+  "In der Minute, in der eine Metrik zur Beurteilung von Menschen dient — befördern, finanzieren, ranken —, beginnen sie, direkt an der Metrik zu arbeiten, nicht an der Sache, die sie messen sollte. Die Zahl steigt; das Ergebnis folgt nicht immer."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Charles Goodhart (1975)",
+  "Geldpolitischer Kommentar",
+  "Das Ziel beobachten, nicht nur die Metrik"
+ ],
+ ".card .tag": [
+  "Definition",
+  "Klassiker",
+  "Im Produkt",
+  "Schwestergesetz",
+  "Sanfter Goodhart",
+  "Gestalten",
+  "Praxis",
+  "Alltag",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Wenn die Metrik zum Spiel wird",
+  "Vanity-Metriken",
+  "KPI-Hacking",
+  "Campbells Gesetz",
+  "Unschuldige Drift",
+  "Metriken wählen, die Gaming widerstehen",
+  "Metrikpaare verwenden",
+  "Das Gaming-Gedankenexperiment durchspielen",
+  "Modelle optimieren exakt die Metrik",
+  "Reward-Modelle sind Goodhart-Fabriken"
+ ],
+ ".card .desc": [
+  "In der Minute, in der ein Team an einer Zahl gemessen und belohnt wird, hört diese Zahl auf zu messen, was sie einmal maß. Menschen werden die Metrik treffen — indem sie die Arbeit ändern, die Zählung ändern oder beides. Das ursprüngliche Phänomen driftet darunter weg.",
+  "Seitenaufrufe pro Sitzung, DAU/MAU-Verhältnisse, rohe Registrierungen. Die Zahlen marschieren nach oben, und nichts am Produkt verbessert sich wirklich. Vanity-Metriken sind vorab gegamed — sie waren nie mit Wert verbunden.",
+  "Wer „Support-Lösungszeit“ als Ziel setzt, bekommt Tickets, die geschlossen werden, bevor sie behoben sind. Wer „Feature ausgeliefert“ zum Ziel macht, bei dem wird ausgeliefert zum Synonym für „gemergt, aber ungenutzt“. Das Team lernt schnell — es optimiert die Zahl, genau wie verlangt.",
+  "Donald Campbells Version von 1976, aus der Politik: Je stärker ein quantitativer sozialer Indikator für Entscheidungen genutzt wird, desto mehr korrumpiert er die Prozesse, die er messen soll. Standardisierte Tests sind der Lehrbuchfall — für den Test unterrichten, den Score optimieren, die eigentliche Bildung verfällt leise.",
+  "Nicht jeder Goodhart ist Gaming. Manchmal driftet die Metrik leise, weil sich die Welt verändert hat — was vor drei Jahren als „aktiv“ zählte, ist heute passives Scrollen, was als „Engagement“ zählte, ist heute nervöses Aktualisieren. Die Zahl hält; die Bedeutung rutscht. Messgrößen jährlich überprüfen.",
+  "Manche Zahlen taugen als Torwächter: Umsatz pro gehaltenem Nutzer, Zeit bis zur bedeutsamen Aktion, NPS von Menschen, die die Aufgabe abgeschlossen haben. Andere taugen nicht: Klicks, Seitenaufrufe, rohe Zählungen. Die guten sind schwer zu fälschen, ohne den zugrunde liegenden Wert zu erzeugen; genau das ist ihr Feature.",
+  "Die verlässlichste Verteidigung: zwei Metriken verfolgen, die sich in entgegengesetzte Richtungen bewegen, wenn die erste gegamed wird. Geschwindigkeit gepaart mit Qualität; Umsatz gepaart mit Rückerstattungen; Engagement gepaart mit Kündigungen. Steigt die eine und stürzt die andere ab, ist das Gaming früh entdeckt.",
+  "Vor jedem KPI fragen: Wie könnte ein cleveres Team diese Zahl steigen lassen, ohne die Arbeit tatsächlich zu tun? Lautet die Antwort „leicht“, die Metrik verfeinern. Lautet sie „nur durch die Arbeit selbst“, ausliefern. Fünf Minuten Vorstellungskraft fangen das meiste Gaming vorab ab.",
+  "Ein Modell, das auf Klickrate trainiert ist, maximiert die Klickrate, Punkt. Empfehlungssysteme lernen, Rage-Bait nach oben zu spülen, weil Rage-Bait Klicks bekommt. Goodharts Gesetz im Hardmode: Der Optimierer ist schneller, unerbittlicher und wird des Gamings nie müde.",
+  "RLHF-Systeme trainieren auf einem gelernten Stellvertreter für „gute Antwort“. Das Modell optimiert den Stellvertreter. Der Stellvertreter weicht leise von dem ab, was Menschen wirklich wollten — Schmeichelei, Über-Absicherung, „Gern geschehen!“-Präambeln. Jede Generation treibt Metrik und Bedeutung weiter auseinander."
+ ],
+ ".meta .label": [
+  "Definiert",
+  "Wirkung",
+  "Beispiele",
+  "Lösung",
+  "Achtung",
+  "Paaren mit",
+  "Gesagt von",
+  "Berühmter Fall",
+  "Ursache",
+  "Taktik",
+  "Bevorzugen",
+  "Test",
+  "Geschwindigkeit paaren mit",
+  "Umsatz paaren mit",
+  "Kosten",
+  "Verfeinern bis",
+  "Wirkung",
+  "Lösung",
+  "Muster",
+  "Symptome"
+ ],
+ ".meta .value": [
+  "Messgröße → Ziel → korrumpiert",
+  "Zahl steigt · Bedeutung fällt",
+  "Seitenaufrufe · Registrierungen · DAU",
+  "An Ergebnis binden, nicht an Aktivität",
+  "Plötzliche Konformität",
+  "Kundenergebnis-Metrik",
+  "Donald Campbell, 1976",
+  "Standardisierte Tests",
+  "Realität hat sich geändert",
+  "Jährlich überprüfen",
+  "Ergebnisgebunden · mehrstufig",
+  "Könnte ich das in einer Stunde fälschen?",
+  "Qualität",
+  "Rückerstattungen",
+  "Fünf Minuten",
+  "Antwort lautet „nur durch Arbeit“",
+  "Goodhart, automatisiert",
+  "Mehrzielig · Leitplanken",
+  "Trainierte Metrik driftet",
+  "Schmeichelei · Über-Absicherung"
+ ],
+ ".ai-divider h3": [
+  "Goodharts Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI optimiert exakt das, was gemessen wird — und findet den Gaming-Zug schneller als jedes Team es je könnte."
+ ]
+}

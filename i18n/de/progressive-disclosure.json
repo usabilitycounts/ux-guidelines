@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Progressive <em>Offenlegung</em>"
+ ],
+ "header .tagline": [
+  "Zeigen Sie, was jetzt zählt. Enthüllen Sie den Rest auf Abruf."
+ ],
+ "header .subtitle": [
+  "Progressive Offenlegung verlagert fortgeschrittene oder selten genutzte Optionen auf eine zweite Ebene und hält den ersten Bildschirm auf das fokussiert, was die meisten Nutzer die meiste Zeit brauchen. Sie ist der praktikable Kompromiss zwischen Leistungsfähigkeit und Einfachheit."
+ ],
+ ".law-origin .body-text": [
+  "Die Technik wurde Anfang der 1980er bei IBM untersucht, wo <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a>s Training-Wheels-Interface die Fehler von Neulingen senkte, indem es fortgeschrittene Funktionen verbarg, bis die Nutzer bereit dafür waren.",
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> benannte und popularisierte das Muster für das Interface-Design und nannte progressive Offenlegung einen der besten Wege, mit einem einzigen Interface sowohl Neulinge als auch Experten zufriedenzustellen."
+ ],
+ ".law-content .law-desc": [
+  "Zeigen Sie Nutzern nur, was sie für die aktuelle Aufgabe brauchen, und bieten Sie einen klar beschrifteten Weg zum Rest. Primäre Optionen bleiben unmittelbar erreichbar; fortgeschrittene, seltene oder gefährliche Optionen liegen einen bewussten Schritt entfernt — vorhanden, aber nicht im Weg."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Jack Carroll (1983) · Jakob Nielsen",
+  "Training-Wheels-Studien, IBM",
+  "Das Primäre jetzt, der Rest auf Abruf"
+ ],
+ ".card .tag": [
+  "Das Muster",
+  "Auswahl",
+  "Mechanik",
+  "Abfolge",
+  "Scheitern",
+  "Detail",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Zwei Ebenen, ein Interface",
+  "Die primäre Auswahl treffen",
+  "Akkordeons, Drawer und „Erweitert“",
+  "Wizards sind Offenlegung in der Zeit",
+  "Das Wesentliche nicht vergraben",
+  "Details auf Abruf",
+  "Die kurze Antwort zuerst",
+  "Begründung auf Abruf"
+ ],
+ ".card .desc": [
+  "Der Kernzug: eine kleine primäre Auswahl sofort sichtbar, und eine beschriftete Tür zu allem anderen. Neulinge begegnen der Komplexität nie; Experten erreichen sie mit einem Klick. Beide Gruppen nutzen dasselbe Produkt.",
+  "Das Muster steht und fällt mit dem, was in Ebene eins kommt. Nutzungsdaten entscheiden: Die Handvoll Optionen, die die große Mehrheit der Aufgaben abdeckt, bleibt sichtbar. Raten Sie falsch, haben Sie den Kern des Produkts vergraben.",
+  "Die Offenlegungs-Bedienelemente sind eine kleine Familie: das Akkordeon, der „Erweiterte Optionen“-Link, das Überlaufmenü, der Detail-Drawer. Jedes braucht eine ehrliche Beschriftung — Nutzer müssen vorhersagen können, was hinter der Tür liegt, bevor sie sie öffnen.",
+  "Ein mehrstufiger Wizard legt progressiv über die Zeit statt über den Raum offen: Jeder Schritt zeigt das Interface für genau eine Entscheidung. Das vollständige Formular würde abschrecken; die Abfolge fühlt sich machbar an.",
+  "Der Fehlermodus des Musters ist das Über-Verstecken: Landet eine häufig gebrauchte Option in Ebene zwei, zahlt jeder Nutzer für immer einen Klick, und die Support-Tickets lauten „Wo ist X hin?“. Die Häufigkeit entscheidet über die Platzierung, nicht die Komplexität.",
+  "Tooltips, Popover und ausklappbare Zeilen legen Tiefe an Ort und Stelle offen — die Zusammenfassung bleibt überfliegbar, während das Detail darunter wartet. Shneidermans Mantra gilt: erst der Überblick, Details auf Abruf.",
+  "Eine gute Modellantwort ist progressive Offenlegung in Prosa: die direkte Antwort oben, die Herleitung darunter ausklappbar. Allen die vollständige Begründung vorzusetzen ist der Formularwand-Fehler, in Text umgeschrieben.",
+  "Agenten-Traces, Tool-Aufrufe und Gedankenketten gehören hinter eine Offenlegung: sichtbar genug zum Prüfen, eingeklappt genug, um nicht im Weg zu sein. Vertrauen braucht die Existenz der Tür; der Arbeitsfluss braucht sie standardmäßig geschlossen."
+ ],
+ ".meta .label": [
+  "Ebene eins",
+  "Ebene zwei",
+  "Dient",
+  "Entscheiden nach",
+  "Ebene eins",
+  "Falsch geraten",
+  "Familie",
+  "Beschriftungen",
+  "Rätseltüren",
+  "Legt offen",
+  "Jeder Schritt",
+  "Verhindert",
+  "Fehlermodus",
+  "Platzierung nach",
+  "Symptom",
+  "An Ort und Stelle",
+  "Zusammenfassung",
+  "Mantra",
+  "Oben",
+  "Ausklappbar",
+  "Prüfen",
+  "Arbeitsfluss"
+ ],
+ ".meta .value": [
+  "Was die meisten brauchen",
+  "Einen beschrifteten Schritt entfernt",
+  "Neuling und Experte",
+  "Nutzung, nicht Meinung",
+  "Deckt die meisten Aufgaben ab",
+  "Vergräbt den Kern",
+  "Akkordeon · Drawer · Mehr",
+  "Inhalt vorhersagbar machen",
+  "Werden nie geöffnet",
+  "Über die Zeit",
+  "Eine Entscheidung",
+  "Die Formularwand",
+  "Über-Verstecken",
+  "Nutzungshäufigkeit",
+  "„Wo ist X hin?“",
+  "Tooltip · Popover · Zeile",
+  "Bleibt überfliegbar",
+  "Erst der Überblick",
+  "Die direkte Antwort",
+  "Der Rechenweg",
+  "Die Tür existiert",
+  "Standardmäßig geschlossen"
+ ],
+ ".ai-divider h3": [
+  "Progressive Offenlegung im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Chat-Antworten und Agenten-Begründungen sind Offenlegungsprobleme: die kurze Antwort zuerst, der Rechenweg für die, die danach fragen."
+ ]
+}

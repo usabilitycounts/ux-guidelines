@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Teoría de la <em>carga cognitiva</em>"
+ ],
+ "header .tagline": [
+  "La memoria de trabajo es el cuello de botella. Gástala bien."
+ ],
+ "header .subtitle": [
+  "La teoría de John Sweller divide el esfuerzo mental en tres cargas: intrínseca (la tarea en sí), extrínseca (la sobrecarga de la interfaz) y relevante (el aprendizaje real). El trabajo del diseño es recortar la del medio."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psicólogo educativo australiano de la University of New South Wales, desarrolló la teoría de la carga cognitiva en 1988 a partir de estudios sobre cómo aprenden los estudiantes con ejemplos resueltos frente a la resolución de problemas en frío.",
+  "Sus experimentos mostraron que la instrucción fracasa cuando la memoria de trabajo se gasta en el formato en lugar del contenido — los efectos de atención dividida y de redundancia. La teoría se convirtió en uno de los marcos más citados del diseño instruccional, y se traslada directamente a las interfaces."
+ ],
+ ".law-content .law-desc": [
+  "La memoria de trabajo es muy limitada. La carga total se divide en intrínseca (la dificultad inherente de la tarea), extrínseca (el esfuerzo impuesto por la presentación) y relevante (el esfuerzo que construye comprensión). Reduce la carga extrínseca, gestiona la intrínseca y protege lo que quede para el trabajo relevante."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "John Sweller (1988)",
+  "Cognitive Science 12 — estudios de resolución de problemas",
+  "Recorta la sobrecarga de la interfaz"
+ ],
+ ".card .tag": [
+  "Tres cargas",
+  "Recortar",
+  "Gestionar",
+  "Atención dividida",
+  "Relevante",
+  "Señales",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Intrínseca, extrínseca, relevante",
+  "Elimina la carga extrínseca",
+  "Trocea la intrínseca",
+  "Mantén junto lo relacionado",
+  "Los ejemplos resueltos enseñan",
+  "Reconocer la sobrecarga",
+  "El gran absorbedor de carga",
+  "Verificar es la nueva carga"
+ ],
+ ".card .desc": [
+  "La carga intrínseca viene con la tarea — reservar un vuelo implica fechas y tarifas. La extrínseca viene de la presentación — buscar las condiciones de la tarifa. La relevante es el esfuerzo útil de comprender. Solo una de las tres te toca eliminar.",
+  "Cada decoración, etiqueta redundante, acento que compite y referencia dividida cuesta memoria de trabajo que la tarea necesitaba. La versión recargada y la limpia hacen el mismo trabajo; solo una deja espacio para pensar.",
+  "La carga intrínseca no se puede eliminar, pero sí secuenciar. Los asistentes por pasos, los valores predeterminados sensatos y las revelaciones parte por parte mantienen constante la dificultad de la tarea mientras limitan cuánta aterriza a la vez.",
+  "El efecto de atención dividida de Sweller: cuando el diagrama está aquí y su explicación allá, integrarlos es pura sobrecarga. Pon las etiquetas sobre la cosa, los errores en el campo y la ayuda donde surge la pregunta.",
+  "Los novatos aprenden más de un ejemplo completado que resolviendo en frío — carga relevante en acción. Las plantillas, los datos de muestra y los puntos de partida prellenados son la versión de interfaz del ejemplo resuelto.",
+  "La sobrecarga tiene firmas: releer la misma línea, abandonar a mitad de formulario, aceptar valores predeterminados equivocados, tickets de soporte que te citan la interfaz. Cuando los usuarios piensan en la herramienta en lugar de la tarea, la carga está mal asignada.",
+  "Un asistente que lee la documentación, rellena el formulario y reconcilia los formatos está eliminando carga extrínseca a escala industrial. La dificultad intrínseca de la tarea permanece — pero la sobrecarga a su alrededor se derrumba.",
+  "Lo que la IA quita en mecánica lo devuelve en parte en comprobación: ¿el resumen es fiel, el número correcto, la cita real? Diseña para una verificación barata — fuentes en línea, diferencias visibles — o la carga vuelve como ansiedad."
+ ],
+ ".meta .label": [
+  "Intrínseca",
+  "Extrínseca",
+  "Relevante",
+  "Elimina",
+  "Mismo trabajo",
+  "Memoria liberada",
+  "No se elimina",
+  "Herramientas",
+  "Límite",
+  "Etiqueta",
+  "Error",
+  "Ayuda",
+  "Novatos",
+  "Forma en interfaz",
+  "Lienzos en blanco",
+  "Firmas",
+  "Señal",
+  "Mide",
+  "Elimina",
+  "Permanece",
+  "Nueva carga",
+  "Hazla barata"
+ ],
+ ".meta .value": [
+  "La tarea en sí",
+  "La sobrecarga de tu interfaz",
+  "Aprendizaje que perdura",
+  "Decoración · redundancia",
+  "Menos sobrecarga",
+  "Va a la tarea",
+  "Solo secuenciar",
+  "Asistentes · predeterminados",
+  "Carga por momento",
+  "Sobre la cosa",
+  "En el campo",
+  "Donde está la pregunta",
+  "Aprenden con ejemplos",
+  "Plantillas · datos de muestra",
+  "Salen caros",
+  "Relecturas · abandonos",
+  "Pensar en la herramienta",
+  "Éxito en la tarea · tiempo",
+  "La sobrecarga",
+  "La decisión real",
+  "Comprobar a la máquina",
+  "Fuentes · diffs en línea"
+ ],
+ ".ai-divider h3": [
+  "La carga cognitiva en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los asistentes absorben una carga extrínseca enorme — y acuñan una nueva: el esfuerzo de verificar lo que la máquina afirma."
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "header h1": [
+  "Tesler’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "Every system has a complexity that <em>can’t be removed</em> — only moved."
+ ],
+ "header .subtitle": [
+  "Every system carries an irreducible amount of complexity. The only question is who absorbs it — the system or the user. Good design quietly takes on as much as it can."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Larry_Tesler\" target=\"_blank\" rel=\"noopener\">Larry Tesler</a> was an American computer scientist at Xerox PARC and later Apple, where he rose to chief scientist. He invented cut, copy, and paste, and spent his career crusading against modes — his license plate read NO MODES.",
+  "He formulated the law of conservation of complexity around 1984 while arguing that engineers, who work with a system once, should absorb complexity rather than pushing it onto users, who face it every day."
+ ],
+ ".law-content .law-desc": [
+  "Every application has an irreducible amount of complexity. The only question is who deals with it — the system and its builders, or every user, every time."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-larry-tesler\">Larry Tesler</a>",
+  "Xerox PARC and Apple design practice",
+  "Absorb complexity into the system"
+ ],
+ ".card .tag": [
+  "The law",
+  "Two kinds",
+  "The trade",
+  "Best practice",
+  "The trap",
+  "Technique",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Law",
+  "Inherent vs. Accidental Complexity",
+  "Who Absorbs the Complexity?",
+  "Shift Complexity to the System",
+  "You Can’t Oversimplify It Away",
+  "Manage It with <a href=\"progressive-disclosure.html\">Progressive Disclosure</a>",
+  "AI Absorbs the Complexity",
+  "The Risk: Complexity Goes Hidden"
+ ],
+ ".card .desc": [
+  "Every application has an inherent amount of complexity that cannot be removed. The only choice is where it lives: inside the system where engineers and designers wrestle with it, or out in the open where users must.",
+  "Some complexity is essential to the problem — booking a flight really does involve dates, seats, and fares. Accidental complexity is the extra friction we add on top. You can delete the accidental; you can only relocate the inherent.",
+  "Every design decision pushes the burden one way or the other. A blank text field is simple to build but hard to use; a guided flow is harder to build but effortless to complete. The work doesn’t go away — someone pays for it.",
+  "Smart defaults, autofill, format detection, and inference let the product do the heavy lifting. Every field you can pre-fill or compute is a decision the user never has to make — the burden absorbed where it belongs.",
+  "Strip out essential complexity and it resurfaces as confusion, errors, or support tickets. A flow that hides necessary steps doesn’t remove the work — it just leaves the user to rediscover it the hard way.",
+  "When complexity must reach the user, reveal it in layers. Show the common path first and tuck advanced options behind “More.” People get a simple surface without losing the depth they occasionally need.",
+  "A model can take a messy, ambiguous request and resolve the steps itself — the ultimate shift of complexity from user to system. “Plan my trip” replaces a dozen forms. The burden moves further toward the machine than ever before.",
+  "When the model absorbs everything, the necessary parts can vanish too — the assumptions, trade-offs, and edge cases the user actually needed to weigh. Conservation still holds: surface what matters, with sources, controls, and an undo."
+ ],
+ ".meta .label": [
+  "Coined by",
+  "Also called",
+  "Core idea",
+  "Inherent",
+  "Accidental",
+  "Goal",
+  "Push to user",
+  "Push to system",
+  "Default",
+  "Tools",
+  "Effect",
+  "Cost",
+  "Failure mode",
+  "It returns as",
+  "Fix",
+  "Pattern",
+  "Show first",
+  "Tuck away",
+  "Shift",
+  "Absorbs",
+  "Upside",
+  "Risk",
+  "Keep visible",
+  "Safety net"
+ ],
+ ".meta .value": [
+  "<a href=\"people.html#p-larry-tesler\">Larry Tesler</a> (1984)",
+  "Conservation of Complexity",
+  "Complexity moves; it never disappears",
+  "Essential to the task",
+  "Self-inflicted friction",
+  "Delete accidental first",
+  "Cheap to build · costly to use",
+  "Costly to build · easy to use",
+  "Favor the user",
+  "Defaults · autofill · inference",
+  "Fewer decisions for the user",
+  "More logic behind the scenes",
+  "Hide essential steps",
+  "Errors · confusion · tickets",
+  "Absorb it, don’t bury it",
+  "Layered reveal",
+  "The 80% common path",
+  "Advanced and rare options",
+  "Forms → intent",
+  "Steps · choices · synthesis",
+  "Effortless for the user",
+  "Hiding what users must weigh",
+  "Assumptions · sources · controls",
+  "Undo and override"
+ ],
+ ".ai-divider h3": [
+  "Tesler’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI is the most powerful complexity-absorber yet — and the most tempting place to hide complexity the user still needs to see."
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Biais des <em>contours</em>"
+ ],
+ "header .tagline": [
+  "L’arrondi apaise. L’angle alerte."
+ ],
+ "header .subtitle": [
+  "Moshe Bar et Maital Neta ont montré en 2006 que les gens préfèrent les objets courbes aux objets anguleux — les contours pointus sont lus comme une menace au premier regard. La rondeur met à l’aise ; l’angle exige l’attention. Les deux sont des outils."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)\" target=\"_blank\" rel=\"noopener\">Moshe Bar</a> et Maital Neta, à Harvard, ont montré des paires d’objets du quotidien — identiques à leurs contours près — pendant une fraction de seconde. Les participants préféraient systématiquement les versions courbes, même sans le temps d’y réfléchir.",
+  "Leurs travaux suivants ont désigné le mécanisme : les objets anguleux activaient davantage l’amygdale, le détecteur de menace du cerveau. La préférence pour les courbes n’est pas une question de goût — c’est un jugement de sécurité rapide et primitif, qui se déclenche avant la pensée délibérée."
+ ],
+ ".law-content .law-desc": [
+  "Au premier regard, les gens jugent les contours courbes sûrs et accueillants, et les contours pointus potentiellement menaçants. La réponse est rapide, automatique, et d’autant plus forte sous pression temporelle — exactement la façon dont on regarde une interface."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-moshe-bar\">Moshe Bar</a> et <a href=\"people.html#p-maital-neta\">Maital Neta</a> (2006)",
+  "« Humans Prefer Curved Visual Objects »",
+  "Arrondir pour rassurer, aiguiser pour alerter"
+ ],
+ ".card .tag": [
+  "La recherche",
+  "Mécanisme",
+  "Pratique",
+  "Contraste",
+  "Limite",
+  "Système",
+  "À l’ère de l’IA",
+  "À l’ère de l’IA"
+ ],
+ ".card h3": [
+  "La préférence en une fraction de seconde",
+  "L’angle est lu comme une menace",
+  "Pourquoi les boutons se sont arrondis",
+  "Aiguiser pour alerter",
+  "Un biais, pas une règle",
+  "Une seule courbure, partout",
+  "Le rayon 12 par défaut",
+  "Arrondi pour désarmer"
+ ],
+ ".card .desc": [
+  "Montres, canapés, lettres — présentés courbes ou anguleux pendant 84 millisecondes. La courbe a gagné, catégorie après catégorie. La préférence tenait même quand les participants ne savaient pas l’expliquer : la signature d’un jugement pré-attentif.",
+  "L’étude d’imagerie qui a suivi a montré les contours pointus activant l’amygdale. Arêtes et pointes ressemblent à ce qui coupe et perce : le cerveau les signale d’abord et ne pose jamais de questions. Les designers héritent de ce câblage.",
+  "Les coins arrondis des boutons, cartes, champs et avatars abaissent le risque ressenti de l’interaction. Un bouton-pilule dit « sans danger » avant même que l’étiquette soit lue. Le rayon fait un travail émotionnel, pas décoratif.",
+  "La réponse à la menace devient une qualité quand le message est le danger. Triangles d’avertissement, badges d’erreur et chevrons fonctionnent parce qu’ils sont anguleux. Une alerte aux coins doux chuchote ; la même alerte avec des pointes crie.",
+  "Le contexte peut l’emporter sur le contour. Outils de précision, marques de luxe et design éditorial utilisent la géométrie tranchante pour signaler la rigueur — et l’arrondi partout peut sembler mou ou enfantin. Choisissez d’abord l’émotion, ensuite le coin.",
+  "Le rayon des coins est un jeton de design, et mélanger les rayons est la façon dont une interface se met à sonner faux sans qu’on sache pourquoi. Choisissez une échelle de courbure — vive, subtile ou ronde — et faites-la respecter partout.",
+  "Demandez une interface à un modèle et vous recevez les mêmes coins doux que tout le monde — une courbure choisie par la statistique, pas par l’intention. Quand tout est également arrondi, le contour ne porte plus la marque. Fixez votre rayon exprès.",
+  "Assistants, robots et mascottes d’IA sont volontairement adoucis — orbes, bulles, arcs — parce que les courbes baissent la garde. Très bien quand le système est bénin ; manipulateur quand la rondeur cache ce que le système fait."
+ ],
+ ".meta .label": [
+  "Exposition",
+  "Verdict",
+  "Signature",
+  "Région",
+  "Motif",
+  "Vitesse",
+  "Où",
+  "Message",
+  "Le rayon est",
+  "L’angle sert",
+  "Alerte douce",
+  "Alerte anguleuse",
+  "L’angle signale",
+  "Risque du tout-rond",
+  "Ordre",
+  "Le rayon est",
+  "Rayons mélangés",
+  "Correctif",
+  "Défaut",
+  "Coût",
+  "Les courbes baissent",
+  "Ligne de conduite"
+ ],
+ ".meta .value": [
+  "84 millisecondes",
+  "La courbe, systématiquement",
+  "Pré-attentif, non raisonné",
+  "L’amygdale",
+  "Les pointes signifient danger",
+  "Avant la pensée délibérée",
+  "Boutons · cartes · champs",
+  "Sans danger",
+  "Émotionnel, pas décoratif",
+  "Avertissements et dangers",
+  "Chuchote",
+  "Crie",
+  "Rigueur · précision · caractère",
+  "Mou ou enfantin",
+  "L’émotion d’abord, le coin ensuite",
+  "Un jeton, pas un caprice",
+  "Sonne faux, invisiblement",
+  "Une seule échelle de courbure",
+  "Des coins statistiques",
+  "Le contour ne signe plus",
+  "La garde de l’utilisateur",
+  "Rassurer, jamais dissimuler"
+ ],
+ ".ai-divider h3": [
+  "Le biais des contours à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Les interfaces générées livrent le même rayon amical par défaut, et les produits d’IA s’arrondissent pour sembler inoffensifs. La courbure est devenue une rhétorique — employez-la honnêtement."
+ ]
+}

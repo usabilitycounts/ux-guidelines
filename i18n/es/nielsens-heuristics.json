@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Las 10 heurísticas de Nielsen"
+ ],
+ "header .tagline": [
+  "Diez <em>reglas generales</em> para detectar lo que falla"
+ ],
+ "header .subtitle": [
+  "Las diez heurísticas de usabilidad de Jakob Nielsen siguen siendo la lista de verificación más usada para encontrar problemas de interfaz — cada una explicada con un ejemplo moderno y práctico."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> es un ingeniero de usabilidad danés que popularizó métodos de usabilidad rápidos y baratos en Sun Microsystems antes de cofundar Nielsen Norman Group con <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> en 1998. Su movimiento de 'usabilidad de descuento' convirtió las pruebas con cinco usuarios en un estándar de la industria.",
+  "Las diez heurísticas se desarrollaron con <a href=\"https://en.wikipedia.org/wiki/Rolf_Molich\" target=\"_blank\" rel=\"noopener\">Rolf Molich</a> en 1990 y se refinaron en 1994 a partir de un análisis factorial de 249 problemas de usabilidad. Siguen siendo la lista de verificación más usada en la revisión experta — perduran porque describen limitaciones humanas, no tecnologías."
+ ],
+ ".law-content .law-desc": [
+  "Diez reglas generales amplias para el diseño de interfaces — visibilidad del estado, correspondencia con el mundo real, control del usuario, consistencia, prevención de errores, reconocimiento antes que recuerdo, flexibilidad, minimalismo, buenos mensajes de error y ayuda. No son leyes: heurísticas para encontrar problemas rápido."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Jakob Nielsen y Rolf Molich",
+  "Refinadas a partir de 249 problemas de usabilidad analizados",
+  "Haz revisiones heurísticas antes de las pruebas con usuarios"
+ ],
+ ".card .tag": [
+  "Retroalimentación",
+  "Familiaridad",
+  "Reversibilidad",
+  "Previsibilidad",
+  "Barandillas",
+  "Carga de memoria",
+  "Aceleradores",
+  "Señal-ruido",
+  "Lenguaje llano",
+  "Justo a tiempo",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Visibilidad del estado del sistema",
+  "Correspondencia entre el sistema y el mundo real",
+  "Control y libertad del usuario",
+  "Consistencia y estándares",
+  "Prevención de errores",
+  "Reconocimiento antes que recuerdo",
+  "Flexibilidad y eficiencia de uso",
+  "Diseño estético y minimalista",
+  "Ayudar a reconocer, diagnosticar y recuperarse",
+  "Ayuda y documentación",
+  "Muestra al modelo pensando",
+  "Detener y regenerar"
+ ],
+ ".card .desc": [
+  "El sistema siempre debería mantener a los usuarios informados de lo que está pasando, mediante retroalimentación apropiada en un tiempo razonable.",
+  "Habla el idioma del usuario. Usa palabras, frases y conceptos que le resulten familiares, no términos orientados al sistema. Sigue las convenciones del mundo real.",
+  "Los usuarios eligen funciones del sistema por error con frecuencia y necesitan una \"salida de emergencia\" claramente marcada para abandonar el estado no deseado — ofrece deshacer y rehacer.",
+  "Los usuarios no deberían tener que preguntarse si distintas palabras, situaciones o acciones significan lo mismo. Sigue las convenciones de la plataforma y de la industria.",
+  "Mejor que un buen mensaje de error es un diseño cuidadoso que evita que el problema ocurra en primer lugar — barandillas antes que guías.",
+  "Minimiza la carga de memoria haciendo visibles los objetos, acciones y opciones. Los usuarios no deberían tener que recordar información de una parte de la interfaz a otra.",
+  "Los aceleradores — invisibles para los novatos — pueden agilizar la interacción de los expertos, de modo que el sistema sirva a ambos. Deja que los usuarios personalicen las acciones frecuentes.",
+  "Las interfaces no deberían contener información irrelevante o que rara vez se necesita. Cada unidad extra de información compite con las relevantes y disminuye su visibilidad.",
+  "Los mensajes de error deberían expresarse en lenguaje llano, indicar el problema con precisión y sugerir una solución de forma constructiva. Dile al usuario qué falla y cómo arreglarlo.",
+  "Aunque es mejor que el sistema pueda usarse sin documentación, puede ser necesario ofrecer ayuda. Esa información debería ser fácil de buscar y estar centrada en la tarea del usuario.",
+  "La visibilidad del estado del sistema ahora significa tokens en streaming, un brillo de \"pensando\" y el progreso de las llamadas a herramientas. Diez segundos de silencio durante la generación se leen como una app congelada y rota.",
+  "Control y libertad del usuario, edición IA: un botón de detener a mitad del stream y un regenerar después. La primera respuesta del modelo es un borrador, nunca un callejón sin salida."
+ ],
+ ".meta .label": [
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Cuidado con",
+  "Contexto",
+  "Implicación",
+  "Heurística",
+  "Mostrar",
+  "Cuidado con",
+  "Heurística",
+  "Ofrecer",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Cargas silenciosas · Guardados ocultos",
+  "Acciones largas · Formularios",
+  "Muestra progreso, tiempo y estado",
+  "Jerga · Lenguaje de sistema",
+  "Etiquetas · Iconos · Textos de error",
+  "Toma prestado del mundo físico",
+  "Flujos sin salida · Sin escape",
+  "Formularios · Editores · Asistentes",
+  "Ofrece siempre deshacer y escapar",
+  "Acciones renombradas · Deriva",
+  "Sistemas de diseño · Apps multipágina",
+  "Codifica el patrón, repítelo",
+  "Acciones destructivas silenciosas",
+  "Eliminar · Enviar · Confirmar",
+  "Confirma o restringe las rutas de riesgo",
+  "Campos en blanco · Códigos crípticos",
+  "Formularios · Filtros · Comandos",
+  "Muestra opciones; deja elegir",
+  "Usuarios avanzados atascados en flujos de novato",
+  "Herramientas de productividad · Dashboards",
+  "Superpón atajos sobre lo básico",
+  "Desorden visual · Exceso de información",
+  "Onboarding · Landing · Estados vacíos",
+  "Recorta todo lo que no se gane su lugar",
+  "\"Error 504\" · Textos vagos",
+  "Formularios · APIs · Errores de sistema",
+  "Explica qué, por qué y cómo arreglarlo",
+  "Ayuda enterrada · Manuales largos",
+  "Ajustes · Funciones complejas",
+  "Ayuda contextual; pasos concretos",
+  "N.º 1 Visibilidad del estado",
+  "Streaming · progreso · herramientas",
+  "Esperas silenciosas",
+  "N.º 3 Control y libertad",
+  "Detener · regenerar · editar",
+  "Generación imparable"
+ ],
+ ".ai-divider h3": [
+  "Las heurísticas en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las diez heurísticas siguen vigentes — pero \"estado del sistema\", \"control del usuario\" y \"prevención de errores\" cobran un significado nuevo cuando el sistema es un modelo probabilístico."
+ ]
+}

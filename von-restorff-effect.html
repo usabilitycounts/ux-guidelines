@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" data-page="von-restorff">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t.">
+<title>Von Restorff Effect: The Isolation Effect in Interface Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/von-restorff-effect.html">
+<meta property="og:title" content="Von Restorff Effect: The Isolation Effect in Interface Design — UX Guidelines">
+<meta property="og:description" content="Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/von-restorff-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Von Restorff Effect: The Isolation Effect in Interface Design — UX Guidelines">
+<meta name="twitter:description" content="Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link active">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Von Restorff <em>Effect</em></h1>
+  <p class="tagline">The one that differs is the one remembered.</p>
+  <p class="subtitle">Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Hedwig_von_Restorff" target="_blank" rel="noopener">Hedwig von Restorff</a> was a German psychiatrist and pediatrician working in the Gestalt tradition at the University of Berlin. Her 1933 experiments showed that an item that stands out from its neighbors — in color, size, or kind — is dramatically better remembered.</p>
+    <p class="body-text">The finding became known as the isolation effect. Her academic career was cut short when the Gestalt school around her was dismantled in 1930s Germany, but the effect she documented became one of the most-used levers in advertising and interface design.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">When multiple similar items are presented together, the one that differs from the rest is most likely to be noticed and remembered. Distinctiveness is a budget: the fewer things that differ, the more powerfully each difference works.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-hedwig-von-restorff">Hedwig von Restorff</a> (1933)</div></div>
+      <div><div class="label">Source</div><div class="value">Isolation-effect experiments, Berlin</div></div>
+      <div><div class="label">In practice</div><div class="value">One emphasis at a time</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The effect</span>
+      <span class="num">01 / 08</span>
+      <h3>The Isolation Effect</h3>
+      <p class="desc">Nine grey squares and one blue one: nobody forgets which was blue. Difference against a uniform field is the strongest attention signal a layout can send — stronger than size, position, or repetition.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="grid2" style="grid-template-columns:repeat(5,1fr)"><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile b"></span><span class="tile"></span><span class="tile"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Signal</div><div class="value">Difference from the field</div></div>
+      <div><div class="label">Strength</div><div class="value">Beats size and position</div></div>
+      <div><div class="label">Requires</div><div class="value">A uniform background</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Budget</span>
+      <span class="num">02 / 08</span>
+      <h3>One Accent Only</h3>
+      <p class="desc">The effect spends a budget. One highlighted element per screen is unforgettable; three compete; ten cancel out and the screen reads as noise. Every emphasis you add taxes every emphasis already there.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col"><div class="row"><i class="w-30"></i></div><div class="row hot"><i class="w-34"></i></div><div class="row"><i class="w-26"></i></div></div><div class="col" style="opacity:0.8"><div class="row hot"><i class="w-30"></i></div><div class="row hot"><i class="w-34"></i></div><div class="row hot"><i class="w-26"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Rule</div><div class="value">One per screen</div></div>
+      <div><div class="label">Two+</div><div class="value">They compete</div></div>
+      <div><div class="label">Everything</div><div class="value">Nothing stands out</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">CTAs</span>
+      <span class="num">03 / 08</span>
+      <h3>Primary Actions Earn the Color</h3>
+      <p class="desc">This is the theory beneath the primary button. One filled, colored action against quiet neighbors gets found, chosen, and remembered. Secondary actions stay grey precisely so the primary one can differ.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;padding:18px 34px"><div style="display:flex;gap:12px"><span style="height:26px;flex:1.2;border-radius:9px;background:var(--il-accent);display:block"></span><span style="height:26px;flex:1;border-radius:9px;background:var(--surface);display:block"></span><span style="height:26px;flex:1;border-radius:9px;background:var(--surface);display:block"></span></div><span class="ln faint w-70"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Primary</div><div class="value">The one that differs</div></div>
+      <div><div class="label">Secondary</div><div class="value">Deliberately quiet</div></div>
+      <div><div class="label">Watch for</div><div class="value">Two primaries</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Misuse</span>
+      <span class="num">04 / 08</span>
+      <h3>Don’t Isolate the Wrong Thing</h3>
+      <p class="desc">The effect works on whatever differs — including a promo banner, a decorative badge, or an ad. If the most distinctive element on the screen isn’t the most important one, you’ve aimed the isolation effect at your own foot.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row" style="background:rgba(56,189,248,0.15)"><i style="width:24%;background:var(--il-accent);opacity:1"></i></div><div class="row ghost"></div><div class="row"><i class="w-36"></i></div><div class="row ghost"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Ask</div><div class="value">What differs most?</div></div>
+      <div><div class="label">Answer should be</div><div class="value">What matters most</div></div>
+      <div><div class="label">Common miss</div><div class="value">Promos out-shout actions</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Access</span>
+      <span class="num">05 / 08</span>
+      <h3>Never Color Alone</h3>
+      <p class="desc">For color-blind and low-vision users, an isolation built purely on hue disappears. Pair the color difference with a second channel — weight, an icon, a fill, position — so the distinct item stays distinct for everyone.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><span class="dot"></span><i class="w-30"></i></div><div class="row hot"><span class="dot b" style="border-radius:3px"></span><i class="w-34"></i></div><div class="row"><span class="dot"></span><i class="w-26"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Rule</div><div class="value">Two channels minimum</div></div>
+      <div><div class="label">Pair color with</div><div class="value">Shape · weight · icon</div></div>
+      <div><div class="label">Standard</div><div class="value">WCAG 1.4.1</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="wcag-pour.html">WCAG and POUR</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Commerce</span>
+      <span class="num">06 / 08</span>
+      <h3>The Highlighted Plan</h3>
+      <p class="desc">Pricing tables run on von Restorff: the recommended tier gets the border, the badge, and the tint, and it converts far beyond its share. Isolate the plan you’d honestly recommend — users notice when the emphasis is cynical.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col"><span class="tile s flex-1"></span></div><div class="col"><span class="tile" style="flex:1;background:rgba(56,189,248,0.18);opacity:1"></span></div><div class="col"><span class="tile s flex-1"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">One featured tier</div></div>
+      <div><div class="label">Effect</div><div class="value">Outsized selection</div></div>
+      <div><div class="label">Keep it</div><div class="value">Honest</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Von Restorff in the Age of AI</h3>
+    <p>When every product marks its AI features with the same sparkle, nothing is isolated any more — and machine-chosen emphasis raises who decides what stands out.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Sparkle Stopped Sparkling</h3>
+      <p class="desc">When AI arrived, the ✦ sparkle was isolated — one glowing feature in a familiar UI. Now every toolbar has one. A distinctiveness signal adopted by everyone is a distinctiveness signal for no one.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-30"></i><span class="dot b" style="width:10px;height:10px;margin-left:auto"></span></div><div class="row"><i class="w-34"></i><span class="dot b" style="width:10px;height:10px;margin-left:auto"></span></div><div class="row"><i class="w-26"></i><span class="dot b" style="width:10px;height:10px;margin-left:auto"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Lesson</div><div class="value">Shared signals fade</div></div>
+      <div><div class="label">Counter</div><div class="value">Differ in behavior, not badge</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Machine-Chosen Emphasis</h3>
+      <p class="desc">Models can now decide which item to highlight — per user, per moment. That puts the isolation effect on autopilot: powerful when the model highlights what the user needs, corrosive when it highlights what the business wants clicked.</p>
+    </div>
+    <div class="demo"><div class="il gap-7"><div class="row"><i class="w-30"></i></div><div class="row hot"><i class="w-36"></i><span class="chk"></span></div><div class="row"><i class="w-28"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Upside</div><div class="value">Right thing, right time</div></div>
+      <div><div class="label">Risk</div><div class="value">Dark-pattern autopilot</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Von_Restorff_effect" target="_blank" rel="noopener"><span class="title">Von Restorff Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Hedwig_von_Restorff" target="_blank" rel="noopener"><span class="title">Hedwig von Restorff — psychiatrist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/von-restorff-effect/" target="_blank" rel="noopener"><span class="title">Von Restorff Effect on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Von Restorff Effect</div>
+</footer>
+
+</body>
+</html>

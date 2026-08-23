@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en" data-page="grid">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Grids organize space and hierarchy directs attention. Together they form the silent layer beneath every well-resolved interface — the part users never notice when it&#x27;s right.">
+<title>Grid and Hierarchy: The Invisible Scaffolding of Interface Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/grid-and-hierarchy.html">
+<meta property="og:title" content="Grid and Hierarchy: The Invisible Scaffolding of Interface Design — UX Guidelines">
+<meta property="og:description" content="Grids organize space and hierarchy directs attention. Together they form the silent layer beneath every well-resolved interface — the part users never notice when it&#x27;s right.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/grid-and-hierarchy.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Grid and Hierarchy: The Invisible Scaffolding of Interface Design — UX Guidelines">
+<meta name="twitter:description" content="Grids organize space and hierarchy directs attention. Together they form the silent layer beneath every well-resolved interface — the part users never notice when it&#x27;s right.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --grid-l: #d8d1c0;
+    /* All grid/hierarchy accents unified to one beige — same as eye scanning */ }
+
+  /* ---------- Grid of cards ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  
+  /* When demo wraps a browser-frame, strip the outer grey chrome */
+  .demo:has(.browser-frame), .demo:has(.browser-mini) {
+    padding: 0 !important;
+    background: none !important;
+    border: none !important;
+  }
+  .demo:has(.browser-frame) > .demo-label,
+  .demo:has(.browser-frame) > .demo-tag,
+  .demo:has(.browser-mini) > .demo-label,
+  .demo:has(.browser-mini) > .demo-tag { display: none; }
+  /* Tags use one neutral muted scheme — no per-card color */
+
+  /* card 10 spans full row */
+  .card.g10 .demo { max-width: 720px; }
+  .card.g10 .meta { grid-template-columns: 1fr 1fr; }
+
+  /* ---------- Demo-specific styles ---------- */
+
+  /* Block primitives for grid demos */
+  .blk { fill: currentColor; opacity: 0.85; }
+  .blk.faded { opacity: 0.30; }
+
+  /* Hierarchy demo type */
+  .type-row { display: flex; flex-direction: column; gap: 6px; }
+
+  @keyframes grow {   from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+  .fi-6 { animation-delay: 0.85s; }
+  .fi-7 { animation-delay: 1.0s; }
+  .fi-8 { animation-delay: 1.15s; }
+  .pulse { animation: pulse 1.8s ease-in-out infinite; }
+
+  /* ---------- Mobile ---------- */
+  @media (max-width: 600px) {
+    .card.g10 { grid-column: unset; }
+    .card.g10 .meta { grid-template-columns: 1fr 1fr; }
+
+  }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+  /* category sections */
+  .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 40px 32px 8px; line-height: var(--lh-heading); }
+  @media (max-width: 600px) { .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 28px 20px 8px; line-height: var(--lh-heading); } }
+  .bf-body { flex: 1 1 auto; min-height: 0; padding: 28px 32px 22px; background: transparent; display: flex; }
+
+  /* 12-column grid illustration */
+  .colgrid { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 22px; display: flex; gap: 8px; }
+  .colgrid span { flex: 1; background: var(--skel); opacity: 0.35; border-radius: 6px; }
+
+  /* Baseline grid illustration — masonry blocks snapped to a shared baseline rhythm */
+  .baseline { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 22px; }
+  .baseline-rows {
+    position: relative; height: 100%;
+    display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(9, 1fr);
+    gap: 10px;
+    background-image: linear-gradient(var(--skel) 1px, transparent 1px);
+    background-size: 100% calc((100% + 10px) / 9);
+    background-position: 0 -1px;
+  }
+  .baseline-rows span { background: var(--skel); opacity: 0.35; border-radius: 8px; }
+  .bl-a { grid-row: span 4; }
+  .bl-b { grid-row: span 5; }
+  .bl-c { grid-row: span 3; }
+
+  /* Shared layer for grid/hierarchy illustrations */
+  .glay { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 22px; }
+  .gb { background: var(--skel); opacity: 0.5; border-radius: 8px; }
+  .gb.hot { background: var(--il-accent); opacity: 1; }
+  .gb.mid { opacity: 0.55; }
+  .gb.dark { background: var(--skel-strong); opacity: 0.6; }
+  .gline { position: absolute; background: var(--il-accent); }
+  .gdot { position: absolute; width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); transform: translate(-50%,-50%); }
+
+  /* Modular grid */
+  .g-modular { display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(3, 1fr); gap: 10px; height: 100%; }
+  /* Golden ratio */
+  .g-golden { display: flex; gap: 10px; height: 100%; }
+  .g-golden .maj { flex: 1.618; }
+  .g-golden .minr { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+  .g-golden .minr .top { flex: 1.618; }
+  .g-golden .minr .bot { flex: 1; display: flex; gap: 10px; }
+  .g-golden .minr .bot .l { flex: 1; }
+  .g-golden .minr .bot .r { flex: 1.618; }
+  /* Rule of thirds */
+  .g-thirds { position: relative; height: 100%; }
+  .g-thirds .gb { position: absolute; inset: 0; border-radius: 8px; }
+  /* Hierarchy by scale */
+  .g-scale { display: flex; flex-direction: column; justify-content: center; gap: 14px; height: 100%; }
+  .g-scale .h1 { height: 22px; width: 62%; }
+  .g-scale .h2 { height: 13px; width: 44%; }
+  .g-scale .h3l { height: 7px; width: 82%; }
+  .g-scale .h3s { height: 7px; width: 70%; }
+  /* Hierarchy by weight */
+  .g-weight { display: flex; flex-direction: column; justify-content: center; gap: 16px; height: 100%; }
+  .g-weight span { height: 12px; width: 70%; border-radius: 6px; display: block; }
+  /* Color and contrast */
+  .g-contrast { display: flex; flex-direction: column; justify-content: center; gap: 12px; height: 100%; }
+  .g-contrast span { height: 8px; width: 78%; border-radius: 4px; display: block; }
+  .g-contrast .cta { height: 20px; width: 92px; border-radius: 10px; margin-top: 6px; }
+  /* Whitespace */
+  .g-space { display: grid; grid-template-columns: 1fr 1fr; height: 100%; }
+  .g-space .side { padding: 12px 16px; display: flex; flex-direction: column; }
+  .g-space .side.cramped { gap: 5px; background: var(--surface); border-radius: 8px; margin-right: 8px; }
+  .g-space .side.airy { gap: 18px; justify-content: center; }
+  .g-space span { height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.5; display: block; }
+  /* Alignment */
+  .g-align { position: relative; height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 13px; padding-left: 18px; }
+  .g-align .rule { position: absolute; left: 6px; top: 0; bottom: 0; width: 4px; border-radius: 2px; background: var(--il-accent); }
+  .g-align span { height: 8px; border-radius: 4px; background: var(--skel); opacity: 0.45; display: block; }
+  /* Generative layouts (AI) */
+  .g-gen { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; height: 100%; }
+  .g-gen .thumb { border-radius: 8px; background: var(--surface); padding: 10px; display: flex; flex-direction: column; gap: 5px; }
+  .g-gen .thumb.hot { background: rgba(56,189,248,0.15); }
+  .g-gen .thumb i { display: block; background: var(--skel); opacity: 0.4; border-radius: 3px; flex: 1; }
+  .g-gen .thumb i.bar { flex: 0 0 8px; }
+
+  /* Complex hierarchy examples */
+  .vh { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 20px 22px; display: flex; flex-direction: column; }
+  .vh .b { background: var(--skel); opacity: 0.555; border-radius: 4px; display: block; }
+  .vh .b.strong { background: var(--skel-strong); opacity: 0.8; }
+  .vh .b.ink { background: var(--skel-emphasis); opacity: 1; }
+  .vh .b.faint { opacity: 0.28; }
+  /* scale: article */
+  .vh-scale { gap: 8px; }
+  .vh-scale .head { height: 18px; width: 78%; }
+  .vh-scale .head2 { height: 18px; width: 46%; margin-bottom: 4px; }
+  .vh-scale .sub { height: 10px; width: 58%; margin: 6px 0 2px; }
+  .vh-scale .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 18px; flex: 1; align-content: start; margin-top: 6px; }
+  .vh-scale .cols .b { height: 5px; }
+  /* weight: list rows */
+  .vh-weight { gap: 0; justify-content: center; }
+  .vh-weight .row { display: flex; align-items: center; gap: 14px; padding: 9px 10px; border-radius: 6px; }
+  .vh-weight .row:nth-child(odd) { background: var(--surface); }
+  
+  .vh-weight .lab { height: 9px; border-radius: 4px; flex: 0 0 32%; }
+  .vh-weight .val { height: 9px; border-radius: 4px; flex: 1; max-width: 45%; }
+  /* contrast: form */
+  .vh-contrast { gap: 12px; justify-content: space-evenly; }
+  .vh-contrast .field { height: 24px; background: var(--surface); border-radius: 5px; width: 100%; }
+  .vh-contrast .lab { height: 6px; width: 24%; }
+  .vh-contrast .btns { display: flex; gap: 10px; align-items: center; width: 100%; }
+  .vh-contrast .btn-g { height: 24px; flex: 1; border-radius: 12px; background: var(--surface); }
+  .vh-contrast .btn-b { height: 24px; flex: 1.4; border-radius: 12px; background: var(--il-accent); }
+  /* whitespace: two mini pages */
+  .vh-space { flex-direction: row; gap: 16px; }
+  .vh-space .mini { flex: 1; background: var(--surface); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; }
+  .vh-space .mini.dense { gap: 4px; }
+  .vh-space .mini.airy { gap: 14px; justify-content: center; align-items: flex-start; }
+  .vh-space .mini .b { height: 5px; }
+  .vh-space .mini .bar { height: 10px; margin-bottom: 2px; }
+  .vh-space .mini .blk { height: 22px; border-radius: 4px; margin: 2px 0; }
+  .vh-space .mini .cta { height: 14px; width: 46px; border-radius: 7px; }
+  /* alignment: form on rules */
+  .vh-align { position: relative; justify-content: center; gap: 12px; padding-left: 36px; padding-right: 36px; }
+  .vh-align .rule-l { position: absolute; left: 22px; top: 12px; bottom: 12px; width: 3px; border-radius: 2px; background: var(--il-accent); }
+  .vh-align .rule-r { position: absolute; right: 22px; top: 12px; bottom: 12px; width: 3px; border-radius: 2px; background: var(--il-accent); opacity: 0.45; }
+  .vh-align .grp { display: flex; flex-direction: column; gap: 5px; }
+  .vh-align .grp .lab { height: 6px; width: 22%; }
+  .vh-align .grp .field { height: 16px; background: var(--surface); border-radius: 4px; width: 100%; }
+  .vh-align .foot { display: flex; justify-content: flex-end; margin-top: 4px; }
+  .vh-align .foot .b { height: 16px; width: 64px; border-radius: 8px; }
+
+  .g-thirds3 { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); gap: 10px; height: 100%; }
+  .g-thirds3 span.cell { background: var(--skel); opacity: 0.35; border-radius: 8px; }
+
+  /* weight: document where bold carries the structure */
+  .vh-weight2 { gap: 7px; justify-content: center; }
+  .vh-weight2 .seg { display: flex; gap: 6px; }
+  .vh-weight2 .seg i { height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.35; display: block; }
+  .vh-weight2 .seg i.bold { background: var(--skel-emphasis); opacity: 1; }
+  .vh-weight2 .seg i.semi { background: var(--skel-strong); opacity: 0.8; }
+  .vh-weight2 .title { height: 12px; width: 44%; border-radius: 4px; background: var(--skel-emphasis); margin-bottom: 6px; }
+  .vh-weight2 .subhead { height: 8px; width: 30%; border-radius: 4px; background: var(--skel-strong); opacity: 0.85; margin: 8px 0 2px; }
+  .vh-weight2 .cap { height: 5px; width: 22%; border-radius: 3px; background: var(--skel); opacity: 0.25; margin-top: 2px; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="eye-scanning-patterns.html" class="nav-link">Eye Scanning</a>
+    <a href="nielsens-heuristics.html" class="nav-link">Heuristics</a>
+    <a href="data-visualization.html" class="nav-link">Data Viz</a>
+    <a href="grid-and-hierarchy.html" class="nav-link active">Grid and Hierarchy</a>
+    <a href="gestalt-principles.html" class="nav-link">Gestalt</a>
+    <a href="fitts-law.html" class="nav-link">Fitts’s Law</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link active">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Grid and Hierarchy</h1>
+  <p class="tagline">The Invisible <em>Scaffolding</em></p>
+  <p class="subtitle">Grids organize space and hierarchy directs attention. Together they form the silent layer beneath every well-resolved interface — the part users never notice when it’s right.</p>
+</header>
+
+<main>
+
+  <section class="cat">
+    <h2 class="cat-label">Grid Systems</h2>
+    <div class="grid">
+
+  <!-- ========== 1. 12-Column Grid ========== -->
+  <article class="card g1">
+    <div class="card-header">
+      <span class="tag">Foundation</span>
+      <span class="num">01 / 10</span>
+      <h3>12-Column Grid</h3>
+      <p class="desc">The workhorse of web layout. Twelve divides evenly into 2, 3, 4, and 6 — letting a single grid host nearly any composition without breaking rhythm.</p>
+    </div>
+
+    <div class="demo"><div class="colgrid"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Editorial and product layouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Multi-column flexibility needed</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Layout is single-column</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 2. Modular Grid ========== -->
+  <article class="card g2">
+    <div class="card-header">
+      <span class="tag">Card layouts</span>
+      <span class="num">02 / 10</span>
+      <h3>Modular Grid</h3>
+      <p class="desc">Equal cells in both axes form a chessboard of modules. Content sits in one cell or spans many — perfect for card-based UIs, dashboards, and image-heavy layouts.</p>
+    </div>
+
+    <div class="demo"><div class="glay"><div class="g-modular"><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span><span class="gb"></span></div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Dashboards · Galleries</div></div>
+      <div><div class="label">Use when</div><div class="value">Many discrete tiles</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Long-form reading</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 3. Baseline Grid ========== -->
+  <article class="card g3">
+    <div class="card-header">
+      <span class="tag">Rhythm</span>
+      <span class="num">03 / 10</span>
+      <h3>Baseline Grid</h3>
+      <p class="desc">Horizontal lines on which every line of text sits — vertical rhythm borrowed from print. When baselines align across columns, the whole page feels calmly composed.</p>
+    </div>
+
+    <div class="demo"><div class="baseline"><div class="baseline-rows">
+        <span class="bl-a" style="grid-column:1"></span>
+        <span class="bl-c" style="grid-column:2"></span>
+        <span class="bl-a" style="grid-column:3"></span>
+        <span class="bl-b" style="grid-column:1"></span>
+        <span class="bl-c" style="grid-column:2"></span>
+        <span class="bl-c" style="grid-column:2"></span>
+        <span class="bl-b" style="grid-column:3"></span>
+      </div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Editorial · Print-style typography</div></div>
+      <div><div class="label">Use when</div><div class="value">Multi-column long-form</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Mixed component heights</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 4. Golden Ratio ========== -->
+  <article class="card g4">
+    <div class="card-header">
+      <span class="tag">Proportion</span>
+      <span class="num">04 / 10</span>
+      <h3>Golden Ratio</h3>
+      <p class="desc">A proportion (≈1.618) that recurs in nature and centuries of design. Divide your canvas in this ratio and the parts feel inherently balanced — useful for hero blocks, sidebars, and image crops.</p>
+    </div>
+
+    <div class="demo"><div class="glay"><div class="g-golden">
+      <span class="gb maj"></span>
+      <div class="minr"><span class="gb top"></span><div class="bot"><span class="gb l"></span><span class="gb r"></span></div></div>
+    </div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero blocks · Crops · Proportion</div></div>
+      <div><div class="label">Use when</div><div class="value">Two-part splits feel right</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Forcing it kills the design</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 5. Rule of Thirds ========== -->
+  <article class="card g5">
+    <div class="card-header">
+      <span class="tag">Focal anchor</span>
+      <span class="num">05 / 10</span>
+      <h3>Rule of Thirds</h3>
+      <p class="desc">Divide the canvas into three columns and three rows. Place focal elements at the four intersections — they read as natural anchors for the eye, not as the dead center.</p>
+    </div>
+
+    <div class="demo"><div class="glay"><div class="g-thirds3">
+      <span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span>
+    </div></div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero compositions · Photo crops</div></div>
+      <div><div class="label">Use when</div><div class="value">Placing a single focal point</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Layout demands symmetry</div></div>
+    </div>
+  </article>
+
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Visual Hierarchy</h2>
+    <div class="grid">
+
+  <!-- ========== 6. Scale Hierarchy ========== -->
+  <article class="card g6">
+    <div class="card-header">
+      <span class="tag">Typography</span>
+      <span class="num">06 / 10</span>
+      <h3>Hierarchy by Scale</h3>
+      <p class="desc">Size signals importance before anything else. A clear 3-step scale — heading, subhead, body — tells readers what to look at first, second, and last, with no other formatting needed.</p>
+    </div>
+
+    <div class="demo"><div class="vh vh-scale">
+      <span class="b ink head"></span><span class="b ink head2"></span>
+      <span class="b strong sub"></span>
+      <div class="cols">
+        <span class="b w-95"></span><span class="b w-92"></span>
+        <span class="b w-88"></span><span class="b w-96"></span>
+        <span class="b w-93"></span><span class="b w-85"></span>
+        <span class="b w-90"></span><span class="b w-70"></span>
+      </div>
+    </div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Any reading interface</div></div>
+      <div><div class="label">Use when</div><div class="value">Three or more text levels</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Steps too small to feel</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 7. Weight Hierarchy ========== -->
+  <article class="card g7">
+    <div class="card-header">
+      <span class="tag">Type weight</span>
+      <span class="num">07 / 10</span>
+      <h3>Hierarchy by Weight</h3>
+      <p class="desc">Same size, different weight. A bold word inside a paragraph pulls focus instantly — and lets you create hierarchy without resorting to a second font size or color.</p>
+    </div>
+
+    <div class="demo"><div class="vh vh-weight2">
+      <span class="title"></span>
+      <div class="seg"><i class="w-24"></i><i class="bold w-18"></i><i class="w-34"></i></div>
+      <div class="seg"><i class="w-40"></i><i class="w-28"></i></div>
+      <span class="subhead"></span>
+      <div class="seg"><i class="w-52"></i><i class="semi w-14"></i><i class="w-20"></i></div>
+      <div class="seg"><i class="w-30"></i><i class="w-44"></i></div>
+      <span class="cap"></span>
+      <span class="subhead w-36"></span>
+      <div class="seg"><i class="semi w-20"></i><i class="w-46"></i><i class="w-16"></i></div>
+      <div class="seg"><i class="w-58"></i></div>
+    </div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Inline emphasis</div></div>
+      <div><div class="label">Use when</div><div class="value">Type size already set</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Too many bolds = none read</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 8. Color Hierarchy ========== -->
+  <article class="card g8">
+    <div class="card-header">
+      <span class="tag">Accent</span>
+      <span class="num">08 / 10</span>
+      <h3>Hierarchy by Color and Contrast</h3>
+      <p class="desc">High contrast pulls attention; muted tones recede. Use this sparingly — one accent against many neutrals reads loud and clear. Two competing accents read like noise.</p>
+    </div>
+
+    <div class="demo"><div class="vh vh-contrast">
+      <span class="b lab"></span><span class="field"></span>
+      <span class="b lab w-30"></span><span class="field"></span>
+      <div class="btns"><span class="btn-b"></span><span class="btn-g"></span><span class="btn-g"></span></div>
+    </div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Calls to action · Status</div></div>
+      <div><div class="label">Use when</div><div class="value">One thing must win</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Multiple equal accents fight</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 9. Whitespace ========== -->
+  <article class="card g9">
+    <div class="card-header">
+      <span class="tag">Breathing room</span>
+      <span class="num">09 / 10</span>
+      <h3>Whitespace</h3>
+      <p class="desc">Negative space isn’t empty — it’s the breathing room that makes content feel premium and helps the eye separate one group from the next. The fastest design upgrade is usually more space.</p>
+    </div>
+
+    <div class="demo"><div class="vh vh-space">
+      <div class="mini dense">
+        <span class="b strong bar w-60"></span>
+        <span class="b w-95"></span><span class="b w-90"></span><span class="b w-92"></span>
+        <span class="b blk w-100"></span>
+        <span class="b w-88"></span><span class="b w-94"></span><span class="b w-85"></span>
+        <span class="b blk w-100"></span>
+        <span class="b w-90"></span><span class="b w-78"></span>
+      </div>
+      <div class="mini airy">
+        <span class="b strong bar w-64"></span>
+        <span class="b w-82"></span>
+        <span class="b ink cta"></span>
+      </div>
+    </div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Premium feel · Reading</div></div>
+      <div><div class="label">Use when</div><div class="value">Content feels cramped</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Information density is the goal</div></div>
+    </div>
+  </article>
+
+  <!-- ========== 10. Alignment ========== -->
+  <article class="card g10">
+    <div class="card-header">
+      <span class="tag">Invisible structure</span>
+      <span class="num">10 / 10</span>
+      <h3>Alignment</h3>
+      <p class="desc">Every element should align with something else — there’s no element placed arbitrarily. When edges line up, the eye perceives a hidden vertical (or horizontal) line, and the whole layout feels intentional even before content is read.</p>
+    </div>
+
+    <div class="demo"><div class="vh vh-align">
+      <span class="rule-l"></span><span class="rule-r"></span>
+      <div class="grp"><span class="b lab"></span><span class="field"></span></div>
+      <div class="grp"><span class="b lab w-28"></span><span class="field"></span></div>
+      <div class="foot"><span class="b ink"></span></div>
+    </div></div>
+
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">All layouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Two or more elements coexist</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Asymmetry is deliberate</div></div>
+    </div>
+  </article>
+
+    </div>
+  </section>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Layout in the Age of AI</h3>
+    <p>Grids and hierarchy are starting to be generated per-user and per-intent rather than authored once as a fixed template.</p>
+  </div>
+
+  <div class="grid">
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="g-gen">
+      <div class="thumb"><i class="bar"></i><i></i><i class="bar"></i></div>
+      <div class="thumb hot"><i class="bar"></i><i class="bar"></i><i></i></div>
+      <div class="thumb"><i></i><i class="bar"></i><i class="bar"></i></div>
+    </div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Generative Layouts</h3>
+      <p class="desc">AI can compose a grid on the fly from the content and the user’s intent. The layout becomes an output of the system, not a fixed input the designer hand-places.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Template → generated</div></div><div><div class="label">Use when</div><div class="value">Content varies wildly</div></div><div><div class="label">Watch for</div><div class="value">Unstable, jumpy layouts</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="g-gen">
+      <div class="thumb"><i class="bar fill-accent"></i><i></i><i class="bar"></i></div>
+      <div class="thumb"><i class="bar"></i><i class="fill-accent"></i><i class="bar"></i></div>
+      <div class="thumb"><i class="bar"></i><i></i><i class="bar fill-accent"></i></div>
+    </div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Per-User Hierarchy</h3>
+      <p class="desc">Models re-rank what’s prominent for each person. Visual hierarchy stops being authored once and becomes computed every session — powerful, but harder to QA.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Authored → computed</div></div><div><div class="label">Use when</div><div class="value">Relevance differs per user</div></div><div><div class="label">Watch for</div><div class="value">No stable mental model</div></div>
+    </div>
+  </article>
+  </div>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Grid_(graphic_design)" target="_blank" rel="noopener"><span class="title">Grid (Graphic Design)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Golden_ratio" target="_blank" rel="noopener"><span class="title">Golden Ratio</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Rule_of_thirds" target="_blank" rel="noopener"><span class="title">Rule of Thirds</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Visual_hierarchy" target="_blank" rel="noopener"><span class="title">Visual Hierarchy</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Josef_M%C3%BCller-Brockmann" target="_blank" rel="noopener"><span class="title">Josef Müller-Brockmann — Grid Systems</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Typography" target="_blank" rel="noopener"><span class="title">Typography</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/White_space_(visual_arts)" target="_blank" rel="noopener"><span class="title">White Space (Visual Arts)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/" target="_blank" rel="noopener"><span class="title">Visual Hierarchy in UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Material Design</h3>
+      <ul class="ref-list">
+        <li><a href="https://m3.material.io/foundations/layout/understanding-layout/overview" target="_blank" rel="noopener"><span class="title">Layout Overview</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Smashing Magazine</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.smashingmagazine.com/2007/04/designing-with-grid-based-approach/" target="_blank" rel="noopener"><span class="title">Designing With Grid-Based Approach</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Grid and Hierarchy</div>
+</footer>
+
+</body>
+</html>

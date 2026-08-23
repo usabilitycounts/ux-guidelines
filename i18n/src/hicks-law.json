@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Hick’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "More choices, <em>longer decisions</em>."
+ ],
+ "header .subtitle": [
+  "The more choices you present, the longer every decision takes. Hick’s Law shapes menus, settings, and onboarding — along with the techniques that work around it."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, a British psychologist, and <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, an American psychologist, independently showed in the early 1950s that reaction time grows logarithmically with the number of choices — work that became the Hick-Hyman Law.",
+  "Hick conducted his experiments at Cambridge’s Applied Psychology Unit using telegraph keys and lamps; Hyman, at Johns Hopkins, confirmed the logarithmic relationship with different stimuli a year later. Hyman later became a noted skeptic of parapsychology and a founding fellow of CSICOP."
+ ],
+ ".law-content .law-desc": [
+  "Reaction time grows with the logarithm of the number of equally probable choices. Double the number of options, and decision time goes up by a fixed amount — not double, because the brain searches the set, it doesn’t read it linearly."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-william-edmund-hick\">William Hick</a> and <a href=\"people.html#p-ray-hyman\">Ray Hyman</a> (1952)",
+  "Choice reaction-time experiments",
+  "Cut and group options"
+ ],
+ ".card .tag": [
+  "Reduce",
+  "Chunking",
+  "Disclosure",
+  "Defaults",
+  "Scale",
+  "Search",
+  "Differentiate",
+  "Cumulative",
+  "Balance",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Fewer Options, Faster Choice",
+  "Group Related Items",
+  "<a href=\"progressive-disclosure.html\">Progressive Disclosure</a>",
+  "Smart Defaults",
+  "Categories vs Long Lists",
+  "Search Beats Browse at Scale",
+  "Visual Distinction Speeds Choice",
+  "Decision Fatigue",
+  "The Sweet Spot",
+  "The Prompt Replaces the Menu",
+  "AI Narrows to One"
+ ],
+ ".card .desc": [
+  "The clearest single application of the law: a menu of 4 is faster to navigate than a menu of 12 — even though the 12 might cover more ground. Reduce what’s not essential and the rest gets faster.",
+  "A flat list of 16 is a Hick’s Law nightmare. The same 16 split into 4 groups of 4 is two faster decisions in a row — a 4-way pick, then another 4-way pick. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Hide advanced or rarely-used options behind an expander. Most users see only the common 5; power users open the full set when they need it. Same UI, two different decision trees.",
+  "A well-chosen default removes the decision entirely. If 90% of users pick the same value, make it the default — they get to skip the choice altogether, and the law no longer applies.",
+  "At small n, a flat list is fastest. Past ~7 items, breaking into a 2-level hierarchy beats scrolling. Past ~50, hierarchy alone isn’t enough — you need search.",
+  "Browsing forces every user through the full Hick’s curve. Search collapses it to one decision: type the thing you want. For catalogs of hundreds, a search input is the most accessibility win you can ship.",
+  "Hick’s Law assumes equally probable choices. In practice, making options visually distinct (icon, color, size) cuts the search space — users discard wrong options before reading them.",
+  "Hick’s Law applies once. Decision fatigue is the cumulative cost — every choice draws down a finite pool of mental energy. A wizard of 12 short steps is harder than the math predicts.",
+  "Hick’s Law doesn’t say “show one option.” Too few choices feels arbitrary or constraining. The right number is the smallest set that still covers the user’s real intent — often 3 to 7 for primary actions.",
+  "Instead of choosing from N options, the user describes what they want. Hick’s Law is sidestepped — there’s a single input box, not a branching list to scan.",
+  "Recommenders and agents collapse the option set to a single suggested action — removing the decision entirely. Powerful when right, frustrating when wrong."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Test",
+  "Watch for",
+  "Best for",
+  "Test",
+  "Watch for",
+  "Best for",
+  "Pattern",
+  "Watch for",
+  "Best for",
+  "Test",
+  "Watch for",
+  "≤ 7 items",
+  "7 – 50",
+  "50+",
+  "Best for",
+  "Add",
+  "Watch for",
+  "Best for",
+  "Tools",
+  "Watch for",
+  "Cumulative cost",
+  "Result",
+  "Mitigate",
+  "Primary actions",
+  "Nav menus",
+  "Filters",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Toolbars · Nav menus · Forms",
+  "Can two items be combined?",
+  "Combining beloved features",
+  "Settings · Long forms · Catalogs",
+  "Can items share a parent label?",
+  "Groups too deep — 2 levels max",
+  "Settings · Filters · Power tools",
+  "More ⇩ · Show advanced · Expander",
+  "Hiding the option users need most",
+  "Forms · Settings · Wizards",
+  "90/10 rule — what does most pick?",
+  "Opt-in vs opt-out ethics",
+  "Flat list — no hierarchy needed",
+  "Categories or filters",
+  "Add search",
+  "Catalogs · Docs · Settings &gt; 50",
+  "⌘K shortcut · typeahead",
+  "Empty-results dead end",
+  "Multi-option lists",
+  "Icons · Color · Badges · Order",
+  "Decoration without meaning",
+  "N choices · N decisions",
+  "Users default · skip · abandon",
+  "Save progress · ask less · pre-fill",
+  "3 – 5",
+  "5 – 7",
+  "≤ 10 visible (rest progressive)",
+  "Menu → prompt",
+  "Options are vast",
+  "Hidden capabilities",
+  "Many → one",
+  "A best answer exists",
+  "No way to see alternatives"
+ ],
+ ".ai-divider h3": [
+  "Hick’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "The prompt and the agent both attack decision cost from a new angle — replacing the menu with language, or removing the choice entirely."
+ ]
+}

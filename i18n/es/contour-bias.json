@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Sesgo de <em>contorno</em>"
+ ],
+ "header .tagline": [
+  "Lo redondeado calma. Lo afilado alerta."
+ ],
+ "header .subtitle": [
+  "Moshe Bar y Maital Neta demostraron en 2006 que la gente prefiere los objetos curvos a los angulosos — los contornos afilados se leen como amenaza a primera vista. La redondez tranquiliza; el filo exige atención. Ambos son herramientas."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Moshe_Bar_(neuroscientist)\" target=\"_blank\" rel=\"noopener\">Moshe Bar</a> y Maital Neta, en Harvard, mostraron pares de objetos cotidianos — idénticos salvo por el contorno — durante una fracción de segundo. Los participantes prefirieron sistemáticamente las versiones curvas, aun sin tiempo para razonarlo.",
+  "Su trabajo posterior señaló el mecanismo: los objetos angulosos producían más activación en la amígdala, el detector de amenazas del cerebro. La preferencia por las curvas no es gusto — es un juicio de seguridad rápido y primitivo que se dispara antes del pensamiento deliberado."
+ ],
+ ".law-content .law-desc": [
+  "A primera vista, la gente juzga los contornos curvos como seguros y accesibles, y los afilados como potencialmente amenazantes. La respuesta es rápida, automática y más fuerte bajo presión de tiempo — exactamente como se miran las interfaces."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-moshe-bar\">Moshe Bar</a> y <a href=\"people.html#p-maital-neta\">Maital Neta</a> (2006)",
+  "«Humans Prefer Curved Visual Objects»",
+  "Redondear para calmar, afilar para alertar"
+ ],
+ ".card .tag": [
+  "La investigación",
+  "Mecanismo",
+  "Práctica",
+  "Contraste",
+  "Límite",
+  "Sistema",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "La preferencia en una fracción de segundo",
+  "Lo afilado se lee como amenaza",
+  "Por qué los botones se redondearon",
+  "Afilar para alertar",
+  "Un sesgo, no una regla",
+  "Una sola curvatura, en todas partes",
+  "El radio 12 por defecto",
+  "Redondeado para desarmar"
+ ],
+ ".card .desc": [
+  "Relojes, sofás, letras — mostrados curvos o angulosos durante 84 milisegundos. Ganó lo curvo, categoría tras categoría. La preferencia se mantuvo aun cuando nadie sabía explicarla: la firma de un juicio preatencional.",
+  "El estudio de imagen posterior mostró los contornos afilados encendiendo la amígdala. Bordes y puntas se parecen a lo que corta y perfora, así que el cerebro los marca primero y nunca pregunta. Los diseñadores heredan ese cableado.",
+  "Las esquinas redondeadas en botones, tarjetas, campos y avatares bajan el riesgo percibido de interactuar. Un botón píldora dice «seguro de pulsar» antes de leer la etiqueta. El radio hace trabajo emocional, no decorativo.",
+  "La respuesta a la amenaza es una virtud cuando el mensaje es peligro. Los triángulos de advertencia, las insignias de error y los chevrones funcionan porque son angulosos. Una alerta de esquinas suaves susurra; la misma con puntas grita.",
+  "El contexto puede pesar más que el contorno. Las herramientas de precisión, las marcas de lujo y el diseño editorial usan geometría afilada para señalar rigor — y lo redondo en todas partes puede leerse blando o infantil. Elige primero la emoción, luego la esquina.",
+  "El radio de esquina es un token de diseño, y mezclar radios es como las interfaces empiezan a sentirse raras sin que nadie sepa por qué. Elige una escala de curvatura — afilada, sutil o redonda — y que todo la respete.",
+  "Pídele una interfaz a un modelo y recibirás las mismas esquinas amables que todos — una curvatura elegida por estadística, no por intención. Cuando todo es igual de redondo, el contorno deja de ser marca. Fija tu radio a propósito.",
+  "Asistentes, robots y mascotas de IA se estilizan suaves a propósito — orbes, burbujas, arcos — porque las curvas bajan la guardia. Bien cuando el sistema es benigno; manipulador cuando la redondez esconde lo que el sistema hace."
+ ],
+ ".meta .label": [
+  "Exposición",
+  "Veredicto",
+  "Firma",
+  "Región",
+  "Patrón",
+  "Velocidad",
+  "Dónde",
+  "Mensaje",
+  "El radio es",
+  "Lo afilado sirve",
+  "Alerta suave",
+  "Alerta angulosa",
+  "Lo afilado señala",
+  "Riesgo de todo redondo",
+  "Orden",
+  "El radio es",
+  "Radios mezclados",
+  "Arreglo",
+  "Por defecto",
+  "Costo",
+  "Las curvas bajan",
+  "Línea"
+ ],
+ ".meta .value": [
+  "84 milisegundos",
+  "Lo curvo, sistemáticamente",
+  "Preatencional, no razonado",
+  "La amígdala",
+  "Las puntas significan peligro",
+  "Antes del pensamiento deliberado",
+  "Botones · tarjetas · campos",
+  "Seguro de pulsar",
+  "Emocional, no decorativo",
+  "Advertencias y peligros",
+  "Susurra",
+  "Grita",
+  "Rigor · precisión · carácter",
+  "Blando o infantil",
+  "Primero la emoción, luego la esquina",
+  "Un token, no un capricho",
+  "Se siente raro, invisiblemente",
+  "Una sola escala de curvatura",
+  "Esquinas estadísticas",
+  "El contorno deja de firmar",
+  "La guardia del usuario",
+  "Tranquilizar, nunca ocultar"
+ ],
+ ".ai-divider h3": [
+  "El sesgo de contorno en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las interfaces generadas traen el mismo radio amable por defecto, y los productos de IA se redondean para parecer inofensivos. La curvatura se volvió retórica — úsala con honestidad."
+ ]
+}

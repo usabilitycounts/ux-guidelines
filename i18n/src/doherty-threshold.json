@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Doherty <em>Threshold</em>"
+ ],
+ "header .tagline": [
+  "Under 400 milliseconds, work becomes a conversation."
+ ],
+ "header .subtitle": [
+  "Walter Doherty and Ahrvind Thadani’s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by."
+ ],
+ ".law-origin .body-text": [
+  "Walter J. Doherty and Ahrvind J. Thadani were IBM researchers studying the economics of interactive computing. Their 1982 paper, The Economic Value of Rapid Response Time, overturned the era’s assumption that two-second responses were good enough — productivity rose sharply as responses dropped below 400 milliseconds.",
+  "The finding reframed system speed as an economic argument: faster machines paid for themselves in recovered human attention. Decades later the same threshold shows up in web performance budgets, and <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a>’s response-time limits carry the framework forward."
+ ],
+ ".law-content .law-desc": [
+  "Productivity soars when a computer and its users interact at a pace — under 400 milliseconds — that ensures neither has to wait on the other. Below the threshold, work feels like a conversation; above it, each pause breaks the user’s train of thought and errors climb."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-walter-j-doherty\">Doherty</a> and <a href=\"people.html#p-ahrvind-thadani\">Thadani</a> (1982)",
+  "The Economic Value of Rapid Response Time",
+  "Respond or acknowledge fast"
+ ],
+ ".card .tag": [
+  "The line",
+  "Companion",
+  "Perception",
+  "Pattern",
+  "Cost",
+  "Practice",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The 400 Millisecond Line",
+  "The Response Time Limits",
+  "Feedback Beats Raw Speed",
+  "Optimistic UI",
+  "Latency Compounds",
+  "Set a Performance Budget",
+  "Streaming Beats the Spinner",
+  "Acknowledge, Then Think"
+ ],
+ ".card .desc": [
+  "Doherty and Thadani measured transactions per hour as response time fell. The curve isn’t linear — under 400ms, users stop batching their thinking around the machine’s pauses and productivity jumps.",
+  "<a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a>’s three limits sit alongside Doherty’s threshold: 0.1 seconds feels instant, 1 second keeps the flow of thought, and 10 seconds is the outer edge of attention — past it, users switch tasks.",
+  "When the system can’t answer in 400ms, it can still acknowledge in 400ms. Skeleton screens, pressed states, and instant local echo make a slow operation feel responsive — perceived speed is a design material.",
+  "Commit the change on screen before the network confirms it. The message appears in the thread, the toggle flips, the item files itself — and the system reconciles behind the scenes. The user never waits for a round trip.",
+  "No single delay kills a workflow — the accumulation does. A 700ms search, a 900ms filter, a 1.2s save: across a working day the pauses add up to broken concentration and batched, error-prone work.",
+  "Treat 400ms the way you treat a visual spec. Give every interaction a budget, measure the slowest real-world path — not the demo machine — and spend engineering time where users actually wait.",
+  "A model that takes eight seconds violates every limit on this page — unless it streams. Tokens appearing at reading speed keep the user inside the 400ms conversation even while the full answer is seconds away.",
+  "The prompt should land instantly — echoed in the thread within 100ms — while the model works. The threshold governs the acknowledgment, not the answer. Dead air after a send is the one unforgivable AI latency."
+ ],
+ ".meta .label": [
+  "Threshold",
+  "Below it",
+  "Above it",
+  "0.1 s",
+  "1 s",
+  "10 s",
+  "Rule",
+  "Tools",
+  "Watch for",
+  "Best for",
+  "Needs",
+  "Watch for",
+  "Symptom",
+  "Fix",
+  "Target",
+  "Measure",
+  "Budget",
+  "Spend on",
+  "Pattern",
+  "Effect",
+  "Instant",
+  "Honest"
+ ],
+ ".meta .value": [
+  "About 400 ms",
+  "Flow and momentum",
+  "Broken attention",
+  "Feels instant",
+  "Flow survives",
+  "Attention is gone",
+  "Acknowledge instantly",
+  "Skeletons · pressed states",
+  "Dead-air clicks",
+  "Sends · toggles · saves",
+  "Graceful rollback",
+  "Lying about failures",
+  "Users batch their work",
+  "Budget every interaction",
+  "Under 400 ms each",
+  "Real devices, real networks",
+  "Per interaction",
+  "The slowest path",
+  "Stream, don’t spin",
+  "Wait feels like reading",
+  "Echo the prompt",
+  "Show thinking state"
+ ],
+ ".ai-divider h3": [
+  "The Doherty Threshold in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models take seconds, not milliseconds. The threshold doesn’t bend — so the interface has to spend the wait honestly."
+ ]
+}

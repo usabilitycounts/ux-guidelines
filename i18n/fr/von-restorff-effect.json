@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Effet von <em>Restorff</em>"
+ ],
+ "header .tagline": [
+  "Celui qui diffère est celui dont on se souvient."
+ ],
+ "header .subtitle": [
+  "Hedwig von Restorff a montré en 1933 que lorsqu'un élément d'un groupe diffère des autres, c'est celui-là qu'on retient. L'effet d'isolation explique pourquoi une seule couleur d'accent fonctionne — et pourquoi dix ne fonctionnent pas."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hedwig_von_Restorff\" target=\"_blank\" rel=\"noopener\">Hedwig von Restorff</a> était une psychiatre et pédiatre allemande travaillant dans la tradition gestaltiste à l'université de Berlin. Ses expériences de 1933 ont montré qu'un élément qui se détache de ses voisins — par la couleur, la taille ou la nature — est spectaculairement mieux retenu.",
+  "La découverte est devenue l'effet d'isolation. Sa carrière académique fut interrompue quand l'école gestaltiste qui l'entourait fut démantelée dans l'Allemagne des années 1930, mais l'effet qu'elle a documenté est devenu l'un des leviers les plus utilisés en publicité et en design d'interface."
+ ],
+ ".law-content .law-desc": [
+  "Quand plusieurs éléments similaires sont présentés ensemble, celui qui diffère des autres a le plus de chances d'être remarqué et retenu. Le caractère distinctif est un budget : moins il y a de choses qui diffèrent, plus chaque différence agit puissamment."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Hedwig von Restorff (1933)",
+  "Expériences sur l'effet d'isolation, Berlin",
+  "Une emphase à la fois"
+ ],
+ ".card .tag": [
+  "L'effet",
+  "Budget",
+  "CTA",
+  "Mésusage",
+  "Accessibilité",
+  "Commerce",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "L'effet d'isolation",
+  "Un seul accent",
+  "Les actions principales méritent la couleur",
+  "N'isolez pas la mauvaise chose",
+  "Jamais la couleur seule",
+  "L'offre mise en avant",
+  "L'étincelle a cessé d'étinceler",
+  "L'emphase choisie par la machine"
+ ],
+ ".card .desc": [
+  "Neuf carrés gris et un bleu : personne n'oublie lequel était bleu. La différence sur un champ uniforme est le signal d'attention le plus fort qu'une mise en page puisse envoyer — plus fort que la taille, la position ou la répétition.",
+  "L'effet dépense un budget. Un élément mis en avant par écran est inoubliable ; trois se concurrencent ; dix s'annulent et l'écran se lit comme du bruit. Chaque emphase ajoutée taxe chaque emphase déjà présente.",
+  "C'est la théorie sous le bouton principal. Une seule action pleine et colorée face à des voisins discrets est trouvée, choisie et retenue. Les actions secondaires restent grises précisément pour que la principale puisse différer.",
+  "L'effet agit sur tout ce qui diffère — y compris une bannière promotionnelle, un badge décoratif ou une publicité. Si l'élément le plus distinctif de l'écran n'est pas le plus important, vous avez retourné l'effet d'isolation contre vous-même.",
+  "Pour les utilisateurs daltoniens ou malvoyants, une isolation bâtie uniquement sur la teinte disparaît. Associez la différence de couleur à un second canal — graisse, icône, remplissage, position — pour que l'élément distinct le reste pour tout le monde.",
+  "Les grilles tarifaires tournent au von Restorff : l'offre recommandée reçoit la bordure, le badge et la teinte, et elle convertit bien au-delà de sa part. Isolez l'offre que vous recommanderiez honnêtement — les utilisateurs remarquent quand l'emphase est cynique.",
+  "À l'arrivée de l'IA, l'étincelle ✦ était isolée — une seule fonctionnalité lumineuse dans une interface familière. Aujourd'hui, chaque barre d'outils en a une. Un signal distinctif adopté par tous n'est plus un signal distinctif pour personne.",
+  "Les modèles peuvent désormais décider quel élément mettre en avant — par utilisateur, par instant. Cela met l'effet d'isolation en pilote automatique : puissant quand le modèle met en avant ce dont l'utilisateur a besoin, corrosif quand il met en avant ce que l'entreprise veut voir cliqué."
+ ],
+ ".meta .label": [
+  "Signal",
+  "Force",
+  "Nécessite",
+  "Règle",
+  "Deux ou plus",
+  "Tout",
+  "Principale",
+  "Secondaires",
+  "À surveiller",
+  "Demander",
+  "La réponse devrait être",
+  "Raté courant",
+  "Règle",
+  "Associer la couleur à",
+  "Standard",
+  "Modèle",
+  "Effet",
+  "La garder",
+  "Leçon",
+  "Contre-mesure",
+  "Avantage",
+  "Risque"
+ ],
+ ".meta .value": [
+  "La différence sur le champ",
+  "Bat la taille et la position",
+  "Un fond uniforme",
+  "Une par écran",
+  "Elles se concurrencent",
+  "Rien ne ressort",
+  "Celle qui diffère",
+  "Délibérément discrètes",
+  "Deux actions principales",
+  "Qu'est-ce qui diffère le plus ?",
+  "Ce qui compte le plus",
+  "Les promos crient plus fort que les actions",
+  "Deux canaux minimum",
+  "Forme · graisse · icône",
+  "WCAG 1.4.1",
+  "Une offre vedette",
+  "Sélection démesurée",
+  "Honnête",
+  "Les signaux partagés s'estompent",
+  "Différer par le comportement, pas le badge",
+  "La bonne chose, au bon moment",
+  "Pilote automatique de dark pattern"
+ ],
+ ".ai-divider h3": [
+  "Von Restorff à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Quand chaque produit marque ses fonctions IA de la même étincelle, plus rien n'est isolé — et l'emphase choisie par la machine pose la question de qui décide de ce qui ressort."
+ ]
+}

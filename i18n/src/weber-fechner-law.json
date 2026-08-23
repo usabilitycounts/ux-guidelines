@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Weber-Fechner <em>Law</em>"
+ ],
+ "header .tagline": [
+  "The smallest noticeable change <em>scales with the original</em>."
+ ],
+ "header .subtitle": [
+  "Ernst Weber (1834) and Gustav Fechner (1860) formalized the relationship between physical stimulus and perceived intensity. The smallest detectable change isn’t a fixed amount — it’s a fixed proportion of what’s already there. The law shows up in volume, brightness, price, weight, animation timing, and design contrast."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber\" target=\"_blank\" rel=\"noopener\">Ernst Heinrich Weber</a>, a German physician, measured in the 1830s how much a stimulus must change before people notice. <a href=\"https://en.wikipedia.org/wiki/Gustav_Fechner\" target=\"_blank\" rel=\"noopener\">Gustav Fechner</a>, his student, formalized the relationship as a logarithmic law in 1860 — founding the field of psychophysics.",
+  "Weber established the just-noticeable difference through meticulous weight-lifting experiments at Leipzig. Fechner — physicist, philosopher, and occasional satirist under the pen name Dr. Mises — had the insight on the morning of 22 October 1850, a date psychophysicists still celebrate as Fechner Day."
+ ],
+ ".law-content .law-desc": [
+  "The just-noticeable difference (JND) in a stimulus is a constant fraction of the stimulus itself. Going from a $10 latte to $11 is noticeable; going from a $1,000 laptop to $1,001 isn’t. The eye, the ear, and the wallet all run on ratios, not absolutes."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ernst-weber\">Ernst Weber</a> (1834) and <a href=\"people.html#p-gustav-fechner\">Gustav Fechner</a> (1860)",
+  "Psychophysics",
+  "Make changes proportionally noticeable"
+ ],
+ ".card .tag": [
+  "JND",
+  "Pricing",
+  "Typography",
+  "Contrast",
+  "Animation",
+  "A/B",
+  "Notifications",
+  "Limits",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Just-Noticeable Difference",
+  "Pricing Runs on Ratios",
+  "Type Scales Are Weber Curves",
+  "Contrast Is Multiplicative",
+  "Animation Timing Is Logarithmic",
+  "A/B Tests Need Proportional Deltas",
+  "Notification Fatigue Is Weber Too",
+  "The Law Holds at Mid-Range",
+  "AI Resets the Baseline",
+  "Generated Variation Hits Weber"
+ ],
+ ".card .desc": [
+  "Pick up a 200g weight; add 10g and you’ll feel it. Pick up a 2,000g weight; add 10g and you won’t. The threshold for detecting change isn’t 10g — it’s about 5% of whatever you started with. Every sensory channel has its own Weber fraction, and they’re surprisingly stable.",
+  "Marketers internalized this a long time ago. Discounts get framed as percentages, not amounts; an upsell is “just $5 more” on a small purchase and “barely 5%” on a big one. The user’s perceived price-change is a Weber fraction of the anchor.",
+  "Modular type scales — 1.125, 1.25, 1.333, 1.5, the golden ratio — exist because absolute jumps look uneven. A scale where each step is the same percentage larger than the last reads as a proportional hierarchy: each level is noticeably bigger than the one below it.",
+  "WCAG contrast ratios are Weber-Fechner under the hood — perceived contrast scales with the ratio of luminances, not the difference. That’s why dark mode and light mode need different absolute colors to feel equally readable, but the same minimum ratio (4.5:1 for body text).",
+  "Animation duration follows perception, not stopwatch. Doubling a 100ms transition to 200ms feels twice as long; doubling a 1000ms transition to 2000ms feels much less than twice. Material’s motion guidelines bake this in — durations curve with element size and distance, not with raw pixels.",
+  "A 5% improvement at a baseline of 10% conversion is huge; the same 5% at a baseline of 80% is barely detectable. Most A/B test power calculations are Weber in disguise — you need to translate the absolute delta into a proportional one before judging whether it’s worth chasing.",
+  "The fifteenth notification of the morning gets less attention than the first — not because anything changed about that single notification, but because it’s now 7% of fifteen instead of 100% of one. Each new alert is judged against the baseline noise it’s added to.",
+  "Weber-Fechner is most reliable in the middle of a sensory range. At very faint stimuli (whispers, faint colors) and very intense ones (loud noises, blinding light) the ratio drifts. For UX purposes you’re almost always in the mid-range, where the law works cleanly.",
+  "A year ago, an auto-summary was novel. Today it is invisible because every product has one. The user’s baseline keeps shifting up, and the same feature has to keep getting better to feel like the same delta. Weber-Fechner in motion: shipping the third-best summary in 2026 will feel worse than shipping the best summary did in 2024.",
+  "A model that varies an image slightly across users, or tweaks a notification by a few percent, may be operating below the JND. Lots of tuning that looks busy in code is invisible to users. Worth checking whether the variation is meaningful — or just noise the user can’t detect."
+ ],
+ ".meta .label": [
+  "Rule",
+  "Channels",
+  "Framing",
+  "Apply to",
+  "Common ratios",
+  "Effect",
+  "WCAG",
+  "Test",
+  "Implication",
+  "In Material",
+  "Compare",
+  "Power-calc",
+  "Pattern",
+  "Tactic",
+  "Holds at",
+  "Drifts at",
+  "Effect",
+  "Implication",
+  "Question",
+  "Tactic"
+ ],
+ ".meta .value": [
+  "JND scales with stimulus",
+  "Weight · sound · light · price",
+  "Percentage beats absolute",
+  "Discount · upsell · tier",
+  "1.25 · 1.333 · 1.5",
+  "Hierarchy reads as steps",
+  "Ratio-based",
+  "Body ≥ 4.5:1",
+  "Long ≠ proportionally long",
+  "Distance-scaled timing",
+  "Proportional, not absolute",
+  "Weber in disguise",
+  "Each Δ shrinks vs baseline",
+  "Send fewer · clearer",
+  "Mid-range stimuli",
+  "Very faint · very intense",
+  "Wow shrinks fast",
+  "Ship fast · raise bar",
+  "Is the variation noticeable?",
+  "Measure the JND first"
+ ],
+ ".ai-divider h3": [
+  "Weber-Fechner in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI is the new stimulus stream — and it arrives at a volume that quickly resets every baseline."
+ ]
+}

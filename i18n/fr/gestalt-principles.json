@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Principes de la Gestalt"
+ ],
+ "header .tagline": [
+  "Comment l'esprit <em>regroupe</em> ce qu'il voit"
+ ],
+ "header .subtitle": [
+  "L'esprit regroupe automatiquement ce qu'il voit. Ces dix principes de perception expliquent comment les gens lisent une structure dans une mise en page avant de lire un seul mot."
+ ],
+ ".law-origin .body-text": [
+  "La psychologie de la forme est née en 1912 avec les études de <a href=\"https://en.wikipedia.org/wiki/Max_Wertheimer\" target=\"_blank\" rel=\"noopener\">Max Wertheimer</a> sur le mouvement apparent, développées aux côtés de <a href=\"https://en.wikipedia.org/wiki/Kurt_Koffka\" target=\"_blank\" rel=\"noopener\">Kurt Koffka</a> et <a href=\"https://en.wikipedia.org/wiki/Wolfgang_K%C3%B6hler\" target=\"_blank\" rel=\"noopener\">Wolfgang Köhler</a> à Berlin. Leur maxime — le tout est autre chose que la somme de ses parties — a recadré la perception comme un processus d'organisation actif plutôt qu'une réception passive.",
+  "Tous trois ont émigré aux États-Unis à la montée du nazisme, semant la pensée gestaltiste dans la psychologie américaine. Le design d'interface a adopté leurs principes de regroupement en bloc : proximité, similarité, clôture et continuité sont désormais la grammaire de la mise en page."
+ ],
+ ".law-content .law-desc": [
+  "L'esprit regroupe ce qu'il voit avant de lire un seul mot — par proximité, ressemblance, connexion et clôture. Une mise en page qui travaille avec ces instincts communique la structure gratuitement ; celle qui les combat a besoin de bordures et de libellés partout."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Wertheimer, Koffka et Köhler",
+  "École de Berlin de psychologie expérimentale",
+  "Regrouper par l'espacement avant d'ajouter des traits"
+ ],
+ ".card .tag": [
+  "Regroupement",
+  "Lien visuel",
+  "Flux",
+  "Complétion",
+  "Sujet et fond",
+  "Mouvement",
+  "Équilibre",
+  "Contenance",
+  "Liaison",
+  "Méta-principe",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Proximité",
+  "Similarité",
+  "Continuité",
+  "Clôture",
+  "Figure et fond",
+  "Destin commun",
+  "Symétrie",
+  "Région commune",
+  "Connexité",
+  "Prägnanz (simplicité)",
+  "L'IA regroupe comme l'œil",
+  "La perception reste humaine"
+ ],
+ ".card .desc": [
+  "Les objets proches les uns des autres sont perçus comme appartenant au même groupe. Le moyen le plus rapide de communiquer des relations — sans aucune bordure, séparateur ni libellé.",
+  "Les éléments qui partagent une apparence — forme, couleur, taille — sont perçus comme liés. Le style relie les objets sans les forcer à vivre côte à côte dans l'espace.",
+  "L'œil suit les chemins lisses et continus. Deux lignes qui se croisent sont perçues comme deux courbes fluides plutôt que quatre segments déconnectés — guidant l'œil le long de la trajectoire voulue.",
+  "L'esprit complète les formes incomplètes. Quelques traits bien placés peuvent suggérer un cercle, un triangle ou une lettre — en utilisant moins d'encre et en laissant au cerveau du spectateur le travail gratifiant.",
+  "L'esprit sépare un objet (la figure) de son arrière-plan (le fond). Un contraste fort rend la figure évidente ; un contraste ambigu laisse la même image basculer entre deux lectures.",
+  "Les éléments qui bougent ensemble sont perçus comme un groupe. L'animation, même subtile, lie les objets en une unité — le principe derrière les révélations de listes synchronisées et les chargements en cascade.",
+  "Les paires symétriques sont perçues comme allant ensemble — même séparées. Une composition en miroir semble stable, équilibrée et résolue sans autre explication.",
+  "Les éléments à l'intérieur d'une même zone fermée sont perçus comme un groupe — même s'ils sont plus éloignés entre eux que des éléments extérieurs. Une simple bordure ou un panneau de fond supplante entièrement la proximité.",
+  "Les éléments joints par une ligne, un trait ou une forme sont perçus comme liés — et ce lien est plus fort que la proximité, la similarité ou la région commune. Un fil transforme des nœuds séparés en graphe.",
+  "Le méta-principe unificateur derrière toutes les autres règles de la Gestalt : quand l'esprit a le choix, il choisit l'interprétation la plus simple. Cinq anneaux qui se chevauchent se lisent comme le logo olympique, pas comme un enchevêtrement de plus de 30 arcs. Concevez avec ce biais en tête et l'interface se résoudra dans le modèle mental le plus épuré possible — combattez-le et le design semblera chargé, aussi organisé soit-il en réalité.",
+  "Le regroupement par embeddings reflète la proximité et la similarité — le modèle met en grappes les éléments liés à peu près comme le fait la perception, automatisant ce que les designers faisaient autrefois à la main.",
+  "Quelle que soit la façon dont une IA arrange un écran, les lois du regroupement décident si une personne y lit de la structure ou du chaos. La Gestalt est le contrôle humain sur les mises en page générées."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Idéal pour",
+  "À utiliser quand",
+  "À surveiller",
+  "Parallèle",
+  "À utiliser quand",
+  "À surveiller",
+  "Constante",
+  "À utiliser comme",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Champs de formulaire · contenu de cartes",
+  "Suggérer un groupe sans séparateurs",
+  "Un espacement incohérent crée la confusion",
+  "Encodage de catégories · tags",
+  "Lien visuel à distance",
+  "Similarité accidentelle = faux groupe",
+  "Parcours d'onboarding · carrousels",
+  "Suggérer une séquence ou un flux",
+  "Rupture forcée dans l'alignement",
+  "Logos · icônes · chargeurs",
+  "Des formes minimales suggèrent un tout",
+  "Trop peu = rien ne se lit",
+  "Design de logo · compositions héros",
+  "Premier plan/fond doivent se lire vite",
+  "Ambiguïté sauf si intentionnelle",
+  "Révélations de listes · animations en cascade",
+  "Suggérer une unité par le mouvement",
+  "Des mouvements contradictoires semblent chaotiques",
+  "Mises en page héros · logos",
+  "Équilibre, calme, stabilité",
+  "La prévisibilité peut sembler statique",
+  "Cartes · sections de réglages",
+  "Regrouper des éléments dispersés",
+  "Trop de boîtes = bruit imbriqué",
+  "Diagrammes · assistants par étapes",
+  "Relations de séquence ou de graphe",
+  "Trop de lignes = spaghetti",
+  "Chaque décision de design",
+  "Deux lectures possibles — choisir la plus simple",
+  "La complexité déguisée en ingéniosité",
+  "Embeddings ≈ regroupement",
+  "Organisation automatique du contenu",
+  "Des grappes qui déroutent",
+  "La perception humaine",
+  "Une grille de QA sur la sortie de l'IA",
+  "Logique pour la machine, bruyant pour l'humain"
+ ],
+ ".ai-divider h3": [
+  "La Gestalt à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les machines regroupent maintenant le contenu aussi — mais qu'un humain y voie de la structure ou du bruit dépend toujours des mêmes lois de la perception."
+ ]
+}

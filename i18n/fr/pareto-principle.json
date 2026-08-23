@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "<em>Principe</em> de Pareto"
+ ],
+ "header .tagline": [
+  "Environ <em>80 %</em> des effets proviennent de <em>20 %</em> des causes."
+ ],
+ "header .subtitle": [
+  "Vilfredo Pareto a remarqué en 1906 que 80 % des terres d'Italie appartenaient à 20 % de sa population. Le motif se répète dans le logiciel, le support, la performance et la stratégie produit — l'essentiel de la valeur vient d'une petite fraction de l'effort. Savoir lequel des 20 % : tout est là."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> était un économiste et sociologue italien. En 1896, il a observé qu'environ 80 % des terres d'Italie appartenaient à 20 % de sa population ; le penseur du management <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> a ensuite généralisé le motif sous le nom de règle des 80/20 et l'a baptisé du nom de Pareto.",
+  "Pareto s'est formé comme ingénieur et a dirigé les chemins de fer italiens avant de se tourner vers l'économie à l'université de Lausanne. Ses travaux plus larges sur la circulation des élites ont influencé la sociologie pendant un siècle ; le raccourci 80/20 vient du pionnier de la gestion de la qualité Joseph Juran, qui parlait des « quelques essentiels et des nombreux insignifiants »."
+ ],
+ ".law-content .law-desc": [
+  "Une petite part des causes produit l'essentiel de l'effet. Le ratio exact n'est pas sacré — 70/30, 90/10 — mais le déséquilibre l'est. En produit, en design et en ingénierie, trouver la minorité à fort levier est là où le travail se rentabilise."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Vilfredo Pareto (1896)",
+  "Cours d'économie politique",
+  "Optimiser les quelques essentiels"
+ ],
+ ".card .tag": [
+  "Origine",
+  "Produit",
+  "Priorisation",
+  "Performance",
+  "Bugs et support",
+  "Contre-exemple",
+  "Piège",
+  "Usage quotidien",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Des terres à tout le reste",
+  "80 % des utilisateurs touchent 20 % des fonctionnalités",
+  "Réduire aux quelques essentiels",
+  "Le chemin critique porte le coût",
+  "Peu de bugs, l'essentiel de la douleur",
+  "La longue traîne compte encore",
+  "Le piège de l'élagage excessif",
+  "Penser 80/20 par défaut",
+  "L'IA rend la longue traîne bon marché",
+  "Le risque : 80 % de confiance, 20 % d'erreur"
+ ],
+ ".card .desc": [
+  "Pareto était un économiste italien qui étudiait la propriété foncière en 1906. Il a remarqué qu'environ 80 % des terres revenaient à 20 % des gens — puis a vu la même distribution déséquilibrée dans les cosses de pois de son jardin. Le motif s'est révélé omniprésent, et le nom est resté.",
+  "L'équipe Office de Microsoft a fameusement constaté que la plupart des utilisateurs ne touchaient jamais la plupart des menus. La même forme revient dans presque chaque produit : un petit noyau de fonctionnalités porte l'essentiel de l'engagement, et le reste demeure inutilisé — parfois à dessein, souvent par accident.",
+  "Quand tout semble important, le bon réflexe est généralement de déterminer quels 20 % du backlog produisent 80 % du résultat. MVP, feuilles de route et OKR trimestriels reposent tous sur le raisonnement de Pareto — choisir le petit ensemble de paris qui portera l'essentiel du résultat.",
+  "Profilez n'importe quel système en production et vous trouvez presque toujours la même forme : une petite fraction du code (ou des requêtes, ou des ressources) est responsable de l'essentiel du temps. L'optimisation prématurée est gaspillée partout ailleurs — mais sur le chemin critique, le calcul rapporte massivement.",
+  "Joel Spolsky, Microsoft et d'innombrables équipes de support ont observé le même déséquilibre dans les plantages et les tickets. Une poignée de bugs cause la majorité de la misère visible par les utilisateurs ; le reste est en longue traîne. Triez par impact, pas par ordre d'arrivée.",
+  "La « longue traîne » de Chris Anderson est l'avertissement : agrégez suffisamment des 80 % inutilisés et vous trouvez parfois un marché plus grand que la tête. Amazon et Spotify ont tous deux bâti des entreprises dessus. Pareto vous dit où concentrer d'abord, pas quels marchés abandonner.",
+  "Une lecture naïve de Pareto est « coupez les 80 % que personne n'utilise ». Mais les fonctionnalités inutilisées servent souvent quelques utilisateurs critiques — accessibilité, comptables, admins, astreinte. Avant de couper, segmentez par qui, pas seulement par combien. Les 20 % de fonctionnalités dont dépendent les 5 % les plus discrets sont généralement porteurs.",
+  "Le principe est surtout utile comme habitude. Avant toute revue, demandez : quels 20 % des utilisateurs, écrans, tâches ou erreurs portent 80 % du poids ici ? Cela répond rarement à toute la question — mais cela réordonne presque toujours le travail d'une façon qui paie.",
+  "Pareto était en partie une affirmation sur le coût : les 80 % ne valaient pas la peine d'être servis parce que chaque unité coûtait trop cher. Les modèles inversent cela — traduire, résumer, assister ou concevoir pour un cas obscur coûte désormais presque autant qu'un cas courant. Les 80 % inutilisés deviennent accessibles.",
+  "Les modèles inversent aussi Pareto de façon plus sournoise. Ils excellent sur les 80 % de cas courants et sont les pires sur les 20 % de cas limites — mais ils semblent aussi sûrs d'eux dans les deux cas. Les modes d'échec restants sont exactement ceux qui font mal : rares, plausibles et non vérifiés."
+ ],
+ ".meta .label": [
+  "Année",
+  "Vu d'abord dans",
+  "Généralisé",
+  "Modèle",
+  "Appliquer",
+  "À surveiller",
+  "Tactique",
+  "Méthode",
+  "Test",
+  "Appliquer",
+  "Ignorer",
+  "Règle",
+  "Trier par",
+  "Pas par",
+  "Test",
+  "Quand",
+  "Exemples",
+  "À ne pas faire",
+  "Risque",
+  "Segmenter par",
+  "Vérifier",
+  "Habitude",
+  "Effet",
+  "Coût",
+  "Évolution",
+  "Exemples",
+  "Opportunité",
+  "Risque",
+  "Correctif",
+  "Toujours"
+ ],
+ ".meta .value": [
+  "1906",
+  "Terres italiennes · cosses de pois",
+  "Par Juran, années 1940",
+  "Usage des fonctionnalités en longue traîne",
+  "Peaufiner d'abord les 20 %",
+  "Couper une longue traîne nécessaire",
+  "Trouver les quelques leviers",
+  "Impact × confiance × effort",
+  "Pourriez-vous le couper en deux ?",
+  "Profiler, puis optimiser",
+  "Les 80 % restants",
+  "Mesurer avant de régler",
+  "Portée × gravité",
+  "Ordre d'arrivée",
+  "Trier le journal de plantages par fréquence",
+  "Distribution et agrégation bon marché",
+  "Amazon · Spotify",
+  "Confondre focalisation et abandon",
+  "Couper des fonctionnalités porteuses",
+  "Qui, pas seulement combien",
+  "A11y · ops · utilisateurs experts",
+  "Se poser la question avant la revue",
+  "Réordonne le travail",
+  "Cinq secondes de réflexion",
+  "Longue traîne désormais bon marché",
+  "Traduction · support · code",
+  "Servir ceux qu'on ignorait",
+  "Les cas limites semblent certains",
+  "Exposer l'incertitude",
+  "Vérifier les 20 %"
+ ],
+ ".ai-divider h3": [
+  "Le principe de Pareto à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA change le calcul de la longue traîne — les 80 % de cas limites autrefois trop coûteux à servir sont désormais à portée."
+ ],
+ ".law-formula-note": [
+  "le ratio varie ; le déséquilibre est l'essentiel."
+ ]
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-page="tognazzini">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.">
+<title>Tognazzini’s First Principles: Working Rules of Interaction Design — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/tognazzinis-first-principles.html">
+<meta property="og:title" content="Tognazzini&#x27;s First Principles: Working Rules of Interaction Design — UX Guidelines">
+<meta property="og:description" content="Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/tognazzinis-first-principles.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tognazzini&#x27;s First Principles: Working Rules of Interaction Design — UX Guidelines">
+<meta name="twitter:description" content="Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
+    --ink: #111111; --muted: #6b6b6b; --ai: #0d9488;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .copyright, .meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; }
+  
+
+  /* Tognazzini illustrations */
+  .tx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .tx .ln { display: block; height: 8px; border-radius: 4px; background: var(--skel); opacity: 0.4; }
+  .tx .ln.faint { opacity: 0.25; }
+  .tx .row { height: 20px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .tx .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .tx .row.hot { background: rgba(56,189,248,0.15); }
+  .tx .row.hot i { background: var(--il-accent); opacity: 1; }
+  .tx .panel { background: var(--surface); border-radius: 10px; padding: 12px; display: flex; flex-direction: column; gap: 7px; flex: 1; }
+  .tx .panel .t { height: 7px; width: 46%; border-radius: 3px; background: var(--skel-strong); opacity: 0.6; }
+  .tx .panel .l { height: 5px; border-radius: 2.5px; background: var(--skel); opacity: 0.4; }
+  .tx .panel .btn { height: 14px; width: 40%; border-radius: 7px; background: var(--il-accent); margin-top: auto; }
+  .tx .split { flex-direction: row; display: flex; gap: 14px; align-items: stretch; flex: 1; min-height: 0; }
+  .tx .field { height: 26px; border-radius: 8px; background: #fff; box-shadow: inset 0 0 0 1.5px rgba(0,0,0,0.14); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .tx .field i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .tx .field .dot-b { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .tx .dot { width: 12px; height: 12px; border-radius: 50%; background: var(--skel); opacity: 0.5; flex: none; }
+  .tx .dot.b { background: var(--il-accent); opacity: 1; }
+  .tx .meter { height: 10px; border-radius: 5px; background: var(--surface); overflow: hidden; }
+  .tx .meter i { display: block; height: 100%; border-radius: 5px; background: var(--il-accent); }
+  .tx .toast { height: 24px; border-radius: 8px; background: rgba(56,189,248,0.15); display: flex; align-items: center; gap: 8px; padding: 0 10px; }
+  .tx .toast .ic { width: 10px; height: 10px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .tx .toast i { height: 5px; border-radius: 2.5px; background: var(--il-accent); display: block; }
+  .tx .crumbs { display: flex; align-items: center; gap: 7px; }
+  .tx .crumbs .c { height: 6px; width: 34px; border-radius: 3px; background: var(--skel); opacity: 0.4; }
+  .tx .crumbs .c.b { background: var(--il-accent); opacity: 1; }
+  .tx .crumbs .s { width: 4px; height: 4px; border-radius: 50%; background: var(--skel); opacity: 0.3; }
+  .tx .think { display: flex; gap: 5px; align-items: center; padding: 0 10px; }
+  .tx .think span { width: 8px; height: 8px; border-radius: 50%; background: var(--il-accent); animation: tx-pulse 1.2s ease-in-out infinite; }
+  .tx .think span:nth-child(2) { animation-delay: 0.2s; }
+  .tx .think span:nth-child(3) { animation-delay: 0.4s; }
+  @keyframes tx-pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+  .tx .chiprow { display: flex; gap: 8px; }
+  .tx .chip { height: 18px; border-radius: 9px; background: rgba(56,189,248,0.18); padding: 0 12px; display: flex; align-items: center; }
+  .tx .chip i { height: 5px; width: 24px; border-radius: 2.5px; background: var(--il-accent); display: block; }
+  .tx .bub { border-radius: 10px; background: var(--surface); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; }
+  .tx .bub .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link active">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Tognazzini’s <em>First Principles</em></h1>
+  <p class="tagline">Sixteen working <em>rules</em> for designing software that respects the user.</p>
+  <p class="subtitle">Bruce “Tog” Tognazzini’s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Bruce ‘Tog’ Tognazzini was Apple employee number 66, wrote the company’s first human interface guidelines, and shaped the look and feel of the early Macintosh across fourteen years and eight editions of the guidelines.</p>
+    <p class="body-text">After Apple he worked at Sun and WebMD before joining Nielsen and Norman as the third principal of Nielsen Norman Group. His First Principles of Interaction Design, published on his site AskTog since 1978 and continuously revised, collect the craft into one canonical list.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principles</div>
+    <p class="body-text law-desc">A living checklist of interaction design fundamentals — anticipation, autonomy, consistency, discoverability, efficiency, explorable interfaces, Fitts’s law, latency reduction, learnability, and more.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-bruce-tognazzini">Bruce Tognazzini</a></div></div>
+      <div><div class="label">Source</div><div class="value">First Principles of Interaction Design, AskTog</div></div>
+      <div><div class="label">In practice</div><div class="value">Audit flows against the checklist</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <article class="card t1">
+    <div class="card-header">
+      <span class="tag">Foresight</span>
+      <h3>Anticipation</h3>
+      <p class="desc">Bring to the user whatever they’re likely to need next — information, tools, options — before they have to ask. Anticipating the next action is what separates a competent tool from one that feels intelligent.</p>
+    </div>
+    <div class="demo"><div class="tx gap-8"><span class="ln w-62"></span><span class="ln faint w-90"></span><span class="ln faint w-84"></span><div class="row hot" style="margin-top:6px"><i class="w-40"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Bring what’s next, now</div></div>
+      <div><div class="label">Examples</div><div class="value">Suggested actions · pre-fill</div></div>
+      <div><div class="label">Feels like</div><div class="value">Intelligence</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="gestalt-principles.html">Gestalt Principles</a></div></div>
+  </article>
+
+  <article class="card t2">
+    <div class="card-header">
+      <span class="tag">Control</span>
+      <h3>Autonomy</h3>
+      <p class="desc">The user, not the system, is in charge. Show status clearly, never trap people in a flow they can’t escape, and make rules explicit so they can be steered around. Software that decides things for the user without asking is software that gets uninstalled.</p>
+    </div>
+    <div class="demo"><div class="tx"><div class="panel" style="flex:0 0 auto;position:relative;padding:14px"><span class="dot b" style="position:absolute;top:10px;right:10px"></span><span class="t"></span><span class="l w-88"></span><span class="l w-70"></span><div style="display:flex;gap:8px;margin-top:8px"><span style="height:14px;width:34%;border-radius:7px;background:var(--il-accent);display:block"></span><span style="height:14px;width:26%;border-radius:7px;background:var(--skel);opacity:0.3;display:block"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">User holds the wheel</div></div>
+      <div><div class="label">Show</div><div class="value">Status · way out</div></div>
+      <div><div class="label">Don’t</div><div class="value">Trap or decide silently</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+
+  <article class="card t3">
+    <div class="card-header">
+      <span class="tag">Sameness</span>
+      <h3>Consistency</h3>
+      <p class="desc">The same action should look and behave the same everywhere — within the product, across the suite, and against platform conventions. Inconsistency is unforced cognitive load. Break it only when you have a much better answer and only at one point in the flow.</p>
+    </div>
+    <div class="demo"><div class="tx split"><div class="panel"><span class="t"></span><span class="l w-86"></span><span class="l w-66"></span><span class="btn"></span></div><div class="panel"><span class="t"></span><span class="l w-86"></span><span class="l w-66"></span><span class="btn"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Across</div><div class="value">Screens · suite · platform</div></div>
+      <div><div class="label">Cost</div><div class="value">Of breaking it: relearning</div></div>
+      <div><div class="label">When break</div><div class="value">A much better idea</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="cognitive-load-theory.html">Cognitive Load Theory</a></div></div>
+  </article>
+
+  <article class="card t4">
+    <div class="card-header">
+      <span class="tag">Smart starting point</span>
+      <h3>Defaults</h3>
+      <p class="desc">Give users a safe starting state. Defaults should be reversible, useful for most users in most cases, and clearly chosen — not “we forgot to pick.” A great default does the work the user was about to do anyway, and gets out of the way.</p>
+    </div>
+    <div class="demo"><div class="tx gap-8"><div class="field"><i class="w-44"></i><span class="dot-b"></span></div><div class="field"><i class="w-36"></i><span class="dot-b"></span></div><div class="field"><i class="w-24"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Properties</div><div class="value">Safe · reversible · sensible</div></div>
+      <div><div class="label">Source</div><div class="value">IP · history · most common</div></div>
+      <div><div class="label">Don’t</div><div class="value">Use as a dark pattern</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="postels-law.html">Postel’s Law</a></div></div>
+  </article>
+
+  <article class="card t5">
+    <div class="card-header">
+      <span class="tag">Speed</span>
+      <h3>Efficiency of the User</h3>
+      <p class="desc">Optimize the user’s time, not the system’s. Saving the engineer ten seconds at the cost of ten user-seconds, ten thousand times a day, is a bad trade. Bulk actions, keyboard shortcuts, smart pasting, and recent items all hand minutes back to the people who do the work.</p>
+    </div>
+    <div class="demo"><div class="tx gap-16"><div style="display:flex;align-items:center;gap:8px"><span class="dot"></span><span class="ln faint flex-1"></span><span class="dot"></span><span class="ln faint flex-1"></span><span class="dot"></span><span class="ln faint flex-1"></span><span class="dot"></span><span class="ln faint flex-1"></span><span class="dot"></span></div><div style="display:flex;align-items:center;gap:8px"><span class="dot b"></span><span style="flex:1;height:4px;border-radius:2px;background:var(--il-accent);display:block"></span><span class="dot b"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Optimize</div><div class="value">User’s seconds</div></div>
+      <div><div class="label">Tactics</div><div class="value">Bulk · shortcuts · recents</div></div>
+      <div><div class="label">Test</div><div class="value">Run it 100 times</div></div>
+    </div>
+  </article>
+
+  <article class="card t6">
+    <div class="card-header">
+      <span class="tag">Discoverability</span>
+      <h3>Explorable Interfaces</h3>
+      <p class="desc">Reward curiosity. Let users try things without fear — actions should be obvious to find, and obvious to reverse. Tog’s note: every action needs a way back. Without undo, every click is a commitment, and most users stop clicking.</p>
+    </div>
+    <div class="demo"><div class="tx gap-12"><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;flex:1"><span style="border-radius:8px;background:var(--surface);display:block"></span><span style="border-radius:8px;background:rgba(56,189,248,0.2);display:block"></span><span style="border-radius:8px;background:var(--surface);display:block"></span><span style="border-radius:8px;background:var(--surface);display:block"></span><span style="border-radius:8px;background:var(--surface);display:block"></span><span style="border-radius:8px;background:var(--surface);display:block"></span></div><div class="toast w-56"><span class="ic"></span><i class="w-46"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Safe to try, easy to back out</div></div>
+      <div><div class="label">Require</div><div class="value">Undo for everything</div></div>
+      <div><div class="label">Effect</div><div class="value">Confidence to explore</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="shneiderman-eight-golden-rules.html">Shneiderman’s Eight Golden Rules</a></div></div>
+  </article>
+
+  <article class="card t7">
+    <div class="card-header">
+      <span class="tag">Performance</span>
+      <h3>Latency Reduction</h3>
+      <p class="desc">Where the system can’t get faster, make it feel faster. Optimistic UI commits the change before the network confirms; skeleton screens give the eye something to land on; sound and animation acknowledge a click before the response arrives. Perceived latency is design’s lever.</p>
+    </div>
+    <div class="demo"><div class="tx gap-10"><div class="row hot"><i class="w-42"></i></div><span class="ln faint w-88"></span><span class="ln faint w-76"></span><div class="meter" style="margin-top:6px"><i class="w-82"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Lever</div><div class="value">Perceived &gt; actual latency</div></div>
+      <div><div class="label">Tactics</div><div class="value">Optimistic UI · skeletons</div></div>
+      <div><div class="label">Risk</div><div class="value">Lying about success</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="doherty-threshold.html">Doherty Threshold</a></div></div>
+  </article>
+
+  <article class="card t8">
+    <div class="card-header">
+      <span class="tag">Trust</span>
+      <h3>Protect the User’s Work</h3>
+      <p class="desc">The single most important rule. Auto-save constantly, recover from crashes, version everything, never silently overwrite. Tog: nothing erodes trust faster than losing a user’s work. Once it happens, that user reaches for their save key compulsively, forever — or stops using the product.</p>
+    </div>
+    <div class="demo"><div class="tx gap-10"><div style="display:flex;align-items:center;gap:8px"><span class="ln w-40"></span><span class="chip" style="margin-left:auto"><i style="width:18px"></i></span></div><span class="ln faint w-92"></span><span class="ln faint w-86"></span><span class="ln faint w-90"></span><span class="ln faint w-58"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Rule</div><div class="value">Never lose work</div></div>
+      <div><div class="label">Tactics</div><div class="value">Auto-save · history · recovery</div></div>
+      <div><div class="label">When lost</div><div class="value">Trust never fully returns</div></div>
+    </div>
+  </article>
+
+  <article class="card t9">
+    <div class="card-header">
+      <span class="tag">Continuity</span>
+      <h3>Track the User’s State</h3>
+      <p class="desc">Remember where the user left off. Open the document they were editing, scroll to the line they were reading, restore the filter they had applied. Continuity across sessions costs little to ship and saves the user from rebuilding their workspace every morning.</p>
+    </div>
+    <div class="demo"><div class="tx" style="flex-direction:row;gap:12px;align-items:stretch"><div style="flex:1;display:flex;flex-direction:column;gap:7px;justify-content:center"><div class="row hpx-16"><i class="w-30"></i></div><div class="row hpx-16"><i class="w-26"></i></div><div class="row hot hpx-16"><i class="w-34"></i></div><div class="row hpx-16"><i class="w-22"></i></div><div class="row hpx-16"><i class="w-28"></i></div></div><div style="flex:0 0 8px;background:var(--surface);border-radius:4px;position:relative"><span style="position:absolute;left:1.5px;right:1.5px;top:44%;height:22%;border-radius:3px;background:var(--il-accent);display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Track</div><div class="value">Position · filter · selection</div></div>
+      <div><div class="label">Across</div><div class="value">Sessions · devices</div></div>
+      <div><div class="label">Result</div><div class="value">Less rebuilding</div></div>
+    </div>
+  </article>
+
+  <article class="card t10">
+    <div class="card-header">
+      <span class="tag">Wayfinding</span>
+      <h3>Visible Navigation</h3>
+      <p class="desc">Users should never wonder “where am I, where can I go, and how do I get back?” Visible nav, breadcrumbs, and clear active states cost a few pixels and pay for themselves in every session. Tog called this the single most missed principle in modern web design.</p>
+    </div>
+    <div class="demo"><div class="tx" style="justify-content:flex-start;gap:10px"><div style="display:flex;gap:10px;align-items:center"><span class="ln" style="width:16%;opacity:0.55"></span><span class="ln" style="width:12%;opacity:0.3"></span><span style="width:12%;height:8px;border-radius:4px;background:var(--il-accent);display:block"></span><span class="ln" style="width:12%;opacity:0.3"></span></div><div class="crumbs"><span class="c"></span><span class="s"></span><span class="c"></span><span class="s"></span><span class="c b"></span></div><span class="ln faint w-88"></span><span class="ln faint w-76"></span><span class="ln faint w-82"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Show</div><div class="value">Where · where else · back</div></div>
+      <div><div class="label">Pairs with</div><div class="value"><a href="navigation-patterns.html">Navigation Patterns</a></div></div>
+      <div><div class="label">Cost of skipping</div><div class="value">Lost users</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="navigation-patterns.html">Navigation Patterns</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Tog’s Principles in the Age of AI</h3>
+    <p>Anticipation and latency reduction — two of Tog’s oldest principles — are exactly the levers a model gives you, and exactly the levers it threatens to break.</p>
+  </div>
+
+  <article class="card t11">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Anticipation at Scale</h3>
+      <p class="desc">Tog’s anticipation principle was about hand-picked next-actions. Models do it generatively, per user, per moment. Done well, it’s the closest software has come to “feels intelligent.” Done sloppily, it’s a constant stream of guesses that aren’t quite right, and the user starts ignoring the suggestions.</p>
+    </div>
+    <div class="demo"><div class="tx gap-12"><div class="bub w-70"><span class="l w-90"></span><span class="l w-64"></span></div><div class="chiprow"><span class="chip"><i></i></span><span class="chip"><i style="width:32px"></i></span><span class="chip"><i style="width:18px"></i></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Done well</div><div class="value">Feels intelligent</div></div>
+      <div><div class="label">Done badly</div><div class="value">Noise · users tune out</div></div>
+      <div><div class="label">Test</div><div class="value">Take rate &gt; 30%?</div></div>
+    </div>
+  </article>
+
+  <article class="card t12">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Latency Trade-off</h3>
+      <p class="desc">Models are smart, but they’re not fast. A response that takes four seconds violates everything Tog wrote about latency. Streaming tokens helps; pre-warming the model helps; skeleton answers help. Without those, even a great answer arrives feeling like a slow product.</p>
+    </div>
+    <div class="demo"><div class="tx gap-12"><div class="bub" style="width:64%;align-self:flex-end;background:rgba(56,189,248,0.15)"><span class="l" style="width:80%;background:var(--il-accent);opacity:1"></span></div><div class="think"><span></span><span></span><span></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Problem</div><div class="value">Smart but slow</div></div>
+      <div><div class="label">Tactics</div><div class="value">Stream · pre-warm · skeleton</div></div>
+      <div><div class="label">Rule</div><div class="value">Never silent for &gt; 1s</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://asktog.com/atc/principles-of-interaction-design/" target="_blank" rel="noopener"><span class="title">First Principles of Interaction Design — AskTog</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Companion</h3>
+      <ul class="ref-list">
+        <li><a href="https://asktog.com/columns/022DesignedToGiveFitts.html" target="_blank" rel="noopener"><span class="title">A Quiz Designed to Give You Fitts</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Bruce_Tognazzini" target="_blank" rel="noopener"><span class="title">Bruce Tognazzini — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Tognazzini’s First Principles</div>
+  <div class="meta-info">AskTog · refined over decades</div>
+</footer>
+
+</body>
+</html>

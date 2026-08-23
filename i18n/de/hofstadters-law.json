@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Hofstadters <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Es dauert immer länger als erwartet — <em>selbst wenn man dieses Gesetz einberechnet</em>."
+ ],
+ "header .subtitle": [
+  "Aus Douglas Hofstadters Buch Gödel, Escher, Bach von 1979. Der selbstbezügliche Witz, der zugleich eine Arbeitsregel für Softwareschätzung ist: Jedes Projekt dauert länger als die ehrliche Schätzung, und Puffer beheben das nicht. Das Gesetz ist grundlegend geworden für die Art, wie Teams liefern — und für die Fortschrittsbalken, auf die Nutzer starren."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Douglas_Hofstadter\" target=\"_blank\" rel=\"noopener\">Douglas Hofstadter</a> ist ein amerikanischer Kognitionswissenschaftler und Pulitzer-Preisträger. Sein rekursives Gesetz — es dauert immer länger als erwartet, selbst wenn man Hofstadters Gesetz einberechnet — prägte er 1979 in seinem Buch Gödel, Escher, Bach.",
+  "Hofstadter gewann mit 35 Jahren den Pulitzer-Preis für Gödel, Escher, Bach. Als Professor für Kognitionswissenschaft an der Indiana University widmet er seine Laufbahn dem Analogiedenken und der Selbstreferenz — das Gesetz selbst ist ein selbstbezüglicher Witz, der zufällig auf jedes Softwareprojekt empirisch zutrifft."
+ ],
+ ".law-content .law-desc": [
+  "Schätzungen sind systematisch optimistisch. Sie planen einen Puffer ein; das Projekt reißt den Puffer. Sie planen einen größeren Puffer ein; es reißt auch den. Der Trick ist nicht mehr Polsterung — sondern Referenzklassen-Prognosen, echter Fortschritt und Ehrlichkeit gegenüber Nutzern darüber, was \"fast fertig\" wirklich bedeutet."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Douglas Hofstadter (1979)",
+  "Gödel, Escher, Bach",
+  "Jede Schätzung polstern"
+ ],
+ ".card .tag": [
+  "Das Phänomen",
+  "Taktik",
+  "UI",
+  "UI",
+  "Muster",
+  "Anti-Muster",
+  "Schätzung",
+  "Täglich",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Der Planungsfehlschluss",
+  "Referenzklassen-Prognose",
+  "Ehrliche Fortschrittsbalken",
+  "Zeit zeigen, nicht Prozent",
+  "Der lange Schwanz von \"fertig\"",
+  "Polstern behebt es nicht",
+  "Story Points verstecken die Verzerrung",
+  "Zweimal schätzen",
+  "KI senkt die Schätzung · gleiche Verzerrung",
+  "Token-Stream-Fortschritt zeigen"
+ ],
+ ".card .desc": [
+  "Kahnemans und Tverskys Name für denselben Fehler, den Hofstadter beschrieb. Menschen schätzen, als würde alles glattgehen, selbst wenn sie — abstrakt — wissen, dass es das nie tut. Jeder Einzelschritt wirkt vernünftig; die Summe verfehlt zuverlässig. Der Fehlschluss ist robust, gut dokumentiert und übersteht ausgiebiges Training dagegen.",
+  "Die Lösung, die Kahneman empfiehlt: Hören Sie auf, von innen zu schätzen. Suchen Sie fünf ähnliche vergangene Projekte. Nutzen Sie deren durchschnittliche Dauer, nicht Ihren Bottom-up-Plan. Die Außensicht schlägt die Innensicht beständig, weil sie die Überraschungen enthält, die Sie nicht vorhersagen können, die aber statistisch wiederkehren.",
+  "Ein Fortschrittsbalken, der 99 % erreicht und dort zwei Minuten verharrt, ist die kanonische Hofstadter-UX. Der Balken beruhte auf einer optimistischen Schätzung; der lange Schwanz des \"Fertigwerdens\" war nie eingeplant. Ehrliche Balken reservieren ein Budget für die letzten 10 % — oder gestehen, dass sie es nicht messen können, und wechseln zu einem unbestimmten Spinner.",
+  "\"Noch 4 Minuten\" ist ein Hofstadter-Versprechen, das das System wahrscheinlich bricht. \"Vor 2 Minuten gestartet\" ist schlicht wahr. Verstrichene Zeit plus erledigte Schritte ist ehrlicher als die prognostizierte Restzeit, denn die Prognose ist genau die Schätzung, die immer rutscht. Die meisten modernen Downloader haben sich still von der Vorhersage verabschiedet.",
+  "Softwareprojekte enden nicht; sie werden fertig genug. Die letzten 10 % eines Features enthalten 90 % der Überraschungen — Randfälle, Barrierefreiheit, Performance, Texte, die noch in drei weiteren Sprachen erscheinen müssen. Ehrliche Planung gibt dem langen Schwanz sein eigenes Budget, statt so zu tun, als stecke er in der ursprünglichen Schätzung.",
+  "Die naive Verteidigung — die Schätzung verdoppeln — verschiebt die Frist, ohne die Verzerrung zu ändern. Das Team liest die neue Frist als die echte, und das Verhalten dehnt sich aus, bis sie gefüllt ist. Parkinsons Gesetz obendrauf auf Hofstadters. Die Lösung ist nicht mehr Puffer, sondern eine andere Schätzmethode und eine explizite Regel dafür, was rutscht.",
+  "Agile Teams nutzen Story Points, um der Hofstadter-Falle auszuweichen, und führen sie still wieder ein, indem sie Velocity als Versprechen behandeln. Der Sinn relativer Schätzung ist, dass man nicht weiß, wie lange eine einzelne Sache dauert — man lässt die Kurve entstehen. Aus Velocity ein Datum zu pressen holt Hofstadter zurück.",
+  "Eine Arbeitsregel: Schreiben Sie Ihre Bauchschätzung auf, dann verdoppeln Sie sie. Vergleichen Sie mit der Außensicht. Wenn diese drei Zahlen stark auseinanderlaufen, ist das Projekt strukturell unsicher — sagen Sie das laut. Die meisten verpassten Fristen beginnen als Schätzungen, von denen jemand insgeheim wusste, dass sie optimistisch waren, sie aber trotzdem nannte.",
+  "\"Mit KI liefern wir das in zwei Tagen\" ist der hofstadterschste Satz des Jahres 2026. KI streicht manche Schritte; sie fügt auch neue hinzu — Review, Prompt-Tuning, Evaluation, das Ausbessern der selbstbewusst falschen Ausgabe. Die Summe driftet weiter. Das Gesetz gilt für KI-beschleunigte Projekte genauso wie für manuelle; die Konstante ist der menschliche Optimismus, nicht das Werkzeug.",
+  "Die Hofstadter-UI-Frage taucht in jedem KI-Feature auf. Ein Spinner während 8 Sekunden Modell-Denken wirkt kaputt; gestreamte Tokens, \"12 Quellen werden gelesen\" und schrittweise \"Denk\"-Meldungen deuten das Warten in Bewegung um. Die Summe bleibt gleich; was sich ändert, ist das Erleben von \"fast fertig\"."
+ ],
+ ".meta .label": [
+  "Benannt von",
+  "Verzerrung",
+  "Verwenden",
+  "Überspringen",
+  "Ehrlich",
+  "Rückfallebene",
+  "Bevorzugen",
+  "Vermeiden",
+  "Muster",
+  "Budget für",
+  "Behebt es nicht",
+  "Behebt es",
+  "Verwenden für",
+  "Nicht tun",
+  "Kosten",
+  "Erkennt",
+  "Konstante",
+  "Fügt hinzu",
+  "Zeigen",
+  "Vermeiden"
+ ],
+ ".meta .value": [
+  "Kahneman und Tversky, 1979",
+  "Innensicht · ignoriert Historie",
+  "Tatsächliche Zeiten früherer Projekte",
+  "Bottom-up-Schätzung",
+  "Budget für den langen Schwanz",
+  "Unbestimmter Spinner",
+  "Verstrichene Zeit · erledigte Schritte",
+  "\"Noch X Minuten\"",
+  "Überraschungsschwanz am Ende",
+  "A11y · Performance · i18n · QA",
+  "Größerer Puffer",
+  "Andere Methode",
+  "Relative Größenordnung",
+  "Punkte → Termine umrechnen",
+  "Zwei Minuten",
+  "Optimistische Bauchschätzung",
+  "Menschlicher Optimismus",
+  "Evaluation · Review · Verifikation",
+  "Schritte · Streaming · Quellen",
+  "Stummer Spinner"
+ ],
+ ".ai-divider h3": [
+  "Hofstadters Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI beschleunigt die Schritte, die man sieht — und legt neue frei, die man nicht sah, genau wie das Gesetz es vorhersagt."
+ ]
+}

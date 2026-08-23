@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" data-page="wcag">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.">
+<title>WCAG and POUR: Web Accessibility Principles, Explained — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/wcag-pour.html">
+<meta property="og:title" content="WCAG and POUR: Web Accessibility Principles, Explained — UX Guidelines">
+<meta property="og:description" content="Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/wcag-pour.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="WCAG and POUR: Web Accessibility Principles, Explained — UX Guidelines">
+<meta name="twitter:description" content="Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --w1: #6b6b6b;  /* perceivable */
+    --w2: #6b6b6b;  /* operable */
+    --w3: #6b6b6b;  /* understandable */
+    --w4: #6b6b6b;  /* robust */
+    --w5: #6b6b6b;  /* color contrast */
+    --w6: #6b6b6b;  /* alt text */
+    --w7: #6b6b6b;  /* keyboard */
+    --w8: #6b6b6b;  /* focus */
+    --w9: #6b6b6b;  /* touch target */
+    --w10:#6b6b6b;  /* semantic */
+  }
+
+  /* Card 10 full row */
+  .card.w10 .meta { grid-template-columns: 1fr 1fr; }
+  @media (min-width: 901px) {
+    .grid { grid-template-columns: repeat(3, 1fr); }
+    .grid-principles { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* Demo-specific */
+  .swatch-row { display: flex; gap: 12px; align-items: center; margin-top: 6px; }
+  .focus-btn.focused { border-color: var(--w8); outline: 3px solid rgba(220,38,38,.25); outline-offset: 2px; }
+  .alt-pic { width: 80px; height: 60px; background: linear-gradient(135deg, #9a9a9a 0%, #9a9a9a 100%); border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+
+  @media (max-width: 600px) {
+    .card.w10 { grid-column: unset; }
+    .card.w10 .meta { grid-template-columns: 1fr 1fr; }
+    
+    
+  }
+  /* tags neutralized to match beige illustrations */
+  .card .tag { background: rgba(107, 107, 107,.12) !important; color: var(--text-secondary) !important; }
+
+  /* category sections */
+  .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 40px 32px 8px; line-height: var(--lh-heading); }
+  @media (max-width: 600px) { .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 28px 20px 8px; line-height: var(--lh-heading); } }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* WCAG illustrations */
+  .wx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .wx .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel); opacity: 0.4; }
+  .wx .ln.faint { opacity: 0.25; }
+  .wx .media { border-radius: 10px; background: var(--surface); position: relative; overflow: hidden; }
+  .wx .media svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .wx .btn { height: 22px; border-radius: 8px; background: var(--surface); flex: 1; }
+  .wx .btn.focus { box-shadow: 0 0 0 3px var(--il-accent); background: var(--surface); }
+  .wx .btn.b { background: var(--il-accent); }
+  .wx .btnrow { display: flex; gap: 14px; padding: 4px; }
+  .wx .swpair { flex: 1; border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+  .wx .swpair i { display: block; width: 56%; height: 8px; border-radius: 4px; }
+  .wx .split { display: flex; gap: 14px; flex: 1; min-height: 0; align-items: stretch; }
+  .wx .col { flex: 1; display: flex; flex-direction: column; gap: 8px; justify-content: center; }
+  .wx .key { width: 26px; height: 26px; border-radius: 6px; background: var(--surface); flex: none; }
+  .wx .key.wide { width: 46px; }
+  .wx .key.b { background: rgba(56,189,248,0.25); }
+  .wx .keys { display: flex; gap: 7px; justify-content: center; }
+  .wx .target { position: relative; display: flex; align-items: center; justify-content: center; width: 56px; height: 56px; border-radius: 50%; background: rgba(56,189,248,0.15); }
+  .wx .target .c { width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); }
+  .wx .tiny { width: 14px; height: 14px; border-radius: 50%; background: var(--skel); opacity: 0.45; }
+  .wx .toggle { width: 40px; height: 22px; border-radius: 11px; background: var(--il-accent); position: relative; flex: none; }
+  .wx .toggle::after { content: ""; position: absolute; top: 3px; right: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; }
+  .wx .chip { height: 18px; border-radius: 9px; background: rgba(56,189,248,0.18); padding: 0 12px; display: flex; align-items: center; flex: none; }
+  .wx .chip i { height: 5px; width: 22px; border-radius: 2.5px; background: var(--il-accent); display: block; }
+  .wx .check { width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .wx .panel { background: var(--surface); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link active">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>WCAG and <em>POUR</em></h1>
+  <p class="tagline">Perceivable · Operable · Understandable · <em>Robust</em></p>
+  <p class="subtitle">Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here’s what each means and the success criteria every team should know.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The Web Content Accessibility Guidelines are produced by the World Wide Web Consortium’s Web Accessibility Initiative, launched in 1997 with <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" rel="noopener">Tim Berners-Lee</a>’s declaration that the power of the web is in its universality.</p>
+    <p class="body-text">WCAG 1.0 arrived in 1999; 2.0 (2008) reorganized everything under the four POUR principles and became an ISO standard and the legal benchmark in much of the world. Successive versions — 2.1, 2.2 — extended coverage to mobile, low vision, and cognitive needs.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Guidelines</div>
+    <p class="body-text law-desc">Content must be Perceivable, Operable, Understandable, and Robust. POUR is the durable core: every specific success criterion is one of these four promises made concrete.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value">W3C Web Accessibility Initiative</div></div>
+      <div><div class="label">Source</div><div class="value">WCAG 2.x specifications</div></div>
+      <div><div class="label">In practice</div><div class="value">Test against POUR, not just checkboxes</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main>
+
+  <section class="cat">
+    <h2 class="cat-label">The Four Principles</h2>
+    <div class="grid grid-principles">
+
+  <!-- 1. Perceivable -->
+  <article class="card w1">
+    <div class="card-header">
+      <span class="tag">Principle 1</span>
+      <span class="num">01 / 10</span>
+      <h3>Perceivable</h3>
+      <p class="desc">Information and UI components must be presented in ways users can perceive — through sight, sound, or touch. If users can’t sense it, they can’t use it.</p>
+    </div>
+    <div class="demo"><div class="wx gap-10"><div class="media" style="flex:1;position:relative"><svg viewBox="0 0 200 110" preserveAspectRatio="xMidYMid slice"><circle cx="52" cy="34" r="12" fill="#9a9a9a" opacity="0.4"/><path d="M0,110 L64,52 L104,84 L138,60 L200,96 L200,110 Z" fill="#9a9a9a" opacity="0.3"/></svg><span style="position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);width:30px;height:30px;border-radius:50%;background:rgba(17,17,17,0.35);display:block"></span><div style="position:absolute;left:50%;bottom:9px;transform:translateX(-50%);background:rgba(17,17,17,0.78);border-radius:6px;padding:6px 12px;display:flex;flex-direction:column;gap:4px;width:56%"><span style="display:block;height:5px;width:92%;border-radius:2.5px;background:var(--il-accent)"></span><span style="display:block;height:5px;width:64%;border-radius:2.5px;background:#fff;opacity:0.8"></span></div></div><span class="ln w-64"></span><span class="ln faint w-46"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Guidelines</div><div class="value">1.1 – 1.4</div></div>
+      <div><div class="label">Sense covered</div><div class="value">Sight · Hearing · Touch</div></div>
+      <div><div class="label">Failure mode</div><div class="value">User can’t detect content</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="conways-law.html">Conway’s Law</a></div></div>
+  </article>
+
+  <!-- 2. Operable -->
+  <article class="card w2">
+    <div class="card-header">
+      <span class="tag">Principle 2</span>
+      <span class="num">02 / 10</span>
+      <h3>Operable</h3>
+      <p class="desc">UI components and navigation must be operable. If something requires a mouse with pixel-perfect aim or a steady hand, large portions of users are locked out.</p>
+    </div>
+    <div class="demo"><div class="wx gap-12"><div class="btnrow"><span class="btn b"></span><span class="btn"></span></div><span class="ln faint w-84"></span><span class="ln faint w-66"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Guidelines</div><div class="value">2.1 – 2.5</div></div>
+      <div><div class="label">Input methods</div><div class="value">Keyboard · Touch · Switch</div></div>
+      <div><div class="label">Failure mode</div><div class="value">User can’t interact</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+
+  <!-- 3. Understandable -->
+  <article class="card w3">
+    <div class="card-header">
+      <span class="tag">Principle 3</span>
+      <span class="num">03 / 10</span>
+      <h3>Understandable</h3>
+      <p class="desc">Information and the operation of the UI must be understandable. Predictable behavior and plain language matter as much as visual design.</p>
+    </div>
+    <div class="demo"><div class="wx gap-6"><span class="ln" style="width:26%;opacity:0.55"></span><div style="height:26px;border-radius:8px;background:#fff;box-shadow:inset 0 0 0 1.5px rgba(0,0,0,0.14)"></div><span class="ln" style="width:32%;opacity:0.55;margin-top:6px"></span><div style="height:26px;border-radius:8px;background:#fff;box-shadow:inset 0 0 0 1.5px rgba(0,0,0,0.14)"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Guidelines</div><div class="value">3.1 – 3.3</div></div>
+      <div><div class="label">Reading level</div><div class="value">Lower-secondary recommended</div></div>
+      <div><div class="label">Failure mode</div><div class="value">User confused or misled</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hofstadters-law.html">Hofstadter’s Law</a></div></div>
+  </article>
+
+  <!-- 4. Robust -->
+  <article class="card w4">
+    <div class="card-header">
+      <span class="tag">Principle 4</span>
+      <span class="num">04 / 10</span>
+      <h3>Robust</h3>
+      <p class="desc">Content must be robust enough to be reliably interpreted by user agents — including assistive technologies. Today’s accessible page must still be accessible to tomorrow’s screen readers and devices.</p>
+    </div>
+    <div class="demo"><div class="wx split"><div class="col"><span class="ln" style="width:60%;opacity:0.55"></span><span class="ln faint"></span><span class="ln faint w-80"></span><span class="ln faint w-88"></span></div><div class="col"><div class="panel"><span class="ln" style="width:44%;background:var(--il-accent);opacity:1;height:5px"></span><span class="ln faint hpx-5"></span><span class="ln faint" style="height:5px;width:76%"></span><span class="ln faint" style="height:5px;width:84%"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Guideline</div><div class="value">4.1</div></div>
+      <div><div class="label">Targets</div><div class="value">Screen readers · Voice · Future</div></div>
+      <div><div class="label">Failure mode</div><div class="value">AT can’t parse markup</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="pareto-principle.html">Pareto Principle</a></div></div>
+  </article>
+
+  <!-- 5. Color Contrast -->
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Key Success Criteria</h2>
+    <div class="grid">
+  <article class="card w5">
+    <div class="card-header">
+      <span class="tag">SC 1.4.3</span>
+      <span class="num">05 / 10</span>
+      <h3>Color Contrast (1.4.3)</h3>
+      <p class="desc">Text against its background must reach 4.5:1 for normal text or 3:1 for large text (18pt+, or 14pt+ bold). Anything below makes copy unreadable for low-vision users.</p>
+    </div>
+    <div class="demo"><div class="wx split flex-1"><div class="swpair" style="background:#3a3a3a"><i style="background:#fff"></i></div><div class="swpair" style="background:var(--surface)"><i style="background:#d9d9d9"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Ratio · Normal</div><div class="value">4.5 : 1 (AA) · 7 : 1 (AAA)</div></div>
+      <div><div class="label">Ratio · Large</div><div class="value">3 : 1 (AA) · 4.5 : 1 (AAA)</div></div>
+      <div><div class="label">Tools</div><div class="value">WebAIM Contrast Checker</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="von-restorff-effect.html">Von Restorff Effect</a><a href="weber-fechner-law.html">Weber-Fechner Law</a></div></div>
+  </article>
+
+  <!-- 6. Alt text -->
+  <article class="card w6">
+    <div class="card-header">
+      <span class="tag">SC 1.1.1</span>
+      <span class="num">06 / 10</span>
+      <h3>Text Alternatives (1.1.1)</h3>
+      <p class="desc">Every non-text element needs a text alternative that conveys the same meaning. Decorative images use empty alt; informative images describe the content.</p>
+    </div>
+    <div class="demo"><div class="wx" style="flex-direction:row;gap:14px;align-items:center"><div class="media" style="flex:0 0 44%;align-self:stretch"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid slice"><circle cx="58" cy="42" r="14" fill="#9a9a9a" opacity="0.5"/><path d="M0,120 L70,58 L118,96 L152,66 L200,104 L200,120 Z" fill="#9a9a9a" opacity="0.4"/></svg></div><div class="col"><span class="ln" style="width:90%;background:var(--il-accent);opacity:1"></span><span class="ln faint"></span><span class="ln faint w-70"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Required on</div><div class="value">&lt;img&gt; · SVG · icon fonts</div></div>
+      <div><div class="label">Decorative</div><div class="value">alt=“” hides from screen reader</div></div>
+      <div><div class="label">Avoid</div><div class="value">“image of …” prefix</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Keyboard nav -->
+  <article class="card w7">
+    <div class="card-header">
+      <span class="tag">SC 2.1.1</span>
+      <span class="num">07 / 10</span>
+      <h3>Keyboard Accessible (2.1.1)</h3>
+      <p class="desc">Every interactive element must be reachable and operable using a keyboard. No mouse-only menus, no drag-and-drop without a fallback, no hover-only reveal of critical info.</p>
+    </div>
+    <div class="demo"><div class="wx gap-14"><div class="keys"><span class="key b wide"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span></div><div class="btnrow" style="padding:0 24px"><span class="btn focus"></span><span class="btn"></span><span class="btn"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Test method</div><div class="value">Unplug your mouse</div></div>
+      <div><div class="label">Watch for</div><div class="value">div onclick · custom widgets</div></div>
+      <div><div class="label">Order</div><div class="value">Visual ≡ DOM ≡ tab order</div></div>
+    </div>
+  </article>
+
+  <!-- 8. Focus visible -->
+  <article class="card w8">
+    <div class="card-header">
+      <span class="tag">SC 2.4.7</span>
+      <span class="num">08 / 10</span>
+      <h3>Focus Visible (2.4.7)</h3>
+      <p class="desc">Keyboard focus must always be visible. Removing the default outline without providing a clearer replacement strands keyboard users — they literally cannot see where they are.</p>
+    </div>
+    <div class="demo"><div class="wx" style="gap:14px;padding:18px 30px"><div class="btnrow"><span class="btn"></span><span class="btn focus"></span><span class="btn"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Default</div><div class="value">Browser-blue outline · do not strip</div></div>
+      <div><div class="label">Custom ring</div><div class="value">3 px · 2 px offset · ≥3:1 contrast</div></div>
+      <div><div class="label">Property</div><div class="value">:focus-visible (not :focus)</div></div>
+    </div>
+  </article>
+
+  <!-- 9. Touch target -->
+  <article class="card w9">
+    <div class="card-header">
+      <span class="tag">SC 2.5.5</span>
+      <span class="num">09 / 10</span>
+      <h3>Touch Target Size (2.5.5)</h3>
+      <p class="desc">Pointer targets must be at least 24×24 CSS pixels (AA, WCAG 2.2) — 44×44 for AAA. Tiny tap targets make mobile sites useless for anyone with low precision or large fingers.</p>
+    </div>
+    <div class="demo"><div class="wx" style="flex-direction:row;gap:48px;align-items:center;justify-content:center"><div class="target"><span class="c"></span></div><span class="tiny"></span></div></div>
+    <div class="meta">
+      <div><div class="label">AA</div><div class="value">24 × 24 CSS px</div></div>
+      <div><div class="label">AAA</div><div class="value">44 × 44 CSS px</div></div>
+      <div><div class="label">Spacing</div><div class="value">Adjacent targets ≥ 8 px apart</div></div>
+    </div>
+  </article>
+
+  <!-- 10. Semantic markup (full row) -->
+  <article class="card w10">
+    <div class="card-header">
+      <span class="tag">SC 4.1.2</span>
+      <span class="num">10 / 10</span>
+      <h3>Name, Role, Value (4.1.2)</h3>
+      <p class="desc">Every UI component must expose its name, role, and current state to assistive technology. Use the right element for the right job — <code style="font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px">&lt;button&gt;</code> for actions, <code style="font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px">&lt;a href&gt;</code> for navigation, <code style="font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px">&lt;label&gt;</code> for inputs. ARIA only when native HTML can’t express it.</p>
+    </div>
+    <div class="demo"><div class="wx gap-12"><div style="display:flex;align-items:center;gap:12px"><span class="toggle"></span><span class="ln" style="width:34%;opacity:0.55"></span><span class="chip" style="margin-left:auto"><i></i></span></div><div style="display:flex;align-items:center;gap:12px"><span class="toggle" style="background:var(--skel);opacity:0.4"></span><span class="ln" style="width:28%;opacity:0.55"></span><span class="chip" style="margin-left:auto;background:var(--surface)"><i style="background:var(--skel-strong);opacity:0.5"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Name</div><div class="value">Accessible text label</div></div>
+      <div><div class="label">Role</div><div class="value">What kind of element</div></div>
+      <div><div class="label">Value</div><div class="value">Current state / value</div></div>
+    </div>
+  </article>
+
+    </div>
+  </section>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Accessibility in the Age of AI</h3>
+    <p>AI is becoming both a way to generate accessibility metadata at scale and the assistive layer itself — neither replaces human review.</p>
+  </div>
+
+  <div class="grid">
+  <article class="card">
+    <div class="demo"><div class="wx" style="flex-direction:row;gap:14px;align-items:center"><div class="media" style="flex:0 0 40%;align-self:stretch"><svg viewBox="0 0 200 120" preserveAspectRatio="xMidYMid slice"><circle cx="58" cy="42" r="14" fill="#9a9a9a" opacity="0.5"/><path d="M0,120 L70,58 L118,96 L152,66 L200,104 L200,120 Z" fill="#9a9a9a" opacity="0.4"/></svg></div><div class="col"><span class="ln" style="width:88%;background:var(--il-accent);opacity:1"></span><span class="ln faint"></span><span class="ln faint w-72"></span><div style="display:flex;align-items:center;gap:8px;margin-top:4px"><span class="check"></span><span class="ln" style="width:36%;opacity:0.5"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI-Generated Alt Text & Captions</h3>
+      <p class="desc">Vision and speech models can describe images and transcribe audio at scale. But the output needs review — a confident, wrong caption is worse than none at all.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Generates</div><div class="value">Alt text · captions · labels</div></div><div><div class="label">Use when</div><div class="value">Volume is too high for manual</div></div><div><div class="label">Watch for</div><div class="value">Plausible but wrong output</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="wx split"><div class="col" style="flex:1.4"><span class="ln" style="width:56%;opacity:0.55"></span><span class="ln faint"></span><span class="ln faint w-84"></span><span class="ln faint w-90"></span><span class="ln faint w-62"></span></div><div class="col"><div class="panel" style="background:rgba(56,189,248,0.12);flex:1;justify-content:center"><span class="ln" style="width:80%;background:var(--il-accent);opacity:1;height:5px"></span><span class="ln" style="width:60%;background:var(--il-accent);opacity:0.6;height:5px"></span><span class="ln" style="width:70%;background:var(--il-accent);opacity:0.6;height:5px"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI as the New Assistive Layer</h3>
+      <p class="desc">Screen readers, live captions, and “explain this page” are becoming AI features. Ship clean semantics so the model has accurate structure to work from.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Becomes</div><div class="value">AI-powered AT</div></div><div><div class="label">Design for</div><div class="value">Clean roles & semantics</div></div><div><div class="label">Watch for</div><div class="value">Garbage-in → garbage-out</div></div>
+    </div>
+  </article>
+  </div>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">W3C</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener"><span class="title">WCAG Overview</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener"><span class="title">WCAG 2.2 Specification</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.w3.org/WAI/WCAG22/quickref/" target="_blank" rel="noopener"><span class="title">How to Meet WCAG (Quick Reference)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.w3.org/WAI/fundamentals/accessibility-principles/" target="_blank" rel="noopener"><span class="title">Accessibility Principles (POUR)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines" target="_blank" rel="noopener"><span class="title">Web Content Accessibility Guidelines</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Web_accessibility" target="_blank" rel="noopener"><span class="title">Web Accessibility</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/WAI-ARIA" target="_blank" rel="noopener"><span class="title">WAI-ARIA</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">WebAIM</h3>
+      <ul class="ref-list">
+        <li><a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noopener"><span class="title">Contrast Checker</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://webaim.org/projects/million/" target="_blank" rel="noopener"><span class="title">The WebAIM Million — annual a11y census</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">MDN</h3>
+      <ul class="ref-list">
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility" target="_blank" rel="noopener"><span class="title">Accessibility on MDN</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA" target="_blank" rel="noopener"><span class="title">ARIA Reference</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · WCAG and POUR</div>
+</footer>
+
+</body>
+</html>

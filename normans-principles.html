@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-page="norman">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Don Norman&#x27;s &quot;The Design of Everyday Things&quot; (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual.">
+<title>Norman’s Principles: Affordances, Signifiers, and Feedback — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/normans-principles.html">
+<meta property="og:title" content="Norman&#x27;s Principles: Affordances, Signifiers, and Feedback — UX Guidelines">
+<meta property="og:description" content="Don Norman&#x27;s &quot;The Design of Everyday Things&quot; (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/normans-principles.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Norman&#x27;s Principles: Affordances, Signifiers, and Feedback — UX Guidelines">
+<meta name="twitter:description" content="Don Norman&#x27;s &quot;The Design of Everyday Things&quot; (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
+    --ink: #111111; --muted: #6b6b6b; --ai: #0d9488;
+  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+  .copyright, .meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; }
+  
+
+  /* Norman illustrations */
+  .nx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .nx .b { background: var(--skel); opacity: 0.55; border-radius: 6px; display: block; }
+  .nx .b.faint { opacity: 0.32; }
+  .nx .hot { background: var(--il-accent); opacity: 1; border-radius: 6px; }
+  .nx .roww { display: flex; gap: 10px; align-items: center; }
+  .nx .btn3d { height: 30px; flex: 1; border-radius: 8px; background: var(--surface); border: 1.5px solid var(--border); box-shadow: 0 3px 0 var(--border); }
+  .nx .btn3d.hot { background: var(--il-accent); border-color: var(--il-accent); box-shadow: 0 3px 0 rgba(56,189,248,0.45); }
+  .nx .flat { height: 30px; flex: 1; border-radius: 8px; background: var(--skel); opacity: 0.18; }
+  .nx .knob { width: 26px; height: 26px; border-radius: 50%; background: var(--skel); opacity: 0.55; flex: none; }
+  .nx .knob.hot { background: var(--il-accent); opacity: 1; }
+  .nx .burner { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--skel); opacity: 0.5; flex: none; }
+  .nx .burner.hot { border-color: var(--il-accent); opacity: 1; }
+  .nx .track { height: 12px; border-radius: 6px; background: var(--skel); opacity: 0.22; overflow: hidden; }
+  .nx .fill { height: 100%; width: 62%; border-radius: 6px; background: var(--il-accent); }
+  .nx .toggle { width: 44px; height: 24px; border-radius: 12px; background: var(--il-accent); position: relative; flex: none; }
+  .nx .toggle::after { content: ''; position: absolute; top: 3px; right: 3px; width: 18px; height: 18px; border-radius: 50%; background: var(--bg); }
+  .nx .slot { height: 26px; background: var(--skel); opacity: 0.15; border-radius: 8px; flex: 1; }
+  .nx .piece { height: 26px; flex: 0 0 34%; border-radius: 8px; background: var(--skel-strong); opacity: 0.6; }
+  .nx .arrowline { stroke: var(--il-accent); stroke-width: 4; stroke-linecap: round; fill: none; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link active">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Norman’s <em>Principles</em></h1>
+  <p class="tagline">The interface speaks for itself — or it <em>doesn’t work</em>.</p>
+  <p class="subtitle">Don Norman’s “The Design of Everyday Things” (1988) laid out a small set of design principles that became the foundation of HCI. The premise: a well-designed object tells you what it does, how to use it, and whether you got it right — without a manual.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Don_Norman" target="_blank" rel="noopener">Don Norman</a> is an American cognitive scientist who directed the Institute for Cognitive Science at UC San Diego, served as an Apple Fellow — where he coined the title ‘user experience architect’ — and co-founded Nielsen Norman Group.</p>
+    <p class="body-text">The Design of Everyday Things (1988, originally The Psychology of Everyday Things) gave design its core vocabulary: affordances, signifiers, mapping, feedback, and conceptual models. Its examples of confusing doors made ‘Norman door’ a term of art.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principles</div>
+    <p class="body-text law-desc">Good design makes possible actions visible, maps controls to effects, and reports what happened. When users fail, the fault usually lies in the design’s communication — not in the user.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-don-norman">Don Norman</a></div></div>
+      <div><div class="label">Source</div><div class="value">The Design of Everyday Things</div></div>
+      <div><div class="label">In practice</div><div class="value">Show affordances; give instant feedback</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <article class="card n1">
+    <div class="card-header">
+      <span class="tag">Action</span>
+      <h3>Affordances</h3>
+      <p class="desc">The properties of an object that suggest how it can be used. A handle affords pulling, a button affords pushing, a knob affords turning. In software, affordances are mostly perceived — a button “looks clickable” because its shape echoes a physical one. When the affordance lies, the user fails.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="roww"><span class="btn3d hot"></span><span class="flat"></span></div>
+      <div class="roww"><span class="btn3d"></span><span class="flat"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Suggests how to use</div></div>
+      <div><div class="label">In UI</div><div class="value">Perceived affordance</div></div>
+      <div><div class="label">Fails when</div><div class="value">Shape misleads</div></div>
+    </div>
+  </article>
+
+  <article class="card n2">
+    <div class="card-header">
+      <span class="tag">Cue</span>
+      <h3>Signifiers</h3>
+      <p class="desc">Norman added “signifier” to the second edition because “affordance” had been overloaded. A signifier is the visible signal — a label, an underline, an arrow — that points to where action is possible. Affordance is the underlying capability; signifier is what the user can actually see.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="roww"><span class="hot" style="width:14px;height:14px;border-radius:50%;flex:none"></span><span class="b" style="height:8px;flex:1"></span></div>
+      <div class="roww"><span class="b" style="width:14px;height:14px;border-radius:50%;flex:none;opacity:0.3"></span><span class="b faint" style="height:8px;flex:1"></span></div>
+      <div class="roww"><span class="b" style="width:14px;height:14px;border-radius:50%;flex:none;opacity:0.3"></span><span class="b faint" style="height:8px;flex:1"></span></div>
+      <div class="roww" style="margin-top:8px"><span class="hot" style="height:22px;flex:0 0 90px;border-radius:11px"></span><span class="b faint" style="height:22px;flex:0 0 90px;border-radius:11px"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">The visible signal</div></div>
+      <div><div class="label">Examples</div><div class="value">Underline · arrow · label</div></div>
+      <div><div class="label">Pairs with</div><div class="value">Affordance</div></div>
+    </div>
+  </article>
+
+  <article class="card n3">
+    <div class="card-header">
+      <span class="tag">Layout</span>
+      <h3>Mapping</h3>
+      <p class="desc">The relationship between controls and their effects. Light switches that match the position of the bulbs they control; stove knobs aligned with their burners; volume sliders that go up when sound goes up. Bad mapping is why hotel showers and laundry machines are the running joke of UX.</p>
+    </div>
+    <div class="demo"><div class="nx" style="flex-direction:row;align-items:center;gap:24px;justify-content:center">
+      <div style="display:flex;flex-direction:column;gap:14px"><span class="burner hot"></span><span class="burner"></span></div>
+      <div style="display:flex;flex-direction:column;gap:14px"><span class="burner"></span><span class="burner"></span></div>
+      <div style="display:flex;flex-direction:column;gap:14px"><span class="knob hot"></span><span class="knob"></span></div>
+      <div style="display:flex;flex-direction:column;gap:14px"><span class="knob"></span><span class="knob"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Control ↔ effect alignment</div></div>
+      <div><div class="label">Classic case</div><div class="value">Stove knobs</div></div>
+      <div><div class="label">Fails when</div><div class="value">User has to remember which is which</div></div>
+    </div>
+  </article>
+
+  <article class="card n4">
+    <div class="card-header">
+      <span class="tag">Response</span>
+      <h3>Feedback</h3>
+      <p class="desc">Every action gets a visible, audible, or tactile response. Without feedback, the user is left guessing whether anything happened, and starts re-clicking, re-submitting, and double-paying. Spinners, toasts, ripple effects, haptic taps, sound — small cues, huge confidence.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="roww"><span class="toggle"></span><span class="b" style="height:8px;flex:0 0 34%"></span></div>
+      <div class="track"><div class="fill"></div></div>
+      <div class="roww"><span class="hot" style="width:10px;height:10px;border-radius:50%;flex:none"></span><span class="b faint" style="height:6px;flex:0 0 46%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Show that it happened</div></div>
+      <div><div class="label">Channels</div><div class="value">Visual · auditory · haptic</div></div>
+      <div><div class="label">Without it</div><div class="value">Double-clicking · double-charging</div></div>
+    </div>
+  </article>
+
+  <article class="card n5">
+    <div class="card-header">
+      <span class="tag">Limits</span>
+      <h3>Constraints</h3>
+      <p class="desc">Limits that prevent invalid actions before they happen. A USB plug that only fits one way, a date picker that won’t let you pick before today, a tax form that grays out fields irrelevant to your filing status. Good constraints prevent errors invisibly; bad ones just frustrate.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="roww"><span class="piece"></span><span class="slot" style="border-color:var(--il-accent)"></span></div>
+      <div class="roww"><span class="slot"></span><span class="piece" style="flex:0 0 50%;opacity:0.25"></span></div>
+      <div class="roww"><span class="b faint" style="height:22px;flex:1"></span><span class="b faint" style="height:22px;flex:1;opacity:0.1"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Kinds</div><div class="value">Physical · logical · cultural</div></div>
+      <div><div class="label">Effect</div><div class="value">Errors prevented quietly</div></div>
+      <div><div class="label">Watch for</div><div class="value">Over-constraint = frustration</div></div>
+    </div>
+  </article>
+
+  <article class="card n6">
+    <div class="card-header">
+      <span class="tag">Mental model</span>
+      <h3>Conceptual Model</h3>
+      <p class="desc">The simplified picture of how the thing works that the user carries in their head. The folder metaphor on the desktop, the page metaphor in a browser, the chain of messages in chat. When the system’s actual behavior diverges from the user’s conceptual model, every action becomes a guess.</p>
+    </div>
+    <div class="demo"><div class="nx" style="flex-direction:row;gap:16px;align-items:center">
+      <div style="flex:1;display:flex;flex-direction:column;gap:8px">
+        <span class="b" style="height:10px;width:60%"></span>
+        <span class="b faint" style="height:6px;width:90%"></span>
+        <span class="b faint" style="height:6px;width:75%"></span>
+      </div>
+      <svg viewBox="0 0 40 40" style="flex:none;width:40px;height:40px;overflow:visible"><path class="arrowline" d="M4 20 L30 20"/><path class="arrowline" d="M24 13 L32 20 L24 27"/></svg>
+      <div style="flex:1;display:flex;flex-direction:column;gap:8px">
+        <span class="hot" style="height:10px;width:60%"></span>
+        <span class="b" style="height:6px;width:90%"></span>
+        <span class="b" style="height:6px;width:75%"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">What it is</div><div class="value">User’s simplified picture</div></div>
+      <div><div class="label">Built from</div><div class="value">Past experience · metaphor</div></div>
+      <div><div class="label">Diverges</div><div class="value">Every action is a guess</div></div>
+    </div>
+  </article>
+
+  <article class="card n7">
+    <div class="card-header">
+      <span class="tag">Discoverability</span>
+      <h3>Visibility and Discoverability</h3>
+      <p class="desc">Whatever can be done should be visible. Hidden controls, ⌘-only shortcuts, and “if you knew where to look” features all violate this. The user shouldn’t have to remember; the interface should show. Discoverability is what turns a powerful product into a usable one.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="roww"><span class="hot" style="height:22px;flex:1;border-radius:11px"></span><span class="hot" style="height:22px;flex:1;border-radius:11px;opacity:0.6"></span><span class="hot" style="height:22px;flex:1;border-radius:11px;opacity:0.6"></span></div>
+      <div class="roww" style="margin-top:10px"><span class="b faint" style="height:22px;flex:1;background:var(--skel);opacity:0.15;border-radius:11px"></span><span class="b faint" style="height:22px;flex:1;background:var(--skel);opacity:0.15;border-radius:11px"></span><span class="b faint" style="height:22px;flex:1;background:var(--skel);opacity:0.15;border-radius:11px"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Defined</div><div class="value">Show what’s possible</div></div>
+      <div><div class="label">Don’t rely on</div><div class="value">Memory</div></div>
+      <div><div class="label">Bad sign</div><div class="value">“You have to know”</div></div>
+    </div>
+  </article>
+
+  <article class="card n8">
+    <div class="card-header">
+      <span class="tag">Sameness</span>
+      <h3>Consistency</h3>
+      <p class="desc">The same thing should always look the same and behave the same. Across screens, across products, and against the platform conventions users have already learned. Inconsistency forces users to constantly re-learn, undermining every other principle on this page.</p>
+    </div>
+    <div class="demo"><div class="nx" style="flex-direction:row;gap:14px">
+      <div style="flex:1;background:var(--surface);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px">
+        <span class="b" style="height:7px;width:55%"></span><span class="b faint" style="height:6px;width:85%"></span>
+        <span class="hot" style="height:16px;width:56px;border-radius:8px;margin-top:auto"></span>
+      </div>
+      <div style="flex:1;background:var(--surface);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:8px">
+        <span class="b" style="height:7px;width:45%"></span><span class="b faint" style="height:6px;width:80%"></span>
+        <span class="hot" style="height:16px;width:56px;border-radius:8px;margin-top:auto"></span>
+      </div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Across</div><div class="value">Screens · products · platforms</div></div>
+      <div><div class="label">Pairs with</div><div class="value"><a href="jakobs-law.html">Jakob’s Law</a></div></div>
+      <div><div class="label">Cost of breaking</div><div class="value">Re-learning everywhere</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Norman’s Principles in the Age of AI</h3>
+    <p>The conversational interface re-poses every one of Norman’s questions — what can I do, did it work, what does it know about my model?</p>
+  </div>
+
+  <article class="card n9">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Gulf of Execution Returns</h3>
+      <p class="desc">Norman’s “gulf of execution” — the distance between what you want to do and how to do it — was nearly closed by direct manipulation interfaces. A blank chat box reopens it. There’s no signifier for what the model can do. Show the affordances back to the user: examples, suggested prompts, capability hints.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <div class="chat-input"><span class="box"></span><span class="send"></span></div>
+      <div class="roww" style="margin-top:6px"><span class="b faint" style="height:6px;width:30%"></span></div>
+      <div class="roww"><span class="b faint" style="height:6px;width:44%"></span></div>
+      <div class="roww"><span class="b faint" style="height:6px;width:24%"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Reopened</div><div class="value">Gulf of execution</div></div>
+      <div><div class="label">Fix</div><div class="value">Suggested prompts · examples</div></div>
+      <div><div class="label">Apply</div><div class="value">Visibility · signifiers</div></div>
+    </div>
+  </article>
+
+  <article class="card n10">
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Feedback for Generated Output</h3>
+      <p class="desc">When the model returns an answer, the user’s gulf of evaluation reopens — “did it understand me, did it use the right sources?” Norman’s feedback principle still applies. Surface the reasoning, the sources, the confidence. A clean answer with no scaffolding feels fast but breaks trust on first error.</p>
+    </div>
+    <div class="demo"><div class="nx">
+      <span class="b" style="height:6px;width:92%"></span>
+      <span class="b" style="height:6px;width:84%"></span>
+      <span class="b faint" style="height:6px;width:60%"></span>
+      <div class="roww" style="margin-top:10px"><span class="hot" style="width:26px;height:26px;border-radius:50%"></span><span class="b" style="width:26px;height:26px;border-radius:50%;opacity:0.3"></span><span class="b" style="width:44px;height:26px;border-radius:13px;opacity:0.3"></span></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Principle</div><div class="value">Feedback</div></div>
+      <div><div class="label">Surface</div><div class="value">Reasoning · sources</div></div>
+      <div><div class="label">Closes</div><div class="value">Gulf of evaluation</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/books/design-everyday-things-revised/" target="_blank" rel="noopener"><span class="title">The Design of Everyday Things (revised)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://jnd.org/" target="_blank" rel="noopener"><span class="title">Don Norman — jnd.org</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/affordances/" target="_blank" rel="noopener"><span class="title">Affordances and Design</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/signifiers-not-affordances/" target="_blank" rel="noopener"><span class="title">Signifiers, Not Affordances — Don Norman</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Don_Norman" target="_blank" rel="noopener"><span class="title">Don Norman — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things" target="_blank" rel="noopener"><span class="title">The Design of Everyday Things — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Norman’s Principles</div>
+  <div class="meta-info">Norman, 1988 · revised 2013</div>
+</footer>
+
+</body>
+</html>

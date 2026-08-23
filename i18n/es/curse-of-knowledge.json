@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Maldición del <em>conocimiento</em>"
+ ],
+ "header .tagline": [
+  "Una vez que sabes, no puedes imaginar no saber."
+ ],
+ "header .subtitle": [
+  "Nombrada por los economistas Camerer, Loewenstein y Weber en 1989: una vez que sabes algo, ya no puedes simular la mente de alguien que no lo sabe. Por eso los expertos escriben documentación confusa y los equipos entregan jerga."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Colin_Camerer\" target=\"_blank\" rel=\"noopener\">Colin Camerer</a>, <a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a> y Martin Weber acuñaron el término en un artículo de economía de 1989: los operadores mejor informados no podían ignorar su propio conocimiento al predecir la conducta de los menos informados.",
+  "El estudio del tamborileo de Elizabeth Newton en 1990 lo hizo famoso — quienes tamborileaban canciones conocidas predijeron que los oyentes nombrarían la mitad; los oyentes acertaron el 2,5 %. Made to Stick, de Chip y Dan Heath, llevó la idea a la comunicación y el diseño."
+ ],
+ ".law-content .law-desc": [
+  "El conocimiento es un cristal de un solo sentido: una vez adquirido, reescribe en silencio tu modelo de lo que los demás pueden ver. Los expertos sobreestiman sistemáticamente cuánto saben los novatos — no por arrogancia, sino porque des-saber es cognitivamente imposible."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-colin-camerer\">Camerer</a>, <a href=\"people.html#p-george-loewenstein\">Loewenstein</a>, <a href=\"people.html#p-martin-weber\">Weber</a> (1989)",
+  "The Curse of Knowledge in Economic Settings",
+  "Prueba con gente que no sabe"
+ ],
+ ".card .tag": [
+  "El estudio",
+  "Lenguaje",
+  "Onboarding",
+  "Interfaces",
+  "Antídoto",
+  "Escritura",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Tamborileros y oyentes",
+  "La jerga es invisible para quien la habla",
+  "Escrito por gente que sabe",
+  "El icono obvio no lo es",
+  "Observa a alguien que no sabe",
+  "Explica como si fueran listos, no informados",
+  "Los prompts asumen contexto",
+  "El modelo también está maldito"
+ ],
+ ".card .desc": [
+  "Los tamborileros de Newton oían la canción completa en su cabeza y predijeron un 50 % de aciertos. Los oyentes oían nudillos sobre una mesa y nombraron el 2,5 %. Todo experto haciendo una demo de su producto es un tamborilero.",
+  "Dentro del equipo, «sync», «workspace» e «instancia» son palabras corrientes. Para un usuario nuevo son una puerta cerrada. La maldición oculta exactamente cuáles de tus palabras son jerga — solo los de fuera pueden ver la lista.",
+  "El onboarding fracasa cuando lo diseña gente que no recuerda no entender el producto. El estado vacío que «lo explica todo» lo explica en el vocabulario de alguien al otro lado de la maldición.",
+  "Para su diseñador, el icono obviamente significa exportar. Para los usuarios significa lo que su historia diga que significa — a menudo nada. Acompaña los iconos con etiquetas hasta que el reconocimiento esté probado, no asumido.",
+  "La única cura fiable es la ignorancia prestada: cinco usuarios primerizos narrando su confusión encontrarán lo que ninguna revisión experta puede, porque los expertos literalmente no pueden verlo. Las pruebas de usabilidad son eliminación de la maldición.",
+  "El arreglo para la escritura maldita no es simplificar de más — es aportar contexto. Asume inteligencia, asume cero vocabulario compartido, define los términos en su primer uso y arranca con lo que el lector ya puede imaginarse.",
+  "Un prompt que falla suele fallar como tamborilero: quien lo escribió oía la canción completa — el código, las restricciones, el objetivo — y tecleó tres palabras de ella. El modelo, como el oyente, recibe nudillos sobre una mesa.",
+  "Un modelo que lo sabe todo explica en consecuencia — la respuesta asume un vocabulario que el lector quizá no tiene. Pedir para qué audiencia («explícalo para alguien recién llegado») es des-maldecir a la máquina."
+ ],
+ ".meta .label": [
+  "Predijeron",
+  "Acertaron",
+  "Cada demo",
+  "Para el equipo",
+  "Para usuarios nuevos",
+  "Solo los de fuera",
+  "Escrito por",
+  "Leído por",
+  "Brecha",
+  "Obvio para",
+  "Solución",
+  "Asume",
+  "Cura",
+  "Cinco usuarios",
+  "Las pruebas",
+  "Asume",
+  "Define",
+  "Arranca con",
+  "Prompt fallido",
+  "Solución",
+  "Salida maldita",
+  "Des-maldice"
+ ],
+ ".meta .value": [
+  "50 %",
+  "2,5 %",
+  "Es un tamborileo",
+  "Palabras corrientes",
+  "Puertas cerradas",
+  "Ven cuál es cuál",
+  "Gente que sabe",
+  "Gente que no",
+  "La maldición misma",
+  "Su diseñador",
+  "Icono más etiqueta",
+  "Nada es obvio",
+  "Ignorancia prestada",
+  "Ganan a la revisión experta",
+  "Quitan la maldición",
+  "Listos, no informados",
+  "En el primer uso",
+  "Lo familiar",
+  "Una canción tamborileada",
+  "Di el contexto en voz alta",
+  "Asume tu vocabulario",
+  "Nombra la audiencia"
+ ],
+ ".ai-divider h3": [
+  "La maldición del conocimiento en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los prompts asumen contexto que el modelo no tiene — y los modelos explican con conocimiento que el lector no tiene. La maldición ahora corre en ambas direcciones."
+ ]
+}

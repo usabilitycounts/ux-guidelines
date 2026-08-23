@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Von Restorff <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "The one that differs is the one remembered."
+ ],
+ "header .subtitle": [
+  "Hedwig von Restorff showed in 1933 that when one item in a group differs from the rest, it’s the one people remember. The isolation effect is why a single accent color works — and why ten of them don’t."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Hedwig_von_Restorff\" target=\"_blank\" rel=\"noopener\">Hedwig von Restorff</a> was a German psychiatrist and pediatrician working in the Gestalt tradition at the University of Berlin. Her 1933 experiments showed that an item that stands out from its neighbors — in color, size, or kind — is dramatically better remembered.",
+  "The finding became known as the isolation effect. Her academic career was cut short when the Gestalt school around her was dismantled in 1930s Germany, but the effect she documented became one of the most-used levers in advertising and interface design."
+ ],
+ ".law-content .law-desc": [
+  "When multiple similar items are presented together, the one that differs from the rest is most likely to be noticed and remembered. Distinctiveness is a budget: the fewer things that differ, the more powerfully each difference works."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-hedwig-von-restorff\">Hedwig von Restorff</a> (1933)",
+  "Isolation-effect experiments, Berlin",
+  "One emphasis at a time"
+ ],
+ ".card .tag": [
+  "The effect",
+  "Budget",
+  "CTAs",
+  "Misuse",
+  "Access",
+  "Commerce",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Isolation Effect",
+  "One Accent Only",
+  "Primary Actions Earn the Color",
+  "Don’t Isolate the Wrong Thing",
+  "Never Color Alone",
+  "The Highlighted Plan",
+  "The Sparkle Stopped Sparkling",
+  "Machine-Chosen Emphasis"
+ ],
+ ".card .desc": [
+  "Nine grey squares and one blue one: nobody forgets which was blue. Difference against a uniform field is the strongest attention signal a layout can send — stronger than size, position, or repetition.",
+  "The effect spends a budget. One highlighted element per screen is unforgettable; three compete; ten cancel out and the screen reads as noise. Every emphasis you add taxes every emphasis already there.",
+  "This is the theory beneath the primary button. One filled, colored action against quiet neighbors gets found, chosen, and remembered. Secondary actions stay grey precisely so the primary one can differ.",
+  "The effect works on whatever differs — including a promo banner, a decorative badge, or an ad. If the most distinctive element on the screen isn’t the most important one, you’ve aimed the isolation effect at your own foot.",
+  "For color-blind and low-vision users, an isolation built purely on hue disappears. Pair the color difference with a second channel — weight, an icon, a fill, position — so the distinct item stays distinct for everyone.",
+  "Pricing tables run on von Restorff: the recommended tier gets the border, the badge, and the tint, and it converts far beyond its share. Isolate the plan you’d honestly recommend — users notice when the emphasis is cynical.",
+  "When AI arrived, the ✦ sparkle was isolated — one glowing feature in a familiar UI. Now every toolbar has one. A distinctiveness signal adopted by everyone is a distinctiveness signal for no one.",
+  "Models can now decide which item to highlight — per user, per moment. That puts the isolation effect on autopilot: powerful when the model highlights what the user needs, corrosive when it highlights what the business wants clicked."
+ ],
+ ".meta .label": [
+  "Signal",
+  "Strength",
+  "Requires",
+  "Rule",
+  "Two+",
+  "Everything",
+  "Primary",
+  "Secondary",
+  "Watch for",
+  "Ask",
+  "Answer should be",
+  "Common miss",
+  "Rule",
+  "Pair color with",
+  "Standard",
+  "Pattern",
+  "Effect",
+  "Keep it",
+  "Lesson",
+  "Counter",
+  "Upside",
+  "Risk"
+ ],
+ ".meta .value": [
+  "Difference from the field",
+  "Beats size and position",
+  "A uniform background",
+  "One per screen",
+  "They compete",
+  "Nothing stands out",
+  "The one that differs",
+  "Deliberately quiet",
+  "Two primaries",
+  "What differs most?",
+  "What matters most",
+  "Promos out-shout actions",
+  "Two channels minimum",
+  "Shape · weight · icon",
+  "WCAG 1.4.1",
+  "One featured tier",
+  "Outsized selection",
+  "Honest",
+  "Shared signals fade",
+  "Differ in behavior, not badge",
+  "Right thing, right time",
+  "Dark-pattern autopilot"
+ ],
+ ".ai-divider h3": [
+  "Von Restorff in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "When every product marks its AI features with the same sparkle, nothing is isolated any more — and machine-chosen emphasis raises who decides what stands out."
+ ]
+}

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-page="uncanny-valley">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces.">
+<title>Uncanny Valley: Why Almost-Human Design Unsettles — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/uncanny-valley.html">
+<meta property="og:title" content="Uncanny Valley: Why Almost-Human Design Unsettles — UX Guidelines">
+<meta property="og:description" content="Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/uncanny-valley.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Uncanny Valley: Why Almost-Human Design Unsettles — UX Guidelines">
+<meta name="twitter:description" content="Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  .uv-ghost { fill: none; stroke: var(--skel); stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; opacity: 0.35; }
+  .uv-dot { fill: var(--il-accent); }
+  .uv-row3 { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: space-evenly; }
+  .uv-face { width: 52px; height: 52px; border-radius: 50%; background: var(--skel); opacity: 0.5; }
+  .uv-face.off { border-radius: 42% 58% 55% 45%; opacity: 0.28; }
+  .uv-face.strong { opacity: 0.85; }
+  .uv-person { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+  .uv-person i { display: block; width: 44px; height: 8px; border-radius: 4px; background: var(--skel); opacity: 0.35; }
+  .uv-wave { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; display: flex; align-items: center; justify-content: center; gap: 5px; padding: 0 30px; }
+  .uv-wave span { width: 7px; border-radius: 3.5px; background: var(--il-accent); }
+  .uv-wave span.off { background: var(--skel); opacity: 0.3; }
+  .uv-chat { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; justify-content: center; gap: 12px; padding: 0 32px; }
+  .uv-bubble { height: 26px; border-radius: 13px; background: var(--skel); opacity: 0.32; width: 55%; }
+  .uv-bubble.me { align-self: flex-end; background: var(--il-accent); opacity: 0.85; width: 44%; }
+  .uv-bubble.off { border-radius: 13px 13px 13px 3px; opacity: 0.18; width: 62%; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link active">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Uncanny <em>Valley</em></h1>
+  <p class="tagline">Almost human is worse than clearly not.</p>
+  <p class="subtitle">Masahiro Mori observed in 1970 that affinity for a humanlike figure rises with realism, then plunges into unease just short of convincing. The valley now swallows voices and text, not just faces.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)" target="_blank" rel="noopener">Masahiro Mori</a> was a robotics professor at the Tokyo Institute of Technology. In a short 1970 essay, “Bukimi no Tani Genshō,” he sketched a curve: as robots become more humanlike, our affinity for them grows — until, just before full human likeness, it collapses into revulsion.</p>
+    <p class="body-text">The essay went largely unnoticed for decades, then computer graphics and humanoid robots marched straight into the dip he predicted. IEEE Spectrum published the first authorized translation in 2012, and the uncanny valley became one of the most cited ideas in robotics, animation, and interface design.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">As a figure becomes more humanlike, emotional response becomes more positive — until, near full human likeness, small imperfections trigger a sharp drop into unease. Movement deepens both the peaks and the valley.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-masahiro-mori">Masahiro Mori</a> (1970)</div></div>
+      <div><div class="label">Source</div><div class="value">“Bukimi no Tani,” Energy journal</div></div>
+      <div><div class="label">In practice</div><div class="value">Stylize or perfect — never almost</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The curve</span>
+      <span class="num">01 / 08</span>
+      <h3>The Shape of the Valley</h3>
+      <p class="desc">Affinity climbs as a figure gains human likeness — a toy robot beats an industrial arm. Then, just short of convincing, the curve plunges: the figure stops reading as a charming machine and starts reading as a wrong human.</p>
+    </div>
+    <div class="demo"><div class="il-stage"><svg class="il-svg" viewBox="0 0 380 200" preserveAspectRatio="none">
+      <path class="il-stroke" d="M16 168 C70 156 112 108 150 78 C168 64 184 56 196 68 C210 84 218 148 230 164 C242 178 254 132 270 96 C292 48 332 26 364 20" style="stroke-dasharray:520;stroke-dashoffset:520;animation:dash 2s 0.4s ease forwards"/>
+      <circle class="uv-dot" cx="231" cy="164" r="7"/>
+    </svg></div></div>
+    <div class="meta">
+      <div><div class="label">X axis</div><div class="value">Human likeness</div></div>
+      <div><div class="label">Y axis</div><div class="value">Affinity</div></div>
+      <div><div class="label">The dip</div><div class="value">Almost — but not quite</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Motion</span>
+      <span class="num">02 / 08</span>
+      <h3>Movement Deepens the Valley</h3>
+      <p class="desc">Mori’s second observation: motion amplifies everything. A still figure that is slightly off is unsettling; the same figure moving — with dead eyes or mistimed gestures — is far worse. Animation raises the peaks and digs the valley deeper.</p>
+    </div>
+    <div class="demo"><div class="il-stage"><svg class="il-svg" viewBox="0 0 380 200" preserveAspectRatio="none">
+      <path class="uv-ghost" d="M16 156 C70 146 116 112 156 90 C174 80 188 76 200 86 C212 96 220 128 232 138 C244 148 258 118 276 94 C300 62 336 44 364 38"/>
+      <path class="il-stroke" d="M16 168 C70 154 112 100 150 68 C168 54 184 46 196 60 C210 78 218 162 230 176 C242 188 254 134 270 94 C292 44 332 22 364 16" style="stroke-dasharray:560;stroke-dashoffset:560;animation:dash 2s 0.5s ease forwards"/>
+    </svg></div></div>
+    <div class="meta">
+      <div><div class="label">Still</div><div class="value">Shallow dip</div></div>
+      <div><div class="label">Moving</div><div class="value">Deep dip</div></div>
+      <div><div class="label">Watch</div><div class="value">Eyes and timing first</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Design</span>
+      <span class="num">03 / 08</span>
+      <h3>Stylize or Perfect</h3>
+      <p class="desc">The valley has two safe shores. Deliberate stylization — Pixar faces, cartoon mascots, obvious robots — sits happily on the near side. Flawless realism sits on the far side. The expensive mistake is stopping in between.</p>
+    </div>
+    <div class="demo"><div class="uv-row3"><span class="uv-face"></span><span class="uv-face off"></span><span class="uv-face strong"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Near shore</div><div class="value">Honest stylization</div></div>
+      <div><div class="label">Far shore</div><div class="value">Flawless realism</div></div>
+      <div><div class="label">The middle</div><div class="value">Where budgets die</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a><a href="contour-bias.html">Contour Bias</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Faces</span>
+      <span class="num">04 / 08</span>
+      <h3>Faces, Avatars, and CGI</h3>
+      <p class="desc">Audiences flinched at the near-human faces of early CGI films while cheerfully loving stylized ones. Product avatars follow the same rule: a friendly illustrated character outperforms a photoreal face that blinks a little wrong.</p>
+    </div>
+    <div class="demo"><div class="uv-row3">
+      <div class="uv-person"><span class="uv-face" style="width:44px;height:44px"></span><i></i></div>
+      <div class="uv-person"><span class="uv-face off" style="width:44px;height:44px"></span><i></i></div>
+      <div class="uv-person"><span class="uv-face strong" style="width:44px;height:44px"></span><i></i></div>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Loved</div><div class="value">Stylized characters</div></div>
+      <div><div class="label">Flinched at</div><div class="value">Near-human faces</div></div>
+      <div><div class="label">Rule</div><div class="value">Charm beats fidelity</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Why</span>
+      <span class="num">05 / 08</span>
+      <h3>Why It Happens</h3>
+      <p class="desc">The leading explanations agree on the mechanism: a near-human figure makes the brain predict a human, and every subtle miss — skin, gaze, rhythm — is a prediction error. The figure is judged as a defective person, not an impressive machine.</p>
+    </div>
+    <div class="demo"><div class="il split"><div class="col"><div class="row"><i class="w-34"></i></div><div class="row"><i class="w-28"></i></div><div class="row"><i class="w-31"></i></div></div><div class="col"><div class="row"><i style="width:34%;margin-left:12%"></i></div><div class="row"><i class="w-28"></i></div><div class="row"><i style="width:31%;margin-left:8%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Expectation</div><div class="value">A human</div></div>
+      <div><div class="label">Perception</div><div class="value">Almost a human</div></div>
+      <div><div class="label">Result</div><div class="value">Prediction error reads as wrong</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <span class="num">06 / 08</span>
+      <h3>Designing Around the Valley</h3>
+      <p class="desc">Pick a shore before you build. Set expectations early — a machine that announces itself as a machine is judged as one. And when realism is the goal, budget for the last five percent, because that is where the valley lives.</p>
+    </div>
+    <div class="demo"><div class="il-stage"><svg class="il-svg" viewBox="0 0 380 200" preserveAspectRatio="none">
+      <path class="uv-ghost" d="M16 168 C70 156 112 108 150 78 C168 64 184 56 196 68 C210 84 218 148 230 164 C242 178 254 132 270 96 C292 48 332 26 364 20"/>
+      <circle class="uv-dot" cx="150" cy="78" r="7"/>
+      <circle class="uv-dot" cx="352" cy="23" r="7"/>
+    </svg></div></div>
+    <div class="meta">
+      <div><div class="label">Decide</div><div class="value">Which shore, up front</div></div>
+      <div><div class="label">Declare</div><div class="value">Machine as machine</div></div>
+      <div><div class="label">Budget</div><div class="value">The last five percent</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Uncanny Valley in the Age of AI</h3>
+    <p>Mori drew the curve for faces and bodies. AI walked it into new terrain: voices that breathe almost right, and prose that is almost — but not quite — how a person writes.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Voice Valley</h3>
+      <p class="desc">Synthetic voices with human fillers — breaths, “um,” warm hesitation — triggered the same recoil as near-human faces: people felt tricked, not charmed. A capable voice that is honestly synthetic sits safely on the near shore.</p>
+    </div>
+    <div class="demo"><div class="uv-wave">
+      <span class="hpx-22"></span><span class="hpx-44"></span><span class="hpx-30"></span><span class="hpx-56"></span><span class="hpx-38"></span><span class="hpx-50"></span>
+      <span class="off hpx-14"></span><span class="off hpx-10"></span><span class="off hpx-16"></span><span class="off hpx-9"></span>
+      <span class="hpx-46"></span><span class="hpx-28"></span><span class="hpx-52"></span><span class="hpx-34"></span><span class="hpx-20"></span>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Backlash</div><div class="value">Feeling deceived</div></div>
+      <div><div class="label">Counter</div><div class="value">Disclose the machine</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>The Text Valley</h3>
+      <p class="desc">AI prose falls into the valley too: generic warmth, hedged symmetry, empathy with nobody behind it. Readers sense the almost-human rhythm before they can name it. Honest, plainly machine-assisted writing reads better than an imitation of a person.</p>
+    </div>
+    <div class="demo"><div class="uv-chat">
+      <span class="uv-bubble"></span>
+      <span class="uv-bubble me"></span>
+      <span class="uv-bubble off"></span>
+    </div></div>
+    <div class="meta">
+      <div><div class="label">Tell</div><div class="value">Almost-right rhythm</div></div>
+      <div><div class="label">Counter</div><div class="value">Honest machine voice</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div></div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Uncanny_valley" target="_blank" rel="noopener"><span class="title">Uncanny Valley</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)" target="_blank" rel="noopener"><span class="title">Masahiro Mori — roboticist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">IEEE Spectrum</h3>
+      <ul class="ref-list">
+        <li><a href="https://spectrum.ieee.org/the-uncanny-valley" target="_blank" rel="noopener"><span class="title">The Uncanny Valley — the original essay, translated</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Uncanny Valley</div>
+</footer>
+
+</body>
+</html>

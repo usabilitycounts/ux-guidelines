@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Hofstadter’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "It always takes longer than you expect — <em>even when you take this law into account</em>."
+ ],
+ "header .subtitle": [
+  "From Douglas Hofstadter’s 1979 book Gödel, Escher, Bach. The self-referential joke that is also a working rule for software estimation: every project takes longer than your honest estimate, and padding the estimate doesn’t fix it. The law has become foundational for how teams ship — and for the progress bars users stare at."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Douglas_Hofstadter\" target=\"_blank\" rel=\"noopener\">Douglas Hofstadter</a> is an American cognitive scientist and Pulitzer-winning author. He coined his recursive law — it always takes longer than you expect, even when you take Hofstadter’s Law into account — in his 1979 book Gödel, Escher, Bach.",
+  "Hofstadter won the Pulitzer Prize for Gödel, Escher, Bach at age 35. A professor of cognitive science at Indiana University, he has spent his career studying analogy-making and self-reference — the law itself is a self-referential joke that happens to be empirically true of every software project."
+ ],
+ ".law-content .law-desc": [
+  "Estimates are systematically optimistic. You add a buffer; the project blows through the buffer. You add a bigger buffer; it blows through that too. The trick isn’t more padding — it’s reference-class forecasting, real progress, and honesty with users about what “almost done” actually means."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-douglas-hofstadter\">Douglas Hofstadter</a> (1979)",
+  "Gödel, Escher, Bach",
+  "Pad every estimate"
+ ],
+ ".card .tag": [
+  "The phenomenon",
+  "Tactic",
+  "UI",
+  "UI",
+  "Pattern",
+  "Anti-pattern",
+  "Estimation",
+  "Daily",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Planning Fallacy",
+  "Reference-Class Forecasting",
+  "Honest Progress Bars",
+  "Show Time, Not Percent",
+  "The Long Tail of Done",
+  "Padding Doesn’t Fix It",
+  "Story Points Hide the Bias",
+  "Estimate Twice",
+  "AI Lowers the Estimate · Same Bias",
+  "Show Token-Stream Progress"
+ ],
+ ".card .desc": [
+  "Kahneman and Tversky’s name for the same bug Hofstadter described. People estimate as if everything will go right, even when they know — in the abstract — that it never does. Each individual step looks reasonable; the sum reliably misses. The fallacy is robust, well-documented, and survives extensive training to overcome it.",
+  "The fix Kahneman recommends: stop estimating from the inside. Find five similar past projects. Use their average duration, not your bottom-up plan. The outside view consistently beats the inside view because it includes the surprises you can’t predict but are statistically likely to recur.",
+  "A progress bar that hits 99% and stays there for two minutes is the canonical Hofstadter UX. The bar was built on an optimistic estimate; the long tail of “finishing” was never accounted for. Honest bars allocate a budget for the last 10% — or admit they can’t measure it and switch to an indeterminate spinner.",
+  "“4 minutes remaining” is a Hofstadter promise the system will probably miss. “Started 2 minutes ago” is just true. Elapsed time + steps completed is more honest than projected time-to-finish, because the projection is exactly the estimate that always slips. Most modern downloaders have quietly moved away from the prediction.",
+  "Software projects don’t end; they get done enough. The last 10% of a feature contains 90% of the surprises — edge cases, accessibility, performance, copy that has to ship in three more languages. Honest planning gives the long tail its own budget instead of pretending it lives inside the original estimate.",
+  "The naive defense — double the estimate — moves the deadline without changing the bias. The team interprets the new deadline as the real one, and behavior expands to fill it. Parkinson’s Law on top of Hofstadter’s. The fix isn’t more buffer; it’s a different way of estimating, and an explicit policy for what slips.",
+  "Agile teams use story points to dodge the Hofstadter trap, then quietly reintroduce it by treating velocity as a promise. The point of relative estimation is that you don’t know how long any single thing takes — you let the curve emerge. Trying to extract a date out of velocity is bringing Hofstadter back in.",
+  "A working rule: write your gut estimate, then double it. Compare against the outside view. If those three numbers diverge sharply, the project is structurally uncertain — say so out loud. Most missed deadlines start as estimates someone privately knew were optimistic but said anyway.",
+  "“AI will let us ship this in two days” is the most Hofstadter-shaped sentence of 2026. AI does cut some steps; it also adds new ones — review, prompt tuning, eval, fixing the confidently-wrong output. The total still drifts. The law applies to AI-accelerated projects exactly as it applied to manual ones; the constant is human optimism, not the tooling.",
+  "The Hofstadter UI question shows up in every AI feature. A spinner during 8 seconds of model thinking feels broken; streaming tokens, “reading 12 sources,” and step-by-step “thinking” messages reframe the wait as motion. The total is the same; the user’s experience of “almost done” is what changes."
+ ],
+ ".meta .label": [
+  "Named by",
+  "Bias",
+  "Use",
+  "Skip",
+  "Honest",
+  "Fallback",
+  "Prefer",
+  "Avoid",
+  "Pattern",
+  "Budget for",
+  "Doesn’t fix it",
+  "Does fix it",
+  "Use for",
+  "Don’t",
+  "Cost",
+  "Catches",
+  "Constant",
+  "Adds",
+  "Show",
+  "Avoid"
+ ],
+ ".meta .value": [
+  "Kahneman and Tversky, 1979",
+  "Inside view · ignores history",
+  "Past projects’ actual times",
+  "Bottom-up estimate",
+  "Budget for the long tail",
+  "Indeterminate spinner",
+  "Elapsed time · steps done",
+  "“X min remaining”",
+  "Surprise tail at the end",
+  "A11y · perf · i18n · QA",
+  "Bigger buffer",
+  "Different method",
+  "Relative sizing",
+  "Convert points → dates",
+  "Two minutes",
+  "Optimistic gut estimate",
+  "Human optimism",
+  "Eval · review · verify",
+  "Steps · streaming · sources",
+  "Silent spinner"
+ ],
+ ".ai-divider h3": [
+  "Hofstadter’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI accelerates the steps you can see — and reveals new ones you couldn’t, exactly the way the law predicts."
+ ]
+}

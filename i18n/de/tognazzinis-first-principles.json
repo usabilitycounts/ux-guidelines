@@ -1,0 +1,152 @@
+{
+ "header h1": [
+  "Tognazzinis <em>Grundprinzipien</em>"
+ ],
+ "header .tagline": [
+  "Sechzehn <em>Arbeitsregeln</em> für Software, die den Nutzer respektiert."
+ ],
+ "header .subtitle": [
+  "Bruce „Tog“ Tognazzinis First Principles of Interaction Design, über Jahrzehnte bei Apple, Sun und der Nielsen Norman Group auf AskTog.com geschrieben und verfeinert. Weniger Katechismus als Arbeitsregeln — jede aus ausgelieferten Produkten und skalierten Mustern gewonnen."
+ ],
+ ".law-origin .body-text": [
+  "Bruce „Tog“ Tognazzini war Apple-Mitarbeiter Nummer 66, schrieb die ersten Human Interface Guidelines des Unternehmens und prägte über vierzehn Jahre und acht Auflagen der Richtlinien das Erscheinungsbild des frühen Macintosh.",
+  "Nach Apple arbeitete er bei Sun und WebMD, bevor er als dritter Partner der Nielsen Norman Group zu Nielsen und Norman stieß. Seine First Principles of Interaction Design, seit 1978 auf seiner Website AskTog veröffentlicht und laufend überarbeitet, versammeln das Handwerk in einer kanonischen Liste."
+ ],
+ ".law-content .law-desc": [
+  "Eine lebendige Checkliste der Grundlagen des Interaktionsdesigns — Antizipation, Autonomie, Konsistenz, Auffindbarkeit, Effizienz, erkundbare Interfaces, Fitts' Gesetz, Latenzreduktion, Erlernbarkeit und mehr."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Bruce Tognazzini",
+  "First Principles of Interaction Design, AskTog",
+  "Abläufe gegen die Checkliste prüfen"
+ ],
+ ".card .tag": [
+  "Voraussicht",
+  "Kontrolle",
+  "Gleichheit",
+  "Kluger Ausgangspunkt",
+  "Tempo",
+  "Auffindbarkeit",
+  "Performance",
+  "Vertrauen",
+  "Kontinuität",
+  "Orientierung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Antizipation",
+  "Autonomie",
+  "Konsistenz",
+  "Standardwerte",
+  "Effizienz des Nutzers",
+  "Erkundbare Interfaces",
+  "Latenzreduktion",
+  "Die Arbeit des Nutzers schützen",
+  "Den Zustand des Nutzers mitführen",
+  "Sichtbare Navigation",
+  "Antizipation im großen Maßstab",
+  "Der Latenz-Zielkonflikt"
+ ],
+ ".card .desc": [
+  "Bringen Sie dem Nutzer, was er als Nächstes wahrscheinlich braucht — Informationen, Werkzeuge, Optionen — bevor er fragen muss. Die nächste Aktion zu antizipieren ist das, was ein kompetentes Werkzeug von einem trennt, das sich intelligent anfühlt.",
+  "Der Nutzer hat das Sagen, nicht das System. Zeigen Sie den Status klar, sperren Sie niemanden in einen Ablauf ohne Ausweg und machen Sie Regeln explizit, damit man um sie herumsteuern kann. Software, die ungefragt für den Nutzer entscheidet, ist Software, die deinstalliert wird.",
+  "Dieselbe Aktion sollte überall gleich aussehen und sich gleich verhalten — innerhalb des Produkts, in der ganzen Suite und gegenüber den Plattformkonventionen. Inkonsistenz ist unerzwungene kognitive Last. Brechen Sie sie nur, wenn Sie eine viel bessere Antwort haben, und nur an einem Punkt im Ablauf.",
+  "Geben Sie Nutzern einen sicheren Ausgangszustand. Standardwerte sollten umkehrbar sein, für die meisten Nutzer in den meisten Fällen nützlich und erkennbar gewählt — nicht „wir haben vergessen, uns zu entscheiden“. Ein großartiger Standardwert erledigt die Arbeit, die der Nutzer ohnehin tun wollte, und geht aus dem Weg.",
+  "Optimieren Sie die Zeit des Nutzers, nicht die des Systems. Dem Ingenieur zehn Sekunden zu sparen, auf Kosten von zehn Nutzersekunden, zehntausendmal am Tag, ist ein schlechter Tausch. Massenaktionen, Tastenkürzel, kluges Einfügen und zuletzt verwendete Elemente geben den Menschen, die die Arbeit machen, Minuten zurück.",
+  "Belohnen Sie Neugier. Lassen Sie Nutzer Dinge ohne Angst ausprobieren — Aktionen sollten offensichtlich zu finden und offensichtlich umkehrbar sein. Togs Notiz: Jede Aktion braucht einen Weg zurück. Ohne Rückgängig ist jeder Klick eine Verpflichtung, und die meisten Nutzer hören auf zu klicken.",
+  "Wo das System nicht schneller werden kann, lassen Sie es schneller wirken. Optimistische Oberflächen übernehmen die Änderung, bevor das Netzwerk bestätigt; Skeleton-Screens geben dem Auge einen Landeplatz; Ton und Animation quittieren einen Klick, bevor die Antwort eintrifft. Gefühlte Latenz ist der Hebel des Designs.",
+  "Die wichtigste Regel überhaupt. Ständig automatisch speichern, nach Abstürzen wiederherstellen, alles versionieren, nie stillschweigend überschreiben. Tog: Nichts untergräbt Vertrauen schneller als der Verlust der Arbeit eines Nutzers. Ist es einmal passiert, greift dieser Nutzer für immer zwanghaft zur Speichertaste — oder hört auf, das Produkt zu benutzen.",
+  "Merken Sie sich, wo der Nutzer aufgehört hat. Öffnen Sie das Dokument, das er bearbeitet hat, scrollen Sie zur Zeile, die er gelesen hat, stellen Sie den Filter wieder her, den er gesetzt hatte. Kontinuität über Sitzungen hinweg kostet wenig und erspart dem Nutzer, jeden Morgen seinen Arbeitsplatz neu aufzubauen.",
+  "Nutzer sollten sich nie fragen: „Wo bin ich, wohin kann ich, und wie komme ich zurück?“ Sichtbare Navigation, Breadcrumbs und klare aktive Zustände kosten ein paar Pixel und zahlen sich in jeder Sitzung aus. Tog nannte dies das am häufigsten übersehene Prinzip im modernen Webdesign.",
+  "Togs Antizipationsprinzip handelte von handverlesenen Folgeaktionen. Modelle tun es generativ, pro Nutzer, pro Moment. Gut gemacht, ist es das Nächste an „fühlt sich intelligent an“, das Software je erreicht hat. Schlampig gemacht, ist es ein steter Strom von Vermutungen, die nicht ganz stimmen, und der Nutzer beginnt, die Vorschläge zu ignorieren.",
+  "Modelle sind klug, aber nicht schnell. Eine Antwort, die vier Sekunden dauert, verletzt alles, was Tog über Latenz geschrieben hat. Token-Streaming hilft; das Vorwärmen des Modells hilft; Skeleton-Antworten helfen. Ohne sie fühlt sich selbst eine großartige Antwort nach einem langsamen Produkt an."
+ ],
+ ".meta .label": [
+  "Definiert",
+  "Beispiele",
+  "Fühlt sich an wie",
+  "Definiert",
+  "Zeigen",
+  "Nicht tun",
+  "Über",
+  "Kosten",
+  "Wann brechen",
+  "Eigenschaften",
+  "Quelle",
+  "Nicht tun",
+  "Optimieren",
+  "Taktiken",
+  "Test",
+  "Definiert",
+  "Erfordert",
+  "Wirkung",
+  "Hebel",
+  "Taktiken",
+  "Risiko",
+  "Regel",
+  "Taktiken",
+  "Wenn verloren",
+  "Mitführen",
+  "Über",
+  "Ergebnis",
+  "Zeigen",
+  "Passt zu",
+  "Kosten des Auslassens",
+  "Gut gemacht",
+  "Schlecht gemacht",
+  "Test",
+  "Problem",
+  "Taktiken",
+  "Regel"
+ ],
+ ".meta .value": [
+  "Das Nächste jetzt bringen",
+  "Vorgeschlagene Aktionen · Vorausfüllen",
+  "Intelligenz",
+  "Der Nutzer hält das Steuer",
+  "Status · Ausweg",
+  "Einsperren oder still entscheiden",
+  "Bildschirme · Suite · Plattform",
+  "Des Brechens: Neulernen",
+  "Eine viel bessere Idee",
+  "Sicher · umkehrbar · vernünftig",
+  "IP · Verlauf · das Häufigste",
+  "Als Dark Pattern nutzen",
+  "Sekunden des Nutzers",
+  "Massenaktionen · Shortcuts · Zuletzt verwendet",
+  "100-mal durchspielen",
+  "Gefahrlos probieren, leicht zurück",
+  "Rückgängig für alles",
+  "Mut zum Erkunden",
+  "Gefühlte &gt; tatsächliche Latenz",
+  "Optimistische UI · Skeletons",
+  "Über Erfolg lügen",
+  "Nie Arbeit verlieren",
+  "Auto-Speichern · Verlauf · Wiederherstellung",
+  "Vertrauen kehrt nie ganz zurück",
+  "Position · Filter · Auswahl",
+  "Sitzungen · Geräte",
+  "Weniger Neuaufbau",
+  "Wo · wohin sonst · zurück",
+  "Navigationsmuster",
+  "Verlorene Nutzer",
+  "Fühlt sich intelligent an",
+  "Rauschen · Nutzer schalten ab",
+  "Annahmequote &gt; 30%?",
+  "Klug, aber langsam",
+  "Streamen · Vorwärmen · Skeleton",
+  "Nie stumm für &gt; 1s"
+ ],
+ ".ai-divider h3": [
+  "Togs Prinzipien im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Antizipation und Latenzreduktion — zwei von Togs ältesten Prinzipien — sind genau die Hebel, die ein Modell Ihnen gibt, und genau die Hebel, die es zu brechen droht."
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "Paradox of <em>Choice</em>"
+ ],
+ "header .tagline": [
+  "When more options means <em>fewer decisions</em>."
+ ],
+ "header .subtitle": [
+  "More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)\" target=\"_blank\" rel=\"noopener\">Barry Schwartz</a> is an American psychologist who spent his career at Swarthmore College studying the intersection of psychology and economics. His 2004 book The Paradox of Choice argued that beyond a modest threshold, adding options makes people less satisfied, not more.",
+  "Trained at NYU and the University of Pennsylvania, Schwartz spent four decades teaching psychology at Swarthmore. His TED talk on the paradox became one of the most-watched ever, and his later work explored how defaults, satisficing, and ‘good enough’ choices protect people from decision fatigue."
+ ],
+ ".law-content .law-desc": [
+  "<a href=\"hicks-law.html\">Hick’s Law</a> tells you a decision gets slower. The paradox of choice tells you it can fail to happen at all. Once a set crosses a threshold (often around a dozen items), users feel overwhelmed, defer, and convert less."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> (2004)",
+  "The Paradox of Choice",
+  "Cap choices near a dozen; curate defaults"
+ ],
+ ".card .tag": [
+  "Field study",
+  "Paralysis",
+  "Regret",
+  "Curation",
+  "Architecture",
+  "Filter",
+  "Personalize",
+  "Compare",
+  "Sweet spot",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Jam Study",
+  "Decision Paralysis",
+  "Post-Decision Regret",
+  "Curation Over Quantity",
+  "Choice Architecture",
+  "Filter and Sort to Reduce",
+  "Recommendations",
+  "Comparison Limits",
+  "The Working Range",
+  "AI Curates the Set",
+  "The Trust Trade"
+ ],
+ ".card .desc": [
+  "<a href=\"people.html#p-sheena-iyengar\">Sheena Iyengar</a>’s 2000 supermarket experiment: a tasting display with 24 jams attracted more shoppers, but a display with only 6 jams sold ten times more. More choice drew the crowd; less choice closed the sale.",
+  "When the cognitive cost of choosing exceeds the perceived benefit, users defer the decision entirely. They close the tab, save the cart for later, or pick “I’ll think about it” — and most never come back.",
+  "Users who finally choose from a large set are less satisfied than those who chose from a small one. Every alternative becomes a hypothetical regret — “what if I’d picked the other one?”",
+  "Editorial pre-selection — “our 5 picks” — converts better than the full catalog. The user trades infinite optionality for trust in your taste, and usually accepts.",
+  "How options are framed shapes which ones get picked. A pre-selected default, a recommended badge, or simply listing options in a particular order steers behavior more than the choice itself.",
+  "When you can’t reduce the catalog, let the user reduce it. Filters turn an unbrowsable 2,000 into a manageable 20 the user actually wants. Good filter UI is choice overload’s safety valve.",
+  "Use data — popularity, similar users, prior behavior — to pre-narrow the set. “Because you watched…” is a choice reduction in disguise, and it’s why streaming services don’t show their full catalog up front.",
+  "Side-by-side comparison is useful for 2–4 items. Past that, the table becomes a fresh source of overload — too many rows of subtle differences, no clear “best” answer.",
+  "No magic number — it depends on the decision’s stakes, the user’s expertise, and visual differentiation. But the field-tested range that avoids both arbitrary-feeling sparseness and overload is roughly 3 to 10, with most teams landing around 5 to 7.",
+  "Instead of 10,000 options, the model surfaces three good ones — or just does the task. Overload dissolves, replaced by a new question: do you trust the curation?",
+  "Letting AI choose removes decision fatigue but adds a trust cost. The best AI choices stay reversible and explain themselves, so the user keeps a sense of control."
+ ],
+ ".meta .label": [
+  "Study",
+  "Result",
+  "Lesson",
+  "Symptom",
+  "Cause",
+  "Mitigate",
+  "Reported",
+  "Why",
+  "Counter",
+  "Best for",
+  "Pattern",
+  "Watch for",
+  "Levers",
+  "Concept",
+  "Watch for",
+  "Best for",
+  "Show",
+  "Watch for",
+  "Best for",
+  "Inputs",
+  "Watch for",
+  "Sweet spot",
+  "Past 4",
+  "Watch for",
+  "Default range",
+  "Related",
+  "Beyond 10",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Trades",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Iyengar and Lepper, 2000",
+  "6 jams → 10× more sales",
+  "Attention ≠ conversion",
+  "Abandoned cart · long sessions",
+  "Cost of choice &gt; perceived gain",
+  "Smaller sets · clear recommendation",
+  "Lower satisfaction with same item",
+  "Hypothetical alternatives loom",
+  "Show fewer, recommend the right one",
+  "Discovery · Onboarding",
+  "Editor’s picks · Staff favorites",
+  "Hiding the rest entirely",
+  "Defaults · order · framing · badges",
+  "Thaler and Sunstein · “Nudge”",
+  "Crosses into dark patterns",
+  "E-commerce · Catalogs · Search",
+  "Active filters · result count",
+  "Filters that hide all results",
+  "Media · Shopping · News feeds",
+  "History · cohort · explicit prefs",
+  "Filter bubbles · over-fitting",
+  "2 – 4 items",
+  "Let user pick 2 to compare",
+  "Spec-sheet wall of numbers",
+  "3 – 10",
+  "<a href=\"millers-law.html\">Miller’s Law</a> (7 ± 2)",
+  "Group · filter · search · recommend",
+  "Browse → curated",
+  "The set is overwhelming",
+  "Opaque, biased filtering",
+  "Paralysis → trust",
+  "Decisions are low-stakes",
+  "Irreversible auto-choices"
+ ],
+ ".ai-divider h3": [
+  "The Paradox of Choice in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI promises to cure overload by deciding for you — which trades the paralysis of too many options for the question of whether to trust the pick."
+ ]
+}

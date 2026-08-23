@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "La <em>valla</em> de Chesterton"
+ ],
+ "header .tagline": [
+  "No quites una valla hasta saber por qué la pusieron."
+ ],
+ "header .subtitle": [
+  "La regla de G. K. Chesterton para reformadores: la valla que te parece inútil la construyó alguien con una razón. Entiende primero la razón — entonces te habrás ganado el derecho a quitarla."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/G._K._Chesterton\" target=\"_blank\" rel=\"noopener\">G. K. Chesterton</a>, el escritor y crítico inglés, planteó la parábola en The Thing (1929): un reformador encuentra una valla que cruza un camino y propone retirarla precisamente porque no le ve ningún uso.",
+  "La respuesta de Chesterton se convirtió en el principio: «Si no le ves el uso, desde luego no te dejaré quitarla. Vete y piensa. Luego, cuando vuelvas y me digas que sí le ves el uso, puede que te permita destruirla»."
+ ],
+ ".law-content .law-desc": [
+  "Nunca elimines algo cuyo propósito no entiendes. Ignorar la función de una cosa es un argumento para investigar, no para borrar — quien construyó la valla sabía algo, y hasta que tú también lo sepas, la valla se queda."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "G. K. Chesterton (1929)",
+  "The Thing — «The Drift from Domesticity»",
+  "Investiga antes de borrar"
+ ],
+ ".card .tag": [
+  "La parábola",
+  "Producto",
+  "Método",
+  "Rediseños",
+  "Código",
+  "Equilibrio",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "La valla en el camino",
+  "La funcionalidad sin dueño",
+  "Interroga, luego corta",
+  "El rediseño que olvidó",
+  "Borrar la línea rara",
+  "Las vallas no son sagradas",
+  "El modelo no puede ver la razón",
+  "Haz que la valla se explique"
+ ],
+ ".card .desc": [
+  "El instinto de «no veo por qué existe, así que puede irse» invierte la lógica: lo que persiste suele ganarse el sustento de formas que no se ven desde el camino. Misterioso no es lo mismo que inútil.",
+  "Todo producto maduro tiene funcionalidades sin defensor y sin propósito evidente — hasta el día de eliminarlas, cuando aparecen las facturas, los auditores o los dos clientes enterprise que dependen de ellas. Poco uso no es ningún uso.",
+  "El principio es una secuencia, no una prohibición: git blame, el ticket antiguo, la persona que estuvo allí, la analítica de la ruta extraña. Una vez conocida la razón — y comprobado que es obsoleta — eliminar no solo está permitido: ya toca.",
+  "Los rediseños desde cero arrasan vallas por hectáreas: el margen raro que esquivaba un bug del navegador, la doble confirmación que apagó un incendio de soporte. El diseño antiguo es un registro de problemas resueltos — léelo antes de reemplazarlo.",
+  "El sleep(100), la comprobación aparentemente redundante, el reintento que nadie recuerda haber añadido — las líneas más extrañas del código en producción suelen ser parches sobre modos de fallo invisibles. Borra después de entender, detrás de un flag, con reversión lista.",
+  "El principio corta en ambos sentidos: un equipo que nunca elimina nada está acumulando, no preservando. Chesterton autoriza la demolición — solo le pone el precio de una investigación. Paga el precio y poda con libertad.",
+  "Un refactor con IA juzga el código por lo que está escrito, pero las vallas se justifican por la historia — la caída, el cliente, la regulación. La memoria institucional vive en tickets y cabezas, no en el archivo que el modelo lee.",
+  "La solución duradera: escribe la razón donde mirará quien vaya a eliminar. Comentarios que dicen el porqué, ADRs y tickets enlazados convierten cada valla en una con letrero — legible por el próximo ingeniero y el próximo modelo por igual."
+ ],
+ ".meta .label": [
+  "Instinto",
+  "Realidad",
+  "Misterioso",
+  "Poco uso",
+  "Comprueba",
+  "Día de eliminar",
+  "Secuencia",
+  "Fuentes",
+  "Entendida + obsoleta",
+  "Diseño antiguo",
+  "Detalles raros",
+  "Lee primero",
+  "Líneas raras",
+  "Borra",
+  "Mantén",
+  "No eliminar nunca",
+  "El precio",
+  "Después",
+  "El modelo lee",
+  "La razón vive",
+  "Escribe",
+  "Legible por"
+ ],
+ ".meta .value": [
+  "«Inútil — elimínalo»",
+  "El propósito es invisible",
+  "≠ inútil",
+  "No es ningún uso",
+  "Quién depende de ello",
+  "Es día de descubrir",
+  "Entender → juzgar → cortar",
+  "Historia · personas · datos",
+  "Corta con confianza",
+  "Registro de problemas resueltos",
+  "Suelen ser estructurales",
+  "Luego reemplaza",
+  "Parches sobre fantasmas",
+  "Detrás de un flag",
+  "Una ruta de reversión",
+  "Es acumular",
+  "Una investigación",
+  "Poda con libertad",
+  "El archivo",
+  "En la historia",
+  "El porqué, en su sitio",
+  "Humanos y modelos"
+ ],
+ ".ai-divider h3": [
+  "La valla de Chesterton en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos refactorizan código y rediseñan pantallas sin las notas de la reunión. La razón de la valla a menudo no vive en ningún lugar que la máquina pueda leer."
+ ]
+}

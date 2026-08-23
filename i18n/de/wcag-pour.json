@@ -1,0 +1,156 @@
+{
+ "header h1": [
+  "WCAG und <em>POUR</em>"
+ ],
+ "header .tagline": [
+  "Wahrnehmbar · Bedienbar · Verständlich · <em>Robust</em>"
+ ],
+ "header .subtitle": [
+  "Barrierefreiheit ruht auf vier Prinzipien — Wahrnehmbar, Bedienbar, Verständlich, Robust. Hier ist, was jedes bedeutet, und die Erfolgskriterien, die jedes Team kennen sollte."
+ ],
+ ".law-origin .body-text": [
+  "Die Web Content Accessibility Guidelines werden von der Web Accessibility Initiative des World Wide Web Consortium erstellt, die 1997 mit <a href=\"https://en.wikipedia.org/wiki/Tim_Berners-Lee\" target=\"_blank\" rel=\"noopener\">Tim Berners-Lee</a>s Erklärung startete, die Kraft des Web liege in seiner Universalität.",
+  "WCAG 1.0 erschien 1999; 2.0 (2008) ordnete alles unter den vier POUR-Prinzipien neu und wurde ISO-Standard und in weiten Teilen der Welt der rechtliche Maßstab. Nachfolgende Versionen — 2.1, 2.2 — erweiterten die Abdeckung auf Mobilgeräte, eingeschränktes Sehvermögen und kognitive Bedürfnisse."
+ ],
+ ".law-content .law-desc": [
+  "Inhalte müssen wahrnehmbar, bedienbar, verständlich und robust sein. POUR ist der beständige Kern: Jedes einzelne Erfolgskriterium ist eines dieser vier Versprechen, konkret gemacht."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "W3C Web Accessibility Initiative",
+  "WCAG-2.x-Spezifikationen",
+  "Gegen POUR testen, nicht nur Kästchen abhaken"
+ ],
+ ".card .tag": [
+  "Prinzip 1",
+  "Prinzip 2",
+  "Prinzip 3",
+  "Prinzip 4",
+  "SC 1.4.3",
+  "SC 1.1.1",
+  "SC 2.1.1",
+  "SC 2.4.7",
+  "SC 2.5.5",
+  "SC 4.1.2",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Wahrnehmbar",
+  "Bedienbar",
+  "Verständlich",
+  "Robust",
+  "Farbkontrast (1.4.3)",
+  "Textalternativen (1.1.1)",
+  "Per Tastatur zugänglich (2.1.1)",
+  "Sichtbarer Fokus (2.4.7)",
+  "Touch-Zielgröße (2.5.5)",
+  "Name, Rolle, Wert (4.1.2)",
+  "KI-generierte Alt-Texte und Untertitel",
+  "KI als die neue assistive Schicht"
+ ],
+ ".card .desc": [
+  "Informationen und UI-Komponenten müssen so präsentiert werden, dass Nutzer sie wahrnehmen können — über Sehen, Hören oder Tasten. Was Nutzer nicht wahrnehmen können, können sie nicht benutzen.",
+  "UI-Komponenten und Navigation müssen bedienbar sein. Erfordert etwas eine Maus mit pixelgenauem Zielen oder eine ruhige Hand, sind große Teile der Nutzer ausgesperrt.",
+  "Informationen und die Bedienung der Oberfläche müssen verständlich sein. Vorhersagbares Verhalten und einfache Sprache zählen ebenso viel wie visuelles Design.",
+  "Inhalte müssen robust genug sein, um von User Agents zuverlässig interpretiert zu werden — einschließlich assistiver Technologien. Die heute barrierefreie Seite muss auch für die Screenreader und Geräte von morgen barrierefrei bleiben.",
+  "Text muss gegen seinen Hintergrund 4,5:1 für normalen Text oder 3:1 für großen Text (ab 18pt, oder ab 14pt fett) erreichen. Alles darunter macht Texte für sehschwache Nutzer unlesbar.",
+  "Jedes Nicht-Text-Element braucht eine Textalternative, die dieselbe Bedeutung vermittelt. Dekorative Bilder verwenden ein leeres alt; informative Bilder beschreiben den Inhalt.",
+  "Jedes interaktive Element muss per Tastatur erreichbar und bedienbar sein. Keine Nur-Maus-Menüs, kein Drag-and-drop ohne Alternative, kein Nur-Hover-Enthüllen kritischer Informationen.",
+  "Der Tastaturfokus muss immer sichtbar sein. Wer die Standard-Umrandung entfernt, ohne einen klareren Ersatz zu liefern, lässt Tastaturnutzer stranden — sie können buchstäblich nicht sehen, wo sie sind.",
+  "Zeigerziele müssen mindestens 24×24 CSS-Pixel groß sein (AA, WCAG 2.2) — 44×44 für AAA. Winzige Tippziele machen mobile Seiten für alle mit geringer Präzision oder großen Fingern unbrauchbar.",
+  "Jede UI-Komponente muss ihren Namen, ihre Rolle und ihren aktuellen Zustand an assistive Technologie melden. Verwenden Sie das richtige Element für die richtige Aufgabe — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> für Aktionen, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> für Navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> für Eingaben. ARIA nur, wenn natives HTML es nicht ausdrücken kann.",
+  "Bild- und Sprachmodelle können Bilder beschreiben und Audio in großem Maßstab transkribieren. Aber die Ausgabe braucht Prüfung — eine selbstsichere, falsche Bildunterschrift ist schlimmer als gar keine.",
+  "Screenreader, Live-Untertitel und „Erklär mir diese Seite“ werden zu KI-Funktionen. Liefern Sie saubere Semantik aus, damit das Modell mit korrekter Struktur arbeiten kann."
+ ],
+ ".meta .label": [
+  "Richtlinien",
+  "Abgedeckter Sinn",
+  "Fehlermodus",
+  "Richtlinien",
+  "Eingabemethoden",
+  "Fehlermodus",
+  "Richtlinien",
+  "Leseniveau",
+  "Fehlermodus",
+  "Richtlinie",
+  "Zielgruppen",
+  "Fehlermodus",
+  "Verhältnis · Normal",
+  "Verhältnis · Groß",
+  "Werkzeuge",
+  "Erforderlich bei",
+  "Dekorativ",
+  "Vermeiden",
+  "Testmethode",
+  "Achtung",
+  "Reihenfolge",
+  "Standard",
+  "Eigener Ring",
+  "Eigenschaft",
+  "AA",
+  "AAA",
+  "Abstand",
+  "Name",
+  "Rolle",
+  "Wert",
+  "Generiert",
+  "Verwenden wenn",
+  "Achtung",
+  "Wird zu",
+  "Gestalten für",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "1.1 – 1.4",
+  "Sehen · Hören · Tasten",
+  "Nutzer kann Inhalt nicht wahrnehmen",
+  "2.1 – 2.5",
+  "Tastatur · Touch · Schalter",
+  "Nutzer kann nicht interagieren",
+  "3.1 – 3.3",
+  "Sekundarstufe I empfohlen",
+  "Nutzer verwirrt oder in die Irre geführt",
+  "4.1",
+  "Screenreader · Sprache · Zukunft",
+  "AT kann Markup nicht parsen",
+  "4,5 : 1 (AA) · 7 : 1 (AAA)",
+  "3 : 1 (AA) · 4,5 : 1 (AAA)",
+  "WebAIM Contrast Checker",
+  "&lt;img&gt; · SVG · Icon-Fonts",
+  "alt=\"\" versteckt vor dem Screenreader",
+  "Präfix „Bild von …“",
+  "Maus ausstöpseln",
+  "div onclick · eigene Widgets",
+  "Visuell ≡ DOM ≡ Tab-Reihenfolge",
+  "Browserblaue Umrandung · nicht entfernen",
+  "3 px · 2 px Versatz · ≥3:1 Kontrast",
+  ":focus-visible (nicht :focus)",
+  "24 × 24 CSS-px",
+  "44 × 44 CSS-px",
+  "Benachbarte Ziele ≥ 8 px Abstand",
+  "Zugängliche Textbeschriftung",
+  "Welche Art von Element",
+  "Aktueller Zustand / Wert",
+  "Alt-Texte · Untertitel · Beschriftungen",
+  "Menge zu groß für Handarbeit",
+  "Plausible, aber falsche Ausgabe",
+  "KI-gestützte AT",
+  "Saubere Rollen und Semantik",
+  "Müll rein → Müll raus"
+ ],
+ ".ai-divider h3": [
+  "Barrierefreiheit im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI wird beides: ein Weg, Barrierefreiheits-Metadaten in großem Maßstab zu erzeugen, und die assistive Schicht selbst — keines von beiden ersetzt die menschliche Prüfung."
+ ],
+ ".cat-label": [
+  "Die vier Prinzipien",
+  "Zentrale Erfolgskriterien"
+ ]
+}

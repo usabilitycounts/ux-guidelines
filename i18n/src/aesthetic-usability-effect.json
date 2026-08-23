@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Aesthetic-Usability <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Beautiful design is perceived as easier to use."
+ ],
+ "header .subtitle": [
+  "Masaaki Kurosu and Kaori Kashimura’s 1995 ATM study: interfaces people find beautiful are rated easier to use — regardless of whether they are. Polish buys patience and trust, and can hide real problems."
+ ],
+ ".law-origin .body-text": [
+  "Masaaki Kurosu and Kaori Kashimura, researchers at the Hitachi Design Center, tested 26 ATM layouts in 1995. Users’ ratings of apparent ease of use tracked how attractive the layouts were far more closely than how usable they actually were.",
+  "Noam Tractinsky replicated the result across cultures in 1997 — “what is beautiful is usable” — and <a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> later gave it a mechanism in Emotional Design: positive affect broadens thinking and makes people more tolerant of minor difficulty."
+ ],
+ ".law-content .law-desc": [
+  "Users perceive aesthetically pleasing design as more usable — and extend it more patience, more trust, and more forgiveness for small flaws. The effect is real and useful, and it cuts both ways: beauty can mask problems that testing would catch."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masaaki-kurosu\">Kurosu</a> and <a href=\"people.html#p-kaori-kashimura\">Kashimura</a> (1995)",
+  "Apparent usability — ATM study, Hitachi",
+  "Polish buys patience"
+ ],
+ ".card .tag": [
+  "The effect",
+  "Tolerance",
+  "Trust",
+  "The trap",
+  "Priority",
+  "Practice",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "Same Function, Different Feel",
+  "Polish Buys Patience",
+  "Beauty Reads as Competence",
+  "Beauty Hides Problems",
+  "Usability Still Comes First",
+  "Spend Polish Where It Counts",
+  "Generated Polish, Instantly",
+  "Fluent, Confident, Wrong"
+ ],
+ ".card .desc": [
+  "Two screens with identical functionality: the aligned, spaced, considered one is rated easier to use before a single click. Perceived usability is formed in the first glance, not the first task.",
+  "On a screen that looks considered, users blame themselves for small stumbles and try again. On a sloppy one, the same stumble is the product’s fault and the tab closes. Aesthetics is a forgiveness budget.",
+  "Visual care is taken as a proxy for engineering care — often rationally: a team that kerned the headings probably tested the checkout. First-visit trust, sign-up rates, and price tolerance all move with polish.",
+  "The effect contaminates research: users rate beautiful prototypes as usable even after failing tasks in them. Watch what people do, not what they rate — satisfaction scores flatter attractive designs.",
+  "The effect forgives small flaws, not broken flows. A gorgeous checkout that loses the cart is still a failed checkout — polish multiplies a working experience and merely delays the verdict on a broken one.",
+  "Polish the surfaces that form judgment: first-run, home, checkout, and empty states. A consistent type scale, aligned edges, and honest spacing deliver most of the effect without a single illustration.",
+  "Models produce clean, aligned, plausible interfaces by default — polish is no longer evidence of care. The signal users read as competence can now be minted in seconds, which makes real usability testing matter more, not less.",
+  "The aesthetic-usability effect has a text form: fluent, well-structured prose is rated more accurate than clumsy prose saying the same thing. A model’s confidence is styling — verify the claim, not the finish."
+ ],
+ ".meta .label": [
+  "Judged",
+  "Tracks",
+  "Not",
+  "Polished",
+  "Sloppy",
+  "Aesthetics",
+  "Proxy for",
+  "Moves",
+  "Earned by",
+  "Research risk",
+  "Trust",
+  "Metric",
+  "Forgives",
+  "Not",
+  "Polish",
+  "Polish first",
+  "Cheapest wins",
+  "Skip",
+  "Polish",
+  "So",
+  "Fluency",
+  "Verify"
+ ],
+ ".meta .value": [
+  "At first glance",
+  "Attractiveness",
+  "Actual task success",
+  "Users retry",
+  "Users bail",
+  "A forgiveness budget",
+  "Engineering care",
+  "Trust and conversion",
+  "Consistency, not decoration",
+  "Inflated ratings",
+  "Behavior over opinion",
+  "Task success",
+  "Small flaws",
+  "Broken flows",
+  "Multiplies, never rescues",
+  "First-run · checkout",
+  "Alignment · spacing",
+  "Decoration for its own sake",
+  "No longer proof of care",
+  "Test what it does",
+  "Reads as accuracy",
+  "The claim, not the finish"
+ ],
+ ".ai-divider h3": [
+  "Aesthetic-Usability in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated interfaces arrive polished by default — and fluent, confident prose triggers the same effect in text. Beautiful output is not correct output."
+ ]
+}

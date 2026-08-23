@@ -1,0 +1,143 @@
+{
+ "header h1": [
+  "<em>Principio</em> de Gutenberg"
+ ],
+ "header .tagline": [
+  "De <em>arriba-izquierda</em> a <em>abajo-derecha</em>."
+ ],
+ "header .subtitle": [
+  "En páginas de peso uniforme, el ojo barre de arriba-izquierda a abajo-derecha. El principio de Gutenberg mapea esa gravedad de lectura — y dónde poner lo que importa."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Edmund_C._Arnold\" target=\"_blank\" rel=\"noopener\">Edmund C. Arnold</a> fue un diseñador de periódicos y profesor de periodismo estadounidense, a menudo llamado el padre del diseño moderno de periódicos. A lo largo de una carrera que pasó por las universidades de Syracuse y Virginia Commonwealth, rediseñó cientos de periódicos y escribió más de dos docenas de libros sobre maquetación de publicaciones.",
+  "El diagrama lleva el nombre de <a href=\"https://en.wikipedia.org/wiki/Johannes_Gutenberg\" target=\"_blank\" rel=\"noopener\">Johannes Gutenberg</a> solo por asociación con la imprenta; fue Arnold quien describió la gravedad de lectura — el barrido habitual de arriba-izquierda a abajo-derecha entrenado por el texto occidental — y la convirtió en una herramienta práctica de maquetación."
+ ],
+ ".law-content .law-desc": [
+  "En páginas de peso uniforme, el ojo barre desde el área óptica primaria arriba a la izquierda hasta el área terminal abajo a la derecha, prestando mucha menos atención a las dos esquinas en barbecho. Coloca las aperturas arriba a la izquierda y las llamadas a la acción abajo a la derecha."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Edmund C. Arnold",
+  "Práctica y enseñanza de la maquetación de periódicos",
+  "CTA abajo-derecha, marca arriba-izquierda"
+ ],
+ ".card .tag": [
+  "Cuadrante 1",
+  "Cuadrante 2",
+  "Cuadrante 3",
+  "Cuadrante 4",
+  "Gravedad",
+  "Eje",
+  "Aplica",
+  "Anulación",
+  "Maquetación",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Área óptica primaria",
+  "Área en barbecho fuerte",
+  "Área en barbecho débil",
+  "Área terminal",
+  "Gravedad de lectura",
+  "Eje de orientación",
+  "Cuándo aplica",
+  "Cuándo no aplica",
+  "Aplicaciones prácticas",
+  "El chat no tiene cuadrantes",
+  "La respuesta reemplaza al diseño"
+ ],
+ ".card .desc": [
+  "El cuadrante superior izquierdo — donde el ojo aterriza primero cuando ninguna otra señal visual lo captura. En las culturas de lectura occidentales, aquí es donde van por defecto los titulares, logotipos y marcas identificativas.",
+  "El cuadrante superior derecho recibe una atención significativa pero reducida. El contenido aquí se mira de reojo, no se lee. Un lugar habitual para la navegación, la búsqueda o imágenes de apoyo del hero.",
+  "El cuadrante inferior izquierdo recibe la menor atención de los cuatro. El ojo pasa de largo en su camino hacia abajo y a la derecha — para muchos usuarios, el contenido colocado aquí bien podría no existir.",
+  "El cuadrante inferior derecho es donde el ojo descansa tras barrer la página. Es el lugar natural para una llamada a la acción — el ojo literalmente termina aquí, listo para el siguiente paso.",
+  "El tirón diagonal desde la Primaria hasta la Terminal. La gravedad de lectura es el comportamiento por defecto — lo que ocurre cuando ninguna otra jerarquía visual interrumpe el barrido. Refuérzala con contenido que acompañe el recorrido.",
+  "La línea perpendicular, de arriba-derecha a abajo-izquierda, es el eje al que el ojo se resiste activamente. Cruzarlo cuesta esfuerzo — por eso el contenido colocado en las esquinas en barbecho recibe tan poca atención.",
+  "El principio de Gutenberg describe un patrón de lectura por defecto — lo que ocurre con contenido distribuido de forma uniforme y visualmente homogéneo. Maquetaciones de estilo periodístico, páginas con mucha prosa, documentos densos.",
+  "Cualquier elemento visual fuerte anula la gravedad de lectura. En su lugar emergen el patrón F o el patrón Z. La mayoría de las páginas web modernas — con imágenes, botones y tipografía variada — rompen Gutenberg por completo.",
+  "Donde el diagrama todavía aplica: maquetaciones editoriales, boletines, páginas de artículos densos, términos de servicio y cualquier composición que deba sentirse formal y tradicional. Pon la firma arriba a la izquierda, el CTA abajo a la derecha, y deja que la gravedad haga el resto.",
+  "Una conversación es una sola columna vertical sin zonas Primaria ni Terminal. La gravedad de lectura se aplana en un simple flujo de turnos de arriba abajo.",
+  "Cuando la IA devuelve la respuesta directamente, a menudo no hay página que maquetar. El diagrama de cuatro cuadrantes cede su lugar a un único bloque de respuesta generado."
+ ],
+ ".meta .label": [
+  "Colocar aquí",
+  "Por qué",
+  "Cuidado con",
+  "Colocar aquí",
+  "Se lee como",
+  "Cuidado con",
+  "Evitar aquí",
+  "Aceptable aquí",
+  "Cuidado con",
+  "Colocar aquí",
+  "Por qué",
+  "Cuidado con",
+  "Dirección",
+  "Reforzar con",
+  "Cuidado con",
+  "Dirección",
+  "Efecto",
+  "Caso de uso",
+  "Ideal para",
+  "Condición",
+  "Cultural",
+  "Se rompe cuando",
+  "Reemplazado por",
+  "Veredicto",
+  "Ideal para",
+  "Logo",
+  "CTA",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Logo · Titular · Marca",
+  "Primer lugar donde mira el ojo",
+  "Los idiomas RTL lo invierten",
+  "Navegación · Acciones secundarias · Imagen",
+  "Vistazo, no foco",
+  "Esconder contenido crítico aquí",
+  "CTAs · Titulares clave · Precios",
+  "Pie de página · Texto estándar · Legal",
+  "Cualquier cosa que los usuarios deban ver",
+  "CTA principal · Registro · Compra",
+  "Punto final natural del barrido",
+  "Enterrar el CTA en otro sitio",
+  "Arriba-izquierda → abajo-derecha",
+  "Contenido alineado a lo largo de la línea",
+  "Diagonales en competencia",
+  "Arriba-derecha → abajo-izquierda",
+  "El ojo se resiste a este cruce",
+  "Ocultar información secundaria en esta línea",
+  "Impreso · Prosa larga · Documentos",
+  "Contenido homogéneo",
+  "Lectura occidental LTR",
+  "Imágenes · CTAs · Contraste tipográfico",
+  "Patrón F · Patrón Z · salteado",
+  "Raro en la UI moderna",
+  "Editorial · Boletines · Impreso",
+  "Arriba-izquierda (Primaria)",
+  "Abajo-derecha (Terminal)",
+  "Cuadrantes → flujo",
+  "UI de conversación lineal",
+  "Perder la posición del CTA",
+  "Diseño → respuesta",
+  "Interfaces de respuesta directa",
+  "Sin espacio para escanear o comparar"
+ ],
+ ".ai-divider h3": [
+  "Gutenberg en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Una conversación no tiene cuadrantes — cuando la respuesta se devuelve directamente, el modelo de lectura de cuatro zonas cede ante un único flujo vertical."
+ ]
+}

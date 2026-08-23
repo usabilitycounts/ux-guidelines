@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en" data-page="icons">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A small set of glyphs has become a near-universal language. Use them as they&#x27;re understood, pair them with labels, and keep one consistent set.">
+<title>Universal Icons: The Glyphs Every User Already Knows — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/universal-icons.html">
+<meta property="og:title" content="Universal Icons: The Glyphs Every User Already Knows — UX Guidelines">
+<meta property="og:description" content="A small set of glyphs has become a near-universal language. Use them as they&#x27;re understood, pair them with labels, and keep one consistent set.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/universal-icons.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Universal Icons: The Glyphs Every User Already Knows — UX Guidelines">
+<meta name="twitter:description" content="A small set of glyphs has become a near-universal language. Use them as they&#x27;re understood, pair them with labels, and keep one consistent set.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --ai: #0d9488;
+  }
+
+  /* category sections */
+  .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 40px 32px 8px; line-height: var(--lh-heading); }
+
+  /* AI section banner */
+  .ai-divider { grid-column: 1 / -1; background: var(--ink); color: var(--text-inverse); padding: 22px 32px; display: flex; align-items: center; gap: 14px; }
+  .big-icon { width: 86px; height: 86px; flex: none; margin: auto; display: block; }
+
+  @media (max-width: 600px) {
+    .cat-label { font-size: var(--fs-h2); font-weight: 600; color: var(--text-primary); margin: 28px 20px 8px; line-height: var(--lh-heading); }
+  }
+
+  /* Icon-placement illustrations */
+  .ix { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
+  .ix .b { background: var(--skel); opacity: 0.35; border-radius: 4px; display: block; }
+  .ix .b.faint { opacity: 0.3; }
+  .ix .bar { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 8px; background: var(--surface); }
+  .ix .tabbar { display: flex; align-items: center; justify-content: space-around; padding: 8px 10px; border-radius: 8px; background: var(--surface); margin-top: auto; }
+  .ix .body { flex: 1; display: flex; flex-direction: column; justify-content: space-evenly; padding: 4px 6px; }
+  .ix .body .b { height: 6px; }
+  .ix .body .b:nth-child(n+5) { display: none; }
+  .ix svg { width: 20px; height: 20px; stroke: var(--skel-strong); stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; opacity: 0.55; flex: none; }
+  .ix svg.hot { stroke: var(--il-accent); opacity: 1; }
+  .ix .badge { width: 8px; height: 8px; border-radius: 50%; background: var(--il-accent); margin-left: -14px; margin-top: -12px; }
+  .ix .rowline { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 6px; }
+  .ix .rowline:nth-child(odd) { background: var(--surface); }
+  .ix .cardt { flex: 1; background: var(--surface); border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 8px; position: relative; justify-content: center; }
+  .ix .tap { border: 2px dashed var(--il-accent); border-radius: 12px; padding: 18px; display: inline-flex; }
+  .ix .tap svg { width: 26px; height: 26px; }
+  .ix .lblrow { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+  .ix .lblrow i { height: 4px; width: 22px; border-radius: 2px; background: var(--skel); opacity: 0.6; display: block; }
+  .ix .fab { position: absolute; right: 16px; bottom: 16px; width: 36px; height: 36px; border-radius: 50%; background: var(--il-accent); display: flex; align-items: center; justify-content: center; }
+  .ix .fab svg { stroke: #fff; opacity: 1; }
+  .ix .fieldx { height: 28px; border-radius: 8px; background: #fff; box-shadow: inset 0 0 0 1.5px rgba(0,0,0,0.14); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .ix .fieldx .pw { width: 7px; height: 7px; border-radius: 50%; background: var(--skel-strong); opacity: 0.55; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link active">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Universal <em>Icons</em></h1>
+  <p class="tagline">A handful of glyphs the whole world already <em>reads</em>.</p>
+  <p class="subtitle">A small set of glyphs has become a near-universal language. Use them as they’re understood, pair them with labels, and keep one consistent set.</p>
+</header>
+
+<main>
+
+  <section class="cat">
+    <h2 class="cat-label">The Universal Set</h2>
+    <div class="grid">
+
+      <!-- Menu -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Navigation</span>
+          <h3>Menu (Hamburger)</h3>
+          <p class="desc">Three stacked lines mean “open the menu.” Born on early mobile, now understood almost everywhere — though on a wide screen a visible nav is usually better than hiding it behind this icon.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><svg class="hot" viewBox="0 0 24 24"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg><span class="b" style="width:52px;height:7px"></span></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Open navigation</div></div>
+          <div><div class="label">Recognition</div><div class="value">Very high</div></div>
+          <div><div class="label">Watch for</div><div class="value">Hiding nav on desktop</div></div>
+        </div>
+      </article>
+
+      <!-- Search -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Search</h3>
+          <p class="desc">The magnifying glass is the most universally recognized icon in software. It reliably means “find” or “search” — one of the few glyphs that needs no label to be understood.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Find / search</div></div>
+          <div><div class="label">Recognition</div><div class="value">Near-universal</div></div>
+          <div><div class="label">Safe to</div><div class="value">Use without a label</div></div>
+        </div>
+      </article>
+
+      <!-- Settings -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Settings (Gear)</h3>
+          <p class="desc">The cog signals “settings” or “configure.” Widely understood, though it can blur with system status or advanced options — a label removes any doubt about exactly what it opens.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Settings · configure</div></div>
+          <div><div class="label">Recognition</div><div class="value">High</div></div>
+          <div><div class="label">Watch for</div><div class="value">Confusing with status</div></div>
+        </div>
+      </article>
+
+      <!-- Home -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Navigation</span>
+          <h3>Home</h3>
+          <p class="desc">The house means “back to the start.” Strong on mobile apps; on the web the logo top-left often does the same job, so the two can compete if you show both.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div><div class="tabbar"><svg class="hot" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.8-6 1.9 0 3.4 1.1 5.2 3.2C13.8 6.1 15.3 5 17.2 5c3.2 0 5 3.2 3.8 6-2 4.5-9 9-9 9z"/></svg><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Home / start</div></div>
+          <div><div class="label">Recognition</div><div class="value">High</div></div>
+          <div><div class="label">Watch for</div><div class="value">Competing with the logo</div></div>
+        </div>
+      </article>
+
+      <!-- Account -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Utility</span>
+          <h3>Account (Person)</h3>
+          <p class="desc">A head-and-shoulders silhouette means “you” — your profile, account, or sign-in. Conventionally sits top-right, often doubling as the entry to settings and sign-out.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Profile · account</div></div>
+          <div><div class="label">Lives</div><div class="value">Top-right, usually</div></div>
+          <div><div class="label">Often opens</div><div class="value">Settings · sign-out</div></div>
+        </div>
+      </article>
+
+      <!-- Cart -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Commerce</span>
+          <h3>Cart</h3>
+          <p class="desc">The shopping cart (or basket) means “items you intend to buy.” One of the most stable icons on the web — users expect it top-right, often with a count badge.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 4h2l2.5 12h10L21 8H7"/></svg><span class="badge"></span></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Cart / basket</div></div>
+          <div><div class="label">Lives</div><div class="value">Top-right</div></div>
+          <div><div class="label">Pairs with</div><div class="value">Item-count badge</div></div>
+        </div>
+      </article>
+
+      <!-- Favorite -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Ambiguous</span>
+          <h3>Favorite (Heart)</h3>
+          <p class="desc">A heart means “like” or “save” — but which? Platforms split between favoriting, bookmarking, and reacting. Because the meaning isn’t fixed, this is an icon that genuinely needs a label or tooltip.</p>
+        </div>
+        <div class="demo"><div class="ix" style="flex-direction:row;gap:12px;align-items:stretch">
+      <div class="cardt"><span class="b" style="flex:1;min-height:36px;width:100%"></span><div style="display:flex;align-items:center"><span class="b" style="height:6px;width:55%"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.8-6 1.9 0 3.4 1.1 5.2 3.2C13.8 6.1 15.3 5 17.2 5c3.2 0 5 3.2 3.8 6-2 4.5-9 9-9 9z"/></svg></div></div>
+      <div class="cardt"><span class="b faint" style="flex:1;min-height:36px;width:100%"></span><div style="display:flex;align-items:center"><span class="b faint" style="height:6px;width:55%"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.8-6 1.9 0 3.4 1.1 5.2 3.2C13.8 6.1 15.3 5 17.2 5c3.2 0 5 3.2 3.8 6-2 4.5-9 9-9 9z"/></svg></div></div>
+    </div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Like · save · react</div></div>
+          <div><div class="label">Recognition</div><div class="value">High shape, fuzzy meaning</div></div>
+          <div><div class="label">Needs</div><div class="value">A label or tooltip</div></div>
+        </div>
+      </article>
+
+      <!-- Share -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Ambiguous</span>
+          <h3>Share</h3>
+          <p class="desc">“Share” has no single glyph — the connected-nodes mark, the iOS box-and-arrow, and others all compete. Recognition is good but the symbol varies by platform, so confirm it matches your users’ expectations.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar" style="background:var(--surface)"><span class="b" style="width:44%;height:8px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><line x1="8.2" y1="10.8" x2="15.8" y2="7.2"/><line x1="8.2" y1="13.2" x2="15.8" y2="16.8"/></svg></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Share / send</div></div>
+          <div><div class="label">Recognition</div><div class="value">Good, glyph varies</div></div>
+          <div><div class="label">Watch for</div><div class="value">Platform mismatch</div></div>
+        </div>
+      </article>
+
+      <!-- Delete -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Destructive</span>
+          <h3>Delete (Trash)</h3>
+          <p class="desc">The trash can means “remove.” Strongly understood, but because it’s destructive it deserves extra care — a confirmation, an undo, or both — and never as the only place an important action lives.</p>
+        </div>
+        <div class="demo"><div class="ix" style="gap:0">
+      <div class="rowline"><span class="b" style="width:40%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+      <div class="rowline" style="background:var(--surface);border-radius:6px"><span class="b" style="width:52%;height:7px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+      <div class="rowline"><span class="b" style="width:34%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+    </div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Delete / remove</div></div>
+          <div><div class="label">Recognition</div><div class="value">High</div></div>
+          <div><div class="label">Pair with</div><div class="value">Confirm and undo</div></div>
+        </div>
+      </article>
+
+      <!-- Notifications (Bell) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Utility</span>
+          <h3>Notifications (Bell)</h3>
+          <p class="desc">The bell means “something happened while you were away.” Universally recognized in apps, almost always paired with a count or dot badge — and easily the most abused icon in software.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="badge"></span></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">New activity</div></div>
+          <div><div class="label">Pairs with</div><div class="value">Count or dot badge</div></div>
+          <div><div class="label">Watch for</div><div class="value">Notification fatigue</div></div>
+        </div>
+      </article>
+
+      <!-- Back (Arrow) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Navigation</span>
+          <h3>Back (Arrow)</h3>
+          <p class="desc">The left arrow means “go back one step.” On mobile it lives top-left of the title bar; on the web the browser owns it — an in-page back arrow should only appear inside stepped flows.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="bar"><svg class="hot" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg><span class="b" style="width:40%;height:8px"></span></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Go back</div></div>
+          <div><div class="label">Lives</div><div class="value">Top-left of the bar</div></div>
+          <div><div class="label">Watch for</div><div class="value">Fighting the browser back</div></div>
+        </div>
+      </article>
+
+      <!-- Close (X) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Close (X)</h3>
+          <p class="desc">The X dismisses whatever it sits on — a modal, a banner, a chip. It belongs in the top-right corner of the thing it closes, and it should never be the only way out of an important flow.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="cardt flex-1"><div style="display:flex;align-items:flex-start"><span class="b" style="width:44%;height:8px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></div><span class="b faint" style="width:88%;height:6px"></span><span class="b faint" style="width:70%;height:6px"></span><span class="b" style="width:40%;height:16px;opacity:0.2;border-radius:8px"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Dismiss / close</div></div>
+          <div><div class="label">Lives</div><div class="value">Top-right of its surface</div></div>
+          <div><div class="label">Watch for</div><div class="value">Tiny tap targets</div></div>
+        </div>
+      </article>
+
+      <!-- Add (Plus) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Add (Plus)</h3>
+          <p class="desc">The plus creates something new. As a floating action button it anchors the bottom-right of mobile screens — one per screen, reserved for the single most important creative action.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div><div class="fab"><svg viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></svg></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Create new</div></div>
+          <div><div class="label">Lives</div><div class="value">Bottom-right FAB</div></div>
+          <div><div class="label">Rule</div><div class="value">One per screen</div></div>
+        </div>
+      </article>
+
+      <!-- More (Kebab) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Utility</span>
+          <h3>More (Kebab)</h3>
+          <p class="desc">Three vertical dots mean “more actions for this item.” It sits at the right end of a row or card and opens a small menu — a safe home for secondary actions, never for the primary one.</p>
+        </div>
+        <div class="demo"><div class="ix"><div style="display:flex;flex-direction:column;gap:0;flex:1;justify-content:center"><div class="rowline"><span class="b" style="width:40%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></div><div class="rowline"><span class="b" style="width:52%;height:7px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></div><div class="rowline"><span class="b" style="width:34%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></div></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">More actions</div></div>
+          <div><div class="label">Lives</div><div class="value">Right end of a row</div></div>
+          <div><div class="label">Watch for</div><div class="value">Hiding the primary action</div></div>
+        </div>
+      </article>
+
+      <!-- Edit (Pencil) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Edit (Pencil)</h3>
+          <p class="desc">The pencil means “change this.” It appears next to the thing it edits — a field, a row, a profile block — and switches the surface into an editable state.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="cardt flex-1"><div style="display:flex;align-items:center"><span class="b" style="width:50%;height:8px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg></div><span class="b faint" style="width:84%;height:6px"></span><span class="b faint" style="width:66%;height:6px"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Edit / modify</div></div>
+          <div><div class="label">Lives</div><div class="value">Beside its target</div></div>
+          <div><div class="label">Pairs with</div><div class="value">Save and cancel</div></div>
+        </div>
+      </article>
+
+      <!-- Download -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Download</h3>
+          <p class="desc">An arrow into a tray means “save a copy to your device.” Its mirror — the arrow out of the tray — means upload. Keep the pair consistent and users never mix them up.</p>
+        </div>
+        <div class="demo"><div class="ix"><div style="display:flex;flex-direction:column;gap:0;flex:1;justify-content:center"><div class="rowline"><span class="b" style="width:44%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><div class="rowline"><span class="b" style="width:56%;height:7px"></span><span class="flex-1"></span><svg class="hot" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div><div class="rowline"><span class="b" style="width:38%;height:7px"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><line x1="12" y1="15" x2="12" y2="3"/></svg></div></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Save to device</div></div>
+          <div><div class="label">Mirror</div><div class="value">Upload arrow</div></div>
+          <div><div class="label">Watch for</div><div class="value">Swapping the pair</div></div>
+        </div>
+      </article>
+
+      <!-- Filter (Funnel) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Action</span>
+          <h3>Filter (Funnel)</h3>
+          <p class="desc">The funnel narrows a list. It lives beside search at the top of results, often with a badge showing how many filters are active — and it should never silently hide everything.</p>
+        </div>
+        <div class="demo"><div class="ix"><div style="display:flex;align-items:center;gap:10px"><span style="flex:1;height:24px;background:var(--surface);border-radius:12px;display:block"></span><svg class="hot" viewBox="0 0 24 24"><path d="M22 3H2l8 9.46V19l4 2v-8.54Z"/></svg></div><div class="body"><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b faint w-88"></span><span class="b faint w-76"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Narrow the list</div></div>
+          <div><div class="label">Lives</div><div class="value">Beside search</div></div>
+          <div><div class="label">Pairs with</div><div class="value">Active-filter badge</div></div>
+        </div>
+      </article>
+
+      <!-- Location (Pin) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Utility</span>
+          <h3>Location (Pin)</h3>
+          <p class="desc">The teardrop pin means “a place.” Dropped on maps, prefixed to addresses, and used for “near me” features — one of the few icons whose meaning survives every platform.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="cardt" style="flex:1;align-items:center;justify-content:center"><svg class="hot" viewBox="0 0 24 24" style="width:30px;height:30px"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 24 24" style="width:16px;height:16px"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span class="b" style="width:52%;height:6px"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">A place / near me</div></div>
+          <div><div class="label">Lives</div><div class="value">Maps and addresses</div></div>
+          <div><div class="label">Recognition</div><div class="value">Near-universal</div></div>
+        </div>
+      </article>
+
+      <!-- Lock (Padlock) -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Utility</span>
+          <h3>Lock (Padlock)</h3>
+          <p class="desc">The padlock means “secure” or “private.” Inside a field it marks protected input; on content it means restricted access. Closed reads as safe — open as exposed — so never decorate with it.</p>
+        </div>
+        <div class="demo"><div class="ix"><div style="display:flex;flex-direction:column;gap:10px;flex:1;justify-content:center"><span class="b" style="width:30%;height:7px"></span><div class="fieldx"><svg class="hot" viewBox="0 0 24 24" style="width:16px;height:16px"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><span class="pw"></span><span class="pw"></span><span class="pw"></span><span class="pw"></span><span class="pw"></span><span class="pw"></span></div><span class="b faint" style="width:64%;height:6px"></span></div></div></div>
+        <div class="meta">
+          <div><div class="label">Means</div><div class="value">Secure / private</div></div>
+          <div><div class="label">Lives</div><div class="value">Fields and gated content</div></div>
+          <div><div class="label">Watch for</div><div class="value">Decorative use</div></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="cat">
+    <h2 class="cat-label">Designing with Icons</h2>
+    <div class="grid">
+
+      <!-- Pair with labels -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Principle</span>
+          <h3>Pair Icons with Labels</h3>
+          <p class="desc">Outside the tiny universal set, an icon alone is a guessing game. A text label removes ambiguity, aids accessibility, and barely costs space — when in doubt, label it.</p>
+        </div>
+        <div class="demo"><div class="ix"><div class="body"><span class="b" style="width:40%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div><div class="tabbar">
+      <div class="lblrow"><svg class="hot" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><i class="fill-accent"></i></div>
+      <div class="lblrow"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><i></i></div>
+      <div class="lblrow"><svg viewBox="0 0 24 24"><circle cx="9" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M3 4h2l2.5 12h10L21 8H7"/></svg><i></i></div>
+      <div class="lblrow"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg><i></i></div>
+    </div></div></div>
+        <div class="meta">
+          <div><div class="label">Default to</div><div class="value">Icon + label</div></div>
+          <div><div class="label">Helps</div><div class="value">Clarity and a11y</div></div>
+          <div><div class="label">Icon-only</div><div class="value">Only the universal set</div></div>
+        </div>
+      </article>
+
+      <!-- Familiar metaphors -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Principle</span>
+          <h3>Use Familiar Metaphors</h3>
+          <p class="desc">Icons work by borrowing meaning users already hold. A clever, novel symbol resets that to zero. Reach for the established metaphor before inventing your own — recognition beats originality.</p>
+        </div>
+        <div class="demo"><div class="ix" style="flex-direction:row;align-items:stretch;gap:12px">
+      <div class="cardt" style="align-items:center;border-color:var(--il-accent);border-width:2px;flex-direction:row;justify-content:space-around;padding:14px"><svg class="hot" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><svg class="hot" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+      <div class="cardt" style="align-items:center;border-style:dashed;padding:14px"><svg viewBox="0 0 24 24"><path d="M7 5c4-3 10 1 10 6s-5 9-9 6-5-9-1-12z"/></svg></div>
+    </div></div>
+        <div class="meta">
+          <div><div class="label">Lean on</div><div class="value">Known metaphors</div></div>
+          <div><div class="label">Cost of novelty</div><div class="value">Recognition resets</div></div>
+          <div><div class="label">Test</div><div class="value">Can users name it?</div></div>
+        </div>
+      </article>
+
+      <!-- Consistent set -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Principle</span>
+          <h3>Keep One Consistent Set</h3>
+          <p class="desc">Mixing icon families — different weights, corners, and fill styles — reads as sloppy and slows recognition. Pick a single set (or design to one spec) and use it everywhere.</p>
+        </div>
+        <div class="demo"><div class="ix" style="justify-content:space-evenly">
+      <div class="bar" style="justify-content:space-around"><svg class="hot" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><svg class="hot" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.8-6 1.9 0 3.4 1.1 5.2 3.2C13.8 6.1 15.3 5 17.2 5c3.2 0 5 3.2 3.8 6-2 4.5-9 9-9 9z"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg><svg class="hot" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+      <div class="bar" style="justify-content:space-around;opacity:0.4"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><svg viewBox="0 0 24 24" style="fill:var(--skel-strong);stroke:none;opacity:0.55"><circle cx="11" cy="11" r="8"/></svg><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.5-9-9c-1.2-2.8.6-6 3.8-6 1.9 0 3.4 1.1 5.2 3.2C13.8 6.1 15.3 5 17.2 5c3.2 0 5 3.2 3.8 6-2 4.5-9 9-9 9z"/></svg><svg viewBox="0 0 24 24" style="stroke-width:3.5;opacity:0.55"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg></div>
+    </div></div>
+        <div class="meta">
+          <div><div class="label">Pick</div><div class="value">One icon set</div></div>
+          <div><div class="label">Match</div><div class="value">Weight · corners · fill</div></div>
+          <div><div class="label">Avoid</div><div class="value">Mixing families</div></div>
+        </div>
+      </article>
+
+      <!-- Sizing & targets -->
+      <article class="card">
+        <div class="card-header">
+          <span class="tag">Principle</span>
+          <h3>Size for the Tap</h3>
+          <p class="desc">A 16px glyph can still need a 44px touch target. Keep icon buttons comfortably tappable and give them breathing room — small, crowded icons are slow and error-prone (see <a href="fitts-law.html">Fitts’s Law</a>).</p>
+        </div>
+        <div class="demo"><div class="ix" style="flex-direction:row;align-items:center;justify-content:space-evenly;gap:28px">
+      <div style="background:var(--surface);border-radius:6px;padding:4px;display:inline-flex"><svg viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+      <div class="tap"><svg class="hot" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+    </div></div>
+        <div class="meta">
+          <div><div class="label">Target</div><div class="value">≥ 44px tappable</div></div>
+          <div><div class="label">Spacing</div><div class="value">Room between icons</div></div>
+          <div><div class="label">See also</div><div class="value">Fitts’s Law</div></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Icons in the Age of AI</h3>
+    <p>A brand-new glyph is entering the universal set — and AI is also making it tempting to generate icons whose meaning users don’t yet share.</p>
+  </div>
+  <div class="grid">
+
+    <!-- Sparkle -->
+    <article class="card">
+      <div class="card-header">
+        <span class="tag ai-tag">✦ AI Era</span>
+        <h3>The Sparkle Is the New Icon</h3>
+        <p class="desc">Almost overnight, the four-point sparkle has come to mean “AI” — generate, summarize, assist. It’s the fastest-forming icon convention in years, and users now expect it to mark anything powered by a model.</p>
+      </div>
+      <div class="demo"><div class="ix"><div class="bar"><span class="b" style="width:9px;height:9px;border-radius:50%"></span><span class="flex-1"></span><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg><svg class="hot" viewBox="0 0 24 24"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 5-6 8-6s6.5 2 8 6"/></svg></div><div class="body"><span class="b" style="width:50%;height:9px"></span><span class="b faint w-92"></span><span class="b faint w-84"></span><span class="b" style="width:100%;height:24px;opacity:0.15;border-radius:6px"></span><span class="b faint w-88"></span><span class="b faint w-76"></span><span class="b faint w-82"></span></div></div></div>
+      <div class="meta">
+        <div><div class="label">Means</div><div class="value">AI · generate · assist</div></div>
+        <div><div class="label">Set by</div><div class="value">ChatGPT · Gemini · Copilot</div></div>
+        <div><div class="label">Status</div><div class="value">Fast-forming convention</div></div>
+      </div>
+    </article>
+
+    <!-- Don't auto-generate meaning -->
+    <article class="card">
+      <div class="card-header">
+        <span class="tag ai-tag">✦ AI Era</span>
+        <h3>Don’t Auto-Generate Meaning</h3>
+        <p class="desc">AI can spit out an infinite supply of unique icons — but an icon only works if its meaning is already shared. A freshly generated glyph carries none. Keep generated art on the established metaphor, and label anything new.</p>
+      </div>
+      <div class="demo"><div class="ix" style="flex-direction:row;align-items:stretch;justify-content:center;gap:14px">
+      <div class="cardt" style="align-items:center;padding:14px;flex:none"><svg class="hot" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg></div>
+      <div class="cardt" style="align-items:center;padding:14px;flex:none"><svg class="hot" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M9 7V4h6v3"/><path d="M6 7l1 13h10l1-13"/></svg></div>
+      <div class="cardt" style="align-items:center;padding:14px;flex:none;border-style:dashed"><svg viewBox="0 0 24 24"><path d="M7 5c4-3 10 1 10 6s-5 9-9 6-5-9-1-12z"/></svg></div>
+      <div class="cardt" style="align-items:center;padding:14px;flex:none;border-style:dashed"><svg viewBox="0 0 24 24" style="opacity:0.4"><path d="M5 12c3-6 11-6 14 0M7 16c2 3 8 3 10 0"/></svg></div>
+    </div></div>
+      <div class="meta">
+        <div><div class="label">Risk</div><div class="value">Meaningless novelty</div></div>
+        <div><div class="label">Keep</div><div class="value">Shared metaphors</div></div>
+        <div><div class="label">Always</div><div class="value">Label the new</div></div>
+      </div>
+    </article>
+
+  </div>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/icon-usability/" target="_blank" rel="noopener"><span class="title">Icon Usability</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/classifying-icons/" target="_blank" rel="noopener"><span class="title">Classifying and Choosing Icons</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Icon Libraries</h3>
+      <ul class="ref-list">
+        <li><a href="https://lucide.dev/" target="_blank" rel="noopener"><span class="title">Lucide — open-source icon set</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://fonts.google.com/icons" target="_blank" rel="noopener"><span class="title">Material Symbols</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference and Encyclopedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Icon_(computing)" target="_blank" rel="noopener"><span class="title">Icon (computing) — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Hamburger_button" target="_blank" rel="noopener"><span class="title">Hamburger Button — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Universal Icons</div>
+  <div class="meta-info">Shared visual language · revisited for the AI era</div>
+</footer>
+
+</body>
+</html>

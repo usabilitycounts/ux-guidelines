@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Fluch des <em>Wissens</em>"
+ ],
+ "header .tagline": [
+  "Wer einmal weiß, kann sich Nichtwissen nicht mehr vorstellen."
+ ],
+ "header .subtitle": [
+  "Benannt von den Ökonomen Camerer, Loewenstein und Weber im Jahr 1989: Wer etwas weiß, kann den Kopf von jemandem, der es nicht weiß, nicht mehr simulieren. Deshalb schreiben Experten verwirrende Dokus und liefern Teams Jargon aus."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Colin_Camerer\" target=\"_blank\" rel=\"noopener\">Colin Camerer</a>, <a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a> und Martin Weber prägten den Begriff 1989 in einem ökonomischen Paper: Besser informierte Händler konnten ihr eigenes Wissen nicht ausblenden, wenn sie das Verhalten schlechter informierter vorhersagen sollten.",
+  "Elizabeth Newtons Klopfstudie von 1990 machte ihn berühmt — Klopfer, die bekannte Lieder trommelten, sagten voraus, dass Zuhörer die Hälfte erkennen würden; die Zuhörer erreichten 2,5 %. Chip und Dan Heaths Made to Stick trug die Idee in Kommunikation und Design."
+ ],
+ ".law-content .law-desc": [
+  "Wissen ist Einwegglas: Einmal erworben, schreibt es lautlos das eigene Modell davon um, was andere sehen können. Experten überschätzen systematisch, wie viel Anfänger wissen — nicht aus Arroganz, sondern weil Ent-Wissen kognitiv unmöglich ist."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-colin-camerer\">Camerer</a>, <a href=\"people.html#p-george-loewenstein\">Loewenstein</a>, <a href=\"people.html#p-martin-weber\">Weber</a> (1989)",
+  "The Curse of Knowledge in Economic Settings",
+  "Mit Menschen testen, die es nicht wissen"
+ ],
+ ".card .tag": [
+  "Die Studie",
+  "Sprache",
+  "Onboarding",
+  "Interfaces",
+  "Gegengift",
+  "Schreiben",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Klopfer und Zuhörer",
+  "Jargon ist für seine Sprecher unsichtbar",
+  "Geschrieben von Menschen, die es wissen",
+  "Das offensichtliche Icon ist es nicht",
+  "Jemandem zusehen, der es nicht weiß",
+  "Erklären wie für Kluge, nicht Informierte",
+  "Prompts setzen Kontext voraus",
+  "Das Modell ist auch verflucht"
+ ],
+ ".card .desc": [
+  "Newtons Klopfer hörten das ganze Lied im Kopf und sagten eine Erfolgsquote von 50 % voraus. Die Zuhörer hörten Knöchel auf einem Tisch und erkannten 2,5 %. Jeder Experte, der sein Produkt vorführt, ist ein Klopfer.",
+  "Im Team sind „Sync“, „Workspace“ und „Instanz“ ganz normale Wörter. Für einen neuen Nutzer sind sie eine verschlossene Tür. Der Fluch verbirgt genau, welche der eigenen Wörter Jargon sind — nur Außenstehende sehen die Liste.",
+  "Onboarding scheitert, wenn es von Menschen gestaltet wird, die sich nicht erinnern können, das Produkt einmal nicht verstanden zu haben. Der Empty State, der „alles erklärt“, erklärt es im Vokabular von jemandem auf der anderen Seite des Fluchs.",
+  "Für seinen Designer bedeutet das Icon offensichtlich Export. Für Nutzer bedeutet es, was auch immer ihre Geschichte sagt — oft nichts. Icons mit Labels paaren, bis die Wiedererkennung bewiesen ist, nicht angenommen.",
+  "Die einzige verlässliche Kur ist geliehene Unwissenheit: Fünf Erstnutzer, die ihre Verwirrung laut aussprechen, finden, was kein Expertenreview finden kann, weil die Experten es buchstäblich nicht sehen können. Usability-Tests sind Fluchentfernung.",
+  "Die Lösung für verfluchtes Schreiben ist kein Vereinfachen — es ist Kontext liefern. Intelligenz voraussetzen, null gemeinsames Vokabular voraussetzen, Begriffe bei erster Verwendung definieren und mit dem beginnen, was der Leser sich bereits vorstellen kann.",
+  "Ein Prompt, der scheitert, scheitert oft als Klopfer: Der Verfasser hörte das ganze Lied — die Codebasis, die Constraints, das Ziel — und tippte drei Wörter davon. Das Modell bekommt, wie der Zuhörer, Knöchel auf einem Tisch.",
+  "Ein Modell, das alles weiß, erklärt entsprechend — die Antwort setzt Vokabular voraus, das der Leser vielleicht nicht hat. Nach der Zielgruppe zu fragen („erkläre es für einen neuen Mitarbeiter“) ist Ent-Fluchen der Maschine."
+ ],
+ ".meta .label": [
+  "Klopfer sagten voraus",
+  "Zuhörer erreichten",
+  "Jede Demo",
+  "Für das Team",
+  "Für neue Nutzer",
+  "Nur Außenstehende",
+  "Geschrieben von",
+  "Gelesen von",
+  "Lücke",
+  "Offensichtlich für",
+  "Lösung",
+  "Annehmen",
+  "Kur",
+  "Fünf Nutzer",
+  "Testen",
+  "Annehmen",
+  "Definieren",
+  "Beginnen mit",
+  "Gescheiterter Prompt",
+  "Lösung",
+  "Verfluchter Output",
+  "Ent-Fluchen"
+ ],
+ ".meta .value": [
+  "50 %",
+  "2,5 %",
+  "Ist ein Klopfen",
+  "Normale Wörter",
+  "Verschlossene Türen",
+  "Sehen, was was ist",
+  "Menschen, die es wissen",
+  "Menschen, die es nicht wissen",
+  "Der Fluch selbst",
+  "Seinen Designer",
+  "Icon plus Label",
+  "Nichts ist offensichtlich",
+  "Geliehene Unwissenheit",
+  "Schlagen Expertenreview",
+  "Ist Fluchentfernung",
+  "Klug, uninformiert",
+  "Bei erster Verwendung",
+  "Dem Vertrauten",
+  "Ein geklopftes Lied",
+  "Den Kontext laut aussprechen",
+  "Setzt dein Vokabular voraus",
+  "Die Zielgruppe benennen"
+ ],
+ ".ai-divider h3": [
+  "Der Fluch des Wissens im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Prompts setzen Kontext voraus, den das Modell nicht hat — und Modelle erklären mit Wissen, das der Leser nicht hat. Der Fluch wirkt jetzt in beide Richtungen."
+ ]
+}

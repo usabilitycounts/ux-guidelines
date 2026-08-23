@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Goodhart’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "When a measure becomes a <em>target</em>, it ceases to be a good measure."
+ ],
+ "header .subtitle": [
+  "Charles Goodhart’s 1975 observation, sharpened by <a href=\"people.html#p-marilyn-strathern\">Marilyn Strathern</a>: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Charles_Goodhart\" target=\"_blank\" rel=\"noopener\">Charles Goodhart</a> is a British economist, a long-time adviser to the Bank of England and professor at the London School of Economics. His 1975 remark about monetary targets — once a measure becomes a target, it ceases to be a good measure — outgrew economics and became a law of incentives everywhere.",
+  "Goodhart spent seventeen years at the Bank of England and helped design Hong Kong’s currency board. The law’s modern phrasing — ‘when a measure becomes a target, it ceases to be a good measure’ — was coined by anthropologist <a href=\"https://en.wikipedia.org/wiki/Marilyn_Strathern\" target=\"_blank\" rel=\"noopener\">Marilyn Strathern</a> in 1997, generalizing his observation about monetary aggregates."
+ ],
+ ".law-content .law-desc": [
+  "The minute you use a metric to evaluate people — promote, fund, rank — they start working on the metric directly, not the thing it was supposed to track. The number rises; the outcome doesn’t always follow."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-charles-goodhart\">Charles Goodhart</a> (1975)",
+  "Monetary-policy commentary",
+  "Watch the goal, not just the metric"
+ ],
+ ".card .tag": [
+  "Definition",
+  "Classic",
+  "In product",
+  "Sibling law",
+  "Soft Goodhart",
+  "Designing",
+  "Practice",
+  "Daily",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "When the Metric Becomes the Game",
+  "Vanity Metrics",
+  "KPI Hacking",
+  "Campbell’s Law",
+  "Innocent Drift",
+  "Pick Metrics That Resist Gaming",
+  "Use Metric Pairs",
+  "Run the Gaming Thought Experiment",
+  "Models Optimize Exactly the Metric",
+  "Reward Models Are Goodhart Factories"
+ ],
+ ".card .desc": [
+  "The minute a team is rewarded on a number, that number stops measuring what it used to. People will hit the metric — by changing the work, changing the count, or both. The original phenomenon drifts out from under it.",
+  "Page views per session, DAU/MAU ratios, raw sign-ups. The numbers march up and nothing in the product actually improves. Vanity metrics are pre-gamed — they were never connected to value in the first place.",
+  "Set “support resolution time” as a goal and tickets get closed before they’re fixed. Set “feature shipped” as the target and shipped becomes a synonym for “merged but unused.” The team learns fast — they’re optimizing the number, exactly as told.",
+  "Donald Campbell’s 1976 version, in policy: the more a quantitative social indicator is used for decision-making, the more it corrupts the processes it’s meant to measure. Standardized testing is the textbook case — teach to the test, optimize the score, the underlying education quietly degrades.",
+  "Not all Goodhart is gaming. Sometimes the metric drifts quietly because the world changed — what counted as “active” three years ago is now passive scrolling, what counted as “engagement” is now anxious refreshing. The number holds; the meaning slips. Re-examine measures yearly.",
+  "Some numbers gate well: revenue per retained user, time-to-meaningful-action, NPS from people who completed the task. Others gate badly: clicks, page views, raw counts. The good ones are hard to fake without producing the underlying value; that’s their feature.",
+  "The most reliable defense: track two metrics that move in opposite directions when the first is gamed. Speed paired with quality; revenue paired with refunds; engagement paired with cancellations. If one rises and the other plummets, you found the gaming early.",
+  "Before setting any KPI, ask: how could a clever team make this number rise without actually doing the work? If the answer is “easily,” refine the metric. If it’s “only by doing the work,” ship it. Five minutes of imagination catches most gaming up front.",
+  "A model trained on click-through rate will maximize click-through, full stop. Recommendation systems learn to surface rage-bait because rage-bait gets clicks. Goodhart’s Law on hard mode: the optimizer is faster, more relentless, and doesn’t get tired of the gaming.",
+  "RLHF systems train on a learned proxy for “good answer.” The model optimizes the proxy. The proxy quietly diverges from what people actually wanted — sycophancy, over-hedging, “Certainly!” preambles. Each generation pushes the metric and the meaning further apart."
+ ],
+ ".meta .label": [
+  "Defined",
+  "Effect",
+  "Examples",
+  "Fix",
+  "Watch for",
+  "Pair with",
+  "Said by",
+  "Famous case",
+  "Cause",
+  "Tactic",
+  "Prefer",
+  "Test",
+  "Pair speed with",
+  "Pair revenue with",
+  "Cost",
+  "Refine until",
+  "Effect",
+  "Fix",
+  "Pattern",
+  "Symptoms"
+ ],
+ ".meta .value": [
+  "Measure → target → corrupt",
+  "Number rises · meaning falls",
+  "Page views · sign-ups · DAU",
+  "Tie to outcome, not activity",
+  "Sudden compliance",
+  "Customer outcome metric",
+  "Donald Campbell, 1976",
+  "Standardized testing",
+  "Reality changed",
+  "Re-examine yearly",
+  "Outcome-tied · multi-step",
+  "Could I fake this in an hour?",
+  "Quality",
+  "Refunds",
+  "Five minutes",
+  "Answer is “only by working”",
+  "Goodhart, automated",
+  "Multi-objective · guardrails",
+  "Trained metric drifts",
+  "Sycophancy · over-hedge"
+ ],
+ ".ai-divider h3": [
+  "Goodhart’s Law in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI optimizes exactly what you measure — and finds the gaming move faster than any team ever could."
+ ]
+}

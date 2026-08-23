@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" data-page="peak-end">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first.">
+<title>Peak-End Rule: People Remember the Peak and the Ending — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/peak-end-rule.html">
+<meta property="og:title" content="Peak-End Rule: People Remember the Peak and the Ending — UX Guidelines">
+<meta property="og:description" content="Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/peak-end-rule.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Peak-End Rule: People Remember the Peak and the Ending — UX Guidelines">
+<meta name="twitter:description" content="Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link active">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Peak-End <em>Rule</em></h1>
+  <p class="tagline">Experiences are judged by their peak and their end.</p>
+  <p class="subtitle">Daniel Kahneman’s research shows people judge an experience by its most intense moment and its final one — not its average. Design the peak, stick the landing, and fix the worst moment first.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Daniel_Kahneman" target="_blank" rel="noopener">Daniel Kahneman</a>, the Nobel-winning psychologist, established the rule with Barbara Fredrickson in the early 1990s — most famously in a 1993 cold-water study where a longer trial with a slightly warmer ending was preferred over a shorter, objectively better one.</p>
+    <p class="body-text">The work separated the experiencing self from the remembering self: what we choose to repeat is decided by the memory, not the experience. Colonoscopy studies with Donald Redelmeier confirmed it clinically — endings changed how whole procedures were remembered.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Rule</div>
+    <p class="body-text law-desc">People judge an experience largely by how it felt at its peak — the most intense point, good or bad — and at its end, rather than by the sum or average of every moment. Duration barely registers; the remembered shape is what returns.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-daniel-kahneman">Kahneman</a> and <a href="people.html#p-barbara-fredrickson">Fredrickson</a> (1993)</div></div>
+      <div><div class="label">Source</div><div class="value">When More Pain Is Preferred to Less</div></div>
+      <div><div class="label">In practice</div><div class="value">Design peaks and endings</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The rule</span>
+      <span class="num">01 / 08</span>
+      <h3>The Remembered Shape</h3>
+      <p class="desc">Plot an experience over time and memory keeps only two points: the extreme and the final. Everything else — including how long it took — collapses. Two moments decide the review, the renewal, and the recommendation.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,70 C 40,60 60,20 84,26 C 110,34 140,66 188,44" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt" style="left:42%;top:18%"></span><span class="pt" style="left:94%;top:37%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Kept</div><div class="value">Peak and end</div></div>
+      <div><div class="label">Discarded</div><div class="value">Average and duration</div></div>
+      <div><div class="label">Decides</div><div class="value">Reviews and returns</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The peak</span>
+      <span class="num">02 / 08</span>
+      <h3>Engineer One High Point</h3>
+      <p class="desc">Every flow deserves a deliberate peak: the confetti on a first publish, the instant preview, the moment the import just works. One engineered high point outweighs a dozen small conveniences in memory.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="bars"><i style="height:34%"></i><i style="height:46%"></i><i class="b" style="height:90%"></i><i style="height:40%"></i><i style="height:52%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">One per flow</div><div class="value">Deliberate high point</div></div>
+      <div><div class="label">Beats</div><div class="value">A dozen conveniences</div></div>
+      <div><div class="label">Place it</div><div class="value">Where value lands</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The end</span>
+      <span class="num">03 / 08</span>
+      <h3>Stick the Landing</h3>
+      <p class="desc">The last screen of a flow is disproportionately remembered. A clear confirmation, a summary of what happened, and an obvious next step turn an ordinary transaction into a good memory of your product.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="stepper"><span class="nd b"></span><span class="lnk b"></span><span class="nd b"></span><span class="lnk b"></span><span class="nd b"></span></div><div class="row hot"><i class="w-40"></i><span class="chk"></span></div><span class="ln faint w-56"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Last screen</div><div class="value">Confirm and summarize</div></div>
+      <div><div class="label">Offer</div><div class="value">The next step</div></div>
+      <div><div class="label">Never end on</div><div class="value">A dead end</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Exits</span>
+      <span class="num">04 / 08</span>
+      <h3>Offboarding Is an Ending</h3>
+      <p class="desc">Cancellations, returns, and account deletions are endings too — often the final memory a user takes away. A graceful exit converts a churned user into a possible return; a hostile one writes the lasting review.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-34"></i></div><div class="row hot"><i class="w-30"></i><span class="chk"></span></div><span class="ln faint w-62"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Churn flows</div><div class="value">Are remembered</div></div>
+      <div><div class="label">Graceful exit</div><div class="value">Invites return</div></div>
+      <div><div class="label">Hostile exit</div><div class="value">Writes the review</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The valley</span>
+      <span class="num">05 / 08</span>
+      <h3>Fix the Worst Moment First</h3>
+      <p class="desc">A negative peak dominates memory the same way a positive one does. Before polishing anything, find the single worst moment in the journey — the crash, the lost form, the surprise charge — and remove it.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,50 C 40,44 60,96 84,98 C 110,96 140,52 188,46" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt k" style="left:44%;top:82%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Priority</div><div class="value">Worst moment first</div></div>
+      <div><div class="label">Negative peaks</div><div class="value">Dominate memory</div></div>
+      <div><div class="label">Then</div><div class="value">Build the high point</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Duration</span>
+      <span class="num">06 / 08</span>
+      <h3>Duration Neglect</h3>
+      <p class="desc">A short flow with a flat finish is remembered worse than a longer one that ends well. Adding a satisfying final beat can beat shaving seconds — memory doesn’t bill by the minute.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:12px;padding:18px 30px"><div style="display:flex;align-items:center;gap:10px"><span style="height:14px;width:30%;border-radius:7px;background:var(--skel);opacity:0.4;display:block"></span><span class="chip"><i style="width:16px"></i></span></div><div style="display:flex;align-items:center;gap:10px"><span style="height:14px;width:64%;border-radius:7px;background:var(--skel);opacity:0.4;display:block"></span><span class="chip b"><i style="width:16px"></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Memory ignores</div><div class="value">Length</div></div>
+      <div><div class="label">Memory keeps</div><div class="value">The finish</div></div>
+      <div><div class="label">Trade</div><div class="value">Seconds for a good end</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Peak-End Rule in the Age of AI</h3>
+    <p>A conversation with a model is an experience with a peak and an end. The last answer — and the worst one — is what the user carries away.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>The Last Answer Wins</h3>
+      <p class="desc">Users judge a whole session by the final response. A conversation that ends on a correction, a refusal, or a half-answer is remembered as a failure — close with the resolved answer and a clean next step.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="bub w-70"><span class="l w-88"></span><span class="l w-60"></span></div><div class="bub" style="width:78%;background:rgba(56,189,248,0.12)"><span class="l" style="width:92%;background:var(--il-accent);opacity:1"></span><span class="l" style="width:70%;background:var(--il-accent);opacity:0.6"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Session memory</div><div class="value">The final response</div></div>
+      <div><div class="label">Close with</div><div class="value">Resolution, not a shrug</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Recovery Is the Peak</h3>
+      <p class="desc">When the model gets something wrong, the correction moment becomes the emotional peak of the session. A fast, gracious recovery is remembered better than a session that was merely fine throughout.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,50 C 40,48 58,92 84,90 C 112,86 150,30 188,26" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg><span class="pt k" style="left:42%;top:76%"></span><span class="pt" style="left:94%;top:22%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">The error</div><div class="value">Sets up the peak</div></div>
+      <div><div class="label">The recovery</div><div class="value">Is what’s remembered</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://journals.sagepub.com/doi/10.1111/j.1467-9280.1993.tb00589.x" target="_blank" rel="noopener"><span class="title">When More Pain Is Preferred to Less — Kahneman et al., 1993</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Peak%E2%80%93end_rule" target="_blank" rel="noopener"><span class="title">Peak-End Rule</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Daniel_Kahneman" target="_blank" rel="noopener"><span class="title">Daniel Kahneman — psychologist</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Duration_neglect" target="_blank" rel="noopener"><span class="title">Duration Neglect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/peak-end-rule/" target="_blank" rel="noopener"><span class="title">Peak-End Rule on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Peak-End Rule</div>
+</footer>
+
+</body>
+</html>

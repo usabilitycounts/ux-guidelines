@@ -1,0 +1,114 @@
+{
+ "header h1": [
+  "Ley de <em>Goodhart</em>"
+ ],
+ "header .tagline": [
+  "Cuando una medida se convierte en <em>objetivo</em>, deja de ser una buena medida."
+ ],
+ "header .subtitle": [
+  "La observación de Charles Goodhart (1975), afinada por Marilyn Strathern: en cuanto un número se usa para juzgar a las personas, se aleja de lo que medía. KPIs, OKRs y señales de entrenamiento de IA chocan de frente con esto."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Charles_Goodhart\" target=\"_blank\" rel=\"noopener\">Charles Goodhart</a> es un economista británico, asesor de largo recorrido del Banco de Inglaterra y profesor de la London School of Economics. Su comentario de 1975 sobre los objetivos monetarios — una vez que una medida se convierte en objetivo, deja de ser una buena medida — desbordó la economía y se volvió una ley de los incentivos en todas partes.",
+  "Goodhart pasó diecisiete años en el Banco de Inglaterra y ayudó a diseñar la caja de conversión de Hong Kong. La formulación moderna de la ley — «cuando una medida se convierte en objetivo, deja de ser una buena medida» — la acuñó la antropóloga <a href=\"https://en.wikipedia.org/wiki/Marilyn_Strathern\" target=\"_blank\" rel=\"noopener\">Marilyn Strathern</a> en 1997, generalizando su observación sobre los agregados monetarios."
+ ],
+ ".law-content .law-desc": [
+  "En el momento en que usas una métrica para evaluar personas — ascender, financiar, clasificar — empiezan a trabajar sobre la métrica directamente, no sobre lo que se suponía que seguía. El número sube; el resultado no siempre lo acompaña."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Charles Goodhart (1975)",
+  "Comentario de política monetaria",
+  "Vigila la meta, no solo la métrica"
+ ],
+ ".card .tag": [
+  "Definición",
+  "Clásico",
+  "En producto",
+  "Ley hermana",
+  "Goodhart suave",
+  "Diseño",
+  "Práctica",
+  "A diario",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Cuando la métrica se vuelve el juego",
+  "Métricas de vanidad",
+  "Hackeo de KPIs",
+  "Ley de Campbell",
+  "Deriva inocente",
+  "Elige métricas que resistan el juego",
+  "Usa pares de métricas",
+  "Haz el experimento mental del juego",
+  "Los modelos optimizan exactamente la métrica",
+  "Los modelos de recompensa son fábricas de Goodhart"
+ ],
+ ".card .desc": [
+  "En el momento en que a un equipo se le recompensa por un número, ese número deja de medir lo que medía. La gente alcanzará la métrica — cambiando el trabajo, cambiando el conteo, o ambos. El fenómeno original se le escapa por debajo.",
+  "Páginas vistas por sesión, ratios DAU/MAU, registros en bruto. Los números marchan hacia arriba y nada en el producto mejora de verdad. Las métricas de vanidad vienen pre-jugadas — nunca estuvieron conectadas al valor.",
+  "Fija «tiempo de resolución de soporte» como meta y los tickets se cierran antes de arreglarse. Fija «funcionalidad entregada» como objetivo y entregada se vuelve sinónimo de «fusionada pero sin uso». El equipo aprende rápido — está optimizando el número, exactamente como se le pidió.",
+  "La versión de Donald Campbell (1976), en políticas públicas: cuanto más se usa un indicador social cuantitativo para tomar decisiones, más corrompe los procesos que debía medir. Las pruebas estandarizadas son el caso de manual — enseñar para el examen, optimizar la nota, y la educación de fondo se degrada en silencio.",
+  "No todo Goodhart es juego. A veces la métrica deriva en silencio porque el mundo cambió — lo que contaba como «activo» hace tres años ahora es scroll pasivo, lo que contaba como «engagement» ahora es refrescar con ansiedad. El número aguanta; el significado se escurre. Reexamina las medidas cada año.",
+  "Algunos números filtran bien: ingresos por usuario retenido, tiempo hasta la acción significativa, NPS de quienes completaron la tarea. Otros filtran mal: clics, páginas vistas, conteos en bruto. Los buenos son difíciles de falsear sin producir el valor de fondo; esa es su gracia.",
+  "La defensa más fiable: sigue dos métricas que se muevan en direcciones opuestas cuando la primera se juega. Velocidad emparejada con calidad; ingresos con reembolsos; engagement con cancelaciones. Si una sube y la otra se desploma, encontraste el juego a tiempo.",
+  "Antes de fijar cualquier KPI, pregunta: ¿cómo podría un equipo listo hacer subir este número sin hacer realmente el trabajo? Si la respuesta es «fácilmente», refina la métrica. Si es «solo haciendo el trabajo», adelante. Cinco minutos de imaginación atrapan la mayor parte del juego por adelantado.",
+  "Un modelo entrenado con la tasa de clics maximizará la tasa de clics, punto. Los sistemas de recomendación aprenden a mostrar contenido incendiario porque lo incendiario consigue clics. La ley de Goodhart en modo difícil: el optimizador es más rápido, más implacable y no se cansa del juego.",
+  "Los sistemas RLHF entrenan sobre un proxy aprendido de «buena respuesta». El modelo optimiza el proxy. El proxy diverge en silencio de lo que la gente realmente quería — adulación, exceso de cautela, preámbulos de «¡Por supuesto!». Cada generación separa un poco más la métrica del significado."
+ ],
+ ".meta .label": [
+  "Definición",
+  "Efecto",
+  "Ejemplos",
+  "Solución",
+  "Cuidado con",
+  "Se combina con",
+  "Dicho por",
+  "Caso famoso",
+  "Causa",
+  "Táctica",
+  "Preferir",
+  "Prueba",
+  "Empareja velocidad con",
+  "Empareja ingresos con",
+  "Coste",
+  "Refina hasta que",
+  "Efecto",
+  "Solución",
+  "Patrón",
+  "Síntomas"
+ ],
+ ".meta .value": [
+  "Medida → objetivo → corrupción",
+  "El número sube · el significado cae",
+  "Páginas vistas · registros · DAU",
+  "Átala al resultado, no a la actividad",
+  "Cumplimiento repentino",
+  "Métrica de resultado del cliente",
+  "Donald Campbell, 1976",
+  "Pruebas estandarizadas",
+  "La realidad cambió",
+  "Reexamina cada año",
+  "Atadas a resultados · multipaso",
+  "¿Podría falsearla en una hora?",
+  "Calidad",
+  "Reembolsos",
+  "Cinco minutos",
+  "La respuesta sea «solo trabajando»",
+  "Goodhart, automatizado",
+  "Multiobjetivo · salvaguardas",
+  "La métrica entrenada deriva",
+  "Adulación · exceso de cautela"
+ ],
+ ".ai-divider h3": [
+  "La ley de Goodhart en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA optimiza exactamente lo que mides — y encuentra la jugada tramposa más rápido que cualquier equipo."
+ ]
+}

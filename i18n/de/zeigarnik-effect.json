@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Zeigarnik-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Unerledigtes bleibt im Gedächtnis."
+ ],
+ "header .subtitle": [
+  "Bluma Zeigarnik fand heraus, dass unterbrochene, unvollständige Aufgaben weit besser erinnert werden als abgeschlossene. Offene Schleifen ziehen Menschen zurück — der Motor hinter Fortschrittsbalken, Streaks und jedem „Vervollständigen Sie Ihr Profil“-Anstoß."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a> war eine litauisch-sowjetische Psychologin, die in Berlin bei Kurt Lewin studierte. Der Legende nach begann die Idee in einem Café: Kellner erinnerten unbezahlte Bestellungen perfekt und vergaßen sie in dem Moment, in dem die Rechnung beglichen war.",
+  "Ihre Experimente von 1927 bestätigten es — Teilnehmer, die mitten in einer Aufgabe unterbrochen wurden, erinnerten diese Aufgaben etwa doppelt so gut wie erledigte. Sie wurde später Mitbegründerin der experimentellen Pathopsychologie in Moskau, und der Offene-Schleifen-Effekt, der ihren Namen trägt, wurde zu einem Grundpfeiler des Produktdesigns."
+ ],
+ ".law-content .law-desc": [
+  "Unterbrochene oder unvollständige Aufgaben werden besser erinnert als abgeschlossene. Eine offene Schleife erzeugt eine leise Spannung, die die Aufmerksamkeit immer wieder zurückzieht, bis sich die Schleife schließt — der Abschluss löst sie, und die Erinnerung verblasst."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Bluma Zeigarnik (1927)",
+  "Das Behalten erledigter und unerledigter Handlungen",
+  "Zeigen, was offen ist"
+ ],
+ ".card .tag": [
+  "Die Schleife",
+  "Fortschritt",
+  "Checklisten",
+  "Vervollständigung",
+  "Ethik",
+  "Abschluss",
+  "Im Zeitalter der KI",
+  "Im Zeitalter der KI"
+ ],
+ ".card h3": [
+  "Offene Schleifen ziehen Aufmerksamkeit",
+  "Die verbleibenden Schritte zeigen",
+  "Das nicht abgehakte Kästchen",
+  "Profilvollständigkeit",
+  "Die Schleife nicht als Waffe einsetzen",
+  "Schleifen wirklich schließen lassen",
+  "Der offen gelassene Entwurf",
+  "Agenten halten Schleifen offen"
+ ],
+ ".card .desc": [
+  "Ein unvollständiger Fortschrittsbalken ist ein kleiner psychologischer Haken — der Verstand hält einen Hintergrundfaden zu allem sichtbar Unfertigen. Produkte, die offene Schleifen zeigen, holen Nutzer zurück, ohne eine einzige Benachrichtigung zu senden.",
+  "Ein Stepper, der zwei von vier Schritten als erledigt zeigt, nutzt den Effekt ehrlich: Der Nutzer sieht genau, was offen ist und was das Schließen kostet. Vager Fortschritt („fast geschafft!“) verschwendet die Spannung, die er erzeugt.",
+  "Onboarding-Checklisten funktionieren, weil jeder nicht abgehakte Punkt eine eigene offene Schleife ist. Drei erledigt und einer offen ist fast unwiderstehlich — weshalb die besten Checklisten kurz, echt und abschließbar sind.",
+  "LinkedIns Vollständigkeitsanzeige ist der kanonische Einsatz: Sichtbare 70% lassen das Fertigstellen notwendig erscheinen. Es funktioniert, wenn jeder verbleibende Schritt das Erlebnis wirklich verbessert — und kippt, wenn es nur Datensammelei ist.",
+  "Streaks, die einen verpassten Tag bestrafen, Warenkörbe, die wochenlang nörgeln, falsche „nur noch 1 Schritt“-Aufforderungen — fabrizierte Unvollständigkeit verbrennt das Vertrauen, von dem der Effekt lebt. Wenn der Nutzer die Schleife nicht geöffnet hat, ist es nicht seine Aufgabe, sie zu schließen.",
+  "Der Effekt hat eine zweite Hälfte: Der Abschluss löst die Spannung, und diese Lösung ist die Belohnung. Klare Erledigt-Zustände, befriedigende Bestätigungen und leere Posteingänge geben Nutzern den Abschluss, den die offene Schleife versprochen hat.",
+  "Ein Assistent, der einen sichtbaren Entwurf hinterlässt — eine halbe E-Mail, eine pausierte Bearbeitung — zieht den Nutzer zurück, um den Gedanken zu beenden. Wiederaufnehmbarer Zustand ist der Zeigarnik-Effekt, der für den Nutzer arbeitet statt gegen ihn.",
+  "Ein Hintergrund-Agent ist eine offene Schleife, die der Nutzer früher nicht hatte. Zeigen Sie die laufende Aufgabe, ihren Fortschritt und ihren Abschluss — eine unsichtbare Schleife erzeugt Angst, eine sichtbare erzeugt Vertrauen."
+ ],
+ ".meta .label": [
+  "Mechanismus",
+  "Gelöst durch",
+  "Kostenlose Bindung",
+  "Zeigen",
+  "Sein",
+  "Vermeiden",
+  "Listen halten",
+  "Jeder Punkt",
+  "Das letzte offene Kästchen",
+  "Funktioniert wenn",
+  "Kippt wenn",
+  "Sweet Spot",
+  "Test",
+  "Fabrizierte Spannung",
+  "Respektieren",
+  "Erledigt-Zustände",
+  "Die Lösung",
+  "Dann",
+  "Muster",
+  "Wirkung",
+  "Zeigen",
+  "Unsichtbare Schleifen"
+ ],
+ ".meta .value": [
+  "Aufgabenspannung",
+  "Abschluss",
+  "Keine Benachrichtigung nötig",
+  "Erledigt und verbleibend",
+  "Konkret",
+  "Vages „fast geschafft“",
+  "Kurz und abschließbar",
+  "Ein echter Schritt",
+  "Übt den Sog aus",
+  "Schritte bringen echten Wert",
+  "Es ist Datensammelei",
+  "60–90% angezeigt",
+  "Wer hat die Schleife geöffnet?",
+  "Verbrennt Vertrauen",
+  "Das „Fertig“ des Nutzers",
+  "Spürbar machen",
+  "Ist die Belohnung",
+  "Aufhören zu fragen",
+  "Sichtbare, wiederaufnehmbare Entwürfe",
+  "Nutzer kehren zum Beenden zurück",
+  "Laufend · fertig · wartend",
+  "Lesen sich als Angst"
+ ],
+ ".ai-divider h3": [
+  "Der Zeigarnik-Effekt im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Agenten lassen jetzt in Ihrem Namen Schleifen offen — Entwürfe, laufende Aufgaben, halbfertige Jobs. Zu zeigen, was unfertig ist, ist die Art, wie Vertrauen die Delegation überlebt."
+ ]
+}

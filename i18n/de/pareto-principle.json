@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "Pareto-<em>Prinzip</em>"
+ ],
+ "header .tagline": [
+  "Rund <em>80 Prozent</em> der Wirkungen stammen aus <em>20 Prozent</em> der Ursachen."
+ ],
+ "header .subtitle": [
+  "Vilfredo Pareto bemerkte 1906, dass 80 % des Landes in Italien 20 % der Menschen gehörten. Das Muster wiederholt sich in Software, Support, Performance und Produktstrategie — der Großteil des Werts kommt aus einem kleinen Teil des Inputs. Zu wissen, welche 20 %, ist das ganze Spiel."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> war ein italienischer Ökonom und Soziologe. 1896 beobachtete er, dass rund 80 % des Landes in Italien 20 % der Menschen gehörten; der Management-Denker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> verallgemeinerte das Muster später als 80/20-Regel und benannte sie nach Pareto.",
+  "Pareto war ausgebildeter Ingenieur und leitete italienische Eisenbahnen, bevor er sich an der Universität Lausanne der Ökonomie zuwandte. Seine breitere Arbeit zur Elitenzirkulation prägte die Soziologie ein Jahrhundert lang; das Kürzel 80/20 stammt vom Qualitätsmanagement-Pionier Joseph Juran, der es \"the vital few and the trivial many\" nannte."
+ ],
+ ".law-content .law-desc": [
+  "Ein kleiner Anteil der Ursachen erzeugt den Großteil der Wirkung. Das genaue Verhältnis ist nicht heilig — 70/30, 90/10 —, aber das Ungleichgewicht ist es. In Produkt, Design und Engineering zahlt sich die Arbeit dort aus, wo man die Minderheit mit der großen Hebelwirkung findet."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Vilfredo Pareto (1896)",
+  "Cours d'économie politique",
+  "Die entscheidenden Wenigen optimieren"
+ ],
+ ".card .tag": [
+  "Ursprung",
+  "Produkt",
+  "Priorisierung",
+  "Performance",
+  "Bugs und Support",
+  "Gegenbeispiel",
+  "Falle",
+  "Täglicher Einsatz",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Vom Land zu allem",
+  "80 % der Nutzer berühren 20 % der Features",
+  "Auf die kritischen Wenigen kürzen",
+  "Der Hot Path trägt die Kosten",
+  "Wenige Bugs, das meiste Leid",
+  "Der Long Tail zählt trotzdem",
+  "Die Überkürzungs-Falle",
+  "Standardmäßig in 80/20 denken",
+  "KI macht den Long Tail billig",
+  "Das Risiko: 80 % zuversichtlich, 20 % falsch"
+ ],
+ ".card .desc": [
+  "Pareto war ein italienischer Ökonom, der 1906 Landbesitz untersuchte. Ihm fiel auf, dass etwa 80 % des Landes bei 20 % der Menschen lagen — und dann sah er dieselbe schiefe Verteilung bei den Erbsenschoten in seinem Garten. Das Muster erwies sich als allgegenwärtig, und der Name blieb.",
+  "Microsofts Office-Team stellte bekanntlich fest, dass die meisten Nutzer die meisten Menüs nie anrührten. Dieselbe Form kehrt in fast jedem Produkt wieder: Ein kleiner Kern von Features trägt den Großteil der Nutzung, der Rest liegt brach — manchmal absichtlich, oft zufällig.",
+  "Wenn alles wichtig aussieht, ist der richtige Zug meist, herauszufinden, welche 20 % des Backlogs 80 % des Ergebnisses treiben. MVP, Roadmaps und Quartals-OKRs beruhen alle auf Pareto-Logik — dem kleinen Satz von Wetten, der den Großteil des Resultats tragen wird.",
+  "Profilieren Sie ein beliebiges Produktivsystem, und Sie finden fast immer dieselbe Form: Ein kleiner Teil des Codes (oder der Abfragen oder Assets) verantwortet den Großteil der Zeit. Vorzeitige Optimierung ist überall sonst verschwendet — aber auf dem Hot Path zahlt sich die Rechnung massiv aus.",
+  "Joel Spolsky, Microsoft und unzählige Support-Teams haben dieselbe Schieflage bei Abstürzen und Tickets beobachtet. Eine Handvoll Bugs verursacht die Mehrheit des für Nutzer sichtbaren Elends; der Rest ist Long Tail. Triagieren Sie nach Wirkung, nicht nach Eingangsreihenfolge.",
+  "Chris Andersons \"Long Tail\" ist die Warnung: Aggregieren Sie genug von den ungenutzten 80 %, und Sie finden manchmal einen Markt, der größer ist als der Kopf. Amazon und Spotify haben beide Geschäfte darauf gebaut. Pareto sagt Ihnen, wo Sie zuerst fokussieren — nicht, welche Märkte Sie aufgeben sollen.",
+  "Eine naive Pareto-Lesart lautet \"streiche die 80 %, die niemand benutzt\". Aber ungenutzte Features dienen oft wenigen kritischen Nutzern — Barrierefreiheit, Buchhaltung, Admins, Bereitschaftsdienst. Segmentieren Sie vor dem Streichen nach dem Wer, nicht nur nach dem Wie-viele. Die 20 % der Features, auf die sich die untersten 5 % verlassen, sind meist tragend.",
+  "Am nützlichsten ist das Prinzip als Gewohnheit. Fragen Sie vor jedem Review: Welche 20 % der Nutzer, Screens, Aufgaben oder Fehler tragen hier 80 % des Gewichts? Es beantwortet selten die ganze Frage — aber es ordnet die Arbeit fast immer so um, dass es sich lohnt.",
+  "Pareto war teils eine Aussage über Kosten: Die 80 % waren nicht bedienenswert, weil jede Einheit zu teuer war. Modelle drehen das um — Übersetzen, Zusammenfassen, Support oder Design für einen obskuren Fall kostet jetzt fast dasselbe wie für einen häufigen. Die ungenutzten 80 % werden erreichbar.",
+  "Modelle invertieren Pareto auch auf heimtückischere Weise. Sie glänzen beim 80-%-Normalfall und versagen am 20-%-Rand — klingen aber bei beidem gleich zuversichtlich. Die verbleibenden Fehlermodi sind genau die, die wehtun: selten, plausibel und ungeprüft."
+ ],
+ ".meta .label": [
+  "Jahr",
+  "Zuerst gesehen in",
+  "Verallgemeinert",
+  "Muster",
+  "Anwenden",
+  "Achtung",
+  "Taktik",
+  "Methode",
+  "Test",
+  "Anwenden",
+  "Überspringen",
+  "Regel",
+  "Triage nach",
+  "Nicht nach",
+  "Test",
+  "Wann",
+  "Beispiele",
+  "Nicht tun",
+  "Risiko",
+  "Segmentieren nach",
+  "Prüfen",
+  "Gewohnheit",
+  "Wirkung",
+  "Kosten",
+  "Wandel",
+  "Beispiele",
+  "Chance",
+  "Risiko",
+  "Lösung",
+  "Immer"
+ ],
+ ".meta .value": [
+  "1906",
+  "Italienischem Land · Erbsenschoten",
+  "Durch Juran, 1940er",
+  "Long-Tail-Feature-Nutzung",
+  "Zuerst die 20 % polieren",
+  "Nötigen Long Tail streichen",
+  "Die Hebel-Wenigen finden",
+  "Wirkung × Zuversicht × Aufwand",
+  "Ließe es sich halbieren?",
+  "Profilieren, dann optimieren",
+  "Die anderen 80 %",
+  "Messen vor dem Tunen",
+  "Reichweite × Schwere",
+  "Eingangsreihenfolge",
+  "Crash-Log nach Häufigkeit sortieren",
+  "Verteilung und Aggregation billig sind",
+  "Amazon · Spotify",
+  "Fokus mit Aufgabe verwechseln",
+  "Tragende Features streichen",
+  "Wer, nicht nur wie viele",
+  "A11y · Ops · Power-User",
+  "Vor dem Review fragen",
+  "Ordnet die Arbeit um",
+  "Fünf Sekunden Nachdenken",
+  "Long Tail jetzt billig",
+  "Übersetzung · Support · Code",
+  "Bislang Übergangene bedienen",
+  "Randfälle klingen sicher",
+  "Unsicherheit sichtbar machen",
+  "Die 20 % verifizieren"
+ ],
+ ".ai-divider h3": [
+  "Das Pareto-Prinzip im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI ändert die Rechnung des Long Tail — die 80 % der Randfälle, die zu teuer zu bedienen waren, sind jetzt in Reichweite."
+ ],
+ ".law-formula-note": [
+  "das Verhältnis variiert; das Ungleichgewicht ist der Punkt."
+ ]
+}

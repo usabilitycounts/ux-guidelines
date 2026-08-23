@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Galls <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "Komplexe Systeme, die funktionieren, sind aus einfachen Systemen <em>entstanden</em>, die funktionierten."
+ ],
+ "header .subtitle": [
+  "John Galls Beobachtung von 1975 aus <em>Systemantics</em>: Man kann kein komplexes System von Grund auf entwerfen und erwarten, dass es funktioniert. Die komplexen sind Nachkommen einfacher Systeme, die ausgeliefert und genutzt wurden. Wer den einfachen Vorfahren überspringt, dessen Nachkomme atmet nie."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Gall_(author)\" target=\"_blank\" rel=\"noopener\">John Gall</a> war ein amerikanischer Kinderarzt und Systemtheoretiker. Sein Buch Systemantics von 1975 sammelte trockene Beobachtungen darüber, warum Systeme scheitern; die bekannteste Passage — komplexe Systeme, die funktionieren, entstehen aus einfachen Systemen, die funktionierten — wurde zu Galls Gesetz.",
+  "Gall praktizierte jahrzehntelang Pädiatrie in Ann Arbor, Michigan, und schrieb nebenbei trockene Systemtheorie. Systemantics erlebte drei Auflagen als The Systems Bible; seine Axiome — etwa „ein von Grund auf entworfenes komplexes System funktioniert nie“ — werden im Software-Engineering weit häufiger zitiert als in der Medizin."
+ ],
+ ".law-content .law-desc": [
+  "Große Systeme werden gezüchtet, nicht entworfen. Mit dem kleinsten Ding beginnen, das Ende-zu-Ende funktioniert, es ausliefern, daraus lernen, dann wachsen lassen. Der große Entwurf vom Reißbrett — der, von dem nie eine einfache Version auslieferte — überlebt den Kontakt mit der echten Welt selten."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "John Gall (1975)",
+  "Systemantics",
+  "Zuerst die einfache Version ausliefern"
+ ],
+ ".card .tag": [
+  "Klein anfangen",
+  "Antimuster",
+  "Beispiele",
+  "Methodik",
+  "Design",
+  "Die Falle",
+  "Gegenbeispiel",
+  "Alltag",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das Walking Skeleton ausliefern",
+  "Der Big-Bang-Rewrite",
+  "Das Web wuchs · Es wurde nicht entworfen",
+  "Passt zum MVP",
+  "Auch Designsysteme wachsen",
+  "„Im Kleinen hat es funktioniert“",
+  "Wann Vorab-Design gewinnt",
+  "Dem großen Plan widerstehen",
+  "KI generiert am Vorfahren vorbei",
+  "Schneller iterieren, gleich iterieren"
+ ],
+ ".card .desc": [
+  "Die erste Version sollte das kleinstmögliche Ding Ende-zu-Ende tun. Anmelden, eine Sache posten, sie sehen. Das Walking Skeleton beweist, dass der Pfad existiert; die Muskeln werden auf ein funktionierendes Rückgrat gebaut.",
+  "Die klassische Gall-Verletzung. Zwei Jahre an einem „von Grund auf neuen“ Ersatz, keine funktionierende Version in Sicht, die Deadline rutscht weiter. Bis zur Auslieferung haben sich die Anforderungen geändert, und die Menschen, die sie kannten, sind gegangen. Das System findet nie die Version, in der es tatsächlich funktionierte.",
+  "HTTP begann als ein Protokoll zum Abrufen von Seiten. Das Web von heute — Apps, Video, Zahlungen, KI — ist dasselbe Protokoll mit dreißig Jahren angeschweißter Schichten. Jedes funktionierende komplexe System liest sich so: TCP, Linux, das iPhone-Betriebssystem, Notion, die eigene Codebasis. Keines davon wurde richtig gebaut; sie wurden zuerst gebaut.",
+  "Lean, Agile, Eric Ries — sie alle sind Gall in anderem Vokabular. Das kleinste Ding ausliefern, das die Idee beweist, von echten Nutzern lernen, iterieren. Das MVP ist kein Marketingkonzept; es ist der einzige Weg, auf dem die meisten funktionierenden komplexen Systeme entstehen.",
+  "Material, HIG, das eigene Designsystem — keines davon wurde von oben herab spezifiziert. Sie begannen als ein Button, eine Schriftskala, eine Farbe. Sie wuchsen, weil die einfache Version benutzt wurde. Der Ansatz „erst das ganze System designen“ hat einen Friedhof ungenutzter Tokens und toter Komponenten hervorgebracht.",
+  "Galls andere Warnung: Ein System, das im kleinen Maßstab funktionierte, funktioniert nicht zwingend im größeren — und die Brüche entdeckt man erst, indem man hineinwächst. Nicht extrapolieren; beobachten. Die einfache Version beweist, dass <em>dieser</em> Fall funktionierte, nicht jeder künftige.",
+  "Gall ist nicht universell. Brücken, Flugzeuge, Zahlungssysteme, OP-Roboter — alles, wo Iterieren in Produktion katastrophal ist — brauchen formale Spezifikationen vorab. Die Regel gilt, wo Iteration günstig und umkehrbar ist — was auf die meiste Software die meiste Zeit zutrifft.",
+  "Wenn ein Teamkollege drei Quartale im Voraus die perfekte Architektur vorschlägt, lautet die Gall-Antwort: Was ist die kleinste Version davon, die wir im nächsten Sprint ausliefern können? Den funktionierenden Vorfahren erzwingen. Der große Plan kann diese Frage überleben; kann er es nicht, war er nicht groß, sondern nur dick.",
+  "„Bau mir eine ganze App“ erzeugt Output, der wie ein System aussieht. Aber er hat keinen Vorfahren — keine einfache Version, die je jemand im Ernstfall betrieben hat, keine Narben aus echter Nutzung. Der Code mag kompilieren, aber das Design hat sich das Recht auf Komplexität nicht verdient. KI nutzen, um schnell etwas Einfaches auszuliefern, nicht etwas Komplexes ungetestet.",
+  "Der Vorteil ist real. KI verkürzt den Zyklus zwischen „funktionierender Version 1“ und „funktionierender Version 2“ — Code, Texte, Design, alles schneller generiert. Galls Gesetz ist nicht aufgehoben; es ist beschleunigt. Ein funktionierender Vorfahre ist weiterhin bei jedem Schritt nötig. Man darf nur viel mehr von ihnen bauen."
+ ],
+ ".meta .label": [
+  "Test",
+  "Überspringen",
+  "Dann",
+  "Muster",
+  "Scheitert wenn",
+  "Kostet",
+  "Beispiele",
+  "Gemeinsam",
+  "Lesen als",
+  "Echos",
+  "Regel",
+  "Bonus",
+  "Zuerst bauen",
+  "Dann",
+  "Vermeiden",
+  "Wahrheit",
+  "Nicht tun",
+  "Tun",
+  "Iterieren",
+  "Spezifizieren",
+  "Meiste Software",
+  "Fragen",
+  "Fragen",
+  "Dann",
+  "Risiko",
+  "KI nutzen für",
+  "Nicht für",
+  "Beschleunigung",
+  "Regel unverändert",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Funktioniert es Ende-zu-Ende?",
+  "Politur · Skalierung · Randfälle",
+  "Aus funktionierendem Code wachsen",
+  "Vorab entworfen · vollständig",
+  "Realität weicht von der Spezifikation ab",
+  "Zeit · Vertrauen · Menschen",
+  "Web · Linux · iOS",
+  "Früh ausgeliefert · unter Last gewachsen",
+  "Eine Design-Constraint",
+  "MVP · Lean · Agile",
+  "Immer eine auslieferbare Version haben",
+  "Von jedem Ring aus pivotieren können",
+  "Der Button, der ausliefert",
+  "Das Muster, das zweimal auftaucht",
+  "Tokens für ungebaute Screens",
+  "Jeder Maßstab zeigt neue Brüche",
+  "Extrapolieren · vorbereiten",
+  "Bauen · beobachten · wachsen",
+  "Wenn Fehler günstig sind",
+  "Wenn Fehler töten",
+  "Ist die erste Sorte",
+  "„Kleinstes Auslieferbares?“",
+  "„Hat der Vorfahre funktioniert?“",
+  "Bauen",
+  "Komplexität ohne Lernen",
+  "Schnellere einfache v1",
+  "Evolution überspringen",
+  "Mehr Iterationen pro Woche",
+  "Jeder Ring muss funktionieren",
+  "Einen funktionierenden Ring überspringen"
+ ],
+ ".ai-divider h3": [
+  "Galls Gesetz im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "KI erlaubt, ein „vollständiges“ System an einem Tag zu generieren — und dann etwas auszuliefern, das keinen funktionierenden Vorfahren hat, aus dem es wachsen könnte."
+ ]
+}

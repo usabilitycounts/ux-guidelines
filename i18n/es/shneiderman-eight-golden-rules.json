@@ -1,0 +1,130 @@
+{
+ "header h1": [
+  "Las <em>ocho reglas de oro</em> de Shneiderman"
+ ],
+ "header .tagline": [
+  "Ocho reglas que gobiernan el diseño de interfaces desde 1985."
+ ],
+ "header .subtitle": [
+  "Las ocho reglas de oro del diseño de interfaces de Ben Shneiderman, de Designing the User Interface, destilan décadas de investigación en HCI en reglas que aún gobiernan cada pantalla: consistencia, atajos, retroalimentación, cierre, gestión de errores, reversibilidad, control y carga de memoria."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> es un científico de la computación de la Universidad de Maryland y figura fundadora de la interacción humano-computadora — fundó su laboratorio de HCI en 1983, y sus estudiantes y colaboradores dieron forma a los métodos del campo.",
+  "Las ocho reglas de oro aparecieron en Designing the User Interface (1986), hoy en su sexta edición. Junto a ellas, el concepto de manipulación directa de Shneiderman y su trabajo en visualización de información («primero la vista general, zoom y filtro, detalles bajo demanda») recorren las interfaces modernas."
+ ],
+ ".law-content .law-desc": [
+  "Ocho reglas prácticas para sistemas interactivos: buscar la consistencia, perseguir la usabilidad universal, ofrecer retroalimentación informativa, diseñar diálogos que produzcan cierre, prevenir errores, permitir revertir acciones con facilidad, mantener al usuario en control y reducir la carga de la memoria a corto plazo."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Ben Shneiderman (1986)",
+  "Designing the User Interface",
+  "La lista de verificación previa al vuelo"
+ ],
+ ".card .tag": [
+  "Regla 1",
+  "Regla 2",
+  "Regla 3",
+  "Regla 4",
+  "Regla 5",
+  "Regla 6",
+  "Regla 7",
+  "Regla 8",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Busca la consistencia",
+  "Persigue la usabilidad universal",
+  "Ofrece retroalimentación informativa",
+  "Diseña diálogos que produzcan cierre",
+  "Previene los errores",
+  "Permite revertir con facilidad",
+  "Mantén al usuario en control",
+  "Reduce la carga de la memoria a corto plazo",
+  "Consistencia frente a improvisación",
+  "Reversibilidad para el trabajo generado"
+ ],
+ ".card .desc": [
+  "Situaciones similares deberían requerir acciones similares: terminología, disposiciones y secuencias de comandos idénticas en todo el producto. Cada inconsistencia es un pequeño impuesto que el usuario paga en cada visita.",
+  "Diseña para todo el espectro de usuarios: los novatos necesitan guía y explicaciones, los expertos necesitan atajos y aceleradores, y todos necesitan que la interfaz respete las diferencias de capacidad, edad, idioma y tecnología.",
+  "Cada acción recibe una respuesta proporcional a su importancia: un cambio de estado sutil para un clic, una confirmación clara para una compra. El silencio tras una acción es el equivalente en la interfaz a ser ignorado.",
+  "Las secuencias de acciones necesitan un principio, un medio y un final. La página de confirmación, el estado «enviado», la lista completada — el cierre le dice al usuario que puede dejar de estar pendiente y seguir adelante.",
+  "El mejor mensaje de error es el que nunca aparece: desactiva las opciones inválidas, restringe los formatos en la entrada, confirma lo destructivo. Cuando los errores ocurren de todos modos, ofrece una recuperación simple y constructiva.",
+  "Deshacer es la licencia para explorar. Cuando las acciones son reversibles, la ansiedad baja y los usuarios prueban cosas — el producto se descubre en lugar de estudiarse. La reversión debería extenderse a grupos de acciones, no solo a la última.",
+  "Los usuarios experimentados quieren sentir que la interfaz responde a su iniciativa — no que ellos responden a la de ella. Sorpresas, interrupciones, recorridos forzados y cambios no solicitados erosionan la sensación de propiedad.",
+  "Los humanos retienen un puñado de bloques a la vez. Mantén la información visible entre pasos, prefiere el reconocimiento al recuerdo y nunca pidas al usuario que recuerde algo que la interfaz acaba de decirle.",
+  "Un modelo puede formular la misma respuesta de diez maneras — encantador en un chat, corrosivo en una interfaz. Restringe la interfaz y los textos generados a tus patrones y tu vocabulario: el modelo improvisa, el sistema de diseño mantiene la línea.",
+  "Cuando la IA edita tu documento o tu código, la regla seis se vuelve existencial: cada cambio generado necesita un diff inspeccionable y un deshacer de un solo paso. El control y la reversibilidad son lo que hace segura la delegación."
+ ],
+ ".meta .label": [
+  "Misma acción",
+  "Cubre",
+  "Inconsistencia",
+  "Novatos",
+  "Expertos",
+  "Todos",
+  "Acción pequeña",
+  "Acción grande",
+  "Silencio",
+  "Dar a los flujos",
+  "Cierre",
+  "Final ausente",
+  "Primero",
+  "Después",
+  "Tono",
+  "Deshacer",
+  "Alcance",
+  "Efecto",
+  "Iniciador",
+  "Evitar",
+  "Erosión",
+  "Llevar contexto",
+  "Preferir",
+  "Nunca",
+  "Modelo",
+  "Sistema de diseño",
+  "Cada cambio de IA",
+  "Hace"
+ ],
+ ".meta .value": [
+  "Mismo aspecto, mismo lugar",
+  "Palabras · disposición · orden",
+  "Un impuesto recurrente",
+  "Guía",
+  "Aceleradores",
+  "Acceso",
+  "Respuesta sutil",
+  "Confirmación clara",
+  "Se lee como avería",
+  "Un final visible",
+  "Libera la atención",
+  "Duda persistente",
+  "Hacer imposibles los errores",
+  "Facilitar la recuperación",
+  "Constructivo, específico",
+  "Licencia para explorar",
+  "Acciones y grupos",
+  "Baja la ansiedad",
+  "El usuario",
+  "Interrupciones · sorpresas",
+  "Cambio no solicitado",
+  "Entre pasos",
+  "Reconocimiento sobre recuerdo",
+  "Pedir volver a recordar",
+  "Improvisa",
+  "Mantiene la línea",
+  "Diff y deshacer",
+  "Delegación segura"
+ ],
+ ".ai-divider h3": [
+  "Las reglas de oro en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las interfaces probabilísticas doblan todas las reglas — consistencia, reversibilidad y control significan algo nuevo cuando el sistema improvisa."
+ ]
+}

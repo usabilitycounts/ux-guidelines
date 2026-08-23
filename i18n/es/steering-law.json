@@ -1,0 +1,115 @@
+{
+ "header h1": [
+  "<em>Ley</em> de conducción"
+ ],
+ "header .tagline": [
+  "Cuanto más estrecho el camino, más lenta la conducción."
+ ],
+ "header .subtitle": [
+  "Johnny Accot y Shumin Zhai extendieron la ley de Fitts al movimiento a lo largo de un camino restringido: el tiempo crece con la longitud del túnel y se reduce con su anchura. Gobierna los menús anidados, los deslizadores y cada arrastre."
+ ],
+ ".law-origin .body-text": [
+  "Johnny Accot y <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derivaron la ley de conducción en 1997 mientras investigaban métodos de entrada en IBM Almaden. Donde Fitts modeló alcanzar un objetivo, ellos modelaron recorrer un camino — y encontraron una elegante forma integral del mismo compromiso.",
+  "Zhai pasó a dar forma a la escritura moderna en Google, donde su trabajo sustenta la escritura gestual en miles de millones de teclados. La ley de conducción sigue siendo uno de los pocos modelos de HCI lo bastante precisos para predecir tiempos de interacción antes de que exista un prototipo."
+ ],
+ ".law-content .law-desc": [
+  "El tiempo para conducir un puntero por un camino restringido crece con la longitud del camino e inversamente con su anchura. Reduce a la mitad la anchura del túnel y la conducción tarda aproximadamente el doble — cada pasillo estrecho de una interfaz es un impuesto sobre la mano."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-johnny-accot\">Accot</a> y <a href=\"people.html#p-shumin-zhai\">Zhai</a> (1997)",
+  "Beyond Fitts' Law — CHI '97",
+  "Ensancha el camino o acórtalo"
+ ],
+ ".card .tag": [
+  "El túnel",
+  "Menús",
+  "Anchura",
+  "Precisión",
+  "Bordes",
+  "Táctil",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Longitud sobre anchura",
+  "La diagonal del menú anidado",
+  "Los caminos anchos ganan",
+  "Deslizadores y control fino",
+  "Rieles en los bordes",
+  "Los dedos conducen mal",
+  "El lenguaje se salta el túnel",
+  "Los gestos redescubren la ley"
+ ],
+ ".card .desc": [
+  "Conducir un cursor por un pasillo es una puntería continua: cada píxel de recorrido vuelve a poner a prueba la anchura. Largo y estrecho es lento y propenso a errores; corto y ancho no cuesta nada. La integral es todo el brief de diseño.",
+  "Los submenús en cascada son la trampa de conducción clásica: muévete en diagonal hacia el submenú y sales del pasillo de hover, colapsándolo. Los buenos menús añaden un triángulo de gracia o un retardo para que el camino diagonal sobreviva.",
+  "La solución de conducción más barata es la anchura: filas de menú más altas, pistas de deslizador más gruesas, asas de arrastre más grandes. Duplicar la anchura del pasillo reduce a la mitad el coste de conducción para cada usuario, en cada visita, para siempre.",
+  "Un deslizador es un túnel unidimensional, y las exigencias de precisión lo estrechan. Para valores exactos, acompaña el arrastre con botones de paso o entrada numérica directa — conducir es para movimientos gruesos, teclear es para los precisos.",
+  "Los bordes de la pantalla son muros infinitamente profundos — un cursor lanzado contra uno se queda en el pasillo sin importar la velocidad del movimiento. Las barras de desplazamiento, los docks y las asas de panel pegadas a un borde se conducen solas.",
+  "La conducción táctil es peor que la del ratón: sin hover, con un contacto grueso e impreciso y con un brazo que tapa el camino. En táctil, sustituye la conducción por toques — controles por pasos, tocar para colocar y un ajuste generoso.",
+  "Decir «pon el brillo al 70» sustituye una tarea de conducción por una frase. Donde la precisión importa y los caminos son estrechos, la entrada por prompt y por voz no son novedades — son el camino ancho que la ley llevaba pidiendo.",
+  "Los gestos en el aire, los punteros de RA y las interfaces de lápiz reintroducen la conducción con manos más temblorosas y sin reposabrazos. La vieja matemática sigue aplicando: cada pasillo gestual necesita ser más ancho que el temblor que debe sobrevivir."
+ ],
+ ".meta .label": [
+  "El tiempo crece con",
+  "Se reduce con",
+  "Cada píxel",
+  "Trampa",
+  "Solución",
+  "O",
+  "Solución más barata",
+  "Doblar anchura",
+  "Aplica a",
+  "Deslizador",
+  "Valores exactos",
+  "Nunca",
+  "Bordes",
+  "Controles de borde",
+  "Ver también",
+  "Táctil",
+  "Preferir",
+  "Añadir",
+  "Una frase",
+  "Ideal para",
+  "Entradas nuevas",
+  "Pasillo"
+ ],
+ ".meta .value": [
+  "Longitud",
+  "Anchura",
+  "Vuelve a probar la puntería",
+  "La diagonal sale del pasillo",
+  "Triángulo de gracia · retardo",
+  "Clic para abrir",
+  "Hacerlo más ancho",
+  "La mitad del coste",
+  "Filas · pistas · asas",
+  "Ajuste grueso",
+  "Teclear o pasos",
+  "Arrastres al píxel",
+  "Muros infinitos",
+  "Se conducen solos",
+  "Las esquinas de Fitts",
+  "Sin hover, puntero grueso",
+  "Toques sobre arrastres",
+  "Ajuste y pasos",
+  "Sustituye la conducción",
+  "Objetivos precisos y nombrables",
+  "Vieja matemática",
+  "Más ancho que el temblor"
+ ],
+ ".ai-divider h3": [
+  "La ley de conducción en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La entrada por lenguaje se salta el túnel por completo — y las interfaces gestuales lo redescubren. La ley decide qué interacciones merecen sobrevivir."
+ ],
+ ".law-formula-note": [
+  "el tiempo de conducción integra la longitud del camino sobre su anchura."
+ ]
+}

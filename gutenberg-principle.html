@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en" data-page="gutenberg">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters.">
+<title>Gutenberg Principle: Reading Gravity and Page Layout — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/gutenberg-principle.html">
+<meta property="og:title" content="Gutenberg Principle: Reading Gravity and Page Layout — UX Guidelines">
+<meta property="og:description" content="On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/gutenberg-principle.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gutenberg Principle: Reading Gravity and Page Layout — UX Guidelines">
+<meta name="twitter:description" content="On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;   /* diagram */   /* primary */   /* strong fallow */   /* weak fallow */   /* terminal */   /* gravity */   /* axis */   /* applies */   /* doesn't apply */   /* applications */
+  }
+
+  /* Grid */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; background: transparent; border-bottom: none; padding: 40px 32px 60px; }
+  .card { background: var(--bg); border: 1px solid var(--border); padding: 36px 32px 32px; display: grid; grid-template-rows: subgrid; grid-row: span 3; position: relative; gap: 16px; }
+  .card-header { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 24px; }
+
+  /* Card 1 spans full row — diagram left, content right */
+  .card.g1 { grid-column: 1 / -1; grid-template-rows: auto; grid-template-columns: 1.2fr 1fr; column-gap: 48px; align-items: start; gap: 32px; }
+  .card.g1 .demo { grid-row: 1 / span 3; grid-column: 1; margin-bottom: 0; }
+  .card.g1 .card-header { grid-column: 2; grid-row: 1; }
+  .card.g1 .meta { grid-column: 2; grid-row: 2; grid-template-columns: 1fr 1fr; gap: 20px 32px; }
+  @media (max-width: 800px) { .card.g1 { grid-template-columns: 1fr; column-gap: 0; } .card.g1 .demo { grid-row: 1 / span 3; grid-column: 1; margin-bottom: 0; } .card.g1 .card-header, .card.g1 .meta { grid-column: 1; grid-row: auto; } }
+
+  @media (max-width: 600px) {
+    .card.g1 { grid-column: unset; }
+    .card.g1 .meta { grid-template-columns: 1fr 1fr; }
+    
+    
+  }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+  .bf-body { flex: 1 1 auto; min-height: 0; padding: 0; display: flex; }
+  /* browser-frame illustrations fill the whole tile (match .browser) */
+  .demo:has(.browser-frame), .demo:has(.browser-mini) { padding: 0 !important; background: none; border: none; }
+  .demo:has(.browser-frame) > .demo-label, .demo:has(.browser-frame) > .demo-tag, .demo:has(.browser-mini) > .demo-label, .demo:has(.browser-mini) > .demo-tag { display: none; }
+
+  /* Homepage skeleton inside frames (shared reference layout) */
+  .demo { padding: 30px 0 0; }
+  .hp2 { display: flex; flex-direction: column; height: 100%; opacity: 0.5; }
+  .hp2-nav { display: flex; align-items: center; gap: 8px; padding: 10px 14px; flex: none; }
+  .hp2-logo { width: 9px; height: 9px; border-radius: 50%; background: var(--skel); }
+  .hp2-logo-line { width: 30px; height: 5px; border-radius: 2px; background: var(--skel); opacity: 0.7; }
+  .hp2-nav-links { margin-left: auto; display: flex; gap: 10px; }
+  .hp2-nav-links span { width: 16px; height: 4px; border-radius: 2px; background: var(--skel); opacity: 0.7; }
+  .hp2-hero { background: var(--surface); padding: 16px; display: flex; gap: 14px; align-items: center; flex: 1.2; min-height: 0; }
+  .hp2-hero-text { flex: 1.1; display: flex; flex-direction: column; gap: 7px; }
+  .hp2-headline { height: 12px; width: 55%; background: var(--skel-strong); }
+  .hp2-line { height: 5px; width: 85%; border-radius: 2px; background: var(--skel); opacity: 0.7; }
+  .hp2-line.short { width: 30%; }
+  .hp2-cta { height: 16px; width: 58px; border-radius: 8px; background: var(--skel-emphasis); margin-top: 6px; }
+  .hp2-hero-img { flex: 0.9; align-self: stretch; margin: 4px 0; background: var(--bg); border-radius: 6px; }
+  .hp2-body { padding: 16px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; align-content: start; flex: 1; min-height: 0; }
+  .hp2-body span { height: 5px; border-radius: 2px; background: var(--skel); opacity: 0.55; display: block; }
+
+  /* Quadrant overlays */
+  .quad-layer { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; pointer-events: none; z-index: 5; }
+  .quad { position: absolute; background: var(--il-accent); opacity: 0.15; }
+  .quad-dot { position: absolute; width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); opacity: 1; transform: translate(-50%,-50%); animation: dot-pulse 1.6s ease-in-out infinite; }
+  @keyframes dot-pulse { 0%,100% { transform: translate(-50%,-50%) scale(1); } 50% { transform: translate(-50%,-50%) scale(1.15); } }
+  .quad-inset { position: absolute; inset: 22px; }
+  .quad-inset svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  .quad-inset line { stroke: var(--il-accent); stroke-width: 5.5; stroke-linecap: round; }
+  .quad-inset .quad-dot { margin: 0; }
+  .quad-svg path { fill: none; stroke: var(--il-accent); stroke-width: 5.5; stroke-linecap: round; }
+
+  /* AI card illustrations */
+  .gbx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .gbx .quadline { position: absolute; background: var(--skel); opacity: 0.18; }
+  .gbx .bub { border-radius: 10px; background: var(--surface); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; width: 64%; }
+  .gbx .bub .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .gbx .bub.me { background: rgba(56,189,248,0.15); align-self: flex-end; }
+  .gbx .bub.me .l { background: var(--il-accent); opacity: 1; }
+  .gbx .ans { border-radius: 10px; background: rgba(56,189,248,0.12); padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+  .gbx .ans .l { height: 5px; border-radius: 2.5px; background: var(--il-accent); opacity: 0.85; display: block; }
+  .gbx .ghost { display: block; height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.15; }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link active">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Gutenberg <em>Principle</em></h1>
+  <p class="tagline">From <em>top-left</em> to <em>bottom-right</em>.</p>
+  <p class="subtitle">On evenly weighted pages the eye sweeps from top-left to bottom-right. The Gutenberg principle maps that reading gravity — and where to put what matters.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Edmund_C._Arnold" target="_blank" rel="noopener">Edmund C. Arnold</a> was an American newspaper designer and journalism professor, often called the father of modern newspaper design. Over a career spanning Syracuse and Virginia Commonwealth universities he redesigned hundreds of papers and wrote more than two dozen books on publication layout.</p>
+    <p class="body-text">The diagram is named for <a href="https://en.wikipedia.org/wiki/Johannes_Gutenberg" target="_blank" rel="noopener">Johannes Gutenberg</a> only by association with print; it was Arnold who described reading gravity — the habitual top-left to bottom-right sweep trained by Western text — and turned it into a practical layout tool.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principle</div>
+    <p class="body-text law-desc">On evenly weighted pages, the eye sweeps from the primary optical area at top-left to the terminal area at bottom-right, giving the two fallow corners far less attention. Put openings top-left and calls to action bottom-right.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-edmund-c-arnold">Edmund C. Arnold</a></div></div>
+      <div><div class="label">Source</div><div class="value">Newspaper layout practice and teaching</div></div>
+      <div><div class="label">In practice</div><div class="value">CTA bottom-right, brand top-left</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Diagram (full row) -->
+
+  <!-- 2. Primary Optical Area -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Quadrant 1</span>
+      <span class="num">02 / 10</span>
+      <h3>Primary Optical Area</h3>
+      <p class="desc">The top-left quadrant — where the eye lands first when no other visual cue grabs it. In Western reading cultures, this is where headlines, logos, and identifying brand marks belong by default.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad" style="top:0;left:0;width:50%;height:50%"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Place here</div><div class="value">Logo · Headline · Brand</div></div>
+      <div><div class="label">Why</div><div class="value">First place the eye looks</div></div>
+      <div><div class="label">Watch for</div><div class="value">RTL languages flip this</div></div>
+    </div>
+  </article>
+
+  <!-- 3. Strong Fallow -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Quadrant 2</span>
+      <span class="num">03 / 10</span>
+      <h3>Strong Fallow Area</h3>
+      <p class="desc">The top-right quadrant receives meaningful but reduced attention. Content here is glanced at, not read. A common spot for navigation, search, or supporting hero imagery.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad" style="top:0;right:0;width:50%;height:50%"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Place here</div><div class="value">Nav · Secondary actions · Image</div></div>
+      <div><div class="label">Reads as</div><div class="value">Glance, not focus</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding critical content here</div></div>
+    </div>
+  </article>
+
+  <!-- 4. Weak Fallow -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Quadrant 3</span>
+      <span class="num">04 / 10</span>
+      <h3>Weak Fallow Area</h3>
+      <p class="desc">The bottom-left quadrant gets the least attention of all four. The eye sweeps past it on the way down and to the right — for many users, content placed here may as well not exist.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad" style="bottom:0;left:0;width:50%;height:50%"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Avoid here</div><div class="value">CTAs · Key headlines · Pricing</div></div>
+      <div><div class="label">OK here</div><div class="value">Footer · Boilerplate · Legal</div></div>
+      <div><div class="label">Watch for</div><div class="value">Anything users must see</div></div>
+    </div>
+  </article>
+
+  <!-- 5. Terminal Area -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Quadrant 4</span>
+      <span class="num">05 / 10</span>
+      <h3>Terminal Area</h3>
+      <p class="desc">The bottom-right quadrant is where the eye rests after sweeping across the page. It’s the natural place for a call to action — the eye literally ends up here, ready for the next step.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad" style="bottom:0;right:0;width:50%;height:50%"></div></div></div>
+    <div class="meta">
+      <div><div class="label">Place here</div><div class="value">Primary CTA · Sign-up · Buy</div></div>
+      <div><div class="label">Why</div><div class="value">Natural endpoint of the sweep</div></div>
+      <div><div class="label">Watch for</div><div class="value">Burying CTA somewhere else</div></div>
+    </div>
+  </article>
+
+  <!-- 6. Reading Gravity -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Gravity</span>
+      <span class="num">06 / 10</span>
+      <h3>Reading Gravity</h3>
+      <p class="desc">The diagonal pull from Primary to Terminal. Reading gravity is the default — what happens when no other visual hierarchy interrupts the sweep. Reinforce it with content that supports the journey.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad-inset">
+  <svg><line x1="0" y1="0" x2="100%" y2="100%" pathLength="100" style="stroke-dasharray:100;stroke-dashoffset:100;animation:dash 1.8s 0.4s ease forwards"/></svg>
+</div></div></div>
+    <div class="meta">
+      <div><div class="label">Direction</div><div class="value">Top-left → bottom-right</div></div>
+      <div><div class="label">Reinforce with</div><div class="value">Aligned content along the line</div></div>
+      <div><div class="label">Watch for</div><div class="value">Competing diagonals</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Axis of Orientation -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Axis</span>
+      <span class="num">07 / 10</span>
+      <h3>Axis of Orientation</h3>
+      <p class="desc">The perpendicular line, from top-right to bottom-left, is the axis the eye actively resists. Crossing it costs effort — which is why content placed in the fallow corners gets so little attention.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div><div class="quad-layer"><div class="quad-inset">
+  <svg><line x1="0" y1="33%" x2="100%" y2="33%" pathLength="100" style="stroke-dasharray:100;stroke-dashoffset:100;animation:dash 1.4s 0.4s ease forwards"/><line x1="0" y1="67%" x2="100%" y2="67%" pathLength="100" style="stroke-dasharray:100;stroke-dashoffset:100;animation:dash 1.4s 1.8s ease forwards"/></svg>
+</div></div></div>
+    <div class="meta">
+      <div><div class="label">Direction</div><div class="value">Top-right → bottom-left</div></div>
+      <div><div class="label">Effect</div><div class="value">Eye resists this crossing</div></div>
+      <div><div class="label">Use case</div><div class="value">Hide secondary info on this line</div></div>
+    </div>
+  </article>
+
+  <!-- 8. When It Applies -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Applies</span>
+      <span class="num">08 / 10</span>
+      <h3>When It Applies</h3>
+      <p class="desc">The Gutenberg Principle describes a default reading pattern — what happens with evenly distributed, visually homogeneous content. Newspaper-style layouts, prose-heavy pages, dense documents.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Print · Long prose · Documents</div></div>
+      <div><div class="label">Condition</div><div class="value">Homogeneous content</div></div>
+      <div><div class="label">Cultural</div><div class="value">Western LTR reading</div></div>
+    </div>
+  </article>
+
+  <!-- 9. When It Doesn't -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Override</span>
+      <span class="num">09 / 10</span>
+      <h3>When It Doesn’t</h3>
+      <p class="desc">Any strong visual element overrides reading gravity. F-pattern or Z-pattern emerge in their place. Most modern web pages — with images, buttons, and varied type — break Gutenberg entirely.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div></div>
+    <div class="meta">
+      <div><div class="label">Breaks when</div><div class="value">Images · CTAs · Type contrast</div></div>
+      <div><div class="label">Replaced by</div><div class="value">F-pattern · Z-pattern · spotted</div></div>
+      <div><div class="label">Verdict</div><div class="value">Rare in modern UI</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a></div></div>
+  </article>
+
+  <!-- 10. Applications -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Layout</span>
+      <span class="num">10 / 10</span>
+      <h3>Practical Applications</h3>
+      <p class="desc">Where the diagram still applies: editorial layouts, newsletters, dense article pages, terms of service, and any composition that needs to feel formal and traditional. Put the byline top-left, the CTA bottom-right, and let gravity do the rest.</p>
+    </div>
+    <div class="demo"><div class="hp2">
+        <div class="hp2-nav"><span class="hp2-logo"></span><span class="hp2-logo-line"></span><div class="hp2-nav-links"><span></span><span></span><span></span></div></div>
+        <div class="hp2-hero">
+          <div class="hp2-hero-text"><div class="hp2-headline"></div><div class="hp2-line"></div><div class="hp2-line short"></div><div class="hp2-cta"></div></div>
+          <div class="hp2-hero-img"></div>
+        </div>
+        <div class="hp2-body">
+          <span class="w-92"></span><span class="w-90"></span>
+          <span class="w-96"></span><span class="w-86"></span>
+          <span class="w-88"></span><span class="w-94"></span>
+          <span class="w-95"></span><span class="w-90"></span>
+        </div>
+      </div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Editorial · Newsletters · Print</div></div>
+      <div><div class="label">Logo</div><div class="value">Top-left (Primary)</div></div>
+      <div><div class="label">CTA</div><div class="value">Bottom-right (Terminal)</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Gutenberg in the Age of AI</h3>
+    <p>A conversation has no quadrants — when the answer is returned directly, the four-zone reading model gives way to a single vertical stream.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gbx" style="justify-content:flex-end;gap:8px"><span class="quadline" style="left:50%;top:30px;bottom:0;width:2px"></span><span class="quadline" style="top:50%;left:0;right:0;height:2px"></span><div class="bub me"><span class="l w-80"></span></div><div class="bub"><span class="l w-92"></span><span class="l w-70"></span></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>Chat Has No Quadrants</h3>
+      <p class="desc">A conversation is a single vertical column with no Primary or Terminal zones. Reading gravity flattens into a simple top-to-bottom stream of turns.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Quadrants → stream</div></div><div><div class="label">Use when</div><div class="value">Linear conversation UI</div></div><div><div class="label">Watch for</div><div class="value">Losing the CTA position</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="gbx" style="justify-content:flex-start;gap:10px"><div class="ans"><span class="l w-94"></span><span class="l w-86"></span><span class="l w-58"></span></div><span class="ghost" style="width:64%;margin-top:4px"></span><span class="ghost w-88"></span><span class="ghost w-80"></span><span class="ghost w-52"></span></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Answer Replaces the Layout</h3>
+      <p class="desc">When AI returns the answer directly, there’s often no page to lay out at all. The four-quadrant diagram gives way to a single, generated response block.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Layout → answer</div></div><div><div class="label">Use when</div><div class="value">Direct-answer interfaces</div></div><div><div class="label">Watch for</div><div class="value">No room to scan or compare</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Gutenberg_diagram" target="_blank" rel="noopener"><span class="title">Gutenberg Diagram</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Johannes_Gutenberg" target="_blank" rel="noopener"><span class="title">Johannes Gutenberg</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Page_layout" target="_blank" rel="noopener"><span class="title">Page Layout</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/how-people-read-online/" target="_blank" rel="noopener"><span class="title">How People Read Online</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/scanning-patterns-eyetracking/" target="_blank" rel="noopener"><span class="title">Scanning Patterns on the Web</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Interaction Design Foundation</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.interaction-design.org/literature/article/the-gutenberg-diagram-in-web-design" target="_blank" rel="noopener"><span class="title">The Gutenberg Diagram in Web Design</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Gutenberg Principle</div>
+  <div class="meta-info">Default reading gravity · Western LTR</div>
+</footer>
+
+</body>
+</html>

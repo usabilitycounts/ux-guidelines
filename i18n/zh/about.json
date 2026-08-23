@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "关于"
+ ],
+ "header .subtitle": [
+  "谁在做这个网站，以及它为什么存在。"
+ ],
+ ".about-section h2": [
+  "其他平台",
+  "Patrick Neeman",
+  "关于本站"
+ ],
+ ".about-section p": [
+  "Patrick Neeman 是一位 UX 与产品设计负责人，整个职业生涯都在让软件对真正使用它的人更友好。他在 <a href=\"https://medium.com/@usabilitycounts\" target=\"_blank\" rel=\"noopener\">Medium</a>、<a href=\"https://substack.com/@patrickneeman\" target=\"_blank\" rel=\"noopener\">Substack</a> 和 <a href=\"https://www.linkedin.com/in/patrick-neeman-ux/\" target=\"_blank\" rel=\"noopener\">LinkedIn</a> 上撰写关于 UX 与 AI 的深度文章，面向正在应对行业变革的设计师、产品经理和用户研究员。",
+  "他以 Usability Counts 之名撰写可用性文章已有多年，也是 UX Drinking Game 的创造者——证明启发式原则在有赌注时更有趣。",
+  "他目前的工作处于设计实践与 AI 的交汇点：模型如何改变设计师的产出、团队的协作方式，以及哪些老规则依然成立。剧透：大多数都成立，这正是本站存在的原因。",
+  "UX Guidelines 是一份关于界面设计中有研究支撑的规则的实用参考——那些数十年来不断出现在优秀产品中的扫描模式、认知定律、启发式与设计原则。",
+  "每条定律都获得同样的处理：它从何而来、由谁发现、它究竟说了什么、在实践中意味着什么——包括在 AI 时代哪些会变、哪些不会。插图共享同一套视觉语言：骨架屏、灰色块和单一的蓝色点缀，让想法而非画面承担分量。",
+  "从任何一页开始都行。<a href=\"sitemap.html\">网站地图</a>列出了所有页面，<a href=\"glossary.html\">术语表</a>涵盖了所有术语。左右方向键可在页面间切换。"
+ ]
+}

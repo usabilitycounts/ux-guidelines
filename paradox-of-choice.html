@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" data-page="choice-overload">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.">
+<title>Paradox of Choice: Choice Overload and Decision Paralysis — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/paradox-of-choice.html">
+<meta property="og:title" content="Paradox of Choice: Choice Overload and Decision Paralysis — UX Guidelines">
+<meta property="og:description" content="More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/paradox-of-choice.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Paradox of Choice: Choice Overload and Decision Paralysis — UX Guidelines">
+<meta name="twitter:description" content="More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+    --c1: #6b6b6b;   /* paradox */
+    --c2: #6b6b6b;   /* jam study */
+    --c3: #6b6b6b;   /* paralysis */
+    --c4: #6b6b6b;   /* regret */
+    --c5: #6b6b6b;   /* curation */
+    --c6: #6b6b6b;   /* defaults */
+    --c7: #6b6b6b;   /* filter */
+    --c8: #6b6b6b;   /* recommendations */
+    --c9: #6b6b6b;   /* comparison */
+    --c10:#6b6b6b;   /* sweet spot */
+  }
+
+  /* Grid + cards */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
+
+  /* Card 1 spans full row */
+  .card.c1 .demo { aspect-ratio: 16 / 10; height: auto; display: flex; align-items: center; justify-content: center; text-align: center; }
+  .card.c1 .quote { font-size: var(--fs-feature); font-weight: 400; color: var(--text-primary); line-height: var(--lh-heading); max-width: 720px; }
+  .card.c1 .quote em { font-style: italic;  font-weight: 500; }
+  .card.c1 .meta { grid-template-columns: 1fr 1fr; }
+
+  @keyframes grow-bar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+  .bar-grow { transform-origin: bottom; transform-box: fill-box; animation: grow-bar 0.9s ease-out forwards; }
+
+  /* Option / pill */
+
+  /* Jar shape (for jam study) */
+  .jar { width: 14px; height: 18px; background: var(--c2); border-radius: 2px 2px 3px 3px; opacity: 0.7; }
+
+  @media (max-width: 600px) {
+    .card.c1 { grid-column: unset; }
+    .card.c1 .meta { grid-template-columns: 1fr 1fr; }
+    
+    
+  }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+
+  /* ---------- Featured "Paradox" block (above the card grid) ---------- */
+  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-heading); color: var(--text-primary); text-align: center; max-width: 540px; }
+  .law-feature .formula-box .quote em {  font-style: italic; font-weight: 500; }
+
+  /* Choice overload illustrations */
+  .co { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 9px; justify-content: center; }
+  .co .grid { display: grid; gap: 8px; }
+  .co .tile { border-radius: 6px; background: var(--skel); opacity: 0.3; aspect-ratio: 1; }
+  .co .tile.faint { opacity: 0.15; }
+  .co .tile.b { background: var(--il-accent); opacity: 1; }
+  .co .split { display: flex; gap: 18px; flex: 1; min-height: 0; align-items: center; }
+  .co .row { height: 18px; border-radius: 6px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; gap: 8px; }
+  .co .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
+  .co .row.hot { background: rgba(56,189,248,0.15); }
+  .co .row.hot i { background: var(--il-accent); opacity: 1; }
+  .co .check { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
+  .co .radio { width: 12px; height: 12px; border-radius: 50%; background: var(--skel); opacity: 0.35; flex: none; }
+  .co .radio.on { background: var(--il-accent); opacity: 1; }
+  .co .chip { height: 18px; border-radius: 9px; background: var(--surface); padding: 0 12px; display: flex; align-items: center; flex: none; }
+  .co .chip i { height: 5px; width: 22px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .co .chip.b { background: rgba(56,189,248,0.18); }
+  .co .chip.b i { background: var(--il-accent); opacity: 1; }
+  .co .cel { border-radius: 8px; background: var(--surface); flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 10px; }
+  .co .cel .th { border-radius: 5px; background: var(--skel); opacity: 0.3; flex: 1; }
+  .co .cel .l { height: 5px; border-radius: 2.5px; background: var(--skel); opacity: 0.4; }
+  .co .cel.b { background: rgba(56,189,248,0.12); }
+  .co .cel.b .th { background: var(--il-accent); opacity: 0.5; }
+  .co .cards { display: flex; gap: 10px; flex: 1; min-height: 0; }
+  .co .track { position: relative; height: 8px; border-radius: 4px; background: var(--surface); }
+  .co .track .band { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: rgba(56,189,248,0.35); }
+  .co .track .knob { position: absolute; top: 50%; width: 16px; height: 16px; border-radius: 50%; background: var(--il-accent); transform: translate(-50%,-50%); }
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link active">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Paradox of <em>Choice</em></h1>
+  <p class="tagline">When more options means <em>fewer decisions</em>.</p>
+  <p class="subtitle">More options can mean fewer decisions. The research behind choice overload — and the patterns that get people past decision paralysis.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)" target="_blank" rel="noopener">Barry Schwartz</a> is an American psychologist who spent his career at Swarthmore College studying the intersection of psychology and economics. His 2004 book The Paradox of Choice argued that beyond a modest threshold, adding options makes people less satisfied, not more.</p>
+    <p class="body-text">Trained at NYU and the University of Pennsylvania, Schwartz spent four decades teaching psychology at Swarthmore. His TED talk on the paradox became one of the most-watched ever, and his later work explored how defaults, satisficing, and ‘good enough’ choices protect people from decision fatigue.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Paradox</div>
+    <p class="body-text law-desc"><a href="hicks-law.html">Hick’s Law</a> tells you a decision gets slower. The paradox of choice tells you it can fail to happen at all. Once a set crosses a threshold (often around a dozen items), users feel overwhelmed, defer, and convert less.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-barry-schwartz">Barry Schwartz</a> (2004)</div></div>
+      <div><div class="label">Source</div><div class="value">The Paradox of Choice</div></div>
+      <div><div class="label">In practice</div><div class="value">Cap choices near a dozen; curate defaults</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<!-- 2. Iyengar Jam Study -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Field study</span>
+      <span class="num">02 / 10</span>
+      <h3>The Jam Study</h3>
+      <p class="desc"><a href="people.html#p-sheena-iyengar">Sheena Iyengar</a>’s 2000 supermarket experiment: a tasting display with 24 jams attracted more shoppers, but a display with only 6 jams sold ten times more. More choice drew the crowd; less choice closed the sale.</p>
+    </div>
+    <div class="demo"><div class="co split"><div class="grid" style="grid-template-columns:repeat(6,1fr);flex:1.3"><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span></div><div class="grid" style="grid-template-columns:repeat(3,1fr);flex:1"><span class="tile"></span><span class="tile b"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span><span class="tile"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Study</div><div class="value">Iyengar and Lepper, 2000</div></div>
+      <div><div class="label">Result</div><div class="value">6 jams → 10× more sales</div></div>
+      <div><div class="label">Lesson</div><div class="value">Attention ≠ conversion</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div></div>
+  </article>
+
+  <!-- 3. Decision Paralysis -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Paralysis</span>
+      <span class="num">03 / 10</span>
+      <h3>Decision Paralysis</h3>
+      <p class="desc">When the cognitive cost of choosing exceeds the perceived benefit, users defer the decision entirely. They close the tab, save the cart for later, or pick “I’ll think about it” — and most never come back.</p>
+    </div>
+    <div class="demo"><div class="co"><div class="grid" style="grid-template-columns:repeat(5,1fr)"><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Abandoned cart · long sessions</div></div>
+      <div><div class="label">Cause</div><div class="value">Cost of choice &gt; perceived gain</div></div>
+      <div><div class="label">Mitigate</div><div class="value">Smaller sets · clear recommendation</div></div>
+    </div>
+  </article>
+
+  <!-- 4. Post-decision Regret -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Regret</span>
+      <span class="num">04 / 10</span>
+      <h3>Post-Decision Regret</h3>
+      <p class="desc">Users who finally choose from a large set are less satisfied than those who chose from a small one. Every alternative becomes a hypothetical regret — “what if I’d picked the other one?”</p>
+    </div>
+    <div class="demo"><div class="co gap-7"><div class="row"><i class="w-30"></i><span class="radio"></span></div><div class="row hot"><i class="w-36"></i><span class="check"></span></div><div class="row"><i class="w-26"></i><span class="radio"></span></div><div class="row"><i class="w-32"></i><span class="radio"></span></div><div class="row"><i class="w-24"></i><span class="radio"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Reported</div><div class="value">Lower satisfaction with same item</div></div>
+      <div><div class="label">Why</div><div class="value">Hypothetical alternatives loom</div></div>
+      <div><div class="label">Counter</div><div class="value">Show fewer, recommend the right one</div></div>
+    </div>
+  </article>
+
+  <!-- 5. Curation Over Quantity -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Curation</span>
+      <span class="num">05 / 10</span>
+      <h3>Curation Over Quantity</h3>
+      <p class="desc">Editorial pre-selection — “our 5 picks” — converts better than the full catalog. The user trades infinite optionality for trust in your taste, and usually accepts.</p>
+    </div>
+    <div class="demo"><div class="co gap-12"><div class="cards" style="flex:0 0 46%"><div class="cel b"><span class="th"></span><span class="l w-80"></span></div><div class="cel"><span class="th"></span><span class="l w-70"></span></div><div class="cel"><span class="th"></span><span class="l w-76"></span></div></div><div class="grid" style="grid-template-columns:repeat(8,1fr);gap:6px"><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span><span class="tile faint"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Discovery · Onboarding</div></div>
+      <div><div class="label">Pattern</div><div class="value">Editor’s picks · Staff favorites</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding the rest entirely</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div></div>
+  </article>
+
+  <!-- 6. Defaults & Choice Architecture -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Architecture</span>
+      <span class="num">06 / 10</span>
+      <h3>Choice Architecture</h3>
+      <p class="desc">How options are framed shapes which ones get picked. A pre-selected default, a recommended badge, or simply listing options in a particular order steers behavior more than the choice itself.</p>
+    </div>
+    <div class="demo"><div class="co gap-7"><div class="row"><span class="radio"></span><i class="w-28"></i></div><div class="row hot"><span class="radio on"></span><i class="w-34"></i><span class="chip b" style="margin-left:auto;height:14px"><i style="width:16px"></i></span></div><div class="row"><span class="radio"></span><i class="w-24"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Levers</div><div class="value">Defaults · order · framing · badges</div></div>
+      <div><div class="label">Concept</div><div class="value">Thaler and Sunstein · “Nudge”</div></div>
+      <div><div class="label">Watch for</div><div class="value">Crosses into dark patterns</div></div>
+    </div>
+  </article>
+
+  <!-- 7. Filter & Sort -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Filter</span>
+      <span class="num">07 / 10</span>
+      <h3>Filter and Sort to Reduce</h3>
+      <p class="desc">When you can’t reduce the catalog, let the user reduce it. Filters turn an unbrowsable 2,000 into a manageable 20 the user actually wants. Good filter UI is choice overload’s safety valve.</p>
+    </div>
+    <div class="demo"><div class="co gap-10"><div style="display:flex;gap:8px"><span class="chip b"><i></i></span><span class="chip"><i style="width:18px"></i></span><span class="chip"><i style="width:26px"></i></span></div><div class="row"><i class="w-36"></i></div><div class="row"><i class="w-30"></i></div><div class="row"><i class="w-33"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">E-commerce · Catalogs · Search</div></div>
+      <div><div class="label">Show</div><div class="value">Active filters · result count</div></div>
+      <div><div class="label">Watch for</div><div class="value">Filters that hide all results</div></div>
+    </div>
+  </article>
+
+  <!-- 8. Recommendations -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Personalize</span>
+      <span class="num">08 / 10</span>
+      <h3>Recommendations</h3>
+      <p class="desc">Use data — popularity, similar users, prior behavior — to pre-narrow the set. “Because you watched…” is a choice reduction in disguise, and it’s why streaming services don’t show their full catalog up front.</p>
+    </div>
+    <div class="demo"><div class="co gap-12"><div style="display:flex;align-items:center;gap:10px"><span class="chip"><i></i></span><span style="flex:1;height:3px;border-radius:1.5px;background:var(--il-accent);display:block"></span></div><div class="cards" style="flex:0 0 52%"><div class="cel b"><span class="th"></span><span class="l w-76"></span></div><div class="cel"><span class="th"></span><span class="l w-68"></span></div><div class="cel"><span class="th"></span><span class="l w-80"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Media · Shopping · News feeds</div></div>
+      <div><div class="label">Inputs</div><div class="value">History · cohort · explicit prefs</div></div>
+      <div><div class="label">Watch for</div><div class="value">Filter bubbles · over-fitting</div></div>
+    </div>
+  </article>
+
+  <!-- 9. Comparison Limits -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Compare</span>
+      <span class="num">09 / 10</span>
+      <h3>Comparison Limits</h3>
+      <p class="desc">Side-by-side comparison is useful for 2–4 items. Past that, the table becomes a fresh source of overload — too many rows of subtle differences, no clear “best” answer.</p>
+    </div>
+    <div class="demo"><div class="co" style="flex-direction:row;gap:10px;align-items:stretch"><div class="cel"><span class="l" style="width:70%;opacity:0.6"></span><span class="l"></span><span class="l w-80"></span><span class="l w-60"></span></div><div class="cel b"><span class="l" style="width:70%;background:var(--il-accent);opacity:1"></span><span class="l"></span><span class="l w-80"></span><span class="l w-60"></span></div><div class="cel"><span class="l" style="width:70%;opacity:0.6"></span><span class="l"></span><span class="l w-80"></span><span class="l w-60"></span></div><div class="cel" style="opacity:0.35"><span class="l w-70"></span><span class="l"></span><span class="l w-80"></span></div><div class="cel" style="opacity:0.15"><span class="l w-70"></span><span class="l"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Sweet spot</div><div class="value">2 – 4 items</div></div>
+      <div><div class="label">Past 4</div><div class="value">Let user pick 2 to compare</div></div>
+      <div><div class="label">Watch for</div><div class="value">Spec-sheet wall of numbers</div></div>
+    </div>
+  </article>
+
+  <!-- 10. The Sweet Spot -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Sweet spot</span>
+      <span class="num">10 / 10</span>
+      <h3>The Working Range</h3>
+      <p class="desc">No magic number — it depends on the decision’s stakes, the user’s expertise, and visual differentiation. But the field-tested range that avoids both arbitrary-feeling sparseness and overload is roughly 3 to 10, with most teams landing around 5 to 7.</p>
+    </div>
+    <div class="demo"><div class="co" style="gap:18px;padding:18px 34px"><div class="track"><span class="band" style="left:22%;width:34%"></span><span class="knob" style="left:38%"></span></div><div style="display:flex;justify-content:space-between"><span style="width:24px;height:6px;border-radius:3px;background:var(--skel);opacity:0.3;display:block"></span><span style="width:24px;height:6px;border-radius:3px;background:var(--skel);opacity:0.3;display:block"></span><span style="width:24px;height:6px;border-radius:3px;background:var(--skel);opacity:0.3;display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Default range</div><div class="value">3 – 10</div></div>
+      <div><div class="label">Related</div><div class="value"><a href="millers-law.html">Miller’s Law</a> (7 ± 2)</div></div>
+      <div><div class="label">Beyond 10</div><div class="value">Group · filter · search · recommend</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div></div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Paradox of Choice in the Age of AI</h3>
+    <p>AI promises to cure overload by deciding for you — which trades the paralysis of too many options for the question of whether to trust the pick.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="co gap-12"><div class="cards" style="flex:0 0 46%"><div class="cel b"><span class="th"></span><span class="l w-72"></span></div><div class="cel"><span class="th"></span><span class="l w-64"></span></div><div class="cel"><span class="th"></span><span class="l w-78"></span></div></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>AI Curates the Set</h3>
+      <p class="desc">Instead of 10,000 options, the model surfaces three good ones — or just does the task. Overload dissolves, replaced by a new question: do you trust the curation?</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Browse → curated</div></div><div><div class="label">Use when</div><div class="value">The set is overwhelming</div></div><div><div class="label">Watch for</div><div class="value">Opaque, biased filtering</div></div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="demo"><div class="co gap-12"><div class="row hot hpx-26"><i class="w-40"></i><span class="check"></span></div><div style="display:flex;gap:8px"><span class="chip"><i style="width:18px"></i></span><span class="chip"><i style="width:26px"></i></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <h3>The Trust Trade</h3>
+      <p class="desc">Letting AI choose removes decision fatigue but adds a trust cost. The best AI choices stay reversible and explain themselves, so the user keeps a sense of control.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Trades</div><div class="value">Paralysis → trust</div></div><div><div class="label">Use when</div><div class="value">Decisions are low-stakes</div></div><div><div class="label">Watch for</div><div class="value">Irreversible auto-choices</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Overchoice" target="_blank" rel="noopener"><span class="title">Overchoice (Choice Overload)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/The_Paradox_of_Choice" target="_blank" rel="noopener"><span class="title">The Paradox of Choice — book</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Barry_Schwartz_(psychologist)" target="_blank" rel="noopener"><span class="title">Barry Schwartz</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Sheena_Iyengar" target="_blank" rel="noopener"><span class="title">Sheena Iyengar — jam-study researcher</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Nudge_(book)" target="_blank" rel="noopener"><span class="title">Nudge — choice architecture</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/psychology-study-guide/" target="_blank" rel="noopener"><span class="title">Psychology for UX — study guide</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/decision-fatigue/" target="_blank" rel="noopener"><span class="title">Decision Fatigue in UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Talks and Original Sources</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.ted.com/talks/barry_schwartz_the_paradox_of_choice" target="_blank" rel="noopener"><span class="title">Barry Schwartz — Paradox of Choice (TED)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.ted.com/talks/sheena_iyengar_how_to_make_choosing_easier" target="_blank" rel="noopener"><span class="title">Sheena Iyengar — How to Make Choosing Easier (TED)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Paradox of Choice</div>
+  <div class="meta-info">Schwartz, 2004 · Iyengar and Lepper, 2000</div>
+</footer>
+
+</body>
+</html>

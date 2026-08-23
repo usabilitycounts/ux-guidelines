@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Divulgation <em>progressive</em>"
+ ],
+ "header .tagline": [
+  "Montrez ce qui compte maintenant. Révélez le reste à la demande."
+ ],
+ "header .subtitle": [
+  "La divulgation progressive relègue les options avancées ou rarement utilisées à une couche secondaire, gardant le premier écran centré sur ce dont la plupart des utilisateurs ont besoin la plupart du temps. C'est le compromis de travail entre puissance et simplicité."
+ ],
+ ".law-origin .body-text": [
+  "La technique a été étudiée chez IBM au début des années 1980, où l'interface « training wheels » de <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a> réduisait les erreurs des novices en masquant les fonctions avancées jusqu'à ce qu'ils soient prêts.",
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> a nommé et popularisé le pattern pour le design d'interface, qualifiant la divulgation progressive de l'un des meilleurs moyens de satisfaire à la fois novices et experts avec une seule interface."
+ ],
+ ".law-content .law-desc": [
+  "Ne montrez aux utilisateurs que ce dont ils ont besoin pour la tâche en cours, et offrez un chemin clairement libellé vers le reste. Les options primaires restent immédiates ; les options avancées, rares ou dangereuses se tiennent à un pas délibéré — présentes, mais pas dans le passage."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Jack Carroll (1983) · Jakob Nielsen",
+  "Études « training wheels », IBM",
+  "Le primaire maintenant, le reste à la demande"
+ ],
+ ".card .tag": [
+  "Le pattern",
+  "Sélection",
+  "Mécanique",
+  "Séquence",
+  "Échec",
+  "Détail",
+  "À l'ère de l'IA",
+  "À l'ère de l'IA"
+ ],
+ ".card h3": [
+  "Deux couches, une interface",
+  "Choisir l'ensemble primaire",
+  "Accordéons, tiroirs et « Avancé »",
+  "Les assistants sont de la divulgation dans le temps",
+  "N'enterrez pas l'essentiel",
+  "Les détails à la demande",
+  "La réponse courte d'abord",
+  "Le raisonnement à la demande"
+ ],
+ ".card .desc": [
+  "Le geste central : un petit ensemble primaire montré immédiatement, et une porte libellée vers tout le reste. Les novices ne rencontrent jamais la complexité ; les experts l'atteignent en un clic. Les deux groupes utilisent le même produit.",
+  "Le pattern vit ou meurt selon ce qui entre dans la couche un. Les données d'usage tranchent : la poignée d'options qui couvre la grande majorité des tâches reste visible. Devinez mal et vous avez enterré le cœur du produit.",
+  "Les contrôles de divulgation forment une petite famille : l'accordéon, le lien « Afficher les options avancées », le menu de dépassement, le tiroir de détails. Chacun exige un libellé honnête — l'utilisateur doit prédire ce qui se trouve derrière la porte avant de l'ouvrir.",
+  "Un assistant multi-étapes divulgue progressivement dans le temps plutôt que dans l'espace : chaque étape montre l'interface d'une seule décision. Le formulaire complet terrifierait ; la séquence semble gérable.",
+  "Le mode d'échec du pattern est le sur-masquage : quand une option fréquemment nécessaire atterrit dans la couche deux, chaque utilisateur paie un clic pour toujours, et les tickets de support disent « où est passé X ? ». C'est la fréquence, pas la complexité, qui décide du placement.",
+  "Infobulles, popovers et lignes dépliables divulguent la profondeur sur place — le résumé reste balayable pendant que le détail attend dessous. Le mantra de Shneiderman s'applique : la vue d'ensemble d'abord, les détails à la demande.",
+  "Une bonne réponse de modèle est de la divulgation progressive en prose : la réponse directe en haut, la démonstration dépliable en dessous. Déverser le raisonnement complet sur tout le monde, c'est l'erreur du mur de formulaire, réécrite en texte.",
+  "Traces d'agents, appels d'outils et chaînes de raisonnement ont leur place derrière une divulgation : assez visibles pour être audités, assez repliés pour ne pas gêner. La confiance exige que la porte existe ; la fluidité exige qu'elle soit fermée par défaut."
+ ],
+ ".meta .label": [
+  "Couche un",
+  "Couche deux",
+  "Sert",
+  "Décider selon",
+  "Couche un",
+  "Mauvaise supposition",
+  "Famille",
+  "Libellés",
+  "Portes mystère",
+  "Divulgue",
+  "Chaque étape",
+  "Tue",
+  "Mode d'échec",
+  "Placement selon",
+  "Symptôme",
+  "Sur place",
+  "Résumé",
+  "Mantra",
+  "En haut",
+  "Dépliable",
+  "Audit",
+  "Fluidité"
+ ],
+ ".meta .value": [
+  "Ce dont la plupart ont besoin",
+  "À un pas libellé",
+  "Novice et expert",
+  "L'usage, pas l'opinion",
+  "Couvre la plupart des tâches",
+  "Enterre le cœur",
+  "Accordéon · tiroir · plus",
+  "Prédire le contenu",
+  "Ne s'ouvrent jamais",
+  "Dans le temps",
+  "Une décision",
+  "Le mur de formulaire",
+  "Sur-masquage",
+  "Fréquence d'usage",
+  "« Où est passé X ? »",
+  "Infobulle · popover · ligne",
+  "Reste balayable",
+  "Vue d'ensemble d'abord",
+  "La réponse directe",
+  "La démonstration",
+  "La porte existe",
+  "Fermée par défaut"
+ ],
+ ".ai-divider h3": [
+  "La divulgation progressive à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Réponses de chat et raisonnement d'agent sont des problèmes de divulgation : la réponse courte d'abord, la démonstration pour qui la demande."
+ ]
+}

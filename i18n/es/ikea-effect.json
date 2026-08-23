@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Efecto <em>IKEA</em>"
+ ],
+ "header .tagline": [
+  "El esfuerzo lleva al cariño."
+ ],
+ "header .subtitle": [
+  "Norton, Mochon y Ariely demostraron en 2011 que la gente valora mucho más las cosas cuando ayudó a construirlas. El esfuerzo — aunque sea poco — convierte a los usuarios en cocreadores, y a los cocreadores en dueños."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Michael_I._Norton\" target=\"_blank\" rel=\"noopener\">Michael I. Norton</a> de Harvard Business School, con Daniel Mochon y <a href=\"https://en.wikipedia.org/wiki/Dan_Ariely\" target=\"_blank\" rel=\"noopener\">Dan Ariely</a>, hizo que la gente plegara origami y armara cajas IKEA sencillas. Los constructores pujaban después mucho más por sus propias creaciones — valorando el trabajo amateur casi al nivel del experto — y asumían que los demás harían lo mismo.",
+  "El artículo de 2011 bautizó el efecto por el mueble que llega como una caja de piezas. La idea era más antigua: los mercadólogos de los años cincuenta aprendieron que las mezclas instantáneas para pastel vendían mejor cuando la receta exigía añadir un huevo. Un poco de trabajo hacía que el pastel fuera del repostero."
+ ],
+ ".law-content .law-desc": [
+  "La gente asigna un valor desproporcionado a lo que ayudó a crear, incluso cuando el esfuerzo es pequeño y el resultado objetivamente ordinario. La prima solo aparece cuando el trabajo se completa: las construcciones abandonadas o fallidas no ganan cariño."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-michael-norton\">Michael Norton</a>, <a href=\"people.html#p-daniel-mochon\">Daniel Mochon</a> y <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> (2011)",
+  "«The IKEA Effect: When Labor Leads to Love»",
+  "Deja que los usuarios construyan — un poco"
+ ],
+ ".card .tag": [
+  "La investigación",
+  "Orígenes",
+  "Límite",
+  "Diseño",
+  "Precaución",
+  "Retención",
+  "En la era de la IA",
+  "En la era de la IA"
+ ],
+ ".card h3": [
+  "Los experimentos",
+  "El huevo en la mezcla",
+  "El trabajo debe completarse",
+  "La personalización crea dueños",
+  "Esfuerzo, no trámites",
+  "El bucle de inversión",
+  "Apego por cocreación",
+  "Cuando la máquina lo construye todo"
+ ],
+ ".card .desc": [
+  "Quienes armaron una caja IKEA negra y sencilla pujaron un 63 por ciento más que los compradores de una idéntica ya montada. Los plegadores de origami tasaron sus grullas torcidas cerca del trabajo experto. El valor lo llevaba el esfuerzo, no el objeto.",
+  "Las mezclas instantáneas para pastel se estancaron en los años cincuenta hasta que los fabricantes quitaron el huevo en polvo y pidieron cascar uno fresco. Un paso significativo convirtió un producto de fábrica en el pastel del repostero — y las ventas siguieron.",
+  "La prima existe solo para el trabajo terminado. Cuando los constructores tenían que desarmar su creación, o nunca la acababan, el valor extra desaparecía. El esfuerzo vincula a las personas con los resultados — no con los intentos.",
+  "Elegir un avatar, nombrar un espacio, ordenar un panel — pequeños actos de construcción hacen que el producto se sienta propio. Los usuarios que moldearon su configuración vuelven a ella, la defienden y la perdonan más.",
+  "El efecto premia el esfuerzo significativo, no la fricción. Los pasos forzados, los asistentes vacíos y los formularios porque sí generan resentimiento, no pertenencia. Da un huevo que cascar — nunca un formulario por el formulario.",
+  "Listas, tableros, vistas guardadas, filtros entrenados — cada artefacto que un usuario construye dentro del producto eleva el costo de irse. El trabajo almacenado es la retención más fuerte que existe, y la más fácil de ganar honestamente.",
+  "La gente aprecia mucho más el resultado de la IA cuando lo dirigió — escribió el prompt, eligió entre borradores, editó el resultado. Haz visible esa autoría: muestra lo que el usuario moldeó y el resultado deja de sentirse de la máquina.",
+  "La automatización total es el anti-IKEA: nada invertido, nada poseído, fácil de descartar. Mantén una decisión significativa en manos del usuario — el esquema, la elección, el corte final — y el resultado se vuelve suyo."
+ ],
+ ".meta .label": [
+  "Premontada",
+  "Automontada",
+  "Portador",
+  "Todo incluido",
+  "Añadir un huevo",
+  "Lección",
+  "Terminado",
+  "Abandonado",
+  "Deber del diseño",
+  "Momento",
+  "Acto",
+  "Beneficio",
+  "Significativo",
+  "Trámite",
+  "Prueba",
+  "Artefactos",
+  "Mecanismo",
+  "Ganado",
+  "El esfuerzo hoy",
+  "Diseño",
+  "Un clic",
+  "Una decisión conservada"
+ ],
+ ".meta .value": [
+  "Valor base",
+  "63 por ciento de prima",
+  "El esfuerzo mismo",
+  "Se sentía de la fábrica",
+  "Se sentía del repostero",
+  "Un paso real basta",
+  "Prima completa",
+  "Sin prima",
+  "Hacer alcanzable el final",
+  "Configuración y onboarding",
+  "Nombrarlo, moldearlo, ubicarlo",
+  "Retención y perdón",
+  "Pocos pasos con consecuencias",
+  "Muchos pasos huecos",
+  "¿Extrañarían el paso?",
+  "Listas · tableros · vistas",
+  "El trabajo guardado sube el costo de salida",
+  "Honestamente, por utilidad",
+  "Escribir · elegir · editar",
+  "Hacer visible la autoría",
+  "Resultado desechable",
+  "Resultado propio"
+ ],
+ ".ai-divider h3": [
+  "El efecto IKEA en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Cuando un modelo puede construirlo todo con un clic, el esfuerzo desaparece — y con él, el cariño. El oficio ahora es decidir qué huevo sigue cascando el usuario."
+ ]
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en" data-page="conway"><head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
+<meta name="description" content="Melvin Conway&#x27;s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too.">
+<title>Conway’s Law: Why Products Mirror Org Charts — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/conways-law.html">
+<meta property="og:title" content="Conway&#x27;s Law: Why Products Mirror Org Charts — UX Guidelines">
+<meta property="og:description" content="Melvin Conway&#x27;s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/conways-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Conway&#x27;s Law: Why Products Mirror Org Charts — UX Guidelines">
+<meta name="twitter:description" content="Melvin Conway&#x27;s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+:root{--bg:#ffffff;--surface:#f4f4f4;--demo-bg:#ececec;--border:#e2e2e2;--ink:#111111;--muted:#6b6b6b;--ai:#0d9488}.law-feature .formula-box .quote{font-size: var(--fs-feature);font-weight:500;line-height: var(--lh-base);color: var(--text-primary);text-align:center;max-width:540px}.law-feature .formula-box .quote em{font-style:italic;font-weight:600}@media(max-width:800px){.law-feature{grid-template-columns:1fr;padding:32px 20px;gap:24px}.law-feature .formula-box{padding:28px 20px}}.demo{width:100%;aspect-ratio: 16 / 10; height: auto;background:var(--bg);border:1.5px solid var(--border);border-radius:14px;padding: 44px 28px 22px;position:relative;overflow:hidden;margin-bottom:24px;order:-1;display:flex;flex-direction:column}.demo::before{content:"";position:absolute;top:0;left:0;right:0;height:30px;background:radial-gradient(circle at 20.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 44.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 68.5px 15px,#9a9a9a 6.5px,transparent 7px),#ececec;border-bottom:1.5px solid var(--border);z-index:1}.demo::after{content:"";position:absolute;top:8.5px;left:92px;right:14px;height:13px;background:rgba(107,107,107,0.22);border-radius:6.5px;z-index:2}.demo-label{position:absolute;top:40px;left:28px;z-index:3;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500}@media(max-width:600px){header{padding:32px 20px 28px}footer{padding:20px;flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset}.ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px}.ai-divider p{margin-left:0;text-align:left}}
+
+  /* Conway illustrations */
+  .cw { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; }
+  .cw svg { width: 100%; height: 100%; display: block; }
+  .cw .node { fill: var(--skel); opacity: 0.7; }
+  .cw .node.hot { fill: var(--il-accent); opacity: 1; }
+  .cw .blk { fill: var(--skel); opacity: 0.5; }
+  .cw .blk.hot { fill: var(--il-accent); opacity: 0.25; }
+  .cw .edge { stroke: var(--skel); stroke-width: 2; opacity: 0.5; fill: none; }
+  .cw .edge.hot { stroke: var(--il-accent); opacity: 1; stroke-width: 3; }
+  .cw .edge.dashed { stroke-dasharray: 4 5; }
+  .cw .arrow { stroke: var(--il-accent); stroke-width: 4; stroke-linecap: round; fill: none; }
+</style><script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+<nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true"><button class="menu-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+<div class="menu-label">Navigate</div>
+<div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link active">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+<h1>Conway’s <em>Law</em></h1>
+<p class="tagline">Any organization that designs a system produces a design that <em>copies the org chart</em>.</p>
+<p class="subtitle">Melvin Conway’s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/Melvin_Conway" target="_blank" rel="noopener">Melvin Conway</a> is an American computer scientist. In his 1968 paper How Do Committees Invent? he observed that organizations produce designs that copy their own communication structures — an observation <a href="https://en.wikipedia.org/wiki/Fred_Brooks" target="_blank" rel="noopener">Fred Brooks</a> later named Conway’s Law.</p>
+    <p class="body-text">Conway earned degrees in physics and mathematics before building compilers and operating systems in the 1960s. Harvard Business Review rejected the paper for lack of evidence; decades of software research since — including studies at Microsoft and MIT — have confirmed the mirroring effect empirically.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">The shape of a product follows the shape of the team that built it. Splits in the team turn into splits in the architecture. Smooth coordination in the org turns into clean transitions in the UX. The org chart is a longer, quieter spec than anything in the PRD.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-melvin-conway">Melvin Conway</a> (1967)</div></div>
+      <div><div class="label">Source</div><div class="value">How Do Committees Invent?</div></div>
+      <div><div class="label">In practice</div><div class="value">Structure teams like the product you want</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+<article class="card"><div class="card-header"><span class="tag">Definition</span><h3>Organizations Ship Their Org Chart</h3><p class="desc">The seams in your product are the seams in your team. The hand-offs in your team are the hand-offs in your code. The model still holds half a century after Conway wrote it because the underlying mechanism — humans coordinate through the channels their org gives them — hasn’t changed.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node" cx="100" cy="45" r="16"/><circle class="node" cx="190" cy="45" r="16"/><circle class="node" cx="280" cy="45" r="16"/>
+   <line class="edge" x1="116" y1="45" x2="174" y2="45"/><line class="edge" x1="206" y1="45" x2="264" y2="45"/>
+   <line class="edge dashed" x1="100" y1="65" x2="100" y2="115"/><line class="edge dashed" x1="190" y1="65" x2="190" y2="115"/><line class="edge dashed" x1="280" y1="65" x2="280" y2="115"/>
+   <rect class="blk" x="60" y="120" width="80" height="60" rx="8"/><rect class="blk" x="150" y="120" width="80" height="60" rx="8"/><rect class="blk" x="240" y="120" width="80" height="60" rx="8"/></svg></div></div>
+<div class="meta"><div><div class="label">Coined by</div><div class="value"><a href="people.html#p-melvin-conway">Melvin Conway</a>, 1967</div></div><div><div class="label">Field</div><div class="value">Programming → everywhere</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Mirror</span><h3>The Microservices Mirror</h3><p class="desc">Why is your monolith hard to split? Because the team is one team. Why are the microservices hard to merge? Because the teams are four teams. Conway’s law shows up most clearly in service architecture: the boundaries you carved in the code mirror the ones the org chart drew years ago.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node" cx="70" cy="40" r="13"/><circle class="node" cx="150" cy="40" r="13"/><circle class="node" cx="230" cy="40" r="13"/><circle class="node" cx="310" cy="40" r="13"/>
+   <line class="edge dashed" x1="70" y1="58" x2="70" y2="118"/><line class="edge dashed" x1="150" y1="58" x2="150" y2="118"/><line class="edge dashed" x1="230" y1="58" x2="230" y2="118"/><line class="edge dashed" x1="310" y1="58" x2="310" y2="118"/>
+   <rect class="blk" x="40" y="122" width="60" height="58" rx="8"/><rect class="blk" x="120" y="122" width="60" height="58" rx="8"/><rect class="blk" x="200" y="122" width="60" height="58" rx="8"/><rect class="blk" x="280" y="122" width="60" height="58" rx="8"/></svg></div></div>
+<div class="meta"><div><div class="label">Example</div><div class="value">Microservices ↔ teams</div></div><div><div class="label">Symptom</div><div class="value">Splits and merges are slow</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Tactic</span><h3>The Inverse Conway Maneuver</h3><p class="desc">Want a particular architecture? Build the org that would produce it. Want a clean monolith with a strong shared domain model? One team. Want independent platform services? Independent teams with independent on-call. Designing the team first is cheaper than fighting Conway later.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <rect class="blk hot" x="70" y="20" width="240" height="52" rx="8"/>
+   <rect class="blk" x="86" y="34" width="60" height="24" rx="5"/><rect class="blk" x="160" y="34" width="60" height="24" rx="5"/><rect class="blk" x="234" y="34" width="60" height="24" rx="5"/>
+   <path class="arrow" d="M190 86 L190 116"/><path class="arrow" d="M182 108 L190 118 L198 108"/>
+   <circle class="node hot" cx="116" cy="160" r="16"/><circle class="node hot" cx="190" cy="160" r="16"/><circle class="node hot" cx="264" cy="160" r="16"/>
+   <line class="edge" x1="132" y1="160" x2="174" y2="160"/><line class="edge" x1="206" y1="160" x2="248" y2="160"/></svg></div></div>
+<div class="meta"><div><div class="label">Name</div><div class="value">Inverse Conway maneuver</div></div><div><div class="label">Move</div><div class="value">Design the team first</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Pattern</span><h3>Team Topologies</h3><p class="desc">Skelton and Pais’s 2019 book makes the rule operational. Four team types — stream-aligned, enabling, complicated-subsystem, platform — and three interaction modes. It’s Conway turned into an actual playbook you can run.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <rect class="blk hot" x="30" y="30" width="320" height="34" rx="8"/>
+   <rect class="blk" x="30" y="76" width="150" height="46" rx="8"/>
+   <rect class="blk" x="200" y="76" width="150" height="46" rx="8"/>
+   <rect class="blk" x="30" y="134" width="320" height="34" rx="8" style="opacity:0.5"/></svg></div></div>
+<div class="meta"><div><div class="label">Book</div><div class="value">Team Topologies, 2019</div></div><div><div class="label">Authors</div><div class="value">Skelton and Pais</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Daily</span><h3>Conway in Design Reviews</h3><p class="desc">It shows up in design too. A settings page owned by four teams reads like four pages. A checkout co-owned by mobile and web has subtle behavior drift no spec will fix. When a review surfaces those seams, ask who owns the seam. If no one does, that is the bug.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="none">
+   <rect class="blk" x="30" y="30" width="150" height="150" rx="8"/>
+   <rect class="blk" x="200" y="46" width="150" height="150" rx="8" style="opacity:0.25"/>
+   <line class="edge hot dashed" x1="190" y1="20" x2="190" y2="195"/></svg></div></div>
+<div class="meta"><div><div class="label">Read for</div><div class="value">Seam ownership</div></div><div><div class="label">If no owner</div><div class="value">That is the bug</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Sibling law</span><h3>Communication Overhead</h3><p class="desc">Brooks’s Law follows from Conway: adding people to a late project makes it later because the new edges of the communication graph cost more than the new throughput. Conway tells you the org shape that ships; Brooks tells you the cost of changing it midstream.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node" cx="60" cy="60" r="11"/><circle class="node" cx="130" cy="60" r="11"/><circle class="node" cx="95" cy="130" r="11"/>
+   <line class="edge" x1="71" y1="60" x2="119" y2="60"/><line class="edge" x1="65" y1="70" x2="90" y2="120"/><line class="edge" x1="125" y1="70" x2="100" y2="120"/>
+   <circle class="node" cx="250" cy="40" r="11"/><circle class="node" cx="320" cy="40" r="11"/><circle class="node" cx="225" cy="105" r="11"/><circle class="node" cx="345" cy="105" r="11"/><circle class="node" cx="250" cy="170" r="11"/><circle class="node" cx="320" cy="170" r="11"/>
+   <line class="edge" x1="261" y1="40" x2="309" y2="40"/><line class="edge" x1="243" y1="49" x2="230" y2="94"/><line class="edge" x1="327" y1="49" x2="341" y2="94"/><line class="edge" x1="236" y1="105" x2="334" y2="105"/><line class="edge" x1="230" y1="115" x2="245" y2="160"/><line class="edge" x1="340" y1="115" x2="325" y2="160"/><line class="edge" x1="261" y1="170" x2="309" y2="170"/><line class="edge" x1="258" y1="49" x2="318" y2="161"/><line class="edge" x1="312" y1="49" x2="252" y2="161"/><line class="edge" x1="234" y1="97" x2="313" y2="47"/><line class="edge" x1="336" y1="97" x2="257" y2="47"/><line class="edge" x1="234" y1="113" x2="312" y2="163"/><line class="edge" x1="336" y1="113" x2="258" y2="163"/></svg></div></div>
+<div class="meta"><div><div class="label">Brooks’s Law</div><div class="value">Adds slow you down</div></div><div><div class="label">Math</div><div class="value">n(n-1)/2 edges</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Two-pizza</span><h3>Small Teams, Tight Loops</h3><p class="desc">Amazon’s two-pizza team rule is Conway turned into a metric: if a team cannot be fed by two pizzas, it is too big to ship cleanly. Small teams own narrow services, communicate fast inside, slowly across — and the product picks up exactly that grain.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node hot" cx="70" cy="80" r="13"/><circle class="node hot" cx="130" cy="60" r="13"/><circle class="node hot" cx="120" cy="130" r="13"/>
+   <line class="edge hot" x1="82" y1="75" x2="118" y2="64"/><line class="edge hot" x1="78" y1="90" x2="110" y2="122"/><line class="edge hot" x1="128" y1="73" x2="122" y2="117"/>
+   <line class="edge dashed" x1="145" y1="95" x2="235" y2="95"/>
+   <circle class="node hot" cx="260" cy="80" r="13"/><circle class="node hot" cx="320" cy="60" r="13"/><circle class="node hot" cx="310" cy="130" r="13"/>
+   <line class="edge hot" x1="272" y1="75" x2="308" y2="64"/><line class="edge hot" x1="268" y1="90" x2="300" y2="122"/><line class="edge hot" x1="318" y1="73" x2="312" y2="117"/></svg></div></div>
+<div class="meta"><div><div class="label">Amazon rule</div><div class="value">Two-pizza team</div></div><div><div class="label">Effect</div><div class="value">Sharp service boundaries</div></div></div>
+</article>
+
+<article class="card"><div class="card-header"><span class="tag">Caution</span><h3>Re-Orgs Ship as Re-Designs</h3><p class="desc">Conway runs both directions. If you re-organize the company, expect the product to drift toward the new shape — slowly, sometimes silently, but reliably. A re-org is a design decision in disguise. The org chart is the longest spec in the company.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <rect class="blk" x="30" y="40" width="60" height="40" rx="6"/><rect class="blk" x="30" y="90" width="60" height="80" rx="6"/><rect class="blk" x="100" y="40" width="60" height="130" rx="6"/>
+   <path class="arrow" d="M180 105 L212 105"/><path class="arrow" d="M204 97 L214 105 L204 113"/>
+   <rect class="blk hot" x="232" y="40" width="118" height="50" rx="6"/><rect class="blk hot" x="232" y="100" width="55" height="70" rx="6"/><rect class="blk hot" x="295" y="100" width="55" height="70" rx="6"/></svg></div></div>
+<div class="meta"><div><div class="label">Rule both ways</div><div class="value">Org ↔ product</div></div><div><div class="label">Spec</div><div class="value">The org chart</div></div></div>
+</article>
+
+<div class="ai-divider"><span class="spark">✦</span><h3>Conway’s Law in the Age of AI</h3><p>AI shifts where the communication happens — and that quietly shifts the org chart, then the product.</p></div>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>AI Lowers Coordination Cost</h3><p class="desc">Models can carry cross-team context the humans could not. Code review across services, design review across surfaces, support across teams — all become tractable for smaller orgs. Conway’s law is not repealed, but the cost of a wider team graph drops, and product shapes that used to require many teams become accessible to fewer.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node hot" cx="190" cy="105" r="18"/>
+   <circle class="node" cx="80" cy="45" r="12"/><circle class="node" cx="300" cy="45" r="12"/><circle class="node" cx="60" cy="150" r="12"/><circle class="node" cx="320" cy="150" r="12"/><circle class="node" cx="190" cy="30" r="12"/>
+   <line class="edge hot" x1="92" y1="52" x2="174" y2="97"/><line class="edge hot" x1="288" y1="52" x2="206" y2="97"/><line class="edge hot" x1="74" y1="143" x2="173" y2="112"/><line class="edge hot" x1="306" y1="143" x2="207" y2="112"/><line class="edge hot" x1="190" y1="42" x2="190" y2="87"/></svg></div></div>
+<div class="meta"><div><div class="label">Effect</div><div class="value">Wider graphs are cheaper</div></div><div><div class="label">Watch for</div><div class="value">Drift in product shape</div></div><div class="related"><span class="related-label">Related</span><a href="wcag-pour.html">WCAG and POUR</a></div></div>
+  </article>
+
+<article class="card"><div class="card-header"><span class="tag ai-tag">✦ AI Era</span><h3>The Assistant Becomes a Team Member</h3><p class="desc">Conway’s law assumes the nodes are human. Models are nodes now too — they generate code, write specs, run tests. Whatever communication path the assistant sits on becomes part of the org graph, and product seams form around it. A team of three plus a model is not the same team as a team of three.</p></div>
+<div class="demo"><div class="cw"><svg viewBox="0 0 380 210" preserveAspectRatio="xMidYMid meet">
+   <circle class="node" cx="90" cy="105" r="16"/><circle class="node" cx="160" cy="105" r="16"/><circle class="node hot" cx="230" cy="105" r="16"/><circle class="node" cx="300" cy="105" r="16"/>
+   <line class="edge" x1="106" y1="105" x2="144" y2="105"/><line class="edge hot" x1="176" y1="105" x2="214" y2="105"/><line class="edge hot" x1="246" y1="105" x2="284" y2="105"/></svg></div></div>
+<div class="meta"><div><div class="label">Read</div><div class="value">Assistant as a node</div></div><div><div class="label">Watch for</div><div class="value">Invisible team member</div></div></div>
+</article>
+
+</main>
+
+<section class="references">
+<div class="ref-label">Further Reading</div>
+<div class="ref-groups">
+<div class="ref-group"><h3 class="label ref-source-label">Original</h3>
+<ul class="ref-list">
+<li><a href="https://www.melconway.com/Home/Committees_Paper.html" target="_blank" rel="noopener"><span class="title">Conway’s 1968 paper — How Do Committees Invent?</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conway%27s_law" target="_blank" rel="noopener"><span class="title">Conway’s Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+<div class="ref-group"><h3 class="label ref-source-label">Related</h3>
+<ul class="ref-list">
+<li><a href="https://teamtopologies.com/" target="_blank" rel="noopener"><span class="title">Team Topologies</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Brooks%27s_law" target="_blank" rel="noopener"><span class="title">Brooks’s Law — Wikipedia</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+</ul></div>
+</div></section>
+
+<footer><div class="copyright">© UX Guidelines · Conway’s Law</div><div class="meta-info">Conway, 1967</div></footer>
+
+<script>(()=>{const h=document.querySelector('.hamburger'),o=document.getElementById('menu-overlay'),p=document.getElementById('menu-panel'),c=document.querySelector('.menu-close');if(!h||!o||!p||!c)return;const open=()=>{p.classList.add('open');o.classList.add('open');h.setAttribute('aria-expanded','true');p.setAttribute('aria-hidden','false');};const close=()=>{p.classList.remove('open');o.classList.remove('open');h.setAttribute('aria-expanded','false');p.setAttribute('aria-hidden','true');};h.addEventListener('click',open);c.addEventListener('click',close);o.addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});})();</script>
+
+</body></html>

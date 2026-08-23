@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Uncanny <em>Valley</em>"
+ ],
+ "header .tagline": [
+  "Fast menschlich ist schlimmer als eindeutig künstlich."
+ ],
+ "header .subtitle": [
+  "Masahiro Mori beobachtete 1970, dass die Zuneigung zu einer menschenähnlichen Figur mit dem Realismus wächst — und kurz vor der Perfektion in Unbehagen abstürzt. Das Tal verschluckt heute auch Stimmen und Texte, nicht nur Gesichter."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Masahiro_Mori_(roboticist)\" target=\"_blank\" rel=\"noopener\">Masahiro Mori</a> war Robotik-Professor am Tokyo Institute of Technology. In einem kurzen Essay von 1970, „Bukimi no Tani Genshō“, skizzierte er eine Kurve: Je menschenähnlicher Roboter werden, desto größer unsere Zuneigung — bis sie kurz vor völliger Menschenähnlichkeit in Abscheu umschlägt.",
+  "Der Essay blieb jahrzehntelang weitgehend unbeachtet, dann marschierten Computergrafik und humanoide Roboter geradewegs in die von ihm vorhergesagte Senke. IEEE Spectrum veröffentlichte 2012 die erste autorisierte Übersetzung, und das Uncanny Valley wurde zu einer der meistzitierten Ideen in Robotik, Animation und Interface-Design."
+ ],
+ ".law-content .law-desc": [
+  "Je menschenähnlicher eine Figur wird, desto positiver die emotionale Reaktion — bis nahe der völligen Menschenähnlichkeit kleine Fehler einen steilen Absturz ins Unbehagen auslösen. Bewegung vertieft die Gipfel wie das Tal."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-masahiro-mori\">Masahiro Mori</a> (1970)",
+  "„Bukimi no Tani“, Zeitschrift Energy",
+  "Stilisieren oder perfektionieren — nie fast"
+ ],
+ ".card .tag": [
+  "Die Kurve",
+  "Bewegung",
+  "Design",
+  "Gesichter",
+  "Warum",
+  "Praxis",
+  "Im KI-Zeitalter",
+  "Im KI-Zeitalter"
+ ],
+ ".card h3": [
+  "Die Form des Tals",
+  "Bewegung vertieft das Tal",
+  "Stilisieren oder perfektionieren",
+  "Gesichter, Avatare und CGI",
+  "Warum es passiert",
+  "Um das Tal herum entwerfen",
+  "Das Stimmen-Tal",
+  "Das Text-Tal"
+ ],
+ ".card .desc": [
+  "Die Zuneigung steigt, je menschenähnlicher eine Figur wird — ein Spielzeugroboter schlägt einen Industriearm. Doch kurz vor der Perfektion stürzt die Kurve ab: Die Figur wirkt nicht mehr wie eine charmante Maschine, sondern wie ein falscher Mensch.",
+  "Moris zweite Beobachtung: Bewegung verstärkt alles. Eine stille, leicht falsche Figur ist unheimlich; dieselbe Figur in Bewegung — mit toten Augen oder falsch getakteten Gesten — ist weit schlimmer. Animation hebt die Gipfel und gräbt das Tal tiefer.",
+  "Das Tal hat zwei sichere Ufer. Bewusste Stilisierung — Pixar-Gesichter, Cartoon-Maskottchen, offensichtliche Roboter — sitzt glücklich am nahen Ufer. Makelloser Realismus am fernen. Der teure Fehler ist, dazwischen stehenzubleiben.",
+  "Das Publikum zuckte vor den fast menschlichen Gesichtern früher CGI-Filme zurück und liebte zugleich die stilisierten. Produkt-Avatare folgen derselben Regel: Eine freundliche illustrierte Figur schlägt ein fotorealistisches Gesicht, das ein wenig falsch blinzelt.",
+  "Die führenden Erklärungen sind sich beim Mechanismus einig: Eine fast menschliche Figur lässt das Gehirn einen Menschen erwarten, und jede feine Abweichung — Haut, Blick, Rhythmus — ist ein Vorhersagefehler. Die Figur wird als defekter Mensch beurteilt, nicht als beeindruckende Maschine.",
+  "Wählen Sie ein Ufer, bevor Sie bauen. Setzen Sie Erwartungen früh — eine Maschine, die sich als Maschine zu erkennen gibt, wird als solche beurteilt. Und wenn Realismus das Ziel ist, budgetieren Sie die letzten fünf Prozent: Dort wohnt das Tal.",
+  "Synthetische Stimmen mit menschlichen Füllern — Atem, „ähm“, warmes Zögern — lösten denselben Rückzug aus wie fast menschliche Gesichter: Die Menschen fühlten sich getäuscht, nicht bezaubert. Eine fähige, ehrlich synthetische Stimme sitzt sicher am nahen Ufer.",
+  "Auch KI-Prosa fällt ins Tal: generische Wärme, abgesicherte Symmetrie, Empathie ohne jemanden dahinter. Leser spüren den fast menschlichen Rhythmus, bevor sie ihn benennen können. Ehrlich maschinell unterstütztes Schreiben liest sich besser als die Imitation einer Person."
+ ],
+ ".meta .label": [
+  "X-Achse",
+  "Y-Achse",
+  "Die Senke",
+  "Still",
+  "In Bewegung",
+  "Achten auf",
+  "Nahes Ufer",
+  "Fernes Ufer",
+  "Die Mitte",
+  "Geliebt",
+  "Gemieden",
+  "Regel",
+  "Erwartung",
+  "Wahrnehmung",
+  "Ergebnis",
+  "Entscheiden",
+  "Erklären",
+  "Budgetieren",
+  "Gegenreaktion",
+  "Gegenmittel",
+  "Verräter",
+  "Gegenmittel"
+ ],
+ ".meta .value": [
+  "Menschenähnlichkeit",
+  "Zuneigung",
+  "Fast — aber nicht ganz",
+  "Flache Senke",
+  "Tiefe Senke",
+  "Zuerst Augen und Timing",
+  "Ehrliche Stilisierung",
+  "Makelloser Realismus",
+  "Wo Budgets sterben",
+  "Stilisierte Figuren",
+  "Fast menschliche Gesichter",
+  "Charme schlägt Genauigkeit",
+  "Ein Mensch",
+  "Fast ein Mensch",
+  "Vorhersagefehler wirkt falsch",
+  "Welches Ufer, von Anfang an",
+  "Maschine als Maschine",
+  "Die letzten fünf Prozent",
+  "Gefühl der Täuschung",
+  "Die Maschine offenlegen",
+  "Fast richtiger Rhythmus",
+  "Ehrliche Maschinenstimme"
+ ],
+ ".ai-divider h3": [
+  "Das Uncanny Valley im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Mori zeichnete die Kurve für Gesichter und Körper. Die KI trug sie in neues Gelände: Stimmen, die fast richtig atmen, und Prosa, die fast — aber nicht ganz — wie von einem Menschen klingt."
+ ]
+}

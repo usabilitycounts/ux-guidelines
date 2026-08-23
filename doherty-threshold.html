@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" data-page="doherty">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Walter Doherty and Ahrvind Thadani&#x27;s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by.">
+<title>Doherty Threshold: Response Time Under 400 Milliseconds — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/doherty-threshold.html">
+<meta property="og:title" content="Doherty Threshold: Response Time Under 400 Milliseconds — UX Guidelines">
+<meta property="og:description" content="Walter Doherty and Ahrvind Thadani&#x27;s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/doherty-threshold.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Doherty Threshold: Response Time Under 400 Milliseconds — UX Guidelines">
+<meta name="twitter:description" content="Walter Doherty and Ahrvind Thadani&#x27;s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by.">
+<link rel="stylesheet" href="tokens.css?v=66">
+<style>
+
+</style>
+<script defer src="tokens.js?v=49"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <div class="menu-label">Navigate</div>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label">Lay Out The Page</summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Present And Explain</summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Structure The Choices</summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link active">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Build The System</summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Doherty <em>Threshold</em></h1>
+  <p class="tagline">Under 400 milliseconds, work becomes a conversation.</p>
+  <p class="subtitle">Walter Doherty and Ahrvind Thadani’s 1982 IBM research: when a system responds in under 400 milliseconds, productivity soars — the user and the computer stay in the same train of thought. Paired here with the classic response-time limits every interface still lives by.</p>
+</header>
+
+<section class="law-feature">
+  <div class="law-formula">
+    <div class="law-formula-eq">Threshold ≈ 400 ms</div>
+    <div class="law-formula-note">the response time under which attention, flow, and productivity hold.</div>
+  </div>
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Walter J. Doherty and Ahrvind J. Thadani were IBM researchers studying the economics of interactive computing. Their 1982 paper, The Economic Value of Rapid Response Time, overturned the era’s assumption that two-second responses were good enough — productivity rose sharply as responses dropped below 400 milliseconds.</p>
+    <p class="body-text">The finding reframed system speed as an economic argument: faster machines paid for themselves in recovered human attention. Decades later the same threshold shows up in web performance budgets, and <a href="https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)" target="_blank" rel="noopener">Jakob Nielsen</a>’s response-time limits carry the framework forward.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Threshold</div>
+    <p class="body-text law-desc">Productivity soars when a computer and its users interact at a pace — under 400 milliseconds — that ensures neither has to wait on the other. Below the threshold, work feels like a conversation; above it, each pause breaks the user’s train of thought and errors climb.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-walter-j-doherty">Doherty</a> and <a href="people.html#p-ahrvind-thadani">Thadani</a> (1982)</div></div>
+      <div><div class="label">Source</div><div class="value">The Economic Value of Rapid Response Time</div></div>
+      <div><div class="label">In practice</div><div class="value">Respond or acknowledge fast</div></div>
+    </div>
+  </div>
+</section>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The line</span>
+      <span class="num">01 / 08</span>
+      <h3>The 400 Millisecond Line</h3>
+      <p class="desc">Doherty and Thadani measured transactions per hour as response time fell. The curve isn’t linear — under 400ms, users stop batching their thinking around the machine’s pauses and productivity jumps.</p>
+    </div>
+    <div class="demo"><div class="il"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><line x1="76" y1="8" x2="76" y2="112" stroke="var(--il-accent)" stroke-width="3" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M12,20 C 40,26 60,38 76,58 C 110,92 160,102 188,106" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
+    <div class="meta">
+      <div><div class="label">Threshold</div><div class="value">About 400 ms</div></div>
+      <div><div class="label">Below it</div><div class="value">Flow and momentum</div></div>
+      <div><div class="label">Above it</div><div class="value">Broken attention</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Companion</span>
+      <span class="num">02 / 08</span>
+      <h3>The Response Time Limits</h3>
+      <p class="desc"><a href="people.html#p-jakob-nielsen">Jakob Nielsen</a>’s three limits sit alongside Doherty’s threshold: 0.1 seconds feels instant, 1 second keeps the flow of thought, and 10 seconds is the outer edge of attention — past it, users switch tasks.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div class="row hot w-14"><i class="w-60"></i></div><div class="row w-44"><i class="w-40"></i></div><div class="row ghost w-92"></div></div></div>
+    <div class="meta">
+      <div><div class="label">0.1 s</div><div class="value">Feels instant</div></div>
+      <div><div class="label">1 s</div><div class="value">Flow survives</div></div>
+      <div><div class="label">10 s</div><div class="value">Attention is gone</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Perception</span>
+      <span class="num">03 / 08</span>
+      <h3>Feedback Beats Raw Speed</h3>
+      <p class="desc">When the system can’t answer in 400ms, it can still acknowledge in 400ms. Skeleton screens, pressed states, and instant local echo make a slow operation feel responsive — perceived speed is a design material.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row hot"><i class="w-38"></i><span class="chk"></span></div><span class="ln faint w-92"></span><span class="ln faint w-84"></span><span class="ln faint w-88"></span></div></div>
+    <div class="meta">
+      <div><div class="label">Rule</div><div class="value">Acknowledge instantly</div></div>
+      <div><div class="label">Tools</div><div class="value">Skeletons · pressed states</div></div>
+      <div><div class="label">Watch for</div><div class="value">Dead-air clicks</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Pattern</span>
+      <span class="num">04 / 08</span>
+      <h3>Optimistic UI</h3>
+      <p class="desc">Commit the change on screen before the network confirms it. The message appears in the thread, the toggle flips, the item files itself — and the system reconciles behind the scenes. The user never waits for a round trip.</p>
+    </div>
+    <div class="demo"><div class="il gap-8"><div class="row"><i class="w-30"></i></div><div class="row hot"><i class="w-36"></i><span class="chk"></span></div><div class="row"><i class="w-26"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Sends · toggles · saves</div></div>
+      <div><div class="label">Needs</div><div class="value">Graceful rollback</div></div>
+      <div><div class="label">Watch for</div><div class="value">Lying about failures</div></div>
+    <div class="related"><span class="related-label">Related</span><a href="tognazzinis-first-principles.html">Tognazzini’s First Principles</a></div></div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Cost</span>
+      <span class="num">05 / 08</span>
+      <h3>Latency Compounds</h3>
+      <p class="desc">No single delay kills a workflow — the accumulation does. A 700ms search, a 900ms filter, a 1.2s save: across a working day the pauses add up to broken concentration and batched, error-prone work.</p>
+    </div>
+    <div class="demo"><div class="il" style="gap:10px;padding:18px 30px"><div style="display:flex;gap:4px"><span style="height:14px;flex:1;border-radius:7px 0 0 7px;background:var(--skel);opacity:0.45;display:block"></span><span style="height:14px;flex:1.4;background:var(--skel);opacity:0.35;display:block"></span><span style="height:14px;flex:1.8;background:var(--skel);opacity:0.25;display:block"></span><span style="height:14px;flex:2.4;border-radius:0 7px 7px 0;background:var(--skel);opacity:0.15;display:block"></span></div><div style="display:flex;gap:4px"><span style="height:14px;width:22%;border-radius:7px;background:var(--il-accent);display:block"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users batch their work</div></div>
+      <div><div class="label">Fix</div><div class="value">Budget every interaction</div></div>
+      <div><div class="label">Target</div><div class="value">Under 400 ms each</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <span class="num">06 / 08</span>
+      <h3>Set a Performance Budget</h3>
+      <p class="desc">Treat 400ms the way you treat a visual spec. Give every interaction a budget, measure the slowest real-world path — not the demo machine — and spend engineering time where users actually wait.</p>
+    </div>
+    <div class="demo"><div class="il gap-9"><div class="meter"><i class="w-34"></i></div><div class="meter"><i class="w-58"></i></div><div class="meter" style="box-shadow:inset 0 0 0 2px rgba(56,189,248,0.4)"><i style="width:96%;background:var(--skel-strong);opacity:0.5"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Measure</div><div class="value">Real devices, real networks</div></div>
+      <div><div class="label">Budget</div><div class="value">Per interaction</div></div>
+      <div><div class="label">Spend on</div><div class="value">The slowest path</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Doherty Threshold in the Age of AI</h3>
+    <p>Models take seconds, not milliseconds. The threshold doesn’t bend — so the interface has to spend the wait honestly.</p>
+  </div>
+
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">07 / 08</span>
+      <h3>Streaming Beats the Spinner</h3>
+      <p class="desc">A model that takes eight seconds violates every limit on this page — unless it streams. Tokens appearing at reading speed keep the user inside the 400ms conversation even while the full answer is seconds away.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div class="bub w-80"><span class="l" style="width:94%;background:var(--il-accent);opacity:1"></span><span class="l" style="width:86%;background:var(--il-accent);opacity:0.65"></span><span class="l" style="width:48%;background:var(--il-accent);opacity:0.4"></span></div><div class="think"><b></b><b></b><b></b></div></div></div>
+    <div class="meta">
+      <div><div class="label">Pattern</div><div class="value">Stream, don’t spin</div></div>
+      <div><div class="label">Effect</div><div class="value">Wait feels like reading</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="card-header">
+      <span class="tag ai-tag">In the Age of AI</span>
+      <span class="num">08 / 08</span>
+      <h3>Acknowledge, Then Think</h3>
+      <p class="desc">The prompt should land instantly — echoed in the thread within 100ms — while the model works. The threshold governs the acknowledgment, not the answer. Dead air after a send is the one unforgivable AI latency.</p>
+    </div>
+    <div class="demo"><div class="il gap-10"><div class="bub me w-64"><span class="l w-82"></span></div><div class="think"><b></b><b></b><b></b></div><div class="chat-input"><span class="box"></span><span class="send"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Instant</div><div class="value">Echo the prompt</div></div>
+      <div><div class="label">Honest</div><div class="value">Show thinking state</div></div>
+    </div>
+  </article>
+
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Sources</h3>
+      <ul class="ref-list">
+        <li><a href="https://jlelliotton.blogspot.com/p/the-economic-value-of-rapid-response.html" target="_blank" rel="noopener"><span class="title">The Economic Value of Rapid Response Time — Doherty and Thadani</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/response-times-3-important-limits/" target="_blank" rel="noopener"><span class="title">Response Times: The 3 Important Limits — Nielsen Norman Group</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Laws of UX</h3>
+      <ul class="ref-list">
+        <li><a href="https://lawsofux.com/doherty-threshold/" target="_blank" rel="noopener"><span class="title">Doherty Threshold on Laws of UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Doherty Threshold</div>
+</footer>
+
+</body>
+</html>
