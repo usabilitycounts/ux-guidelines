@@ -266,6 +266,9 @@
       if (c) c.href = self;
       const og = document.querySelector('meta[property="og:url"]');
       if (og) og.content = self;
+      document.querySelectorAll('meta[property="og:image"], meta[name="twitter:image"]').forEach(el => {
+        el.content = el.content.replace('/og/en/', '/og/' + pm[1] + '/');
+      });
     }
   } catch (e) {}
   // Build the URL for a language on the current page (used by every switcher).
@@ -450,7 +453,7 @@
     scored.sort((a, b) => b[0] - a[0]);
     const top = scored.slice(0, 8);
     if (!top.length) { close(); return; }
-    results.style.top = Math.round(topnav.getBoundingClientRect().bottom) + 'px';
+    results.style.top = (Math.round(topnav.getBoundingClientRect().bottom) - 12) + 'px';
     results.innerHTML = '';
     top.forEach(([_, e]) => {
       const a = document.createElement('a');
@@ -480,7 +483,7 @@
     recent = recent.filter(r => r.u !== page).slice(0, 6);
     marks = marks.slice(0, 6);
     if (!recent.length && !marks.length) { close(); return; }
-    results.style.top = Math.round(topnav.getBoundingClientRect().bottom) + 'px';
+    results.style.top = (Math.round(topnav.getBoundingClientRect().bottom) - 12) + 'px';
     results.innerHTML = '';
     const group = (label, items) => {
       if (!items.length) return;

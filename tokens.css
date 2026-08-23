@@ -777,7 +777,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .law-formula-note { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); margin-top: 8px; max-width: 62ch; }
 @media (max-width: 800px) { .law-formula-eq { font-size: calc(var(--fs-body) * 1.5); } }
 
-.search-recent-label { font-size: 0.875rem; font-weight: 600; color: var(--text-faint); padding: 8px 12px 4px; }
+.search-recent-label { font-size: 1rem; font-weight: 600; color: var(--text-faint); padding: 8px 12px 4px; }
 
 .alpha-nav.stuck { border-bottom: 1px solid var(--border); }
 
