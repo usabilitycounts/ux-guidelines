@@ -69,12 +69,13 @@
   .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
   .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
   .home-main .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 44px; padding: 0; }
-  .home-main .card { display: flex; align-items: baseline; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
-  .home-main .card h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
-  .home-main .card:hover h3 { text-decoration: underline; }
-  .home-main .card .desc { display: none; }
-  .home-main .card .card-foot { display: none; }
-  .home-main .card .arrow { display: none; }
+  .home-main .card, .home-main .tcard { display: flex; align-items: baseline; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
+  .home-main .card h3, .home-main .tcard h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
+  .home-main .card:hover h3, .home-main .tcard:hover h3 { text-decoration: underline; }
+  .home-main .card .desc, .home-main .tcard .desc { display: none; }
+  .home-main .card .card-foot, .home-main .tcard .card-foot { display: none; }
+  .home-main .card .arrow, .home-main .tcard .arrow { display: none; }
+  .view-tabs { margin: 0 0 22px; }
 
   @media (max-width: 980px) {
     .home-layout { grid-template-columns: 1fr; gap: 32px; padding: 32px 20px 48px; }
@@ -108,7 +109,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=63"></script>
+<script defer src="tokens.js?v=65"></script>
 </head>
 <body>
 
@@ -226,7 +227,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </header>
 <script>
 (function () {
-  document.querySelectorAll('.lang-tabs').forEach(function (group) {
+  function setupTabGroup(group) {
     var ind = document.createElement('span');
     ind.className = 'tab-indicator';
     ind.setAttribute('aria-hidden', 'true');
@@ -251,7 +252,9 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     });
     window.addEventListener('resize', function () { place(false); });
     setTimeout(function () { place(false); }, 1400);
-  });
+  }
+  document.querySelectorAll('.lang-tabs').forEach(setupTabGroup);
+  window.__setupTabGroup = setupTabGroup;
 })();
 (function () {
   var cur = 'light';
@@ -284,7 +287,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     var m = location.search.match(/[?&]lang=([a-z]{2})\b/);
     cur = pm ? pm[1] : ((m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en'));
   } catch (e) {}
-  document.querySelectorAll('.lang-tab:not(.theme-tab)').forEach(function (b) {
+  document.querySelectorAll('.lang-tab[data-lang]').forEach(function (b) {
     var active = b.dataset.lang === cur;
     if (active) b.classList.add('active');
     b.setAttribute('aria-pressed', active ? 'true' : 'false');
@@ -355,6 +358,10 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       </a>
 </aside>
 <div class="home-main">
+<div class="lang-tabs view-tabs" aria-label="View">
+  <button type="button" class="lang-tab view-tab active" data-view="task">By Task</button>
+  <button type="button" class="lang-tab view-tab" data-view="type">By Type</button>
+</div>
 <section class="section">
   <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Lay Out The Page</h2></div>
   <div class="cards-grid">
@@ -765,5 +772,60 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <div class="meta-info">Updated 2026 · Research-backed · Open reference</div>
 </footer>
 
+<script>
+(function () {
+  var TYPE_GROUPS = [{"label": "Laws", "icon": "<path d=\"m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\"/><path d=\"m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z\"/><path d=\"M7 21h10\"/><path d=\"M12 3v18\"/><path d=\"M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2\"/>", "slugs": ["conways-law", "fitts-law", "galls-law", "goodharts-law", "hicks-law", "hofstadters-law", "jakobs-law", "millers-law", "postels-law", "power-law-of-practice", "steering-law", "teslers-law", "weber-fechner-law", "yerkes-dodson-law"]}, {"label": "Effects And Biases", "icon": "<path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/><path d=\"M20 3v4\"/><path d=\"M22 5h-4\"/><path d=\"M4 17v2\"/><path d=\"M5 18H3\"/>", "slugs": ["aesthetic-usability-effect", "automation-bias", "contour-bias", "curse-of-knowledge", "ikea-effect", "paradox-of-choice", "serial-position-effect", "uncanny-valley", "von-restorff-effect", "zeigarnik-effect"]}, {"label": "Principles", "icon": "<line x1=\"3\" x2=\"21\" y1=\"22\" y2=\"22\"/><line x1=\"6\" x2=\"6\" y1=\"18\" y2=\"11\"/><line x1=\"10\" x2=\"10\" y1=\"18\" y2=\"11\"/><line x1=\"14\" x2=\"14\" y1=\"18\" y2=\"11\"/><line x1=\"18\" x2=\"18\" y1=\"18\" y2=\"11\"/><polygon points=\"12 2 20 7 4 7\"/>", "slugs": ["chestertons-fence", "gestalt-principles", "gutenberg-principle", "normans-principles", "pareto-principle", "rams-principles", "tognazzinis-first-principles"]}, {"label": "Rules And Heuristics", "icon": "<rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\"/><path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\"/><path d=\"m9 14 2 2 4-4\"/>", "slugs": ["doherty-threshold", "nielsens-heuristics", "peak-end-rule", "shneiderman-eight-golden-rules"]}, {"label": "Models And Theories", "icon": "<path d=\"M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z\"/><path d=\"m3.3 7 8.7 5 8.7-5\"/><path d=\"M12 22V12\"/>", "slugs": ["cognitive-load-theory", "fogg-behavior-model", "hook-model"]}, {"label": "Guides And Patterns", "icon": "<path d=\"M14.106 5.553a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619v12.764a1 1 0 0 1-.553.894l-4.553 2.277a2 2 0 0 1-1.788 0l-4.212-2.106a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0z\"/><path d=\"M15 5.764v15\"/><path d=\"M9 3.236v15\"/>", "slugs": ["data-visualization", "eye-scanning-patterns", "grid-and-hierarchy", "navigation-patterns", "progressive-disclosure", "universal-icons", "wcag-pour"]}];
+  var main = document.querySelector('.home-main');
+  if (!main) return;
+  var taskSections = Array.prototype.slice.call(main.querySelectorAll(':scope > .section'));
+  var typeWrap = document.createElement('div');
+  typeWrap.className = 'home-type';
+  typeWrap.style.display = 'none';
+  main.appendChild(typeWrap);
+  function t(key) { return window.uxT ? window.uxT(key) : key; }
+  function build() {
+    typeWrap.innerHTML = '';
+    TYPE_GROUPS.forEach(function (g) {
+      var sec = document.createElement('section');
+      sec.className = 'section';
+      var head = document.createElement('div');
+      head.className = 'section-head';
+      head.innerHTML = '<svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + g.icon + '</svg>';
+      var h2 = document.createElement('h2');
+      h2.className = 'category-label';
+      h2.textContent = t(g.label);
+      head.appendChild(h2);
+      var grid = document.createElement('div');
+      grid.className = 'cards-grid';
+      g.slugs.forEach(function (slug) {
+        var orig = main.querySelector('.card[href="' + slug + '.html"]');
+        if (!orig) return;
+        var c = orig.cloneNode(true);
+        c.setAttribute('class', 'tcard');
+        grid.appendChild(c);
+      });
+      sec.appendChild(head);
+      sec.appendChild(grid);
+      typeWrap.appendChild(sec);
+    });
+  }
+  function setView(v) {
+    var byType = v === 'type';
+    if (byType) build();
+    taskSections.forEach(function (sec) { sec.style.display = byType ? 'none' : ''; });
+    typeWrap.style.display = byType ? '' : 'none';
+    try { localStorage.setItem('ux-home-view', v); } catch (e) {}
+  }
+  var group = document.querySelector('.view-tabs');
+  var saved = 'task';
+  try { saved = localStorage.getItem('ux-home-view') === 'type' ? 'type' : 'task'; } catch (e) {}
+  group.querySelectorAll('.view-tab').forEach(function (b) {
+    b.classList.toggle('active', b.dataset.view === saved);
+    b.addEventListener('click', function () { setView(b.dataset.view); });
+  });
+  if (saved === 'type') { setView('type'); setTimeout(build, 1600); }
+  if (window.__setupTabGroup) window.__setupTabGroup(group);
+})();
+</script>
 </body>
 </html>
