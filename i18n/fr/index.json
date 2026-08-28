@@ -6,12 +6,6 @@
   "Une bibliothèque grandissante de 45 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
-  "10 principes",
-  "10 applications",
-  "10 applications",
-  "+ Ère de l'IA",
-  "6 schémas",
-  "6 leçons",
   "6 schémas",
   "4 quadrants",
   "10 systèmes",
@@ -59,12 +53,6 @@
   "6 règles"
  ],
  ".card h3": [
-  "Les 10 heuristiques de Nielsen",
-  "Loi de Fitts",
-  "Loi de Hick",
-  "Loi de Jakob",
-  "Schémas de lecture visuelle",
-  "Effet esthétique-utilisabilité",
   "Schémas de lecture visuelle",
   "Principe de Gutenberg",
   "Grille et hiérarchie",
@@ -112,12 +100,6 @@
   "La clôture de Chesterton"
  ],
  ".card .desc": [
-  "Dix principes d'utilisabilité — la référence.",
-  "Grandes cibles proches, action rapide.",
-  "Plus de choix, décision plus lente.",
-  "Votre site doit fonctionner comme les autres.",
-  "Six formes de lecture issues de l'eye-tracking.",
-  "Le beau semble plus facile à utiliser.",
   "Six formes de lecture issues de l'eye-tracking.",
   "La gravité de lecture descend vers la droite.",
   "La grille organise, la hiérarchie guide.",

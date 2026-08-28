@@ -424,7 +424,7 @@
   };
   const loadOverlay = () => {
     const page = (location.pathname.split('/').pop() || 'index.html').replace('.html', '') || 'index';
-    fetch('i18n/' + lang + '/' + page + '.json?v=17')
+    fetch('i18n/' + lang + '/' + page + '.json?v=18')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});
