@@ -956,3 +956,10 @@ html.has-scroller .topnav { flex: 0 0 auto; }
 
 /* ---------- Long translated words never overflow narrow columns ---------- */
 .home-main .card h3, .footer-col a, .menu-link, .card h3 { overflow-wrap: break-word; hyphens: auto; }
+
+/* copy-illustration button */
+.il-copy { position: absolute; top: 8px; right: 8px; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; border: 0; border-radius: 6px; background: var(--bg); color: var(--text-secondary); cursor: pointer; opacity: 0; transition: opacity 0.12s ease; box-shadow: var(--shadow-lift); z-index: 2; }
+.demo:hover .il-copy, .il-copy:focus-visible { opacity: 1; }
+.il-copy:hover { color: var(--text-primary); }
+.il-copy svg { width: 15px; height: 15px; }
+@media (hover: none) { .il-copy { opacity: 1; } }

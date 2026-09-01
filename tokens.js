@@ -279,7 +279,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=37';
+  s.src = 'i18n.js?v=38';
   document.head.appendChild(s);
 })();
 
@@ -759,4 +759,184 @@
     document.addEventListener('click', e => { if (!panel.contains(e.target) && !wrap.contains(e.target)) close(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
   }
+})();
+
+// ---- copy illustration as SVG ----
+(function () {
+  var demos = document.querySelectorAll('.card .demo');
+  if (!demos.length) return;
+  function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function slug(s) { return s.toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+  function num(v) { return Math.round(v * 100) / 100; }
+  function alpha(c) {
+    if (!c || c === 'transparent' || c === 'none') return 0;
+    var m = c.match(/rgba?\(([^)]+)\)/);
+    if (!m) return 1;
+    var p = m[1].split(',');
+    return p.length === 4 ? parseFloat(p[3]) : 1;
+  }
+  function vis(cs) { return cs.display !== 'none' && cs.visibility !== 'hidden' && parseFloat(cs.opacity) > 0; }
+  function shapeName(el) {
+    var cls = (el.getAttribute && el.getAttribute('class') || '').split(/\s+/).filter(function (c) { return c && c.indexOf('il-') !== 0; });
+    return cls.length ? ' data-name="' + esc(cls.join(' ')) + '"' : '';
+  }
+  function groupOpen(cs, x, y) {
+    if (!cs.transform || cs.transform === 'none') return null;
+    var o = cs.transformOrigin.split(' ');
+    var ox = num(x + parseFloat(o[0])), oy = num(y + parseFloat(o[1]));
+    var m = cs.transform.replace(/,/g, ' ');
+    return '<g transform="translate(' + ox + ' ' + oy + ') ' + m + ' translate(' + -ox + ' ' + -oy + ')">';
+  }
+  function boxShape(cs, x, y, w, h, name) {
+    var fill = alpha(cs.backgroundColor) > 0 ? cs.backgroundColor : 'none';
+    var bw = parseFloat(cs.borderTopWidth) || 0;
+    var stroke = (bw > 0 && cs.borderTopStyle !== 'none' && alpha(cs.borderTopColor) > 0) ? cs.borderTopColor : null;
+    var op = parseFloat(cs.opacity);
+    var clip = cs.clipPath || 'none';
+    var attrs = ' fill="' + fill + '"' + (stroke ? ' stroke="' + stroke + '" stroke-width="' + bw + '"' : '') + (op < 1 ? ' opacity="' + op + '"' : '') + name;
+    if (clip.indexOf('polygon(') === 0) {
+      var pts = clip.slice(8, -1).split(',').map(function (pair) {
+        var p = pair.trim().split(/\s+/);
+        function cv(v, dim) { return v.indexOf('%') > -1 ? parseFloat(v) * dim / 100 : parseFloat(v); }
+        return num(x + cv(p[0], w)) + ',' + num(y + cv(p[1], h));
+      });
+      return '<polygon points="' + pts.join(' ') + '"' + attrs + '/>';
+    }
+    if (fill === 'none' && !stroke) return '';
+    var br = parseFloat(cs.borderTopLeftRadius) || 0;
+    if (br >= Math.min(w, h) / 2 - 0.6 && Math.abs(w - h) < 1) {
+      return '<circle cx="' + num(x + w / 2) + '" cy="' + num(y + h / 2) + '" r="' + num(w / 2) + '"' + attrs + '/>';
+    }
+    var rx = Math.min(br, Math.min(w, h) / 2);
+    return '<rect x="' + num(x) + '" y="' + num(y) + '" width="' + num(w) + '" height="' + num(h) + '"' + (rx > 0 ? ' rx="' + num(rx) + '"' : '') + attrs + '/>';
+  }
+  function textShape(el, cs, x, y, w, h) {
+    var t = '';
+    for (var i = 0; i < el.childNodes.length; i++) {
+      if (el.childNodes[i].nodeType === 3) t += el.childNodes[i].nodeValue;
+    }
+    t = t.replace(/\s+/g, ' ').trim();
+    if (!t) return '';
+    var anchor = cs.textAlign === 'center' ? 'middle' : (cs.textAlign === 'right' ? 'end' : 'start');
+    var tx = anchor === 'middle' ? x + w / 2 : (anchor === 'end' ? x + w - parseFloat(cs.paddingRight) : x + parseFloat(cs.paddingLeft));
+    return '<text x="' + num(tx) + '" y="' + num(y + h / 2) + '" dominant-baseline="central" text-anchor="' + anchor + '" font-family="' + esc(cs.fontFamily) + '" font-size="' + cs.fontSize + '" font-weight="' + cs.fontWeight + '" fill="' + cs.color + '"' + shapeName(el) + '>' + esc(t) + '</text>';
+  }
+  function pseudoShape(el, which, ex, ey) {
+    var cs = getComputedStyle(el, which);
+    if (!cs || cs.content === 'none' || cs.content === '' || !vis(cs)) return '';
+    var w = parseFloat(cs.width) || 0, h = parseFloat(cs.height) || 0;
+    if (w < 0.5 || h < 0.5) return '';
+    var x = ex + (parseFloat(cs.left) || 0) + (parseFloat(cs.marginLeft) || 0);
+    var y = ey + (parseFloat(cs.top) || 0) + (parseFloat(cs.marginTop) || 0);
+    var g = groupOpen(cs, x, y);
+    var blw = parseFloat(cs.borderLeftWidth) || 0, bbw = parseFloat(cs.borderBottomWidth) || 0;
+    var body;
+    if (blw > 0 && bbw > 0 && alpha(cs.backgroundColor) === 0 && (parseFloat(cs.borderTopWidth) || 0) === 0) {
+      body = '<polyline points="' + num(x) + ',' + num(y) + ' ' + num(x) + ',' + num(y + h) + ' ' + num(x + w) + ',' + num(y + h) + '" fill="none" stroke="' + cs.borderLeftColor + '" stroke-width="' + blw + '" stroke-linecap="round" stroke-linejoin="round" data-name="mark"/>';
+    } else {
+      body = boxShape(cs, x, y, w, h, ' data-name="detail"');
+    }
+    if (!body) return '';
+    return g ? g + body + '</g>' : body;
+  }
+  function nestedSvg(el, x, y, w, h) {
+    var clone = el.cloneNode(true);
+    var orig = el.querySelectorAll('*'), copies = clone.querySelectorAll('*');
+    for (var i = 0; i < orig.length; i++) {
+      var cs = getComputedStyle(orig[i]);
+      if (cs.stroke && cs.stroke !== 'none') { copies[i].setAttribute('stroke', cs.stroke); copies[i].setAttribute('stroke-width', cs.strokeWidth); }
+      if (cs.fill) copies[i].setAttribute('fill', cs.fill);
+      if (parseFloat(cs.opacity) < 1) copies[i].setAttribute('opacity', cs.opacity);
+    }
+    clone.setAttribute('x', num(x)); clone.setAttribute('y', num(y));
+    clone.setAttribute('width', num(w)); clone.setAttribute('height', num(h));
+    clone.removeAttribute('style');
+    return clone.outerHTML;
+  }
+  function serialize(demo, name, id) {
+    var base = demo.getBoundingClientRect();
+    var W = num(base.width), H = num(base.height);
+    var parts = [];
+    var dcs = getComputedStyle(demo);
+    var bg = boxShape(dcs, 0, 0, W, H, ' data-name="background"');
+    if (bg) parts.push(bg);
+    var els = demo.querySelectorAll('*');
+    var skip = null;
+    for (var i = 0; i < els.length; i++) {
+      var el = els[i];
+      if (skip && skip.contains(el)) continue;
+      if (el.classList && el.classList.contains('il-copy')) { skip = el; continue; }
+      var cs = getComputedStyle(el);
+      if (!vis(cs)) { skip = el; continue; }
+      var rect, transformed = cs.transform && cs.transform !== 'none';
+      if (transformed) {
+        var oldT = el.style.transform;
+        el.style.transform = 'none';
+        rect = el.getBoundingClientRect();
+        el.style.transform = oldT;
+      } else {
+        rect = el.getBoundingClientRect();
+      }
+      var x = rect.left - base.left, y = rect.top - base.top, w = rect.width, h = rect.height;
+      if (el instanceof SVGSVGElement) {
+        parts.push(nestedSvg(el, x, y, w, h));
+        skip = el;
+        continue;
+      }
+      if (el instanceof SVGElement) { skip = el; continue; }
+      if (w < 0.5 || h < 0.5) continue;
+      var g = groupOpen(cs, x, y);
+      var body = boxShape(cs, x, y, w, h, shapeName(el)) + textShape(el, cs, x, y, w, h) + pseudoShape(el, '::before', x, y) + pseudoShape(el, '::after', x, y);
+      if (!body) continue;
+      parts.push(g ? g + body + '</g>' : body);
+    }
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="' + W + '" height="' + H + '" viewBox="0 0 ' + W + ' ' + H + '" role="img" id="' + esc(id) + '" aria-labelledby="' + esc(id) + '-title">\n<title id="' + esc(id) + '-title">' + esc(name) + '</title>\n' + parts.join('\n') + '\n</svg>';
+  }
+  window.uxIllustrationSvg = serialize;
+  var COPY_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>';
+  var CHECK_ICON = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 6 9 17l-5-5"/></svg>';
+  var page = document.documentElement.getAttribute('data-page') || 'ux-guidelines';
+  demos.forEach(function (demo, idx) {
+    var card = demo.closest('.card');
+    var h3 = card ? card.querySelector('h3') : null;
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'il-copy';
+    btn.setAttribute('aria-label', 'Copy SVG');
+    btn.title = 'Copy SVG';
+    btn.innerHTML = COPY_ICON;
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var title = h3 ? h3.textContent.trim() : 'Illustration';
+      var id = slug(page + '--' + title) || page + '--illustration-' + (idx + 1);
+      var svg = serialize(demo, title, id);
+      function done() {
+        btn.innerHTML = CHECK_ICON;
+        setTimeout(function () { btn.innerHTML = COPY_ICON; }, 1200);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(svg).then(done, function () { fallback(svg); done(); });
+      } else {
+        fallback(svg);
+        done();
+      }
+      function fallback(text) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (err) {}
+        document.body.removeChild(ta);
+      }
+    });
+    demo.appendChild(btn);
+  });
+  setTimeout(function () {
+    if (!window.uxT) return;
+    var l = window.uxT('Copy SVG');
+    document.querySelectorAll('.il-copy').forEach(function (b) { b.setAttribute('aria-label', l); b.title = l; });
+  }, 1600);
 })();
