@@ -609,10 +609,16 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
 }
 :root.beige .alpha-nav { background: var(--topnav-bg); }
 :root.blue {
-  --bg: #f2f6fb; --surface: #e6edf6; --surface-2: #dde7f3; --demo-bg: #e2eaf4;
-  --border: #cfdcee; --topnav-bg: #f8fafd; --field-bg: #ffffff; --header-grad: #dfe9f5; --text-faint: #676767;
+  --bg: #0d1b2a; --surface: #132337; --surface-2: #1b2d42; --demo-bg: #16283c;
+  --border: #3d5a78; --text: #ffffff; --muted: #8fb0cc; --icon: #7a9dba;
+  --accent: #60a5fa; --accent-hover: #93c5fd;
+  --topnav-bg: #10202f; --field-bg: #233a52; --header-grad: #132337;
+  --text-primary: #ffffff; --text-secondary: #8fb0cc; --text-faint: #7a9dba; --text-inverse: #0d1b2a;
+  --scrollbar-thumb: #3d5a78; --purple: #a78bfa;
+  --skel: #4a6a8a; --skel-strong: #6f93b5; --skel-emphasis: #dbe9f7;
 }
 :root.blue .alpha-nav { background: var(--topnav-bg); }
+:root.blue .field, :root.blue .il .field, :root.blue .fg .field, :root.blue .mx .field, :root.blue .tx .field, :root.blue .jx .field, :root.blue .te .field, :root.blue .hk .field, :root.blue .ix .fieldx { background: var(--field-bg); box-shadow: inset 0 0 0 1.5px rgba(255,255,255,0.16); }
 
 /* ---------- Shared law-page chrome (promoted from per-page styles) ---------- */
 .law-feature { margin: 8px 32px 0; padding: 36px 32px; background: var(--bg); border: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
