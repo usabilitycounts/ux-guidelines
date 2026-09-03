@@ -765,9 +765,12 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
         c.setAttribute('class', 'tcard');
         grid.appendChild(c);
       });
+      var col = document.createElement('div');
+      col.className = 'pt-main';
+      col.appendChild(head);
+      col.appendChild(grid);
       body.appendChild(scr);
-      body.appendChild(grid);
-      sec.appendChild(head);
+      body.appendChild(col);
       sec.appendChild(body);
       typeWrap.appendChild(sec);
     });
