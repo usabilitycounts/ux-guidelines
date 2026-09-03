@@ -279,7 +279,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=38';
+  s.src = 'i18n.js?v=39';
   document.head.appendChild(s);
 })();
 
