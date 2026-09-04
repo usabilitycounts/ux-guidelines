@@ -86,6 +86,7 @@
   .view-tabs .lang-tab.active, .view-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; font-weight: 600; color: var(--text-primary); }
   .view-tabs .tab-indicator { top: auto; bottom: -1px; height: 2px; border-radius: 0; background: var(--text-primary); box-shadow: none; }
   .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0; max-width: none; width: 100%; }
+  .section-pill { white-space: nowrap; }
   .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; padding-bottom: 14px; margin-bottom: 8px; }
   .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
   .section-pill:hover { background: var(--ink); color: var(--text-inverse); }
@@ -101,6 +102,9 @@
     .pt-screen { max-width: 340px; }
   }
   @media (max-width: 600px) {
+    .section-pills { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 16px; margin: 0 -16px; }
+    .section-pills::-webkit-scrollbar { display: none; }
+    .section-pill { flex: 0 0 auto; scroll-snap-align: start; }
     .home-main .cards-grid, .home-type .cards-grid { grid-template-columns: 1fr; }
     .pt-screen { max-width: 100%; }
     .home-layout { padding: 20px 16px 48px; }
