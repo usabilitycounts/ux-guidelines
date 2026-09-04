@@ -1001,3 +1001,11 @@ html.has-scroller .topnav { flex: 0 0 auto; }
 .il-copy:hover { color: var(--text-primary); }
 .il-copy svg { width: 15px; height: 15px; }
 @media (hover: none) { .il-copy { opacity: 1; } }
+
+/* Back to top */
+.to-top { position: fixed; right: 24px; bottom: 24px; width: 46px; height: 46px; border-radius: 50%; background: var(--topnav-bg); border: 1px solid var(--border); color: var(--text-secondary); box-shadow: var(--shadow-lift); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; opacity: 0; pointer-events: none; transform: translateY(8px); transition: opacity 0.18s ease, transform 0.18s ease, color 0.15s ease, background 0.15s ease; z-index: 250; }
+.to-top.show { opacity: 1; pointer-events: auto; transform: none; }
+.to-top:hover { color: var(--text-primary); background: var(--surface-2); }
+.to-top svg { width: 20px; height: 20px; }
+@media (max-width: 600px) { .to-top { right: 16px; bottom: 16px; } }
+@media print { .to-top { display: none !important; } }

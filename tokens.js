@@ -283,7 +283,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=43';
+  s.src = 'i18n.js?v=44';
   document.head.appendChild(s);
 })();
 
@@ -942,5 +942,32 @@
     if (!window.uxT) return;
     var l = window.uxT('Copy SVG');
     document.querySelectorAll('.il-copy').forEach(function (b) { b.setAttribute('aria-label', l); b.title = l; });
+  }, 1600);
+})();
+
+// ---- Back to top ----
+(() => {
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'to-top';
+  btn.setAttribute('aria-label', 'Back to top');
+  btn.title = 'Back to top';
+  btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m18 15-6-6-6 6"/></svg>';
+  document.body.appendChild(btn);
+  const scroller = window.uxScroller || window;
+  const y = () => (window.uxScroller ? window.uxScroller.scrollTop : window.scrollY);
+  const sync = () => btn.classList.toggle('show', y() > 400);
+  scroller.addEventListener('scroll', sync, { passive: true });
+  sync();
+  btn.addEventListener('click', () => {
+    if (window.uxScroller) window.uxScroller.scrollTo({ top: 0, behavior: 'smooth' });
+    else window.scrollTo({ top: 0, behavior: 'smooth' });
+    const first = document.querySelector('.topnav .brand');
+    if (first) first.focus({ preventScroll: true });
+  });
+  setTimeout(() => {
+    if (!window.uxT) return;
+    const l = window.uxT('Back to top');
+    if (l) { btn.setAttribute('aria-label', l); btn.title = l; }
   }, 1600);
 })();

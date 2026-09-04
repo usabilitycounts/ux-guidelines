@@ -36,7 +36,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=81">
+<link rel="stylesheet" href="tokens.css?v=82">
 <style>
   :root {
     --bg: #ffffff;
@@ -81,11 +81,12 @@
   .home-main .card .desc, .home-main .tcard .desc { display: block; font-size: var(--fs-ui); color: var(--text-secondary); margin: 2px 0 0; }
   .home-main .card .card-foot, .home-main .tcard .card-foot { display: none; }
   .home-main .card .arrow, .home-main .tcard .arrow { display: none; }
-  .home-main .view-tabs { display: flex; width: max-content; margin: 0 auto 18px; background: transparent; border-radius: 0; padding: 0; gap: 28px; border-bottom: 1px solid var(--border); }
+  .home-main .view-tabs { display: flex; width: max-content; margin: 0 auto 14px; background: transparent; border-radius: 0; padding: 0; gap: 28px; border-bottom: 1px solid var(--border); }
   .view-tabs .lang-tab { padding: 6px 2px 10px; border-radius: 0; font-size: 0.875rem; }
   .view-tabs .lang-tab.active, .view-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; font-weight: 600; color: var(--text-primary); }
   .view-tabs .tab-indicator { top: auto; bottom: -1px; height: 2px; border-radius: 0; background: var(--text-primary); box-shadow: none; }
-  .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 26px; max-width: none; width: 100%; }
+  .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 18px; max-width: none; width: 100%; }
+  .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; margin-bottom: 8px; }
   .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
   .section-pill:hover { background: var(--ink); color: var(--text-inverse); }
   .home-main .section { scroll-margin-top: 76px; }
@@ -139,7 +140,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=79"></script>
+<script defer src="tokens.js?v=80"></script>
 </head>
 <body>
 
@@ -807,7 +808,11 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   var pillWrap = document.createElement('div');
   pillWrap.className = 'section-pills';
   var tabsEl = document.querySelector('.view-tabs');
-  tabsEl.parentNode.insertBefore(pillWrap, tabsEl.nextSibling);
+  var stickyBar = document.createElement('div');
+  stickyBar.className = 'home-sticky';
+  tabsEl.parentNode.insertBefore(stickyBar, tabsEl);
+  stickyBar.appendChild(tabsEl);
+  stickyBar.appendChild(pillWrap);
   function buildPills(v) {
     pillWrap.innerHTML = '';
     var secs = v === 'type'
