@@ -36,7 +36,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=74">
+<link rel="stylesheet" href="tokens.css?v=76">
 <style>
   :root {
     --bg: #ffffff;
@@ -55,21 +55,26 @@
   .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; }
   .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
   .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
-  .home-main .cards-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px 44px; padding: 0; }
-  .home-main .section { background: var(--bg); border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px 18px; }
+  /* 12-column grid: screen = 3 cols, content = 9 cols, every link = 3 cols.
+     Equal column-gaps at each level keep the nested tracks aligned to the parent grid. */
+  .home-main .section { background: var(--bg); border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px 18px;
+    display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 44px; }
+  .home-main .section > .section-head, .home-main .section > .cards-grid, .home-main .section > .section-body { grid-column: 1 / -1; }
   .home-main .section + .section { margin-top: 18px; padding-top: 22px; }
   .home-main .section-head { align-items: baseline; }
   .pt-desc { font-size: var(--fs-ui); color: var(--text-secondary); margin-left: 6px; }
-  .home-type .section-body { display: grid; grid-template-columns: 240px 1fr; gap: 12px 40px; align-items: start; }
-  .home-type .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  .home-main .cards-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 44px; padding: 0; }
+  .home-type .section-body { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 44px; row-gap: 12px; align-items: start; }
+  .pt-screen { grid-column: span 3; }
+  .pt-main { grid-column: span 9; }
+  .home-type .cards-grid { grid-template-columns: repeat(3, 1fr); }
   .pt-screen { --pt-skel: #9a9a9a; --pt-accent: var(--il-accent); background: #ffffff; border: 1.5px solid var(--border); border-radius: 14px; aspect-ratio: 16 / 10; overflow: hidden; display: flex; flex-direction: column; }
   .pt-screen .pt-body { flex: 1 1 auto; min-height: 0; }
+  :root.dark .pt-screen { --pt-accent: #3f3f46; }
+  :root.beige .pt-screen { --pt-accent: #8b5e34; }
   :root.blue .pt-screen { --pt-accent: #60a5fa; }
   .pt-screen .pt-body svg { display: block; width: 100%; height: 100%; }
-  @media (max-width: 980px) {
-    .home-type .section-body { grid-template-columns: 1fr; }
-    .pt-screen { max-width: 280px; }
-  }
+
   .home-main .card, .home-main .tcard { display: block; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
   .home-main .card h3, .home-main .tcard h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
   .home-main .card:hover h3, .home-main .tcard:hover h3 { text-decoration: underline; }
@@ -82,17 +87,16 @@
   .view-tabs .tab-indicator { top: auto; bottom: -1px; height: 2px; border-radius: 0; background: var(--text-primary); box-shadow: none; }
 
   @media (max-width: 980px) {
-    .home-layout { grid-template-columns: 1fr; gap: 32px; padding: 32px 20px 48px; }
-    .home-main .cards-grid { grid-template-columns: 1fr 1fr; }
-  }
-  @media (max-width: 980px) {
-    .home-main .section { padding: 18px 18px 14px; }
+    .home-layout { padding: 32px 20px 48px; }
+    .home-main .section { display: block; padding: 18px 18px 14px; }
     .home-main .section + .section { margin-top: 14px; padding-top: 18px; }
-    .home-type .section-body { gap: 16px; }
+    .home-main .cards-grid, .home-type .cards-grid { grid-template-columns: 1fr 1fr; }
+    .home-type .section-body { grid-template-columns: 1fr; gap: 16px; }
+    .pt-screen, .pt-main { grid-column: auto; }
     .pt-screen { max-width: 340px; }
   }
   @media (max-width: 600px) {
-    .home-main .cards-grid { grid-template-columns: 1fr; }
+    .home-main .cards-grid, .home-type .cards-grid { grid-template-columns: 1fr; }
     .pt-screen { max-width: 100%; }
     .home-layout { padding: 20px 16px 48px; }
     .home-main .section-head { flex-wrap: wrap; row-gap: 2px; }
@@ -131,7 +135,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=75"></script>
+<script defer src="tokens.js?v=77"></script>
 </head>
 <body>
 
@@ -149,11 +153,11 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <button class="menu-close" aria-label="Close menu">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
   </button>
-  <div class="menu-label">Navigate</div>
+  <h2 class="menu-label">Navigate</h2>
   <div class="menu-links">
 <a href="index.html" class="menu-link active">Home</a>
 <details class="menu-group">
-  <summary class="menu-group-label">Lay Out The Page</summary>
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
   <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
   <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
   <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
@@ -162,7 +166,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Present And Explain</summary>
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
   <a href="data-visualization.html" class="menu-link">Data Visualization</a>
   <a href="universal-icons.html" class="menu-link">Universal Icons</a>
   <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
@@ -172,14 +176,14 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Structure The Choices</summary>
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
   <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
   <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
   <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
   <a href="automation-bias.html" class="menu-link">Automation Bias</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
   <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
   <a href="steering-law.html" class="menu-link">Steering Law</a>
   <a href="contour-bias.html" class="menu-link">Contour Bias</a>
@@ -189,7 +193,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
   <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
   <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
   <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
@@ -199,7 +203,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Build The System</summary>
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
   <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
   <a href="galls-law.html" class="menu-link">Gall’s Law</a>
   <a href="conways-law.html" class="menu-link">Conway’s Law</a>
@@ -209,7 +213,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
   <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
   <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
   <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>

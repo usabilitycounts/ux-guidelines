@@ -29,7 +29,7 @@
 <meta name="twitter:description" content="Nir Eyal&#x27;s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The follow-up book draws the line between hooks the user is glad you built and hooks they regret.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Hook Model: Trigger, Action, Variable Reward, Investment", "description": "Nir Eyal&#x27;s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The follow-up book draws the line between hooks the user is glad you built and hooks they regret.", "url": "https://www.ux-guidelines.com/hook-model.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/hook-model.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Keep Them Coming Back"}, {"@type": "ListItem", "position": 3, "name": "Hook Model: Trigger, Action, Variable Reward, Investment", "item": "https://www.ux-guidelines.com/hook-model.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=74">
+<link rel="stylesheet" href="tokens.css?v=76">
 <style>
 :root{--bg:#ffffff;--surface:#f4f4f4;--demo-bg:#ececec;--border:#e2e2e2;--ink:#111111;--muted:#6b6b6b;--ai:#0d9488}.law-feature .formula-box .quote{font-size: var(--fs-feature);font-weight:500;line-height: var(--lh-base);color: var(--text-primary);text-align:center;max-width:540px}.law-feature .formula-box .quote em{font-style:italic;font-weight:600}@media(max-width:800px){.law-feature{grid-template-columns:1fr;padding:32px 20px;gap:24px}.law-feature .formula-box{padding:28px 20px}}.demo-label{font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500;margin:0 0 8px}@media(max-width:600px){header{padding:32px 20px 28px}footer{padding:20px;flex-direction:column;align-items:flex-start}.grid{grid-template-columns:1fr}.card{padding:28px 20px 24px;grid-template-rows:unset;grid-row:unset}.ai-divider{flex-direction:column;align-items:flex-start;gap:10px;padding:20px}.ai-divider p{margin-left:0;text-align:left}}
 
@@ -56,17 +56,17 @@
   .hk .stackrow i { height: 12px; flex: 1; border-radius: 4px; background: var(--skel); opacity: 0.35; display: block; }
   .hk .chip { height: 18px; border-radius: 9px; background: rgba(56,189,248,0.18); padding: 0 12px; display: flex; align-items: center; flex: none; }
   .hk .chip i { height: 5px; width: 22px; border-radius: 2.5px; background: var(--il-accent); display: block; }
-</style><script defer src="tokens.js?v=75"></script>
+</style><script defer src="tokens.js?v=77"></script>
 </head>
 <body>
 <nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
 <div class="menu-overlay" id="menu-overlay"></div>
 <aside class="menu-panel" id="menu-panel" aria-hidden="true"><button class="menu-close"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
-<div class="menu-label">Navigate</div>
+<h2 class="menu-label">Navigate</h2>
 <div class="menu-links">
 <a href="index.html" class="menu-link">Home</a>
 <details class="menu-group">
-  <summary class="menu-group-label">Lay Out The Page</summary>
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
   <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
   <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
   <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
@@ -75,7 +75,7 @@
   <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Present And Explain</summary>
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
   <a href="data-visualization.html" class="menu-link">Data Visualization</a>
   <a href="universal-icons.html" class="menu-link">Universal Icons</a>
   <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
@@ -85,14 +85,14 @@
   <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Structure The Choices</summary>
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
   <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
   <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
   <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
   <a href="automation-bias.html" class="menu-link">Automation Bias</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Design Actions And Controls</summary>
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
   <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
   <a href="steering-law.html" class="menu-link">Steering Law</a>
   <a href="contour-bias.html" class="menu-link">Contour Bias</a>
@@ -102,7 +102,7 @@
   <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Keep Them Coming Back</summary>
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
   <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
   <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
   <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
@@ -112,7 +112,7 @@
   <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Build The System</summary>
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
   <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
   <a href="galls-law.html" class="menu-link">Gall’s Law</a>
   <a href="conways-law.html" class="menu-link">Conway’s Law</a>
@@ -122,7 +122,7 @@
   <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label">Follow The Rulebooks</summary>
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
   <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
   <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
   <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>

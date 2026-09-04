@@ -384,7 +384,7 @@
   const apply = () => {
     document.documentElement.lang = lang;
     // chrome strings
-    document.querySelectorAll('.related-label, .card .related a, .sheet-title, .sheet-label, .sheet-opt, .btn-save, .btn-cancel, .footer-head, .footer-col a, .feature-label, .menu-label, .menu-group-label, .menu-link, .cat-label, .gl-group h2, .pp-group h2, .about-section h2, .map-group h2, .meta .label, .ref-label, .eyeline, .category-label, .pt-desc, .view-tab, .yr-ctl, .theme-tab, .share-label, .bm-label, .bm-empty, .search-recent-label').forEach(el => {
+    document.querySelectorAll('.related-label, .card .related a, .sheet-title, .sheet-label, .sheet-opt, .btn-save, .btn-cancel, .footer-head, .footer-col a, .feature-label, .menu-label, .menu-group-label h3, .menu-link, .cat-label, .gl-group h2, .pp-group h2, .about-section h2, .map-group h2, .meta .label, .ref-label, .eyeline, .category-label, .pt-desc, .view-tab, .yr-ctl, .theme-tab, .share-label, .bm-label, .bm-empty, .search-recent-label').forEach(el => {
       const tr = t(el.textContent) || title(el.textContent);
       if (tr) el.textContent = tr;
     });

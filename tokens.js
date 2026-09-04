@@ -81,7 +81,9 @@
       site.open = true;
       const sum = document.createElement('summary');
       sum.className = 'menu-group-label';
-      sum.textContent = 'Site';
+      const sumH = document.createElement('h3');
+      sumH.textContent = 'Site';
+      sum.appendChild(sumH);
       site.appendChild(sum);
       loose.forEach(el => site.appendChild(el));
       links.appendChild(site);
@@ -279,7 +281,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=42';
+  s.src = 'i18n.js?v=43';
   document.head.appendChild(s);
 })();
 
