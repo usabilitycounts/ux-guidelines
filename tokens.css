@@ -442,6 +442,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
   line-height: var(--lh-body);
 }
 .subtitle, .section .lede { max-width: 50%; }
+@media (max-width: 980px) { .subtitle, .section .lede { max-width: 100%; } }
 .desc, .card .desc { max-width: 52ch; }
 
 /* Feature text (quotes + formulas) */
@@ -587,7 +588,8 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
   .menu-panel .menu-links { display: block; }
   .menu-panel .menu-groups { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px 32px; align-items: start; }
   @media (max-width: 1280px) { .menu-panel .menu-groups { grid-template-columns: repeat(4, 1fr); gap: 16px 40px; } }
-  @media (max-width: 900px) { .menu-panel .menu-groups { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 900px) { .menu-panel .menu-groups { grid-template-columns: repeat(3, 1fr); gap: 16px 28px; } }
+  @media (max-width: 700px) { .menu-panel .menu-groups { grid-template-columns: repeat(2, 1fr); } }
   .menu-panel .menu-groups[hidden] { display: none; }
 }
 

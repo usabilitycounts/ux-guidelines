@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="By Year: A Timeline of UX Laws and Principles — UX Guidelines">
 <meta name="twitter:description" content="Every law and reference on UX Guidelines in chronological order — from Weber in 1834 to the Hook Model in 2014, with the year each was established and the people behind it.">
-<link rel="stylesheet" href="tokens.css?v=88">
+<link rel="stylesheet" href="tokens.css?v=90">
 <style>
   .yr-wrap { max-width: 1440px; margin: 0; padding: 8px 32px 72px; }
   .yr-centuries { display: grid; grid-template-columns: repeat(3, minmax(220px, 360px)); justify-content: start; gap: 12px 64px; align-items: start; }
@@ -51,7 +51,8 @@
   .yr-sum::before { content: ''; width: 7px; height: 7px; border-right: 2px solid var(--text-faint); border-bottom: 2px solid var(--text-faint); transform: rotate(-45deg); transition: transform 0.15s ease; flex: 0 0 auto; }
   .yr-group[open] .yr-sum::before { transform: rotate(45deg); }
   .yr-sum:hover h3 { color: var(--text-primary); }
-  @media (max-width: 980px) { .yr-centuries { grid-template-columns: 1fr; } }
+  @media (max-width: 980px) { .yr-centuries { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 40px; } }
+  @media (max-width: 600px) { .yr-centuries { grid-template-columns: 1fr; } }
   .yr-list { list-style: none; margin: 0; padding: 0; }
   .yr-item { display: flex; align-items: baseline; gap: 16px; padding: 7px 0; }
   .yr { flex: 0 0 52px; font-size: var(--fs-ui); color: var(--text-faint); }

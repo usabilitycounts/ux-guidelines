@@ -36,7 +36,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=88">
+<link rel="stylesheet" href="tokens.css?v=90">
 <style>
   :root {
     --bg: #ffffff;
@@ -100,11 +100,24 @@
     .home-type .section-body { grid-template-columns: 1fr; gap: 16px; }
     .pt-screen, .pt-main { grid-column: auto; }
     .pt-screen { max-width: 340px; }
-  }
-  @media (max-width: 600px) {
-    .section-pills { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 16px; margin: 0 -16px; }
+    /* the heading keeps its own line; the description sits beneath it */
+    .home-main .section-head { flex-wrap: wrap; row-gap: 2px; }
+    .pt-desc { flex: 1 0 100%; margin-left: 0; }
+    /* pills: one scrolling line, as on phones */
+    .section-pills { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 20px; margin: 0 -20px; }
     .section-pills::-webkit-scrollbar { display: none; }
     .section-pill { flex: 0 0 auto; scroll-snap-align: start; }
+  }
+  /* Tablet: screen beside the heading, links two across underneath */
+  @media (min-width: 601px) and (max-width: 980px) {
+    .home-type .section-body { grid-template-columns: 210px 1fr; column-gap: 26px; row-gap: 18px; align-items: start; }
+    .home-type .pt-main { display: contents; }
+    .home-type .pt-screen { grid-column: 1; grid-row: 1; max-width: none; }
+    .home-type .section-head { grid-column: 2; grid-row: 1; padding-bottom: 0; align-self: center; }
+    .home-type .cards-grid { grid-column: 1 / -1; grid-row: 2; }
+  }
+  @media (max-width: 600px) {
+    .section-pills { padding: 0 16px; margin: 0 -16px; }
     .home-main .cards-grid, .home-type .cards-grid { grid-template-columns: 1fr; }
     .pt-screen { max-width: 100%; }
     .home-layout { padding: 20px 16px 48px; }
