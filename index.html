@@ -85,8 +85,19 @@
     .home-layout { grid-template-columns: 1fr; gap: 32px; padding: 32px 20px 48px; }
     .home-main .cards-grid { grid-template-columns: 1fr 1fr; }
   }
+  @media (max-width: 980px) {
+    .home-main .section { padding: 18px 18px 14px; }
+    .home-main .section + .section { margin-top: 14px; padding-top: 18px; }
+    .home-type .section-body { gap: 16px; }
+    .pt-screen { max-width: 340px; }
+  }
   @media (max-width: 600px) {
     .home-main .cards-grid { grid-template-columns: 1fr; }
+    .pt-screen { max-width: 100%; }
+    .home-layout { padding: 20px 16px 48px; }
+    .home-main .section-head { flex-wrap: wrap; row-gap: 2px; }
+    .pt-desc { flex: 1 0 100%; margin-left: 0; }
+    .home-main .view-tabs { margin-bottom: 18px; gap: 22px; }
   }
 @media (hover: none) {
 }
@@ -107,6 +118,14 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 .lang-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; }
 .lang-tab .lang-abbr { display: none; }
 @media (max-width: 600px) {
+  header { padding-top: 18px; }
+  .hero-title { gap: 10px; margin: 10px 0 6px; }
+  header h1 { font-size: 2rem; letter-spacing: -1px; }
+  .landing-logo { width: 2rem; height: 2rem; }
+  .beta-pill { display: none; }
+  header .subtitle { font-size: 0.9375rem; }
+  .lang-tabs { margin-bottom: 8px; }
+  .theme-tabs { margin-top: 10px; }
   .lang-tab { padding: 8px 12px; }
   .lang-tab .lang-full { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .lang-tab .lang-abbr { display: inline; }
