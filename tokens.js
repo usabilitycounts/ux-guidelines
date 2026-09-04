@@ -138,7 +138,7 @@
     sheet.innerHTML = '';
     const head = document.createElement('div');
     head.className = 'sheet-head';
-    const title = document.createElement('div');
+    const title = document.createElement('h2');
     title.className = 'sheet-title';
     title.textContent = 'Settings';
     const x = document.createElement('button');
@@ -155,7 +155,7 @@
     const section = (label, items, key) => {
       const sec = document.createElement('div');
       sec.className = 'sheet-section';
-      const h = document.createElement('div');
+      const h = document.createElement('h3');
       h.className = 'sheet-label';
       h.textContent = label;
       sec.appendChild(h);
@@ -178,7 +178,7 @@
 
     const fsec = document.createElement('div');
     fsec.className = 'sheet-section';
-    const fh = document.createElement('div');
+    const fh = document.createElement('h3');
     fh.className = 'sheet-label';
     fh.textContent = 'Font Size';
     fsec.appendChild(fh);
