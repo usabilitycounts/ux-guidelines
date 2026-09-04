@@ -233,6 +233,8 @@
   function open() {
     staged = cur();
     render();
+    const nav = document.querySelector('.topnav');
+    sheet.style.top = (nav ? Math.round(nav.getBoundingClientRect().bottom) : 0) + 'px';
     sheet.classList.add('open');
     const f = sheet.querySelector('.sheet-opt');
     if (f) f.focus();

@@ -751,7 +751,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
   width: 100%;
   background: var(--surface);
   padding: 44px 48px 48px;
-  z-index: 600;
+  z-index: 300;
   transform: translateY(-102%);
   transition: transform 0.28s ease;
   display: flex; flex-direction: column; overflow-y: auto;
