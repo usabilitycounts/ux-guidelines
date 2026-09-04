@@ -585,7 +585,9 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 /* Full-page menu layout (kept last to win source order) */
 @media (min-width: 601px) {
   .menu-panel .menu-links { display: block; }
-  .menu-panel .menu-groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px 48px; align-items: start; }
+  .menu-panel .menu-groups { display: grid; grid-template-columns: repeat(6, 1fr); gap: 16px 32px; align-items: start; }
+  @media (max-width: 1280px) { .menu-panel .menu-groups { grid-template-columns: repeat(4, 1fr); gap: 16px 40px; } }
+  @media (max-width: 900px) { .menu-panel .menu-groups { grid-template-columns: repeat(2, 1fr); } }
   .menu-panel .menu-groups[hidden] { display: none; }
 }
 
