@@ -52,6 +52,7 @@
 (() => {
   const hamburger = document.querySelector('.hamburger');
   const overlay = document.getElementById('menu-overlay');
+  const MENU_TYPES = [{"label": "Every Page", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "wcag-pour"]}, {"label": "Chat", "slugs": ["automation-bias", "doherty-threshold", "postels-law", "teslers-law", "uncanny-valley"]}, {"label": "Dashboards", "slugs": ["data-visualization", "goodharts-law", "yerkes-dodson-law"]}, {"label": "Detail Pages", "slugs": ["gestalt-principles", "progressive-disclosure", "weber-fechner-law"]}, {"label": "Flows", "slugs": ["fogg-behavior-model", "hook-model", "ikea-effect", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"]}, {"label": "Forms", "slugs": ["cognitive-load-theory", "curse-of-knowledge", "millers-law"]}, {"label": "Landing Pages", "slugs": ["aesthetic-usability-effect", "contour-bias", "eye-scanning-patterns", "gutenberg-principle", "jakobs-law", "von-restorff-effect"]}, {"label": "Navigation", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "steering-law", "universal-icons"]}, {"label": "Tables", "slugs": ["grid-and-hierarchy", "pareto-principle", "serial-position-effect"]}];
   const panel = document.getElementById('menu-panel');
   const closeBtn = document.querySelector('.menu-close');
   if (!hamburger || !overlay || !panel || !closeBtn) return;
@@ -88,6 +89,69 @@
       loose.forEach(el => site.appendChild(el));
       links.appendChild(site);
     }
+    // Two ways to browse: by page type (home's order) and by task.
+    const siteGroup = links.querySelector('.menu-group:last-of-type');
+    const taskWrap = document.createElement('div');
+    taskWrap.className = 'menu-groups';
+    links.querySelectorAll('.menu-group').forEach(g => taskWrap.appendChild(g));
+    const typeWrap = document.createElement('div');
+    typeWrap.className = 'menu-groups';
+    typeWrap.hidden = true;
+    const titleOf = {};
+    taskWrap.querySelectorAll('.menu-link').forEach(a => { titleOf[a.getAttribute('href')] = a.textContent; });
+    MENU_TYPES.forEach(g => {
+      const d = document.createElement('details');
+      d.className = 'menu-group';
+      d.open = true;
+      const sum = document.createElement('summary');
+      sum.className = 'menu-group-label';
+      const h = document.createElement('h3');
+      h.textContent = g.label;
+      sum.appendChild(h);
+      d.appendChild(sum);
+      g.slugs.forEach(slug => {
+        const href = slug + '.html';
+        const a = document.createElement('a');
+        a.className = 'menu-link';
+        a.href = href;
+        a.textContent = titleOf[href] || slug;
+        if (href === location.pathname.split('/').pop()) a.classList.add('active');
+        d.appendChild(a);
+      });
+      typeWrap.appendChild(d);
+    });
+    if (siteGroup) typeWrap.appendChild(siteGroup.cloneNode(true));
+    const tabs = document.createElement('div');
+    tabs.className = 'menu-views';
+    [['type', 'Page Type'], ['task', 'Task Type']].forEach(([v, name]) => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'menu-view-tab view-tab';
+      b.dataset.view = v;
+      b.textContent = name;
+      tabs.appendChild(b);
+    });
+    links.appendChild(tabs);
+    links.appendChild(typeWrap);
+    links.appendChild(taskWrap);
+    const setMenuView = v => {
+      const byType = v === 'type';
+      typeWrap.hidden = !byType;
+      taskWrap.hidden = byType;
+      tabs.querySelectorAll('.menu-view-tab').forEach(b => {
+        const on = b.dataset.view === v;
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-pressed', String(on));
+      });
+      try { localStorage.setItem('ux-home-view', v); } catch (e) {}
+    };
+    let startView = 'type';
+    try { startView = localStorage.getItem('ux-home-view') === 'task' ? 'task' : 'type'; } catch (e) {}
+    setMenuView(startView);
+    tabs.addEventListener('click', e => {
+      const b = e.target.closest('.menu-view-tab');
+      if (b) setMenuView(b.dataset.view);
+    });
     const mq = window.matchMedia('(max-width: 600px)');
     const syncGroups = () => links.querySelectorAll('.menu-group').forEach(d => { d.open = !mq.matches; });
     syncGroups();
@@ -283,7 +347,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=45';
+  s.src = 'i18n.js?v=48';
   document.head.appendChild(s);
 })();
 

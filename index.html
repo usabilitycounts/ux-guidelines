@@ -36,7 +36,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=84">
+<link rel="stylesheet" href="tokens.css?v=85">
 <style>
   :root {
     --bg: #ffffff;
@@ -85,8 +85,8 @@
   .view-tabs .lang-tab { padding: 6px 2px 10px; border-radius: 0; font-size: 0.875rem; }
   .view-tabs .lang-tab.active, .view-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; font-weight: 600; color: var(--text-primary); }
   .view-tabs .tab-indicator { top: auto; bottom: -1px; height: 2px; border-radius: 0; background: var(--text-primary); box-shadow: none; }
-  .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0 0 18px; max-width: none; width: 100%; }
-  .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; margin-bottom: 8px; }
+  .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0; max-width: none; width: 100%; }
+  .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; padding-bottom: 14px; margin-bottom: 8px; }
   .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
   .section-pill:hover { background: var(--ink); color: var(--text-inverse); }
   .home-main .section { scroll-margin-top: 76px; }
@@ -140,7 +140,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=81"></script>
+<script defer src="tokens.js?v=84"></script>
 </head>
 <body>
 
@@ -161,6 +161,46 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <h2 class="menu-label">Navigate</h2>
   <div class="menu-links">
 <a href="index.html" class="menu-link active">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
 <details class="menu-group">
   <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
   <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
@@ -186,46 +226,6 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
   <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
   <a href="automation-bias.html" class="menu-link">Automation Bias</a>
-</details>
-<details class="menu-group">
-  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
-  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
-  <a href="steering-law.html" class="menu-link">Steering Law</a>
-  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
-  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
-  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
-  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
-  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
-</details>
-<details class="menu-group">
-  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
-  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
-  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
-  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
-  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
-  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
-  <a href="hook-model.html" class="menu-link">Hook Model</a>
-  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
-</details>
-<details class="menu-group">
-  <summary class="menu-group-label"><h3>Build The System</h3></summary>
-  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
-  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
-  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
-  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
-  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
-  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
-  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
-</details>
-<details class="menu-group">
-  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
-  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
-  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
-  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
-  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
-  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
-  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
-  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
 </details>
 <a href="about.html" class="menu-link">About</a>
 <a href="glossary.html" class="menu-link">Glossary</a>
@@ -344,285 +344,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <button type="button" class="lang-tab view-tab" data-view="task">Task Type</button>
 </div>
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Lay Out The Page</h2><span class="pt-desc">Where the eye goes and why.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="eye-scanning-patterns.html">
-        <h3>Eye-Scanning Patterns</h3>
-        <p class="desc">Six scan shapes from eye-tracking research.</p>
-        <div class="card-foot">
-          <span class="tag">6 patterns</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="gutenberg-principle.html">
-        <h3>Gutenberg Principle</h3>
-        <p class="desc">Reading gravity flows toward bottom-right.</p>
-        <div class="card-foot">
-          <span class="tag">4 quadrants</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="grid-and-hierarchy.html">
-        <h3>Grid and Hierarchy</h3>
-        <p class="desc">Grids organize space; hierarchy directs attention.</p>
-        <div class="card-foot">
-          <span class="tag">10 systems</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="gestalt-principles.html">
-        <h3>Gestalt Principles</h3>
-        <p class="desc">How the mind groups what it sees.</p>
-        <div class="card-foot">
-          <span class="tag">10 principles</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="von-restorff-effect.html">
-        <h3>Von Restorff Effect</h3>
-        <p class="desc">The different one gets remembered.</p>
-        <div class="card-foot">
-          <span class="tag">6 uses</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="weber-fechner-law.html">
-        <h3>Weber-Fechner Law</h3>
-        <p class="desc">Perception scales with ratios, not amounts.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg><h2 class="category-label">Present And Explain</h2><span class="pt-desc">Making information effortless to absorb.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="data-visualization.html">
-        <h3>Data Visualization</h3>
-        <p class="desc">Sixteen chart types, grouped by question.</p>
-        <div class="card-foot">
-          <span class="tag">16 chart types</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="universal-icons.html">
-        <h3>Universal Icons</h3>
-        <p class="desc">The few glyphs everyone already reads.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="progressive-disclosure.html">
-        <h3>Progressive Disclosure</h3>
-        <p class="desc">Show essentials now, reveal more later.</p>
-        <div class="card-foot">
-          <span class="tag">6 patterns</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="cognitive-load-theory.html">
-        <h3>Cognitive Load Theory</h3>
-        <p class="desc">Working memory is the real bottleneck.</p>
-        <div class="card-foot">
-          <span class="tag">3 loads</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="millers-law.html">
-        <h3>Miller’s Law</h3>
-        <p class="desc">About seven chunks, plus or minus two.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="serial-position-effect.html">
-        <h3>Serial Position Effect</h3>
-        <p class="desc">First and last stick; middle fades.</p>
-        <div class="card-foot">
-          <span class="tag">6 positions</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="curse-of-knowledge.html">
-        <h3>Curse of Knowledge</h3>
-        <p class="desc">Experts can't imagine not knowing.</p>
-        <div class="card-foot">
-          <span class="tag">6 antidotes</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg><h2 class="category-label">Structure The Choices</h2><span class="pt-desc">Shaping decisions people can actually make.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="hicks-law.html">
-        <h3>Hick’s Law</h3>
-        <p class="desc">More choices mean slower decisions.</p>
-        <div class="card-foot">
-          <span class="tag">10 applications</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="jakobs-law.html">
-        <h3>Jakob’s Law</h3>
-        <p class="desc">Your site should work like others.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="paradox-of-choice.html">
-        <h3>Paradox of Choice</h3>
-        <p class="desc">Fewer options, easier decisions.</p>
-        <div class="card-foot">
-          <span class="tag">10 patterns</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="automation-bias.html">
-        <h3>Automation Bias</h3>
-        <p class="desc">People over-trust the machine's suggestion.</p>
-        <div class="card-foot">
-          <span class="tag">Mosier, 1996</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg><h2 class="category-label">Design Actions And Controls</h2><span class="pt-desc">Targets, feedback, and forgiving controls.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="fitts-law.html">
-        <h3>Fitts’s Law</h3>
-        <p class="desc">Big, close targets are faster.</p>
-        <div class="card-foot">
-          <span class="tag">10 applications</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="steering-law.html">
-        <h3>Steering Law</h3>
-        <p class="desc">Narrow paths slow the pointer.</p>
-        <div class="card-foot">
-          <span class="tag">6 tunnels</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="contour-bias.html">
-        <h3>Contour Bias</h3>
-        <p class="desc">Rounded feels safe; sharp reads urgent.</p>
-        <div class="card-foot">
-          <span class="tag">Bar, 2006</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="navigation-patterns.html">
-        <h3>Navigation Patterns</h3>
-        <p class="desc">The proven ways users find things.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="doherty-threshold.html">
-        <h3>Doherty Threshold</h3>
-        <p class="desc">Respond within 400 milliseconds.</p>
-        <div class="card-foot">
-          <span class="tag">400 ms</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="power-law-of-practice.html">
-        <h3>Power Law of Practice</h3>
-        <p class="desc">Repetition makes every task faster.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="yerkes-dodson-law.html">
-        <h3>Yerkes-Dodson Law</h3>
-        <p class="desc">Some pressure helps; too much hurts.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><h2 class="category-label">Keep Them Coming Back</h2><span class="pt-desc">Delight, memory, and habit.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="aesthetic-usability-effect.html">
-        <h3>Aesthetic-Usability Effect</h3>
-        <p class="desc">Beautiful feels easier to use.</p>
-        <div class="card-foot">
-          <span class="tag">6 lessons</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="peak-end-rule.html">
-        <h3>Peak-End Rule</h3>
-        <p class="desc">People remember peaks and endings.</p>
-        <div class="card-foot">
-          <span class="tag">6 moments</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="uncanny-valley.html">
-        <h3>Uncanny Valley</h3>
-        <p class="desc">Almost-human unsettles more than machines.</p>
-        <div class="card-foot">
-          <span class="tag">Mori, 1970</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="zeigarnik-effect.html">
-        <h3>Zeigarnik Effect</h3>
-        <p class="desc">Unfinished tasks stay on the mind.</p>
-        <div class="card-foot">
-          <span class="tag">6 loops</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="fogg-behavior-model.html">
-        <h3>Fogg Behavior Model</h3>
-        <p class="desc">Behavior needs motivation, ability, a prompt.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="hook-model.html">
-        <h3>Hook Model</h3>
-        <p class="desc">Trigger, action, reward, investment — repeat.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="ikea-effect.html">
-        <h3>IKEA Effect</h3>
-        <p class="desc">We overvalue what we help build.</p>
-        <div class="card-foot">
-          <span class="tag">Norton, 2011</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg><h2 class="category-label">Build The System</h2><span class="pt-desc">The laws behind the architecture.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg><h2 class="category-label">Build The System</h2><span class="pt-desc">The laws behind the architecture, governing how teams, systems, and estimates really behave.</span></div>
   <div class="cards-grid">
       <a class="card" href="teslers-law.html">
         <h3>Tesler’s Law</h3>
@@ -684,7 +406,69 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg><h2 class="category-label">Follow The Rulebooks</h2><span class="pt-desc">The canonical checklists and standards.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg><h2 class="category-label">Design Actions And Controls</h2><span class="pt-desc">Targets, feedback, and forgiving controls, tuned to how hands and attention actually behave.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="fitts-law.html">
+        <h3>Fitts’s Law</h3>
+        <p class="desc">Big, close targets are faster.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="steering-law.html">
+        <h3>Steering Law</h3>
+        <p class="desc">Narrow paths slow the pointer.</p>
+        <div class="card-foot">
+          <span class="tag">6 tunnels</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="contour-bias.html">
+        <h3>Contour Bias</h3>
+        <p class="desc">Rounded feels safe; sharp reads urgent.</p>
+        <div class="card-foot">
+          <span class="tag">Bar, 2006</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="navigation-patterns.html">
+        <h3>Navigation Patterns</h3>
+        <p class="desc">The proven ways users find things.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="doherty-threshold.html">
+        <h3>Doherty Threshold</h3>
+        <p class="desc">Respond within 400 milliseconds.</p>
+        <div class="card-foot">
+          <span class="tag">400 ms</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="power-law-of-practice.html">
+        <h3>Power Law of Practice</h3>
+        <p class="desc">Repetition makes every task faster.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="yerkes-dodson-law.html">
+        <h3>Yerkes-Dodson Law</h3>
+        <p class="desc">Some pressure helps; too much hurts.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg><h2 class="category-label">Follow The Rulebooks</h2><span class="pt-desc">The canonical checklists and standards that settle arguments and keep quality from drifting.</span></div>
   <div class="cards-grid">
       <a class="card" href="nielsens-heuristics.html">
         <h3>Nielsen’s 10 Heuristics</h3>
@@ -744,6 +528,222 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       </a>
   </div>
 </section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><h2 class="category-label">Keep Them Coming Back</h2><span class="pt-desc">Delight, memory, and habit — the reasons people return long after the first visit.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="aesthetic-usability-effect.html">
+        <h3>Aesthetic-Usability Effect</h3>
+        <p class="desc">Beautiful feels easier to use.</p>
+        <div class="card-foot">
+          <span class="tag">6 lessons</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="peak-end-rule.html">
+        <h3>Peak-End Rule</h3>
+        <p class="desc">People remember peaks and endings.</p>
+        <div class="card-foot">
+          <span class="tag">6 moments</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="uncanny-valley.html">
+        <h3>Uncanny Valley</h3>
+        <p class="desc">Almost-human unsettles more than machines.</p>
+        <div class="card-foot">
+          <span class="tag">Mori, 1970</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="zeigarnik-effect.html">
+        <h3>Zeigarnik Effect</h3>
+        <p class="desc">Unfinished tasks stay on the mind.</p>
+        <div class="card-foot">
+          <span class="tag">6 loops</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="fogg-behavior-model.html">
+        <h3>Fogg Behavior Model</h3>
+        <p class="desc">Behavior needs motivation, ability, a prompt.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="hook-model.html">
+        <h3>Hook Model</h3>
+        <p class="desc">Trigger, action, reward, investment — repeat.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="ikea-effect.html">
+        <h3>IKEA Effect</h3>
+        <p class="desc">We overvalue what we help build.</p>
+        <div class="card-foot">
+          <span class="tag">Norton, 2011</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Lay Out The Page</h2><span class="pt-desc">Where the eye goes and why, and how structure decides what gets seen first.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="eye-scanning-patterns.html">
+        <h3>Eye-Scanning Patterns</h3>
+        <p class="desc">Six scan shapes from eye-tracking research.</p>
+        <div class="card-foot">
+          <span class="tag">6 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="gutenberg-principle.html">
+        <h3>Gutenberg Principle</h3>
+        <p class="desc">Reading gravity flows toward bottom-right.</p>
+        <div class="card-foot">
+          <span class="tag">4 quadrants</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="grid-and-hierarchy.html">
+        <h3>Grid and Hierarchy</h3>
+        <p class="desc">Grids organize space; hierarchy directs attention.</p>
+        <div class="card-foot">
+          <span class="tag">10 systems</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="gestalt-principles.html">
+        <h3>Gestalt Principles</h3>
+        <p class="desc">How the mind groups what it sees.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="von-restorff-effect.html">
+        <h3>Von Restorff Effect</h3>
+        <p class="desc">The different one gets remembered.</p>
+        <div class="card-foot">
+          <span class="tag">6 uses</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="weber-fechner-law.html">
+        <h3>Weber-Fechner Law</h3>
+        <p class="desc">Perception scales with ratios, not amounts.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg><h2 class="category-label">Present And Explain</h2><span class="pt-desc">Making information effortless to absorb, so understanding costs the reader as little as possible.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="data-visualization.html">
+        <h3>Data Visualization</h3>
+        <p class="desc">Sixteen chart types, grouped by question.</p>
+        <div class="card-foot">
+          <span class="tag">16 chart types</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="universal-icons.html">
+        <h3>Universal Icons</h3>
+        <p class="desc">The few glyphs everyone already reads.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="progressive-disclosure.html">
+        <h3>Progressive Disclosure</h3>
+        <p class="desc">Show essentials now, reveal more later.</p>
+        <div class="card-foot">
+          <span class="tag">6 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="cognitive-load-theory.html">
+        <h3>Cognitive Load Theory</h3>
+        <p class="desc">Working memory is the real bottleneck.</p>
+        <div class="card-foot">
+          <span class="tag">3 loads</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="millers-law.html">
+        <h3>Miller’s Law</h3>
+        <p class="desc">About seven chunks, plus or minus two.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="serial-position-effect.html">
+        <h3>Serial Position Effect</h3>
+        <p class="desc">First and last stick; middle fades.</p>
+        <div class="card-foot">
+          <span class="tag">6 positions</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="curse-of-knowledge.html">
+        <h3>Curse of Knowledge</h3>
+        <p class="desc">Experts can't imagine not knowing.</p>
+        <div class="card-foot">
+          <span class="tag">6 antidotes</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg><h2 class="category-label">Structure The Choices</h2><span class="pt-desc">Shaping decisions people can actually make, without the paralysis that too many options bring.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="hicks-law.html">
+        <h3>Hick’s Law</h3>
+        <p class="desc">More choices mean slower decisions.</p>
+        <div class="card-foot">
+          <span class="tag">10 applications</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="jakobs-law.html">
+        <h3>Jakob’s Law</h3>
+        <p class="desc">Your site should work like others.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="paradox-of-choice.html">
+        <h3>Paradox of Choice</h3>
+        <p class="desc">Fewer options, easier decisions.</p>
+        <div class="card-foot">
+          <span class="tag">10 patterns</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="automation-bias.html">
+        <h3>Automation Bias</h3>
+        <p class="desc">People over-trust the machine's suggestion.</p>
+        <div class="card-foot">
+          <span class="tag">Mosier, 1996</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
 </div>
 </div>
 </main>
@@ -755,7 +755,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 
 <script>
 (function () {
-  var TYPE_GROUPS = [{"label": "Chat", "icon": "<path d=\"M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1\"/>", "slugs": ["automation-bias", "doherty-threshold", "postels-law", "teslers-law", "uncanny-valley"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"84\" y=\"35.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"59.2\" width=\"84\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"12\" y=\"94.4\" width=\"176\" height=\"16.0\" rx=\"10\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><circle cx=\"179\" cy=\"102.4\" r=\"6\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Chat interfaces and AI copilots."}, {"label": "Dashboards", "icon": "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path d=\"m19 9-5 5-4-4-3 3\"/>", "slugs": ["data-visualization", "goodharts-law", "yerkes-dodson-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"74\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"136\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"43.2\" width=\"176\" height=\"65.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.12\"/><polyline points=\"24,94.4 56,76.8 88,83.2 120,62.4 152,68.8 178,52.8\" fill=\"none\" stroke=\"var(--pt-accent)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>", "desc": "Status at a glance, honestly measured."}, {"label": "Detail Pages", "icon": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "slugs": ["gestalt-principles", "progressive-disclosure", "weber-fechner-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"112\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"30.4\" width=\"82\" height=\"46.4\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"32.0\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"43.2\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"54.4\" width=\"62\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"67.2\" width=\"46\" height=\"11.2\" rx=\"7\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"88.0\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"99.2\" width=\"150\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "One thing, fully explained."}, {"label": "Every Page", "icon": "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "wcag-pour"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"9.6\" width=\"176\" height=\"8.0\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"12\" y=\"27.2\" width=\"110\" height=\"7.2\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"41.6\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"52.8\" width=\"160\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "The rules that apply to every screen."}, {"label": "Flows", "icon": "<circle cx=\"8\" cy=\"21\" r=\"1\"/><circle cx=\"19\" cy=\"21\" r=\"1\"/><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"/>", "slugs": ["fogg-behavior-model", "hook-model", "ikea-effect", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><line x1=\"28\" y1=\"19.2\" x2=\"172\" y2=\"19.2\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.3\"/><circle cx=\"28\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><circle cx=\"100\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><circle cx=\"172\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><rect x=\"12\" y=\"38.4\" width=\"112\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"22\" y=\"46.4\" width=\"70\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"22\" y=\"57.6\" width=\"92\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"22\" y=\"68.8\" width=\"80\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"134\" y=\"38.4\" width=\"54\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"134\" y=\"97.6\" width=\"54\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Multi-step journeys that get finished."}, {"label": "Forms", "icon": "<path d=\"M5 4h1a3 3 0 0 1 3 3 3 3 0 0 1 3-3h1\"/><path d=\"M13 20h-1a3 3 0 0 1-3-3 3 3 0 0 1-3 3H5\"/><path d=\"M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1\"/><path d=\"M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7\"/><path d=\"M9 7v10\"/>", "slugs": ["cognitive-load-theory", "curse-of-knowledge", "millers-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"20.0\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"41.6\" width=\"64\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"50.4\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"72.0\" width=\"44\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"80.8\" width=\"86\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"101.6\" width=\"56\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Asking for input without losing people."}, {"label": "Landing Pages", "icon": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/><path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\"/><path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\"/>", "slugs": ["aesthetic-usability-effect", "contour-bias", "eye-scanning-patterns", "gutenberg-principle", "jakobs-law", "von-restorff-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"40\" y=\"27.2\" width=\"120\" height=\"10.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"55\" y=\"44.8\" width=\"90\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"74\" y=\"60.8\" width=\"52\" height=\"13.6\" rx=\"8.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"77\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"134\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "First impressions, trust, and the pitch."}, {"label": "Navigation", "icon": "<path d=\"M12 13v8\"/><path d=\"M12 3v3\"/><path d=\"M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z\"/>", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "steering-law", "universal-icons"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"46\" height=\"97.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"20\" y=\"19.2\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"32.0\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"44.8\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"57.6\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"70.4\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"68\" y=\"11.2\" width=\"120\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"68\" y=\"30.4\" width=\"120\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"41.6\" width=\"104\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"57.6\" width=\"120\" height=\"51.2\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/></svg>", "desc": "Getting around without getting lost."}, {"label": "Tables", "icon": "<path d=\"M12 3v18\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/>", "slugs": ["grid-and-hierarchy", "pareto-principle", "serial-position-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"76\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"140\" y=\"11.2\" width=\"48\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"28.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"43.2\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"72.0\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"86.4\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"100.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"76\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"57.6\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/></svg>", "desc": "Scanning, comparing, and finding the row."}];
+  var TYPE_GROUPS = [{"label": "Every Page", "icon": "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "wcag-pour"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"9.6\" width=\"176\" height=\"8.0\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"12\" y=\"27.2\" width=\"110\" height=\"7.2\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"41.6\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"52.8\" width=\"160\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "The rules that apply to every screen, from the first prototype to the shipped product."}, {"label": "Chat", "icon": "<path d=\"M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1\"/>", "slugs": ["automation-bias", "doherty-threshold", "postels-law", "teslers-law", "uncanny-valley"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"84\" y=\"35.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"59.2\" width=\"84\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"12\" y=\"94.4\" width=\"176\" height=\"16.0\" rx=\"10\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><circle cx=\"179\" cy=\"102.4\" r=\"6\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Chat interfaces and AI copilots, where people weigh how much to trust the machine."}, {"label": "Dashboards", "icon": "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path d=\"m19 9-5 5-4-4-3 3\"/>", "slugs": ["data-visualization", "goodharts-law", "yerkes-dodson-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"74\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"136\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"43.2\" width=\"176\" height=\"65.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.12\"/><polyline points=\"24,94.4 56,76.8 88,83.2 120,62.4 152,68.8 178,52.8\" fill=\"none\" stroke=\"var(--pt-accent)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>", "desc": "Status at a glance, honestly measured, so the numbers guide attention instead of skewing it."}, {"label": "Detail Pages", "icon": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "slugs": ["gestalt-principles", "progressive-disclosure", "weber-fechner-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"112\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"30.4\" width=\"82\" height=\"46.4\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"32.0\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"43.2\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"54.4\" width=\"62\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"67.2\" width=\"46\" height=\"11.2\" rx=\"7\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"88.0\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"99.2\" width=\"150\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "One thing, fully explained, with depth available but never dumped on the reader at once."}, {"label": "Flows", "icon": "<circle cx=\"8\" cy=\"21\" r=\"1\"/><circle cx=\"19\" cy=\"21\" r=\"1\"/><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"/>", "slugs": ["fogg-behavior-model", "hook-model", "ikea-effect", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><line x1=\"28\" y1=\"19.2\" x2=\"172\" y2=\"19.2\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.3\"/><circle cx=\"28\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><circle cx=\"100\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><circle cx=\"172\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><rect x=\"12\" y=\"38.4\" width=\"112\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"22\" y=\"46.4\" width=\"70\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"22\" y=\"57.6\" width=\"92\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"22\" y=\"68.8\" width=\"80\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"134\" y=\"38.4\" width=\"54\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"134\" y=\"97.6\" width=\"54\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Multi-step journeys that get finished, where momentum, memory, and a clear ending decide completion."}, {"label": "Forms", "icon": "<path d=\"M5 4h1a3 3 0 0 1 3 3 3 3 0 0 1 3-3h1\"/><path d=\"M13 20h-1a3 3 0 0 1-3-3 3 3 0 0 1-3 3H5\"/><path d=\"M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1\"/><path d=\"M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7\"/><path d=\"M9 7v10\"/>", "slugs": ["cognitive-load-theory", "curse-of-knowledge", "millers-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"20.0\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"41.6\" width=\"64\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"50.4\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"72.0\" width=\"44\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"80.8\" width=\"86\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"101.6\" width=\"56\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Asking for input without losing people, keeping the effort small and the errors forgiving."}, {"label": "Landing Pages", "icon": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/><path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\"/><path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\"/>", "slugs": ["aesthetic-usability-effect", "contour-bias", "eye-scanning-patterns", "gutenberg-principle", "jakobs-law", "von-restorff-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"40\" y=\"27.2\" width=\"120\" height=\"10.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"55\" y=\"44.8\" width=\"90\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"74\" y=\"60.8\" width=\"52\" height=\"13.6\" rx=\"8.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"77\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"134\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "First impressions, trust, and the pitch, judged in the fraction of a second before reading."}, {"label": "Navigation", "icon": "<path d=\"M12 13v8\"/><path d=\"M12 3v3\"/><path d=\"M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z\"/>", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "steering-law", "universal-icons"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"46\" height=\"97.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"20\" y=\"19.2\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"32.0\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"44.8\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"57.6\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"70.4\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"68\" y=\"11.2\" width=\"120\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"68\" y=\"30.4\" width=\"120\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"41.6\" width=\"104\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"57.6\" width=\"120\" height=\"51.2\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/></svg>", "desc": "Getting around without getting lost, with easy targets and labels people already know."}, {"label": "Tables", "icon": "<path d=\"M12 3v18\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/>", "slugs": ["grid-and-hierarchy", "pareto-principle", "serial-position-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"76\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"140\" y=\"11.2\" width=\"48\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"28.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"43.2\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"72.0\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"86.4\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"100.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"76\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"57.6\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/></svg>", "desc": "Scanning, comparing, and finding the row, where density and hierarchy matter more than decoration."}];
   var main = document.querySelector('.home-main');
   if (!main) return;
   var taskSections = Array.prototype.slice.call(main.querySelectorAll(':scope > .section'));
