@@ -376,7 +376,7 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .law-feature .law-label { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin-bottom: 16px; }
 .law-feature .law-desc { font-size: var(--fs-body); line-height: var(--lh-tight); color: var(--text-primary); margin-bottom: 28px; max-width: 50%; }
 .law-feature .law-meta { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
-.law-feature .law-meta .label { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
+.law-feature .law-meta .label { font-size: 0.8125rem; color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
 .law-feature .law-meta .value { font-size: var(--fs-ui); color: var(--text-primary); line-height: var(--lh-base); }
 .card-header .tag { margin-bottom: 2px; }
 /* Card titles are h3 elements (page h1 > section h2 > card h3) */
