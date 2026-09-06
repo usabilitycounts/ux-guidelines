@@ -6,10 +6,10 @@
   "Por debajo de 400 milisegundos, el trabajo se vuelve una conversación."
  ],
  "header .subtitle": [
-  "La investigación de Walter Doherty y Ahrvind Thadani en IBM (1982): cuando un sistema responde en menos de 400 milisegundos, la productividad se dispara — el usuario y la computadora se mantienen en el mismo hilo de pensamiento. Acompañado aquí de los límites clásicos de tiempo de respuesta que toda interfaz sigue respetando."
+  "La investigación de Walter Doherty y A. J. Thadani en IBM (1982): cuando un sistema responde en menos de 400 milisegundos, la productividad se dispara — el usuario y la computadora se mantienen en el mismo hilo de pensamiento. Acompañado aquí de los límites clásicos de tiempo de respuesta que toda interfaz sigue respetando."
  ],
  ".law-origin .body-text": [
-  "Walter J. Doherty y Ahrvind J. Thadani eran investigadores de IBM que estudiaban la economía de la computación interactiva. Su artículo de 1982, The Economic Value of Rapid Response Time, tumbó la suposición de la época de que dos segundos de respuesta bastaban — la productividad subía con fuerza cuando las respuestas bajaban de 400 milisegundos.",
+  "Walter J. Doherty y A. J. Thadani eran investigadores de IBM que estudiaban la economía de la computación interactiva. Su artículo de 1982, The Economic Value of Rapid Response Time, tumbó la suposición de la época de que dos segundos de respuesta bastaban — la productividad subía con fuerza cuando las respuestas bajaban de 400 milisegundos.",
   "El hallazgo replanteó la velocidad del sistema como argumento económico: las máquinas más rápidas se pagaban solas en atención humana recuperada. Décadas después el mismo umbral aparece en los presupuestos de rendimiento web, y los límites de tiempo de respuesta de <a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> llevan el marco hacia adelante."
  ],
  ".law-content .law-desc": [

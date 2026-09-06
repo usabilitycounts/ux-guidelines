@@ -6,7 +6,7 @@
   "Deux siècles à apprendre comment les gens utilisent les choses."
  ],
  "header .subtitle": [
-  "Toutes les références de la bibliothèque en ordre chronologique — des rapports de Weber en 1834 au modèle Hook en 2014 — avec l’année d’origine et les personnes derrière chacune."
+  "Toutes les références de la bibliothèque par ordre chronologique — des ratios de Weber en 1834 au modèle Hook en 2014 — avec l’année où chacune a été établie."
  ],
  ".yr-item a": [
   "Loi de Weber-Fechner",
@@ -75,5 +75,8 @@
   "XIXᵉ siècle",
   "XXᵉ siècle",
   "XXIᵉ siècle"
+ ],
+ ".yr-note": [
+  "Les pages-guides sont datées de l’ouvrage qui a établi la pratique."
  ]
 }

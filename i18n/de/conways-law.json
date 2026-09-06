@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> ist ein amerikanischer Informatiker. In seinem Paper How Do Committees Invent? von 1968 beobachtete er, dass Organisationen Designs erzeugen, die ihre eigenen Kommunikationsstrukturen kopieren — eine Beobachtung, die <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> später Conways Gesetz nannte.",
-  "Conway erwarb Abschlüsse in Physik und Mathematik, bevor er in den 1960ern Compiler und Betriebssysteme baute. Die Harvard Business Review lehnte das Paper mangels Belegen ab; Jahrzehnte der Softwareforschung seither — darunter Studien bei Microsoft und am MIT — haben den Spiegelungseffekt empirisch bestätigt."
+  "Conway erwarb Abschlüsse in Physik und Mathematik, bevor er in den 1960ern Compiler und Betriebssysteme baute. Die Harvard Business Review lehnte das Paper mangels Belegen ab; Jahrzehnte der Softwareforschung seither — darunter Studien bei Microsoft und am der Harvard Business School — haben den Spiegelungseffekt empirisch bestätigt."
  ],
  ".law-content .law-desc": [
   "Die Form eines Produkts folgt der Form des Teams, das es gebaut hat. Trennlinien im Team werden zu Trennlinien in der Architektur. Reibungslose Koordination in der Organisation wird zu sauberen Übergängen in der UX. Das Organigramm ist eine längere, leisere Spezifikation als alles im PRD."
@@ -21,7 +21,7 @@
   "In der Praxis"
  ],
  ".law-meta .value": [
-  "Melvin Conway (1967)",
+  "Melvin Conway (1968)",
   "How Do Committees Invent?",
   "Teams so strukturieren wie das gewünschte Produkt"
  ],

@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> es un científico de la computación estadounidense. En su artículo de 1968 How Do Committees Invent? observó que las organizaciones producen diseños que copian sus propias estructuras de comunicación — una observación que <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> bautizó después como la ley de Conway.",
-  "Conway se tituló en física y matemáticas antes de construir compiladores y sistemas operativos en los años 60. Harvard Business Review rechazó el artículo por falta de evidencia; décadas de investigación en software desde entonces — incluidos estudios en Microsoft y el MIT — han confirmado empíricamente el efecto espejo."
+  "Conway se tituló en física y matemáticas antes de construir compiladores y sistemas operativos en los años 60. Harvard Business Review rechazó el artículo por falta de evidencia; décadas de investigación en software desde entonces — incluidos estudios en Microsoft y el Harvard Business School — han confirmado empíricamente el efecto espejo."
  ],
  ".law-content .law-desc": [
   "La forma de un producto sigue la forma del equipo que lo construyó. Las divisiones del equipo se convierten en divisiones de la arquitectura. La coordinación fluida en la organización se convierte en transiciones limpias en la UX. El organigrama es una especificación más larga y silenciosa que cualquier cosa en el PRD."
@@ -21,7 +21,7 @@
   "En la práctica"
  ],
  ".law-meta .value": [
-  "Melvin Conway (1967)",
+  "Melvin Conway (1968)",
   "How Do Committees Invent?",
   "Estructura los equipos como el producto que quieres"
  ],

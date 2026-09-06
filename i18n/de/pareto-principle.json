@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> war ein italienischer Ökonom und Soziologe. 1896 beobachtete er, dass rund 80 % des Landes in Italien 20 % der Menschen gehörten; der Management-Denker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> verallgemeinerte das Muster später als 80/20-Regel und benannte sie nach Pareto.",
-  "Pareto war ausgebildeter Ingenieur und leitete italienische Eisenbahnen, bevor er sich an der Universität Lausanne der Ökonomie zuwandte. Seine breitere Arbeit zur Elitenzirkulation prägte die Soziologie ein Jahrhundert lang; das Kürzel 80/20 stammt vom Qualitätsmanagement-Pionier Joseph Juran, der es \"the vital few and the trivial many\" nannte."
+  "Pareto war ausgebildeter Ingenieur, arbeitete für eine Eisenbahngesellschaft und leitete ein Eisenwerk, bevor er sich an der Universität Lausanne der Ökonomie zuwandte. Seine Arbeiten zur Zirkulation der Eliten prägten die Soziologie ein Jahrhundert lang; die Kurzformel 80/20 stammt vom Qualitätspionier Joseph Juran, der von den „wenigen Wesentlichen und vielen Unwesentlichen“ sprach."
  ],
  ".law-content .law-desc": [
   "Ein kleiner Anteil der Ursachen erzeugt den Großteil der Wirkung. Das genaue Verhältnis ist nicht heilig — 70/30, 90/10 —, aber das Ungleichgewicht ist es. In Produkt, Design und Engineering zahlt sich die Arbeit dort aus, wo man die Minderheit mit der großen Hebelwirkung findet."
@@ -50,7 +50,7 @@
   "Das Risiko: 80 % zuversichtlich, 20 % falsch"
  ],
  ".card .desc": [
-  "Pareto war ein italienischer Ökonom, der 1906 Landbesitz untersuchte. Ihm fiel auf, dass etwa 80 % des Landes bei 20 % der Menschen lagen — und dann sah er dieselbe schiefe Verteilung bei den Erbsenschoten in seinem Garten. Das Muster erwies sich als allgegenwärtig, und der Name blieb.",
+  "Pareto war ein italienischer Ökonom, der 1896 Grundbesitz untersuchte. Ihm fiel auf, dass rund 80 % des Landes 20 % der Menschen gehörten — und, so die Anekdote, dass die Erbsenschoten in seinem Garten dieselbe Schieflage zeigten. Das Muster fand sich überall, und der Name blieb.",
   "Microsofts Office-Team stellte bekanntlich fest, dass die meisten Nutzer die meisten Menüs nie anrührten. Dieselbe Form kehrt in fast jedem Produkt wieder: Ein kleiner Kern von Features trägt den Großteil der Nutzung, der Rest liegt brach — manchmal absichtlich, oft zufällig.",
   "Wenn alles wichtig aussieht, ist der richtige Zug meist, herauszufinden, welche 20 % des Backlogs 80 % des Ergebnisses treiben. MVP, Roadmaps und Quartals-OKRs beruhen alle auf Pareto-Logik — dem kleinen Satz von Wetten, der den Großteil des Resultats tragen wird.",
   "Profilieren Sie ein beliebiges Produktivsystem, und Sie finden fast immer dieselbe Form: Ein kleiner Teil des Codes (oder der Abfragen oder Assets) verantwortet den Großteil der Zeit. Vorzeitige Optimierung ist überall sonst verschwendet — aber auf dem Hot Path zahlt sich die Rechnung massiv aus.",

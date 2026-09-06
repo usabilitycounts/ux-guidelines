@@ -48,7 +48,7 @@
   "Équivalents textuels (1.1.1)",
   "Accessible au clavier (2.1.1)",
   "Focus visible (2.4.7)",
-  "Taille des cibles tactiles (2.5.5)",
+  "Taille des cibles tactiles (2.5.8)",
   "Nom, rôle, valeur (4.1.2)",
   "Textes alternatifs et sous-titres générés par IA",
   "L'IA comme nouvelle couche d'assistance"
@@ -62,7 +62,7 @@
   "Chaque élément non textuel a besoin d'un équivalent textuel qui transmet le même sens. Les images décoratives utilisent un alt vide ; les images informatives décrivent le contenu.",
   "Chaque élément interactif doit être atteignable et utilisable au clavier. Pas de menus réservés à la souris, pas de glisser-déposer sans solution de repli, pas d'information critique révélée uniquement au survol.",
   "Le focus clavier doit toujours être visible. Supprimer le contour par défaut sans fournir un remplacement plus clair abandonne les utilisateurs au clavier — ils ne peuvent littéralement pas voir où ils se trouvent.",
-  "Les cibles de pointeur doivent mesurer au moins 24×24 pixels CSS (AA, WCAG 2.2) — 44×44 pour AAA. Des cibles tactiles minuscules rendent les sites mobiles inutilisables pour quiconque a une précision réduite ou de grands doigts.",
+  "Les cibles de pointeur doivent mesurer au moins 24×24 pixels CSS (AA, WCAG 2.2) — 44×44 pour AAA (2.5.5). Des cibles tactiles minuscules rendent les sites mobiles inutilisables pour quiconque a une précision réduite ou de grands doigts.",
   "Chaque composant d'interface doit exposer son nom, son rôle et son état courant aux technologies d'assistance. Utilisez le bon élément pour le bon travail — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> pour les actions, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> pour la navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> pour les champs. ARIA seulement quand le HTML natif ne peut pas l'exprimer.",
   "Les modèles de vision et de parole peuvent décrire des images et transcrire de l'audio à grande échelle. Mais le résultat exige une relecture — une légende assurée mais fausse est pire qu'aucune légende.",
   "Lecteurs d'écran, sous-titres en direct et « explique cette page » deviennent des fonctions IA. Livrez une sémantique propre pour que le modèle dispose d'une structure exacte sur laquelle travailler."

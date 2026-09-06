@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> is an American computer scientist. In his 1968 paper How Do Committees Invent? he observed that organizations produce designs that copy their own communication structures — an observation <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> later named Conway’s Law.",
-  "Conway earned degrees in physics and mathematics before building compilers and operating systems in the 1960s. Harvard Business Review rejected the paper for lack of evidence; decades of software research since — including studies at Microsoft and MIT — have confirmed the mirroring effect empirically."
+  "Conway earned degrees in physics and mathematics before building compilers and operating systems in the 1960s. Harvard Business Review rejected the paper for lack of evidence; decades of software research since — including studies at Microsoft and Harvard Business School — have confirmed the mirroring effect empirically."
  ],
  ".law-content .law-desc": [
   "The shape of a product follows the shape of the team that built it. Splits in the team turn into splits in the architecture. Smooth coordination in the org turns into clean transitions in the UX. The org chart is a longer, quieter spec than anything in the PRD."
@@ -21,7 +21,7 @@
   "In practice"
  ],
  ".law-meta .value": [
-  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a> (1967)",
+  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a> (1968)",
   "How Do Committees Invent?",
   "Structure teams like the product you want"
  ],

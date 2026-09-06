@@ -50,7 +50,7 @@
   "La variación generada choca con Weber"
  ],
  ".card .desc": [
-  "Levanta un peso de 200 g; añade 10 g y lo sentirás. Levanta uno de 2.000 g; añade 10 g y no. El umbral para detectar el cambio no es 10 g — es alrededor del 5% de lo que tenías al empezar. Cada canal sensorial tiene su propia fracción de Weber, y son sorprendentemente estables.",
+  "Levanta un peso de 200 g; añade 5 g y lo notarás. Levanta uno de 2000 g; añade 5 g y no lo notarás. El umbral de detección no son 5 g: es una pequeña fracción fija del punto de partida, un par de puntos porcentuales en el caso del peso. Cada canal sensorial tiene su propia fracción de Weber, y son sorprendentemente estables.",
   "Los profesionales del marketing interiorizaron esto hace mucho. Los descuentos se presentan como porcentajes, no como cantidades; una venta adicional es «solo 5 $ más» en una compra pequeña y «apenas un 5%» en una grande. El cambio de precio percibido por el usuario es una fracción de Weber del ancla.",
   "Las escalas tipográficas modulares — 1.125, 1.25, 1.333, 1.5, la proporción áurea — existen porque los saltos absolutos se ven desiguales. Una escala donde cada paso es el mismo porcentaje mayor que el anterior se lee como una jerarquía proporcional: cada nivel es perceptiblemente mayor que el de abajo.",
   "Las ratios de contraste de WCAG son Weber-Fechner por debajo — el contraste percibido escala con la proporción de luminancias, no con la diferencia. Por eso el modo oscuro y el claro necesitan colores absolutos distintos para sentirse igual de legibles, pero la misma ratio mínima (4.5:1 para texto de cuerpo).",
@@ -58,7 +58,7 @@
   "Una mejora del 5% sobre una base de conversión del 10% es enorme; el mismo 5% sobre una base del 80% apenas se detecta. La mayoría de los cálculos de potencia de los tests A/B son Weber disfrazado — hay que traducir el delta absoluto a uno proporcional antes de juzgar si merece la pena perseguirlo.",
   "La decimoquinta notificación de la mañana recibe menos atención que la primera — no porque haya cambiado nada en esa notificación, sino porque ahora es el 7% de quince en lugar del 100% de una. Cada nueva alerta se juzga contra el ruido de fondo al que se ha sumado.",
   "Weber-Fechner es más fiable en el medio de un rango sensorial. Con estímulos muy tenues (susurros, colores pálidos) y muy intensos (ruidos fuertes, luz cegadora) la proporción se desvía. Para UX casi siempre estás en el rango medio, donde la ley funciona con limpieza.",
-  "Hace un año, un resumen automático era novedad. Hoy es invisible porque todos los productos tienen uno. La línea base del usuario no deja de subir, y la misma función tiene que seguir mejorando para sentirse como el mismo delta. Weber-Fechner en movimiento: lanzar el tercer mejor resumen en 2026 se sentirá peor de lo que se sintió lanzar el mejor en 2024.",
+  "Hace un año, un resumen automático era novedad. Hoy es invisible porque todos los productos tienen uno. La línea base del usuario no deja de subir, y la misma función tiene que seguir mejorando para sentirse como el mismo salto. Weber-Fechner en movimiento: lanzar este año el tercer mejor resumen se sentirá peor que lanzar el mejor hace dos años.",
   "Un modelo que varía ligeramente una imagen entre usuarios, o retoca una notificación en un pequeño porcentaje, puede estar operando por debajo de la JND. Mucho ajuste que parece actividad en el código es invisible para los usuarios. Vale la pena comprobar si la variación es significativa — o solo ruido que el usuario no puede detectar."
  ],
  ".meta .label": [

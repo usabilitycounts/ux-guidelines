@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> est un informaticien américain. Dans son article de 1968 How Do Committees Invent?, il a observé que les organisations produisent des designs qui copient leurs propres structures de communication — une observation que <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> a plus tard baptisée loi de Conway.",
-  "Conway a obtenu des diplômes de physique et de mathématiques avant de construire des compilateurs et des systèmes d'exploitation dans les années 1960. La Harvard Business Review a rejeté l'article faute de preuves ; des décennies de recherche en génie logiciel depuis — y compris des études chez Microsoft et au MIT — ont confirmé empiriquement l'effet miroir."
+  "Conway a obtenu des diplômes de physique et de mathématiques avant de construire des compilateurs et des systèmes d'exploitation dans les années 1960. La Harvard Business Review a rejeté l'article faute de preuves ; des décennies de recherche en génie logiciel depuis — y compris des études chez Microsoft et au la Harvard Business School — ont confirmé empiriquement l'effet miroir."
  ],
  ".law-content .law-desc": [
   "La forme d'un produit suit la forme de l'équipe qui l'a construit. Les scissions dans l'équipe deviennent des scissions dans l'architecture. Une coordination fluide dans l'organisation devient des transitions propres dans l'UX. L'organigramme est une spécification plus longue et plus silencieuse que tout ce qu'il y a dans le PRD."
@@ -21,7 +21,7 @@
   "En pratique"
  ],
  ".law-meta .value": [
-  "Melvin Conway (1967)",
+  "Melvin Conway (1968)",
   "How Do Committees Invent?",
   "Structurez les équipes comme le produit que vous voulez"
  ],

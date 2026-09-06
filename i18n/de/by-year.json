@@ -6,7 +6,7 @@
   "Zwei Jahrhunderte lernen, wie Menschen Dinge benutzen."
  ],
  "header .subtitle": [
-  "Jede Referenz der Bibliothek in chronologischer Reihenfolge — von Webers Verhältnissen 1834 bis zum Hook-Modell 2014 — mit dem Jahr ihrer Entstehung und den Menschen dahinter."
+  "Jede Referenz der Bibliothek in chronologischer Reihenfolge — von Webers Verhältnissen 1834 bis zum Hook-Modell 2014 — mit dem Jahr, in dem sie begründet wurde."
  ],
  ".yr-item a": [
   "Weber-Fechner-Gesetz",
@@ -75,5 +75,8 @@
   "19. Jahrhundert",
   "20. Jahrhundert",
   "21. Jahrhundert"
+ ],
+ ".yr-note": [
+  "Leitfaden-Seiten sind auf das Werk datiert, das die Praxis begründet hat."
  ]
 }

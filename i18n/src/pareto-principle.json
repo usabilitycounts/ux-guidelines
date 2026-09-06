@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> was an Italian economist and sociologist. In 1896 he observed that roughly 80% of Italy’s land belonged to 20% of its people; management thinker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> later generalized the pattern as the 80/20 rule and named it for Pareto.",
-  "Pareto trained as an engineer and directed Italian railways before turning to economics at the University of Lausanne. His broader work on elite circulation influenced sociology for a century; the 80/20 shorthand came from quality-management pioneer <a href=\"people.html#p-joseph-juran\">Joseph Juran</a>, who called it ‘the vital few and the trivial many.’"
+  "Pareto trained as an engineer, worked for a railway company and ran an ironworks before turning to economics at the University of Lausanne. His broader work on elite circulation influenced sociology for a century; the 80/20 shorthand came from quality-management pioneer <a href=\"people.html#p-joseph-juran\">Joseph Juran</a>, who called it ‘the vital few and the trivial many.’"
  ],
  ".law-content .law-desc": [
   "A small share of causes produces most of the effect. The exact ratio isn’t sacred — 70/30, 90/10 — but the imbalance is. In product, design, and engineering, finding the high-leverage minority is where the work pays for itself."
@@ -50,7 +50,7 @@
   "The Risk: 80% Confident, 20% Wrong"
  ],
  ".card .desc": [
-  "Pareto was an Italian economist studying land ownership in 1906. He noticed about 80% of the land sat with 20% of the people — and then saw the same lopsided distribution in pea pods in his garden. The pattern turned out to be everywhere, and the name stuck.",
+  "Pareto was an Italian economist studying land ownership in 1896. He noticed about 80% of the land sat with 20% of the people — and, as the story goes, saw the same lopsided distribution in the pea pods in his garden. The pattern turned out to be everywhere, and the name stuck.",
   "Microsoft’s Office team famously found that most users never touched most of the menus. The same shape recurs in nearly every product: a small core of features carries most of the engagement, and the rest sits unused — sometimes purposefully, often accidentally.",
   "When everything looks important, the right move is usually to figure out which 20% of the backlog drives 80% of the outcome. MVP, roadmaps, and quarterly OKRs all rely on Pareto reasoning — picking the small set of bets that will carry most of the result.",
   "Profile any production system and you almost always find the same shape: a small fraction of the code (or queries, or assets) is responsible for most of the time. Premature optimization is wasted everywhere else — but on the hot path, the math pays back massively.",

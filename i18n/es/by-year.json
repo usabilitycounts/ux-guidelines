@@ -6,7 +6,7 @@
   "Dos siglos aprendiendo cómo la gente usa las cosas."
  ],
  "header .subtitle": [
-  "Todas las referencias de la biblioteca en orden cronológico — de las razones de Weber en 1834 al modelo Hook en 2014 — con el año en que se establecieron y las personas detrás."
+  "Todas las referencias de la biblioteca en orden cronológico — de las proporciones de Weber en 1834 al modelo Hook en 2014 — con el año en que se estableció cada una."
  ],
  ".yr-item a": [
   "Ley de Weber-Fechner",
@@ -75,5 +75,8 @@
   "Siglo XIX",
   "Siglo XX",
   "Siglo XXI"
+ ],
+ ".yr-note": [
+  "Las páginas guía se fechan según la obra que estableció la práctica."
  ]
 }

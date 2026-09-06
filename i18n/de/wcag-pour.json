@@ -48,7 +48,7 @@
   "Textalternativen (1.1.1)",
   "Per Tastatur zugänglich (2.1.1)",
   "Sichtbarer Fokus (2.4.7)",
-  "Touch-Zielgröße (2.5.5)",
+  "Touch-Zielgröße (2.5.8)",
   "Name, Rolle, Wert (4.1.2)",
   "KI-generierte Alt-Texte und Untertitel",
   "KI als die neue assistive Schicht"
@@ -62,7 +62,7 @@
   "Jedes Nicht-Text-Element braucht eine Textalternative, die dieselbe Bedeutung vermittelt. Dekorative Bilder verwenden ein leeres alt; informative Bilder beschreiben den Inhalt.",
   "Jedes interaktive Element muss per Tastatur erreichbar und bedienbar sein. Keine Nur-Maus-Menüs, kein Drag-and-drop ohne Alternative, kein Nur-Hover-Enthüllen kritischer Informationen.",
   "Der Tastaturfokus muss immer sichtbar sein. Wer die Standard-Umrandung entfernt, ohne einen klareren Ersatz zu liefern, lässt Tastaturnutzer stranden — sie können buchstäblich nicht sehen, wo sie sind.",
-  "Zeigerziele müssen mindestens 24×24 CSS-Pixel groß sein (AA, WCAG 2.2) — 44×44 für AAA. Winzige Tippziele machen mobile Seiten für alle mit geringer Präzision oder großen Fingern unbrauchbar.",
+  "Zeigerziele müssen mindestens 24×24 CSS-Pixel groß sein (AA, WCAG 2.2) — 44×44 für AAA (2.5.5). Winzige Tippziele machen mobile Seiten für alle mit geringer Präzision oder großen Fingern unbrauchbar.",
   "Jede UI-Komponente muss ihren Namen, ihre Rolle und ihren aktuellen Zustand an assistive Technologie melden. Verwenden Sie das richtige Element für die richtige Aufgabe — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> für Aktionen, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> für Navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> für Eingaben. ARIA nur, wenn natives HTML es nicht ausdrücken kann.",
   "Bild- und Sprachmodelle können Bilder beschreiben und Audio in großem Maßstab transkribieren. Aber die Ausgabe braucht Prüfung — eine selbstsichere, falsche Bildunterschrift ist schlimmer als gar keine.",
   "Screenreader, Live-Untertitel und „Erklär mir diese Seite“ werden zu KI-Funktionen. Liefern Sie saubere Semantik aus, damit das Modell mit korrekter Struktur arbeiten kann."

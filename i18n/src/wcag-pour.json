@@ -48,7 +48,7 @@
   "Text Alternatives (1.1.1)",
   "Keyboard Accessible (2.1.1)",
   "Focus Visible (2.4.7)",
-  "Touch Target Size (2.5.5)",
+  "Touch Target Size (2.5.8)",
   "Name, Role, Value (4.1.2)",
   "AI-Generated Alt Text & Captions",
   "AI as the New Assistive Layer"
@@ -62,7 +62,7 @@
   "Every non-text element needs a text alternative that conveys the same meaning. Decorative images use empty alt; informative images describe the content.",
   "Every interactive element must be reachable and operable using a keyboard. No mouse-only menus, no drag-and-drop without a fallback, no hover-only reveal of critical info.",
   "Keyboard focus must always be visible. Removing the default outline without providing a clearer replacement strands keyboard users — they literally cannot see where they are.",
-  "Pointer targets must be at least 24×24 CSS pixels (AA, WCAG 2.2) — 44×44 for AAA. Tiny tap targets make mobile sites useless for anyone with low precision or large fingers.",
+  "Pointer targets must be at least 24×24 CSS pixels (AA, WCAG 2.2) — 44×44 for AAA (2.5.5). Tiny tap targets make mobile sites useless for anyone with low precision or large fingers.",
   "Every UI component must expose its name, role, and current state to assistive technology. Use the right element for the right job — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> for actions, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> for navigation, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> for inputs. ARIA only when native HTML can’t express it.",
   "Vision and speech models can describe images and transcribe audio at scale. But the output needs review — a confident, wrong caption is worse than none at all.",
   "Screen readers, live captions, and “explain this page” are becoming AI features. Ship clean semantics so the model has accurate structure to work from."

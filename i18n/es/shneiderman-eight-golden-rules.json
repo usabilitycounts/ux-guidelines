@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> es un científico de la computación de la Universidad de Maryland y figura fundadora de la interacción humano-computadora — fundó su laboratorio de HCI en 1983, y sus estudiantes y colaboradores dieron forma a los métodos del campo.",
-  "Las ocho reglas de oro aparecieron en Designing the User Interface (1986), hoy en su sexta edición. Junto a ellas, el concepto de manipulación directa de Shneiderman y su trabajo en visualización de información («primero la vista general, zoom y filtro, detalles bajo demanda») recorren las interfaces modernas."
+  "Las ocho reglas de oro aparecieron en Designing the User Interface (1987), hoy en su sexta edición. Junto a ellas, el concepto de manipulación directa de Shneiderman y su trabajo en visualización de información («primero la vista general, zoom y filtro, detalles bajo demanda») recorren las interfaces modernas."
  ],
  ".law-content .law-desc": [
   "Ocho reglas prácticas para sistemas interactivos: buscar la consistencia, perseguir la usabilidad universal, ofrecer retroalimentación informativa, diseñar diálogos que produzcan cierre, prevenir errores, permitir revertir acciones con facilidad, mantener al usuario en control y reducir la carga de la memoria a corto plazo."
@@ -21,7 +21,7 @@
   "En la práctica"
  ],
  ".law-meta .value": [
-  "Ben Shneiderman (1986)",
+  "Ben Shneiderman (1987)",
   "Designing the User Interface",
   "La lista de verificación previa al vuelo"
  ],

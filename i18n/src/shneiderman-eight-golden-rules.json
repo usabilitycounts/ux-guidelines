@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> is a computer scientist at the University of Maryland and a founding figure of human-computer interaction — he founded its HCI lab in 1983, and his students and collaborators shaped the field’s methods.",
-  "The Eight Golden Rules appeared in Designing the User Interface (1986), now in its sixth edition. Alongside them, Shneiderman’s direct-manipulation concept and his work on information visualization (“overview first, zoom and filter, details on demand”) run through modern interfaces."
+  "The Eight Golden Rules appeared in Designing the User Interface (1987), now in its sixth edition. Alongside them, Shneiderman’s direct-manipulation concept and his work on information visualization (“overview first, zoom and filter, details on demand”) run through modern interfaces."
  ],
  ".law-content .law-desc": [
   "Eight working rules for interactive systems: strive for consistency, seek universal usability, offer informative feedback, design dialogs to yield closure, prevent errors, permit easy reversal of actions, keep users in control, and reduce short-term memory load."
@@ -21,7 +21,7 @@
   "In practice"
  ],
  ".law-meta .value": [
-  "<a href=\"people.html#p-ben-shneiderman\">Ben Shneiderman</a> (1986)",
+  "<a href=\"people.html#p-ben-shneiderman\">Ben Shneiderman</a> (1987)",
   "Designing the User Interface",
   "The pre-flight checklist"
  ],

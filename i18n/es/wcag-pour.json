@@ -48,7 +48,7 @@
   "Alternativas de texto (1.1.1)",
   "Accesible por teclado (2.1.1)",
   "Foco visible (2.4.7)",
-  "Tamaño del objetivo táctil (2.5.5)",
+  "Tamaño del objetivo táctil (2.5.8)",
   "Nombre, rol, valor (4.1.2)",
   "Texto alternativo y subtítulos generados por IA",
   "La IA como nueva capa asistiva"
@@ -62,7 +62,7 @@
   "Cada elemento no textual necesita una alternativa de texto que transmita el mismo significado. Las imágenes decorativas usan alt vacío; las informativas describen el contenido.",
   "Cada elemento interactivo debe poder alcanzarse y operarse con teclado. Nada de menús solo para ratón, ni arrastrar y soltar sin alternativa, ni información crítica revelada solo al pasar el cursor.",
   "El foco del teclado debe ser siempre visible. Quitar el contorno predeterminado sin ofrecer un sustituto más claro deja varados a los usuarios de teclado — literalmente no pueden ver dónde están.",
-  "Los objetivos de puntero deben medir al menos 24×24 píxeles CSS (AA, WCAG 2.2) — 44×44 para AAA. Los objetivos táctiles diminutos hacen inservibles los sitios móviles para cualquiera con poca precisión o dedos grandes.",
+  "Los objetivos de puntero deben medir al menos 24×24 píxeles CSS (AA, WCAG 2.2) — 44×44 para AAA (2.5.5). Los objetivos táctiles diminutos hacen inservibles los sitios móviles para cualquiera con poca precisión o dedos grandes.",
   "Cada componente de la interfaz debe exponer su nombre, rol y estado actual a la tecnología de asistencia. Usa el elemento correcto para el trabajo correcto — <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code> para acciones, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code> para navegación, <code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code> para campos. ARIA solo cuando el HTML nativo no puede expresarlo.",
   "Los modelos de visión y de voz pueden describir imágenes y transcribir audio a escala. Pero la salida necesita revisión — un subtítulo seguro de sí mismo y equivocado es peor que ninguno.",
   "Los lectores de pantalla, los subtítulos en vivo y el «explícame esta página» se están convirtiendo en funciones de IA. Entrega semántica limpia para que el modelo tenga una estructura precisa de la que partir."

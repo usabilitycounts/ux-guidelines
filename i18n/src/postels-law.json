@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Jon_Postel\" target=\"_blank\" rel=\"noopener\">Jon Postel</a> was an American computer scientist who edited the RFC series and stewarded core internet standards for decades. His robustness principle — be conservative in what you send, liberal in what you accept — appeared in his 1980 TCP specification.",
-  "Postel ran IANA — the Internet Assigned Numbers Authority — essentially by himself for nearly thirty years, earning the informal title ‘god of the internet.’ The robustness principle remains debated in protocol design: too much liberality in what you accept can ossify bugs into de facto standards."
+  "Postel ran IANA — the Internet Assigned Numbers Authority — essentially by himself for more than a quarter of a century, earning the informal title ‘god of the internet.’ The robustness principle remains debated in protocol design: too much liberality in what you accept can ossify bugs into de facto standards."
  ],
  ".law-content .law-desc": [
   "A system should send clean, strict output but accept generous, messy input. On the network this kept incompatible TCP implementations talking; on the interface, it keeps humans from being punished for typing things in their own format."

@@ -48,7 +48,7 @@
   "文本替代（1.1.1）",
   "键盘可访问（2.1.1）",
   "焦点可见（2.4.7）",
-  "触控目标尺寸（2.5.5）",
+  "触控目标尺寸（2.5.8）",
   "名称、角色、值（4.1.2）",
   "AI生成的替代文本与字幕",
   "AI成为新的辅助层"
@@ -62,7 +62,7 @@
   "每个非文本元素都需要一个传达相同含义的文本替代。装饰性图片使用空alt；信息性图片描述其内容。",
   "每个可交互元素都必须能用键盘触达和操作。不许有只认鼠标的菜单，不许有没有备选方案的拖拽，不许把关键信息只藏在悬停里。",
   "键盘焦点必须始终可见。移除默认轮廓线又不提供更清晰的替代，会让键盘用户搁浅——他们真的看不到自己在哪。",
-  "指针目标至少要有24×24 CSS像素（AA，WCAG 2.2）——AAA为44×44。过小的点按目标，会让移动网站对任何精度不足或手指较粗的人形同虚设。",
+  "指针目标至少要有24×24 CSS像素（AA，WCAG 2.2）——AAA (2.5.5)为44×44。过小的点按目标，会让移动网站对任何精度不足或手指较粗的人形同虚设。",
   "每个界面组件都必须向辅助技术暴露其名称、角色和当前状态。让对的元素干对的活——<code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;button&gt;</code>用于操作，<code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;a href&gt;</code>用于导航，<code style=\"font-family:'JetBrains Mono',monospace;font-size:0.9em;background:rgba(71,85,105,.10);padding:2px 6px;border-radius:3px\">&lt;label&gt;</code>用于输入。只有当原生HTML无法表达时才用ARIA。",
   "视觉和语音模型能够规模化地描述图像、转写音频。但输出需要人工审核——一条自信却错误的描述，比没有更糟。",
   "屏幕阅读器、实时字幕和“解释此页”正在成为AI功能。交付干净的语义结构，让模型有准确的骨架可依。"

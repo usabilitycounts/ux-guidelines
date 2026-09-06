@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> ist Informatiker an der University of Maryland und eine Gründerfigur der Mensch-Computer-Interaktion — er gründete 1983 deren HCI-Labor, und seine Studierenden und Mitarbeiter prägten die Methoden des Fachs.",
-  "Die acht goldenen Regeln erschienen in Designing the User Interface (1986), inzwischen in der sechsten Auflage. Daneben durchziehen Shneidermans Konzept der direkten Manipulation und seine Arbeit zur Informationsvisualisierung („overview first, zoom and filter, details on demand“) moderne Interfaces."
+  "Die acht goldenen Regeln erschienen in Designing the User Interface (1987), inzwischen in der sechsten Auflage. Daneben durchziehen Shneidermans Konzept der direkten Manipulation und seine Arbeit zur Informationsvisualisierung („overview first, zoom and filter, details on demand“) moderne Interfaces."
  ],
  ".law-content .law-desc": [
   "Acht Arbeitsregeln für interaktive Systeme: nach Konsistenz streben, universelle Nutzbarkeit anstreben, informatives Feedback bieten, Dialoge mit Abschluss gestalten, Fehler verhindern, einfaches Rückgängigmachen erlauben, Nutzer in Kontrolle halten und die Kurzzeitgedächtnislast senken."
@@ -21,7 +21,7 @@
   "In der Praxis"
  ],
  ".law-meta .value": [
-  "Ben Shneiderman (1986)",
+  "Ben Shneiderman (1987)",
   "Designing the User Interface",
   "Die Checkliste vor dem Start"
  ],

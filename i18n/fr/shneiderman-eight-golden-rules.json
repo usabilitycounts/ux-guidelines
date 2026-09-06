@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Ben_Shneiderman\" target=\"_blank\" rel=\"noopener\">Ben Shneiderman</a> est un informaticien de l'université du Maryland et une figure fondatrice de l'interaction humain-machine — il y a fondé le laboratoire d'IHM en 1983, et ses étudiants et collaborateurs ont façonné les méthodes du domaine.",
-  "Les huit règles d'or sont parues dans Designing the User Interface (1986), aujourd'hui à sa sixième édition. À leurs côtés, le concept de manipulation directe de Shneiderman et ses travaux sur la visualisation d'information (« vue d'ensemble d'abord, zoom et filtre, détails à la demande ») irriguent les interfaces modernes."
+  "Les huit règles d'or sont parues dans Designing the User Interface (1987), aujourd'hui à sa sixième édition. À leurs côtés, le concept de manipulation directe de Shneiderman et ses travaux sur la visualisation d'information (« vue d'ensemble d'abord, zoom et filtre, détails à la demande ») irriguent les interfaces modernes."
  ],
  ".law-content .law-desc": [
   "Huit règles de travail pour les systèmes interactifs : viser la cohérence, rechercher l'utilisabilité universelle, offrir un feedback informatif, concevoir des dialogues qui aboutissent à une clôture, prévenir les erreurs, permettre l'annulation facile des actions, garder l'utilisateur aux commandes et réduire la charge de la mémoire à court terme."
@@ -21,7 +21,7 @@
   "En pratique"
  ],
  ".law-meta .value": [
-  "Ben Shneiderman (1986)",
+  "Ben Shneiderman (1987)",
   "Designing the User Interface",
   "La check-list d'avant-vol"
  ],

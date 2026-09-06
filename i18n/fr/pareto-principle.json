@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> était un économiste et sociologue italien. En 1896, il a observé qu'environ 80 % des terres d'Italie appartenaient à 20 % de sa population ; le penseur du management <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> a ensuite généralisé le motif sous le nom de règle des 80/20 et l'a baptisé du nom de Pareto.",
-  "Pareto s'est formé comme ingénieur et a dirigé les chemins de fer italiens avant de se tourner vers l'économie à l'université de Lausanne. Ses travaux plus larges sur la circulation des élites ont influencé la sociologie pendant un siècle ; le raccourci 80/20 vient du pionnier de la gestion de la qualité Joseph Juran, qui parlait des « quelques essentiels et des nombreux insignifiants »."
+  "Ingénieur de formation, Pareto travailla pour une compagnie ferroviaire et dirigea une aciérie avant de se tourner vers l’économie à l’université de Lausanne. Ses travaux sur la circulation des élites ont marqué la sociologie pendant un siècle ; le raccourci 80/20 vient du pionnier de la qualité Joseph Juran, qui parlait des « quelques essentiels et des nombreux triviaux »."
  ],
  ".law-content .law-desc": [
   "Une petite part des causes produit l'essentiel de l'effet. Le ratio exact n'est pas sacré — 70/30, 90/10 — mais le déséquilibre l'est. En produit, en design et en ingénierie, trouver la minorité à fort levier est là où le travail se rentabilise."
@@ -50,7 +50,7 @@
   "Le risque : 80 % de confiance, 20 % d'erreur"
  ],
  ".card .desc": [
-  "Pareto était un économiste italien qui étudiait la propriété foncière en 1906. Il a remarqué qu'environ 80 % des terres revenaient à 20 % des gens — puis a vu la même distribution déséquilibrée dans les cosses de pois de son jardin. Le motif s'est révélé omniprésent, et le nom est resté.",
+  "Pareto était un économiste italien qui étudiait la propriété foncière en 1896. Il remarqua qu’environ 80 % des terres appartenaient à 20 % des gens — et, selon la légende, retrouva la même répartition déséquilibrée dans les cosses de pois de son jardin. Le schéma s’est révélé omniprésent, et le nom est resté.",
   "L'équipe Office de Microsoft a fameusement constaté que la plupart des utilisateurs ne touchaient jamais la plupart des menus. La même forme revient dans presque chaque produit : un petit noyau de fonctionnalités porte l'essentiel de l'engagement, et le reste demeure inutilisé — parfois à dessein, souvent par accident.",
   "Quand tout semble important, le bon réflexe est généralement de déterminer quels 20 % du backlog produisent 80 % du résultat. MVP, feuilles de route et OKR trimestriels reposent tous sur le raisonnement de Pareto — choisir le petit ensemble de paris qui portera l'essentiel du résultat.",
   "Profilez n'importe quel système en production et vous trouvez presque toujours la même forme : une petite fraction du code (ou des requêtes, ou des ressources) est responsable de l'essentiel du temps. L'optimisation prématurée est gaspillée partout ailleurs — mais sur le chemin critique, le calcul rapporte massivement.",

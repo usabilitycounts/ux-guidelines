@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> fue un economista y sociólogo italiano. En 1896 observó que aproximadamente el 80 % de la tierra de Italia pertenecía al 20 % de su gente; el pensador de gestión <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> generalizó más tarde el patrón como la regla del 80/20 y le puso el nombre de Pareto.",
-  "Pareto se formó como ingeniero y dirigió los ferrocarriles italianos antes de dedicarse a la economía en la Universidad de Lausana. Su obra más amplia sobre la circulación de las élites influyó en la sociología durante un siglo; el atajo del 80/20 vino del pionero de la gestión de calidad Joseph Juran, que lo llamó 'los pocos vitales y los muchos triviales'."
+  "Pareto se formó como ingeniero, trabajó para una compañía ferroviaria y dirigió una fundición antes de dedicarse a la economía en la Universidad de Lausana. Su obra sobre la circulación de las élites influyó en la sociología durante un siglo; el atajo 80/20 vino del pionero de la calidad Joseph Juran, que hablaba de «los pocos vitales y los muchos triviales»."
  ],
  ".law-content .law-desc": [
   "Una pequeña parte de las causas produce la mayor parte del efecto. La proporción exacta no es sagrada — 70/30, 90/10 — pero el desequilibrio sí. En producto, diseño e ingeniería, encontrar la minoría de alto apalancamiento es donde el trabajo se paga solo."
@@ -50,7 +50,7 @@
   "El riesgo: 80 % seguro, 20 % equivocado"
  ],
  ".card .desc": [
-  "Pareto era un economista italiano que estudiaba la propiedad de la tierra en 1906. Notó que cerca del 80 % de la tierra estaba en manos del 20 % de la gente — y luego vio la misma distribución desequilibrada en las vainas de guisantes de su jardín. El patrón resultó estar en todas partes, y el nombre se quedó.",
+  "Pareto era un economista italiano que estudiaba la propiedad de la tierra en 1896. Observó que cerca del 80 % de la tierra estaba en manos del 20 % de la gente — y, según cuenta la historia, vio la misma distribución desigual en las vainas de guisantes de su jardín. El patrón resultó estar en todas partes, y el nombre perduró.",
   "El equipo de Office de Microsoft descubrió, célebremente, que la mayoría de los usuarios nunca tocaba la mayoría de los menús. La misma forma se repite en casi todos los productos: un pequeño núcleo de funciones carga con la mayor parte del engagement, y el resto queda sin usar — a veces a propósito, a menudo por accidente.",
   "Cuando todo parece importante, la jugada correcta suele ser averiguar qué 20 % del backlog impulsa el 80 % del resultado. El MVP, los roadmaps y los OKR trimestrales dependen del razonamiento de Pareto — elegir el pequeño conjunto de apuestas que cargará con la mayor parte del resultado.",
   "Perfila cualquier sistema en producción y casi siempre encontrarás la misma forma: una pequeña fracción del código (o de las consultas, o de los recursos) es responsable de la mayor parte del tiempo. La optimización prematura se desperdicia en todo lo demás — pero en la ruta caliente, las matemáticas devuelven con creces.",

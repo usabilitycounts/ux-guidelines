@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">梅尔文·康威</a>是美国计算机科学家。他在1968年的论文 How Do Committees Invent? 中观察到，组织产出的设计会复制其自身的沟通结构——<a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">弗雷德·布鲁克斯</a>后来将这一观察命名为康威定律。",
-  "康威先取得物理学和数学学位，随后在1960年代构建编译器和操作系统。Harvard Business Review 以证据不足为由拒绝了这篇论文；此后数十年的软件研究——包括微软和 MIT 的研究——从实证上确认了这种镜像效应。"
+  "康威先取得物理学和数学学位，随后在1960年代构建编译器和操作系统。Harvard Business Review 以证据不足为由拒绝了这篇论文；此后数十年的软件研究——包括微软和 哈佛商学院 的研究——从实证上确认了这种镜像效应。"
  ],
  ".law-content .law-desc": [
   "产品的形状追随构建它的团队的形状。团队里的分裂变成架构里的分裂。组织内顺畅的协调变成 UX 里干净的过渡。组织架构图是一份比 PRD 里任何内容都更长久、更安静的规格说明。"
@@ -21,7 +21,7 @@
   "实践中"
  ],
  ".law-meta .value": [
-  "梅尔文·康威（1967）",
+  "梅尔文·康威（1968）",
   "How Do Committees Invent?",
   "按你想要的产品来组建团队"
  ],

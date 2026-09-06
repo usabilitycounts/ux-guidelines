@@ -1,0 +1,112 @@
+{
+ "header h1": [
+  "Automation <em>Bias</em>"
+ ],
+ "header .tagline": [
+  "If the machine said it, it must be right."
+ ],
+ "header .subtitle": [
+  "Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Linda_J._Skitka\" target=\"_blank\" rel=\"noopener\">Linda Skitka</a> and Kathleen Mosier studied flight crews working with cockpit automation in the 1990s. Given a faulty automated cue, experienced pilots followed it into errors they would never have made unaided — and when automation stayed silent, they missed events they were trained to catch.",
+  "Their work named automation bias and split it into two failures: errors of commission — doing what the machine wrongly suggests — and errors of omission — not doing what the machine failed to flag. The findings moved from aviation into medicine, security screening, and every interface that offers an automated answer."
+ ],
+ ".law-content .law-desc": [
+  "People treat automated suggestions as a replacement for their own vigilance rather than one more input. Trust in the machine rises above its actual reliability, attention decays, and both wrong suggestions and silent misses go unchallenged."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-mosier\">Kathleen Mosier</a> and <a href=\"people.html#p-linda-skitka\">Linda Skitka</a> (1996)",
+  "Cockpit automation studies",
+  "Design for review, not just accept"
+ ],
+ ".card .tag": [
+  "The research",
+  "Two failures",
+  "Defaults",
+  "Trust",
+  "Practice",
+  "Boundary",
+  "In the Age of AI",
+  "In the Age of AI"
+ ],
+ ".card h3": [
+  "The Cockpit Studies",
+  "Commission and Omission",
+  "Suggestions Become Answers",
+  "Calibrate the Trust",
+  "Friction Where It Counts",
+  "Vigilance Decays",
+  "The Accept-All Era",
+  "Show the Seams"
+ ],
+ ".card .desc": [
+  "Trained pilots in simulators followed false automated warnings — shutting down healthy engines — and overlooked failures the automation never announced. Expertise did not protect them; the presence of an automated aid changed how carefully they looked.",
+  "Commission: doing what the machine wrongly suggests. Omission: missing what the machine failed to flag. The second is quieter and worse — nothing on the screen ever asked to be doubted.",
+  "A pre-filled field, a ranked first result, a highlighted recommendation — whatever the system offers first is what most users submit. Automation bias is why default quality is a safety property, not a convenience.",
+  "The goal is not less trust — it is accurate trust. Show confidence levels, show what the system checked and did not check, and let reliability be felt. A system that admits uncertainty earns better decisions than one that always sounds sure.",
+  "One-tap accept is right for low-stakes suggestions and wrong for consequential ones. Match the effort to the cost of being wrong: a deliberate confirmation, a diff to review, a second source — friction as a feature, applied sparingly.",
+  "The better the automation, the less people check it — right up until the failure that matters. Reviews that are always rubber-stamped stop being reviews. If a human is the safety net, the interface has to keep them genuinely engaged.",
+  "Model output arrives fluent, confident, and formatted — every surface cue says finished. Users accept code they did not read and prose they did not check. Interfaces that make review easier than acceptance are the counterweight.",
+  "Expose sources, show what was checked, mark the uncertain parts, and make disagreeing with the model a first-class action. An AI interface that hides its seams invites blind trust; one that shows them invites judgment."
+ ],
+ ".meta .label": [
+  "Setting",
+  "Finding",
+  "Expertise",
+  "Commission",
+  "Omission",
+  "Worse",
+  "Offered first",
+  "Default quality",
+  "Audit",
+  "Goal",
+  "Show",
+  "Earns",
+  "Low stakes",
+  "High stakes",
+  "Rule",
+  "Pattern",
+  "Rubber stamp",
+  "Design job",
+  "Surface cues",
+  "Counterweight",
+  "Expose",
+  "First-class action"
+ ],
+ ".meta .value": [
+  "Flight simulators, real crews",
+  "The aid replaced the checking",
+  "Did not protect them",
+  "Following the wrong advice",
+  "Missing the silent failure",
+  "Omission — nothing prompts doubt",
+  "Chosen most",
+  "A safety property",
+  "What do we pre-select?",
+  "Accurate trust, not blind trust",
+  "Confidence and coverage",
+  "Better human decisions",
+  "One tap is fine",
+  "Deliberate steps",
+  "Effort matches the cost of wrong",
+  "Reliability breeds inattention",
+  "A review in name only",
+  "Keep the human engaged",
+  "Fluent means finished",
+  "Review easier than accept",
+  "Sources · checks · uncertainty",
+  "Disagreeing with the model"
+ ],
+ ".ai-divider h3": [
+  "Automation Bias in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Mosier and Skitka studied a cockpit. Now every writing tool, code editor, and search box offers automated answers — and the accept button is always one tap away."
+ ]
+}
