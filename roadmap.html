@@ -26,7 +26,26 @@
   .rm-item .tag { display: inline-block; margin-top: 6px; }
   .rm-key { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0 32px 24px; color: var(--text-secondary); font-size: var(--fs-ui); }
   .rm-key .tag { margin-right: 4px; }
-  @media (max-width: 980px) { .rm-item { grid-template-columns: 1fr; gap: 6px; } .rm-intro, .rm-group, .rm-key { padding-left: 20px; padding-right: 20px; } }
+  .rm-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 0 56px; max-width: 1440px; padding: 0 32px 72px; align-items: start; }
+  .rm-content .rm-intro, .rm-content .rm-group, .rm-content .rm-key { padding-left: 0; padding-right: 0; }
+  .rm-group { scroll-margin-top: 76px; }
+  .rm-nav-sticky { position: sticky; top: 20px; }
+  .rm-nav-label { font-size: var(--fs-tag); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 8px; padding-left: 12px; }
+  .rm-nav ul { list-style: none; margin: 0 0 22px; padding: 0; }
+  .rm-nav a { display: block; padding: 6px 12px; border-left: 2px solid transparent; font-size: var(--fs-ui); color: var(--text-secondary); text-decoration: none; line-height: var(--lh-heading); transition: color 0.15s ease, border-color 0.15s ease; }
+  .rm-nav a:hover { color: var(--text-primary); }
+  .rm-nav a.active { color: var(--text-primary); font-weight: 600; border-left-color: var(--ink); }
+  @media (max-width: 980px) {
+    .rm-item { grid-template-columns: 1fr; gap: 6px; }
+    .rm-layout { grid-template-columns: 1fr; gap: 0; padding: 0 20px 48px; }
+    .rm-nav-sticky { position: static; }
+    .rm-nav { margin-bottom: 8px; }
+    .rm-nav-label { display: none; }
+    .rm-nav ul { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px 6px; padding: 0 20px; }
+    .rm-nav ul::-webkit-scrollbar { display: none; }
+    .rm-nav a { flex: 0 0 auto; border-left: 0; border-radius: 999px; background: var(--surface-2); padding: 6px 12px; white-space: nowrap; }
+    .rm-nav a.active { background: var(--ink); color: var(--text-inverse); }
+  }
 </style>
 <script defer src="tokens.js?v=86"></script>
 </head>
@@ -130,11 +149,34 @@
 </header>
 
 <main>
+<div class="rm-layout">
+<nav class="rm-nav" aria-label="On this page">
+  <div class="rm-nav-sticky">
+    <div class="rm-nav-label">Inventory</div>
+    <ul>
+      <li><a href="#site-wide-chrome">Site-Wide Chrome</a></li>
+      <li><a href="#home-page">Home Page</a></li>
+      <li><a href="#reference-pages">Reference Pages</a></li>
+      <li><a href="#index-and-guide-pages">Index and Guide Pages</a></li>
+      <li><a href="#localization-and-sharing">Localization and Sharing</a></li>
+      <li><a href="#under-the-hood">Under the Hood</a></li>
+    </ul>
+    <div class="rm-nav-label">Suggestions</div>
+    <ul>
+      <li><a href="#suggested-additions">Suggested Additions</a></li>
+      <li><a href="#for-readers">For Readers</a></li>
+      <li><a href="#for-discovery">For Discovery</a></li>
+      <li><a href="#for-builders">For Builders</a></li>
+      <li><a href="#for-maintainers">For Maintainers</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="rm-content">
 <div class="rm-intro">
   <p>Forty-five reference pages, five translations, and a set of reader tools built up over the site’s first year. The inventory below is grouped by where a feature lives; the last section lists what is worth adding, with a rough size for each.</p>
 </div>
 
-<section class="rm-group">
+<section class="rm-group" id="site-wide-chrome">
   <h2 class="cat-label">Site-Wide Chrome</h2>
   <p>Present on every page. Built once in tokens.js and tokens.css and shared by all 51 pages.</p>
   <ul class="rm-list">
@@ -151,7 +193,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="home-page">
   <h2 class="cat-label">Home Page</h2>
   <p>A directory of all 45 references, browsable two ways.</p>
   <ul class="rm-list">
@@ -163,7 +205,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="reference-pages">
   <h2 class="cat-label">Reference Pages</h2>
   <p>The 45 law, effect, principle, and guide pages share one template.</p>
   <ul class="rm-list">
@@ -178,7 +220,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="index-and-guide-pages">
   <h2 class="cat-label">Index and Guide Pages</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>People</h3><p>72 researchers and designers, alphabetical by surname with a letter navigation, each with a bio, an outbound profile link, and “appears in” chips. Person list JSON-LD.</p><div class="rm-where"><a href="people.html">People</a></div></li>
@@ -190,7 +232,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="localization-and-sharing">
   <h2 class="cat-label">Localization and Sharing</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Five translations</h3><p>French, German, Spanish, Japanese, and Chinese, applied as overlays keyed to each page’s structure, plus dictionaries for chrome strings and page titles. Every card, meta row, description, and label is translated.</p><div class="rm-where"><span>i18n.js</span><span>i18n/*/*.json</span></div></li>
@@ -199,7 +241,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="under-the-hood">
   <h2 class="cat-label">Under the Hood</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Preflight validator</h3><p>Runs before every deploy: balanced markup, translation counts aligned to the page, related chips mutual, People anchors resolving, home count matching the card count, and an identical menu on every page. A failure aborts the upload.</p><div class="rm-where"><span>py/check.py</span></div></li>
@@ -211,13 +253,13 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="suggested-additions">
   <h2 class="cat-label">Suggested Additions</h2>
   <p>Grouped by the kind of value they add. Sizes are rough: Small is an afternoon, Medium a few days, Large a project.</p>
 </section>
 <div class="rm-key"><span><span class="tag">Small</span> afternoon</span><span><span class="tag">Medium</span> a few days</span><span><span class="tag">Large</span> a project</span></div>
 
-<section class="rm-group">
+<section class="rm-group" id="for-readers">
   <h2 class="cat-label">For Readers</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Cite this page</h3><p>APA, MLA, and BibTeX for every reference, with the original paper’s citation alongside. The Source field already holds most of the data.</p><div class="rm-where"><span class="tag">Small</span></div></li>
@@ -230,7 +272,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="for-discovery">
   <h2 class="cat-label">For Discovery</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>What’s new</h3><p>A public changelog page and an RSS feed. The site changes weekly and nothing announces it; the feed was deferred from the SEO work.</p><div class="rm-where"><span class="tag">Small</span></div></li>
@@ -241,7 +283,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="for-builders">
   <h2 class="cat-label">For Builders</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Suggest a correction</h3><p>A link on every reference page that opens a pre-filled email or issue with the page and card named. The September accuracy audit found things a reader would have caught sooner.</p><div class="rm-where"><span class="tag">Small</span></div></li>
@@ -251,7 +293,7 @@
   </ul>
 </section>
 
-<section class="rm-group">
+<section class="rm-group" id="for-maintainers">
   <h2 class="cat-label">For Maintainers</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Add-a-law scaffold</h3><p>One script that creates a page from the template, registers it in the menus, home, sitemap, People, and timeline, and stubs the five overlays. Adding Automation Bias took a dozen manual steps.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
@@ -261,7 +303,27 @@
     <li class="rm-item"><h3>Overlays keyed by ID</h3><p>Move translations from selector-plus-index to explicit data-i18n keys, so reordering cards can never silently misalign a language.</p><div class="rm-where"><span class="tag">Large</span></div></li>
   </ul>
 </section>
+</div>
+</div>
 </main>
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.rm-nav a'));
+  var secs = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  links.forEach(function (a, i) {
+    a.addEventListener('click', function (e) { e.preventDefault(); secs[i].scrollIntoView({ behavior: 'smooth', block: 'start' }); history.replaceState(null, '', a.getAttribute('href')); });
+  });
+  var scroller = window.uxScroller || window;
+  function sync() {
+    var current = 0;
+    secs.forEach(function (sec, i) { if (sec.getBoundingClientRect().top <= 120) current = i; });
+    links.forEach(function (a, i) { a.classList.toggle('active', i === current); });
+  }
+  scroller.addEventListener('scroll', sync, { passive: true });
+  window.addEventListener('resize', sync);
+  sync();
+})();
+</script>
 
 </body>
 </html>
