@@ -26,12 +26,16 @@
   .rm-item .tag { display: inline-block; margin-top: 6px; }
   .rm-key { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0 32px 24px; color: var(--text-secondary); font-size: var(--fs-ui); }
   .rm-key .tag { margin-right: 4px; }
+  .rm-tabs { display: flex; gap: 28px; width: max-content; margin: 0 auto 26px; border-bottom: 1px solid var(--border); }
+  .rm-tab { background: none; border: 0; padding: 6px 2px 10px; margin-bottom: -1px; font-family: inherit; font-size: 0.875rem; font-weight: 500; color: var(--text-secondary); cursor: pointer; border-bottom: 2px solid transparent; transition: color 0.15s ease; }
+  .rm-tab:hover { color: var(--text-primary); }
+  .rm-tab.active { color: var(--text-primary); font-weight: 600; border-bottom-color: var(--text-primary); }
+  .rm-view[hidden], .rm-nav-group[hidden] { display: none; }
   .rm-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 0 56px; max-width: 1440px; padding: 0 32px 72px; align-items: stretch; }
   .rm-nav { align-self: stretch; }
   .rm-content .rm-intro, .rm-content .rm-group, .rm-content .rm-key { padding-left: 0; padding-right: 0; }
   .rm-group { scroll-margin-top: 76px; }
   .rm-nav-sticky { position: sticky; top: 20px; }
-  .rm-nav-label { font-size: var(--fs-tag); font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 8px; padding-left: 12px; }
   .rm-nav ul { list-style: none; margin: 0 0 22px; padding: 0; }
   .rm-nav a { display: block; padding: 6px 12px; border-left: 2px solid transparent; font-size: var(--fs-ui); color: var(--text-secondary); text-decoration: none; line-height: var(--lh-heading); transition: color 0.15s ease, border-color 0.15s ease; }
   .rm-nav a:hover { color: var(--text-primary); }
@@ -46,7 +50,6 @@
     .rm-layout { grid-template-columns: 1fr; gap: 0; padding: 0 20px 48px; }
     .rm-nav-sticky { position: static; }
     .rm-nav { margin-bottom: 8px; }
-    .rm-nav-label { display: none; }
     .rm-nav ul { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin: 0 -20px 6px; padding: 0 20px; }
     .rm-nav ul::-webkit-scrollbar { display: none; }
     .rm-nav a { flex: 0 0 auto; border-left: 0; border-radius: 999px; background: var(--surface-2); padding: 6px 12px; white-space: nowrap; }
@@ -155,10 +158,14 @@
 </header>
 
 <main>
+<div class="rm-tabs" role="tablist" aria-label="Roadmap view">
+  <button type="button" class="rm-tab active" role="tab" aria-selected="true" data-view="now">Now</button>
+  <button type="button" class="rm-tab" role="tab" aria-selected="false" data-view="next">Next</button>
+</div>
 <div class="rm-layout">
 <nav class="rm-nav" aria-label="On this page">
   <div class="rm-nav-sticky">
-    <div class="rm-nav-label">Inventory</div>
+    <div class="rm-nav-group" data-view="now">
     <ul>
       <li><a href="#site-wide-chrome">Site-Wide Chrome</a></li>
       <li><a href="#home-page">Home Page</a></li>
@@ -167,7 +174,8 @@
       <li><a href="#localization-and-sharing">Localization and Sharing</a></li>
       <li><a href="#under-the-hood">Under the Hood</a></li>
     </ul>
-    <div class="rm-nav-label">Suggestions</div>
+    </div>
+    <div class="rm-nav-group" data-view="next" hidden>
     <ul>
       <li><a href="#suggested-additions">Suggested Additions</a></li>
       <li><a href="#for-readers">For Readers</a></li>
@@ -175,9 +183,11 @@
       <li><a href="#for-builders">For Builders</a></li>
       <li><a href="#for-maintainers">For Maintainers</a></li>
     </ul>
+    </div>
   </div>
 </nav>
 <div class="rm-content">
+<div class="rm-view" data-view="now">
 <div class="rm-intro">
   <p>Forty-five reference pages, five translations, and a set of reader tools built up over the site’s first year. The inventory below is grouped by where a feature lives; the last section lists what is worth adding, with a rough size for each.</p>
 </div>
@@ -259,6 +269,8 @@
   </ul>
 </section>
 
+</div>
+<div class="rm-view" data-view="next" hidden>
 <section class="rm-group" id="suggested-additions">
   <h2 class="cat-label">Suggested Additions</h2>
   <p>Grouped by the kind of value they add. Sizes are rough: Small is an afternoon, Medium a few days, Large a project.</p>
@@ -311,13 +323,35 @@
 </section>
 </div>
 </div>
+</div>
 </main>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.rm-tab'));
+  var views = Array.prototype.slice.call(document.querySelectorAll('.rm-view'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('.rm-nav-group'));
   var links = Array.prototype.slice.call(document.querySelectorAll('.rm-nav a'));
   var secs = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+  var scroller = window.uxScroller || window;
   var lock = -1, lockTimer = 0;
   function setActive(n) { links.forEach(function (a, i) { a.classList.toggle('active', i === n); }); }
+  function visible(el) { return el.getBoundingClientRect().height > 0; }
+  function sync() {
+    if (lock >= 0) { setActive(lock); return; }
+    var current = -1;
+    secs.forEach(function (sec, i) { if (visible(sec) && sec.getBoundingClientRect().top <= 120) current = i; });
+    if (current < 0) current = secs.findIndex(visible);
+    setActive(current);
+  }
+  function setView(v, keepScroll) {
+    tabs.forEach(function (b) { var on = b.dataset.view === v; b.classList.toggle('active', on); b.setAttribute('aria-selected', String(on)); });
+    views.forEach(function (el) { el.hidden = el.dataset.view !== v; });
+    groups.forEach(function (el) { el.hidden = el.dataset.view !== v; });
+    try { localStorage.setItem('ux-roadmap-view', v); } catch (e) {}
+    if (!keepScroll) { if (scroller.scrollTo) scroller.scrollTo({ top: 0 }); }
+    sync();
+  }
+  tabs.forEach(function (b) { b.addEventListener('click', function () { setView(b.dataset.view); }); });
   links.forEach(function (a, i) {
     a.addEventListener('click', function (e) {
       e.preventDefault();
@@ -327,16 +361,15 @@ document.addEventListener('DOMContentLoaded', function () {
       clearTimeout(lockTimer); lockTimer = setTimeout(function () { lock = -1; sync(); }, 1200);
     });
   });
-  var scroller = window.uxScroller || window;
-  function sync() {
-    if (lock >= 0) { setActive(lock); return; }
-    var current = 0;
-    secs.forEach(function (sec, i) { if (sec.getBoundingClientRect().top <= 120) current = i; });
-    links.forEach(function (a, i) { a.classList.toggle('active', i === current); });
-  }
   scroller.addEventListener('scroll', sync, { passive: true });
   window.addEventListener('resize', sync);
-  sync();
+  var start = 'now';
+  try { start = localStorage.getItem('ux-roadmap-view') === 'next' ? 'next' : 'now'; } catch (e) {}
+  var target = location.hash && document.querySelector(location.hash);
+  if (target && target.closest('.rm-view')) start = target.closest('.rm-view').dataset.view;
+  if (location.hash === '#next' || location.hash === '#now') start = location.hash.slice(1);
+  setView(start, true);
+  if (target && target.classList.contains('rm-group')) setTimeout(function () { target.scrollIntoView({ block: 'start' }); }, 50);
 });
 </script>
 
