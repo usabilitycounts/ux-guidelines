@@ -319,7 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
       secs[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
       history.replaceState(null, '', a.getAttribute('href'));
       lock = i; setActive(i);
-      clearTimeout(lockTimer); lockTimer = setTimeout(function () { lock = -1; }, 1200);
+      clearTimeout(lockTimer); lockTimer = setTimeout(function () { lock = -1; sync(); }, 1200);
     });
   });
   var scroller = window.uxScroller || window;
