@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from extract import TreeBuilder  # mini-DOM
 
 SITE = "/Users/patrickneeman/Claude/UX Guidelines"
-SKIP = {'design-system.html'}
+SKIP = {'design-system.html', 'roadmap.html'}
 
 def text_of(node):
     out = []

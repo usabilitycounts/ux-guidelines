@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" data-page="roadmap">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="description" content="Internal reference: every feature on UX Guidelines, where it appears, and what to build next.">
+<title>Roadmap: Site Functionality and Ideas — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/roadmap.html">
+<link rel="stylesheet" href="tokens.css?v=92">
+<style>
+  .rm-intro { padding: 0 32px; max-width: 72ch; }
+  .rm-intro p { color: var(--text-secondary); margin: 0 0 8px; }
+  .rm-group { padding: 8px 32px 28px; max-width: 1180px; }
+  .rm-group h2 { margin-bottom: 6px; }
+  .rm-group > p { color: var(--text-secondary); margin: 0 0 18px; max-width: 72ch; }
+  .rm-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--border); }
+  .rm-item { display: grid; grid-template-columns: 220px minmax(0, 1fr) 260px; gap: 8px 32px; padding: 16px 0; border-bottom: 1px solid var(--border); align-items: start; }
+  .rm-item h3 { font-size: var(--fs-body); font-weight: 600; letter-spacing: 0; margin: 0; }
+  .rm-item p { margin: 0; color: var(--text-secondary); font-size: var(--fs-ui); line-height: var(--lh-body); }
+  .rm-where { display: flex; flex-wrap: wrap; gap: 6px; }
+  .rm-where span, .rm-where a { display: inline-block; font-size: var(--fs-tag); padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--text-secondary); text-decoration: none; white-space: nowrap; }
+  .rm-where a:hover { background: var(--ink); color: var(--text-inverse); }
+  .rm-item .tag { display: inline-block; margin-top: 6px; }
+  .rm-key { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0 32px 24px; color: var(--text-secondary); font-size: var(--fs-ui); }
+  .rm-key .tag { margin-right: 4px; }
+  @media (max-width: 980px) { .rm-item { grid-template-columns: 1fr; gap: 6px; } .rm-intro, .rm-group, .rm-key { padding-left: 20px; padding-right: 20px; } }
+</style>
+<script defer src="tokens.js?v=86"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+  </div>
+</aside>
+
+<header>
+  <h1>Roadmap</h1>
+  <p class="tagline">Everything the site does, where it lives, and what could come <em>next</em>.</p>
+  <p class="subtitle">An internal reference. This page is not linked from the site and is hidden from search engines.</p>
+</header>
+
+<main>
+<div class="rm-intro">
+  <p>Forty-five reference pages, five translations, and a set of reader tools built up over the site’s first year. The inventory below is grouped by where a feature lives; the last section lists what is worth adding, with a rough size for each.</p>
+</div>
+
+<section class="rm-group">
+  <h2 class="cat-label">Site-Wide Chrome</h2>
+  <p>Present on every page. Built once in tokens.js and tokens.css and shared by all 51 pages.</p>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Top navigation</h3><p>Sticky bar with the hamburger, wordmark, centered search field, and the bookmark and settings buttons. Scrolling happens in a container beneath it so the scrollbar never runs under the bar.</p><div class="rm-where"><span>All pages</span></div></li>
+    <li class="rm-item"><h3>Navigation panel</h3><p>Full-width panel that drops from the top nav. Two views, Page Type and Task Type, in six columns on desktop (four, three, two, then one as the screen narrows), plus a Site group. The chosen view is shared with the home page.</p><div class="rm-where"><span>Hamburger menu</span></div></li>
+    <li class="rm-item"><h3>Search</h3><p>Live results from a 706-entry index of pages, cards, people, and glossary terms. Recent searches, arrow-key navigation, combobox semantics, and a deep link (?q=) that opens with a query pre-filled.</p><div class="rm-where"><span>Top navigation</span><span>search-index.json</span></div></li>
+    <li class="rm-item"><h3>Settings panel</h3><p>Theme (Light, Dark, Beige, Blue), language (six), and font size (85 to 130 percent), staged until Save. Same layout and styling as the navigation panel; a language change navigates to the matching language URL.</p><div class="rm-where"><span>Settings gear</span></div></li>
+    <li class="rm-item"><h3>Bookmarks</h3><p>A bookmark icon beside every page title saves the page locally; the top-nav bookmark button opens the saved list with remove controls. Stored in the browser, no account.</p><div class="rm-where"><span>Page titles</span><span>Top navigation</span></div></li>
+    <li class="rm-item"><h3>Share</h3><p>A share icon beside every title opens a menu for X, LinkedIn, Facebook, Bluesky, and email, plus copy link. Each network gets a summary written to its length limit, with the URL on its own line.</p><div class="rm-where"><span>Page titles</span></div></li>
+    <li class="rm-item"><h3>Back to top</h3><p>Dark round button in the bottom-right corner, colored to the active theme, that appears after 400px of scrolling and returns focus to the top of the page.</p><div class="rm-where"><span>All pages</span></div></li>
+    <li class="rm-item"><h3>Keyboard navigation</h3><p>Left and right arrow keys move to the previous and next page in menu order. Escape closes any open panel. A skip link jumps past the chrome to the main content.</p><div class="rm-where"><span>All pages</span></div></li>
+    <li class="rm-item"><h3>Themes</h3><p>Four palettes driven by design tokens. Blue is the UX Components navy. Illustrations, screens, scrollbars, and focus rings all follow the theme.</p><div class="rm-where"><a href="index.html">Home hero</a><span>Settings</span></div></li>
+    <li class="rm-item"><h3>Footer</h3><p>Site links (About, Glossary, People, By Year, Site Map), alphabetized sister sites, and social links. Generated by script so it stays identical everywhere.</p><div class="rm-where"><span>All pages</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Home Page</h2>
+  <p>A directory of all 45 references, browsable two ways.</p>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Hero</h3><p>Logo and title with a Beta pill, one-line subtitle with the live page count, language tabs, and theme tabs. Both tab groups have an animated sliding selection.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
+    <li class="rm-item"><h3>Page Type view</h3><p>Nine sections, Every Page first then alphabetical, each in a card with an abstract browser-chrome screen of that page type beside the heading and description, and the guidelines three across on a 12-column grid.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
+    <li class="rm-item"><h3>Task Type view</h3><p>Seven task-based sections in cards, alphabetical, each with a one-line description. The same links, organized by what the designer is trying to do.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
+    <li class="rm-item"><h3>Sticky tabs and pills</h3><p>Page Type and Task Type tabs with a section pill for every group, pinned beneath the top nav while scrolling. On tablet and phone the pills become a single scrolling rail.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
+    <li class="rm-item"><h3>Card descriptions</h3><p>Every link carries a seven-word-or-fewer summary, translated into all five languages.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Reference Pages</h2>
+  <p>The 45 law, effect, principle, and guide pages share one template.</p>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Header</h3><p>Title with bookmark and share actions, a tagline, and a subtitle.</p><div class="rm-where"><span>All 45 references</span></div></li>
+    <li class="rm-item"><h3>Feature block</h3><p>Formula or quotation, an Origin narrative with linked researchers, the law stated plainly, and a meta row: Coined by, Source, In practice.</p><div class="rm-where"><a href="fitts-law.html">Fitts’s Law</a><span>and 40 others</span></div></li>
+    <li class="rm-item"><h3>Cards</h3><p>Eight or more applications per page, each with a themed illustration in browser chrome, a tag, title, description, and meta rows. Illustrations are drawn with shared primitives and a single accent token.</p><div class="rm-where"><span>All 45 references</span></div></li>
+    <li class="rm-item"><h3>Related chips</h3><p>Cards link to the most relevant neighboring page. Every link is mutual, checked at deploy time, and rewired in September for topical accuracy.</p><div class="rm-where"><span>Card meta rows</span></div></li>
+    <li class="rm-item"><h3>Copy as SVG</h3><p>Hovering any illustration reveals a copy button that converts it to a standalone, semantically named SVG on the clipboard, ready for Figma or a document.</p><div class="rm-where"><span>Card illustrations</span></div></li>
+    <li class="rm-item"><h3>AI section</h3><p>A divider and a set of cards on how each law applies to AI-driven interfaces.</p><div class="rm-where"><span>All 45 references</span></div></li>
+    <li class="rm-item"><h3>Further reading</h3><p>Grouped external references in three columns with outbound-link icons.</p><div class="rm-where"><span>All 45 references</span></div></li>
+    <li class="rm-item"><h3>Structured data</h3><p>TechArticle and BreadcrumbList JSON-LD, canonical and hreflang links, and a social image per page per language.</p><div class="rm-where"><span>Page head</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Index and Guide Pages</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>People</h3><p>72 researchers and designers, alphabetical by surname with a letter navigation, each with a bio, an outbound profile link, and “appears in” chips. Person list JSON-LD.</p><div class="rm-where"><a href="people.html">People</a></div></li>
+    <li class="rm-item"><h3>Glossary</h3><p>75 terms with definitions and DefinedTermSet JSON-LD.</p><div class="rm-where"><a href="glossary.html">Glossary</a></div></li>
+    <li class="rm-item"><h3>By Year</h3><p>All 45 references on a timeline in three century columns, decades as collapsible accordions with expand and collapse all, and a note on how guide pages are dated.</p><div class="rm-where"><a href="by-year.html">By Year</a></div></li>
+    <li class="rm-item"><h3>Universal Icons</h3><p>The twenty near-universal glyphs, alphabetical, drawn from Lucide, each with meaning, recognition, and pitfalls.</p><div class="rm-where"><a href="universal-icons.html">Universal Icons</a></div></li>
+    <li class="rm-item"><h3>Data Visualization</h3><p>Sixteen chart types grouped by the question they answer, with best-for and avoid-when guidance.</p><div class="rm-where"><a href="data-visualization.html">Data Visualization</a></div></li>
+    <li class="rm-item"><h3>Site Map and About</h3><p>A plain grouped list of every page, and the site’s purpose and author.</p><div class="rm-where"><a href="sitemap.html">Site Map</a><a href="about.html">About</a></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Localization and Sharing</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Five translations</h3><p>French, German, Spanish, Japanese, and Chinese, applied as overlays keyed to each page’s structure, plus dictionaries for chrome strings and page titles. Every card, meta row, description, and label is translated.</p><div class="rm-where"><span>i18n.js</span><span>i18n/*/*.json</span></div></li>
+    <li class="rm-item"><h3>Language URLs</h3><p>/fr/, /de/, /es/, /ja/, and /zh/ paths serve the same page shells through server rewrites, with hreflang clusters on every page and canonical and social tags rewritten to match.</p><div class="rm-where"><span>.htaccess</span><span>Page head</span></div></li>
+    <li class="rm-item"><h3>Social images</h3><p>306 generated preview images, one per page per language, and head-only stubs served to social scrapers so a shared /fr/ link previews in French.</p><div class="rm-where"><span>og/</span><span>share/</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Under the Hood</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Preflight validator</h3><p>Runs before every deploy: balanced markup, translation counts aligned to the page, related chips mutual, People anchors resolving, home count matching the card count, and an identical menu on every page. A failure aborts the upload.</p><div class="rm-where"><span>py/check.py</span></div></li>
+    <li class="rm-item"><h3>Generators</h3><p>Scripts rebuild the search index, sitemap (306 URLs with hreflang and a stylesheet), llms.txt, social images, and scraper stubs from the pages themselves.</p><div class="rm-where"><span>py/gen_*.py</span></div></li>
+    <li class="rm-item"><h3>Deploy pipeline</h3><p>Preflight, a staging copy with comment-stripped assets, then an FTP mirror. Credentials live outside the repository.</p><div class="rm-where"><span>py/ftp_upload.py</span></div></li>
+    <li class="rm-item"><h3>Server rules</h3><p>HTTPS enforcement, language rewrites, scraper routing, and 42 legacy redirects.</p><div class="rm-where"><span>.htaccess</span></div></li>
+    <li class="rm-item"><h3>Accessibility</h3><p>Audited and fixed: skip link, visible focus in every theme, dialog and combobox semantics, forced-colors support, reduced-motion and print styles, 46px close targets.</p><div class="rm-where"><span>tokens.css</span><span>tokens.js</span></div></li>
+    <li class="rm-item"><h3>Performance and measurement</h3><p>Cache-busted assets, content-visibility on long sections, minified shared files, and Google Analytics.</p><div class="rm-where"><span>All pages</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">Suggested Additions</h2>
+  <p>Grouped by the kind of value they add. Sizes are rough: Small is an afternoon, Medium a few days, Large a project.</p>
+</section>
+<div class="rm-key"><span><span class="tag">Small</span> afternoon</span><span><span class="tag">Medium</span> a few days</span><span><span class="tag">Large</span> a project</span></div>
+
+<section class="rm-group">
+  <h2 class="cat-label">For Readers</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Cite this page</h3><p>APA, MLA, and BibTeX for every reference, with the original paper’s citation alongside. The Source field already holds most of the data.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Copy as Markdown</h3><p>A sibling to Copy as SVG: copy a card, or a whole page, as clean Markdown for docs and design reviews.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Reading time and progress</h3><p>Estimated minutes in the header and a thin progress bar under the top nav on reference pages.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Keyboard shortcut sheet</h3><p>Pressing ? opens a card listing the arrow keys, search focus, and panel shortcuts. Makes the hidden navigation discoverable.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Shareable bookmark sets</h3><p>Encode a bookmark list in a URL so a lead can hand a team the five laws for a project. Bookmarks are local today.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Flashcard mode</h3><p>A study view that shows a law’s name and asks for the one-line statement, drawing on the card descriptions and the serial-position and spacing research the site already teaches.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Offline support</h3><p>A service worker so the site installs and reads offline; the content is static and already cache-busted.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">For Discovery</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>What’s new</h3><p>A public changelog page and an RSS feed. The site changes weekly and nothing announces it; the feed was deferred from the SEO work.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Law of the day</h3><p>A rotating pick on the home hero, deterministic by date so everyone sees the same one.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Search filters and fuzziness</h3><p>Filter results by page type or task, tolerate typos, and surface people and glossary terms in their own groups.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Comparisons</h3><p>Short pages pairing laws that are often confused: Hick’s and the Paradox of Choice, Miller’s and Cognitive Load, Fitts’s and Steering.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>People network</h3><p>A graph of who worked with whom and which laws share researchers, built from the People data.</p><div class="rm-where"><span class="tag">Large</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">For Builders</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Suggest a correction</h3><p>A link on every reference page that opens a pre-filled email or issue with the page and card named. The September accuracy audit found things a reader would have caught sooner.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Embeddable cards</h3><p>An embed snippet that renders one law card, with its illustration, on another site, the way a tweet embeds.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Laws as data</h3><p>A laws.json alongside llms.txt: title, statement, coined by, year, tags, related. Feeds the Figma plugin below, the search index, and anyone building on the content.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Figma plugin</h3><p>Browse laws and drop an illustration or a citation card into a file, like the UX Components plugin.</p><div class="rm-where"><span class="tag">Large</span></div></li>
+  </ul>
+</section>
+
+<section class="rm-group">
+  <h2 class="cat-label">For Maintainers</h2>
+  <ul class="rm-list">
+    <li class="rm-item"><h3>Add-a-law scaffold</h3><p>One script that creates a page from the template, registers it in the menus, home, sitemap, People, and timeline, and stubs the five overlays. Adding Automation Bias took a dozen manual steps.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Translation integrity tests</h3><p>Checks that every chrome key exists once per language and that no overlay entry is still English. The duplicate-key bug that showed Chinese labels on French pages would have been caught.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Link checker</h3><p>Re-validate every Further Reading and People URL on a schedule and report dead ones, as the UX Components audit does.</p><div class="rm-where"><span class="tag">Small</span></div></li>
+    <li class="rm-item"><h3>Visual regression</h3><p>Screenshot the home page and one reference page in four themes and five languages at three widths on each deploy, and diff them.</p><div class="rm-where"><span class="tag">Medium</span></div></li>
+    <li class="rm-item"><h3>Overlays keyed by ID</h3><p>Move translations from selector-plus-index to explicit data-i18n keys, so reordering cards can never silently misalign a language.</p><div class="rm-where"><span class="tag">Large</span></div></li>
+  </ul>
+</section>
+</main>
+
+</body>
+</html>

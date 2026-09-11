@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /design-system.html
+Disallow: /roadmap.html
 
 Sitemap: https://www.ux-guidelines.com/sitemap.xml

@@ -33,7 +33,7 @@ def titles_table():
 def main():
     TIT = titles_table()
     pages = sorted(p for p in glob.glob(f'{SITE}/*.html')
-                   if os.path.basename(p) != 'design-system.html'
+                   if os.path.basename(p) not in ('design-system.html', 'roadmap.html')
                    and '/share/' not in p)
     n = 0
     for lang in LANGS:

@@ -14,7 +14,7 @@ SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.ux-guidelines.com/'
 CODES = [('en', ''), ('es', 'es/'), ('de', 'de/'), ('fr', 'fr/'),
          ('zh-Hans', 'zh/'), ('ja', 'ja/')]
-SKIP = {'design-system.html'}
+SKIP = {'design-system.html', 'roadmap.html'}
 
 
 def main():
