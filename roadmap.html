@@ -26,7 +26,8 @@
   .rm-item .tag { display: inline-block; margin-top: 6px; }
   .rm-key { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 0 32px 24px; color: var(--text-secondary); font-size: var(--fs-ui); }
   .rm-key .tag { margin-right: 4px; }
-  .rm-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 0 56px; max-width: 1440px; padding: 0 32px 72px; align-items: start; }
+  .rm-layout { display: grid; grid-template-columns: 220px minmax(0, 1fr); gap: 0 56px; max-width: 1440px; padding: 0 32px 72px; align-items: stretch; }
+  .rm-nav { align-self: stretch; }
   .rm-content .rm-intro, .rm-content .rm-group, .rm-content .rm-key { padding-left: 0; padding-right: 0; }
   .rm-group { scroll-margin-top: 76px; }
   .rm-nav-sticky { position: sticky; top: 20px; }
@@ -307,7 +308,7 @@
 </div>
 </main>
 <script>
-(function () {
+document.addEventListener('DOMContentLoaded', function () {
   var links = Array.prototype.slice.call(document.querySelectorAll('.rm-nav a'));
   var secs = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
   links.forEach(function (a, i) {
@@ -322,7 +323,7 @@
   scroller.addEventListener('scroll', sync, { passive: true });
   window.addEventListener('resize', sync);
   sync();
-})();
+});
 </script>
 
 </body>
