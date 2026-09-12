@@ -252,7 +252,7 @@
   <h2 class="cat-label">Localization and Sharing</h2>
   <ul class="rm-list">
     <li class="rm-item"><h3>Five translations</h3><p>French, German, Spanish, Japanese, and Chinese, applied as overlays keyed to each page’s structure, plus dictionaries for chrome strings and page titles. Every card, meta row, description, and label is translated.</p><div class="rm-where"><span>i18n.js</span><span>i18n/*/*.json</span></div></li>
-    <li class="rm-item"><h3>Language URLs</h3><p>/fr/, /de/, /es/, /ja/, and /zh/ paths serve the same page shells through server rewrites, with hreflang clusters on every page and canonical and social tags rewritten to match.</p><div class="rm-where"><span>.htaccess</span><span>Page head</span></div></li>
+    <li class="rm-item"><h3>Language URLs</h3><p>French, German, and Spanish pages live at translated addresses (/fr/loi-de-fitts.html); Japanese and Chinese keep the English slug under their prefix. Server rewrites map every address to the shared page shell, old prefixed addresses redirect, every internal link keeps the language, and a stored language preference redirects plain URLs. Hreflang, canonical, social tags, and the sitemap all use the localized addresses.</p><div class="rm-where"><span>.htaccess</span><span>py/gen_slugs.py</span><span>Page head</span></div></li>
     <li class="rm-item"><h3>Social images</h3><p>306 generated preview images, one per page per language, and head-only stubs served to social scrapers so a shared /fr/ link previews in French.</p><div class="rm-where"><span>og/</span><span>share/</span></div></li>
   </ul>
 </section>
