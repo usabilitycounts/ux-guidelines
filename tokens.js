@@ -316,6 +316,118 @@
   });
 })();
 
+// ---- Help panel (Help + Keyboard tabs), to the right of Settings ----
+(() => {
+  const topnav = document.querySelector('.topnav');
+  if (!topnav) return;
+  const wrap = document.createElement('div');
+  wrap.className = 'settings-wrap help-wrap';
+  const btn = document.createElement('button');
+  btn.className = 'settings-btn help-btn';
+  btn.type = 'button';
+  btn.setAttribute('aria-label', 'Help');
+  btn.title = 'Help';
+  btn.setAttribute('aria-expanded', 'false');
+  btn.innerHTML = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>';
+  wrap.appendChild(btn);
+  topnav.appendChild(wrap);
+
+  const HELP = [
+    ['Browse two ways', 'Page Type groups the guidelines by the screen you are designing; Task Type groups them by what you are trying to do. The choice is remembered.'],
+    ['Search everything', 'The search box finds pages, cards, people, and glossary terms as you type.'],
+    ['Bookmark and share', 'The icons beside a page title save it locally or share it to X, LinkedIn, Facebook, Bluesky, or email.'],
+    ['Copy an illustration', 'Hover any illustration and use the copy button to place it on your clipboard as an SVG.'],
+    ['Related guidelines', 'Chips on each card link to the most relevant neighboring page.'],
+    ['Make it yours', 'Settings lets you pick a theme, a language, and a font size.'],
+    ['Read in your language', 'Add /fr/, /de/, /es/, /ja/, or /zh/ before a page address to open it in that language.']
+  ];
+  const KEYS = [
+    ['→', 'Next page'], ['←', 'Previous page'], ['/', 'Focus search'], ['↑ ↓', 'Move through search results'],
+    ['Enter', 'Open the selected result'], ['Esc', 'Close any panel'], ['?', 'Open this help']
+  ];
+  const sheet = document.createElement('div');
+  sheet.className = 'settings-sheet help-sheet';
+  sheet.setAttribute('role', 'dialog');
+  sheet.setAttribute('aria-label', 'Help');
+  const head = document.createElement('div');
+  head.className = 'sheet-head';
+  const title = document.createElement('h2');
+  title.className = 'sheet-title';
+  title.textContent = 'Help';
+  const x = document.createElement('button');
+  x.className = 'sheet-close';
+  x.type = 'button';
+  x.setAttribute('aria-label', 'Close help');
+  x.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+  head.appendChild(title); head.appendChild(x); sheet.appendChild(head);
+  const tabs = document.createElement('div');
+  tabs.className = 'menu-views';
+  [['help', 'Help'], ['keys', 'Keyboard']].forEach(([v, name]) => {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'menu-view-tab'; b.dataset.view = v; b.textContent = name;
+    tabs.appendChild(b);
+  });
+  sheet.appendChild(tabs);
+  const helpView = document.createElement('div');
+  helpView.className = 'sheet-body help-view'; helpView.dataset.view = 'help';
+  HELP.forEach(([h, p]) => {
+    const sec = document.createElement('div'); sec.className = 'sheet-section';
+    const h3 = document.createElement('h3'); h3.className = 'sheet-label'; h3.textContent = h;
+    const para = document.createElement('p'); para.className = 'help-text'; para.textContent = p;
+    sec.appendChild(h3); sec.appendChild(para); helpView.appendChild(sec);
+  });
+  const keysView = document.createElement('div');
+  keysView.className = 'sheet-body help-view'; keysView.dataset.view = 'keys'; keysView.hidden = true;
+  KEYS.forEach(([k, d]) => {
+    const row = document.createElement('div'); row.className = 'help-key-row';
+    const kbd = document.createElement('kbd'); kbd.className = 'help-key'; kbd.textContent = k;
+    const desc = document.createElement('span'); desc.className = 'help-desc'; desc.textContent = d;
+    row.appendChild(kbd); row.appendChild(desc); keysView.appendChild(row);
+  });
+  sheet.appendChild(helpView); sheet.appendChild(keysView);
+  document.body.appendChild(sheet);
+
+  const setView = v => {
+    tabs.querySelectorAll('.menu-view-tab').forEach(b => { const on = b.dataset.view === v; b.classList.toggle('active', on); b.setAttribute('aria-pressed', String(on)); });
+    helpView.hidden = v !== 'help'; keysView.hidden = v !== 'keys';
+  };
+  tabs.addEventListener('click', e => { const b = e.target.closest('.menu-view-tab'); if (b) setView(b.dataset.view); });
+  setView('help');
+
+  const isOpen = () => sheet.classList.contains('open');
+  function open(view) {
+    const other = document.querySelector('.settings-sheet:not(.help-sheet).open');
+    if (other) { const gear = document.querySelector('.settings-btn[aria-expanded="true"]:not(.help-btn)'); if (gear) gear.click(); }
+    if (view) setView(view);
+    const nav = document.querySelector('.topnav');
+    sheet.style.top = (nav ? Math.round(nav.getBoundingClientRect().bottom) : 0) + 'px';
+    sheet.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+    x.focus();
+  }
+  function close() {
+    const had = sheet.contains(document.activeElement);
+    sheet.classList.remove('open');
+    btn.setAttribute('aria-expanded', 'false');
+    if (had) btn.focus();
+  }
+  btn.addEventListener('click', e => { e.stopPropagation(); isOpen() ? close() : open(); });
+  x.addEventListener('click', close);
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') { if (isOpen()) close(); return; }
+    const tgt = e.target;
+    if (tgt && (tgt.tagName === 'INPUT' || tgt.tagName === 'TEXTAREA' || tgt.isContentEditable)) return;
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.key === '?') { e.preventDefault(); isOpen() ? close() : open('keys'); }
+    else if (e.key === '/') { const s = document.querySelector('.search-input'); if (s) { e.preventDefault(); s.focus(); } }
+  });
+  setTimeout(() => {
+    if (!window.uxT) return;
+    const l = window.uxT('Help');
+    if (l) { btn.setAttribute('aria-label', l); btn.title = l; sheet.setAttribute('aria-label', l); }
+  }, 1600);
+})();
+
 // Language URLs: /fr/... path prefixes (hreflang alternates, rewritten by
 // .htaccess to the same page shell) and legacy ?lang= parameters both select
 // and persist a language. The path prefix is the canonical form.
@@ -347,7 +459,7 @@
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=50';
+  s.src = 'i18n.js?v=51';
   document.head.appendChild(s);
 })();
 
@@ -1020,7 +1132,11 @@
   document.body.appendChild(btn);
   const scroller = window.uxScroller || window;
   const y = () => (window.uxScroller ? window.uxScroller.scrollTop : window.scrollY);
-  const sync = () => btn.classList.toggle('show', y() > 400);
+  const sync = () => {
+    btn.classList.toggle('show', y() > 400);
+    const f = document.querySelector('footer');
+    if (f) { const fr = f.getBoundingClientRect(), br = btn.getBoundingClientRect(); btn.classList.toggle('on-footer', fr.top < br.bottom && fr.bottom > br.top); }
+  };
   scroller.addEventListener('scroll', sync, { passive: true });
   sync();
   btn.addEventListener('click', () => {
