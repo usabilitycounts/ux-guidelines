@@ -2,7 +2,7 @@
 <html lang="en" data-page="dataviz">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <!-- Google tag (gtag.js) -->
@@ -195,7 +195,7 @@
   .aix .bars i.b { background: var(--il-accent); opacity: 1; }
   .aix .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
 </style>
-<script defer src="tokens.js?v=89"></script>
+<script defer src="tokens.js?v=90"></script>
 </head>
 <body>
 

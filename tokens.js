@@ -44,8 +44,9 @@
     if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
     const t = e.target;
     if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-    if (e.key === 'ArrowRight') location.href = PAGES[(i + 1) % PAGES.length];
-    else if (e.key === 'ArrowLeft') location.href = PAGES[(i - 1 + PAGES.length) % PAGES.length];
+    const go = h => (window.uxLocalHref ? window.uxLocalHref(h) : h);
+    if (e.key === 'ArrowRight') location.href = go(PAGES[(i + 1) % PAGES.length]);
+    else if (e.key === 'ArrowLeft') location.href = go(PAGES[(i - 1 + PAGES.length) % PAGES.length]);
   });
 })();
 
@@ -452,6 +453,31 @@
     }
   } catch (e) {}
   // Build the URL for a language on the current page (used by every switcher).
+  // On a language URL, every internal link keeps the language prefix so navigation
+  // never drops back to English. Links added later (search results, bookmarks,
+  // home view clones) are caught by the observer.
+  (() => {
+    const m = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    if (!m) { window.uxLocalHref = h => h; return; }
+    const lang = m[1];
+    const local = href => {
+      if (!href || /^(https?:|mailto:|tel:|#|\/|\.\.)/.test(href)) return href;
+      if (!/^[a-z0-9-]+\.html(\?[^#]*)?(#.*)?$/.test(href)) return href;
+      if (/^(roadmap|design-system)\.html/.test(href)) return href;
+      return '/' + lang + '/' + href;
+    };
+    window.uxLocalHref = local;
+    const fixOne = a => {
+      if (a.dataset.langFixed) return;
+      const h = a.getAttribute('href'), n = local(h);
+      if (n !== h) a.setAttribute('href', n);
+      a.dataset.langFixed = '1';
+    };
+    const fix = root => { if (root.tagName === 'A') fixOne(root); root.querySelectorAll && root.querySelectorAll('a[href]').forEach(fixOne); };
+    fix(document.documentElement);
+    new MutationObserver(muts => muts.forEach(mu => mu.addedNodes.forEach(nd => { if (nd.nodeType === 1) fix(nd); })))
+      .observe(document.documentElement, { childList: true, subtree: true });
+  })();
   window.uxLangUrl = code => {
     const page = location.pathname.replace(/^\/(fr|de|es|ja|zh)(?:\/|$)/, '/').replace(/^\//, '');
     return code === 'en' ? '/' + page : '/' + code + '/' + page;

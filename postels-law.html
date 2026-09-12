@@ -2,7 +2,7 @@
 <html lang="en" data-page="postel">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <!-- Google tag (gtag.js) -->
@@ -76,7 +76,7 @@
   .px .bub i { height: 5px; border-radius: 2px; background: var(--skel-strong); opacity: 0.6; display: block; }
   .px .chip { display: inline-block; height: 8px; border-radius: 4px; background: rgba(56,189,248,0.45); }
 </style>
-<script defer src="tokens.js?v=89"></script>
+<script defer src="tokens.js?v=90"></script>
 </head>
 <body>
 
