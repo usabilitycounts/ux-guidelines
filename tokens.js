@@ -320,7 +320,10 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   });
 })();
 
-// ---- Help panel (Help + Keyboard tabs), to the right of Settings ----
+// ---- Help panel (Help / Keyboard shortcuts), to the right of Settings ----
+// Modeled on the help sheet at ux-icons.com: same slide-down chrome as
+// Settings, prose topics in a grid, and a Keys/Action table generated from
+// SHORTCUTS so the sheet and the key handler can never disagree.
 (() => {
   const topnav = document.querySelector('.topnav');
   if (!topnav) return;
@@ -337,18 +340,31 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   topnav.appendChild(wrap);
 
   const HELP = [
-    ['Browse two ways', 'Page Type groups the guidelines by the screen you are designing; Task Type groups them by what you are trying to do. The choice is remembered.'],
-    ['Search everything', 'The search box finds pages, cards, people, and glossary terms as you type.'],
-    ['Bookmark and share', 'The icons beside a page title save it locally or share it to X, LinkedIn, Facebook, Bluesky, or email.'],
-    ['Copy an illustration', 'Hover any illustration and use the copy button to place it on your clipboard as an SVG.'],
-    ['Related guidelines', 'Chips on each card link to the most relevant neighboring page.'],
-    ['Make it yours', 'Settings lets you pick a theme, a language, and a font size.'],
-    ['Read in your language', 'Add /fr/, /de/, /es/, /ja/, or /zh/ before a page address to open it in that language.']
+    ['Browsing', 'The home page lists every guideline two ways: Page Type groups them by the screen you are designing, Task Type by what you are trying to do. The menu (☰) offers the same two views on every page. Your choice is remembered.'],
+    ['Searching', 'Search matches page titles, the cards on each page, people, and glossary terms as you type. Pick a result to open it, or press Enter to open the first match.'],
+    ['Reference pages', 'Each page opens with the origin of the idea and the law stated plainly, followed by cards showing how to apply it, a section on AI interfaces, and further reading. Chips on a card link to the most relevant neighboring page.'],
+    ['Copying illustrations', 'Hover any illustration for a copy button that places it on your clipboard as an SVG, named after its card, ready for Figma or a document.'],
+    ['Bookmarks', 'The bookmark button beside a page title keeps the page in this browser only. Open your list from the bookmark icon in the top bar, where you can revisit or remove pages.'],
+    ['Settings', 'Choose a theme, language, and font size. Changes apply when you save; a new language opens the same page at its translated address.']
   ];
-  const KEYS = [
-    ['→', 'Next page'], ['←', 'Previous page'], ['/', 'Focus search'], ['↑ ↓', 'Move through search results'],
-    ['Enter', 'Open the selected result'], ['Esc', 'Close any panel'], ['?', 'Open this help']
+  const isByYear = !!document.querySelector('.yr-ctl');
+  const clickIf = sel => { const el = document.querySelector(sel); if (el) el.click(); };
+  const SHORTCUTS = [
+    { keys: ['/'], label: 'Focus search', run: () => { const s = document.querySelector('.search-input'); if (s) { closeAll(); s.focus(); s.select(); } } },
+    { keys: ['?'], label: 'Show keyboard shortcuts', run: () => (isOpen() ? close() : open('keys')) },
+    { keys: ['m'], label: 'Open or close the menu', run: () => clickIf('.hamburger') },
+    { keys: ['b'], label: 'Open or close bookmarks', run: () => clickIf('.bm-nav-btn') },
+    { keys: ['s'], label: 'Open or close settings', run: () => clickIf('.settings-wrap:not(.help-wrap) .settings-btn:not(.bm-nav-btn)') },
+    { keys: ['g', 'h'], label: 'Go to the home page', run: () => { location.href = (window.uxLocalHref ? window.uxLocalHref('index.html') : 'index.html'); } },
+    { keys: ['g', 'p'], label: 'Go to People', run: () => { location.href = (window.uxLocalHref ? window.uxLocalHref('people.html') : 'people.html'); } },
+    { keys: ['g', 'y'], label: 'Go to By Year', run: () => { location.href = (window.uxLocalHref ? window.uxLocalHref('by-year.html') : 'by-year.html'); } },
+    { keys: ['→'], label: 'Next page', run: null },
+    { keys: ['←'], label: 'Previous page', run: null },
+    { keys: ['e'], label: 'Expand all sections', page: true, run: () => clickIf('.yr-ctl[data-act="expand"]') },
+    { keys: ['c'], label: 'Collapse all sections', page: true, run: () => clickIf('.yr-ctl[data-act="collapse"]') },
+    { keys: ['Esc'], label: 'Close menus, panels, and search', run: null }
   ];
+
   const sheet = document.createElement('div');
   sheet.className = 'settings-sheet help-sheet';
   sheet.setAttribute('role', 'dialog');
@@ -365,43 +381,63 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   x.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
   head.appendChild(title); head.appendChild(x); sheet.appendChild(head);
   const tabs = document.createElement('div');
-  tabs.className = 'menu-views';
-  [['help', 'Help'], ['keys', 'Keyboard']].forEach(([v, name]) => {
+  tabs.className = 'sheet-tabs';
+  tabs.setAttribute('role', 'tablist');
+  [['help', 'Help'], ['keys', 'Keyboard shortcuts']].forEach(([v, name]) => {
     const b = document.createElement('button');
-    b.type = 'button'; b.className = 'menu-view-tab'; b.dataset.view = v; b.textContent = name;
+    b.type = 'button'; b.className = 'sheet-tab'; b.setAttribute('role', 'tab'); b.dataset.view = v; b.textContent = name;
     tabs.appendChild(b);
   });
   sheet.appendChild(tabs);
-  const helpView = document.createElement('div');
-  helpView.className = 'sheet-body help-view'; helpView.dataset.view = 'help';
+  const helpPanel = document.createElement('div');
+  helpPanel.className = 'help-panel'; helpPanel.dataset.view = 'help'; helpPanel.setAttribute('role', 'tabpanel');
+  const grid = document.createElement('div'); grid.className = 'help-grid';
   HELP.forEach(([h, p]) => {
-    const sec = document.createElement('div'); sec.className = 'sheet-section';
-    const h3 = document.createElement('h3'); h3.className = 'sheet-label'; h3.textContent = h;
-    const para = document.createElement('p'); para.className = 'help-text'; para.textContent = p;
-    sec.appendChild(h3); sec.appendChild(para); helpView.appendChild(sec);
+    const item = document.createElement('div'); item.className = 'help-item';
+    const h3 = document.createElement('h3'); h3.textContent = h;
+    const para = document.createElement('p'); para.textContent = p;
+    item.appendChild(h3); item.appendChild(para); grid.appendChild(item);
   });
-  const keysView = document.createElement('div');
-  keysView.className = 'sheet-body help-view'; keysView.dataset.view = 'keys'; keysView.hidden = true;
-  KEYS.forEach(([k, d]) => {
-    const row = document.createElement('div'); row.className = 'help-key-row';
-    const kbd = document.createElement('kbd'); kbd.className = 'help-key'; kbd.textContent = k;
-    const desc = document.createElement('span'); desc.className = 'help-desc'; desc.textContent = d;
-    row.appendChild(kbd); row.appendChild(desc); keysView.appendChild(row);
+  helpPanel.appendChild(grid);
+  const keysPanel = document.createElement('div');
+  keysPanel.className = 'help-panel'; keysPanel.dataset.view = 'keys'; keysPanel.setAttribute('role', 'tabpanel'); keysPanel.hidden = true;
+  const table = document.createElement('table'); table.className = 'keys-table';
+  const thead = document.createElement('thead'); thead.innerHTML = '<tr><th class="keys-col">Keys</th><th class="keys-col">Action</th></tr>';
+  const tbody = document.createElement('tbody');
+  SHORTCUTS.forEach(sc => {
+    const tr = document.createElement('tr');
+    const td1 = document.createElement('td');
+    sc.keys.forEach((k, i) => {
+      if (i) { const then = document.createElement('span'); then.className = 'keys-then'; then.textContent = 'then'; td1.appendChild(then); }
+      const kbd = document.createElement('kbd'); kbd.className = 'key'; kbd.textContent = k; td1.appendChild(kbd);
+    });
+    const td2 = document.createElement('td');
+    const lab = document.createElement('span'); lab.className = 'keys-action'; lab.textContent = sc.label; td2.appendChild(lab);
+    if (sc.page) { const only = document.createElement('span'); only.className = 'keys-then keys-page'; only.textContent = '(By Year page)'; td2.appendChild(only); }
+    tr.appendChild(td1); tr.appendChild(td2); tbody.appendChild(tr);
   });
-  sheet.appendChild(helpView); sheet.appendChild(keysView);
+  table.appendChild(thead); table.appendChild(tbody); keysPanel.appendChild(table);
+  sheet.appendChild(helpPanel); sheet.appendChild(keysPanel);
   document.body.appendChild(sheet);
 
   const setView = v => {
-    tabs.querySelectorAll('.menu-view-tab').forEach(b => { const on = b.dataset.view === v; b.classList.toggle('active', on); b.setAttribute('aria-pressed', String(on)); });
-    helpView.hidden = v !== 'help'; keysView.hidden = v !== 'keys';
+    tabs.querySelectorAll('.sheet-tab').forEach(b => b.setAttribute('aria-selected', String(b.dataset.view === v)));
+    helpPanel.hidden = v !== 'help'; keysPanel.hidden = v !== 'keys';
   };
-  tabs.addEventListener('click', e => { const b = e.target.closest('.menu-view-tab'); if (b) setView(b.dataset.view); });
+  tabs.addEventListener('click', e => { const b = e.target.closest('.sheet-tab'); if (b) setView(b.dataset.view); });
   setView('help');
 
   const isOpen = () => sheet.classList.contains('open');
+  function closeAll() {
+    const gear = document.querySelector('.settings-wrap:not(.help-wrap) .settings-btn:not(.bm-nav-btn)[aria-expanded="true"]');
+    if (gear) gear.click();
+    const menu = document.querySelector('.hamburger[aria-expanded="true"]');
+    if (menu) menu.click();
+    const bm = document.querySelector('.bm-nav-btn[aria-expanded="true"]');
+    if (bm) bm.click();
+  }
   function open(view) {
-    const other = document.querySelector('.settings-sheet:not(.help-sheet).open');
-    if (other) { const gear = document.querySelector('.settings-btn[aria-expanded="true"]:not(.help-btn)'); if (gear) gear.click(); }
+    closeAll();
     if (view) setView(view);
     const nav = document.querySelector('.topnav');
     sheet.style.top = (nav ? Math.round(nav.getBoundingClientRect().bottom) : 0) + 'px';
@@ -417,13 +453,25 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   }
   btn.addEventListener('click', e => { e.stopPropagation(); isOpen() ? close() : open(); });
   x.addEventListener('click', close);
+
+  // Single keys and two-key chords (g then h), ignored while typing.
+  let pending = null, pendingTimer = 0;
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { if (isOpen()) close(); return; }
     const tgt = e.target;
     if (tgt && (tgt.tagName === 'INPUT' || tgt.tagName === 'TEXTAREA' || tgt.isContentEditable)) return;
     if (e.metaKey || e.ctrlKey || e.altKey) return;
-    if (e.key === '?') { e.preventDefault(); isOpen() ? close() : open('keys'); }
-    else if (e.key === '/') { const s = document.querySelector('.search-input'); if (s) { e.preventDefault(); s.focus(); } }
+    const k = e.key;
+    if (pending) {
+      const chord = SHORTCUTS.find(sc => sc.keys.length === 2 && sc.keys[0] === pending && sc.keys[1] === k);
+      pending = null; clearTimeout(pendingTimer);
+      if (chord && chord.run) { e.preventDefault(); chord.run(); return; }
+    }
+    if (SHORTCUTS.some(sc => sc.keys.length === 2 && sc.keys[0] === k)) {
+      pending = k; pendingTimer = setTimeout(() => { pending = null; }, 1200); return;
+    }
+    const sc = SHORTCUTS.find(s => s.keys.length === 1 && s.keys[0] === k && s.run && (!s.page || isByYear));
+    if (sc) { e.preventDefault(); sc.run(); }
   });
   setTimeout(() => {
     if (!window.uxT) return;
@@ -492,7 +540,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=51';
+  s.src = 'i18n.js?v=52';
   document.head.appendChild(s);
 })();
 
