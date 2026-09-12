@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-page="index">
 <head>
 <meta charset="UTF-8">
 <script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
@@ -157,7 +157,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
 }
 </style>
-<script defer src="tokens.js?v=90"></script>
+<script defer src="tokens.js?v=91"></script>
 </head>
 <body>
 
@@ -776,6 +776,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   var main = document.querySelector('.home-main');
   if (!main) return;
   var taskSections = Array.prototype.slice.call(main.querySelectorAll(':scope > .section'));
+  main.querySelectorAll('.card[href]').forEach(function (c) { c.dataset.slug = c.getAttribute('href').replace(/\.html.*$/, ''); });
   var typeWrap = document.createElement('div');
   typeWrap.className = 'home-type';
   typeWrap.style.display = 'none';
@@ -806,7 +807,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       var grid = document.createElement('div');
       grid.className = 'cards-grid';
       g.slugs.forEach(function (slug) {
-        var orig = main.querySelector('.card[href="' + slug + '.html"]');
+        var orig = main.querySelector('.card[data-slug="' + slug + '"]');
         if (!orig) return;
         var c = orig.cloneNode(true);
         c.setAttribute('class', 'tcard');

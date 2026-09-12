@@ -9,6 +9,10 @@ import html
 import json
 import os
 import re
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from slugs import build as build_slugs, local_file
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.ux-guidelines.com/'
@@ -32,6 +36,7 @@ def titles_table():
 
 def main():
     TIT = titles_table()
+    SLUGS = build_slugs()
     pages = sorted(p for p in glob.glob(f'{SITE}/*.html')
                    if os.path.basename(p) not in ('design-system.html', 'roadmap.html')
                    and '/share/' not in p)
@@ -56,7 +61,7 @@ def main():
             if not desc:
                 m = re.search(r'<meta name="description" content="([^"]*)"', s)
                 desc = m.group(1) if m else ''
-            page = '' if base == 'index' else base + '.html'
+            page = '' if base == 'index' else local_file(SLUGS, lang, base + '.html')
             url = f'{BASE}{HREF[lang]}/{page}'
             img = f'{BASE}og/{lang}/{base}.png'
             t, dsc = html.escape(title), html.escape(desc)
@@ -85,7 +90,7 @@ def main():
 <body></body>
 </html>
 '''
-            name = 'index.html' if base == 'index' else base + '.html'
+            name = 'index.html' if base == 'index' else local_file(SLUGS, lang, base + '.html')
             open(f'{SITE}/share/{lang}/{name}', 'w').write(stub)
             n += 1
     print(f'share stubs: {n}')

@@ -9,11 +9,16 @@ English and x-default are the bare URLs. Chinese is declared zh-Hans.
 import datetime
 import glob
 import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from slugs import build as build_slugs, local_file
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.ux-guidelines.com/'
 CODES = [('en', ''), ('es', 'es/'), ('de', 'de/'), ('fr', 'fr/'),
          ('zh-Hans', 'zh/'), ('ja', 'ja/')]
+LANG_OF = {'en': None, 'es': 'es', 'de': 'de', 'fr': 'fr', 'zh-Hans': 'zh', 'ja': 'ja'}
 SKIP = {'design-system.html', 'roadmap.html'}
 
 
@@ -28,17 +33,20 @@ def main():
            '<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>',
            '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
            '        xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+    SLUGS = build_slugs()
+    def where(c, prefix, page):
+        return f'{BASE}{prefix}{page if not LANG_OF[c] else local_file(SLUGS, LANG_OF[c], page)}'
     for p in pages:
         page = '' if p == 'index.html' else p
         cluster = [f'    <xhtml:link rel="alternate" hreflang="{c}" '
-                   f'href="{BASE}{prefix}{page}"/>' for c, prefix in CODES]
+                   f'href="{where(c, prefix, page)}"/>' for c, prefix in CODES]
         cluster.append(f'    <xhtml:link rel="alternate" hreflang="x-default" '
                        f'href="{BASE}{page}"/>')
         mtime = datetime.date.fromtimestamp(
             os.path.getmtime(os.path.join(SITE, p))).isoformat()
         for c, prefix in CODES:
             out.append('  <url>')
-            out.append(f'    <loc>{BASE}{prefix}{page}</loc>')
+            out.append(f'    <loc>{where(c, prefix, page)}</loc>')
             out.append(f'    <lastmod>{mtime}</lastmod>')
             out.extend(cluster)
             out.append('  </url>')

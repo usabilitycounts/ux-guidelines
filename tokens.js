@@ -1,3 +1,6 @@
+// BEGIN SLUGS
+window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall","conways-law":"loi-de-conway","postels-law":"loi-de-postel","goodharts-law":"loi-de-goodhart","hofstadters-law":"loi-de-hofstadter","pareto-principle":"principe-de-pareto","fitts-law":"loi-de-fitts","steering-law":"loi-du-pilotage","contour-bias":"biais-des-contours","navigation-patterns":"modeles-de-navigation","doherty-threshold":"seuil-de-doherty","power-law-of-practice":"loi-de-puissance-de-la-pratique","yerkes-dodson-law":"loi-de-yerkes-dodson","nielsens-heuristics":"les-10-heuristiques-de-nielsen","normans-principles":"principes-de-norman","rams-principles":"les-10-principes-de-rams","shneiderman-eight-golden-rules":"les-huit-regles-d-or-de-shneiderman","tognazzinis-first-principles":"premiers-principes-de-tognazzini","wcag-pour":"wcag-et-pour","chestertons-fence":"la-cloture-de-chesterton","aesthetic-usability-effect":"effet-esthetique-utilisabilite","peak-end-rule":"regle-pic-fin","uncanny-valley":"vallee-de-l-etrange","zeigarnik-effect":"effet-zeigarnik","fogg-behavior-model":"modele-comportemental-de-fogg","hook-model":"modele-hook","ikea-effect":"effet-ikea","eye-scanning-patterns":"schemas-de-lecture-visuelle","gutenberg-principle":"principe-de-gutenberg","grid-and-hierarchy":"grille-et-hierarchie","gestalt-principles":"principes-de-la-gestalt","von-restorff-effect":"effet-von-restorff","weber-fechner-law":"loi-de-weber-fechner","data-visualization":"visualisation-de-donnees","universal-icons":"icones-universelles","progressive-disclosure":"divulgation-progressive","cognitive-load-theory":"theorie-de-la-charge-cognitive","millers-law":"loi-de-miller","serial-position-effect":"effet-de-position-serielle","curse-of-knowledge":"malediction-du-savoir","hicks-law":"loi-de-hick","jakobs-law":"loi-de-jakob","paradox-of-choice":"paradoxe-du-choix","automation-bias":"biais-d-automatisation","about":"a-propos","glossary":"glossaire","people":"personnalites","by-year":"par-annee","sitemap":"plan-du-site"},"de":{"teslers-law":"teslers-gesetz","galls-law":"galls-gesetz","conways-law":"conways-gesetz","postels-law":"postels-gesetz","goodharts-law":"goodharts-gesetz","hofstadters-law":"hofstadters-gesetz","pareto-principle":"pareto-prinzip","fitts-law":"fitts-gesetz","steering-law":"steering-gesetz","contour-bias":"kontur-bias","navigation-patterns":"navigationsmuster","doherty-threshold":"doherty-schwelle","power-law-of-practice":"potenzgesetz-der-ubung","yerkes-dodson-law":"yerkes-dodson-gesetz","nielsens-heuristics":"nielsens-10-heuristiken","normans-principles":"normans-prinzipien","rams-principles":"rams-10-prinzipien","shneiderman-eight-golden-rules":"shneidermans-acht-goldene-regeln","tognazzinis-first-principles":"tognazzinis-grundprinzipien","wcag-pour":"wcag-und-pour","chestertons-fence":"chestertons-zaun","aesthetic-usability-effect":"asthetik-usability-effekt","peak-end-rule":"peak-end-regel","zeigarnik-effect":"zeigarnik-effekt","fogg-behavior-model":"fogg-verhaltensmodell","hook-model":"hook-modell","ikea-effect":"ikea-effekt","eye-scanning-patterns":"blickmuster","gutenberg-principle":"gutenberg-prinzip","grid-and-hierarchy":"raster-und-hierarchie","gestalt-principles":"gestaltprinzipien","von-restorff-effect":"von-restorff-effekt","weber-fechner-law":"weber-fechner-gesetz","data-visualization":"datenvisualisierung","universal-icons":"universelle-icons","progressive-disclosure":"progressive-offenlegung","cognitive-load-theory":"cognitive-load-theorie","millers-law":"millers-gesetz","serial-position-effect":"serieller-positionseffekt","curse-of-knowledge":"fluch-des-wissens","hicks-law":"hicksches-gesetz","jakobs-law":"jakobs-gesetz","paradox-of-choice":"paradox-der-wahl","about":"uber","glossary":"glossar","people":"personen","by-year":"nach-jahr"},"es":{"teslers-law":"ley-de-tesler","galls-law":"ley-de-gall","conways-law":"ley-de-conway","postels-law":"ley-de-postel","goodharts-law":"ley-de-goodhart","hofstadters-law":"ley-de-hofstadter","pareto-principle":"principio-de-pareto","fitts-law":"ley-de-fitts","steering-law":"ley-de-conduccion","contour-bias":"sesgo-de-contorno","navigation-patterns":"patrones-de-navegacion","doherty-threshold":"umbral-de-doherty","power-law-of-practice":"ley-de-potencia-de-la-practica","yerkes-dodson-law":"ley-de-yerkes-dodson","nielsens-heuristics":"las-10-heuristicas-de-nielsen","normans-principles":"principios-de-norman","rams-principles":"los-10-principios-de-rams","shneiderman-eight-golden-rules":"las-ocho-reglas-de-oro-de-shneiderman","tognazzinis-first-principles":"primeros-principios-de-tognazzini","wcag-pour":"wcag-y-pour","chestertons-fence":"la-valla-de-chesterton","aesthetic-usability-effect":"efecto-estetica-usabilidad","peak-end-rule":"regla-del-pico-y-final","uncanny-valley":"valle-inquietante","zeigarnik-effect":"efecto-zeigarnik","fogg-behavior-model":"modelo-de-conducta-de-fogg","hook-model":"modelo-hook","ikea-effect":"efecto-ikea","eye-scanning-patterns":"patrones-de-escaneo-visual","gutenberg-principle":"principio-de-gutenberg","grid-and-hierarchy":"reticula-y-jerarquia","gestalt-principles":"principios-de-la-gestalt","von-restorff-effect":"efecto-von-restorff","weber-fechner-law":"ley-de-weber-fechner","data-visualization":"visualizacion-de-datos","universal-icons":"iconos-universales","progressive-disclosure":"divulgacion-progresiva","cognitive-load-theory":"teoria-de-la-carga-cognitiva","millers-law":"ley-de-miller","serial-position-effect":"efecto-de-posicion-serial","curse-of-knowledge":"maldicion-del-conocimiento","hicks-law":"ley-de-hick","jakobs-law":"ley-de-jakob","paradox-of-choice":"paradoja-de-la-eleccion","automation-bias":"sesgo-de-automatizacion","about":"acerca-de","glossary":"glosario","people":"personas","by-year":"por-ano","sitemap":"mapa-del-sitio"}};
+// END SLUGS
 // UX Guidelines — shared runtime (hamburger menu, arrow-key page navigation)
 
 // Page scroll container: the document itself does not scroll, so the
@@ -37,7 +40,7 @@
     'steering-law.html', 'teslers-law.html', 'uncanny-valley.html', 'von-restorff-effect.html',
     'weber-fechner-law.html', 'yerkes-dodson-law.html', 'zeigarnik-effect.html'
   ];
-  const current = location.pathname.split('/').pop() || 'index.html';
+  const current = (document.documentElement.getAttribute('data-page') || 'index') + '.html';
   const i = PAGES.indexOf(current);
   if (i === -1) return;
   document.addEventListener('keydown', e => {
@@ -116,7 +119,7 @@
         a.className = 'menu-link';
         a.href = href;
         a.textContent = titleOf[href] || slug;
-        if (href === location.pathname.split('/').pop()) a.classList.add('active');
+        if (href === (document.documentElement.getAttribute('data-page') || 'index') + '.html') a.classList.add('active');
         d.appendChild(a);
       });
       typeWrap.appendChild(d);
@@ -460,11 +463,12 @@
     const m = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
     if (!m) { window.uxLocalHref = h => h; return; }
     const lang = m[1];
+    const S = (window.UX_SLUGS && window.UX_SLUGS[lang]) || {};
     const local = href => {
       if (!href || /^(https?:|mailto:|tel:|#|\/|\.\.)/.test(href)) return href;
-      if (!/^[a-z0-9-]+\.html(\?[^#]*)?(#.*)?$/.test(href)) return href;
-      if (/^(roadmap|design-system)\.html/.test(href)) return href;
-      return '/' + lang + '/' + href;
+      const mm = href.match(/^([a-z0-9-]+)\.html((?:\?[^#]*)?(?:#.*)?)$/);
+      if (!mm || /^(roadmap|design-system)$/.test(mm[1])) return href;
+      return '/' + lang + '/' + (S[mm[1]] || mm[1]) + '.html' + mm[2];
     };
     window.uxLocalHref = local;
     const fixOne = a => {
@@ -479,8 +483,11 @@
       .observe(document.documentElement, { childList: true, subtree: true });
   })();
   window.uxLangUrl = code => {
-    const page = location.pathname.replace(/^\/(fr|de|es|ja|zh)(?:\/|$)/, '/').replace(/^\//, '');
-    return code === 'en' ? '/' + page : '/' + code + '/' + page;
+    const en = document.documentElement.getAttribute('data-page') || 'index';
+    const hash = location.hash || '';
+    if (code === 'en') return (en === 'index' ? '/index.html' : '/' + en + '.html') + hash;
+    const S = (window.UX_SLUGS && window.UX_SLUGS[code]) || {};
+    return (en === 'index' ? '/' + code + '/' : '/' + code + '/' + (S[en] || en) + '.html') + hash;
   };
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
@@ -685,7 +692,7 @@
     try { recent = JSON.parse(localStorage.getItem('ux-recent') || '[]'); } catch (e) {}
     let marks = [];
     try { marks = (window.uxBookmarks ? window.uxBookmarks() : []); } catch (e) {}
-    const page = (location.pathname.split('/').pop() || 'index.html');
+    const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
     recent = recent.filter(r => r.u !== page).slice(0, 6);
     marks = marks.slice(0, 6);
     if (!recent.length && !marks.length) { close(); return; }
@@ -776,7 +783,7 @@
 // Track recently viewed pages for the search panel
 (() => {
   try {
-    const page = (location.pathname.split('/').pop() || 'index.html');
+    const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
     const title = ((document.title.split(' \u2014 ')[0] || '').split(':')[0] || '').trim();
     if (!title) return;
     let recent = [];
@@ -795,9 +802,9 @@
   const setBM = list => { try { localStorage.setItem(BM_KEY, JSON.stringify(list.slice(0, 24))); } catch (e) {} };
   window.uxBookmarks = getBM;
 
-  const page = (location.pathname.split('/').pop() || 'index.html');
+  const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
   const pageTitle = () => ((document.title.split(' — ')[0] || '').split(':')[0] || '').trim();
-  const url = 'https://www.ux-guidelines.com/' + page;
+  const url = 'https://www.ux-guidelines.com' + (location.pathname === '/' ? '/index.html' : location.pathname);
   const enc = encodeURIComponent;
 
   // ---- Title actions: bookmark + share beside the page h1 (detail pages) ----
