@@ -722,9 +722,10 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
   .search-wrap { flex: none; width: 34px; margin: 0 4px 0 auto; display: flex; align-items: center; justify-content: center; }
   .search-input, .search-clear { display: none; }
   .search-ico { position: static; transform: none; width: 20px; height: 20px; color: var(--text-primary); pointer-events: auto; cursor: pointer; }
-  /* takeover: search owns the topnav */
-  .topnav.search-open .brand-row { display: none; }
-  .topnav.search-open .search-wrap { flex: 1; width: auto; margin: 0; display: block; }
+  /* open: the field drops in as a full-width second row; the brand and the
+     bookmark, settings, and help buttons stay where they were */
+  .topnav.search-open { flex-wrap: wrap; }
+  .topnav.search-open .search-wrap { order: 10; flex: 1 0 100%; width: auto; margin: 8px 0 0; display: block; }
   .topnav.search-open .search-input { display: block; height: 40px; font-size: var(--fs-ui); }
   .topnav.search-open .search-ico { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-faint); pointer-events: none; }
   .topnav.search-open .search-clear { display: flex; }
