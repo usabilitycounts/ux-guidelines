@@ -161,7 +161,18 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     syncGroups();
     mq.addEventListener('change', syncGroups);
   }
-  hamburger.addEventListener('click', () => panel.classList.contains('open') ? close() : open());
+  // Menu glyph swaps to an X while open (Lucide menu / x), as on ux-icons.com
+  const menuSvg = hamburger.querySelector('svg');
+  if (menuSvg && !hamburger.querySelector('.ico-close')) {
+    menuSvg.classList.add('ico-menu');
+    const closeSvg = menuSvg.cloneNode(false);
+    closeSvg.setAttribute('class', 'ico-close');
+    closeSvg.innerHTML = '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>';
+    hamburger.appendChild(closeSvg);
+  }
+  const syncMenuLabel = () => hamburger.setAttribute('aria-label', panel.classList.contains('open') ? 'Close menu' : 'Open menu');
+  hamburger.addEventListener('click', () => { panel.classList.contains('open') ? close() : open(); syncMenuLabel(); });
+  new MutationObserver(syncMenuLabel).observe(panel, { attributes: true, attributeFilter: ['class'] });
   closeBtn.addEventListener('click', close);
   overlay.addEventListener('click', close);
   document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
@@ -540,7 +551,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=52';
+  s.src = 'i18n.js?v=53';
   document.head.appendChild(s);
 })();
 
@@ -847,7 +858,8 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const T = k => (window.uxT && window.uxT(k)) || k;
   const BM_KEY = 'ux-bookmarks';
   const getBM = () => { try { return JSON.parse(localStorage.getItem(BM_KEY) || '[]'); } catch (e) { return []; } };
-  const setBM = list => { try { localStorage.setItem(BM_KEY, JSON.stringify(list.slice(0, 24))); } catch (e) {} };
+  const setBM0 = list => { try { localStorage.setItem(BM_KEY, JSON.stringify(list.slice(0, 24))); } catch (e) {} };
+  const setBM = l => { setBM0(l); document.dispatchEvent(new CustomEvent('ux-bookmarks-changed')); };
   window.uxBookmarks = getBM;
 
   const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
@@ -956,7 +968,9 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeShare(); });
   }
 
-  // ---- Topnav bookmark list, left of the settings gear ----
+  // ---- Bookmarks sheet, left of the settings gear (modeled on ux-icons.com) ----
+  // Same slide-down chrome as Settings; a table of saved pages with a count
+  // badge on the button, a remove control per row, and Clear all.
   const topnav = document.querySelector('.topnav');
   const settingsWrap = document.querySelector('.settings-wrap');
   if (topnav && settingsWrap) {
@@ -964,61 +978,129 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     wrap.className = 'bm-wrap';
     const btn = document.createElement('button');
     btn.className = 'settings-btn bm-nav-btn';
+    btn.type = 'button';
     btn.setAttribute('aria-label', 'Bookmarks');
-    btn.setAttribute('aria-haspopup', 'true');
     btn.setAttribute('aria-expanded', 'false');
     btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/></svg>';
+    const count = document.createElement('span');
+    count.className = 'bm-count';
+    count.hidden = true;
+    btn.appendChild(count);
     wrap.appendChild(btn);
     topnav.insertBefore(wrap, settingsWrap);
 
-    const panel = document.createElement('div');
-    panel.className = 'bm-panel';
-    panel.setAttribute('role', 'dialog');
-    panel.setAttribute('aria-label', 'Bookmarks');
-    panel.setAttribute('tabindex', '-1');
-    document.body.appendChild(panel);
+    const sheet = document.createElement('div');
+    sheet.className = 'settings-sheet bm-sheet';
+    sheet.setAttribute('role', 'dialog');
+    sheet.setAttribute('aria-label', 'Bookmarks');
+    const head = document.createElement('div');
+    head.className = 'sheet-head';
+    const title = document.createElement('h2');
+    title.className = 'sheet-title';
+    title.textContent = 'Bookmarks';
+    const x = document.createElement('button');
+    x.className = 'sheet-close';
+    x.type = 'button';
+    x.setAttribute('aria-label', 'Close bookmarks');
+    x.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+    head.appendChild(title); head.appendChild(x); sheet.appendChild(head);
+    const body = document.createElement('div');
+    body.className = 'bm-body';
+    sheet.appendChild(body);
+    const foot = document.createElement('div');
+    foot.className = 'sheet-foot bm-foot';
+    const clear = document.createElement('button');
+    clear.type = 'button';
+    clear.className = 'btn-cancel bm-clear';
+    clear.textContent = 'Clear all';
+    foot.appendChild(clear);
+    sheet.appendChild(foot);
+    document.body.appendChild(sheet);
 
+    const local = h => (window.uxLocalHref ? window.uxLocalHref(h) : h);
+    const sectionOf = u => {
+      const link = document.querySelector('.menu-groups .menu-link[href="' + local(u) + '"]') || document.querySelector('.menu-link[href="' + u + '"]');
+      const h3 = link && link.closest('.menu-group') && link.closest('.menu-group').querySelector('.menu-group-label h3');
+      return h3 ? h3.textContent : '';
+    };
+    const syncCount = () => { const n = getBM().length; count.textContent = String(n); count.hidden = !n; };
     const build = () => {
-      panel.innerHTML = '';
-      const lab = document.createElement('div');
-      lab.className = 'bm-label';
-      lab.textContent = T('Bookmarked');
-      panel.appendChild(lab);
+      body.innerHTML = '';
       const list = getBM();
+      foot.hidden = !list.length;
       if (!list.length) {
-        const e = document.createElement('div');
+        const e = document.createElement('p');
         e.className = 'bm-empty';
-        e.textContent = T('No bookmarks yet');
-        panel.appendChild(e);
+        e.textContent = 'No bookmarks yet. Use the bookmark button beside any page title to save it here.';
+        body.appendChild(e);
         return;
       }
+      const table = document.createElement('table');
+      table.className = 'bm-table';
+      const thead = document.createElement('thead');
+      thead.innerHTML = '<tr><th class="bm-col">Page</th><th class="bm-col">Section</th><th></th></tr>';
+      const tbody = document.createElement('tbody');
       list.forEach(b => {
-        const row = document.createElement('div');
-        row.className = 'bm-row';
+        const tr = document.createElement('tr');
+        const td1 = document.createElement('td');
         const a = document.createElement('a');
-        a.href = b.u;
-        a.className = 'bm-item';
-        a.textContent = b.t;
-        const x = document.createElement('button');
-        x.className = 'bm-remove';
-        x.setAttribute('aria-label', 'Remove bookmark');
-        x.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-        x.addEventListener('click', () => {
+        a.href = b.u; a.className = 'bm-item'; a.textContent = b.t;
+        td1.appendChild(a);
+        const td2 = document.createElement('td');
+        td2.className = 'bm-section'; td2.textContent = sectionOf(b.u);
+        const td3 = document.createElement('td');
+        td3.className = 'bm-actions';
+        const rm = document.createElement('button');
+        rm.type = 'button'; rm.className = 'bm-remove';
+        rm.setAttribute('aria-label', 'Remove bookmark'); rm.title = 'Remove bookmark';
+        rm.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
+        rm.addEventListener('click', () => {
           setBM(getBM().filter(i => i.u !== b.u));
-          build();
+          build(); syncCount();
           const pb = document.querySelector('.bookmark-btn');
           if (pb && b.u === page) { pb.classList.remove('on'); pb.setAttribute('aria-pressed', 'false'); pb.innerHTML = pb.innerHTML.replace('fill="currentColor"', 'fill="none"'); }
         });
-        row.appendChild(a);
-        row.appendChild(x);
-        panel.appendChild(row);
+        td3.appendChild(rm);
+        tr.appendChild(td1); tr.appendChild(td2); tr.appendChild(td3); tbody.appendChild(tr);
       });
+      table.appendChild(thead); table.appendChild(tbody); body.appendChild(table);
     };
-    const open = () => { build(); panel.style.top = Math.round(topnav.getBoundingClientRect().bottom) + 'px'; panel.classList.add('open'); btn.setAttribute('aria-expanded', 'true'); (panel.querySelector('a, button') || panel).focus(); };
-    const close = () => { const was = panel.classList.contains('open'); panel.classList.remove('open'); btn.setAttribute('aria-expanded', 'false'); if (was && panel.contains(document.activeElement)) btn.focus(); };
-    btn.addEventListener('click', () => panel.classList.contains('open') ? close() : open());
-    document.addEventListener('click', e => { if (!panel.contains(e.target) && !wrap.contains(e.target)) close(); });
+    clear.addEventListener('click', () => {
+      setBM([]); build(); syncCount();
+      const pb = document.querySelector('.bookmark-btn');
+      if (pb) { pb.classList.remove('on'); pb.setAttribute('aria-pressed', 'false'); pb.innerHTML = pb.innerHTML.replace('fill="currentColor"', 'fill="none"'); }
+    });
+    const isOpen = () => sheet.classList.contains('open');
+    const open = () => {
+      const gear = document.querySelector('.settings-wrap:not(.help-wrap) .settings-btn:not(.bm-nav-btn)[aria-expanded="true"]');
+      if (gear) gear.click();
+      const help = document.querySelector('.help-btn[aria-expanded="true"]');
+      if (help) help.click();
+      const menu = document.querySelector('.hamburger[aria-expanded="true"]');
+      if (menu) menu.click();
+      build();
+      sheet.style.top = Math.round(topnav.getBoundingClientRect().bottom) + 'px';
+      sheet.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+      x.focus();
+    };
+    const close = () => {
+      const was = isOpen();
+      sheet.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+      if (was && sheet.contains(document.activeElement)) btn.focus();
+    };
+    btn.addEventListener('click', e => { e.stopPropagation(); isOpen() ? close() : open(); });
+    x.addEventListener('click', close);
     document.addEventListener('keydown', e => { if (e.key === 'Escape') close(); });
+    window.addEventListener('storage', syncCount);
+    document.addEventListener('ux-bookmarks-changed', syncCount);
+    syncCount();
+    setTimeout(() => {
+      if (!window.uxT) return;
+      const l = window.uxT('Bookmarks');
+      if (l) { btn.setAttribute('aria-label', l); sheet.setAttribute('aria-label', l); }
+    }, 1600);
   }
 })();
 

@@ -18,10 +18,12 @@ h1, h2, .card h3 { letter-spacing: -1px; }
 
 /* ---------- Top nav ---------- */
 .topnav {
+  height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 9px 32px;
+  gap: 8px;
+  padding: 0 24px;
   background: var(--topnav-bg);
   border-bottom: 1px solid var(--border);
   box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 6px 20px rgba(0,0,0,.08);
@@ -30,7 +32,7 @@ h1, h2, .card h3 { letter-spacing: -1px; }
   z-index: 400;
 }
 .topnav .brand {
-  font-size: var(--fs-body); font-weight: 600; color: var(--text-primary);
+  font-size: var(--fs-body); font-weight: 600; letter-spacing: -0.2px; color: var(--text-primary);
   display: flex; align-items: center; gap: 10px;
 }
 .brand-row { display: flex; align-items: center; gap: 6px; }
@@ -38,12 +40,16 @@ h1, h2, .card h3 { letter-spacing: -1px; }
 /* ---------- Hamburger menu ---------- */
 .hamburger {
   background: none; border: none; cursor: pointer;
-  width: 44px; height: 44px; padding: 6px;
+  width: 44px; height: 44px; padding: 6px; margin-left: -10px;
   display: flex; align-items: center; justify-content: center;
-  color: var(--text-primary); border-radius: 4px;
+  color: var(--text-primary); border-radius: 6px;
   transition: color 0.15s ease, background 0.15s ease;
 }
 .hamburger:hover { color: var(--text-secondary); background: var(--demo-bg); }
+/* the menu glyph becomes an X while the panel is open */
+.hamburger .ico-close { display: none; }
+.hamburger[aria-expanded="true"] .ico-menu { display: none; }
+.hamburger[aria-expanded="true"] .ico-close { display: block; }
 .menu-overlay {
   position: fixed; inset: 0;
   background: rgba(17, 17, 17, 0.35);
@@ -578,9 +584,9 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 }
 
 /* ---------- Settings (language) menu ---------- */
-.settings-wrap { position: relative; flex: none; margin-left: 4px; display: flex; align-items: center; }
+.settings-wrap { position: relative; flex: none; margin-left: 0; display: flex; align-items: center; }
 .settings-btn { background: none; border: 0; padding: 0; width: 40px; height: 40px; cursor: pointer; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; border-radius: 10px; }
-.settings-btn:hover { color: var(--text-primary); }
+.settings-btn:hover { color: var(--text-primary); background: var(--demo-bg); }
 .settings-btn svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 
 /* Full-page menu layout (kept last to win source order) */
@@ -701,7 +707,7 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
   .search-wrap { position: absolute; left: 50%; transform: translateX(-50%); width: 440px; margin: 0; }
 }
 @media (max-width: 980px) { .search-wrap { flex: 0 1 440px; } }
-.search-input { width: 100%; height: 44px; border-radius: 10px; background: var(--surface); border: none; padding: 0 40px 0 42px; font-family: inherit; font-size: var(--fs-body); color: var(--text-primary); outline: none; -webkit-appearance: none; appearance: none; }
+.search-input { width: 100%; height: 42px; border-radius: 10px; background: var(--surface); border: none; padding: 0 40px 0 42px; font-family: inherit; font-size: var(--fs-body); color: var(--text-primary); outline: none; -webkit-appearance: none; appearance: none; }
 .search-input::placeholder { color: var(--text-faint); }
 .search-input::-webkit-search-cancel-button { display: none; }
 .search-ico { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-faint); pointer-events: none; }
@@ -724,9 +730,10 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
   .search-ico { position: static; transform: none; width: 20px; height: 20px; color: var(--text-primary); pointer-events: auto; cursor: pointer; }
   /* open: the field drops in as a full-width second row; the brand and the
      bookmark, settings, and help buttons stay where they were */
-  .topnav.search-open { flex-wrap: wrap; }
+  .topnav { padding: 0 12px; }
+  .topnav.search-open { flex-wrap: wrap; height: auto; padding-bottom: 10px; }
   .topnav.search-open .search-wrap { order: 10; flex: 1 0 100%; width: auto; margin: 8px 0 0; display: block; }
-  .topnav.search-open .search-input { display: block; height: 40px; font-size: var(--fs-ui); }
+  .topnav.search-open .search-input { display: block; height: 38px; font-size: var(--fs-ui); }
   .topnav.search-open .search-ico { position: absolute; left: 15px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; color: var(--text-faint); pointer-events: none; }
   .topnav.search-open .search-clear { display: flex; }
   .search-results { padding: 6px 12px; }
@@ -843,18 +850,22 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .share-item:hover { background: var(--surface); }
 .share-item svg { flex: 0 0 auto; color: var(--text-secondary); }
 .bm-wrap { position: relative; margin-left: auto; }
-.bm-panel { position: fixed; right: 16px; width: 300px; max-height: 60vh; overflow-y: auto; background: var(--topnav-bg); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow-pop); padding: 10px; display: none; z-index: 350; }
-.bm-panel.open { display: block; }
-.bm-label { font-size: var(--fs-ui); font-weight: 600; color: var(--text-primary); padding: 6px 12px 8px; }
-.bm-empty { font-size: var(--fs-ui); color: var(--text-faint); padding: 4px 12px 10px; }
-.bm-row { display: flex; align-items: center; gap: 4px; }
-.bm-item { flex: 1; min-width: 0; padding: 8px 12px; border-radius: 8px; font-size: var(--fs-ui); color: var(--text-primary); text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.bm-item:hover { background: var(--surface); }
-.bm-remove { border: 0; background: transparent; color: var(--text-faint); width: 30px; height: 30px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; flex: 0 0 auto; padding: 0; }
-.bm-remove:hover { color: var(--text-primary); background: var(--surface); }
+.bm-nav-btn { position: relative; }
+.bm-count { position: absolute; top: 2px; right: 2px; min-width: 16px; height: 16px; padding: 0 4px; border-radius: 8px; background: var(--ink); color: var(--text-inverse); font-size: 10px; font-weight: 700; line-height: 1; display: flex; align-items: center; justify-content: center; }
+.bm-count[hidden] { display: none; }
+.bm-body { padding: 0 14px; }
+.bm-empty { font-size: var(--fs-label); color: var(--text-secondary); padding: 6px 0 10px; line-height: 1.6; max-width: 60ch; margin: 0; }
+.bm-table { border-collapse: collapse; width: 100%; max-width: 760px; font-size: var(--fs-ui); }
+.bm-table th { text-align: left; font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); padding: 6px 0 6px; }
+.bm-table td { padding: 8px 12px 8px 0; border-top: 1px solid var(--border); color: var(--text-secondary); vertical-align: middle; }
+.bm-table td:last-child { width: 40px; padding-right: 0; text-align: right; }
+.bm-item { font-size: var(--fs-body); font-weight: 500; color: var(--text-primary); text-decoration: none; }
+.bm-item:hover { text-decoration: underline; }
+.bm-remove { border: 0; background: transparent; color: var(--text-faint); width: 30px; height: 30px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.bm-remove:hover { color: var(--text-primary); background: var(--demo-bg); }
+.bm-foot[hidden] { display: none; }
 @media (max-width: 600px) {
   .title-act { width: 36px; height: 36px; }
-  .bm-panel { right: 8px; left: 8px; width: auto; }
 }
 
 
@@ -984,7 +995,7 @@ html.has-scroller .topnav { flex: 0 0 auto; }
 @media print {
   html.has-scroller, html.has-scroller body { height: auto; overflow: visible; display: block; }
   .page-scroll { overflow: visible; height: auto; }
-  .topnav, .menu-panel, .menu-overlay, .settings-sheet, .bm-panel, .share-menu,
+  .topnav, .menu-panel, .menu-overlay, .settings-sheet, .bm-sheet, .share-menu,
   .title-actions, .skip-link, .lang-tabs, .search-results, footer { display: none !important; }
   .card, .demo, .law-feature, .ref-group { break-inside: avoid; }
   header { background: none; padding-top: 20px; }
