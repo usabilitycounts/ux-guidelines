@@ -584,8 +584,8 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 }
 
 /* ---------- Settings (language) menu ---------- */
-.settings-wrap { position: relative; flex: none; margin-left: 0; display: flex; align-items: center; }
-.settings-btn { background: none; border: 0; padding: 0; width: 40px; height: 40px; cursor: pointer; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; border-radius: 10px; }
+.settings-wrap { position: relative; flex: none; margin-left: -6px; display: flex; align-items: center; }
+.settings-btn { background: none; border: 0; padding: 0; width: 36px; height: 36px; cursor: pointer; color: var(--text-secondary); display: flex; align-items: center; justify-content: center; border-radius: 10px; }
 .settings-btn:hover { color: var(--text-primary); background: var(--demo-bg); }
 .settings-btn svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
 
