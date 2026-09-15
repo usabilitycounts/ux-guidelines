@@ -36,7 +36,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=101">
+<link rel="stylesheet" href="tokens.css?v=102">
 <style>
   :root {
     --bg: #ffffff;
@@ -132,7 +132,33 @@ header { text-align: center; padding-top: 26px; padding-bottom: 0; }
 header h1 { font-size: clamp(2.5rem, 5vw, 3.4375rem); letter-spacing: -1.5px; line-height: 1.1; margin: 0; }
 header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-height: 1.6; color: var(--text-secondary); }
 .theme-tabs { margin: 12px 0 0; }
-.hero-selects { display: none; }
+/* Dropdowns (phones): the hero's language and theme tab groups fold into two
+   controls side by side — the same look as the dropdowns on ux-icons.com */
+.hero-dropdowns { display: none; }
+.dropdown { position: relative; z-index: 260; }
+.dropdown-btn {
+  display: flex; align-items: center; gap: 8px; width: 100%; height: 40px; padding: 0 40px 0 14px;
+  font: inherit; font-size: 15px; font-weight: 400; color: var(--text-primary); text-align: left; cursor: pointer;
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b6b6b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 12px center / 16px;
+  border: 1px solid var(--border); border-radius: 10px; transition: background-color 0.15s ease;
+}
+.dropdown-btn:hover, .dropdown-btn[aria-expanded="true"] { background-color: var(--demo-bg); }
+.dropdown-btn .dropdown-val { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dropdown-ico { color: var(--text-secondary); flex-shrink: 0; }
+.dropdown-menu {
+  position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 500; min-width: 190px; padding: 6px;
+  max-height: 60vh; overflow-y: auto; overscroll-behavior: contain;
+  background: var(--bg); border: 1px solid var(--border); border-radius: 12px; box-shadow: var(--shadow-pop);
+}
+.dropdown-menu[hidden] { display: none; }
+.dropdown-menu button {
+  display: flex; align-items: center; gap: 10px; width: 100%; padding: 9px 12px; border-radius: 8px;
+  background: transparent; border: 0; text-align: left; font: inherit; font-size: 14px; color: var(--text-primary); cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.dropdown-menu button:hover, .dropdown-menu button:focus-visible { background: var(--demo-bg); outline: none; }
+.dropdown-menu [aria-selected="true"] { font-weight: 600; }
+.dropdown-menu .dropdown-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .landing-logo { width: clamp(2.5rem, 5vw, 3.4375rem); height: clamp(2.5rem, 5vw, 3.4375rem); color: var(--icon); flex: 0 0 auto; }
 .beta-pill { align-self: center; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-secondary); }
 .lang-tabs { display: inline-flex; margin-bottom: 12px; background: var(--surface-2); border-radius: 8px; padding: 3px; gap: 2px; flex-wrap: wrap; justify-content: center; }
@@ -156,12 +182,10 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab { padding: 8px 12px; }
   .lang-tab .lang-full { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .lang-tab .lang-abbr { display: inline; }
-  /* Language and theme are two dropdowns side by side instead of tab groups */
-  .lang-tabs[aria-label="Language"], .theme-tabs { display: none; }
-  .hero-selects { display: flex; gap: 10px; margin: 0 auto 16px; max-width: 400px; }
-  .hero-select-wrap { flex: 1 1 0; min-width: 0; position: relative; display: block; }
-  .hero-select { width: 100%; padding-left: 42px; text-align: left; }
-  .hero-select-ico { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--text-secondary); pointer-events: none; }
+  /* The two tab groups fold into a pair of dropdowns, language then theme */
+  header .lang-tabs[aria-label="Language"], header .theme-tabs { display: none; }
+  header .hero-dropdowns { display: flex; gap: 8px; margin: 0 0 16px; text-align: left; }
+  .hero-dropdowns .dropdown { flex: 1 1 0; min-width: 0; }
 }
 </style>
 <script defer src="tokens.js?v=97"></script>
@@ -260,24 +284,6 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </aside>
 
 <header>
-  <div class="hero-selects">
-    <span class="hero-select-wrap"><svg aria-hidden="true" class="hero-select-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-    <select class="sheet-select hero-select lang-select" aria-label="Language">
-      <option value="en" lang="en">English</option>
-      <option value="es" lang="es">Español</option>
-      <option value="de" lang="de">Deutsch</option>
-      <option value="fr" lang="fr">Français</option>
-      <option value="zh" lang="zh">中文</option>
-      <option value="ja" lang="ja">日本語</option>
-    </select></span>
-    <span class="hero-select-wrap"><svg aria-hidden="true" class="hero-select-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
-    <select class="sheet-select hero-select theme-select" aria-label="Theme">
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-      <option value="beige">Beige</option>
-      <option value="blue">Blue</option>
-    </select></span>
-  </div>
   <div class="lang-tabs" aria-label="Language">
     <button type="button" class="lang-tab" data-lang="en" lang="en"><span class="lang-full">English</span><span class="lang-abbr" aria-hidden="true">EN</span></button>
     <button type="button" class="lang-tab" data-lang="es" lang="es"><span class="lang-full">Español</span><span class="lang-abbr" aria-hidden="true">ES</span></button>
@@ -329,6 +335,103 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   }
   document.querySelectorAll('.lang-tabs').forEach(setupTabGroup);
   window.__setupTabGroup = setupTabGroup;
+
+  // A dropdown standing in for a tab group on phones (modeled on ux-icons.com):
+  // a button showing the current tab, a floating list of the rest; choosing
+  // an option clicks the tab it stands for, so the tab's own handler runs.
+  function buildDropdown(items, getName, opts) {
+    var wrap = document.createElement('div');
+    wrap.className = 'dropdown';
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'dropdown-btn';
+    btn.setAttribute('aria-haspopup', 'listbox'); btn.setAttribute('aria-expanded', 'false');
+    if (opts.label) btn.setAttribute('aria-label', opts.label);
+    btn.innerHTML = (opts.icon || '') + '<span class="dropdown-val"></span>';
+    var menu = document.createElement('div');
+    menu.className = 'dropdown-menu'; menu.setAttribute('role', 'listbox'); menu.hidden = true;
+    var options = items.map(function (el, i) {
+      var o = document.createElement('button');
+      o.type = 'button'; o.setAttribute('role', 'option'); o.dataset.i = String(i);
+      if (el.getAttribute('lang')) o.setAttribute('lang', el.getAttribute('lang'));
+      o.innerHTML = '<span class="dropdown-name"></span>';
+      o.firstChild.textContent = getName(el);
+      menu.appendChild(o);
+      return o;
+    });
+    wrap.appendChild(btn); wrap.appendChild(menu);
+    var current = -1;
+    function show(i) {
+      if (i < 0) return;
+      current = i;
+      btn.querySelector('.dropdown-val').textContent = options[i].firstChild.textContent;
+      options.forEach(function (o, k) { o.setAttribute('aria-selected', String(k === i)); });
+    }
+    function open() {
+      menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
+      menu.style.top = menu.style.bottom = menu.style.maxHeight = '';
+      var GAP = 6, EDGE = 16, br = btn.getBoundingClientRect();
+      var below = window.innerHeight - br.bottom - GAP - EDGE, above = br.top - 60 - GAP - EDGE;
+      if (below < 180 && above > below) {
+        menu.style.top = 'auto'; menu.style.bottom = 'calc(100% + ' + GAP + 'px)';
+        menu.style.maxHeight = Math.max(120, above) + 'px';
+      } else menu.style.maxHeight = Math.max(120, below) + 'px';
+      // And within the sides of the screen when the control is narrower than the list
+      menu.style.left = menu.style.right = '';
+      var mr = menu.getBoundingClientRect();
+      var over = mr.right - (window.innerWidth - EDGE);
+      if (over > 0) { menu.style.right = 'auto'; menu.style.left = -Math.min(over, Math.max(0, mr.left - EDGE)) + 'px'; }
+      options[Math.max(0, current)].focus({ preventScroll: true });
+    }
+    function close(focusBtn) {
+      if (menu.hidden) return;
+      menu.hidden = true; btn.setAttribute('aria-expanded', 'false');
+      if (focusBtn) btn.focus({ preventScroll: true });
+    }
+    btn.addEventListener('click', function () { menu.hidden ? open() : close(); });
+    menu.addEventListener('click', function (e) {
+      var o = e.target.closest('[role="option"]');
+      if (!o) return;
+      close(true);
+      var el = items[+o.dataset.i]; if (el) el.click();
+    });
+    wrap.addEventListener('keydown', function (e) {
+      var i = options.indexOf(document.activeElement);
+      if (e.key === 'Escape') { e.preventDefault(); close(true); }
+      else if (e.key === 'ArrowDown') { e.preventDefault(); if (menu.hidden) open(); else options[(i + 1) % options.length].focus(); }
+      else if (e.key === 'ArrowUp') { e.preventDefault(); if (menu.hidden) open(); else options[(i - 1 + options.length) % options.length].focus(); }
+      else if (e.key === 'Home' && !menu.hidden) { e.preventDefault(); options[0].focus(); }
+      else if (e.key === 'End' && !menu.hidden) { e.preventDefault(); options[options.length - 1].focus(); }
+    });
+    document.addEventListener('click', function (e) { if (!wrap.contains(e.target)) close(); });
+    window.addEventListener('resize', function () { close(); });
+    wrap.addEventListener('focusout', function (e) { if (!wrap.contains(e.relatedTarget)) close(); });
+    var activeIdx = function () { return items.findIndex(function (el) { return el.classList.contains('active'); }); };
+    var sync = function () {
+      options.forEach(function (o, k) { o.firstChild.textContent = getName(items[k]); });
+      show(Math.max(0, activeIdx()));
+    };
+    sync();
+    // Follow the tabs: the active one changing, and their names being translated
+    var mo = new MutationObserver(sync);
+    items.forEach(function (el) { mo.observe(el, { attributes: true, attributeFilter: ['class'], childList: true, characterData: true, subtree: true }); });
+    return wrap;
+  }
+  var GLOBE = '<svg class="dropdown-ico" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>';
+  var SUN = '<svg class="dropdown-ico" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>';
+  var langTabs = document.querySelector('header .lang-tabs[aria-label="Language"]');
+  var themeTabs = document.querySelector('header .theme-tabs');
+  if (langTabs && themeTabs) {
+    var row = document.createElement('div');
+    row.className = 'hero-dropdowns';
+    row.appendChild(buildDropdown(Array.prototype.slice.call(langTabs.querySelectorAll('.lang-tab')), function (b) {
+      var full = b.querySelector('.lang-full');
+      return full ? full.textContent : b.textContent;
+    }, { label: 'Language', icon: GLOBE }));
+    row.appendChild(buildDropdown(Array.prototype.slice.call(themeTabs.querySelectorAll('.lang-tab')), function (b) {
+      return b.textContent;
+    }, { label: 'Theme', icon: SUN }));
+    langTabs.parentNode.insertBefore(row, langTabs);
+  }
 })();
 (function () {
   var cur = 'light';
@@ -338,21 +441,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     var r = document.documentElement;
     r.classList.remove('dark', 'beige', 'blue');
     if (t !== 'light') r.classList.add(t);
-    var sel = document.querySelector('.theme-select');
-    if (sel) sel.value = t;
   };
-  var themeSel = document.querySelector('.theme-select');
-  if (themeSel) {
-    themeSel.value = cur;
-    themeSel.addEventListener('change', function () {
-      applyTheme(themeSel.value);
-      document.querySelectorAll('.theme-tab').forEach(function (x) {
-        var on = x.dataset.theme === themeSel.value;
-        x.classList.toggle('active', on);
-        x.setAttribute('aria-pressed', on ? 'true' : 'false');
-      });
-    });
-  }
   document.querySelectorAll('.theme-tab').forEach(function (b) {
     var on = b.dataset.theme === cur;
     if (on) b.classList.add('active');
@@ -385,11 +474,6 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       else location.reload();
     }, 190);
   };
-  var langSel = document.querySelector('.lang-select');
-  if (langSel) {
-    langSel.value = cur;
-    langSel.addEventListener('change', function () { goLang(langSel.value); });
-  }
   document.querySelectorAll('.lang-tab[data-lang]').forEach(function (b) {
     var active = b.dataset.lang === cur;
     if (active) b.classList.add('active');

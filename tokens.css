@@ -83,6 +83,8 @@ h1, h2, .card h3 { letter-spacing: -1px; }
   display: flex; align-items: center; justify-content: center;
 }
 .menu-close svg { width: 26px; height: 26px; }
+.menu-close { top: 44px; }   /* level with the Navigate title */
+@media (max-width: 600px) { .menu-close { top: 43px; } }
 .menu-close:hover { color: var(--text-primary); background: var(--demo-bg); }
 .menu-label {
   font-size: var(--fs-h2); color: var(--text-primary);
@@ -719,6 +721,9 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
 .search-clear:hover { color: var(--text-primary); background: var(--demo-bg); }
 /* The results open as the navigation panel does — the same shell, the same
    groups in columns, the overlay behind — with the field left in the bar. */
+/* On phones the sheet starts below the search bar as well as the nav, so it
+   slides further than its own height when closed, or a strip stays visible */
+.search-sheet:not(.open) { transform: translateY(-120%); }
 .search-sheet .menu-links { display: block; }
 .search-sheet .menu-groups { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px 32px; align-items: start; }
 @media (max-width: 1040px) { .search-sheet .menu-groups { grid-template-columns: repeat(2, 1fr); gap: 16px 24px; } }
@@ -791,14 +796,16 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 }
 .settings-sheet.open { transform: translateY(0); }
 @media (max-width: 600px) { .settings-sheet { padding: 40px 20px 32px; } }
-.sheet-head { display: block; padding: 0; border-bottom: none; flex-shrink: 0; }
+/* Title and close button share one row, the X centred on the title */
+.sheet-head { display: flex; align-items: center; justify-content: space-between; padding: 0; margin: 0 0 22px; border-bottom: none; flex-shrink: 0; }
+.sheet-head .sheet-title { margin: 0; }
 .sheet-title {
   font-size: var(--fs-h2); color: var(--text-primary);
   font-weight: 600; margin: 10px 0 22px; padding-left: 14px;
   letter-spacing: -0.3px; line-height: var(--lh-heading);
 }
 .sheet-close {
-  position: absolute; top: 14px; right: 16px;
+  position: static; margin-right: -12px; flex: none;
   background: none; border: none; cursor: pointer;
   width: 46px; height: 46px; line-height: 1;
   color: var(--text-secondary); border-radius: 8px;
