@@ -2,7 +2,8 @@
 """Generate per-page, per-language social share images into og/{lang}/{page}.png.
 
 Title comes from the page h1 (translated via the TITLES table in i18n.js);
-the second line is the page tagline (translated via the language overlays).
+beneath it sits the page's subtitle (translated via the language overlays),
+left-aligned, up to three lines.
 Latin languages use Helvetica Neue; ja/zh use Hiragino Sans GB.
 """
 import glob
@@ -33,7 +34,7 @@ def latin_font(size, weight):
 
 
 def cjk_font(size, weight):
-    idx = 1 if weight == 'bold' else 0  # W6 / W3
+    idx = 2 if weight == 'bold' else 0  # W6 / W3 (index 1 and 3 are the .Interface faces)
     for i in (idx, 0):
         try:
             return ImageFont.truetype('/System/Library/Fonts/Hiragino Sans GB.ttc', size, index=i)
@@ -79,45 +80,51 @@ def titles_table():
     return table
 
 
-def render(path, lang, title, tagline):
+def render(path, lang, title, desc):
+    """Left-aligned card: brand, title, and the page's description right under it."""
     img = Image.new('RGB', (W, H), '#ffffff')
     d = ImageDraw.Draw(img)
-    for y in range(0, 240):
-        t = y / 240
+    for y in range(0, 130):
+        t = y / 130
         d.line([(0, y), (W, y)],
                fill=(int(0xec + 0x13 * t), int(0xee + 0x11 * t), int(0xf1 + 0x0e * t)))
-    brand = font_for(lang, 30, 'bold')
-    bw = d.textlength('UX Guidelines', font=latin_font(30, 'bold'))
-    d.text(((W - bw) / 2, 66), 'UX Guidelines', fill=GREY, font=latin_font(30, 'bold'))
+    PAD, MAXW = 80, 1040
+    bf = latin_font(28, 'bold')
+    d.text((PAD, 54), 'UX Guidelines', fill=GREY, font=bf)
 
     cjk = lang in ('ja', 'zh')
-    size = 88
-    while size > 44:
+    size = 84
+    while size > 48:
         fnt = font_for(lang, size, 'bold')
-        lines = wrap(d, title, fnt, 1040, cjk)
-        if len(lines) <= 2:
+        if len(wrap(d, title, fnt, MAXW, cjk)) <= 2:
             break
-        size -= 8
+        size -= 6
     fnt = font_for(lang, size, 'bold')
-    lines = wrap(d, title, fnt, 1040, cjk)[:2]
-    lh = int(size * 1.15)
-    block_h = lh * len(lines)
-    y = 240 + (200 - block_h) / 2
+    lines = wrap(d, title, fnt, MAXW, cjk)[:2]
+    lh = int(size * 1.12)
+    y = 178 if len(lines) == 1 else 152  # two-line titles start higher so the description clears the footer
     for ln in lines:
-        lw = d.textlength(ln, font=fnt)
-        d.text(((W - lw) / 2, y), ln, fill=INK, font=fnt)
+        d.text((PAD, y), ln, fill=INK, font=fnt)
         y += lh
 
-    if tagline:
-        tf = font_for(lang, 36, 'regular')
-        tlines = wrap(d, tagline, tf, 1000, cjk)[:2]
-        ty = 470
-        for ln in tlines:
-            lw = d.textlength(ln, font=tf)
-            d.text(((W - lw) / 2, ty), ln, fill=GREY, font=tf)
-            ty += 48
+    if desc:
+        df = font_for(lang, 34, 'regular')
+        dlines = wrap(d, desc, df, MAXW, cjk)
+        if len(dlines) > 3:
+            dlines = dlines[:3]
+            last = dlines[2]
+            while d.textlength(last + '…', font=df) > MAXW and len(last) > 1:
+                last = last[:-1].rstrip()
+            dlines[2] = last.rstrip(' ,;:—-') + '…'
+        y += 26
+        for ln in dlines:
+            d.text((PAD, y), ln, fill=GREY, font=df)
+            y += 46
 
-    d.rounded_rectangle([(W - 88) / 2, H - 52, (W + 88) / 2, H - 40], 6, fill=ACCENT)
+    d.rounded_rectangle([PAD, H - 62, PAD + 88, H - 50], 6, fill=ACCENT)
+    uf = latin_font(24, 'regular')
+    uw = d.textlength('ux-guidelines.com', font=uf)
+    d.text((W - PAD - uw, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
     img.save(path, optimize=True)
 
 
@@ -134,7 +141,9 @@ def main():
         h1 = strip(re.search(r'<h1>(.*?)</h1>', s, re.DOTALL).group(1))
         tag_m = re.search(r'<p class="tagline">(.*?)</p>', s, re.DOTALL)
         sub_m = re.search(r'<p class="subtitle">(.*?)</p>', s, re.DOTALL)
-        en_tag = strip(tag_m.group(1)) if tag_m else (strip(sub_m.group(1)) if sub_m else '')
+        meta_m = re.search(r'<meta name="description" content="([^"]*)"', s)
+        # the longer description: subtitle first, then the tagline, then the meta description
+        en_tag = strip(sub_m.group(1)) if sub_m else (strip(tag_m.group(1)) if tag_m else (meta_m.group(1) if meta_m else ''))
         for lang in LANGS:
             title, tagline = h1, en_tag
             if lang != 'en':
@@ -144,7 +153,7 @@ def main():
                 op = f'{SITE}/i18n/{lang}/{base}.json'
                 if os.path.exists(op):
                     d = json.load(open(op))
-                    src = d.get('header .tagline') or d.get('header .subtitle')
+                    src = d.get('header .subtitle') or d.get('header .tagline')
                     if src:
                         tagline = strip(src[0])
                 if title == h1 and lang != 'en' and base == 'index':
