@@ -212,6 +212,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   document.body.appendChild(sheet);
 
   let staged = cur();
+  const T = k => (window.uxT && window.uxT(k)) || k;
 
   const render = () => {
     sheet.innerHTML = '';
@@ -219,10 +220,10 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     head.className = 'sheet-head';
     const title = document.createElement('h2');
     title.className = 'sheet-title';
-    title.textContent = 'Settings';
+    title.textContent = T('Settings');
     const x = document.createElement('button');
     x.className = 'sheet-close';
-    x.setAttribute('aria-label', 'Close settings');
+    x.setAttribute('aria-label', T('Close settings'));
     x.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
     x.addEventListener('click', close);
     head.appendChild(title);
@@ -236,30 +237,51 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
       sec.className = 'sheet-section';
       const h = document.createElement('h3');
       h.className = 'sheet-label';
-      h.textContent = label;
+      h.textContent = T(label);
       sec.appendChild(h);
       items.forEach(([code, name]) => {
         const b = document.createElement('button');
         b.className = 'sheet-opt' + (staged[key] === code ? ' active' : '');
         b.setAttribute('role', 'radio');
         b.setAttribute('aria-checked', String(staged[key] === code));
-        b.textContent = name;
+        b.dataset.code = code;
+        b.textContent = key === 'theme' ? T(name) : name;
         b.addEventListener('click', () => {
           staged[key] = code;
           render();
         });
         sec.appendChild(b);
       });
+      // On phones the same choice is a dropdown, the two sitting side by side
+      const sel = document.createElement('select');
+      sel.className = 'sheet-select';
+      sel.setAttribute('aria-label', T(label));
+      items.forEach(([code, name]) => {
+        const o = document.createElement('option');
+        o.value = code;
+        o.textContent = key === 'theme' ? T(name) : name;
+        o.selected = staged[key] === code;
+        sel.appendChild(o);
+      });
+      sel.addEventListener('change', () => {
+        staged[key] = sel.value;
+        sec.querySelectorAll('.sheet-opt').forEach(b => {
+          const on = b.dataset.code === sel.value;
+          b.classList.toggle('active', on);
+          b.setAttribute('aria-checked', String(on));
+        });
+      });
+      sec.appendChild(sel);
       body.appendChild(sec);
     };
     section('Theme', THEMES, 'theme');
     section('Language', LANGS, 'lang');
 
     const fsec = document.createElement('div');
-    fsec.className = 'sheet-section';
+    fsec.className = 'sheet-section sheet-font-section';
     const fh = document.createElement('h3');
     fh.className = 'sheet-label';
-    fh.textContent = 'Font Size';
+    fh.textContent = T('Font Size');
     fsec.appendChild(fh);
     const frow = document.createElement('div');
     frow.className = 'sheet-font';
@@ -287,7 +309,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     foot.className = 'sheet-foot';
     const save = document.createElement('button');
     save.className = 'btn-save';
-    save.textContent = 'Save';
+    save.textContent = T('Save');
     save.addEventListener('click', () => {
       const before = cur();
       localStorage.setItem('ux-theme', staged.theme);
@@ -302,7 +324,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     });
     const cancel = document.createElement('button');
     cancel.className = 'btn-cancel';
-    cancel.textContent = 'Cancel';
+    cancel.textContent = T('Cancel');
     cancel.addEventListener('click', close);
     foot.appendChild(save);
     foot.appendChild(cancel);
