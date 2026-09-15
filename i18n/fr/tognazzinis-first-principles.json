@@ -3,14 +3,14 @@
   "<em>Premiers principes</em> de Tognazzini"
  ],
  "header .tagline": [
-  "Seize <em>règles</em> de travail pour concevoir des logiciels qui respectent l'utilisateur."
+  "Dix-neuf <em>règles</em> de travail pour concevoir des logiciels qui respectent l'utilisateur."
  ],
  "header .subtitle": [
   "Les First Principles of Interaction Design de Bruce « Tog » Tognazzini, écrits et affinés sur AskTog.com au fil de décennies chez Apple, Sun et Nielsen Norman Group. Moins un catéchisme qu'un ensemble de règles de travail — chacune tirée de produits livrés et de patterns qui ont tenu à l'échelle."
  ],
  ".law-origin .body-text": [
-  "Bruce « Tog » Tognazzini fut l'employé numéro 66 d'Apple, écrivit les premières directives d'interface humaine de l'entreprise et façonna l'apparence du premier Macintosh pendant quatorze ans et huit éditions des directives.",
-  "Après Apple, il a travaillé chez Sun et WebMD avant de rejoindre Nielsen et Norman comme troisième associé du Nielsen Norman Group. Ses First Principles of Interaction Design, rédigés en 1978 et révisés sur son site AskTog depuis 1998, rassemblent le métier en une liste canonique."
+  "Bruce « Tog » Tognazzini fut l'employé numéro 66 d'Apple, écrivit les premières directives d'interface humaine de l'entreprise et façonna l'interface humaine d'Apple pendant quatorze ans et huit éditions des directives.",
+  "Après Apple, il a travaillé chez Sun et WebMD avant de rejoindre Nielsen et Norman comme troisième associé du Nielsen Norman Group. Ses First Principles of Interaction Design, publiés sur son site AskTog au début des années 2000 et enrichis en 2014, rassemblent le métier en une liste canonique."
  ],
  ".law-content .law-desc": [
   "Une check-list vivante des fondamentaux du design d'interaction — anticipation, autonomie, cohérence, découvrabilité, efficience, interfaces explorables, loi de Fitts, réduction de la latence, apprenabilité, et plus encore."
@@ -61,9 +61,9 @@
   "Optimisez le temps de l'utilisateur, pas celui du système. Épargner dix secondes à l'ingénieur au prix de dix secondes utilisateur, dix mille fois par jour, est un mauvais échange. Actions groupées, raccourcis clavier, collage intelligent et éléments récents rendent des minutes à ceux qui font le travail.",
   "Récompensez la curiosité. Laissez les utilisateurs essayer sans crainte — les actions doivent être évidentes à trouver et évidentes à annuler. La note de Tog : chaque action a besoin d'un chemin de retour. Sans annulation, chaque clic est un engagement, et la plupart des utilisateurs cessent de cliquer.",
   "Là où le système ne peut pas être plus rapide, faites-le paraître plus rapide. L'interface optimiste valide le changement avant la confirmation du réseau ; les écrans squelettes donnent à l'œil où se poser ; le son et l'animation accusent réception d'un clic avant l'arrivée de la réponse. La latence perçue est le levier du design.",
-  "La règle la plus importante de toutes. Enregistrez automatiquement en permanence, récupérez après les plantages, versionnez tout, n'écrasez jamais en silence. Tog : rien n'érode la confiance plus vite que de perdre le travail d'un utilisateur. Une fois que c'est arrivé, cet utilisateur enregistre compulsivement, pour toujours — ou cesse d'utiliser le produit.",
+  "La règle la plus importante de toutes. Enregistrez automatiquement en permanence, récupérez après les plantages, versionnez tout, n'écrasez jamais en silence. Rien n'érode la confiance plus vite que de perdre le travail d'un utilisateur. Une fois que c'est arrivé, cet utilisateur enregistre compulsivement, pour toujours — ou cesse d'utiliser le produit.",
   "Souvenez-vous d'où l'utilisateur s'est arrêté. Ouvrez le document qu'il éditait, faites défiler jusqu'à la ligne qu'il lisait, restaurez le filtre qu'il avait appliqué. La continuité entre sessions coûte peu à livrer et évite à l'utilisateur de reconstruire son espace de travail chaque matin.",
-  "L'utilisateur ne devrait jamais se demander « où suis-je, où puis-je aller, et comment revenir ? ». Une navigation visible, un fil d'Ariane et des états actifs clairs coûtent quelques pixels et se remboursent à chaque session. Tog appelait cela le principe le plus négligé du web design moderne.",
+  "L'utilisateur ne devrait jamais se demander « où suis-je, où puis-je aller, et comment revenir ? ». Une navigation visible, un fil d'Ariane et des états actifs clairs coûtent quelques pixels et se remboursent à chaque session. C'est l'un des principes les plus négligés du web design moderne.",
   "Le principe d'anticipation de Tog portait sur des actions suivantes choisies à la main. Les modèles le font de manière générative, par utilisateur, par instant. Bien fait, c'est ce que le logiciel a produit de plus proche du « semble intelligent ». Fait négligemment, c'est un flot constant de suppositions presque justes, et l'utilisateur se met à ignorer les suggestions.",
   "Les modèles sont intelligents, mais ils ne sont pas rapides. Une réponse qui prend quatre secondes viole tout ce que Tog a écrit sur la latence. Le streaming des tokens aide ; préchauffer le modèle aide ; les réponses squelettes aident. Sans cela, même une excellente réponse arrive avec la sensation d'un produit lent."
  ],

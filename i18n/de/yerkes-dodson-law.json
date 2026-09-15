@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> und <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> waren amerikanische Psychologen, deren Experimente von 1908 zeigten, dass Leistung mit der Erregung nur bis zu einem Punkt steigt — jenseits davon verschlechtert Druck die Leistung. Ihre umgekehrte U-Kurve trägt ihre Namen.",
-  "Ihre ursprünglichen Experimente von 1908 verwendeten Mäuse, Labyrinthe und milde Stromreize; die elegante umgekehrte U-Kurve, die heute in Lehrbüchern steht, war weitgehend eine spätere Vereinfachung. Yerkes entwickelte später die Army-Alpha-Intelligenztests im Ersten Weltkrieg und gründete das Primatenforschungslabor in Yale."
+  "Ihre ursprünglichen Experimente von 1908 verwendeten Mäuse, eine Diskriminationsbox und schwache bis starke Stromreize; die elegante umgekehrte U-Kurve, die heute in Lehrbüchern steht, war weitgehend eine spätere Vereinfachung. Yerkes entwickelte später die Army-Alpha-Intelligenztests im Ersten Weltkrieg und gründete das Primatenforschungslabor in Yale."
  ],
  ".law-content .law-desc": [
   "Etwas Druck ist gut. Zu wenig, und der Nutzer ist gelangweilt, driftet ab, übersieht Dinge. Zu viel, und er erstarrt, klickt den falschen Button, bricht den Ablauf ab. Der Gipfel liegt in der Mitte — und wo er sitzt, hängt von der Aufgabe ab."
@@ -50,7 +50,7 @@
   "Oder KI kann Sie von ihr stoßen"
  ],
  ".card .desc": [
-  "Die Leistung bei einer Aufgabe ist bei moderater Erregung am höchsten. Darunter lässt die Aufmerksamkeit nach; darüber verengt sie sich zu stark und entgleitet. Die Kurve wurde zuerst an Mäusen in Labyrinthen beobachtet; ein Jahrhundert später zeigt sie sich in User-Testing-Laboren genauso sauber wie damals.",
+  "Die Leistung bei einer Aufgabe ist bei moderater Erregung am höchsten. Darunter lässt die Aufmerksamkeit nach; darüber verengt sie sich zu stark und entgleitet. Die Kurve wurde zuerst an Mäusen bei einer Diskriminationsaufgabe beobachtet; ein Jahrhundert später zeigt sie sich in User-Testing-Laboren genauso sauber wie damals.",
   "Unten links auf der Kurve: Der Nutzer ist gelangweilt oder wenig engagiert. Freigabeseiten, Interaktionen zum fünften Mal im Monat, Bildschirme nach langem Auto-Play. Die Leistung sinkt, weil die Aufmerksamkeit sinkt. Die Lösung ist nicht mehr Reibung — sondern ein aktiver Grund, präsent zu sein.",
   "Oben rechts: Stress, Dringlichkeit, deadline-getriebener Druck. Der Nutzer erstarrt, verklickt sich, nimmt den sichtbaren Weg, selbst wenn er falsch ist. Banking-Fehlermeldungen, Buchungsänderungen mitten im Flug, „Ihre Karte wurde abgelehnt“ — alles wohnt hier. Die Lösung ist, den Einsatz zu senken, nicht mehr Dialoge hinzuzufügen.",
   "Eine zweite Erkenntnis aus Yerkes-Dodson: Das Optimum verschiebt sich bei schwereren Aufgaben nach links. Eine einfache Aufgabe — ein Klick, eine Zahl — verträgt Druck gut. Eine komplexe Aufgabe — ein Dokument prüfen, 30 Felder ausfüllen — braucht niedrigere Erregung, um gut zu gelingen. Drehen Sie die Dringlichkeit bei der schweren Aufgabe hoch, verlieren Sie den Nutzer am schnellsten.",

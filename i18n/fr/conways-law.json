@@ -6,7 +6,7 @@
   "Toute organisation qui conçoit un système produit un design qui <em>copie son organigramme</em>."
  ],
  "header .subtitle": [
-  "L'observation de Melvin Conway (1967) sur la programmation — et la règle la plus fiable pour prédire où un produit aura des coutures. Partout où l'équipe doit passer le relais, le produit le fait aussi."
+  "L'observation de Melvin Conway (1968) sur la programmation — et la règle la plus fiable pour prédire où un produit aura des coutures. Partout où l'équipe doit passer le relais, le produit le fait aussi."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> est un informaticien américain. Dans son article de 1968 How Do Committees Invent?, il a observé que les organisations produisent des designs qui copient leurs propres structures de communication — une observation que <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> a plus tard baptisée loi de Conway.",
@@ -84,7 +84,7 @@
   "À surveiller"
  ],
  ".meta .value": [
-  "Melvin Conway, 1967",
+  "Melvin Conway, 1968",
   "Programmation → partout",
   "Microservices ↔ équipes",
   "Scissions et fusions lentes",

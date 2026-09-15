@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> y <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> fueron psicólogos estadounidenses cuyos experimentos de 1908 demostraron que el rendimiento sube con la activación solo hasta un punto — más allá, la presión lo degrada. Su curva en U invertida lleva sus nombres.",
-  "Sus experimentos originales de 1908 usaron ratones, laberintos y descargas leves; la elegante curva en U invertida que hoy imprimen los libros de texto fue en gran parte una simplificación posterior. Yerkes pasó a desarrollar los tests de inteligencia Army Alpha en la Primera Guerra Mundial y a fundar el laboratorio de primates de Yale."
+  "Sus experimentos originales de 1908 usaron ratones, una caja de discriminación y descargas de leves a fuertes; la elegante curva en U invertida que hoy imprimen los libros de texto fue en gran parte una simplificación posterior. Yerkes pasó a desarrollar los tests de inteligencia Army Alpha en la Primera Guerra Mundial y a fundar el laboratorio de primates de Yale."
  ],
  ".law-content .law-desc": [
   "Algo de presión es buena. Con demasiado poca, el usuario se aburre, se dispersa, se le escapan cosas. Con demasiada, se paraliza, pulsa el botón equivocado, abandona el flujo. El pico está en el medio — y dónde se sitúa depende de la tarea."
@@ -50,7 +50,7 @@
   "O la IA puede empujarte fuera de ella"
  ],
  ".card .desc": [
-  "El rendimiento en una tarea es máximo con un nivel moderado de activación. Por debajo, la atención se desvanece; por encima, la atención se estrecha demasiado y falla. La curva se observó por primera vez en ratones recorriendo laberintos; un siglo después aparece en los laboratorios de pruebas con usuarios con la misma nitidez que entonces.",
+  "El rendimiento en una tarea es máximo con un nivel moderado de activación. Por debajo, la atención se desvanece; por encima, la atención se estrecha demasiado y falla. La curva se observó por primera vez en ratones aprendiendo una tarea de discriminación; un siglo después aparece en los laboratorios de pruebas con usuarios con la misma nitidez que entonces.",
   "En la parte inferior izquierda de la curva: el usuario está aburrido o poco implicado. Páginas de aprobación, interacciones que se repiten por quinta vez este mes, pantallas tras una larga reproducción automática. El rendimiento cae porque cae la atención. La solución no es más fricción — es una razón activa para estar presente.",
   "En la parte superior derecha: estrés, urgencia, presión de plazos. El usuario se paraliza, pulsa mal, toma el camino visible aunque sea el equivocado. Los mensajes de error bancarios, los cambios de reserva en pleno vuelo, el «su tarjeta ha sido rechazada» — todos viven aquí. La solución es bajar lo que está en juego, no añadir más diálogos.",
   "Una segunda idea de Yerkes-Dodson: el óptimo se desplaza a la izquierda en las tareas más difíciles. Una tarea simple — un clic, un número — tolera bien la presión. Una compleja — revisar un documento, rellenar 30 campos — necesita menos activación para hacerse bien. Sube la urgencia en la tarea difícil y es donde antes pierdes al usuario.",

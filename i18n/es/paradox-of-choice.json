@@ -13,7 +13,7 @@
   "Formado en NYU y la Universidad de Pensilvania, Schwartz pasó cuatro décadas enseñando psicología en Swarthmore. Su charla TED sobre la paradoja se convirtió en una de las más vistas de la historia, y su trabajo posterior exploró cómo los valores predeterminados, el satisficing y las elecciones 'suficientemente buenas' protegen a la gente de la fatiga de decisión."
  ],
  ".law-content .law-desc": [
-  "La ley de Hick te dice que una decisión se vuelve más lenta. La paradoja de la elección te dice que puede no llegar a ocurrir. Cuando un conjunto cruza un umbral (a menudo alrededor de una docena de elementos), los usuarios se sienten abrumados, lo posponen y convierten menos."
+  "La ley de Hick te dice que una decisión se vuelve más lenta. La paradoja de la elección te dice que puede no llegar a ocurrir. Cuando un conjunto cruza un umbral (el número varía según la tarea), los usuarios se sienten abrumados, lo posponen y convierten menos."
  ],
  ".law-meta .label": [
   "Acuñado por",
@@ -23,7 +23,7 @@
  ".law-meta .value": [
   "Barry Schwartz (2004)",
   "The Paradox of Choice",
-  "Limita las opciones a una docena; cura los predeterminados"
+  "Mantén los conjuntos pequeños; cura los predeterminados"
  ],
  ".card .tag": [
   "Estudio de campo",
@@ -52,7 +52,7 @@
   "El intercambio de confianza"
  ],
  ".card .desc": [
-  "El experimento de supermercado de Sheena Iyengar en el año 2000: un puesto de degustación con 24 mermeladas atrajo a más compradores, pero uno con solo 6 mermeladas vendió diez veces más. Más opciones atrajeron a la multitud; menos opciones cerraron la venta.",
+  "El experimento de supermercado de Sheena Iyengar en 1995, publicado en 2000: un puesto de degustación con 24 mermeladas atrajo a más compradores, pero uno con solo 6 mermeladas convirtió a diez veces más de los compradores que se detuvieron (30 % frente a 3 %). Más opciones atrajeron a la multitud; menos opciones cerraron la venta.",
   "Cuando el coste cognitivo de elegir supera el beneficio percibido, los usuarios posponen la decisión por completo. Cierran la pestaña, guardan el carrito para más tarde o eligen \"lo pensaré\" — y la mayoría nunca vuelve.",
   "Los usuarios que finalmente eligen de un conjunto grande quedan menos satisfechos que quienes eligieron de uno pequeño. Cada alternativa se convierte en un arrepentimiento hipotético — \"¿y si hubiera elegido la otra?\".",
   "La preselección editorial — \"nuestras 5 favoritas\" — convierte mejor que el catálogo completo. El usuario cambia la opcionalidad infinita por la confianza en tu criterio, y normalmente acepta.",

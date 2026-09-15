@@ -9,7 +9,7 @@
   "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, psychologue britannique, et <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, psychologue américain, ont montré indépendamment au début des années 1950 que le temps de réaction croît de façon logarithmique avec le nombre de choix — des travaux devenus la loi de Hick-Hyman.",
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, psychologue britannique, et <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, psychologue américain, ont montré au début des années 1950 — Hick en 1952, Hyman le prolongeant en 1953 — que le temps de réaction croît de façon logarithmique avec le nombre de choix — des travaux devenus la loi de Hick-Hyman.",
   "Hick a mené ses expériences à l'Applied Psychology Unit de Cambridge avec des manipulateurs télégraphiques et des lampes ; Hyman, à Johns Hopkins, a confirmé la relation logarithmique avec d'autres stimuli un an plus tard. Hyman est ensuite devenu un sceptique reconnu de la parapsychologie et un membre fondateur du CSICOP."
  ],
  ".law-content .law-desc": [
@@ -53,13 +53,13 @@
  ],
  ".card .desc": [
   "L'application la plus claire de la loi : un menu de 4 se parcourt plus vite qu'un menu de 12 — même si les 12 couvrent davantage de terrain. Retirez ce qui n'est pas essentiel et le reste devient plus rapide.",
-  "Une liste plate de 16 est un cauchemar au regard de la loi de Hick. Les mêmes 16 répartis en 4 groupes de 4 donnent deux décisions rapides d'affilée — un choix parmi 4, puis un autre choix parmi 4. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Une liste plate de 16 est un cauchemar au regard de la loi de Hick. Les mêmes 16 répartis en 4 groupes de 4 donnent deux décisions rapides d'affilée — un choix parmi 4, puis un autre choix parmi 4. Les logarithmes s’additionnent au même total ; le gain vient de ce que chaque choix est un balayage rapide de quatre éléments plutôt qu’une recherche parmi seize.",
   "Cachez les options avancées ou rarement utilisées derrière un déplieur. La plupart des utilisateurs ne voient que les 5 plus courantes ; les utilisateurs experts ouvrent l'ensemble complet quand ils en ont besoin. Même interface, deux arbres de décision différents.",
   "Un défaut bien choisi supprime entièrement la décision. Si 90 % des utilisateurs choisissent la même valeur, faites-en le défaut — ils sautent complètement le choix, et la loi ne s'applique plus.",
   "Pour un petit n, une liste plate est la plus rapide. Au-delà d'environ 7 éléments, une hiérarchie à 2 niveaux bat le défilement. Au-delà d'environ 50, la hiérarchie seule ne suffit plus — il faut la recherche.",
   "La navigation force chaque utilisateur à parcourir toute la courbe de Hick. La recherche la réduit à une seule décision : taper ce que l'on veut. Pour des catalogues de centaines d'éléments, un champ de recherche est le meilleur gain d'accessibilité que vous puissiez livrer.",
   "La loi de Hick suppose des choix équiprobables. En pratique, rendre les options visuellement distinctes (icône, couleur, taille) réduit l'espace de recherche — les utilisateurs écartent les mauvaises options avant même de les lire.",
-  "La loi de Hick s'applique une fois. La fatigue décisionnelle est le coût cumulé — chaque choix puise dans une réserve finie d'énergie mentale. Un assistant de 12 petites étapes est plus dur que ce que les calculs prédisent.",
+  "La loi de Hick s'applique une fois. La fatigue décisionnelle est le coût cumulé — chaque choix ajoute à l'effort de la session. Un assistant de 12 petites étapes est plus dur que ce que les calculs prédisent.",
   "La loi de Hick ne dit pas « montrez une seule option ». Trop peu de choix semble arbitraire ou contraignant. Le bon nombre est le plus petit ensemble qui couvre encore l'intention réelle de l'utilisateur — souvent 3 à 7 pour les actions principales.",
   "Au lieu de choisir parmi N options, l'utilisateur décrit ce qu'il veut. La loi de Hick est contournée — il y a un seul champ de saisie, pas une liste arborescente à parcourir.",
   "Les systèmes de recommandation et les agents réduisent l'ensemble des options à une seule action suggérée — supprimant entièrement la décision. Puissant quand c'est juste, frustrant quand c'est faux."

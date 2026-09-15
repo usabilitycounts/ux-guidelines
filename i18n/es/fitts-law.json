@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> fue un psicólogo experimental estadounidense y pionero de la ingeniería de factores humanos en la Fuerza Aérea de Estados Unidos. Su artículo de 1954 modeló el movimiento rápido dirigido como un equilibrio entre distancia y tamaño del objetivo — la base de la investigación sobre dispositivos de puntero.",
-  "Fitts dirigió la rama de psicología de la Fuerza Aérea estadounidense tras la Segunda Guerra Mundial, donde estudió por qué pilotos entrenados estrellaban aviones bien diseñados — fundando de paso los factores humanos en aviación. Su índice de dificultad sigue siendo el modelo estándar para evaluar dispositivos de puntero, del ratón a las pantallas táctiles."
+  "Fitts dirigió la rama de psicología de las Army Air Forces en Wright Field tras la Segunda Guerra Mundial, donde estudió por qué pilotos entrenados estrellaban aviones bien diseñados — fundando de paso los factores humanos en aviación. Su índice de dificultad sigue siendo el modelo estándar para evaluar dispositivos de puntero, del ratón a las pantallas táctiles."
  ],
  ".law-content .law-desc": [
   "El tiempo para apuntar a un objetivo crece con la distancia y se reduce con el tamaño del objetivo — de forma logarítmica. Duplica la distancia y el tiempo sube una constante. Duplica el ancho y el tiempo baja la misma constante."

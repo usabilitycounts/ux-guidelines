@@ -6,7 +6,7 @@
   "Environ <em>80 %</em> des effets proviennent de <em>20 %</em> des causes."
  ],
  "header .subtitle": [
-  "Vilfredo Pareto a remarqué en 1906 que 80 % des terres d'Italie appartenaient à 20 % de sa population. Le motif se répète dans le logiciel, le support, la performance et la stratégie produit — l'essentiel de la valeur vient d'une petite fraction de l'effort. Savoir lequel des 20 % : tout est là."
+  "Vilfredo Pareto a remarqué en 1896 que 80 % des terres d'Italie appartenaient à 20 % de sa population. Le motif se répète dans le logiciel, le support, la performance et la stratégie produit — l'essentiel de la valeur vient d'une petite fraction de l'effort. Savoir lequel des 20 % : tout est là."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> était un économiste et sociologue italien. En 1896, il a observé qu'environ 80 % des terres d'Italie appartenaient à 20 % de sa population ; le penseur du management <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> a ensuite généralisé le motif sous le nom de règle des 80/20 et l'a baptisé du nom de Pareto.",
@@ -54,7 +54,7 @@
   "L'équipe Office de Microsoft a fameusement constaté que la plupart des utilisateurs ne touchaient jamais la plupart des menus. La même forme revient dans presque chaque produit : un petit noyau de fonctionnalités porte l'essentiel de l'engagement, et le reste demeure inutilisé — parfois à dessein, souvent par accident.",
   "Quand tout semble important, le bon réflexe est généralement de déterminer quels 20 % du backlog produisent 80 % du résultat. MVP, feuilles de route et OKR trimestriels reposent tous sur le raisonnement de Pareto — choisir le petit ensemble de paris qui portera l'essentiel du résultat.",
   "Profilez n'importe quel système en production et vous trouvez presque toujours la même forme : une petite fraction du code (ou des requêtes, ou des ressources) est responsable de l'essentiel du temps. L'optimisation prématurée est gaspillée partout ailleurs — mais sur le chemin critique, le calcul rapporte massivement.",
-  "Joel Spolsky, Microsoft et d'innombrables équipes de support ont observé le même déséquilibre dans les plantages et les tickets. Une poignée de bugs cause la majorité de la misère visible par les utilisateurs ; le reste est en longue traîne. Triez par impact, pas par ordre d'arrivée.",
+  "Les données de plantage de Microsoft et d'innombrables files de support montrent le même déséquilibre dans les plantages et les tickets. Une poignée de bugs cause la majorité de la misère visible par les utilisateurs ; le reste est en longue traîne. Triez par impact, pas par ordre d'arrivée.",
   "La « longue traîne » de Chris Anderson est l'avertissement : agrégez suffisamment des 80 % inutilisés et vous trouvez parfois un marché plus grand que la tête. Amazon et Spotify ont tous deux bâti des entreprises dessus. Pareto vous dit où concentrer d'abord, pas quels marchés abandonner.",
   "Une lecture naïve de Pareto est « coupez les 80 % que personne n'utilise ». Mais les fonctionnalités inutilisées servent souvent quelques utilisateurs critiques — accessibilité, comptables, admins, astreinte. Avant de couper, segmentez par qui, pas seulement par combien. Les 20 % de fonctionnalités dont dépendent les 5 % les plus discrets sont généralement porteurs.",
   "Le principe est surtout utile comme habitude. Avant toute revue, demandez : quels 20 % des utilisateurs, écrans, tâches ou erreurs portent 80 % du poids ici ? Cela répond rarement à toute la question — mais cela réordonne presque toujours le travail d'une façon qui paie.",
@@ -94,9 +94,9 @@
   "Toujours"
  ],
  ".meta .value": [
-  "1906",
+  "1896",
   "Terres italiennes · cosses de pois",
-  "Par Juran, années 1940",
+  "Par Juran, 1941–51",
   "Usage des fonctionnalités en longue traîne",
   "Peaufiner d'abord les 20 %",
   "Couper une longue traîne nécessaire",

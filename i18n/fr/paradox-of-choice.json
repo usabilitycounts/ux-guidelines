@@ -13,7 +13,7 @@
   "Formé à NYU et à l'université de Pennsylvanie, Schwartz a enseigné la psychologie pendant quatre décennies à Swarthmore. Sa conférence TED sur le paradoxe est devenue l'une des plus regardées de tous les temps, et ses travaux ultérieurs ont exploré comment les défauts, le satisficing et les choix « suffisamment bons » protègent les gens de la fatigue décisionnelle."
  ],
  ".law-content .law-desc": [
-  "La loi de Hick vous dit qu'une décision devient plus lente. Le paradoxe du choix vous dit qu'elle peut ne pas avoir lieu du tout. Une fois qu'un ensemble franchit un seuil (souvent autour d'une douzaine d'éléments), les utilisateurs se sentent dépassés, remettent à plus tard et convertissent moins."
+  "La loi de Hick vous dit qu'une décision devient plus lente. Le paradoxe du choix vous dit qu'elle peut ne pas avoir lieu du tout. Une fois qu'un ensemble franchit un seuil (le nombre varie selon la tâche), les utilisateurs se sentent dépassés, remettent à plus tard et convertissent moins."
  ],
  ".law-meta .label": [
   "Formulé par",
@@ -23,7 +23,7 @@
  ".law-meta .value": [
   "Barry Schwartz (2004)",
   "The Paradox of Choice",
-  "Plafonner les choix vers la douzaine ; soigner les défauts"
+  "Garder les ensembles réduits ; soigner les défauts"
  ],
  ".card .tag": [
   "Étude de terrain",
@@ -52,7 +52,7 @@
   "L'échange contre la confiance"
  ],
  ".card .desc": [
-  "L'expérience de supermarché de Sheena Iyengar en 2000 : un stand de dégustation de 24 confitures attirait plus de clients, mais un stand de seulement 6 confitures vendait dix fois plus. Plus de choix attirait la foule ; moins de choix concluait la vente.",
+  "L'expérience de supermarché de Sheena Iyengar en 1995, publiée en 2000 : un stand de dégustation de 24 confitures attirait plus de clients, mais un stand de seulement 6 confitures convertissait dix fois plus des clients qui s'arrêtaient (30 % contre 3 %). Plus de choix attirait la foule ; moins de choix concluait la vente.",
   "Quand le coût cognitif du choix dépasse le bénéfice perçu, les utilisateurs reportent entièrement la décision. Ils ferment l'onglet, gardent le panier pour plus tard ou choisissent « je vais y réfléchir » — et la plupart ne reviennent jamais.",
   "Les utilisateurs qui finissent par choisir dans un grand ensemble sont moins satisfaits que ceux qui ont choisi dans un petit. Chaque alternative devient un regret hypothétique — « et si j'avais pris l'autre ? »",
   "La présélection éditoriale — « nos 5 favoris » — convertit mieux que le catalogue complet. L'utilisateur échange l'optionalité infinie contre la confiance en votre goût, et l'accepte généralement.",

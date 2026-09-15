@@ -9,7 +9,7 @@
   "Je mehr Auswahl Sie anbieten, desto länger dauert jede Entscheidung. Das Hicksche Gesetz prägt Menüs, Einstellungen und Onboarding — und die Techniken, die es umgehen."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, ein britischer Psychologe, und <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, ein amerikanischer Psychologe, zeigten Anfang der 1950er Jahre unabhängig voneinander, dass die Reaktionszeit logarithmisch mit der Zahl der Wahlmöglichkeiten wächst — Arbeiten, aus denen das Hick-Hyman-Gesetz wurde.",
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, ein britischer Psychologe, und <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, ein amerikanischer Psychologe, zeigten Anfang der 1950er Jahre — Hick 1952, Hyman 1953 darauf aufbauend —, dass die Reaktionszeit logarithmisch mit der Zahl der Wahlmöglichkeiten wächst — Arbeiten, aus denen das Hick-Hyman-Gesetz wurde.",
   "Hick führte seine Experimente an der Applied Psychology Unit in Cambridge mit Telegrafentasten und Lampen durch; Hyman bestätigte ein Jahr später an der Johns Hopkins University die logarithmische Beziehung mit anderen Reizen. Hyman wurde später ein bekannter Skeptiker der Parapsychologie und Gründungsmitglied des CSICOP."
  ],
  ".law-content .law-desc": [
@@ -53,13 +53,13 @@
  ],
  ".card .desc": [
   "Die klarste Einzelanwendung des Gesetzes: Ein Menü mit 4 Einträgen ist schneller zu bedienen als eines mit 12 — auch wenn die 12 mehr abdecken. Streichen Sie das Unwesentliche, und der Rest wird schneller.",
-  "Eine flache Liste mit 16 Einträgen ist ein Albtraum nach dem Hickschen Gesetz. Dieselben 16, aufgeteilt in 4 Gruppen zu je 4, sind zwei schnelle Entscheidungen hintereinander — eine 4er-Wahl, dann noch eine. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Eine flache Liste mit 16 Einträgen ist ein Albtraum nach dem Hickschen Gesetz. Dieselben 16, aufgeteilt in 4 Gruppen zu je 4, sind zwei schnelle Entscheidungen hintereinander — eine 4er-Wahl, dann noch eine. Die Logarithmen ergeben dieselbe Summe; der Gewinn liegt darin, dass jede Wahl ein kurzer Blick über vier Einträge ist statt einer Suche in sechzehn.",
   "Verbergen Sie fortgeschrittene oder selten genutzte Optionen hinter einem Aufklapper. Die meisten Nutzer sehen nur die üblichen 5; Power-User öffnen bei Bedarf das volle Set. Gleiche UI, zwei verschiedene Entscheidungsbäume.",
   "Ein gut gewählter Standardwert beseitigt die Entscheidung ganz. Wenn 90 % der Nutzer denselben Wert wählen, machen Sie ihn zum Standard — sie überspringen die Wahl komplett, und das Gesetz greift nicht mehr.",
   "Bei kleinem n ist eine flache Liste am schnellsten. Ab etwa 7 Einträgen schlägt eine zweistufige Hierarchie das Scrollen. Ab etwa 50 reicht Hierarchie allein nicht mehr — Sie brauchen eine Suche.",
   "Stöbern zwingt jeden Nutzer durch die volle Hick-Kurve. Suche kollabiert sie auf eine Entscheidung: Tippen Sie, was Sie wollen. Für Kataloge mit Hunderten Einträgen ist ein Suchfeld der größte Gewinn an Zugänglichkeit, den Sie liefern können.",
   "Das Hicksche Gesetz nimmt gleich wahrscheinliche Optionen an. In der Praxis verkleinert visuelle Unterscheidung (Icon, Farbe, Größe) den Suchraum — Nutzer verwerfen falsche Optionen, bevor sie sie lesen.",
-  "Das Hicksche Gesetz gilt pro Entscheidung. Entscheidungsmüdigkeit ist der kumulative Preis — jede Wahl zehrt an einem endlichen Vorrat mentaler Energie. Ein Assistent mit 12 kurzen Schritten ist härter, als die Mathematik vorhersagt.",
+  "Das Hicksche Gesetz gilt pro Entscheidung. Entscheidungsmüdigkeit ist der kumulative Preis — jede Wahl erhöht den Aufwand der Sitzung. Ein Assistent mit 12 kurzen Schritten ist härter, als die Mathematik vorhersagt.",
   "Das Hicksche Gesetz sagt nicht \"zeige eine Option\". Zu wenig Auswahl wirkt willkürlich oder einengend. Die richtige Zahl ist das kleinste Set, das die echte Absicht der Nutzer noch abdeckt — oft 3 bis 7 für primäre Aktionen.",
   "Statt aus N Optionen zu wählen, beschreibt der Nutzer, was er will. Das Hicksche Gesetz wird umgangen — es gibt ein einziges Eingabefeld, keine verzweigte Liste zum Absuchen.",
   "Empfehlungssysteme und Agenten kollabieren die Optionsmenge zu einer einzigen vorgeschlagenen Aktion — die Entscheidung entfällt ganz. Mächtig, wenn sie stimmt, frustrierend, wenn nicht."

@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> is an American cognitive scientist who directed the Institute for Cognitive Science at UC San Diego, served as an Apple Fellow — where he coined the title ‘user experience architect’ — and co-founded Nielsen Norman Group.",
-  "The Design of Everyday Things (1988, originally The Psychology of Everyday Things) gave design its core vocabulary: affordances, signifiers, mapping, feedback, and conceptual models. Its examples of confusing doors made ‘Norman door’ a term of art."
+  "The Design of Everyday Things (1988, originally The Psychology of Everyday Things) gave design its core vocabulary: affordances, mapping, feedback, constraints, and conceptual models. Its examples of confusing doors made ‘Norman door’ a term of art."
  ],
  ".law-content .law-desc": [
   "Good design makes possible actions visible, maps controls to effects, and reports what happened. When users fail, the fault usually lies in the design’s communication — not in the user."
@@ -106,7 +106,7 @@
   "Show that it happened",
   "Visual · auditory · haptic",
   "Double-clicking · double-charging",
-  "Physical · logical · cultural",
+  "Physical · semantic · cultural · logical",
   "Errors prevented quietly",
   "Over-constraint = frustration",
   "User’s simplified picture",

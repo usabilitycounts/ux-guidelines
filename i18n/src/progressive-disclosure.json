@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "The technique was studied at IBM in the early 1980s, where <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a>’s training-wheels interface cut novice errors by hiding advanced functions until users were ready for them.",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> named and popularized the pattern for interface design, calling progressive disclosure one of the best ways to satisfy both novice and expert users with a single interface."
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> popularized the pattern for interface design, calling progressive disclosure one of the best ways to satisfy both novice and expert users with a single interface."
  ],
  ".law-content .law-desc": [
   "Show users only what they need for the current task, and provide a clearly labeled path to the rest. Primary options stay immediate; advanced, rare, or dangerous options sit one deliberate step away — present, but not in the way."
  ],
  ".law-meta .label": [
-  "Coined by",
+  "Origin",
   "Source",
   "In practice"
  ],

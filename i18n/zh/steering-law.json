@@ -9,7 +9,7 @@
   "约翰尼·阿科特和翟树民将菲茨定律扩展到受约束路径上的移动：时间随通道的长度增长，随其宽度缩短。它支配着嵌套菜单、滑块和每一次拖拽。"
  ],
  ".law-origin .body-text": [
-  "约翰尼·阿科特和<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">翟树民</a>于1997年在IBM Almaden研究输入技术时推导出转向定律。菲茨建模的是命中目标，他们建模的是穿行路径——并发现了同一权衡的一个优雅的积分形式。",
+  "约翰尼·阿科特和<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">翟树民</a>于1997年推导出转向定律——当时阿科特是图卢兹 CENA 的博士生，翟树民在 IBM Almaden。菲茨建模的是命中目标，他们建模的是穿行路径——并发现了同一权衡的一个优雅的积分形式。",
   "翟树民后来在谷歌塑造了现代文本输入，他的工作支撑着数十亿键盘上的滑行输入。转向定律至今仍是少数几个精确到能在原型存在之前预测交互时间的HCI模型之一。"
  ],
  ".law-content .law-desc": [

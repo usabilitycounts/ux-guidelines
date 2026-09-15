@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> war ein amerikanischer Experimentalpsychologe und Pionier des Human-Factors-Engineering bei der U.S. Air Force. Sein Paper von 1954 modellierte schnelle Zielbewegungen als Abwägung zwischen Distanz und Zielgröße — das Fundament der Zeigegeräte-Forschung.",
-  "Fitts leitete nach dem Zweiten Weltkrieg die Psychologie-Abteilung der U.S. Air Force, wo er untersuchte, warum ausgebildete Piloten gut konstruierte Flugzeuge abstürzen ließen — und nebenbei die Human Factors der Luftfahrt begründete. Sein Schwierigkeitsindex bleibt das Standardmodell zur Bewertung von Zeigegeräten, von Mäusen bis Touchscreens."
+  "Fitts leitete nach dem Zweiten Weltkrieg die Psychologie-Abteilung der Army Air Forces in Wright Field, wo er untersuchte, warum ausgebildete Piloten gut konstruierte Flugzeuge abstürzen ließen — und nebenbei die Human Factors der Luftfahrt begründete. Sein Schwierigkeitsindex bleibt das Standardmodell zur Bewertung von Zeigegeräten, von Mäusen bis Touchscreens."
  ],
  ".law-content .law-desc": [
   "Die Zeit, ein Ziel anzusteuern, wächst mit der Distanz und schrumpft mit der Zielgröße — logarithmisch. Wird die Distanz verdoppelt, steigt die Zeit um eine Konstante. Wird die Breite verdoppelt, sinkt sie um dieselbe Konstante."

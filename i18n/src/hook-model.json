@@ -6,7 +6,7 @@
   "Trigger · Action · Variable Reward · <em>Investment</em>."
  ],
  "header .subtitle": [
-  "Nir Eyal’s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The follow-up book draws the line between hooks the user is glad you built and hooks they regret."
+  "Nir Eyal’s 2014 framework for building habit-forming products. Four phases the user runs through, repeatedly, until the product becomes a reflex. The book also draws the line between hooks the user is glad you built and hooks they regret."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Nir_Eyal\" target=\"_blank\" rel=\"noopener\">Nir Eyal</a> is an author and lecturer on behavioral design who taught at Stanford’s Graduate School of Business. His 2014 book Hooked distilled habit-forming products into a four-step loop: trigger, action, variable reward, and investment.",
@@ -56,7 +56,7 @@
   "The action has to be smaller than the motivation. Open the app, pull down, tap, type one word. Anything above the friction line breaks the loop. Stories, swipes, double-taps, infinite scroll — all engineered to lower action cost below whatever the trigger could supply.",
   "The third step is the addictive one. If every refresh gave the same content, the loop would die. The reward is variable: usually meh, occasionally great. Slot machines, Twitter feeds, dating apps, and inboxes all share this shape. The unpredictability is the engine.",
   "The fourth step is what builds the next trigger. Posting, following, customizing, uploading, rating, friending — all are user investment that loads value into the product. The more the user has invested, the more the product becomes irreplaceable. Switch cost compounds with each turn.",
-  "Eyal’s follow-up book is Indistractable — he draws a sharp line between hooks for things users will be glad they did (Duolingo, language learning) and hooks for things they regret (slot apps, doom-scrolling). The model itself is neutral; the test is whether the user would thank you for the loop in a calm moment.",
+  "In Hooked’s chapter on the ethics of manipulation, Eyal draws a sharp line between hooks for things users will be glad they did (Duolingo, language learning) and hooks for things they regret (slot apps, doom-scrolling). The model itself is neutral; the test is whether the user would thank you for the loop in a calm moment.",
   "Walk through the four steps for a feature: trigger, action, reward, investment. If any step is weak, the loop will not catch — the user touches the product once and forgets. If every step is engineered for the user’s regret, you built a slot machine and should fix it.",
   "A model can pick the right trigger for this user at this moment, generate the action smaller, vary the reward better, and frame the investment more cleverly. The Hook Model used to be one tuned loop; now it is millions, each tuned to one person. Done with intent: phenomenal. Done without: slot machines at scale.",
   "When the loop is tuned for one person, the user cannot see the version other people get; they cannot tell whether their loop was tuned for retention or for them. Transparency, opt-out, and “show me what is set for me” become moral requirements, not features."

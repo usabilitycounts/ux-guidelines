@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> est un chercheur américain en sciences cognitives qui a dirigé l'Institute for Cognitive Science à UC San Diego, a été Apple Fellow — où il a inventé le titre de « user experience architect » — et a cofondé le Nielsen Norman Group.",
-  "The Design of Everyday Things (1988, initialement The Psychology of Everyday Things) a donné au design son vocabulaire de base : affordances, signifiants, correspondance, retour d'information et modèles conceptuels. Ses exemples de portes déroutantes ont fait de « porte de Norman » une expression consacrée."
+  "The Design of Everyday Things (1988, initialement The Psychology of Everyday Things) a donné au design son vocabulaire de base : affordances, correspondance, retour d'information, contraintes et modèles conceptuels. Ses exemples de portes déroutantes ont fait de « porte de Norman » une expression consacrée."
  ],
  ".law-content .law-desc": [
   "Un bon design rend les actions possibles visibles, fait correspondre les commandes à leurs effets et signale ce qui s'est passé. Quand les utilisateurs échouent, la faute revient généralement à la communication du design — pas à l'utilisateur."
@@ -106,7 +106,7 @@
   "Montrer que c'est arrivé",
   "Visuel · auditif · haptique",
   "Double-clics · double facturation",
-  "Physiques · logiques · culturelles",
+  "Physiques · sémantiques · culturelles · logiques",
   "Erreurs prévenues en silence",
   "Sur-contrainte = frustration",
   "L'image simplifiée de l'utilisateur",

@@ -6,7 +6,7 @@
   "任何设计系统的组织，其产出的设计都会<em>复制组织架构图</em>。"
  ],
  "header .subtitle": [
-  "梅尔文·康威1967年对编程的观察——预测产品会在哪里出现接缝的最可靠规则。团队需要交接的地方，产品也会有接缝。"
+  "梅尔文·康威1968年对编程的观察——预测产品会在哪里出现接缝的最可靠规则。团队需要交接的地方，产品也会有接缝。"
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">梅尔文·康威</a>是美国计算机科学家。他在1968年的论文 How Do Committees Invent? 中观察到，组织产出的设计会复制其自身的沟通结构——<a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">弗雷德·布鲁克斯</a>后来将这一观察命名为康威定律。",
@@ -84,7 +84,7 @@
   "注意事项"
  ],
  ".meta .value": [
-  "梅尔文·康威，1967",
+  "梅尔文·康威，1968",
   "编程 → 无处不在",
   "微服务 ↔ 团队",
   "拆分与合并都慢",

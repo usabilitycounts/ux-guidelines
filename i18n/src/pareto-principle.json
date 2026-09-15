@@ -6,7 +6,7 @@
   "Roughly <em>80 percent</em> of the effects come from <em>20 percent</em> of the causes."
  ],
  "header .subtitle": [
-  "Vilfredo Pareto noticed in 1906 that 80% of Italy’s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game."
+  "Vilfredo Pareto noticed in 1896 that 80% of Italy’s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> was an Italian economist and sociologist. In 1896 he observed that roughly 80% of Italy’s land belonged to 20% of its people; management thinker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> later generalized the pattern as the 80/20 rule and named it for Pareto.",
@@ -54,7 +54,7 @@
   "Microsoft’s Office team famously found that most users never touched most of the menus. The same shape recurs in nearly every product: a small core of features carries most of the engagement, and the rest sits unused — sometimes purposefully, often accidentally.",
   "When everything looks important, the right move is usually to figure out which 20% of the backlog drives 80% of the outcome. MVP, roadmaps, and quarterly OKRs all rely on Pareto reasoning — picking the small set of bets that will carry most of the result.",
   "Profile any production system and you almost always find the same shape: a small fraction of the code (or queries, or assets) is responsible for most of the time. Premature optimization is wasted everywhere else — but on the hot path, the math pays back massively.",
-  "<a href=\"people.html#p-joel-spolsky\">Joel Spolsky</a>, Microsoft, and countless support teams have observed the same lopsidedness in crashes and tickets. A handful of bugs cause the majority of the user-visible misery; the rest are long-tail. Triage by impact, not by submission order.",
+  "Microsoft’s crash data and countless support queues show the same lopsidedness in crashes and tickets. A handful of bugs cause the majority of the user-visible misery; the rest are long-tail. Triage by impact, not by submission order.",
   "<a href=\"people.html#p-chris-anderson\">Chris Anderson</a>’s “long tail” is the warning: aggregate enough of the unused 80% and you sometimes find a market larger than the head. Amazon and Spotify both built businesses on it. Pareto tells you where to focus first, not which markets to abandon.",
   "A naïve read of Pareto is “cut the 80% no one uses.” But unused features often serve a few critical users — accessibility, accountants, admins, oncall. Before cutting, segment by who, not just by how many. The 20% of features the bottom 5% relies on is usually load-bearing.",
   "The principle is most useful as a habit. Before any review, ask: which 20% of users, screens, tasks, or errors carries 80% of the weight here? It rarely answers the whole question — but it almost always reorders the work in a way that pays off.",
@@ -94,9 +94,9 @@
   "Always"
  ],
  ".meta .value": [
-  "1906",
+  "1896",
   "Italian land · pea pods",
-  "By Juran, 1940s",
+  "By Juran, 1941–51",
   "Long-tail feature use",
   "Polish the 20% first",
   "Cutting needed long tail",

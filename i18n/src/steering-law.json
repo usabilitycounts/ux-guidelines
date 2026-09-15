@@ -9,7 +9,7 @@
   "Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag."
  ],
  ".law-origin .body-text": [
-  "Johnny Accot and <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derived the steering law in 1997 while researching input at IBM Almaden. Where Fitts modeled hitting a target, they modeled traveling a path — and found an elegant integral form of the same trade-off.",
+  "Johnny Accot and <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derived the steering law in 1997 — Accot then a doctoral student at CENA in Toulouse, Zhai at IBM Almaden. Where Fitts modeled hitting a target, they modeled traveling a path — and found an elegant integral form of the same trade-off.",
   "Zhai went on to shape modern text input at Google, where his work underlies gesture typing on billions of keyboards. The steering law remains one of the few HCI models precise enough to predict interaction times before a prototype exists."
  ],
  ".law-content .law-desc": [

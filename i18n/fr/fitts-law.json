@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> était un psychologue expérimental américain et un pionnier de l'ingénierie des facteurs humains au sein de l'U.S. Air Force. Son article de 1954 a modélisé le mouvement rapide visé comme un compromis entre distance et taille de la cible — le fondement de la recherche sur les dispositifs de pointage.",
-  "Fitts a dirigé la branche psychologie de l'U.S. Air Force après la Seconde Guerre mondiale, où il a étudié pourquoi des pilotes entraînés écrasaient des avions bien conçus — fondant au passage les facteurs humains en aviation. Son indice de difficulté reste le modèle standard pour évaluer les dispositifs de pointage, de la souris aux écrans tactiles."
+  "Fitts a dirigé la branche psychologie des Army Air Forces à Wright Field après la Seconde Guerre mondiale, où il a étudié pourquoi des pilotes entraînés écrasaient des avions bien conçus — fondant au passage les facteurs humains en aviation. Son indice de difficulté reste le modèle standard pour évaluer les dispositifs de pointage, de la souris aux écrans tactiles."
  ],
  ".law-content .law-desc": [
   "Le temps pour pointer une cible croît avec la distance et diminue avec la taille de la cible — de façon logarithmique. Doublez la distance, et le temps augmente d'une constante. Doublez la largeur, et le temps diminue de la même constante."

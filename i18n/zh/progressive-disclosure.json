@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "这一技术于1980年代初在IBM得到研究，<a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">杰克·卡罗尔</a>的“辅助轮”界面通过在用户准备好之前隐藏高级功能，显著减少了新手的错误。",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">雅各布·尼尔森</a>为界面设计命名并普及了这一模式，称渐进式披露是用单一界面同时满足新手和专家用户的最佳方式之一。"
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">雅各布·尼尔森</a>为界面设计普及了这一模式，称渐进式披露是用单一界面同时满足新手和专家用户的最佳方式之一。"
  ],
  ".law-content .law-desc": [
   "只向用户展示当前任务所需的内容，并为其余部分提供一条标注清晰的路径。主要选项保持触手可及；高级、罕用或危险的选项放在一步有意的操作之外——存在，但不碍事。"
  ],
  ".law-meta .label": [
-  "提出者",
+  "起源",
   "来源",
   "实践中"
  ],

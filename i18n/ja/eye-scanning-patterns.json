@@ -9,7 +9,7 @@
   "数十年のアイトラッキング研究が示すのは、人はインターフェースを読まず、予測可能な形で走査するということ。ここでは6つのパターンと、それぞれが現れる場面を紹介する。"
  ],
  ".law-origin .body-text": [
-  "視線走査パターンは、1998年に<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">ヤコブ・ニールセン</a>と<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">ドナルド・ノーマン</a>が設立したコンサルティング会社Nielsen Norman Groupによる、20年にわたるアイトラッキング研究から生まれた。数百人のユーザーが数千ページを読む記録に基づいた2006年のFパターン研究は、Webユーザビリティで最も引用される知見のひとつとなった。",
+  "視線走査パターンは、1998年に<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">ヤコブ・ニールセン</a>と<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">ドナルド・ノーマン</a>が設立したコンサルティング会社Nielsen Norman Groupによる、20年にわたるアイトラッキング研究から主に生まれた（Zパターンはアイトラッキングの知見ではなくデザイナーの経験則である）。数百人のユーザーが数千ページを読む記録に基づいた2006年のFパターン研究は、Webユーザビリティで最も引用される知見のひとつとなった。",
   "その後の研究が全体像を広げた。F字型は、ページがそれ以上の構造を与えてくれないときに人々が頼る形である。強い見出し、要点を先頭に置いたコピー、明快な視覚的階層は、怠惰な走査を目的ある読みへと置き換える。"
  ],
  ".law-content .law-desc": [

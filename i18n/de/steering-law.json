@@ -9,7 +9,7 @@
   "Johnny Accot und Shumin Zhai erweiterten Fitts' Gesetz auf Bewegung entlang eines begrenzten Pfades: Die Zeit wächst mit der Länge des Tunnels und schrumpft mit seiner Breite. Es bestimmt verschachtelte Menüs, Slider und jedes Ziehen."
  ],
  ".law-origin .body-text": [
-  "Johnny Accot und <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> leiteten das Steering-Gesetz 1997 bei ihrer Eingabeforschung am IBM Almaden Research Center her. Wo Fitts das Treffen eines Ziels modellierte, modellierten sie das Durchqueren eines Pfades — und fanden eine elegante Integralform desselben Zielkonflikts.",
+  "Johnny Accot und <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> leiteten das Steering-Gesetz 1997 her — Accot damals Doktorand am CENA in Toulouse, Zhai am IBM Almaden Research Center. Wo Fitts das Treffen eines Ziels modellierte, modellierten sie das Durchqueren eines Pfades — und fanden eine elegante Integralform desselben Zielkonflikts.",
   "Zhai prägte später die moderne Texteingabe bei Google, wo seine Arbeit dem Gestentippen auf Milliarden von Tastaturen zugrunde liegt. Das Steering-Gesetz bleibt eines der wenigen HCI-Modelle, die präzise genug sind, um Interaktionszeiten vorherzusagen, bevor ein Prototyp existiert."
  ],
  ".law-content .law-desc": [

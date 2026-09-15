@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Paul_Fitts\" target=\"_blank\" rel=\"noopener\">Paul Fitts</a> was an American experimental psychologist and a pioneer of human-factors engineering with the U.S. Air Force. His 1954 paper modeled rapid aimed movement as a tradeoff between distance and target size — the foundation of pointing-device research.",
-  "Fitts directed the U.S. Air Force’s psychology branch after World War II, where he studied why trained pilots crashed well-designed planes — founding aviation human factors along the way. His index of difficulty remains the standard model for evaluating pointing devices, from mice to touchscreens."
+  "Fitts directed the Army Air Forces’ psychology branch at Wright Field after World War II, where he studied why trained pilots crashed well-designed planes — founding aviation human factors along the way. His index of difficulty remains the standard model for evaluating pointing devices, from mice to touchscreens."
  ],
  ".law-content .law-desc": [
   "The time to point at a target grows with distance and shrinks with target size — logarithmically. Double the distance, and time goes up by a constant. Double the width, and time falls by the same constant."

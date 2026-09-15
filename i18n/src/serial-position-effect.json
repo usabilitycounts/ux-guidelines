@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, the German psychologist who founded the experimental study of memory, documented the serial position effect in the 1880s — memorizing thousands of nonsense syllables on himself and plotting where recall failed.",
-  "His curves showed recall highest at the start of a list (primacy — items get rehearsed into long-term memory) and at the end (recency — items still sit in working memory), with a sag in the middle. The same experiments produced the forgetting curve and the spacing effect."
+  "His curves showed recall highest at the start of a list (primacy) and at the end (recency), with a sag in the middle; the explanations — early items rehearsed into long-term memory, late items still in working memory — came from 1960s research. The same experiments produced the forgetting curve and the spacing effect."
  ],
  ".law-content .law-desc": [
   "When people recall a series, performance forms a U: the first items benefit from rehearsal into long-term memory, the last from still being in working memory, and the middle items lose both advantages. In interfaces, position is a memory decision."

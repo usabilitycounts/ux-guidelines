@@ -9,7 +9,7 @@
   "Johnny Accot y Shumin Zhai extendieron la ley de Fitts al movimiento a lo largo de un camino restringido: el tiempo crece con la longitud del túnel y se reduce con su anchura. Gobierna los menús anidados, los deslizadores y cada arrastre."
  ],
  ".law-origin .body-text": [
-  "Johnny Accot y <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derivaron la ley de conducción en 1997 mientras investigaban métodos de entrada en IBM Almaden. Donde Fitts modeló alcanzar un objetivo, ellos modelaron recorrer un camino — y encontraron una elegante forma integral del mismo compromiso.",
+  "Johnny Accot y <a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a> derivaron la ley de conducción en 1997 — Accot entonces doctorando en el CENA de Toulouse, Zhai en IBM Almaden. Donde Fitts modeló alcanzar un objetivo, ellos modelaron recorrer un camino — y encontraron una elegante forma integral del mismo compromiso.",
   "Zhai pasó a dar forma a la escritura moderna en Google, donde su trabajo sustenta la escritura gestual en miles de millones de teclados. La ley de conducción sigue siendo uno de los pocos modelos de HCI lo bastante precisos para predecir tiempos de interacción antes de que exista un prototipo."
  ],
  ".law-content .law-desc": [

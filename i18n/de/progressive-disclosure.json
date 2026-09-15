@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "Die Technik wurde Anfang der 1980er bei IBM untersucht, wo <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a>s Training-Wheels-Interface die Fehler von Neulingen senkte, indem es fortgeschrittene Funktionen verbarg, bis die Nutzer bereit dafür waren.",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> benannte und popularisierte das Muster für das Interface-Design und nannte progressive Offenlegung einen der besten Wege, mit einem einzigen Interface sowohl Neulinge als auch Experten zufriedenzustellen."
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> popularisierte das Muster für das Interface-Design und nannte progressive Offenlegung einen der besten Wege, mit einem einzigen Interface sowohl Neulinge als auch Experten zufriedenzustellen."
  ],
  ".law-content .law-desc": [
   "Zeigen Sie Nutzern nur, was sie für die aktuelle Aufgabe brauchen, und bieten Sie einen klar beschrifteten Weg zum Rest. Primäre Optionen bleiben unmittelbar erreichbar; fortgeschrittene, seltene oder gefährliche Optionen liegen einen bewussten Schritt entfernt — vorhanden, aber nicht im Weg."
  ],
  ".law-meta .label": [
-  "Geprägt von",
+  "Ursprung",
   "Quelle",
   "In der Praxis"
  ],

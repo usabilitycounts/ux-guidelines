@@ -6,7 +6,7 @@
   "Jede Organisation, die ein System entwirft, erzeugt ein Design, das <em>ihr Organigramm kopiert</em>."
  ],
  "header .subtitle": [
-  "Melvin Conways Beobachtung von 1967 über das Programmieren — und die zuverlässigste Regel, um vorherzusagen, wo ein Produkt Nähte haben wird. Wo immer das Team Arbeit übergeben muss, tut es das Produkt auch."
+  "Melvin Conways Beobachtung von 1968 über das Programmieren — und die zuverlässigste Regel, um vorherzusagen, wo ein Produkt Nähte haben wird. Wo immer das Team Arbeit übergeben muss, tut es das Produkt auch."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> ist ein amerikanischer Informatiker. In seinem Paper How Do Committees Invent? von 1968 beobachtete er, dass Organisationen Designs erzeugen, die ihre eigenen Kommunikationsstrukturen kopieren — eine Beobachtung, die <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> später Conways Gesetz nannte.",
@@ -84,7 +84,7 @@
   "Achtung"
  ],
  ".meta .value": [
-  "Melvin Conway, 1967",
+  "Melvin Conway, 1968",
   "Programmierung → überall",
   "Microservices ↔ Teams",
   "Teilen und Verschmelzen sind langsam",

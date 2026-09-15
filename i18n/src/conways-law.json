@@ -6,7 +6,7 @@
   "Any organization that designs a system produces a design that <em>copies the org chart</em>."
  ],
  "header .subtitle": [
-  "Melvin Conway’s 1967 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too."
+  "Melvin Conway’s 1968 observation about programming — and the most reliable rule for predicting where a product will have seams. Wherever the team has to hand work off, the product does too."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Melvin_Conway\" target=\"_blank\" rel=\"noopener\">Melvin Conway</a> is an American computer scientist. In his 1968 paper How Do Committees Invent? he observed that organizations produce designs that copy their own communication structures — an observation <a href=\"https://en.wikipedia.org/wiki/Fred_Brooks\" target=\"_blank\" rel=\"noopener\">Fred Brooks</a> later named Conway’s Law.",
@@ -84,7 +84,7 @@
   "Watch for"
  ],
  ".meta .value": [
-  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a>, 1967",
+  "<a href=\"people.html#p-melvin-conway\">Melvin Conway</a>, 1968",
   "Programming → everywhere",
   "Microservices ↔ teams",
   "Splits and merges are slow",

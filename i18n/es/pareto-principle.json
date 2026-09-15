@@ -6,7 +6,7 @@
   "Aproximadamente el <em>80 por ciento</em> de los efectos viene del <em>20 por ciento</em> de las causas."
  ],
  "header .subtitle": [
-  "Vilfredo Pareto notó en 1906 que el 80 % de la tierra de Italia pertenecía al 20 % de su gente. El patrón se repite en software, soporte, rendimiento y estrategia de producto — la mayor parte del valor viene de una pequeña fracción del esfuerzo. Saber cuál 20 % es todo el juego."
+  "Vilfredo Pareto notó en 1896 que el 80 % de la tierra de Italia pertenecía al 20 % de su gente. El patrón se repite en software, soporte, rendimiento y estrategia de producto — la mayor parte del valor viene de una pequeña fracción del esfuerzo. Saber cuál 20 % es todo el juego."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> fue un economista y sociólogo italiano. En 1896 observó que aproximadamente el 80 % de la tierra de Italia pertenecía al 20 % de su gente; el pensador de gestión <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> generalizó más tarde el patrón como la regla del 80/20 y le puso el nombre de Pareto.",
@@ -54,7 +54,7 @@
   "El equipo de Office de Microsoft descubrió, célebremente, que la mayoría de los usuarios nunca tocaba la mayoría de los menús. La misma forma se repite en casi todos los productos: un pequeño núcleo de funciones carga con la mayor parte del engagement, y el resto queda sin usar — a veces a propósito, a menudo por accidente.",
   "Cuando todo parece importante, la jugada correcta suele ser averiguar qué 20 % del backlog impulsa el 80 % del resultado. El MVP, los roadmaps y los OKR trimestrales dependen del razonamiento de Pareto — elegir el pequeño conjunto de apuestas que cargará con la mayor parte del resultado.",
   "Perfila cualquier sistema en producción y casi siempre encontrarás la misma forma: una pequeña fracción del código (o de las consultas, o de los recursos) es responsable de la mayor parte del tiempo. La optimización prematura se desperdicia en todo lo demás — pero en la ruta caliente, las matemáticas devuelven con creces.",
-  "Joel Spolsky, Microsoft y un sinfín de equipos de soporte han observado el mismo desequilibrio en crashes y tickets. Un puñado de bugs causa la mayor parte de la miseria visible para el usuario; el resto es larga cola. Prioriza por impacto, no por orden de llegada.",
+  "Los datos de fallos de Microsoft y un sinfín de colas de soporte muestran el mismo desequilibrio en crashes y tickets. Un puñado de bugs causa la mayor parte de la miseria visible para el usuario; el resto es larga cola. Prioriza por impacto, no por orden de llegada.",
   "La \"larga cola\" de Chris Anderson es la advertencia: agrega suficiente del 80 % sin uso y a veces encuentras un mercado mayor que la cabeza. Amazon y Spotify construyeron negocios sobre ella. Pareto te dice dónde enfocarte primero, no qué mercados abandonar.",
   "Una lectura ingenua de Pareto es \"recorta el 80 % que nadie usa\". Pero las funciones sin uso a menudo sirven a unos pocos usuarios críticos — accesibilidad, contables, administradores, guardias. Antes de recortar, segmenta por quién, no solo por cuántos. El 20 % de funciones del que depende el 5 % inferior suele ser estructural.",
   "El principio es más útil como hábito. Antes de cualquier revisión, pregunta: ¿qué 20 % de usuarios, pantallas, tareas o errores carga aquí con el 80 % del peso? Rara vez responde la pregunta completa — pero casi siempre reordena el trabajo de una forma que compensa.",
@@ -94,9 +94,9 @@
   "Siempre"
  ],
  ".meta .value": [
-  "1906",
+  "1896",
   "Tierra italiana · vainas de guisantes",
-  "Por Juran, años 40",
+  "Por Juran, 1941–51",
   "Uso de funciones de larga cola",
   "Pule primero el 20 %",
   "Recortar la larga cola necesaria",

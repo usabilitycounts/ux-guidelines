@@ -13,7 +13,7 @@
   "Trained at NYU and the University of Pennsylvania, Schwartz spent four decades teaching psychology at Swarthmore. His TED talk on the paradox became one of the most-watched ever, and his later work explored how defaults, satisficing, and ‘good enough’ choices protect people from decision fatigue."
  ],
  ".law-content .law-desc": [
-  "<a href=\"hicks-law.html\">Hick’s Law</a> tells you a decision gets slower. The paradox of choice tells you it can fail to happen at all. Once a set crosses a threshold (often around a dozen items), users feel overwhelmed, defer, and convert less."
+  "<a href=\"hicks-law.html\">Hick’s Law</a> tells you a decision gets slower. The paradox of choice tells you it can fail to happen at all. Once a set crosses a threshold (the number varies with the task), users feel overwhelmed, defer, and convert less."
  ],
  ".law-meta .label": [
   "Coined by",
@@ -23,7 +23,7 @@
  ".law-meta .value": [
   "<a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> (2004)",
   "The Paradox of Choice",
-  "Cap choices near a dozen; curate defaults"
+  "Keep sets small; curate defaults"
  ],
  ".card .tag": [
   "Field study",
@@ -52,7 +52,7 @@
   "The Trust Trade"
  ],
  ".card .desc": [
-  "<a href=\"people.html#p-sheena-iyengar\">Sheena Iyengar</a>’s 2000 supermarket experiment: a tasting display with 24 jams attracted more shoppers, but a display with only 6 jams sold ten times more. More choice drew the crowd; less choice closed the sale.",
+  "<a href=\"people.html#p-sheena-iyengar\">Sheena Iyengar</a>’s 1995 supermarket experiment, published in 2000: a tasting display with 24 jams attracted more shoppers, but a display with only 6 jams converted ten times as many of the shoppers who stopped (30% versus 3%). More choice drew the crowd; less choice closed the sale.",
   "When the cognitive cost of choosing exceeds the perceived benefit, users defer the decision entirely. They close the tab, save the cart for later, or pick “I’ll think about it” — and most never come back.",
   "Users who finally choose from a large set are less satisfied than those who chose from a small one. Every alternative becomes a hypothetical regret — “what if I’d picked the other one?”",
   "Editorial pre-selection — “our 5 picks” — converts better than the full catalog. The user trades infinite optionality for trust in your taste, and usually accepts.",

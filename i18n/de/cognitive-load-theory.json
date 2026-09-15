@@ -6,10 +6,10 @@
   "Das Arbeitsgedächtnis ist der Engpass. Gut damit haushalten."
  ],
  "header .subtitle": [
-  "John Swellers Theorie teilt mentale Anstrengung in drei Lasten: intrinsisch (die Aufgabe selbst), extrinsisch (der Overhead des Interfaces) und lernbezogen (echtes Lernen). Die Aufgabe des Designs ist es, die mittlere zu senken."
+  "John Swellers Theorie, später verfeinert, teilt mentale Anstrengung in drei Lasten: intrinsisch (die Aufgabe selbst), extrinsisch (der Overhead des Interfaces) und lernbezogen (echtes Lernen). Die Aufgabe des Designs ist es, die mittlere zu senken."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, ein australischer Bildungspsychologe an der University of New South Wales, entwickelte die Cognitive-Load-Theorie 1988 aus Studien dazu, wie Studierende aus ausgearbeiteten Beispielen lernen — im Vergleich zu rohem Problemlösen.",
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, ein australischer Bildungspsychologe an der University of New South Wales, begann 1988 mit der Entwicklung der Cognitive-Load-Theorie aus Studien dazu, wie Studierende aus ausgearbeiteten Beispielen lernen — im Vergleich zu rohem Problemlösen.",
   "Seine Experimente zeigten, dass Unterricht scheitert, wenn das Arbeitsgedächtnis für das Format statt für den Inhalt aufgewendet wird — die Split-Attention- und Redundanzeffekte. Die Theorie wurde eines der meistzitierten Frameworks im Instructional Design und lässt sich direkt auf Interfaces übertragen."
  ],
  ".law-content .law-desc": [

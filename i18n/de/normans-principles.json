@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">Don Norman</a> ist ein amerikanischer Kognitionswissenschaftler, der das Institute for Cognitive Science an der UC San Diego leitete, Apple Fellow war — wo er den Titel \"User Experience Architect\" prägte — und die Nielsen Norman Group mitgründete.",
-  "The Design of Everyday Things (1988, ursprünglich The Psychology of Everyday Things) gab dem Design sein Kernvokabular: Affordanzen, Signifier, Mapping, Feedback und konzeptuelle Modelle. Seine Beispiele verwirrender Türen machten \"Norman Door\" zum Fachbegriff."
+  "The Design of Everyday Things (1988, ursprünglich The Psychology of Everyday Things) gab dem Design sein Kernvokabular: Affordanzen, Mapping, Feedback, Constraints und konzeptuelle Modelle. Seine Beispiele verwirrender Türen machten \"Norman Door\" zum Fachbegriff."
  ],
  ".law-content .law-desc": [
   "Gutes Design macht mögliche Aktionen sichtbar, ordnet Bedienelemente ihren Wirkungen zu und meldet, was passiert ist. Wenn Nutzer scheitern, liegt die Schuld meist in der Kommunikation des Designs — nicht beim Nutzer."
@@ -106,7 +106,7 @@
   "Zeigen, dass es passiert ist",
   "Visuell · auditiv · haptisch",
   "Doppelklicken · doppelt abbuchen",
-  "Physisch · logisch · kulturell",
+  "Physisch · semantisch · kulturell · logisch",
   "Fehler still verhindert",
   "Überbeschränkung = Frust",
   "Vereinfachtes Bild des Nutzers",

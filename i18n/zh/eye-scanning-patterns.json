@@ -9,7 +9,7 @@
   "数十年的眼动研究表明，人们并不阅读界面——而是以可预测的形状扫视它。这里是六种扫描模式，以及它们各自出现的场景。"
  ],
  ".law-origin .body-text": [
-  "这些视觉扫描模式来自 Nielsen Norman Group 二十年的眼动研究，这家咨询公司由<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">雅各布·尼尔森</a>与<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">唐纳德·诺曼</a>于1998年创立。他们2006年的 F 形模式研究基于数百名用户阅读数千个页面的记录，成为 Web 可用性领域被引用最多的发现之一。",
+  "这些视觉扫描模式主要来自 Nielsen Norman Group 二十年的眼动研究（Z 形模式是设计师的经验法则，而非眼动研究的发现），这家咨询公司由<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">雅各布·尼尔森</a>与<a href=\"https://en.wikipedia.org/wiki/Don_Norman\" target=\"_blank\" rel=\"noopener\">唐纳德·诺曼</a>于1998年创立。他们2006年的 F 形模式研究基于数百名用户阅读数千个页面的记录，成为 Web 可用性领域被引用最多的发现之一。",
   "后续研究拓宽了图景：F 形是页面没有给出更好结构时人们的退路。有力的标题、前置的关键信息和清晰的视觉层级，会把懒惰的扫视替换为有目的的阅读。"
  ],
  ".law-content .law-desc": [

@@ -13,7 +13,7 @@
   "Newell war ein Gründervater der künstlichen Intelligenz — Mitschöpfer des Logic Theorist, des ersten KI-Programms — und erhielt 1975 den Turing Award. Rosenbloom leitete später die kognitive Architektur Soar mit. Neuere Forschung legt nahe, dass individuelle Lernkurven eher exponentiell verlaufen; das Potenzgesetz entsteht beim Mitteln über viele Lernende."
  ],
  ".law-content .law-desc": [
-  "Trägt man die Zeit pro Aufgabe gegen die Wiederholungen auf einer Log-Log-Achse auf, ergibt sich eine Gerade. Die größten Gewinne kommen früh — von Minute eins zu Minute zehn ändert sich alles. Danach bringt jede Verdopplung der Übung einen kleineren relativen Gewinn, aber nie null."
+  "Trägt man die Zeit pro Aufgabe gegen die Wiederholungen auf einer Log-Log-Achse auf, ergibt sich eine Gerade. Die größten Gewinne kommen früh — von Minute eins zu Minute zehn ändert sich alles. Danach bringt jede Verdopplung der Übung denselben proportionalen Gewinn, sodass der absolute Gewinn schrumpft, aber nie null wird."
  ],
  ".law-meta .label": [
   "Geprägt von",
@@ -86,7 +86,7 @@
  ".meta .value": [
   "Steil, dann flach",
   "Erreicht null",
-  "Logarithmische Erträge",
+  "Abnehmende Erträge",
   "Real, aber unsichtbar",
   "Standardwerte · Vorausfüllen · Überspringen",
   "Ganze Kurve wandert nach rechts",

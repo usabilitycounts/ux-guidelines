@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/John_Gall_(author)\" target=\"_blank\" rel=\"noopener\">John Gall</a> was an American pediatrician and systems theorist. His 1975 book Systemantics collected wry observations on why systems fail; its best-known passage — complex systems that work evolve from simple systems that worked — became Gall’s Law.",
-  "Gall practiced pediatrics in Ann Arbor, Michigan for decades while writing wry systems theory on the side. Systemantics went through three editions as The Systems Bible; its axioms — like ‘a complex system designed from scratch never works’ — are quoted in software engineering far more than in medicine."
+  "Gall practiced pediatrics in Ann Arbor, Michigan for decades while writing wry systems theory on the side. Systemantics went through three editions, the third retitled The Systems Bible; its axioms — like ‘a complex system designed from scratch never works’ — are quoted in software engineering far more than in medicine."
  ],
  ".law-content .law-desc": [
   "Big systems are grown, not designed. Start with the smallest thing that works end-to-end, ship it, learn from it, then grow it. The grand design built from scratch — the one no simple version ever shipped — rarely survives contact with the real world."

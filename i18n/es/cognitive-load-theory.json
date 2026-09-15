@@ -6,10 +6,10 @@
   "La memoria de trabajo es el cuello de botella. Gástala bien."
  ],
  "header .subtitle": [
-  "La teoría de John Sweller divide el esfuerzo mental en tres cargas: intrínseca (la tarea en sí), extrínseca (la sobrecarga de la interfaz) y relevante (el aprendizaje real). El trabajo del diseño es recortar la del medio."
+  "La teoría de John Sweller, refinada después, divide el esfuerzo mental en tres cargas: intrínseca (la tarea en sí), extrínseca (la sobrecarga de la interfaz) y relevante (el aprendizaje real). El trabajo del diseño es recortar la del medio."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psicólogo educativo australiano de la University of New South Wales, desarrolló la teoría de la carga cognitiva en 1988 a partir de estudios sobre cómo aprenden los estudiantes con ejemplos resueltos frente a la resolución de problemas en frío.",
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psicólogo educativo australiano de la University of New South Wales, empezó a desarrollar la teoría de la carga cognitiva en 1988 a partir de estudios sobre cómo aprenden los estudiantes con ejemplos resueltos frente a la resolución de problemas en frío.",
   "Sus experimentos mostraron que la instrucción fracasa cuando la memoria de trabajo se gasta en el formato en lugar del contenido — los efectos de atención dividida y de redundancia. La teoría se convirtió en uno de los marcos más citados del diseño instruccional, y se traslada directamente a las interfaces."
  ],
  ".law-content .law-desc": [

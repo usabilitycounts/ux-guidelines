@@ -13,7 +13,7 @@
   "Newell fut un père fondateur de l'intelligence artificielle — co-créateur du Logic Theorist, le premier programme d'IA — et a reçu le prix Turing en 1975. Rosenbloom a ensuite codirigé l'architecture cognitive Soar. Des recherches ultérieures suggèrent que les courbes d'apprentissage individuelles sont plus proches d'une exponentielle ; la loi de puissance émerge quand on moyenne entre apprenants."
  ],
  ".law-content .law-desc": [
-  "Tracez le temps par tâche en fonction des répétitions sur des axes log-log et vous obtenez une droite. Les plus grands gains arrivent tôt — de la première à la dixième minute, tout change. Au-delà, chaque doublement de la pratique produit un gain relatif plus petit, mais jamais nul."
+  "Tracez le temps par tâche en fonction des répétitions sur des axes log-log et vous obtenez une droite. Les plus grands gains arrivent tôt — de la première à la dixième minute, tout change. Au-delà, chaque doublement de la pratique produit le même gain proportionnel, si bien que le gain absolu diminue sans jamais devenir nul."
  ],
  ".law-meta .label": [
   "Formulé par",
@@ -86,7 +86,7 @@
  ".meta .value": [
   "Raide puis plate",
   "N'atteint zéro",
-  "Rendements logarithmiques",
+  "Rendements décroissants",
   "Réel mais invisible",
   "Défauts · préremplissage · passer",
   "Toute la courbe se décale à droite",

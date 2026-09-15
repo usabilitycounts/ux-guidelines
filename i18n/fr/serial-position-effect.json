@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, psychologue allemand fondateur de l'étude expérimentale de la mémoire, a documenté l'effet de position sérielle dans les années 1880 — en mémorisant sur lui-même des milliers de syllabes sans signification et en traçant où le rappel échouait.",
-  "Ses courbes montraient un rappel maximal en début de liste (primauté — les éléments sont répétés jusqu'en mémoire à long terme) et en fin de liste (récence — les éléments sont encore en mémoire de travail), avec un creux au milieu. Les mêmes expériences ont produit la courbe de l'oubli et l'effet d'espacement."
+  "Ses courbes montraient un rappel maximal en début de liste (primauté) et en fin de liste (récence), avec un creux au milieu ; l'explication — premiers éléments répétés jusqu'en mémoire à long terme, derniers encore en mémoire de travail — est venue des recherches des années 1960. Les mêmes expériences ont produit la courbe de l'oubli et l'effet d'espacement."
  ],
  ".law-content .law-desc": [
   "Quand les gens se rappellent une série, la performance forme un U : les premiers éléments bénéficient de la répétition vers la mémoire à long terme, les derniers d'être encore en mémoire de travail, et les éléments du milieu perdent les deux avantages. Dans les interfaces, la position est une décision de mémoire."

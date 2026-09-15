@@ -13,7 +13,7 @@
   "Newell was a founding father of artificial intelligence — co-creator of the Logic Theorist, the first AI program — and won the Turing Award in 1975. Rosenbloom went on to co-lead the Soar cognitive architecture. Later research suggests individual learning curves are closer to exponential; the power law emerges when averaging across learners."
  ],
  ".law-content .law-desc": [
-  "Plot time-per-task against repetitions on a log-log axis and you get a straight line. The biggest gains come early — minute one to minute ten changes everything. Beyond that, each doubling of practice produces a smaller relative gain, but never zero."
+  "Plot time-per-task against repetitions on a log-log axis and you get a straight line. The biggest gains come early — minute one to minute ten changes everything. Beyond that, each doubling of practice produces the same proportional gain, so the absolute gain shrinks but never reaches zero."
  ],
  ".law-meta .label": [
   "Coined by",
@@ -86,7 +86,7 @@
  ".meta .value": [
   "Steep then flat",
   "Hits zero",
-  "Logarithmic returns",
+  "Diminishing returns",
   "Real but invisible",
   "Defaults · pre-fill · skip",
   "Whole curve shifts right",

@@ -9,7 +9,7 @@
   "Cuantas más opciones presentas, más tarda cada decisión. La ley de Hick da forma a menús, ajustes y onboarding — junto con las técnicas para sortearla."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, psicólogo británico, y <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, psicólogo estadounidense, demostraron de forma independiente a principios de los años 50 que el tiempo de reacción crece de forma logarítmica con el número de opciones — un trabajo que se convirtió en la ley de Hick-Hyman.",
+  "<a href=\"https://en.wikipedia.org/wiki/William_Edmund_Hick\" target=\"_blank\" rel=\"noopener\">William Edmund Hick</a>, psicólogo británico, y <a href=\"https://en.wikipedia.org/wiki/Ray_Hyman\" target=\"_blank\" rel=\"noopener\">Ray Hyman</a>, psicólogo estadounidense, demostraron a principios de los años 50 — Hick en 1952, Hyman ampliándolo en 1953 — que el tiempo de reacción crece de forma logarítmica con el número de opciones — un trabajo que se convirtió en la ley de Hick-Hyman.",
   "Hick realizó sus experimentos en la Unidad de Psicología Aplicada de Cambridge usando teclas de telégrafo y lámparas; Hyman, en Johns Hopkins, confirmó la relación logarítmica con estímulos distintos un año después. Hyman se convirtió más tarde en un destacado escéptico de la parapsicología y miembro fundador del CSICOP."
  ],
  ".law-content .law-desc": [
@@ -53,13 +53,13 @@
  ],
  ".card .desc": [
   "La aplicación más clara de la ley: un menú de 4 se navega más rápido que uno de 12 — aunque el de 12 cubra más terreno. Reduce lo que no es esencial y el resto se vuelve más rápido.",
-  "Una lista plana de 16 es una pesadilla para la ley de Hick. Los mismos 16 divididos en 4 grupos de 4 son dos decisiones rápidas seguidas — una elección entre 4 y luego otra entre 4. log₂(4)+log₂(4) ≪ log₂(16).",
+  "Una lista plana de 16 es una pesadilla para la ley de Hick. Los mismos 16 divididos en 4 grupos de 4 son dos decisiones rápidas seguidas — una elección entre 4 y luego otra entre 4. Los logaritmos suman el mismo total; la ganancia está en que cada elección es un vistazo rápido a cuatro elementos en lugar de una búsqueda entre dieciséis.",
   "Esconde las opciones avanzadas o poco usadas tras un expansor. La mayoría de los usuarios solo ve las 5 comunes; los usuarios avanzados abren el conjunto completo cuando lo necesitan. Misma UI, dos árboles de decisión distintos.",
   "Un valor predeterminado bien elegido elimina la decisión por completo. Si el 90 % de los usuarios elige el mismo valor, hazlo el predeterminado — se saltan la elección del todo, y la ley deja de aplicar.",
   "Con n pequeño, una lista plana es lo más rápido. Pasados ~7 elementos, dividir en una jerarquía de 2 niveles gana al scroll. Pasados ~50, la jerarquía sola no basta — necesitas búsqueda.",
   "Navegar obliga a cada usuario a recorrer toda la curva de Hick. La búsqueda la colapsa en una sola decisión: escribe lo que quieres. Para catálogos de cientos de elementos, un campo de búsqueda es la mayor mejora de accesibilidad que puedes lanzar.",
   "La ley de Hick asume opciones igualmente probables. En la práctica, hacer las opciones visualmente distintas (icono, color, tamaño) recorta el espacio de búsqueda — los usuarios descartan las opciones equivocadas antes de leerlas.",
-  "La ley de Hick aplica una vez. La fatiga de decisión es el coste acumulativo — cada elección consume una reserva finita de energía mental. Un asistente de 12 pasos cortos es más duro de lo que predicen las matemáticas.",
+  "La ley de Hick aplica una vez. La fatiga de decisión es el coste acumulativo — cada elección suma al esfuerzo de la sesión. Un asistente de 12 pasos cortos es más duro de lo que predicen las matemáticas.",
   "La ley de Hick no dice \"muestra una sola opción\". Muy pocas opciones se sienten arbitrarias o restrictivas. El número correcto es el conjunto más pequeño que aún cubre la intención real del usuario — a menudo de 3 a 7 para acciones principales.",
   "En lugar de elegir entre N opciones, el usuario describe lo que quiere. La ley de Hick queda esquivada — hay un único campo de texto, no una lista ramificada que escanear.",
   "Los recomendadores y los agentes colapsan el conjunto de opciones en una única acción sugerida — eliminando la decisión por completo. Potente cuando acierta, frustrante cuando falla."

@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "La técnica se estudió en IBM a principios de los años 80, donde la interfaz con «ruedas de aprendizaje» de <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a> redujo los errores de los novatos al ocultar las funciones avanzadas hasta que los usuarios estuvieran listos para ellas.",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> dio nombre al patrón y lo popularizó para el diseño de interfaces, llamando a la divulgación progresiva una de las mejores maneras de satisfacer a la vez a usuarios novatos y expertos con una sola interfaz."
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> popularizó el patrón para el diseño de interfaces, llamando a la divulgación progresiva una de las mejores maneras de satisfacer a la vez a usuarios novatos y expertos con una sola interfaz."
  ],
  ".law-content .law-desc": [
   "Muestra a los usuarios solo lo que necesitan para la tarea actual y ofrece un camino claramente etiquetado hacia el resto. Las opciones primarias quedan inmediatas; las avanzadas, raras o peligrosas se sitúan a un paso deliberado — presentes, pero sin estorbar."
  ],
  ".law-meta .label": [
-  "Acuñado por",
+  "Origen",
   "Fuente",
   "En la práctica"
  ],

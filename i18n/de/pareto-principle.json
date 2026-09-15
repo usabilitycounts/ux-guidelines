@@ -6,7 +6,7 @@
   "Rund <em>80 Prozent</em> der Wirkungen stammen aus <em>20 Prozent</em> der Ursachen."
  ],
  "header .subtitle": [
-  "Vilfredo Pareto bemerkte 1906, dass 80 % des Landes in Italien 20 % der Menschen gehörten. Das Muster wiederholt sich in Software, Support, Performance und Produktstrategie — der Großteil des Werts kommt aus einem kleinen Teil des Inputs. Zu wissen, welche 20 %, ist das ganze Spiel."
+  "Vilfredo Pareto bemerkte 1896, dass 80 % des Landes in Italien 20 % der Menschen gehörten. Das Muster wiederholt sich in Software, Support, Performance und Produktstrategie — der Großteil des Werts kommt aus einem kleinen Teil des Inputs. Zu wissen, welche 20 %, ist das ganze Spiel."
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Vilfredo_Pareto\" target=\"_blank\" rel=\"noopener\">Vilfredo Pareto</a> war ein italienischer Ökonom und Soziologe. 1896 beobachtete er, dass rund 80 % des Landes in Italien 20 % der Menschen gehörten; der Management-Denker <a href=\"https://en.wikipedia.org/wiki/Joseph_M._Juran\" target=\"_blank\" rel=\"noopener\">Joseph Juran</a> verallgemeinerte das Muster später als 80/20-Regel und benannte sie nach Pareto.",
@@ -54,7 +54,7 @@
   "Microsofts Office-Team stellte bekanntlich fest, dass die meisten Nutzer die meisten Menüs nie anrührten. Dieselbe Form kehrt in fast jedem Produkt wieder: Ein kleiner Kern von Features trägt den Großteil der Nutzung, der Rest liegt brach — manchmal absichtlich, oft zufällig.",
   "Wenn alles wichtig aussieht, ist der richtige Zug meist, herauszufinden, welche 20 % des Backlogs 80 % des Ergebnisses treiben. MVP, Roadmaps und Quartals-OKRs beruhen alle auf Pareto-Logik — dem kleinen Satz von Wetten, der den Großteil des Resultats tragen wird.",
   "Profilieren Sie ein beliebiges Produktivsystem, und Sie finden fast immer dieselbe Form: Ein kleiner Teil des Codes (oder der Abfragen oder Assets) verantwortet den Großteil der Zeit. Vorzeitige Optimierung ist überall sonst verschwendet — aber auf dem Hot Path zahlt sich die Rechnung massiv aus.",
-  "Joel Spolsky, Microsoft und unzählige Support-Teams haben dieselbe Schieflage bei Abstürzen und Tickets beobachtet. Eine Handvoll Bugs verursacht die Mehrheit des für Nutzer sichtbaren Elends; der Rest ist Long Tail. Triagieren Sie nach Wirkung, nicht nach Eingangsreihenfolge.",
+  "Microsofts Absturzdaten und unzählige Support-Warteschlangen zeigen dieselbe Schieflage bei Abstürzen und Tickets. Eine Handvoll Bugs verursacht die Mehrheit des für Nutzer sichtbaren Elends; der Rest ist Long Tail. Triagieren Sie nach Wirkung, nicht nach Eingangsreihenfolge.",
   "Chris Andersons \"Long Tail\" ist die Warnung: Aggregieren Sie genug von den ungenutzten 80 %, und Sie finden manchmal einen Markt, der größer ist als der Kopf. Amazon und Spotify haben beide Geschäfte darauf gebaut. Pareto sagt Ihnen, wo Sie zuerst fokussieren — nicht, welche Märkte Sie aufgeben sollen.",
   "Eine naive Pareto-Lesart lautet \"streiche die 80 %, die niemand benutzt\". Aber ungenutzte Features dienen oft wenigen kritischen Nutzern — Barrierefreiheit, Buchhaltung, Admins, Bereitschaftsdienst. Segmentieren Sie vor dem Streichen nach dem Wer, nicht nur nach dem Wie-viele. Die 20 % der Features, auf die sich die untersten 5 % verlassen, sind meist tragend.",
   "Am nützlichsten ist das Prinzip als Gewohnheit. Fragen Sie vor jedem Review: Welche 20 % der Nutzer, Screens, Aufgaben oder Fehler tragen hier 80 % des Gewichts? Es beantwortet selten die ganze Frage — aber es ordnet die Arbeit fast immer so um, dass es sich lohnt.",
@@ -94,9 +94,9 @@
   "Immer"
  ],
  ".meta .value": [
-  "1906",
+  "1896",
   "Italienischem Land · Erbsenschoten",
-  "Durch Juran, 1940er",
+  "Durch Juran, 1941–51",
   "Long-Tail-Feature-Nutzung",
   "Zuerst die 20 % polieren",
   "Nötigen Long Tail streichen",

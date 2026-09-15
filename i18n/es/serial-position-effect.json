@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Hermann_Ebbinghaus\" target=\"_blank\" rel=\"noopener\">Hermann Ebbinghaus</a>, el psicólogo alemán que fundó el estudio experimental de la memoria, documentó el efecto de posición serial en la década de 1880 — memorizando miles de sílabas sin sentido sobre sí mismo y trazando dónde fallaba el recuerdo.",
-  "Sus curvas mostraban el recuerdo más alto al inicio de una lista (primacía — los elementos se ensayan hasta la memoria a largo plazo) y al final (recencia — los elementos aún están en la memoria de trabajo), con una caída en el medio. Los mismos experimentos produjeron la curva del olvido y el efecto de espaciado."
+  "Sus curvas mostraban el recuerdo más alto al inicio de una lista (primacía) y al final (recencia), con una caída en el medio; la explicación — los primeros elementos ensayados hasta la memoria a largo plazo, los últimos aún en la memoria de trabajo — llegó con la investigación de los años 60. Los mismos experimentos produjeron la curva del olvido y el efecto de espaciado."
  ],
  ".law-content .law-desc": [
   "Cuando las personas recuerdan una serie, el rendimiento forma una U: los primeros elementos se benefician del ensayo hacia la memoria a largo plazo, los últimos de seguir en la memoria de trabajo, y los del medio pierden ambas ventajas. En las interfaces, la posición es una decisión de memoria."

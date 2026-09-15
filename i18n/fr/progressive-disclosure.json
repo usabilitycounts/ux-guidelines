@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "La technique a été étudiée chez IBM au début des années 1980, où l'interface « training wheels » de <a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">Jack Carroll</a> réduisait les erreurs des novices en masquant les fonctions avancées jusqu'à ce qu'ils soient prêts.",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> a nommé et popularisé le pattern pour le design d'interface, qualifiant la divulgation progressive de l'un des meilleurs moyens de satisfaire à la fois novices et experts avec une seule interface."
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">Jakob Nielsen</a> a popularisé le pattern pour le design d'interface, qualifiant la divulgation progressive de l'un des meilleurs moyens de satisfaire à la fois novices et experts avec une seule interface."
  ],
  ".law-content .law-desc": [
   "Ne montrez aux utilisateurs que ce dont ils ont besoin pour la tâche en cours, et offrez un chemin clairement libellé vers le reste. Les options primaires restent immédiates ; les options avancées, rares ou dangereuses se tiennent à un pas délibéré — présentes, mais pas dans le passage."
  ],
  ".law-meta .label": [
-  "Formulé par",
+  "Origine",
   "Source",
   "En pratique"
  ],

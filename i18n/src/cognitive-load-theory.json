@@ -6,10 +6,10 @@
   "Working memory is the bottleneck. Spend it well."
  ],
  "header .subtitle": [
-  "John Sweller’s theory splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one."
+  "John Sweller’s theory, as later refined, splits mental effort into three loads: intrinsic (the task itself), extraneous (the interface’s overhead), and germane (real learning). Design’s job is to cut the middle one."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, an Australian educational psychologist at the University of New South Wales, developed cognitive load theory in 1988 from studies of how students learn from worked examples versus raw problem solving.",
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, an Australian educational psychologist at the University of New South Wales, began developing cognitive load theory in 1988 from studies of how students learn from worked examples versus raw problem solving.",
   "His experiments showed that instruction fails when working memory is spent on the format instead of the content — the split-attention and redundancy effects. The theory became one of the most cited frameworks in instructional design, and maps directly onto interfaces."
  ],
  ".law-content .law-desc": [

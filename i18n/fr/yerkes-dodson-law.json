@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a> et <a href=\"https://en.wikipedia.org/wiki/John_Dillingham_Dodson\" target=\"_blank\" rel=\"noopener\">John Dillingham Dodson</a> étaient des psychologues américains dont les expériences de 1908 ont montré que la performance monte avec l'activation seulement jusqu'à un point — au-delà, la pression dégrade la performance. Leur courbe en U inversé porte leurs noms.",
-  "Leurs expériences originales de 1908 utilisaient des souris, des labyrinthes et de légers chocs ; l'élégante courbe en U inversé imprimée aujourd'hui dans les manuels fut largement une simplification ultérieure. Yerkes développa ensuite les tests d'intelligence Army Alpha pendant la Première Guerre mondiale et fonda le laboratoire de recherche sur les primates de Yale."
+  "Leurs expériences originales de 1908 utilisaient des souris, une boîte de discrimination et des chocs de faibles à forts ; l'élégante courbe en U inversé imprimée aujourd'hui dans les manuels fut largement une simplification ultérieure. Yerkes développa ensuite les tests d'intelligence Army Alpha pendant la Première Guerre mondiale et fonda le laboratoire de recherche sur les primates de Yale."
  ],
  ".law-content .law-desc": [
   "Un peu de pression fait du bien. Trop peu, et l'utilisateur s'ennuie, dérive, rate des choses. Trop, et il se fige, clique sur le mauvais bouton, abandonne le parcours. Le sommet est au milieu — et sa position dépend de la tâche."
@@ -50,7 +50,7 @@
   "Ou l'IA peut vous en faire tomber"
  ],
  ".card .desc": [
-  "La performance sur une tâche culmine à un niveau modéré d'activation. En dessous, l'attention s'estompe ; au-dessus, elle se rétrécit trop et dérape. La courbe fut d'abord observée chez des souris parcourant des labyrinthes ; un siècle plus tard, elle apparaît dans les labos de tests utilisateurs aussi nettement qu'alors.",
+  "La performance sur une tâche culmine à un niveau modéré d'activation. En dessous, l'attention s'estompe ; au-dessus, elle se rétrécit trop et dérape. La courbe fut d'abord observée chez des souris apprenant une tâche de discrimination ; un siècle plus tard, elle apparaît dans les labos de tests utilisateurs aussi nettement qu'alors.",
   "En bas à gauche de la courbe : l'utilisateur s'ennuie ou est sous-engagé. Pages de validation, interactions répétées pour la cinquième fois du mois, écrans après une longue lecture automatique. La performance chute parce que l'attention chute. Le correctif n'est pas plus de friction — c'est une raison active d'être présent.",
   "En haut à droite : stress, urgence, pression d'échéance. L'utilisateur se fige, clique de travers, prend le chemin visible même quand il est mauvais. Messages d'erreur bancaires, modifications de réservation en plein vol, « votre carte a été refusée » — tout cela vit ici. Le correctif est d'abaisser les enjeux, pas d'ajouter des boîtes de dialogue.",
   "Une seconde leçon de Yerkes-Dodson : l'optimum se décale vers la gauche pour les tâches plus dures. Une tâche simple — un clic, un chiffre — tolère bien la pression. Une tâche complexe — relire un document, remplir 30 champs — exige une activation plus basse pour être bien exécutée. Montez l'urgence sur la tâche difficile et vous perdez l'utilisateur au plus vite.",

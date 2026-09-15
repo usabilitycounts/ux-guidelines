@@ -10,13 +10,13 @@
  ],
  ".law-origin .body-text": [
   "この手法は1980年代初頭のIBMで研究された。<a href=\"https://en.wikipedia.org/wiki/John_M._Carroll_(information_scientist)\" target=\"_blank\" rel=\"noopener\">ジャック・キャロル</a>の「補助輪」インターフェースは、ユーザーの準備が整うまで高度な機能を隠すことで、初心者のエラーを減らした。",
-  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">ヤコブ・ニールセン</a>がこのパターンをインターフェースデザインの用語として命名し、広めた。彼は段階的開示を、単一のインターフェースで初心者とエキスパートの両方を満足させる最良の方法のひとつと呼んだ。"
+  "<a href=\"https://en.wikipedia.org/wiki/Jakob_Nielsen_(usability_consultant)\" target=\"_blank\" rel=\"noopener\">ヤコブ・ニールセン</a>がこのパターンをインターフェースデザインに広めた。彼は段階的開示を、単一のインターフェースで初心者とエキスパートの両方を満足させる最良の方法のひとつと呼んだ。"
  ],
  ".law-content .law-desc": [
   "現在のタスクに必要なものだけをユーザーに見せ、残りへの明確にラベル付けされた経路を用意する。主要なオプションはすぐ手の届く場所に、高度・希少・危険なオプションは意図的な一歩先に置く——存在はするが、邪魔にはならない。"
  ],
  ".law-meta .label": [
-  "提唱者",
+  "起源",
   "出典",
   "実践では"
  ],

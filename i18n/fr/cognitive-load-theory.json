@@ -6,10 +6,10 @@
   "La mémoire de travail est le goulot d'étranglement. Dépensez-la bien."
  ],
  "header .subtitle": [
-  "La théorie de John Sweller divise l'effort mental en trois charges : intrinsèque (la tâche elle-même), extrinsèque (le surcoût de l'interface) et essentielle (l'apprentissage réel). Le travail du design est de réduire celle du milieu."
+  "La théorie de John Sweller, affinée par la suite, divise l'effort mental en trois charges : intrinsèque (la tâche elle-même), extrinsèque (le surcoût de l'interface) et essentielle (l'apprentissage réel). Le travail du design est de réduire celle du milieu."
  ],
  ".law-origin .body-text": [
-  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psychologue de l'éducation australien à l'université de Nouvelle-Galles du Sud, a développé la théorie de la charge cognitive en 1988 à partir d'études sur la façon dont les étudiants apprennent à partir d'exemples résolus plutôt que par résolution brute de problèmes.",
+  "<a href=\"https://en.wikipedia.org/wiki/John_Sweller\" target=\"_blank\" rel=\"noopener\">John Sweller</a>, psychologue de l'éducation australien à l'université de Nouvelle-Galles du Sud, a commencé à développer la théorie de la charge cognitive en 1988 à partir d'études sur la façon dont les étudiants apprennent à partir d'exemples résolus plutôt que par résolution brute de problèmes.",
   "Ses expériences ont montré que l'enseignement échoue quand la mémoire de travail est dépensée sur le format plutôt que sur le contenu — les effets d'attention divisée et de redondance. La théorie est devenue l'un des cadres les plus cités en ingénierie pédagogique, et se transpose directement aux interfaces."
  ],
  ".law-content .law-desc": [

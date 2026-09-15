@@ -13,7 +13,7 @@
   "Ausgebildet an der NYU und der University of Pennsylvania, lehrte Schwartz vier Jahrzehnte Psychologie in Swarthmore. Sein TED-Talk über das Paradox wurde einer der meistgesehenen überhaupt, und seine spätere Arbeit erkundete, wie Standardwerte, Satisficing und \"gut genug\"-Entscheidungen Menschen vor Entscheidungsmüdigkeit schützen."
  ],
  ".law-content .law-desc": [
-  "Das Hicksche Gesetz sagt Ihnen, dass eine Entscheidung langsamer wird. Das Paradox der Wahl sagt Ihnen, dass sie ganz ausbleiben kann. Überschreitet ein Set eine Schwelle (oft rund ein Dutzend Einträge), fühlen sich Nutzer überfordert, schieben auf und konvertieren seltener."
+  "Das Hicksche Gesetz sagt Ihnen, dass eine Entscheidung langsamer wird. Das Paradox der Wahl sagt Ihnen, dass sie ganz ausbleiben kann. Überschreitet ein Set eine Schwelle (die Zahl hängt von der Aufgabe ab), fühlen sich Nutzer überfordert, schieben auf und konvertieren seltener."
  ],
  ".law-meta .label": [
   "Geprägt von",
@@ -23,7 +23,7 @@
  ".law-meta .value": [
   "Barry Schwartz (2004)",
   "The Paradox of Choice",
-  "Auswahl nahe einem Dutzend deckeln; Standards kuratieren"
+  "Sets klein halten; Standards kuratieren"
  ],
  ".card .tag": [
   "Feldstudie",
@@ -52,7 +52,7 @@
   "Der Vertrauenshandel"
  ],
  ".card .desc": [
-  "Sheena Iyengars Supermarkt-Experiment von 2000: Ein Probierstand mit 24 Marmeladen zog mehr Kundschaft an, aber ein Stand mit nur 6 Marmeladen verkaufte zehnmal mehr. Mehr Auswahl zog die Menge an; weniger Auswahl schloss den Verkauf ab.",
+  "Sheena Iyengars Supermarkt-Experiment von 1995, veröffentlicht 2000: Ein Probierstand mit 24 Marmeladen zog mehr Kundschaft an, aber ein Stand mit nur 6 Marmeladen überzeugte zehnmal so viele der Kunden, die stehen blieben (30 % gegenüber 3 %). Mehr Auswahl zog die Menge an; weniger Auswahl schloss den Verkauf ab.",
   "Wenn die kognitiven Kosten des Wählens den wahrgenommenen Nutzen übersteigen, schieben Nutzer die Entscheidung ganz auf. Sie schließen den Tab, heben den Warenkorb für später auf oder wählen \"Ich überlege es mir\" — und die meisten kommen nie zurück.",
   "Nutzer, die schließlich aus einem großen Set wählen, sind unzufriedener als die, die aus einem kleinen wählten. Jede Alternative wird zur hypothetischen Reue — \"was, wenn ich die andere genommen hätte?\"",
   "Redaktionelle Vorauswahl — \"unsere 5 Favoriten\" — konvertiert besser als der volle Katalog. Der Nutzer tauscht unendliche Optionalität gegen Vertrauen in Ihren Geschmack — und akzeptiert meist.",
