@@ -159,7 +159,9 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   /* Language and theme are two dropdowns side by side instead of tab groups */
   .lang-tabs[aria-label="Language"], .theme-tabs { display: none; }
   .hero-selects { display: flex; gap: 10px; margin: 0 auto 16px; max-width: 400px; }
-  .hero-select { flex: 1 1 0; min-width: 0; text-align: left; }
+  .hero-select-wrap { flex: 1 1 0; min-width: 0; position: relative; display: block; }
+  .hero-select { width: 100%; padding-left: 42px; text-align: left; }
+  .hero-select-ico { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); width: 18px; height: 18px; color: var(--text-secondary); pointer-events: none; }
 }
 </style>
 <script defer src="tokens.js?v=97"></script>
@@ -259,6 +261,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 
 <header>
   <div class="hero-selects">
+    <span class="hero-select-wrap"><svg aria-hidden="true" class="hero-select-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
     <select class="sheet-select hero-select lang-select" aria-label="Language">
       <option value="en" lang="en">English</option>
       <option value="es" lang="es">Español</option>
@@ -266,13 +269,14 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       <option value="fr" lang="fr">Français</option>
       <option value="zh" lang="zh">中文</option>
       <option value="ja" lang="ja">日本語</option>
-    </select>
+    </select></span>
+    <span class="hero-select-wrap"><svg aria-hidden="true" class="hero-select-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
     <select class="sheet-select hero-select theme-select" aria-label="Theme">
       <option value="light">Light</option>
       <option value="dark">Dark</option>
       <option value="beige">Beige</option>
       <option value="blue">Blue</option>
-    </select>
+    </select></span>
   </div>
   <div class="lang-tabs" aria-label="Language">
     <button type="button" class="lang-tab" data-lang="en" lang="en"><span class="lang-full">English</span><span class="lang-abbr" aria-hidden="true">EN</span></button>
