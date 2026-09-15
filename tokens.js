@@ -551,7 +551,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=53';
+  s.src = 'i18n.js?v=54';
   document.head.appendChild(s);
 })();
 
@@ -643,180 +643,233 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   footer.appendChild(bottom);
 })();
 
-// Topnav search: client-side over search-index.json
+// Topnav search: results open as a full-width sheet under the top bar — the
+// same shell as the navigation panel, with the field left in the bar above
+// (mirrors ux-icons.com). An empty field shows bookmarks and recent pages.
 (() => {
   const topnav = document.querySelector('.topnav');
   const anchor = document.querySelector('.topnav .settings-wrap');
+  const overlay = document.getElementById('menu-overlay');
   if (!topnav || !anchor) return;
+  const T = k => (window.uxT && window.uxT(k)) || k;
+  const TT = s => (window.uxTitle && window.uxTitle(s)) || s;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const local = href => {
+    const i = href.indexOf('#');
+    const base = i > -1 ? href.slice(0, i) : href, hash = i > -1 ? href.slice(i) : '';
+    return (window.uxLocalHref ? window.uxLocalHref(base) : base) + hash;
+  };
+  const LUCIDE = 'viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"';
+  const SEARCH_ICO = '<circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>';
+  const CLOSE_ICO = '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>';
+
+  // The field in the bar
   const wrap = document.createElement('div');
   wrap.className = 'search-wrap';
-  const input = document.createElement('input');
-  input.className = 'search-input';
-  input.type = 'search';
-  input.placeholder = 'Search';
-  input.setAttribute('aria-label', 'Search the site');
-  const results = document.createElement('div');
-  results.className = 'search-results';
-  results.id = 'search-results';
-  results.setAttribute('role', 'region');
-  results.setAttribute('aria-label', 'Search results');
-  input.setAttribute('role', 'combobox');
-  input.setAttribute('aria-expanded', 'false');
-  input.setAttribute('aria-controls', 'search-results');
+  wrap.id = 'search-wrap';
+  wrap.innerHTML = '<svg aria-hidden="true" class="search-ico" ' + LUCIDE + '>' + SEARCH_ICO + '</svg>' +
+    '<input class="search-input" type="search" placeholder="Search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search the site" role="combobox" aria-expanded="false" aria-controls="search-panel" aria-autocomplete="list">' +
+    '<button class="search-clear" type="button" aria-label="Clear search"><svg aria-hidden="true" ' + LUCIDE + '>' + CLOSE_ICO + '</svg></button>';
+  const input = wrap.querySelector('.search-input');
+  const clearBtn = wrap.querySelector('.search-clear');
+  topnav.insertBefore(wrap, anchor);
+  // Mobile only: a button in the icon cluster drops the field into its own bar below
+  const searchBtn = document.createElement('button');
+  searchBtn.className = 'settings-btn search-btn';
+  searchBtn.type = 'button';
+  searchBtn.setAttribute('aria-label', 'Search');
+  searchBtn.setAttribute('aria-expanded', 'false');
+  searchBtn.setAttribute('aria-controls', 'search-wrap');
+  searchBtn.innerHTML = '<svg aria-hidden="true" class="ico-search" ' + LUCIDE + '>' + SEARCH_ICO + '</svg><svg aria-hidden="true" class="ico-close" ' + LUCIDE + '>' + CLOSE_ICO + '</svg>';
+  topnav.insertBefore(searchBtn, document.querySelector('.topnav .bm-wrap') || anchor);
+  // The results sheet lives in <body>, at the navigation panel's level under the bar
+  const sheet = document.createElement('div');
+  sheet.className = 'settings-sheet search-sheet';
+  sheet.id = 'search-panel';
+  sheet.setAttribute('role', 'region');
+  sheet.setAttribute('aria-label', 'Search results');
+  document.body.appendChild(sheet);
   const live = document.createElement('div');
   live.className = 'visually-hidden';
   live.setAttribute('aria-live', 'polite');
   document.body.appendChild(live);
-  const ico = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-  ico.setAttribute('viewBox', '0 0 24 24');
-  ico.setAttribute('class', 'search-ico');
-  ico.innerHTML = '<circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>';
-  const clearBtn = document.createElement('button');
-  clearBtn.className = 'search-clear';
-  clearBtn.setAttribute('aria-label', 'Clear search');
-  clearBtn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>';
-  wrap.appendChild(ico);
-  wrap.appendChild(input);
-  wrap.appendChild(clearBtn);
-  wrap.appendChild(results);
-  topnav.insertBefore(wrap, anchor);
-  const syncClear = () => clearBtn.classList.toggle('show', input.value.length > 0);
-  const mqMobile = window.matchMedia('(max-width: 600px)');
-  const closeTakeover = () => {
-    topnav.classList.remove('search-open');
-    results.classList.remove('open');
-  };
-  ico.addEventListener('click', () => {
-    if (mqMobile.matches && !topnav.classList.contains('search-open')) {
-      topnav.classList.add('search-open');
-      setTimeout(() => input.focus(), 60);
-    }
-  });
-  clearBtn.addEventListener('click', () => {
-    const had = input.value.length > 0;
-    input.value = '';
-    syncClear();
-    results.classList.remove('open');
-    if (!had && mqMobile.matches) closeTakeover();
-    else input.focus();
-  });
 
-  let index = null, loading = false, timer = null;
-  const load = () => {
-    if (index || loading) return;
-    loading = true;
-    fetch('search-index.json?v=1').then(r => r.json()).then(d => { index = d; const q = input.value.trim(); if (q) search(q); }).catch(() => { loading = false; });
+  const mqMobile = window.matchMedia('(max-width: 600px)');
+  const navBottom = () => Math.round(topnav.getBoundingClientRect().bottom);
+  const syncClear = () => clearBtn.classList.toggle('show', input.value.length > 0);
+  let isOpen = false, active = -1, index = null, loadReq = null, timer = null;
+
+  const closeOthers = () => {
+    document.querySelectorAll('.hamburger[aria-expanded="true"], .settings-btn:not(.search-btn)[aria-expanded="true"]').forEach(b => b.click());
   };
-  const close = () => { results.classList.remove('open'); input.setAttribute('aria-expanded', 'false'); };
-  const search = q => {
-    if (!index || q.length < 2) { close(); return; }
-    const ql = q.toLowerCase();
-    const scored = [];
-    for (const e of index) {
-      const t = e.t.toLowerCase(), b = e.b.toLowerCase(), p = e.p.toLowerCase();
-      let s = 0;
-      if (t === ql) s = 100;
-      else if (t.startsWith(ql)) s = 60;
-      else if (t.includes(ql)) s = 40;
-      else if (p.includes(ql)) s = 20;
-      else if (b.includes(ql)) s = 10;
-      if (s) scored.push([s + (e.t === e.p ? 2 : 0), e]);
-    }
-    scored.sort((a, b) => b[0] - a[0]);
-    const top = scored.slice(0, 8);
-    if (!top.length) { close(); return; }
-    results.style.top = (Math.round(topnav.getBoundingClientRect().bottom) - 12) + 'px';
-    results.innerHTML = '';
-    top.forEach(([_, e]) => {
-      const a = document.createElement('a');
-      a.href = e.u;
-      a.className = 'search-hit';
-      const t = document.createElement('div');
-      t.className = 'search-hit-title';
-      t.textContent = e.t;
-      const c = document.createElement('div');
-      c.className = 'search-hit-page';
-      c.textContent = e.t === e.p ? (e.b.slice(0, 90) || e.p) : e.p;
-      a.appendChild(t);
-      a.appendChild(c);
-      results.appendChild(a);
-    });
-    results.classList.add('open');
+  const openPanel = () => {
+    if (!isOpen) closeOthers();
+    const barOpen = mqMobile.matches && topnav.classList.contains('search-open');
+    sheet.style.top = (navBottom() + (barOpen ? wrap.offsetHeight : 0)) + 'px';
+    if (overlay) { overlay.style.top = navBottom() + 'px'; overlay.classList.add('open'); }
+    sheet.classList.add('open');
+    wrap.classList.add('typeahead-open');
     input.setAttribute('aria-expanded', 'true');
-    live.textContent = top.length + ' results';
+    isOpen = true;
   };
-  const showRecents = () => {
-    const T = k => (window.uxT && window.uxT(k)) || k;
-    let recent = [];
-    try { recent = JSON.parse(localStorage.getItem('ux-recent') || '[]'); } catch (e) {}
-    let marks = [];
-    try { marks = (window.uxBookmarks ? window.uxBookmarks() : []); } catch (e) {}
+  const closePanel = () => {
+    if (!isOpen) return;
+    sheet.classList.remove('open');
+    wrap.classList.remove('typeahead-open');
+    input.setAttribute('aria-expanded', 'false');
+    active = -1;
+    isOpen = false;
+    // the overlay is shared with the navigation panel; leave it if that is up
+    if (overlay && !document.querySelector('.menu-panel.open')) overlay.classList.remove('open');
+  };
+  window.closeSearchPanel = closePanel;
+  const openBar = () => {
+    closeOthers();
+    topnav.classList.add('search-open');
+    wrap.style.top = navBottom() + 'px';
+    searchBtn.setAttribute('aria-expanded', 'true');
+    setTimeout(() => input.focus(), 60);
+  };
+  const closeBar = () => {
+    closePanel();
+    topnav.classList.remove('search-open');
+    wrap.style.top = '';
+    searchBtn.setAttribute('aria-expanded', 'false');
+  };
+  searchBtn.addEventListener('click', () => { topnav.classList.contains('search-open') ? closeBar() : openBar(); });
+  mqMobile.addEventListener('change', () => { if (!mqMobile.matches) closeBar(); else closePanel(); });
+  if (overlay) overlay.addEventListener('click', closePanel);
+
+  // ---- The index: one entry per page, card, person, and glossary term ----
+  const load = () => {
+    if (!loadReq) loadReq = fetch('/search-index.json?v=2').then(r => r.json()).then(d => { index = d; return d; }).catch(() => { index = []; return []; });
+    return loadReq;
+  };
+  const flat = s => String(s || '').toLowerCase().replace(/[’']/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const terms = q => flat(q).split(' ').filter(Boolean);
+  const hasAll = (hay, words) => { const h = ' ' + hay + ' '; return words.every(w => h.includes(w)); };
+  // Where a result matched decides how it ranks: the name itself beats a
+  // mention in the prose.
+  const nameRank = (name, fq) => {
+    const n = flat(name);
+    if (!n) return 9;
+    if (n === fq) return 0;
+    if (n.startsWith(fq + ' ')) return 1;            // first word
+    if (n.startsWith(fq)) return 2;
+    if ((' ' + n).includes(' ' + fq)) return 3;       // any whole word
+    return n.includes(fq) ? 4 : 9;
+  };
+  const score = (e, fq, words) => {
+    const r = nameRank(e.t, fq);
+    if (r < 9) return r;
+    if (hasAll(flat(e.t), words)) return 5;           // every word in the name, out of order
+    return hasAll(flat(e.t + ' ' + e.b), words) ? 8 : 9;   // only in the prose
+  };
+  const firstSentence = s => { const m = String(s || '').match(/^.*?[.!?](\s|$)/); return (m ? m[0] : s || '').trim(); };
+
+  // ---- Rendering: the navigation panel's shell ----
+  const items = () => Array.from(sheet.querySelectorAll('.ta-item'));
+  const highlight = i => {
+    const list = items();
+    list.forEach((el, n) => el.classList.toggle('active', n === i));
+    active = i;
+    if (list[i]) list[i].scrollIntoView({ block: 'nearest' });
+  };
+  const shell = (title, body) =>
+    '<div class="sheet-head"><h2 class="sheet-title">' + title + '</h2>' +
+    '<button class="sheet-close" type="button" data-ta-close aria-label="' + esc(T('Clear search')) + '"><svg aria-hidden="true" ' + LUCIDE + '>' + CLOSE_ICO + '</svg></button></div>' +
+    '<div class="menu-links"><div class="menu-groups">' + body + '</div></div>';
+  const group = (label, rows) => rows.length
+    ? '<details class="menu-group" open><summary class="menu-group-label"><h3>' + esc(label) + '</h3></summary><div class="menu-group-body">' + rows.join('') + '</div></details>'
+    : '';
+  const item = (href, name, desc) =>
+    '<a class="ta-item" role="option" href="' + esc(local(href)) + '"><span class="ta-item-name">' + esc(name) + '</span>' +
+    (desc ? '<span class="ta-item-desc">' + esc(desc) + '</span>' : '') + '</a>';
+
+  const renderRecent = () => {
     const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
+    let recent = [], marks = [];
+    try { recent = JSON.parse(localStorage.getItem('ux-recent') || '[]'); } catch (e) {}
+    try { marks = window.uxBookmarks ? window.uxBookmarks() : []; } catch (e) {}
     recent = recent.filter(r => r.u !== page).slice(0, 6);
     marks = marks.slice(0, 6);
-    if (!recent.length && !marks.length) { close(); return; }
-    results.style.top = (Math.round(topnav.getBoundingClientRect().bottom) - 12) + 'px';
-    results.innerHTML = '';
-    const group = (label, items) => {
-      if (!items.length) return;
-      const lab = document.createElement('div');
-      lab.className = 'search-recent-label';
-      lab.textContent = T(label);
-      results.appendChild(lab);
-      items.forEach(rt => {
-        const a = document.createElement('a');
-        a.href = rt.u;
-        a.className = 'search-hit';
-        const t = document.createElement('div');
-        t.className = 'search-hit-title';
-        t.textContent = rt.t;
-        a.appendChild(t);
-        results.appendChild(a);
-      });
-    };
-    group('Bookmarked', marks);
-    group('Recently viewed', recent);
-    results.classList.add('open');
-    input.setAttribute('aria-expanded', 'true');
+    if (!recent.length && !marks.length) { closePanel(); sheet.innerHTML = ''; return; }
+    sheet.innerHTML = shell(esc(T('Search')),
+      group(T('Bookmarked'), marks.map(m => item(m.u, TT(m.t), m.s || ''))) +
+      group(T('Recently viewed'), recent.map(r => item(r.u, TT(r.t), ''))));
+    openPanel();
   };
-  input.addEventListener('focus', () => {
-    load();
-    if (!input.value.trim()) showRecents();
-  });
+  const render = q => {
+    syncClear();
+    const fq = flat(q), words = terms(q);
+    if (!words.length) { renderRecent(); return; }
+    if (!index) { load().then(() => { if (flat(input.value) === fq) render(input.value); }); return; }
+    const rank = list => list.map(e => ({ e, s: score(e, fq, words) })).filter(x => x.s < 9)
+      .sort((a, b) => a.s - b.s || a.e.t.length - b.e.t.length || a.e.t.localeCompare(b.e.t));
+    let pages = rank(index.filter(e => e.t === e.p));
+    let sections = rank(index.filter(e => e.t !== e.p && e.p !== 'People' && e.p !== 'Glossary'));
+    let people = rank(index.filter(e => e.t !== e.p && e.p === 'People'));
+    let glossary = rank(index.filter(e => e.t !== e.p && e.p === 'Glossary'));
+    // A page or card actually named this outranks anything that merely mentions it
+    const best = Math.min(...[pages, sections, people, glossary].map(l => l.length ? l[0].s : 9));
+    if (best <= 4) [pages, sections, people, glossary] = [pages, sections, people, glossary].map(l => l.filter(x => x.s <= 7));
+    pages = pages.slice(0, 6); sections = sections.slice(0, 8); people = people.slice(0, 6); glossary = glossary.slice(0, 6);
+    const groups = [
+      { rank: pages.length ? pages[0].s : 9, html: group(T('Pages'), pages.map(x => item(x.e.u, TT(x.e.t), firstSentence(x.e.b)))) },
+      { rank: (sections.length ? sections[0].s : 9) + 0.1, html: group(T('Sections'), sections.map(x => item(x.e.u, x.e.t, TT(x.e.p)))) },
+      { rank: (people.length ? people[0].s : 9) + 0.2, html: group(T('People'), people.map(x => item(x.e.u, x.e.t, firstSentence(x.e.b)))) },
+      { rank: (glossary.length ? glossary[0].s : 9) + 0.3, html: group(T('Glossary'), glossary.map(x => item(x.e.u, x.e.t, firstSentence(x.e.b)))) }
+    ].filter(g => g.html).sort((a, b) => a.rank - b.rank);
+    const count = pages.length + sections.length + people.length + glossary.length;
+    const body = groups.length ? groups.map(g => g.html).join('') : '<div class="ta-no-results">' + esc(T('No results found')) + '</div>';
+    sheet.innerHTML = shell(esc(T('Results for “{q}”').replace('{q}', q)), body);
+    openPanel();
+    live.textContent = count ? count + ' results' : T('No results found');
+  };
+
+  // ---- Wiring ----
+  input.addEventListener('focus', () => { load(); render(input.value); });
   input.addEventListener('input', () => {
     syncClear();
-    load();
     clearTimeout(timer);
-    const q = input.value.trim();
-    if (!q) { showRecents(); return; }
-    timer = setTimeout(() => search(q), 120);
+    timer = setTimeout(() => render(input.value), 120);
   });
   input.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown') {
-      const first = results.querySelector('a');
-      if (first) { e.preventDefault(); first.focus(); }
+      e.preventDefault();
+      if (!isOpen) render(input.value);
+      highlight(Math.min(active + 1, items().length - 1));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      highlight(Math.max(active - 1, 0));
     } else if (e.key === 'Enter') {
-      const first = results.querySelector('a');
-      if (first) location.href = first.getAttribute('href');
+      e.preventDefault();
+      const list = items();
+      const pick = active >= 0 ? list[active] : list[0];
+      if (pick) pick.click();
     } else if (e.key === 'Escape') {
-      close();
+      closePanel();
       input.blur();
-      if (mqMobile.matches) closeTakeover();
+      if (mqMobile.matches) closeBar();
     }
   });
-  results.addEventListener('keydown', e => {
-    const hits = [...results.querySelectorAll('a')];
-    const i = hits.indexOf(document.activeElement);
-    if (e.key === 'ArrowDown' && i > -1 && i < hits.length - 1) { e.preventDefault(); hits[i + 1].focus(); }
-    else if (e.key === 'ArrowUp' && i > 0) { e.preventDefault(); hits[i - 1].focus(); }
-    else if (e.key === 'ArrowUp' && i === 0) { e.preventDefault(); input.focus(); }
-    else if (e.key === 'Escape') { close(); input.focus(); }
+  clearBtn.addEventListener('click', () => { input.value = ''; render(''); input.focus(); });
+  sheet.addEventListener('click', e => {
+    if (e.target.closest('[data-ta-close]')) { closePanel(); input.blur(); if (mqMobile.matches) closeBar(); return; }
+    if (e.target.closest('.ta-item')) { input.value = ''; syncClear(); closePanel(); }
   });
-  document.addEventListener('click', e => { if (!wrap.contains(e.target)) close(); });
+  document.addEventListener('click', e => {
+    if (!wrap.contains(e.target) && !sheet.contains(e.target) && !searchBtn.contains(e.target)) closePanel();
+  });
+  setTimeout(() => {
+    if (!window.uxT) return;
+    const l = window.uxT('Search');
+    if (l) { searchBtn.setAttribute('aria-label', l); searchBtn.title = l; }
+  }, 1600);
   // ?q= deep link (schema.org SearchAction target)
   try {
     const qp = new URLSearchParams(location.search).get('q');
-    if (qp) { input.value = qp; input.dispatchEvent(new Event('input')); input.focus(); }
+    if (qp) { input.value = qp; syncClear(); if (mqMobile.matches) openBar(); load().then(() => { render(qp); input.focus(); }); }
   } catch (e) {}
 })();
 

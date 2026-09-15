@@ -56,7 +56,8 @@ for f in sorted(glob.glob(f'{SITE}/*.html')):
         label = next((c for c in tb.order if 'label' in c.classes and inside(c, term)), None)
         body = next((c for c in tb.order if c.tag == 'p' and 'where' not in c.classes and inside(c, term)), None)
         if label is not None and text_of(label):
-            entries.append({'u': base, 'p': page_title, 't': text_of(label),
+            tid = term.attrs.get('id') if hasattr(term, 'attrs') else None
+            entries.append({'u': base + ('#' + tid if tid else ''), 'p': page_title, 't': text_of(label),
                             'b': (text_of(body) if body is not None else '')[:220]})
 
 with open(f'{SITE}/search-index.json', 'w') as out:
