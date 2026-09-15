@@ -132,6 +132,7 @@ header { text-align: center; padding-top: 26px; padding-bottom: 0; }
 header h1 { font-size: clamp(2.5rem, 5vw, 3.4375rem); letter-spacing: -1.5px; line-height: 1.1; margin: 0; }
 header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-height: 1.6; color: var(--text-secondary); }
 .theme-tabs { margin: 12px 0 0; }
+.hero-selects { display: none; }
 .landing-logo { width: clamp(2.5rem, 5vw, 3.4375rem); height: clamp(2.5rem, 5vw, 3.4375rem); color: var(--icon); flex: 0 0 auto; }
 .beta-pill { align-self: center; font-size: 0.6875rem; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; background: var(--surface-2); color: var(--text-secondary); }
 .lang-tabs { display: inline-flex; margin-bottom: 12px; background: var(--surface-2); border-radius: 8px; padding: 3px; gap: 2px; flex-wrap: wrap; justify-content: center; }
@@ -155,9 +156,13 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab { padding: 8px 12px; }
   .lang-tab .lang-full { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .lang-tab .lang-abbr { display: inline; }
+  /* Language and theme are two dropdowns side by side instead of tab groups */
+  .lang-tabs[aria-label="Language"], .theme-tabs { display: none; }
+  .hero-selects { display: flex; gap: 10px; margin: 16px auto 0; max-width: 400px; }
+  .hero-select { flex: 1 1 0; min-width: 0; text-align: left; }
 }
 </style>
-<script defer src="tokens.js?v=96"></script>
+<script defer src="tokens.js?v=97"></script>
 </head>
 <body>
 
@@ -273,6 +278,22 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     <button type="button" class="lang-tab theme-tab" data-theme="beige">Beige</button>
     <button type="button" class="lang-tab theme-tab" data-theme="blue">Blue</button>
   </div>
+  <div class="hero-selects">
+    <select class="sheet-select hero-select lang-select" aria-label="Language">
+      <option value="en" lang="en">English</option>
+      <option value="es" lang="es">Español</option>
+      <option value="de" lang="de">Deutsch</option>
+      <option value="fr" lang="fr">Français</option>
+      <option value="zh" lang="zh">中文</option>
+      <option value="ja" lang="ja">日本語</option>
+    </select>
+    <select class="sheet-select hero-select theme-select" aria-label="Theme">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="beige">Beige</option>
+      <option value="blue">Blue</option>
+    </select>
+  </div>
 </header>
 <script>
 (function () {
@@ -308,6 +329,26 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 (function () {
   var cur = 'light';
   try { cur = localStorage.getItem('ux-theme') || 'light'; } catch (e) {}
+  var applyTheme = function (t) {
+    try { localStorage.setItem('ux-theme', t); } catch (e) {}
+    var r = document.documentElement;
+    r.classList.remove('dark', 'beige', 'blue');
+    if (t !== 'light') r.classList.add(t);
+    var sel = document.querySelector('.theme-select');
+    if (sel) sel.value = t;
+  };
+  var themeSel = document.querySelector('.theme-select');
+  if (themeSel) {
+    themeSel.value = cur;
+    themeSel.addEventListener('change', function () {
+      applyTheme(themeSel.value);
+      document.querySelectorAll('.theme-tab').forEach(function (x) {
+        var on = x.dataset.theme === themeSel.value;
+        x.classList.toggle('active', on);
+        x.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+    });
+  }
   document.querySelectorAll('.theme-tab').forEach(function (b) {
     var on = b.dataset.theme === cur;
     if (on) b.classList.add('active');
@@ -319,11 +360,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       });
       b.classList.add('active');
       b.setAttribute('aria-pressed', 'true');
-      var t = b.dataset.theme;
-      try { localStorage.setItem('ux-theme', t); } catch (e) {}
-      var r = document.documentElement;
-      r.classList.remove('dark', 'beige', 'blue');
-      if (t !== 'light') r.classList.add(t);
+      applyTheme(b.dataset.theme);
     });
   });
 })();
@@ -336,19 +373,24 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     var m = location.search.match(/[?&]lang=([a-z]{2})\b/);
     cur = pm ? pm[1] : ((m && ['en', 'es', 'de', 'fr', 'zh', 'ja'].indexOf(m[1]) !== -1) ? m[1] : (localStorage.getItem('ux-lang') || 'en'));
   } catch (e) {}
+  var goLang = function (code) {
+    if (code === cur) return;
+    try { localStorage.setItem('ux-lang', code); } catch (e) {}
+    setTimeout(function () {
+      if (window.uxLangUrl) location.href = window.uxLangUrl(code);
+      else location.reload();
+    }, 190);
+  };
+  var langSel = document.querySelector('.lang-select');
+  if (langSel) {
+    langSel.value = cur;
+    langSel.addEventListener('change', function () { goLang(langSel.value); });
+  }
   document.querySelectorAll('.lang-tab[data-lang]').forEach(function (b) {
     var active = b.dataset.lang === cur;
     if (active) b.classList.add('active');
     b.setAttribute('aria-pressed', active ? 'true' : 'false');
-    b.addEventListener('click', function () {
-      if (b.dataset.lang === cur) return;
-      try { localStorage.setItem('ux-lang', b.dataset.lang); } catch (e) {}
-      var go = function () {
-        if (window.uxLangUrl) location.href = window.uxLangUrl(b.dataset.lang);
-        else location.reload();
-      };
-      setTimeout(go, 190);
-    });
+    b.addEventListener('click', function () { goLang(b.dataset.lang); });
   });
 })();
 </script>
