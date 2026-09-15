@@ -158,7 +158,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .lang-tab .lang-abbr { display: inline; }
   /* Language and theme are two dropdowns side by side instead of tab groups */
   .lang-tabs[aria-label="Language"], .theme-tabs { display: none; }
-  .hero-selects { display: flex; gap: 10px; margin: 16px auto 8px; max-width: 400px; }
+  .hero-selects { display: flex; gap: 10px; margin: 0 auto 16px; max-width: 400px; }
   .hero-select { flex: 1 1 0; min-width: 0; text-align: left; }
 }
 </style>
@@ -258,6 +258,22 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </aside>
 
 <header>
+  <div class="hero-selects">
+    <select class="sheet-select hero-select lang-select" aria-label="Language">
+      <option value="en" lang="en">English</option>
+      <option value="es" lang="es">Español</option>
+      <option value="de" lang="de">Deutsch</option>
+      <option value="fr" lang="fr">Français</option>
+      <option value="zh" lang="zh">中文</option>
+      <option value="ja" lang="ja">日本語</option>
+    </select>
+    <select class="sheet-select hero-select theme-select" aria-label="Theme">
+      <option value="light">Light</option>
+      <option value="dark">Dark</option>
+      <option value="beige">Beige</option>
+      <option value="blue">Blue</option>
+    </select>
+  </div>
   <div class="lang-tabs" aria-label="Language">
     <button type="button" class="lang-tab" data-lang="en" lang="en"><span class="lang-full">English</span><span class="lang-abbr" aria-hidden="true">EN</span></button>
     <button type="button" class="lang-tab" data-lang="es" lang="es"><span class="lang-full">Español</span><span class="lang-abbr" aria-hidden="true">ES</span></button>
@@ -277,22 +293,6 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     <button type="button" class="lang-tab theme-tab" data-theme="dark">Dark</button>
     <button type="button" class="lang-tab theme-tab" data-theme="beige">Beige</button>
     <button type="button" class="lang-tab theme-tab" data-theme="blue">Blue</button>
-  </div>
-  <div class="hero-selects">
-    <select class="sheet-select hero-select lang-select" aria-label="Language">
-      <option value="en" lang="en">English</option>
-      <option value="es" lang="es">Español</option>
-      <option value="de" lang="de">Deutsch</option>
-      <option value="fr" lang="fr">Français</option>
-      <option value="zh" lang="zh">中文</option>
-      <option value="ja" lang="ja">日本語</option>
-    </select>
-    <select class="sheet-select hero-select theme-select" aria-label="Theme">
-      <option value="light">Light</option>
-      <option value="dark">Dark</option>
-      <option value="beige">Beige</option>
-      <option value="blue">Blue</option>
-    </select>
   </div>
 </header>
 <script>
