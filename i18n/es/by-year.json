@@ -9,7 +9,9 @@
   "Todas las referencias de la biblioteca en orden cronológico — de las proporciones de Weber en 1834 al modelo Hook en 2014 — con el año en que se estableció cada una."
  ],
  ".yr-item a": [
+  "Regla de los tercios",
   "Ley de Weber-Fechner",
+  "Proporción áurea",
   "Efecto de posición serial",
   "Principio de Pareto",
   "Ley de Yerkes-Dodson",
@@ -56,6 +58,7 @@
   "Modelo Hook"
  ],
  ".yr-group h3": [
+  "Años 1790",
   "Años 1830",
   "Años 1880",
   "Años 1890",
@@ -72,6 +75,7 @@
   "Años 2010"
  ],
  ".yr-century h2": [
+  "Siglo XVIII",
   "Siglo XIX",
   "Siglo XX",
   "Siglo XXI"

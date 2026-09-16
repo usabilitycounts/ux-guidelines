@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-page="rule-of-thirds">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page.">
+<title>Rule of Thirds: Composition for Hero Images, Crops, and Layouts — UX Guidelines</title>
+<link rel="canonical" href="https://www.ux-guidelines.com/rule-of-thirds.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/rule-of-thirds.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/regla-de-los-tercios.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/drittelregel.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/regle-des-tiers.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/rule-of-thirds.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/rule-of-thirds.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/rule-of-thirds.html">
+<meta property="og:title" content="Rule of Thirds: Composition for Hero Images, Crops, and Layouts — UX Guidelines">
+<meta property="og:description" content="Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/rule-of-thirds.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/rule-of-thirds.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/rule-of-thirds.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rule of Thirds: Composition for Hero Images, Crops, and Layouts — UX Guidelines">
+<meta name="twitter:description" content="Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Rule of Thirds: Composition for Hero Images, Crops, and Layouts", "description": "Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page.", "url": "https://www.ux-guidelines.com/rule-of-thirds.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/rule-of-thirds.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Rule of Thirds: Composition for Hero Images, Crops, and Layouts", "item": "https://www.ux-guidelines.com/rule-of-thirds.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=103">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  .glay { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 22px; }
+  .gb { background: var(--skel); opacity: 0.5; border-radius: 8px; }
+  .gb.hot { background: var(--il-accent); opacity: 1; }
+  .gb.dark { background: var(--skel-strong); opacity: 0.6; }
+  .gline { position: absolute; background: var(--il-accent); opacity: 0.55; }
+  .gdot { position: absolute; width: 16px; height: 16px; border-radius: 50%; background: var(--il-accent); transform: translate(-50%,-50%); }
+  .rt-grid { position: relative; height: 100%; }
+  .rt-grid .gb { position: absolute; inset: 0; opacity: 0.3; }
+  .rt-grid .v1 { left: 33.3%; top: 0; bottom: 0; width: 2px; } .rt-grid .v2 { left: 66.6%; top: 0; bottom: 0; width: 2px; }
+  .rt-grid .h1 { top: 33.3%; left: 0; right: 0; height: 2px; } .rt-grid .h2 { top: 66.6%; left: 0; right: 0; height: 2px; }
+  .rt-hero { display: flex; gap: 12px; height: 100%; }
+  .rt-hero .txt { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
+  .rt-hero .txt i { display: block; height: 7px; border-radius: 3.5px; background: var(--skel-strong); opacity: 0.6; }
+  .rt-hero .txt i.h { height: 14px; opacity: 0.9; }
+  .rt-hero .txt i.cta { height: 16px; width: 44%; border-radius: 8px; background: var(--il-accent); opacity: 1; margin-top: 4px; }
+  .rt-hero .img { flex: 2; position: relative; }
+  .rt-thumb { display: flex; gap: 12px; height: 100%; }
+  .rt-thumb .card-sk { flex: 1; border-radius: 8px; background: var(--surface); display: flex; flex-direction: column; overflow: hidden; }
+  .rt-thumb .card-sk .im { position: relative; flex: 1.2; background: var(--skel); opacity: 0.45; }
+  .rt-thumb .card-sk .im .gdot { opacity: 1; }
+  .rt-thumb .card-sk .tx { padding: 8px; display: flex; flex-direction: column; gap: 5px; }
+  .rt-thumb .card-sk .tx i { display: block; height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; }
+  .rt-horizon { position: relative; height: 100%; }
+  .rt-horizon .land { position: absolute; left: 0; right: 0; bottom: 0; top: 66.6%; }
+  .rt-horizon .sky { position: absolute; left: 0; right: 0; top: 0; bottom: 33.4%; opacity: 0.2; }
+  .rt-space { position: relative; height: 100%; }
+  .rt-space .lines { position: absolute; left: 48%; right: 0; top: 34%; display: flex; flex-direction: column; gap: 8px; }
+  .rt-space .lines i { display: block; height: 7px; border-radius: 3.5px; background: var(--skel-strong); opacity: 0.55; }
+  .rt-dash { display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr); gap: 10px; height: 100%; }
+  .rt-dash span { border-radius: 8px; background: var(--surface); }
+  .rt-dash span.hot { background: rgba(56,189,248,0.18); box-shadow: inset 0 0 0 2px var(--il-accent); }
+  .rt-dialog { position: relative; height: 100%; display: flex; align-items: center; justify-content: center; }
+  .rt-dialog .box { width: 58%; border-radius: 10px; background: var(--surface); padding: 14px; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .rt-dialog .box i { display: block; height: 7px; border-radius: 3.5px; background: var(--skel-strong); opacity: 0.55; width: 70%; }
+  .rt-dialog .box i.t { height: 11px; width: 50%; opacity: 0.9; }
+  .rt-dialog .box i.cta { height: 16px; width: 40%; border-radius: 8px; background: var(--il-accent); opacity: 1; }
+  .rt-compare { position: relative; height: 100%; }
+  .rt-compare .gb { position: absolute; inset: 0; opacity: 0.25; }
+  .rt-compare .t { left: 33.3%; top: 0; bottom: 0; width: 2px; }
+  .rt-compare .p { left: 38.2%; top: 0; bottom: 0; width: 2px; background: var(--skel-strong); opacity: 0.8; }
+  .rt-compare svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .rt-crops { display: flex; align-items: flex-end; gap: 12px; height: 100%; }
+  .rt-crops .c { position: relative; border-radius: 8px; background: var(--skel); opacity: 0.45; }
+  .rt-crops .c .gdot { opacity: 1; }
+  .rt-prompt { display: flex; flex-direction: column; gap: 10px; height: 100%; justify-content: center; }
+  .rt-prompt .bub { border-radius: 10px; background: rgba(56,189,248,0.15); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; align-self: flex-end; width: 62%; }
+  .rt-prompt .bub i { display: block; height: 5px; border-radius: 2.5px; background: var(--il-accent); }
+  .rt-prompt .out { position: relative; flex: 1; border-radius: 8px; background: var(--skel); opacity: 0.4; }
+  .rt-prompt .out .gdot { opacity: 1; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+</style>
+<script defer src="tokens.js?v=98"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link active">Rule of Thirds</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Rule of <em>Thirds</em></h1>
+  <p class="tagline">Off <em>center</em>, on purpose.</p>
+  <p class="subtitle">Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)" target="_blank" rel="noopener">John Thomas Smith</a>, an English painter and engraver, coined the term in Remarks on Rural Scenery (1797), arguing that a picture should be divided by thirds — about two-thirds land to one-third sky — rather than in half. Photographers turned the proportion into the familiar three-by-three grid in the twentieth century, and cameras have drawn it on the viewfinder ever since.</p>
+    <p class="body-text">Eye-tracking gives it some support: viewers linger on off-center subjects and read empty space as room to move into. Its real value is as a starting point that avoids the static dead center, not as a law. Symmetry, the Gutenberg diagram, and the golden ratio each win in their own situations.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Rule</div>
+    <p class="body-text law-desc">Place the focal element on one of the four intersections of a three-by-three grid, and horizons or dividing edges on a third line. The composition gains direction and tension that a centered layout lacks.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-john-thomas-smith">John Thomas Smith</a> (1797)</div></div>
+      <div><div class="label">Source</div><div class="value">Remarks on Rural Scenery</div></div>
+      <div><div class="label">In practice</div><div class="value">Focal points on the crossings</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Four Power Points -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Grid</span>
+      <span class="num">01 / 10</span>
+      <h3>The Four Power Points</h3>
+      <p class="desc">Two vertical and two horizontal lines make four intersections. A subject placed on any of them reads as intentional and leaves the rest of the frame open for context, a headline, or a call to action.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-grid"><span class="gb"></span><span class="gline v1"></span><span class="gline v2"></span><span class="gline h1"></span><span class="gline h2"></span><span class="gdot" style="left:33.3%;top:33.3%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero images</div></div>
+      <div><div class="label">Use when</div><div class="value">One subject</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Symmetry is the message</div></div>
+    </div>
+  </article>
+  <!-- 2. Hero Composition -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Landing pages</span>
+      <span class="num">02 / 10</span>
+      <h3>Hero Composition</h3>
+      <p class="desc">Put the headline block in the left third and the product image across the right two-thirds, or the reverse. The split gives the eye a place to land and a place to go, which a centered stack does not.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-hero"><div class="txt"><i class="h" style="width:88%"></i><i style="width:76%"></i><i style="width:64%"></i><i class="cta"></i></div><div class="img gb"><span class="gdot" style="left:50%;top:38%"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Above-the-fold layouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Text and image share a hero</div></div>
+      <div><div class="label">Avoid when</div><div class="value">One centered claim carries the page</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="grid-and-hierarchy.html">Grid and Hierarchy</a></div>
+    </div>
+  </article>
+  <!-- 3. Cropping Thumbnails -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Images</span>
+      <span class="num">03 / 10</span>
+      <h3>Cropping Thumbnails</h3>
+      <p class="desc">When a photo is cropped automatically for a card or a list, keep the subject on a third line rather than centered. Focal-point cropping does this by storing one x and y point per image and cutting around it at every size.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-thumb"><div class="card-sk"><div class="im"><span class="gdot" style="left:33%;top:36%"></span></div><div class="tx"><i style="width:70%"></i><i style="width:90%"></i></div></div><div class="card-sk"><div class="im"><span class="gdot" style="left:66%;top:36%"></span></div><div class="tx"><i style="width:60%"></i><i style="width:84%"></i></div></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Card imagery</div></div>
+      <div><div class="label">Use when</div><div class="value">Images are auto-cropped</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Faces would be cut</div></div>
+    </div>
+  </article>
+  <!-- 4. Lines on the Thirds -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Horizon</span>
+      <span class="num">04 / 10</span>
+      <h3>Lines on the Thirds</h3>
+      <p class="desc">Horizons, table edges, and split panes sit better on a third line than in the middle. Two-thirds content to one-third sidebar is the same instinct Smith described for land and sky.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-horizon"><span class="gb sky"></span><span class="gb dark land"></span><span class="gline" style="top:66.6%;left:0;right:0;height:3px;opacity:1"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Split layouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Two regions differ in weight</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The regions are equal</div></div>
+    </div>
+  </article>
+  <!-- 5. Room to Look Into -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Space</span>
+      <span class="num">05 / 10</span>
+      <h3>Room to Look Into</h3>
+      <p class="desc">An off-center subject leaves negative space in the direction it faces or moves. That space is not waste; it carries the message the subject points at — a headline, a caption, a call to action.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-space"><span class="gdot" style="left:30%;top:50%;width:34px;height:34px"></span><div class="lines"><i style="width:84%"></i><i style="width:64%"></i><i style="width:72%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Product shots</div></div>
+      <div><div class="label">Use when</div><div class="value">The subject has direction</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every pixel must sell</div></div>
+    </div>
+  </article>
+  <!-- 6. Focal Metrics -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Dashboards</span>
+      <span class="num">06 / 10</span>
+      <h3>Focal Metrics</h3>
+      <p class="desc">On a dashboard, the number people came for belongs near a top crossing, not in the middle of a uniform grid. The thirds give one tile permission to lead while the rest stay peers.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-dash"><span class="hot"></span><span></span><span></span><span></span><span></span><span></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Overview screens</div></div>
+      <div><div class="label">Use when</div><div class="value">One metric leads</div></div>
+      <div><div class="label">Avoid when</div><div class="value">All metrics are peers</div></div>
+    </div>
+  </article>
+  <!-- 7. When to Center Instead -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Judgment</span>
+      <span class="num">07 / 10</span>
+      <h3>When to Center Instead</h3>
+      <p class="desc">Symmetry has its own authority: logos, dialogs, empty states, and single-claim pages often read best centered. Break the rule when balance, not tension, is the goal.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-dialog"><div class="box"><i class="t"></i><i></i><i style="width:56%"></i><i class="cta"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Dialogs and empty states</div></div>
+      <div><div class="label">Use when</div><div class="value">The layout is symmetric</div></div>
+      <div><div class="label">Avoid when</div><div class="value">You need movement</div></div>
+    </div>
+  </article>
+  <!-- 8. Thirds, Phi, and Gutenberg -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Related rules</span>
+      <span class="num">08 / 10</span>
+      <h3>Thirds, Phi, and Gutenberg</h3>
+      <p class="desc">The rule of thirds puts the subject at 33 percent, the golden ratio at 38, and the Gutenberg diagram sends the eye diagonally through both. They agree more than they differ: away from the center, along the reading path.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="rt-compare"><span class="gb"></span><span class="gline t"></span><span class="gline p"></span><svg viewBox="0 0 320 198" preserveAspectRatio="none" aria-hidden="true"><path d="M8 8 L312 190" stroke="var(--il-accent)" stroke-width="3" stroke-dasharray="8 6" vector-effect="non-scaling-stroke" fill="none"/></svg><span class="gdot" style="left:33.3%;top:33.3%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Choosing a rule</div></div>
+      <div><div class="label">Use when</div><div class="value">Comparing options</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Precision is claimed</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="golden-ratio.html">Golden Ratio</a><a href="gutenberg-principle.html">Gutenberg Principle</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Composition in the Age of AI</h3>
+    <p>Generated and auto-cropped imagery needs a rule it can be measured against; the thirds are the simplest one.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="rt-crops"><div class="c" style="flex:1.6;height:100%"><span class="gdot" style="left:33%;top:33%"></span></div><div class="c" style="flex:1;height:64%"><span class="gdot" style="left:33%;top:33%"></span></div><div class="c" style="flex:0.7;height:40%"><span class="gdot" style="left:33%;top:33%"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Focal-Point Cropping at Scale</h3>
+      <p class="desc">Vision models can find the subject and place it on a third for every crop size a card system needs. Set the crop rule once, then audit the outliers: faces near an edge, text cut off, a subject that drifted to the center.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Manual crop → detected focal point</div></div>
+      <div><div class="label">Use when</div><div class="value">Thousands of images</div></div>
+      <div><div class="label">Watch for</div><div class="value">Subjects cut at the edge</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="rt-prompt"><div class="bub"><i style="width:80%"></i><i style="width:55%"></i></div><div class="out"><span class="gdot" style="left:33%;top:50%;width:26px;height:26px"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Prompting for Composition</h3>
+      <p class="desc">Image generators default to centered subjects. Asking for a subject on the left third with open space to the right produces hero images that fit a layout instead of fighting it.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Centered defaults → directed composition</div></div>
+      <div><div class="label">Use when</div><div class="value">Generating hero imagery</div></div>
+      <div><div class="label">Watch for</div><div class="value">Prompts ignored at small sizes</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://archive.org/details/remarksonruralsc00smit" target="_blank" rel="noopener"><span class="title">Remarks on Rural Scenery — John Thomas Smith, 1797</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Rule_of_thirds" target="_blank" rel="noopener"><span class="title">Rule of Thirds</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)" target="_blank" rel="noopener"><span class="title">John Thomas Smith (engraver)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Composition_(visual_arts)" target="_blank" rel="noopener"><span class="title">Composition (Visual Arts)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/photos-as-web-content/" target="_blank" rel="noopener"><span class="title">Photos as Web Content</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.cambridgeincolour.com/tutorials/rule-of-thirds.htm" target="_blank" rel="noopener"><span class="title">Rule of Thirds — Cambridge in Colour</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Rule of Thirds</div>
+</footer>
+
+</body>
+</html>

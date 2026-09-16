@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Drittel<em>regel</em>"
+ ],
+ "header .tagline": [
+  "Bewusst <em>außerhalb</em> der Mitte."
+ ],
+ "header .subtitle": [
+  "Teilen Sie den Rahmen in drei Spalten und drei Zeilen, und setzen Sie das Wichtige auf die Linien und ihre vier Kreuzungen. Die älteste Kompositionsregel der Fotografie funktioniert genauso gut für Hero-Bilder, Ausschnitte und den ersten Screen einer Seite."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)\" target=\"_blank\" rel=\"noopener\">John Thomas Smith</a>, ein englischer Maler und Kupferstecher, prägte den Begriff in Remarks on Rural Scenery (1797) und argumentierte, ein Bild solle in Drittel geteilt werden — etwa zwei Drittel Land zu einem Drittel Himmel — statt in der Mitte. Fotografen machten daraus im 20. Jahrhundert das vertraute Drei-mal-drei-Raster, und Kameras zeichnen es seither in den Sucher.",
+  "Eye-Tracking stützt sie teilweise: Betrachter verweilen bei Motiven abseits der Mitte und lesen Leerraum als Raum, in den man sich bewegen kann. Ihr wahrer Wert liegt im Ausgangspunkt, der die statische Mitte vermeidet, nicht in einem Gesetz. Symmetrie, das Gutenberg-Diagramm und der Goldene Schnitt gewinnen je in ihren eigenen Situationen."
+ ],
+ ".law-content .law-desc": [
+  "Setzen Sie das fokale Element auf eine der vier Kreuzungen eines Drei-mal-drei-Rasters und Horizonte oder Trennkanten auf eine Drittellinie. Die Komposition gewinnt Richtung und Spannung, die einem zentrierten Layout fehlen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-thomas-smith\">John Thomas Smith</a> (1797)",
+  "Remarks on Rural Scenery",
+  "Blickpunkte auf den Kreuzungen"
+ ],
+ ".card .tag": [
+  "Raster",
+  "Landingpages",
+  "Bilder",
+  "Horizont",
+  "Raum",
+  "Dashboards",
+  "Urteil",
+  "Verwandte Regeln",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die vier Kraftpunkte",
+  "Hero-Komposition",
+  "Vorschaubilder beschneiden",
+  "Linien auf den Dritteln",
+  "Raum zum Hineinschauen",
+  "Fokale Kennzahlen",
+  "Wann man doch zentriert",
+  "Drittel, Phi und Gutenberg",
+  "Fokuspunkt-Beschnitt im großen Stil",
+  "Komposition per Prompt"
+ ],
+ ".card .desc": [
+  "Zwei senkrechte und zwei waagerechte Linien ergeben vier Schnittpunkte. Ein Motiv auf einem davon wirkt beabsichtigt und lässt den Rest des Rahmens frei für Kontext, eine Überschrift oder einen Call-to-Action.",
+  "Setzen Sie den Überschriftenblock ins linke Drittel und das Produktbild über die rechten zwei Drittel, oder umgekehrt. Die Teilung gibt dem Auge einen Landeplatz und ein Ziel — ein zentrierter Stapel tut das nicht.",
+  "Wird ein Foto automatisch für eine Karte oder Liste beschnitten, halten Sie das Motiv auf einer Drittellinie statt in der Mitte. Fokuspunkt-Beschnitt speichert dafür einen x/y-Punkt pro Bild und schneidet in jeder Größe darum herum.",
+  "Horizonte, Tabellenkanten und geteilte Bereiche sitzen auf einer Drittellinie besser als in der Mitte. Zwei Drittel Inhalt zu einem Drittel Seitenleiste ist derselbe Instinkt, den Smith für Land und Himmel beschrieb.",
+  "Ein Motiv abseits der Mitte lässt Leerraum in der Richtung, in die es blickt oder sich bewegt. Dieser Raum ist keine Verschwendung; er trägt die Botschaft, auf die das Motiv zeigt — eine Überschrift, eine Bildunterschrift, einen Call-to-Action.",
+  "Auf einem Dashboard gehört die Zahl, wegen der die Leute kamen, nahe an eine obere Kreuzung, nicht in die Mitte eines gleichförmigen Rasters. Die Drittel erlauben einer Kachel zu führen, während die übrigen gleichrangig bleiben.",
+  "Symmetrie hat ihre eigene Autorität: Logos, Dialoge, Leerzustände und Seiten mit einer einzigen Aussage wirken zentriert oft am besten. Brechen Sie die Regel, wenn Balance und nicht Spannung das Ziel ist.",
+  "Die Drittelregel setzt das Motiv auf 33 Prozent, der Goldene Schnitt auf 38, und das Gutenberg-Diagramm schickt das Auge diagonal durch beide. Sie stimmen mehr überein, als sie sich unterscheiden: weg von der Mitte, entlang des Lesewegs.",
+  "Vision-Modelle können das Motiv finden und es für jede Ausschnittgröße, die ein Kartensystem braucht, auf ein Drittel setzen. Legen Sie die Beschnittregel einmal fest und prüfen Sie dann die Ausreißer: Gesichter nahe am Rand, abgeschnittener Text, ein Motiv, das in die Mitte gerutscht ist.",
+  "Bildgeneratoren setzen Motive standardmäßig in die Mitte. Ein Motiv im linken Drittel mit freiem Raum rechts zu verlangen, ergibt Hero-Bilder, die in ein Layout passen, statt gegen es zu kämpfen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Hero-Bilder",
+  "Ein Motiv",
+  "Symmetrie ist die Botschaft",
+  "Layouts im sichtbaren Bereich",
+  "Text und Bild teilen sich den Hero",
+  "Eine zentrierte Aussage trägt die Seite",
+  "Kartenbilder",
+  "Bilder werden automatisch beschnitten",
+  "Gesichter würden abgeschnitten",
+  "Geteilte Layouts",
+  "Zwei Bereiche mit unterschiedlichem Gewicht",
+  "Die Bereiche sind gleich",
+  "Produktfotos",
+  "Das Motiv hat eine Richtung",
+  "Jeder Pixel muss verkaufen",
+  "Übersichtsscreens",
+  "Eine Kennzahl führt",
+  "Alle Kennzahlen sind gleichrangig",
+  "Dialoge und Leerzustände",
+  "Das Layout ist symmetrisch",
+  "Sie brauchen Bewegung",
+  "Eine Regel wählen",
+  "Optionen vergleichen",
+  "Präzision wird behauptet",
+  "Manueller Beschnitt → erkannter Fokuspunkt",
+  "Tausende Bilder",
+  "Am Rand abgeschnittene Motive",
+  "Zentrierte Standards → gelenkte Komposition",
+  "Hero-Bilder generieren",
+  "Bei kleinen Größen ignorierte Prompts"
+ ],
+ ".ai-divider h3": [
+  "Komposition im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte und automatisch beschnittene Bilder brauchen eine Regel, an der man sie messen kann; die Drittel sind die einfachste."
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Regla de los <em>tercios</em>"
+ ],
+ "header .tagline": [
+  "Fuera del <em>centro</em>, a propósito."
+ ],
+ "header .subtitle": [
+  "Divide el encuadre en tres columnas y tres filas, y pon lo que importa sobre las líneas y sus cuatro cruces. La regla de composición más antigua de la fotografía funciona igual de bien para imágenes hero, recortes y la primera pantalla de una página."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)\" target=\"_blank\" rel=\"noopener\">John Thomas Smith</a>, pintor y grabador inglés, acuñó el término en Remarks on Rural Scenery (1797), defendiendo que un cuadro debía dividirse en tercios — unos dos tercios de tierra por un tercio de cielo — en vez de por la mitad. Los fotógrafos convirtieron la proporción en la conocida cuadrícula de tres por tres en el siglo XX, y las cámaras la dibujan en el visor desde entonces.",
+  "El eye-tracking le da cierto respaldo: los espectadores se detienen en sujetos descentrados y leen el espacio vacío como sitio hacia donde moverse. Su valor real está en ser un punto de partida que evita el centro muerto y estático, no una ley. La simetría, el diagrama de Gutenberg y la proporción áurea ganan cada uno en su situación."
+ ],
+ ".law-content .law-desc": [
+  "Coloca el elemento focal en uno de los cuatro cruces de una cuadrícula de tres por tres, y los horizontes o bordes divisorios sobre una línea de tercio. La composición gana dirección y tensión que un layout centrado no tiene."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-thomas-smith\">John Thomas Smith</a> (1797)",
+  "Remarks on Rural Scenery",
+  "Puntos focales en los cruces"
+ ],
+ ".card .tag": [
+  "Cuadrícula",
+  "Páginas de aterrizaje",
+  "Imágenes",
+  "Horizonte",
+  "Espacio",
+  "Paneles",
+  "Criterio",
+  "Reglas afines",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Los cuatro puntos fuertes",
+  "Composición del hero",
+  "Recortar miniaturas",
+  "Líneas en los tercios",
+  "Espacio hacia donde mirar",
+  "Métricas focales",
+  "Cuándo centrar en su lugar",
+  "Tercios, fi y Gutenberg",
+  "Recorte por punto focal a escala",
+  "Pedir composición al modelo"
+ ],
+ ".card .desc": [
+  "Dos líneas verticales y dos horizontales forman cuatro intersecciones. Un sujeto colocado en cualquiera de ellas se lee como intencional y deja el resto del encuadre libre para contexto, un titular o una llamada a la acción.",
+  "Pon el bloque del titular en el tercio izquierdo y la imagen del producto en los dos tercios derechos, o al revés. El reparto le da al ojo un sitio donde aterrizar y un sitio adonde ir, cosa que una pila centrada no hace.",
+  "Cuando una foto se recorta automáticamente para una tarjeta o una lista, mantén el sujeto en una línea de tercio en vez de centrado. El recorte por punto focal lo hace guardando un punto x/y por imagen y cortando alrededor a cada tamaño.",
+  "Horizontes, bordes de tablas y paneles divididos quedan mejor sobre una línea de tercio que en el medio. Dos tercios de contenido por un tercio de barra lateral es el mismo instinto que Smith describió para la tierra y el cielo.",
+  "Un sujeto descentrado deja espacio negativo en la dirección hacia la que mira o se mueve. Ese espacio no es desperdicio; lleva el mensaje al que el sujeto apunta — un titular, un pie, una llamada a la acción.",
+  "En un panel, el número por el que la gente vino va cerca de un cruce superior, no en el medio de una cuadrícula uniforme. Los tercios le dan permiso a una tarjeta para mandar mientras las demás siguen siendo pares.",
+  "La simetría tiene su propia autoridad: logotipos, diálogos, estados vacíos y páginas de una sola promesa suelen leerse mejor centrados. Rompe la regla cuando el objetivo sea el equilibrio y no la tensión.",
+  "La regla de los tercios pone el sujeto al 33 por ciento, la proporción áurea al 38, y el diagrama de Gutenberg lleva el ojo en diagonal a través de ambos. Coinciden más de lo que difieren: lejos del centro, a lo largo del camino de lectura.",
+  "Los modelos de visión pueden encontrar el sujeto y ponerlo en un tercio para cada tamaño de recorte que un sistema de tarjetas necesite. Fija la regla de recorte una vez y luego audita los casos atípicos: caras cerca de un borde, texto cortado, un sujeto que se fue al centro.",
+  "Los generadores de imágenes centran los sujetos por defecto. Pedir un sujeto en el tercio izquierdo con espacio libre a la derecha produce imágenes hero que encajan en un layout en lugar de pelear con él."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Imágenes hero",
+  "Un solo sujeto",
+  "La simetría es el mensaje",
+  "Layouts sobre el pliegue",
+  "Texto e imagen comparten el hero",
+  "Una sola promesa centrada sostiene la página",
+  "Imágenes de tarjetas",
+  "Las imágenes se recortan automáticamente",
+  "Se cortarían caras",
+  "Layouts divididos",
+  "Dos regiones con distinto peso",
+  "Las regiones son iguales",
+  "Fotos de producto",
+  "El sujeto tiene dirección",
+  "Cada píxel debe vender",
+  "Pantallas de resumen",
+  "Una métrica manda",
+  "Todas las métricas son pares",
+  "Diálogos y estados vacíos",
+  "El layout es simétrico",
+  "Necesitas movimiento",
+  "Elegir una regla",
+  "Comparar opciones",
+  "Se reclama precisión",
+  "Recorte manual → punto focal detectado",
+  "Miles de imágenes",
+  "Sujetos cortados en el borde",
+  "Centrado por defecto → composición dirigida",
+  "Generar imágenes hero",
+  "Prompts ignorados en tamaños pequeños"
+ ],
+ ".ai-divider h3": [
+  "La composición en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las imágenes generadas y recortadas automáticamente necesitan una regla contra la que medirlas; los tercios son la más simple."
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Règle des <em>tiers</em>"
+ ],
+ "header .tagline": [
+  "Hors du <em>centre</em>, volontairement."
+ ],
+ "header .subtitle": [
+  "Divisez le cadre en trois colonnes et trois rangées, et placez ce qui compte sur les lignes et leurs quatre croisements. La plus vieille règle de composition de la photographie fonctionne aussi bien pour les images hero, les recadrages et le premier écran d’une page."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)\" target=\"_blank\" rel=\"noopener\">John Thomas Smith</a>, peintre et graveur anglais, a forgé le terme dans Remarks on Rural Scenery (1797), soutenant qu’un tableau devait être divisé en tiers — environ deux tiers de terre pour un tiers de ciel — plutôt qu’en deux. Les photographes ont transformé la proportion en la grille trois par trois familière au XXe siècle, et les appareils la dessinent dans le viseur depuis.",
+  "L’oculométrie lui apporte un certain soutien : les spectateurs s’attardent sur les sujets décentrés et lisent l’espace vide comme une place où avancer. Sa vraie valeur est d’être un point de départ qui évite le centre mort et statique, pas une loi. La symétrie, le diagramme de Gutenberg et le nombre d’or l’emportent chacun dans leurs situations."
+ ],
+ ".law-content .law-desc": [
+  "Placez l’élément focal sur l’un des quatre croisements d’une grille trois par trois, et les horizons ou lignes de partage sur une ligne de tiers. La composition gagne une direction et une tension qu’une mise en page centrée n’a pas."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-thomas-smith\">John Thomas Smith</a> (1797)",
+  "Remarks on Rural Scenery",
+  "Points focaux sur les croisements"
+ ],
+ ".card .tag": [
+  "Grille",
+  "Pages d’atterrissage",
+  "Images",
+  "Horizon",
+  "Espace",
+  "Tableaux de bord",
+  "Jugement",
+  "Règles voisines",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Les quatre points forts",
+  "Composition du hero",
+  "Recadrer les vignettes",
+  "Les lignes sur les tiers",
+  "De l’espace pour regarder",
+  "Indicateurs focaux",
+  "Quand centrer plutôt",
+  "Tiers, phi et Gutenberg",
+  "Recadrage par point focal à grande échelle",
+  "Demander une composition"
+ ],
+ ".card .desc": [
+  "Deux lignes verticales et deux horizontales forment quatre intersections. Un sujet placé sur l’une d’elles paraît voulu et laisse le reste du cadre libre pour le contexte, un titre ou un appel à l’action.",
+  "Placez le bloc de titre dans le tiers gauche et l’image du produit sur les deux tiers droits, ou l’inverse. Le partage donne à l’œil un endroit où se poser et un endroit où aller, ce qu’une pile centrée ne fait pas.",
+  "Quand une photo est recadrée automatiquement pour une carte ou une liste, gardez le sujet sur une ligne de tiers plutôt qu’au centre. Le recadrage par point focal le fait en stockant un point x/y par image et en découpant autour à toutes les tailles.",
+  "Horizons, bords de tableaux et volets partagés se placent mieux sur une ligne de tiers qu’au milieu. Deux tiers de contenu pour un tiers de barre latérale, c’est le même instinct que Smith décrivait pour la terre et le ciel.",
+  "Un sujet décentré laisse de l’espace négatif dans la direction où il regarde ou se déplace. Cet espace n’est pas perdu ; il porte le message que le sujet désigne — un titre, une légende, un appel à l’action.",
+  "Sur un tableau de bord, le chiffre que les gens sont venus chercher se place près d’un croisement supérieur, pas au milieu d’une grille uniforme. Les tiers donnent à une tuile la permission de mener pendant que les autres restent égales.",
+  "La symétrie a sa propre autorité : logos, boîtes de dialogue, états vides et pages à promesse unique se lisent souvent mieux centrés. Enfreignez la règle quand l’équilibre, et non la tension, est le but.",
+  "La règle des tiers place le sujet à 33 %, le nombre d’or à 38, et le diagramme de Gutenberg envoie l’œil en diagonale à travers les deux. Ils s’accordent plus qu’ils ne divergent : loin du centre, le long du chemin de lecture.",
+  "Les modèles de vision peuvent trouver le sujet et le placer sur un tiers pour chaque taille de recadrage dont un système de cartes a besoin. Fixez la règle de recadrage une fois, puis auditez les cas limites : visages près d’un bord, texte coupé, sujet revenu au centre.",
+  "Les générateurs d’images centrent les sujets par défaut. Demander un sujet sur le tiers gauche avec de l’espace libre à droite produit des images hero qui s’intègrent à une mise en page au lieu de la combattre."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Images hero",
+  "Un seul sujet",
+  "La symétrie est le message",
+  "Mises en page au-dessus de la ligne de flottaison",
+  "Texte et image partagent le hero",
+  "Une seule promesse centrée porte la page",
+  "Images de cartes",
+  "Les images sont recadrées automatiquement",
+  "Des visages seraient coupés",
+  "Mises en page partagées",
+  "Deux zones de poids différent",
+  "Les zones sont égales",
+  "Visuels produit",
+  "Le sujet a une direction",
+  "Chaque pixel doit vendre",
+  "Écrans de synthèse",
+  "Un indicateur mène",
+  "Tous les indicateurs sont égaux",
+  "Dialogues et états vides",
+  "La mise en page est symétrique",
+  "Vous avez besoin de mouvement",
+  "Choisir une règle",
+  "Comparer les options",
+  "La précision est revendiquée",
+  "Recadrage manuel → point focal détecté",
+  "Des milliers d’images",
+  "Des sujets coupés au bord",
+  "Centrage par défaut → composition dirigée",
+  "Générer des images hero",
+  "Des consignes ignorées aux petites tailles"
+ ],
+ ".ai-divider h3": [
+  "La composition à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Les images générées et recadrées automatiquement ont besoin d’une règle à laquelle les mesurer ; les tiers sont la plus simple."
+ ]
+}

@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 45 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 47 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -37,6 +37,8 @@
   "6 patterns",
   "4 quadrants",
   "10 systems",
+  "φ ≈ 1.618",
+  "3 × 3 grid",
   "10 principles",
   "6 uses",
   "+ AI era",
@@ -84,6 +86,8 @@
   "Eye-Scanning Patterns",
   "Gutenberg Principle",
   "Grid and Hierarchy",
+  "Golden Ratio",
+  "Rule of Thirds",
   "Gestalt Principles",
   "Von Restorff Effect",
   "Weber-Fechner Law",
@@ -131,6 +135,8 @@
   "Six scan shapes from eye-tracking research.",
   "Reading gravity flows toward bottom-right.",
   "Grids organize space; hierarchy directs attention.",
+  "Unequal parts that still relate.",
+  "Focal points off center, on purpose.",
   "How the mind groups what it sees.",
   "The different one gets remembered.",
   "Perception scales with ratios, not amounts.",

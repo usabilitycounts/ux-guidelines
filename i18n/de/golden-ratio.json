@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "Goldener <em>Schnitt</em>"
+ ],
+ "header .tagline": [
+  "Balance durch <em>Proportion</em>, nicht nach Augenmaß."
+ ],
+ "header .subtitle": [
+  "Ein Verhältnis von etwa 1,618, das eine Strecke so teilt, dass sich der kleine Teil zum großen verhält wie der große zum Ganzen. Designer nutzen es für Spalten, Schriftgrößen und Bildausschnitte, die ruhig wirken — solange es ein Werkzeug bleibt und keine Regel."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Euclid\" target=\"_blank\" rel=\"noopener\">Euklid</a> definierte die „Teilung im äußeren und mittleren Verhältnis“ um 300 v. Chr. in den Elementen. <a href=\"https://en.wikipedia.org/wiki/Luca_Pacioli\" target=\"_blank\" rel=\"noopener\">Luca Paciolis</a> De divina proportione (1509), illustriert von Leonardo da Vinci, verlieh ihr eine Aura des Heiligen, und Martin Ohm nannte sie 1835 den Goldenen Schnitt. Die Verhältnisse aufeinanderfolgender Fibonacci-Zahlen nähern sich demselben Wert, φ ≈ 1,618.",
+  "Behauptungen, der Parthenon, das Nautilusgehäuse und berühmte Logos seien darauf gebaut, sind größtenteils Folklore; George Markowskys Überblick von 1992 vermaß die bekanntesten Beispiele und fand wenige, die standhalten. Was bleibt, ist praktisch: eine Proportion, die den Raum in ungleiche Teile teilt, die dennoch verwandt wirken."
+ ],
+ ".law-content .law-desc": [
+  "Teilen Sie eine Strecke so, dass sich der größere Teil zum kleineren verhält wie das Ganze zum größeren. Das Ergebnis, φ ≈ 1,618, ergibt Teilungen, die bewusst statt willkürlich wirken — 62/38 statt 50/50 oder 70/30."
+ ],
+ ".law-equation": [
+  "a / b = (a + b) / a = φ ≈ 1.618"
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-euclid\">Euklid</a> (um 300 v. Chr.) · benannt von Martin Ohm (1835)",
+  "Euklids Elemente, Buch VI",
+  "62/38-Teilungen, Schriftskalen, Ausschnitte"
+ ],
+ ".card .tag": [
+  "Layout",
+  "Typografie",
+  "Komposition",
+  "Bilder",
+  "Abstände",
+  "Realitätscheck",
+  "Urteil",
+  "Wahrnehmung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die 62/38-Teilung",
+  "Modulare Schriftskala",
+  "Das goldene Rechteck",
+  "Ausschnitte und Rahmen",
+  "Abstandsrhythmus",
+  "Mythen und Marketing",
+  "Wann man es nicht nutzt",
+  "Warum es ausgewogen wirkt",
+  "Verhältnisbewusste Layout-Generierung",
+  "Angepasste Spiralen erkennen"
+ ],
+ ".card .desc": [
+  "Teilen Sie ein zweispaltiges Layout nach φ statt in der Mitte: Inhalt bei 62 Prozent, Seitenleiste bei 38. Die Asymmetrie zeigt, welche Spalte führt — ohne schwereren Rahmen oder zweite Farbe.",
+  "Multiplizieren Sie eine Grundgröße pro Stufe mit φ — 16, 26, 42, 68 — und jede Überschrift steht im selben Verhältnis zum Fließtext. Viele Teams mildern es für engere Bildschirme auf 1,25 oder 1,333 ab.",
+  "Ein Rechteck mit Seiten im Verhältnis φ lässt sich in ein Quadrat und ein kleineres goldenes Rechteck zerlegen, immer wieder. Die verschachtelten Quadrate ergeben ein fertiges Raster für Hero-Blöcke und Kartenlayouts.",
+  "Beschneiden Sie Bilder auf ein φ-Rechteck, etwa 8:5, und setzen Sie das Motiv auf die Linie, die den Rahmen nach φ teilt, statt in die Mitte. Das liegt nah an der Drittelregel, etwas näher zur Mitte.",
+  "Eine auf φ gebaute Abstandsskala wächst schnell: 8, 13, 21, 34. Fibonacci-Zahlen liefern denselben Rhythmus in ganzen Pixeln. Nutzen Sie sie für Abstände zwischen Abschnitten, nicht für jeden Rand in einer Komponente.",
+  "Parthenon, Nautilus und das Apple-Logo werden routinemäßig mit Spiralen überzeichnet, die nur passen, wenn man die Augen zusammenkneift. Markowsky vermaß die berühmten Beispiele 1992 und fand wenige, die standhalten. Nutzen Sie φ, weil es auf der Seite funktioniert, nicht weil die Natur es verlangt.",
+  "Interfaces sind Systeme aus vielen kleinen Teilen, und φ überlebt selten den Kontakt mit einem 12-Spalten-Raster, einer 8-Punkt-Abstandsskala oder einem festen Viewport. Bricht das erzwungene Verhältnis die Ausrichtung, gewinnt die Ausrichtung.",
+  "Studien seit Fechner 1876 fanden nur eine schwache Vorliebe für goldene Rechtecke, spätere Replikationen noch weniger. Was Menschen verlässlich bevorzugen, ist eine Proportion, die klar ungleich und doch verwandt ist — das liefert φ, und 3:2 oder 5:3 liefern es fast genauso gut.",
+  "Einem Modell, das Layouts komponiert, kann man φ-basierte Teilungen und eine modulare Schriftskala vorgeben, konsistent über Hunderte Screens. Lassen Sie es jede Proportion begründen, und lehnen Sie sie ab, wo das Raster bricht.",
+  "Bildwerkzeuge legen goldene Spiralen über alles, und die Überlagerung passt immer, weil sie passend skaliert wird. Betrachten Sie eine Spirale als Dekoration, nicht als Beweis, und messen Sie stattdessen die zugrunde liegende Proportion."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Inhalt und Seitenleiste",
+  "Eine Spalte führt",
+  "Die Spalten sind gleichrangig",
+  "Editorial-Typografie",
+  "Wenige, klare Stufen",
+  "Dichte UI braucht kleine Schritte",
+  "Hero-Blöcke",
+  "Inhalte verschachteln sich",
+  "Der Inhalt ist eine schlichte Liste",
+  "Fotoausschnitte",
+  "Ein Motiv",
+  "Die Plattform gibt das Seitenverhältnis vor",
+  "Rhythmus der Abschnitte",
+  "Wenige Abstandsstufen",
+  "Ein 8-Punkt-Raster passt bereits",
+  "Behauptungen prüfen",
+  "Eine Spirale wird übergelegt",
+  "Die Proportion ist gemessen, nicht behauptet",
+  "Komponentenlayouts",
+  "Ein Raster ist schon da",
+  "Das Verhältnis kämpft gegen das Raster",
+  "Ein Verhältnis wählen",
+  "Eine Standardteilung festlegen",
+  "Präzision wird behauptet",
+  "Handjustiert → generiert",
+  "Viele Layouts, ein System",
+  "Verhältnisse, die das Raster brechen",
+  "Überlagerung → Messung",
+  "Generierte Kritik prüfen",
+  "Nachträglich angepasste Spiralen"
+ ],
+ ".ai-divider h3": [
+  "Proportion im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte Layouts können ein Verhältnissystem überall zugleich anwenden; das Risiko ist, es dort anzuwenden, wo Ausrichtung wichtiger ist."
+ ]
+}

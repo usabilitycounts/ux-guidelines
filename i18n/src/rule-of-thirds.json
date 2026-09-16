@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Rule of <em>Thirds</em>"
+ ],
+ "header .tagline": [
+  "Off <em>center</em>, on purpose."
+ ],
+ "header .subtitle": [
+  "Divide the frame into three columns and three rows, and put what matters on the lines and their four crossings. The oldest composition rule in photography works just as well for hero images, crops, and the first screen of a page."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/John_Thomas_Smith_(engraver)\" target=\"_blank\" rel=\"noopener\">John Thomas Smith</a>, an English painter and engraver, coined the term in Remarks on Rural Scenery (1797), arguing that a picture should be divided by thirds — about two-thirds land to one-third sky — rather than in half. Photographers turned the proportion into the familiar three-by-three grid in the twentieth century, and cameras have drawn it on the viewfinder ever since.",
+  "Eye-tracking gives it some support: viewers linger on off-center subjects and read empty space as room to move into. Its real value is as a starting point that avoids the static dead center, not as a law. Symmetry, the Gutenberg diagram, and the golden ratio each win in their own situations."
+ ],
+ ".law-content .law-desc": [
+  "Place the focal element on one of the four intersections of a three-by-three grid, and horizons or dividing edges on a third line. The composition gains direction and tension that a centered layout lacks."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-thomas-smith\">John Thomas Smith</a> (1797)",
+  "Remarks on Rural Scenery",
+  "Focal points on the crossings"
+ ],
+ ".card .tag": [
+  "Grid",
+  "Landing pages",
+  "Images",
+  "Horizon",
+  "Space",
+  "Dashboards",
+  "Judgment",
+  "Related rules",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Four Power Points",
+  "Hero Composition",
+  "Cropping Thumbnails",
+  "Lines on the Thirds",
+  "Room to Look Into",
+  "Focal Metrics",
+  "When to Center Instead",
+  "Thirds, Phi, and Gutenberg",
+  "Focal-Point Cropping at Scale",
+  "Prompting for Composition"
+ ],
+ ".card .desc": [
+  "Two vertical and two horizontal lines make four intersections. A subject placed on any of them reads as intentional and leaves the rest of the frame open for context, a headline, or a call to action.",
+  "Put the headline block in the left third and the product image across the right two-thirds, or the reverse. The split gives the eye a place to land and a place to go, which a centered stack does not.",
+  "When a photo is cropped automatically for a card or a list, keep the subject on a third line rather than centered. Focal-point cropping does this by storing one x and y point per image and cutting around it at every size.",
+  "Horizons, table edges, and split panes sit better on a third line than in the middle. Two-thirds content to one-third sidebar is the same instinct Smith described for land and sky.",
+  "An off-center subject leaves negative space in the direction it faces or moves. That space is not waste; it carries the message the subject points at — a headline, a caption, a call to action.",
+  "On a dashboard, the number people came for belongs near a top crossing, not in the middle of a uniform grid. The thirds give one tile permission to lead while the rest stay peers.",
+  "Symmetry has its own authority: logos, dialogs, empty states, and single-claim pages often read best centered. Break the rule when balance, not tension, is the goal.",
+  "The rule of thirds puts the subject at 33 percent, the golden ratio at 38, and the Gutenberg diagram sends the eye diagonally through both. They agree more than they differ: away from the center, along the reading path.",
+  "Vision models can find the subject and place it on a third for every crop size a card system needs. Set the crop rule once, then audit the outliers: faces near an edge, text cut off, a subject that drifted to the center.",
+  "Image generators default to centered subjects. Asking for a subject on the left third with open space to the right produces hero images that fit a layout instead of fighting it."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Hero images",
+  "One subject",
+  "Symmetry is the message",
+  "Above-the-fold layouts",
+  "Text and image share a hero",
+  "One centered claim carries the page",
+  "Card imagery",
+  "Images are auto-cropped",
+  "Faces would be cut",
+  "Split layouts",
+  "Two regions differ in weight",
+  "The regions are equal",
+  "Product shots",
+  "The subject has direction",
+  "Every pixel must sell",
+  "Overview screens",
+  "One metric leads",
+  "All metrics are peers",
+  "Dialogs and empty states",
+  "The layout is symmetric",
+  "You need movement",
+  "Choosing a rule",
+  "Comparing options",
+  "Precision is claimed",
+  "Manual crop → detected focal point",
+  "Thousands of images",
+  "Subjects cut at the edge",
+  "Centered defaults → directed composition",
+  "Generating hero imagery",
+  "Prompts ignored at small sizes"
+ ],
+ ".ai-divider h3": [
+  "Composition in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated and auto-cropped imagery needs a rule it can be measured against; the thirds are the simplest one."
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "Golden <em>Ratio</em>"
+ ],
+ "header .tagline": [
+  "Balance by <em>proportion</em>, not by eye."
+ ],
+ "header .subtitle": [
+  "A ratio of about 1.618 that divides a line so the small part relates to the large as the large does to the whole. Designers use it to size columns, type scales, and crops that feel settled — as long as it stays a tool, not a rule."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Euclid\" target=\"_blank\" rel=\"noopener\">Euclid</a> defined the “extreme and mean ratio” in the Elements around 300 BC. <a href=\"https://en.wikipedia.org/wiki/Luca_Pacioli\" target=\"_blank\" rel=\"noopener\">Luca Pacioli</a>’s De divina proportione (1509), illustrated by Leonardo da Vinci, gave it an aura of the sacred, and Martin Ohm named it the golden section in 1835. The ratios of consecutive Fibonacci numbers converge on the same value, φ ≈ 1.618.",
+  "Claims that the Parthenon, the nautilus shell, and famous logos are built on it are mostly folklore; George Markowsky’s 1992 review measured the best-known examples and found few hold up. What survives is practical: a proportion that divides space into unequal parts that still read as related."
+ ],
+ ".law-content .law-desc": [
+  "Split a length so the larger part is to the smaller as the whole is to the larger. The result, φ ≈ 1.618, produces divisions that feel deliberate rather than arbitrary — a 62/38 split instead of 50/50 or 70/30."
+ ],
+ ".law-equation": [
+  "a / b = (a + b) / a = φ ≈ 1.618"
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-euclid\">Euclid</a> (c. 300 BC) · named by Martin Ohm (1835)",
+  "Euclid’s Elements, Book VI",
+  "62/38 splits, type scales, crops"
+ ],
+ ".card .tag": [
+  "Layout",
+  "Typography",
+  "Composition",
+  "Images",
+  "Spacing",
+  "Reality check",
+  "Judgment",
+  "Perception",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The 62/38 Split",
+  "Modular Type Scale",
+  "The Golden Rectangle",
+  "Crops and Frames",
+  "Spacing Rhythm",
+  "Myths and Marketing",
+  "When Not to Use It",
+  "Why It Feels Balanced",
+  "Ratio-Aware Layout Generation",
+  "Spotting Fitted Spirals"
+ ],
+ ".card .desc": [
+  "Divide a two-column layout by φ instead of in half: content at 62 percent, sidebar at 38. The asymmetry says which column leads without a heavier border or a second color.",
+  "Multiply a base size by φ for each step — 16, 26, 42, 68 — and every heading relates to body text by the same proportion. Many teams soften it to 1.25 or 1.333 for tighter screens.",
+  "A rectangle with sides in the ratio φ can be cut into a square and a smaller golden rectangle, again and again. The nested squares make a ready-made grid for hero blocks and card layouts.",
+  "Crop images to a φ rectangle, roughly 8:5, and place the subject on the line that divides the frame by φ rather than dead center. It sits close to the rule of thirds, a little tighter to the middle.",
+  "A spacing scale built on φ grows fast: 8, 13, 21, 34. Fibonacci numbers give the same rhythm in whole pixels. Use it for gaps between sections, not for every margin inside a component.",
+  "The Parthenon, the nautilus, and the Apple logo are routinely drawn with spirals that fit only if you squint. Markowsky measured the famous examples in 1992 and found few hold. Use φ because it works on the page, not because nature demands it.",
+  "Interfaces are systems of many small parts, and φ rarely survives contact with a 12-column grid, an 8-point spacing scale, or a fixed viewport. If forcing the ratio breaks alignment, alignment wins.",
+  "Studies from Fechner in 1876 onward found only a mild preference for golden rectangles, and later replications found less. What people reliably prefer is a proportion that is clearly unequal yet related — which φ delivers, and 3:2 or 5:3 deliver nearly as well.",
+  "A model that composes a layout can be told to prefer φ-based splits and a modular type scale, and apply them consistently across hundreds of screens. Ask it to justify each proportion, and reject it where the grid breaks.",
+  "Image tools overlay golden spirals on anything, and the overlay always fits because it is scaled to fit. Treat a spiral as decoration, not evidence, and measure the underlying proportion instead."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Content and sidebar",
+  "One column leads",
+  "Columns are peers",
+  "Editorial type",
+  "Few, distinct levels",
+  "Dense UI needs small steps",
+  "Hero blocks",
+  "Content nests",
+  "Content is a plain list",
+  "Photo crops",
+  "One subject",
+  "The platform fixes the aspect ratio",
+  "Section rhythm",
+  "Few spacing levels",
+  "An 8-point grid already fits",
+  "Reviewing claims",
+  "A spiral overlay appears",
+  "The proportion is measured, not asserted",
+  "Component layouts",
+  "A grid already exists",
+  "The ratio fights the grid",
+  "Choosing a ratio",
+  "Picking a default split",
+  "Precision is claimed",
+  "Hand-tuned → generated",
+  "Many layouts, one system",
+  "Ratios that break the grid",
+  "Overlay → measurement",
+  "Reviewing generated critique",
+  "Spirals fitted after the fact"
+ ],
+ ".ai-divider h3": [
+  "Proportion in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated layouts can apply a ratio system everywhere at once; the risk is applying it where alignment matters more."
+ ]
+}

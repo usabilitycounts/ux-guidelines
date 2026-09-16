@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "Nombre <em>d’or</em>"
+ ],
+ "header .tagline": [
+  "L’équilibre par la <em>proportion</em>, pas à l’œil."
+ ],
+ "header .subtitle": [
+  "Un rapport d’environ 1,618 qui divise une longueur de sorte que la petite partie soit à la grande ce que la grande est au tout. Les designers s’en servent pour dimensionner colonnes, échelles typographiques et recadrages qui paraissent posés — tant qu’il reste un outil, pas une règle."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Euclid\" target=\"_blank\" rel=\"noopener\">Euclide</a> a défini la « division en extrême et moyenne raison » dans les Éléments vers 300 av. J.-C. Le De divina proportione (1509) de <a href=\"https://en.wikipedia.org/wiki/Luca_Pacioli\" target=\"_blank\" rel=\"noopener\">Luca Pacioli</a>, illustré par Léonard de Vinci, lui a donné une aura sacrée, et Martin Ohm l’a baptisé section d’or en 1835. Les rapports de nombres de Fibonacci consécutifs convergent vers la même valeur, φ ≈ 1,618.",
+  "Les affirmations selon lesquelles le Parthénon, la coquille du nautile et des logos célèbres seraient construits dessus relèvent surtout du folklore ; la revue de George Markowsky en 1992 a mesuré les exemples les plus connus et en a trouvé peu qui tiennent. Ce qui reste est pratique : une proportion qui divise l’espace en parties inégales mais apparentées."
+ ],
+ ".law-content .law-desc": [
+  "Divisez une longueur de sorte que la grande partie soit à la petite ce que le tout est à la grande. Le résultat, φ ≈ 1,618, produit des divisions qui paraissent voulues plutôt qu’arbitraires — un partage 62/38 au lieu de 50/50 ou 70/30."
+ ],
+ ".law-equation": [
+  "a / b = (a + b) / a = φ ≈ 1.618"
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-euclid\">Euclide</a> (v. 300 av. J.-C.) · nommé par Martin Ohm (1835)",
+  "Les Éléments d’Euclide, livre VI",
+  "Partages 62/38, échelles typo, recadrages"
+ ],
+ ".card .tag": [
+  "Mise en page",
+  "Typographie",
+  "Composition",
+  "Images",
+  "Espacement",
+  "Vérification",
+  "Jugement",
+  "Perception",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le partage 62/38",
+  "Échelle typographique modulaire",
+  "Le rectangle d’or",
+  "Recadrages et cadres",
+  "Rythme d’espacement",
+  "Mythes et marketing",
+  "Quand ne pas l’utiliser",
+  "Pourquoi ça paraît équilibré",
+  "Génération de mises en page consciente des rapports",
+  "Repérer les spirales ajustées"
+ ],
+ ".card .desc": [
+  "Divisez une mise en page à deux colonnes selon φ plutôt qu’en deux : le contenu à 62 %, la barre latérale à 38. L’asymétrie dit quelle colonne mène, sans bordure plus lourde ni seconde couleur.",
+  "Multipliez une taille de base par φ à chaque palier — 16, 26, 42, 68 — et chaque titre se rapporte au texte courant selon la même proportion. Beaucoup d’équipes l’adoucissent à 1,25 ou 1,333 pour des écrans plus serrés.",
+  "Un rectangle dont les côtés sont dans le rapport φ se découpe en un carré et un rectangle d’or plus petit, encore et encore. Les carrés emboîtés forment une grille toute prête pour les blocs hero et les mises en page de cartes.",
+  "Recadrez les images en rectangle φ, environ 8:5, et placez le sujet sur la ligne qui divise le cadre selon φ plutôt qu’en plein centre. C’est proche de la règle des tiers, un peu plus resserré vers le milieu.",
+  "Une échelle d’espacement fondée sur φ croît vite : 8, 13, 21, 34. Les nombres de Fibonacci donnent le même rythme en pixels entiers. Réservez-la aux écarts entre sections, pas à chaque marge dans un composant.",
+  "Le Parthénon, le nautile et le logo Apple sont régulièrement dessinés avec des spirales qui ne collent qu’en plissant les yeux. Markowsky a mesuré les exemples célèbres en 1992 et en a trouvé peu qui tiennent. Utilisez φ parce que ça marche sur la page, pas parce que la nature l’exige.",
+  "Les interfaces sont des systèmes de nombreuses petites parties, et φ survit rarement à la rencontre d’une grille à 12 colonnes, d’une échelle d’espacement de 8 points ou d’une fenêtre fixe. Si forcer le rapport casse l’alignement, l’alignement gagne.",
+  "Les études depuis Fechner en 1876 n’ont trouvé qu’une légère préférence pour les rectangles d’or, et les réplications ultérieures encore moins. Ce que les gens préfèrent de façon fiable, c’est une proportion nettement inégale mais apparentée — ce que φ offre, et que 3:2 ou 5:3 offrent presque aussi bien.",
+  "On peut demander à un modèle qui compose une mise en page de préférer les partages fondés sur φ et une échelle typographique modulaire, et de les appliquer de façon cohérente sur des centaines d’écrans. Demandez-lui de justifier chaque proportion, et refusez-la là où la grille casse.",
+  "Les outils d’image superposent des spirales d’or sur n’importe quoi, et la superposition colle toujours puisqu’elle est mise à l’échelle pour coller. Considérez une spirale comme une décoration, pas comme une preuve, et mesurez plutôt la proportion sous-jacente."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Contenu et barre latérale",
+  "Une colonne mène",
+  "Les colonnes sont égales",
+  "Typographie éditoriale",
+  "Peu de niveaux, bien distincts",
+  "Une UI dense demande de petits pas",
+  "Blocs hero",
+  "Le contenu s’emboîte",
+  "Le contenu est une simple liste",
+  "Recadrages photo",
+  "Un seul sujet",
+  "La plateforme impose le format",
+  "Rythme des sections",
+  "Peu de niveaux d’espacement",
+  "Une grille de 8 points suffit déjà",
+  "Examiner les affirmations",
+  "Une spirale est superposée",
+  "La proportion est mesurée, pas affirmée",
+  "Mises en page de composants",
+  "Une grille existe déjà",
+  "Le rapport se bat avec la grille",
+  "Choisir un rapport",
+  "Choisir un partage par défaut",
+  "La précision est revendiquée",
+  "Réglé à la main → généré",
+  "Beaucoup de mises en page, un système",
+  "Des rapports qui cassent la grille",
+  "Superposition → mesure",
+  "Relire une critique générée",
+  "Des spirales ajustées après coup"
+ ],
+ ".ai-divider h3": [
+  "La proportion à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Les mises en page générées peuvent appliquer un système de rapports partout à la fois ; le risque est de l’appliquer là où l’alignement compte davantage."
+ ]
+}

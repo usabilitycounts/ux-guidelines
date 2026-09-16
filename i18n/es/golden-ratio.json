@@ -1,0 +1,137 @@
+{
+ "header h1": [
+  "Proporción <em>áurea</em>"
+ ],
+ "header .tagline": [
+  "Equilibrio por <em>proporción</em>, no a ojo."
+ ],
+ "header .subtitle": [
+  "Una razón de aproximadamente 1,618 que divide una longitud de modo que la parte pequeña es a la grande como la grande al todo. Los diseñadores la usan para dimensionar columnas, escalas tipográficas y recortes que se sienten asentados — mientras siga siendo una herramienta y no una regla."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"https://en.wikipedia.org/wiki/Euclid\" target=\"_blank\" rel=\"noopener\">Euclides</a> definió la «razón extrema y media» en los Elementos hacia el 300 a. C. El De divina proportione (1509) de <a href=\"https://en.wikipedia.org/wiki/Luca_Pacioli\" target=\"_blank\" rel=\"noopener\">Luca Pacioli</a>, ilustrado por Leonardo da Vinci, le dio un aura sagrada, y Martin Ohm la bautizó sección áurea en 1835. Las razones entre números de Fibonacci consecutivos convergen al mismo valor, φ ≈ 1,618.",
+  "Las afirmaciones de que el Partenón, la concha del nautilo y logotipos famosos se construyen sobre ella son en su mayoría folclore; la revisión de George Markowsky en 1992 midió los ejemplos más conocidos y encontró pocos que se sostengan. Lo que sobrevive es práctico: una proporción que divide el espacio en partes desiguales que aun así se leen como emparentadas."
+ ],
+ ".law-content .law-desc": [
+  "Divide una longitud de modo que la parte mayor sea a la menor como el todo a la mayor. El resultado, φ ≈ 1,618, produce divisiones que se sienten deliberadas y no arbitrarias — un reparto 62/38 en lugar de 50/50 o 70/30."
+ ],
+ ".law-equation": [
+  "a / b = (a + b) / a = φ ≈ 1.618"
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-euclid\">Euclides</a> (c. 300 a. C.) · nombrada por Martin Ohm (1835)",
+  "Los Elementos de Euclides, libro VI",
+  "Repartos 62/38, escalas tipográficas, recortes"
+ ],
+ ".card .tag": [
+  "Layout",
+  "Tipografía",
+  "Composición",
+  "Imágenes",
+  "Espaciado",
+  "Prueba de realidad",
+  "Criterio",
+  "Percepción",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El reparto 62/38",
+  "Escala tipográfica modular",
+  "El rectángulo áureo",
+  "Recortes y encuadres",
+  "Ritmo de espaciado",
+  "Mitos y marketing",
+  "Cuándo no usarla",
+  "Por qué se siente equilibrada",
+  "Generación de layouts consciente de la razón",
+  "Detectar espirales ajustadas"
+ ],
+ ".card .desc": [
+  "Divide un layout de dos columnas por φ en lugar de por la mitad: contenido al 62 por ciento, barra lateral al 38. La asimetría indica qué columna manda sin un borde más pesado ni un segundo color.",
+  "Multiplica un tamaño base por φ en cada paso — 16, 26, 42, 68 — y cada título se relaciona con el cuerpo de texto en la misma proporción. Muchos equipos lo suavizan a 1,25 o 1,333 para pantallas más ajustadas.",
+  "Un rectángulo con lados en razón φ puede cortarse en un cuadrado y un rectángulo áureo más pequeño, una y otra vez. Los cuadrados anidados forman una retícula lista para bloques hero y layouts de tarjetas.",
+  "Recorta las imágenes a un rectángulo φ, aproximadamente 8:5, y coloca el sujeto en la línea que divide el encuadre por φ en vez de en el centro exacto. Queda cerca de la regla de los tercios, algo más pegado al medio.",
+  "Una escala de espaciado basada en φ crece rápido: 8, 13, 21, 34. Los números de Fibonacci dan el mismo ritmo en píxeles enteros. Úsala para los huecos entre secciones, no para cada margen dentro de un componente.",
+  "El Partenón, el nautilo y el logo de Apple se dibujan una y otra vez con espirales que solo encajan si entrecierras los ojos. Markowsky midió los ejemplos famosos en 1992 y encontró pocos que se sostengan. Usa φ porque funciona en la página, no porque la naturaleza lo exija.",
+  "Las interfaces son sistemas de muchas piezas pequeñas, y φ rara vez sobrevive al contacto con una retícula de 12 columnas, una escala de espaciado de 8 puntos o un viewport fijo. Si forzar la razón rompe la alineación, gana la alineación.",
+  "Los estudios desde Fechner en 1876 hallaron solo una leve preferencia por los rectángulos áureos, y las réplicas posteriores aún menos. Lo que la gente prefiere de forma fiable es una proporción claramente desigual pero emparentada — que φ ofrece, y que 3:2 o 5:3 ofrecen casi igual de bien.",
+  "A un modelo que compone layouts se le puede pedir que prefiera repartos basados en φ y una escala tipográfica modular, y que los aplique de forma coherente en cientos de pantallas. Pídele que justifique cada proporción, y recházala donde la retícula se rompa.",
+  "Las herramientas de imagen superponen espirales áureas sobre cualquier cosa, y la superposición siempre encaja porque se escala para encajar. Trata una espiral como decoración, no como prueba, y mide en su lugar la proporción subyacente."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Contenido y barra lateral",
+  "Una columna manda",
+  "Las columnas son pares",
+  "Tipografía editorial",
+  "Pocos niveles, bien distintos",
+  "Una UI densa necesita pasos pequeños",
+  "Bloques hero",
+  "El contenido se anida",
+  "El contenido es una lista simple",
+  "Recortes de foto",
+  "Un solo sujeto",
+  "La plataforma fija la proporción",
+  "Ritmo de secciones",
+  "Pocos niveles de espaciado",
+  "Una retícula de 8 puntos ya encaja",
+  "Revisar afirmaciones",
+  "Aparece una espiral superpuesta",
+  "La proporción está medida, no afirmada",
+  "Layouts de componentes",
+  "Ya existe una retícula",
+  "La razón pelea con la retícula",
+  "Elegir una razón",
+  "Fijar un reparto por defecto",
+  "Se reclama precisión",
+  "Ajustado a mano → generado",
+  "Muchos layouts, un sistema",
+  "Razones que rompen la retícula",
+  "Superposición → medición",
+  "Revisar críticas generadas",
+  "Espirales ajustadas a posteriori"
+ ],
+ ".ai-divider h3": [
+  "La proporción en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los layouts generados pueden aplicar un sistema de razones en todas partes a la vez; el riesgo es aplicarlo donde la alineación importa más."
+ ]
+}
