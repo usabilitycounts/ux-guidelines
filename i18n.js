@@ -134,6 +134,8 @@
     "Grid and Hierarchy": ["Grille et hiérarchie", "Raster und Hierarchie", "Retícula y jerarquía", "グリッドと階層", "网格与层级"],
     "Golden Ratio": ["Nombre d’or", "Goldener Schnitt", "Proporción áurea", "黄金比", "黄金比例"],
     "Rule of Thirds": ["Règle des tiers", "Drittelregel", "Regla de los tercios", "三分割法", "三分法"],
+    "Rule of Odds": ["Règle des nombres impairs", "Regel der ungeraden Zahl", "Regla de los impares", "奇数の法則", "奇数法则"],
+    "Canons of Page Construction": ["Canons de construction de la page", "Kanons des Seitenaufbaus", "Cánones de construcción de página", "ページ構成のカノン", "版面构成法则"],
     "Navigation Patterns": ["Modèles de navigation", "Navigationsmuster", "Patrones de navegación", "ナビゲーションパターン", "导航模式"],
     "Universal Icons": ["Icônes universelles", "Universelle Icons", "Iconos universales", "ユニバーサルアイコン", "通用图标"],
     "Nielsen's 10 Heuristics": ["Les 10 heuristiques de Nielsen", "Nielsens 10 Heuristiken", "Las 10 heurísticas de Nielsen", "ニールセンの10ヒューリスティクス", "尼尔森十大启发式原则"],
@@ -155,11 +157,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une bibliothèque grandissante de 47 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
-      de: "Eine wachsende Bibliothek von 47 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
-      es: "Una biblioteca creciente de 47 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
-      ja: "研究に裏付けられた47件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
-      zh: "一个不断成长的资料库，收录47篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
+      fr: "Une bibliothèque grandissante de 49 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
+      de: "Eine wachsende Bibliothek von 49 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
+      es: "Una biblioteca creciente de 49 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
+      ja: "研究に裏付けられた49件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
+      zh: "一个不断成长的资料库，收录49篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -328,6 +330,20 @@
       es: "Divide el encuadre en tres columnas y tres filas, y pon lo que importa sobre las líneas y sus cuatro cruces. La regla de composición más antigua de la fotografía funciona igual de bien para imágenes hero, recortes y la primera pantalla de una página.",
       ja: "フレームを3列3段に分け、大事なものを線とその4つの交点の上に置く。写真における最古の構図ルールは、ヒーロー画像やトリミング、ページの最初の画面にもそのまま効く。",
       zh: "把画面分成三列三行，把重要的东西放在线上和四个交点上。摄影中最古老的构图法则，同样适用于首屏图片、裁切和页面的第一屏。" } },
+    "rule-of-odds": { tag: {
+      fr: "Trois paraît posé ; quatre paraît rangé.", de: "Drei wirkt ruhig, vier wirkt sortiert.", es: "Tres se siente asentado; cuatro, ordenado.", ja: "3つは落ち着き、4つは整列に見える。", zh: "三个显得安定，四个显得排列。" }, sub: {
+      fr: "Les groupes de trois ou de cinq paraissent plus naturels que les groupes pairs, ce qui compte pour les cartes de fonctionnalités et les images. Un nombre impair offre à l’œil un milieu où se poser ; un nombre pair se scinde en paires et demande à être comparé.",
+      de: "Gruppen von drei oder fünf wirken natürlicher als gerade Gruppen, was für Feature-Karten und Bilder zählt. Eine ungerade Zahl gibt dem Auge eine Mitte zum Ausruhen; eine gerade zerfällt in Paare und verlangt einen Vergleich.",
+      es: "Los grupos de tres o cinco se sienten más naturales que los grupos pares, lo que importa para tarjetas de funciones e imágenes. Un número impar le da al ojo un centro donde descansar; uno par se divide en pares y pide ser comparado.",
+      ja: "3つや5つの群は偶数の群より自然に見え、機能カードや画像で効いてくる。奇数は視線に休める中心を与え、偶数は対に分かれて比較を求める。",
+      zh: "三个或五个一组比偶数一组更自然，这对功能卡片和图片很重要。奇数给视线一个可以停留的中心；偶数则分成一对对，要求被比较。" } },
+    "canons-of-page-construction": { tag: {
+      fr: "Les marges que les scribes mesuraient.", de: "Die Ränder, die Schreiber maßen.", es: "Los márgenes que medían los escribas.", ja: "写字生が測った余白。", zh: "抄写员量出的页边。" }, sub: {
+      fr: "Les rapports classiques de marges et de bloc de texte derrière les mises en page lisibles. Un bloc de texte dans la proportion même de la page, une marge intérieure plus étroite que l’extérieure, un pied plus profond que la tête : des règles reconstruites à partir de manuscrits médiévaux qui donnent encore à un écran de lecture un air composé.",
+      de: "Die klassischen Rand- und Satzspiegelverhältnisse hinter lesbaren Seitenlayouts. Ein Satzspiegel in der Proportion der Seite, ein innerer Rand schmaler als der äußere, ein Fuß tiefer als der Kopf: Regeln, aus mittelalterlichen Handschriften rekonstruiert, die einen Lesebildschirm noch immer komponiert wirken lassen.",
+      es: "Las proporciones clásicas de márgenes y bloque de texto detrás de las maquetas legibles. Un bloque de texto en la misma proporción que la página, un margen interior más estrecho que el exterior, un pie más hondo que la cabeza: reglas reconstruidas a partir de manuscritos medievales que aún hacen que una pantalla de lectura se sienta compuesta.",
+      ja: "読みやすいページレイアウトを支える、余白と版面の古典的な比率。ページと同じ比率の版面、外側より狭い内側の余白、天より深い地——中世の写本から再構成されたルールは、今も読むための画面に整った印象を与える。",
+      zh: "可读版面背后的经典页边与版心比例。版心与页面同比例，内边距窄于外边距，地脚深于天头：这些从中世纪手抄本中重建的规则，至今仍能让阅读屏幕显得从容有序。" } },
     "navigation": { tag: {
       fr: "Aidez les gens à savoir où ils sont, où ils peuvent aller et comment revenir.", de: "Hilf Menschen zu wissen, wo sie sind, wohin sie können und wie sie zurückkommen.", es: "Ayuda a la gente a saber dónde está, adónde puede ir y cómo volver.", ja: "今どこにいて、どこへ行けて、どう戻れるかを伝える。", zh: "让人们知道自己在哪、能去哪、怎么回来。" }, sub: {
       fr: "La navigation est le tissu conjonctif d'un produit. Chaque couche a un rôle différent — donnez-leur le bon poids et la structure devient invisible.",
@@ -445,7 +461,7 @@
     // files are named by the English one, so map it back through the slug table.
     const S = window.UX_SLUGS && window.UX_SLUGS[lang];
     if (S) { for (const en in S) { if (S[en] === page) { page = en; break; } } }
-    fetch('i18n/' + lang + '/' + page + '.json?v=22')
+    fetch('i18n/' + lang + '/' + page + '.json?v=23')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});

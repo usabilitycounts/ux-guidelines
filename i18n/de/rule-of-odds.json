@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Regel der <em>ungeraden Zahl</em>"
+ ],
+ "header .tagline": [
+  "Drei wirkt <em>ruhig</em>, vier wirkt sortiert."
+ ],
+ "header .subtitle": [
+  "Gruppen von drei oder fünf wirken natürlicher als gerade Gruppen, was für Feature-Karten und Bilder zählt. Eine ungerade Zahl gibt dem Auge eine Mitte zum Ausruhen; eine gerade zerfällt in Paare und verlangt einen Vergleich."
+ ],
+ ".law-origin .body-text": [
+  "Die Regel der ungeraden Zahl ist eine Arbeitskonvention von Malern, Floristen und Fotografen, keine Entdeckung mit einem einzelnen Urheber. Lehrbücher für Stillleben und Blumenkomposition lehren seit Langem, dass drei oder fünf Objekte als eine Gruppe gelesen werden, während zwei oder vier in Paare zerfallen, und Fotografie-Ratgeber des 20. Jahrhunderts trugen die Gewohnheit in den Sucher.",
+  "Der Wahrnehmungsgrund ist einfach: Eine ungerade Gruppe hat ein mittleres Element, also kommt das Auge zur Ruhe; eine gerade Gruppe hat eine Lücke in der Mitte, also pendelt das Auge. Gestaltforschung zur Gruppierung und Studien zur Vorliebe für Asymmetrie weisen in dieselbe Richtung, doch die Regel bleibt eine Heuristik, kein Gesetz."
+ ],
+ ".law-content .law-desc": [
+  "Werden ähnliche Elemente gemeinsam gezeigt, liest sich eine ungerade Zahl — drei, fünf, sieben — als eine bewusste Gruppe mit natürlicher Mitte. Eine gerade Zahl liest sich als Paare, lädt zum Vergleich ein und kann unfertig wirken, wenn ein Element fehlt."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Kompositionspraxis in Malerei, Floristik und Fotografie",
+  "Lehrbücher zu Stillleben und Fotokomposition",
+  "Drei Karten, drei Schritte, drei Bilder"
+ ],
+ ".card .tag": [
+  "Feature-Karten",
+  "Preise",
+  "Schritte",
+  "Bildsprache",
+  "Navigation",
+  "Betonung",
+  "Urteil",
+  "Belege",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Drei nebeneinander",
+  "Drei Tarife, einer hervorgehoben",
+  "Drei Schritte zu allem",
+  "Objekte im Bild",
+  "Tabs und Werkzeugleisten",
+  "Das mittlere Element",
+  "Wann gerade gewinnt",
+  "Eine Heuristik, kein Gesetz",
+  "Nach drei fragen",
+  "Ungerade Gruppen in generierten Bildern"
+ ],
+ ".card .desc": [
+  "Eine Reihe aus drei Feature-Karten hat eine mittlere Karte als Anker und zwei Flügel als Balance. Vier zerfällt in zwei Paare und die Reihe verliert ihre Mitte; bei vier Features zeigen Sie drei und verlinken den Rest.",
+  "Preistabellen pendeln sich aus gutem Grund bei drei Stufen ein: Der mittlere Tarif hat einen natürlichen Platz für die Empfehlung, und die beiden daneben rahmen ihn als vernünftige Wahl. Zwei Tarife erzwingen ein Entweder-oder; vier verstecken die Mitte.",
+  "Onboarding, Checkout und „So funktioniert es“-Abschnitte lesen sich am besten als drei oder fünf Schritte. Drei passen ins Arbeitsgedächtnis und versprechen wenig Aufwand; fünf lesen sich noch als ein Prozess. Ab sieben wird es eine Liste, keine Geschichte.",
+  "Produktfotos, Hero-Collagen und Illustrationen kommen mit drei Objekten zur Ruhe: eines dominant, zwei begleitend. Zwei Objekte starren sich an; vier reihen sich auf wie ein Katalog. Variieren Sie Größe und Abstand, damit die drei nicht als Reihe wirken.",
+  "Mobile Tab-Leisten laufen auf drei oder fünf Einträge hinaus, weil der mittlere Platz zur Startseite oder Hauptaktion wird. Eine gerade Zahl lässt die Hauptaktion außerhalb der Mitte, weshalb Leisten mit vier Tabs so oft einen fünften bekommen.",
+  "Eine ungerade Gruppe gibt Ihnen eine Mitte, die größer, heller oder kräftiger werden kann. Nutzen Sie sie: der empfohlene Tarif, das hervorgehobene Testimonial, das Leitbild. In einer geraden Gruppe gibt es keine Mitte, und die Betonung muss gegen die Symmetrie ankämpfen.",
+  "Vergleiche, Vorher-nachher-Paare, Nebeneinander-Layouts und Datenraster sind von Natur aus gerade. Zwei Textspalten, vier Quadranten eines Diagramms und eine Galerie zu zweit lesen sich als Struktur, nicht als unvollendetes Trio.",
+  "Keine kontrollierte Studie zeigt, dass drei immer vier schlägt. Was die Regel festhält, ist eine Vorliebe für eine sichtbare Mitte und eine Abneigung gegen übrig bleibende Lücken. Testen Sie die Zahl mit echtem Inhalt; ein starkes viertes Feature schlägt ein schwaches Trio jedes Mal.",
+  "Wenn ein Modell eine Landingpage oder eine Folie entwirft, geben Sie die Zahl vor: drei Features, fünf Schritte, ein hervorgehobener Tarif. Sich selbst überlassen füllt es auf vier oder sechs auf, um das Raster zu füllen, und das Layout verliert seine Mitte.",
+  "Bildmodelle rendern bereitwillig ein Paar von allem. Fordern Sie drei Objekte in verschiedenen Größen an, und prüfen Sie, ob das Ergebnis ein dominantes Element hat statt drei gleicher in einer Reihe."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Marketingseiten",
+  "Drei oder fünf gleichwertige Elemente",
+  "Die Zahl ist die Botschaft",
+  "Tarifauswahl",
+  "Eine Option soll führen",
+  "Die Tarife sind wirklich gleichwertig",
+  "Abläufe und Erklärungen",
+  "Schritte lassen sich gruppieren",
+  "Jeder Schritt ist vorgeschrieben",
+  "Hero-Visuals",
+  "Die Objekte unterscheiden sich in der Größe",
+  "Das Set ist ein passendes Paar",
+  "Tab-Leisten",
+  "Ein Ziel führt",
+  "Die Bereiche sind strikt gleichrangig",
+  "Empfohlene Optionen",
+  "Ein Element muss herausstechen",
+  "Gleichbehandlung ist gefordert",
+  "Vergleiche und Raster",
+  "Elemente kommen paarweise",
+  "Sie wollen ein fokales Element",
+  "Entscheiden, was gestrichen wird",
+  "Inhalt wird passend gekürzt",
+  "Das vierte Element bringt den Verkauf",
+  "Modellstandard → vorgegebene Zahl",
+  "Seitenabschnitte generieren",
+  "Auffüllen, um das Raster zu füllen",
+  "Paare → dominantes Trio",
+  "Hero-Grafiken komponieren",
+  "Drei identische Objekte in einer Reihe"
+ ],
+ ".ai-divider h3": [
+  "Ungerade Zahlen im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte Seiten wählen standardmäßig die Zahl, die das Modell am häufigsten gesehen hat; die Gruppengröße ist eine Entscheidung, die man explizit treffen sollte."
+ ]
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" data-page="rule-of-odds">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared.">
+<title>Rule of Odds: Why Groups of Three and Five Feel Natural — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/rule-of-odds.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/rule-of-odds.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/regla-de-los-impares.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/regel-der-ungeraden-zahl.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/regle-des-nombres-impairs.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/rule-of-odds.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/rule-of-odds.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/rule-of-odds.html">
+<meta property="og:title" content="Rule of Odds: Why Groups of Three and Five Feel Natural — UX Guidelines">
+<meta property="og:description" content="Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/rule-of-odds.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/rule-of-odds.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/rule-of-odds.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rule of Odds: Why Groups of Three and Five Feel Natural — UX Guidelines">
+<meta name="twitter:description" content="Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Rule of Odds: Why Groups of Three and Five Feel Natural", "description": "Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared.", "url": "https://www.ux-guidelines.com/rule-of-odds.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/rule-of-odds.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Rule of Odds: Why Groups of Three and Five Feel Natural", "item": "https://www.ux-guidelines.com/rule-of-odds.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=103">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  .glay { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 22px; }
+  .gb { background: var(--skel); opacity: 0.5; border-radius: 8px; }
+  .gb.hot { background: var(--il-accent); opacity: 1; }
+  .gb.dark { background: var(--skel-strong); opacity: 0.6; }
+  .ro-row { display: flex; gap: 12px; height: 100%; align-items: stretch; }
+  .ro-row .gb { flex: 1; }
+  .ro-row .gb.mid { flex: 1.15; }
+  .ro-cards { display: flex; gap: 12px; height: 100%; }
+  .ro-cards .c { flex: 1; border-radius: 8px; background: var(--surface); padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+  .ro-cards .c i { display: block; height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; }
+  .ro-cards .c i.t { height: 10px; width: 60%; opacity: 0.85; }
+  .ro-cards .c.hot { box-shadow: inset 0 0 0 2px var(--il-accent); background: rgba(56,189,248,0.12); transform: scale(1.05); }
+  .ro-cards .c.hot i { background: var(--il-accent); opacity: 1; }
+  .ro-steps { display: flex; align-items: center; height: 100%; padding: 0 10px; }
+  .ro-steps .nd { width: 26px; height: 26px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .ro-steps .nd.g { background: var(--skel); opacity: 0.6; }
+  .ro-steps .ln { flex: 1; height: 4px; background: var(--skel); opacity: 0.4; }
+  .ro-objs { position: relative; height: 100%; }
+  .ro-objs span { position: absolute; border-radius: 50%; background: var(--skel-strong); opacity: 0.6; }
+  .ro-objs span.hot { background: var(--il-accent); opacity: 1; }
+  .ro-tabs { display: flex; flex-direction: column; justify-content: flex-end; height: 100%; }
+  .ro-tabs .bar { display: flex; justify-content: space-around; align-items: center; height: 46px; border-radius: 10px; background: var(--surface); }
+  .ro-tabs .bar i { width: 18px; height: 18px; border-radius: 5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .ro-tabs .bar i.hot { width: 26px; height: 26px; border-radius: 50%; background: var(--il-accent); opacity: 1; }
+  .ro-even { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; height: 100%; }
+  .ro-even .c { border-radius: 8px; background: var(--surface); padding: 10px; display: flex; flex-direction: column; gap: 5px; }
+  .ro-even .c i { display: block; height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.45; }
+  .ro-test { display: flex; gap: 14px; height: 100%; align-items: stretch; }
+  .ro-test .side { flex: 1; display: flex; gap: 6px; }
+  .ro-test .side span { flex: 1; border-radius: 6px; background: var(--skel); opacity: 0.45; }
+  .ro-test .side span.hot { background: var(--il-accent); opacity: 1; }
+  .ro-gen { display: flex; flex-direction: column; gap: 10px; height: 100%; justify-content: center; }
+  .ro-gen .bub { border-radius: 10px; background: rgba(56,189,248,0.15); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; align-self: flex-end; width: 60%; }
+  .ro-gen .bub i { display: block; height: 5px; border-radius: 2.5px; background: var(--il-accent); }
+  .ro-gen .out { display: flex; gap: 8px; flex: 1; }
+  .ro-gen .out span { flex: 1; border-radius: 6px; background: var(--skel); opacity: 0.4; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+</style>
+<script defer src="tokens.js?v=97"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link active">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Rule of <em>Odds</em></h1>
+  <p class="tagline">Three feels <em>settled</em>; four feels sorted.</p>
+  <p class="subtitle">Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The rule of odds is a working convention of painters, florists, and photographers rather than a discovery with a single author. Still-life and floral composition manuals have long taught that three or five objects read as one group while two or four split into pairs, and twentieth-century photography guides carried the habit into the viewfinder.</p>
+    <p class="body-text">The perceptual reason is simple: an odd group has a center element, so the eye settles; an even group has a gap in the middle, so the eye alternates. Gestalt research on grouping and studies of preference for asymmetry point the same way, though the rule remains a heuristic, not a law.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Rule</div>
+    <p class="body-text law-desc">When a set of similar items is shown together, an odd count — three, five, seven — reads as one deliberate group with a natural center. An even count reads as pairs, invites comparison, and can look unfinished when one item is missing.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">Composition practice in painting, floristry, and photography</div></div>
+      <div><div class="label">Source</div><div class="value">Manuals of still-life and photographic composition</div></div>
+      <div><div class="label">In practice</div><div class="value">Three cards, three steps, three images</div></div>
+    </div>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Three Across -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Feature cards</span>
+      <span class="num">01 / 10</span>
+      <h3>Three Across</h3>
+      <p class="desc">A row of three feature cards has a middle card to anchor it and two wings to balance it. Four splits into two pairs and the row loses its center; if you have four features, show three and link to the rest.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-cards"><div class="c"><i class="t"></i><i></i><i style="width:80%"></i></div><div class="c hot"><i class="t"></i><i></i><i style="width:80%"></i></div><div class="c"><i class="t"></i><i></i><i style="width:80%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Marketing pages</div></div>
+      <div><div class="label">Use when</div><div class="value">Three or five equal items</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The count is the message</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="grid-and-hierarchy.html">Grid and Hierarchy</a></div>
+    </div>
+  </article>
+  <!-- 2. Three Plans, One Highlighted -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Pricing</span>
+      <span class="num">02 / 10</span>
+      <h3>Three Plans, One Highlighted</h3>
+      <p class="desc">Pricing tables settle at three tiers for a reason: the middle plan has a natural place to be recommended, and the two beside it frame it as the sensible choice. Two plans force a binary; four hide the middle.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-row"><span class="gb"></span><span class="gb hot mid"></span><span class="gb"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Plan pickers</div></div>
+      <div><div class="label">Use when</div><div class="value">One option should lead</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Plans are genuinely equal</div></div>
+    </div>
+  </article>
+  <!-- 3. Three Steps to Anything -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Steps</span>
+      <span class="num">03 / 10</span>
+      <h3>Three Steps to Anything</h3>
+      <p class="desc">Onboarding, checkout, and how-it-works sections read best as three or five steps. Three fits in working memory and promises little effort; five still reads as one process. Seven and up become a list, not a story.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-steps"><span class="nd"></span><span class="ln"></span><span class="nd"></span><span class="ln"></span><span class="nd"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Flows and explainers</div></div>
+      <div><div class="label">Use when</div><div class="value">Steps can be grouped</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every step is legally required</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div>
+    </div>
+  </article>
+  <!-- 4. Objects in a Frame -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Imagery</span>
+      <span class="num">04 / 10</span>
+      <h3>Objects in a Frame</h3>
+      <p class="desc">Product shots, hero collages, and illustrations settle with three objects: one dominant, two supporting. Two objects stare at each other; four line up like a catalog. Vary size and spacing so the three do not read as a row.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-objs"><span class="hot" style="left:34%;top:18%;width:38%;height:60%;border-radius:12px"></span><span style="left:8%;top:52%;width:20%;height:32%;border-radius:8px"></span><span style="left:76%;top:44%;width:16%;height:26%;border-radius:8px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero visuals</div></div>
+      <div><div class="label">Use when</div><div class="value">Objects differ in size</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The set is a matched pair</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="rule-of-thirds.html">Rule of Thirds</a></div>
+    </div>
+  </article>
+  <!-- 5. Tabs and Toolbars -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Navigation</span>
+      <span class="num">05 / 10</span>
+      <h3>Tabs and Toolbars</h3>
+      <p class="desc">Mobile tab bars converge on three or five items because the middle slot becomes the home or primary action. An even count leaves the primary action off center, which is why four-tab bars so often add a fifth.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-tabs"><div class="bar"><i></i><i></i><i class="hot"></i><i></i><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Tab bars</div></div>
+      <div><div class="label">Use when</div><div class="value">One destination leads</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Sections are strictly parallel</div></div>
+    </div>
+  </article>
+  <!-- 6. The Middle Element -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Emphasis</span>
+      <span class="num">06 / 10</span>
+      <h3>The Middle Element</h3>
+      <p class="desc">An odd group gives you a middle to make bigger, brighter, or bolder. Use it: the recommended plan, the featured testimonial, the lead image. In an even group there is no middle, and emphasis has to fight the symmetry.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-row" style="align-items:center"><span class="gb" style="height:60%"></span><span class="gb hot" style="height:100%;flex:1.3"></span><span class="gb" style="height:60%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Recommended options</div></div>
+      <div><div class="label">Use when</div><div class="value">One item must stand out</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Equal treatment is required</div></div>
+    </div>
+  </article>
+  <!-- 7. When Even Wins -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Judgment</span>
+      <span class="num">07 / 10</span>
+      <h3>When Even Wins</h3>
+      <p class="desc">Comparisons, before-and-after pairs, side-by-side layouts, and data grids are even by nature. Two columns of text, four quadrants of a diagram, and a two-up gallery all read as structure, not as an unfinished trio.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-even"><div class="c"><i style="width:60%"></i><i></i><i style="width:85%"></i></div><div class="c"><i style="width:60%"></i><i></i><i style="width:85%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Comparisons and grids</div></div>
+      <div><div class="label">Use when</div><div class="value">Items come in pairs</div></div>
+      <div><div class="label">Avoid when</div><div class="value">You want a focal item</div></div>
+    </div>
+  </article>
+  <!-- 8. A Heuristic, Not a Law -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Evidence</span>
+      <span class="num">08 / 10</span>
+      <h3>A Heuristic, Not a Law</h3>
+      <p class="desc">No controlled study shows that three always beats four. What the rule encodes is a preference for a visible center and a dislike of leftover gaps. Test the count with real content; a strong fourth feature beats a weak trio every time.</p>
+    </div>
+    <div class="demo"><div class="glay"><div class="ro-test"><div class="side"><span></span><span class="hot"></span><span></span></div><div class="side"><span></span><span></span><span></span><span class="hot"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Deciding what to cut</div></div>
+      <div><div class="label">Use when</div><div class="value">Content is being trimmed to fit</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The fourth item carries the sale</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Odd Numbers in the Age of AI</h3>
+    <p>Generated pages default to whatever count the model saw most; the group size is a decision worth making explicit.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="ro-gen"><div class="bub"><i style="width:80%"></i><i style="width:50%"></i></div><div class="out"><span></span><span style="background:var(--il-accent);opacity:1"></span><span></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Asking for Three</h3>
+      <p class="desc">When a model drafts a landing page or a slide, specify the count: three features, five steps, one highlighted plan. Left alone it pads to four or six to fill the grid, and the layout loses its center.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Model default → stated count</div></div>
+      <div><div class="label">Use when</div><div class="value">Generating page sections</div></div>
+      <div><div class="label">Watch for</div><div class="value">Padding to fill the grid</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="glay"><div class="ro-objs"><span class="hot" style="left:30%;top:14%;width:44%;height:66%;border-radius:14px"></span><span style="left:6%;top:56%;width:18%;height:28%;border-radius:8px"></span><span style="left:80%;top:30%;width:14%;height:22%;border-radius:8px"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Odd Groups in Generated Imagery</h3>
+      <p class="desc">Image models happily render a pair of anything. Prompt for three objects at different sizes, and check that the result has one dominant element rather than three equals in a row.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Pairs → dominant trio</div></div>
+      <div><div class="label">Use when</div><div class="value">Composing hero art</div></div>
+      <div><div class="label">Watch for</div><div class="value">Three identical objects in a row</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Rule_of_odds" target="_blank" rel="noopener"><span class="title">Rule of Odds</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Composition_(visual_arts)" target="_blank" rel="noopener"><span class="title">Composition (Visual Arts)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Gestalt_psychology" target="_blank" rel="noopener"><span class="title">Gestalt Psychology</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Nielsen Norman Group</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/visual-hierarchy-ux-definition/" target="_blank" rel="noopener"><span class="title">Visual Hierarchy in UX</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://digital-photography-school.com/the-rule-of-odds/" target="_blank" rel="noopener"><span class="title">The Rule of Odds — Digital Photography School</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Rule of Odds</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Kanons des <em>Seitenaufbaus</em>"
+ ],
+ "header .tagline": [
+  "Die Ränder, die <em>Schreiber</em> maßen."
+ ],
+ "header .subtitle": [
+  "Die klassischen Rand- und Satzspiegelverhältnisse hinter lesbaren Seitenlayouts. Ein Satzspiegel in der Proportion der Seite, ein innerer Rand schmaler als der äußere, ein Fuß tiefer als der Kopf: Regeln, aus mittelalterlichen Handschriften rekonstruiert, die einen Lesebildschirm noch immer komponiert wirken lassen."
+ ],
+ ".law-origin .body-text": [
+  "Das älteste erhaltene Diagramm ist eine Skizze des Baumeisters Villard de Honnecourt aus dem 13. Jahrhundert, die eine Seite durch Diagonalen teilt. <a href=\"https://en.wikipedia.org/wiki/Jan_Tschichold\" target=\"_blank\" rel=\"noopener\">Jan Tschichold</a> vermaß die Satzspiegel mittelalterlicher Handschriften und rekonstruierte in einem Aufsatz von 1953, später gesammelt in Die Form des Buches, was er den goldenen Kanon nannte: eine Seite im Verhältnis 2:3, ein Satzspiegel in derselben Proportion, dessen Höhe der Seitenbreite entspricht, und Ränder im Verhältnis 2:3:4:6.",
+  "Andere erreichten dieselbe Geometrie auf anderen Wegen. J. A. van de Graaf veröffentlichte 1946 eine Diagonalkonstruktion, die für jedes Seitenformat funktioniert, und Raúl Rosarivo leitete 1947 aus der Gutenberg-Bibel eine auf Neunteln beruhende Fassung ab. Auf Bildschirmen gibt es keinen Bund und keine gegenüberliegende Seite, aber die Gewohnheit eines Satzspiegels, der schmaler ist als der Viewport und in bewusster Proportion gesetzt wird, ist dieselbe Idee."
+ ],
+ ".law-content .law-desc": [
+  "Geben Sie dem Satzspiegel die Proportion der Seite und setzen Sie ihn außerhalb der Mitte: innerer Rand am schmalsten, dann Kopf, dann außen, dann Fuß, im Verhältnis 2:3:4:6. Die Höhe des Satzspiegels entspricht der Seitenbreite, sodass Text und Seite eine Geometrie teilen und das Auge die Seite als komponiert liest."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-tschichold\">Jan Tschichold</a> (1953) · <a href=\"people.html#p-j-a-van-de-graaf\">J. A. van de Graaf</a> (1946)",
+  "Die Form des Buches",
+  "Eine Lesespalte in der Proportion der Seite"
+ ],
+ ".card .tag": [
+  "Proportion",
+  "Konstruktion",
+  "Ränder",
+  "Zeilenlänge",
+  "Bildschirme",
+  "Rhythmus",
+  "Bildschirme",
+  "Urteil",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die 2:3-Seite",
+  "Der Van-de-Graaf-Kanon",
+  "2 : 3 : 4 : 6",
+  "Die Lesespalte",
+  "Kein Bund, kein Steg",
+  "Ränder aus der Schrift",
+  "Lesemodus",
+  "Wann man die Seite füllt",
+  "Eine Seite für die Antwort",
+  "Generierte Layouts, die die Seite kennen"
+ ],
+ ".card .desc": [
+  "Tschicholds Rekonstruktion geht von einer Seite aus, die zwei Einheiten breit und drei hoch ist, mit einem Satzspiegel derselben 2:3-Form. Teilen Satzspiegel und Seite eine Proportion, ergeben sich die Ränder aus der Konstruktion statt aus dem Geschmack.",
+  "Ziehen Sie die Diagonalen der Doppelseite und jeder Einzelseite, verbinden Sie die Kreuzungspunkte, und der Satzspiegel erscheint mit Rändern von einem Neuntel und zwei Neunteln. Die Konstruktion braucht keine Zahlen, weshalb Schreiber sie nutzen konnten.",
+  "Innen, Kopf, außen, Fuß. Der innere Rand ist der kleinste, weil zwei davon am Bund zusammentreffen und als einer gelesen werden; der Fuß ist der größte, weil ein tief sitzender Satzspiegel aussieht, als fiele er von der Seite. Derselbe Instinkt gilt für eine Karte: mehr Raum unter dem Text als darüber.",
+  "Die Kanons setzen eine einzelne Spalte mit 45 bis 75 Zeichen pro Zeile voraus. Auf Bildschirmen wird der Satzspiegel zu einer Maximalbreite: etwa 60 bis 70 Zeichen Fließtext, zentriert oder außerhalb der Mitte, wobei der Rest des Viewports als Rand bleibt, statt gefüllt zu werden.",
+  "Ein Bildschirm hat keine gegenüberliegende Seite, also verliert der innere Rand seinen Grund und der Satzspiegel darf symmetrisch sitzen. Behalten Sie die andere Asymmetrie: mehr Raum unter dem Text als darüber, und einen Kopfrand, der mit dem Viewport wächst, statt oben festzukleben.",
+  "Die Kanons messen Ränder in Bruchteilen der Seite, aber ein Bildschirm hat keine feste Seite. Messen Sie sie stattdessen in der Schrift: ein Kopfrand von zwei oder drei Zeilenhöhen, ein Fuß von vier, Abstände zwischen Abschnitten in ganzen Zeilen. Die Proportion bleibt; das Lineal wechselt.",
+  "Reader-Ansichten im Browser, E-Book-Apps und Dokumentationsseiten sind die Kanons in modernem Gewand: eine Spalte, großzügige Ränder, eine Zeilenlänge, die von der Schrift bestimmt wird. Hat ein Produkt einen Lesemodus, wenden Sie sie dort an und lassen Sie den Rest des Interfaces dicht sein.",
+  "Dashboards, Editoren, Tabellen und Karten sind Arbeitsflächen, keine Seiten zum Lesen. Dort weichen die Kanons der Dichte und randlosen Layouts; ein Handschriftenrand um eine Tabellenkalkulation verschwendet nur den Bildschirm.",
+  "Lange Modellantworten lesen sich in einer bemessenen Spalte mit echten Rändern besser als in einer über das Fenster gestreckten Chatblase. Wird eine Antwort zum Dokument, schalten Sie sie in ein auf den Kanons aufgebautes Leselayout um.",
+  "Einem Modell, das einen Bericht oder eine Folie setzt, kann man die Kanons als Vorgaben geben: Satzspiegel in der Seitenproportion, Fuß tiefer als Kopf, Zeilenlänge von 60 bis 70 Zeichen. Das Ergebnis sieht nicht mehr aus wie in eine Box gegossener Text."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Langformseiten",
+  "Das Seitenformat ist fest",
+  "Der Viewport ändert sich ständig",
+  "Druck und PDF",
+  "Es gibt gegenüberliegende Seiten",
+  "Es gibt keine Doppelseite",
+  "Karten und Panels",
+  "Text sitzt in einem Rahmen",
+  "Optische Zentrierung wird anderswo geregelt",
+  "Artikel und Dokumentation",
+  "Menschen lesen minutenlang",
+  "Der Bildschirm ist ein Werkzeug, keine Seite",
+  "Web-Leseansichten",
+  "Druckregeln übertragen",
+  "Das Buchlayout wörtlich kopieren",
+  "Designsysteme",
+  "Abstands-Tokens existieren",
+  "Die Schriftgröße variiert pro Komponente",
+  "Leseansichten",
+  "Der Inhalt ist Prosa",
+  "Der Inhalt ist eine Tabelle oder ein Werkzeug",
+  "Arbeitsflächen",
+  "Dichte ist das Ziel",
+  "Menschen lesen, statt zu bedienen",
+  "Blase → Seite",
+  "Antworten werden lang",
+  "Chat-Chrome um einen Essay",
+  "Gegossener Text → komponierte Seite",
+  "Dokumente generieren",
+  "Ränder, die die Schriftgröße ignorieren"
+ ],
+ ".ai-divider h3": [
+  "Seitenkanons im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte Dokumente und Antworten kommen als Text ohne Seite darum; die Kanons sind der Weg, wie ein Produkt diesem Text eine Seite gibt."
+ ]
+}

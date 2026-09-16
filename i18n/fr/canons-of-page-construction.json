@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Canons de <em>construction</em> de la page"
+ ],
+ "header .tagline": [
+  "Les marges que les <em>scribes</em> mesuraient."
+ ],
+ "header .subtitle": [
+  "Les rapports classiques de marges et de bloc de texte derrière les mises en page lisibles. Un bloc de texte dans la proportion même de la page, une marge intérieure plus étroite que l’extérieure, un pied plus profond que la tête : des règles reconstruites à partir de manuscrits médiévaux qui donnent encore à un écran de lecture un air composé."
+ ],
+ ".law-origin .body-text": [
+  "Le plus ancien schéma conservé est un croquis du bâtisseur du XIIIe siècle Villard de Honnecourt qui divise une page par des diagonales. <a href=\"https://en.wikipedia.org/wiki/Jan_Tschichold\" target=\"_blank\" rel=\"noopener\">Jan Tschichold</a> a mesuré les blocs de texte de manuscrits médiévaux et, dans un essai de 1953 repris plus tard dans The Form of the Book, a reconstruit ce qu’il appelait le canon d’or : une page en 2:3, un bloc de texte de même proportion dont la hauteur égale la largeur de la page, et des marges dans le rapport 2:3:4:6.",
+  "D’autres ont atteint la même géométrie par d’autres chemins. J. A. van de Graaf a publié en 1946 une construction par diagonales valable pour toute forme de page, et Raúl Rosarivo a dérivé en 1947 une version fondée sur les neuvièmes à partir de la Bible de Gutenberg. À l’écran, il n’y a ni gouttière ni page en vis-à-vis, mais l’habitude d’un bloc de texte plus étroit que la fenêtre, dans une proportion délibérée, est la même idée."
+ ],
+ ".law-content .law-desc": [
+  "Donnez au bloc de texte la proportion même de la page et placez-le hors du centre : marge intérieure la plus étroite, puis tête, puis extérieure, puis pied, dans le rapport 2:3:4:6. La hauteur du bloc égale la largeur de la page, si bien que texte et page partagent une même géométrie et que l’œil lit la page comme composée."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-tschichold\">Jan Tschichold</a> (1953) · <a href=\"people.html#p-j-a-van-de-graaf\">J. A. van de Graaf</a> (1946)",
+  "The Form of the Book",
+  "Une colonne de lecture dans la proportion de la page"
+ ],
+ ".card .tag": [
+  "Proportion",
+  "Construction",
+  "Marges",
+  "Justification",
+  "Écrans",
+  "Rythme",
+  "Écrans",
+  "Jugement",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La page en 2:3",
+  "Le canon de Van de Graaf",
+  "2 : 3 : 4 : 6",
+  "La colonne de lecture",
+  "Ni dos, ni gouttière",
+  "Des marges issues du caractère",
+  "Mode lecture",
+  "Quand remplir la page",
+  "Une page pour la réponse",
+  "Des mises en page générées qui connaissent la page"
+ ],
+ ".card .desc": [
+  "La reconstruction de Tschichold part d’une page de deux unités de large sur trois de haut, avec un bloc de texte de même forme 2:3. Quand bloc et page partagent une proportion, les marges se mettent en place par construction plutôt que par goût.",
+  "Tracez les diagonales de la double page et de chaque page, reliez les points de croisement, et le bloc de texte apparaît avec des marges d’un neuvième et de deux neuvièmes. La construction n’a besoin d’aucun chiffre, c’est pourquoi les scribes pouvaient s’en servir.",
+  "Intérieure, tête, extérieure, pied. La marge intérieure est la plus petite parce que deux d’entre elles se rejoignent au dos et se lisent comme une seule ; le pied est le plus grand parce qu’un bloc posé bas sur la page semble tomber. Le même instinct vaut pour une carte : plus d’espace sous le texte qu’au-dessus.",
+  "Les canons supposent une seule colonne de 45 à 75 caractères par ligne. À l’écran, le bloc de texte devient une largeur maximale : environ 60 à 70 caractères de texte courant, centrés ou décalés, le reste de la fenêtre restant une marge plutôt que d’être rempli.",
+  "Un écran n’a pas de page en vis-à-vis, donc la marge intérieure perd sa raison d’être et le bloc peut être symétrique. Gardez l’autre asymétrie : plus d’espace sous le texte qu’au-dessus, et une marge de tête qui grandit avec la fenêtre au lieu de rester collée en haut.",
+  "Les canons mesurent les marges en fractions de la page, mais un écran n’a pas de page fixe. Mesurez-les plutôt dans le caractère : une marge de tête de deux ou trois interlignes, un pied de quatre, des écarts entre sections en lignes entières. La proportion survit ; la règle change.",
+  "Les vues lecture des navigateurs, les applis de livres numériques et les sites de documentation sont les canons en habit moderne : une colonne, des marges généreuses, une justification fixée par le caractère. Là où un produit a un mode lecture, appliquez-les là et laissez le reste de l’interface être dense.",
+  "Tableaux de bord, éditeurs, tableaux et cartes sont des surfaces de travail, pas des pages à lire. Là, les canons cèdent le pas à la densité et aux mises en page bord à bord ; une marge de manuscrit autour d’une feuille de calcul ne fait que gaspiller l’écran.",
+  "Les longues réponses d’un modèle se lisent mieux dans une colonne mesurée avec de vraies marges que dans une bulle de chat étirée sur toute la fenêtre. Quand une réponse devient un document, basculez-la dans une mise en page de lecture fondée sur les canons.",
+  "On peut donner à un modèle qui met en page un rapport ou une diapositive les canons comme contraintes : bloc dans la proportion de la page, pied plus profond que la tête, justification de 60 à 70 caractères. Le résultat cesse de ressembler à du texte versé dans une boîte."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Pages longues",
+  "La forme de page est fixe",
+  "La fenêtre change sans cesse",
+  "Impression et PDF",
+  "Il y a des pages en vis-à-vis",
+  "Il n’y a pas de double page",
+  "Cartes et panneaux",
+  "Le texte est dans un cadre",
+  "Le centrage optique est géré ailleurs",
+  "Articles et documentation",
+  "Les gens lisent pendant des minutes",
+  "L’écran est un outil, pas une page",
+  "Vues de lecture web",
+  "Adapter des règles d’impression",
+  "Copier la mise en page du livre à la lettre",
+  "Systèmes de design",
+  "Des jetons d’espacement existent",
+  "La taille du texte varie par composant",
+  "Vues lecture",
+  "Le contenu est de la prose",
+  "Le contenu est un tableau ou un outil",
+  "Surfaces de travail",
+  "La densité est le but",
+  "Les gens lisent, ils n’opèrent pas",
+  "Bulle → page",
+  "Les réponses s’allongent",
+  "Un habillage de chat autour d’un essai",
+  "Texte versé → page composée",
+  "Générer des documents",
+  "Des marges qui ignorent la taille du texte"
+ ],
+ ".ai-divider h3": [
+  "Les canons de la page à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Les documents et réponses générés arrivent comme du texte sans page autour ; les canons sont la façon dont un produit donne une page à ce texte."
+ ]
+}

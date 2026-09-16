@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Rule of <em>Odds</em>"
+ ],
+ "header .tagline": [
+  "Three feels <em>settled</em>; four feels sorted."
+ ],
+ "header .subtitle": [
+  "Groups of three or five feel more natural than even-numbered groups, which matters for feature cards and imagery. An odd count gives the eye a middle to rest on; an even one splits into pairs and asks to be compared."
+ ],
+ ".law-origin .body-text": [
+  "The rule of odds is a working convention of painters, florists, and photographers rather than a discovery with a single author. Still-life and floral composition manuals have long taught that three or five objects read as one group while two or four split into pairs, and twentieth-century photography guides carried the habit into the viewfinder.",
+  "The perceptual reason is simple: an odd group has a center element, so the eye settles; an even group has a gap in the middle, so the eye alternates. Gestalt research on grouping and studies of preference for asymmetry point the same way, though the rule remains a heuristic, not a law."
+ ],
+ ".law-content .law-desc": [
+  "When a set of similar items is shown together, an odd count — three, five, seven — reads as one deliberate group with a natural center. An even count reads as pairs, invites comparison, and can look unfinished when one item is missing."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Composition practice in painting, floristry, and photography",
+  "Manuals of still-life and photographic composition",
+  "Three cards, three steps, three images"
+ ],
+ ".card .tag": [
+  "Feature cards",
+  "Pricing",
+  "Steps",
+  "Imagery",
+  "Navigation",
+  "Emphasis",
+  "Judgment",
+  "Evidence",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Three Across",
+  "Three Plans, One Highlighted",
+  "Three Steps to Anything",
+  "Objects in a Frame",
+  "Tabs and Toolbars",
+  "The Middle Element",
+  "When Even Wins",
+  "A Heuristic, Not a Law",
+  "Asking for Three",
+  "Odd Groups in Generated Imagery"
+ ],
+ ".card .desc": [
+  "A row of three feature cards has a middle card to anchor it and two wings to balance it. Four splits into two pairs and the row loses its center; if you have four features, show three and link to the rest.",
+  "Pricing tables settle at three tiers for a reason: the middle plan has a natural place to be recommended, and the two beside it frame it as the sensible choice. Two plans force a binary; four hide the middle.",
+  "Onboarding, checkout, and how-it-works sections read best as three or five steps. Three fits in working memory and promises little effort; five still reads as one process. Seven and up become a list, not a story.",
+  "Product shots, hero collages, and illustrations settle with three objects: one dominant, two supporting. Two objects stare at each other; four line up like a catalog. Vary size and spacing so the three do not read as a row.",
+  "Mobile tab bars converge on three or five items because the middle slot becomes the home or primary action. An even count leaves the primary action off center, which is why four-tab bars so often add a fifth.",
+  "An odd group gives you a middle to make bigger, brighter, or bolder. Use it: the recommended plan, the featured testimonial, the lead image. In an even group there is no middle, and emphasis has to fight the symmetry.",
+  "Comparisons, before-and-after pairs, side-by-side layouts, and data grids are even by nature. Two columns of text, four quadrants of a diagram, and a two-up gallery all read as structure, not as an unfinished trio.",
+  "No controlled study shows that three always beats four. What the rule encodes is a preference for a visible center and a dislike of leftover gaps. Test the count with real content; a strong fourth feature beats a weak trio every time.",
+  "When a model drafts a landing page or a slide, specify the count: three features, five steps, one highlighted plan. Left alone it pads to four or six to fill the grid, and the layout loses its center.",
+  "Image models happily render a pair of anything. Prompt for three objects at different sizes, and check that the result has one dominant element rather than three equals in a row."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Marketing pages",
+  "Three or five equal items",
+  "The count is the message",
+  "Plan pickers",
+  "One option should lead",
+  "Plans are genuinely equal",
+  "Flows and explainers",
+  "Steps can be grouped",
+  "Every step is legally required",
+  "Hero visuals",
+  "Objects differ in size",
+  "The set is a matched pair",
+  "Tab bars",
+  "One destination leads",
+  "Sections are strictly parallel",
+  "Recommended options",
+  "One item must stand out",
+  "Equal treatment is required",
+  "Comparisons and grids",
+  "Items come in pairs",
+  "You want a focal item",
+  "Deciding what to cut",
+  "Content is being trimmed to fit",
+  "The fourth item carries the sale",
+  "Model default → stated count",
+  "Generating page sections",
+  "Padding to fill the grid",
+  "Pairs → dominant trio",
+  "Composing hero art",
+  "Three identical objects in a row"
+ ],
+ ".ai-divider h3": [
+  "Odd Numbers in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated pages default to whatever count the model saw most; the group size is a decision worth making explicit."
+ ]
+}

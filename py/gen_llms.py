@@ -7,7 +7,7 @@ import re
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.ux-guidelines.com/'
 GROUPS = [
- ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','golden-ratio','rule-of-thirds','gestalt-principles','von-restorff-effect','weber-fechner-law']),
+ ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','golden-ratio','rule-of-thirds','rule-of-odds','canons-of-page-construction','gestalt-principles','von-restorff-effect','weber-fechner-law']),
  ("Present And Explain", ['data-visualization','universal-icons','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
  ("Structure The Choices", ['hicks-law','jakobs-law','paradox-of-choice','automation-bias']),
  ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),

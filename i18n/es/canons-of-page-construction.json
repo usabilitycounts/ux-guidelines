@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Cánones de <em>construcción</em> de página"
+ ],
+ "header .tagline": [
+  "Los márgenes que medían los <em>escribas</em>."
+ ],
+ "header .subtitle": [
+  "Las proporciones clásicas de márgenes y bloque de texto detrás de las maquetas legibles. Un bloque de texto en la misma proporción que la página, un margen interior más estrecho que el exterior, un pie más hondo que la cabeza: reglas reconstruidas a partir de manuscritos medievales que aún hacen que una pantalla de lectura se sienta compuesta."
+ ],
+ ".law-origin .body-text": [
+  "El diagrama más antiguo conservado es un boceto del constructor del siglo XIII Villard de Honnecourt que divide una página por diagonales. <a href=\"https://en.wikipedia.org/wiki/Jan_Tschichold\" target=\"_blank\" rel=\"noopener\">Jan Tschichold</a> midió los bloques de texto de manuscritos medievales y, en un ensayo de 1953 recogido después en The Form of the Book, reconstruyó lo que llamó el canon áureo: una página en 2:3, un bloque de texto en la misma proporción con su altura igual al ancho de la página, y márgenes en razón 2:3:4:6.",
+  "Otros llegaron a la misma geometría por otros caminos. J. A. van de Graaf publicó en 1946 una construcción por diagonales que funciona para cualquier forma de página, y Raúl Rosarivo derivó en 1947 una versión basada en novenos a partir de la Biblia de Gutenberg. En pantalla no hay medianil ni página enfrentada, pero la costumbre de un bloque de texto más estrecho que el viewport, en una proporción deliberada, es la misma idea."
+ ],
+ ".law-content .law-desc": [
+  "Dale al bloque de texto la misma proporción que la página y colócalo fuera del centro: margen interior el más estrecho, luego cabeza, luego exterior, luego pie, en razón 2:3:4:6. La altura del bloque iguala el ancho de la página, así que texto y página comparten una geometría y el ojo lee la página como compuesta."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-tschichold\">Jan Tschichold</a> (1953) · <a href=\"people.html#p-j-a-van-de-graaf\">J. A. van de Graaf</a> (1946)",
+  "The Form of the Book",
+  "Una columna de lectura en la proporción de la página"
+ ],
+ ".card .tag": [
+  "Proporción",
+  "Construcción",
+  "Márgenes",
+  "Medida",
+  "Pantallas",
+  "Ritmo",
+  "Pantallas",
+  "Criterio",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La página 2:3",
+  "El canon de Van de Graaf",
+  "2 : 3 : 4 : 6",
+  "La columna de lectura",
+  "Sin lomo, sin medianil",
+  "Márgenes a partir del tipo",
+  "Modo lectura",
+  "Cuándo llenar la página",
+  "Una página para la respuesta",
+  "Layouts generados que conocen la página"
+ ],
+ ".card .desc": [
+  "La reconstrucción de Tschichold parte de una página de dos unidades de ancho por tres de alto, con un bloque de texto de la misma forma 2:3. Cuando bloque y página comparten proporción, los márgenes se colocan por construcción y no por gusto.",
+  "Traza las diagonales del pliego y de cada página, une los puntos de cruce, y el bloque de texto aparece con márgenes de un noveno y dos novenos. La construcción no necesita números, y por eso los escribas podían usarla.",
+  "Interior, cabeza, exterior, pie. El margen interior es el más pequeño porque dos de ellos se encuentran en el lomo y se leen como uno; el pie es el mayor porque un bloque que queda bajo en la página parece caerse. El mismo instinto vale para una tarjeta: más espacio debajo del texto que encima.",
+  "Los cánones suponen una sola columna de 45 a 75 caracteres por línea. En pantalla, el bloque de texto se convierte en un ancho máximo: unos 60 a 70 caracteres de cuerpo de texto, centrados o desplazados, con el resto del viewport dejado como margen en vez de llenado.",
+  "Una pantalla no tiene página enfrentada, así que el margen interior pierde su razón y el bloque puede quedar simétrico. Conserva la otra asimetría: más espacio debajo del texto que encima, y un margen de cabeza que crece con el viewport en vez de quedarse pegado arriba.",
+  "Los cánones miden los márgenes en fracciones de la página, pero una pantalla no tiene página fija. Mídelos en el tipo: un margen de cabeza de dos o tres alturas de línea, un pie de cuatro, huecos entre secciones en líneas enteras. La proporción sobrevive; la regla cambia.",
+  "Las vistas de lectura del navegador, las apps de libros electrónicos y los sitios de documentación son los cánones con ropa moderna: una columna, márgenes generosos, una medida fijada por el tipo. Donde un producto tenga modo lectura, aplícalos ahí y deja que el resto de la interfaz sea denso.",
+  "Paneles, editores, tablas y mapas son superficies de trabajo, no páginas para leer. Ahí los cánones ceden ante la densidad y los layouts de borde a borde; un margen de manuscrito alrededor de una hoja de cálculo solo desperdicia la pantalla.",
+  "Las respuestas largas de un modelo se leen mejor en una columna medida con márgenes reales que en una burbuja de chat estirada por toda la ventana. Cuando una respuesta se convierte en documento, pásala a un layout de lectura construido sobre los cánones.",
+  "A un modelo que maqueta un informe o una diapositiva se le pueden dar los cánones como restricciones: bloque en la proporción de la página, pie más hondo que la cabeza, medida de 60 a 70 caracteres. El resultado deja de parecer texto vertido en una caja."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Páginas largas",
+  "La forma de página es fija",
+  "El viewport cambia constantemente",
+  "Impresión y PDF",
+  "Existen páginas enfrentadas",
+  "No hay pliego",
+  "Tarjetas y paneles",
+  "El texto va dentro de un marco",
+  "El centrado óptico se resuelve en otra parte",
+  "Artículos y documentación",
+  "La gente lee durante minutos",
+  "La pantalla es una herramienta, no una página",
+  "Vistas de lectura web",
+  "Adaptar reglas de impresión",
+  "Copiar la maqueta del libro al pie de la letra",
+  "Sistemas de diseño",
+  "Existen tokens de espaciado",
+  "El tamaño del tipo varía por componente",
+  "Vistas de lectura",
+  "El contenido es prosa",
+  "El contenido es una tabla o una herramienta",
+  "Superficies de trabajo",
+  "La densidad es el objetivo",
+  "La gente lee, no opera",
+  "Burbuja → página",
+  "Las respuestas se alargan",
+  "Cromo de chat alrededor de un ensayo",
+  "Texto vertido → página compuesta",
+  "Generar documentos",
+  "Márgenes que ignoran el tamaño del tipo"
+ ],
+ ".ai-divider h3": [
+  "Los cánones de página en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los documentos y respuestas generados llegan como texto sin página alrededor; los cánones son la forma en que un producto le da una página a ese texto."
+ ]
+}

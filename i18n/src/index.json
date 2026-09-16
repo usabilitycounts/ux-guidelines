@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 47 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 49 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -39,6 +39,8 @@
   "10 systems",
   "φ ≈ 1.618",
   "3 × 3 grid",
+  "3, 5, 7",
+  "2 : 3 : 4 : 6 margins",
   "10 principles",
   "6 uses",
   "+ AI era",
@@ -88,6 +90,8 @@
   "Grid and Hierarchy",
   "Golden Ratio",
   "Rule of Thirds",
+  "Rule of Odds",
+  "Canons of Page Construction",
   "Gestalt Principles",
   "Von Restorff Effect",
   "Weber-Fechner Law",
@@ -137,6 +141,8 @@
   "Grids organize space; hierarchy directs attention.",
   "Unequal parts that still relate.",
   "Focal points off center, on purpose.",
+  "Three or five feel like one group.",
+  "The margins behind readable pages.",
   "How the mind groups what it sees.",
   "The different one gets remembered.",
   "Perception scales with ratios, not amounts.",

@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 47 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 49 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "+ Era de la IA",
@@ -39,6 +39,8 @@
   "10 sistemas",
   "φ ≈ 1,618",
   "Cuadrícula 3 × 3",
+  "3, 5, 7",
+  "Márgenes 2 : 3 : 4 : 6",
   "10 principios",
   "6 usos",
   "+ Era de la IA",
@@ -88,6 +90,8 @@
   "Retícula y jerarquía",
   "Proporción áurea",
   "Regla de los tercios",
+  "Regla de los impares",
+  "Cánones de construcción de página",
   "Principios de la Gestalt",
   "Efecto von Restorff",
   "Ley de Weber-Fechner",
@@ -137,6 +141,8 @@
   "La retícula ordena; la jerarquía guía.",
   "Partes desiguales que se relacionan.",
   "Puntos focales descentrados, a propósito.",
+  "Tres o cinco se sienten como un grupo.",
+  "Los márgenes de las páginas legibles.",
   "Cómo la mente agrupa lo que ve.",
   "Lo diferente es lo que se recuerda.",
   "La percepción sigue proporciones, no cantidades.",

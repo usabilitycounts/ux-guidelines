@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Règle des <em>nombres impairs</em>"
+ ],
+ "header .tagline": [
+  "Trois paraît <em>posé</em> ; quatre paraît rangé."
+ ],
+ "header .subtitle": [
+  "Les groupes de trois ou de cinq paraissent plus naturels que les groupes pairs, ce qui compte pour les cartes de fonctionnalités et les images. Un nombre impair offre à l’œil un milieu où se poser ; un nombre pair se scinde en paires et demande à être comparé."
+ ],
+ ".law-origin .body-text": [
+  "La règle des nombres impairs est une convention de travail des peintres, fleuristes et photographes plutôt qu’une découverte à auteur unique. Les manuels de nature morte et de composition florale enseignent depuis longtemps que trois ou cinq objets se lisent comme un seul groupe, tandis que deux ou quatre se scindent en paires, et les guides de photographie du XXe siècle ont transporté l’habitude dans le viseur.",
+  "La raison perceptive est simple : un groupe impair a un élément central, donc l’œil se pose ; un groupe pair a un vide au milieu, donc l’œil alterne. Les recherches gestaltistes sur le regroupement et les études sur la préférence pour l’asymétrie vont dans le même sens, même si la règle reste une heuristique, pas une loi."
+ ],
+ ".law-content .law-desc": [
+  "Quand un ensemble d’éléments semblables est montré ensemble, un nombre impair — trois, cinq, sept — se lit comme un groupe voulu avec un centre naturel. Un nombre pair se lit comme des paires, invite à la comparaison et peut sembler inachevé quand un élément manque."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Pratique de la composition en peinture, art floral et photographie",
+  "Manuels de nature morte et de composition photographique",
+  "Trois cartes, trois étapes, trois images"
+ ],
+ ".card .tag": [
+  "Cartes de fonctionnalités",
+  "Tarifs",
+  "Étapes",
+  "Imagerie",
+  "Navigation",
+  "Accent",
+  "Jugement",
+  "Preuves",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Trois de front",
+  "Trois formules, une mise en avant",
+  "Trois étapes pour tout",
+  "Des objets dans un cadre",
+  "Onglets et barres d’outils",
+  "L’élément du milieu",
+  "Quand le pair l’emporte",
+  "Une heuristique, pas une loi",
+  "Demander trois",
+  "Groupes impairs dans les images générées"
+ ],
+ ".card .desc": [
+  "Une rangée de trois cartes de fonctionnalités a une carte centrale qui l’ancre et deux ailes qui l’équilibrent. Quatre se scinde en deux paires et la rangée perd son centre ; si vous avez quatre fonctionnalités, montrez-en trois et renvoyez vers le reste.",
+  "Les grilles tarifaires se stabilisent à trois formules pour une raison : la formule du milieu a une place naturelle pour être recommandée, et les deux autres l’encadrent comme le choix raisonnable. Deux formules forcent un binaire ; quatre cachent le milieu.",
+  "L’onboarding, le paiement et les sections « comment ça marche » se lisent mieux en trois ou cinq étapes. Trois tient dans la mémoire de travail et promet peu d’effort ; cinq se lit encore comme un seul processus. À partir de sept, c’est une liste, pas un récit.",
+  "Visuels produit, collages hero et illustrations se posent avec trois objets : un dominant, deux d’appoint. Deux objets se regardent ; quatre s’alignent comme un catalogue. Variez taille et espacement pour que les trois ne se lisent pas comme une rangée.",
+  "Les barres d’onglets mobiles convergent vers trois ou cinq éléments parce que l’emplacement du milieu devient l’accueil ou l’action principale. Un nombre pair laisse l’action principale décentrée, et c’est pourquoi les barres à quatre onglets en ajoutent si souvent un cinquième.",
+  "Un groupe impair vous donne un milieu à agrandir, éclaircir ou renforcer. Servez-vous-en : la formule recommandée, le témoignage phare, l’image principale. Dans un groupe pair, il n’y a pas de milieu, et l’accent doit lutter contre la symétrie.",
+  "Comparaisons, paires avant-après, mises en page côte à côte et grilles de données sont paires par nature. Deux colonnes de texte, quatre quadrants d’un schéma et une galerie à deux visuels se lisent comme une structure, pas comme un trio inachevé.",
+  "Aucune étude contrôlée ne montre que trois bat toujours quatre. Ce que la règle encode, c’est une préférence pour un centre visible et une aversion pour les vides restants. Testez le nombre avec du contenu réel ; une quatrième fonctionnalité forte bat un trio faible à chaque fois.",
+  "Quand un modèle rédige une page d’atterrissage ou une diapositive, précisez le nombre : trois fonctionnalités, cinq étapes, une formule mise en avant. Livré à lui-même, il complète à quatre ou six pour remplir la grille, et la mise en page perd son centre.",
+  "Les modèles d’image rendent volontiers une paire de n’importe quoi. Demandez trois objets de tailles différentes, et vérifiez que le résultat a un élément dominant plutôt que trois égaux en rangée."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Pages marketing",
+  "Trois ou cinq éléments égaux",
+  "Le nombre est le message",
+  "Sélecteurs de formule",
+  "Une option doit mener",
+  "Les formules sont vraiment égales",
+  "Parcours et explications",
+  "Les étapes peuvent être regroupées",
+  "Chaque étape est obligatoire",
+  "Visuels hero",
+  "Les objets diffèrent en taille",
+  "L’ensemble est une paire assortie",
+  "Barres d’onglets",
+  "Une destination mène",
+  "Les sections sont strictement parallèles",
+  "Options recommandées",
+  "Un élément doit ressortir",
+  "Un traitement égal est requis",
+  "Comparaisons et grilles",
+  "Les éléments vont par paires",
+  "Vous voulez un élément focal",
+  "Décider quoi couper",
+  "Le contenu est rogné pour rentrer",
+  "Le quatrième élément fait la vente",
+  "Défaut du modèle → nombre indiqué",
+  "Générer des sections de page",
+  "Remplissage pour compléter la grille",
+  "Paires → trio dominant",
+  "Composer un visuel hero",
+  "Trois objets identiques en rangée"
+ ],
+ ".ai-divider h3": [
+  "Les nombres impairs à l’ère de l’IA"
+ ],
+ ".ai-divider p": [
+  "Les pages générées adoptent par défaut le nombre que le modèle a le plus vu ; la taille du groupe est une décision qui mérite d’être explicite."
+ ]
+}

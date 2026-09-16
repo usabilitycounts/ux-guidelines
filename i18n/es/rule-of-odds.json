@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Regla de los <em>impares</em>"
+ ],
+ "header .tagline": [
+  "Tres se siente <em>asentado</em>; cuatro, ordenado."
+ ],
+ "header .subtitle": [
+  "Los grupos de tres o cinco se sienten más naturales que los grupos pares, lo que importa para tarjetas de funciones e imágenes. Un número impar le da al ojo un centro donde descansar; uno par se divide en pares y pide ser comparado."
+ ],
+ ".law-origin .body-text": [
+  "La regla de los impares es una convención de trabajo de pintores, floristas y fotógrafos, no un descubrimiento con un solo autor. Los manuales de bodegón y composición floral enseñan desde hace mucho que tres o cinco objetos se leen como un solo grupo mientras que dos o cuatro se dividen en pares, y las guías de fotografía del siglo XX llevaron el hábito al visor.",
+  "La razón perceptiva es simple: un grupo impar tiene un elemento central, así que el ojo se asienta; un grupo par tiene un hueco en el medio, así que el ojo alterna. La investigación gestáltica sobre agrupación y los estudios sobre la preferencia por la asimetría apuntan en la misma dirección, aunque la regla sigue siendo una heurística, no una ley."
+ ],
+ ".law-content .law-desc": [
+  "Cuando un conjunto de elementos similares se muestra junto, un número impar — tres, cinco, siete — se lee como un grupo deliberado con un centro natural. Un número par se lee como pares, invita a comparar y puede parecer inacabado cuando falta un elemento."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Práctica compositiva en pintura, floristería y fotografía",
+  "Manuales de bodegón y composición fotográfica",
+  "Tres tarjetas, tres pasos, tres imágenes"
+ ],
+ ".card .tag": [
+  "Tarjetas de funciones",
+  "Precios",
+  "Pasos",
+  "Imaginería",
+  "Navegación",
+  "Énfasis",
+  "Criterio",
+  "Evidencia",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Tres en fila",
+  "Tres planes, uno destacado",
+  "Tres pasos para todo",
+  "Objetos en un encuadre",
+  "Pestañas y barras de herramientas",
+  "El elemento del medio",
+  "Cuándo gana el par",
+  "Una heurística, no una ley",
+  "Pedir tres",
+  "Grupos impares en imágenes generadas"
+ ],
+ ".card .desc": [
+  "Una fila de tres tarjetas de funciones tiene una tarjeta central que la ancla y dos alas que la equilibran. Cuatro se divide en dos pares y la fila pierde su centro; si tienes cuatro funciones, muestra tres y enlaza al resto.",
+  "Las tablas de precios se asientan en tres niveles por una razón: el plan del medio tiene un lugar natural para ser recomendado, y los dos de al lado lo enmarcan como la opción sensata. Dos planes fuerzan un binario; cuatro esconden el medio.",
+  "El onboarding, el pago y las secciones de «cómo funciona» se leen mejor en tres o cinco pasos. Tres cabe en la memoria de trabajo y promete poco esfuerzo; cinco todavía se lee como un solo proceso. A partir de siete se vuelve una lista, no una historia.",
+  "Fotos de producto, collages hero e ilustraciones se asientan con tres objetos: uno dominante, dos de apoyo. Dos objetos se miran fijamente; cuatro se alinean como un catálogo. Varía tamaño y separación para que los tres no se lean como una fila.",
+  "Las barras de pestañas móviles convergen en tres o cinco elementos porque el hueco central se convierte en el inicio o la acción principal. Un número par deja la acción principal fuera del centro, y por eso las barras de cuatro pestañas tan a menudo añaden una quinta.",
+  "Un grupo impar te da un medio que agrandar, aclarar o reforzar. Úsalo: el plan recomendado, el testimonio destacado, la imagen principal. En un grupo par no hay medio, y el énfasis tiene que pelear con la simetría.",
+  "Comparaciones, pares de antes y después, layouts en paralelo y cuadrículas de datos son pares por naturaleza. Dos columnas de texto, cuatro cuadrantes de un diagrama y una galería de dos se leen como estructura, no como un trío inacabado.",
+  "Ningún estudio controlado demuestra que tres siempre gane a cuatro. Lo que la regla codifica es una preferencia por un centro visible y una aversión a los huecos sobrantes. Prueba el número con contenido real; una cuarta función fuerte gana a un trío débil siempre.",
+  "Cuando un modelo redacta una página de aterrizaje o una diapositiva, especifica el número: tres funciones, cinco pasos, un plan destacado. Por su cuenta rellena hasta cuatro o seis para llenar la cuadrícula, y el layout pierde su centro.",
+  "Los modelos de imagen renderizan con gusto una pareja de cualquier cosa. Pide tres objetos de distintos tamaños, y comprueba que el resultado tenga un elemento dominante y no tres iguales en fila."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Páginas de marketing",
+  "Tres o cinco elementos iguales",
+  "El número es el mensaje",
+  "Selectores de plan",
+  "Una opción debe mandar",
+  "Los planes son realmente iguales",
+  "Flujos y explicaciones",
+  "Los pasos se pueden agrupar",
+  "Cada paso es obligatorio",
+  "Visuales hero",
+  "Los objetos difieren en tamaño",
+  "El conjunto es una pareja a juego",
+  "Barras de pestañas",
+  "Un destino manda",
+  "Las secciones son estrictamente paralelas",
+  "Opciones recomendadas",
+  "Un elemento debe destacar",
+  "Se exige trato igual",
+  "Comparaciones y cuadrículas",
+  "Los elementos vienen en pares",
+  "Quieres un elemento focal",
+  "Decidir qué recortar",
+  "El contenido se recorta para encajar",
+  "El cuarto elemento cierra la venta",
+  "Valor por defecto → número indicado",
+  "Generar secciones de página",
+  "Relleno para completar la cuadrícula",
+  "Pares → trío dominante",
+  "Componer arte hero",
+  "Tres objetos idénticos en fila"
+ ],
+ ".ai-divider h3": [
+  "Los impares en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las páginas generadas adoptan por defecto el número que el modelo más vio; el tamaño del grupo es una decisión que merece hacerse explícita."
+ ]
+}

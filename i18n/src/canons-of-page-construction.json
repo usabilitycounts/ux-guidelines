@@ -1,0 +1,134 @@
+{
+ "header h1": [
+  "Canons of Page <em>Construction</em>"
+ ],
+ "header .tagline": [
+  "The margins that <em>scribes</em> measured."
+ ],
+ "header .subtitle": [
+  "The classical margin and text-block ratios behind readable page layouts. A text block in the page’s own proportion, an inner margin narrower than the outer, a foot deeper than the head: rules reconstructed from medieval manuscripts that still make a reading screen feel composed."
+ ],
+ ".law-origin .body-text": [
+  "The oldest surviving diagram is a sketch by the thirteenth-century builder Villard de Honnecourt that divides a page by diagonals. <a href=\"https://en.wikipedia.org/wiki/Jan_Tschichold\" target=\"_blank\" rel=\"noopener\">Jan Tschichold</a> measured the text blocks of medieval manuscripts and, in a 1953 essay later collected in The Form of the Book, reconstructed what he called the golden canon: a page of 2:3, a text block in the same proportion with its height equal to the page width, and margins in the ratio 2:3:4:6.",
+  "Others reached the same geometry by other roads. J. A. van de Graaf published a diagonal construction in 1946 that works for any page shape, and Raúl Rosarivo derived a ninths-based version from Gutenberg’s Bible in 1947. On screens there is no gutter and no facing page, but the habit of a text block narrower than the viewport, set in a deliberate proportion, is the same idea."
+ ],
+ ".law-content .law-desc": [
+  "Give the text block the page’s own proportion and place it off center: inner margin narrowest, then head, then outer, then foot, in the ratio 2:3:4:6. The block’s height equals the page’s width, so text and page share one geometry and the eye reads the page as composed."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-tschichold\">Jan Tschichold</a> (1953) · <a href=\"people.html#p-j-a-van-de-graaf\">J. A. van de Graaf</a> (1946)",
+  "The Form of the Book",
+  "A reading column in the page’s proportion"
+ ],
+ ".card .tag": [
+  "Proportion",
+  "Construction",
+  "Margins",
+  "Measure",
+  "Screens",
+  "Rhythm",
+  "Screens",
+  "Judgment",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The 2:3 Page",
+  "The Van de Graaf Canon",
+  "2 : 3 : 4 : 6",
+  "The Reading Column",
+  "No Spine, No Gutter",
+  "Margins from the Type",
+  "Reading Mode",
+  "When to Fill the Page",
+  "A Page for the Answer",
+  "Generated Layouts That Know the Page"
+ ],
+ ".card .desc": [
+  "Tschichold’s reconstruction starts from a page two units wide and three tall, with a text block in the same 2:3 shape. When block and page share a proportion, the margins fall into place by construction rather than by taste.",
+  "Draw the diagonals of the spread and of each page, connect the crossing points, and the text block appears with margins of one ninth and two ninths. The construction needs no numbers, which is why scribes could use it.",
+  "Inner, head, outer, foot. The inner margin is smallest because two of them meet at the spine and read as one; the foot is largest because a block that sits low on the page looks like it is falling off. The same instinct applies to a card: more space below the text than above.",
+  "The canons assume a single column of 45 to 75 characters per line. On screens, the text block becomes a max-width: about 60 to 70 characters of body type, centered or set off center, with the rest of the viewport left as margin rather than filled.",
+  "A screen has no facing page, so the inner margin loses its reason and the block can sit symmetrically. Keep the other asymmetry: more space below the text than above, and a head margin that grows with the viewport rather than staying pinned to the top.",
+  "The canons measure margins in fractions of the page, but a screen has no fixed page. Measure them in the type instead: a head margin of two or three line heights, a foot of four, gaps between sections in whole lines. The proportion survives; the ruler changes.",
+  "Browser reader views, e-book apps, and documentation sites are the canons in modern dress: one column, generous margins, a measure set by the type. Where a product has a reading mode, apply them there and let the rest of the interface be dense.",
+  "Dashboards, editors, tables, and maps are working surfaces, not pages to be read. There the canons give way to density and edge-to-edge layouts; a manuscript margin around a spreadsheet only wastes the screen.",
+  "Long model answers read better in a measured column with real margins than in a chat bubble stretched across the window. When an answer becomes a document, switch it into a reading layout built on the canons.",
+  "A model laying out a report or a slide can be given the canons as constraints: block in the page’s proportion, foot deeper than head, measure of 60 to 70 characters. The output stops looking like text poured into a box."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Long-form pages",
+  "The page shape is fixed",
+  "The viewport changes constantly",
+  "Print and PDF",
+  "Facing pages exist",
+  "There is no spread",
+  "Cards and panels",
+  "Text sits inside a frame",
+  "Optical centering is handled elsewhere",
+  "Articles and docs",
+  "People read for minutes",
+  "The screen is a tool, not a page",
+  "Web reading views",
+  "Adapting print rules",
+  "Copying the book layout literally",
+  "Design systems",
+  "Spacing tokens exist",
+  "Type size varies per component",
+  "Reader views",
+  "Content is prose",
+  "Content is a table or a tool",
+  "Working surfaces",
+  "Density is the goal",
+  "People are reading, not operating",
+  "Bubble → page",
+  "Answers run long",
+  "Chat chrome around an essay",
+  "Poured text → composed page",
+  "Generating documents",
+  "Margins that ignore the type size"
+ ],
+ ".ai-divider h3": [
+  "Page Canons in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated documents and answers arrive as text with no page around them; the canons are how a product gives that text a page."
+ ]
+}
