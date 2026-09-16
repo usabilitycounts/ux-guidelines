@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import os
 import subprocess
+import sys
 
 from ftp_credentials import ftp_host, ftp_user, ftp_pass
 local_dir = "/Users/patrickneeman/Claude/UX Guidelines"
@@ -103,7 +104,7 @@ def build_staging():
 def run_preflight():
     """Refuse to deploy if the site's invariants are broken."""
     script = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'check.py')
-    result = subprocess.run(['python3', script])
+    result = subprocess.run([sys.executable, script])
     if result.returncode != 0:
         print("Deploy aborted: fix the preflight failures above (or run check.py directly).")
         raise SystemExit(1)
