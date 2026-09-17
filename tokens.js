@@ -588,6 +588,31 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   document.head.appendChild(s);
 })();
 
+// Compact page title under the topnav, phones only. Once the h1 scrolls out
+// of the scroller there is nothing left on screen naming the page, so a small
+// bar takes over. Reference pages only: the home page and the index pages
+// would just repeat the brand already in the nav.
+(() => {
+  const h1 = document.querySelector('header h1');
+  if (!h1 || !document.querySelector('.law-feature')) return;
+  const nav = document.querySelector('.topnav');
+  const bar = document.createElement('div');
+  bar.className = 'sticky-title';
+  bar.setAttribute('aria-hidden', 'true');   // the real h1 is still in the page
+  // Read the live h1 so a translation applied after load carries through.
+  const sync = () => { bar.textContent = h1.textContent.trim(); };
+  sync();
+  new MutationObserver(sync).observe(h1, { childList: true, subtree: true, characterData: true });
+  const place = () => { if (nav) bar.style.top = nav.offsetHeight + 'px'; };
+  place();
+  window.addEventListener('resize', place);
+  document.body.appendChild(bar);
+  new IntersectionObserver(
+    ([e]) => bar.classList.toggle('show', !e.isIntersecting && e.boundingClientRect.top < 0),
+    { root: window.uxScroller || null, threshold: 0 }
+  ).observe(h1);
+})();
+
 // Letter navigation sticks just below the topnav; bordered while stuck
 (() => {
   const an = document.querySelector('.alpha-nav');

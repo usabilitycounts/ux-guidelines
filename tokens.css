@@ -385,13 +385,13 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .law-feature .law-label { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin-bottom: 16px; }
 .law-feature .law-desc { font-size: var(--fs-body); line-height: var(--lh-tight); color: var(--text-primary); margin-bottom: 28px; max-width: 50%; }
 .law-feature .law-meta { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
-.law-feature .law-meta .label { font-size: 0.8125rem; color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
+.law-feature .law-meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
 .law-feature .law-meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
 .card-header .tag { margin-bottom: 2px; }
 /* Card titles are h3 elements (page h1 > section h2 > card h3) */
 .card h3, .card h2 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-heading); }
 .demo>svg { flex:1 1 auto;min-height:0;width:100%;height:100%;display:block;overflow:visible }
-.meta .label { font-size: 0.8125rem; color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
+.meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
 .meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
 .tag { display: inline-block; font-size: var(--fs-tag); padding: 4px 10px; border-radius: 3px; font-weight: 500; background: var(--skel-fill-tag); color: var(--text-secondary); }
 .card .tag.ai-tag { background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
@@ -526,7 +526,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 /* AI dividers run full-bleed edge to edge */
 main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 .grid > .ai-divider { margin: 0 -32px; }
-@media (max-width: 600px) { .grid > .ai-divider { margin: 0 -20px; } }
+@media (max-width: 600px) { .grid > .ai-divider { margin: 0; } }
 
 /* Law equation, plain text below the law meta */
 .law-equation { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border); max-width: none; }
@@ -907,6 +907,28 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 
 /* ---------- Bookmarks and sharing ---------- */
 .title-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+
+/* Compact page title that takes over once the h1 has scrolled away. Phones
+   only: the h1 is tall on a narrow screen, so past it nothing on screen says
+   which page you are on. JS sets `top` from the real topnav height and adds
+   .show when the h1 leaves the top of the scroller. */
+.sticky-title {
+  display: none;
+  position: fixed; left: 0; right: 0; top: 60px; z-index: 390;
+  height: 46px; line-height: 46px; padding: 0 20px;
+  background: var(--topnav-bg);
+  border-bottom: 1px solid var(--border);
+  font-size: var(--fs-h3); font-weight: 700; letter-spacing: -0.4px;
+  color: var(--text-primary);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  transform: translateY(-100%);
+  transition: transform 0.18s ease;
+  pointer-events: none;
+}
+.sticky-title.show { transform: translateY(0); }
+@media (max-width: 700px) { .sticky-title { display: block; } }
+@media (prefers-reduced-motion: reduce) { .sticky-title { transition: none; } }
+@media print { .sticky-title { display: none !important; } }
 .title-actions { display: flex; align-items: center; gap: 4px; position: relative; }
 .title-act { border: 0; background: transparent; color: var(--text-faint); width: 40px; height: 40px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
 .title-act:hover { color: var(--text-primary); background: var(--surface); }
@@ -1057,6 +1079,23 @@ html.has-scroller .topnav { flex: 0 0 auto; }
   .card:hover { box-shadow: none; transform: none; }
   .menu-link:hover, .share-item:hover, .bm-item:hover, .bm-remove:hover,
   .hamburger:hover, .settings-btn:hover, .title-act:hover, .card .related a:hover { background: transparent; }
+}
+
+/* ---------- Phones: edge-to-edge content ---------- */
+/* The outlines and the outer indent cost horizontal room that the text needs
+   more on a narrow screen, so both go. Each block keeps its own side padding
+   as the reading gutter, and the grid gap still separates one card from the
+   next. `main.grid` outranks the per-page inline `.grid` rule, which would
+   otherwise win on source order. */
+@media (max-width: 600px) {
+  .law-feature, .apply-feature { margin-left: 0; margin-right: 0; border: 0; }
+  main.grid { padding-left: 0; padding-right: 0; }
+  .card { border: 0; border-radius: 0; }
+  /* Nothing sideways on a phone. Belt and braces: anything that outgrows the
+     width is clipped rather than turned into a scroll. Inner scrollers that
+     are meant to pan, such as the home section pills, are unaffected. */
+  html, body { overflow-x: hidden; }
+  .page-scroll { overflow-x: hidden; }
 }
 
 /* ---------- Print ---------- */
