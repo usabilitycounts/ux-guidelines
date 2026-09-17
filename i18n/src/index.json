@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 50 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 52 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -14,9 +14,11 @@
   "+ AI era",
   "+ AI era",
   "3 postures",
+  "3 failure modes",
   "10 applications",
   "6 tunnels",
   "Bar, 2006",
+  "2 channels",
   "+ AI era",
   "400 ms",
   "+ AI era",
@@ -66,9 +68,11 @@
   "Hofstadter’s Law",
   "Pareto Principle",
   "Human-in-the-Loop",
+  "Out-of-the-Loop Problem",
   "Fitts’s Law",
   "Steering Law",
   "Contour Bias",
+  "Stroop Effect",
   "Navigation Patterns",
   "Doherty Threshold",
   "Power Law of Practice",
@@ -118,9 +122,11 @@
   "Everything takes longer than expected.",
   "Eighty percent comes from twenty percent.",
   "Where human judgment sits in automation.",
+  "Watching automation erodes the skill to take over.",
   "Big, close targets are faster.",
   "Narrow paths slow the pointer.",
   "Rounded feels safe; sharp reads urgent.",
+  "Conflicting label and color slows people down.",
   "The proven ways users find things.",
   "Respond within 400 milliseconds.",
   "Repetition makes every task faster.",

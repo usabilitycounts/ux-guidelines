@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "El <em>problema</em> de quedarse fuera del bucle"
+ ],
+ "header .tagline": [
+  "Cuanto <em>mejor</em> funciona, menos capaz eres de tomar el mando."
+ ],
+ "header .subtitle": [
+  "El problema de rendimiento por quedarse fuera del bucle: supervisar la automatización erosiona justo las habilidades necesarias para tomar el mando cuando falla. Cuanto más tiempo funciona bien el sistema, menos practica quien lo vigila, y el traspaso llega siempre en el momento más difícil."
+ ],
+ ".law-origin .body-text": [
+  "Lisanne Bainbridge describió su forma ya en 1983 en Ironies of Automation: la automatización se queda con las partes fáciles del trabajo, deja al operador todo lo que era demasiado difícil de automatizar y luego espera que esa persona, ya sin práctica, intervenga justo cuando la máquina llega a su límite.",
+  "Mica Endsley y Esin Kiris nombraron y midieron el efecto en Human Factors en 1995: quienes supervisaban una tarea automatizada se recuperaban más despacio de un fallo que quienes hacían la tarea por sí mismos. Hay tres hilos en juego: la conciencia de la situación se desvanece, la vigilancia decae a lo largo de una guardia tranquila y la destreza manual se pierde por desuso."
+ ],
+ ".law-content .law-desc": [
+  "Si pones a una persona a vigilar en lugar de hacer, su capacidad de tomar el mando se degrada mientras el sistema funciona bien. El coste es invisible hasta el traspaso, que llega con el caso más difícil y con el menor tiempo disponible."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-mica-endsley\">Mica Endsley</a> y Esin Kiris (1995)",
+  "Human Factors, a partir de Ironies of Automation de Bainbridge",
+  "Dar trabajo real a quien vigila"
+ ],
+ ".apply-list li": [
+  "Una función automatizada sustituye un trabajo que alguien hacía a mano, y esa persona sigue siendo responsable del resultado cuando falla.",
+  "Una pantalla de monitorización ocupa todo el turno de alguien, y el suceso que espera casi nunca llega.",
+  "Un equipo decide automatizar los casos rutinarios y dejar las excepciones a quien esté de guardia.",
+  "Da a quien vigila una parte real del trabajo en lugar de una pantalla que mirar, para que el bucle siga caliente entre fallo y fallo.",
+  "Mete la práctica manual en el calendario y trata los simulacros en modo degradado como parte del puesto, no como una carga de formación.",
+  "Diseña el traspaso como un informe breve: qué se intentó, qué cree el sistema y cuánto tiempo tiene la persona antes de que importe."
+ ],
+ ".card .tag": [
+  "Conciencia",
+  "Vigilancia",
+  "Destreza",
+  "Ironía",
+  "Traspaso",
+  "Diseño",
+  "Transparencia",
+  "Práctica",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Perder la imagen del conjunto",
+  "Vigilar lo que no llega",
+  "Habilidades que no usas",
+  "Las ironías de la automatización",
+  "El peor momento para devolver el mando",
+  "Dar trabajo real a quien supervisa",
+  "Narrar el estado del sistema",
+  "Ensayar la toma de mando",
+  "Revisar lo que ya no sabrías escribir",
+  "Devolver el mando con elegancia"
+ ],
+ ".card .desc": [
+  "Quien mira en lugar de actuar deja de construir un modelo de lo que está haciendo el sistema. Cuando suena la alarma tiene que levantar esa imagen desde cero, con prisa, antes siquiera de poder actuar.",
+  "Las personas son malas en la vigilancia sostenida de sucesos raros, y la detección cae dentro de la primera media hora de un turno tranquilo. Alguien que vigila sin nada que hacer no es una salvaguarda.",
+  "La destreza manual se degrada por falta de uso. Quien debe tomar los mandos quizá no los haya tocado en meses, y el momento en que se los devuelven rara vez es tranquilo.",
+  "La tesis de Bainbridge en una línea: la automatización se lleva las partes fáciles del trabajo y deja las que nadie supo automatizar, y luego pide a una persona sin práctica que resuelva precisamente esas.",
+  "La automatización suele rendirse justo cuando las condiciones se vuelven anómalas. El traspaso llega por tanto con el caso más difícil, el menor contexto y el menor tiempo para atender a ambos.",
+  "Mantén a la persona dentro de la tarea y no al lado. Deja que resuelva una parte de los casos, confirme las decisiones que importan o tome el timón cada cierto tiempo, para que el bucle siga caliente.",
+  "Solo se puede seguir dentro del bucle si el sistema dice qué está haciendo, con cuánta seguridad y qué piensa hacer a continuación. El silencio durante la operación normal garantiza la sorpresa al final.",
+  "Programa el caso manual en vez de esperarlo. Los simulacros, el trabajo práctico periódico y los modos degradados deliberados mantienen viva la habilidad a cambio de algo de eficiencia.",
+  "Quien acepta todo el día código, textos o análisis generados va perdiendo la soltura que hacía valiosa su revisión. El control erosiona a quien controla.",
+  "Cuando un agente se detiene, debería entregar qué intentó, qué cree y cuánto tiempo queda, en lugar de dejar una tarea a medias a alguien que solo estaba mirando."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Interfaces de supervisión",
+  "El traspaso puede ocurrir en cualquier momento",
+  "La persona nunca toma el mando",
+  "Alertas y monitorización",
+  "Los fallos son raros",
+  "La guardia es corta y activa",
+  "Cualquier cosa con respaldo manual",
+  "La automatización cubre el caso rutinario",
+  "No queda ningún modo manual",
+  "Decidir qué se automatiza",
+  "Se automatiza el camino rutinario",
+  "La tarea está automatizada de extremo a extremo",
+  "Diseño del modo de respaldo",
+  "El sistema puede desengancharse",
+  "Desengancharse es imposible",
+  "Turnos largos de supervisión",
+  "Vigilar es todo el trabajo",
+  "La atención hace falta en otro sitio",
+  "Funciones autónomas",
+  "El sistema actúa sin supervisión",
+  "La narración se convierte en ruido",
+  "Trabajo crítico para la seguridad",
+  "La toma de mando es parte del puesto",
+  "Ensayar cuesta más que el fallo",
+  "Sugerencia → juicio que se erosiona",
+  "Las salidas se aceptan a un ritmo alto",
+  "Revisores que ya no practican",
+  "Parada brusca → traspaso informado",
+  "Los agentes ejecutan tareas largas",
+  "Resúmenes de traspaso que nadie lee"
+ ],
+ ".ai-divider h3": [
+  "Fuera del bucle en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los copilotos trasladaron el problema de la cabina al escritorio: quien acepta sugerencias todo el día va perdiendo la soltura de la que depende su propia revisión."
+ ]
+}

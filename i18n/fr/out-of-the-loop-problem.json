@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Le <em>problème</em> de sortie de boucle"
+ ],
+ "header .tagline": [
+  "Plus il fonctionne <em>bien</em>, moins vous pouvez reprendre la main."
+ ],
+ "header .subtitle": [
+  "Le problème de performance lié à la sortie de boucle : surveiller une automatisation érode justement les compétences nécessaires pour reprendre la main quand elle échoue. Plus le système fonctionne longtemps sans incident, moins la personne qui l'observe s'exerce — et la reprise en main survient toujours au moment le plus difficile."
+ ],
+ ".law-origin .body-text": [
+  "Lisanne Bainbridge en a décrit la forme dès 1983 dans Ironies of Automation : l'automatisation prend en charge les parties faciles du travail, laisse à l'opérateur tout ce qui était trop difficile à automatiser, puis attend de cet opérateur, désormais sans pratique, qu'il intervienne au moment précis où la machine atteint ses limites.",
+  "Mica Endsley et Esin Kiris ont nommé et mesuré l'effet dans Human Factors en 1995 : les personnes qui supervisaient une tâche automatisée se remettaient plus lentement d'une défaillance que celles qui exécutaient la tâche elles-mêmes. Trois fils s'y croisent : la conscience de la situation s'estompe, la vigilance décline au fil d'une veille sans événement, et l'habileté manuelle se perd faute d'usage."
+ ],
+ ".law-content .law-desc": [
+  "Confiez à une personne la surveillance plutôt que l'action, et sa capacité à reprendre la main décline pendant que le système fonctionne bien. Le coût reste invisible jusqu'à la reprise, qui arrive avec le cas le plus difficile et le moins de temps."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-mica-endsley\">Mica Endsley</a> et Esin Kiris (1995)",
+  "Human Factors, à la suite de Ironies of Automation de Bainbridge",
+  "Donner à la personne qui surveille un vrai travail"
+ ],
+ ".apply-list li": [
+  "Une fonctionnalité automatisée remplace un travail fait à la main, et cette personne reste responsable du résultat en cas de défaillance.",
+  "Un écran de supervision occupe tout le poste de quelqu'un, et l'événement guetté ne survient presque jamais.",
+  "Une équipe décide d'automatiser les cas courants et de laisser les exceptions à celui ou celle qui sera de service.",
+  "Confiez à la personne qui surveille une vraie part du travail plutôt qu'un écran à regarder, pour que la boucle reste chaude entre deux défaillances.",
+  "Inscrivez la pratique manuelle au planning et traitez les exercices en mode dégradé comme une partie du métier, non comme une charge de formation.",
+  "Concevez la reprise en main comme un briefing : ce qui a été tenté, ce que le système croit, et le temps dont dispose la personne avant que cela compte."
+ ],
+ ".card .tag": [
+  "Conscience",
+  "Vigilance",
+  "Compétence",
+  "Ironie",
+  "Reprise en main",
+  "Conception",
+  "Transparence",
+  "Entraînement",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Perdre la vue d'ensemble",
+  "Guetter ce qui n'arrive pas",
+  "Les gestes que l'on ne fait plus",
+  "Les ironies de l'automatisation",
+  "Le pire moment pour rendre la main",
+  "Donner du vrai travail à qui surveille",
+  "Raconter l'état du système",
+  "Répéter la reprise en main",
+  "Relire ce que l'on ne saurait plus écrire",
+  "Rendre la main proprement"
+ ],
+ ".card .desc": [
+  "Une personne qui observe au lieu d'agir cesse de construire un modèle de ce que fait le système. Quand l'alarme retentit, elle doit reconstituer cette image à partir de rien, sous pression temporelle, avant même de pouvoir agir.",
+  "Les humains sont mauvais dans la veille prolongée d'événements rares, et la détection chute dès la première demi-heure d'un poste calme. Une personne qui surveille sans rien faire n'est pas une protection.",
+  "L'habileté manuelle se dégrade faute d'usage. L'opérateur à qui l'on demande de reprendre les commandes ne les a peut-être pas tenues depuis des mois, et le moment où on les lui rend est rarement calme.",
+  "Le constat de Bainbridge en une phrase : l'automatisation prend les parties faciles du travail et laisse celles que personne n'a su automatiser, puis demande à une personne sans pratique de traiter précisément celles-là.",
+  "L'automatisation renonce précisément quand les conditions deviennent anormales. La reprise arrive donc avec le cas le plus difficile, le moins de contexte et le moins de temps pour traiter l'un comme l'autre.",
+  "Gardez la personne dans la tâche plutôt qu'à côté. Laissez-lui traiter une part des cas, confirmer les décisions qui comptent ou reprendre la direction par intervalles, pour que la boucle reste chaude.",
+  "On ne peut rester dans la boucle que si le système dit ce qu'il fait, à quel point il en est sûr et ce qu'il compte faire ensuite. Le silence pendant le fonctionnement normal garantit la surprise à la fin.",
+  "Planifiez le cas manuel au lieu de l'attendre. Exercices, pratique régulière et modes dégradés délibérés maintiennent la compétence en vie, au prix d'un peu d'efficacité.",
+  "Une personne qui accepte toute la journée du code, des textes ou des analyses générés perd peu à peu la maîtrise qui donnait sa valeur à sa relecture. Le contrôle érode le contrôleur.",
+  "Quand un agent s'arrête, il devrait transmettre ce qu'il a tenté, ce qu'il croit et le temps restant, plutôt que de laisser une tâche à moitié faite à quelqu'un qui se contentait de regarder."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Interfaces de supervision",
+  "La reprise en main peut survenir à tout moment",
+  "La personne ne reprend jamais la main",
+  "Alertes et supervision",
+  "Les défaillances sont rares",
+  "La veille est courte et active",
+  "Tout ce qui garde un mode manuel",
+  "L'automatisation couvre le cas courant",
+  "Il ne reste aucun mode manuel",
+  "Choisir ce que l'on automatise",
+  "On automatise le chemin courant",
+  "La tâche est automatisée de bout en bout",
+  "Conception du repli",
+  "Le système peut se désengager",
+  "Le désengagement est impossible",
+  "Longues vacations de supervision",
+  "Surveiller est tout le travail",
+  "L'attention est requise ailleurs",
+  "Fonctionnalités autonomes",
+  "Le système agit sans surveillance",
+  "La narration devient du bruit",
+  "Travail critique pour la sécurité",
+  "La reprise fait partie du métier",
+  "L'exercice coûte plus cher que la panne",
+  "Suggestion → jugement qui s'érode",
+  "Les sorties sont acceptées à un rythme élevé",
+  "Des relecteurs qui n'ont plus de pratique",
+  "Arrêt brutal → reprise expliquée",
+  "Les agents mènent de longues tâches",
+  "Des résumés de reprise que personne ne lit"
+ ],
+ ".ai-divider h3": [
+  "Hors de la boucle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les copilotes ont déplacé le problème du cockpit au bureau : la personne qui accepte des suggestions à longueur de journée perd peu à peu l'aisance dont dépend sa relecture."
+ ]
+}

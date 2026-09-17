@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Effet</em> Stroop"
+ ],
+ "header .tagline": [
+  "Quand le <em>libellé</em> et la couleur se contredisent."
+ ],
+ "header .subtitle": [
+  "La lecture est automatique ; nommer une couleur ne l'est pas. Quand un libellé et sa couleur portent deux sens différents — un bouton Supprimer en vert, un badge de réussite en rouge — les deux lectures entrent en collision : la personne ralentit, hésite et se trompe de clic plus souvent."
+ ],
+ ".law-origin .body-text": [
+  "John Ridley Stroop a publié son expérience dans le Journal of Experimental Psychology en 1935, dans le cadre de sa thèse au George Peabody College. Les participants devaient nommer la couleur d'encre de mots écrits ; lorsque le mot désignait une autre couleur, la tâche leur prenait bien plus de temps que de nommer la couleur de simples carrés.",
+  "L'explication qui s'est imposée est l'automatisme : lire un mot familier se produit qu'on le veuille ou non, si bien que le sens imprimé arrive avant la couleur et doit être inhibé. C'est l'un des résultats les plus répliqués de la psychologie, et il se transpose à toute interface où deux canaux de sens pointent dans des directions opposées."
+ ],
+ ".law-content .law-desc": [
+  "Quand deux signaux portant sur le même élément véhiculent des sens contradictoires, le lecteur doit résoudre le conflit avant d'agir, et cette résolution coûte du temps et de la précision. À l'écran, ces deux signaux sont le plus souvent les mots et la couleur."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-ridley-stroop\">John Ridley Stroop</a> (1935)",
+  "Journal of Experimental Psychology",
+  "Faire concorder la couleur avec le mot"
+ ],
+ ".apply-list li": [
+  "Une action destructrice ou irréversible doit recevoir une couleur, et la palette de marque ne correspond pas à la convention attendue.",
+  "Des badges d'état, des notifications ou des lignes de tableau sont conçus pour un écran que l'on parcourt plutôt que l'on lit.",
+  "Un produit arrive sur un nouveau marché où les couleurs portent déjà un autre sens.",
+  "Inscrivez les couleurs sémantiques dans le design system comme des sens plutôt que comme des teintes : destructif, succès, avertissement, information.",
+  "Associez chaque signal coloré à un mot, une icône ou une forme, pour que le sens survive aussi bien au conflit qu'au daltonisme.",
+  "Passez en revue boutons, badges, notifications et graphiques, et corrigez tout élément où la couleur et le libellé se contredisent."
+ ],
+ ".card .tag": [
+  "Le cas classique",
+  "Canaux",
+  "Tableaux de bord",
+  "Conventions",
+  "Au-delà de la couleur",
+  "Culture",
+  "Accessibilité",
+  "Tests",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le bouton Supprimer en vert",
+  "La couleur est un second libellé",
+  "Des couleurs d'état qui mentent",
+  "Des sens empruntés",
+  "Des icônes qui contredisent",
+  "La couleur n'est pas universelle",
+  "La couleur seule n'est pas un libellé",
+  "Auditer les conflits",
+  "Des palettes choisies sans le sens",
+  "Colorer la confiance"
+ ],
+ ".card .desc": [
+  "Le vert dit « allez-y, c'est sans risque » ; Supprimer dit « arrêtez-vous et réfléchissez ». Réunis sur un même bouton, ils imposent à chacun une petite contradiction à résoudre avant de cliquer.",
+  "Une couleur n'est pas un ornement posé sur un contrôle : c'est une seconde affirmation sur ce que ce contrôle fait. Choisissez-la avec autant de soin que les mots, car les deux se lisent.",
+  "Un badge rouge affichant Sain, une ligne orange étiquetée Résolu : voilà qui oblige à relire deux fois, précisément sur les écrans que l'on parcourt le plus vite. La couleur d'état et le mot d'état doivent dire la même chose.",
+  "Rouge pour destructif, vert pour valider, orange pour prudence : ce sont des conventions que les gens apportent avec eux. En rompre une pour satisfaire une palette de marque reporte le coût sur chaque utilisateur, à chaque fois.",
+  "La même interférence apparaît entre une icône et son libellé : une flèche de téléchargement descendante à côté du mot Importer, une corbeille étiquetée Archiver. Deux canaux, une contradiction, la même hésitation.",
+  "Le rouge signale une baisse sur les marchés occidentaux et une hausse sur les marchés chinois ; le blanc évoque la propreté dans certaines cultures et le deuil dans d'autres. Une palette sans conflit ici peut en créer ailleurs.",
+  "Huit pour cent des hommes présentent une forme de déficience de la vision des couleurs : un sens porté par la seule couleur leur échappe. Associez chaque signal coloré à un mot, une icône ou une forme.",
+  "Parcourez les écrans et relevez chaque endroit où une couleur et un mot peuvent se contredire : boutons, badges, notifications, graphiques, états vides. Les conflits se repèrent facilement dès qu'on les cherche.",
+  "Demandez à un modèle une jolie interface et il donnera volontiers la couleur d'accent à une action destructrice. Transmettez la sémantique avec la consigne, puis confrontez le résultat aux libellés.",
+  "Les systèmes codent de plus en plus leur degré de certitude par la couleur. Si le badge est vert alors que la phrase reste prudente, les gens croient la couleur et sautent la réserve."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Actions destructrices",
+  "La couleur porte une convention",
+  "L'action est réellement neutre",
+  "Systèmes de boutons et de badges",
+  "La palette porte du sens",
+  "La couleur relève seulement de la marque",
+  "Écrans de supervision et d'administration",
+  "Les lignes sont balayées, pas lues",
+  "Il n'existe aucune sémantique d'état",
+  "Design systems",
+  "Définition des couleurs sémantiques",
+  "Le domaine a sa propre convention",
+  "Couples icône et libellé",
+  "Les icônes portent des sens connus",
+  "L'icône est purement décorative",
+  "Produits diffusés dans plusieurs pays",
+  "La couleur encode une direction ou une valeur",
+  "Le public tient dans un seul marché",
+  "Tout état ou retour d'information",
+  "La couleur porte le sens",
+  "Le signal est déjà redondant",
+  "Revue de design",
+  "Une palette est en cours de définition",
+  "Le système n'a qu'une seule couleur d'accent",
+  "Style → sémantique",
+  "Générer une interface à partir d'un prompt",
+  "Couleurs d'accent sur des actions destructrices",
+  "Texte → signal coloré",
+  "Afficher la certitude du modèle",
+  "Couleur rassurante sur des mots nuancés"
+ ],
+ ".ai-divider h3": [
+  "Stroop à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les interfaces générées choisissent leurs couleurs par style et non par sens : l'accord entre un libellé et sa couleur est désormais une chose à vérifier plutôt qu'à présumer."
+ ]
+}

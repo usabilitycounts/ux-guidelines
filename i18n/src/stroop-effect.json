@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Stroop <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "When the <em>label</em> and the color disagree."
+ ],
+ "header .subtitle": [
+  "Reading is automatic; naming a color is not. When a label and its color carry different meanings — a green Delete button, a red success badge — the two readings collide and the person slows down, hesitates, and misclicks more often."
+ ],
+ ".law-origin .body-text": [
+  "John Ridley Stroop published the experiment in the Journal of Experimental Psychology in 1935, as part of his doctoral work at George Peabody College. Participants named the ink colors of words, and when the word named a different color the task took them far longer than naming the colors of plain squares.",
+  "The explanation that stuck is automaticity: reading a familiar word happens whether you intend it or not, so the printed meaning arrives before the color does and has to be suppressed. The finding is among the most replicated in psychology, and it transfers to any interface where two channels of meaning point in different directions."
+ ],
+ ".law-content .law-desc": [
+  "When two signals about the same element carry conflicting meanings, the reader has to resolve the conflict before acting, and that resolution costs time and accuracy. On screen the two signals are usually the words and the color."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-ridley-stroop\">John Ridley Stroop</a> (1935)",
+  "Journal of Experimental Psychology",
+  "Make the color agree with the word"
+ ],
+ ".apply-list li": [
+  "A destructive or irreversible action is getting a color, and the brand palette does not match the convention people expect.",
+  "Status badges, toasts, or table rows are being designed for a screen that people scan rather than read.",
+  "A product is shipping into a new market where the colors already carry a different meaning.",
+  "Write the semantic colors into the design system as meanings rather than as hues: destructive, success, warning, informational.",
+  "Pair every color signal with a word, an icon, or a shape, so the meaning survives both the conflict and color blindness.",
+  "Run a conflict pass across buttons, badges, toasts, and charts, and fix any element where the color and the label disagree."
+ ],
+ ".card .tag": [
+  "The classic case",
+  "Channels",
+  "Dashboards",
+  "Conventions",
+  "Beyond color",
+  "Culture",
+  "Accessibility",
+  "Testing",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Green Delete Button",
+  "Color Is a Second Label",
+  "Status Colors That Lie",
+  "Borrowed Meanings",
+  "Icons That Contradict",
+  "Color Is Not Universal",
+  "Color Alone Is Not a Label",
+  "Audit the Conflicts",
+  "Palettes Chosen Without Meaning",
+  "Coloring Confidence"
+ ],
+ ".card .desc": [
+  "Green says proceed and safe; Delete says stop and think. Put them on the same button and every person meets a small contradiction they must resolve before clicking.",
+  "A color is not decoration on a control; it is a second statement about what the control does. Choose it as deliberately as the words, because people read both.",
+  "A red badge reading Healthy, or an amber row labelled Resolved, forces a double take on exactly the screens people scan fastest. Status color and status word must say the same thing.",
+  "Red for destructive, green for confirm, amber for caution: these are conventions people bring with them. Breaking one to fit a brand palette moves the cost onto every user, every time.",
+  "The same interference appears between an icon and its label: a download arrow beside the word Upload, a trash can labelled Archive. Two channels, one contradiction, the same pause.",
+  "Red marks a fall in Western markets and a rise in Chinese ones; white reads as clean in some cultures and funereal in others. A conflict-free palette in one locale can conflict in the next.",
+  "Eight percent of men have some form of color vision deficiency, so a meaning carried only by color is missing for them. Pair every color signal with a word, an icon, or a shape.",
+  "Walk the screens and list every place where a color and a word could disagree: buttons, badges, toasts, charts, empty states. The conflicts are easy to find once you look for them.",
+  "A model asked for a pretty interface will happily give a destructive action the accent color. Pass the semantics in with the request, then check the output against the labels.",
+  "Systems increasingly color-code how sure they are. If the badge is green while the sentence hedges, people believe the color and skip the caveat."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Destructive actions",
+  "Color carries a convention",
+  "The action is genuinely neutral",
+  "Button and badge systems",
+  "Palette carries semantics",
+  "Color is purely brand",
+  "Monitoring and admin screens",
+  "Rows are scanned, not read",
+  "There is no status semantics",
+  "Design systems",
+  "Defining semantic colors",
+  "The domain has its own convention",
+  "Icon and label pairs",
+  "Icons carry known meanings",
+  "The icon is purely decorative",
+  "Products shipped in many locales",
+  "Color encodes direction or value",
+  "The audience is one market",
+  "Any status or feedback",
+  "Color carries the meaning",
+  "The signal is already redundant",
+  "Design review",
+  "A palette is being set",
+  "The system has one accent only",
+  "Style → semantics",
+  "Generating UI from a prompt",
+  "Accent colors on destructive actions",
+  "Text → color signal",
+  "Showing model certainty",
+  "Reassuring color over hedged words"
+ ],
+ ".ai-divider h3": [
+  "Stroop in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated interfaces choose colors from style, not from meaning, so the agreement between a label and its color is now something to check rather than something to assume."
+ ]
+}

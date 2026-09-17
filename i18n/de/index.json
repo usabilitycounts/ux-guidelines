@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Eine wachsende Bibliothek von 50 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
+  "Eine wachsende Bibliothek von 52 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
  ],
  ".card .tag": [
   "+ KI-Ära",
@@ -14,9 +14,11 @@
   "+ KI-Ära",
   "+ KI-Ära",
   "3 Haltungen",
+  "3 Fehlermodi",
   "10 Anwendungen",
   "6 Tunnel",
   "Bar, 2006",
+  "2 Kanäle",
   "+ KI-Ära",
   "400 ms",
   "+ KI-Ära",
@@ -66,9 +68,11 @@
   "Hofstadters Gesetz",
   "Pareto-Prinzip",
   "Human-in-the-Loop",
+  "Out-of-the-Loop-Problem",
   "Fitts' Gesetz",
   "Steering-Gesetz",
   "Kontur-Bias",
+  "Stroop-Effekt",
   "Navigationsmuster",
   "Doherty-Schwelle",
   "Potenzgesetz der Übung",
@@ -118,9 +122,11 @@
   "Alles dauert länger als erwartet.",
   "Achtzig Prozent kommen von zwanzig Prozent.",
   "Wo das menschliche Urteil in der Automatisierung sitzt.",
+  "Automatisierung zu überwachen zehrt an der Fähigkeit zu übernehmen.",
   "Große, nahe Ziele sind schneller.",
   "Enge Pfade bremsen den Zeiger.",
   "Rund beruhigt, spitz alarmiert.",
+  "Widersprüchliche Beschriftung und Farbe bremsen Menschen aus.",
   "Bewährte Muster, um Dinge zu finden.",
   "Antwort unter 400 Millisekunden.",
   "Wiederholung macht jede Aufgabe schneller.",

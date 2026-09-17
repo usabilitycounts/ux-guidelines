@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Une bibliothèque grandissante de 50 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
+  "Une bibliothèque grandissante de 52 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
   "+ Ère de l'IA",
@@ -14,9 +14,11 @@
   "+ Ère de l'IA",
   "+ Ère de l'IA",
   "3 postures",
+  "3 modes de défaillance",
   "10 applications",
   "6 tunnels",
   "Bar, 2006",
+  "2 canaux",
   "+ Ère de l'IA",
   "400 ms",
   "+ Ère de l'IA",
@@ -66,9 +68,11 @@
   "Loi de Hofstadter",
   "Principe de Pareto",
   "Humain dans la boucle",
+  "Problème de sortie de boucle",
   "Loi de Fitts",
   "Loi du pilotage",
   "Biais des contours",
+  "Effet Stroop",
   "Modèles de navigation",
   "Seuil de Doherty",
   "Loi de puissance de la pratique",
@@ -118,9 +122,11 @@
   "Tout prend plus de temps que prévu.",
   "Quatre-vingts pour cent viennent de vingt.",
   "Où se situe le jugement humain dans l'automatisation.",
+  "Surveiller une automatisation érode la capacité à reprendre la main.",
   "Grandes cibles proches, action rapide.",
   "Les couloirs étroits ralentissent le curseur.",
   "L'arrondi rassure, l'angle alerte.",
+  "Un libellé et une couleur en conflit ralentissent l'utilisateur.",
   "Les schémas éprouvés pour se repérer.",
   "Répondre en moins de 400 millisecondes.",
   "La répétition accélère toute tâche.",

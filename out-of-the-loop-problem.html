@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-page="out-of-the-loop-problem">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.">
+<title>Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/out-of-the-loop-problem.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/out-of-the-loop-problem.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/problema-de-estar-fuera-del-bucle.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/out-of-the-loop-problem.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/probleme-de-sortie-de-boucle.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/out-of-the-loop-problem.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/out-of-the-loop-problem.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/out-of-the-loop-problem.html">
+<meta property="og:title" content="Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill — UX Guidelines">
+<meta property="og:description" content="The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/out-of-the-loop-problem.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/out-of-the-loop-problem.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/out-of-the-loop-problem.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill — UX Guidelines">
+<meta name="twitter:description" content="The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill", "description": "The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.", "url": "https://www.ux-guidelines.com/out-of-the-loop-problem.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/out-of-the-loop-problem.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill", "item": "https://www.ux-guidelines.com/out-of-the-loop-problem.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=106">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  .ol { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .ol .row { display: flex; align-items: center; gap: 10px; }
+  .ol .person { width: 32px; height: 32px; border-radius: 50%; background: var(--skel-strong); opacity: 0.45; flex: none; }
+  .ol .person.b { background: var(--il-accent); opacity: 1; }
+  .ol .box { flex: 1; height: 28px; border-radius: 8px; background: var(--surface); display: flex; align-items: center; padding: 0 12px; }
+  .ol .box i { display: block; height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; flex: 1; }
+  .ol .box.b { background: rgba(56,189,248,0.15); } .ol .box.b i { background: var(--il-accent); opacity: 1; }
+  .ol .plot { position: relative; flex: 1; min-height: 0; }
+  .ol .plot svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .ol .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel); opacity: 0.4; }
+  .ol .ln.b { background: var(--il-accent); opacity: 1; }
+  .ol .col { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .ol .bars { display: flex; align-items: flex-end; gap: 8px; flex: 1; min-height: 0; }
+  .ol .bars i { flex: 1; border-radius: 5px 5px 0 0; background: var(--skel); opacity: 0.4; display: block; }
+  .ol .bars i.b { background: var(--il-accent); opacity: 1; }
+  .ol .split { display: flex; gap: 14px; flex: 1; min-height: 0; }
+  .ol .half { flex: 1; border-radius: 8px; background: var(--surface); padding: 10px; display: flex; flex-direction: column; gap: 6px; justify-content: center; }
+  .ol .half i { display: block; height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.45; }
+  .ol .half.b { background: rgba(56,189,248,0.12); box-shadow: inset 0 0 0 2px var(--il-accent); }
+  .ol .half.b i { background: var(--il-accent); opacity: 1; }
+  .ol .alarm { flex: none; width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); }
+  .ol .chips { display: flex; gap: 7px; flex-wrap: wrap; }
+  .ol .chip { height: 20px; border-radius: 10px; background: var(--surface); display: flex; align-items: center; padding: 0 12px; }
+  .ol .chip i { height: 5px; width: 26px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .ol .chip.b { background: rgba(56,189,248,0.18); } .ol .chip.b i { background: var(--il-accent); opacity: 1; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+</style>
+<script defer src="tokens.js?v=103"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link active">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Out-of-the-Loop <em>Problem</em></h1>
+  <p class="tagline">The <em>better</em> it runs, the less you can take over.</p>
+  <p class="subtitle">The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Lisanne Bainbridge set out the shape of it in 1983 in Ironies of Automation: automation takes over the easy parts of a job, leaves the operator whatever was too hard to automate, and then expects that operator, now out of practice, to step in at the moment the machine reaches its limit.</p>
+    <p class="body-text">Mica Endsley and Esin Kiris named and measured the effect in Human Factors in 1995, finding that people supervising an automated task recovered more slowly from a failure than people who had been doing the task themselves. Three threads run through it: situation awareness fades, vigilance decays across a quiet watch, and manual skill erodes from disuse.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Problem</div>
+    <p class="body-text law-desc">Put a person in charge of watching rather than doing, and their ability to take over decays while the system runs well. The cost is invisible until the handover, which arrives with the hardest case and the least time.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-mica-endsley">Mica Endsley</a> and Esin Kiris (1995)</div></div>
+      <div><div class="label">Source</div><div class="value">Human Factors, after Bainbridge's Ironies of Automation</div></div>
+      <div><div class="label">In practice</div><div class="value">Give the monitor something real to do</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>An automated feature is replacing work someone does by hand, and that person stays responsible for the result when it fails.</li>
+      <li>A monitoring screen is the whole of somebody's shift, and the event they are watching for almost never arrives.</li>
+      <li>A team is deciding to automate the routine cases and leave the exceptions to whoever happens to be on duty.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Give the monitor a real share of the work rather than a screen to watch, so the loop stays warm between failures.</li>
+      <li>Put manual practice into the rota, and treat degraded-mode drills as part of the job rather than as training overhead.</li>
+      <li>Design the handover as a briefing: what was tried, what the system believes, and how long the person has before it matters.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Losing the Picture -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Awareness</span>
+      <span class="num">01 / 10</span>
+      <h3>Losing the Picture</h3>
+      <p class="desc">A person who watches rather than acts stops building a model of what the system is doing. When the alarm sounds they must construct that picture from nothing, under time pressure, before they can act at all.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="row"><span class="person"></span><div class="box"><i></i></div></div><div class="plot"><svg viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 80 20, 150 62, 296 106" fill="none" stroke="var(--il-accent)" stroke-width="3"  vector-effect="non-scaling-stroke"/></svg></div><div class="row"><span class="alarm"></span><div class="box b"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Supervisory interfaces</div></div>
+      <div><div class="label">Use when</div><div class="value">Handover is possible at any moment</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The person never takes over</div></div>
+    </div>
+  </article>
+  <!-- 2. Watching for Nothing -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Vigilance</span>
+      <span class="num">02 / 10</span>
+      <h3>Watching for Nothing</h3>
+      <p class="desc">People are poor at sustained watch for rare events, and detection falls off within the first half hour of a quiet shift. A monitor with nothing to do is not a safeguard.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="plot"><svg viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 80 20, 150 62, 296 106" fill="none" stroke="var(--il-accent)" stroke-width="3"  vector-effect="non-scaling-stroke"/></svg></div><div class="chips"><span class="chip"><i></i></span><span class="chip"><i></i></span><span class="chip"><i></i></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Alerting and monitoring</div></div>
+      <div><div class="label">Use when</div><div class="value">Failures are rare</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The watch is short and active</div></div>
+    </div>
+  </article>
+  <!-- 3. Skills You Do Not Use -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Skill</span>
+      <span class="num">03 / 10</span>
+      <h3>Skills You Do Not Use</h3>
+      <p class="desc">Manual ability decays through disuse. The operator asked to take the controls may not have held them in months, and the moment they are handed back is rarely a calm one.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="bars"><i class="b" style="height:92%"></i><i style="height:74%"></i><i style="height:56%"></i><i style="height:40%"></i><i style="height:28%"></i><i style="height:20%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Anything with a manual fallback</div></div>
+      <div><div class="label">Use when</div><div class="value">Automation covers the routine case</div></div>
+      <div><div class="label">Avoid when</div><div class="value">No manual mode remains</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="power-law-of-practice.html">Power Law of Practice</a></div>
+    </div>
+  </article>
+  <!-- 4. The Ironies of Automation -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Irony</span>
+      <span class="num">04 / 10</span>
+      <h3>The Ironies of Automation</h3>
+      <p class="desc">Bainbridge's point in one line: automation takes the easy parts of a job and leaves the parts nobody could automate, then asks an out-of-practice person to handle exactly those.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="split"><div class="half"><i style="width:80%"></i><i style="width:64%"></i><i style="width:72%"></i></div><div class="half b"><i style="width:56%"></i><i style="width:40%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Deciding what to automate</div></div>
+      <div><div class="label">Use when</div><div class="value">Automating the routine path</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The task is automated end to end</div></div>
+    </div>
+  </article>
+  <!-- 5. The Worst Moment to Hand Back -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Handover</span>
+      <span class="num">05 / 10</span>
+      <h3>The Worst Moment to Hand Back</h3>
+      <p class="desc">Automation tends to give up precisely when conditions turn abnormal. The handover therefore arrives carrying the hardest case, the least context, and the least time to act on either.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="row"><div class="box"><i></i></div><span class="alarm"></span><span class="person"></span></div><div class="col"><span class="ln" style="width:94%"></span><span class="ln b" style="width:52%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Fallback design</div></div>
+      <div><div class="label">Use when</div><div class="value">The system can disengage</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Disengagement is impossible</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="human-in-the-loop.html">Human-in-the-Loop</a></div>
+    </div>
+  </article>
+  <!-- 6. Give the Monitor Real Work -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Design</span>
+      <span class="num">06 / 10</span>
+      <h3>Give the Monitor Real Work</h3>
+      <p class="desc">Keep the person in the task rather than beside it. Let them handle a share of the cases, confirm the decisions that matter, or steer at intervals, so the loop stays warm.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="row"><span class="person b"></span><div class="box b"><i></i></div></div><div class="row"><span class="person b"></span><div class="box"><i></i></div></div><div class="row"><span class="person b"></span><div class="box b"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Long supervisory shifts</div></div>
+      <div><div class="label">Use when</div><div class="value">Watching is the whole job</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Attention is needed elsewhere</div></div>
+    </div>
+  </article>
+  <!-- 7. Narrate the System's State -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Transparency</span>
+      <span class="num">07 / 10</span>
+      <h3>Narrate the System's State</h3>
+      <p class="desc">Someone can only stay in the loop if the system says what it is doing, how sure it is, and what it intends next. Silence through normal operation guarantees surprise at the end of it.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="col"><span class="ln b" style="width:88%"></span><span class="ln" style="width:70%"></span><span class="ln b" style="width:80%"></span><span class="ln" style="width:58%"></span></div><div class="row"><span class="person b"></span><div class="box b"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Autonomous features</div></div>
+      <div><div class="label">Use when</div><div class="value">The system acts unattended</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Narration turns into noise</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="automation-bias.html">Automation Bias</a></div>
+    </div>
+  </article>
+  <!-- 8. Rehearse the Takeover -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Practice</span>
+      <span class="num">08 / 10</span>
+      <h3>Rehearse the Takeover</h3>
+      <p class="desc">Schedule the manual case rather than waiting for it. Drills, periodic hands-on work, and deliberate degraded modes keep the skill alive at the cost of a little efficiency.</p>
+    </div>
+    <div class="demo"><div class="ol"><div class="bars"><i class="b" style="height:88%"></i><i style="height:40%"></i><i class="b" style="height:84%"></i><i style="height:36%"></i><i class="b" style="height:90%"></i><i style="height:38%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Safety-critical work</div></div>
+      <div><div class="label">Use when</div><div class="value">Takeover is part of the job</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Rehearsal costs more than failure</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Out of the Loop in the Age of AI</h3>
+    <p>Copilots moved the problem from the cockpit to the desk: the reviewer who accepts suggestions all day slowly loses the fluency that the review depends on.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="ol"><div class="row"><div class="box b"><i></i></div><span class="person"></span></div><div class="plot"><svg viewBox="0 0 300 120" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 80 20, 150 62, 296 106" fill="none" stroke="var(--il-accent)" stroke-width="3"  vector-effect="non-scaling-stroke"/></svg></div><div class="chips"><span class="chip b"><i></i></span><span class="chip b"><i></i></span><span class="chip"><i></i></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Reviewing What You Could No Longer Write</h3>
+      <p class="desc">A person who accepts generated code, copy, or analysis all day gradually loses the fluency that made their review worth anything. The check erodes the checker.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Suggestion → judgment decay</div></div>
+      <div><div class="label">Use when</div><div class="value">Output is accepted at high rates</div></div>
+      <div><div class="label">Watch for</div><div class="value">Reviewers with no practice left</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="ol"><div class="split"><div class="half b"><i style="width:84%"></i><i style="width:62%"></i><i style="width:70%"></i></div><div class="half"><i style="width:50%"></i></div></div><div class="row"><span class="person b"></span><div class="box"><i></i></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Handing Back Gracefully</h3>
+      <p class="desc">When an agent stops, it should hand over what it tried, what it believes, and how much time remains, rather than dropping a half-finished task on someone who has been watching.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Abrupt stop → briefed handover</div></div>
+      <div><div class="label">Use when</div><div class="value">Agents run long tasks</div></div>
+      <div><div class="label">Watch for</div><div class="value">Handover summaries nobody reads</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1518/001872095779064555" target="_blank" rel="noopener"><span class="title">The Out-of-the-Loop Performance Problem and Level of Control in Automation — Endsley and Kiris, 1995</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1016/0005-1098(83)90046-8" target="_blank" rel="noopener"><span class="title">Ironies of Automation — Lisanne Bainbridge, 1983</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Out-of-the-loop_performance_problem" target="_blank" rel="noopener"><span class="title">Out-of-the-Loop Performance Problem</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Situation_awareness" target="_blank" rel="noopener"><span class="title">Situation Awareness</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Vigilance_(psychology)" target="_blank" rel="noopener"><span class="title">Vigilance (Psychology)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Mica_Endsley" target="_blank" rel="noopener"><span class="title">Mica Endsley</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Case</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Air_France_Flight_447" target="_blank" rel="noopener"><span class="title">Air France Flight 447</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Out-of-the-Loop Problem</div>
+</footer>
+
+</body>
+</html>

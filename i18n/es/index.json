@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 50 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 52 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "+ Era de la IA",
@@ -14,9 +14,11 @@
   "+ Era de la IA",
   "+ Era de la IA",
   "3 posturas",
+  "3 modos de fallo",
   "10 aplicaciones",
   "6 túneles",
   "Bar, 2006",
+  "2 canales",
   "+ Era de la IA",
   "400 ms",
   "+ Era de la IA",
@@ -66,9 +68,11 @@
   "Ley de Hofstadter",
   "Principio de Pareto",
   "Humano en el bucle",
+  "Problema de estar fuera del bucle",
   "Ley de Fitts",
   "Ley de conducción",
   "Sesgo de contorno",
+  "Efecto Stroop",
   "Patrones de navegación",
   "Umbral de Doherty",
   "Ley de potencia de la práctica",
@@ -118,9 +122,11 @@
   "Todo tarda más de lo previsto.",
   "El ochenta viene del veinte por ciento.",
   "Dónde se sitúa el criterio humano en la automatización.",
+  "Vigilar la automatización erosiona la capacidad de tomar el mando.",
   "Objetivos grandes y cercanos, más rápidos.",
   "Los túneles estrechos frenan el cursor.",
   "Lo curvo calma; lo anguloso alerta.",
+  "Una etiqueta y un color en conflicto ralentizan a la gente.",
   "Los patrones probados para orientarse.",
   "Responder en menos de 400 milisegundos.",
   "La repetición acelera toda tarea.",

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Efecto</em> Stroop"
+ ],
+ "header .tagline": [
+  "Cuando la <em>etiqueta</em> y el color se contradicen."
+ ],
+ "header .subtitle": [
+  "Leer es automático; nombrar un color no lo es. Cuando una etiqueta y su color transmiten significados distintos — un botón Eliminar en verde, una insignia de éxito en rojo —, las dos lecturas chocan: la persona se ralentiza, duda y falla el clic con más frecuencia."
+ ],
+ ".law-origin .body-text": [
+  "John Ridley Stroop publicó el experimento en el Journal of Experimental Psychology en 1935, como parte de su tesis doctoral en el George Peabody College. Los participantes debían nombrar el color de la tinta de unas palabras, y cuando la palabra nombraba un color distinto la tarea les llevaba mucho más tiempo que nombrar el color de simples cuadrados.",
+  "La explicación que se impuso es la automaticidad: leer una palabra familiar ocurre tanto si se quiere como si no, de modo que el significado escrito llega antes que el color y hay que inhibirlo. Es uno de los hallazgos más replicados de la psicología y se traslada a cualquier interfaz donde dos canales de significado apunten en direcciones distintas."
+ ],
+ ".law-content .law-desc": [
+  "Cuando dos señales sobre el mismo elemento transmiten significados contradictorios, quien lee debe resolver el conflicto antes de actuar, y esa resolución cuesta tiempo y precisión. En pantalla, esas dos señales suelen ser las palabras y el color."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-ridley-stroop\">John Ridley Stroop</a> (1935)",
+  "Journal of Experimental Psychology",
+  "Hacer que el color concuerde con la palabra"
+ ],
+ ".apply-list li": [
+  "Una acción destructiva o irreversible va a recibir un color y la paleta de marca no coincide con la convención que la gente espera.",
+  "Se están diseñando insignias de estado, avisos o filas de tabla para una pantalla que la gente recorre en lugar de leer.",
+  "Un producto se lanza en un mercado nuevo donde los colores ya tienen otro significado.",
+  "Define los colores semánticos en el sistema de diseño como significados y no como tonos: destructivo, éxito, advertencia, informativo.",
+  "Acompaña cada señal de color con una palabra, un icono o una forma, para que el significado sobreviva tanto al conflicto como al daltonismo.",
+  "Haz una pasada de conflictos por botones, insignias, avisos y gráficos, y corrige cualquier elemento donde el color y la etiqueta se contradigan."
+ ],
+ ".card .tag": [
+  "El caso clásico",
+  "Canales",
+  "Cuadros de mando",
+  "Convenciones",
+  "Más allá del color",
+  "Cultura",
+  "Accesibilidad",
+  "Pruebas",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El botón Eliminar en verde",
+  "El color es una segunda etiqueta",
+  "Colores de estado que mienten",
+  "Significados prestados",
+  "Iconos que contradicen",
+  "El color no es universal",
+  "El color por sí solo no es una etiqueta",
+  "Auditar los conflictos",
+  "Paletas elegidas sin significado",
+  "Colorear la confianza"
+ ],
+ ".card .desc": [
+  "El verde dice adelante, no hay riesgo; Eliminar dice detente y piensa. Júntalos en un mismo botón y cada persona se encuentra con una pequeña contradicción que debe resolver antes de pulsar.",
+  "El color no es un adorno sobre un control: es una segunda afirmación sobre lo que ese control hace. Elígelo con el mismo cuidado que las palabras, porque la gente lee ambos.",
+  "Una insignia roja que dice Correcto, o una fila ámbar etiquetada Resuelto, obliga a mirar dos veces justo en las pantallas que más rápido se recorren. El color del estado y la palabra del estado deben decir lo mismo.",
+  "Rojo para destructivo, verde para confirmar, ámbar para precaución: son convenciones que la gente trae consigo. Romper una para encajar en la paleta de marca traslada el coste a cada usuario, cada vez.",
+  "La misma interferencia aparece entre un icono y su etiqueta: una flecha de descarga junto a la palabra Subir, una papelera etiquetada Archivar. Dos canales, una contradicción, la misma pausa.",
+  "El rojo marca una caída en los mercados occidentales y una subida en los chinos; el blanco se lee como limpieza en unas culturas y como luto en otras. Una paleta sin conflictos en un mercado puede chocar en el siguiente.",
+  "El ocho por ciento de los hombres tiene alguna forma de deficiencia en la visión del color, así que un significado que viaja solo en el color se les pierde. Acompaña cada señal de color con una palabra, un icono o una forma.",
+  "Recorre las pantallas y anota cada lugar donde un color y una palabra puedan contradecirse: botones, insignias, avisos, gráficos, estados vacíos. Los conflictos son fáciles de encontrar en cuanto los buscas.",
+  "A un modelo al que se le pide una interfaz bonita no le costará dar el color de acento a una acción destructiva. Pasa la semántica junto con la petición y luego contrasta el resultado con las etiquetas.",
+  "Cada vez más sistemas codifican con color su grado de certeza. Si la insignia es verde mientras la frase matiza, la gente cree al color y se salta la advertencia."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Acciones destructivas",
+  "El color arrastra una convención",
+  "La acción es realmente neutra",
+  "Sistemas de botones e insignias",
+  "La paleta transmite semántica",
+  "El color es solo cuestión de marca",
+  "Pantallas de monitorización y administración",
+  "Las filas se recorren, no se leen",
+  "No existe semántica de estado",
+  "Sistemas de diseño",
+  "Al definir los colores semánticos",
+  "El sector tiene su propia convención",
+  "Parejas de icono y etiqueta",
+  "Los iconos tienen significados conocidos",
+  "El icono es puramente decorativo",
+  "Productos que se lanzan en varios mercados",
+  "El color codifica dirección o valor",
+  "El público es un solo mercado",
+  "Cualquier estado o respuesta del sistema",
+  "El color transmite el significado",
+  "La señal ya es redundante",
+  "Revisión de diseño",
+  "Se está fijando una paleta",
+  "El sistema tiene un único color de acento",
+  "Estilo → semántica",
+  "Generar interfaz a partir de un prompt",
+  "Colores de acento en acciones destructivas",
+  "Texto → señal de color",
+  "Mostrar la certeza del modelo",
+  "Color tranquilizador frente a palabras cautelosas"
+ ],
+ ".ai-divider h3": [
+  "Stroop en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las interfaces generadas eligen los colores por estilo y no por significado, así que la concordancia entre una etiqueta y su color es ahora algo que hay que comprobar en lugar de darlo por supuesto."
+ ]
+}

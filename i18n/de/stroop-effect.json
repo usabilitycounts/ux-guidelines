@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Stroop-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Wenn die <em>Beschriftung</em> und die Farbe sich widersprechen."
+ ],
+ "header .subtitle": [
+  "Lesen läuft automatisch ab, eine Farbe zu benennen nicht. Wenn eine Beschriftung und ihre Farbe unterschiedliche Bedeutungen tragen — ein grüner Löschen-Button, ein rotes Erfolgs-Badge —, prallen beide Lesarten aufeinander: Menschen werden langsamer, zögern und verklicken sich häufiger."
+ ],
+ ".law-origin .body-text": [
+  "John Ridley Stroop veröffentlichte das Experiment 1935 im Journal of Experimental Psychology, als Teil seiner Doktorarbeit am George Peabody College. Die Teilnehmenden benannten die Druckfarbe von Wörtern; benannte das Wort eine andere Farbe, dauerte die Aufgabe deutlich länger als das Benennen der Farbe einfacher Quadrate.",
+  "Durchgesetzt hat sich die Erklärung über Automatismen: Ein vertrautes Wort wird gelesen, ob man will oder nicht, sodass die geschriebene Bedeutung vor der Farbe eintrifft und unterdrückt werden muss. Der Befund gehört zu den am häufigsten replizierten der Psychologie und überträgt sich auf jede Oberfläche, in der zwei Bedeutungskanäle in verschiedene Richtungen zeigen."
+ ],
+ ".law-content .law-desc": [
+  "Wenn zwei Signale zum selben Element widersprüchliche Bedeutungen tragen, muss der Betrachter den Konflikt auflösen, bevor er handelt, und diese Auflösung kostet Zeit und Genauigkeit. Auf dem Bildschirm sind die beiden Signale meist die Wörter und die Farbe."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-john-ridley-stroop\">John Ridley Stroop</a> (1935)",
+  "Journal of Experimental Psychology",
+  "Die Farbe mit dem Wort in Einklang bringen"
+ ],
+ ".apply-list li": [
+  "Eine destruktive oder unumkehrbare Aktion bekommt eine Farbe, und die Markenpalette passt nicht zu der Konvention, die Menschen erwarten.",
+  "Status-Badges, Toasts oder Tabellenzeilen entstehen für einen Screen, den Menschen scannen statt lesen.",
+  "Ein Produkt geht in einen neuen Markt, in dem die Farben bereits eine andere Bedeutung tragen.",
+  "Legen Sie semantische Farben im Designsystem als Bedeutungen statt als Farbtöne fest: destruktiv, Erfolg, Warnung, Information.",
+  "Ergänzen Sie jedes Farbsignal um ein Wort, ein Icon oder eine Form, damit die Bedeutung sowohl den Widerspruch als auch Farbfehlsichtigkeit übersteht.",
+  "Prüfen Sie Buttons, Badges, Toasts und Diagramme in einem Durchgang auf Konflikte und korrigieren Sie jedes Element, bei dem Farbe und Beschriftung auseinandergehen."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Kanäle",
+  "Dashboards",
+  "Konventionen",
+  "Jenseits der Farbe",
+  "Kultur",
+  "Barrierefreiheit",
+  "Prüfen",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Der grüne Löschen-Button",
+  "Farbe ist eine zweite Beschriftung",
+  "Statusfarben, die lügen",
+  "Geliehene Bedeutungen",
+  "Icons, die widersprechen",
+  "Farbe ist nicht universell",
+  "Farbe allein ist keine Beschriftung",
+  "Die Widersprüche auditieren",
+  "Paletten ohne Bedeutung gewählt",
+  "Sicherheit einfärben"
+ ],
+ ".card .desc": [
+  "Grün sagt: weiter, alles sicher. Löschen sagt: anhalten und nachdenken. Auf demselben Button treffen alle auf einen kleinen Widerspruch, den sie vor dem Klick auflösen müssen.",
+  "Farbe ist keine Dekoration auf einem Bedienelement, sondern eine zweite Aussage darüber, was es tut. Wählen Sie sie so bewusst wie die Wörter, denn gelesen wird beides.",
+  "Ein rotes Badge mit der Aufschrift In Ordnung oder eine gelbe Zeile mit der Angabe Gelöst zwingt genau dort zum zweiten Hinsehen, wo am schnellsten gescannt wird. Statusfarbe und Statuswort müssen dasselbe sagen.",
+  "Rot für destruktiv, Grün für bestätigen, Gelb für Vorsicht: Diese Konventionen bringen Menschen bereits mit. Eine davon der Markenpalette zuliebe zu brechen, verlagert die Kosten auf jede Person, jedes Mal.",
+  "Dieselbe Interferenz entsteht zwischen Icon und Beschriftung: ein Download-Pfeil neben dem Wort Hochladen, ein Papierkorb mit der Beschriftung Archivieren. Zwei Kanäle, ein Widerspruch, dieselbe Verzögerung.",
+  "Rot steht in westlichen Märkten für fallende Kurse, in chinesischen für steigende; Weiß wirkt in manchen Kulturen sauber, in anderen wie Trauer. Eine konfliktfreie Palette im einen Markt kann im nächsten kollidieren.",
+  "Acht Prozent aller Männer haben eine Form von Farbfehlsichtigkeit; eine Bedeutung, die nur die Farbe trägt, fehlt ihnen schlicht. Ergänzen Sie jedes Farbsignal um ein Wort, ein Icon oder eine Form.",
+  "Gehen Sie die Screens durch und notieren Sie jede Stelle, an der Farbe und Wort auseinandergehen können: Buttons, Badges, Toasts, Diagramme, leere Zustände. Die Konflikte sind leicht zu finden, sobald man danach sucht.",
+  "Ein Modell, das um eine hübsche Oberfläche gebeten wird, gibt einer destruktiven Aktion bereitwillig die Akzentfarbe. Geben Sie die Semantik mit der Anfrage mit und gleichen Sie das Ergebnis anschließend mit den Beschriftungen ab.",
+  "Systeme kodieren ihre Sicherheit zunehmend farblich. Ist das Badge grün, während der Satz relativiert, glauben Menschen der Farbe und überspringen den Vorbehalt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Destruktive Aktionen",
+  "Die Farbe trägt eine Konvention",
+  "Die Aktion ist wirklich neutral",
+  "Button- und Badge-Systeme",
+  "Die Palette trägt Semantik",
+  "Farbe ist reine Markensache",
+  "Monitoring- und Admin-Oberflächen",
+  "Zeilen werden gescannt, nicht gelesen",
+  "Es gibt keine Statussemantik",
+  "Designsysteme",
+  "Semantische Farben werden definiert",
+  "Die Branche hat eine eigene Konvention",
+  "Paare aus Icon und Beschriftung",
+  "Icons tragen bekannte Bedeutungen",
+  "Das Icon ist rein dekorativ",
+  "Produkte für viele Märkte",
+  "Farbe kodiert Richtung oder Wert",
+  "Die Zielgruppe ist ein einziger Markt",
+  "Jeder Status und jede Rückmeldung",
+  "Die Farbe trägt die Bedeutung",
+  "Das Signal ist bereits redundant",
+  "Design-Review",
+  "Eine Palette wird festgelegt",
+  "Das System hat nur eine Akzentfarbe",
+  "Stil → Semantik",
+  "UI aus einem Prompt erzeugen",
+  "Akzentfarben auf destruktiven Aktionen",
+  "Text → Farbsignal",
+  "Modellsicherheit anzeigen",
+  "Beruhigende Farbe statt vorsichtiger Worte"
+ ],
+ ".ai-divider h3": [
+  "Stroop im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Generierte Oberflächen wählen Farben nach Stil, nicht nach Bedeutung. Ob Beschriftung und Farbe zusammenpassen, ist deshalb heute etwas, das man prüfen muss, statt es vorauszusetzen."
+ ]
+}

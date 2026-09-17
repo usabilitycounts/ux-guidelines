@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Das Out-of-the-Loop-<em>Problem</em>"
+ ],
+ "header .tagline": [
+  "Je <em>besser</em> es läuft, desto weniger können Sie übernehmen."
+ ],
+ "header .subtitle": [
+  "Das Out-of-the-Loop-Leistungsproblem: Wer Automatisierung nur überwacht, verliert genau die Fähigkeiten, die zum Übernehmen nötig sind, wenn sie versagt. Je länger das System störungsfrei läuft, desto weniger Übung hat die beobachtende Person — und die Übergabe kommt immer im schwierigsten Moment."
+ ],
+ ".law-origin .body-text": [
+  "Lisanne Bainbridge beschrieb das Muster bereits 1983 in Ironies of Automation: Die Automatisierung übernimmt die leichten Teile einer Aufgabe, überlässt der Bedienperson alles, was sich nicht automatisieren ließ, und erwartet dann von dieser inzwischen aus der Übung gekommenen Person, dass sie genau dann eingreift, wenn die Maschine an ihre Grenzen stößt.",
+  "Mica Endsley und Esin Kiris benannten und vermaßen den Effekt 1995 in Human Factors: Wer eine automatisierte Aufgabe überwachte, erholte sich langsamer von einem Ausfall als wer die Aufgabe selbst ausführte. Drei Stränge laufen darin zusammen: Das Situationsbewusstsein verblasst, die Vigilanz lässt über eine ereignislose Wache hinweg nach, und manuelle Fertigkeiten verkümmern mangels Gebrauch."
+ ],
+ ".law-content .law-desc": [
+  "Lässt man einen Menschen zusehen statt handeln, schwindet seine Fähigkeit zum Übernehmen, während das System gut läuft. Der Preis bleibt unsichtbar bis zur Übergabe, und die kommt mit dem schwersten Fall und der geringsten Zeit."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-mica-endsley\">Mica Endsley</a> und Esin Kiris (1995)",
+  "Human Factors, im Anschluss an Bainbridges Ironies of Automation",
+  "Der überwachenden Person echte Arbeit geben"
+ ],
+ ".apply-list li": [
+  "Eine automatisierte Funktion ersetzt Arbeit, die jemand von Hand erledigt, und diese Person bleibt bei einem Ausfall für das Ergebnis verantwortlich.",
+  "Ein Überwachungsbildschirm füllt die ganze Schicht, und das erwartete Ereignis tritt so gut wie nie ein.",
+  "Ein Team entscheidet, die Regelfälle zu automatisieren und die Ausnahmen der jeweils diensthabenden Person zu überlassen.",
+  "Geben Sie der überwachenden Person einen echten Anteil an der Arbeit statt nur einen Bildschirm, damit die Schleife zwischen zwei Ausfällen warm bleibt.",
+  "Nehmen Sie manuelle Übung in den Dienstplan auf und behandeln Sie Notbetriebsübungen als Teil der Arbeit, nicht als Schulungsaufwand.",
+  "Gestalten Sie die Übergabe als Briefing: was versucht wurde, wovon das System ausgeht und wie viel Zeit bleibt, bevor es darauf ankommt."
+ ],
+ ".card .tag": [
+  "Bewusstsein",
+  "Vigilanz",
+  "Fertigkeit",
+  "Ironie",
+  "Übergabe",
+  "Gestaltung",
+  "Transparenz",
+  "Übung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das Bild verlieren",
+  "Auf nichts warten",
+  "Fähigkeiten, die brachliegen",
+  "Die Ironien der Automatisierung",
+  "Der schlechteste Moment zur Rückgabe",
+  "Echte Arbeit für die Aufsicht",
+  "Den Systemzustand erzählen",
+  "Die Übernahme proben",
+  "Prüfen, was man selbst nicht mehr schreiben könnte",
+  "Sauber zurückgeben"
+ ],
+ ".card .desc": [
+  "Wer zusieht statt zu handeln, baut kein Modell davon auf, was das System gerade tut. Wenn der Alarm losgeht, muss dieses Bild unter Zeitdruck aus dem Nichts aufgebaut werden, bevor überhaupt gehandelt werden kann.",
+  "Menschen sind schlecht darin, dauerhaft auf seltene Ereignisse zu achten; die Entdeckungsleistung fällt schon in der ersten halben Stunde einer ruhigen Schicht ab. Eine überwachende Person ohne Aufgabe ist keine Absicherung.",
+  "Manuelles Können verkümmert durch Nichtgebrauch. Wer die Steuerung übernehmen soll, hat sie vielleicht seit Monaten nicht in der Hand gehabt, und der Moment der Rückgabe ist selten ein ruhiger.",
+  "Bainbridges Punkt in einem Satz: Die Automatisierung nimmt die leichten Teile einer Aufgabe und lässt die übrig, die niemand automatisieren konnte, und verlangt dann von einer aus der Übung gekommenen Person, genau diese zu bewältigen.",
+  "Automatisierung gibt meist genau dann auf, wenn die Lage unnormal wird. Die Übergabe bringt deshalb den schwersten Fall, den geringsten Kontext und die wenigste Zeit für beides.",
+  "Halten Sie die Person in der Aufgabe statt daneben. Lassen Sie sie einen Teil der Fälle bearbeiten, die wichtigen Entscheidungen bestätigen oder in Intervallen steuern, damit die Schleife warm bleibt.",
+  "In der Schleife bleiben kann nur, wem das System sagt, was es tut, wie sicher es ist und was es als Nächstes vorhat. Schweigen im Normalbetrieb garantiert die Überraschung an dessen Ende.",
+  "Planen Sie den manuellen Fall ein, statt auf ihn zu warten. Übungen, regelmäßige Handarbeit und bewusst herbeigeführte Notbetriebe halten die Fertigkeit am Leben, um den Preis etwas geringerer Effizienz.",
+  "Wer den ganzen Tag generierten Code, Texte oder Analysen annimmt, verliert nach und nach die Souveränität, die seine Prüfung überhaupt wertvoll machte. Die Kontrolle zehrt an der kontrollierenden Person.",
+  "Wenn ein Agent stoppt, sollte er übergeben, was er versucht hat, wovon er ausgeht und wie viel Zeit bleibt, statt jemandem, der nur zugesehen hat, eine halbfertige Aufgabe hinzuwerfen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Überwachungsoberflächen",
+  "Die Übergabe kann jederzeit kommen",
+  "Die Person übernimmt nie",
+  "Alarmierung und Monitoring",
+  "Ausfälle sind selten",
+  "Die Wache ist kurz und aktiv",
+  "Alles mit manuellem Rückfall",
+  "Automatisierung deckt den Regelfall ab",
+  "Es bleibt kein manueller Modus",
+  "Entscheiden, was automatisiert wird",
+  "Der Regelpfad wird automatisiert",
+  "Die Aufgabe ist durchgängig automatisiert",
+  "Gestaltung des Rückfalls",
+  "Das System kann sich abschalten",
+  "Ein Abschalten ist unmöglich",
+  "Lange Überwachungsschichten",
+  "Zusehen ist die ganze Arbeit",
+  "Die Aufmerksamkeit wird anderswo gebraucht",
+  "Autonome Funktionen",
+  "Das System handelt unbeaufsichtigt",
+  "Die Erzählung wird zu Lärm",
+  "Sicherheitskritische Arbeit",
+  "Die Übernahme gehört zur Aufgabe",
+  "Das Üben kostet mehr als der Ausfall",
+  "Vorschlag → nachlassendes Urteil",
+  "Ergebnisse werden häufig übernommen",
+  "Prüfende ohne verbleibende Übung",
+  "Abrupter Stopp → erklärte Übergabe",
+  "Agenten führen lange Aufgaben aus",
+  "Übergabeberichte, die niemand liest"
+ ],
+ ".ai-divider h3": [
+  "Out of the Loop im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Copiloten haben das Problem vom Cockpit an den Schreibtisch verlegt: Wer den ganzen Tag Vorschläge annimmt, verliert langsam die Souveränität, auf der die Prüfung beruht."
+ ]
+}

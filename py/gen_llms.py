@@ -10,9 +10,9 @@ GROUPS = [
  ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','golden-ratio','rule-of-thirds','rule-of-odds','canons-of-page-construction','gestalt-principles','von-restorff-effect','weber-fechner-law']),
  ("Present And Explain", ['data-visualization','universal-icons','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
  ("Structure The Choices", ['hicks-law','jakobs-law','paradox-of-choice','automation-bias']),
- ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),
+ ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','stroop-effect','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),
  ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
- ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','human-in-the-loop','pareto-principle']),
+ ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','human-in-the-loop','out-of-the-loop-problem','pareto-principle']),
  ("Follow The Rulebooks", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','chestertons-fence']),
 ]
 

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Out-of-the-Loop <em>Problem</em>"
+ ],
+ "header .tagline": [
+  "The <em>better</em> it runs, the less you can take over."
+ ],
+ "header .subtitle": [
+  "The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment."
+ ],
+ ".law-origin .body-text": [
+  "Lisanne Bainbridge set out the shape of it in 1983 in Ironies of Automation: automation takes over the easy parts of a job, leaves the operator whatever was too hard to automate, and then expects that operator, now out of practice, to step in at the moment the machine reaches its limit.",
+  "Mica Endsley and Esin Kiris named and measured the effect in Human Factors in 1995, finding that people supervising an automated task recovered more slowly from a failure than people who had been doing the task themselves. Three threads run through it: situation awareness fades, vigilance decays across a quiet watch, and manual skill erodes from disuse."
+ ],
+ ".law-content .law-desc": [
+  "Put a person in charge of watching rather than doing, and their ability to take over decays while the system runs well. The cost is invisible until the handover, which arrives with the hardest case and the least time."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-mica-endsley\">Mica Endsley</a> and Esin Kiris (1995)",
+  "Human Factors, after Bainbridge's Ironies of Automation",
+  "Give the monitor something real to do"
+ ],
+ ".apply-list li": [
+  "An automated feature is replacing work someone does by hand, and that person stays responsible for the result when it fails.",
+  "A monitoring screen is the whole of somebody's shift, and the event they are watching for almost never arrives.",
+  "A team is deciding to automate the routine cases and leave the exceptions to whoever happens to be on duty.",
+  "Give the monitor a real share of the work rather than a screen to watch, so the loop stays warm between failures.",
+  "Put manual practice into the rota, and treat degraded-mode drills as part of the job rather than as training overhead.",
+  "Design the handover as a briefing: what was tried, what the system believes, and how long the person has before it matters."
+ ],
+ ".card .tag": [
+  "Awareness",
+  "Vigilance",
+  "Skill",
+  "Irony",
+  "Handover",
+  "Design",
+  "Transparency",
+  "Practice",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Losing the Picture",
+  "Watching for Nothing",
+  "Skills You Do Not Use",
+  "The Ironies of Automation",
+  "The Worst Moment to Hand Back",
+  "Give the Monitor Real Work",
+  "Narrate the System's State",
+  "Rehearse the Takeover",
+  "Reviewing What You Could No Longer Write",
+  "Handing Back Gracefully"
+ ],
+ ".card .desc": [
+  "A person who watches rather than acts stops building a model of what the system is doing. When the alarm sounds they must construct that picture from nothing, under time pressure, before they can act at all.",
+  "People are poor at sustained watch for rare events, and detection falls off within the first half hour of a quiet shift. A monitor with nothing to do is not a safeguard.",
+  "Manual ability decays through disuse. The operator asked to take the controls may not have held them in months, and the moment they are handed back is rarely a calm one.",
+  "Bainbridge's point in one line: automation takes the easy parts of a job and leaves the parts nobody could automate, then asks an out-of-practice person to handle exactly those.",
+  "Automation tends to give up precisely when conditions turn abnormal. The handover therefore arrives carrying the hardest case, the least context, and the least time to act on either.",
+  "Keep the person in the task rather than beside it. Let them handle a share of the cases, confirm the decisions that matter, or steer at intervals, so the loop stays warm.",
+  "Someone can only stay in the loop if the system says what it is doing, how sure it is, and what it intends next. Silence through normal operation guarantees surprise at the end of it.",
+  "Schedule the manual case rather than waiting for it. Drills, periodic hands-on work, and deliberate degraded modes keep the skill alive at the cost of a little efficiency.",
+  "A person who accepts generated code, copy, or analysis all day gradually loses the fluency that made their review worth anything. The check erodes the checker.",
+  "When an agent stops, it should hand over what it tried, what it believes, and how much time remains, rather than dropping a half-finished task on someone who has been watching."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Supervisory interfaces",
+  "Handover is possible at any moment",
+  "The person never takes over",
+  "Alerting and monitoring",
+  "Failures are rare",
+  "The watch is short and active",
+  "Anything with a manual fallback",
+  "Automation covers the routine case",
+  "No manual mode remains",
+  "Deciding what to automate",
+  "Automating the routine path",
+  "The task is automated end to end",
+  "Fallback design",
+  "The system can disengage",
+  "Disengagement is impossible",
+  "Long supervisory shifts",
+  "Watching is the whole job",
+  "Attention is needed elsewhere",
+  "Autonomous features",
+  "The system acts unattended",
+  "Narration turns into noise",
+  "Safety-critical work",
+  "Takeover is part of the job",
+  "Rehearsal costs more than failure",
+  "Suggestion → judgment decay",
+  "Output is accepted at high rates",
+  "Reviewers with no practice left",
+  "Abrupt stop → briefed handover",
+  "Agents run long tasks",
+  "Handover summaries nobody reads"
+ ],
+ ".ai-divider h3": [
+  "Out of the Loop in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Copilots moved the problem from the cockpit to the desk: the reviewer who accepts suggestions all day slowly loses the fluency that the review depends on."
+ ]
+}
