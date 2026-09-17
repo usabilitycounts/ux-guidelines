@@ -56,6 +56,7 @@
   .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; }
   .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
   .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
+  @media (min-width: 480px) { .category-label { white-space: nowrap; } }
   /* 12-column grid: screen = 3 cols, content = 9 cols, every link = 3 cols.
      Equal column-gaps at each level keep the nested tracks aligned to the parent grid. */
   .home-main .section { background: var(--bg); border: 1px solid var(--border); border-radius: 14px; padding: 22px 26px 18px;
@@ -63,7 +64,7 @@
   .home-main .section > .section-head, .home-main .section > .cards-grid, .home-main .section > .section-body { grid-column: 1 / -1; }
   .home-main .section + .section { margin-top: 18px; padding-top: 22px; }
   .home-main .section-head { align-items: baseline; }
-  .pt-desc { font-size: var(--fs-ui); color: var(--text-secondary); margin-left: 6px; }
+  .pt-desc { font-size: var(--fs-ui); color: var(--text-secondary); margin-left: 6px; min-width: 0; }
   .home-main .cards-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px 44px; padding: 0; }
   .home-type .section-body { display: grid; grid-template-columns: repeat(12, 1fr); column-gap: 44px; row-gap: 12px; align-items: start; }
   .pt-screen { grid-column: span 3; }
