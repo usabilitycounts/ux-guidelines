@@ -449,6 +449,14 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
   color: var(--text-secondary);
   line-height: var(--lh-body);
 }
+/* A link inside a value should read as a link. currentColor keeps the underline
+   visible in both themes, unlike the fixed rgba the origin links use. */
+.value a {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-underline-offset: 3px;
+}
+.value a:hover { text-decoration-color: currentColor; }
 
 /* One body-copy style */
 .body-text, .apply-list li,
@@ -625,6 +633,27 @@ header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items:
 @media (max-width: 900px) {
   header:has(.hero-img) { flex-direction: column; align-items: flex-start; gap: 24px; }
   .hero-img { height: 200px; max-width: 100%; align-self: auto; margin-top: 0; border-radius: 8px; }
+}
+/* Phones: the portrait becomes a full-bleed banner directly under the topnav,
+   above the title. column-reverse puts it first visually while the heading stays
+   first in the document, so a screen reader still leads with the title. The
+   negative side margins and the extra width carry it out through the header's
+   own padding to both screen edges. */
+@media (max-width: 600px) {
+  header:has(.hero-img) {
+    flex-direction: column-reverse; align-items: stretch; gap: 24px;
+    /* restated here so the negative margins below provably match the padding
+       they have to escape, whatever else the cascade does to header */
+    padding: 60px 32px 28px;
+  }
+  .hero-img {
+    align-self: auto;
+    width: calc(100% + 64px);
+    max-width: none;
+    height: auto;
+    margin: -60px -32px 0;
+    border-radius: 0;
+  }
 }
 
 @media (max-width: 600px) { .footer-social { margin-left: 0; } }
@@ -908,25 +937,72 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 /* ---------- Bookmarks and sharing ---------- */
 .title-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
 
-/* Compact page title that takes over once the h1 has scrolled away. Phones
-   only: the h1 is tall on a narrow screen, so past it nothing on screen says
-   which page you are on. JS sets `top` from the real topnav height and adds
-   .show when the h1 leaves the top of the scroller. */
+/* Compact page title that takes over once the h1 has scrolled away, at every
+   width: past the h1 nothing else on screen says which page you are on. It
+   matches the topnav's height and side padding so it reads as a second row of
+   the same bar. JS sets `top` from the real topnav height and adds .show when
+   the h1 leaves the top of the scroller. */
 .sticky-title {
-  display: none;
+  display: flex; align-items: center; gap: 14px;
   position: fixed; left: 0; right: 0; top: 60px; z-index: 390;
-  height: 46px; line-height: 46px; padding: 0 20px;
+  height: 60px; padding: 0 24px;
   background: var(--topnav-bg);
   border-bottom: 1px solid var(--border);
-  font-size: var(--fs-h3); font-weight: 700; letter-spacing: -0.4px;
   color: var(--text-primary);
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   transform: translateY(-100%);
   transition: transform 0.18s ease;
   pointer-events: none;
 }
 .sticky-title.show { transform: translateY(0); }
-@media (max-width: 700px) { .sticky-title { display: block; } }
+/* The title truncates, not the bar: the share menu drops out of the bar and
+   would be clipped by an overflow rule on the bar itself. */
+.sticky-title .st-text {
+  flex: 1 1 auto; min-width: 0;
+  font-size: var(--fs-h3); font-weight: 700; letter-spacing: -0.4px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+/* The real bookmark and share buttons move into this bar, so they take clicks
+   even though the bar itself does not. */
+.sticky-title .title-actions { flex: none; pointer-events: auto; }
+/* In the title row the share button sits at the left, so its menu opens
+   rightward. In this bar it sits at the right edge, so the menu has to open
+   the other way or it runs off the screen. */
+.sticky-title .share-menu { left: auto; right: 0; }
+/* On a phone it stops being a dropdown and becomes a full-width sheet directly
+   under the bar. Both wrappers go static so the fixed bar is the containing
+   block and left/right can span it. */
+@media (max-width: 600px) {
+  .sticky-title .title-actions, .sticky-title .share-wrap { position: static; }
+  /* It stays rendered rather than display:none so the reveal can animate. The
+     roll-down eases to the sheet's real height, which JS measures and writes
+     to max-height; collapsed, border-box means max-height:0 takes the padding
+     with it, and the bottom border is dropped so no hairline is left behind. */
+  .sticky-title .share-menu {
+    display: block;
+    top: 100%; left: 0; right: 0; min-width: 0;
+    border-radius: 0; border-left: 0; border-right: 0; border-top: 0;
+    border-bottom-width: 0;
+    /* padding collapses with it: border-box keeps a box at least as tall as its
+       own padding, so leaving it on would strand a sliver when closed */
+    padding: 0 12px;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.24s ease, padding 0.24s ease, opacity 0.18s ease;
+  }
+  .sticky-title .share-menu.open {
+    opacity: 1;
+    pointer-events: auto;
+    border-bottom-width: 1px;
+    padding: 6px 12px 10px;
+  }
+}
+@media (max-width: 600px) and (prefers-reduced-motion: reduce) {
+  .sticky-title .share-menu { transition: none; }
+}
+/* same gutter the topnav takes on phones */
+@media (max-width: 600px) { .sticky-title { padding: 0 12px; } }
 @media (prefers-reduced-motion: reduce) { .sticky-title { transition: none; } }
 @media print { .sticky-title { display: none !important; } }
 .title-actions { display: flex; align-items: center; gap: 4px; position: relative; }

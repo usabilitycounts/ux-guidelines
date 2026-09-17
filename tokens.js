@@ -588,27 +588,57 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   document.head.appendChild(s);
 })();
 
-// Compact page title under the topnav, phones only. Once the h1 scrolls out
-// of the scroller there is nothing left on screen naming the page, so a small
-// bar takes over. Reference pages only: the home page and the index pages
-// would just repeat the brand already in the nav.
+// Compact page title under the topnav, at every width. Once the h1 scrolls out
+// of the scroller there is nothing left on screen naming the page, so a bar the
+// height of the nav takes over, carrying the bookmark and share buttons with it.
+// Reference pages only: the home page and the index pages would just repeat the
+// brand already in the nav.
 (() => {
   const h1 = document.querySelector('header h1');
   if (!h1 || !document.querySelector('.law-feature')) return;
   const nav = document.querySelector('.topnav');
   const bar = document.createElement('div');
   bar.className = 'sticky-title';
-  bar.setAttribute('aria-hidden', 'true');   // the real h1 is still in the page
+  const text = document.createElement('span');
+  text.className = 'st-text';
+  text.setAttribute('aria-hidden', 'true');   // the real h1 is still in the page
+  bar.appendChild(text);
   // Read the live h1 so a translation applied after load carries through.
-  const sync = () => { bar.textContent = h1.textContent.trim(); };
+  const sync = () => { text.textContent = h1.textContent.trim(); };
   sync();
   new MutationObserver(sync).observe(h1, { childList: true, subtree: true, characterData: true });
   const place = () => { if (nav) bar.style.top = nav.offsetHeight + 'px'; };
   place();
   window.addEventListener('resize', place);
   document.body.appendChild(bar);
+
+  // The bookmark and share buttons are built later, by the title-actions module.
+  // Move the real element rather than cloning it: the handlers are closures over
+  // those nodes, and the share menu is positioned against its own wrapper, so a
+  // copy would be inert and would open its menu in the wrong place.
+  let shown = false;
+  const phone = () => window.matchMedia('(max-width: 600px)').matches;
+  const menuOf = () => bar.querySelector('.share-menu');
+  const toggle = on => {
+    if (on === shown) return;
+    shown = on;
+    const actions = document.querySelector('.title-actions');
+    const row = document.querySelector('.title-row');
+    const m = menuOf();
+    if (m) m.style.maxHeight = '';   // never carry the sheet height out of the bar
+    if (actions && row) (on ? bar : row).appendChild(actions);
+    bar.classList.toggle('show', on);
+  };
+  // On a phone the share menu is a sheet that rolls down out of the bar. Measure
+  // it as it opens so the animation eases to its real height rather than to a
+  // guessed maximum, and clear the value on close so it can collapse again.
+  new MutationObserver(() => {
+    const m = menuOf();
+    if (!m || !phone()) return;
+    m.style.maxHeight = m.classList.contains('open') ? m.scrollHeight + 'px' : '';
+  }).observe(bar, { attributes: true, attributeFilter: ['class'], subtree: true });
   new IntersectionObserver(
-    ([e]) => bar.classList.toggle('show', !e.isIntersecting && e.boundingClientRect.top < 0),
+    ([e]) => toggle(!e.isIntersecting && e.boundingClientRect.top < 0),
     { root: window.uxScroller || null, threshold: 0 }
   ).observe(h1);
 })();
@@ -1072,8 +1102,23 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
       });
       menu.appendChild(cp);
     };
-    const openShare = () => { buildMenu(); menu.classList.add('open'); sh.setAttribute('aria-expanded', 'true'); const f = menu.querySelector('.share-item'); if (f) f.focus(); };
-    const closeShare = () => { const was = menu.classList.contains('open'); menu.classList.remove('open'); sh.setAttribute('aria-expanded', 'false'); if (was && menu.contains(document.activeElement)) sh.focus(); };
+    // The menu opens rightward from the button. Beside a long title on a narrow
+    // screen that runs off the edge, and the page clips horizontal overflow, so
+    // the tail would simply be unreachable. Nudge it back inside after opening.
+    const clamp = () => {
+      menu.style.left = ''; menu.style.right = '';
+      const cs = getComputedStyle(menu);
+      if (cs.position !== 'absolute') return;
+      // A sheet pinned on both edges already spans its bar; nudging it would
+      // only break that. Only a menu anchored on one side can overflow.
+      if (cs.left !== 'auto' && cs.right !== 'auto') return;
+      const pad = 12, vw = document.documentElement.clientWidth;
+      const r = menu.getBoundingClientRect();
+      if (r.right > vw - pad) menu.style.left = (menu.offsetLeft - (r.right - (vw - pad))) + 'px';
+      else if (r.left < pad) menu.style.left = (menu.offsetLeft + (pad - r.left)) + 'px';
+    };
+    const openShare = () => { buildMenu(); menu.classList.add('open'); sh.setAttribute('aria-expanded', 'true'); clamp(); const f = menu.querySelector('.share-item'); if (f) f.focus(); };
+    const closeShare = () => { const was = menu.classList.contains('open'); menu.classList.remove('open'); menu.style.left = ''; menu.style.right = ''; sh.setAttribute('aria-expanded', 'false'); if (was && menu.contains(document.activeElement)) sh.focus(); };
     sh.addEventListener('click', () => menu.classList.contains('open') ? closeShare() : openShare());
     document.addEventListener('click', e => { if (!shareWrap.contains(e.target)) closeShare(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeShare(); });
