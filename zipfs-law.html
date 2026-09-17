@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-page="zipf">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.">
+<title>Zipf’s Law: Why a Few Items Get Most of the Use — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/zipfs-law.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/zipfs-law.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/ley-de-zipf.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/zipfsches-gesetz.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/loi-de-zipf.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/zipfs-law.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/zipfs-law.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/zipfs-law.html">
+<meta property="og:title" content="Zipf’s Law: Why a Few Items Get Most of the Use — UX Guidelines">
+<meta property="og:description" content="Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/zipfs-law.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/zipfs-law.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/zipfs-law.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zipf’s Law: Why a Few Items Get Most of the Use — UX Guidelines">
+<meta name="twitter:description" content="Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Zipf’s Law: Why a Few Items Get Most of the Use", "description": "Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.", "url": "https://www.ux-guidelines.com/zipfs-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/zipfs-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Zipf’s Law: Why a Few Items Get Most of the Use", "item": "https://www.ux-guidelines.com/zipfs-law.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=121">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  .zp { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 20px 22px; display: flex; flex-direction: column; gap: 12px; justify-content: center; }
+  .zp .bars { display: flex; align-items: flex-end; gap: 6px; flex: 1; min-height: 0; }
+  .zp .bars i { flex: 1; border-radius: 4px 4px 0 0; display: block; background: var(--skel); opacity: 0.4; }
+  .zp .bars i.b { background: var(--il-accent); opacity: 1; }
+  .zp .rows { display: flex; flex-direction: column; gap: 6px; flex: 1; min-height: 0; justify-content: center; }
+  .zp .r { display: flex; align-items: center; gap: 10px; height: 24px; border-radius: 6px; background: var(--surface); padding: 0 10px; }
+  .zp .r.b { background: var(--il-accent); }
+  .zp .r span.k { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.45; display: block; }
+  .zp .r.b span.k { background: #fff; opacity: 0.95; }
+  .zp .nav { display: flex; gap: 8px; align-items: center; }
+  .zp .nav span { height: 26px; border-radius: 7px; background: var(--surface); flex: none; display: block; }
+  .zp .nav span.b { background: var(--il-accent); }
+  .zp .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel); opacity: 0.4; }
+  .zp .col { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .zp .row { display: flex; align-items: center; gap: 10px; }
+  .zp .chip { height: 22px; border-radius: 11px; background: var(--surface); flex: none; display: block; }
+  .zp .chip.b { background: var(--il-accent); }
+  .zp .more { height: 22px; border-radius: 11px; border: 1.5px dashed var(--skel-strong); opacity: 0.5; flex: none; display: block; }
+  .zp .curve { flex: 1; min-height: 0; display: flex; align-items: flex-end; gap: 4px; }
+  .zp .curve i { flex: 1; display: block; border-radius: 3px 3px 0 0; background: var(--skel); opacity: 0.4; }
+  .zp .curve i.b { background: var(--il-accent); opacity: 1; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+</style>
+<script defer src="tokens.js?v=106"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link active">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Zipf’s <em>Law</em></h1>
+  <p class="tagline">A <em>few</em> items carry most of the use.</p>
+  <p class="subtitle">Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">George Kingsley Zipf, a linguist at Harvard, set out the pattern in The Psycho-Biology of Language in 1935 and expanded it in Human Behavior and the Principle of Least Effort in 1949. Count how often each word appears in a body of text, rank the words by that count, and a word's frequency turns out to be roughly inversely proportional to its rank.</p>
+    <p class="body-text">Zipf was not the first to notice it. Jean-Baptiste Estoup had seen it in French shorthand in 1916, and Felix Auerbach found the same shape in city populations in 1913. What Zipf added was a proposed cause, the principle of least effort, and the argument that the curve reaches well beyond language.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Law</div>
+    <p class="body-text law-desc">Rank a set of items by how often they are used and the counts fall on a steep curve. The item at rank two is used about half as often as the first, the item at rank three about a third as often. A short head carries most of the traffic and a very long tail carries the remainder.</p>
+    <p class="body-text law-equation">f(r) ∝ 1 / r — the item at rank r is used about one r-th as often as the first.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-george-kingsley-zipf">George Kingsley Zipf</a> (1949)</div></div>
+      <div><div class="label">Source</div><div class="value">Human Behavior and the Principle of Least Effort</div></div>
+      <div><div class="label">In practice</div><div class="value">Design for the head, keep the tail reachable</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Usage data exists for a set of pages, features, or queries, and you have to decide what earns a place in the primary navigation.</li>
+      <li>A menu, toolbar, or settings screen has outgrown its space and something has to move behind a secondary layer.</li>
+      <li>Somebody proposes removing rarely used features, and the team needs a view on what the tail is actually worth.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Rank the set by real usage before arguing about it, and read the shape of the curve rather than the average.</li>
+      <li>Give the head the cheapest access you can, and put the tail behind search or a clearly labelled More rather than deleting it.</li>
+      <li>Re-rank after every navigation change, because placement shapes the traffic you are measuring.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Short Head -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The curve</span>
+      <span class="num">01 / 10</span>
+      <h3>The Short Head</h3>
+      <p class="desc">Rank your pages, features, or queries by use and the top handful will account for most of the total. That head is where layout, speed, and polish repay the effort.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="curve"><i class="b" style="height:92%"></i><i class="b" style="height:48%"></i><i class="b" style="height:32%"></i><i class="" style="height:24%"></i><i class="" style="height:19%"></i><i class="" style="height:16%"></i><i class="" style="height:14%"></i><i class="" style="height:12%"></i><i class="" style="height:11%"></i><i class="" style="height:10%"></i><i class="" style="height:9%"></i><i class="" style="height:8%"></i><i class="" style="height:8%"></i><i class="" style="height:7%"></i><i class="" style="height:7%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Prioritising work</div></div>
+      <div><div class="label">Use when</div><div class="value">Usage data exists</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The product just launched</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="pareto-principle.html">Pareto Principle</a></div>
+    </div>
+  </article>
+  <!-- 2. Put the Head in the Nav -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Navigation</span>
+      <span class="num">02 / 10</span>
+      <h3>Put the Head in the Nav</h3>
+      <p class="desc">A navigation bar holds a handful of destinations. Fill it from the top of the ranked list rather than from the org chart, and most people never need to open a menu.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="nav"><span class="b" style="width:64px"></span><span class="b" style="width:52px"></span><span class="b" style="width:58px"></span><span style="width:40px"></span><span style="width:34px"></span></div><div class="col" style="flex:none"><span class="ln" style="width:84%"></span><span class="ln" style="width:58%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Primary navigation</div></div>
+      <div><div class="label">Use when</div><div class="value">Traffic is measurable</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every section must rank equally</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="navigation-patterns.html">Navigation Patterns</a></div>
+    </div>
+  </article>
+  <!-- 3. Ranking Follows the Curve -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Search</span>
+      <span class="num">03 / 10</span>
+      <h3>Ranking Follows the Curve</h3>
+      <p class="desc">Query logs are Zipf-shaped too. A small set of searches repeats endlessly, so hand-tuning the top hundred results beats tuning the algorithm for everything else.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="rows"><div class="r b"><span class="k" style="width:58%"></span></div><div class="r b"><span class="k" style="width:44%"></span></div><div class="r"><span class="k" style="width:36%"></span></div><div class="r"><span class="k" style="width:30%"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Site search</div></div>
+      <div><div class="label">Use when</div><div class="value">Queries are logged</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The corpus is tiny</div></div>
+    </div>
+  </article>
+  <!-- 4. The Tail Is Long, Not Empty -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The tail</span>
+      <span class="num">04 / 10</span>
+      <h3>The Tail Is Long, Not Empty</h3>
+      <p class="desc">Items below the head are individually rare and collectively large. Cutting them because each one looks small removes a meaningful share of total use.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="curve"><i class="" style="height:92%"></i><i class="" style="height:48%"></i><i class="" style="height:32%"></i><i class="b" style="height:24%"></i><i class="b" style="height:19%"></i><i class="b" style="height:16%"></i><i class="b" style="height:14%"></i><i class="b" style="height:12%"></i><i class="b" style="height:11%"></i><i class="b" style="height:10%"></i><i class="b" style="height:9%"></i><i class="b" style="height:8%"></i><i class="b" style="height:8%"></i><i class="b" style="height:7%"></i><i class="b" style="height:7%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Decisions about pruning</div></div>
+      <div><div class="label">Use when</div><div class="value">Removal is on the table</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Upkeep is the binding constraint</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="progressive-disclosure.html">Progressive Disclosure</a></div>
+    </div>
+  </article>
+  <!-- 5. Rank, Then Cut -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Menus</span>
+      <span class="num">05 / 10</span>
+      <h3>Rank, Then Cut</h3>
+      <p class="desc">Hick’s Law says fewer options are faster to choose from. Zipf tells you which ones to keep: the head stays visible and the tail moves behind a More.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="row"><span class="chip b" style="width:60px"></span><span class="chip b" style="width:48px"></span><span class="chip b" style="width:54px"></span><span class="more" style="width:44px"></span></div><div class="col" style="flex:none"><span class="ln" style="width:70%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Menus and toolbars</div></div>
+      <div><div class="label">Use when</div><div class="value">The list outgrew its space</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Choices are used evenly</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="hicks-law.html">Hick’s Law</a></div>
+    </div>
+  </article>
+  <!-- 6. Write With the Common Words -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Words</span>
+      <span class="num">06 / 10</span>
+      <h3>Write With the Common Words</h3>
+      <p class="desc">The pattern began in language. A small vocabulary covers most of what people read, so copy built from frequent words is read faster and translates more cleanly.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="col"><span class="ln" style="width:96%"></span><span class="ln" style="width:88%"></span><span class="ln" style="width:92%"></span><span class="ln" style="width:64%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Interface copy</div></div>
+      <div><div class="label">Use when</div><div class="value">The audience is broad</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Precision needs a rare term</div></div>
+    </div>
+  </article>
+  <!-- 7. Traffic Follows Placement -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">07 / 10</span>
+      <h3>Traffic Follows Placement</h3>
+      <p class="desc">The ranking you measure is partly the ranking you caused. Something buried three levels down is rare because it is buried, not because nobody wanted it.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="nav"><span class="b" style="width:70px"></span><span style="width:44px"></span><span style="width:38px"></span></div><div class="rows" style="flex:none"><div class="r"><span class="k" style="width:28%"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Reading analytics</div></div>
+      <div><div class="label">Use when</div><div class="value">Deciding what to cut</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The layout has never changed</div></div>
+    </div>
+  </article>
+  <!-- 8. Not Every Set Is Zipfian -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Fit</span>
+      <span class="num">08 / 10</span>
+      <h3>Not Every Set Is Zipfian</h3>
+      <p class="desc">The curve describes large, unconstrained sets: words, pages, queries, cities. A ten-item settings screen used by one team has no head and no tail worth the name.</p>
+    </div>
+    <div class="demo"><div class="zp"><div class="bars"><i class="b" style="height:70%"></i><i class="b" style="height:62%"></i><i class="b" style="height:74%"></i><i class="b" style="height:58%"></i><i class="b" style="height:66%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Choosing an analysis</div></div>
+      <div><div class="label">Use when</div><div class="value">The set is large</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The list is short and fixed</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Zipf in the Age of AI</h3>
+    <p>Models see the head thousands of times and the tail twice, so the rare case is exactly where a generated answer runs thin without sounding like it.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="zp"><div class="curve"><i class="b" style="height:92%"></i><i class="b" style="height:48%"></i><i class="b" style="height:32%"></i><i class="" style="height:24%"></i><i class="" style="height:19%"></i><i class="" style="height:16%"></i><i class="" style="height:14%"></i><i class="" style="height:12%"></i><i class="" style="height:11%"></i><i class="" style="height:10%"></i><i class="" style="height:9%"></i><i class="" style="height:8%"></i><i class="" style="height:8%"></i><i class="" style="height:7%"></i><i class="" style="height:7%"></i></div><div class="col" style="flex:none"><span class="ln" style="width:54%"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Thin on the Tail</h3>
+      <p class="desc">A model has met the common case endlessly and the rare one barely at all. Fluency does not fall off with frequency, so tail answers arrive confident and wrong.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Frequency → confidence</div></div>
+      <div><div class="label">Use when</div><div class="value">Answering long-tail questions</div></div>
+      <div><div class="label">Watch for</div><div class="value">Fluent answers to rare questions</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="zp"><div class="rows"><div class="r b"><span class="k" style="width:62%"></span></div><div class="r b"><span class="k" style="width:48%"></span></div><div class="r"><span class="k" style="width:34%"></span></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Prompts Have a Head Too</h3>
+      <p class="desc">What people type at an assistant is Zipf-shaped like any other query log. Handling the top hundred prompts deliberately beats tuning for an average nobody sends.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Average → ranked</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing an assistant</div></div>
+      <div><div class="label">Watch for</div><div class="value">Tuning for the mean request</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://archive.org/details/in.ernet.dli.2015.90211" target="_blank" rel="noopener"><span class="title">Human Behavior and the Principle of Least Effort — George Kingsley Zipf, 1949</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Zipf%27s_law" target="_blank" rel="noopener"><span class="title">Zipf’s Law</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/George_Kingsley_Zipf" target="_blank" rel="noopener"><span class="title">George Kingsley Zipf</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_effort" target="_blank" rel="noopener"><span class="title">Principle of Least Effort</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Long_tail" target="_blank" rel="noopener"><span class="title">Long Tail</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nngroup.com/articles/zipf-curves-and-website-popularity/" target="_blank" rel="noopener"><span class="title">Zipf Curves and Website Popularity — Jakob Nielsen</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Power_law" target="_blank" rel="noopener"><span class="title">Power Law of Distribution</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Zipf’s Law</div>
+</footer>
+
+</body>
+</html>

@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">乔治·金斯利·齐普夫</a>"
  ],
  ".pp-term p": [
   "人机交互研究者，1997年与翟树民共同推导出转向定律 — 当指针必须沿受限路径移动时，速度与误差如何变化。",
@@ -250,7 +251,9 @@
   "人机交互研究者，1997 年共同推导出转向定律，后来在 Google 塑造了手势输入。",
   "出现于<a href=\"steering-law.html\">转向定律</a>",
   "立陶宛裔苏联心理学家，她 1927 年的实验表明：被打断的任务被记住的程度约为已完成任务的两倍。",
-  "出现于<a href=\"zeigarnik-effect.html\">蔡格尼克效应</a>"
+  "出现于<a href=\"zeigarnik-effect.html\">蔡格尼克效应</a>",
+  "哈佛大学的美国语言学家，他对词频的研究催生了以他命名的排名频率定律，以及他用来解释这一定律的最小努力原则。",
+  "出现于<a href=\"zipfs-law.html\">齐普夫定律</a>"
  ],
  ".pp-term .where": [
   "出现于<a href=\"steering-law.html\">转向定律</a>",
@@ -333,6 +336,7 @@
   "出现于<a href=\"yerkes-dodson-law.html\">耶基斯-多德森定律</a>",
   "出现于<a href=\"curse-of-knowledge.html\">知识的诅咒</a>",
   "出现于<a href=\"steering-law.html\">转向定律</a>",
-  "出现于<a href=\"zeigarnik-effect.html\">蔡格尼克效应</a>"
+  "出现于<a href=\"zeigarnik-effect.html\">蔡格尼克效应</a>",
+  "出现于<a href=\"zipfs-law.html\">齐普夫定律</a>"
  ]
 }

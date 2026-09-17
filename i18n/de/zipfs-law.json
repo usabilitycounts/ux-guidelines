@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Zipfsches <em>Gesetz</em>"
+ ],
+ "header .tagline": [
+  "<em>Wenige</em> Elemente tragen den Großteil der Nutzung."
+ ],
+ "header .subtitle": [
+  "Ordnen Sie beliebige Elemente nach ihrer Nutzungshäufigkeit, und die Werte fallen auf einer steilen, vorhersagbaren Kurve ab: Das zweite Element erhält etwa die Hälfte des Traffics des ersten, das dritte etwa ein Drittel. Navigation, Suchranking und Feature-Priorität liegen alle auf dieser Kurve."
+ ],
+ ".law-origin .body-text": [
+  "George Kingsley Zipf, Linguist in Harvard, beschrieb das Muster 1935 in The Psycho-Biology of Language und erweiterte es 1949 in Human Behavior and the Principle of Least Effort. Zählen Sie, wie oft jedes Wort in einem Text vorkommt, ordnen Sie die Wörter nach dieser Zahl, und die Häufigkeit eines Wortes erweist sich als ungefähr umgekehrt proportional zu seinem Rang.",
+  "Zipf bemerkte es nicht als Erster. Jean-Baptiste Estoup hatte es 1916 in der französischen Kurzschrift gesehen, und Felix Auerbach fand 1913 dieselbe Form bei Stadtbevölkerungen. Zipf fügte eine mögliche Ursache hinzu, das Prinzip des geringsten Aufwands, und die These, dass die Kurve weit über die Sprache hinausreicht."
+ ],
+ ".law-content .law-desc": [
+  "Ordnen Sie eine Menge von Elementen nach ihrer Nutzungshäufigkeit, und die Werte fallen auf eine steile Kurve. Das Element auf Rang zwei wird etwa halb so oft genutzt wie das erste, das auf Rang drei etwa ein Drittel so oft. Ein kurzer Kopf trägt den Großteil des Traffics, ein sehr langer Schwanz den Rest."
+ ],
+ ".law-equation": [
+  "f(r) ∝ 1 / r — das Element auf Rang r wird etwa r-mal seltener genutzt als das erste."
+ ],
+ ".law-meta .label": [
+  "Geprägt von",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-george-kingsley-zipf\">George Kingsley Zipf</a> (1949)",
+  "Human Behavior and the Principle of Least Effort",
+  "Für den Kopf gestalten, den Schwanz erreichbar halten"
+ ],
+ ".apply-list li": [
+  "Für eine Menge von Seiten, Funktionen oder Suchanfragen liegen Nutzungsdaten vor, und Sie müssen entscheiden, was einen Platz in der Hauptnavigation verdient.",
+  "Ein Menü, eine Werkzeugleiste oder ein Einstellungsbildschirm ist aus seinem Platz gewachsen, und etwas muss hinter eine zweite Ebene wandern.",
+  "Jemand schlägt vor, selten genutzte Funktionen zu entfernen, und das Team braucht eine Einschätzung, was der Schwanz tatsächlich wert ist.",
+  "Ordnen Sie die Menge nach tatsächlicher Nutzung, bevor Sie darüber streiten, und lesen Sie die Form der Kurve statt des Durchschnitts.",
+  "Geben Sie dem Kopf den günstigsten Zugang, den Sie können, und stellen Sie den Schwanz hinter eine Suche oder ein klar beschriftetes „Mehr“, statt ihn zu löschen.",
+  "Ranken Sie nach jeder Navigationsänderung neu, denn die Platzierung formt den Traffic, den Sie messen."
+ ],
+ ".card .tag": [
+  "Die Kurve",
+  "Navigation",
+  "Suche",
+  "Der Schwanz",
+  "Menüs",
+  "Wörter",
+  "Vorsicht",
+  "Passung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Der kurze Kopf",
+  "Den Kopf in die Navigation setzen",
+  "Das Ranking folgt der Kurve",
+  "Der Schwanz ist lang, nicht leer",
+  "Erst ranken, dann kürzen",
+  "Mit den häufigen Wörtern schreiben",
+  "Traffic folgt der Platzierung",
+  "Nicht jede Menge ist zipfisch",
+  "Dünn im Schwanz",
+  "Auch Prompts haben einen Kopf"
+ ],
+ ".card .desc": [
+  "Ordnen Sie Ihre Seiten, Funktionen oder Suchanfragen nach Nutzung: Die obersten paar machen den Großteil der Summe aus. Dieser Kopf ist die Stelle, an der sich Layout, Geschwindigkeit und Feinschliff auszahlen.",
+  "Eine Navigationsleiste fasst eine Handvoll Ziele. Füllen Sie sie vom oberen Ende der Rangliste statt aus dem Organigramm, dann muss kaum jemand ein Menü öffnen.",
+  "Suchprotokolle sind ebenfalls Zipf-förmig. Eine kleine Menge von Suchanfragen wiederholt sich endlos, daher lohnt sich das Feintuning der ersten hundert Treffer mehr als das Justieren des Algorithmus für alles andere.",
+  "Elemente unterhalb des Kopfes sind einzeln selten und zusammen groß. Sie zu streichen, weil jedes für sich klein wirkt, entfernt einen erheblichen Anteil der Gesamtnutzung.",
+  "Das Hicksche Gesetz besagt, dass sich aus weniger Optionen schneller wählen lässt. Zipf sagt Ihnen, welche bleiben: Der Kopf bleibt sichtbar, der Schwanz wandert hinter ein „Mehr“.",
+  "Das Muster stammt aus der Sprache. Ein kleiner Wortschatz deckt das meiste ab, was Menschen lesen, deshalb wird Text aus häufigen Wörtern schneller gelesen und sauberer übersetzt.",
+  "Das Ranking, das Sie messen, ist zum Teil das Ranking, das Sie verursacht haben. Was drei Ebenen tief vergraben ist, wird selten genutzt, weil es vergraben ist, nicht weil es niemand wollte.",
+  "Die Kurve beschreibt große, unbeschränkte Mengen: Wörter, Seiten, Suchanfragen, Städte. Ein Einstellungsbildschirm mit zehn Punkten, den ein einziges Team nutzt, hat weder Kopf noch Schwanz, die den Namen verdienen.",
+  "Ein Modell ist dem häufigen Fall endlos begegnet und dem seltenen kaum. Sprachliche Gewandtheit nimmt mit der Häufigkeit nicht ab, deshalb kommen Antworten aus dem Schwanz selbstsicher und falsch.",
+  "Was Menschen einem Assistenten eintippen, ist Zipf-förmig wie jedes andere Suchprotokoll. Die hundert häufigsten Prompts bewusst zu behandeln, ist besser, als auf einen Durchschnitt hin zu optimieren, den niemand schickt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Arbeit priorisieren",
+  "Nutzungsdaten liegen vor",
+  "Das Produkt ist gerade erst gestartet",
+  "Hauptnavigation",
+  "Der Traffic ist messbar",
+  "Jeder Bereich muss gleich ranken",
+  "Website-Suche",
+  "Suchanfragen werden protokolliert",
+  "Der Bestand ist sehr klein",
+  "Entscheidungen über das Ausmisten",
+  "Eine Entfernung steht zur Debatte",
+  "Der Wartungsaufwand ist die bindende Grenze",
+  "Menüs und Werkzeugleisten",
+  "Die Liste ist aus ihrem Platz gewachsen",
+  "Die Optionen werden gleichmäßig genutzt",
+  "Interface-Texte",
+  "Das Publikum ist breit",
+  "Genauigkeit verlangt einen seltenen Begriff",
+  "Analytics lesen",
+  "Entscheiden, was gestrichen wird",
+  "Das Layout wurde nie geändert",
+  "Eine Analyse wählen",
+  "Die Menge ist groß",
+  "Die Liste ist kurz und fest",
+  "Häufigkeit → Zuversicht",
+  "Long-Tail-Fragen beantworten",
+  "Flüssige Antworten auf seltene Fragen",
+  "Durchschnitt → Rangfolge",
+  "Einen Assistenten entwerfen",
+  "Auf die durchschnittliche Anfrage hin optimieren"
+ ],
+ ".ai-divider h3": [
+  "Zipf im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle sehen den Kopf tausendfach und den Schwanz zweimal, also ist der seltene Fall genau die Stelle, an der eine generierte Antwort dünn wird, ohne dünn zu klingen."
+ ]
+}

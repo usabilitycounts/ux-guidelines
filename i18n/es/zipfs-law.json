@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "<em>Ley</em> de Zipf"
+ ],
+ "header .tagline": [
+  "<em>Unos pocos</em> elementos concentran la mayor parte del uso."
+ ],
+ "header .subtitle": [
+  "Ordena cualquier conjunto por su frecuencia de uso y las cifras caen en una curva pronunciada y predecible: el segundo elemento recibe cerca de la mitad del tráfico del primero, y el tercero cerca de un tercio. La navegación, el orden de los resultados de búsqueda y la prioridad de funcionalidades se sitúan en esa curva."
+ ],
+ ".law-origin .body-text": [
+  "George Kingsley Zipf, lingüista en Harvard, expuso el patrón en The Psycho-Biology of Language en 1935 y lo amplió en Human Behavior and the Principle of Least Effort en 1949. Cuenta cuántas veces aparece cada palabra en un texto, ordena las palabras por ese recuento, y la frecuencia de una palabra resulta ser aproximadamente inversamente proporcional a su rango.",
+  "Zipf no fue el primero en notarlo. Jean-Baptiste Estoup lo había visto en la taquigrafía francesa en 1916, y Felix Auerbach encontró la misma forma en las poblaciones urbanas en 1913. Lo que Zipf añadió fue una causa propuesta, el principio del mínimo esfuerzo, y el argumento de que la curva va mucho más allá del lenguaje."
+ ],
+ ".law-content .law-desc": [
+  "Ordena un conjunto de elementos por su frecuencia de uso y las cifras caen en una curva pronunciada. El elemento en el puesto dos se usa alrededor de la mitad que el primero, y el del puesto tres alrededor de un tercio. Una cabeza corta soporta la mayor parte del tráfico y una cola muy larga soporta el resto."
+ ],
+ ".law-equation": [
+  "f(r) ∝ 1 / r — el elemento en el rango r se usa unas r veces menos que el primero."
+ ],
+ ".law-meta .label": [
+  "Acuñado por",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-george-kingsley-zipf\">George Kingsley Zipf</a> (1949)",
+  "Human Behavior and the Principle of Least Effort",
+  "Diseña para la cabeza, mantén la cola accesible"
+ ],
+ ".apply-list li": [
+  "Existen datos de uso de un conjunto de páginas, funcionalidades o consultas, y hay que decidir qué se gana un lugar en la navegación principal.",
+  "Un menú, una barra de herramientas o una pantalla de ajustes ya no cabe en su espacio y algo tiene que pasar a una capa secundaria.",
+  "Alguien propone eliminar funcionalidades poco usadas, y el equipo necesita una postura sobre cuánto vale realmente la cola.",
+  "Ordena el conjunto por uso real antes de discutirlo, y lee la forma de la curva en lugar del promedio.",
+  "Da a la cabeza el acceso más barato que puedas, y pon la cola detrás de una búsqueda o de un «Más» bien etiquetado en vez de borrarla.",
+  "Vuelve a ordenar después de cada cambio de navegación, porque la ubicación moldea el tráfico que estás midiendo."
+ ],
+ ".card .tag": [
+  "La curva",
+  "Navegación",
+  "Búsqueda",
+  "La cola",
+  "Menús",
+  "Palabras",
+  "Cautela",
+  "Encaje",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La cabeza corta",
+  "Pon la cabeza en la navegación",
+  "El orden sigue la curva",
+  "La cola es larga, no está vacía",
+  "Ordena y luego recorta",
+  "Escribe con las palabras comunes",
+  "El tráfico sigue a la ubicación",
+  "No todo conjunto es zipfiano",
+  "Escaso en la cola",
+  "Los prompts también tienen cabeza"
+ ],
+ ".card .desc": [
+  "Ordena tus páginas, funcionalidades o consultas por uso y el puñado de arriba representará la mayor parte del total. Esa cabeza es donde el diseño, la velocidad y el pulido compensan el esfuerzo.",
+  "Una barra de navegación contiene un puñado de destinos. Llénala desde lo alto de la lista ordenada y no desde el organigrama, y casi nadie necesitará abrir un menú.",
+  "Los registros de consultas también tienen forma de Zipf. Un pequeño conjunto de búsquedas se repite sin fin, así que ajustar a mano los cien primeros resultados rinde más que afinar el algoritmo para todo lo demás.",
+  "Los elementos por debajo de la cabeza son raros de uno en uno y enormes en conjunto. Eliminarlos porque cada uno parece pequeño quita una parte relevante del uso total.",
+  "La Ley de Hick dice que con menos opciones se elige más rápido. Zipf te dice cuáles conservar: la cabeza queda visible y la cola pasa detrás de un «Más».",
+  "El patrón nació en el lenguaje. Un vocabulario pequeño cubre casi todo lo que la gente lee, así que un texto hecho de palabras frecuentes se lee más rápido y se traduce con más limpieza.",
+  "El orden que mides es en parte el orden que provocaste. Lo que está enterrado tres niveles abajo es raro porque está enterrado, no porque nadie lo quisiera.",
+  "La curva describe conjuntos grandes y sin restricciones: palabras, páginas, consultas, ciudades. Una pantalla de ajustes de diez elementos que usa un solo equipo no tiene cabeza ni cola dignas de ese nombre.",
+  "Un modelo ha visto el caso común sin parar y el raro apenas. La fluidez no decae con la frecuencia, así que las respuestas de la cola llegan seguras y equivocadas.",
+  "Lo que la gente escribe a un asistente tiene forma de Zipf como cualquier registro de consultas. Atender de forma deliberada los cien prompts más frecuentes rinde más que afinar para un promedio que nadie envía."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Priorizar el trabajo",
+  "Existen datos de uso",
+  "El producto acaba de lanzarse",
+  "Navegación principal",
+  "El tráfico es medible",
+  "Todas las secciones deben ordenarse por igual",
+  "Búsqueda interna",
+  "Las consultas se registran",
+  "El corpus es diminuto",
+  "Decisiones sobre qué recortar",
+  "Se está considerando eliminar algo",
+  "El mantenimiento es la restricción decisiva",
+  "Menús y barras de herramientas",
+  "La lista ya no cabe en su espacio",
+  "Las opciones se usan por igual",
+  "Textos de interfaz",
+  "El público es amplio",
+  "La precisión exige un término poco común",
+  "Leer analíticas",
+  "Decidir qué recortar",
+  "La disposición nunca ha cambiado",
+  "Elegir un análisis",
+  "El conjunto es grande",
+  "La lista es corta y fija",
+  "Frecuencia → confianza",
+  "Responder preguntas de cola larga",
+  "Respuestas fluidas a preguntas raras",
+  "Promedio → ordenado",
+  "Diseñar un asistente",
+  "Optimizar para la petición media"
+ ],
+ ".ai-divider h3": [
+  "Zipf en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos ven la cabeza miles de veces y la cola dos, así que el caso raro es justo donde una respuesta generada se queda corta sin sonar como tal."
+ ]
+}

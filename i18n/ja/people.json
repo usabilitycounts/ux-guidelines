@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">ロバート・ヤーキーズ</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">ジョージ・ローウェンスタイン</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">シュミン・ザイ</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">ブルーマ・ツァイガルニク</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">ブルーマ・ツァイガルニク</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">ジョージ・キングズリー・ジップ</a>"
  ],
  ".pp-term p": [
   "HCI研究者。1997年、シューミン・ザイとともにステアリングの法則を導いた — ポインタが制約された経路を通るとき、速度と誤りがどう変わるか。",
@@ -250,7 +251,9 @@
   "HCI研究者。1997年にステアリングの法則を共同で導出し、後にGoogleでジェスチャー入力を形づくった。",
   "掲載ページ: <a href=\"steering-law.html\">ステアリングの法則</a>",
   "リトアニア出身のソビエトの心理学者。1927年の実験は、中断されたタスクが完了したタスクの約2倍よく記憶されることを示した。",
-  "掲載ページ: <a href=\"zeigarnik-effect.html\">ツァイガルニク効果</a>"
+  "掲載ページ: <a href=\"zeigarnik-effect.html\">ツァイガルニク効果</a>",
+  "ハーバード大学のアメリカ人言語学者。単語の頻度を研究し、自身の名を冠する順位頻度の法則と、それを説明するために示した最小努力の原理を残した。",
+  "掲載ページ: <a href=\"zipfs-law.html\">ジップの法則</a>"
  ],
  ".pp-term .where": [
   "掲載ページ: <a href=\"steering-law.html\">ステアリングの法則</a>",
@@ -333,6 +336,7 @@
   "掲載ページ: <a href=\"yerkes-dodson-law.html\">ヤーキーズ・ドットソンの法則</a>",
   "掲載ページ: <a href=\"curse-of-knowledge.html\">知識の呪い</a>",
   "掲載ページ: <a href=\"steering-law.html\">ステアリングの法則</a>",
-  "掲載ページ: <a href=\"zeigarnik-effect.html\">ツァイガルニク効果</a>"
+  "掲載ページ: <a href=\"zeigarnik-effect.html\">ツァイガルニク効果</a>",
+  "掲載ページ: <a href=\"zipfs-law.html\">ジップの法則</a>"
  ]
 }

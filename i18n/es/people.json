@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">George Kingsley Zipf</a>"
  ],
  ".pp-term p": [
   "Investigador de IPO que, con Shumin Zhai, derivó la ley de conducción en 1997 — cómo cambian velocidad y error cuando el puntero debe recorrer un camino restringido.",
@@ -250,7 +251,9 @@
   "Investigador de HCI que coderivó la ley de conducción en 1997 y más tarde dio forma a la escritura por gestos en Google.",
   "Aparece en <a href=\"steering-law.html\">Ley de conducción</a>",
   "Psicóloga lituano-soviética cuyos experimentos de 1927 mostraron que las tareas interrumpidas se recuerdan aproximadamente el doble de bien que las terminadas.",
-  "Aparece en <a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>"
+  "Aparece en <a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>",
+  "Lingüista estadounidense de Harvard cuyo estudio de las frecuencias de las palabras dio lugar a la ley rango-frecuencia que lleva su nombre, y al principio del mínimo esfuerzo con el que quiso explicarla.",
+  "Aparece en <a href=\"zipfs-law.html\">Ley de Zipf</a>"
  ],
  ".pp-term .where": [
   "Aparece en <a href=\"steering-law.html\">Ley de conducción</a>",
@@ -333,6 +336,7 @@
   "Aparece en <a href=\"yerkes-dodson-law.html\">Ley de Yerkes-Dodson</a>",
   "Aparece en <a href=\"curse-of-knowledge.html\">Maldición del conocimiento</a>",
   "Aparece en <a href=\"steering-law.html\">Ley de conducción</a>",
-  "Aparece en <a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>"
+  "Aparece en <a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>",
+  "Aparece en <a href=\"zipfs-law.html\">Ley de Zipf</a>"
  ]
 }

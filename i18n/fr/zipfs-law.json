@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "<em>Loi</em> de Zipf"
+ ],
+ "header .tagline": [
+  "<em>Quelques</em> éléments concentrent l'essentiel des usages."
+ ],
+ "header .subtitle": [
+  "Classez n'importe quel ensemble selon la fréquence d'utilisation et les chiffres s'effondrent sur une courbe raide et prévisible : le deuxième élément reçoit environ la moitié du trafic du premier, le troisième environ un tiers. La navigation, le classement des résultats de recherche et la priorité des fonctionnalités se placent tous sur cette courbe."
+ ],
+ ".law-origin .body-text": [
+  "George Kingsley Zipf, linguiste à Harvard, a exposé le motif dans The Psycho-Biology of Language en 1935, puis l'a développé dans Human Behavior and the Principle of Least Effort en 1949. Comptez la fréquence de chaque mot dans un corpus, classez les mots selon ce compte, et la fréquence d'un mot se révèle à peu près inversement proportionnelle à son rang.",
+  "Zipf n'a pas été le premier à le remarquer. Jean-Baptiste Estoup l'avait vu dans la sténographie française en 1916, et Felix Auerbach avait trouvé la même forme dans les populations urbaines en 1913. Ce que Zipf a ajouté, c'est une cause proposée, le principe du moindre effort, et l'idée que la courbe dépasse largement le langage."
+ ],
+ ".law-content .law-desc": [
+  "Classez un ensemble d'éléments selon leur fréquence d'utilisation et les chiffres tombent sur une courbe raide. L'élément au rang deux est utilisé environ deux fois moins que le premier, celui au rang trois environ trois fois moins. Une tête courte porte l'essentiel du trafic et une très longue traîne porte le reste."
+ ],
+ ".law-equation": [
+  "f(r) ∝ 1 / r — l'élément au rang r est utilisé environ r fois moins que le premier."
+ ],
+ ".law-meta .label": [
+  "Formulé par",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-george-kingsley-zipf\">George Kingsley Zipf</a> (1949)",
+  "Human Behavior and the Principle of Least Effort",
+  "Concevez pour la tête, gardez la traîne accessible"
+ ],
+ ".apply-list li": [
+  "Des données d'usage existent pour un ensemble de pages, de fonctionnalités ou de requêtes, et vous devez décider ce qui mérite une place dans la navigation principale.",
+  "Un menu, une barre d'outils ou un écran de réglages déborde de son espace et quelque chose doit passer derrière un niveau secondaire.",
+  "Quelqu'un propose de retirer des fonctionnalités peu utilisées, et l'équipe a besoin d'un avis sur ce que vaut réellement la traîne.",
+  "Classez l'ensemble selon l'usage réel avant d'en débattre, et lisez la forme de la courbe plutôt que la moyenne.",
+  "Donnez à la tête l'accès le moins coûteux possible, et placez la traîne derrière une recherche ou un « Plus » clairement libellé plutôt que de la supprimer.",
+  "Reclassez après chaque changement de navigation, car l'emplacement façonne le trafic que vous mesurez."
+ ],
+ ".card .tag": [
+  "La courbe",
+  "Navigation",
+  "Recherche",
+  "La traîne",
+  "Menus",
+  "Mots",
+  "Prudence",
+  "Pertinence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La tête courte",
+  "Mettez la tête dans la navigation",
+  "Le classement suit la courbe",
+  "La traîne est longue, pas vide",
+  "Classez, puis coupez",
+  "Écrivez avec les mots courants",
+  "Le trafic suit l'emplacement",
+  "Tous les ensembles ne sont pas zipfiens",
+  "Maigre sur la traîne",
+  "Les prompts ont aussi une tête"
+ ],
+ ".card .desc": [
+  "Classez vos pages, fonctionnalités ou requêtes selon leur usage : la poignée de tête représentera l'essentiel du total. C'est là que la mise en page, la vitesse et le soin rendent l'effort.",
+  "Une barre de navigation contient une poignée de destinations. Remplissez-la à partir du haut de la liste classée plutôt qu'à partir de l'organigramme, et la plupart des gens n'auront jamais besoin d'ouvrir un menu.",
+  "Les journaux de requêtes ont eux aussi la forme de Zipf. Un petit ensemble de recherches revient sans fin : affiner à la main les cent premiers résultats vaut mieux que régler l'algorithme pour tout le reste.",
+  "Les éléments sous la tête sont rares individuellement et vastes collectivement. Les supprimer parce que chacun paraît petit retire une part significative de l'usage total.",
+  "La Loi de Hick dit qu'un choix se fait plus vite avec moins d'options. Zipf vous dit lesquelles garder : la tête reste visible et la traîne passe derrière un « Plus ».",
+  "Le motif est né dans le langage. Un petit vocabulaire couvre l'essentiel de ce que les gens lisent : un texte fait de mots fréquents se lit plus vite et se traduit plus proprement.",
+  "Le classement que vous mesurez est en partie celui que vous avez créé. Ce qui est enterré trois niveaux plus bas est rare parce qu'il est enterré, pas parce que personne n'en voulait.",
+  "La courbe décrit de grands ensembles non contraints : mots, pages, requêtes, villes. Un écran de réglages de dix lignes utilisé par une seule équipe n'a ni tête ni traîne dignes de ce nom.",
+  "Un modèle a croisé le cas courant sans fin et le cas rare à peine. La fluidité ne diminue pas avec la fréquence : les réponses de traîne arrivent sûres d'elles et fausses.",
+  "Ce que les gens tapent à un assistant a la forme de Zipf comme n'importe quel journal de requêtes. Traiter délibérément les cent premiers prompts vaut mieux que régler pour une moyenne que personne n'envoie."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Prioriser le travail",
+  "Des données d'usage existent",
+  "Le produit vient d'être lancé",
+  "Navigation principale",
+  "Le trafic est mesurable",
+  "Chaque section doit avoir le même rang",
+  "Recherche interne",
+  "Les requêtes sont enregistrées",
+  "Le corpus est minuscule",
+  "Décisions d'élagage",
+  "La suppression est envisagée",
+  "La maintenance est la contrainte décisive",
+  "Menus et barres d'outils",
+  "La liste déborde de son espace",
+  "Les choix sont utilisés de façon égale",
+  "Textes d'interface",
+  "Le public est large",
+  "La précision exige un terme rare",
+  "Lecture des analyses",
+  "Décider quoi supprimer",
+  "La mise en page n'a jamais changé",
+  "Choisir une analyse",
+  "L'ensemble est vaste",
+  "La liste est courte et figée",
+  "Fréquence → confiance",
+  "Répondre à des questions de longue traîne",
+  "Réponses fluides à des questions rares",
+  "Moyenne → classement",
+  "Concevoir un assistant",
+  "Optimiser pour la demande moyenne"
+ ],
+ ".ai-divider h3": [
+  "Zipf à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles voient la tête des milliers de fois et la traîne deux fois : le cas rare est précisément l'endroit où une réponse générée s'amincit sans en avoir l'air."
+ ]
+}

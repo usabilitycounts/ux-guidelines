@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">George Kingsley Zipf</a>"
  ],
  ".pp-term p": [
   "Chercheur en IHM qui, avec Shumin Zhai, a dérivé la loi du pilotage en 1997 — comment vitesse et erreurs changent quand le pointeur doit suivre un chemin contraint.",
@@ -250,7 +251,9 @@
   "Chercheur en IHM qui a co-dérivé la loi du pilotage en 1997 et façonné plus tard la saisie gestuelle chez Google.",
   "Apparaît dans <a href=\"steering-law.html\">Loi du pilotage</a>",
   "Psychologue lituano-soviétique dont les expériences de 1927 ont montré que les tâches interrompues sont mémorisées environ deux fois mieux que les tâches achevées.",
-  "Apparaît dans <a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>"
+  "Apparaît dans <a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>",
+  "Linguiste américain de Harvard dont l'étude des fréquences de mots a produit la loi rang-fréquence qui porte son nom, ainsi que le principe du moindre effort qu'il proposait pour l'expliquer.",
+  "Apparaît dans <a href=\"zipfs-law.html\">Loi de Zipf</a>"
  ],
  ".pp-term .where": [
   "Apparaît dans <a href=\"steering-law.html\">Loi du pilotage</a>",
@@ -333,6 +336,7 @@
   "Apparaît dans <a href=\"yerkes-dodson-law.html\">Loi de Yerkes-Dodson</a>",
   "Apparaît dans <a href=\"curse-of-knowledge.html\">Malédiction du savoir</a>",
   "Apparaît dans <a href=\"steering-law.html\">Loi du pilotage</a>",
-  "Apparaît dans <a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>"
+  "Apparaît dans <a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>",
+  "Apparaît dans <a href=\"zipfs-law.html\">Loi de Zipf</a>"
  ]
 }

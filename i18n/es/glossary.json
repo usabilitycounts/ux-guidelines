@@ -90,7 +90,8 @@
   "<a href=\"grid-and-hierarchy.html\">Espacio en blanco</a>",
   "<a href=\"yerkes-dodson-law.html\">Ley de Yerkes-Dodson</a>",
   "<a href=\"eye-scanning-patterns.html\">Patrón Z</a>",
-  "<a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>"
+  "<a href=\"zeigarnik-effect.html\">Efecto Zeigarnik</a>",
+  "<a href=\"zipfs-law.html\">Ley de Zipf</a>"
  ],
  ".gl-term p": [
   "La facilidad de realizar una conducta ahora mismo — uno de los tres factores del modelo de conducta de Fogg, medido en tiempo, dinero, esfuerzo, ciclos mentales, desviación social y rutina.",
@@ -177,6 +178,7 @@
   "El espacio vacío alrededor y entre los elementos. No es espacio desperdiciado — agrupa, separa y da a la jerarquía sitio para trabajar.",
   "El rendimiento sube con la activación hasta un punto y luego cae — la presión moderada ayuda, la alta perjudica, sobre todo en las tareas difíciles.",
   "El trayecto de escaneo en layouts dispersos: por arriba, en diagonal hasta abajo a la izquierda y luego por abajo — donde debe ir el llamado a la acción.",
-  "Las tareas inconclusas se recuerdan mejor que las terminadas — el bucle abierto detrás de las barras de progreso y los medidores de compleción."
+  "Las tareas inconclusas se recuerdan mejor que las terminadas — el bucle abierto detrás de las barras de progreso y los medidores de compleción.",
+  "La observación de que, cuando los elementos se ordenan por su frecuencia de uso, la frecuencia cae de forma aproximadamente inversa al rango: el segundo elemento se usa alrededor de la mitad que el primero. Lleva el nombre de George Kingsley Zipf, que la describió en el lenguaje en 1935 y la generalizó en 1949."
  ]
 }

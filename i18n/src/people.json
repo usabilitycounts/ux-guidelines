@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">George Kingsley Zipf</a>"
  ],
  ".pp-term p": [
   "HCI researcher who, with Shumin Zhai, derived the steering law in 1997 — how speed and error change when a pointer must travel a constrained path.",
@@ -250,7 +251,9 @@
   "HCI researcher who co-derived the steering law in 1997 and later shaped gesture typing at Google.",
   "Appears in <a href=\"steering-law.html\">Steering Law</a>",
   "Lithuanian-Soviet psychologist whose 1927 experiments showed interrupted tasks are remembered about twice as well as finished ones.",
-  "Appears in <a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>"
+  "Appears in <a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>",
+  "American linguist at Harvard whose study of word frequencies produced the rank-frequency law that carries his name, and the principle of least effort he offered to explain it.",
+  "Appears in <a href=\"zipfs-law.html\">Zipf’s Law</a>"
  ],
  ".pp-term .where": [
   "Appears in <a href=\"steering-law.html\">Steering Law</a>",
@@ -333,6 +336,7 @@
   "Appears in <a href=\"yerkes-dodson-law.html\">Yerkes-Dodson Law</a>",
   "Appears in <a href=\"curse-of-knowledge.html\">Curse of Knowledge</a>",
   "Appears in <a href=\"steering-law.html\">Steering Law</a>",
-  "Appears in <a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>"
+  "Appears in <a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>",
+  "Appears in <a href=\"zipfs-law.html\">Zipf’s Law</a>"
  ]
 }

@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Zipf’s <em>Law</em>"
+ ],
+ "header .tagline": [
+  "A <em>few</em> items carry most of the use."
+ ],
+ "header .subtitle": [
+  "Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve."
+ ],
+ ".law-origin .body-text": [
+  "George Kingsley Zipf, a linguist at Harvard, set out the pattern in The Psycho-Biology of Language in 1935 and expanded it in Human Behavior and the Principle of Least Effort in 1949. Count how often each word appears in a body of text, rank the words by that count, and a word's frequency turns out to be roughly inversely proportional to its rank.",
+  "Zipf was not the first to notice it. Jean-Baptiste Estoup had seen it in French shorthand in 1916, and Felix Auerbach found the same shape in city populations in 1913. What Zipf added was a proposed cause, the principle of least effort, and the argument that the curve reaches well beyond language."
+ ],
+ ".law-content .law-desc": [
+  "Rank a set of items by how often they are used and the counts fall on a steep curve. The item at rank two is used about half as often as the first, the item at rank three about a third as often. A short head carries most of the traffic and a very long tail carries the remainder."
+ ],
+ ".law-equation": [
+  "f(r) ∝ 1 / r — the item at rank r is used about one r-th as often as the first."
+ ],
+ ".law-meta .label": [
+  "Coined by",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-george-kingsley-zipf\">George Kingsley Zipf</a> (1949)",
+  "Human Behavior and the Principle of Least Effort",
+  "Design for the head, keep the tail reachable"
+ ],
+ ".apply-list li": [
+  "Usage data exists for a set of pages, features, or queries, and you have to decide what earns a place in the primary navigation.",
+  "A menu, toolbar, or settings screen has outgrown its space and something has to move behind a secondary layer.",
+  "Somebody proposes removing rarely used features, and the team needs a view on what the tail is actually worth.",
+  "Rank the set by real usage before arguing about it, and read the shape of the curve rather than the average.",
+  "Give the head the cheapest access you can, and put the tail behind search or a clearly labelled More rather than deleting it.",
+  "Re-rank after every navigation change, because placement shapes the traffic you are measuring."
+ ],
+ ".card .tag": [
+  "The curve",
+  "Navigation",
+  "Search",
+  "The tail",
+  "Menus",
+  "Words",
+  "Caution",
+  "Fit",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Short Head",
+  "Put the Head in the Nav",
+  "Ranking Follows the Curve",
+  "The Tail Is Long, Not Empty",
+  "Rank, Then Cut",
+  "Write With the Common Words",
+  "Traffic Follows Placement",
+  "Not Every Set Is Zipfian",
+  "Thin on the Tail",
+  "Prompts Have a Head Too"
+ ],
+ ".card .desc": [
+  "Rank your pages, features, or queries by use and the top handful will account for most of the total. That head is where layout, speed, and polish repay the effort.",
+  "A navigation bar holds a handful of destinations. Fill it from the top of the ranked list rather than from the org chart, and most people never need to open a menu.",
+  "Query logs are Zipf-shaped too. A small set of searches repeats endlessly, so hand-tuning the top hundred results beats tuning the algorithm for everything else.",
+  "Items below the head are individually rare and collectively large. Cutting them because each one looks small removes a meaningful share of total use.",
+  "Hick’s Law says fewer options are faster to choose from. Zipf tells you which ones to keep: the head stays visible and the tail moves behind a More.",
+  "The pattern began in language. A small vocabulary covers most of what people read, so copy built from frequent words is read faster and translates more cleanly.",
+  "The ranking you measure is partly the ranking you caused. Something buried three levels down is rare because it is buried, not because nobody wanted it.",
+  "The curve describes large, unconstrained sets: words, pages, queries, cities. A ten-item settings screen used by one team has no head and no tail worth the name.",
+  "A model has met the common case endlessly and the rare one barely at all. Fluency does not fall off with frequency, so tail answers arrive confident and wrong.",
+  "What people type at an assistant is Zipf-shaped like any other query log. Handling the top hundred prompts deliberately beats tuning for an average nobody sends."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Prioritising work",
+  "Usage data exists",
+  "The product just launched",
+  "Primary navigation",
+  "Traffic is measurable",
+  "Every section must rank equally",
+  "Site search",
+  "Queries are logged",
+  "The corpus is tiny",
+  "Decisions about pruning",
+  "Removal is on the table",
+  "Upkeep is the binding constraint",
+  "Menus and toolbars",
+  "The list outgrew its space",
+  "Choices are used evenly",
+  "Interface copy",
+  "The audience is broad",
+  "Precision needs a rare term",
+  "Reading analytics",
+  "Deciding what to cut",
+  "The layout has never changed",
+  "Choosing an analysis",
+  "The set is large",
+  "The list is short and fixed",
+  "Frequency → confidence",
+  "Answering long-tail questions",
+  "Fluent answers to rare questions",
+  "Average → ranked",
+  "Designing an assistant",
+  "Tuning for the mean request"
+ ],
+ ".ai-divider h3": [
+  "Zipf in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models see the head thousands of times and the tail twice, so the rare case is exactly where a generated answer runs thin without sounding like it."
+ ]
+}

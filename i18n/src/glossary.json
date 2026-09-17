@@ -90,7 +90,8 @@
   "<a href=\"grid-and-hierarchy.html\">White Space</a>",
   "<a href=\"yerkes-dodson-law.html\">Yerkes-Dodson Law</a>",
   "<a href=\"eye-scanning-patterns.html\">Z-Pattern</a>",
-  "<a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>"
+  "<a href=\"zeigarnik-effect.html\">Zeigarnik Effect</a>",
+  "<a href=\"zipfs-law.html\">Zipf’s Law</a>"
  ],
  ".gl-term p": [
   "The ease of performing a behavior right now — one of the three factors in the Fogg Behavior Model, measured across time, money, effort, brain cycles, social deviance, and routine.",
@@ -177,6 +178,7 @@
   "The empty space around and between elements. Not wasted space — it groups, separates, and gives hierarchy room to work.",
   "Performance rises with arousal to a point, then falls — moderate pressure helps, high pressure hurts, especially on hard tasks.",
   "The scanning path on sparse layouts: across the top, diagonally down to the lower left, then across the bottom — where the call to action belongs.",
-  "Unfinished tasks are remembered better than finished ones — the open loop behind progress bars and completion meters."
+  "Unfinished tasks are remembered better than finished ones — the open loop behind progress bars and completion meters.",
+  "The observation that when items are ranked by how often they are used, frequency falls roughly in inverse proportion to rank: the second item is used about half as often as the first. Named for George Kingsley Zipf, who described it in language in 1935 and generalised it in 1949."
  ]
 }

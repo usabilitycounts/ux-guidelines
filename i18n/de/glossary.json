@@ -90,7 +90,8 @@
   "<a href=\"grid-and-hierarchy.html\">Weißraum</a>",
   "<a href=\"yerkes-dodson-law.html\">Yerkes-Dodson-Gesetz</a>",
   "<a href=\"eye-scanning-patterns.html\">Z-Muster</a>",
-  "<a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>"
+  "<a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>",
+  "<a href=\"zipfs-law.html\">Zipfsches Gesetz</a>"
  ],
  ".gl-term p": [
   "Die Leichtigkeit, ein Verhalten jetzt gerade auszuführen — einer der drei Faktoren im Fogg-Verhaltensmodell, gemessen über Zeit, Geld, Anstrengung, Denkzyklen, soziale Abweichung und Routine.",
@@ -177,6 +178,7 @@
   "Der leere Raum um und zwischen Elementen. Kein verschwendeter Raum — er gruppiert, trennt und gibt der Hierarchie Raum zum Wirken.",
   "Die Leistung steigt mit der Erregung bis zu einem Punkt, dann fällt sie — moderater Druck hilft, hoher Druck schadet, besonders bei schweren Aufgaben.",
   "Der Scanpfad auf sparsamen Layouts: über den oberen Rand, diagonal hinunter nach links unten, dann über den unteren Rand — dorthin gehört der Call-to-Action.",
-  "Unerledigte Aufgaben bleiben besser im Gedächtnis als erledigte — die offene Schleife hinter Fortschrittsbalken und Vollständigkeitsanzeigen."
+  "Unerledigte Aufgaben bleiben besser im Gedächtnis als erledigte — die offene Schleife hinter Fortschrittsbalken und Vollständigkeitsanzeigen.",
+  "Die Beobachtung, dass die Häufigkeit ungefähr umgekehrt proportional zum Rang fällt, wenn Elemente nach ihrer Nutzungshäufigkeit geordnet werden: Das zweite Element wird etwa halb so oft genutzt wie das erste. Benannt nach George Kingsley Zipf, der sie 1935 in der Sprache beschrieb und 1949 verallgemeinerte."
  ]
 }

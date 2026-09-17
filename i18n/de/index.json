@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Eine wachsende Bibliothek von 52 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
+  "Eine wachsende Bibliothek von 53 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
  ],
  ".card .tag": [
   "+ KI-Ära",
@@ -13,6 +13,7 @@
   "+ KI-Ära",
   "+ KI-Ära",
   "+ KI-Ära",
+  "1 / Rang",
   "3 Haltungen",
   "3 Fehlermodi",
   "10 Anwendungen",
@@ -67,6 +68,7 @@
   "Goodharts Gesetz",
   "Hofstadters Gesetz",
   "Pareto-Prinzip",
+  "Zipfsches Gesetz",
   "Human-in-the-Loop",
   "Out-of-the-Loop-Problem",
   "Fitts' Gesetz",
@@ -121,6 +123,7 @@
   "Ziele messen nichts mehr, sobald Ziele.",
   "Alles dauert länger als erwartet.",
   "Achtzig Prozent kommen von zwanzig Prozent.",
+  "Wenige Elemente tragen den Großteil der Nutzung.",
   "Wo das menschliche Urteil in der Automatisierung sitzt.",
   "Automatisierung zu überwachen zehrt an der Fähigkeit zu übernehmen.",
   "Große, nahe Ziele sind schneller.",

@@ -90,7 +90,8 @@
   "<a href=\"grid-and-hierarchy.html\">Espace blanc</a>",
   "<a href=\"yerkes-dodson-law.html\">Loi de Yerkes-Dodson</a>",
   "<a href=\"eye-scanning-patterns.html\">Schéma en Z</a>",
-  "<a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>"
+  "<a href=\"zeigarnik-effect.html\">Effet Zeigarnik</a>",
+  "<a href=\"zipfs-law.html\">Loi de Zipf</a>"
  ],
  ".gl-term p": [
   "La facilité d'accomplir un comportement maintenant — l'un des trois facteurs du modèle comportemental de Fogg, mesuré en temps, argent, effort, cycles mentaux, déviance sociale et routine.",
@@ -177,6 +178,7 @@
   "L'espace vide autour et entre les éléments. Pas de l'espace perdu — il regroupe, sépare et donne à la hiérarchie la place de travailler.",
   "La performance monte avec l'activation jusqu'à un point, puis chute — une pression modérée aide, une forte pression nuit, surtout sur les tâches difficiles.",
   "Le chemin de balayage sur les mises en page épurées : en travers du haut, en diagonale vers le bas-gauche, puis en travers du bas — là où l'appel à l'action doit se trouver.",
-  "Les tâches inachevées sont mieux mémorisées que les tâches terminées — la boucle ouverte derrière les barres de progression et les jauges de complétion."
+  "Les tâches inachevées sont mieux mémorisées que les tâches terminées — la boucle ouverte derrière les barres de progression et les jauges de complétion.",
+  "L'observation selon laquelle, quand des éléments sont classés par fréquence d'utilisation, la fréquence décroît à peu près en proportion inverse du rang : le deuxième élément est utilisé environ deux fois moins que le premier. Nommée d'après George Kingsley Zipf, qui l'a décrite dans le langage en 1935 et généralisée en 1949."
  ]
 }

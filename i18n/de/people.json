@@ -86,7 +86,8 @@
   "<a href=\"https://en.wikipedia.org/wiki/Robert_Yerkes\" target=\"_blank\" rel=\"noopener\">Robert Yerkes</a>",
   "<a href=\"https://en.wikipedia.org/wiki/George_Loewenstein\" target=\"_blank\" rel=\"noopener\">George Loewenstein</a>",
   "<a href=\"https://en.wikipedia.org/wiki/Shumin_Zhai\" target=\"_blank\" rel=\"noopener\">Shumin Zhai</a>",
-  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>"
+  "<a href=\"https://en.wikipedia.org/wiki/Bluma_Zeigarnik\" target=\"_blank\" rel=\"noopener\">Bluma Zeigarnik</a>",
+  "<a href=\"https://en.wikipedia.org/wiki/George_Kingsley_Zipf\" target=\"_blank\" rel=\"noopener\">George Kingsley Zipf</a>"
  ],
  ".pp-term p": [
   "HCI-Forscher, der 1997 mit Shumin Zhai das Steering-Gesetz herleitete — wie sich Tempo und Fehler ändern, wenn ein Zeiger einem begrenzten Pfad folgen muss.",
@@ -250,7 +251,9 @@
   "HCI-Forscher, der 1997 das Steering-Gesetz mit herleitete und später die Gestentastatur bei Google prägte.",
   "Erscheint in <a href=\"steering-law.html\">Steering-Gesetz</a>",
   "Litauisch-sowjetische Psychologin, deren Experimente von 1927 zeigten, dass unterbrochene Aufgaben etwa doppelt so gut erinnert werden wie abgeschlossene.",
-  "Erscheint in <a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>"
+  "Erscheint in <a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>",
+  "US-amerikanischer Linguist in Harvard, dessen Untersuchung von Wortfrequenzen das nach ihm benannte Rang-Häufigkeits-Gesetz hervorbrachte, zusammen mit dem Prinzip des geringsten Aufwands, mit dem er es erklären wollte.",
+  "Erscheint in <a href=\"zipfs-law.html\">Zipfsches Gesetz</a>"
  ],
  ".pp-term .where": [
   "Erscheint in <a href=\"steering-law.html\">Steering-Gesetz</a>",
@@ -333,6 +336,7 @@
   "Erscheint in <a href=\"yerkes-dodson-law.html\">Yerkes-Dodson-Gesetz</a>",
   "Erscheint in <a href=\"curse-of-knowledge.html\">Fluch des Wissens</a>",
   "Erscheint in <a href=\"steering-law.html\">Steering-Gesetz</a>",
-  "Erscheint in <a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>"
+  "Erscheint in <a href=\"zeigarnik-effect.html\">Zeigarnik-Effekt</a>",
+  "Erscheint in <a href=\"zipfs-law.html\">Zipfsches Gesetz</a>"
  ]
 }

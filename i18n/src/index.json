@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 52 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 53 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -13,6 +13,7 @@
   "+ AI era",
   "+ AI era",
   "+ AI era",
+  "1 / rank",
   "3 postures",
   "3 failure modes",
   "10 applications",
@@ -67,6 +68,7 @@
   "Goodhart’s Law",
   "Hofstadter’s Law",
   "Pareto Principle",
+  "Zipf’s Law",
   "Human-in-the-Loop",
   "Out-of-the-Loop Problem",
   "Fitts’s Law",
@@ -121,6 +123,7 @@
   "Targets stop measuring once they're targets.",
   "Everything takes longer than expected.",
   "Eighty percent comes from twenty percent.",
+  "A few items carry most of the use.",
   "Where human judgment sits in automation.",
   "Watching automation erodes the skill to take over.",
   "Big, close targets are faster.",

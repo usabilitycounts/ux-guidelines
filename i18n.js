@@ -124,6 +124,7 @@
     "Human-in-the-Loop": ["Humain dans la boucle", "Human-in-the-Loop", "Humano en el bucle", "ヒューマン・イン・ザ・ループ", "人在回路中"],
     "Out-of-the-Loop Problem": ["Problème de sortie de boucle", "Out-of-the-Loop-Problem", "Problema de estar fuera del bucle", "アウト・オブ・ザ・ループ問題", "脱离回路问题"],
     "Stroop Effect": ["Effet Stroop", "Stroop-Effekt", "Efecto Stroop", "ストループ効果", "斯特鲁普效应"],
+    "Zipf’s Law": ["Loi de Zipf", "Zipfsches Gesetz", "Ley de Zipf", "ジップの法則", "齐普夫定律"],
     "Pareto Principle": ["Principe de Pareto", "Pareto-Prinzip", "Principio de Pareto", "パレートの法則", "帕累托法则"],
     "Paradox of Choice": ["Paradoxe du choix", "Paradox der Wahl", "Paradoja de la elección", "選択のパラドックス", "选择悖论"],
     "Power Law of Practice": ["Loi de puissance de la pratique", "Potenzgesetz der Übung", "Ley de potencia de la práctica", "練習の冪法則", "练习幂定律"],
@@ -160,11 +161,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une bibliothèque grandissante de 52 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
-      de: "Eine wachsende Bibliothek von 52 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
-      es: "Una biblioteca creciente de 52 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
-      ja: "研究に裏付けられた52件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
-      zh: "一个不断成长的资料库，收录52篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
+      fr: "Une bibliothèque grandissante de 53 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
+      de: "Eine wachsende Bibliothek von 53 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
+      es: "Una biblioteca creciente de 53 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
+      ja: "研究に裏付けられた53件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
+      zh: "一个不断成长的资料库，收录53篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -368,6 +369,13 @@
       es: "Leer es automático; nombrar un color no lo es. Cuando una etiqueta y su color transmiten significados distintos — un botón Eliminar en verde, una insignia de éxito en rojo —, las dos lecturas chocan: la persona se ralentiza, duda y falla el clic con más frecuencia.",
       ja: "読むことは自動的に起きるが、色の名前を答えることはそうではない。ラベルとその色が違う意味を伝えるとき——緑色の「削除」ボタン、赤色の成功バッジ——二つの読み取りが衝突し、人は動作が遅くなり、ためらい、押し間違いが増える。",
       zh: "阅读是自动发生的，说出颜色的名字却不是。当一个标签和它的颜色传达出不同的含义——绿色的“删除”按钮、红色的成功标识——两种解读就会相撞，人会慢下来、犹豫，并且更容易点错。" } },
+    "zipf": { tag: {
+      fr: "Quelques éléments concentrent l'essentiel des usages.", de: "Wenige Elemente tragen den Großteil der Nutzung.", es: "Unos pocos elementos concentran la mayor parte del uso.", ja: "ごく一部の項目が利用の大半を占める。", zh: "少数项目承担了大部分使用量。" }, sub: {
+      fr: "Classez n'importe quel ensemble selon la fréquence d'utilisation et les chiffres s'effondrent sur une courbe raide et prévisible : le deuxième élément reçoit environ la moitié du trafic du premier, le troisième environ un tiers. La navigation, le classement des résultats de recherche et la priorité des fonctionnalités se placent tous sur cette courbe.",
+      de: "Ordnen Sie beliebige Elemente nach ihrer Nutzungshäufigkeit, und die Werte fallen auf einer steilen, vorhersagbaren Kurve ab: Das zweite Element erhält etwa die Hälfte des Traffics des ersten, das dritte etwa ein Drittel. Navigation, Suchranking und Feature-Priorität liegen alle auf dieser Kurve.",
+      es: "Ordena cualquier conjunto por su frecuencia de uso y las cifras caen en una curva pronunciada y predecible: el segundo elemento recibe cerca de la mitad del tráfico del primero, y el tercero cerca de un tercio. La navegación, el orden de los resultados de búsqueda y la prioridad de funcionalidades se sitúan en esa curva.",
+      ja: "何であれ利用頻度で並べ替えると、件数は急で予測可能な曲線に沿って落ちていく。2位の項目は1位のおよそ半分、3位はおよそ3分の1のトラフィックになる。ナビゲーション、検索結果の順位、機能の優先順位は、いずれもこの曲線の上にある。",
+      zh: "把任何一组项目按使用频率排序，数量就会沿着一条陡峭且可预测的曲线下降：第二名的流量约为第一名的一半，第三名约为三分之一。导航、搜索排序和功能优先级都落在这条曲线上。" } },
     "navigation": { tag: {
       fr: "Aidez les gens à savoir où ils sont, où ils peuvent aller et comment revenir.", de: "Hilf Menschen zu wissen, wo sie sind, wohin sie können und wie sie zurückkommen.", es: "Ayuda a la gente a saber dónde está, adónde puede ir y cómo volver.", ja: "今どこにいて、どこへ行けて、どう戻れるかを伝える。", zh: "让人们知道自己在哪、能去哪、怎么回来。" }, sub: {
       fr: "La navigation est le tissu conjonctif d'un produit. Chaque couche a un rôle différent — donnez-leur le bon poids et la structure devient invisible.",
@@ -485,7 +493,7 @@
     // files are named by the English one, so map it back through the slug table.
     const S = window.UX_SLUGS && window.UX_SLUGS[lang];
     if (S) { for (const en in S) { if (S[en] === page) { page = en; break; } } }
-    fetch('i18n/' + lang + '/' + page + '.json?v=27')
+    fetch('i18n/' + lang + '/' + page + '.json?v=28')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); })
       .catch(() => {});
