@@ -443,7 +443,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 }
 
 /* One body-copy style */
-.body-text,
+.body-text, .apply-list li,
 .desc, .card .desc, .subtitle, .law-feature .law-desc, .section .lede {
   font-size: var(--fs-body);
   color: var(--text-secondary);
@@ -650,8 +650,8 @@ header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--head
 .law-feature:has(+ .apply-feature) { border-bottom: 0; }
 .law-feature + .apply-feature { margin-top: 0; border-top: 0; padding-top: 4px; }
 .apply-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px; }
-.apply-list li { position: relative; padding-left: 20px; font-size: var(--fs-ui); color: var(--text-primary); line-height: var(--lh-base); }
-.apply-list li::before { content: ''; position: absolute; left: 2px; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; background: var(--text-faint); }
+.apply-list li { position: relative; padding-left: 20px; }   /* type comes from the shared body-copy rule */
+.apply-list li::before { content: ''; position: absolute; left: 2px; top: 0.62em; width: 6px; height: 6px; border-radius: 50%; background: var(--text-faint); }
 @media (max-width: 800px) { .apply-feature { grid-template-columns: 1fr; padding: 32px 20px; gap: 28px; } }
 .card .tag { background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
 /* Shared illustration primitives */
