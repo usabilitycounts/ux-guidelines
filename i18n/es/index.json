@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 49 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 50 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "+ Era de la IA",
@@ -13,6 +13,7 @@
   "+ Era de la IA",
   "+ Era de la IA",
   "+ Era de la IA",
+  "3 posturas",
   "10 aplicaciones",
   "6 túneles",
   "Bar, 2006",
@@ -64,6 +65,7 @@
   "Ley de Goodhart",
   "Ley de Hofstadter",
   "Principio de Pareto",
+  "Humano en el bucle",
   "Ley de Fitts",
   "Ley de conducción",
   "Sesgo de contorno",
@@ -115,6 +117,7 @@
   "La meta deja de medir al ser meta.",
   "Todo tarda más de lo previsto.",
   "El ochenta viene del veinte por ciento.",
+  "Dónde se sitúa el criterio humano en la automatización.",
   "Objetivos grandes y cercanos, más rápidos.",
   "Los túneles estrechos frenan el cursor.",
   "Lo curvo calma; lo anguloso alerta.",

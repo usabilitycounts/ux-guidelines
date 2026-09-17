@@ -12,7 +12,7 @@ GROUPS = [
  ("Structure The Choices", ['hicks-law','jakobs-law','paradox-of-choice','automation-bias']),
  ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),
  ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
- ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','pareto-principle']),
+ ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','human-in-the-loop','pareto-principle']),
  ("Follow The Rulebooks", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','chestertons-fence']),
 ]
 

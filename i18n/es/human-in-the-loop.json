@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Humano en el <em>bucle</em>"
+ ],
+ "header .tagline": [
+  "El sistema propone; una <em>persona</em> decide."
+ ],
+ "header .subtitle": [
+  "Mantener a una persona dentro de una decisión automatizada por diseño y no por casualidad. El patrón señala dónde se sitúa el criterio humano — aprobar cada acción, supervisar un flujo de ellas o no intervenir en absoluto — y lo que cuesta cada opción."
+ ],
+ ".law-origin .body-text": [
+  "La expresión nació de la ingeniería de control y de la simulación militar, donde man-in-the-loop designaba un sistema cuyo funcionamiento depende de un operador humano: un misil guiado por alguien a los mandos, o un simulador de vuelo cuyo realismo procede de que lo pilota una persona real. No hay artículo fundacional. El término se difundió como nombre de una decisión de diseño, no de un descubrimiento.",
+  "Thomas Sheridan y William Verplank dieron estructura a la idea en un informe del MIT de 1978, al graduar la automatización en diez niveles que van desde un ordenador que no ofrece ayuda alguna hasta uno que actúa solo y no avisa a nadie. El aprendizaje automático tomó prestada la expresión en la década de 2010 para los flujos de etiquetado y corrección, y los sistemas generativos la convirtieron en una cuestión de producto: qué acciones puede emprender un modelo por su cuenta."
+ ],
+ ".law-content .law-desc": [
+  "Mantén a una persona en el bucle siempre que una acción sea costosa de revertir, difícil de verificar o de la que alguien deba responder. El sistema propone y la persona decide, y el relevo entre ambos se diseña en lugar de darse por supuesto."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-thomas-sheridan\">Thomas Sheridan</a> y William Verplank (1978)",
+  "Niveles de automatización, de la ingeniería de control",
+  "Filtrar por consecuencia, no por confianza"
+ ],
+ ".apply-list li": [
+  "Una función automatizada está a punto de gastar dinero, enviar un mensaje o hacer algo que no se puede deshacer.",
+  "La salida del modelo va directa a un cliente y nadie ha decidido quién la comprueba antes de que llegue.",
+  "Quienes revisan aprueban casi todo lo que el sistema sugiere, y la comprobación se ha convertido en un trámite sin que nadie lo note.",
+  "Escribe la postura en la especificación: en el bucle, sobre el bucle o fuera de él, con la consecuencia que justifica la elección.",
+  "Filtra por consecuencia y no por confianza, para que los pasos irreversibles se detengan ante una persona incluso cuando el modelo esté seguro.",
+  "Sigue la tasa de aprobación y los segundos por revisión, y cuando las aprobaciones se acerquen al 100 por cien, cambia al muestreo y mide los errores directamente."
+ ],
+ ".card .tag": [
+  "Posturas",
+  "Aprobación",
+  "Derivación",
+  "Relevo",
+  "Aprendizaje",
+  "Modo de fallo",
+  "Coste",
+  "Responsabilidad",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Dentro, sobre o fuera del bucle",
+  "Proponer y luego confirmar",
+  "Umbrales de confianza",
+  "Escalado con contexto",
+  "Las correcciones como datos de entrenamiento",
+  "El sello automático",
+  "La revisión no escala",
+  "Alguien responde del resultado",
+  "Puntos de aprobación para agentes",
+  "Supervisar por muestreo"
+ ],
+ ".card .desc": [
+  "Tres posturas: una persona aprueba cada acción, supervisa un flujo de ellas o no interviene en absoluto. Cuál adopta una función es una decisión que se deja por escrito, no una propiedad del modelo.",
+  "El modelo redacta y una persona confirma. El borrador ahorra el trabajo; la confirmación deja la responsabilidad en alguien a quien se puede preguntar por qué se llevó a cabo la acción.",
+  "Deja pasar directamente los casos seguros y deriva el resto a una persona. El umbral es una decisión de producto ajustada al coste de una respuesta equivocada, no un parámetro del modelo dejado por defecto.",
+  "Cuando el sistema entrega un caso a una persona, debe entregar también el contexto: qué intentó, sobre qué duda y qué ocurre si nadie actúa.",
+  "Cada corrección de quien revisa es un ejemplo etiquetado. Recógela a propósito, con el motivo adjunto, o el bucle no enseñará nada al sistema y el mismo caso volverá la semana siguiente.",
+  "Quien aprueba novecientas sugerencias correctas aprobará la siguiente sin leerla. Una revisión que nunca encuentra nada ha dejado de ser una revisión.",
+  "Una persona en cada bucle fija el techo del rendimiento. Mide los segundos por revisión y la longitud de la cola antes de prometer una comprobación humana de todo.",
+  "Registra qué propuso el sistema, quién lo aprobó y qué podía ver en ese momento. Sin ese rastro el bucle no se puede auditar y nadie puede responder del resultado.",
+  "Un agente que puede enviar, comprar, borrar o desplegar debería detenerse en esos pasos y preguntar. Filtra por la consecuencia y no por la confianza del modelo, y haz que cada pausa sea rápida de resolver.",
+  "Cuando el volumen supera la capacidad de revisión, pasa de estar en el bucle a estar sobre el bucle: muestrea el flujo, vigila la tasa de error y tira del hilo en cuanto se mueva."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Definir el alcance de una función automatizada",
+  "Se está decidiendo el grado de autonomía",
+  "La acción se deshace sin esfuerzo",
+  "Acciones irreversibles",
+  "Un error cuesta dinero o confianza",
+  "El volumen convierte la revisión en un trámite",
+  "Clasificación a gran volumen",
+  "Las puntuaciones de confianza están calibradas",
+  "Las puntuaciones son estimaciones sin calibrar",
+  "Colas de soporte y moderación",
+  "Los casos llegan a mitad del flujo",
+  "Quien revisa ya lo ve todo",
+  "Modelos que siguen aprendiendo",
+  "Quienes revisan ya corrigen la salida",
+  "Las correcciones no se pueden atribuir",
+  "Auditar un bucle que parece sano",
+  "Las tasas de aprobación rozan el 100 por cien",
+  "El muestreo ya detecta los errores",
+  "Planificación de capacidad",
+  "El volumen crece más rápido que el equipo",
+  "El volumen es pequeño y estable",
+  "Flujos regulados",
+  "Las decisiones afectan a personas",
+  "La acción no tiene consecuencias",
+  "Revisión de la salida → aprobación del paso",
+  "Las acciones salen del producto",
+  "Avisos tan frecuentes que se descartan",
+  "Todos los casos → un caso muestreado",
+  "El rendimiento supera a quienes revisan",
+  "Fallos raros que una muestra nunca ve"
+ ],
+ ".ai-divider h3": [
+  "El humano en el bucle en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los agentes actúan en secuencias, así que la pregunta pasa de aprobar una salida a aprobar un paso, y de revisarlo todo a elegir qué puede ejecutarse sin vigilancia."
+ ]
+}

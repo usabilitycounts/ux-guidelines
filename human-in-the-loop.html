@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" data-page="human-in-the-loop">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs.">
+<title>Human-in-the-Loop: Where Human Judgment Sits in Automated Systems — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/human-in-the-loop.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/human-in-the-loop.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/humano-en-el-bucle.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/human-in-the-loop.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/humain-dans-la-boucle.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/human-in-the-loop.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/human-in-the-loop.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/human-in-the-loop.html">
+<meta property="og:title" content="Human-in-the-Loop: Where Human Judgment Sits in Automated Systems — UX Guidelines">
+<meta property="og:description" content="Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/human-in-the-loop.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/human-in-the-loop.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/human-in-the-loop.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Human-in-the-Loop: Where Human Judgment Sits in Automated Systems — UX Guidelines">
+<meta name="twitter:description" content="Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Human-in-the-Loop: Where Human Judgment Sits in Automated Systems", "description": "Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs.", "url": "https://www.ux-guidelines.com/human-in-the-loop.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/human-in-the-loop.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Human-in-the-Loop: Where Human Judgment Sits in Automated Systems", "item": "https://www.ux-guidelines.com/human-in-the-loop.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=106">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f4f4f4;
+    --demo-bg: #ececec;
+    --border: #e2e2e2;
+    --ink: #111111;
+    --muted: #6b6b6b;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
+    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
+  }
+
+  .hl { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .hl .row { display: flex; align-items: center; gap: 10px; }
+  .hl .box { flex: 1; height: 30px; border-radius: 8px; background: var(--surface); display: flex; align-items: center; padding: 0 12px; gap: 8px; }
+  .hl .box i { display: block; height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.5; flex: 1; }
+  .hl .box.b { background: rgba(56,189,248,0.15); box-shadow: inset 0 0 0 2px var(--il-accent); }
+  .hl .box.b i { background: var(--il-accent); opacity: 1; }
+  .hl .person { width: 34px; height: 34px; border-radius: 50%; background: var(--il-accent); flex: none; }
+  .hl .person.g { background: var(--skel-strong); opacity: 0.45; }
+  .hl .arrow { flex: none; width: 22px; height: 3px; border-radius: 2px; background: var(--skel-strong); opacity: 0.5; }
+  .hl .gate { flex: none; width: 4px; align-self: stretch; border-radius: 2px; background: var(--il-accent); }
+  .hl .col { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .hl .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel); opacity: 0.4; }
+  .hl .ln.b { background: var(--il-accent); opacity: 1; }
+  .hl .stack { display: flex; flex-direction: column; gap: 6px; flex: 1; justify-content: center; }
+  .hl .chip { height: 20px; border-radius: 10px; background: var(--surface); display: flex; align-items: center; padding: 0 10px; flex: none; }
+  .hl .chip i { height: 5px; width: 30px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; display: block; }
+  .hl .chip.b { background: rgba(56,189,248,0.18); } .hl .chip.b i { background: var(--il-accent); opacity: 1; }
+  .hl .meter { height: 12px; border-radius: 6px; background: var(--surface); overflow: hidden; flex: none; }
+  .hl .meter i { display: block; height: 100%; border-radius: 6px; background: var(--il-accent); }
+  .hl .grid3 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 7px; flex: 1; min-height: 0; }
+  .hl .grid3 span { border-radius: 6px; background: var(--skel); opacity: 0.3; }
+  .hl .grid3 span.b { background: var(--il-accent); opacity: 1; }
+  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
+</style>
+<script defer src="tokens.js?v=101"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="human-in-the-loop.html" class="menu-link active">Human-in-the-Loop</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Human-in-the-<em>Loop</em></h1>
+  <p class="tagline">The system proposes; a <em>person</em> commits.</p>
+  <p class="subtitle">Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The phrase grew out of control engineering and military simulation, where man-in-the-loop named a system whose operation depends on a human operator: a missile steered by a person at the controls, or a flight simulator whose realism comes from a real pilot flying it. There is no founding paper. The term spread as the name for a design decision rather than a discovery.</p>
+    <p class="body-text">Thomas Sheridan and William Verplank gave the idea a spine in a 1978 MIT report, grading automation on ten levels that run from a computer offering no help at all to one that acts alone and tells no one. Machine learning borrowed the phrase in the 2010s for labeling and correction workflows, and generative systems turned it into a product question: which actions may a model take by itself.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Pattern</div>
+    <p class="body-text law-desc">Keep a person inside the loop wherever an action is costly to reverse, hard to verify, or answerable to someone. The system proposes and the person commits, and the handoff between them is designed rather than assumed.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-thomas-sheridan">Thomas Sheridan</a> and William Verplank (1978)</div></div>
+      <div><div class="label">Source</div><div class="value">Levels of automation, from control engineering</div></div>
+      <div><div class="label">In practice</div><div class="value">Gate on consequence, not on confidence</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>An automated feature is about to take an action that spends money, sends a message, or cannot be undone.</li>
+      <li>Model output is going straight to a customer and nobody has decided who checks it before it lands.</li>
+      <li>Reviewers approve nearly everything the system suggests, and the check has quietly become a formality.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Write the posture into the spec: in the loop, on the loop, or out, with the consequence that justifies the choice.</li>
+      <li>Gate on consequence rather than confidence, so irreversible steps pause for a person even when the model is certain.</li>
+      <li>Track approval rate and seconds per review, and when approvals approach 100 percent, switch to sampling and measure errors directly.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. In, On, or Out of the Loop -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Postures</span>
+      <span class="num">01 / 10</span>
+      <h3>In, On, or Out of the Loop</h3>
+      <p class="desc">Three postures: a person approves every action, supervises a stream of them, or is absent entirely. Which one a feature uses is a decision to write down, not a property of the model.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="row"><span class="person"></span><span class="arrow"></span><div class="box b"><i></i></div></div><div class="row"><span class="person g"></span><span class="arrow"></span><div class="box"><i></i></div></div><div class="row"><span class="arrow" style="opacity:0.2"></span><div class="box"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Scoping an automated feature</div></div>
+      <div><div class="label">Use when</div><div class="value">Autonomy is being decided</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The action is trivially reversible</div></div>
+    </div>
+  </article>
+  <!-- 2. Propose, Then Commit -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Approval</span>
+      <span class="num">02 / 10</span>
+      <h3>Propose, Then Commit</h3>
+      <p class="desc">The model drafts and a person commits. The draft saves the work; the commit keeps the accountability with someone who can be asked why the action was taken.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="row"><div class="col"><span class="ln"></span><span class="ln" style="width:80%"></span></div><span class="gate"></span><div class="col"><span class="ln b"></span><span class="ln b" style="width:70%"></span></div></div><div class="row" style="justify-content:center"><span class="person"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Irreversible actions</div></div>
+      <div><div class="label">Use when</div><div class="value">A mistake costs money or trust</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Volume turns review into a formality</div></div>
+    </div>
+  </article>
+  <!-- 3. Confidence Thresholds -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Routing</span>
+      <span class="num">03 / 10</span>
+      <h3>Confidence Thresholds</h3>
+      <p class="desc">Send the confident cases straight through and route the rest to a person. The threshold is a product decision tuned to the cost of a wrong answer, not a model setting left at its default.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="stack"><div class="chip b"><i></i></div><div class="chip b"><i></i></div><div class="chip"><i></i></div></div><div class="meter"><i style="width:72%"></i></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Classification at volume</div></div>
+      <div><div class="label">Use when</div><div class="value">Confidence scores are calibrated</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Scores are uncalibrated guesses</div></div>
+    </div>
+  </article>
+  <!-- 4. Escalation with Context -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Handoff</span>
+      <span class="num">04 / 10</span>
+      <h3>Escalation with Context</h3>
+      <p class="desc">When the system hands a case to a person it must hand over the context too: what it tried, what it is unsure about, and what happens if nobody acts on it.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="row"><div class="box"><i></i></div><span class="arrow"></span><span class="person"></span></div><div class="col"><span class="ln" style="width:92%"></span><span class="ln" style="width:76%"></span><span class="ln b" style="width:58%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Support and moderation queues</div></div>
+      <div><div class="label">Use when</div><div class="value">Cases arrive mid-flow</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The reviewer already sees everything</div></div>
+    </div>
+  </article>
+  <!-- 5. Corrections as Training Data -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Learning</span>
+      <span class="num">05 / 10</span>
+      <h3>Corrections as Training Data</h3>
+      <p class="desc">Every correction a reviewer makes is a labeled example. Capture it deliberately, with the reason attached, or the loop teaches the system nothing and the same case returns next week.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="row"><div class="box"><i></i></div><span class="arrow"></span><span class="person"></span></div><div class="row"><span class="person g"></span><span class="arrow"></span><div class="box b"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Models that keep learning</div></div>
+      <div><div class="label">Use when</div><div class="value">Reviewers already fix output</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Corrections cannot be attributed</div></div>
+    </div>
+  </article>
+  <!-- 6. The Rubber Stamp -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Failure mode</span>
+      <span class="num">06 / 10</span>
+      <h3>The Rubber Stamp</h3>
+      <p class="desc">A reviewer who approves nine hundred correct suggestions will approve the next one without reading it. Review that is never wrong has stopped being review.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="grid3"><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span class="b"></span><span></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Auditing a loop that looks healthy</div></div>
+      <div><div class="label">Use when</div><div class="value">Approval rates approach 100 percent</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Sampling already catches the errors</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="automation-bias.html">Automation Bias</a></div>
+    </div>
+  </article>
+  <!-- 7. Review Does Not Scale -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Cost</span>
+      <span class="num">07 / 10</span>
+      <h3>Review Does Not Scale</h3>
+      <p class="desc">A person in every loop sets the ceiling on throughput. Measure seconds per review and queue depth before promising a human check on everything.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="stack"><div class="chip"><i></i></div><div class="chip"><i></i></div><div class="chip"><i></i></div><div class="chip"><i></i></div></div><div class="row"><span class="person"></span><div class="meter" style="flex:1"><i style="width:28%"></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Capacity planning</div></div>
+      <div><div class="label">Use when</div><div class="value">Volume grows faster than the team</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Volume is small and steady</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div>
+    </div>
+  </article>
+  <!-- 8. Someone Owns the Outcome -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Accountability</span>
+      <span class="num">08 / 10</span>
+      <h3>Someone Owns the Outcome</h3>
+      <p class="desc">Log what the system proposed, who approved it, and what they could see at the time. Without that trail the loop cannot be audited and nobody can answer for the result.</p>
+    </div>
+    <div class="demo"><div class="hl"><div class="col"><span class="ln" style="width:88%"></span><span class="ln" style="width:64%"></span></div><div class="row"><span class="person"></span><div class="box"><i></i></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Regulated workflows</div></div>
+      <div><div class="label">Use when</div><div class="value">Decisions affect people</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The action carries no consequence</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Human-in-the-Loop in the Age of AI</h3>
+    <p>Agents act in sequences, so the question moves from approving an output to approving a step, and from reviewing everything to choosing what may run unattended.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="hl"><div class="row"><div class="box"><i></i></div><span class="gate"></span><span class="person"></span></div><div class="row"><div class="box b"><i></i></div><span class="arrow"></span><div class="box"><i></i></div></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Approval Gates for Agents</h3>
+      <p class="desc">An agent that can send, buy, delete, or deploy should stop at those steps and ask. Gate on the consequence rather than the model's confidence, and make each pause cheap to clear.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Output review → step approval</div></div>
+      <div><div class="label">Use when</div><div class="value">Actions leave the product</div></div>
+      <div><div class="label">Watch for</div><div class="value">Prompts so frequent they are dismissed</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="hl"><div class="grid3"><span></span><span class="b"></span><span></span><span></span><span></span><span></span><span></span><span class="b"></span><span></span><span></span></div><div class="meter"><i style="width:18%"></i></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Supervising by Sample</h3>
+      <p class="desc">When volume outgrows review, move from in the loop to on the loop: sample the stream, watch the error rate, and pull the thread the moment it moves.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Every case → a sampled case</div></div>
+      <div><div class="label">Use when</div><div class="value">Throughput outruns reviewers</div></div>
+      <div><div class="label">Watch for</div><div class="value">Rare failures a sample never sees</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://apps.dtic.mil/sti/citations/ADA057655" target="_blank" rel="noopener"><span class="title">Human and Computer Control of Undersea Teleoperators — Sheridan and Verplank, 1978</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Human-in-the-loop" target="_blank" rel="noopener"><span class="title">Human-in-the-Loop</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Thomas_B._Sheridan" target="_blank" rel="noopener"><span class="title">Thomas B. Sheridan</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)" target="_blank" rel="noopener"><span class="title">Active Learning (Machine Learning)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Automation" target="_blank" rel="noopener"><span class="title">Automation</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener"><span class="title">NIST AI Risk Management Framework</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://pair.withgoogle.com/guidebook/" target="_blank" rel="noopener"><span class="title">People + AI Guidebook — Google</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Human-in-the-Loop</div>
+</footer>
+
+</body>
+</html>

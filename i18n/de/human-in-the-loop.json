@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Mensch in der <em>Schleife</em>"
+ ],
+ "header .tagline": [
+  "Das System schlägt vor; ein <em>Mensch</em> entscheidet."
+ ],
+ "header .subtitle": [
+  "Einen Menschen bewusst statt zufällig in einer automatisierten Entscheidung halten. Das Muster benennt, wo das menschliche Urteil sitzt — jede Aktion freigeben, einen Strom von Aktionen überwachen oder ganz fehlen — und was jede Wahl kostet."
+ ],
+ ".law-origin .body-text": [
+  "Der Begriff stammt aus der Regelungstechnik und der militärischen Simulation, wo man-in-the-loop ein System bezeichnete, dessen Betrieb von einem menschlichen Bediener abhängt: eine Rakete, die jemand an den Steuern lenkt, oder ein Flugsimulator, dessen Realismus daher rührt, dass ein echter Pilot ihn fliegt. Es gibt keine Gründungsarbeit. Der Begriff verbreitete sich als Name für eine Entwurfsentscheidung, nicht für eine Entdeckung.",
+  "Thomas Sheridan und William Verplank gaben der Idee 1978 in einem MIT-Bericht ein Rückgrat und stuften Automatisierung auf zehn Ebenen ein, von einem Rechner, der überhaupt nicht hilft, bis zu einem, der allein handelt und niemandem Bescheid gibt. Das maschinelle Lernen übernahm den Begriff in den 2010er-Jahren für Annotations- und Korrekturabläufe, und generative Systeme machten daraus eine Produktfrage: welche Aktionen ein Modell eigenständig ausführen darf."
+ ],
+ ".law-content .law-desc": [
+  "Halten Sie überall dort einen Menschen in der Schleife, wo eine Aktion teuer rückgängig zu machen, schwer zu prüfen oder jemandem gegenüber zu verantworten ist. Das System schlägt vor, der Mensch entscheidet, und die Übergabe dazwischen wird entworfen statt vorausgesetzt."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-thomas-sheridan\">Thomas Sheridan</a> und William Verplank (1978)",
+  "Automatisierungsgrade aus der Regelungstechnik",
+  "Nach Konsequenz abstufen, nicht nach Konfidenz"
+ ],
+ ".apply-list li": [
+  "Eine automatisierte Funktion ist im Begriff, Geld auszugeben, eine Nachricht zu senden oder etwas Unumkehrbares zu tun.",
+  "Eine Modellausgabe geht direkt an Kundinnen und Kunden, und niemand hat entschieden, wer sie vorher prüft.",
+  "Prüfende geben fast alles frei, was das System vorschlägt, und die Kontrolle ist still zur Formsache geworden.",
+  "Schreiben Sie die Haltung in die Spezifikation: in der Schleife, über der Schleife oder außerhalb, mit der Konsequenz, die diese Wahl begründet.",
+  "Stufen Sie nach Konsequenz statt nach Konfidenz ab, damit unumkehrbare Schritte auch dann für einen Menschen anhalten, wenn das Modell sicher ist.",
+  "Verfolgen Sie Freigabequote und Sekunden pro Prüfung, und wechseln Sie zu Stichproben, sobald sich die Freigaben 100 Prozent nähern, um Fehler direkt zu messen."
+ ],
+ ".card .tag": [
+  "Haltungen",
+  "Freigabe",
+  "Verteilung",
+  "Übergabe",
+  "Lernen",
+  "Fehlermuster",
+  "Kosten",
+  "Verantwortung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "In, über oder außerhalb der Schleife",
+  "Erst vorschlagen, dann freigeben",
+  "Konfidenzschwellen",
+  "Eskalation mit Kontext",
+  "Korrekturen als Trainingsdaten",
+  "Der Abnickstempel",
+  "Prüfung skaliert nicht",
+  "Jemand steht für das Ergebnis ein",
+  "Freigabepunkte für Agenten",
+  "Überwachen per Stichprobe"
+ ],
+ ".card .desc": [
+  "Drei Haltungen: Ein Mensch gibt jede Aktion frei, überwacht einen Strom von Aktionen oder fehlt ganz. Welche eine Funktion einnimmt, ist eine festzuhaltende Entscheidung, keine Eigenschaft des Modells.",
+  "Das Modell entwirft, ein Mensch gibt frei. Der Entwurf spart die Arbeit; die Freigabe hält die Verantwortung bei jemandem, den man fragen kann, warum die Aktion erfolgt ist.",
+  "Sichere Fälle direkt durchlassen, den Rest an einen Menschen leiten. Die Schwelle ist eine Produktentscheidung, abgestimmt auf die Kosten einer falschen Antwort, kein Modellparameter im Auslieferungszustand.",
+  "Wenn das System einen Fall an einen Menschen übergibt, muss es den Kontext mitgeben: was es versucht hat, worin es unsicher ist und was geschieht, wenn niemand reagiert.",
+  "Jede Korrektur einer prüfenden Person ist ein gelabeltes Beispiel. Erfassen Sie sie bewusst samt Begründung, sonst lehrt die Schleife das System nichts und derselbe Fall kommt nächste Woche zurück.",
+  "Wer neunhundert korrekte Vorschläge freigegeben hat, gibt den nächsten frei, ohne ihn zu lesen. Eine Prüfung, die nie etwas findet, ist keine Prüfung mehr.",
+  "Ein Mensch in jeder Schleife setzt die Obergrenze des Durchsatzes. Messen Sie Sekunden pro Prüfung und Warteschlangenlänge, bevor Sie eine menschliche Kontrolle für alles zusagen.",
+  "Protokollieren Sie, was das System vorgeschlagen hat, wer es freigegeben hat und was dabei sichtbar war. Ohne diese Spur lässt sich die Schleife nicht prüfen und niemand kann für das Ergebnis einstehen.",
+  "Ein Agent, der senden, kaufen, löschen oder ausrollen kann, sollte an diesen Schritten anhalten und nachfragen. Stufen Sie nach der Konsequenz ab statt nach der Konfidenz des Modells, und machen Sie jede Pause billig auflösbar.",
+  "Wenn die Menge die Prüfkapazität übersteigt, wechseln Sie von in der Schleife zu über der Schleife: Ziehen Sie Stichproben aus dem Strom, beobachten Sie die Fehlerquote und gehen Sie ihr nach, sobald sie sich bewegt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Eine automatisierte Funktion zuschneiden",
+  "Der Grad der Autonomie steht zur Entscheidung",
+  "Die Aktion lässt sich mühelos rückgängig machen",
+  "Unumkehrbare Aktionen",
+  "Ein Fehler kostet Geld oder Vertrauen",
+  "Die Menge macht die Prüfung zur Formsache",
+  "Klassifikation in großer Menge",
+  "Die Konfidenzwerte sind kalibriert",
+  "Die Werte sind unkalibrierte Schätzungen",
+  "Warteschlangen in Support und Moderation",
+  "Fälle treffen mitten im Ablauf ein",
+  "Die prüfende Person sieht ohnehin alles",
+  "Modelle, die weiterlernen",
+  "Prüfende korrigieren die Ausgabe ohnehin",
+  "Korrekturen lassen sich nicht zuordnen",
+  "Eine scheinbar gesunde Schleife prüfen",
+  "Die Freigabequote nähert sich 100 Prozent",
+  "Stichproben finden die Fehler bereits",
+  "Kapazitätsplanung",
+  "Die Menge wächst schneller als das Team",
+  "Die Menge ist klein und gleichmäßig",
+  "Regulierte Abläufe",
+  "Entscheidungen betreffen Menschen",
+  "Die Aktion hat keine Folgen",
+  "Ausgabeprüfung → Schrittfreigabe",
+  "Aktionen verlassen das Produkt",
+  "So häufige Nachfragen, dass sie weggeklickt werden",
+  "Jeder Fall → ein Stichprobenfall",
+  "Der Durchsatz überholt die Prüfenden",
+  "Seltene Fehler, die eine Stichprobe nie sieht"
+ ],
+ ".ai-divider h3": [
+  "Mensch in der Schleife im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Agenten handeln in Folgen, deshalb verschiebt sich die Frage vom Freigeben einer Ausgabe zum Freigeben eines Schritts und vom Prüfen aller Fälle zur Auswahl dessen, was unbeaufsichtigt laufen darf."
+ ]
+}

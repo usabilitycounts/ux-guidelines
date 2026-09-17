@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Human-in-the-<em>Loop</em>"
+ ],
+ "header .tagline": [
+  "The system proposes; a <em>person</em> commits."
+ ],
+ "header .subtitle": [
+  "Keeping a person inside an automated decision by design rather than by accident. The pattern names where human judgment sits — approving every action, supervising a stream of them, or absent altogether — and what each choice costs."
+ ],
+ ".law-origin .body-text": [
+  "The phrase grew out of control engineering and military simulation, where man-in-the-loop named a system whose operation depends on a human operator: a missile steered by a person at the controls, or a flight simulator whose realism comes from a real pilot flying it. There is no founding paper. The term spread as the name for a design decision rather than a discovery.",
+  "Thomas Sheridan and William Verplank gave the idea a spine in a 1978 MIT report, grading automation on ten levels that run from a computer offering no help at all to one that acts alone and tells no one. Machine learning borrowed the phrase in the 2010s for labeling and correction workflows, and generative systems turned it into a product question: which actions may a model take by itself."
+ ],
+ ".law-content .law-desc": [
+  "Keep a person inside the loop wherever an action is costly to reverse, hard to verify, or answerable to someone. The system proposes and the person commits, and the handoff between them is designed rather than assumed."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-thomas-sheridan\">Thomas Sheridan</a> and William Verplank (1978)",
+  "Levels of automation, from control engineering",
+  "Gate on consequence, not on confidence"
+ ],
+ ".apply-list li": [
+  "An automated feature is about to take an action that spends money, sends a message, or cannot be undone.",
+  "Model output is going straight to a customer and nobody has decided who checks it before it lands.",
+  "Reviewers approve nearly everything the system suggests, and the check has quietly become a formality.",
+  "Write the posture into the spec: in the loop, on the loop, or out, with the consequence that justifies the choice.",
+  "Gate on consequence rather than confidence, so irreversible steps pause for a person even when the model is certain.",
+  "Track approval rate and seconds per review, and when approvals approach 100 percent, switch to sampling and measure errors directly."
+ ],
+ ".card .tag": [
+  "Postures",
+  "Approval",
+  "Routing",
+  "Handoff",
+  "Learning",
+  "Failure mode",
+  "Cost",
+  "Accountability",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "In, On, or Out of the Loop",
+  "Propose, Then Commit",
+  "Confidence Thresholds",
+  "Escalation with Context",
+  "Corrections as Training Data",
+  "The Rubber Stamp",
+  "Review Does Not Scale",
+  "Someone Owns the Outcome",
+  "Approval Gates for Agents",
+  "Supervising by Sample"
+ ],
+ ".card .desc": [
+  "Three postures: a person approves every action, supervises a stream of them, or is absent entirely. Which one a feature uses is a decision to write down, not a property of the model.",
+  "The model drafts and a person commits. The draft saves the work; the commit keeps the accountability with someone who can be asked why the action was taken.",
+  "Send the confident cases straight through and route the rest to a person. The threshold is a product decision tuned to the cost of a wrong answer, not a model setting left at its default.",
+  "When the system hands a case to a person it must hand over the context too: what it tried, what it is unsure about, and what happens if nobody acts on it.",
+  "Every correction a reviewer makes is a labeled example. Capture it deliberately, with the reason attached, or the loop teaches the system nothing and the same case returns next week.",
+  "A reviewer who approves nine hundred correct suggestions will approve the next one without reading it. Review that is never wrong has stopped being review.",
+  "A person in every loop sets the ceiling on throughput. Measure seconds per review and queue depth before promising a human check on everything.",
+  "Log what the system proposed, who approved it, and what they could see at the time. Without that trail the loop cannot be audited and nobody can answer for the result.",
+  "An agent that can send, buy, delete, or deploy should stop at those steps and ask. Gate on the consequence rather than the model's confidence, and make each pause cheap to clear.",
+  "When volume outgrows review, move from in the loop to on the loop: sample the stream, watch the error rate, and pull the thread the moment it moves."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Scoping an automated feature",
+  "Autonomy is being decided",
+  "The action is trivially reversible",
+  "Irreversible actions",
+  "A mistake costs money or trust",
+  "Volume turns review into a formality",
+  "Classification at volume",
+  "Confidence scores are calibrated",
+  "Scores are uncalibrated guesses",
+  "Support and moderation queues",
+  "Cases arrive mid-flow",
+  "The reviewer already sees everything",
+  "Models that keep learning",
+  "Reviewers already fix output",
+  "Corrections cannot be attributed",
+  "Auditing a loop that looks healthy",
+  "Approval rates approach 100 percent",
+  "Sampling already catches the errors",
+  "Capacity planning",
+  "Volume grows faster than the team",
+  "Volume is small and steady",
+  "Regulated workflows",
+  "Decisions affect people",
+  "The action carries no consequence",
+  "Output review → step approval",
+  "Actions leave the product",
+  "Prompts so frequent they are dismissed",
+  "Every case → a sampled case",
+  "Throughput outruns reviewers",
+  "Rare failures a sample never sees"
+ ],
+ ".ai-divider h3": [
+  "Human-in-the-Loop in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Agents act in sequences, so the question moves from approving an output to approving a step, and from reviewing everything to choosing what may run unattended."
+ ]
+}

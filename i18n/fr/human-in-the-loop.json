@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Humain dans la <em>boucle</em>"
+ ],
+ "header .tagline": [
+  "Le système propose ; une <em>personne</em> décide."
+ ],
+ "header .subtitle": [
+  "Garder une personne au cœur d'une décision automatisée par conception, et non par hasard. Le modèle précise où se situe le jugement humain — valider chaque action, superviser un flux d'actions ou ne pas intervenir du tout — et ce que coûte chaque choix."
+ ],
+ ".law-origin .body-text": [
+  "L'expression vient de l'ingénierie du contrôle et de la simulation militaire, où man-in-the-loop désignait un système dont le fonctionnement dépend d'un opérateur humain : un missile guidé par une personne aux commandes, ou un simulateur de vol dont le réalisme tient au fait qu'un vrai pilote le pilote. Il n'existe aucun article fondateur. Le terme s'est répandu comme le nom d'une décision de conception plutôt que d'une découverte.",
+  "Thomas Sheridan et William Verplank ont donné une colonne vertébrale à cette idée dans un rapport du MIT de 1978, en classant l'automatisation sur dix niveaux, du calculateur qui n'apporte aucune aide à celui qui agit seul sans prévenir personne. L'apprentissage automatique a repris l'expression dans les années 2010 pour les processus d'annotation et de correction, et les systèmes génératifs en ont fait une question produit : quelles actions un modèle peut-il entreprendre de lui-même."
+ ],
+ ".law-content .law-desc": [
+  "Gardez une personne dans la boucle partout où une action est coûteuse à annuler, difficile à vérifier ou dont quelqu'un doit répondre. Le système propose, la personne décide, et le passage de relais entre les deux se conçoit au lieu de se supposer."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-thomas-sheridan\">Thomas Sheridan</a> et William Verplank (1978)",
+  "Niveaux d'automatisation, issus de l'ingénierie du contrôle",
+  "Filtrer selon la conséquence, pas selon la confiance"
+ ],
+ ".apply-list li": [
+  "Une fonctionnalité automatisée s'apprête à engager une dépense, à envoyer un message ou à faire quelque chose d'irréversible.",
+  "Une sortie du modèle part directement vers un client et personne n'a décidé qui la contrôle avant qu'elle arrive.",
+  "Les relecteurs valident presque tout ce que le système propose, et le contrôle est devenu une formalité sans que personne le remarque.",
+  "Inscrivez la posture dans la spécification : dans la boucle, sur la boucle ou hors de la boucle, avec la conséquence qui justifie ce choix.",
+  "Filtrez selon la conséquence plutôt que selon la confiance, pour que les étapes irréversibles s'arrêtent devant une personne même quand le modèle est certain.",
+  "Suivez le taux de validation et les secondes par revue, et quand les validations approchent les 100 %, passez à l'échantillonnage et mesurez directement les erreurs."
+ ],
+ ".card .tag": [
+  "Postures",
+  "Validation",
+  "Aiguillage",
+  "Passage de relais",
+  "Apprentissage",
+  "Mode d'échec",
+  "Coût",
+  "Responsabilité",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Dans, sur ou hors de la boucle",
+  "Proposer, puis valider",
+  "Seuils de confiance",
+  "Escalade avec le contexte",
+  "Les corrections comme données d'entraînement",
+  "Le tampon automatique",
+  "La revue ne passe pas à l'échelle",
+  "Quelqu'un répond du résultat",
+  "Points de validation pour les agents",
+  "Superviser par échantillonnage"
+ ],
+ ".card .desc": [
+  "Trois postures : une personne valide chaque action, supervise un flux d'actions ou n'intervient pas du tout. Celle que retient une fonctionnalité est une décision à consigner, pas une propriété du modèle.",
+  "Le modèle rédige, une personne valide. Le brouillon fait gagner le travail ; la validation maintient la responsabilité chez quelqu'un à qui l'on peut demander pourquoi l'action a été menée.",
+  "Laissez passer directement les cas sûrs et orientez les autres vers une personne. Le seuil est une décision produit calibrée sur le coût d'une mauvaise réponse, pas un réglage de modèle laissé par défaut.",
+  "Quand le système confie un cas à une personne, il doit aussi transmettre le contexte : ce qu'il a tenté, ce dont il doute et ce qui se passe si personne n'intervient.",
+  "Chaque correction apportée par un relecteur est un exemple annoté. Recueillez-la volontairement, avec sa raison, sinon la boucle n'apprend rien au système et le même cas revient la semaine suivante.",
+  "Un relecteur qui valide neuf cents suggestions correctes validera la suivante sans la lire. Une revue qui ne détecte jamais rien a cessé d'être une revue.",
+  "Une personne dans chaque boucle fixe le plafond du débit. Mesurez les secondes par revue et la profondeur de la file avant de promettre un contrôle humain sur tout.",
+  "Consignez ce que le système a proposé, qui l'a validé et ce que cette personne pouvait voir à ce moment-là. Sans cette trace, la boucle n'est pas auditable et personne ne peut répondre du résultat.",
+  "Un agent capable d'envoyer, d'acheter, de supprimer ou de déployer doit s'arrêter à ces étapes et demander. Filtrez selon la conséquence plutôt que selon la confiance du modèle, et rendez chaque pause rapide à lever.",
+  "Quand le volume dépasse la capacité de revue, passez de dans la boucle à sur la boucle : échantillonnez le flux, surveillez le taux d'erreur et tirez le fil dès qu'il bouge."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Cadrer une fonctionnalité automatisée",
+  "Le degré d'autonomie est en jeu",
+  "L'action s'annule sans effort",
+  "Actions irréversibles",
+  "Une erreur coûte de l'argent ou la confiance",
+  "Le volume réduit la revue à une formalité",
+  "Classification à grande échelle",
+  "Les scores de confiance sont calibrés",
+  "Les scores ne sont que des estimations non calibrées",
+  "Files d'attente du support et de la modération",
+  "Les cas arrivent en cours de parcours",
+  "La personne qui relit voit déjà tout",
+  "Modèles qui continuent d'apprendre",
+  "Les relecteurs corrigent déjà les sorties",
+  "Les corrections ne peuvent pas être attribuées",
+  "Auditer une boucle qui semble saine",
+  "Les taux de validation approchent les 100 %",
+  "L'échantillonnage détecte déjà les erreurs",
+  "Planification des capacités",
+  "Le volume croît plus vite que l'équipe",
+  "Le volume est faible et régulier",
+  "Processus réglementés",
+  "Les décisions touchent des personnes",
+  "L'action est sans conséquence",
+  "Revue de la sortie → validation de l'étape",
+  "Les actions sortent du produit",
+  "Des demandes si fréquentes qu'on les balaie",
+  "Chaque cas → un cas échantillonné",
+  "Le débit dépasse les relecteurs",
+  "Des défaillances rares qu'un échantillon ne voit jamais"
+ ],
+ ".ai-divider h3": [
+  "L'humain dans la boucle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les agents agissent par enchaînements : la question passe de valider une sortie à valider une étape, et de tout relire à choisir ce qui peut s'exécuter sans surveillance."
+ ]
+}

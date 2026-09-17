@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 49 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 50 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -13,6 +13,7 @@
   "+ AI era",
   "+ AI era",
   "+ AI era",
+  "3 postures",
   "10 applications",
   "6 tunnels",
   "Bar, 2006",
@@ -64,6 +65,7 @@
   "Goodhart’s Law",
   "Hofstadter’s Law",
   "Pareto Principle",
+  "Human-in-the-Loop",
   "Fitts’s Law",
   "Steering Law",
   "Contour Bias",
@@ -115,6 +117,7 @@
   "Targets stop measuring once they're targets.",
   "Everything takes longer than expected.",
   "Eighty percent comes from twenty percent.",
+  "Where human judgment sits in automation.",
   "Big, close targets are faster.",
   "Narrow paths slow the pointer.",
   "Rounded feels safe; sharp reads urgent.",
