@@ -564,8 +564,16 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
       .observe(document.documentElement, { childList: true, subtree: true });
   })();
   window.uxLangUrl = code => {
-    const en = document.documentElement.getAttribute('data-page') || 'index';
+    // Work from the file name, not data-page: the two differ on most pages
+    // (power-law-of-practice.html is data-page="power-law"), and the slug map
+    // and the URL are both keyed by the file name.
     const hash = location.hash || '';
+    let en = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
+    const here = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    if (here) {   // already on a language path: map the localized slug back to English
+      const M = (window.UX_SLUGS && window.UX_SLUGS[here[1]]) || {};
+      for (const k in M) { if (M[k] === en) { en = k; break; } }
+    }
     if (code === 'en') return (en === 'index' ? '/index.html' : '/' + en + '.html') + hash;
     const S = (window.UX_SLUGS && window.UX_SLUGS[code]) || {};
     return (en === 'index' ? '/' + code + '/' : '/' + code + '/' + (S[en] || en) + '.html') + hash;

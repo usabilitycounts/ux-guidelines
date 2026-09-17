@@ -5,21 +5,21 @@
   <link>https://www.ux-guidelines.com/</link>
   <description>Research-backed laws, heuristics, and patterns of interface design, each explained with its origin, practice guidance, and what changes in the age of AI.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 17 Sep 2026 03:06:30 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 17 Sep 2026 05:23:08 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/feed.xml" rel="self" type="application/rss+xml"/>
-  <item>
-    <title>Stroop Effect: When a Label and Its Color Disagree on Screen</title>
-    <link>https://www.ux-guidelines.com/stroop-effect.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/stroop-effect.html</guid>
-    <pubDate>Thu, 17 Sep 2026 03:06:30 +0000</pubDate>
-    <description>Reading is automatic; naming a color is not. When a label and its color carry different meanings — a green Delete button, a red success badge — the two readings collide and the person slows down, hesitates, and misclicks more often.</description>
-  </item>
   <item>
     <title>Out-of-the-Loop Performance Problem: When Monitoring Erodes Skill</title>
     <link>https://www.ux-guidelines.com/out-of-the-loop-problem.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/out-of-the-loop-problem.html</guid>
-    <pubDate>Thu, 17 Sep 2026 03:06:30 +0000</pubDate>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
     <description>The out-of-the-loop performance problem: monitoring automation erodes the very skills needed to take over when it fails. The longer the system runs well, the less practice the person watching it gets — and the handover always arrives at the hardest moment.</description>
+  </item>
+  <item>
+    <title>Stroop Effect: When a Label and Its Color Disagree on Screen</title>
+    <link>https://www.ux-guidelines.com/stroop-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/stroop-effect.html</guid>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
+    <description>Reading is automatic; naming a color is not. When a label and its color carry different meanings — a green Delete button, a red success badge — the two readings collide and the person slows down, hesitates, and misclicks more often.</description>
   </item>
   <item>
     <title>Human-in-the-Loop: Where Human Judgment Sits in Automated Systems</title>
