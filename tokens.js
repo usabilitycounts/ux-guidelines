@@ -22,41 +22,44 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   scroller.focus({ preventScroll: true });
 })();
 
-// Arrow keys navigate prev/next page (menu order)
+// Arrow keys step through the reference pages in hamburger-menu order.
+// The order is read from UX_MENU_TYPES so it cannot drift from the menu itself,
+// and the current page comes from the file name rather than data-page: the two
+// differ on most pages (power-law-of-practice.html is data-page="power-law"),
+// which used to leave the arrows dead everywhere they disagreed.
 (() => {
-  const PAGES = [
-    'index.html', 'eye-scanning-patterns.html', 'gutenberg-principle.html',
-    'data-visualization.html', 'gestalt-principles.html', 'grid-and-hierarchy.html',
-    'navigation-patterns.html', 'progressive-disclosure.html', 'universal-icons.html',
-    'chestertons-fence.html', 'nielsens-heuristics.html', 'normans-principles.html',
-    'rams-principles.html', 'shneiderman-eight-golden-rules.html',
-    'tognazzinis-first-principles.html', 'wcag-pour.html',
-    'aesthetic-usability-effect.html', 'cognitive-load-theory.html', 'contour-bias.html', 'conways-law.html',
-    'curse-of-knowledge.html', 'doherty-threshold.html', 'fitts-law.html',
-    'fogg-behavior-model.html', 'galls-law.html', 'goodharts-law.html', 'hicks-law.html',
-    'hofstadters-law.html', 'hook-model.html', 'ikea-effect.html', 'jakobs-law.html', 'millers-law.html',
-    'paradox-of-choice.html', 'automation-bias.html', 'pareto-principle.html', 'peak-end-rule.html',
-    'postels-law.html', 'power-law-of-practice.html', 'serial-position-effect.html',
-    'steering-law.html', 'teslers-law.html', 'uncanny-valley.html', 'von-restorff-effect.html',
-    'weber-fechner-law.html', 'yerkes-dodson-law.html', 'zeigarnik-effect.html'
-  ];
-  const current = (document.documentElement.getAttribute('data-page') || 'index') + '.html';
-  const i = PAGES.indexOf(current);
-  if (i === -1) return;
+  const order = () => ['index'].concat((window.UX_MENU_TYPES || []).flatMap(g => g.slugs));
+  const currentSlug = () => {
+    let en = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
+    const here = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    if (here) {   // on a language path: map the localized slug back to English
+      const M = (window.UX_SLUGS && window.UX_SLUGS[here[1]]) || {};
+      for (const k in M) { if (M[k] === en) { en = k; break; } }
+    }
+    return en;
+  };
+  // Never steal the arrow keys from an open panel, sheet or menu.
+  const busy = () => !!document.querySelector(
+    '.menu-panel.open, .search-sheet.open, .settings-sheet.open, .bm-sheet.open, .share-menu.open');
   document.addEventListener('keydown', e => {
+    if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
     if (e.metaKey || e.ctrlKey || e.altKey || e.shiftKey) return;
     const t = e.target;
-    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
-    const go = h => (window.uxLocalHref ? window.uxLocalHref(h) : h);
-    if (e.key === 'ArrowRight') location.href = go(PAGES[(i + 1) % PAGES.length]);
-    else if (e.key === 'ArrowLeft') location.href = go(PAGES[(i - 1 + PAGES.length) % PAGES.length]);
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
+    if (busy()) return;
+    const P = order(), i = P.indexOf(currentSlug());
+    if (i === -1) return;
+    const slug = P[(i + (e.key === 'ArrowRight' ? 1 : -1) + P.length) % P.length];
+    const href = slug === 'index' ? 'index.html' : slug + '.html';
+    e.preventDefault();
+    location.href = window.uxLocalHref ? window.uxLocalHref(href) : href;
   });
 })();
 
 (() => {
   const hamburger = document.querySelector('.hamburger');
   const overlay = document.getElementById('menu-overlay');
-  const MENU_TYPES = [{"label": "Every Page", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "wcag-pour"]}, {"label": "Chat", "slugs": ["automation-bias", "doherty-threshold", "human-in-the-loop", "out-of-the-loop-problem", "postels-law", "teslers-law", "uncanny-valley"]}, {"label": "Dashboards", "slugs": ["data-visualization", "goodharts-law", "yerkes-dodson-law"]}, {"label": "Detail Pages", "slugs": ["canons-of-page-construction", "gestalt-principles", "progressive-disclosure", "weber-fechner-law"]}, {"label": "Flows", "slugs": ["fogg-behavior-model", "hook-model", "ikea-effect", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"]}, {"label": "Forms", "slugs": ["cognitive-load-theory", "curse-of-knowledge", "millers-law", "stroop-effect"]}, {"label": "Landing Pages", "slugs": ["aesthetic-usability-effect", "contour-bias", "eye-scanning-patterns", "golden-ratio", "gutenberg-principle", "jakobs-law", "rule-of-odds", "rule-of-thirds", "von-restorff-effect"]}, {"label": "Navigation", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "steering-law", "universal-icons"]}, {"label": "Tables", "slugs": ["grid-and-hierarchy", "pareto-principle", "serial-position-effect"]}];
+  const MENU_TYPES = window.UX_MENU_TYPES = [{"label": "Every Page", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "wcag-pour"]}, {"label": "Chat", "slugs": ["automation-bias", "doherty-threshold", "human-in-the-loop", "out-of-the-loop-problem", "postels-law", "teslers-law", "uncanny-valley"]}, {"label": "Dashboards", "slugs": ["data-visualization", "goodharts-law", "yerkes-dodson-law"]}, {"label": "Detail Pages", "slugs": ["canons-of-page-construction", "gestalt-principles", "progressive-disclosure", "weber-fechner-law"]}, {"label": "Flows", "slugs": ["fogg-behavior-model", "hook-model", "ikea-effect", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"]}, {"label": "Forms", "slugs": ["cognitive-load-theory", "curse-of-knowledge", "millers-law", "stroop-effect"]}, {"label": "Landing Pages", "slugs": ["aesthetic-usability-effect", "contour-bias", "eye-scanning-patterns", "golden-ratio", "gutenberg-principle", "jakobs-law", "rule-of-odds", "rule-of-thirds", "von-restorff-effect"]}, {"label": "Navigation", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "steering-law", "universal-icons"]}, {"label": "Tables", "slugs": ["grid-and-hierarchy", "pareto-principle", "serial-position-effect"]}];
   const panel = document.getElementById('menu-panel');
   const closeBtn = document.querySelector('.menu-close');
   if (!hamburger || !overlay || !panel || !closeBtn) return;

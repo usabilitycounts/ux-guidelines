@@ -603,16 +603,19 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 
 /* Page header gradient (matches extendchrome.com hero treatment) */
 header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%); }
-/* Hero portrait: pinned to the left edge of the header, level with the title.
-   row-reverse puts the image first visually while the title stays first in the
-   document, so reading order and the mobile stack still lead with the title. */
-header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items: center; gap: 48px; }
+/* Hero portrait: pinned to the right edge of the header, level with the title.
+   The title comes first in the document and the text block takes the free space,
+   pushing the image to the right; the mobile stack still leads with the title. */
+header:has(.hero-img) { display: flex; align-items: center; gap: 48px; }
 .hero-text { flex: 1 1 auto; min-width: 0; }
 .hero-text .subtitle { max-width: none; }
-.hero-img { flex: none; height: 320px; width: auto; max-width: 40%; border-radius: 14px; object-fit: cover; display: block; }
+/* Flush with the top of the header, which begins directly below the topnav:
+   align-self plus a negative margin pull the image up through the header's 60px
+   of top padding, and the two corners that now meet that edge are squared off. */
+.hero-img { flex: none; align-self: flex-start; margin-top: -60px; height: 320px; width: auto; max-width: 40%; border-radius: 0 0 14px 14px; object-fit: cover; display: block; }
 @media (max-width: 900px) {
   header:has(.hero-img) { flex-direction: column; align-items: flex-start; gap: 24px; }
-  .hero-img { height: 200px; max-width: 100%; }
+  .hero-img { height: 200px; max-width: 100%; align-self: auto; margin-top: 0; border-radius: 14px; }
 }
 
 @media (max-width: 600px) { .footer-social { margin-left: 0; } }
