@@ -386,13 +386,13 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .law-feature .law-desc { font-size: var(--fs-body); line-height: var(--lh-tight); color: var(--text-primary); margin-bottom: 28px; max-width: 50%; }
 .law-feature .law-meta { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
 .law-feature .law-meta .label { font-size: 0.8125rem; color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
-.law-feature .law-meta .value { font-size: var(--fs-ui); color: var(--text-primary); line-height: var(--lh-base); }
+.law-feature .law-meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
 .card-header .tag { margin-bottom: 2px; }
 /* Card titles are h3 elements (page h1 > section h2 > card h3) */
 .card h3, .card h2 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-heading); }
 .demo>svg { flex:1 1 auto;min-height:0;width:100%;height:100%;display:block;overflow:visible }
 .meta .label { font-size: 0.8125rem; color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
-.meta .value { font-size: var(--fs-body); color: var(--text-primary); line-height: var(--lh-base); }
+.meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
 .tag { display: inline-block; font-size: var(--fs-tag); padding: 4px 10px; border-radius: 3px; font-weight: 500; background: var(--skel-fill-tag); color: var(--text-secondary); }
 .card .tag.ai-tag { background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
 .fi { opacity: 0; animation: fade-in .6s ease forwards; }
@@ -409,6 +409,13 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 /* ---------- Header ---------- */
 /* ---------- Meta ---------- */
 .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 24px; padding-top: 0; }
+/* One column on a phone for both meta grids. This has to sit after the two
+   rules above, not in the earlier mobile block: the selectors tie on
+   specificity, so whichever comes last in the file wins. */
+@media (max-width: 600px) {
+  .meta { grid-template-columns: 1fr; gap: 18px; }
+  .law-feature .law-meta { grid-template-columns: 1fr; gap: 18px; }
+}
 .ref-list .source { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; white-space: nowrap; display: none; }
 .demo svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .law-feature .formula-box .formula .var { font-weight: 600; }
@@ -435,12 +442,12 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 /* One label style everywhere (meta labels, eyebrows, ref sources, demo labels) */
 .label,
 .eyeline, 
-/* One value style */
+/* One value style, matching body copy: same size, same colour, same leading */
 .value,
 .meta .value, .meta-cell .value, .law-feature .law-meta .value {
   font-size: var(--fs-body);
-  color: var(--text-primary);
-  line-height: var(--lh-base);
+  color: var(--text-secondary);
+  line-height: var(--lh-body);
 }
 
 /* One body-copy style */
