@@ -115,6 +115,7 @@ h1, h2, .card h3 { letter-spacing: -1px; }
 .card {
   background: var(--bg);
   border: 1px solid var(--border);
+  border-radius: 8px;
   padding: 36px 32px 32px;
   display: grid;
   grid-template-rows: subgrid;

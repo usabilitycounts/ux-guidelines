@@ -11,6 +11,7 @@ import glob
 import json
 import os
 import re
+from urllib.parse import unquote
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -65,7 +66,8 @@ def hero_for(page_html, site):
     m = re.search(r'<img class="hero-img"[^>]*src="([^"]+)"', page_html)
     if not m:
         return None
-    path = os.path.join(site, m.group(1))
+    # the src is percent-encoded in the HTML; the file on disk is not
+    path = os.path.join(site, unquote(m.group(1)))
     return path if os.path.exists(path) else None
 
 
