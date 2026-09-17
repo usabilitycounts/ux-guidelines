@@ -603,8 +603,10 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 
 /* Page header gradient (matches extendchrome.com hero treatment) */
 header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%); }
-/* Hero portrait: pinned to the right edge of the header, level with the title */
-header:has(.hero-img) { display: flex; align-items: center; justify-content: space-between; gap: 48px; }
+/* Hero portrait: pinned to the left edge of the header, level with the title.
+   row-reverse puts the image first visually while the title stays first in the
+   document, so reading order and the mobile stack still lead with the title. */
+header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items: center; gap: 48px; }
 .hero-text { flex: 1 1 auto; min-width: 0; }
 .hero-text .subtitle { max-width: none; }
 .hero-img { flex: none; height: 320px; width: auto; max-width: 40%; border-radius: 14px; object-fit: cover; display: block; }
