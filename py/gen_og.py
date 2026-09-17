@@ -3,7 +3,8 @@
 
 Title comes from the page h1 (translated via the TITLES table in i18n.js);
 beneath it sits the page's subtitle (translated via the language overlays),
-left-aligned, up to three lines.
+left-aligned, up to three lines. Pages that carry a hero portrait show it
+full-bleed down the right edge, which narrows the text column.
 Latin languages use Helvetica Neue; ja/zh use Hiragino Sans GB.
 """
 import glob
@@ -18,6 +19,8 @@ LANGS = ['en', 'fr', 'de', 'es', 'ja', 'zh']
 LANG_IDX = {'fr': 0, 'de': 1, 'es': 2, 'ja': 3, 'zh': 4}
 W, H = 1200, 630
 INK, GREY, ACCENT = (17, 17, 17), (107, 107, 107), (56, 189, 248)
+IMG_W = 420          # width of the portrait panel on the right
+IMG_GAP = 44         # clear space between the text column and that panel
 
 
 def latin_font(size, weight):
@@ -45,6 +48,25 @@ def cjk_font(size, weight):
 
 def font_for(lang, size, weight):
     return cjk_font(size, weight) if lang in ('ja', 'zh') else latin_font(size, weight)
+
+
+def cover(src, w, h):
+    """Scale and centre-crop an image to exactly w x h, like CSS object-fit: cover."""
+    im = Image.open(src).convert('RGB')
+    scale = max(w / im.width, h / im.height)
+    im = im.resize((max(w, round(im.width * scale)), max(h, round(im.height * scale))), Image.LANCZOS)
+    left, top = (im.width - w) // 2, (im.height - h) // 2
+    return im.crop((left, top, left + w, top + h))
+
+
+def hero_for(page_html, site):
+    """Path to the page's hero portrait, or None. Matched on the real file name
+    so a mis-cased or misspelled image in images/ still resolves."""
+    m = re.search(r'<img class="hero-img"[^>]*src="([^"]+)"', page_html)
+    if not m:
+        return None
+    path = os.path.join(site, m.group(1))
+    return path if os.path.exists(path) else None
 
 
 def strip(html):
@@ -80,21 +102,24 @@ def titles_table():
     return table
 
 
-def render(path, lang, title, desc):
-    """Left-aligned card: brand, title, and the page's description right under it."""
+def render(path, lang, title, desc, hero=None):
+    """Left-aligned card: brand, title, and the page's description right under it,
+    with the page's hero portrait down the right edge when it has one."""
     img = Image.new('RGB', (W, H), '#ffffff')
     d = ImageDraw.Draw(img)
+    grad_w = W - IMG_W if hero else W
     for y in range(0, 130):
         t = y / 130
-        d.line([(0, y), (W, y)],
+        d.line([(0, y), (grad_w, y)],
                fill=(int(0xec + 0x13 * t), int(0xee + 0x11 * t), int(0xf1 + 0x0e * t)))
-    PAD, MAXW = 80, 1040
+    PAD = 80
+    MAXW = (W - IMG_W - IMG_GAP - PAD) if hero else 1040
     bf = latin_font(28, 'bold')
     d.text((PAD, 54), 'UX Guidelines', fill=GREY, font=bf)
 
     cjk = lang in ('ja', 'zh')
-    size = 84
-    while size > 48:
+    size = 84 if not hero else 72   # the narrower column needs a smaller start
+    while size > 44:
         fnt = font_for(lang, size, 'bold')
         if len(wrap(d, title, fnt, MAXW, cjk)) <= 2:
             break
@@ -124,7 +149,12 @@ def render(path, lang, title, desc):
     d.rounded_rectangle([PAD, H - 62, PAD + 88, H - 50], 6, fill=ACCENT)
     uf = latin_font(24, 'regular')
     uw = d.textlength('ux-guidelines.com', font=uf)
-    d.text((W - PAD - uw, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
+    if hero:
+        # the right edge belongs to the portrait, so the URL sits beside the rule
+        d.text((PAD + 88 + 20, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
+        img.paste(cover(hero, IMG_W, H), (W - IMG_W, 0))
+    else:
+        d.text((W - PAD - uw, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
     img.save(path, optimize=True)
 
 
@@ -144,6 +174,7 @@ def main():
         meta_m = re.search(r'<meta name="description" content="([^"]*)"', s)
         # the longer description: subtitle first, then the tagline, then the meta description
         en_tag = strip(sub_m.group(1)) if sub_m else (strip(tag_m.group(1)) if tag_m else (meta_m.group(1) if meta_m else ''))
+        hero = hero_for(s, SITE)
         for lang in LANGS:
             title, tagline = h1, en_tag
             if lang != 'en':
@@ -158,7 +189,7 @@ def main():
                         tagline = strip(src[0])
                 if title == h1 and lang != 'en' and base == 'index':
                     pass  # home keeps the brand title
-            render(f'{SITE}/og/{lang}/{base}.png', lang, title, tagline)
+            render(f'{SITE}/og/{lang}/{base}.png', lang, title, tagline, hero)
             count += 1
     print(f'generated {count} og images')
 
