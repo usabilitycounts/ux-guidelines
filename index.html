@@ -92,6 +92,8 @@
   .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; padding-bottom: 14px; margin-bottom: 8px; }
   .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
   .section-pill:hover { background: var(--ink); color: var(--text-inverse); }
+  /* the section you are currently reading */
+  .section-pill.current { background: var(--ink); color: var(--text-inverse); }
   .home-main .section { scroll-margin-top: 76px; }
 
   @media (max-width: 980px) {
@@ -1035,8 +1037,11 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   tabsEl.parentNode.insertBefore(stickyBar, tabsEl);
   stickyBar.appendChild(tabsEl);
   stickyBar.appendChild(pillWrap);
+  // Pills double as a position indicator, so keep a handle on each one.
+  var pills = [];
   function buildPills(v) {
     pillWrap.innerHTML = '';
+    pills = [];
     var secs = v === 'type'
       ? Array.prototype.slice.call(typeWrap.children)
       : taskSections;
@@ -1053,8 +1058,52 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
         sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
       pillWrap.appendChild(a);
+      pills.push({ a: a, sec: sec });
     });
+    markCurrent();
   }
+
+  // Which section is being read: the last one whose top has passed under the
+  // sticky pill row. At the very bottom the last section wins outright, since a
+  // short final section may never reach that line.
+  function markCurrent() {
+    if (!pills.length) return;
+    var line = stickyBar.getBoundingClientRect().bottom + 8;
+    var sc = window.uxScroller || document.documentElement;
+    var idx = 0;
+    for (var i = 0; i < pills.length; i++) {
+      if (pills[i].sec.getBoundingClientRect().top <= line) idx = i;
+    }
+    if (sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 4) idx = pills.length - 1;
+    pills.forEach(function (p, i) {
+      var on = i === idx;
+      p.a.classList.toggle('current', on);
+      if (on) p.a.setAttribute('aria-current', 'true');
+      else p.a.removeAttribute('aria-current');
+    });
+    // On a phone the row scrolls sideways, so keep the marked pill in view.
+    var cur = pills[idx].a;
+    if (pillWrap.scrollWidth > pillWrap.clientWidth + 1) {
+      var pr = cur.getBoundingClientRect(), wr = pillWrap.getBoundingClientRect();
+      if (pr.left < wr.left || pr.right > wr.right) {
+        pillWrap.scrollTo({ left: cur.offsetLeft - (pillWrap.clientWidth - cur.offsetWidth) / 2, behavior: 'smooth' });
+      }
+    }
+  }
+  var spying = false;
+  function onSpyScroll() {
+    if (spying) return;
+    spying = true;
+    requestAnimationFrame(function () { spying = false; markCurrent(); });
+  }
+  window.addEventListener('scroll', onSpyScroll, { passive: true });
+  window.addEventListener('resize', markCurrent);
+  // tokens.js is deferred, so the custom scroller does not exist yet while this
+  // inline script runs. Bind to it once it does, or the spy never hears a thing.
+  window.addEventListener('load', function () {
+    if (window.uxScroller) window.uxScroller.addEventListener('scroll', onSpyScroll, { passive: true });
+    markCurrent();
+  });
   function setView(v) {
     var byType = v === 'type';
     if (byType) build();
