@@ -797,7 +797,11 @@ header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items:
 @media (prefers-reduced-motion: reduce) { .search-sheet .menu-group { animation: none; } }
 /* A result stacks: the name, then its detail beneath */
 .ta-item { display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 2px 10px; padding: 7px 14px; margin: 1px 0; border-radius: 8px; color: var(--text-primary); text-decoration: none; transition: background 0.15s ease; }
-.ta-item:hover, .ta-item.active { background: var(--demo-bg); }
+.ta-item:hover { background: var(--demo-bg); }
+/* The keyboard highlight has to be readable at a glance and distinct from a
+   passing hover, since it is the only thing telling you where Enter will go. */
+.ta-item.active { background: var(--demo-bg); box-shadow: inset 0 0 0 2px var(--ink); }
+.ta-item.active .ta-item-name { font-weight: 600; }
 .ta-item-name { font-size: var(--fs-body); font-weight: 400; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .ta-item-desc { flex: 0 0 100%; font-size: var(--fs-caption); color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-align: left; }
 .ta-no-results { grid-column: 1 / -1; padding: 6px 14px; font-size: var(--fs-body); color: var(--text-secondary); }

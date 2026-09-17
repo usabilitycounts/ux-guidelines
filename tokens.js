@@ -863,11 +863,23 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
 
   // ---- Rendering: the navigation panel's shell ----
   const items = () => Array.from(sheet.querySelectorAll('.ta-item'));
+  // The highlight moves while focus stays in the input, so the only way a screen
+  // reader learns which result is current is aria-activedescendant plus
+  // aria-selected. Passing -1 clears the highlight and hands the input back.
   const highlight = i => {
     const list = items();
-    list.forEach((el, n) => el.classList.toggle('active', n === i));
+    list.forEach((el, n) => {
+      const on = n === i;
+      el.classList.toggle('active', on);
+      el.setAttribute('aria-selected', String(on));
+    });
     active = i;
-    if (list[i]) list[i].scrollIntoView({ block: 'nearest' });
+    if (i >= 0 && list[i]) {
+      input.setAttribute('aria-activedescendant', list[i].id);
+      list[i].scrollIntoView({ block: 'nearest' });
+    } else {
+      input.removeAttribute('aria-activedescendant');
+    }
   };
   const shell = (title, body) =>
     '<div class="sheet-head"><h2 class="sheet-title">' + title + '</h2>' +
@@ -876,11 +888,13 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const group = (label, rows) => rows.length
     ? '<details class="menu-group" open><summary class="menu-group-label"><h3>' + esc(label) + '</h3></summary><div class="menu-group-body">' + rows.join('') + '</div></details>'
     : '';
+  let optId = 0;
   const item = (href, name, desc) =>
-    '<a class="ta-item" role="option" href="' + esc(local(href)) + '"><span class="ta-item-name">' + esc(name) + '</span>' +
+    '<a class="ta-item" role="option" id="ta-opt-' + (optId++) + '" aria-selected="false" href="' + esc(local(href)) + '"><span class="ta-item-name">' + esc(name) + '</span>' +
     (desc ? '<span class="ta-item-desc">' + esc(desc) + '</span>' : '') + '</a>';
 
   const renderRecent = () => {
+    highlight(-1);   // a rebuilt list starts with nothing chosen
     const page = ((document.documentElement.getAttribute('data-page') || 'index') + '.html');
     let recent = [], marks = [];
     try { recent = JSON.parse(localStorage.getItem('ux-recent') || '[]'); } catch (e) {}
@@ -895,6 +909,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   };
   const render = q => {
     syncClear();
+    highlight(-1);   // a rebuilt list starts with nothing chosen
     const fq = flat(q), words = terms(q);
     if (!words.length) { renderRecent(); return; }
     if (!index) { load().then(() => { if (flat(input.value) === fq) render(input.value); }); return; }
@@ -935,7 +950,14 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
       highlight(Math.min(active + 1, items().length - 1));
     } else if (e.key === 'ArrowUp') {
       e.preventDefault();
-      highlight(Math.max(active - 1, 0));
+      // stepping up off the first result hands the caret back to the query
+      highlight(active <= 0 ? -1 : active - 1);
+    } else if (e.key === 'Home' && isOpen && items().length) {
+      e.preventDefault();
+      highlight(0);
+    } else if (e.key === 'End' && isOpen && items().length) {
+      e.preventDefault();
+      highlight(items().length - 1);
     } else if (e.key === 'Enter') {
       e.preventDefault();
       const list = items();
