@@ -103,19 +103,20 @@ def titles_table():
 
 
 def render(path, lang, title, desc, hero=None):
-    """Left-aligned card: brand, title, and the page's description right under it,
-    with the page's hero portrait down the right edge when it has one."""
+    """Card with the brand, the title, and the page's description right under it.
+    A page with a hero portrait puts it full-bleed down the LEFT edge and shifts
+    the whole text column to its right; without one the text starts at the margin."""
     img = Image.new('RGB', (W, H), '#ffffff')
     d = ImageDraw.Draw(img)
-    grad_w = W - IMG_W if hero else W
-    for y in range(0, 130):
-        t = y / 130
-        d.line([(0, y), (grad_w, y)],
-               fill=(int(0xec + 0x13 * t), int(0xee + 0x11 * t), int(0xf1 + 0x0e * t)))
     PAD = 80
-    MAXW = (W - IMG_W - IMG_GAP - PAD) if hero else 1040
+    TX = (IMG_W + IMG_GAP) if hero else PAD   # left edge of the text column
+    MAXW = W - TX - PAD
+    for y in range(0, 130):                   # the header wash starts after the portrait
+        t = y / 130
+        d.line([(IMG_W if hero else 0, y), (W, y)],
+               fill=(int(0xec + 0x13 * t), int(0xee + 0x11 * t), int(0xf1 + 0x0e * t)))
     bf = latin_font(28, 'bold')
-    d.text((PAD, 54), 'UX Guidelines', fill=GREY, font=bf)
+    d.text((TX, 54), 'UX Guidelines', fill=GREY, font=bf)
 
     cjk = lang in ('ja', 'zh')
     size = 84 if not hero else 72   # the narrower column needs a smaller start
@@ -129,7 +130,7 @@ def render(path, lang, title, desc, hero=None):
     lh = int(size * 1.12)
     y = 178 if len(lines) == 1 else 152  # two-line titles start higher so the description clears the footer
     for ln in lines:
-        d.text((PAD, y), ln, fill=INK, font=fnt)
+        d.text((TX, y), ln, fill=INK, font=fnt)
         y += lh
 
     if desc:
@@ -143,18 +144,15 @@ def render(path, lang, title, desc, hero=None):
             dlines[2] = last.rstrip(' ,;:—-') + '…'
         y += 26
         for ln in dlines:
-            d.text((PAD, y), ln, fill=GREY, font=df)
+            d.text((TX, y), ln, fill=GREY, font=df)
             y += 46
 
-    d.rounded_rectangle([PAD, H - 62, PAD + 88, H - 50], 6, fill=ACCENT)
+    d.rounded_rectangle([TX, H - 62, TX + 88, H - 50], 6, fill=ACCENT)
     uf = latin_font(24, 'regular')
     uw = d.textlength('ux-guidelines.com', font=uf)
+    d.text((W - PAD - uw, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
     if hero:
-        # the right edge belongs to the portrait, so the URL sits beside the rule
-        d.text((PAD + 88 + 20, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
-        img.paste(cover(hero, IMG_W, H), (W - IMG_W, 0))
-    else:
-        d.text((W - PAD - uw, H - 72), 'ux-guidelines.com', fill=GREY, font=uf)
+        img.paste(cover(hero, IMG_W, H), (0, 0))
     img.save(path, optimize=True)
 
 
