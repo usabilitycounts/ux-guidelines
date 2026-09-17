@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "La anticipación y la reducción de latencia — dos de los principios más antiguos de Tog — son exactamente las palancas que un modelo te da, y exactamente las que amenaza con romper."
+ ],
+ ".apply-list li": [
+  "Un flujo pierde el documento, el filtro y la posición de scroll cada vez que alguien vuelve al día siguiente.",
+  "Una respuesta de IA tarda cuatro segundos y la pantalla calla mientras la gente sospecha que se rompió.",
+  "Usuarios avanzados repiten la misma tarea cien veces al día en una interfaz pensada para un elemento.",
+  "Audita un flujo contra los diecinueve principios, empezando por proteger el trabajo: autoguardado, historial y recuperación.",
+  "Añade acciones masivas, atajos de teclado y elementos recientes, y luego cronometra la tarea repetida cien veces.",
+  "Transmite la respuesta en streaming o muestra un esqueleto para que nada permanezca mudo más de un segundo."
  ]
 }

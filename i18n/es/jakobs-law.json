@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "La IA está reescribiendo las convenciones que los usuarios llevan consigo. El punto de referencia está pasando de \"todos los sitios web\" a \"todas las herramientas de IA\"."
+ ],
+ ".apply-list li": [
+  "Un diseñador propone un selector de fechas propio o una barra de desplazamiento novedosa, y hay que calcular el coste de reaprendizaje.",
+  "Estás colocando el carrito, el buscador y el logo en una plantilla de comercio nueva, y alguien quiere un diseño distintivo.",
+  "Tu equipo añade su primera función de IA y debe decidir si adopta el lenguaje de chat que los usuarios ya conocen.",
+  "Reutiliza controles nativos y patrones establecidos por defecto, y reserva la invención para el único punto donde la ganancia supere el reaprendizaje.",
+  "Revisa cada ciclo la nueva base esperada: campo de prompt, salida en streaming, regenerar, fuentes citadas y deshacer para todo lo generado.",
+  "Deja que la personalización cambie el contenido mientras el marco global permanece fijo, para que todos conserven el mismo mapa."
  ]
 }

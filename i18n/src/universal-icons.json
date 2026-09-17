@@ -261,5 +261,13 @@
  ".cat-label": [
   "The Universal Set",
   "Designing with Icons"
+ ],
+ ".apply-list li": [
+  "You are cutting labels from a crowded toolbar and have to decide which glyphs can survive without any text.",
+  "A design review turns up three icon families mixed across the app after two acquisitions and a redesign.",
+  "The team is picking a glyph for share or favorite, where meaning splits across platforms and products.",
+  "Ship icon-only controls for search, close, and menu; label everything outside that small universal set.",
+  "Consolidate on one icon set and spec its weight, corner radius, and fill so recognition stays fast.",
+  "Reserve the bottom-right plus for a single creative action per screen, and keep the kebab for secondary ones."
  ]
 }

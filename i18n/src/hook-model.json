@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "Models can personalize every step of the loop in real time — for good and for ill."
+ ],
+ ".apply-list li": [
+  "You are reviewing a retention roadmap where every proposed feature adds notifications but none of them give the user anything to invest in.",
+  "A feature launched, got opened once per user, and never came back, so the team needs to find which of the four steps broke.",
+  "Leadership asks for daily active users to climb, and someone proposes a streak mechanic that users would resent in a calm moment.",
+  "Map the internal trigger first, naming the emotion that should bring the user back before designing any notification copy.",
+  "Cut the action to a single tap or one field so the effort stays below whatever motivation the trigger can supply.",
+  "Run the five-minute loop audit on a feature spec, checking trigger, action, variable reward, and investment, then fix the weakest step."
  ]
 }

@@ -133,5 +133,13 @@
  ],
  ".law-formula-note": [
   "das Verhältnis variiert; das Ungleichgewicht ist der Punkt."
+ ],
+ ".apply-list li": [
+  "Die Quartalsplanung beginnt mit neunzig Backlog-Einträgen, und jedes Team beteuert, ausgerechnet sein Thema sei das entscheidende.",
+  "Eine Seite lädt langsam, und das Engineering will alles neu schreiben, bevor jemand den tatsächlichen Hot Path profiliert hat.",
+  "Jemand schlägt vor, selten genutzte Funktionen zu streichen, ohne zu prüfen, ob Admins oder Assistenztechnik davon abhängen.",
+  "Sortieren Sie das Backlog nach Wirkung mal Zuversicht geteilt durch Aufwand und fragen Sie, ob die untere Hälfte entfallen kann.",
+  "Ordnen Sie Absturzprotokoll und Support-Queue vor der Triage nach Häufigkeit, damit die wenigen schmerzhaftesten Fehler zuerst auftauchen.",
+  "Segmentieren Sie die Nutzung danach, wer sie braucht, und markieren Sie Tragendes für Admins, Bereitschaft oder Assistenztechnik vor dem Streichen."
  ]
 }

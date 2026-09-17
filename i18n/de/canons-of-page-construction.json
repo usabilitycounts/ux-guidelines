@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generierte Dokumente und Antworten kommen als Text ohne Seite darum; die Kanons sind der Weg, wie ein Produkt diesem Text eine Seite gibt."
+ ],
+ ".apply-list li": [
+  "Ihr entwerft einen Langtext, ein Hilfecenter oder eine Release-Notes-Vorlage, die Menschen minutenlang lesen statt nur überfliegen.",
+  "Der Fließtext läuft auf einem breiten Monitor von Rand zu Rand, und Testpersonen finden den nächsten Zeilenanfang nicht zurück.",
+  "Euer Assistent liefert inzwischen Antworten, für die eine über das ganze Fenster gezogene Chatblase nicht mehr passt.",
+  "Begrenzt die Lesespalte auf 60 bis 70 Zeichen Grundschrift und lasst den Rest des Viewports als Rand stehen.",
+  "Gebt dem Textblock unten mehr Raum als oben, nach dem klassischen Verhältnis 2:3:4:6 von Bund-, Kopf-, Außen- und Fußsteg.",
+  "Drückt Ränder in Zeilenhöhen eurer Spacing-Tokens aus: zwei bis drei Zeilen über einer Überschrift, vier unter dem Block."
  ]
 }

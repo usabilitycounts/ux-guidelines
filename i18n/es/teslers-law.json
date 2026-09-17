@@ -112,5 +112,13 @@
  ],
  ".ai-divider p": [
   "La IA es el absorbedor de complejidad más potente hasta la fecha — y el lugar más tentador para esconder la complejidad que el usuario todavía necesita ver."
+ ],
+ ".apply-list li": [
+  "Un campo de texto vacío se construye rápido, pero cada usuario debe averiguar solo el formato aceptado.",
+  "Una iniciativa de simplificación propone ocultar pasos que la tarea necesita de verdad: fechas, asientos o tarifas.",
+  "Una función de IA resuelve una petición confusa de principio a fin y sus compromisos quedan invisibles.",
+  "Separa en la especificación la complejidad inherente de la fricción accidental, elimina la accidental y reparte el resto.",
+  "Traslada el trabajo al sistema con valores por defecto, autocompletado y detección de formato en vez de otro campo.",
+  "Coloca las opciones avanzadas tras un control de Más para que el camino común siga siendo simple."
  ]
 }

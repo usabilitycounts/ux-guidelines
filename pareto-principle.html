@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Pareto Principle: The 80/20 Rule in Product and UX Design — UX Guidelines">
 <meta name="twitter:description" content="Vilfredo Pareto noticed in 1896 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Pareto Principle: The 80/20 Rule in Product and UX Design", "description": "Vilfredo Pareto noticed in 1896 that 80% of Italy&#x27;s land was owned by 20% of its people. The pattern recurs across software, support, performance, and product strategy — most of the value comes from a small fraction of the input. Knowing which 20% is the whole game.", "url": "https://www.ux-guidelines.com/pareto-principle.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/pareto-principle.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Pareto Principle: The 80/20 Rule in Product and UX Design", "item": "https://www.ux-guidelines.com/pareto-principle.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
@@ -76,7 +76,7 @@
   .pa .pd.b { background: var(--il-accent); opacity: 1; }
   .pa .check { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -199,6 +199,24 @@
       <div><div class="label">Source</div><div class="value">Cours d’économie politique</div></div>
       <div><div class="label">In practice</div><div class="value">Optimize the vital few</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Quarterly planning starts with a backlog of ninety items and every team insists their piece is the critical one.</li>
+      <li>A page loads slowly and the engineering team wants to rewrite everything before anyone has profiled the actual hot path.</li>
+      <li>Someone proposes deleting the rarely used features, and nobody has checked whether admins or accessibility users depend on them.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Rank the backlog by impact times confidence divided by effort, then ask whether the bottom half could simply be cut.</li>
+      <li>Sort the crash log and support queue by frequency before triage, so the handful of bugs causing most pain surfaces first.</li>
+      <li>Segment feature usage by who rather than how many, and flag anything load-bearing for admins, oncall, or assistive technology before cutting.</li>
+    </ul>
   </div>
 </section>
 

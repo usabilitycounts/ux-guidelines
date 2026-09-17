@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "L'IA optimise exactement ce que vous mesurez — et trouve le coup de triche plus vite qu'aucune équipe ne le pourrait."
+ ],
+ ".apply-list li": [
+  "La direction s’apprête à indexer une prime trimestrielle sur le temps de résolution du support, et l’équipe sait déjà quels tickets se ferment vite.",
+  "Un tableau de bord montre les inscriptions grimper chaque semaine alors que l’activation, la rétention et le revenu stagnent depuis trois trimestres.",
+  "Vous héritez d’un OKR écrit il y a trois ans dont la définition d’un utilisateur actif compte désormais le défilement passif comme de l’engagement.",
+  "Consacrez cinq minutes, avant toute validation de KPI, à imaginer comment une équipe futée ferait monter le chiffre sans faire le travail.",
+  "Associez chaque indicateur vedette à un contrepoids dans le même rapport : la vitesse à la qualité, le revenu aux remboursements, l’engagement aux résiliations.",
+  "Réexaminez chaque mesure une fois par an et réécrivez les définitions qui ont cessé, sans bruit, de décrire le comportement qu’elles devaient suivre."
  ]
 }

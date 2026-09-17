@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "AI changes the math of the long tail — the 80% of edge cases that used to be too expensive to serve are now within reach."
+ ],
+ ".apply-list li": [
+  "Quarterly planning starts with a backlog of ninety items and every team insists their piece is the critical one.",
+  "A page loads slowly and the engineering team wants to rewrite everything before anyone has profiled the actual hot path.",
+  "Someone proposes deleting the rarely used features, and nobody has checked whether admins or accessibility users depend on them.",
+  "Rank the backlog by impact times confidence divided by effort, then ask whether the bottom half could simply be cut.",
+  "Sort the crash log and support queue by frequency before triage, so the handful of bugs causing most pain surfaces first.",
+  "Segment feature usage by who rather than how many, and flag anything load-bearing for admins, oncall, or assistive technology before cutting."
  ]
 }

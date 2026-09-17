@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "el tiempo de movimiento crece con la distancia (D) y se reduce con el ancho del objetivo (W)."
+ ],
+ ".apply-list li": [
+  "Una versión móvil va a salir con un botón de icono de 32px que los participantes fallan en el primer toque.",
+  "Estás colocando una acción destructiva de borrado y la maqueta actual la deja diminuta en la esquina opuesta.",
+  "Se rediseña una barra de herramientas para usuarios avanzados y hay que decidir qué merece un borde o una esquina.",
+  "Dimensiona los objetivos táctiles principales a 44px como mínimo y deja al menos 8pt de espacio libre entre controles contiguos.",
+  "Amplía el área de pulsación de los iconos pequeños con padding invisible para que lo visual siga compacto y el objetivo no.",
+  "Coloca la siguiente acción probable junto a la que se acaba de hacer en lugar de cruzar el puntero por toda la pantalla."
  ]
 }

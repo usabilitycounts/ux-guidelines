@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Wenn jedes Produkt seine KI-Funktionen mit demselben Funkel markiert, ist nichts mehr isoliert — und maschinell gewählte Betonung wirft die Frage auf, wer entscheidet, was heraussticht."
+ ],
+ ".apply-list li": [
+  "Drei Teams wollen ihr Banner auf dem Dashboard hervorgehoben sehen, und inzwischen konkurriert jedes Element um Aufmerksamkeit.",
+  "Ihr legt eine Preistabelle an und müsst entscheiden, welcher Tarif Rahmen, Badge und Farbfläche bekommt.",
+  "Auf einem Screen stehen zwei gleich starke gefüllte Buttons, und niemand kann sagen, welche Aktion die primäre ist.",
+  "Zählt die hervorgehobenen Elemente pro Screen und reduziert auf eines, denn jede zusätzliche Betonung schwächt alle anderen.",
+  "Kombiniert farbliche Betonung mit Schriftstärke, Icon oder Fläche, damit der Unterschied auch bei Farbenblindheit bleibt (WCAG 1.4.1).",
+  "Fragt im Design-Review, was am stärksten heraussticht, und korrigiert das Layout, wenn das nicht das Wichtigste ist."
  ]
 }

@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "die Steuerzeit integriert die Pfadlänge über die Pfadbreite."
+ ],
+ ".apply-list li": [
+  "Usability-Tests zeigen, dass das Kaskadenmenü zuklappt, sobald der Cursor diagonal darauf zusteuert.",
+  "Ein Einstellungsbereich verlangt einen exakten Wert über einen Slider und Testpersonen schießen ständig darüber hinaus.",
+  "Eine Drag-Interaktion vom Desktop wandert auf Touch, wo Hover fehlt und der Finger den Pfad verdeckt.",
+  "Verbreitern Sie Menüzeilen, Slider-Schienen und Anfasser: doppelte Korridorbreite halbiert die Steuerzeit ungefähr.",
+  "Ergänzen Sie ein Toleranzdreieck oder eine kurze Hover-Verzögerung, damit der diagonale Weg zum Untermenü überlebt.",
+  "Ersetzen Sie Drags auf Touch durch Taps, Stepper-Buttons oder Zahleneingabe und lassen Sie Werte einrasten."
  ]
 }

@@ -126,5 +126,13 @@
  ],
  ".ai-divider p": [
   "Les interfaces probabilistes tordent chaque règle — cohérence, annulation et contrôle prennent un sens nouveau quand le système improvise."
+ ],
+ ".apply-list li": [
+  "Une version va sortir et personne n’a confronté les nouveaux écrans à un standard d’interface commun.",
+  "Les tickets de support s’accumulent autour d’une action destructive que l’utilisateur ne peut plus annuler.",
+  "Deux équipes ont livré la même action avec des libellés, des emplacements et des confirmations différents.",
+  "Passez les huit règles en revue comme une checklist de pré-vol, en notant chaque écran conforme ou non.",
+  "Associez à toute action destructive d’abord la prévention, en désactivant les options invalides, puis une annulation immédiate.",
+  "Décrivez dans la spécification la réponse attendue : un changement d’état discret au clic, une confirmation claire à l’achat."
  ]
 }

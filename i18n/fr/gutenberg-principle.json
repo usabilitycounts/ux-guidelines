@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "Une conversation n'a pas de quadrants — quand la réponse est renvoyée directement, le modèle de lecture en quatre zones cède la place à un seul flux vertical."
+ ],
+ ".apply-list li": [
+  "Vous composez une page de conditions générales ou une newsletter où rien d’autre que du texte remplit l’écran.",
+  "L’équipe de localisation demande où placer le logo et le bouton d’inscription dans les versions arabe et hébraïque.",
+  "Les tarifs ont été relégués en bas à gauche d’une page dense et le support entend sans cesse que les clients ne les ont jamais vus.",
+  "Placez l’appel à l’action principal dans la zone terminale, en bas à droite, là où la diagonale de lecture vient naturellement se poser.",
+  "Reléguez les mentions légales et les notes de bas de page dans le coin faible, sans jamais y cacher ce que le lecteur doit faire.",
+  "Vérifiez que la page est vraiment homogène avant d’appliquer les quatre quadrants, car une seule image forte remplace la gravité par un parcours en F."
  ]
 }

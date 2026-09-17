@@ -261,5 +261,13 @@
  ".cat-label": [
   "Der universelle Satz",
   "Gestalten mit Icons"
+ ],
+ ".apply-list li": [
+  "Ihr streicht Beschriftungen aus einer überfüllten Toolbar und müsst entscheiden, welche Glyphen ohne Text tragen.",
+  "Ein Design-Review zeigt drei vermischte Icon-Familien in der App, Folge zweier Zukäufe und eines Redesigns.",
+  "Das Team sucht ein Symbol für Teilen oder Favorit, dessen Bedeutung je nach Plattform auseinandergeht.",
+  "Verzichtet nur bei Lupe, Kreuz und Menü auf Beschriftung; alles außerhalb dieses kleinen universellen Sets bekommt ein Label.",
+  "Vereinheitlicht auf ein einziges Icon-Set und spezifiziert Strichstärke, Eckenradius und Füllung, damit die Erkennung schnell bleibt.",
+  "Reserviert das Plus unten rechts für genau eine Erstellaktion pro Screen und das Kebab-Menü für sekundäre Aktionen."
  ]
 }

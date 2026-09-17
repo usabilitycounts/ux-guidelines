@@ -151,5 +151,13 @@
  ],
  ".law-formula-note": [
   "l'empan de mémoire de travail que Miller a observé à travers les tâches."
+ ],
+ ".apply-list li": [
+  "Un formulaire d’inscription aligne quarante champs sur une seule page et l’équipe hésite à le découper en plusieurs étapes.",
+  "Les tickets du support montrent des utilisateurs qui se trompent en recopiant un code de confirmation reçu par e-mail.",
+  "Une revue d’architecture de l’information place dix-huit entrées sous un même niveau et les utilisateurs reviennent sans cesse en arrière.",
+  "Groupez les codes, numéros de carte et IBAN par blocs, pour que l’œil lise des paquets plutôt qu’une longue chaîne.",
+  "Prévoyez environ quatre blocs plutôt que sept, chiffre appuyé par les travaux de Cowan, dès que l’utilisateur doit retenir quelque chose.",
+  "Distinguez dans la spécification ce qu’il faut retenir de ce qui reste affiché : le plafond ne vaut que pour la mémoire."
  ]
 }

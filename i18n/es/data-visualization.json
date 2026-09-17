@@ -191,5 +191,13 @@
   "Relación",
   "Distribución",
   "Composición"
+ ],
+ ".apply-list li": [
+  "Una revisión de dashboard acaba en discusión porque el gráfico circular tiene nueve porciones y nadie consigue ordenarlas.",
+  "Estás especificando una pantalla de analítica y debes decidir si la pregunta es de comparación, relación, distribución o composición.",
+  "El equipo quiere mostrar cómo avanzan los usuarios por un embudo y la columna apilada oculta dónde abandonan.",
+  "Escribe en la especificación, encima del gráfico, la pregunta que responde y elige después la codificación que la contesta.",
+  "Limita los gráficos circulares y de anillo a 3 porciones y lleva el resto a un gráfico de barras horizontales ordenado.",
+  "Contrasta cada gráfico generado por IA con la pregunta planteada, porque un modelo narra con seguridad una codificación equivocada."
  ]
 }

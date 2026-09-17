@@ -106,5 +106,13 @@
  ],
  ".ai-divider p": [
   "La IA puede leer en qué punto de la curva está un usuario — y bajar la activación exactamente en el momento adecuado, o no hacerlo."
+ ],
+ ".apply-list li": [
+  "Estás diseñando un flujo de declaración de impuestos o evaluación anual al que la gente llega ya cargada y tensa.",
+  "Growth propone una cuenta atrás en un paso de pago que exige comparar varios planes con calma.",
+  "Los datos muestran que la pantalla de aprobación semanal se ojea por encima y se escapan errores.",
+  "Quita animaciones, añade espacio en blanco y muestra un progreso constante para que los flujos complejos queden bajo el pico.",
+  "Reserva la háptica, el sonido y las microcelebraciones para acciones de un toque, donde el estímulo extra sí rinde.",
+  "Elimina la urgencia fabricada de cualquier decisión difícil del backlog y facilita la tarea en lugar de subir la presión."
  ]
 }

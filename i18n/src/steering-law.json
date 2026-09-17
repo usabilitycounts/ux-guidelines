@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Language input skips the tunnel entirely — and gesture interfaces rediscover it. The law decides which interactions deserve to survive."
+ ],
+ ".apply-list li": [
+  "Usability sessions show people losing a cascading submenu when their cursor cuts diagonally toward it.",
+  "A settings panel asks for an exact value through a slider and testers keep overshooting the number.",
+  "A desktop drag interaction is moving to touch, where there is no hover and the finger covers the path.",
+  "Widen menu rows, slider tracks, and drag handles; doubling a corridor’s width roughly halves the steering time.",
+  "Add a grace triangle or a short hover delay so a diagonal path to a submenu survives.",
+  "Replace drags on touch with taps, stepper buttons, or numeric entry, and add snapping for coarse moves."
  ]
 }

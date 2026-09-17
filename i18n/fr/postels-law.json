@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Les modèles sont les analyseurs d'entrée les plus libéraux jamais construits — et les plus stricts quant à l'interprétation sur laquelle ils s'engagent."
+ ],
+ ".apply-list li": [
+  "Un formulaire d’inscription refuse les numéros de téléphone avec espaces ou points, et le support entend sans cesse que le champ bloque.",
+  "Des centaines d’anciens liens, favoris et fichiers enregistrés pointent vers des URL qu’une restructuration va bientôt changer.",
+  "Un assistant interprète une demande floue, comme réserver quelque chose vendredi, et s’engage en silence sur une seule lecture.",
+  "Précisez les formats acceptés champ par champ, puis normalisez vers une valeur canonique unique au lieu de faire retaper l’utilisateur.",
+  "Imposez un contrat strict en sortie dans la spec d’API, avec des dates ISO 8601 et un schéma stable pour l’aval.",
+  "Remplacez les erreurs de format par une interprétation à confirmer, et ajoutez des redirections pour que les anciennes URL continuent de fonctionner."
  ]
 }

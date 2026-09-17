@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Generated interfaces arrive polished by default — and fluent, confident prose triggers the same effect in text. Beautiful output is not correct output."
+ ],
+ ".apply-list li": [
+  "Your usability test scores look strong on a polished prototype, yet three of five participants never actually completed the checkout task.",
+  "A redesign ships with no new features, support volume drops, and nobody on the team can explain what changed.",
+  "Leadership wants visual polish cut from the first-run experience to buy back two sprints of engineering time.",
+  "Score task success and time on task separately from satisfaction ratings so an attractive prototype cannot inflate the usability verdict.",
+  "Spend the polish budget on first-run, home, checkout, and empty states, where first-glance judgment forms, rather than on decorative illustration.",
+  "Fix alignment, spacing, and the type scale before commissioning artwork, since consistency delivers most of the effect at the lowest cost."
  ]
 }

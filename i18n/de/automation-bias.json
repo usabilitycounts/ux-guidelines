@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mosier und Skitka untersuchten ein Cockpit. Heute bietet jedes Schreibwerkzeug, jeder Code-Editor und jedes Suchfeld automatisierte Antworten — und der Annehmen-Knopf ist immer einen Tipp entfernt."
+ ],
+ ".apply-list li": [
+  "Ihr ergänzt einen Modellvorschlag in einem Feld, das eine Fachkraft bisher nach eigenem Urteil selbst ausgefüllt hat.",
+  "Ein Compliance-Workflow verlangt menschliche Prüfung, doch das Audit-Log zeigt Freigaben fast jedes Vorgangs innerhalb weniger Sekunden.",
+  "Das Team entscheidet, welches von drei gerankten Ergebnissen in Suche oder Empfehlung als Standard vorausgewählt wird.",
+  "Prüft jeden vorbelegten Wert und jede Voreinstellung in der Spezifikation und behandelt deren Korrektheit als Sicherheitsanforderung, nicht als Komfort.",
+  "Koppelt den Bestätigungsaufwand an die Fehlerkosten: ein Tap bei harmlosen Vorschlägen, ein prüfbarer Diff bei folgenreichen Entscheidungen.",
+  "Zeigt Quellen, Konfidenz und das Ungeprüfte an und macht den Widerspruch gegen den Vorschlag zur gleichwertigen Aktion."
  ]
 }

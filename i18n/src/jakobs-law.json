@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "AI is rewriting the conventions users carry with them. The reference point is shifting from “every website” to “every AI tool.”"
+ ],
+ ".apply-list li": [
+  "A designer pitches a custom date picker or a novel scrollbar, and you have to price the relearning cost against the novelty.",
+  "You are placing the cart, search, and logo on a new commerce template, and someone wants the layout to feel distinctive.",
+  "Your team is adding its first AI feature and must decide whether to match the chat idiom users already learned elsewhere.",
+  "Reuse native controls and established patterns by default, reserving invention for the one place where the gain clearly outweighs relearning.",
+  "Audit the new AI baseline every cycle: prompt box, streaming output, regenerate, cited sources, and undo for anything the model touched.",
+  "Let personalization change the content while the global chrome stays fixed, so users keep one shared map of the product."
  ]
 }

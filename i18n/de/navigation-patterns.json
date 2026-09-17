@@ -86,5 +86,13 @@
  ],
  ".ai-divider p": [
   "Fragen beginnt, das Stöbern zu ersetzen. Die Navigation verschwindet nicht — sie wird zur Rückfallebene und zur Landkarte dessen, was der Assistent kann."
+ ],
+ ".apply-list li": [
+  "Ein neuer Bereich kommt hinzu, und niemand weiß, ob er in die globale Navigation, die lokale Navigation oder den Footer gehört.",
+  "Analysen zeigen Einstiege aus der Suche drei Ebenen tief, ohne dass Nutzer erkennen, wo sie in der Hierarchie stehen.",
+  "Dem Produkt wird ein Prompt-Feld hinzugefügt, und das Team fragt sich, ob Menüs die Pflege überhaupt noch wert sind.",
+  "Ordnen Sie jedes Ziel genau einer Ebene zu — global, lokal, Utility oder Footer — und halten Sie die Regel in der Navigationsspezifikation fest.",
+  "Ergänzen Sie Breadcrumbs im Muster Start, Bereich, Seite überall dort, wo die Hierarchie tief genug für einen Rückweg ist.",
+  "Behandeln Sie den Assistenten als parallelen Weg und behalten Sie Menüs als sichtbare Landkarte des Möglichen und als Rückfallebene."
  ]
 }

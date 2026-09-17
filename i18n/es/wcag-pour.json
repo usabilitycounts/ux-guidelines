@@ -152,5 +152,13 @@
  ".cat-label": [
   "Los cuatro principios",
   "Criterios de éxito clave"
+ ],
+ ".apply-list li": [
+  "Estás escribiendo los criterios de aceptación de un componente nuevo y necesitas fijar el listón de accesibilidad antes de estimar.",
+  "Un rediseño elimina el contorno de foco del navegador y quienes usan teclado ya no saben dónde están.",
+  "Legal pregunta si la app móvil cumple AA y nadie en el equipo sabe qué criterios se probaron.",
+  "Comprueba el texto normal a 4.5:1 y el texto grande a 3:1 antes de entregar los tokens de color a desarrollo.",
+  "Desconecta el ratón y recorre el flujo completo con teclado, confirmando que el orden visual, el DOM y el tabulador coinciden.",
+  "Dimensiona cada objetivo táctil a 24 × 24 píxeles CSS como mínimo para AA, o 44 × 44 si buscas AAA."
  ]
 }

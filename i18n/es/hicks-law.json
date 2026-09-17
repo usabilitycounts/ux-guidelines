@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "el tiempo de reacción crece con el logaritmo del número de opciones (n)."
+ ],
+ ".apply-list li": [
+  "Una página de ajustes ha crecido hasta 16 interruptores en lista plana y siguen llegando peticiones sin un sitio razonable donde colocarlas.",
+  "El onboarding pide elegir plan, espacio de trabajo y plantilla antes de que aparezca en pantalla algo mínimamente útil.",
+  "Un catálogo ha superado los varios cientos de artículos y navegar por categorías ya no lleva a nadie a lo que buscaba.",
+  "Divide una lista plana de 16 elementos en cuatro grupos de cuatro y mantén la jerarquía en 2 niveles para que nada quede enterrado.",
+  "Fija un valor por defecto siempre que el 90 % de los usuarios elija lo mismo, porque así la decisión desaparece en lugar de acelerarse.",
+  "Recorta las acciones principales a 3 o 5 y los menús de navegación a 5 o 7, y manda el resto a una divulgación progresiva."
  ]
 }

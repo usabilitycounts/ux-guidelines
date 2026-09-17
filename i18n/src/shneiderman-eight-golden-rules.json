@@ -126,5 +126,13 @@
  ],
  ".ai-divider p": [
   "Probabilistic interfaces bend every rule — consistency, reversal, and control mean something new when the system improvises."
+ ],
+ ".apply-list li": [
+  "A release is about to ship and nobody has checked the new screens against a shared interface standard.",
+  "Support tickets keep clustering around a destructive action that users cannot undo once they confirm it.",
+  "Two teams shipped the same action with different labels, placements, and confirmation behavior inside one product.",
+  "Run the eight rules as a pre-flight checklist in design review, marking each screen pass or fail.",
+  "Pair every destructive action with prevention first, disabling invalid options, then a one-step undo for the rest.",
+  "Specify the response for each action in the spec: a subtle state change for clicks, a clear confirmation for purchases."
  ]
 }

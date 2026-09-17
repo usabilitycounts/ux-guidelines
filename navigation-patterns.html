@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search — UX Guidelines">
 <meta name="twitter:description" content="Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search", "description": "Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.", "url": "https://www.ux-guidelines.com/navigation-patterns.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/navigation-patterns.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Design Actions And Controls"}, {"@type": "ListItem", "position": 3, "name": "Navigation Patterns: Global Nav, Local Nav, Breadcrumbs, and Search", "item": "https://www.ux-guidelines.com/navigation-patterns.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -104,7 +104,7 @@
   .nv-list .row.hot i { background: var(--il-accent); opacity: 1; }
   .nv-list .row .spark { width: 10px; height: 10px; border-radius: 50%; background: var(--il-accent); margin-left: auto; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -208,6 +208,25 @@
   <p class="tagline">Help people know <em>where they are</em>, where they can go, and how to get back.</p>
   <p class="subtitle">Navigation is the connective tissue of a product. Each layer does a different job — give them the right weight and the structure becomes invisible.</p>
 </header>
+
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A new section is being added and nobody can say whether it belongs in global nav, local nav, or the footer.</li>
+      <li>Analytics show users landing three levels deep from search with no sense of where they sit in the hierarchy.</li>
+      <li>A prompt box is being added to the product and the team wonders whether menus are still worth maintaining.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Assign each destination to one layer — global, local, utility, or footer — and write the rule into the navigation spec.</li>
+      <li>Add breadcrumbs reading Home, Section, Page wherever the hierarchy runs deep enough that users need a path back up.</li>
+      <li>Treat the assistant as a parallel route, keeping menus as the visible map of what is possible and the fallback.</li>
+    </ul>
+  </div>
+</section>
 
 <main class="grid">
 

@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Models are the most liberal input parsers ever built — and the strictest committee about which interpretation they commit to."
+ ],
+ ".apply-list li": [
+  "A signup form rejects phone numbers with spaces or dots, and support keeps hearing that people cannot get past the field.",
+  "Hundreds of old links, bookmarks, and saved files point at URLs a restructure is about to change.",
+  "An assistant parses a vague request such as booking something on Friday and quietly commits to one reading of it.",
+  "Specify the accepted input formats per field, then normalize to one canonical stored value rather than sending the user back to retype.",
+  "Hold outputs to a strict contract in the API spec, using ISO 8601 dates and a stable schema downstream systems can rely on.",
+  "Replace format-invalid errors with an inferred guess the user confirms, and add redirects so old URLs and saved files keep working."
  ]
 }

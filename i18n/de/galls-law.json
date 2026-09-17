@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "KI erlaubt, ein „vollständiges“ System an einem Tag zu generieren — und dann etwas auszuliefern, das keinen funktionierenden Vorfahren hat, aus dem es wachsen könnte."
+ ],
+ ".apply-list li": [
+  "Ein Team schlägt vor, das Billing-System in zwei Jahren neu zu schreiben, ohne bis dahin eine lauffähige Version auszuliefern.",
+  "Sie schneiden ein Designsystem zu, und jemand fordert vollständige Token-Abdeckung für Screens, die noch niemand gebaut hat.",
+  "Ein Feature, das für 50 Pilotkonten funktionierte, soll auf einen Schlag für alle Kunden ausgerollt werden.",
+  "Liefern Sie ein Walking Skeleton, das eine Sache Ende zu Ende erledigt, und verschieben Sie Politur, Skalierung und Sonderfälle.",
+  "Fragen Sie bei jedem großen Plan im Review, was die kleinste auslieferbare Version im nächsten Sprint wäre.",
+  "Bauen Sie nur die Komponente, deren Bedarf Sie zweimal gesehen haben, und lassen Sie die Bibliothek aus ausgelieferten Screens wachsen."
  ]
 }

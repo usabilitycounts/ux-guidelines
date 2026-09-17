@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Tognazzini&#x27;s First Principles: Working Rules of Interaction Design — UX Guidelines">
 <meta name="twitter:description" content="Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Tognazzini’s First Principles: Working Rules of Interaction Design", "description": "Bruce &quot;Tog&quot; Tognazzini&#x27;s First Principles of Interaction Design, written and refined on AskTog.com over decades at Apple, Sun, and Nielsen Norman Group. Less a catechism than a working set of rules — each one earned from products that shipped and patterns that scaled.", "url": "https://www.ux-guidelines.com/tognazzinis-first-principles.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/tognazzinis-first-principles.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "Tognazzini’s First Principles: Working Rules of Interaction Design", "item": "https://www.ux-guidelines.com/tognazzinis-first-principles.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
@@ -85,7 +85,7 @@
   .tx .bub { border-radius: 10px; background: var(--surface); padding: 8px 10px; display: flex; flex-direction: column; gap: 5px; }
   .tx .bub .l { height: 5px; border-radius: 2.5px; background: var(--skel-strong); opacity: 0.5; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -203,6 +203,24 @@
       <div><div class="label">Source</div><div class="value">First Principles of Interaction Design, AskTog</div></div>
       <div><div class="label">In practice</div><div class="value">Audit flows against the checklist</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A flow loses the user’s document, filter, or scroll position every time they come back the next morning.</li>
+      <li>An AI answer takes four seconds and the screen sits silent while people wonder whether it broke.</li>
+      <li>Power users run the same task a hundred times a day through an interface built for single items.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Audit a flow against the nineteen principles, starting with protecting work: auto-save, version history, crash recovery.</li>
+      <li>Add bulk actions, keyboard shortcuts, and recent items, then time the task run one hundred times.</li>
+      <li>Stream tokens or show a skeleton answer so nothing on screen stays silent for more than one second.</li>
+    </ul>
   </div>
 </section>
 

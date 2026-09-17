@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Los modelos son los analizadores de entrada más liberales jamás construidos — y los que con más aplomo se comprometen con una única interpretación."
+ ],
+ ".apply-list li": [
+  "Un formulario de registro rechaza teléfonos con espacios o puntos, y soporte oye una y otra vez que ese campo bloquea.",
+  "Cientos de enlaces antiguos, marcadores y archivos guardados apuntan a URL que una reestructuración está a punto de cambiar.",
+  "Un asistente interpreta una petición vaga, como reservar algo el viernes, y se compromete en silencio con una sola lectura.",
+  "Especifica los formatos de entrada admitidos campo a campo y normaliza a un único valor canónico en vez de hacer reescribir al usuario.",
+  "Obliga a las salidas a un contrato estricto en la especificación de la API, con fechas ISO 8601 y un esquema estable.",
+  "Sustituye los errores de formato por una suposición que el usuario confirma, y añade redirecciones para que las URL antiguas sigan funcionando."
  ]
 }

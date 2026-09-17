@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Generierte Interfaces liefern denselben freundlichen Radius als Standard, und KI-Produkte runden sich, um harmlos zu wirken. Rundung ist Rhetorik geworden — nutzen Sie sie ehrlich."
+ ],
+ ".apply-list li": [
+  "Euer Design-System braucht ein einziges Radius-Token, und das Team ist zwischen kantig, leicht gerundet und vollrund gespalten.",
+  "Ein Dialog für eine destruktive Aktion lässt sich im Test zu leicht wegklicken, und Teilnehmende empfanden die Warnung als harmlos.",
+  "Ein Marken-Relaunch für ein Präzisions- oder Premiumwerkzeug muss klären, ob weiche Ecken die wahrgenommene Strenge untergraben.",
+  "Rundet Ecken von Buttons, Karten, Eingabefeldern und Avataren, damit ein Element vor dem Lesen des Labels als sicher drückbar wirkt.",
+  "Haltet Warndreiecke, Fehler-Badges und Gefahrenzeichen kantig, denn eine weich gerundete Warnung flüstert, wo eine spitze Form schreit.",
+  "Legt eine einzige Rundungsskala als Token fest und setzt sie über alle Buttons, Dialoge und Karten durch, statt Radien zu mischen."
  ]
 }

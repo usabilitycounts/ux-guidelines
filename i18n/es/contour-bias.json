@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Las interfaces generadas traen el mismo radio amable por defecto, y los productos de IA se redondean para parecer inofensivos. La curvatura se volvió retórica — úsala con honestidad."
+ ],
+ ".apply-list li": [
+  "Tu sistema de diseño necesita un único token de radio de esquina y el equipo se divide entre recto, sutil y muy redondeado.",
+  "Un diálogo de confirmación destructiva se descarta demasiado fácil en pruebas y los participantes dicen que el aviso no parecía grave.",
+  "Un rediseño de marca para una herramienta de precisión o premium debe decidir si las esquinas suaves restan sensación de rigor.",
+  "Redondea las esquinas de botones, tarjetas, campos y avatares para que el control se lea como seguro de pulsar antes que su etiqueta.",
+  "Mantén angulares los triángulos de advertencia, las insignias de error y las marcas de peligro: una alerta redondeada susurra y una puntiaguda grita.",
+  "Elige una sola escala de curvatura y aplícala como token en botones, diálogos y tarjetas en vez de mezclar radios por componente."
  ]
 }

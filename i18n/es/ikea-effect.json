@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Cuando un modelo puede construirlo todo con un clic, el esfuerzo desaparece — y con él, el cariño. El oficio ahora es decidir qué huevo sigue cascando el usuario."
+ ],
+ ".apply-list li": [
+  "El onboarding convierte bien pero la retención cae en la segunda semana, y nadie tiene un espacio, tablero o vista guardada propios.",
+  "Estás recortando pasos de configuración por velocidad y debes decidir qué pantalla genera autoría real y cuál es un asistente hueco.",
+  "Una función de IA entrega un borrador terminado en un clic y no deja al usuario nada que moldear ni que sentir suyo.",
+  "Deja una decisión significativa en manos del usuario — el esquema, la elección, el corte final — para que el resultado se sienta propio.",
+  "Evalúa cada paso de configuración preguntando si el usuario lo echaría de menos, y elimina los que solo son relleno.",
+  "Integra la finalización en el recorrido de creación, porque el trabajo abandonado no genera valor: progreso, valores por defecto, final alcanzable."
  ]
 }

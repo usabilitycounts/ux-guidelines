@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "The ten heuristics still hold — but “system status,” “user control,” and “error prevention” take on new meaning when the system is a probabilistic model."
+ ],
+ ".apply-list li": [
+  "A release is two weeks out and there is no budget for a usability study before it ships.",
+  "Two teams shipped the same action under different names, and the design review needs a shared vocabulary for the problem.",
+  "Your generation endpoint takes ten seconds and users are reloading the page because nothing on screen says anything is happening.",
+  "Run a heuristic review against all ten before booking user tests, logging each finding under the heuristic it violates.",
+  "Rewrite every error message to name the problem in plain language and state the one step that fixes it.",
+  "Ship a stop button mid-stream and a regenerate after it, so the model’s first answer is a draft rather than a dead end."
  ]
 }

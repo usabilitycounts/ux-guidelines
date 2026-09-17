@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Tesler&#x27;s Law: The Conservation of Complexity — UX Guidelines">
 <meta name="twitter:description" content="Every system carries an irreducible amount of complexity. The only question is who absorbs it — the system or the user. Good design quietly takes on as much as it can.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Tesler’s Law: The Conservation of Complexity", "description": "Every system carries an irreducible amount of complexity. The only question is who absorbs it — the system or the user. Good design quietly takes on as much as it can.", "url": "https://www.ux-guidelines.com/teslers-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/teslers-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Tesler’s Law: The Conservation of Complexity", "item": "https://www.ux-guidelines.com/teslers-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -113,7 +113,7 @@
   .te .chip { height: 18px; border-radius: 9px; background: var(--skel); opacity: 0.15; padding: 0 14px; flex: none; }
   .te .err { width: 10px; height: 10px; border-radius: 50%; background: #111; flex: none; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -231,6 +231,24 @@
       <div><div class="label">Source</div><div class="value">Xerox PARC and Apple design practice</div></div>
       <div><div class="label">In practice</div><div class="value">Absorb complexity into the system</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A blank text field ships quickly but every user has to work out the accepted format alone.</li>
+      <li>A simplification push proposes hiding steps the task genuinely requires, such as dates, seats, or fares.</li>
+      <li>An AI feature resolves a messy request end to end and the trade-offs it made stay invisible.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Separate inherent complexity from accidental friction in the spec, delete the accidental, then decide who absorbs the rest.</li>
+      <li>Shift work into the system with smart defaults, autofill, and format detection rather than adding another required field.</li>
+      <li>Layer advanced options behind a More control so the common path stays simple without losing the depth.</li>
+    </ul>
   </div>
 </section>
 

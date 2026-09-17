@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "The prompt and the agent both attack decision cost from a new angle — replacing the menu with language, or removing the choice entirely."
+ ],
+ ".apply-list li": [
+  "A settings page has grown to 16 flat toggles and new requests keep arriving with nowhere sensible to put them.",
+  "Onboarding asks the user to pick a plan, a workspace, and a template before anything useful appears on screen.",
+  "A catalog has passed a few hundred items and browsing by category no longer gets anyone to the thing they wanted.",
+  "Split a flat list of 16 into four groups of four, keeping the hierarchy at 2 levels so nothing gets buried.",
+  "Set a default wherever 90 percent of users choose the same value, which removes the decision instead of merely speeding it up.",
+  "Trim primary actions to 3 to 5 and nav menus to 5 to 7, pushing the remainder behind progressive disclosure."
  ]
 }

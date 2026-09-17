@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "el cambio perceptible es una fracción constante del estímulo, así que la sensación crece de forma logarítmica."
+ ],
+ ".apply-list li": [
+  "Estás fijando un descuento y dudas entre mostrarlo como importe ahorrado o como porcentaje del precio.",
+  "Desarrollo propone recortar 100ms de una transición y nadie sabe decir si los usuarios lo notarán.",
+  "Se rehace una escala tipográfica porque titulares y texto de lectura se ven desiguales con sus tamaños actuales.",
+  "Expresa cada cambio propuesto como porcentaje de su punto de partida antes de decidir si merece construirse.",
+  "Construye la escala tipográfica sobre una razón fija como 1.25 o 1.333 para que cada nivel se lea como un escalón.",
+  "Traduce los deltas de A/B a términos proporcionales: cinco puntos sobre una base del 10 por ciento pesan mucho más que sobre 80."
  ]
 }

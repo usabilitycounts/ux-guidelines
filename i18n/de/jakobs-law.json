@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "KI schreibt die Konventionen um, die Nutzer mit sich tragen. Der Bezugspunkt verschiebt sich von \"jeder Website\" zu \"jedem KI-Werkzeug\"."
+ ],
+ ".apply-list li": [
+  "Ein Designer schlägt einen eigenen Datumspicker oder eine neuartige Scrollbar vor, und Sie müssen Umlernkosten gegen den Neuheitswert rechnen.",
+  "Sie platzieren Warenkorb, Suche und Logo in einem neuen Shop-Template, und jemand wünscht sich ein auffällig eigenes Layout.",
+  "Ihr Team baut die erste KI-Funktion und muss entscheiden, ob es dem Chat-Idiom folgt, das Nutzer anderswo längst gelernt haben.",
+  "Nutzen Sie standardmäßig native Controls und etablierte Muster und heben Sie Erfindung für die eine Stelle auf, an der der Gewinn überwiegt.",
+  "Überprüfen Sie in jedem Zyklus die neue Erwartungsbasis: Prompt-Feld, Streaming-Ausgabe, Regenerieren, zitierte Quellen und Undo für alles Generierte.",
+  "Lassen Sie Personalisierung nur die Inhalte verändern und halten Sie die globale Chrome stabil, damit alle dieselbe Karte behalten."
  ]
 }

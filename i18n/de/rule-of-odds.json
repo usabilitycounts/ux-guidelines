@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generierte Seiten wählen standardmäßig die Zahl, die das Modell am häufigsten gesehen hat; die Gruppengröße ist eine Entscheidung, die man explizit treffen sollte."
+ ],
+ ".apply-list li": [
+  "Sie gestalten eine Marketingseite mit vier Feature-Blöcken, und die Reihe hat ihre Mitte verloren.",
+  "Eine Preisseite wird überarbeitet und das Team streitet, ob zwei oder drei Tarife ausgeliefert werden.",
+  "Ein Onboarding hat sieben Schritte, doch die Stakeholder wollen einen einzigen, kurzen Prozess spüren.",
+  "Kürzen Sie eine Reihe von vier Karten auf drei und verlagern Sie das übrige Feature auf eine Unterseite.",
+  "Legen Sie die Anzahl in Spec und Prompt fest: drei Features, fünf Schritte, ein hervorgehobener Tarif.",
+  "Reservieren Sie den mittleren Platz für die gewünschte Option und heben Sie sie größer oder farbiger hervor."
  ]
 }

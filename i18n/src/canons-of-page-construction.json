@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generated documents and answers arrive as text with no page around them; the canons are how a product gives that text a page."
+ ],
+ ".apply-list li": [
+  "You are designing a long-form article, help center, or release-notes template that people will read for minutes rather than scan.",
+  "Body text stretches edge to edge on a wide monitor and testers say the lines are hard to track back.",
+  "Your assistant starts returning answers long enough that a chat bubble stretched across the window no longer suits them.",
+  "Cap the reading column at 60 to 70 characters of body type and leave the rest of the viewport as margin.",
+  "Give the block more space below than above, following the classical 2:3:4:6 ratio of inner, head, outer, and foot margins.",
+  "Express margins in line heights inside your spacing tokens: two or three line heights above a heading, four below the block."
  ]
 }

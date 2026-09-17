@@ -152,5 +152,13 @@
  ],
  ".ai-divider p": [
   "Quand une réponse d'IA trône en haut de la page, les schémas de balayage classiques cèdent la place à la lecture de la réponse — et à la vérification de ses sources."
+ ],
+ ".apply-list li": [
+  "Une page d’article longue perd ses lecteurs à mi-parcours, et ses intertitres se contentent de Vue d’ensemble ou En savoir plus.",
+  "Vous composez une landing page épurée avec un seul appel à l’action et l’équipe débat de son emplacement.",
+  "Un tableau de réglages répète le même mot en tête de chaque ligne, et les utilisateurs ratent la valeur qui a changé.",
+  "Placez dès les deux premiers mots de chaque titre et de chaque lien le terme que le lecteur cherche réellement.",
+  "Positionnez l’appel à l’action principal au coin terminal du Z sur les pages marketing peu chargées.",
+  "Variez le début des lignes dans les tableaux et les listes pour que l’œil n’ignore pas un préfixe identique en colonne."
  ]
 }

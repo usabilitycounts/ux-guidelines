@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "die wahrnehmbare Änderung ist ein konstanter Bruchteil des Reizes, also wächst die Empfindung logarithmisch."
+ ],
+ ".apply-list li": [
+  "Ihr legt einen Rabatt fest und überlegt, ob ihr ihn als Betrag oder als Prozentsatz ausweist.",
+  "Die Entwicklung will 100ms aus einer Transition streichen, und niemand kann sagen, ob Nutzende das merken.",
+  "Eine Typo-Skala wird neu gebaut, weil Überschriften und Fließtext bei den aktuellen absoluten Größen ungleichmäßig wirken.",
+  "Drückt jede vorgeschlagene Änderung als Prozentsatz ihres Ausgangswerts aus, bevor ihr über die Umsetzung entscheidet.",
+  "Baut die Typo-Skala auf einem festen Verhältnis wie 1.25 oder 1.333 auf, damit jede Stufe als Stufe lesbar ist.",
+  "Rechnet A/B-Deltas in Anteile um: fünf Punkte auf einer Basis von 10 Prozent wiegen weit mehr als auf 80."
  ]
 }

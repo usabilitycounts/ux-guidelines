@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Las máquinas ahora también agrupan contenido — pero que un humano vea estructura o ruido sigue dependiendo de las mismas leyes de la percepción."
+ ],
+ ".apply-list li": [
+  "Estás revisando una pantalla de ajustes donde cada sección lleva un borde y la página se lee como cajas dentro de cajas.",
+  "Un formulario sale con espaciados desiguales y la etiqueta de un campo queda más cerca del campo de arriba que del suyo propio.",
+  "Tu equipo añade una aparición escalonada en una lista del panel y debe decidir qué tarjetas se animan juntas como una unidad.",
+  "Agrupa primero los campos relacionados con el espaciado y añade un divisor o un panel solo donde la proximidad no baste para separarlos.",
+  "Reserva el color, la forma o el tamaño compartidos para elementos que pertenecen de verdad a una misma categoría, para que la similitud no invente grupos.",
+  "Entorna los ojos ante una maqueta estática en la revisión de diseño y anota los grupos que ves antes de contrastarlos con la estructura prevista."
  ]
 }

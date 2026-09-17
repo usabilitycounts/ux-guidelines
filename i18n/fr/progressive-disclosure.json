@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Réponses de chat et raisonnement d'agent sont des problèmes de divulgation : la réponse courte d'abord, la démonstration pour qui la demande."
+ ],
+ ".apply-list li": [
+  "Un écran de réglages a grossi jusqu’à soixante contrôles et les nouveaux venus ne savent pas lesquels les concernent vraiment.",
+  "Tous les champs tiennent sur un seul écran, et c’est devant ce mur que la plupart des gens abandonnent le parcours.",
+  "Les tickets de support demandent sans arrêt où est passée une option, déplacée derrière un menu de débordement intitulé Plus.",
+  "Choisissez la première couche à partir des données d’usage plutôt que des avis, en laissant visible ce qui couvre la grande majorité des tâches.",
+  "Étiquetez chaque contrôle de révélation pour qu’on devine ce qu’il cache : un accordéon nommé Plus ne s’ouvre jamais.",
+  "Découpez un long formulaire en assistant avec une décision par étape, et réservez les infobulles au détail qui reste sur place."
  ]
 }

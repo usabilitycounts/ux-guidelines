@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "L'IA déplace le lieu de la communication — ce qui déplace discrètement l'organigramme, puis le produit."
+ ],
+ ".apply-list li": [
+  "Une page de réglages détenue par quatre équipes se lit comme quatre pages différentes, chacune avec ses propres motifs et son ton.",
+  "Une réorganisation sépare une équipe en mobile et web, et le comportement du paiement diverge dès les deux versions suivantes.",
+  "Vous prévoyez de découper un monolithe en services et les frontières proposées suivent les lignes hiérarchiques de l’an dernier.",
+  "Attribuez un responsable à chaque couture repérée en revue de design ; si personne ne possède le passage de relais, c’est le bug.",
+  "Concevez l’équipe avant l’architecture, en appliquant la manœuvre de Conway inversée et les quatre types d’équipes de Team Topologies.",
+  "Traitez chaque réorganisation comme une décision de design : notez quelles frontières produit vont bouger, puis vérifiez la prédiction un trimestre plus tard."
  ]
 }

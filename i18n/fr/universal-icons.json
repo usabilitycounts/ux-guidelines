@@ -261,5 +261,13 @@
  ".cat-label": [
   "Le socle universel",
   "Concevoir avec des icônes"
+ ],
+ ".apply-list li": [
+  "Vous supprimez des libellés dans une barre d’outils encombrée et devez décider quels pictogrammes tiennent sans texte.",
+  "Une revue de design révèle trois familles d’icônes mélangées dans l’application après deux acquisitions et une refonte.",
+  "L’équipe choisit un symbole pour le partage ou le favori, dont le sens varie selon les plateformes.",
+  "Laissez sans libellé uniquement la loupe, la croix et le menu ; étiquetez tout ce qui sort de ce socle universel.",
+  "Unifiez tout sur une seule famille d’icônes et spécifiez graisse, rayon des angles et remplissage pour accélérer la reconnaissance.",
+  "Réservez le plus en bas à droite à une seule action de création par écran, et le menu kebab aux actions secondaires."
  ]
 }

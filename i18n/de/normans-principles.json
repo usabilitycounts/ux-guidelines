@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Das konversationale Interface stellt jede von Normans Fragen neu — was kann ich tun, hat es funktioniert, was weiß es über mein Modell?"
+ ],
+ ".apply-list li": [
+  "Usability-Tests zeigen, dass Teilnehmer ein Bedienelement übersehen, weil es eher wie ein Label aussieht als wie etwas Drückbares.",
+  "Ein Einstellungsschalter speichert lautlos, und der Support sieht Nutzer, die ihn mehrfach antippen, ohne zu wissen, ob etwas ankam.",
+  "Sie veröffentlichen ein leeres Chatfeld, und Nutzer können nicht erkennen, wozu das Modell überhaupt in der Lage ist.",
+  "Koppeln Sie jede Affordanz an einen sichtbaren Signifier — Label, Unterstreichung, Pfeil —, damit Fähigkeit und Signal nie auseinanderlaufen.",
+  "Legen Sie je Aktion das Feedback in der Spezifikation fest und nennen Sie Kanal — visuell, akustisch, haptisch — und Zeitpunkt.",
+  "Füllen Sie das leere Prompt-Feld mit Beispielvorschlägen und zeigen Sie Begründung und Quellen, damit beide Kluften geschlossen bleiben."
  ]
 }

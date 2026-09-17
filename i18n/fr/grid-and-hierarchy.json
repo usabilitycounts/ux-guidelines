@@ -135,5 +135,13 @@
  ".cat-label": [
   "Systèmes de grille",
   "Hiérarchie visuelle"
+ ],
+ ".apply-list li": [
+  "Un tableau de bord en cartes a dérivé sur trois versions et les tuiles démarrent aujourd’hui sur quatre bords gauches différents.",
+  "Le marketing réclame une deuxième couleur d’accent sur une page où un bouton principal orange se dispute déjà l’attention avec une bannière rouge.",
+  "Vous spécifiez un gabarit d’article long où titres, intertitres et corps de texte doivent se distinguer d’un seul coup d’œil.",
+  "Adoptez une grille de 12 colonnes dans la spécification pour que la même structure accueille des compositions à deux, trois, quatre ou six colonnes.",
+  "Fixez une échelle typographique à 3 niveaux, titre, intertitre et corps, et laissez une seule couleur d’accent porter l’emphase.",
+  "Vérifiez en revue de design que chaque bord s’aligne sur un autre élément, car le seul élément aligné sur rien rend déjà la page accidentelle."
  ]
 }

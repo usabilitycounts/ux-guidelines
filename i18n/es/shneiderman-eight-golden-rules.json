@@ -126,5 +126,13 @@
  ],
  ".ai-divider p": [
   "Las interfaces probabilísticas doblan todas las reglas — consistencia, reversibilidad y control significan algo nuevo cuando el sistema improvisa."
+ ],
+ ".apply-list li": [
+  "Una versión está a punto de salir y nadie ha contrastado las pantallas nuevas con un estándar común.",
+  "Los tickets de soporte se concentran en una acción destructiva que nadie puede deshacer tras confirmarla.",
+  "Dos equipos lanzaron la misma acción con etiquetas, ubicaciones y confirmaciones distintas dentro de un mismo producto.",
+  "Recorre las ocho reglas como una lista de comprobación previa al vuelo en la revisión de diseño.",
+  "Acompaña cada acción destructiva primero con prevención, desactivando opciones inválidas, y después con un deshacer inmediato.",
+  "Define en la especificación la respuesta de cada acción: cambio sutil al hacer clic, confirmación clara al comprar."
  ]
 }

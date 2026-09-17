@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Golden Ratio: Proportion, Type Scales, and When to Ignore It — UX Guidelines">
 <meta name="twitter:description" content="A ratio of about 1.618 that divides a line so the small part relates to the large as the large does to the whole. Designers use it to size columns, type scales, and crops that feel settled — as long as it stays a tool, not a rule.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Golden Ratio: Proportion, Type Scales, and When to Ignore It", "description": "A ratio of about 1.618 that divides a line so the small part relates to the large as the large does to the whole. Designers use it to size columns, type scales, and crops that feel settled — as long as it stays a tool, not a rule.", "url": "https://www.ux-guidelines.com/golden-ratio.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/golden-ratio.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Golden Ratio: Proportion, Type Scales, and When to Ignore It", "item": "https://www.ux-guidelines.com/golden-ratio.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -88,7 +88,7 @@
   .gr-gen .thumb i.b { background: var(--il-accent); opacity: 1; flex: 1.618; }
   @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -207,6 +207,24 @@
       <div><div class="label">Source</div><div class="value">Euclid’s Elements, Book VI</div></div>
       <div><div class="label">In practice</div><div class="value">62/38 splits, type scales, crops</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>You are sizing a two-column article template and must decide how much width the sidebar takes next to the main content.</li>
+      <li>A type scale for an editorial redesign needs steps that read as distinct without inventing a new size for every heading level.</li>
+      <li>Someone presents a logo critique with a golden spiral overlaid on the mark as proof that the proportions are correct.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Split the layout 62/38 instead of in half when one column leads, and keep peer columns equal rather than forcing the ratio.</li>
+      <li>Build the type scale from a 1.618 multiplier for editorial work, then soften it to 1.25 or 1.333 when screens get dense.</li>
+      <li>Measure the proportion under any spiral overlay before accepting it, and drop the ratio wherever it breaks the 8-point spacing scale.</li>
+    </ul>
   </div>
 </section>
 

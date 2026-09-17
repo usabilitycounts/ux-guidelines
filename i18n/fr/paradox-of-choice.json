@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "L'IA promet de guérir la surcharge en décidant pour vous — échangeant la paralysie du trop grand nombre d'options contre la question de savoir s'il faut faire confiance au choix."
+ ],
+ ".apply-list li": [
+  "Vous concevez une page de tarifs et l’équipe veut afficher chaque variante de forfait jamais vendue par les commerciaux.",
+  "Un catalogue de 2 000 références convertit mal, et les analyses montrent de longues sessions qui finissent en paniers abandonnés.",
+  "L’intégration demande aux nouveaux utilisateurs de choisir un modèle parmi quarante avant qu’ils sachent ce dont ils ont besoin.",
+  "Réduisez tout ensemble d’options visible à la plage de 3 à 10, puis regroupez ou filtrez ce qui reste.",
+  "Marquez une option comme recommandée et présélectionnez-la, pour que la valeur par défaut porte ceux qui ne veulent pas comparer.",
+  "Limitez la comparaison côte à côte à 4 éléments dans les specs, et laissez l’utilisateur choisir les 2 à confronter."
  ]
 }

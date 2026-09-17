@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Assistenten absorbieren enorme extrinsische Last — und prägen eine neue: die Anstrengung, zu verifizieren, was die Maschine behauptet."
+ ],
+ ".apply-list li": [
+  "Nutzende brechen ein mehrstufiges Formular auf halbem Weg ab, und Session-Aufzeichnungen zeigen sie dasselbe Feldlabel immer wieder lesen.",
+  "Ihr prüft ein dichtes Dashboard, in dem Hilfetext, Fehlermeldungen und Regeln allesamt einen Klick vom Bedienelement entfernt liegen.",
+  "Neukunden landen beim ersten Start in einem leeren Arbeitsbereich und fragen den Support, womit sie anfangen sollen.",
+  "Entfernt zuerst Dekoration, doppelte Labels und konkurrierende Akzente: die extrinsische Last ist die einzige der drei, die ihr löschen könnt.",
+  "Zerlegt die inhärente Schwierigkeit in einen Wizard oder sinnvolle Voreinstellungen, damit sie nicht vollständig in einer einzigen Ansicht auftrifft.",
+  "Ersetzt die leere Fläche durch Vorlagen, Beispieldaten oder einen vorbefüllten Startpunkt, die Interface-Fassung des ausgearbeiteten Beispiels."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Models take seconds, not milliseconds. The threshold doesn’t bend — so the interface has to spend the wait honestly."
+ ],
+ ".apply-list li": [
+  "Engineering asks whether a 900 millisecond filter is good enough to ship, and nobody has a number to answer with.",
+  "You are reviewing a save flow where the button sits dead for a second before anything visibly happens.",
+  "Support reports that people batch their edits into one big session instead of working continuously through the day.",
+  "Budget every interaction at under 400 ms and record the target in the spec beside the visual requirements.",
+  "Measure the slowest real-world path on real devices and networks rather than the demo laptop on office wifi.",
+  "Acknowledge within 100 ms with a skeleton, pressed state, or optimistic update whenever the real answer takes longer."
  ]
 }

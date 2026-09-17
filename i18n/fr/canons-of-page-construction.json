@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Les documents et réponses générés arrivent comme du texte sans page autour ; les canons sont la façon dont un produit donne une page à ce texte."
+ ],
+ ".apply-list li": [
+  "Vous concevez un article long, un centre d’aide ou un gabarit de notes de version que l’on lira pendant plusieurs minutes.",
+  "Le texte courant s’étale d’un bord à l’autre sur un grand écran et les testeurs disent perdre le fil des lignes.",
+  "Votre assistant renvoie désormais des réponses si longues qu’une bulle de conversation étirée sur toute la fenêtre ne convient plus.",
+  "Limitez la colonne de lecture à 60 à 70 caractères de texte courant et laissez le reste de la fenêtre en marge.",
+  "Donnez au bloc plus d’espace en dessous qu’au-dessus, selon le rapport classique 2:3:4:6 entre marges intérieure, de tête, extérieure et de pied.",
+  "Exprimez les marges en interlignes dans vos jetons d’espacement : deux ou trois interlignes au-dessus d’un titre, quatre sous le bloc."
  ]
 }

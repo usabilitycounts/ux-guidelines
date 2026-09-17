@@ -133,5 +133,13 @@
  ],
  ".law-formula-note": [
   "le ratio varie ; le déséquilibre est l'essentiel."
+ ],
+ ".apply-list li": [
+  "La planification trimestrielle démarre avec quatre-vingt-dix éléments au backlog et chaque équipe jure que sa part est la plus critique.",
+  "Une page est lente et l’équipe technique veut tout réécrire avant que quiconque ait profilé le vrai chemin critique.",
+  "Quelqu’un propose de supprimer les fonctions peu utilisées sans avoir vérifié si les admins ou l’accessibilité en dépendent.",
+  "Classez le backlog par impact multiplié par la confiance et divisé par l’effort, puis demandez si la moitié basse peut disparaître.",
+  "Triez les journaux de plantage et la file de support par fréquence avant le tri, pour faire remonter les bugs les plus douloureux.",
+  "Segmentez l’usage des fonctionnalités par qui s’en sert, et signalez ce qui est vital pour les admins, l’astreinte ou l’accessibilité."
  ]
 }

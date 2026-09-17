@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Los asistentes absorben una carga extrínseca enorme — y acuñan una nueva: el esfuerzo de verificar lo que la máquina afirma."
+ ],
+ ".apply-list li": [
+  "Los usuarios abandonan un formulario de varios pasos a mitad de camino, y las grabaciones muestran relecturas repetidas de la misma etiqueta.",
+  "Revisas un panel denso donde la ayuda, los mensajes de error y las reglas viven todos a un clic del control.",
+  "Los clientes nuevos llegan a un espacio de trabajo vacío en el primer arranque y preguntan a soporte por dónde empezar.",
+  "Elimina primero la decoración, las etiquetas duplicadas y los acentos que compiten: la carga extrínseca es la única de las tres que puedes borrar.",
+  "Secuencia la dificultad propia de la tarea en un asistente por pasos o en valores por defecto, para que no llegue toda de golpe.",
+  "Sustituye la pantalla en blanco por plantillas, datos de ejemplo o un punto de partida precargado, la versión de interfaz del ejemplo resuelto."
  ]
 }

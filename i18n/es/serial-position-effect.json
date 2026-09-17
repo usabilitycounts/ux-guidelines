@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Los modelos tienen su propio problema con el medio — los contextos largos recuerdan mejor su inicio y su final. La vieja curva de la memoria encontró una máquina nueva."
+ ],
+ ".apply-list li": [
+  "Se reordena una barra de pestañas y el equipo debe decidir qué destino merece el primer lugar.",
+  "Estás ordenando un flujo de alta que mezcla el relato de valor con permisos y formularios de cuenta.",
+  "En un prompt de sistema largo, las instrucciones del medio se ignoran una y otra vez durante las evaluaciones.",
+  "Ordena los elementos del menú por importancia y ancla los dos principales en la primera y última posición.",
+  "Sitúa en el centro de la lista lo de menor peso: subpáginas de ajustes, enlaces legales y casos extremos.",
+  "Abre el flujo con el valor y ciérralo con el logro, dejando formularios y permisos en medio."
  ]
 }

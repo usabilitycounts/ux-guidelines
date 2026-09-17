@@ -191,5 +191,13 @@
   "Beziehung",
   "Verteilung",
   "Zusammensetzung"
+ ],
+ ".apply-list li": [
+  "Ein Dashboard-Review kippt in eine Diskussion, weil das Kreisdiagramm neun Segmente hat, die niemand in eine Reihenfolge bringt.",
+  "Sie spezifizieren einen Analytics-Screen und müssen entscheiden, ob die Frage Vergleich, Zusammenhang, Verteilung oder Zusammensetzung betrifft.",
+  "Das Team will zeigen, wie Nutzer durch einen Funnel laufen, doch die gestapelten Säulen verdecken den Absprung.",
+  "Schreiben Sie im Spec über jedes Diagramm die Frage, die es beantwortet, und wählen Sie dann die passende Kodierung.",
+  "Begrenzen Sie Torten- und Donut-Diagramme auf 3 Segmente und verlagern Sie alles Größere in ein sortiertes horizontales Balkendiagramm.",
+  "Prüfen Sie jedes KI-erzeugte Diagramm gegen die gestellte Frage, denn ein Modell erzählt auch zur falschen Kodierung überzeugend."
  ]
 }

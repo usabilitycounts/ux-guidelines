@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Models have their own middle problem — long contexts recall their start and end best. The old memory curve found a new machine."
+ ],
+ ".apply-list li": [
+  "A tab bar is being reordered and the team must decide which destination earns the first slot.",
+  "You are sequencing an onboarding flow that mixes a value story with permission prompts and account forms.",
+  "A long system prompt keeps having its middle instructions ignored during evaluation runs of an AI feature.",
+  "Rank menu items by importance, then anchor the top two at the first and last positions of the list.",
+  "Park low-stakes content such as settings sub-pages, legal links, and edge cases in the middle of a list.",
+  "Open a flow with the value and close it with the win, keeping forms and permissions between them."
  ]
 }

@@ -86,5 +86,13 @@
  ],
  ".ai-divider p": [
   "Asking is starting to replace browsing. The nav doesn’t disappear — it becomes a fallback and a map for what the assistant can do."
+ ],
+ ".apply-list li": [
+  "A new section is being added and nobody can say whether it belongs in global nav, local nav, or the footer.",
+  "Analytics show users landing three levels deep from search with no sense of where they sit in the hierarchy.",
+  "A prompt box is being added to the product and the team wonders whether menus are still worth maintaining.",
+  "Assign each destination to one layer — global, local, utility, or footer — and write the rule into the navigation spec.",
+  "Add breadcrumbs reading Home, Section, Page wherever the hierarchy runs deep enough that users need a path back up.",
+  "Treat the assistant as a parallel route, keeping menus as the visible map of what is possible and the fallback."
  ]
 }

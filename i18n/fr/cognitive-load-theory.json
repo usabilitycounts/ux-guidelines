@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les assistants absorbent une énorme charge extrinsèque — et en frappent une nouvelle : l'effort de vérifier ce que la machine affirme."
+ ],
+ ".apply-list li": [
+  "Les utilisateurs abandonnent un formulaire en plusieurs étapes à mi-parcours, et les rejeux de session les montrent relire sans cesse le même libellé.",
+  "Vous relisez un tableau de bord dense où l’aide, les messages d’erreur et les règles se trouvent tous à un clic du contrôle.",
+  "Les nouveaux clients arrivent sur un espace de travail vide au premier lancement et demandent au support par où commencer.",
+  "Supprimez d’abord la décoration, les libellés redondants et les accents concurrents : la charge extrinsèque est la seule des trois que vous pouvez effacer.",
+  "Séquencez la difficulté propre à la tâche dans un assistant pas à pas ou des valeurs par défaut, pour qu’elle n’arrive pas d’un bloc.",
+  "Remplacez la page vierge par des modèles, des données d’exemple ou un point de départ pré-rempli : l’équivalent d’un exemple résolu."
  ]
 }

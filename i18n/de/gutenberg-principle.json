@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "Eine Konversation hat keine Quadranten — wird die Antwort direkt geliefert, weicht das Vier-Zonen-Lesemodell einem einzigen vertikalen Strom."
+ ],
+ ".apply-list li": [
+  "Sie setzen eine reine Textseite mit Nutzungsbedingungen oder einen Newsletter, auf dem nichts außer Schrift den Bildschirm füllt.",
+  "Das Lokalisierungsteam fragt, wo Logo und Anmeldebutton in den arabischen und hebräischen Versionen stehen sollen.",
+  "Die Preise stehen unten links auf einer dichten Dokumentseite, und der Support hört immer wieder, dass Kunden sie nie gesehen haben.",
+  "Setzen Sie den primären Call to Action in den Terminalbereich unten rechts, wo der diagonale Blickverlauf von selbst zur Ruhe kommt.",
+  "Verschieben Sie Rechtstexte und Fußnoten in die schwache Brachzone und verstecken Sie dort niemals etwas, das gelesen werden muss.",
+  "Prüfen Sie vor dem Anwenden der vier Quadranten, ob die Seite wirklich homogen ist, denn ein starkes Bild ersetzt die Lesegravitation durch ein F-Muster."
  ]
 }

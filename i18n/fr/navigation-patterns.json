@@ -86,5 +86,13 @@
  ],
  ".ai-divider p": [
   "Demander commence à remplacer naviguer. La navigation ne disparaît pas — elle devient un repli et une carte de ce que l'assistant sait faire."
+ ],
+ ".apply-list li": [
+  "Une nouvelle section arrive et personne ne sait si elle relève de la navigation globale, de la navigation locale ou du pied de page.",
+  "Les analyses montrent des arrivées depuis la recherche à trois niveaux de profondeur, sans repère sur la position dans l’arborescence.",
+  "Un champ de prompt est ajouté au produit et l’équipe se demande si les menus valent encore l’effort de maintenance.",
+  "Attribuez chaque destination à une seule couche — globale, locale, utilitaire ou pied de page — et inscrivez la règle dans la spécification.",
+  "Ajoutez un fil d’Ariane du type Accueil, Section, Page partout où la hiérarchie est assez profonde pour exiger un retour.",
+  "Traitez l’assistant comme une voie parallèle et gardez les menus comme carte visible du possible et filet de sécurité."
  ]
 }

@@ -157,5 +157,13 @@
  ],
  ".ai-divider p": [
   "“Less, but better” and “honest” are the principles that matter most when every product is tempted to bolt on a chatbot."
+ ],
+ ".apply-list li": [
+  "A stakeholder asks for an AI assistant in the product because competitors shipped one, not because any user task needs it.",
+  "Marketing copy promises capabilities the build cannot deliver, and the onboarding screens are written to match the promise.",
+  "Someone proposes a refresh chasing the current visual trend, on a product whose customers will still use it in ten years.",
+  "Run a design review against all 10 principles, asking of each screen what can be removed before anything is added.",
+  "Test understandability by handing the build to someone with no manual and watching whether the structure explains itself.",
+  "Check honesty by comparing each marketing claim with actual product behavior, and strike anything the interface cannot back up."
  ]
 }

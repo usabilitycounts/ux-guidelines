@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Les images générées et recadrées automatiquement ont besoin d’une règle à laquelle les mesurer ; les tiers sont la plus simple."
+ ],
+ ".apply-list li": [
+  "Vous composez une section héros et la pile de titres centrée paraît figée à côté de la capture produit.",
+  "Les vignettes sont recadrées automatiquement à plusieurs tailles et le sujet se retrouve coupé sur les bords.",
+  "Une revue de tableau de bord soulève la question : laquelle des six tuiles doit mener l’écran.",
+  "Superposez une grille de trois par trois au maquettage du héros et placez l’élément focal sur une intersection.",
+  "Enregistrez un point focal x et y par image afin que chaque recadrage garde le sujet sur une ligne de tiers.",
+  "Placez le bloc de titre dans le tiers gauche et laissez l’image produit occuper les deux tiers restants."
  ]
 }

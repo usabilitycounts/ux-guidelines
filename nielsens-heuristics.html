@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Nielsen&#x27;s 10 Heuristics: The Usability Checklist, Explained — UX Guidelines">
 <meta name="twitter:description" content="Jakob Nielsen&#x27;s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Nielsen’s 10 Heuristics: The Usability Checklist, Explained", "description": "Jakob Nielsen&#x27;s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example.", "url": "https://www.ux-guidelines.com/nielsens-heuristics.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/nielsens-heuristics.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "Nielsen’s 10 Heuristics: The Usability Checklist, Explained", "item": "https://www.ux-guidelines.com/nielsens-heuristics.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -366,7 +366,7 @@
   .hx .think b:nth-child(3) { animation-delay: 0.4s; }
   @keyframes dot-think { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -484,6 +484,24 @@
       <div><div class="label">Source</div><div class="value">Refined from 249 analyzed usability problems</div></div>
       <div><div class="label">In practice</div><div class="value">Run heuristic reviews before user tests</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A release is two weeks out and there is no budget for a usability study before it ships.</li>
+      <li>Two teams shipped the same action under different names, and the design review needs a shared vocabulary for the problem.</li>
+      <li>Your generation endpoint takes ten seconds and users are reloading the page because nothing on screen says anything is happening.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Run a heuristic review against all ten before booking user tests, logging each finding under the heuristic it violates.</li>
+      <li>Rewrite every error message to name the problem in plain language and state the one step that fixes it.</li>
+      <li>Ship a stop button mid-stream and a regenerate after it, so the model’s first answer is a draft rather than a dead end.</li>
+    </ul>
   </div>
 </section>
 

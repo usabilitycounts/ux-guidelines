@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "die Antwortzeit, unter der Aufmerksamkeit, Flow und Produktivität erhalten bleiben."
+ ],
+ ".apply-list li": [
+  "Die Entwicklung fragt, ob ein Filter mit 900 Millisekunden gut genug zum Ausliefern ist, und niemand hat eine Zahl parat.",
+  "Sie prüfen einen Speichern-Flow, in dem der Button eine Sekunde lang tot wirkt, bevor sichtbar etwas passiert.",
+  "Der Support meldet, dass Nutzer ihre Änderungen in einer großen Sitzung bündeln, statt über den Tag verteilt zu arbeiten.",
+  "Geben Sie jeder Interaktion ein Budget von unter 400 ms und halten Sie diesen Zielwert im Spec neben den visuellen Anforderungen fest.",
+  "Messen Sie den langsamsten realen Pfad auf echten Geräten und Netzen, nicht auf dem Demo-Laptop im Büro-WLAN.",
+  "Quittieren Sie innerhalb von 100 ms mit Skeleton, Pressed-State oder optimistischem Update, wenn die echte Antwort länger braucht."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Chat answers and agent reasoning are disclosure problems: the short answer first, the working shown to those who ask."
+ ],
+ ".apply-list li": [
+  "A settings screen has grown to sixty controls and new users cannot tell which three they actually need to touch.",
+  "Every field is on one screen, and that wall of inputs is where most people abandon the flow entirely.",
+  "Support tickets keep asking where a familiar option went after it was moved behind an overflow menu labeled More.",
+  "Pick layer one from usage data rather than opinion, keeping visible only the options that cover the great majority of tasks.",
+  "Label every disclosure control so people can predict what is behind it, because an accordion named More never gets opened.",
+  "Split a long form into a wizard that puts one decision on each step, and reserve tooltips for detail that stays in place."
  ]
 }

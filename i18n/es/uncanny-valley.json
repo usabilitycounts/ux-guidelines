@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mori dibujó la curva para rostros y cuerpos. La IA la llevó a terreno nuevo: voces que respiran casi bien, y prosa que es casi — pero no del todo — como escribe una persona."
+ ],
+ ".apply-list li": [
+  "Estás eligiendo entre un avatar fotorrealista y un personaje ilustrado para el asistente de onboarding del producto.",
+  "Se está ajustando una voz sintética de soporte con respiraciones y muletillas para que suene más humana.",
+  "Marketing quiere que las respuestas redactadas por IA parezcan escritas en persona por alguien del equipo con nombre.",
+  "Elige una orilla en la especificación antes de construir: estilización honesta o realismo impecable, nunca el punto medio caro.",
+  "Presupuesta de forma explícita el último cinco por ciento del realismo, porque ahí viven los ojos, la piel y el ritmo.",
+  "Declara la máquina como máquina en los textos, para que se juzgue como software capaz y no como persona defectuosa."
  ]
 }

@@ -112,5 +112,13 @@
  ],
  ".ai-divider p": [
   "AI is the most powerful complexity-absorber yet — and the most tempting place to hide complexity the user still needs to see."
+ ],
+ ".apply-list li": [
+  "A blank text field ships quickly but every user has to work out the accepted format alone.",
+  "A simplification push proposes hiding steps the task genuinely requires, such as dates, seats, or fares.",
+  "An AI feature resolves a messy request end to end and the trade-offs it made stay invisible.",
+  "Separate inherent complexity from accidental friction in the spec, delete the accidental, then decide who absorbs the rest.",
+  "Shift work into the system with smart defaults, autofill, and format detection rather than adding another required field.",
+  "Layer advanced options behind a More control so the common path stays simple without losing the depth."
  ]
 }

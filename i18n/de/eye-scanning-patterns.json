@@ -152,5 +152,13 @@
  ],
  ".ai-divider p": [
   "Sitzt eine KI-Antwort oben auf der Seite, weichen die klassischen Scanmuster dem Lesen der Antwort — und dem Prüfen ihrer Quellen."
+ ],
+ ".apply-list li": [
+  "Eine lange Artikelseite verliert Leser auf halbem Weg, und ihre Zwischenüberschriften heißen nur Überblick oder Mehr Informationen.",
+  "Sie gestalten eine reduzierte Landingpage mit einem einzigen Call-to-Action, und das Team streitet über dessen Platzierung.",
+  "Eine Einstellungstabelle wiederholt in jeder Zeile dasselbe erste Wort, und Nutzer übersehen den geänderten Wert.",
+  "Setzen Sie den gesuchten Begriff in die ersten beiden Wörter jeder Überschrift und jedes Links.",
+  "Platzieren Sie den primären Call-to-Action auf reduzierten Marketingseiten in der Endecke des Z.",
+  "Variieren Sie die Zeilenanfänge in Tabellen und Listen, damit das Auge kein identisches Präfix überspringt."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mosier and Skitka studied a cockpit. Now every writing tool, code editor, and search box offers automated answers — and the accept button is always one tap away."
+ ],
+ ".apply-list li": [
+  "You are adding a model suggestion to a field that an operator used to fill in by hand from their own judgment.",
+  "A compliance workflow requires human review, and the audit log shows reviewers approving nearly every item within a few seconds.",
+  "The team is deciding which of three ranked results to pre-select as the default in a search or recommendation surface.",
+  "Audit every pre-filled value and pre-selected default in the spec, and treat its accuracy as a safety requirement, not a convenience.",
+  "Match confirmation effort to the cost of being wrong: one tap for low-stakes suggestions, a reviewable diff for consequential ones.",
+  "Show sources, confidence, and what the system did not check, and make disagreeing with the suggestion a first-class action."
  ]
 }

@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generierte und automatisch beschnittene Bilder brauchen eine Regel, an der man sie messen kann; die Drittel sind die einfachste."
+ ],
+ ".apply-list li": [
+  "Ein Hero-Bereich entsteht und der zentrierte Titelblock wirkt neben dem Produkt-Screenshot statisch und unbewegt.",
+  "Karten-Thumbnails werden in mehreren Größen automatisch beschnitten und das Motiv wird immer wieder am Rand abgeschnitten.",
+  "Ein Dashboard-Review stellt die Frage, welche der sechs Kacheln den Überblicksbildschirm anführen soll.",
+  "Legen Sie ein Drei-mal-drei-Raster über das Hero-Mockup und rücken Sie das Fokusmotiv auf einen Schnittpunkt.",
+  "Hinterlegen Sie pro Bild einen Fokuspunkt aus x und y, damit jeder Zuschnitt das Motiv auf einer Drittellinie hält.",
+  "Setzen Sie den Textblock in das linke Drittel und lassen Sie dem Produktbild die verbleibenden zwei Drittel."
  ]
 }

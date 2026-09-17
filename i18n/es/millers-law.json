@@ -151,5 +151,13 @@
  ],
  ".law-formula-note": [
   "el alcance de la memoria de trabajo que Miller observó en distintas tareas."
+ ],
+ ".apply-list li": [
+  "Un formulario de registro reúne cuarenta campos en una sola página y el equipo debate si dividirlo en pasos.",
+  "Los tickets de soporte muestran usuarios que se equivocan al copiar un código de confirmación desde el correo a otra pantalla.",
+  "Una revisión de arquitectura de información cuelga dieciocho elementos de un mismo nivel y la gente retrocede constantemente.",
+  "Agrupa códigos, números de tarjeta e IBAN en bloques para que el ojo lea trozos en lugar de una cadena continua.",
+  "Planifica en torno a cuatro bloques en vez de siete, la cifra que respalda Cowan, siempre que el usuario deba arrastrar información.",
+  "Distingue en la especificación lo que hay que recordar de lo que se ve: el techo solo aplica a la memoria."
  ]
 }

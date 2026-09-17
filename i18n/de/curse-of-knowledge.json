@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Prompts setzen Kontext voraus, den das Modell nicht hat — und Modelle erklären mit Wissen, das der Leser nicht hat. Der Fluch wirkt jetzt in beide Richtungen."
+ ],
+ ".apply-list li": [
+  "Ein Support-Ticket stellt immer wieder dieselbe Frage zu einer Funktion, die das Team für selbsterklärend hält, und intern versteht niemand warum.",
+  "Sie benennen ein neues Objekt im Produkt, und das im Daily längst gebräuchliche Wort wirkt vollkommen alltäglich.",
+  "Onboarding-Texte und der Leerzustand stammen von der Entwicklerin, die das Feature gebaut hat, und die Aktivierung bewegt sich nicht.",
+  "Führen Sie einen Usability-Test mit fünf Personen durch, die das Produkt noch nie gesehen haben, und notieren Sie ihre genauen Worte.",
+  "Markieren Sie in den Onboarding-Texten jeden Begriff, den es nur intern gibt, und erklären Sie ihn bei der ersten Nennung.",
+  "Versehen Sie jedes Icon mit einem sichtbaren Label, bis ein Test die Wiedererkennung belegt, statt sie einfach vorauszusetzen."
  ]
 }

@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Machines now group content too — but whether a human sees structure or noise still comes down to the same laws of perception."
+ ],
+ ".apply-list li": [
+  "You are reviewing a settings screen where every section is fenced by a border and the page reads as boxes inside boxes.",
+  "A form ships with uneven spacing, so the label for one field sits closer to the field above it than to its own.",
+  "Your team is adding a staggered reveal to a dashboard list and needs to decide which tiles animate together as one unit.",
+  "Group related fields with spacing first, then add a divider or panel only where proximity alone fails to separate two neighboring sets.",
+  "Reserve shared color, shape, or size for items that truly belong to one category, so similarity never implies a group by accident.",
+  "Squint at a static mockup in design review and write down the groups you see before checking them against the intended structure."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mosier et Skitka ont étudié un cockpit. Désormais chaque outil d’écriture, éditeur de code et moteur de recherche propose des réponses automatisées — et le bouton accepter est toujours à un geste."
+ ],
+ ".apply-list li": [
+  "Vous ajoutez une suggestion du modèle dans un champ qu’un opérateur remplissait auparavant lui-même, selon son propre jugement.",
+  "Un flux de conformité exige une relecture humaine, et le journal d’audit montre des validations en quelques secondes, presque à chaque fois.",
+  "L’équipe doit choisir lequel des trois résultats classés sera présélectionné par défaut dans une recherche ou une recommandation.",
+  "Auditez chaque valeur pré-remplie et chaque option présélectionnée de la spécification : leur exactitude est une exigence de sécurité, pas un confort.",
+  "Calibrez l’effort de confirmation sur le coût de l’erreur : un tap pour les suggestions mineures, un diff à relire pour les décisions lourdes.",
+  "Affichez les sources, le niveau de confiance et ce qui n’a pas été vérifié, et faites du désaccord une action de premier plan."
  ]
 }

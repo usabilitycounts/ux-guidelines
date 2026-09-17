@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "La IA acelera los pasos que puedes ver — y revela otros nuevos que no podías, exactamente como predice la ley."
+ ],
+ ".apply-list li": [
+  "Un responsable pide fecha de lanzamiento en el kickoff, cuando el equipo solo tiene un plan de abajo arriba y ningún proyecto comparable citado.",
+  "La demo de la funcionalidad va bien, pero accesibilidad, rendimiento, textos y tres idiomas más siguen sin estar planificados.",
+  "Una pantalla de exportación se queda en el 99 % durante dos minutos y los usuarios cierran la pestaña dando el proceso por colgado.",
+  "Estima a partir de la duración real de cinco proyectos pasados comparables en lugar de sumar una lista de tareas que nadie ha entregado antes.",
+  "Reserva una línea propia en el plan para el último 10 %, con presupuesto para casos límite, accesibilidad, rendimiento y localización.",
+  "Muestra el tiempo transcurrido y los pasos completados en procesos largos en vez de una cuenta atrás que el sistema casi seguro incumplirá."
  ]
 }

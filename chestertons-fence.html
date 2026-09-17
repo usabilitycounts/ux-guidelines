@@ -37,11 +37,11 @@
 <meta name="twitter:title" content="Chesterton&#x27;s Fence: Understand It Before You Remove It — UX Guidelines">
 <meta name="twitter:description" content="G. K. Chesterton’s rule for reformers: the fence you find pointless was built by someone with a reason. Understand the reason first — then you’ve earned the right to remove it.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Chesterton’s Fence: Understand It Before You Remove It", "description": "G. K. Chesterton’s rule for reformers: the fence you find pointless was built by someone with a reason. Understand the reason first — then you’ve earned the right to remove it.", "url": "https://www.ux-guidelines.com/chestertons-fence.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/chestertons-fence.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "Chesterton’s Fence: Understand It Before You Remove It", "item": "https://www.ux-guidelines.com/chestertons-fence.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
 
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -160,6 +160,24 @@
       <div><div class="label">Source</div><div class="value">The Thing — “The Drift from Domesticity”</div></div>
       <div><div class="label">In practice</div><div class="value">Investigate before deleting</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Backlog grooming proposes deleting a low-usage feature that no one on the current team owns or remembers requesting.</li>
+      <li>You are scoping a ground-up redesign and the old screen carries odd confirmations, warnings, and margins nobody can explain.</li>
+      <li>A model-generated refactor suggests removing a retry, a sleep, or a redundant check that no comment justifies.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Trace the reason through git blame, the original ticket, and the person who was there before the removal enters a sprint.</li>
+      <li>Ship the deletion behind a flag with a rollback path, so an unseen dependency surfaces as a toggle rather than an incident.</li>
+      <li>Record the why in a code comment, an ADR, or a linked ticket whenever a fence stays, so the next reader finds the sign.</li>
+    </ul>
   </div>
 </section>
 

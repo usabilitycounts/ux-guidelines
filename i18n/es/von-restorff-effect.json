@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Cuando cada producto marca sus funciones de IA con el mismo destello, ya nada está aislado — y el énfasis elegido por la máquina plantea quién decide qué destaca."
+ ],
+ ".apply-list li": [
+  "Tres equipos quieren destacar su banner en el panel, y ahora todos los elementos compiten por la misma atención.",
+  "Estás maquetando una tabla de precios y debes decidir qué plan lleva el borde, la insignia y el tono.",
+  "Una pantalla tiene dos botones rellenos del mismo peso y nadie sabe decir cuál es la acción principal.",
+  "Cuenta los elementos destacados de cada pantalla y redúcelos a uno, porque cada énfasis extra debilita a los demás.",
+  "Acompaña el énfasis por color con grosor, un icono o un relleno para que la diferencia sobreviva al daltonismo (WCAG 1.4.1).",
+  "Pregunta en la revisión de diseño qué destaca más y corrige el layout si la respuesta no es lo más importante."
  ]
 }

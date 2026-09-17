@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "el tiempo de conducción integra la longitud del camino sobre su anchura."
+ ],
+ ".apply-list li": [
+  "Las sesiones de usabilidad muestran que el submenú en cascada se cierra cuando el cursor va en diagonal.",
+  "Un panel de ajustes pide un valor exacto con un deslizador y quienes prueban siempre se pasan de largo.",
+  "Una interacción de arrastre de escritorio pasa a táctil, sin hover y con el dedo tapando el recorrido.",
+  "Ensancha filas de menú, carriles de deslizador y tiradores: doblar el ancho del pasillo casi reduce el tiempo a la mitad.",
+  "Añade un triángulo de gracia o un breve retardo de hover para que sobreviva la diagonal hacia el submenú.",
+  "Sustituye los arrastres táctiles por toques, botones de paso o entrada numérica, y añade ajuste magnético."
  ]
 }

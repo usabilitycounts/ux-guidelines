@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Las imágenes generadas y recortadas automáticamente necesitan una regla contra la que medirlas; los tercios son la más simple."
+ ],
+ ".apply-list li": [
+  "Se está componiendo una sección hero y el bloque de titular centrado resulta estático junto a la captura del producto.",
+  "Las miniaturas se recortan automáticamente en varios tamaños y el sujeto acaba cortado por los bordes.",
+  "Una revisión del panel plantea cuál de las seis tarjetas de métricas debe encabezar la pantalla general.",
+  "Superpón una retícula de tres por tres sobre el mockup del hero y lleva el elemento focal a una intersección.",
+  "Guarda un punto focal x e y por imagen para que cada recorte mantenga al sujeto sobre una línea de tercios.",
+  "Coloca el bloque de titular en el tercio izquierdo y deja a la imagen del producto los dos tercios restantes."
  ]
 }

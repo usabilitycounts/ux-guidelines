@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les agents laissent désormais des boucles ouvertes en votre nom — brouillons, tâches en cours, travaux à moitié finis. Montrer l'inachevé, c'est ainsi que la confiance survit à la délégation."
+ ],
+ ".apply-list li": [
+  "Vous concevez l’onboarding et décidez combien d’étapes de configuration montrer avant que l’utilisateur atteigne le vrai travail.",
+  "Une jauge de complétude de profil est proposée, et l’équipe débat des champs qu’elle doit compter.",
+  "Des agents s’exécutent en arrière-plan pendant plusieurs minutes sans état visible, et les utilisateurs rouvrent l’onglet sans cesse.",
+  "Nommez explicitement les étapes restantes dans le stepper : un décompte précis exploite la tension qu’un « presque fini » gaspille.",
+  "Gardez les checklists d’onboarding courtes, réelles et achevables, et affichez une complétude située entre 60 et 90 pour cent.",
+  "Concevez un état terminé sans ambiguïté pour chaque boucle ouverte, car la libération est la vraie récompense attendue."
  ]
 }

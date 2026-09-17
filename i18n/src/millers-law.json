@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "The assistant can hold the chunks a user can’t — but the user still has to verify what they couldn’t keep in mind themselves."
+ ],
+ ".apply-list li": [
+  "A signup form has forty fields on one page and the team is deciding whether to split it into steps.",
+  "Support tickets show users mistyping a confirmation code they had to carry from an email into another screen.",
+  "An information architecture review puts eighteen items under one navigation level and people keep backtracking to find anything.",
+  "Format codes, card numbers, and IBANs into groups so the eye reads chunks instead of one run-on string.",
+  "Plan around four chunks rather than seven, the figure Cowan’s later research supports, whenever the user must carry something across steps.",
+  "Separate carry-it from see-it in the spec, applying the ceiling only where memory is required, not to on-screen item counts."
  ]
 }

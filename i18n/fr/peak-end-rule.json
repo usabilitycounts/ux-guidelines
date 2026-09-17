@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Une conversation avec un modèle est une expérience avec un pic et une fin. La dernière réponse — et la pire — est ce que l'utilisateur emporte."
+ ],
+ ".apply-list li": [
+  "Un tunnel d’achat se termine sur une page de succès vide, et personne n’a décidé ce que ce dernier écran doit laisser.",
+  "La rétention stagne malgré un parcours raccourci, car la refonte a grignoté des secondes sans créer le moindre moment fort.",
+  "La résiliation passe par une boîte de dialogue juridique qui devient le dernier souvenir qu’emporte un client qui part.",
+  "Cartographiez le parcours et repérez son pire moment, puis corrigez ce plantage, ce frais surprise ou ce formulaire perdu avant tout.",
+  "Concevez un point fort délibéré par parcours, placé là où la valeur arrive, comme la première publication ou le premier import réussi.",
+  "Réécrivez chaque écran final pour confirmer l’action, résumer le résultat et proposer une étape suivante évidente plutôt qu’une impasse."
  ]
 }

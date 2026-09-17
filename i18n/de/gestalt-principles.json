@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Maschinen gruppieren Inhalte jetzt auch — aber ob ein Mensch Struktur oder Rauschen sieht, entscheiden weiterhin dieselben Gesetze der Wahrnehmung."
+ ],
+ ".apply-list li": [
+  "Sie prüfen einen Einstellungsbildschirm, in dem jeder Abschnitt von einem Rahmen eingefasst ist und die Seite als Kästen in Kästen wirkt.",
+  "Ein Formular geht mit ungleichen Abständen live, sodass die Beschriftung eines Felds näher am Feld darüber steht als an ihrem eigenen.",
+  "Ihr Team ergänzt eine gestaffelte Einblendung in einer Dashboard-Liste und muss entscheiden, welche Kacheln sich gemeinsam als eine Einheit bewegen.",
+  "Gruppieren Sie verwandte Felder zuerst über Abstände und setzen Sie Trennlinien oder Flächen nur dort ein, wo Nähe allein nicht trennt.",
+  "Reservieren Sie gemeinsame Farbe, Form oder Größe für Elemente derselben Kategorie, damit Ähnlichkeit nie versehentlich eine Gruppe suggeriert.",
+  "Blinzeln Sie im Design-Review auf einen statischen Entwurf und notieren Sie die erkannten Gruppen, bevor Sie sie mit der geplanten Struktur abgleichen."
  ]
 }

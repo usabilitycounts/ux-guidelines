@@ -133,5 +133,13 @@
  ],
  ".ai-divider p": [
   "Los layouts generados pueden aplicar un sistema de razones en todas partes a la vez; el riesgo es aplicarlo donde la alineación importa más."
+ ],
+ ".apply-list li": [
+  "Estás definiendo una plantilla de artículo a dos columnas y debes decidir cuánto ancho ocupa la barra lateral junto al contenido principal.",
+  "Una escala tipográfica para un rediseño editorial necesita pasos claramente distintos sin inventar un tamaño nuevo para cada nivel de titular.",
+  "Alguien presenta una crítica de logotipo con una espiral áurea superpuesta sobre la marca como prueba de que las proporciones son correctas.",
+  "Divide el diseño en 62/38 en lugar de por la mitad cuando una columna manda, y deja iguales las columnas que están al mismo nivel.",
+  "Construye la escala tipográfica con un multiplicador de 1.618 en piezas editoriales y suavízala a 1.25 o 1.333 cuando la pantalla se vuelva densa.",
+  "Mide la proporción real bajo cualquier espiral superpuesta antes de darla por buena y descarta el ratio donde rompa la escala de espaciado de 8 puntos."
  ]
 }

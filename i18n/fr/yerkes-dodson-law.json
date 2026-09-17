@@ -106,5 +106,13 @@
  ],
  ".ai-divider p": [
   "L'IA peut lire où l'utilisateur se trouve sur la courbe — et abaisser l'activation exactement au bon moment, ou échouer à le faire."
+ ],
+ ".apply-list li": [
+  "Vous concevez un parcours de déclaration fiscale ou d’entretien annuel, où l’utilisateur arrive déjà chargé et tendu.",
+  "L’équipe growth propose un compte à rebours sur une étape de paiement qui exige de comparer plusieurs offres.",
+  "Les données montrent que les utilisateurs survolent un écran d’approbation hebdomadaire et laissent passer des erreurs.",
+  "Retirez les animations, ajoutez du blanc et montrez une progression régulière sur les parcours complexes pour rester sous le pic.",
+  "Réservez le retour haptique, le son et les micro-célébrations aux actions en un geste, où la stimulation rapporte en engagement.",
+  "Supprimez l’urgence fabriquée des décisions difficiles du backlog, et simplifiez la tâche plutôt que d’élever la pression."
  ]
 }

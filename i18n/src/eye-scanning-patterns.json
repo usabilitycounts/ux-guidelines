@@ -152,5 +152,13 @@
  ],
  ".ai-divider p": [
   "When an AI answer sits at the top of the page, the classic scan patterns give way to reading the response — and verifying its sources."
+ ],
+ ".apply-list li": [
+  "A long article page is losing readers midway, and its subheadings say things like Overview and More Information.",
+  "You are laying out a sparse landing page with one call to action and arguing about where it goes.",
+  "A settings table repeats the same leading word in every row, and users keep missing the value that changed.",
+  "Front-load the first two words of every heading and link with the term the reader is hunting for.",
+  "Place the primary call to action at the terminal corner of the Z on sparse marketing pages.",
+  "Vary row openings in tables and lists so the eye is not bypassing an identical prefix down the column."
  ]
 }

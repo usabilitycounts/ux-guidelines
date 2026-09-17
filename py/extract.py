@@ -15,6 +15,7 @@ SELECTORS = [
     "header h1", "header .tagline", "header .subtitle",
     ".law-origin .body-text", ".law-content .law-desc", ".law-equation",
     ".law-meta .label", ".law-meta .value",
+    ".apply-list li",
     ".card .tag", ".card h3", ".card .desc",
     ".meta .label", ".meta .value",
     ".meta-cell .label", ".meta-cell .value",

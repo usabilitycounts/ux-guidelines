@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "La interfaz conversacional vuelve a plantear cada una de las preguntas de Norman — ¿qué puedo hacer?, ¿funcionó?, ¿qué sabe de mi modelo?"
+ ],
+ ".apply-list li": [
+  "Las sesiones de usabilidad muestran que la gente pasa por alto un control porque parece una etiqueta y no algo pulsable.",
+  "Un interruptor de ajustes guarda en silencio y soporte ve usuarios que lo pulsan varias veces sin saber si quedó registrado.",
+  "Vas a lanzar un campo de chat en blanco y los usuarios no pueden saber qué es capaz de hacer el modelo.",
+  "Empareja cada affordance con un significante visible — una etiqueta, un subrayado, una flecha — para que capacidad y señal no diverjan.",
+  "Especifica la retroalimentación de cada acción indicando el canal — visual, sonoro o háptico — y el momento en que aparece.",
+  "Siembra el campo vacío con ejemplos sugeridos y muestra el razonamiento y las fuentes para cerrar ambos golfos."
  ]
 }

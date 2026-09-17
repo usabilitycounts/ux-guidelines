@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "L'interface conversationnelle repose chacune des questions de Norman — que puis-je faire, cela a-t-il marché, que sait-elle de mon modèle ?"
+ ],
+ ".apply-list li": [
+  "Les tests montrent que les participants ratent un contrôle parce qu’il ressemble à une étiquette plutôt qu’à un élément actionnable.",
+  "Un interrupteur de réglages enregistre en silence et le support voit des utilisateurs cliquer plusieurs fois, sans savoir si c’est pris en compte.",
+  "Vous livrez un champ de conversation vide et les utilisateurs ne devinent pas ce que le modèle sait faire.",
+  "Associez chaque affordance à un signifiant visible — libellé, soulignement, flèche — pour que la capacité et le signal ne divergent jamais.",
+  "Spécifiez le retour de chaque action en précisant le canal — visuel, sonore ou haptique — et le délai d’apparition.",
+  "Amorcez le champ vide avec des exemples suggérés et exposez le raisonnement et les sources, afin de refermer les deux gouffres."
  ]
 }

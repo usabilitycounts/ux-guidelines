@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "L'IA accélère les étapes que vous voyez — et en révèle de nouvelles que vous ne voyiez pas, exactement comme la loi le prédit."
+ ],
+ ".apply-list li": [
+  "Une partie prenante réclame une date de lancement dès le cadrage, alors que l’équipe n’a qu’un plan détaillé et aucun précédent comparable.",
+  "La démo de la fonctionnalité tourne, mais l’accessibilité, la performance, les textes et trois locales supplémentaires ne sont toujours pas planifiés.",
+  "Un écran d’export reste bloqué à 99 % pendant deux minutes et les utilisateurs ferment l’onglet, persuadés que le traitement a planté.",
+  "Estimez à partir des durées réelles de cinq projets passés comparables plutôt qu’en additionnant une liste de tâches jamais livrée auparavant.",
+  "Donnez aux 10 % finaux leur propre ligne dans le plan, avec un budget pour les cas limites, l’accessibilité, la performance et la localisation.",
+  "Affichez le temps écoulé et les étapes franchies dans les traitements longs, au lieu d’un compte à rebours que le système ratera presque sûrement."
  ]
 }

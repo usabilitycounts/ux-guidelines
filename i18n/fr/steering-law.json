@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "le temps de pilotage intègre la longueur du chemin sur sa largeur."
+ ],
+ ".apply-list li": [
+  "Les tests montrent que le sous-menu en cascade se referme dès que le curseur file en diagonale.",
+  "Un panneau de réglages exige une valeur exacte via un curseur et les testeurs dépassent constamment le chiffre.",
+  "Une interaction de glisser conçue pour le bureau passe au tactile, sans survol et avec le doigt masquant le trajet.",
+  "Élargissez les lignes de menu, les rails de curseur et les poignées : doubler la largeur divise par deux le temps.",
+  "Ajoutez un triangle de tolérance ou un court délai de survol pour que la diagonale vers le sous-menu survive.",
+  "Remplacez le glisser tactile par des taps, des boutons pas à pas ou une saisie numérique, avec aimantation."
  ]
 }

@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "AI lets you generate a “complete” system in a day — and then ship something that has no working ancestor to grow from."
+ ],
+ ".apply-list li": [
+  "A team proposes a two-year rewrite of the billing system with no working version shipping before the end.",
+  "You are scoping a design system and someone wants full token coverage for screens nobody has built yet.",
+  "A feature that worked for 50 pilot accounts is about to be rolled out to every customer at once.",
+  "Ship a walking skeleton that does one thing end-to-end, skipping polish, scale, and edge cases until it runs.",
+  "Ask what the smallest shippable version is next sprint whenever a grand plan arrives at the review.",
+  "Build only the component you have seen needed twice, and let the pattern library grow from shipped screens."
  ]
 }

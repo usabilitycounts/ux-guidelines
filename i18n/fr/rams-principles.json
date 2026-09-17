@@ -157,5 +157,13 @@
  ],
  ".ai-divider p": [
   "« Moins, mais mieux » et « honnête » sont les principes qui comptent le plus quand chaque produit est tenté de se greffer un chatbot."
+ ],
+ ".apply-list li": [
+  "Une partie prenante réclame un assistant IA parce que les concurrents en ont un, pas parce qu’une tâche utilisateur l’exige.",
+  "Le discours marketing promet des capacités que le produit ne tient pas, et l’onboarding est écrit pour coller à la promesse.",
+  "Quelqu’un propose un rafraîchissement calqué sur la tendance visuelle du moment, pour un produit que les clients utiliseront encore dans dix ans.",
+  "Menez une revue de design sur les 10 principes, en demandant pour chaque écran ce qui peut être retiré avant d’ajouter quoi que ce soit.",
+  "Testez la compréhension en confiant le produit à quelqu’un sans manuel et en observant si la structure s’explique d’elle-même.",
+  "Vérifiez l’honnêteté en confrontant chaque promesse marketing au comportement réel, et supprimez ce que l’interface ne peut pas tenir."
  ]
 }

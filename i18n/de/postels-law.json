@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Modelle sind die liberalsten Input-Parser, die je gebaut wurden — und das strengste Gremium bei der Frage, auf welche Interpretation sie sich festlegen."
+ ],
+ ".apply-list li": [
+  "Ein Registrierungsformular lehnt Telefonnummern mit Leerzeichen oder Punkten ab, und der Support hört ständig, dass dieses Feld blockiert.",
+  "Hunderte alte Links, Lesezeichen und gespeicherte Dateien zeigen auf URLs, die eine Umstrukturierung gleich verändert.",
+  "Ein Assistent deutet eine vage Anfrage wie eine Buchung am Freitag und legt sich still auf eine einzige Lesart fest.",
+  "Legen Sie je Feld die akzeptierten Eingabeformate fest und normalisieren Sie auf einen kanonischen Wert, statt erneutes Tippen zu verlangen.",
+  "Verpflichten Sie Ausgaben in der API-Spezifikation auf einen strikten Vertrag mit ISO 8601-Daten und einem stabilen Schema.",
+  "Ersetzen Sie Formatfehler durch eine bestätigbare Deutung und richten Sie Weiterleitungen ein, damit alte URLs und Dateien weiter funktionieren."
  ]
 }

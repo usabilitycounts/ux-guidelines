@@ -191,5 +191,13 @@
   "Relation",
   "Distribution",
   "Composition"
+ ],
+ ".apply-list li": [
+  "Une revue de tableau de bord tourne au débat parce que le camembert compte neuf parts impossibles à classer.",
+  "Vous spécifiez un écran d’analytique et devez trancher si la question porte sur la comparaison, la relation, la distribution ou la composition.",
+  "L’équipe veut montrer le parcours des utilisateurs dans un tunnel, et l’histogramme empilé masque l’endroit où ils abandonnent.",
+  "Inscrivez dans la spécification, au-dessus du graphique, la question à laquelle il répond, puis choisissez l’encodage qui y répond.",
+  "Limitez les camemberts et les donuts à 3 parts et basculez tout le reste vers un diagramme à barres horizontales classées.",
+  "Vérifiez chaque graphique généré par l’IA face à la question posée, car un modèle commente avec assurance un encodage inadapté."
  ]
 }

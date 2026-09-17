@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generated and auto-cropped imagery needs a rule it can be measured against; the thirds are the simplest one."
+ ],
+ ".apply-list li": [
+  "A hero section is being composed and the centered headline stack feels static beside the product screenshot.",
+  "Card thumbnails are auto-cropped at several sizes and the subject keeps getting sliced off at the edges.",
+  "A dashboard review raises the question of which of six metric tiles should lead the overview screen.",
+  "Overlay a three-by-three grid on the hero mockup and move the focal element onto one of the four crossings.",
+  "Store one x and y focal point per image so every crop size keeps the subject on a third line.",
+  "Put the headline block in the left third and let the product image take the remaining two-thirds."
  ]
 }

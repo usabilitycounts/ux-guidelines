@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "La IA promete curar la sobrecarga decidiendo por ti — lo que cambia la parálisis de demasiadas opciones por la pregunta de si confiar en la elección."
+ ],
+ ".apply-list li": [
+  "Estás diseñando una página de precios y el equipo quiere mostrar todas las variantes de plan que ventas haya vendido alguna vez.",
+  "Un catálogo de 2000 referencias convierte mal y la analítica muestra sesiones largas que terminan en carritos abandonados.",
+  "El onboarding pide a los usuarios nuevos elegir una plantilla entre cuarenta antes de que sepan qué necesitan.",
+  "Reduce cualquier conjunto visible de opciones al rango operativo de 3 a 10, y agrupa o filtra lo que sobre.",
+  "Marca una opción como recomendada y déjala preseleccionada, para que el valor por defecto guíe a quien no quiere comparar.",
+  "Limita la comparación lado a lado a 4 elementos en la especificación y deja que el usuario elija los 2 que enfrenta."
  ]
 }

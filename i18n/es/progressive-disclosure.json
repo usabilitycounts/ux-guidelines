@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Las respuestas de chat y el razonamiento de los agentes son problemas de divulgación: primero la respuesta corta, el desarrollo para quien lo pida."
+ ],
+ ".apply-list li": [
+  "Una pantalla de ajustes ha crecido hasta sesenta controles y los usuarios nuevos no distinguen cuáles tres les importan.",
+  "Todos los campos están en una sola pantalla, y ante ese muro de inputs la mayoría abandona el flujo por completo.",
+  "Los tickets de soporte preguntan una y otra vez dónde quedó una opción tras moverla a un menú de desbordamiento llamado Más.",
+  "Elige la primera capa con datos de uso y no con opiniones, dejando visible solo lo que cubre la gran mayoría de las tareas.",
+  "Etiqueta cada control de revelación para que se pueda predecir su contenido, porque un acordeón llamado Más nunca se abre.",
+  "Divide un formulario largo en un asistente con una decisión por paso, y reserva los tooltips para el detalle que se queda en su sitio."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mori a tracé la courbe pour les visages et les corps. L’IA l’a portée en terrain neuf : des voix qui respirent presque juste, et une prose presque — mais pas tout à fait — humaine."
+ ],
+ ".apply-list li": [
+  "Vous hésitez entre un avatar photoréaliste et un personnage illustré pour l’assistant d’onboarding que votre équipe développe.",
+  "Une voix de synthèse pour le support est réglée avec des respirations et des hésitations pour paraître plus humaine.",
+  "Le marketing veut que les réponses rédigées par l’IA semblent écrites personnellement par un membre identifié de l’équipe.",
+  "Choisissez une rive dans la spec avant le développement : stylisation assumée ou réalisme parfait, jamais l’entre-deux coûteux.",
+  "Budgétez explicitement les cinq derniers pour cent du réalisme, car la vallée se loge dans les yeux, la peau et le timing.",
+  "Annoncez la machine comme une machine dans les textes, pour qu’elle soit jugée comme un logiciel compétent, pas comme un humain défectueux."
  ]
 }

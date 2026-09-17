@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "A conversation with a model is an experience with a peak and an end. The last answer — and the worst one — is what the user carries away."
+ ],
+ ".apply-list li": [
+  "A checkout ends on a bare success page, and nobody has decided what the last screen should actually leave behind.",
+  "Retention is flat despite a shorter flow, because the redesign shaved seconds without giving the experience any memorable high point.",
+  "Cancellation is handled by a legal-looking confirmation dialog that becomes the final thing a departing customer remembers about you.",
+  "Map the journey and mark its single worst moment, then fix that crash, surprise charge, or lost form before polishing anything.",
+  "Engineer one deliberate high point per flow, placed where value actually lands, such as the first successful publish or import.",
+  "Rewrite every final screen to confirm what happened, summarize the result, and offer one obvious next step instead of a dead end."
  ]
 }

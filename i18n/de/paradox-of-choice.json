@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "KI verspricht, die Überlastung zu heilen, indem sie für Sie entscheidet — und tauscht die Lähmung durch zu viele Optionen gegen die Frage, ob man der Wahl vertraut."
+ ],
+ ".apply-list li": [
+  "Sie gestalten eine Preisseite, und das Team möchte jede Tarifvariante ausspielen, die der Vertrieb jemals verkauft hat.",
+  "Ein Katalog mit 2.000 Artikeln konvertiert schlecht, und die Analytics zeigen lange Sitzungen, die in abgebrochenen Warenkörben enden.",
+  "Das Onboarding verlangt von neuen Nutzern, aus vierzig Vorlagen zu wählen, bevor sie ihren Bedarf überhaupt einschätzen können.",
+  "Kürzen Sie jedes sichtbare Optionsset auf den Arbeitsbereich von 3 bis 10 und gruppieren oder filtern Sie den Rest.",
+  "Kennzeichnen Sie eine Option als Empfehlung und wählen Sie sie vor, damit der Standard alle Unentschlossenen trägt.",
+  "Begrenzen Sie den direkten Vergleich in der Spezifikation auf 4 Einträge und lassen Sie Nutzer 2 davon gegenüberstellen."
  ]
 }

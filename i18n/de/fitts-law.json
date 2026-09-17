@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "die Bewegungszeit wächst mit der Distanz (D) und schrumpft mit der Zielbreite (W)."
+ ],
+ ".apply-list li": [
+  "Ein Mobile-Release geht mit einem 32px-Icon-Button live, den Testpersonen beim ersten Tippen immer wieder verfehlen.",
+  "Sie platzieren eine destruktive Löschaktion, und das Mockup setzt sie winzig in die gegenüberliegende Ecke.",
+  "Eine Toolbar für Power-User wird überarbeitet, und das Team muss entscheiden, was einen Bildschirmrand oder eine Ecke verdient.",
+  "Dimensionieren Sie primäre Touch-Targets mit mindestens 44px und lassen Sie zwischen benachbarten Bedienelementen mindestens 8pt Abstand.",
+  "Vergrößern Sie die Klickfläche kleiner Icon-Buttons durch unsichtbares Padding, damit die Optik kompakt bleibt, das Ziel aber nicht.",
+  "Rücken Sie die wahrscheinlich nächste Aktion neben die gerade ausgeführte, statt den Zeiger über den ganzen Bildschirm zu schicken."
  ]
 }

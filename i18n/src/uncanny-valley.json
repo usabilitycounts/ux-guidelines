@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mori drew the curve for faces and bodies. AI walked it into new terrain: voices that breathe almost right, and prose that is almost — but not quite — how a person writes."
+ ],
+ ".apply-list li": [
+  "You are choosing between a photoreal avatar and an illustrated character for the onboarding assistant your team is building.",
+  "A synthetic voice for the support line is being tuned with breaths and filler words to sound more human.",
+  "Marketing wants AI-drafted replies to read as though a named person on the team wrote them personally.",
+  "Pick a shore in the design spec before build starts: honest stylization or flawless realism, never the expensive middle.",
+  "Budget the last five percent of realism work explicitly, because eyes, skin, and timing are where the valley lives.",
+  "Label the machine as a machine in copy, so users judge it as capable software rather than a defective person."
  ]
 }

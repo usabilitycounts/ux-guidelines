@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "KI verschiebt, wo die Kommunikation stattfindet — und das verschiebt leise das Organigramm, dann das Produkt."
+ ],
+ ".apply-list li": [
+  "Eine Einstellungsseite, die vier Teams gehört, liest sich wie vier verschiedene Seiten, jede mit eigenen Mustern und eigenem Ton.",
+  "Eine Reorganisation teilt ein Team in Mobile und Web, und das Checkout-Verhalten driftet schon nach zwei Releases auseinander.",
+  "Ihr wollt einen Monolithen in Services zerlegen, und die vorgeschlagenen Grenzen folgen den Berichtslinien des letzten Jahres.",
+  "Benennt für jede im Design-Review sichtbare Naht eine verantwortliche Person; gehört die Übergabe niemandem, ist genau das der Fehler.",
+  "Entwerft das Team vor der Architektur, mit dem inversen Conway-Manöver und den vier Teamtypen aus Team Topologies als Bauplan.",
+  "Behandelt jede Reorganisation als Designentscheidung: notiert, welche Produktgrenzen sich verschieben werden, und prüft die Vorhersage ein Quartal später."
  ]
 }

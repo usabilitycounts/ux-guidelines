@@ -37,11 +37,11 @@
 <meta name="twitter:title" content="Steering Law: Moving Through Tunnels, Menus, and Sliders — UX Guidelines">
 <meta name="twitter:description" content="Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Steering Law: Moving Through Tunnels, Menus, and Sliders", "description": "Johnny Accot and Shumin Zhai extended Fitts’s Law to movement along a constrained path: time grows with the tunnel’s length and shrinks with its width. It governs nested menus, sliders, and every drag.", "url": "https://www.ux-guidelines.com/steering-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/steering-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Design Actions And Controls"}, {"@type": "ListItem", "position": 3, "name": "Steering Law: Moving Through Tunnels, Menus, and Sliders", "item": "https://www.ux-guidelines.com/steering-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
 
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -164,6 +164,24 @@
       <div><div class="label">Source</div><div class="value">Beyond Fitts’ Law — CHI ’97</div></div>
       <div><div class="label">In practice</div><div class="value">Widen the path or shorten it</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Usability sessions show people losing a cascading submenu when their cursor cuts diagonally toward it.</li>
+      <li>A settings panel asks for an exact value through a slider and testers keep overshooting the number.</li>
+      <li>A desktop drag interaction is moving to touch, where there is no hover and the finger covers the path.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Widen menu rows, slider tracks, and drag handles; doubling a corridor’s width roughly halves the steering time.</li>
+      <li>Add a grace triangle or a short hover delay so a diagonal path to a submenu survives.</li>
+      <li>Replace drags on touch with taps, stepper buttons, or numeric entry, and add snapping for coarse moves.</li>
+    </ul>
   </div>
 </section>
 

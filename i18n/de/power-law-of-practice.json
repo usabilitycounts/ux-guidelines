@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "die Zeit pro Aufgabe (T) sinkt als Potenz der Zahl der Übungsdurchläufe (P)."
+ ],
+ ".apply-list li": [
+  "Neue Konten brechen bei der Einrichtung ab, und der erste Durchlauf braucht immer noch acht Minuten bis zum ersten Erfolg.",
+  "Tägliche Nutzer werden bei einer wiederkehrenden Aufgabe nicht mehr schneller und stecken auf einem Plateau ohne Ausweg fest.",
+  "Ein Redesign wird allein am ersten Eindruck gemessen, während die Vielnutzer still ihre eingeübten Abkürzungen verlieren.",
+  "Messen Sie die Zeit bis zum ersten Erfolg und drücken Sie das Setup mit Standardwerten, Vorbefüllung und überspringbaren Schritten nach unten.",
+  "Zeigen Sie die schnellere Technik in der Oberfläche selbst: Tastenkürzel und Befehlspalette direkt neben dem gewohnten Menüweg.",
+  "Prüfen Sie jeden Screen im Design-Review gegen zwei Kohorten: den Nutzer am ersten Tag und den Routinier mit Massenaktionen."
  ]
 }

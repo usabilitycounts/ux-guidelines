@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "AI promises to cure overload by deciding for you — which trades the paralysis of too many options for the question of whether to trust the pick."
+ ],
+ ".apply-list li": [
+  "You are designing a pricing page and the team wants to ship every plan variant the sales org has ever sold.",
+  "A catalog of 2,000 SKUs converts badly, and analytics show long sessions that end in abandoned carts rather than orders.",
+  "Onboarding asks new users to pick a template from forty options before they have any sense of what they need.",
+  "Cut any visible option set to the working range of 3 to 10, and group or filter whatever is left over.",
+  "Mark one option as recommended and pre-select it, so the default carries users who do not want to compare.",
+  "Cap side-by-side comparison at 4 items in the spec, and let users choose which 2 to put head to head."
  ]
 }

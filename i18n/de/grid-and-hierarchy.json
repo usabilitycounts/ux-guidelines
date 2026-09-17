@@ -135,5 +135,13 @@
  ".cat-label": [
   "Rastersysteme",
   "Visuelle Hierarchie"
+ ],
+ ".apply-list li": [
+  "Ein Karten-Dashboard ist über drei Releases verrutscht, und die Kacheln beginnen inzwischen an vier verschiedenen linken Kanten.",
+  "Das Marketing wünscht eine zweite Akzentfarbe auf einer Seite, auf der ein oranger Hauptbutton bereits mit einem roten Banner konkurriert.",
+  "Sie spezifizieren eine Vorlage für lange Artikel, in der Überschrift, Zwischenüberschrift und Fließtext auf einen Blick unterscheidbar sein müssen.",
+  "Legen Sie im Spec ein 12-Spalten-Raster fest, damit dieselbe Struktur Kompositionen mit zwei, drei, vier und sechs Spalten trägt.",
+  "Definieren Sie eine 3-stufige Typo-Skala aus Überschrift, Zwischenüberschrift und Fließtext und lassen Sie genau eine Akzentfarbe die Betonung tragen.",
+  "Prüfen Sie im Design-Review jede Kante gegen ein anderes Element, denn das eine Element ohne Bezug lässt das ganze Layout zufällig wirken."
  ]
 }

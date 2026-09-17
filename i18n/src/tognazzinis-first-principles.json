@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Anticipation and latency reduction — two of Tog’s oldest principles — are exactly the levers a model gives you, and exactly the levers it threatens to break."
+ ],
+ ".apply-list li": [
+  "A flow loses the user’s document, filter, or scroll position every time they come back the next morning.",
+  "An AI answer takes four seconds and the screen sits silent while people wonder whether it broke.",
+  "Power users run the same task a hundred times a day through an interface built for single items.",
+  "Audit a flow against the nineteen principles, starting with protecting work: auto-save, version history, crash recovery.",
+  "Add bulk actions, keyboard shortcuts, and recent items, then time the task run one hundred times.",
+  "Stream tokens or show a skeleton answer so nothing on screen stays silent for more than one second."
  ]
 }

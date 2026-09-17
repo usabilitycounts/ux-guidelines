@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les prompts présument un contexte que le modèle n'a pas — et les modèles expliquent avec un savoir que le lecteur n'a pas. La malédiction court désormais dans les deux sens."
+ ],
+ ".apply-list li": [
+  "Un même ticket de support revient sans cesse sur une fonctionnalité que l’équipe juge évidente, et personne en interne ne comprend pourquoi.",
+  "Vous nommez un nouvel objet du produit, et le mot déjà employé chaque matin en réunion vous paraît parfaitement limpide.",
+  "Les textes d’onboarding et l’état vide ont été rédigés par l’ingénieur qui a construit la fonctionnalité, et l’activation stagne.",
+  "Menez un test d’utilisabilité avec cinq personnes qui n’ont jamais vu le produit et notez les mots exacts qu’elles emploient.",
+  "Entourez dans vos textes d’onboarding chaque terme qui n’existe qu’en interne, puis définissez-le dès sa première apparition.",
+  "Associez à chaque icône un libellé visible tant qu’un test n’a pas prouvé sa reconnaissance, sans présumer que le symbole parle."
  ]
 }

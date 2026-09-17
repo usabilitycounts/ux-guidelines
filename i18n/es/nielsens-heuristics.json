@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Las diez heurísticas siguen vigentes — pero \"estado del sistema\", \"control del usuario\" y \"prevención de errores\" cobran un significado nuevo cuando el sistema es un modelo probabilístico."
+ ],
+ ".apply-list li": [
+  "Un lanzamiento sale en dos semanas y no hay presupuesto para un estudio de usabilidad antes de publicarlo.",
+  "Dos equipos publicaron la misma acción con nombres distintos y la revisión de diseño necesita un vocabulario común.",
+  "Tu generación tarda diez segundos y los usuarios recargan la página porque nada en pantalla indica que algo esté ocurriendo.",
+  "Realiza una evaluación heurística con las diez reglas antes de contratar pruebas con usuarios, registrando cada hallazgo bajo su heurística.",
+  "Reescribe cada mensaje de error para nombrar el problema en lenguaje claro e indicar el único paso que lo resuelve.",
+  "Entrega un botón de detener durante el streaming y otro de regenerar después, para que la primera respuesta sea un borrador."
  ]
 }

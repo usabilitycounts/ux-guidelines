@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Los modelos refactorizan código y rediseñan pantallas sin las notas de la reunión. La razón de la valla a menudo no vive en ningún lugar que la máquina pueda leer."
+ ],
+ ".apply-list li": [
+  "En el refinamiento del backlog se propone borrar una función de poco uso que nadie del equipo actual mantiene.",
+  "Estás acotando un rediseño desde cero y la pantalla vieja arrastra confirmaciones, avisos y márgenes que nadie sabe explicar.",
+  "Un refactor propuesto por un modelo quiere eliminar un retry, un sleep o una comprobación redundante sin comentario que la justifique.",
+  "Reconstruye el motivo con git blame, el ticket original y quien estaba entonces, antes de meter la eliminación en un sprint.",
+  "Publica el borrado tras una feature flag y con plan de reversión, para que una dependencia oculta aparezca como interruptor y no como incidente.",
+  "Anota el porqué en un comentario, un ADR o un ticket enlazado cada vez que la valla se queda, para quien llegue después."
  ]
 }

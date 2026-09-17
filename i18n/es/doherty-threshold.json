@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "el tiempo de respuesta bajo el cual la atención, el flujo y la productividad se mantienen."
+ ],
+ ".apply-list li": [
+  "Ingeniería pregunta si un filtro de 900 milisegundos es suficiente para lanzar, y nadie tiene una cifra con la que responder.",
+  "Estás revisando un flujo de guardado donde el botón se queda muerto un segundo antes de que ocurra algo visible.",
+  "Soporte informa de que la gente acumula sus ediciones en una sola sesión larga en lugar de trabajar durante el día.",
+  "Asigna a cada interacción un presupuesto por debajo de 400 ms y deja ese objetivo escrito en la especificación junto a lo visual.",
+  "Mide la ruta real más lenta en dispositivos y redes reales, no en el portátil de demo conectado al wifi de la oficina.",
+  "Confirma en menos de 100 ms con un esqueleto, un estado presionado o una actualización optimista cuando la respuesta tarde más."
  ]
 }

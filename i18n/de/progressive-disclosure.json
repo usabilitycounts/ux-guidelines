@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Chat-Antworten und Agenten-Begründungen sind Offenlegungsprobleme: die kurze Antwort zuerst, der Rechenweg für die, die danach fragen."
+ ],
+ ".apply-list li": [
+  "Ein Einstellungsbildschirm ist auf sechzig Bedienelemente angewachsen, und Neulinge erkennen nicht, welche drei sie tatsächlich brauchen.",
+  "Alle Felder stehen auf einem Screen, und an dieser Wand aus Eingaben bricht der Großteil der Leute den Flow ab.",
+  "Support-Tickets fragen immer wieder, wohin eine vertraute Option verschwunden ist, nachdem sie hinter ein Mehr-Menü wanderte.",
+  "Bestimmen Sie die erste Ebene aus Nutzungsdaten statt aus Meinungen und lassen Sie nur sichtbar, was die meisten Aufgaben abdeckt.",
+  "Beschriften Sie jedes Aufklapp-Element so, dass der Inhalt vorhersehbar ist; ein Akkordeon namens Mehr wird nie geöffnet.",
+  "Zerlegen Sie lange Formulare in einen Assistenten mit einer Entscheidung pro Schritt und behalten Sie Tooltips für Detail im Kontext."
  ]
 }

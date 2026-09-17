@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "A conversation has no quadrants — when the answer is returned directly, the four-zone reading model gives way to a single vertical stream."
+ ],
+ ".apply-list li": [
+  "You are laying out a plain-text terms page or a newsletter where nothing but type fills the screen.",
+  "A localization team asks where the logo and sign-up button should sit in the Arabic and Hebrew builds.",
+  "Pricing has been parked in the bottom-left of a dense document page and support keeps hearing that customers never saw it.",
+  "Place the primary call to action in the terminal area at bottom-right, where the diagonal sweep naturally comes to rest.",
+  "Move legal boilerplate and footnotes into the weak fallow corner, and never hide anything a reader must act on there.",
+  "Check whether the page is actually homogeneous before applying the four quadrants, because one strong image replaces gravity with an F-pattern."
  ]
 }

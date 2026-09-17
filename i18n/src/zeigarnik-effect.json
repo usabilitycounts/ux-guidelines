@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Agents leave loops open on your behalf now — drafts, running tasks, half-finished jobs. Showing what’s unfinished is how trust survives the delegation."
+ ],
+ ".apply-list li": [
+  "You are designing onboarding and deciding how many setup steps to show before the user reaches real work.",
+  "A profile completeness meter is proposed, and the team is arguing over which fields it should count.",
+  "Background agents run for minutes with no visible state, and users keep reopening the tab to check.",
+  "Name the remaining steps explicitly in the stepper, since specific counts recruit the tension that vague encouragement wastes.",
+  "Keep onboarding checklists short, real, and finishable, and show completeness somewhere between 60 and 90 percent.",
+  "Design an unmistakable done-state for every loop you open, because the release is the reward users came for."
  ]
 }

@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Las páginas generadas adoptan por defecto el número que el modelo más vio; el tamaño del grupo es una decisión que merece hacerse explícita."
+ ],
+ ".apply-list li": [
+  "Estás maquetando una página de marketing con cuatro bloques de funciones y la fila ha perdido su centro.",
+  "Se rediseña una página de precios y el equipo discute si lanzar dos planes o bien tres.",
+  "Un flujo de alta tiene siete pantallas y los responsables quieren que se sienta como un proceso breve.",
+  "Reduce una fila de cuatro tarjetas a tres y lleva la función sobrante a un enlace secundario.",
+  "Indica el número en la especificación y en el prompt: tres funciones, cinco pasos, un plan destacado.",
+  "Reserva la posición central para la opción que quieres que elijan y hazla mayor o más brillante."
  ]
 }

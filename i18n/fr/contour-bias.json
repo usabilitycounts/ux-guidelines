@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les interfaces générées livrent le même rayon amical par défaut, et les produits d’IA s’arrondissent pour sembler inoffensifs. La courbure est devenue une rhétorique — employez-la honnêtement."
+ ],
+ ".apply-list li": [
+  "Votre design system doit fixer un seul jeton de rayon d’angle et l’équipe hésite entre angles vifs, légers et entièrement arrondis.",
+  "Une boîte de confirmation destructive se referme trop facilement en test, et les participants trouvent que l’avertissement manquait de gravité.",
+  "La refonte de marque d’un outil de précision ou haut de gamme doit trancher si les angles doux affaiblissent la rigueur perçue.",
+  "Arrondissez les angles des boutons, cartes, champs et avatars pour qu’un contrôle paraisse sûr à presser avant même la lecture du libellé.",
+  "Gardez des formes angulaires pour les triangles d’alerte, badges d’erreur et symboles de danger : un angle doux chuchote là où une pointe crie.",
+  "Choisissez une seule échelle de courbure et imposez-la comme jeton à tous les boutons, dialogues et cartes, au lieu de mélanger les rayons."
  ]
 }

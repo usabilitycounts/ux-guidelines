@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mosier y Skitka estudiaron una cabina. Ahora cada herramienta de escritura, editor de código y buscador ofrece respuestas automatizadas — y el botón de aceptar está siempre a un toque."
+ ],
+ ".apply-list li": [
+  "Vas a añadir una sugerencia del modelo en un campo que hasta ahora rellenaba una persona con su propio criterio.",
+  "Un flujo de cumplimiento exige revisión humana, y el registro de auditoría muestra aprobaciones de casi todo en pocos segundos.",
+  "El equipo decide cuál de los tres resultados mejor posicionados se preselecciona por defecto en una búsqueda o recomendación.",
+  "Audita cada valor precargado y cada opción preseleccionada de la especificación, y trata su exactitud como un requisito de seguridad.",
+  "Ajusta el esfuerzo de confirmación al coste del error: un toque para sugerencias menores, un diff revisable para decisiones graves.",
+  "Muestra fuentes, nivel de confianza y lo que el sistema no comprobó, y convierte el desacuerdo en una acción principal."
  ]
 }

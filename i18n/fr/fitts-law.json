@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "le temps de mouvement croît avec la distance (D) et diminue avec la largeur de la cible (W)."
+ ],
+ ".apply-list li": [
+  "Une version mobile part en production avec un bouton-icône de 32px que les testeurs manquent régulièrement au premier appui.",
+  "Vous placez une action destructive de suppression, et la maquette actuelle la relègue, minuscule, dans le coin opposé.",
+  "Une barre d’outils pour utilisateurs avancés est repensée, et l’équipe doit décider ce qui mérite un bord ou un coin d’écran.",
+  "Dimensionnez les cibles tactiles principales à 44px minimum, en laissant au moins 8pt d’espace libre entre deux commandes voisines.",
+  "Élargissez la zone cliquable des petites icônes avec un padding invisible : le visuel reste compact, la cible devient généreuse.",
+  "Rapprochez l’action suivante la plus probable de celle qui vient d’être faite plutôt que de faire traverser l’écran au curseur."
  ]
 }

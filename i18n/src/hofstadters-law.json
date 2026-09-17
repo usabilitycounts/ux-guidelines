@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "AI accelerates the steps you can see — and reveals new ones you couldn’t, exactly the way the law predicts."
+ ],
+ ".apply-list li": [
+  "A stakeholder asks for a launch date during kickoff, when the team has only a bottom-up plan and no comparable projects cited.",
+  "The feature demo works, yet accessibility, performance, copy, and three more locales are all still unscheduled.",
+  "An export screen sits at 99 percent for two minutes and users start closing the tab, assuming the job has hung.",
+  "Forecast from the actual durations of five comparable past projects rather than summing a bottom-up task list nobody has shipped before.",
+  "Give the last 10 percent its own line in the plan, budgeted for edge cases, accessibility, performance, and localization.",
+  "Show elapsed time and completed steps in long-running UI instead of a projected countdown the system will very likely miss."
  ]
 }

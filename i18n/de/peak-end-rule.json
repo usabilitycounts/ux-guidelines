@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Eine Konversation mit einem Modell ist ein Erlebnis mit Höhepunkt und Ende. Die letzte Antwort — und die schlechteste — ist, was der Nutzer mitnimmt."
+ ],
+ ".apply-list li": [
+  "Ein Checkout endet auf einer nackten Erfolgsseite, und niemand hat entschieden, was dieser letzte Bildschirm eigentlich hinterlassen soll.",
+  "Die Bindung stagniert trotz kürzerem Flow, weil das Redesign Sekunden gespart hat, ohne einen erinnerbaren Höhepunkt zu schaffen.",
+  "Die Kündigung läuft über einen juristisch klingenden Bestätigungsdialog, der zur letzten Erinnerung eines abwandernden Kunden wird.",
+  "Zeichnen Sie die Journey auf, markieren Sie den schlimmsten Moment und beheben Sie Absturz, Überraschungsgebühr oder verlorenes Formular zuerst.",
+  "Bauen Sie pro Flow einen bewussten Höhepunkt dort ein, wo der Wert ankommt, etwa beim ersten gelungenen Import.",
+  "Schreiben Sie jeden Abschlussbildschirm so um, dass er bestätigt, zusammenfasst und einen klaren nächsten Schritt statt einer Sackgasse bietet."
  ]
 }

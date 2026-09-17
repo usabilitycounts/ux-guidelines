@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "Models can drop the early part of the curve to almost flat — and that changes who counts as an expert."
+ ],
+ ".apply-list li": [
+  "New accounts drop off during setup, and the first-run experience still takes eight minutes before anyone reaches a first success.",
+  "Daily users have stopped getting faster at a repeated task, stuck on a plateau the current interface gives them no way past.",
+  "A redesign is being judged entirely on first-time impressions while the week-100 cohort quietly loses the shortcuts it works through.",
+  "Instrument time-to-first-success and drive setup down with defaults, pre-fill, and skippable steps, since the earliest repetitions carry most of the curve.",
+  "Surface the faster technique in the interface itself, showing keyboard shortcuts and the command palette beside the menu path people already use.",
+  "Review each screen against two cohorts in design review: the first-day user needing defaults and the veteran needing bulk actions."
  ]
 }

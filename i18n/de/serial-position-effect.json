@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Modelle haben ihr eigenes Mittenproblem — lange Kontexte erinnern Anfang und Ende am besten. Die alte Gedächtniskurve hat eine neue Maschine gefunden."
+ ],
+ ".apply-list li": [
+  "Eine Tab-Leiste wird neu sortiert und das Team muss entscheiden, welches Ziel den ersten Platz verdient.",
+  "Sie ordnen ein Onboarding, das Nutzenversprechen, Berechtigungsdialoge und Kontoformulare in einer Reihenfolge mischt.",
+  "In einem langen System-Prompt werden die mittleren Anweisungen bei jedem Evaluierungslauf zuverlässig übergangen.",
+  "Sortieren Sie Menüpunkte nach Wichtigkeit und verankern Sie die beiden wichtigsten an erster und letzter Stelle.",
+  "Schieben Sie Nebensächliches wie Einstellungsunterseiten, Rechtstexte und Sonderfälle in die Mitte der Liste.",
+  "Beginnen Sie den Flow mit dem Nutzen und enden Sie mit dem Erfolg; Formulare bleiben dazwischen."
  ]
 }

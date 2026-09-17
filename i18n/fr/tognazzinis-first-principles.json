@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "L'anticipation et la réduction de la latence — deux des plus anciens principes de Tog — sont exactement les leviers qu'un modèle vous donne, et exactement ceux qu'il menace de casser."
+ ],
+ ".apply-list li": [
+  "Un parcours perd le document, le filtre et la position de défilement chaque fois que l’utilisateur revient.",
+  "Une réponse d’IA met quatre secondes et l’écran reste muet pendant que l’on se demande si tout a planté.",
+  "Des utilisateurs avancés répètent la même tâche cent fois par jour dans une interface pensée pour un élément.",
+  "Auditez un parcours au regard des dix-neuf principes, en commençant par protéger le travail : sauvegarde automatique, historique, récupération.",
+  "Ajoutez actions groupées, raccourcis clavier et éléments récents, puis chronométrez la tâche exécutée cent fois.",
+  "Diffusez la réponse en continu ou affichez un squelette pour que rien ne reste muet plus d’une seconde."
  ]
 }

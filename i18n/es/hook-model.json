@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "Los modelos pueden personalizar cada paso del bucle en tiempo real — para bien y para mal."
+ ],
+ ".apply-list li": [
+  "Estás revisando una hoja de ruta de retención donde cada función añade notificaciones pero ninguna ofrece al usuario algo en lo que invertir.",
+  "Una función se lanzó, se abrió una sola vez por usuario y nunca más, así que el equipo debe ver cuál de los cuatro pasos falla.",
+  "Dirección pide subir los usuarios activos diarios y alguien propone una mecánica de rachas que los usuarios lamentarían en frío.",
+  "Identifica primero el disparador interno y nombra la emoción que debe traer de vuelta al usuario, antes de redactar notificaciones.",
+  "Reduce la acción a un solo toque o un solo campo para que el esfuerzo quede por debajo de la motivación disponible.",
+  "Revisa la especificación en cinco minutos: disparador, acción, recompensa variable e inversión, y corrige el paso más débil."
  ]
 }

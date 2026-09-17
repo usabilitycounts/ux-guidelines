@@ -133,5 +133,13 @@
  ],
  ".ai-divider p": [
   "Les mises en page générées peuvent appliquer un système de rapports partout à la fois ; le risque est de l’appliquer là où l’alignement compte davantage."
+ ],
+ ".apply-list li": [
+  "Vous dimensionnez un gabarit d’article à deux colonnes et devez décider quelle largeur revient à la colonne latérale face au contenu principal.",
+  "Une échelle typographique pour une refonte éditoriale doit offrir des paliers nettement distincts sans inventer une taille pour chaque niveau de titre.",
+  "Quelqu’un présente une critique de logo avec une spirale dorée superposée au signe, comme preuve que les proportions sont justes.",
+  "Divisez la mise en page en 62/38 plutôt qu’en deux moitiés quand une colonne domine, et gardez des colonnes égales quand elles sont à parité.",
+  "Construisez l’échelle typographique sur un multiplicateur de 1.618 pour l’éditorial, puis assouplissez-la à 1.25 ou 1.333 quand les écrans deviennent denses.",
+  "Mesurez la proportion réelle sous toute spirale superposée avant de l’accepter, et abandonnez le ratio partout où il casse l’échelle d’espacement de 8 points."
  ]
 }

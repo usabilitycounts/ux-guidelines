@@ -152,5 +152,13 @@
  ],
  ".ai-divider p": [
   "Cuando una respuesta de IA se sitúa en lo alto de la página, los patrones clásicos de escaneo ceden paso a leer la respuesta — y verificar sus fuentes."
+ ],
+ ".apply-list li": [
+  "Una página de artículo larga pierde lectores a mitad de camino y sus subtítulos solo dicen Resumen o Más información.",
+  "Estás maquetando una landing sobria con una única llamada a la acción y el equipo discute dónde colocarla.",
+  "Una tabla de ajustes repite la misma palabra inicial en cada fila y la gente no ve el valor que cambió.",
+  "Coloca en las dos primeras palabras de cada título y enlace el término que la persona está buscando.",
+  "Sitúa la llamada a la acción principal en la esquina final de la Z en páginas de marketing sobrias.",
+  "Varía el inicio de las filas en tablas y listas para que la vista no salte un prefijo idéntico por la columna."
  ]
 }

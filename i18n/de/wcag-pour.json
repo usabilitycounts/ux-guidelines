@@ -152,5 +152,13 @@
  ".cat-label": [
   "Die vier Prinzipien",
   "Zentrale Erfolgskriterien"
+ ],
+ ".apply-list li": [
+  "Ihr schreibt Akzeptanzkriterien für eine neue Komponente und müsst die Accessibility-Latte vor der Schätzung festlegen.",
+  "Ein Redesign entfernt den Fokusrahmen des Browsers, und Tastaturnutzende erkennen nicht mehr, wo sie gerade sind.",
+  "Die Rechtsabteilung fragt, ob die App AA erfüllt, und niemand im Team weiß, welche Kriterien geprüft wurden.",
+  "Prüft Fließtext auf 4.5:1 und großen Text auf 3:1, bevor ihr die Farbtokens an die Entwicklung übergebt.",
+  "Zieht die Maus ab und durchlauft den kompletten Flow per Tastatur; visuelle Reihenfolge, DOM und Tab-Reihenfolge müssen übereinstimmen.",
+  "Dimensioniert jedes Zielelement auf mindestens 24 × 24 CSS-Pixel für AA, bei AAA auf 44 × 44."
  ]
 }

@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Hick&#x27;s Law: More Choices, Longer Decision Times — UX Guidelines">
 <meta name="twitter:description" content="The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Hick’s Law: More Choices, Longer Decision Times", "description": "The more choices you present, the longer every decision takes. Hick&#x27;s Law shapes menus, settings, and onboarding — along with the techniques that work around it.", "url": "https://www.ux-guidelines.com/hicks-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/hicks-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Structure The Choices"}, {"@type": "ListItem", "position": 3, "name": "Hick’s Law: More Choices, Longer Decision Times", "item": "https://www.ux-guidelines.com/hicks-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -111,7 +111,7 @@
   .kx .row-item .chk { width: 10px; height: 10px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
   .kx .row-item.ghost { background: var(--skel); opacity: 0.12; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -234,6 +234,24 @@
       <div><div class="label">Source</div><div class="value">Choice reaction-time experiments</div></div>
       <div><div class="label">In practice</div><div class="value">Cut and group options</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A settings page has grown to 16 flat toggles and new requests keep arriving with nowhere sensible to put them.</li>
+      <li>Onboarding asks the user to pick a plan, a workspace, and a template before anything useful appears on screen.</li>
+      <li>A catalog has passed a few hundred items and browsing by category no longer gets anyone to the thing they wanted.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Split a flat list of 16 into four groups of four, keeping the hierarchy at 2 levels so nothing gets buried.</li>
+      <li>Set a default wherever 90 percent of users choose the same value, which removes the decision instead of merely speeding it up.</li>
+      <li>Trim primary actions to 3 to 5 and nav menus to 5 to 7, pushing the remainder behind progressive disclosure.</li>
+    </ul>
   </div>
 </section>
 

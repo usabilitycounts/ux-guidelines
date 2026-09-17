@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Quand chaque produit marque ses fonctions IA de la même étincelle, plus rien n'est isolé — et l'emphase choisie par la machine pose la question de qui décide de ce qui ressort."
+ ],
+ ".apply-list li": [
+  "Trois équipes veulent chacune voir leur bandeau mis en avant sur le tableau de bord, et tout se dispute l’attention.",
+  "Vous concevez une grille tarifaire et devez décider quelle offre reçoit la bordure, le badge et la teinte.",
+  "Un écran comporte deux boutons pleins de même poids, et personne ne sait dire quelle action est la principale.",
+  "Comptez les éléments mis en avant sur chaque écran et ramenez-les à un seul, car chaque emphase supplémentaire affaiblit les autres.",
+  "Associez l’emphase colorée à une graisse, une icône ou un aplat, pour que la différence survive au daltonisme (WCAG 1.4.1).",
+  "Demandez en revue de design ce qui tranche le plus, et corrigez la mise en page si ce n’est pas l’essentiel."
  ]
 }

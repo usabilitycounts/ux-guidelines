@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Una conversación con un modelo es una experiencia con un pico y un final. La última respuesta — y la peor — es lo que el usuario se lleva."
+ ],
+ ".apply-list li": [
+  "Un checkout termina en una página de éxito vacía y nadie ha decidido qué debería dejar esa última pantalla.",
+  "La retención sigue plana pese a un flujo más corto, porque el rediseño recortó segundos sin crear ningún momento memorable.",
+  "La cancelación se resuelve con un diálogo legalista que acaba siendo lo último que recuerda un cliente que se va.",
+  "Mapea el recorrido y marca su peor momento, y arregla ese fallo, cargo sorpresa o formulario perdido antes de pulir nada.",
+  "Diseña un punto alto deliberado por flujo, situado donde llega el valor, como la primera publicación o importación exitosa.",
+  "Reescribe cada pantalla final para confirmar lo ocurrido, resumir el resultado y ofrecer un siguiente paso obvio en lugar de un callejón sin salida."
  ]
 }

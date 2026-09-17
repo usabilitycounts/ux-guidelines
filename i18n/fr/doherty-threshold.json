@@ -111,5 +111,13 @@
  ],
  ".law-formula-note": [
   "le temps de réponse sous lequel attention, flow et productivité se maintiennent."
+ ],
+ ".apply-list li": [
+  "L’équipe technique demande si un filtre à 900 millisecondes est assez rapide pour sortir, et personne n’a de chiffre de référence.",
+  "Vous passez en revue un flux d’enregistrement où le bouton reste inerte une seconde avant que quoi que ce soit apparaisse.",
+  "Le support signale que les utilisateurs regroupent leurs modifications en une grosse session au lieu de travailler au fil de la journée.",
+  "Fixez à chaque interaction un budget inférieur à 400 ms et inscrivez cette cible dans la spécification, à côté des exigences visuelles.",
+  "Mesurez le chemin réel le plus lent sur de vrais appareils et de vrais réseaux, pas sur le portable de démo au bureau.",
+  "Accusez réception en moins de 100 ms par un squelette, un état pressé ou une mise à jour optimiste quand la réponse tarde."
  ]
 }

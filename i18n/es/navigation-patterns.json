@@ -86,5 +86,13 @@
  ],
  ".ai-divider p": [
   "Preguntar empieza a reemplazar a navegar. La navegación no desaparece — se convierte en un respaldo y en un mapa de lo que el asistente puede hacer."
+ ],
+ ".apply-list li": [
+  "Se añade una sección nueva y nadie sabe decir si pertenece a la navegación global, a la local o al pie de página.",
+  "La analítica muestra entradas desde el buscador tres niveles abajo, sin que el usuario sepa dónde está en la jerarquía.",
+  "Se incorpora un campo de prompt al producto y el equipo se pregunta si los menús siguen mereciendo mantenimiento.",
+  "Asigna cada destino a una sola capa — global, local, utilidad o pie de página — y deja la regla escrita en la especificación.",
+  "Añade migas de pan del tipo Inicio, Sección, Página allí donde la jerarquía sea lo bastante profunda para necesitar retorno.",
+  "Trata al asistente como una ruta paralela y conserva los menús como mapa visible de lo posible y red de seguridad."
  ]
 }

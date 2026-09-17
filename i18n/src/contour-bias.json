@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Generated interfaces ship the same friendly radius by default, and AI products round themselves to feel harmless. Curvature has become a rhetoric — use it honestly."
+ ],
+ ".apply-list li": [
+  "Your design system needs a single corner-radius token and the team is split between sharp, subtle, and fully rounded.",
+  "A destructive confirmation dialog tests as too easy to dismiss, and participants say the warning did not feel serious.",
+  "A brand refresh for a precision or premium tool must decide whether soft corners undercut the sense of rigor.",
+  "Round the corners on buttons, cards, inputs, and avatars so a control reads as safe to press before its label is read.",
+  "Keep warning triangles, error badges, and hazard marks angular, because a soft-cornered alert whispers where a pointed one shouts.",
+  "Pick one curvature scale and enforce it as a token across every button, dialog, and card instead of mixing radii per component."
  ]
 }

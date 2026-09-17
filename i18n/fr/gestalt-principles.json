@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Les machines regroupent maintenant le contenu aussi — mais qu'un humain y voie de la structure ou du bruit dépend toujours des mêmes lois de la perception."
+ ],
+ ".apply-list li": [
+  "Vous passez en revue un écran de réglages où chaque section est cerclée d’une bordure et la page se lit comme des boîtes imbriquées.",
+  "Un formulaire part avec des espacements irréguliers : l’étiquette d’un champ se retrouve plus près du champ du dessus que du sien.",
+  "Votre équipe ajoute une apparition en cascade à une liste de tableau de bord et doit décider quelles tuiles s’animent ensemble comme un bloc.",
+  "Regroupez d’abord les champs liés par l’espacement, puis ajoutez un séparateur ou un panneau uniquement là où la proximité ne suffit pas.",
+  "Réservez une couleur, une forme ou une taille commune aux éléments qui appartiennent vraiment à la même catégorie, pour éviter les faux groupes.",
+  "Plissez les yeux devant une maquette figée en revue de design et notez les groupes perçus avant de les confronter à la structure prévue."
  ]
 }

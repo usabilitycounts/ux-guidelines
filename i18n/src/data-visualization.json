@@ -191,5 +191,13 @@
   "Relationship",
   "Distribution",
   "Composition"
+ ],
+ ".apply-list li": [
+  "A dashboard review turns into an argument because the pie chart has nine slices and nobody can rank them.",
+  "You are specifying an analytics screen and must decide whether the question is comparison, relationship, distribution, or composition.",
+  "The team wants to show how users move through a funnel, and a stacked column is hiding the drop-off.",
+  "Write the question the chart answers above it in the spec, then pick the encoding that answers that question.",
+  "Cap pie and donut charts at 3 slices, and move anything longer into a ranked horizontal bar chart.",
+  "Check every AI-generated chart against the question asked, since a model can narrate a confident takeaway from the wrong encoding."
  ]
 }

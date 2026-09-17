@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="WCAG and POUR: Web Accessibility Principles, Explained — UX Guidelines">
 <meta name="twitter:description" content="Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "WCAG and POUR: Web Accessibility Principles, Explained", "description": "Accessibility rests on four principles — Perceivable, Operable, Understandable, Robust. Here&#x27;s what each means and the success criteria every team should know.", "url": "https://www.ux-guidelines.com/wcag-pour.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/wcag-pour.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "WCAG and POUR: Web Accessibility Principles, Explained", "item": "https://www.ux-guidelines.com/wcag-pour.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -112,7 +112,7 @@
   .wx .check { width: 14px; height: 14px; border-radius: 50%; background: var(--il-accent); flex: none; }
   .wx .panel { background: var(--surface); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 6px; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -230,6 +230,24 @@
       <div><div class="label">Source</div><div class="value">WCAG 2.x specifications</div></div>
       <div><div class="label">In practice</div><div class="value">Test against POUR, not just checkboxes</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>You are writing acceptance criteria for a new component and need the accessibility bar stated before engineering estimates it.</li>
+      <li>A redesign strips the browser focus outline, and keyboard users can no longer tell where they are.</li>
+      <li>Legal asks whether the mobile app meets AA, and nobody on the team knows which criteria were tested.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Check body text against 4.5:1 and large text against 3:1 before handing color tokens to engineering.</li>
+      <li>Unplug the mouse and complete the whole flow by keyboard, confirming visual order matches DOM and tab order.</li>
+      <li>Size every pointer target to at least 24 × 24 CSS pixels for AA, or 44 × 44 when you target AAA.</li>
+    </ul>
   </div>
 </section>
 

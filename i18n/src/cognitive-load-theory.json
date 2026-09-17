@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Assistants absorb enormous extraneous load — and mint a new kind: the effort of verifying what the machine claims."
+ ],
+ ".apply-list li": [
+  "Users abandon a multi-step form halfway through, and session replays show them re-reading the same field label repeatedly.",
+  "You are reviewing a dense dashboard where the help text, the error messages, and the rules all sit a click away from the control.",
+  "New customers land on an empty workspace at first run and ask support what they are supposed to do first.",
+  "Strip decoration, duplicate labels, and competing accents first, since extraneous load is the only one of the three loads you can delete.",
+  "Sequence the task’s inherent difficulty into a wizard or sensible defaults so it does not all land in a single view.",
+  "Replace the blank slate with templates, sample data, or a pre-filled starting point, the interface version of a worked example."
  ]
 }

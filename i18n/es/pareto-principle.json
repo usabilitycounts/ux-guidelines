@@ -133,5 +133,13 @@
  ],
  ".law-formula-note": [
   "la proporción varía; el desequilibrio es lo importante."
+ ],
+ ".apply-list li": [
+  "La planificación trimestral arranca con noventa elementos en el backlog y cada equipo insiste en que su parte es la crítica.",
+  "Una página carga lenta y el equipo de ingeniería quiere reescribirlo todo antes de que nadie haya perfilado la ruta caliente.",
+  "Alguien propone borrar las funciones poco usadas sin comprobar si los administradores o la accesibilidad dependen de ellas.",
+  "Ordena el backlog por impacto por confianza dividido entre esfuerzo, y pregunta si la mitad inferior podría eliminarse sin más.",
+  "Clasifica el registro de fallos y la cola de soporte por frecuencia antes del triaje, para que salgan primero los errores más dolorosos.",
+  "Segmenta el uso de funciones por quién las usa, y marca lo imprescindible para administradores, guardias o tecnología asistiva antes de recortar."
  ]
 }

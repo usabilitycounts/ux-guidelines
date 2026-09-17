@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "le temps par tâche (T) décroît en puissance du nombre d'essais de pratique (P)."
+ ],
+ ".apply-list li": [
+  "Les nouveaux comptes abandonnent pendant la configuration, et le premier lancement demande encore huit minutes avant la moindre réussite.",
+  "Les utilisateurs quotidiens ne gagnent plus de vitesse sur une tâche répétée, bloqués sur un plateau que l’interface ne leur fait pas franchir.",
+  "Une refonte est jugée uniquement sur la première impression, pendant que la cohorte des habitués perd discrètement ses raccourcis.",
+  "Mesurez le temps jusqu’à la première réussite et réduisez la configuration par des valeurs par défaut, du pré-remplissage et des étapes sautables.",
+  "Rendez la technique rapide visible dans l’interface, en montrant les raccourcis clavier et la palette de commandes à côté du chemin par menu.",
+  "Passez chaque écran en revue pour deux cohortes lors de la revue de design : le débutant du premier jour et le vétéran qui traite en masse."
  ]
 }

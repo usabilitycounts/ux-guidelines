@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Canons of Page Construction: Margins and Text Blocks That Read Well — UX Guidelines">
 <meta name="twitter:description" content="The classical margin and text-block ratios behind readable page layouts. A text block in the page’s own proportion, an inner margin narrower than the outer, a foot deeper than the head: rules reconstructed from medieval manuscripts that still make a reading screen feel composed.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Canons of Page Construction: Margins and Text Blocks That Read Well", "description": "The classical margin and text-block ratios behind readable page layouts. A text block in the page’s own proportion, an inner margin narrower than the outer, a foot deeper than the head: rules reconstructed from medieval manuscripts that still make a reading screen feel composed.", "url": "https://www.ux-guidelines.com/canons-of-page-construction.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/canons-of-page-construction.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Canons of Page Construction: Margins and Text Blocks That Read Well", "item": "https://www.ux-guidelines.com/canons-of-page-construction.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -214,6 +214,24 @@
       <div><div class="label">Source</div><div class="value">The Form of the Book</div></div>
       <div><div class="label">In practice</div><div class="value">A reading column in the page’s proportion</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>You are designing a long-form article, help center, or release-notes template that people will read for minutes rather than scan.</li>
+      <li>Body text stretches edge to edge on a wide monitor and testers say the lines are hard to track back.</li>
+      <li>Your assistant starts returning answers long enough that a chat bubble stretched across the window no longer suits them.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Cap the reading column at 60 to 70 characters of body type and leave the rest of the viewport as margin.</li>
+      <li>Give the block more space below than above, following the classical 2:3:4:6 ratio of inner, head, outer, and foot margins.</li>
+      <li>Express margins in line heights inside your spacing tokens: two or three line heights above a heading, four below the block.</li>
+    </ul>
   </div>
 </section>
 

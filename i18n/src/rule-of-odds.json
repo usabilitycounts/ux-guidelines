@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Generated pages default to whatever count the model saw most; the group size is a decision worth making explicit."
+ ],
+ ".apply-list li": [
+  "You are laying out a marketing page with four feature blurbs and the row has lost its center.",
+  "A pricing page is being redesigned and the team is arguing whether to ship two tiers or three.",
+  "An onboarding flow has seven screens and stakeholders want it to feel like one short process.",
+  "Cut a four-card feature row to three and move the leftover feature to a secondary link or detail page.",
+  "Specify the count in the spec and in the generation prompt: three features, five steps, one highlighted plan.",
+  "Reserve the middle slot for the option you want chosen, then make it larger or brighter than its neighbors."
  ]
 }

@@ -133,5 +133,13 @@
  ],
  ".ai-divider p": [
   "Generated layouts can apply a ratio system everywhere at once; the risk is applying it where alignment matters more."
+ ],
+ ".apply-list li": [
+  "You are sizing a two-column article template and must decide how much width the sidebar takes next to the main content.",
+  "A type scale for an editorial redesign needs steps that read as distinct without inventing a new size for every heading level.",
+  "Someone presents a logo critique with a golden spiral overlaid on the mark as proof that the proportions are correct.",
+  "Split the layout 62/38 instead of in half when one column leads, and keep peer columns equal rather than forcing the ratio.",
+  "Build the type scale from a 1.618 multiplier for editorial work, then soften it to 1.25 or 1.333 when screens get dense.",
+  "Measure the proportion under any spiral overlay before accepting it, and drop the ratio wherever it breaks the 8-point spacing scale."
  ]
 }

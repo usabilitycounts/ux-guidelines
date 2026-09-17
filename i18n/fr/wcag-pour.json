@@ -152,5 +152,13 @@
  ".cat-label": [
   "Les quatre principes",
   "Critères de succès clés"
+ ],
+ ".apply-list li": [
+  "Vous rédigez les critères d’acceptation d’un nouveau composant et devez fixer le niveau d’accessibilité avant l’estimation technique.",
+  "Une refonte supprime le contour de focus du navigateur, et les utilisateurs au clavier ne savent plus où ils sont.",
+  "Le service juridique demande si l’application mobile atteint le niveau AA, et personne ne sait ce qui a été testé.",
+  "Vérifiez le texte courant à 4.5:1 et le grand texte à 3:1 avant de livrer les tokens de couleur aux développeurs.",
+  "Débranchez la souris et parcourez tout le flux au clavier, en vérifiant que l’ordre visuel, le DOM et la tabulation coïncident.",
+  "Dimensionnez chaque cible de pointage à 24 × 24 pixels CSS minimum pour le niveau AA, ou 44 × 44 pour le AAA."
  ]
 }

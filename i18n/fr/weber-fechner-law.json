@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "le changement perceptible est une fraction constante du stimulus, donc la sensation croît de façon logarithmique."
+ ],
+ ".apply-list li": [
+  "Vous fixez une remise et hésitez à l’afficher en montant économisé plutôt qu’en pourcentage du prix.",
+  "L’équipe technique propose de retirer 100ms à une transition, sans que personne sache si les utilisateurs le remarqueront.",
+  "Une échelle typographique est refaite parce que titres et corps de texte paraissent inégaux à leurs tailles actuelles.",
+  "Exprimez chaque changement proposé en pourcentage de sa valeur de départ avant de décider s’il mérite d’être construit.",
+  "Construisez l’échelle typographique sur un ratio fixe, 1.25 ou 1.333 par exemple, pour que chaque niveau se lise comme un palier.",
+  "Traduisez les écarts d’A/B tests en proportions : cinq points sur une base de 10 pour cent pèsent bien plus que sur 80."
  ]
 }

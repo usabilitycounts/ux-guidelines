@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Agenten lassen jetzt in Ihrem Namen Schleifen offen — Entwürfe, laufende Aufgaben, halbfertige Jobs. Zu zeigen, was unfertig ist, ist die Art, wie Vertrauen die Delegation überlebt."
+ ],
+ ".apply-list li": [
+  "Ihr entwerft das Onboarding und entscheidet, wie viele Setup-Schritte vor der eigentlichen Arbeit sichtbar sein sollen.",
+  "Eine Profil-Fortschrittsanzeige steht zur Debatte, und das Team streitet darüber, welche Felder sie zählen soll.",
+  "Hintergrund-Agenten laufen minutenlang ohne sichtbaren Status, und Nutzende öffnen den Tab immer wieder zur Kontrolle.",
+  "Benennt die verbleibenden Schritte im Stepper konkret, denn genaue Zahlen nutzen die Spannung, die vage Zurufe verschenken.",
+  "Haltet Onboarding-Checklisten kurz, echt und abschließbar und zeigt einen Fortschritt zwischen 60 und 90 Prozent.",
+  "Entwerft für jede geöffnete Schleife einen unmissverständlichen Abschlusszustand, denn die Auflösung ist die eigentliche Belohnung."
  ]
 }

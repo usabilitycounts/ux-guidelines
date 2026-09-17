@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "Les modèles peuvent personnaliser chaque étape de la boucle en temps réel — pour le meilleur et pour le pire."
+ ],
+ ".apply-list li": [
+  "Vous examinez une feuille de route de rétention où chaque fonctionnalité ajoute des notifications sans jamais donner à l’utilisateur quelque chose à investir.",
+  "Une fonctionnalité a été lancée, ouverte une seule fois par utilisateur, puis oubliée : l’équipe doit trouver laquelle des quatre étapes a cédé.",
+  "La direction réclame plus d’utilisateurs actifs quotidiens et quelqu’un propose un système de séries que les gens regretteraient à froid.",
+  "Identifiez d’abord le déclencheur interne en nommant l’émotion censée ramener l’utilisateur, avant d’écrire la moindre notification.",
+  "Réduisez l’action à un seul geste ou un seul champ, pour que l’effort reste sous la motivation fournie par le déclencheur.",
+  "Passez la spécification au crible en cinq minutes : déclencheur, action, récompense variable, investissement, puis corrigez l’étape la plus faible."
  ]
 }

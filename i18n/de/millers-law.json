@@ -151,5 +151,13 @@
  ],
  ".law-formula-note": [
   "die Spanne des Arbeitsgedächtnisses, die Miller über Aufgaben hinweg beobachtete."
+ ],
+ ".apply-list li": [
+  "Ein Registrierungsformular bündelt vierzig Felder auf einer Seite, und das Team überlegt, ob es den Vorgang in Schritte zerlegt.",
+  "Support-Tickets zeigen, dass Nutzer sich beim Übertragen eines Bestätigungscodes aus der E-Mail in einen anderen Screen vertippen.",
+  "Ein IA-Review hängt achtzehn Einträge unter eine Navigationsebene, und Nutzer springen ständig zurück, um überhaupt etwas zu finden.",
+  "Gliedern Sie Codes, Kartennummern und IBANs in Gruppen, damit das Auge Blöcke liest statt einer durchgehenden Zeichenkette.",
+  "Rechnen Sie mit etwa vier Chunks statt sieben, wie Cowans spätere Forschung nahelegt, sobald Nutzer etwas über Schritte hinweg mitnehmen.",
+  "Trennen Sie in der Spezifikation Merken von Sehen: Die Obergrenze gilt nur für Gedächtnisinhalte, nicht für sichtbare Listenlängen."
  ]
 }

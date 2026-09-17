@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "La IA te permite generar un sistema «completo» en un día — y entregar entonces algo que no tiene ningún ancestro funcional del que crecer."
+ ],
+ ".apply-list li": [
+  "Un equipo propone reescribir el sistema de facturación en dos años sin entregar ninguna versión funcional por el camino.",
+  "Estás acotando un design system y alguien pide cobertura completa de tokens para pantallas que nadie ha construido todavía.",
+  "Una función que funcionaba con 50 cuentas piloto va a desplegarse de golpe a toda la base de clientes.",
+  "Entrega un esqueleto andante que haga una sola cosa de principio a fin y deja el pulido, la escala y los casos límite para después.",
+  "Pregunta cuál es la versión más pequeña que se puede entregar en el próximo sprint cada vez que llegue un gran plan.",
+  "Construye solo el componente cuya necesidad hayas visto dos veces y deja que la librería crezca desde pantallas ya entregadas."
  ]
 }

@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "La IA desplaza dónde ocurre la comunicación — y eso desplaza en silencio el organigrama, y después el producto."
+ ],
+ ".apply-list li": [
+  "Una página de ajustes que pertenece a cuatro equipos se lee como cuatro páginas distintas, cada una con sus patrones y su tono.",
+  "Una reorganización parte un equipo en móvil y web, y el comportamiento del pago empieza a divergir en dos lanzamientos.",
+  "Planeas dividir un monolito en servicios y las fronteras propuestas siguen las líneas de reporte del año pasado.",
+  "Asigna responsable a cada costura que aparezca en la revisión de diseño; si nadie posee el traspaso, ese es el bug.",
+  "Diseña el equipo antes que la arquitectura, aplicando la maniobra inversa de Conway y los cuatro tipos de equipo de Team Topologies.",
+  "Trata cada reorganización como una decisión de diseño: anota qué fronteras de producto se moverán y revisa esa predicción un trimestre después."
  ]
 }

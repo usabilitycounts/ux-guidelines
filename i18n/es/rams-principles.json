@@ -157,5 +157,13 @@
  ],
  ".ai-divider p": [
   "«Menos, pero mejor» y «honesto» son los principios que más importan cuando cada producto siente la tentación de añadir un chatbot."
+ ],
+ ".apply-list li": [
+  "Un stakeholder pide un asistente de IA porque la competencia lo lanzó, no porque ninguna tarea del usuario lo necesite.",
+  "El texto de marketing promete capacidades que el producto no cumple, y el onboarding está escrito para sostener esa promesa.",
+  "Alguien propone un lavado de cara siguiendo la tendencia visual actual, en un producto que sus clientes seguirán usando dentro de diez años.",
+  "Haz una revisión de diseño contra los 10 principios, preguntando en cada pantalla qué se puede quitar antes de añadir nada.",
+  "Pon a prueba la comprensión entregando el producto a alguien sin manual y observando si la estructura se explica sola.",
+  "Contrasta cada promesa de marketing con el comportamiento real del producto y elimina lo que la interfaz no pueda sostener."
  ]
 }

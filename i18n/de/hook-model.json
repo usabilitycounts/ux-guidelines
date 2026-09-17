@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "Modelle können jeden Schritt der Schleife in Echtzeit personalisieren — zum Guten wie zum Schlechten."
+ ],
+ ".apply-list li": [
+  "Sie prüfen eine Retention-Roadmap, in der jede Funktion Benachrichtigungen ergänzt, aber keine dem Nutzer etwas gibt, in das er investieren kann.",
+  "Ein Feature wurde ausgeliefert, einmal pro Nutzer geöffnet und nie wieder, also muss das Team herausfinden, welcher der vier Schritte scheitert.",
+  "Die Führung fordert mehr täglich aktive Nutzer, und jemand schlägt eine Streak-Mechanik vor, die Nutzer in ruhigen Momenten bereuen würden.",
+  "Bestimmen Sie zuerst den internen Auslöser und benennen Sie das Gefühl, das den Nutzer zurückbringen soll, bevor Sie Benachrichtigungen texten.",
+  "Reduzieren Sie die Aktion auf einen Tap oder ein Feld, damit der Aufwand unter der Motivation des Auslösers bleibt.",
+  "Prüfen Sie die Spezifikation in fünf Minuten auf Auslöser, Aktion, variable Belohnung und Investition und beheben Sie den schwächsten Schritt."
  ]
 }

@@ -157,5 +157,13 @@
  ],
  ".ai-divider p": [
   "„Weniger, aber besser“ und „ehrlich“ sind die Prinzipien, die am meisten zählen, wenn jedes Produkt versucht ist, sich einen Chatbot anzuschrauben."
+ ],
+ ".apply-list li": [
+  "Ein Stakeholder fordert einen KI-Assistenten, weil die Konkurrenz einen hat, nicht weil eine Nutzeraufgabe ihn braucht.",
+  "Das Marketing verspricht Fähigkeiten, die das Produkt nicht einlöst, und das Onboarding ist auf dieses Versprechen getextet.",
+  "Jemand schlägt einen Refresh im aktuellen Stiltrend vor, für ein Produkt, das Kunden auch in zehn Jahren noch nutzen.",
+  "Führen Sie ein Design-Review entlang aller 10 Prinzipien und fragen Sie je Screen, was weg kann, bevor etwas dazukommt.",
+  "Prüfen Sie die Verständlichkeit, indem Sie jemandem ohne Handbuch das Produkt geben und beobachten, ob die Struktur sich selbst erklärt.",
+  "Gleichen Sie jede Marketingaussage mit dem tatsächlichen Verhalten ab und streichen Sie alles, was die Oberfläche nicht einlöst."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Los prompts asumen contexto que el modelo no tiene — y los modelos explican con conocimiento que el lector no tiene. La maldición ahora corre en ambas direcciones."
+ ],
+ ".apply-list li": [
+  "Un ticket de soporte repite una y otra vez la misma duda sobre una función que el equipo considera evidente.",
+  "Estás nombrando un objeto nuevo del producto y la palabra que ya usáis en la daily te parece totalmente clara.",
+  "Los textos de onboarding y el estado vacío los escribió quien construyó la función, y la activación sigue plana.",
+  "Haz un test de usabilidad con cinco personas que nunca hayan visto el producto y anota las palabras exactas que usan.",
+  "Marca en el texto de onboarding cada término que solo existe dentro de la empresa y defínelo en su primera aparición.",
+  "Acompaña cada icono con una etiqueta visible hasta que un test demuestre el reconocimiento, en vez de darlo por hecho."
  ]
 }

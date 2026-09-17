@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Gestalt Principles: How Perception Groups an Interface — UX Guidelines">
 <meta name="twitter:description" content="The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Gestalt Principles: How Perception Groups an Interface", "description": "The mind automatically groups what it sees. These ten principles of perception explain how people read structure into a layout before they read a single word.", "url": "https://www.ux-guidelines.com/gestalt-principles.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/gestalt-principles.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Gestalt Principles: How Perception Groups an Interface", "item": "https://www.ux-guidelines.com/gestalt-principles.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   :root {
     --bg: #ffffff;
@@ -129,7 +129,7 @@
   .gx .blob { position: absolute; border-radius: 40px; background: rgba(56,189,248,0.14); }
   .gx .pdot { position: absolute; width: 12px; height: 12px; border-radius: 50%; background: var(--skel-strong); opacity: 0.6; transform: translate(-50%,-50%); }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -247,6 +247,24 @@
       <div><div class="label">Source</div><div class="value">Berlin School of experimental psychology</div></div>
       <div><div class="label">In practice</div><div class="value">Group by spacing before adding lines</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>You are reviewing a settings screen where every section is fenced by a border and the page reads as boxes inside boxes.</li>
+      <li>A form ships with uneven spacing, so the label for one field sits closer to the field above it than to its own.</li>
+      <li>Your team is adding a staggered reveal to a dashboard list and needs to decide which tiles animate together as one unit.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Group related fields with spacing first, then add a divider or panel only where proximity alone fails to separate two neighboring sets.</li>
+      <li>Reserve shared color, shape, or size for items that truly belong to one category, so similarity never implies a group by accident.</li>
+      <li>Squint at a static mockup in design review and write down the groups you see before checking them against the intended structure.</li>
+    </ul>
   </div>
 </section>
 

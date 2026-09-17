@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "Una conversación no tiene cuadrantes — cuando la respuesta se devuelve directamente, el modelo de lectura de cuatro zonas cede ante un único flujo vertical."
+ ],
+ ".apply-list li": [
+  "Estás maquetando una página de términos en texto plano o un boletín donde no hay nada más que tipografía en pantalla.",
+  "El equipo de localización pregunta dónde deben ir el logotipo y el botón de registro en las versiones en árabe y hebreo.",
+  "Los precios quedaron abajo a la izquierda de una página densa y soporte repite que los clientes nunca llegaron a verlos.",
+  "Coloca la llamada a la acción principal en el área terminal, abajo a la derecha, donde el barrido diagonal termina de forma natural.",
+  "Lleva los textos legales y las notas al pie a la esquina débil y no escondas ahí nada que el lector tenga que hacer.",
+  "Comprueba que la página sea realmente homogénea antes de aplicar los cuatro cuadrantes, porque una sola imagen fuerte impone un patrón en F."
  ]
 }

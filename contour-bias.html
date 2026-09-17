@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent — UX Guidelines">
 <meta name="twitter:description" content="Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent", "description": "Moshe Bar and Maital Neta showed in 2006 that people prefer curved objects over sharp ones — angular contours read as threat at a glance. Roundness relaxes; sharpness alerts. Both are tools.", "url": "https://www.ux-guidelines.com/contour-bias.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/contour-bias.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Design Actions And Controls"}, {"@type": "ListItem", "position": 3, "name": "Contour Bias: Why Rounded Feels Friendly and Sharp Feels Urgent", "item": "https://www.ux-guidelines.com/contour-bias.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=103">
+<link rel="stylesheet" href="tokens.css?v=104">
 <style>
   .cb-stage { display: flex; align-items: center; justify-content: space-evenly; padding: 0 24px; }
   .cb-soft { width: 74px; height: 74px; border-radius: 26px; background: var(--il-accent); opacity: 0.9; }
@@ -49,7 +49,7 @@
   .cb-card { flex: 1; background: var(--bg); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 9px; }
   .cb-card.sq { border-radius: 0; }
 </style>
-<script defer src="tokens.js?v=99"></script>
+<script defer src="tokens.js?v=100"></script>
 </head>
 <body>
 
@@ -168,6 +168,24 @@
       <div><div class="label">Source</div><div class="value">“Humans Prefer Curved Visual Objects”</div></div>
       <div><div class="label">In practice</div><div class="value">Round to reassure, sharpen to alert</div></div>
     </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Your design system needs a single corner-radius token and the team is split between sharp, subtle, and fully rounded.</li>
+      <li>A destructive confirmation dialog tests as too easy to dismiss, and participants say the warning did not feel serious.</li>
+      <li>A brand refresh for a precision or premium tool must decide whether soft corners undercut the sense of rigor.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Round the corners on buttons, cards, inputs, and avatars so a control reads as safe to press before its label is read.</li>
+      <li>Keep warning triangles, error badges, and hazard marks angular, because a soft-cornered alert whispers where a pointed one shouts.</li>
+      <li>Pick one curvature scale and enforce it as a token across every button, dialog, and card instead of mixing radii per component.</li>
+    </ul>
   </div>
 </section>
 

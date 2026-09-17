@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Die zehn Heuristiken gelten weiter — aber \"Systemstatus\", \"Nutzerkontrolle\" und \"Fehlervermeidung\" bekommen neue Bedeutung, wenn das System ein probabilistisches Modell ist."
+ ],
+ ".apply-list li": [
+  "Ein Release steht in zwei Wochen an, und für einen Usability-Test vor dem Launch ist kein Budget vorhanden.",
+  "Zwei Teams haben dieselbe Aktion unter verschiedenen Namen ausgeliefert, und dem Design-Review fehlt eine gemeinsame Sprache dafür.",
+  "Ihre Generierung dauert zehn Sekunden, und Nutzer laden die Seite neu, weil nichts auf dem Bildschirm Aktivität signalisiert.",
+  "Führen Sie eine heuristische Evaluation entlang aller zehn Punkte durch, bevor Sie Nutzertests buchen, und ordnen Sie jeden Befund zu.",
+  "Formulieren Sie jede Fehlermeldung neu: das Problem in klarer Sprache benennen und den einen Schritt zur Behebung angeben.",
+  "Liefern Sie einen Stopp-Button während des Streams und ein Regenerieren danach, damit die erste Antwort ein Entwurf bleibt."
  ]
 }

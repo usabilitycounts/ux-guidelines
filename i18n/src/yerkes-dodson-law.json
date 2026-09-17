@@ -106,5 +106,13 @@
  ],
  ".ai-divider p": [
   "AI can read where on the curve a user is — and lower the arousal at exactly the right moment, or fail to."
+ ],
+ ".apply-list li": [
+  "You are designing a tax filing or annual review flow where users already arrive loaded and anxious.",
+  "Growth proposes a countdown timer on a checkout step that requires careful comparison of several plans.",
+  "Usage data shows people skimming past a routine weekly approval screen and missing errors they used to catch.",
+  "Strip animation, add whitespace, and show steady progress on complex flows so arousal stays below the peak.",
+  "Reserve haptics, sound, and micro-celebrations for one-tap actions, where extra stimulation pays back in engagement.",
+  "Cut manufactured urgency from any hard decision in the backlog, and ease the task instead of raising stakes."
  ]
 }

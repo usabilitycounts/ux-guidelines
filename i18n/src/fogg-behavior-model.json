@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "AI lowers Ability across the board and lets you fire a perfectly timed Prompt for one user — leverage at a scale Fogg’s original model didn’t anticipate."
+ ],
+ ".apply-list li": [
+  "Activation is flat even though signups are strong, which means new users want the outcome but cannot reach it.",
+  "A notification campaign is being planned, and the proposal is more sends rather than better timed ones.",
+  "You are reviewing a growth tactic that works by pressure rather than by helping the user finish something.",
+  "Cut steps, pre-fill fields, and set sensible defaults so a new user reaches a first win within minutes.",
+  "Shrink the ask until it is tiny, anchor it to an existing routine, then mark completion with immediate positive feedback.",
+  "Ask whose goal each prompt serves before shipping it, and drop the ones that only serve the business."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "When a model can build the whole thing in one click, the labor disappears — and with it, the love. The craft now is deciding which egg the user still cracks."
+ ],
+ ".apply-list li": [
+  "Onboarding converts well but week-two retention collapses, and nobody in the product has a workspace, board, or saved view of their own.",
+  "You are trimming setup steps for speed and must decide which configuration screen is real authorship rather than a hollow wizard.",
+  "An AI feature produces a finished draft in one click, leaving the user nothing to shape and nothing to feel ownership over.",
+  "Keep one meaningful decision in the user’s hands — the outline, the pick, the final cut — so the output feels authored.",
+  "Test every setup step against one question about whether the user would miss it, and delete the steps that are busywork.",
+  "Design completion into the build path, since abandoned work earns no premium, by adding progress, defaults, and a reachable finish."
  ]
 }

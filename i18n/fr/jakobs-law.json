@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "L'IA réécrit les conventions que les utilisateurs emportent avec eux. Le point de référence passe de « tous les sites web » à « tous les outils d'IA »."
+ ],
+ ".apply-list li": [
+  "Un designer propose un sélecteur de date maison ou une barre de défilement inédite : il faut chiffrer le réapprentissage face à la nouveauté.",
+  "Vous placez le panier, la recherche et le logo sur un nouveau gabarit e-commerce, et quelqu’un veut une mise en page singulière.",
+  "Votre équipe ajoute sa première fonctionnalité d’IA et doit décider si elle reprend le langage de chat que les utilisateurs connaissent déjà.",
+  "Réutilisez par défaut les contrôles natifs et les motifs établis, en réservant l’invention au seul endroit où le gain dépasse nettement le réapprentissage.",
+  "Réexaminez à chaque cycle la nouvelle base attendue : champ de prompt, réponse en flux, régénération, sources citées, annulation de toute action du modèle.",
+  "Laissez la personnalisation agir sur le contenu et gardez le cadre global stable, pour que tous conservent la même carte mentale."
  ]
 }

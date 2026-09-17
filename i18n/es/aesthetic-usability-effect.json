@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Las interfaces generadas llegan pulidas por defecto — y la prosa fluida y segura dispara el mismo efecto en el texto. Un resultado bello no es un resultado correcto."
+ ],
+ ".apply-list li": [
+  "Las puntuaciones de tu prueba de usabilidad lucen altas en un prototipo pulido, pero tres de cada cinco participantes nunca completan el pago.",
+  "Se lanza un rediseño sin funciones nuevas, baja el volumen de soporte y nadie del equipo sabe explicar qué cambió.",
+  "La dirección quiere recortar el acabado visual de la primera experiencia para recuperar dos sprints de tiempo de ingeniería.",
+  "Mide el éxito y el tiempo por tarea aparte de las valoraciones de satisfacción, para que un prototipo atractivo no infle el veredicto.",
+  "Concentra el presupuesto de acabado en el primer uso, la portada, el pago y los estados vacíos, donde se forma el juicio inicial.",
+  "Arregla la alineación, el espaciado y la escala tipográfica antes de encargar ilustraciones: la consistencia aporta casi todo el efecto."
  ]
 }

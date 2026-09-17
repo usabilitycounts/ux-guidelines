@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Quand un modèle peut tout construire en un clic, le travail disparaît — et l’attachement avec lui. L’art consiste désormais à décider quel œuf l’utilisateur casse encore."
+ ],
+ ".apply-list li": [
+  "L’onboarding convertit bien mais la rétention s’effondre en deuxième semaine, et personne n’a d’espace, de tableau ni de vue enregistrée à soi.",
+  "Vous supprimez des étapes de configuration pour gagner en rapidité et devez distinguer l’écran qui crée de l’appropriation d’un assistant creux.",
+  "Une fonctionnalité d’IA livre un brouillon fini en un clic, sans rien laisser à façonner ni à s’approprier.",
+  "Laissez une décision qui compte à l’utilisateur — le plan, le choix, la coupe finale — pour que le résultat lui appartienne.",
+  "Évaluez chaque étape d’installation en vous demandant si l’utilisateur la regretterait, puis supprimez celles qui relèvent du remplissage.",
+  "Intégrez l’achèvement au parcours de création, car un travail abandonné ne vaut rien : progression, valeurs par défaut, fin atteignable."
  ]
 }

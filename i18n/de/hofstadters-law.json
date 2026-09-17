@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "KI beschleunigt die Schritte, die man sieht — und legt neue frei, die man nicht sah, genau wie das Gesetz es vorhersagt."
+ ],
+ ".apply-list li": [
+  "Ein Stakeholder verlangt schon beim Kickoff ein Launchdatum, obwohl das Team nur einen Bottom-up-Plan und keine vergleichbaren Projekte vorweisen kann.",
+  "Die Feature-Demo läuft, doch Barrierefreiheit, Performance, Texte und drei weitere Sprachversionen sind noch überhaupt nicht eingeplant.",
+  "Ein Exportdialog steht zwei Minuten lang bei 99 %, und die Nutzer schließen den Tab, weil sie den Vorgang für hängengeblieben halten.",
+  "Prognostizieren Sie aus den tatsächlichen Laufzeiten von fünf vergleichbaren Projekten, statt eine Bottom-up-Liste zu addieren, die so noch nie geliefert wurde.",
+  "Geben Sie den letzten 10 % eine eigene Zeile im Plan, mit Budget für Sonderfälle, Barrierefreiheit, Performance und Lokalisierung.",
+  "Zeigen Sie bei langen Vorgängen verstrichene Zeit und erledigte Schritte statt einer Restzeitprognose, die das System mit hoher Wahrscheinlichkeit verfehlt."
  ]
 }

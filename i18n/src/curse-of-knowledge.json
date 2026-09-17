@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Prompts assume context the model doesn’t have — and models explain with knowledge the reader doesn’t have. The curse now runs in both directions."
+ ],
+ ".apply-list li": [
+  "A support ticket keeps repeating the same question about a feature your team considers self-explanatory, and nobody internally can see why.",
+  "You are naming a new object in the product, and the word the team already uses in standups feels perfectly plain.",
+  "Onboarding copy and the empty state were drafted by the engineer who built the feature, and activation has not moved.",
+  "Run a five-person usability test with people who have never seen the product, and record the exact words they use.",
+  "Circle every noun in your onboarding copy that only exists inside your company, then define each one at first use.",
+  "Pair each icon with a visible label until a test proves recognition, instead of assuming the export glyph is obvious."
  ]
 }

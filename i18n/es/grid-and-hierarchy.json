@@ -135,5 +135,13 @@
  ".cat-label": [
   "Sistemas de retícula",
   "Jerarquía visual"
+ ],
+ ".apply-list li": [
+  "Un panel de tarjetas se ha desajustado a lo largo de tres versiones y ahora las tarjetas arrancan en cuatro bordes izquierdos distintos.",
+  "Marketing pide un segundo color de acento en una página donde un botón principal naranja ya compite con un banner rojo.",
+  "Estás especificando una plantilla de artículo largo donde titulares, subtítulos y cuerpo de texto deben distinguirse de un vistazo.",
+  "Adopta una retícula de 12 columnas en la especificación para que una misma estructura admita composiciones de dos, tres, cuatro y seis columnas.",
+  "Define una escala tipográfica de 3 pasos, titular, subtítulo y cuerpo, y deja que un único color de acento cargue con todo el énfasis.",
+  "Comprueba en la revisión de diseño que cada borde se alinea con otro elemento, porque el único elemento suelto es el que vuelve accidental la página."
  ]
 }

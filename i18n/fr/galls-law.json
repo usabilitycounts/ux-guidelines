@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "L'IA vous permet de générer un système « complet » en une journée — puis de livrer quelque chose qui n'a aucun ancêtre fonctionnel d'où grandir."
+ ],
+ ".apply-list li": [
+  "Une équipe propose de réécrire le système de facturation en deux ans, sans aucune version fonctionnelle livrée entre-temps.",
+  "Vous cadrez un design system et quelqu’un réclame une couverture complète de tokens pour des écrans encore jamais construits.",
+  "Une fonctionnalité qui marchait pour 50 comptes pilotes va être déployée d’un coup à l’ensemble des clients.",
+  "Livrez un squelette ambulant qui fait une seule chose de bout en bout, en repoussant finition, montée en charge et cas limites.",
+  "Demandez quelle est la plus petite version livrable au prochain sprint chaque fois qu’un grand plan arrive en revue.",
+  "Ne construisez que le composant dont vous avez constaté deux fois le besoin, et laissez la bibliothèque grandir depuis les écrans livrés."
  ]
 }

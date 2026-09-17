@@ -139,5 +139,13 @@
  ],
  ".ai-divider p": [
   "Conversational and predictive interfaces change the geometry — sometimes there is no target to point at; sometimes the target comes to you."
+ ],
+ ".apply-list li": [
+  "A mobile release is shipping with a 32px icon button that testers keep missing on the first tap.",
+  "You are placing a destructive delete control, and the current mockup puts it tiny in the far corner.",
+  "A power-user toolbar is being redesigned, and the team must decide what earns a screen edge or corner.",
+  "Size primary touch targets at 44px minimum, keeping at least 8pt of clear space between adjacent controls.",
+  "Extend the hit area of small icon buttons with invisible padding so the visual stays compact and the target does not.",
+  "Move the next likely action beside the one just taken instead of sending the pointer across the screen."
  ]
 }

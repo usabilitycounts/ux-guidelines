@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Antizipation und Latenzreduktion — zwei von Togs ältesten Prinzipien — sind genau die Hebel, die ein Modell Ihnen gibt, und genau die Hebel, die es zu brechen droht."
+ ],
+ ".apply-list li": [
+  "Ein Flow verliert Dokument, Filter und Scrollposition, sobald die Person am nächsten Morgen zurückkehrt.",
+  "Eine KI-Antwort braucht vier Sekunden und der Bildschirm bleibt stumm, während alle einen Absturz vermuten.",
+  "Power-User wiederholen dieselbe Aufgabe hundertmal täglich in einer Oberfläche, die für Einzelobjekte gebaut wurde.",
+  "Prüfen Sie einen Flow gegen die neunzehn Prinzipien, beginnend beim Schutz der Arbeit: Auto-Save, Versionen, Wiederherstellung.",
+  "Ergänzen Sie Sammelaktionen, Tastenkürzel und zuletzt verwendete Objekte und stoppen Sie die Aufgabe hundertmal.",
+  "Streamen Sie die Antwort oder zeigen Sie ein Skeleton, damit nichts länger als eine Sekunde stumm bleibt."
  ]
 }

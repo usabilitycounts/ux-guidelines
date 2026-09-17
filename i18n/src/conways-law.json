@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "AI shifts where the communication happens — and that quietly shifts the org chart, then the product."
+ ],
+ ".apply-list li": [
+  "A settings page owned by four different teams reads like four different pages, each with its own patterns and tone.",
+  "A re-org splits one squad into mobile and web, and checkout behavior starts drifting apart within two releases.",
+  "You are planning to break a monolith into services and the proposed boundaries follow last year’s reporting lines.",
+  "Name an owner for every seam surfaced in design review, and when no one owns the hand-off, log that as the bug.",
+  "Design the team before the architecture, using the inverse Conway maneuver and the four team types in Team Topologies as the plan.",
+  "Treat each re-org as a design decision: write down which product boundaries will move, then review that prediction a quarter later."
  ]
 }

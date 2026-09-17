@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "The conversational interface re-poses every one of Norman’s questions — what can I do, did it work, what does it know about my model?"
+ ],
+ ".apply-list li": [
+  "Usability sessions show people missing a control because it looks like a label rather than something that can be pressed.",
+  "A settings toggle saves silently and support sees users clicking it repeatedly, unsure whether anything was recorded.",
+  "You are shipping a blank chat box and users cannot tell what the model is able to do for them.",
+  "Pair every affordance with a visible signifier — a label, an underline, an arrow — so capability and signal never diverge.",
+  "Specify feedback for each action in the spec, naming the channel: visual, auditory, or haptic, and the timing.",
+  "Seed the empty prompt with suggested examples, and surface reasoning and sources on output so both gulfs stay closed."
  ]
 }

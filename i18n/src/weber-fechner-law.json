@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "AI is the new stimulus stream — and it arrives at a volume that quickly resets every baseline."
+ ],
+ ".apply-list li": [
+  "You are setting a discount and deciding whether to frame it as ten dollars off or fifteen percent off.",
+  "Engineering proposes shaving 100ms off a transition, and nobody can say whether users will notice the change.",
+  "A type scale is being rebuilt because headings and body copy look uneven at their current absolute sizes.",
+  "Express every proposed change as a percentage of its baseline before deciding whether it is worth building.",
+  "Build the type scale on a fixed ratio such as 1.25 or 1.333 so each level reads as a step.",
+  "Translate A/B deltas into proportional terms, because five points above a 10 percent baseline means far more than above 80."
  ]
 }

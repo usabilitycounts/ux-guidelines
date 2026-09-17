@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "le temps de réaction croît avec le log du nombre de choix (n)."
+ ],
+ ".apply-list li": [
+  "Une page de réglages compte désormais 16 interrupteurs à plat et les nouvelles demandes continuent d’arriver sans endroit logique où les loger.",
+  "L’onboarding demande de choisir une offre, un espace de travail et un modèle avant que quoi que ce soit d’utile n’apparaisse à l’écran.",
+  "Un catalogue a dépassé quelques centaines d’articles et la navigation par catégorie ne mène plus personne à ce qu’il cherchait.",
+  "Découpez une liste plate de 16 éléments en quatre groupes de quatre, en restant à 2 niveaux pour que rien ne soit enterré.",
+  "Définissez une valeur par défaut dès que 90 % des utilisateurs choisissent la même : la décision disparaît au lieu d’être simplement accélérée.",
+  "Ramenez les actions principales à 3 à 5 et les menus de navigation à 5 à 7, et repoussez le reste derrière une divulgation progressive."
  ]
 }

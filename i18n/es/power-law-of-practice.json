@@ -113,5 +113,13 @@
  ],
  ".law-formula-note": [
   "el tiempo por tarea (T) cae como una potencia del número de ensayos de práctica (P)."
+ ],
+ ".apply-list li": [
+  "Las cuentas nuevas se caen durante la configuración, y la primera ejecución todavía tarda ocho minutos hasta el primer éxito.",
+  "Los usuarios diarios ya no van más rápido en una tarea repetida, atascados en una meseta que la interfaz no les ayuda a superar.",
+  "Un rediseño se juzga solo por la primera impresión mientras la cohorte veterana pierde en silencio los atajos con los que trabaja.",
+  "Instrumenta el tiempo hasta el primer éxito y reduce la configuración con valores por defecto, precarga y pasos que se puedan saltar.",
+  "Muestra la técnica más rápida en la propia interfaz, con atajos de teclado y paleta de comandos junto a la ruta de menú habitual.",
+  "Revisa cada pantalla frente a dos cohortes en la revisión de diseño: el usuario del primer día y el veterano que necesita acciones masivas."
  ]
 }

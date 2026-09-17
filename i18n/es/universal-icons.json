@@ -261,5 +261,13 @@
  ".cat-label": [
   "El conjunto universal",
   "Diseñar con iconos"
+ ],
+ ".apply-list li": [
+  "Estás quitando etiquetas de una barra de herramientas saturada y decides qué glifos aguantan sin texto.",
+  "Una revisión de diseño destapa tres familias de iconos mezcladas en la app tras dos adquisiciones y un rediseño.",
+  "El equipo elige un símbolo para compartir o favorito, cuyo significado cambia según la plataforma.",
+  "Deja sin etiqueta solo la lupa, la equis y el menú; rotula todo lo que quede fuera de ese conjunto universal.",
+  "Unifica un único set de iconos y especifica grosor, radio de esquina y relleno para que el reconocimiento sea rápido.",
+  "Reserva el más de la esquina inferior derecha a una sola acción de creación por pantalla y el kebab a las secundarias."
  ]
 }

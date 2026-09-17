@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Models refactor code and redesign screens without the meeting notes. The fence’s reason often lives nowhere the machine can read."
+ ],
+ ".apply-list li": [
+  "Backlog grooming proposes deleting a low-usage feature that no one on the current team owns or remembers requesting.",
+  "You are scoping a ground-up redesign and the old screen carries odd confirmations, warnings, and margins nobody can explain.",
+  "A model-generated refactor suggests removing a retry, a sleep, or a redundant check that no comment justifies.",
+  "Trace the reason through git blame, the original ticket, and the person who was there before the removal enters a sprint.",
+  "Ship the deletion behind a flag with a rollback path, so an unseen dependency surfaces as a toggle rather than an incident.",
+  "Record the why in a code comment, an ADR, or a linked ticket whenever a fence stays, so the next reader finds the sign."
  ]
 }

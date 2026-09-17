@@ -133,5 +133,13 @@
  ],
  ".ai-divider p": [
   "Generierte Layouts können ein Verhältnissystem überall zugleich anwenden; das Risiko ist, es dort anzuwenden, wo Ausrichtung wichtiger ist."
+ ],
+ ".apply-list li": [
+  "Sie legen die Spaltenbreiten einer zweispaltigen Artikelvorlage fest und müssen entscheiden, wie breit die Seitenleiste neben dem Hauptinhalt ausfällt.",
+  "Eine Typo-Skala für ein redaktionelles Redesign braucht klar unterscheidbare Stufen, ohne für jede Überschriftenebene eine neue Größe zu erfinden.",
+  "Jemand präsentiert eine Logo-Kritik mit einer über das Zeichen gelegten goldenen Spirale als Beweis für stimmige Proportionen.",
+  "Teilen Sie das Layout 62/38 statt hälftig, wenn eine Spalte führt, und lassen Sie gleichrangige Spalten gleich breit, statt das Verhältnis zu erzwingen.",
+  "Bauen Sie die Typo-Skala im redaktionellen Kontext auf dem Faktor 1.618 auf und mildern Sie sie bei dichten Oberflächen auf 1.25 oder 1.333 ab.",
+  "Messen Sie die tatsächliche Proportion unter jeder aufgelegten Spirale nach und verwerfen Sie das Verhältnis überall dort, wo es das 8-Punkt-Raster bricht."
  ]
 }

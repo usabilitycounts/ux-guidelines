@@ -135,5 +135,13 @@
  ".cat-label": [
   "Grid Systems",
   "Visual Hierarchy"
+ ],
+ ".apply-list li": [
+  "A dashboard of cards has drifted over three releases and tiles now start at four different left edges.",
+  "Marketing wants a second accent color on a page that already has an orange primary button competing with a red banner.",
+  "You are specifying a long-form article template where headings, subheads, and body copy must be told apart at a glance.",
+  "Adopt a 12-column grid in the spec so the same structure hosts two, three, four, and six column compositions.",
+  "Set a 3-step type scale for headings, subheads, and body, and let one accent color carry emphasis so nothing competes.",
+  "Check every edge against another element in design review, since the one item aligned to nothing is what makes a layout feel accidental."
  ]
 }

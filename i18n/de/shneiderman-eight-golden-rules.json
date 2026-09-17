@@ -126,5 +126,13 @@
  ],
  ".ai-divider p": [
   "Probabilistische Interfaces biegen jede Regel — Konsistenz, Umkehrbarkeit und Kontrolle bedeuten etwas Neues, wenn das System improvisiert."
+ ],
+ ".apply-list li": [
+  "Ein Release steht an und niemand hat die neuen Screens gegen einen gemeinsamen Interface-Standard geprüft.",
+  "Support-Tickets häufen sich um eine destruktive Aktion, die sich nach der Bestätigung nicht rückgängig machen lässt.",
+  "Zwei Teams haben dieselbe Aktion mit unterschiedlichen Labels, Platzierungen und Bestätigungen in einem Produkt ausgeliefert.",
+  "Gehen Sie die acht Regeln im Design-Review als Pre-Flight-Checkliste durch und bewerten Sie jeden Screen.",
+  "Verbinden Sie jede destruktive Aktion zuerst mit Fehlervermeidung, etwa deaktivierten Optionen, danach mit einem sofortigen Undo.",
+  "Halten Sie im Spec die Rückmeldung je Aktion fest: dezenter Zustandswechsel beim Klick, klare Bestätigung beim Kauf."
  ]
 }

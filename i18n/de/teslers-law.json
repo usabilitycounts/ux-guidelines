@@ -112,5 +112,13 @@
  ],
  ".ai-divider p": [
   "KI ist der mächtigste Komplexitätsabsorber bislang — und der verlockendste Ort, Komplexität zu verstecken, die der Nutzer noch sehen muss."
+ ],
+ ".apply-list li": [
+  "Ein leeres Textfeld ist schnell gebaut, doch jede Person muss das erwartete Format selbst herausfinden.",
+  "Eine Vereinfachungsinitiative will Schritte verstecken, die die Aufgabe wirklich braucht: Daten, Sitzplätze, Tarife.",
+  "Eine KI-Funktion löst eine unscharfe Anfrage komplett allein und ihre Abwägungen bleiben dabei unsichtbar.",
+  "Trennen Sie im Spec inhärente Komplexität von selbstgemachter Reibung, löschen Sie Letztere und verteilen Sie den Rest.",
+  "Verlagern Sie Arbeit ins System: sinnvolle Defaults, Autofill und Formaterkennung statt eines weiteren Pflichtfelds.",
+  "Schichten Sie erweiterte Optionen hinter einen Mehr-Schalter, damit der übliche Weg einfach bleibt."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les modèles refactorent le code et redessinent les écrans sans les notes de réunion. La raison de la clôture ne vit souvent nulle part où la machine puisse la lire."
+ ],
+ ".apply-list li": [
+  "Le tri du backlog propose de supprimer une fonctionnalité peu utilisée dont personne dans l’équipe actuelle n’est propriétaire.",
+  "Vous cadrez une refonte complète et l’ancien écran comporte des confirmations, des avertissements et des marges que personne n’explique.",
+  "Un refactoring proposé par un modèle veut retirer un retry, un sleep ou un contrôle redondant qu’aucun commentaire ne justifie.",
+  "Remontez à la raison via git blame, le ticket d’origine et la personne présente à l’époque, avant d’inscrire la suppression au sprint.",
+  "Déployez la suppression derrière un feature flag avec un retour arrière : une dépendance oubliée réapparaît comme un réglage, pas comme un incident.",
+  "Consignez le pourquoi dans un commentaire, une ADR ou un ticket lié chaque fois qu’une barrière reste, pour la personne suivante."
  ]
 }

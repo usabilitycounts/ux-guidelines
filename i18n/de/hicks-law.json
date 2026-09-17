@@ -142,5 +142,13 @@
  ],
  ".law-formula-note": [
   "die Reaktionszeit wächst mit dem Logarithmus der Zahl der Wahlmöglichkeiten (n)."
+ ],
+ ".apply-list li": [
+  "Eine Einstellungsseite ist auf 16 flach aufgelistete Schalter angewachsen, und neue Wünsche kommen weiter, ohne dass es dafür einen sinnvollen Platz gibt.",
+  "Das Onboarding verlangt die Wahl von Tarif, Workspace und Vorlage, bevor überhaupt etwas Nützliches auf dem Bildschirm erscheint.",
+  "Ein Katalog hat einige hundert Einträge überschritten, und das Blättern nach Kategorien bringt niemanden mehr zum gesuchten Eintrag.",
+  "Teilen Sie eine flache Liste aus 16 Einträgen in vier Gruppen zu je vier und bleiben Sie bei 2 Ebenen, damit nichts vergraben wird.",
+  "Setzen Sie überall dort einen Standardwert, wo 90 % der Nutzer dasselbe wählen, denn das nimmt die Entscheidung ganz weg.",
+  "Kürzen Sie Primäraktionen auf 3 bis 5 und Navigationsmenüs auf 5 bis 7 und schieben Sie den Rest hinter progressive Offenlegung."
  ]
 }

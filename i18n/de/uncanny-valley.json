@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Mori zeichnete die Kurve für Gesichter und Körper. Die KI trug sie in neues Gelände: Stimmen, die fast richtig atmen, und Prosa, die fast — aber nicht ganz — wie von einem Menschen klingt."
+ ],
+ ".apply-list li": [
+  "Ihr entscheidet zwischen einem fotorealistischen Avatar und einer illustrierten Figur für den Onboarding-Assistenten des Produkts.",
+  "Eine synthetische Stimme für den Support wird mit Atemgeräuschen und Füllwörtern versehen, damit sie menschlicher klingt.",
+  "Das Marketing möchte, dass KI-verfasste Antworten wirken, als hätte sie eine namentlich genannte Person selbst geschrieben.",
+  "Legt im Design-Spec vor dem Bau ein Ufer fest: ehrliche Stilisierung oder makelloser Realismus, nie die teure Mitte.",
+  "Plant die letzten fünf Prozent Realismusarbeit als eigenes Budget ein, denn Augen, Haut und Timing bilden das Tal.",
+  "Benennt die Maschine im Text als Maschine, damit sie als fähige Software und nicht als fehlerhafter Mensch bewertet wird."
  ]
 }

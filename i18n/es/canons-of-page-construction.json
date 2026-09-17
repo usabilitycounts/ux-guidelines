@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Los documentos y respuestas generados llegan como texto sin página alrededor; los cánones son la forma en que un producto le da una página a ese texto."
+ ],
+ ".apply-list li": [
+  "Estás diseñando un artículo largo, un centro de ayuda o una plantilla de notas de versión que se leerá durante minutos.",
+  "El texto se extiende de borde a borde en un monitor ancho y los participantes dicen que pierden el inicio de línea.",
+  "Tu asistente empieza a devolver respuestas tan largas que ya no encajan en una burbuja estirada por toda la ventana.",
+  "Limita la columna de lectura a entre 60 y 70 caracteres de texto base y deja el resto del viewport como margen.",
+  "Da al bloque más aire abajo que arriba, siguiendo la proporción clásica 2:3:4:6 de margen interior, cabeza, exterior y pie.",
+  "Expresa los márgenes en interlíneas dentro de tus tokens de espaciado: dos o tres sobre un título, cuatro bajo el bloque."
  ]
 }

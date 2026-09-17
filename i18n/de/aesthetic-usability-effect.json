@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Generierte Interfaces kommen standardmäßig poliert daher — und flüssige, selbstsichere Prosa löst denselben Effekt im Text aus. Schöner Output ist nicht korrekter Output."
+ ],
+ ".apply-list li": [
+  "Die Usability-Werte eines aufwendig gestalteten Prototyps sehen stark aus, doch drei von fünf Testpersonen schließen den Checkout nie ab.",
+  "Ein Redesign erscheint ohne neue Funktionen, das Support-Aufkommen sinkt, und niemand im Team kann erklären, was sich geändert hat.",
+  "Die Führung will die visuelle Sorgfalt im ersten Nutzungserlebnis streichen, um zwei Sprints Entwicklungszeit zurückzugewinnen.",
+  "Erhebt Aufgabenerfolg und Bearbeitungszeit getrennt von Zufriedenheitsbewertungen, damit ein hübscher Prototyp das Usability-Urteil nicht beschönigt.",
+  "Steckt das Politur-Budget in Erststart, Startseite, Checkout und leere Zustände, wo das Urteil im ersten Blick entsteht, nicht in Dekoration.",
+  "Bringt Ausrichtung, Abstände und Typoskala in Ordnung, bevor ihr Illustrationen beauftragt: Konsistenz liefert den größten Teil des Effekts."
  ]
 }

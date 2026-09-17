@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "When every product marks its AI features with the same sparkle, nothing is isolated any more — and machine-chosen emphasis raises who decides what stands out."
+ ],
+ ".apply-list li": [
+  "Three teams each want their banner highlighted on the dashboard, and every element is now competing for attention.",
+  "You are laying out a pricing table and must decide which tier gets the border, badge, and tint.",
+  "A screen has two filled buttons of equal weight, and nobody can say which action is primary.",
+  "Count the emphasized elements on each screen and cut back to one, since every extra highlight taxes the rest.",
+  "Pair color emphasis with weight, an icon, or a fill so the difference survives color blindness, meeting WCAG 1.4.1.",
+  "Ask in design review what differs most, and fix the layout when the answer is not what matters most."
  ]
 }

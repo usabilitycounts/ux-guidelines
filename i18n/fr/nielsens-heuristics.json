@@ -148,5 +148,13 @@
  ],
  ".ai-divider p": [
   "Les dix heuristiques tiennent toujours — mais « état du système », « contrôle utilisateur » et « prévention des erreurs » prennent un sens nouveau quand le système est un modèle probabiliste."
+ ],
+ ".apply-list li": [
+  "Une version sort dans deux semaines et aucun budget n’est prévu pour un test utilisateur avant la mise en production.",
+  "Deux équipes ont livré la même action sous des noms différents, et la revue de design manque d’un vocabulaire commun.",
+  "Votre génération prend dix secondes et les utilisateurs rechargent la page, car rien à l’écran n’indique qu’il se passe quelque chose.",
+  "Menez une revue heuristique sur les dix critères avant tout test utilisateur, en classant chaque constat sous l’heuristique enfreinte.",
+  "Réécrivez chaque message d’erreur pour nommer le problème en langage clair et indiquer l’action unique qui le résout.",
+  "Livrez un bouton d’arrêt pendant la génération et une régénération ensuite : la première réponse du modèle reste un brouillon."
  ]
 }

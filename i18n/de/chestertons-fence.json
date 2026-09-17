@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Modelle refaktorieren Code und gestalten Screens neu — ohne die Meeting-Notizen. Der Grund für den Zaun lebt oft nirgendwo, wo die Maschine lesen kann."
+ ],
+ ".apply-list li": [
+  "Im Backlog-Refinement steht der Vorschlag, ein kaum genutztes Feature zu löschen, für das im Team niemand verantwortlich ist.",
+  "Ihr steckt ein Redesign von Grund auf ab, und der alte Screen trägt seltsame Bestätigungen, Warnungen und Abstände ohne Erklärung.",
+  "Ein vom Modell vorgeschlagenes Refactoring will einen Retry, ein Sleep oder eine scheinbar redundante Prüfung entfernen.",
+  "Rekonstruiert den Grund über git blame, das ursprüngliche Ticket und die Person von damals, bevor die Löschung in einen Sprint wandert.",
+  "Liefert die Löschung hinter einem Feature-Flag mit Rollback aus, damit eine übersehene Abhängigkeit ein Schalter bleibt und kein Incident wird.",
+  "Haltet das Warum als Kommentar, ADR oder verlinktes Ticket fest, wenn ein Zaun stehen bleibt, damit die Nächsten das Schild finden."
  ]
 }

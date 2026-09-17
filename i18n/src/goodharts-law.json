@@ -110,5 +110,13 @@
  ],
  ".ai-divider p": [
   "AI optimizes exactly what you measure — and finds the gaming move faster than any team ever could."
+ ],
+ ".apply-list li": [
+  "Leadership is about to attach a quarterly bonus to support resolution time, and the team already knows which tickets close fastest.",
+  "A dashboard shows sign-ups climbing every week while activation, retention, and revenue sit flat for the third quarter running.",
+  "You inherit an OKR written three years ago whose definition of an active user now counts passive scrolling as engagement.",
+  "Run the gaming thought experiment for five minutes before any KPI is approved, asking how the number could rise without the work.",
+  "Pair every headline metric with a counterweight in the same report: speed with quality, revenue with refunds, engagement with cancellations.",
+  "Re-examine each measure once a year and rewrite the definitions that quietly stopped describing the behavior they were built to track."
  ]
 }

@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les interfaces générées arrivent soignées par défaut — et une prose fluide et assurée déclenche le même effet dans le texte. Une belle sortie n'est pas une sortie correcte."
+ ],
+ ".apply-list li": [
+  "Les scores de votre test d’utilisabilité paraissent excellents sur un prototype soigné, mais trois participants sur cinq n’ont jamais terminé le paiement.",
+  "Une refonte sort sans nouvelle fonctionnalité, le volume de support baisse, et personne dans l’équipe ne sait expliquer ce qui a changé.",
+  "La direction veut retirer le soin visuel de la première expérience pour récupérer deux sprints de temps d’ingénierie.",
+  "Mesurez le taux de réussite et le temps par tâche séparément des notes de satisfaction, pour qu’un beau prototype ne gonfle pas le verdict.",
+  "Investissez le budget de finition dans le premier lancement, l’accueil, le paiement et les états vides, là où le jugement se forme au premier coup d’œil.",
+  "Corrigez l’alignement, les espacements et l’échelle typographique avant de commander des illustrations : la cohérence produit l’essentiel de l’effet."
  ]
 }

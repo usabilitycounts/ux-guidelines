@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Ahora los agentes dejan ciclos abiertos en tu nombre — borradores, tareas en marcha, trabajos a medias. Mostrar lo inacabado es la forma en que la confianza sobrevive a la delegación."
+ ],
+ ".apply-list li": [
+  "Estás diseñando el onboarding y decides cuántos pasos de configuración mostrar antes de que la persona llegue al trabajo real.",
+  "Se propone un medidor de perfil completo y el equipo discute qué campos debería contar.",
+  "Los agentes en segundo plano tardan minutos sin estado visible y la gente reabre la pestaña para comprobarlo.",
+  "Enumera explícitamente los pasos que faltan en el stepper, porque las cifras concretas aprovechan la tensión que desperdicia un “ya casi”.",
+  "Mantén las listas de onboarding cortas, reales y terminables, y muestra una completitud entre el 60 y el 90 por ciento.",
+  "Diseña un estado de “hecho” inconfundible para cada bucle que abras, porque la liberación es la recompensa esperada."
  ]
 }

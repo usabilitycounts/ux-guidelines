@@ -130,5 +130,13 @@
  ],
  ".ai-divider p": [
   "Les pages générées adoptent par défaut le nombre que le modèle a le plus vu ; la taille du groupe est une décision qui mérite d’être explicite."
+ ],
+ ".apply-list li": [
+  "Vous composez une page marketing avec quatre blocs de fonctionnalités et la rangée a perdu son centre.",
+  "Une page de tarifs est repensée et l’équipe hésite entre lancer deux formules ou bien trois.",
+  "Un parcours d’accueil compte sept écrans alors que les parties prenantes veulent un processus court et unique.",
+  "Ramenez une rangée de quatre cartes à trois et renvoyez la fonctionnalité restante vers un lien secondaire.",
+  "Précisez le nombre dans la spécification et dans le prompt : trois fonctionnalités, cinq étapes, une formule mise en avant.",
+  "Réservez la position centrale à l’option que vous voulez voir choisie, puis agrandissez-la par rapport à ses voisines."
  ]
 }

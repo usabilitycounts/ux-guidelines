@@ -152,5 +152,13 @@
  ".cat-label": [
   "The Four Principles",
   "Key Success Criteria"
+ ],
+ ".apply-list li": [
+  "You are writing acceptance criteria for a new component and need the accessibility bar stated before engineering estimates it.",
+  "A redesign strips the browser focus outline, and keyboard users can no longer tell where they are.",
+  "Legal asks whether the mobile app meets AA, and nobody on the team knows which criteria were tested.",
+  "Check body text against 4.5:1 and large text against 3:1 before handing color tokens to engineering.",
+  "Unplug the mouse and complete the whole flow by keyboard, confirming visual order matches DOM and tab order.",
+  "Size every pointer target to at least 24 × 24 CSS pixels for AA, or 44 × 44 when you target AAA."
  ]
 }

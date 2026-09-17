@@ -108,5 +108,13 @@
  ],
  ".ai-divider p": [
   "Les modèles ont leur propre problème de milieu — les longs contextes rappellent le mieux leur début et leur fin. La vieille courbe de la mémoire a trouvé une nouvelle machine."
+ ],
+ ".apply-list li": [
+  "Une barre d’onglets est réorganisée et l’équipe doit décider quelle destination mérite la toute première place.",
+  "Vous ordonnez un parcours d’accueil qui mêle un récit de valeur, des demandes d’autorisation et des formulaires.",
+  "Les instructions placées au milieu d’un long prompt système sont systématiquement ignorées lors des évaluations.",
+  "Classez les entrées de menu par importance, puis ancrez les deux premières aux positions initiale et finale.",
+  "Reléguez au milieu de la liste les éléments à faible enjeu : sous-pages de réglages, mentions légales, cas limites.",
+  "Ouvrez le parcours sur la valeur et terminez-le sur la réussite, en gardant formulaires et autorisations au milieu."
  ]
 }
