@@ -982,20 +982,21 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
     top: 100%; left: 0; right: 0; min-width: 0;
     border-radius: 0; border-left: 0; border-right: 0; border-top: 0;
     border-bottom-width: 0;
-    /* padding collapses with it: border-box keeps a box at least as tall as its
-       own padding, so leaving it on would strand a sliver when closed */
-    padding: 0 12px;
+    /* The padding stays put. Animating it too made the measured height 16px
+       short, because the height is read while the padding is still mid-flight.
+       Closed, border-box leaves a padding-tall sliver, which is invisible at
+       zero opacity and costs no layout since the sheet is positioned. */
+    padding: 6px 12px 10px;
     overflow: hidden;
     max-height: 0;
     opacity: 0;
     pointer-events: none;
-    transition: max-height 0.24s ease, padding 0.24s ease, opacity 0.18s ease;
+    transition: max-height 0.24s ease, opacity 0.18s ease;
   }
   .sticky-title .share-menu.open {
     opacity: 1;
     pointer-events: auto;
     border-bottom-width: 1px;
-    padding: 6px 12px 10px;
   }
 }
 @media (max-width: 600px) and (prefers-reduced-motion: reduce) {

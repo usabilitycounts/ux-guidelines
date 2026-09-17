@@ -607,7 +607,13 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const sync = () => { text.textContent = h1.textContent.trim(); };
   sync();
   new MutationObserver(sync).observe(h1, { childList: true, subtree: true, characterData: true });
-  const place = () => { if (nav) bar.style.top = nav.offsetHeight + 'px'; };
+  const place = () => {
+    if (nav) bar.style.top = nav.offsetHeight + 'px';
+    // A height measured for the phone sheet must not survive into the wider
+    // layout, where it would clip the dropdown instead of sizing a sheet.
+    const m = bar.querySelector('.share-menu');
+    if (m) m.style.maxHeight = '';
+  };
   place();
   window.addEventListener('resize', place);
   document.body.appendChild(bar);
