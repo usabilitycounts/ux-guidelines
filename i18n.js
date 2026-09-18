@@ -489,6 +489,7 @@
   };
   const loadOverlay = () => {
     let page = (location.pathname.split('/').pop() || 'index.html').replace('.html', '') || 'index';
+    if (page === lang) page = 'index';   // /fr with no trailing slash is the home page
     // Localized URLs (/fr/loi-de-fitts.html) carry the translated slug; the overlay
     // files are named by the English one, so map it back through the slug table.
     const S = window.UX_SLUGS && window.UX_SLUGS[lang];

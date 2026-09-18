@@ -32,6 +32,9 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const currentSlug = () => {
     let en = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
     const here = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    // /fr with no trailing slash leaves the language code as the last segment,
+    // which would resolve to a page called "fr". That path is the home page.
+    if (here && en === here[1]) en = 'index';
     if (here) {   // on a language path: map the localized slug back to English
       const M = (window.UX_SLUGS && window.UX_SLUGS[here[1]]) || {};
       for (const k in M) { if (M[k] === en) { en = k; break; } }
@@ -578,6 +581,9 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
     const hash = location.hash || '';
     let en = (location.pathname.split('/').pop() || 'index.html').replace(/\.html$/, '') || 'index';
     const here = location.pathname.match(/^\/(fr|de|es|ja|zh)(?:\/|$)/);
+    // /fr with no trailing slash leaves the language code as the last segment,
+    // which would resolve to a page called "fr". That path is the home page.
+    if (here && en === here[1]) en = 'index';
     if (here) {   // already on a language path: map the localized slug back to English
       const M = (window.UX_SLUGS && window.UX_SLUGS[here[1]]) || {};
       for (const k in M) { if (M[k] === en) { en = k; break; } }
@@ -589,7 +595,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=62';
+  s.src = 'i18n.js?v=63';
   document.head.appendChild(s);
 })();
 

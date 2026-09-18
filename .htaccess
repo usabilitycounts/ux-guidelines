@@ -363,7 +363,11 @@ RewriteRule ^es/ley\-de\-zipf\.html$ zipfs-law.html [L]
 
 # Language-prefixed URLs serve the same page shell; tokens.js renders the
 # language from the path. /fr/hicks-law.html -> hicks-law.html, /fr/ -> index.
-RewriteRule ^(fr|de|es|ja|zh)/?$ index.html [L]
+# A language root has one canonical form, with the slash. Without it the page
+# still served, but the last path segment was the language code itself, so the
+# language switcher built /fr.html and the overlay fetched i18n/fr/fr.json.
+RewriteRule ^(fr|de|es|ja|zh)$ /$1/ [R=301,L]
+RewriteRule ^(fr|de|es|ja|zh)/$ index.html [L]
 RewriteRule ^(fr|de|es|ja|zh)/(.+)$ $2 [L]
 
 # Legacy short filenames from before the full-concept rename
