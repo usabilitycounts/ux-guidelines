@@ -595,7 +595,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=65';
+  s.src = 'i18n.js?v=66';
   document.head.appendChild(s);
 })();
 

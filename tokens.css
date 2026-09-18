@@ -1185,6 +1185,78 @@ html.has-scroller .topnav { flex: 0 0 auto; }
   .page-scroll { overflow-x: hidden; }
 }
 
+/* ---------- Waiting on a translation ---------- */
+/* A localized page ships the English text and swaps it once the overlay
+   arrives. Showing that English first and changing it a moment later is worse
+   than showing nothing, so these regions stand in as skeleton lines until the
+   swap lands. The bars follow the element's own type: 0.72em of ink on a
+   1.5em rhythm, which is the line height everywhere here. The class is set
+   before first paint and always removed, by i18n.js on success and by a timer
+   in the page head otherwise, so the text can never stay hidden. */
+html.i18n-wait header h1,
+html.i18n-wait header .tagline,
+html.i18n-wait header .subtitle,
+html.i18n-wait .law-origin .body-text,
+html.i18n-wait .law-content .law-desc,
+html.i18n-wait .law-equation,
+html.i18n-wait .law-meta .label,
+html.i18n-wait .law-meta .value,
+html.i18n-wait .apply-list li,
+html.i18n-wait .card .tag,
+html.i18n-wait .card h3,
+html.i18n-wait .card .desc,
+html.i18n-wait .meta .label,
+html.i18n-wait .meta .value,
+html.i18n-wait .meta-cell .label,
+html.i18n-wait .meta-cell .value,
+html.i18n-wait .ai-divider h3,
+html.i18n-wait .ai-divider p,
+html.i18n-wait .cat-label,
+html.i18n-wait .gl-term .label,
+html.i18n-wait .gl-term p,
+html.i18n-wait .pp-term .label,
+html.i18n-wait .pp-term p,
+html.i18n-wait .pp-term .where,
+html.i18n-wait .about-section h2,
+html.i18n-wait .about-section p,
+html.i18n-wait .map-group h2,
+html.i18n-wait .map-list a,
+html.i18n-wait header h1 *,
+html.i18n-wait header .tagline *,
+html.i18n-wait header .subtitle *,
+html.i18n-wait .law-origin .body-text *,
+html.i18n-wait .law-content .law-desc *,
+html.i18n-wait .law-equation *,
+html.i18n-wait .law-meta .label *,
+html.i18n-wait .law-meta .value *,
+html.i18n-wait .apply-list li *,
+html.i18n-wait .card .tag *,
+html.i18n-wait .card h3 *,
+html.i18n-wait .card .desc *,
+html.i18n-wait .meta .label *,
+html.i18n-wait .meta .value *,
+html.i18n-wait .meta-cell .label *,
+html.i18n-wait .meta-cell .value *,
+html.i18n-wait .ai-divider h3 *,
+html.i18n-wait .ai-divider p *,
+html.i18n-wait .cat-label *,
+html.i18n-wait .gl-term .label *,
+html.i18n-wait .gl-term p *,
+html.i18n-wait .pp-term .label *,
+html.i18n-wait .pp-term p *,
+html.i18n-wait .pp-term .where *,
+html.i18n-wait .about-section h2 *,
+html.i18n-wait .about-section p *,
+html.i18n-wait .map-group h2 *,
+html.i18n-wait .map-list a *
+{
+  color: transparent !important;
+  background-image: repeating-linear-gradient(to bottom,
+    var(--skel-fill-med) 0 0.72em, transparent 0.72em 1.5em);
+  border-radius: 3px;
+}
+html.i18n-wait .card .tag { background-image: none; background: var(--skel-fill-med); }
+
 /* ---------- Print ---------- */
 @media print {
   html.has-scroller, html.has-scroller body { height: auto; overflow: visible; display: block; }

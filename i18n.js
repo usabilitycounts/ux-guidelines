@@ -497,10 +497,13 @@
     // files are named by the English one, so map it back through the slug table.
     const S = window.UX_SLUGS && window.UX_SLUGS[lang];
     if (S) { for (const en in S) { if (S[en] === page) { page = en; break; } } }
-    fetch('i18n/' + lang + '/' + page + '.json?v=30')
+    // Whatever happens, let the text show again: the skeletons are a stand-in
+    // for this fetch, not a state the page should be able to get stuck in.
+    const done = () => document.documentElement.classList.remove('i18n-wait');
+    fetch('i18n/' + lang + '/' + page + '.json?v=31')
       .then(r => (r.ok ? r.json() : null))
-      .then(d => { if (d) applyOverlay(d); })
-      .catch(() => {});
+      .then(d => { if (d) applyOverlay(d); done(); })
+      .catch(done);
   };
   const run = () => { apply(); loadOverlay(); };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run);

@@ -2,7 +2,7 @@
 <html lang="en" data-page="postel">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <!-- Google tag (gtag.js) -->
@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="Postel&#x27;s Law: The Robustness Principle in Interface Design — UX Guidelines">
 <meta name="twitter:description" content="Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Postel’s Law: The Robustness Principle in Interface Design", "description": "Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.", "url": "https://www.ux-guidelines.com/postels-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/postels-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Postel’s Law: The Robustness Principle in Interface Design", "item": "https://www.ux-guidelines.com/postels-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=152">
+<link rel="stylesheet" href="tokens.css?v=154">
 <style>
   :root {
     --p1: #6b6b6b; --p2: #6b6b6b; --p3: #6b6b6b; --p4: #6b6b6b; --p5: #6b6b6b;
@@ -74,7 +74,7 @@
   .px .bub i { height: 5px; border-radius: 2px; background: var(--skel-strong); opacity: 0.6; display: block; }
   .px .chip { display: inline-block; height: 8px; border-radius: 4px; background: rgba(56,189,248,0.45); }
 </style>
-<script defer src="tokens.js?v=119"></script>
+<script defer src="tokens.js?v=120"></script>
 </head>
 <body>
 
