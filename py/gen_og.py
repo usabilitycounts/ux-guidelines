@@ -161,7 +161,7 @@ def render(path, lang, title, desc, hero=None):
 def main():
     TIT = titles_table()
     pages = sorted(p for p in glob.glob(f'{SITE}/*.html')
-                   if os.path.basename(p) not in ('design-system.html', 'roadmap.html'))
+                   if os.path.basename(p) not in ('design-system.html', 'roadmap.html', '404.html'))
     for lang in LANGS:
         os.makedirs(f'{SITE}/og/{lang}', exist_ok=True)
     count = 0

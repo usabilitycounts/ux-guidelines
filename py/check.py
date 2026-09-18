@@ -26,7 +26,7 @@ from extract import TreeBuilder, matches  # mini-DOM with the site's selector en
 
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS = ['fr', 'de', 'es', 'ja', 'zh']
-SKIP = {'design-system.html'}
+SKIP = {'design-system.html', '404.html'}
 
 failures = []
 

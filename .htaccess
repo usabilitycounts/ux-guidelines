@@ -1,3 +1,6 @@
+# A styled not-found page; the path is absolute so it works at any depth
+ErrorDocument 404 /404.html
+
 # Force HTTPS on the canonical host
 RewriteEngine On
 RewriteCond %{HTTPS} !=on

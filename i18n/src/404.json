@@ -1,0 +1,21 @@
+{
+ "header h1": [
+  "Page <em>Not Found</em>"
+ ],
+ "header .tagline": [
+  "That address doesn’t lead anywhere."
+ ],
+ "header .subtitle": [
+  "The page may have been renamed, or the link that brought you here may be out of date. The library itself is fine, so try the search in the bar above, or pick up one of the routes below."
+ ],
+ ".law-origin .body-text": [
+  "If you typed it, check for a stray character. If you followed a link, it points at a page that no longer exists under that name."
+ ],
+ ".apply-list li": [
+  "<a href=\"index.html\">The home page</a>, where every reference is grouped by page type and by task.",
+  "<a href=\"sitemap.html\">The site map</a>, a plain list of every page on the site.",
+  "<a href=\"glossary.html\">The glossary</a>, if you are looking for a single term.",
+  "<a href=\"people.html\">People</a>, if you are looking for whoever named the thing.",
+  "<a href=\"by-year.html\">By year</a>, if you know roughly when it was published."
+ ]
+}

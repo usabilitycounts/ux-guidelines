@@ -38,7 +38,7 @@ def main():
     TIT = titles_table()
     SLUGS = build_slugs()
     pages = sorted(p for p in glob.glob(f'{SITE}/*.html')
-                   if os.path.basename(p) not in ('design-system.html', 'roadmap.html')
+                   if os.path.basename(p) not in ('design-system.html', 'roadmap.html', '404.html')
                    and '/share/' not in p)
     n = 0
     for lang in LANGS:

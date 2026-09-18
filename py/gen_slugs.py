@@ -51,7 +51,7 @@ def main():
     n = 0
     for f in glob.glob(f'{SITE}/*.html'):
         base = os.path.basename(f)[:-5]
-        if base in ('design-system', 'roadmap'):
+        if base in ('design-system', 'roadmap', '404'):
             continue
         s = open(f).read()
         orig = s

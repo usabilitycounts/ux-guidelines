@@ -105,7 +105,7 @@ def extract(path):
 
 def main():
     os.makedirs(f'{SITE}/i18n/src', exist_ok=True)
-    skip = {'design-system.html'}
+    skip = {'design-system.html', '404.html'}
     total_units = 0
     for f in sorted(glob.glob(f'{SITE}/*.html')):
         base = os.path.basename(f)

@@ -19,7 +19,7 @@ BASE = 'https://www.ux-guidelines.com/'
 CODES = [('en', ''), ('es', 'es/'), ('de', 'de/'), ('fr', 'fr/'),
          ('zh-Hans', 'zh/'), ('ja', 'ja/')]
 LANG_OF = {'en': None, 'es': 'es', 'de': 'de', 'fr': 'fr', 'zh-Hans': 'zh', 'ja': 'ja'}
-SKIP = {'design-system.html', 'roadmap.html'}
+SKIP = {'design-system.html', 'roadmap.html', '404.html'}
 
 
 def main():
