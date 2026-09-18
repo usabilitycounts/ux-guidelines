@@ -11,9 +11,10 @@
 <meta name="robots" content="noindex, follow">
 <meta name="description" content="That address does not lead anywhere. Search the library or start from one of the routes here.">
 <title>Page Not Found — UX Guidelines</title>
-<link rel="stylesheet" href="tokens.css?v=141">
+<link rel="stylesheet" href="tokens.css?v=142">
 <style>
-  .nf-routes { grid-template-columns: 1fr; }
+  /* plain page content, not a panel: line it up with the header text */
+  .nf-routes { padding: 12px 32px 64px; }
   .nf-links { list-style: none; padding: 0; }
   .nf-links li { margin-bottom: 14px; }
   .nf-links a { font-weight: 600; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
@@ -129,10 +130,8 @@
   <p class="subtitle">The page may have been renamed, or the link that brought you here may be out of date. The library itself is fine, so try the search in the bar above, or pick up one of the routes below.</p>
   </div>
 </header>
-<main id="main">
-<section class="law-feature nf-routes">
-  <div class="law-content">
-    <div class="feature-label">Where to go</div>
+<main id="main" class="nf-routes">
+  <div class="feature-label">Where to go</div>
     <ul class="apply-list nf-links">
       <li><a href="index.html">The home page</a>, where every reference is grouped by page type and by task.</li>
       <li><a href="sitemap.html">The site map</a>, a plain list of every page on the site.</li>
@@ -140,8 +139,6 @@
       <li><a href="people.html">People</a>, if you are looking for whoever named the thing.</li>
       <li><a href="by-year.html">By year</a>, if you know roughly when it was published.</li>
     </ul>
-  </div>
-</section>
 </main>
 
 <footer>
