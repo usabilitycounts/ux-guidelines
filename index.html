@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=150">
+<link rel="stylesheet" href="tokens.css?v=152">
 <style>
   
 
@@ -68,6 +68,24 @@
   :root.beige .pt-screen { --pt-accent: #8b5e34; }
   :root.blue .pt-screen { --pt-accent: #60a5fa; }
   .pt-screen .pt-body svg { display: block; width: 100%; height: 100%; }
+  /* The window stays put and its contents assemble, a row at a time, as the
+     section arrives. Each shape fades to its own opacity, which JS copies onto
+     the element as --o, since the rects carry different values. The class is
+     only set when the reveal can run, so with no JS the screens just show. */
+  .screens-anim .pt-screen .pt-body svg > * { opacity: 0; }
+  .screens-anim .pt-screen.in .pt-body svg > * {
+    animation: pt-part-in 0.42s cubic-bezier(0.2, 0.7, 0.3, 1) both;
+    transform-box: fill-box;
+    transform-origin: left center;
+  }
+  @keyframes pt-part-in {
+    from { opacity: 0; transform: translateY(5px) scaleX(0.94); }
+    to   { opacity: var(--o, 1); transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .screens-anim .pt-screen .pt-body svg > * { opacity: var(--o, 1); }
+    .screens-anim .pt-screen.in .pt-body svg > * { animation: none; }
+  }
 
   .home-main .card, .home-main .tcard { display: block; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
   .home-main .card h3, .home-main .tcard h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-base); margin: 0; }
@@ -1021,7 +1039,55 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       sec.appendChild(body);
       typeWrap.appendChild(sec);
     });
+    observeScreens();   // build() replaces the screens, so re-arm the reveal
   }
+  // Reveal each screen as its section scrolls in. Marked at parse time so a
+  // screen is never painted and then hidden; the observer waits for load
+  // because the custom scroller it needs as a root is created by tokens.js.
+  var canAnimate = 'IntersectionObserver' in window &&
+    !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (canAnimate) document.documentElement.classList.add('screens-anim');
+  var screenObs = null;
+  // Copy each shape's own opacity onto it so the fade ends where it started,
+  // and stagger the rows top to bottom.
+  function armParts(screen) {
+    var parts = screen.querySelectorAll('.pt-body svg > *');
+    for (var i = 0; i < parts.length; i++) {
+      var p = parts[i];
+      if (!p.style.getPropertyValue('--o')) {
+        p.style.setProperty('--o', p.getAttribute('opacity') || '1');
+      }
+      p.style.animationDelay = (i * 55) + 'ms';
+    }
+  }
+  function revealAll() {
+    document.querySelectorAll('.pt-screen').forEach(function (el) {
+      armParts(el); el.classList.add('in');
+    });
+  }
+  function observeScreens() {
+    if (!screenObs) return;
+    document.querySelectorAll('.pt-screen:not([data-seen])').forEach(function (el) {
+      el.dataset.seen = '1';
+      screenObs.observe(el);
+    });
+  }
+  if (canAnimate) {
+    window.addEventListener('load', function () {
+      screenObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          armParts(e.target);
+          e.target.classList.add('in');
+          screenObs.unobserve(e.target);
+        });
+      }, { root: window.uxScroller || null, rootMargin: '0px 0px -8% 0px', threshold: 0.15 });
+      observeScreens();
+    });
+    // if load never fires, show them rather than leaving blanks
+    setTimeout(function () { if (!screenObs) revealAll(); }, 4000);
+  }
+
   var pillWrap = document.createElement('div');
   pillWrap.className = 'section-pills';
   var tabsEl = document.querySelector('.view-tabs');
@@ -1103,6 +1169,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     taskSections.forEach(function (sec) { sec.style.display = byType ? 'none' : ''; });
     typeWrap.style.display = byType ? '' : 'none';
     buildPills(v);
+    observeScreens();
     try { localStorage.setItem('ux-home-view', v); } catch (e) {}
   }
   var group = document.querySelector('.view-tabs');
