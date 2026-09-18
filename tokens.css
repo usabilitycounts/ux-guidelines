@@ -89,7 +89,7 @@ h1, h2, .card h3 { letter-spacing: -1px; }
 .menu-label {
   font-size: var(--fs-h2); color: var(--text-primary);
   font-weight: 600; margin: 10px 0 22px; padding-left: 14px;
-  letter-spacing: -0.3px; line-height: var(--lh-heading);
+  letter-spacing: -0.3px; line-height: var(--lh-base);
 }
 .menu-links { display: flex; flex-direction: column; }
 .menu-groups[hidden] { display: none !important; }
@@ -289,7 +289,7 @@ h1, h2, .card h3 { letter-spacing: -1px; }
   .topnav { padding: 10px 20px; }
   .subtitle, .section .lede { max-width: 100%; }
   .card { padding: 28px 20px 24px; grid-template-rows: unset; grid-row: unset; }
-  .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; }
+  .ai-divider { align-items: flex-start; gap: 10px; padding: 20px; }
   .ai-divider p { margin-left: 0; text-align: left; }
   header { padding: 32px 20px 28px; }
   .grid { grid-template-columns: 1fr; padding: 24px 20px 40px; }
@@ -303,10 +303,8 @@ h1, h2, .card h3 { letter-spacing: -1px; }
 :root { /* ---------- Colors ---------- */
   --bg: #ffffff; --surface: #f4f4f4; --surface-2: #ececec; --demo-bg: #ececec; --border: #e2e2e2; --text: #111111; --ink: #111111; --ink-fill: #111111; --muted: #666666; --accent: #111111; --accent-hover: #555555; --icon: #9a9a9a; --purple: #7c3aed; --topnav-bg: #ffffff; --field-bg: #ffffff; --header-grad: #eceef1; --il-accent: #38bdf8; --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.04), 0 6px 20px rgba(0, 0, 0, 0.08); --shadow-pop: 0 12px 32px rgba(0, 0, 0, 0.14); --scrollbar-thumb: #333333; --totop-bg: #111111; /* ---------- Type ---------- */
   --font-sans: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif; --font-mono: "SF Mono", Menlo, Consolas, "Roboto Mono", monospace; --fs-caption: 0.75rem; --fs-tag: 0.75rem;   /* same as caption */ --fs-label: 1rem;   /* same as body */ --fs-ui: 1rem;   /* same as body */ --fs-body: 1rem; --fs-h3: 1.125rem; --fs-h2: 1.3125rem; --fs-h1: clamp(2.25rem, 5vw, 4rem); --fs-feature: clamp(1.375rem, 2.6vw, 2.125rem); /* ---------- Line-height scale (4 tokens) ---------- */
-  --lh-tight: 1.2; /* h1 */
-  --lh-heading: 1.5; /* h2 · h3 · taglines */
-  --lh-base: 1.5; /* UI · meta · nav */
-  --lh-body: 1.5; /* paragraphs · descriptions */
+  --lh-tight: 1.2;   /* display type only */
+  --lh-base: 1.5;    /* everything else */
 
   /* ---------- Text color scale (4 tokens) ---------- */
   --text-primary: #111111; --text-secondary: #666666; --text-faint: #767676; --text-inverse: #ffffff; /* ---------- Skeleton palette (3 tones, semantic) ---------- */
@@ -365,7 +363,7 @@ html[data-page="yerkes-dodson"] { --brand: #c2410c; }
 /* Meta */
 /* Footer */
 /* illustration above headline */
-/* descriptions always four lines */ .desc { grid-column: 1 / -1; font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); max-width: 52ch; font-weight: 400; }
+/* descriptions always four lines */ .desc { grid-column: 1 / -1; font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-base); max-width: 52ch; font-weight: 400; }
 /* AI section */
 /* pill above headline */
 /* illustration label as header (8px below), illustration fills the rest */ .demo, .chart, .browser { display: flex; flex-direction: column; }
@@ -379,20 +377,20 @@ html[data-page="yerkes-dodson"] { --brand: #c2410c; }
 a { color: inherit; text-decoration: none; }
 h1 { font-size: var(--fs-h1); font-weight: 700; letter-spacing: -1px; line-height: var(--lh-tight); max-width: none; }
 h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
-.tagline { font-size: var(--fs-h2); font-weight: 500; color: var(--text-primary); margin-top: 0; max-width: 900px; line-height: var(--lh-heading); }
+.tagline { font-size: var(--fs-h2); font-weight: 500; color: var(--text-primary); margin-top: 0; max-width: 900px; line-height: var(--lh-base); }
 .tagline em { font-style: normal; font-weight: 600; color: var(--text-primary); }
 .subtitle { font-size: var(--fs-body); color: var(--text-secondary); max-width: 50%; margin-top: 18px; line-height: var(--lh-tight); }
 .law-feature .law-label { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin-bottom: 16px; }
 .law-feature .law-desc { font-size: var(--fs-body); line-height: var(--lh-tight); color: var(--text-primary); margin-bottom: 28px; max-width: 50%; }
 .law-feature .law-meta { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
 .law-feature .law-meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
-.law-feature .law-meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
+.law-feature .law-meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-base); }
 .card-header .tag { margin-bottom: 2px; }
 /* Card titles are h3 elements (page h1 > section h2 > card h3) */
-.card h3, .card h2 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-heading); }
+.card h3, .card h2 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-base); }
 .demo>svg { flex:1 1 auto;min-height:0;width:100%;height:100%;display:block;overflow:visible }
 .meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
-.meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); }
+.meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-base); }
 .tag { display: inline-block; font-size: var(--fs-tag); padding: 4px 10px; border-radius: 3px; font-weight: 500; background: var(--skel-fill-tag); color: var(--text-secondary); }
 .card .tag.ai-tag { background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
 .fi { opacity: 0; animation: fade-in .6s ease forwards; }
@@ -400,7 +398,7 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .ref-list a { display: flex; align-items: center; justify-content: flex-start; padding: 7px 0; text-decoration: none; color: var(--text-primary); gap: 10px; }
 .ref-list a svg { order: -1; }
 .ref-list a:hover { color: var(--text-primary) }
-.ref-list .title { font-size: var(--fs-ui); font-weight: 500; line-height: var(--lh-heading); }
+.ref-list .title { font-size: var(--fs-ui); font-weight: 500; line-height: var(--lh-base); }
 .ref-list svg { flex-shrink: 0; color: var(--text-secondary); }
 .ref-groups { display: grid; grid-template-columns: repeat(3, 1fr); gap: 36px 44px; align-items: start; }
 @media (max-width: 980px) { .ref-groups { grid-template-columns: 1fr; } }
@@ -420,9 +418,11 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .demo svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .law-feature .formula-box .formula .var { font-weight: 600; }
 .card-header { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 24px; }
-.ai-divider { grid-column: 1 / -1; background: var(--ink-fill); color: var(--text-inverse); padding: 22px 32px; display: flex; align-items: center; gap: 14px; }
+/* The spark and the heading share a line; the sentence sits under them.
+   Wrapping rather than a column keeps the mark beside the title. */
+.ai-divider { grid-column: 1 / -1; background: var(--ink-fill); color: var(--text-inverse); padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
 .ai-divider .spark { color: var(--text-inverse); font-size: var(--fs-body); }
-.ai-divider p { font-size: var(--fs-ui); color: var(--text-inverse); margin-left: 24px; max-width: none; flex: 1; line-height: var(--lh-base); text-align: left; white-space: normal; }
+.ai-divider p { font-size: var(--fs-ui); color: var(--text-inverse); margin-left: 0; max-width: none; flex: 1 0 100%; line-height: var(--lh-base); text-align: left; white-space: normal; }
 .demo { order: -1; width: 100%; aspect-ratio: 16 / 10; height: auto; background: var(--bg); border: 1.5px solid var(--surface-2); border-radius: 14px; padding: 44px 28px 22px; position: relative; overflow: hidden; margin-bottom: 24px; display: flex; flex-direction: column; }
 .demo-label { position: absolute; top: 14px; left: 22px; font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin: 0 0 8px; }
 .demo > svg { flex: 1 1 auto; min-height: 0; width: 100%; height: 100%; display: block; }
@@ -436,8 +436,8 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
    Semantic type classes (consolidation)
    h1 > h2 > h3 element defaults; classes only for variants
    ===================================================== */
-h2 { font-size: var(--fs-h2); font-weight: 600; line-height: var(--lh-heading); color: var(--text-primary); }
-h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); color: var(--text-primary); }
+h2 { font-size: var(--fs-h2); font-weight: 600; line-height: var(--lh-base); color: var(--text-primary); }
+h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-base); color: var(--text-primary); }
 
 /* One label style everywhere (meta labels, eyebrows, ref sources, demo labels) */
 .label,
@@ -447,7 +447,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 .meta .value, .meta-cell .value, .law-feature .law-meta .value {
   font-size: var(--fs-body);
   color: var(--text-secondary);
-  line-height: var(--lh-body);
+  line-height: var(--lh-base);
 }
 /* A link inside a value should read as a link. currentColor keeps the underline
    visible in both themes, unlike the fixed rgba the origin links use. */
@@ -463,7 +463,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 .desc, .card .desc, .subtitle, .law-feature .law-desc, .section .lede {
   font-size: var(--fs-body);
   color: var(--text-secondary);
-  line-height: var(--lh-body);
+  line-height: var(--lh-base);
 }
 .subtitle, .section .lede { max-width: 50%; }
 @media (max-width: 980px) { .subtitle, .section .lede { max-width: 100%; } }
@@ -475,7 +475,7 @@ h3 { font-size: var(--fs-h3); font-weight: 600; line-height: var(--lh-heading); 
 .law-feature .formula-box .quote {
   font-size: var(--fs-feature);
   color: var(--text-primary);
-  line-height: var(--lh-heading);
+  line-height: var(--lh-base);
   font-weight: 400;
 }
 
@@ -659,7 +659,7 @@ header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items:
 @media (max-width: 600px) { .footer-social { margin-left: 0; } }
 
 /* Law-feature section labels */
-.feature-label { font-size: 1.125rem; font-weight: 600; color: var(--text-primary); letter-spacing: -1px; margin-bottom: 16px; line-height: var(--lh-heading); }
+.feature-label { font-size: 1.125rem; font-weight: 600; color: var(--text-primary); letter-spacing: -1px; margin-bottom: 16px; line-height: var(--lh-base); }
 
 /* ---------- Themes (class on <html>, like ux-components.com) ---------- */
 :root.dark {
@@ -841,7 +841,7 @@ footer { background: var(--ink); display: block; padding: 44px 32px 24px; }
 .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 32px 48px; margin-bottom: 32px; max-width: 1100px; }
 .footer-col { display: flex; flex-direction: column; align-items: flex-start; }
 .footer-logo { font-size: var(--fs-body); font-weight: 600; color: #fff; margin-bottom: 10px; }
-.footer-line { font-size: var(--fs-ui); color: #9a9a9a; line-height: var(--lh-body); max-width: 320px; margin-bottom: 18px; }
+.footer-line { font-size: var(--fs-ui); color: #9a9a9a; line-height: var(--lh-base); max-width: 320px; margin-bottom: 18px; }
 .footer-head { font-size: 0.875rem; font-weight: 600; color: #8a8a8a; margin-bottom: 10px; }
 .footer-col a { font-size: var(--fs-ui); color: #9a9a9a; padding: 5px 0; display: block; }
 .footer-col a:hover { color: #fff; }
@@ -872,7 +872,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .sheet-title {
   font-size: var(--fs-h2); color: var(--text-primary);
   font-weight: 600; margin: 10px 0 22px; padding-left: 14px;
-  letter-spacing: -0.3px; line-height: var(--lh-heading);
+  letter-spacing: -0.3px; line-height: var(--lh-base);
 }
 .sheet-close {
   position: static; margin-right: -12px; flex: none;
@@ -905,7 +905,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .sheet-section { margin-bottom: 0; display: flex; flex-direction: column; }
 .sheet-label {
   font-size: var(--fs-body); font-weight: 600; color: var(--text-primary);
-  text-transform: none; letter-spacing: 0; line-height: var(--lh-heading);
+  text-transform: none; letter-spacing: 0; line-height: var(--lh-base);
   margin: 0; padding: 12px 14px;
 }
 .sheet-opt {
@@ -937,8 +937,8 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 
 /* Full-width formula banner atop the law feature */
 .law-feature .law-formula { grid-column: 1 / -1; padding-bottom: 26px; border-bottom: 1px solid var(--border); }
-.law-formula-eq { font-family: var(--font-sans); font-size: calc(var(--fs-body) * 2); font-weight: 400; letter-spacing: -1px; color: var(--text-primary); line-height: var(--lh-heading); }
-.law-formula-note { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-body); margin-top: 8px; max-width: 62ch; }
+.law-formula-eq { font-family: var(--font-sans); font-size: calc(var(--fs-body) * 2); font-weight: 400; letter-spacing: -1px; color: var(--text-primary); line-height: var(--lh-base); }
+.law-formula-note { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-base); margin-top: 8px; max-width: 62ch; }
 @media (max-width: 800px) { .law-formula-eq { font-size: calc(var(--fs-body) * 1.5); } }
 
 
@@ -1031,7 +1031,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .bm-count { position: absolute; top: 2px; right: 2px; min-width: 16px; height: 16px; padding: 0 4px; border-radius: 8px; background: var(--ink-fill); color: var(--text-inverse); font-size: 10px; font-weight: 700; line-height: 1; display: flex; align-items: center; justify-content: center; }
 .bm-count[hidden] { display: none; }
 .bm-body { padding: 0 14px; }
-.bm-empty { font-size: var(--fs-label); color: var(--text-secondary); padding: 6px 0 10px; line-height: 1.6; max-width: 60ch; margin: 0; }
+.bm-empty { font-size: var(--fs-label); color: var(--text-secondary); padding: 6px 0 10px; line-height: var(--lh-base); max-width: 60ch; margin: 0; }
 .bm-table { border-collapse: collapse; width: 100%; max-width: 760px; font-size: var(--fs-ui); }
 .bm-table th { text-align: left; font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); padding: 6px 0 6px; }
 .bm-table td { padding: 8px 12px 8px 0; border-top: 1px solid var(--border); color: var(--text-secondary); vertical-align: middle; }
@@ -1242,11 +1242,11 @@ html.has-scroller .topnav { flex: 0 0 auto; }
 .help-panel[hidden] { display: none; }
 .help-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px 40px; }
 .help-item h3 { font-size: 0.9375rem; font-weight: 600; letter-spacing: 0; margin: 0 0 6px; color: var(--text-primary); }
-.help-item p { font-size: 0.875rem; line-height: 1.55; color: var(--text-secondary); margin: 0; }
+.help-item p { font-size: 0.875rem; line-height: var(--lh-base); color: var(--text-secondary); margin: 0; }
 .keys-table { border-collapse: collapse; width: 100%; max-width: 640px; font-size: 0.875rem; }
 .keys-table th { text-align: left; font-size: 0.6875rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); padding: 14px 0 6px; }
 .keys-table td { padding: 8px 12px 8px 0; border-top: 1px solid var(--border); color: var(--text-secondary); vertical-align: middle; }
 .keys-table td:first-child { width: 160px; white-space: nowrap; }
-kbd.key { display: inline-block; min-width: 22px; padding: 2px 7px; margin-right: 3px; text-align: center; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-primary); background: var(--bg); border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 5px; line-height: 1.5; }
+kbd.key { display: inline-block; min-width: 22px; padding: 2px 7px; margin-right: 3px; text-align: center; font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-primary); background: var(--bg); border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 5px; line-height: var(--lh-base); }
 .keys-then { font-size: 0.75rem; color: var(--text-faint); margin: 0 4px 0 1px; }
 .keys-page { margin-left: 6px; }

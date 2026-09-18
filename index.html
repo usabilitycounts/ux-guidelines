@@ -37,17 +37,9 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=146">
+<link rel="stylesheet" href="tokens.css?v=148">
 <style>
-  :root {
-    --bg: #ffffff;
-    --surface: #f4f4f4;
-    --demo-bg: #ececec;
-    --border: #e2e2e2;
-    --ink: #111111;
-    --muted: #6b6b6b;
-    --accent: #d4380d;
-  }
+  
 
   /* ---------- Directory layout ---------- */
   .home-layout { max-width: 1440px; margin: 0 auto; padding: 0 32px 72px; }
@@ -55,7 +47,7 @@
 
   .section-head { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; }
   .section-ico { width: 22px; height: 22px; color: var(--text-faint); flex: 0 0 auto; }
-  .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-heading); letter-spacing: -1px; }
+  .category-label { font-size: calc(var(--fs-h2) + 4px); font-weight: 700; color: var(--text-primary); margin: 0; line-height: var(--lh-base); letter-spacing: -1px; }
   @media (min-width: 480px) { .category-label { white-space: nowrap; } }
   /* 12-column grid: screen = 3 cols, content = 9 cols, every link = 3 cols.
      Equal column-gaps at each level keep the nested tracks aligned to the parent grid. */
@@ -78,7 +70,7 @@
   .pt-screen .pt-body svg { display: block; width: 100%; height: 100%; }
 
   .home-main .card, .home-main .tcard { display: block; text-decoration: none; color: inherit; padding: 0 0 6px; min-width: 0; background: transparent; border: 0; grid-template-rows: unset; grid-row: unset; }
-  .home-main .card h3, .home-main .tcard h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-heading); margin: 0; }
+  .home-main .card h3, .home-main .tcard h3 { font-size: var(--fs-body); font-weight: 400; letter-spacing: 0; line-height: var(--lh-base); margin: 0; }
   .home-main .card:hover h3, .home-main .tcard:hover h3 { text-decoration: underline; }
   .home-main .card .desc, .home-main .tcard .desc { display: block; font-size: var(--fs-ui); color: var(--text-secondary); margin: 2px 0 0; }
   .home-main .card .card-foot, .home-main .tcard .card-foot { display: none; }

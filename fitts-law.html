@@ -37,15 +37,9 @@
 <meta name="twitter:title" content="Fitts&#x27;s Law: Target Size, Distance, and Time to Click — UX Guidelines">
 <meta name="twitter:description" content="The time to hit a target depends on its size and distance. Fitts&#x27;s Law governs every button, link, and tap target — and explains why edges and corners feel so fast.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Fitts’s Law: Target Size, Distance, and Time to Click", "description": "The time to hit a target depends on its size and distance. Fitts&#x27;s Law governs every button, link, and tap target — and explains why edges and corners feel so fast.", "url": "https://www.ux-guidelines.com/fitts-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/fitts-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Design Actions And Controls"}, {"@type": "ListItem", "position": 3, "name": "Fitts’s Law: Target Size, Distance, and Time to Click", "item": "https://www.ux-guidelines.com/fitts-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=146">
+<link rel="stylesheet" href="tokens.css?v=148">
 <style>
   :root {
-    --bg: #ffffff;
-    --surface: #f4f4f4;
-    --demo-bg: #ececec;
-    --border: #e2e2e2;
-    --ink: #111111;
-    --muted: #6b6b6b;
     --f1: #6b6b6b;  /* the law */
     --f2: #6b6b6b;  /* bigger */
     --f3: #6b6b6b;  /* closer */
@@ -60,11 +54,6 @@
   }
 
   /* ---------- Card grid ---------- */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
-    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
-  }
 
   /* ---------- Demo frame ---------- */
   .demo {
@@ -94,7 +83,7 @@
     font-size: var(--fs-feature);
     color: var(--text-primary);
     font-weight: 500;
-    line-height: var(--lh-heading);
+    line-height: var(--lh-base);
   }
   .card.f1 .formula .var {  font-weight: 600; }
   .card.f1 .meta { grid-template-columns: 1fr 1fr; }
@@ -131,23 +120,22 @@
   }
   /* tags neutralized to match beige illustrations */
   .card .tag { background: rgba(107, 107, 107,.12) !important; color: var(--text-secondary) !important; }
-  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
   /* CARE reference block */
   .care { background: var(--surface); border-bottom: 1px solid var(--border); }
   .care-row { padding: 38px 60px; border-bottom: 1px solid var(--border); }
   .care-row:last-child { border-bottom: 0; }
   .care-label { font-size: var(--fs-tag); color: var(--text-secondary); font-weight: 500; margin-bottom: 14px; }
-  .care-statement { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-heading); color: var(--text-primary); max-width: 900px; }
-  .care-row p { font-size: var(--fs-body); line-height: var(--lh-body); color: var(--text-primary); max-width: 78ch; }
+  .care-statement { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-base); color: var(--text-primary); max-width: 900px; }
+  .care-row p { font-size: var(--fs-body); line-height: var(--lh-base); color: var(--text-primary); max-width: 78ch; }
   .care-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
   .care-cell { background: var(--surface); padding: 32px 28px; }
   .care-cell .care-label { margin-bottom: 12px; }
-  .care-cell p { font-size: var(--fs-ui); line-height: var(--lh-body); color: var(--text-primary); max-width: none; }
+  .care-cell p { font-size: var(--fs-ui); line-height: var(--lh-base); color: var(--text-primary); max-width: none; }
   .care-cell h3 { font-size: var(--fs-body); font-weight: 600; margin-bottom: 8px; color: var(--text-primary); }
   @media (max-width: 720px) { .care-3 { grid-template-columns: 1fr; } .care-row { padding: 26px 20px; } .care-cell { padding: 24px 20px; } }
 
   /* ---------- Law feature block (above the card grid) ---------- */
-  .law-feature .formula-box .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-feature); color: var(--text-primary); font-weight: 500; line-height: var(--lh-heading); text-align: center; }
+  .law-feature .formula-box .formula { font-family: 'JetBrains Mono', 'Archivo', monospace; font-size: var(--fs-feature); color: var(--text-primary); font-weight: 500; line-height: var(--lh-base); text-align: center; }
 
   /* Fitts illustrations */
   .fx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; }

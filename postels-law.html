@@ -37,19 +37,16 @@
 <meta name="twitter:title" content="Postel&#x27;s Law: The Robustness Principle in Interface Design — UX Guidelines">
 <meta name="twitter:description" content="Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Postel’s Law: The Robustness Principle in Interface Design", "description": "Jon Postel&#x27;s 1980 robustness principle came out of the TCP specification — a rule for letting networks tolerate sloppy peers without becoming sloppy themselves. The same rule maps cleanly onto interfaces: be strict about what you produce, forgiving of what users hand you.", "url": "https://www.ux-guidelines.com/postels-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/postels-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Postel’s Law: The Robustness Principle in Interface Design", "item": "https://www.ux-guidelines.com/postels-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=146">
+<link rel="stylesheet" href="tokens.css?v=148">
 <style>
   :root {
-    --bg: #ffffff; --surface: #f4f4f4; --demo-bg: #ececec; --border: #e2e2e2;
-    --ink: #111111; --muted: #6b6b6b;
     --p1: #6b6b6b; --p2: #6b6b6b; --p3: #6b6b6b; --p4: #6b6b6b; --p5: #6b6b6b;
     --p6: #6b6b6b; --p7: #6b6b6b; --p8: #6b6b6b; --ai: #0d9488;
   }
 
-  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-heading); color: var(--text-primary); text-align: center; max-width: 520px; }
+  .law-feature .formula-box .quote { font-size: var(--fs-feature); font-weight: 500; line-height: var(--lh-base); color: var(--text-primary); text-align: center; max-width: 520px; }
   .law-feature .formula-box .quote em {  font-style: italic; font-weight: 600; }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr)); gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none; }
   .demo{width:100%;aspect-ratio: 16 / 10; height: auto;background:var(--bg);border:1.5px solid var(--border);border-radius:14px;padding: 44px 28px 22px;position:relative;overflow:hidden;margin-bottom:24px;order:-1;display:flex;flex-direction:column}.demo::before{content:"";position:absolute;top:0;left:0;right:0;height:30px;background:radial-gradient(circle at 20.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 44.5px 15px,#9a9a9a 6.5px,transparent 7px),radial-gradient(circle at 68.5px 15px,#9a9a9a 6.5px,transparent 7px),#ececec;border-bottom:1.5px solid var(--border);z-index:1}.demo::after{content:"";position:absolute;top:8.5px;left:92px;right:14px;height:13px;background:rgba(107,107,107,0.22);border-radius:6.5px;z-index:2}.demo-label{position:absolute;top:40px;left:28px;z-index:3;font-size: var(--fs-caption);color: var(--text-secondary);font-weight:500}
   .copyright, .meta-info { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; }
   

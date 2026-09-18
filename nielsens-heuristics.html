@@ -37,15 +37,9 @@
 <meta name="twitter:title" content="Nielsen&#x27;s 10 Heuristics: The Usability Checklist, Explained — UX Guidelines">
 <meta name="twitter:description" content="Jakob Nielsen&#x27;s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Nielsen’s 10 Heuristics: The Usability Checklist, Explained", "description": "Jakob Nielsen&#x27;s ten usability heuristics are still the most widely used checklist for finding interface problems — each one explained with a modern, practical example.", "url": "https://www.ux-guidelines.com/nielsens-heuristics.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/nielsens-heuristics.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "Nielsen’s 10 Heuristics: The Usability Checklist, Explained", "item": "https://www.ux-guidelines.com/nielsens-heuristics.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=146">
+<link rel="stylesheet" href="tokens.css?v=148">
 <style>
   :root {
-    --bg: #ffffff;
-    --surface: #f4f4f4;
-    --demo-bg: #ececec;
-    --border: #e2e2e2;
-    --ink: #111111;
-    --muted: #6b6b6b;
     --h1: #6b6b6b;   /* visibility */
     --h2: #6b6b6b;   /* real world */
     --h3: #6b6b6b;   /* control */
@@ -59,11 +53,6 @@
   }
 
   /* ---------- Grid ---------- */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(380px, 100%), 1fr));
-    gap: 24px; padding: 40px 32px 60px; background: transparent; border-bottom: none;
-  }
 
   /* ---------- Card ---------- */
   .card { background: var(--bg); border: 1px solid var(--border); padding: 36px 32px 32px;
@@ -333,7 +322,6 @@
     border-radius: 2px;
     padding: 0 2px;
   }
-  @media (max-width: 600px) { .ai-divider { flex-direction: column; align-items: flex-start; gap: 10px; padding: 20px; } .ai-divider p { margin-left: 0; text-align: left; } }
 
   /* Heuristic illustrations */
   .hx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 20px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }

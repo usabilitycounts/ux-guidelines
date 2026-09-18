@@ -25,15 +25,9 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Design System — UX Guidelines (internal)">
 <meta name="twitter:description" content="A canonical reference for every token, component, and pattern used across the site. If it appears more than once, it lives here.">
-<link rel="stylesheet" href="tokens.css?v=146">
+<link rel="stylesheet" href="tokens.css?v=148">
 <style>
   :root {
-    --bg: #ffffff;
-    --surface: #f4f4f4;
-    --demo-bg: #ececec;
-    --border: #e2e2e2;
-    --ink: #111111;
-    --muted: #6b6b6b;
 
     /* Page accents (one per topic page) */
     --eye-f:    #d4380d;
@@ -195,7 +189,7 @@
     font-family: 'JetBrains Mono', monospace;
     font-size: var(--fs-caption);
     color: var(--text-secondary);
-    line-height: var(--lh-body);
+    line-height: var(--lh-base);
   }
   .type-spec strong {
     color: var(--text-primary);
@@ -302,7 +296,7 @@
   .card-desc {
     font-size: var(--fs-body);
     color: var(--text-secondary);
-    line-height: var(--lh-body);
+    line-height: var(--lh-base);
     margin-top: 12px;
   }
   .card-section-divider {
@@ -461,7 +455,7 @@
     padding: 16px 18px;
     font-family: 'JetBrains Mono', monospace;
     font-size: var(--fs-tag);
-    line-height: var(--lh-body);
+    line-height: var(--lh-base);
     color: var(--text-primary);
     overflow-x: auto;
     white-space: pre;
@@ -675,7 +669,7 @@
   </div>
 
   <div class="type-row">
-    <div style="font-size: var(--fs-body);color: var(--text-secondary);line-height: var(--lh-body);max-width:430px">Body text — used for card descriptions and subtitles. Set at 1.55 line-height in the muted token for readable but quiet copy.</div>
+    <div style="font-size: var(--fs-body);color: var(--text-secondary);line-height: var(--lh-base);max-width:430px">Body text — used for card descriptions and subtitles. Set at 1.55 line-height in the muted token for readable but quiet copy.</div>
     <div class="type-spec">
       <strong>16px</strong><br>
       weight 400 · ls 0<br>
@@ -1159,7 +1153,7 @@
   <h2>5. Page Layout</h2>
   <p class="lede">Every topic page follows the same vertical structure.</p>
 
-  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:32px;display:grid;gap:14px;font-family:'JetBrains Mono',monospace;font-size: var(--fs-tag);color: var(--text-secondary);line-height: var(--lh-body)">
+  <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:32px;display:grid;gap:14px;font-family:'JetBrains Mono',monospace;font-size: var(--fs-tag);color: var(--text-secondary);line-height: var(--lh-base)">
     <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">1.</strong> &nbsp; topnav &nbsp;<span style="opacity:0.6">— sticky white bar · hamburger and brand left · centered search · About and settings gear right</span></div>
     <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">2.</strong> &nbsp; header &nbsp;<span style="opacity:0.6">— eyeline · h1 · tagline · subtitle · soft gradient from --header-grad to --bg</span></div>
     <div><strong style="color: var(--text-primary);font-family: "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;font-size: var(--fs-label)">3.</strong> &nbsp; law-feature or main.grid &nbsp;<span style="opacity:0.6">— formula banner (if any) full width, then Origin and Law columns, then cards on hairline dividers</span></div>
