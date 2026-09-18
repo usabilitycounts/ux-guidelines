@@ -151,10 +151,38 @@ def check_menu_consistency():
                  f'{canon_page}')
 
 
+def check_preload_versions():
+    """Each page preloads i18n.js and its own overlay before anything else runs.
+    Those URLs carry version numbers that live in tokens.js and i18n.js, so a
+    bump in one place and not the other turns the hint into a second, wasted
+    request rather than a cache hit. Nothing would look broken, which is
+    exactly why it needs checking."""
+    want_js = re.search(r'i18n\.js\?v=(\d+)', open(f'{SITE}/tokens.js').read())
+    want_ov = re.search(r'\.json\?v=(\d+)', open(f'{SITE}/i18n.js').read())
+    if not want_js or not want_ov:
+        fail('preload: could not read the i18n.js or overlay version')
+        return
+    for f in sorted(glob.glob(f'{SITE}/*.html')):
+        if os.path.basename(f) in SKIP:
+            continue
+        s = open(f).read()
+        m = re.search(r"pl\('i18n\.js\?v=(\d+)'", s)
+        o = re.search(r"\.json\?v=(\d+)'\s*,\s*'fetch'", s)
+        if not m or not o:
+            continue          # a page without the hints is not an error
+        if m.group(1) != want_js.group(1):
+            fail(f'preload: {os.path.basename(f)} preloads i18n.js v{m.group(1)}, '
+                 f'tokens.js loads v{want_js.group(1)}')
+        if o.group(1) != want_ov.group(1):
+            fail(f'preload: {os.path.basename(f)} preloads overlay v{o.group(1)}, '
+                 f'i18n.js fetches v{want_ov.group(1)}')
+
+
 def main():
     for check in (check_div_balance, check_overlay_counts,
                   check_related_bidirectional, check_people_anchors,
-                  check_home_count, check_menu_consistency):
+                  check_home_count, check_menu_consistency,
+                  check_preload_versions):
         check()
     if failures:
         print(f'PREFLIGHT FAILED — {len(failures)} problem(s):')
@@ -162,7 +190,8 @@ def main():
             print(f'  ✗ {msg}')
         sys.exit(1)
     print('Preflight clean: divs balanced, overlays aligned, related links '
-          'bidirectional, anchors resolve, counts agree, menus consistent.')
+          'bidirectional, anchors resolve, counts agree, menus consistent, '
+          'preload versions match.')
 
 
 if __name__ == '__main__':
