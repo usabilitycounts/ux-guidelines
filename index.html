@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=155">
+<link rel="stylesheet" href="tokens.css?v=156">
 <style>
   
 
@@ -106,7 +106,7 @@
   .section-pill.current { background: var(--ink-fill); color: var(--text-inverse); }
   /* A pill jump must clear the sticky bar above it. The bar changes height
      when the pills wrap, so JS measures it; 76px is only the fallback. */
-  .home-main .section { scroll-margin-top: calc(var(--home-sticky-h, 76px) + 14px); }
+  .home-main .section { scroll-margin-top: calc(var(--home-sticky-h, 76px) + var(--home-section-gap, 14px)); }
 
   @media (max-width: 980px) {
     .home-layout { padding: 32px 20px 48px; }
@@ -1128,13 +1128,19 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   // Which section is being read: the last one whose top has passed under the
   // sticky pill row. At the very bottom the last section wins outright, since a
   // short final section may never reach that line.
+  // How far below the sticky bar a jumped-to section comes to rest. The scroll
+  // stop and the spy that decides which pill is current must read the same
+  // number, or a click lands correctly and then highlights the pill above it.
+  var SECTION_GAP = 14;
   function syncStickyHeight() {
     if (!stickyBar) return;
-    document.documentElement.style.setProperty('--home-sticky-h', stickyBar.offsetHeight + 'px');
+    var root = document.documentElement;
+    root.style.setProperty('--home-sticky-h', stickyBar.offsetHeight + 'px');
+    root.style.setProperty('--home-section-gap', SECTION_GAP + 'px');
   }
   function markCurrent() {
     if (!pills.length) return;
-    var line = stickyBar.getBoundingClientRect().bottom + 8;
+    var line = stickyBar.getBoundingClientRect().bottom + SECTION_GAP + 6;   // 6px of slack for rounding
     var sc = window.uxScroller || document.documentElement;
     var idx = 0;
     for (var i = 0; i < pills.length; i++) {
