@@ -422,11 +422,15 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   [['help', 'Help'], ['keys', 'Keyboard shortcuts']].forEach(([v, name]) => {
     const b = document.createElement('button');
     b.type = 'button'; b.className = 'sheet-tab'; b.setAttribute('role', 'tab'); b.dataset.view = v; b.textContent = name;
+    // a tab has to name the panel it controls, and the panel has to name it back
+    b.id = 'help-tab-' + v;
+    b.setAttribute('aria-controls', 'help-panel-' + v);
     tabs.appendChild(b);
   });
   sheet.appendChild(tabs);
   const helpPanel = document.createElement('div');
   helpPanel.className = 'help-panel'; helpPanel.dataset.view = 'help'; helpPanel.setAttribute('role', 'tabpanel');
+  helpPanel.id = 'help-panel-help'; helpPanel.setAttribute('aria-labelledby', 'help-tab-help');
   const grid = document.createElement('div'); grid.className = 'help-grid';
   HELP.forEach(([h, p]) => {
     const item = document.createElement('div'); item.className = 'help-item';
@@ -437,6 +441,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   helpPanel.appendChild(grid);
   const keysPanel = document.createElement('div');
   keysPanel.className = 'help-panel'; keysPanel.dataset.view = 'keys'; keysPanel.setAttribute('role', 'tabpanel'); keysPanel.hidden = true;
+  keysPanel.id = 'help-panel-keys'; keysPanel.setAttribute('aria-labelledby', 'help-tab-keys');
   const table = document.createElement('table'); table.className = 'keys-table';
   const thead = document.createElement('thead'); thead.innerHTML = '<tr><th class="keys-col">Keys</th><th class="keys-col">Action</th></tr>';
   const tbody = document.createElement('tbody');
@@ -649,6 +654,28 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   ).observe(h1);
 })();
 
+// A closed panel is moved out of sight with a transform, which hides it from the
+// eye but not from the Tab key: the shut hamburger menu alone holds ~59 stops
+// that a keyboard user walks through before reaching the page. `inert` takes a
+// subtree out of focus order, hit-testing and the accessibility tree at once, so
+// the panels track it against their own open class instead of every open and
+// close function having to remember.
+(() => {
+  const SEL = '.menu-panel, .settings-sheet, .bm-sheet, .share-menu';
+  const sync = el => { el.inert = !el.classList.contains('open'); };
+  const watch = el => {
+    sync(el);
+    new MutationObserver(() => sync(el)).observe(el, { attributes: true, attributeFilter: ['class'] });
+  };
+  document.querySelectorAll(SEL).forEach(watch);
+  // several of these panels are built by later modules, so pick them up as they land
+  new MutationObserver(muts => muts.forEach(mu => mu.addedNodes.forEach(n => {
+    if (n.nodeType !== 1) return;
+    if (n.matches && n.matches(SEL)) watch(n);
+    if (n.querySelectorAll) n.querySelectorAll(SEL).forEach(watch);
+  }))).observe(document.body, { childList: true, subtree: true });
+})();
+
 // Letter navigation sticks just below the topnav; bordered while stuck
 (() => {
   const an = document.querySelector('.alpha-nav');
@@ -762,7 +789,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   wrap.className = 'search-wrap';
   wrap.id = 'search-wrap';
   wrap.innerHTML = '<svg aria-hidden="true" class="search-ico" ' + LUCIDE + '>' + SEARCH_ICO + '</svg>' +
-    '<input class="search-input" type="search" placeholder="Search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search the site" role="combobox" aria-expanded="false" aria-controls="search-panel" aria-autocomplete="list">' +
+    '<input class="search-input" type="search" placeholder="Search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-label="Search the site" role="combobox" aria-expanded="false" aria-controls="search-listbox" aria-autocomplete="list">' +
     '<button class="search-clear" type="button" aria-label="Clear search"><svg aria-hidden="true" ' + LUCIDE + '>' + CLOSE_ICO + '</svg></button>';
   const input = wrap.querySelector('.search-input');
   const clearBtn = wrap.querySelector('.search-clear');
@@ -884,9 +911,11 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const shell = (title, body) =>
     '<div class="sheet-head"><h2 class="sheet-title">' + title + '</h2>' +
     '<button class="sheet-close" type="button" data-ta-close aria-label="' + esc(T('Clear search')) + '"><svg aria-hidden="true" ' + LUCIDE + '>' + CLOSE_ICO + '</svg></button></div>' +
-    '<div class="menu-links"><div class="menu-groups">' + body + '</div></div>';
+    '<div class="menu-links"><div class="menu-groups" id="search-listbox" role="listbox" aria-label="' + esc(T('Results')) + '">' + body + '</div></div>';
   const group = (label, rows) => rows.length
-    ? '<details class="menu-group" open><summary class="menu-group-label"><h3>' + esc(label) + '</h3></summary><div class="menu-group-body">' + rows.join('') + '</div></details>'
+    ? '<div class="menu-group search-group" role="group" aria-label="' + esc(label) + '">' +
+      '<div class="menu-group-label"><h3>' + esc(label) + '</h3></div>' +
+      '<div class="menu-group-body">' + rows.join('') + '</div></div>'
     : '';
   let optId = 0;
   const item = (href, name, desc) =>

@@ -37,7 +37,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=137">
+<link rel="stylesheet" href="tokens.css?v=140">
 <style>
   :root {
     --bg: #ffffff;
@@ -91,9 +91,9 @@
   .section-pill { white-space: nowrap; }
   .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; padding-bottom: 14px; margin-bottom: 8px; }
   .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
-  .section-pill:hover { background: var(--ink); color: var(--text-inverse); }
+  .section-pill:hover { background: var(--ink-fill); color: var(--text-inverse); }
   /* the section you are currently reading */
-  .section-pill.current { background: var(--ink); color: var(--text-inverse); }
+  .section-pill.current { background: var(--ink-fill); color: var(--text-inverse); }
   .home-main .section { scroll-margin-top: 76px; }
 
   @media (max-width: 980px) {
@@ -160,7 +160,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   background: transparent; border: 0; text-align: left; font: inherit; font-size: 14px; color: var(--text-primary); cursor: pointer;
   transition: background-color 0.15s ease;
 }
-.dropdown-menu button:hover, .dropdown-menu button:focus-visible { background: var(--demo-bg); outline: none; }
+.dropdown-menu button:hover, .dropdown-menu button:focus-visible { background: var(--demo-bg); }
 .dropdown-menu [aria-selected="true"] { font-weight: 600; }
 .dropdown-menu .dropdown-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .landing-logo { width: clamp(2.5rem, 5vw, 3.4375rem); height: clamp(2.5rem, 5vw, 3.4375rem); color: var(--icon); flex: 0 0 auto; }
@@ -192,7 +192,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .hero-dropdowns .dropdown { flex: 1 1 0; min-width: 0; }
 }
 </style>
-<script defer src="tokens.js?v=114"></script>
+<script defer src="tokens.js?v=116"></script>
 </head>
 <body>
 
@@ -361,6 +361,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     btn.innerHTML = (opts.icon || '') + '<span class="dropdown-val"></span>';
     var menu = document.createElement('div');
     menu.className = 'dropdown-menu'; menu.setAttribute('role', 'listbox'); menu.hidden = true;
+    if (opts.label) menu.setAttribute('aria-label', opts.label);   // a listbox needs its own name
     var options = items.map(function (el, i) {
       var o = document.createElement('button');
       o.type = 'button'; o.setAttribute('role', 'option'); o.dataset.i = String(i);
