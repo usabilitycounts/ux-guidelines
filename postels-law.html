@@ -295,10 +295,20 @@
       <h3>Stay Backwards-Compatible</h3>
       <p class="desc">Be liberal with what older clients, older URLs, and older data send you. Don’t break links when paths change — redirect. Don’t reject saved files in last year’s format — upgrade them silently. The user shouldn’t pay for your refactor.</p>
     </div>
-    <div class="demo"><div class="px" style="flex-direction:row;align-items:stretch">
-      <div class="tile" style="opacity:0.5"><span class="b" style="height:8px;width:50%"></span><span class="b faint" style="height:6px;width:82%"></span><span class="b faint" style="height:6px;width:74%"></span><span class="b faint" style="height:6px;width:66%"></span></div>
-      <svg viewBox="0 0 40 40" style="width:34px;flex:none;align-self:center;overflow:visible"><path class="funnel" d="M4 20 L30 20"/><path class="funnel" d="M24 13 L32 20 L24 27"/></svg>
-      <div class="tile" style="background:rgba(56,189,248,0.12)"><span class="b dark" style="height:8px;width:50%"></span><span class="b" style="height:6px;width:82%"></span><span class="b" style="height:6px;width:74%"></span><span class="b" style="height:6px;width:66%"></span><span class="hot" style="height:6px;width:56%"></span></div>
+    <div class="demo"><div class="px" style="flex-direction:row;align-items:center;gap:12px">
+      <div style="display:flex;flex-direction:column;gap:10px;flex:1;min-width:0">
+        <div class="tile" style="padding:10px 11px;gap:6px;flex:none"><span class="lab"></span><span class="messy w-70"></span></div>
+        <div class="tile" style="padding:10px 11px;gap:6px;flex:none"><span class="lab"></span><span class="clean w-88"></span></div>
+      </div>
+      <svg viewBox="0 0 48 62" style="width:46px;flex:none;overflow:visible" aria-hidden="true" focusable="false">
+        <path class="funnel" d="M2 13 L26 29" style="stroke:var(--skel);opacity:0.75"></path>
+        <path class="funnel" d="M2 49 L26 33" style="stroke:var(--skel);opacity:0.75"></path>
+        <path class="funnel" d="M26 31 H44"></path>
+        <path class="funnel" d="M38 25 L44 31 L38 37"></path>
+      </svg>
+      <div class="tile" style="box-shadow:inset 0 0 0 2px var(--il-accent);background:rgba(56,189,248,0.07)">
+        <span class="lab"></span><span class="clean w-88"></span><span class="clean w-70"></span>
+      </div>
     </div></div>
     <div class="meta">
       <div><div class="label">Apply</div><div class="value">Old URLs · old data</div></div>
@@ -379,11 +389,12 @@
     </div>
     <div class="demo"><div class="px" style="flex-direction:row;align-items:center;gap:14px">
       <div class="tile"><span class="lab w-40"></span><span class="messy w-88"></span><span class="messy w-70"></span></div>
-      <svg viewBox="0 0 60 60" style="width:58px;flex:none;overflow:visible">
-        <path class="funnel" d="M8 22 A22 18 0 0 1 52 22" style="stroke:var(--il-accent);stroke-width:5"/>
-        <path class="funnel" d="M52 38 A22 18 0 0 1 8 38" style="stroke:var(--skel);opacity:0.7;stroke-width:5"/>
-        <path class="funnel" d="M46 15 L53 23 L44 26" style="stroke:var(--il-accent);stroke-width:5"/>
-        <path class="funnel" d="M14 45 L7 37 L16 34" style="stroke:var(--skel);opacity:0.7;stroke-width:5"/>
+      <svg viewBox="0 0 60 26" style="width:74px;flex:none;overflow:visible" aria-hidden="true" focusable="false">
+        <path class="funnel" d="M2 13 H21" style="stroke:var(--skel);opacity:0.75"></path>
+        <path class="funnel" d="M15.5 7.5 L21 13 L15.5 18.5" style="stroke:var(--skel);opacity:0.75"></path>
+        <path class="funnel" d="M58 13 H39" style="stroke:var(--skel);opacity:0.75"></path>
+        <path class="funnel" d="M44.5 7.5 L39 13 L44.5 18.5" style="stroke:var(--skel);opacity:0.75"></path>
+        <circle cx="30" cy="13" r="5.5" fill="var(--il-accent)"></circle>
       </svg>
       <div class="tile"><span class="lab w-40"></span><span class="clean w-88"></span><span class="clean w-70"></span></div>
     </div></div>
