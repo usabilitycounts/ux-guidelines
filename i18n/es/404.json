@@ -8,9 +8,6 @@
  "header .subtitle": [
   "Puede que la página se haya renombrado, o que el enlace que te trajo aquí esté desactualizado. La biblioteca está intacta: usa el buscador de la barra superior, o retoma por una de las rutas de abajo."
  ],
- ".law-origin .body-text": [
-  "Si la escribiste, comprueba que no se haya colado un carácter. Si seguiste un enlace, apunta a una página que ya no existe con ese nombre."
- ],
  ".apply-list li": [
   "<a href=\"index.html\">La página de inicio</a>, donde cada referencia se agrupa por tipo de página y por tarea.",
   "<a href=\"sitemap.html\">El mapa del sitio</a>, una lista simple de todas las páginas.",

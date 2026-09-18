@@ -595,7 +595,7 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
   const lang = localStorage.getItem('ux-lang');
   if (!lang || lang === 'en') return;
   const s = document.createElement('script');
-  s.src = 'i18n.js?v=64';
+  s.src = 'i18n.js?v=65';
   document.head.appendChild(s);
 })();
 
@@ -1073,7 +1073,10 @@ window.UX_SLUGS = {"fr":{"teslers-law":"loi-de-tesler","galls-law":"loi-de-gall"
 
   // ---- Title actions: bookmark + share beside the page h1 (detail pages) ----
   const h1 = document.querySelector('header h1');
-  if (h1 && page !== 'index.html') {
+  // Nothing to bookmark or share on the not-found page: it is an error state,
+  // not a destination, and its address is whatever the reader mistyped.
+  const is404 = document.documentElement.getAttribute('data-page') === '404';
+  if (h1 && page !== 'index.html' && !is404) {
     const row = document.createElement('div');
     row.className = 'title-row';
     h1.parentNode.insertBefore(row, h1);

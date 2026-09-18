@@ -8,9 +8,6 @@
  "header .subtitle": [
   "The page may have been renamed, or the link that brought you here may be out of date. The library itself is fine, so try the search in the bar above, or pick up one of the routes below."
  ],
- ".law-origin .body-text": [
-  "If you typed it, check for a stray character. If you followed a link, it points at a page that no longer exists under that name."
- ],
  ".apply-list li": [
   "<a href=\"index.html\">The home page</a>, where every reference is grouped by page type and by task.",
   "<a href=\"sitemap.html\">The site map</a>, a plain list of every page on the site.",

@@ -8,9 +8,6 @@
  "header .subtitle": [
   "Die Seite wurde vielleicht umbenannt, oder der Link hierher ist veraltet. Die Bibliothek selbst ist in Ordnung: Nutzen Sie die Suche in der Leiste oben, oder steigen Sie über einen der Wege unten ein."
  ],
- ".law-origin .body-text": [
-  "Wenn Sie sie eingetippt haben, prüfen Sie auf ein verirrtes Zeichen. Wenn Sie einem Link gefolgt sind, zeigt er auf eine Seite, die es unter diesem Namen nicht mehr gibt."
- ],
  ".apply-list li": [
   "<a href=\"index.html\">Die Startseite</a>, auf der jede Referenz nach Seitentyp und nach Aufgabe gruppiert ist.",
   "<a href=\"sitemap.html\">Die Sitemap</a>, eine schlichte Liste aller Seiten.",
