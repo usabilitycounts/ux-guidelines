@@ -216,11 +216,9 @@ def build_page(d):
 <meta name="twitter:description" content="{desc_meta}">
 <link rel="stylesheet" href="tokens.css?v=11">
 <style>
-  .card .tag {{ background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }}
-
-  /* ---------- Law feature block (above the card grid) ---------- */
-  .law-feature {{ margin: 40px 32px 0; padding: 36px 32px; background: var(--bg); border: 1px solid var(--border); display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }}
-  @media (max-width: 800px) {{ .law-feature {{ grid-template-columns: 1fr; padding: 32px 20px; gap: 24px; }} }}
+  /* Page-specific illustration CSS only. Anything shared belongs in tokens.css:
+     a copy here overrides the stylesheet and then goes stale the moment the
+     stylesheet changes, which is how 39 pages ended up naming an old grey. */
 {IL_CSS}
 </style>
 <script defer src="tokens.js?v=7"></script>
