@@ -35,9 +35,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Site Map: Every Page on UX Guidelines — UX Guidelines">
 <meta name="twitter:description" content="Every page on UX Guidelines, grouped by section.">
-<link rel="stylesheet" href="tokens.css?v=164">
+<link rel="stylesheet" href="tokens.css?v=169">
 <style>
   .map-group { padding: 8px 32px 28px; }
+  /* phones: the site-wide 20px gutter, so the header title and this content line up */
+  @media (max-width: 600px) { .map-group { padding-left: 20px; padding-right: 20px; } }
   .map-group h2 { margin-bottom: 14px; }
   .map-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); gap: 6px 32px; }
   .map-list a { display: inline-block; padding: 6px 0; font-size: var(--fs-body); color: var(--text-primary); }

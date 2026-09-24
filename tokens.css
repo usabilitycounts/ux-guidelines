@@ -291,7 +291,6 @@ h1, h2, .card h3 { letter-spacing: -1px; }
   .card { padding: 28px 20px 24px; grid-template-rows: unset; grid-row: unset; }
   .ai-divider { align-items: flex-start; gap: 10px; padding: 20px; }
   .ai-divider p { margin-left: 0; text-align: left; }
-  header { padding: 32px 20px 28px; }
   .grid { grid-template-columns: 1fr; padding: 24px 20px 40px; }
   .card { padding: 28px 20px 24px; }
   
@@ -431,6 +430,16 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .ai-divider { grid-column: 1 / -1; background: var(--ink-fill); color: var(--text-inverse); padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
 .ai-divider .spark { color: var(--text-inverse); font-size: var(--fs-body); }
 .ai-divider p { font-size: var(--fs-ui); color: var(--text-inverse); margin-left: 0; max-width: none; flex: 1 0 100%; line-height: var(--lh-base); text-align: left; white-space: normal; }
+/* Phones: the grid drops its side padding so cards can run edge to edge, which
+   left the phase headings flush against the screen; and the AI band's earlier
+   phone rule loses to the base rule above on source order. Both get the same
+   20px gutter as the text in the cards. Must stay after the base rules. */
+@media (max-width: 600px) {
+  /* a heading belongs to the cards under it, so the grid's 24px row gap moves from
+     below the heading to above it: same total height, heading nearer its cards */
+  .phase-head { padding-left: 20px; padding-right: 20px; margin-top: 24px; margin-bottom: -24px; }
+  .ai-divider { padding-left: 20px; padding-right: 20px; }
+}
 .demo { order: -1; width: 100%; aspect-ratio: 16 / 10; height: auto; background: var(--bg); border: 1.5px solid var(--surface-2); border-radius: 14px; padding: 44px 28px 22px; position: relative; overflow: hidden; margin-bottom: 24px; display: flex; flex-direction: column; }
 .demo-label { position: absolute; top: 14px; left: 22px; font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; margin: 0 0 8px; }
 .demo > svg { flex: 1 1 auto; min-height: 0; width: 100%; height: 100%; display: block; }
@@ -627,6 +636,10 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 
 /* Page header gradient (matches extendchrome.com hero treatment) */
 header { padding: 52px 32px 28px; background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%); }
+/* Phones: the same 20px sides as every block below the header, so the title lines
+   up with the text under it. This must follow the rule above: both are plain
+   `header` selectors, so source order decides which one wins. */
+@media (max-width: 600px) { header { padding-left: 20px; padding-right: 20px; } }
 /* Hero portrait: pinned to the left edge of the header. row-reverse puts the
    image first visually while the title stays first in the document, so reading
    order and the mobile stack still lead with the title. Both columns start at
@@ -651,15 +664,16 @@ header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items:
   header:has(.hero-img) {
     flex-direction: column-reverse; align-items: stretch; gap: 24px;
     /* restated here so the negative margins below provably match the padding
-       they have to escape, whatever else the cascade does to header */
-    padding: 60px 32px 28px;
+       they have to escape, whatever else the cascade does to header. 20px sides
+       match every other block on a phone, so the title lines up with the text below */
+    padding: 60px 20px 28px;
   }
   .hero-img {
     align-self: auto;
-    width: calc(100% + 64px);
+    width: calc(100% + 40px);
     max-width: none;
     height: auto;
-    margin: -60px -32px 0;
+    margin: -60px -20px 0;
     border-radius: 0;
   }
 }
@@ -1193,7 +1207,12 @@ html.has-scroller .topnav { flex: 0 0 auto; }
    otherwise win on source order. */
 @media (max-width: 600px) {
   .law-feature, .apply-feature { margin-left: 0; margin-right: 0; border: 0; }
-  main.grid { padding-left: 0; padding-right: 0; }
+  /* no top padding either: the section above already ends with its own, so the
+     grid's 40px only widened the gap between that section and the first card */
+  main.grid { padding-left: 0; padding-right: 0; padding-top: 0; }
+  /* the space moved above each heading separates one group from the next; the
+     first heading has nothing above it inside the grid to be separated from */
+  .phase-head:first-child { margin-top: 0; }
   .card { border: 0; border-radius: 0; }
   /* Nothing sideways on a phone. Belt and braces: anything that outgrows the
      width is clipped rather than turned into a scroll. Inner scrollers that

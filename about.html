@@ -36,9 +36,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="About: Patrick Neeman and This Site — UX Guidelines">
 <meta name="twitter:description" content="Who makes this site, and why it exists.">
-<link rel="stylesheet" href="tokens.css?v=164">
+<link rel="stylesheet" href="tokens.css?v=169">
 <style>
   .about-section { padding: 8px 32px 36px; max-width: 860px; }
+  /* phones: the site-wide 20px gutter, so the header title and this content line up */
+  @media (max-width: 600px) { .about-section { padding-left: 20px; padding-right: 20px; } }
   .about-section h2 { margin-bottom: 16px; }
   .about-section p { font-size: var(--fs-body); line-height: var(--lh-base); color: var(--text-secondary); margin-bottom: 14px; max-width: 640px; }
   .about-section a { color: var(--text-primary); text-decoration: underline; text-decoration-color: rgba(17,17,17,0.25); text-underline-offset: 3px; }

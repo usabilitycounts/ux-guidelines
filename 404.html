@@ -11,10 +11,12 @@
 <meta name="robots" content="noindex, follow">
 <meta name="description" content="That address does not lead anywhere. Search the library or start from one of the routes here.">
 <title>Page Not Found — UX Guidelines</title>
-<link rel="stylesheet" href="tokens.css?v=164">
+<link rel="stylesheet" href="tokens.css?v=169">
 <style>
   /* plain page content, not a panel: line it up with the header text */
   .nf-routes { padding: 12px 32px 64px; }
+  /* phones: the site-wide 20px gutter, so the header title and this content line up */
+  @media (max-width: 600px) { .nf-routes { padding-left: 20px; padding-right: 20px; } }
   .nf-links { list-style: none; padding: 0; }
   .nf-links li { margin-bottom: 14px; }
   .nf-links a { font-weight: 600; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); text-underline-offset: 3px; }
