@@ -389,7 +389,7 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 /* Card titles are h3 elements (page h1 > section h2 > card h3) */
 .card h3, .card h2 { font-size: var(--fs-h3); font-weight: 600; letter-spacing: -1px; line-height: var(--lh-base); }
 .demo>svg { flex:1 1 auto;min-height:0;width:100%;height:100%;display:block;overflow:visible }
-.meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 500; margin-bottom: 6px; }
+.meta .label { font-size: var(--fs-label); color: var(--text-secondary); font-weight: 600; margin-bottom: 0; }
 .meta .value { font-size: var(--fs-body); color: var(--text-secondary); line-height: var(--lh-base); }
 .tag { display: inline-block; font-size: var(--fs-tag); padding: 4px 10px; border-radius: 3px; font-weight: 500; background: var(--skel-fill-tag); color: var(--text-secondary); }
 .card .tag.ai-tag { background: rgba(107, 107, 107, 0.12); color: var(--text-secondary); }
@@ -406,20 +406,28 @@ h1 em { font-style: normal; font-weight: 700; color: var(--text-primary); }
 .copyright,.meta-info { font-size: var(--fs-label);color: var(--text-secondary);font-weight:500 }
 /* ---------- Header ---------- */
 /* ---------- Meta ---------- */
-.meta { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 24px; padding-top: 0; }
+/* A plain list: one entry per block, value on the line below its label,
+   rather than columns that read as separate cards. */
+.meta { display: flex; flex-direction: column; gap: 16px; padding-top: 0; }
+.meta > div { display: block; }
 /* One column on a phone for both meta grids. This has to sit after the two
    rules above, not in the earlier mobile block: the selectors tie on
    specificity, so whichever comes last in the file wins. */
 @media (max-width: 600px) {
-  .meta { grid-template-columns: 1fr; gap: 18px; }
   .law-feature .law-meta { grid-template-columns: 1fr; gap: 18px; }
 }
 .ref-list .source { font-size: var(--fs-caption); color: var(--text-secondary); font-weight: 500; white-space: nowrap; display: none; }
 .demo svg { width: 100%; height: 100%; display: block; overflow: visible; }
 .law-feature .formula-box .formula .var { font-weight: 600; }
-.card-header { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 24px; }
+.card-header { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 12px; }
 /* The spark and the heading share a line; the sentence sits under them.
    Wrapping rather than a column keeps the mark beside the title. */
+/* Phase headings inside a card grid. Microsoft groups the 18 guidelines by
+   when they apply, so the grid carries those four groups as full-width bands. */
+.phase-head { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; padding-top: 8px; border-top: 1px solid var(--border); }
+.phase-head h2 { font-size: var(--fs-h3); font-weight: 600; color: var(--text-primary); margin: 0; }
+.phase-head .phase-range { font-size: var(--fs-caption); font-weight: 500; color: var(--text-faint); }
+.phase-head .phase-note { font-size: var(--fs-ui); color: var(--text-secondary); line-height: var(--lh-base); flex: 1 1 100%; }
 .ai-divider { grid-column: 1 / -1; background: var(--ink-fill); color: var(--text-inverse); padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
 .ai-divider .spark { color: var(--text-inverse); font-size: var(--fs-body); }
 .ai-divider p { font-size: var(--fs-ui); color: var(--text-inverse); margin-left: 0; max-width: none; flex: 1 0 100%; line-height: var(--lh-base); text-align: left; white-space: normal; }
@@ -618,7 +626,7 @@ main > .ai-divider, body > .ai-divider, section > .ai-divider { margin: 0; }
 }
 
 /* Page header gradient (matches extendchrome.com hero treatment) */
-header { padding: 60px 32px 28px; background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%); }
+header { padding: 52px 32px 28px; background: linear-gradient(180deg, var(--header-grad) 0%, var(--bg) 100%); }
 /* Hero portrait: pinned to the left edge of the header. row-reverse puts the
    image first visually while the title stays first in the document, so reading
    order and the mobile stack still lead with the title. Both columns start at
@@ -629,7 +637,7 @@ header:has(.hero-img) { display: flex; flex-direction: row-reverse; align-items:
 /* The image goes flush with the top of the header, which begins directly below
    the topnav: a negative margin pulls it up through the header's 60px of top
    padding, and the two corners that now meet that edge are squared off. */
-.hero-img { flex: none; align-self: flex-start; margin-top: -60px; height: 240px; width: auto; max-width: 40%; border-radius: 0 0 8px 8px; object-fit: cover; display: block; }
+.hero-img { flex: none; align-self: flex-start; margin-top: -52px; height: 240px; width: auto; max-width: 40%; border-radius: 0 0 8px 8px; object-fit: cover; display: block; }
 @media (max-width: 900px) {
   header:has(.hero-img) { flex-direction: column; align-items: flex-start; gap: 24px; }
   .hero-img { height: 200px; max-width: 100%; align-self: auto; margin-top: 0; border-radius: 8px; }
@@ -930,7 +938,7 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .btn-cancel:hover { background: var(--demo-bg); color: var(--text-primary); }
 
 /* Related laws row inside cards */
-.card .related { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 4px; padding-top: 14px; border-top: 1px solid var(--border); grid-column: 1 / -1; align-self: end; }
+.card .related { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 4px; padding-top: 14px; border-top: 1px solid var(--border); grid-column: 1 / -1; align-self: stretch; }
 .related-label { font-size: var(--fs-caption); font-weight: 500; color: var(--text-faint); margin-right: 2px; }
 .card .related a { font-size: var(--fs-caption); color: var(--text-secondary); background: var(--surface); border-radius: 12px; padding: 4px 11px; }
 .card .related a:hover { color: var(--text-primary); background: var(--demo-bg); }
@@ -1043,6 +1051,15 @@ footer .copyright, footer .meta-info { color: #9a9a9a; }
 .bm-foot[hidden] { display: none; }
 @media (max-width: 600px) {
   .title-act { width: 36px; height: 36px; }
+}
+/* Bookmark and share sit on their own line above the page title. Scoped to the
+   title row: the same element moves into the sticky bar on scroll, and there it
+   stays beside the title. The negative margin cancels the button's inner space
+   (40px box, 22px icon) so the first icon lines up with the title's left edge.
+   After the 600px rule above so the phone offset (36px box) wins on source order. */
+.title-row > .title-actions { order: -1; flex-basis: 100%; margin: 0 0 -6px -9px; }
+@media (max-width: 600px) {
+  .title-row > .title-actions { margin-left: -7px; }
 }
 
 

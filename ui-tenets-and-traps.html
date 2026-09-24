@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en" data-page="ui-tenets-and-traps">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=68','script');pl('i18n/'+eff+'/ui-tenets-and-traps.json?v=33','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.">
+<title>UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/ui-tenets-and-traps.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/ui-tenets-and-traps.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/principios-y-trampas-de-la-ui.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/ui-grundsatze-und-fallen.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/principes-et-pieges-de-l-ui.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/ui-tenets-and-traps.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/ui-tenets-and-traps.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/ui-tenets-and-traps.html">
+<meta property="og:title" content="UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them — UX Guidelines">
+<meta property="og:description" content="A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/ui-tenets-and-traps.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/ui-tenets-and-traps.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/ui-tenets-and-traps.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them — UX Guidelines">
+<meta name="twitter:description" content="A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them", "description": "A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.", "url": "https://www.ux-guidelines.com/ui-tenets-and-traps.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/ui-tenets-and-traps.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them", "item": "https://www.ux-guidelines.com/ui-tenets-and-traps.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=164">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .gx .row { display: flex; align-items: center; gap: 10px; }
+  .gx .col { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .gx .card-s { background: var(--surface); border-radius: 8px; padding: 11px 13px; display: flex; flex-direction: column; gap: 7px; }
+  .gx .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel-strong); opacity: 0.45; }
+  .gx .ln.faint { opacity: 0.25; }
+  .gx .ln.hot { background: var(--il-accent); opacity: 1; }
+  .gx .chipz { height: 22px; border-radius: 11px; background: var(--surface); flex: none; display: block; }
+  .gx .chipz.on { background: var(--il-accent); }
+  .gx .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--skel-strong); opacity: 0.4; flex: none; display: block; }
+  .gx .dot.on { background: var(--il-accent); opacity: 1; }
+  .gx .bar { height: 28px; border-radius: 8px; background: var(--surface); flex: 1; display: block; }
+  .gx .bar.on { background: var(--il-accent); }
+  .gx .tick { width: 15px; height: 15px; border-radius: 50%; background: var(--il-accent); flex: none; display: block; }
+  .gx .cross { width: 15px; height: 15px; border-radius: 4px; background: var(--skel-strong); opacity: 0.4; flex: none; display: block; }
+  .gx .pill { height: 20px; border-radius: 10px; background: var(--surface); flex: none; display: block; }
+  .gx .pill.on { background: var(--il-accent); }
+  .gx .more { height: 22px; border-radius: 11px; border: 1.5px dashed var(--skel-strong); opacity: 0.5; flex: none; display: block; }
+  .gx .track { height: 10px; border-radius: 5px; background: var(--surface); flex: 1; display: block; overflow: hidden; }
+  .gx .track i { display: block; height: 100%; border-radius: 5px; background: var(--il-accent); }
+  .gx .box { border: 1.5px solid var(--skel-strong); opacity: 0.55; border-radius: 8px; height: 30px; flex: 1; display: block; }
+  .gx .ghost { border: 1.5px dashed var(--skel-strong); opacity: 0.3; border-radius: 8px; flex: 1; display: block; }
+</style>
+<script defer src="tokens.js?v=122"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link active">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>UI Tenets and <em>Traps</em></h1>
+  <p class="tagline">Name the problem, then trace it to the <em>quality it hurts</em>.</p>
+  <p class="subtitle">A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Michael Medlock and Steve Herbst developed the framework at Microsoft in 2009, from a first version they date to 2007. Nine tenets describe the qualities of a good interface, each written in the user’s own voice, and 26 traps name the common, detectable problems that wear those qualities down.</p>
+    <p class="body-text">It won Microsoft’s 2013 Planning and Design Excellence Award, and Microsoft kept teaching it after both authors left; Meta and Amazon teach it too. Since 2017 the authors have sold it as a color-coded card deck, and more than 10,000 decks have gone to researchers around the world. The deck holds 26 traps; this page covers the 23 whose definitions are publicly documented.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Framework</div>
+    <p class="body-text law-desc">A tenet is a quality the user should experience, stated the way they would say it: I know what I can do, I don’t wait, I can undo my actions. A trap is a specific pattern that damages one of those qualities. Naming the trap makes a finding precise; tracing it to its tenet explains why it matters.</p>
+    <div class="law-meta">
+      <div><div class="label">Coined by</div><div class="value"><a href="people.html#p-michael-medlock">Michael Medlock</a> and <a href="people.html#p-steve-herbst">Steve Herbst</a> (2009)</div></div>
+      <div><div class="label">Source</div><div class="value">UI Tenets and Traps card deck</div></div>
+      <div><div class="label">In practice</div><div class="value">Name the trap, then find its tenet</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A usability review keeps producing vague findings, and the team needs precise names for what is wrong.</li>
+      <li>Design, engineering, and product describe the same problem in different words and keep talking past each other.</li>
+      <li>A walkthrough of the most important tasks needs a checklist more specific than general heuristics.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Pick the tasks that matter most, walk through every way a user could complete them in context, and log every trap you see.</li>
+      <li>When a trap is hard to place, find the tenet it violates first, then choose among that tenet’s traps.</li>
+      <li>When one issue triggers several traps, look for the root-cause trap, since it usually points to the best fix.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <div class="phase-head">
+    <h2>Understandable</h2>
+    <span class="phase-note">“I know what I can do.”</span>
+  </div>
+  <!-- 1. Invisible Element -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Perceptible</span>
+      <span class="num">01 / 25</span>
+      <h3>Invisible Element</h3>
+      <p class="desc">No cue shows how to reach a goal, and the user has no prior learning to get past its absence. The feature exists, but for this person it may as well not.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln " style="width:70%"></span><span class="ln faint" style="width:50%"></span></div><div class="row"><span class="ghost" style="width:70px;height:22px;flex:none"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users say it can’t be done</div></div>
+      <div><div class="label">Fix</div><div class="value">Add a visible cue</div></div>
+      <div><div class="label">Example</div><div class="value">An unmarked swipe gesture</div></div>
+    </div>
+  </article>
+  <!-- 2. Effectively Invisible Element -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Noticeable</span>
+      <span class="num">02 / 25</span>
+      <h3>Effectively Invisible Element</h3>
+      <p class="desc">A cue exists but is missed or found slowly, because it sits outside foveal vision or somewhere the user doesn’t expect to look.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row" style="justify-content:flex-end"><span class="chipz on" style="width:26px;height:14px"></span></div><div class="col" style="flex:none"><span class="ln " style="width:84%"></span><span class="ln faint" style="width:64%"></span><span class="ln faint" style="width:72%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users scan straight past it</div></div>
+      <div><div class="label">Fix</div><div class="value">Move it into the path of attention</div></div>
+      <div><div class="label">Example</div><div class="value">A button far from the task</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a></div>
+    </div>
+  </article>
+  <!-- 3. Distraction -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Noticeable</span>
+      <span class="num">03 / 25</span>
+      <h3>Distraction</h3>
+      <p class="desc">Something appears suddenly or changes rapidly and pulls the user away from their goal. Motion wins attention whether or not it deserves it.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="bar on"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:80%"></span><span class="ln faint" style="width:60%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users lose their place</div></div>
+      <div><div class="label">Fix</div><div class="value">Save motion for what matters</div></div>
+      <div><div class="label">Example</div><div class="value">An autoplaying carousel</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="von-restorff-effect.html">Von Restorff Effect</a></div>
+    </div>
+  </article>
+  <!-- 4. Uncomprehended Element -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comprehensible</span>
+      <span class="num">04 / 25</span>
+      <h3>Uncomprehended Element</h3>
+      <p class="desc">A critical cue is noticed but misunderstood, so the user ignores it. It looks wrong but is right.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz" style="width:60px"></span><span class="cross"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:76%"></span><span class="ln faint" style="width:52%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users skip the right control</div></div>
+      <div><div class="label">Fix</div><div class="value">Clarify the label or icon</div></div>
+      <div><div class="label">Example</div><div class="value">An icon nobody recognizes</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="universal-icons.html">Universal Icons</a></div>
+    </div>
+  </article>
+  <!-- 5. Inviting Dead End -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comprehensible</span>
+      <span class="num">05 / 25</span>
+      <h3>Inviting Dead End</h3>
+      <p class="desc">A cue is wrongly taken as the way to a goal. It looks right but is wrong, and the user commits to it before finding out.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row"><span class="chipz on" style="width:110px"></span></div><span class="ln faint" style="width:64%"></span></div><div class="row" style="justify-content:flex-end"><span class="chipz" style="width:52px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users start down the wrong path</div></div>
+      <div><div class="label">Fix</div><div class="value">Make the real path look right</div></div>
+      <div><div class="label">Example</div><div class="value">A banner mistaken for a button</div></div>
+    </div>
+  </article>
+  <!-- 6. Memory Challenge -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comprehensible</span>
+      <span class="num">06 / 25</span>
+      <h3>Memory Challenge</h3>
+      <p class="desc">The user has to remember information that is easy to forget, carrying it from one screen to the next instead of seeing it where it’s needed.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><div class="card-s" style="flex:1"><span class="ln hot" style="width:70%"></span><span class="ln faint" style="width:50%"></span></div><div class="card-s" style="flex:1"><span class="ghost" style="height:10px;flex:none;width:80%"></span><span class="ln faint" style="width:50%"></span></div></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users write things down</div></div>
+      <div><div class="label">Fix</div><div class="value">Show it where it is used</div></div>
+      <div><div class="label">Example</div><div class="value">A code shown one screen earlier</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="millers-law.html">Miller’s Law</a></div>
+    </div>
+  </article>
+  <!-- 7. Poor Grouping -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comprehensible</span>
+      <span class="num">07 / 25</span>
+      <h3>Poor Grouping</h3>
+      <p class="desc">An important relationship between two or more cues isn’t obvious, so the user can’t tell which controls belong together.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="col" style="flex:none;gap:5px"><span class="ln " style="width:28%"></span><span class="box" style="flex:none;height:22px"></span><span class="ln " style="width:28%"></span></div><div class="col" style="flex:none"><span class="box" style="flex:none;height:22px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users pair the wrong controls</div></div>
+      <div><div class="label">Fix</div><div class="value">Group by proximity and enclosure</div></div>
+      <div><div class="label">Example</div><div class="value">A label nearer the wrong field</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="gestalt-principles.html">Gestalt Principles</a></div>
+    </div>
+  </article>
+  <!-- 8. Feedback Failure -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Confirmatory</span>
+      <span class="num">08 / 25</span>
+      <h3>Feedback Failure</h3>
+      <p class="desc">The user doesn’t see, notice, or understand feedback they need, so they can’t tell whether an action worked.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz on" style="width:64px"></span><span class="ghost" style="height:22px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:66%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users repeat the action</div></div>
+      <div><div class="label">Fix</div><div class="value">Confirm at the point of action</div></div>
+      <div><div class="label">Example</div><div class="value">A save with no visible result</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Comfortable</h2>
+    <span class="phase-note">“I can do things quickly and comfortably.”</span>
+  </div>
+  <!-- 9. Physical Challenge -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comfortable</span>
+      <span class="num">09 / 25</span>
+      <h3>Physical Challenge</h3>
+      <p class="desc">The user knows what to do, but doing it is physically effortful, difficult, or impossible.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row" style="justify-content:flex-end"><span class="dot on" style="width:7px;height:7px"></span></div><span class="ln faint" style="width:80%"></span><span class="ln faint" style="width:58%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users miss or strain</div></div>
+      <div><div class="label">Fix</div><div class="value">Enlarge and move the target</div></div>
+      <div><div class="label">Example</div><div class="value">A tiny close button on a phone</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="fitts-law.html">Fitts’s Law</a></div>
+    </div>
+  </article>
+  <!-- 10. Accidental Activation -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Comfortable</span>
+      <span class="num">10 / 25</span>
+      <h3>Accidental Activation</h3>
+      <p class="desc">The user’s physical actions produce an outcome they didn’t intend, usually because a control sits too close to another or fires too easily.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row" style="gap:2px"><span class="chipz" style="width:58px"></span><span class="chipz on" style="width:58px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:70%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users trigger the wrong thing</div></div>
+      <div><div class="label">Fix</div><div class="value">Space out and guard risky controls</div></div>
+      <div><div class="label">Example</div><div class="value">Delete right beside Save</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Responsive</h2>
+    <span class="phase-note">“I don’t wait.”</span>
+  </div>
+  <!-- 11. Slow or No Response -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Responsive</span>
+      <span class="num">11 / 25</span>
+      <h3>Slow or No Response</h3>
+      <p class="desc">Real or perceived poor performance, or a design that blocks moving forward or backing out, keeps the user from reaching a goal in a timely way.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row"><span class="track"><i style="width:18%"></i></span></div><span class="ln faint" style="width:60%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users click again, or give up</div></div>
+      <div><div class="label">Fix</div><div class="value">Respond at once, then load</div></div>
+      <div><div class="label">Example</div><div class="value">A frozen screen with no progress</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="doherty-threshold.html">Doherty Threshold</a></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Efficient</h2>
+    <span class="phase-note">“I take fewer steps and process less information.”</span>
+  </div>
+  <!-- 12. Unnecessary Step -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Step Reduced</span>
+      <span class="num">12 / 25</span>
+      <h3>Unnecessary Step</h3>
+      <p class="desc">Even when the interface is used exactly as intended, reaching a goal takes more navigation than it should, or feels like it does.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:60%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users sigh at another screen</div></div>
+      <div><div class="label">Fix</div><div class="value">Remove or merge the step</div></div>
+      <div><div class="label">Example</div><div class="value">A confirmation nobody needs</div></div>
+    </div>
+  </article>
+  <!-- 13. Information Overload -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Information Reduced</span>
+      <span class="num">13 / 25</span>
+      <h3>Information Overload</h3>
+      <p class="desc">The information is understandable, but there is too much of it, and what matters gets lost among what doesn’t.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="col" style="flex:none;gap:5px"><span class="ln faint" style="width:92%"></span><span class="ln faint" style="width:84%"></span><span class="ln faint" style="width:96%"></span><span class="ln faint" style="width:78%"></span><span class="ln faint" style="width:88%"></span><span class="ln faint" style="width:70%"></span><span class="ln faint" style="width:94%"></span><span class="ln faint" style="width:82%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users skim and miss the point</div></div>
+      <div><div class="label">Fix</div><div class="value">Cut, then disclose the rest</div></div>
+      <div><div class="label">Example</div><div class="value">A settings page of 80 options</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="cognitive-load-theory.html">Cognitive Load Theory</a></div>
+    </div>
+  </article>
+  <!-- 14. System Amnesia -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Retentive</span>
+      <span class="num">14 / 25</span>
+      <h3>System Amnesia</h3>
+      <p class="desc">The system asks again for information it already has, or fails to reuse work the user has already done.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln hot" style="width:56%"></span><span class="ln faint" style="width:38%"></span></div><div class="card-s"><span class="ln hot" style="width:56%"></span><span class="ln faint" style="width:38%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users retype what they gave</div></div>
+      <div><div class="label">Fix</div><div class="value">Remember and prefill</div></div>
+      <div><div class="label">Example</div><div class="value">An address asked for twice</div></div>
+    </div>
+  </article>
+  <!-- 15. Bad Prediction -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Predictive</span>
+      <span class="num">15 / 25</span>
+      <h3>Bad Prediction</h3>
+      <p class="desc">The system guesses at the user’s intent and guesses wrong, so the user has to correct it or work around it.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row"><div class="col"><span class="ln hot" style="width:66%"></span></div><span class="cross"></span></div><span class="ln faint" style="width:80%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users undo the system’s change</div></div>
+      <div><div class="label">Fix</div><div class="value">Make every guess easy to reject</div></div>
+      <div><div class="label">Example</div><div class="value">An autocorrect that won’t let go</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Forgiving</h2>
+    <span class="phase-note">“I can undo my actions.”</span>
+  </div>
+  <!-- 16. Irreversible Action -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Forgiving</span>
+      <span class="num">16 / 25</span>
+      <h3>Irreversible Action</h3>
+      <p class="desc">The user can’t undo a wrong step. Every other safeguard matters less once this one is missing.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row"><span class="tick"></span><div class="col"><span class="ln " style="width:64%"></span></div></div></div><div class="row"><span class="ghost" style="width:58px;height:22px;flex:none"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users hesitate before acting</div></div>
+      <div><div class="label">Fix</div><div class="value">Add undo, not just a warning</div></div>
+      <div><div class="label">Example</div><div class="value">A send with no way back</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="nielsens-heuristics.html">Nielsen’s 10 Heuristics</a></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Discreet</h2>
+    <span class="phase-note">“I don’t overshare.”</span>
+  </div>
+  <!-- 17. Unwanted Disclosure -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Discreet</span>
+      <span class="num">17 / 25</span>
+      <h3>Unwanted Disclosure</h3>
+      <p class="desc">The user’s behavior or data becomes public in a way they didn’t intend, causing possible harm, irritation, or embarrassment.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln hot" style="width:62%"></span><span class="ln faint" style="width:44%"></span></div><div class="row"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users are surprised by who saw it</div></div>
+      <div><div class="label">Fix</div><div class="value">Default to private, show the audience</div></div>
+      <div><div class="label">Example</div><div class="value">Activity shared without asking</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Protective</h2>
+    <span class="phase-note">“I don’t lose my data.”</span>
+  </div>
+  <!-- 18. Data Loss -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Protective</span>
+      <span class="num">18 / 25</span>
+      <h3>Data Loss</h3>
+      <p class="desc">The user can lose their work through something they did, or something they failed to do.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ghost" style="height:12px;flex:none;width:86%"></span><span class="ghost" style="height:12px;flex:none;width:64%"></span></div><div class="row"><span class="cross"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users redo lost work</div></div>
+      <div><div class="label">Fix</div><div class="value">Save automatically and often</div></div>
+      <div><div class="label">Example</div><div class="value">A form wiped by the back button</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Habituating</h2>
+    <span class="phase-note">“I quickly achieve mastery.”</span>
+  </div>
+  <!-- 19. Gratuitous Redundancy -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Non-Redundant</span>
+      <span class="num">19 / 25</span>
+      <h3>Gratuitous Redundancy</h3>
+      <p class="desc">Several cues for the same action appear at one level of the interface, or at a directly nested level, and the user has to work out whether they differ.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz on" style="width:58px"></span><span class="chipz on" style="width:58px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:68%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users compare identical options</div></div>
+      <div><div class="label">Fix</div><div class="value">Keep one path per level</div></div>
+      <div><div class="label">Example</div><div class="value">Two Save buttons on one screen</div></div>
+    </div>
+  </article>
+  <!-- 20. Inconsistent Element -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Consistent with Expectations</span>
+      <span class="num">20 / 25</span>
+      <h3>Inconsistent Element</h3>
+      <p class="desc">A cue looks different, or sits in a different place, than it does elsewhere in the interface, so what the user learned stops working.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz on" style="width:44px"></span><div class="col"><span class="ln faint" style="width:70%"></span></div></div><div class="row"><div class="col"><span class="ln faint" style="width:70%"></span></div><span class="chipz on" style="width:44px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users hunt for a familiar control</div></div>
+      <div><div class="label">Fix</div><div class="value">Use one pattern everywhere</div></div>
+      <div><div class="label">Example</div><div class="value">A menu that moves between pages</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 21. Variable Outcome -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Consistent with Expectations</span>
+      <span class="num">21 / 25</span>
+      <h3>Variable Outcome</h3>
+      <p class="desc">The same control does different things depending on the state of the system, so the user can’t predict what it will do.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz on" style="width:60px"></span></div><div class="row"><span class="tick"></span><span class="ln faint" style="width:30%"></span><span class="cross"></span><span class="ln faint" style="width:30%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users are surprised by the result</div></div>
+      <div><div class="label">Fix</div><div class="value">Show the state, or split the control</div></div>
+      <div><div class="label">Example</div><div class="value">One button that saves or sends</div></div>
+    </div>
+  </article>
+  <!-- 22. Ambiguous Home -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Sense of Home</span>
+      <span class="num">22 / 25</span>
+      <h3>Ambiguous Home</h3>
+      <p class="desc">There is no single place to return to for starting a task or getting reoriented, and several competing homes leave the user unsure where they are.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="pill on" style="width:52px"></span><span class="pill on" style="width:52px"></span><span class="pill on" style="width:52px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:64%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users feel lost</div></div>
+      <div><div class="label">Fix</div><div class="value">Establish one clear home</div></div>
+      <div><div class="label">Example</div><div class="value">A dashboard and a hub that compete</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Beautiful</h2>
+    <span class="phase-note">“I find it attractive.”</span>
+  </div>
+  <!-- 23. Unattractive Appearance -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Beautiful</span>
+      <span class="num">23 / 25</span>
+      <h3>Unattractive Appearance</h3>
+      <p class="desc">The system is visually unpleasant, or doesn’t follow its own design language, and users judge its quality by what they see.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="box" style="flex:none;width:60px;border-radius:2px"></span><span class="pill on" style="width:54px"></span><span class="chipz" style="width:40px;border-radius:3px"></span></div><div class="row"><span class="ln " style="width:40%"></span><span class="ln hot" style="width:30%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Symptom</div><div class="value">Users call it dated or cheap</div></div>
+      <div><div class="label">Fix</div><div class="value">Apply the design system fully</div></div>
+      <div><div class="label">Example</div><div class="value">Styles left from three redesigns</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="aesthetic-usability-effect.html">Aesthetic-Usability Effect</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Traps in the Age of AI</h3>
+    <p>The traps were written for interfaces with fixed controls. AI moves where several of them turn up, and makes a few much easier to fall into.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln " style="width:88%"></span><span class="ln hot" style="width:72%"></span></div><div class="row"><span class="cross"></span><span class="tick"></span><span class="cross"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">24 / 25</span>
+      <h3>Bad Prediction Is the Default</h3>
+      <p class="desc">An assistant predicts intent on every turn, so a trap that used to live in autocorrect now sits in every response. What matters most is how cheaply the user can reject a guess.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Occasional → constant</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing an assistant</div></div>
+      <div><div class="label">Watch for</div><div class="value">Guesses that are hard to undo</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="col" style="flex:none"><span class="ln faint" style="width:40%"></span></div><div class="row"><span class="box" style="height:34px"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">25 / 25</span>
+      <h3>The Blank Prompt Hides Everything</h3>
+      <p class="desc">A prompt box shows no controls at all, so everything it can do is an invisible element until the user thinks to ask for it.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Visible controls → blank prompt</div></div>
+      <div><div class="label">Use when</div><div class="value">Onboarding to a chat interface</div></div>
+      <div><div class="label">Watch for</div><div class="value">Features nobody discovers</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://uitraps.com/" target="_blank" rel="noopener"><span class="title">UI Tenets and Traps — the official deck</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://uitraps.com/about/" target="_blank" rel="noopener"><span class="title">About the authors</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://measuringu.com/assessing-the-reliability-of-ui-trap-cards/" target="_blank" rel="noopener"><span class="title">Assessing the Reliability of UI Trap Cards — MeasuringU</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://jackiemoraa.blogspot.com/2014/10/ui-tenets-traps-part-2.html" target="_blank" rel="noopener"><span class="title">UI Tenets and Traps, Part 2 — Jackie Moraa</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · UI Tenets and Traps</div>
+</footer>
+
+</body>
+</html>

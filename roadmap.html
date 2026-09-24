@@ -2,14 +2,14 @@
 <html lang="en" data-page="roadmap">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=66','script');pl('i18n/'+eff+'/roadmap.json?v=31','fetch');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=68','script');pl('i18n/'+eff+'/roadmap.json?v=33','fetch');}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <meta name="description" content="Internal reference: every feature on UX Guidelines, where it appears, and what to build next.">
 <title>Roadmap: Site Functionality and Ideas — UX Guidelines</title>
 <link rel="canonical" href="https://www.ux-guidelines.com/roadmap.html">
-<link rel="stylesheet" href="tokens.css?v=156">
+<link rel="stylesheet" href="tokens.css?v=164">
 <style>
   .rm-intro { padding: 0 32px; max-width: 72ch; }
   .rm-intro p { color: var(--text-secondary); margin: 0 0 8px; }
@@ -56,7 +56,7 @@
     .rm-nav a.active { background: var(--ink); color: var(--text-inverse); }
   }
 </style>
-<script defer src="tokens.js?v=120"></script>
+<script defer src="tokens.js?v=122"></script>
 </head>
 <body>
 
@@ -110,6 +110,8 @@
   <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
   <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
   <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
 </details>
 <details class="menu-group">
   <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
@@ -219,7 +221,7 @@
 
 <section class="rm-group" id="home-page">
   <h2 class="cat-label">Home Page</h2>
-  <p>A directory of all 53 references, browsable two ways.</p>
+  <p>A directory of all 55 references, browsable two ways.</p>
   <ul class="rm-list">
     <li class="rm-item"><h3>Hero</h3><p>Logo and title with a Beta pill, one-line subtitle with the live page count, language tabs, and theme tabs. Both tab groups have an animated sliding selection.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
     <li class="rm-item"><h3>Page Type view</h3><p>Nine sections, Every Page first then alphabetical, each in a card with an abstract browser-chrome screen of that page type beside the heading and description, and the guidelines three across on a 12-column grid.</p><div class="rm-where"><a href="index.html">Home</a></div></li>
@@ -231,16 +233,16 @@
 
 <section class="rm-group" id="reference-pages">
   <h2 class="cat-label">Reference Pages</h2>
-  <p>The 53 law, effect, principle, and guide pages share one template.</p>
+  <p>The 55 law, effect, principle, and guide pages share one template.</p>
   <ul class="rm-list">
-    <li class="rm-item"><h3>Header</h3><p>Title with bookmark and share actions, a tagline, and a subtitle.</p><div class="rm-where"><span>All 53 references</span></div></li>
+    <li class="rm-item"><h3>Header</h3><p>Title with bookmark and share actions, a tagline, and a subtitle.</p><div class="rm-where"><span>All 55 references</span></div></li>
     <li class="rm-item"><h3>Feature block</h3><p>Formula or quotation, an Origin narrative with linked researchers, the law stated plainly, and a meta row: Coined by, Source, In practice.</p><div class="rm-where"><a href="fitts-law.html">Fitts’s Law</a><span>and 44 others</span></div></li>
-    <li class="rm-item"><h3>When and how to use</h3><p>Two columns of bullets under the feature block, written for product managers and designers: the situations where the idea applies, and the moves to make once it does.</p><div class="rm-where"><span>All 53 references</span></div></li>
-    <li class="rm-item"><h3>Cards</h3><p>Eight or more applications per page, each with a themed illustration in browser chrome, a tag, title, description, and meta rows. Illustrations are drawn with shared primitives and a single accent token.</p><div class="rm-where"><span>All 53 references</span></div></li>
+    <li class="rm-item"><h3>When and how to use</h3><p>Two columns of bullets under the feature block, written for product managers and designers: the situations where the idea applies, and the moves to make once it does.</p><div class="rm-where"><span>All 55 references</span></div></li>
+    <li class="rm-item"><h3>Cards</h3><p>Eight or more applications per page, each with a themed illustration in browser chrome, a tag, title, description, and meta rows. Illustrations are drawn with shared primitives and a single accent token.</p><div class="rm-where"><span>All 55 references</span></div></li>
     <li class="rm-item"><h3>Related chips</h3><p>Cards link to the most relevant neighboring page. Every link is mutual, checked at deploy time, and rewired in September for topical accuracy.</p><div class="rm-where"><span>Card meta rows</span></div></li>
     <li class="rm-item"><h3>Copy as SVG</h3><p>Hovering any illustration reveals a copy button that converts it to a standalone, semantically named SVG on the clipboard, ready for Figma or a document.</p><div class="rm-where"><span>Card illustrations</span></div></li>
-    <li class="rm-item"><h3>AI section</h3><p>A divider and a set of cards on how each law applies to AI-driven interfaces.</p><div class="rm-where"><span>All 53 references</span></div></li>
-    <li class="rm-item"><h3>Further reading</h3><p>Grouped external references in three columns with outbound-link icons.</p><div class="rm-where"><span>All 53 references</span></div></li>
+    <li class="rm-item"><h3>AI section</h3><p>A divider and a set of cards on how each law applies to AI-driven interfaces.</p><div class="rm-where"><span>All 55 references</span></div></li>
+    <li class="rm-item"><h3>Further reading</h3><p>Grouped external references in three columns with outbound-link icons.</p><div class="rm-where"><span>All 55 references</span></div></li>
     <li class="rm-item"><h3>Structured data</h3><p>TechArticle and BreadcrumbList JSON-LD, canonical and hreflang links, and a social image per page per language.</p><div class="rm-where"><span>Page head</span></div></li>
   </ul>
 </section>

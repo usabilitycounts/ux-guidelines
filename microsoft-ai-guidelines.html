@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" data-page="microsoft-ai-guidelines">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=68','script');pl('i18n/'+eff+'/microsoft-ai-guidelines.json?v=33','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.">
+<title>Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/microsoft-ai-guidelines.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/microsoft-ai-guidelines.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/las-18-directrices-de-ia-de-microsoft.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/microsofts-18-ki-richtlinien.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/les-18-regles-d-ia-de-microsoft.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/microsoft-ai-guidelines.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/microsoft-ai-guidelines.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/microsoft-ai-guidelines.html">
+<meta property="og:title" content="Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist — UX Guidelines">
+<meta property="og:description" content="Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/microsoft-ai-guidelines.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/microsoft-ai-guidelines.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/microsoft-ai-guidelines.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist — UX Guidelines">
+<meta name="twitter:description" content="Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist", "description": "Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.", "url": "https://www.ux-guidelines.com/microsoft-ai-guidelines.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/microsoft-ai-guidelines.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Follow The Rulebooks"}, {"@type": "ListItem", "position": 3, "name": "Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist", "item": "https://www.ux-guidelines.com/microsoft-ai-guidelines.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=164">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 18px 22px; display: flex; flex-direction: column; gap: 10px; justify-content: center; }
+  .gx .row { display: flex; align-items: center; gap: 10px; }
+  .gx .col { flex: 1; display: flex; flex-direction: column; gap: 7px; min-width: 0; }
+  .gx .card-s { background: var(--surface); border-radius: 8px; padding: 11px 13px; display: flex; flex-direction: column; gap: 7px; }
+  .gx .ln { display: block; height: 7px; border-radius: 3.5px; background: var(--skel-strong); opacity: 0.45; }
+  .gx .ln.faint { opacity: 0.25; }
+  .gx .ln.hot { background: var(--il-accent); opacity: 1; }
+  .gx .chipz { height: 22px; border-radius: 11px; background: var(--surface); flex: none; display: block; }
+  .gx .chipz.on { background: var(--il-accent); }
+  .gx .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--skel-strong); opacity: 0.4; flex: none; display: block; }
+  .gx .dot.on { background: var(--il-accent); opacity: 1; }
+  .gx .bar { height: 28px; border-radius: 8px; background: var(--surface); flex: 1; display: block; }
+  .gx .bar.on { background: var(--il-accent); }
+  .gx .tick { width: 15px; height: 15px; border-radius: 50%; background: var(--il-accent); flex: none; display: block; }
+  .gx .cross { width: 15px; height: 15px; border-radius: 4px; background: var(--skel-strong); opacity: 0.4; flex: none; display: block; }
+  .gx .pill { height: 20px; border-radius: 10px; background: var(--surface); flex: none; display: block; }
+  .gx .pill.on { background: var(--il-accent); }
+  .gx .more { height: 22px; border-radius: 11px; border: 1.5px dashed var(--skel-strong); opacity: 0.5; flex: none; display: block; }
+  .gx .track { height: 10px; border-radius: 5px; background: var(--surface); flex: 1; display: block; overflow: hidden; }
+  .gx .track i { display: block; height: 100%; border-radius: 5px; background: var(--il-accent); }
+  .gx .sw { width: 34px; height: 18px; border-radius: 9px; background: var(--il-accent); flex: none; display: flex; align-items: center; justify-content: flex-end; padding: 0 3px; }
+  .gx .sw.off { background: var(--surface); justify-content: flex-start; }
+  .gx .sw span { width: 12px; height: 12px; border-radius: 50%; background: var(--bg); display: block; }
+  .gx .sw.off span { background: var(--skel-strong); opacity: 0.5; }
+  .gx .box { border: 1.5px solid var(--skel-strong); opacity: 0.55; border-radius: 8px; height: 30px; flex: 1; display: block; }
+</style>
+<script defer src="tokens.js?v=122"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link active">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Microsoft’s 18 <em>AI Guidelines</em></h1>
+  <p class="tagline">A checklist for the parts of AI that <em>face the user</em>.</p>
+  <p class="subtitle">Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The set was published at CHI 2019 by thirteen researchers and designers: <a href="people.html#p-saleema-amershi">Saleema Amershi</a>, <a href="people.html#p-dan-weld">Dan Weld</a>, <a href="people.html#p-mihaela-vorvoreanu">Mihaela Vorvoreanu</a>, <a href="people.html#p-adam-fourney">Adam Fourney</a>, <a href="people.html#p-besmira-nushi">Besmira Nushi</a>, <a href="people.html#p-penny-collisson">Penny Collisson</a>, <a href="people.html#p-jina-suh">Jina Suh</a>, <a href="people.html#p-shamsi-iqbal">Shamsi Iqbal</a>, <a href="people.html#p-paul-n-bennett">Paul N. Bennett</a>, <a href="people.html#p-kori-inkpen">Kori Inkpen</a>, <a href="people.html#p-jaime-teevan">Jaime Teevan</a>, <a href="people.html#p-ruth-kikin-gil">Ruth Kikin-Gil</a>, and <a href="people.html#p-eric-horvitz">Eric Horvitz</a>. Twelve of them worked at Microsoft in Redmond; the thirteenth came from the Paul G. Allen School at the University of Washington. It was not invented from scratch: the team gathered more than 150 recommendations from two decades of research and industry writing, collapsed the duplicates, and put what survived through four rounds of testing.</p>
+    <p class="body-text">The last round is the part worth knowing. Forty-nine design practitioners applied the candidate guidelines to twenty AI products they used daily, judging where each one was honoured or broken. That is how eighteen survived, and why each is written as something you can look for in a screen rather than a principle you nod along to.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Guidelines</div>
+    <p class="body-text law-desc">AI-infused products fail at the seams rather than in the model. The guidelines name those seams and order them by when they hurt: the promise you make before use, the manners you keep during it, the recovery you offer when you are wrong, and the way you change underneath someone over time.</p>
+    <div class="law-meta">
+      <div><div class="label">Published by</div><div class="value"><a href="people.html#p-saleema-amershi">Saleema Amershi</a> and colleagues (2019)</div></div>
+      <div><div class="label">Source</div><div class="value">Guidelines for Human-AI Interaction, CHI 2019</div></div>
+      <div><div class="label">In practice</div><div class="value">Audit a feature against all four phases</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>A feature that predicts, suggests, ranks, or generates is being specified, and nobody has written down what it should do when it is wrong.</li>
+      <li>An assistant is being added to a product that already works, and the team is deciding how present it should be.</li>
+      <li>A model is about to start learning from behavior, and nobody has decided what the user can see or switch off.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Walk one feature through all four phases in order, and write a concrete answer for each guideline rather than a judgement that it is handled.</li>
+      <li>Give the wrong-answer phase the same weight as the happy path, since five of the eighteen are about recovery and those are what people remember.</li>
+      <li>Treat the over-time group as a release requirement, because remembering, learning and changing quietly are the ones that only show up after months of use.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <div class="phase-head">
+    <h2>Initially</h2>
+    <span class="phase-range">G1–G2</span>
+    <span class="phase-note">What the product promises before anyone relies on it.</span>
+  </div>
+  <!-- 1. Make Clear What the System Can Do -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Initially</span>
+      <span class="num">01 / 20</span>
+      <h3>Make Clear What the System Can Do</h3>
+      <p class="desc">Before anyone relies on the feature, they should be able to tell what it is for. State the capability in plain words at the point of use, not in a help page nobody opens.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln hot" style="width:52%"></span><span class="ln faint" style="width:86%"></span><span class="ln faint" style="width:70%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Onboarding and empty states</div></div>
+      <div><div class="label">Use when</div><div class="value">The feature is new to them</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The capability is self-evident</div></div>
+    </div>
+  </article>
+  <!-- 2. Make Clear How Well It Does It -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Initially</span>
+      <span class="num">02 / 20</span>
+      <h3>Make Clear How Well It Does It</h3>
+      <p class="desc">Say how often the system is wrong. This is the guideline products skip most often, because admitting a hit rate feels like admitting a flaw rather than setting an expectation.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln " style="width:48%"></span><div class="row"><span class="track"><i style="width:72%"></i></span></div></div><div class="col" style="flex:none"><span class="ln faint" style="width:58%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Predictions and suggestions</div></div>
+      <div><div class="label">Use when</div><div class="value">Errors are visible to the user</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The output is verifiable at a glance</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="automation-bias.html">Automation Bias</a></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>During interaction</h2>
+    <span class="phase-range">G3–G6</span>
+    <span class="phase-note">How it behaves while someone is in the middle of a task.</span>
+  </div>
+  <!-- 3. Time Services Based on Context -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">During interaction</span>
+      <span class="num">03 / 20</span>
+      <h3>Time Services Based on Context</h3>
+      <p class="desc">Act or interrupt according to the task in front of the person. A correct suggestion at the wrong moment is an interruption, and it is judged as one.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="dot"></span><span class="dot"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span><span class="chipz on" style="width:52px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:76%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Proactive assistance</div></div>
+      <div><div class="label">Use when</div><div class="value">The system can act unprompted</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The user just asked for it</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="doherty-threshold.html">Doherty Threshold</a></div>
+    </div>
+  </article>
+  <!-- 4. Show Contextually Relevant Information -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">During interaction</span>
+      <span class="num">04 / 20</span>
+      <h3>Show Contextually Relevant Information</h3>
+      <p class="desc">Display what belongs to the task at hand and nothing else. Relevance is a filter on what you show, not a ranking applied after you have shown everything.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><div class="col"><span class="ln " style="width:84%"></span><span class="ln faint" style="width:62%"></span></div><span class="chipz on" style="width:50px"></span></div><div class="row"><div class="col"><span class="ln faint" style="width:54%"></span></div><span class="chipz" style="width:40px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Results and side panels</div></div>
+      <div><div class="label">Use when</div><div class="value">Context is known</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The user is browsing deliberately</div></div>
+    </div>
+  </article>
+  <!-- 5. Match Relevant Social Norms -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">During interaction</span>
+      <span class="num">05 / 20</span>
+      <h3>Match Relevant Social Norms</h3>
+      <p class="desc">Deliver the experience the way people expect in their social and cultural context. Tone, formality, and directness are read instantly and are not recoverable by an apology later.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz" style="width:96px"></span></div><div class="row" style="justify-content:flex-end"><span class="chipz on" style="width:120px"></span></div><div class="row"><span class="chipz" style="width:74px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Anything that speaks or writes</div></div>
+      <div><div class="label">Use when</div><div class="value">Output reaches people directly</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Output is numeric only</div></div>
+    </div>
+  </article>
+  <!-- 6. Mitigate Social Biases -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">During interaction</span>
+      <span class="num">06 / 20</span>
+      <h3>Mitigate Social Biases</h3>
+      <p class="desc">The system’s language and behavior should not reinforce unfair stereotypes. Autocomplete, ranking, and defaults all carry assumptions from their training data into the interface.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="pill on" style="width:74px"></span><span class="pill on" style="width:74px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:66%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Generated text and ranking</div></div>
+      <div><div class="label">Use when</div><div class="value">Output describes people</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The domain has no human referents</div></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>When wrong</h2>
+    <span class="phase-range">G7–G11</span>
+    <span class="phase-note">What it offers once it has already made a mistake.</span>
+  </div>
+  <!-- 7. Support Efficient Invocation -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">When wrong</span>
+      <span class="num">07 / 20</span>
+      <h3>Support Efficient Invocation</h3>
+      <p class="desc">Make the system easy to call when it is wanted. A capability that only appears when it decides to appear cannot be relied on for anything.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="chipz on" style="width:44px"></span><div class="col"><span class="ln " style="width:80%"></span></div></div><div class="col" style="flex:none"><span class="ln faint" style="width:58%"></span><span class="ln faint" style="width:44%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Assistants and helpers</div></div>
+      <div><div class="label">Use when</div><div class="value">Help is occasionally needed</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The system is always active</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="teslers-law.html">Tesler’s Law</a></div>
+    </div>
+  </article>
+  <!-- 8. Support Efficient Dismissal -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">When wrong</span>
+      <span class="num">08 / 20</span>
+      <h3>Support Efficient Dismissal</h3>
+      <p class="desc">Make it easy to ignore or wave away. This is the one commercial pressure argues with, because a feature nobody can dismiss looks better in a usage chart.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><div class="row"><div class="col"><span class="ln " style="width:72%"></span></div><span class="cross"></span></div><span class="ln faint" style="width:56%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Any volunteered suggestion</div></div>
+      <div><div class="label">Use when</div><div class="value">The system offers unprompted</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Dismissal would lose real work</div></div>
+    </div>
+  </article>
+  <!-- 9. Support Efficient Correction -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">When wrong</span>
+      <span class="num">09 / 20</span>
+      <h3>Support Efficient Correction</h3>
+      <p class="desc">Let people edit, refine, or recover when the system is wrong. Being wrong is survivable; being wrong with no way back is what turns a mistake into a complaint.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln hot" style="width:64%"></span><span class="ln faint" style="width:80%"></span></div><div class="row"><span class="more" style="width:52px"></span><span class="more" style="width:44px"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Anything generated or inferred</div></div>
+      <div><div class="label">Use when</div><div class="value">Errors are likely</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The action was already reversible</div></div>
+    </div>
+  </article>
+  <!-- 10. Scope Services When in Doubt -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">When wrong</span>
+      <span class="num">10 / 20</span>
+      <h3>Scope Services When in Doubt</h3>
+      <p class="desc">When the system does not know what was meant, it should ask or do less rather than guess confidently. Three good options beat one wrong answer delivered without a flicker of doubt.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="pill on" style="width:60px"></span><span class="pill on" style="width:50px"></span><span class="pill on" style="width:56px"></span><span class="more" style="width:38px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:68%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Ambiguous input</div></div>
+      <div><div class="label">Use when</div><div class="value">Confidence is measurable</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Guessing is free to undo</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="postels-law.html">Postel’s Law</a></div>
+    </div>
+  </article>
+  <!-- 11. Make Clear Why It Did What It Did -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">When wrong</span>
+      <span class="num">11 / 20</span>
+      <h3>Make Clear Why It Did What It Did</h3>
+      <p class="desc">Let people reach an explanation of the behavior. Not a model card: the reason for this route, this result, this ordering, in the place where they are looking at it.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln " style="width:70%"></span><span class="ln hot" style="width:46%"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:84%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Ranked or filtered output</div></div>
+      <div><div class="label">Use when</div><div class="value">The order is not obvious</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The reason is the input itself</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="human-in-the-loop.html">Human-in-the-Loop</a></div>
+    </div>
+  </article>
+  <div class="phase-head">
+    <h2>Over time</h2>
+    <span class="phase-range">G12–G18</span>
+    <span class="phase-note">How it changes underneath a person across months of use.</span>
+  </div>
+  <!-- 12. Remember Recent Interactions -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">12 / 20</span>
+      <h3>Remember Recent Interactions</h3>
+      <p class="desc">Hold short-term memory so people can refer back instead of repeating themselves. Without it every exchange starts from nothing and the burden lands on the person.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="dot on"></span><span class="dot on"></span><span class="dot on"></span><span class="dot"></span><span class="dot"></span></div><div class="col" style="flex:none"><span class="ln " style="width:88%"></span><span class="ln faint" style="width:56%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Conversational interfaces</div></div>
+      <div><div class="label">Use when</div><div class="value">Tasks span several turns</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Each session must start clean</div></div>
+    </div>
+  </article>
+  <!-- 13. Learn From User Behavior -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">13 / 20</span>
+      <h3>Learn From User Behavior</h3>
+      <p class="desc">Personalize from what people actually do rather than what they said once in a settings screen. Behavior is the more honest signal, and it keeps being given for free.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row" style="align-items:flex-end;height:58px"><span class="bar" style="flex:1;height:26px"></span><span class="bar" style="flex:1;height:38px"></span><span class="bar on" style="flex:1;height:54px"></span></div><div class="col" style="flex:none"><span class="ln faint" style="width:60%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Recommenders and feeds</div></div>
+      <div><div class="label">Use when</div><div class="value">Use is repeated</div></div>
+      <div><div class="label">Avoid when</div><div class="value">There is not enough history yet</div></div>
+    </div>
+  </article>
+  <!-- 14. Update and Adapt Cautiously -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">14 / 20</span>
+      <h3>Update and Adapt Cautiously</h3>
+      <p class="desc">Limit disruptive change. A system that improves overnight has also moved everything the person learned, and the cost of relearning is charged to them, not to you.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="bar on"></span><span class="bar"></span><span class="bar"></span></div><div class="row"><span class="ln faint" style="width:30%"></span><span class="ln faint" style="width:30%"></span><span class="ln faint" style="width:30%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Shipped, settled products</div></div>
+      <div><div class="label">Use when</div><div class="value">Behavior changes with use</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The current behavior is harmful</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 15. Encourage Granular Feedback -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">15 / 20</span>
+      <h3>Encourage Granular Feedback</h3>
+      <p class="desc">Let people correct the system in small, specific ways during normal use. A thumbs-down on a whole session tells you far less than a correction on one item.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><div class="col"><span class="ln " style="width:72%"></span></div><span class="tick"></span></div><div class="row"><div class="col"><span class="ln faint" style="width:60%"></span></div><span class="cross"></span></div><div class="row"><div class="col"><span class="ln faint" style="width:66%"></span></div><span class="tick"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Personalized systems</div></div>
+      <div><div class="label">Use when</div><div class="value">The model learns from use</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Feedback changes nothing</div></div>
+    </div>
+  </article>
+  <!-- 16. Convey the Consequences of Actions -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">16 / 20</span>
+      <h3>Convey the Consequences of Actions</h3>
+      <p class="desc">Show what a correction will change. Feedback that vanishes into the system teaches people their input does not matter, and they stop giving it.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="tick"></span><div class="col"><span class="ln " style="width:62%"></span></div></div><div class="card-s"><span class="ln hot" style="width:78%"></span><span class="ln faint" style="width:54%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Feedback and preference controls</div></div>
+      <div><div class="label">Use when</div><div class="value">Input shapes future behavior</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The effect is immediate and visible</div></div>
+    </div>
+  </article>
+  <!-- 17. Provide Global Controls -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">17 / 20</span>
+      <h3>Provide Global Controls</h3>
+      <p class="desc">Offer one place to customize what the system watches and how it behaves. Per-item controls are not a substitute for being able to turn the whole thing down.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><div class="col"><span class="ln " style="width:66%"></span></div><span class="sw"><span></span></span></div><div class="row"><div class="col"><span class="ln faint" style="width:58%"></span></div><span class="sw off"><span></span></span></div><div class="row"><div class="col"><span class="ln faint" style="width:50%"></span></div><span class="sw off"><span></span></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Monitoring and personalization</div></div>
+      <div><div class="label">Use when</div><div class="value">The system observes behavior</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Nothing is retained</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="out-of-the-loop-problem.html">Out-of-the-Loop Problem</a></div>
+    </div>
+  </article>
+  <!-- 18. Notify Users About Changes -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Over time</span>
+      <span class="num">18 / 20</span>
+      <h3>Notify Users About Changes</h3>
+      <p class="desc">Say when capabilities are added or changed. People build habits around what a system could do last month, and silent updates break those habits without explanation.</p>
+    </div>
+    <div class="demo"><div class="gx"><div class="row"><span class="pill on" style="width:46px"></span><div class="col"><span class="ln " style="width:72%"></span></div></div><div class="card-s"><span class="ln faint" style="width:86%"></span><span class="ln faint" style="width:62%"></span></div></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Continuously shipped products</div></div>
+      <div><div class="label">Use when</div><div class="value">Capabilities move</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The change is invisible in use</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Guidelines in the Age of AI</h3>
+    <p>Written for recommenders and autocomplete in 2019, then handed a generation of systems that talk back. Most still hold; a few now land differently.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="card-s"><span class="ln " style="width:90%"></span><span class="ln " style="width:74%"></span><span class="ln " style="width:82%"></span></div><div class="row"><span class="track"><i style="width:94%"></i></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">19 / 20</span>
+      <h3>Confidence Is Now the Hard One</h3>
+      <p class="desc">Saying how well the system performs was awkward for a recommender and is harder for a model that writes fluent prose at any confidence. The second guideline is now the least well served of the eighteen.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Accuracy → calibration</div></div>
+      <div><div class="label">Use when</div><div class="value">Output reads as authoritative</div></div>
+      <div><div class="label">Watch for</div><div class="value">A hedge nobody can act on</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><div class="row"><div class="col"><span class="ln " style="width:78%"></span></div><span class="chipz on" style="width:46px"></span></div><div class="row"><div class="col"><span class="ln " style="width:70%"></span></div><span class="chipz on" style="width:46px"></span></div><div class="row"><div class="col"><span class="ln faint" style="width:52%"></span></div><span class="more" style="width:46px"></span></div></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">20 / 20</span>
+      <h3>Dismissal Under Pressure</h3>
+      <p class="desc">Efficient dismissal was always the guideline commercial pressure argues with. An assistant placed in every surface makes ignoring it the main interaction, and the cost of getting that wrong compounds.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Opt-out → unavoidable</div></div>
+      <div><div class="label">Use when</div><div class="value">Assistance is ambient</div></div>
+      <div><div class="label">Watch for</div><div class="value">Dismissal buried in settings</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1145/3290605.3300233" target="_blank" rel="noopener"><span class="title">Guidelines for Human-AI Interaction — Amershi et al., CHI 2019</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/01/Guidelines-for-Human-AI-Interaction-camera-ready.pdf" target="_blank" rel="noopener"><span class="title">Camera-ready paper (PDF)</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Microsoft</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.microsoft.com/en-us/research/project/guidelines-for-human-ai-interaction/" target="_blank" rel="noopener"><span class="title">Guidelines for Human-AI Interaction</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/haxtoolkit/" target="_blank" rel="noopener"><span class="title">HAX Toolkit</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/haxtoolkit/library/" target="_blank" rel="noopener"><span class="title">HAX Design Library</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Authors</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.microsoft.com/en-us/research/people/samershi/" target="_blank" rel="noopener"><span class="title">Saleema Amershi</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.cs.washington.edu/people/faculty/weld-daniel-s/" target="_blank" rel="noopener"><span class="title">Dan Weld</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/mivorvor/" target="_blank" rel="noopener"><span class="title">Mihaela Vorvoreanu</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/adamfo/" target="_blank" rel="noopener"><span class="title">Adam Fourney</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://besmiranushi.com/" target="_blank" rel="noopener"><span class="title">Besmira Nushi</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.jinasuh.com/" target="_blank" rel="noopener"><span class="title">Jina Suh</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/shamsi/" target="_blank" rel="noopener"><span class="title">Shamsi Iqbal</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/kori/" target="_blank" rel="noopener"><span class="title">Kori Inkpen</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/teevan/" target="_blank" rel="noopener"><span class="title">Jaime Teevan</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://id.iit.edu/people/ruth-kikin-gil-1/" target="_blank" rel="noopener"><span class="title">Ruth Kikin-Gil</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.microsoft.com/en-us/research/people/horvitz/" target="_blank" rel="noopener"><span class="title">Eric Horvitz</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Human-centered_computing" target="_blank" rel="noopener"><span class="title">Human-Centered Computing</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Microsoft’s 18 AI Guidelines</div>
+</footer>
+
+</body>
+</html>

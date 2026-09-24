@@ -13,7 +13,7 @@ GROUPS = [
  ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','stroop-effect','zipfs-law','navigation-patterns','doherty-threshold','power-law-of-practice','yerkes-dodson-law']),
  ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
  ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','hofstadters-law','human-in-the-loop','out-of-the-loop-problem','pareto-principle']),
- ("Follow The Rulebooks", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','chestertons-fence']),
+ ("Follow The Rulebooks", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','microsoft-ai-guidelines','ui-tenets-and-traps','chestertons-fence']),
 ]
 
 

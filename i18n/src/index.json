@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 53 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 55 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -31,6 +31,8 @@
   "+ AI era",
   "4 principles",
   "6 rules",
+  "18 guidelines",
+  "9 tenets",
   "6 lessons",
   "6 moments",
   "Mori, 1970",
@@ -86,6 +88,8 @@
   "Tognazzini’s First Principles",
   "WCAG and POUR",
   "Chesterton’s Fence",
+  "Microsoft’s 18 AI Guidelines",
+  "UI Tenets and Traps",
   "Aesthetic-Usability Effect",
   "Peak-End Rule",
   "Uncanny Valley",
@@ -141,6 +145,8 @@
   "Sixteen principles for interaction design.",
   "Perceivable, operable, understandable, robust.",
   "Understand it before you remove it.",
+  "Eighteen checks for AI that faces a user.",
+  "Nine tenets, and the traps that break them.",
   "Beautiful feels easier to use.",
   "People remember peaks and endings.",
   "Almost-human unsettles more than machines.",

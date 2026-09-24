@@ -5,13 +5,27 @@
   <link>https://www.ux-guidelines.com/</link>
   <description>Research-backed laws, heuristics, and patterns of interface design, each explained with its origin, practice guidance, and what changes in the age of AI.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 17 Sep 2026 08:09:05 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 24 Sep 2026 03:41:03 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them</title>
+    <link>https://www.ux-guidelines.com/ui-tenets-and-traps.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ui-tenets-and-traps.html</guid>
+    <pubDate>Thu, 24 Sep 2026 03:41:01 +0000</pubDate>
+    <description>A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.</description>
+  </item>
+  <item>
+    <title>Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist</title>
+    <link>https://www.ux-guidelines.com/microsoft-ai-guidelines.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/microsoft-ai-guidelines.html</guid>
+    <pubDate>Thu, 24 Sep 2026 03:40:53 +0000</pubDate>
+    <description>Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.</description>
+  </item>
   <item>
     <title>Zipf’s Law: Why a Few Items Get Most of the Use</title>
     <link>https://www.ux-guidelines.com/zipfs-law.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/zipfs-law.html</guid>
-    <pubDate>Thu, 17 Sep 2026 08:09:05 +0000</pubDate>
+    <pubDate>Thu, 17 Sep 2026 01:13:25 -0700</pubDate>
     <description>Rank anything by how often it is used and the counts fall away on a steep, predictable curve: the second item gets about half the traffic of the first, the third about a third. Navigation, search ranking, and feature priority all sit on that curve.</description>
   </item>
   <item>

@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Une bibliothèque grandissante de 53 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
+  "Une bibliothèque grandissante de 55 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
   "+ Ère de l'IA",
@@ -31,6 +31,8 @@
   "+ Ère de l'IA",
   "4 principes",
   "6 règles",
+  "18 règles",
+  "9 principes",
   "6 leçons",
   "6 moments",
   "Mori, 1970",
@@ -86,6 +88,8 @@
   "Premiers principes de Tognazzini",
   "WCAG et POUR",
   "La clôture de Chesterton",
+  "Les 18 règles d’IA de Microsoft",
+  "Principes et pièges de l'UI",
   "Effet esthétique-utilisabilité",
   "Règle pic-fin",
   "Vallée de l’étrange",
@@ -141,6 +145,8 @@
   "Seize principes pour le design d'interaction.",
   "Perceptible, utilisable, compréhensible, robuste.",
   "Comprendre avant de supprimer.",
+  "Dix-huit contrôles pour une IA qui fait face à l'utilisateur.",
+  "Neuf principes, et les pièges qui les enfreignent.",
   "Le beau semble plus facile à utiliser.",
   "On retient les pics et la fin.",
   "Le presque-humain dérange plus que la machine.",
