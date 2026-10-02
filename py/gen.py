@@ -287,7 +287,7 @@ def build_page(d):
 </section>
 
 <footer>
-  <div class="copyright">© UX Guidelines · {d['title']}</div>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · {d['title']}</div>
 </footer>
 
 </body>
