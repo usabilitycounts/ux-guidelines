@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "Michael Medlock y Steve Herbst desarrollaron el marco en Microsoft en 2009, a partir de una primera versión que fechan en 2007. Nueve principios describen las cualidades de una buena interfaz, cada uno escrito con la propia voz del usuario, y 26 trampas nombran los problemas comunes y detectables que desgastan esas cualidades.",
-  "Ganó en 2013 el Planning and Design Excellence Award de Microsoft, y Microsoft siguió enseñándolo después de que ambos autores se marcharan; Meta y Amazon también lo enseñan. Desde 2017 los autores lo venden como una baraja de cartas con código de colores, y más de 10.000 barajas han llegado a investigadores de todo el mundo. La baraja contiene 26 trampas; esta página cubre las 23 cuyas definiciones están documentadas públicamente."
+  "Ganó en 2013 el Planning and Design Excellence Award de Microsoft, y Microsoft siguió enseñándolo después de que ambos autores se marcharan; Meta y Amazon también lo enseñan. Desde 2017 los autores lo venden como una baraja de cartas con código de colores, y a finales de 2023 más de 10.000 barajas habían llegado a investigadores de todo el mundo. La baraja contiene 26 trampas; esta página cubre las 23 cuyas definiciones están documentadas públicamente."
  ],
  ".law-content .law-desc": [
   "Un principio es una cualidad que el usuario debería experimentar, dicha como él la diría: sé lo que puedo hacer, no espero, puedo deshacer mis acciones. Una trampa es un patrón concreto que daña una de esas cualidades. Nombrar la trampa hace preciso un hallazgo; vincularla a su principio explica por qué importa."
@@ -88,16 +88,16 @@
   "El prompt en blanco lo oculta todo"
  ],
  ".card .desc": [
-  "Ninguna señal muestra cómo alcanzar un objetivo, y el usuario no tiene aprendizaje previo que le permita suplir su ausencia. La función existe, pero para esta persona es como si no existiera.",
-  "Existe una señal, pero pasa desapercibida o se encuentra tarde, porque queda fuera de la visión foveal o en un lugar donde el usuario no espera mirar.",
+  "Ninguna señal muestra cómo alcanzar un objetivo, y el usuario no tiene suficiente aprendizaje previo para suplir su ausencia. La función existe, pero para esta persona es como si no existiera.",
+  "Existe una señal, pero pasa desapercibida o se encuentra tarde, porque queda fuera de la visión foveal o el usuario no espera verla.",
   "Algo aparece de golpe o cambia rápido y aparta al usuario de su objetivo. El movimiento gana la atención, la merezca o no.",
   "Una señal crítica se percibe pero se malinterpreta, así que el usuario la ignora. Parece incorrecta pero es la correcta.",
   "Una señal se toma por error como el camino hacia un objetivo. Parece correcta pero es incorrecta, y el usuario se compromete con ella antes de descubrirlo.",
-  "El usuario tiene que recordar información fácil de olvidar y llevarla de una pantalla a otra en lugar de verla donde la necesita.",
-  "Una relación importante entre dos o más señales no es evidente, así que el usuario no sabe qué controles van juntos.",
+  "El usuario tiene que recordar información fácil de olvidar y, a menudo, llevarla de una pantalla a otra en lugar de verla donde la necesita.",
+  "Una relación importante entre dos o más señales no es evidente, así que el usuario no sabe qué elementos van juntos.",
   "El usuario no ve, no percibe o no entiende una retroalimentación que necesita, así que no puede saber si una acción funcionó.",
   "El usuario sabe qué hacer, pero hacerlo exige esfuerzo físico, es difícil o es imposible.",
-  "Las acciones físicas del usuario producen un resultado que no pretendía, normalmente porque un control está demasiado cerca de otro o se dispara con demasiada facilidad.",
+  "Las acciones físicas del usuario producen un resultado que no pretendía, por ejemplo cuando un control está demasiado cerca de otro o se dispara con demasiada facilidad.",
   "Un rendimiento pobre, real o percibido, o un diseño que impide avanzar o retroceder, evita que el usuario alcance un objetivo a tiempo.",
   "Incluso cuando la interfaz se usa exactamente como se pretendía, alcanzar un objetivo exige más navegación de la debida, o lo parece.",
   "La información es comprensible, pero hay demasiada, y lo que importa se pierde entre lo que no.",
@@ -108,7 +108,7 @@
   "El usuario puede perder su trabajo por algo que hizo o por algo que dejó de hacer.",
   "Varias señales para la misma acción aparecen en un mismo nivel de la interfaz, o en un nivel directamente anidado, y el usuario tiene que averiguar si se diferencian.",
   "Una señal tiene otro aspecto, o está en otro lugar, que en el resto de la interfaz, así que lo que el usuario aprendió deja de funcionar.",
-  "El mismo control hace cosas distintas según el estado del sistema, así que el usuario no puede predecir qué hará.",
+  "La misma acción tiene consecuencias distintas según el lugar o el estado, así que el usuario no puede predecir qué hará.",
   "No hay un único lugar al que volver para empezar una tarea o reorientarse, y varios inicios que compiten dejan al usuario sin saber dónde está.",
   "El sistema resulta visualmente desagradable, o no sigue su propio lenguaje de diseño, y los usuarios juzgan su calidad por lo que ven.",
   "Un asistente predice la intención en cada turno, así que una trampa que antes vivía en el autocorrector ahora está en cada respuesta. Lo que más importa es lo barato que le resulta al usuario rechazar una suposición.",

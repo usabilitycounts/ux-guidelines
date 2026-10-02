@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Ilusión</em> de Ebbinghaus"
+ ],
+ "header .tagline": [
+  "Un tamaño se juzga por <em>lo que lo rodea</em>."
+ ],
+ "header .subtitle": [
+  "Dos círculos idénticos parecen de tamaños distintos cuando uno está rodeado de círculos grandes y el otro de círculos pequeños. Cada tamaño en pantalla se lee en relación con su entorno, así que un botón, un icono o una burbuja de un gráfico pueden parecer más grandes o más pequeños de lo que son."
+ ],
+ ".law-origin .body-text": [
+  "La ilusión lleva el nombre de Hermann Ebbinghaus, el psicólogo alemán más conocido por sus experimentos sobre la memoria y el olvido. Edward B. Titchener la dio a conocer al público de habla inglesa en un manual de psicología experimental de 1901, de ahí su otro nombre: círculos de Titchener.",
+  "El tamaño explica solo una parte del efecto. Un estudio de 2005 mostró que la distancia también cuenta: los círculos cercanos al centro lo hacen parecer más grande, y los lejanos, más pequeño. Como los círculos grandes no pueden acercarse tanto como los pequeños, muchos estudios anteriores habían mezclado las dos causas."
+ ],
+ ".law-content .law-desc": [
+  "El ojo juzga el tamaño de una forma en relación con sus vecinas en lugar de medirla por sí sola. Rodea un círculo de círculos más grandes y parecerá más pequeño; rodéalo de círculos más pequeños y parecerá más grande. Lo cerca que estén esas vecinas también cambia el efecto."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-hermann-ebbinghaus\">Hermann Ebbinghaus</a>; popularizada por <a href=\"people.html#p-edward-b-titchener\">Edward B. Titchener</a> (1901)",
+  "Círculos de Titchener",
+  "Juzgar los tamaños en su entorno real"
+ ],
+ ".apply-list li": [
+  "Una acción, un icono o una insignia está entre elementos mucho más grandes o mucho más pequeños que ella.",
+  "Un gráfico codifica valores como área, como los gráficos de burbujas, los mapas y los treemaps, y los lectores comparan las formas a simple vista.",
+  "Una revisión no logra ponerse de acuerdo sobre si dos elementos tienen el mismo tamaño.",
+  "Revisa el tamaño de un elemento en su entorno real, no solo sobre un lienzo vacío.",
+  "Cuando haya que comparar tamaños con precisión, alinea los elementos sobre una línea base común o muestra los valores.",
+  "Mantén un espaciado uniforme alrededor de los elementos que deben verse iguales, porque los elementos cercanos también cambian el tamaño percibido."
+ ],
+ ".card .tag": [
+  "El efecto",
+  "Espaciado",
+  "Controles",
+  "Iconos",
+  "Gráficos",
+  "Remedio",
+  "Investigación",
+  "Investigación",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Los vecinos marcan la escala",
+  "La distancia también cuenta",
+  "Un botón entre cosas grandes",
+  "Iconos entre la multitud",
+  "Las burbujas engañan",
+  "Comparar sobre una línea base común",
+  "Los adultos se engañan más",
+  "Ver frente a agarrar",
+  "Los gráficos generados merecen un segundo vistazo",
+  "Medir no es ver"
+ ],
+ ".card .desc": [
+  "El mismo círculo parece más pequeño entre círculos grandes y más grande entre círculos pequeños. Nada cambia en el círculo; solo la referencia con la que el ojo lo compara.",
+  "Los círculos cercanos al centro lo hacen parecer más grande, y los lejanos, más pequeño. El espaciado forma parte de la ilusión, no solo el tamaño de los vecinos.",
+  "Un botón principal junto a una imagen o un titular grandes parece más pequeño de lo que es, mientras que el mismo botón en una barra de herramientas escasa parece grande. Juzga su tamaño donde va a vivir.",
+  "Un icono junto a iconos más grandes parece demasiado pequeño, y el mismo icono entre otros más pequeños parece pesado. El tamaño óptico hay que comprobarlo en contexto, no solo en la cuadrícula de iconos.",
+  "En gráficos de burbujas, mapas y treemaps, una forma rodeada de formas más grandes parece más pequeña que otra rodeada de formas más pequeñas. Las áreas ya son difíciles de juzgar, y la ilusión lo empeora.",
+  "Cuando haya que comparar tamaños con precisión, saca el entorno del juicio: alinea los elementos, dales una línea base común o escribe el número junto a cada uno.",
+  "Los estudiantes universitarios se engañaron más a menudo que los niños de diez años o menos, menos sensibles al contexto. Leer el tamaño a través del entorno parece desarrollarse con la edad.",
+  "En un estudio de Melvyn Goodale, quienes agarraban el disco central ajustaban la apertura de la mano a su tamaño real y no al aparente; otros trabajos encontraron que la mano también se engaña. El debate alimentó la teoría de vías visuales separadas para la percepción y la acción.",
+  "Un modelo produce un gráfico de burbujas o un treemap en segundos, con áreas matemáticamente correctas y visualmente engañosas. Revisa las codificaciones por área como las verá un lector.",
+  "Las revisiones de diseño automatizadas miden píxeles, no el tamaño percibido, y aprueban elementos que la gente verá desiguales. Compleméntalas con una mirada al diseño en contexto."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Dimensionar en contexto",
+  "Los tamaños en pantalla varían mucho",
+  "Un elemento está solo",
+  "Espaciado y agrupación",
+  "Los elementos se agolpan alrededor de un foco",
+  "El espaciado es amplio y regular",
+  "Acciones principales",
+  "El botón comparte espacio con elementos multimedia grandes",
+  "El botón está solo",
+  "Barras de herramientas y sets de iconos",
+  "Iconos de tamaños distintos comparten fila",
+  "Un solo icono",
+  "Visualización de datos",
+  "El tamaño codifica un valor",
+  "Importa la comparación exacta",
+  "Comparaciones que importan",
+  "Los lectores deben ordenar elementos",
+  "El tamaño es solo decorativo",
+  "Entender el efecto",
+  "El público abarca varias edades",
+  "Suponer que todos lo ven igual",
+  "Tocar y señalar",
+  "El tamaño aparente de los objetivos varía",
+  "Confiar en que la mano corrija al ojo",
+  "Hecho a mano → generado",
+  "Los gráficos salen de herramientas de IA",
+  "Codificaciones por área publicadas sin revisar",
+  "Píxeles → percepción",
+  "Automatizar la revisión de diseño",
+  "Revisiones que solo miden píxeles"
+ ],
+ ".ai-divider h3": [
+  "La ilusión en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los diseños y los gráficos se generan hoy más rápido de lo que nadie los revisa en contexto, así que tamaños que parecen correctos por separado llegan a las personas sin revisar."
+ ]
+}

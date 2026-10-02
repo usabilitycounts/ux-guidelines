@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Une bibliothèque grandissante de 55 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
+  "Une bibliothèque grandissante de 57 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
   "+ Ère de l'IA",
@@ -11,6 +11,7 @@
   "+ Ère de l'IA",
   "+ Ère de l'IA",
   "+ Ère de l'IA",
+  "Wald, 1943",
   "+ Ère de l'IA",
   "+ Ère de l'IA",
   "1 / rang",
@@ -50,6 +51,7 @@
   "10 principes",
   "6 usages",
   "+ Ère de l'IA",
+  "Titchener, 1901",
   "16 types de graphiques",
   "+ Ère de l'IA",
   "6 modèles",
@@ -68,6 +70,7 @@
   "Loi de Conway",
   "Loi de Postel",
   "Loi de Goodhart",
+  "Biais du survivant",
   "Loi de Hofstadter",
   "Principe de Pareto",
   "Loi de Zipf",
@@ -107,6 +110,7 @@
   "Principes de la Gestalt",
   "Effet von Restorff",
   "Loi de Weber-Fechner",
+  "Illusion d'Ebbinghaus",
   "Visualisation de données",
   "Icônes universelles",
   "Divulgation progressive",
@@ -125,6 +129,7 @@
   "Le produit reflète l'équipe qui le crée.",
   "Accepter largement, émettre rigoureusement.",
   "Une cible cesse d'être une mesure.",
+  "Les échecs invisibles changent la conclusion.",
   "Tout prend plus de temps que prévu.",
   "Quatre-vingts pour cent viennent de vingt.",
   "Quelques éléments concentrent l'essentiel des usages.",
@@ -164,6 +169,7 @@
   "Comment l'esprit regroupe ce qu'il voit.",
   "Ce qui détonne reste en mémoire.",
   "La perception suit les ratios, pas les quantités.",
+  "Le même cercle paraît plus grand ou plus petit selon son entourage.",
   "Seize types de graphiques, classés par question.",
   "Les rares icônes que tous comprennent.",
   "L'essentiel d'abord, le reste ensuite.",

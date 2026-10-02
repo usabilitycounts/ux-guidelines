@@ -1324,6 +1324,7 @@ html.i18n-wait .card .tag { background-image: none; background: var(--skel-fill-
 .demo:hover .il-copy, .il-copy:focus-visible { opacity: 1; }
 .il-copy:hover { color: var(--text-primary); }
 .il-copy svg { width: 15px; height: 15px; }
+.il-copy.il-png { right: 40px; }
 @media (hover: none) { .il-copy { opacity: 1; } }
 
 /* Back to top */

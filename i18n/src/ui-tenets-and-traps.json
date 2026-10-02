@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "Michael Medlock and Steve Herbst developed the framework at Microsoft in 2009, from a first version they date to 2007. Nine tenets describe the qualities of a good interface, each written in the user’s own voice, and 26 traps name the common, detectable problems that wear those qualities down.",
-  "It won Microsoft’s 2013 Planning and Design Excellence Award, and Microsoft kept teaching it after both authors left; Meta and Amazon teach it too. Since 2017 the authors have sold it as a color-coded card deck, and more than 10,000 decks have gone to researchers around the world. The deck holds 26 traps; this page covers the 23 whose definitions are publicly documented."
+  "It won Microsoft’s 2013 Planning and Design Excellence Award, and Microsoft kept teaching it after both authors left; Meta and Amazon teach it too. Since 2017 the authors have sold it as a color-coded card deck, and by the end of 2023 more than 10,000 decks had gone to researchers around the world. The deck holds 26 traps; this page covers the 23 whose definitions are publicly documented."
  ],
  ".law-content .law-desc": [
   "A tenet is a quality the user should experience, stated the way they would say it: I know what I can do, I don’t wait, I can undo my actions. A trap is a specific pattern that damages one of those qualities. Naming the trap makes a finding precise; tracing it to its tenet explains why it matters."
@@ -88,16 +88,16 @@
   "The Blank Prompt Hides Everything"
  ],
  ".card .desc": [
-  "No cue shows how to reach a goal, and the user has no prior learning to get past its absence. The feature exists, but for this person it may as well not.",
-  "A cue exists but is missed or found slowly, because it sits outside foveal vision or somewhere the user doesn’t expect to look.",
+  "No cue shows how to reach a goal, and the user doesn’t have enough prior learning to get past its absence. The feature exists, but for this person it may as well not.",
+  "A cue exists but is missed or found slowly, because it sits outside foveal vision or the user doesn’t expect to see it.",
   "Something appears suddenly or changes rapidly and pulls the user away from their goal. Motion wins attention whether or not it deserves it.",
   "A critical cue is noticed but misunderstood, so the user ignores it. It looks wrong but is right.",
   "A cue is wrongly taken as the way to a goal. It looks right but is wrong, and the user commits to it before finding out.",
-  "The user has to remember information that is easy to forget, carrying it from one screen to the next instead of seeing it where it’s needed.",
-  "An important relationship between two or more cues isn’t obvious, so the user can’t tell which controls belong together.",
+  "The user has to remember information that is easy to forget, often carrying it from one screen to the next instead of seeing it where it’s needed.",
+  "An important relationship between two or more cues isn’t obvious, so the user can’t tell which elements belong together.",
   "The user doesn’t see, notice, or understand feedback they need, so they can’t tell whether an action worked.",
   "The user knows what to do, but doing it is physically effortful, difficult, or impossible.",
-  "The user’s physical actions produce an outcome they didn’t intend, usually because a control sits too close to another or fires too easily.",
+  "The user’s physical actions produce an outcome they didn’t intend, for example when a control sits too close to another or fires too easily.",
   "Real or perceived poor performance, or a design that blocks moving forward or backing out, keeps the user from reaching a goal in a timely way.",
   "Even when the interface is used exactly as intended, reaching a goal takes more navigation than it should, or feels like it does.",
   "The information is understandable, but there is too much of it, and what matters gets lost among what doesn’t.",
@@ -108,7 +108,7 @@
   "The user can lose their work through something they did, or something they failed to do.",
   "Several cues for the same action appear at one level of the interface, or at a directly nested level, and the user has to work out whether they differ.",
   "A cue looks different, or sits in a different place, than it does elsewhere in the interface, so what the user learned stops working.",
-  "The same control does different things depending on the state of the system, so the user can’t predict what it will do.",
+  "The same action has different consequences in different places or states, so the user can’t predict what it will do.",
   "There is no single place to return to for starting a task or getting reoriented, and several competing homes leave the user unsure where they are.",
   "The system is visually unpleasant, or doesn’t follow its own design language, and users judge its quality by what they see.",
   "An assistant predicts intent on every turn, so a trap that used to live in autocorrect now sits in every response. What matters most is how cheaply the user can reject a guess.",

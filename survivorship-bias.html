@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-page="survivorship-bias">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=72','script');pl('i18n/'+eff+'/survivorship-bias.json?v=36','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.">
+<title>Survivorship Bias: Why the Data You Can See Misleads — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/survivorship-bias.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/survivorship-bias.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/sesgo-de-supervivencia.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/survivorship-bias.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/biais-du-survivant.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/survivorship-bias.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/survivorship-bias.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/survivorship-bias.html">
+<meta property="og:title" content="Survivorship Bias: Why the Data You Can See Misleads — UX Guidelines">
+<meta property="og:description" content="Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/survivorship-bias.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/survivorship-bias.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/survivorship-bias.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Survivorship Bias: Why the Data You Can See Misleads — UX Guidelines">
+<meta name="twitter:description" content="Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Survivorship Bias: Why the Data You Can See Misleads", "description": "Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.", "url": "https://www.ux-guidelines.com/survivorship-bias.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/survivorship-bias.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Survivorship Bias: Why the Data You Can See Misleads", "item": "https://www.ux-guidelines.com/survivorship-bias.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .sv { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .sv svg { width: 100%; height: 100%; display: block; }
+  .sv .a { fill: var(--il-accent); }
+  .sv .b { fill: var(--skel-strong); opacity: 0.22; }
+  .sv .g { fill: var(--skel-strong); opacity: 0.45; }
+  .sv .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .sv .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .sv .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .sv .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+</style>
+<script defer src="tokens.js?v=126"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link active">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Survivorship <em>Bias</em></h1>
+  <p class="tagline">The evidence you see is <em>what survived</em>.</p>
+  <p class="subtitle">Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Cicero tells of Diagoras of Melos being shown painted offerings from sailors who had survived shipwrecks, as proof that the gods protect those who pray. Diagoras replied that there were no paintings of the ones who drowned, and they were far more numerous.</p>
+    <p class="body-text">The best-known modern case comes from the Second World War. In 1943 Abraham Wald, a statistician in Columbia University’s Statistical Research Group, wrote memos on estimating how vulnerable each part of an aircraft was from the damage on planes that came back. Popular retellings simplify his mathematics, but the insight holds: returning planes can only show where a plane can be hit and still return.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Bias</div>
+    <p class="body-text law-desc">Any group you can observe today has already been filtered by whatever removed the rest. Conclusions drawn from it describe the filter as much as the group, and they lean optimistic, because the failures are exactly what is missing.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-abraham-wald">Abraham Wald</a> (1943)</div></div>
+      <div><div class="label">Also called</div><div class="value">Survivor bias</div></div>
+      <div><div class="label">In practice</div><div class="value">Ask who is missing from the data</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Metrics, feedback, or research come only from people who are still active.</li>
+      <li>A team studies successful products or case studies to decide what to copy.</li>
+      <li>A chart follows a group that shrinks over time, such as customers, accounts, or sessions.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Before drawing a conclusion, name the filter the data passed through and who it removed.</li>
+      <li>Keep churned, abandoned, and failed cases in the denominator, and follow each cohort from its start.</li>
+      <li>Recruit people who left or never finished, since they hold the reasons the survivors cannot give.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Armor Where the Holes Aren’t -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Armor Where the Holes Aren’t</h3>
+      <p class="desc">Damage on the planes that returned showed where a plane could be hit and still fly home. The places without holes were where the lost planes had been hit, so those were the parts to protect.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="50" width="160" height="16" rx="8" class="b"/><rect x="102" y="12" width="16" height="96" rx="8" class="b"/><rect x="84" y="94" width="52" height="9" rx="4.5" class="b"/><circle cx="68" cy="58" r="8" class="ga"/><circle cx="152" cy="58" r="8" class="ga"/><circle cx="110" cy="24" r="6" class="ga"/><circle cx="42" cy="55" r="2.4" class="a"/><circle cx="48" cy="62" r="2.4" class="a"/><circle cx="56" cy="53" r="2.4" class="a"/><circle cx="84" cy="60" r="2.4" class="a"/><circle cx="90" cy="54" r="2.4" class="a"/><circle cx="96" cy="63" r="2.4" class="a"/><circle cx="124" cy="55" r="2.4" class="a"/><circle cx="130" cy="62" r="2.4" class="a"/><circle cx="136" cy="53" r="2.4" class="a"/><circle cx="164" cy="60" r="2.4" class="a"/><circle cx="170" cy="54" r="2.4" class="a"/><circle cx="178" cy="62" r="2.4" class="a"/><circle cx="107" cy="42" r="2.4" class="a"/><circle cx="113" cy="48" r="2.4" class="a"/><circle cx="108" cy="74" r="2.4" class="a"/><circle cx="113" cy="81" r="2.4" class="a"/><circle cx="92" cy="98" r="2.4" class="a"/><circle cx="128" cy="98" r="2.4" class="a"/><circle cx="100" cy="99" r="2.4" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the bias</div></div>
+      <div><div class="label">Use when</div><div class="value">Only returns are visible</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Losses are recorded too</div></div>
+    </div>
+  </article>
+  <!-- 2. Analytics See Who Stayed -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Analytics</span>
+      <span class="num">02 / 10</span>
+      <h3>Analytics See Who Stayed</h3>
+      <p class="desc">Metrics on active users describe the people who got past onboarding. Those who hit a wall left and stopped producing data, so the dashboard looks healthier than the product.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="16" width="180" height="14" rx="4" class="g"/><rect x="20" y="38" width="132" height="14" rx="4" class="g"/><rect x="20" y="60" width="92" height="14" rx="4" class="g"/><rect x="20" y="82" width="58" height="14" rx="4" class="a"/><rect x="14" y="76" width="70" height="26" rx="6" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Retention and funnel analysis</div></div>
+      <div><div class="label">Use when</div><div class="value">Reading metrics on active users</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every cohort is tracked from sign-up</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="goodharts-law.html">Goodhart’s Law</a></div>
+    </div>
+  </article>
+  <!-- 3. Interviewing Only Customers -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Research</span>
+      <span class="num">03 / 10</span>
+      <h3>Interviewing Only Customers</h3>
+      <p class="desc">Recruiting from the current user base asks the people the product already works for. The reasons it fails live with people who churned or never signed up.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="110" cy="60" r="34" class="ga"/><circle cx="130" cy="60" r="4.5" class="a"/><circle cx="122.4" cy="74.1" r="4.5" class="a"/><circle cx="105.5" cy="77.5" r="4.5" class="a"/><circle cx="91.9" cy="67.7" r="4.5" class="a"/><circle cx="92.1" cy="52" r="4.5" class="a"/><circle cx="105.8" cy="42.4" r="4.5" class="a"/><circle cx="122.7" cy="46.1" r="4.5" class="a"/><circle cx="30" cy="24" r="4" class="g"/><circle cx="52" cy="96" r="4" class="g"/><circle cx="24" cy="70" r="4" class="g"/><circle cx="176" cy="22" r="4" class="g"/><circle cx="196" cy="64" r="4" class="g"/><circle cx="170" cy="100" r="4" class="g"/><circle cx="62" cy="18" r="4" class="g"/><circle cx="150" cy="108" r="4" class="g"/><circle cx="200" cy="30" r="4" class="g"/><circle cx="36" cy="104" r="4" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Recruiting for research</div></div>
+      <div><div class="label">Use when</div><div class="value">Planning interviews or surveys</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The study is about loyal users on purpose</div></div>
+    </div>
+  </article>
+  <!-- 4. Copying the Winners -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Strategy</span>
+      <span class="num">04 / 10</span>
+      <h3>Copying the Winners</h3>
+      <p class="desc">Studying market leaders for the patterns behind their success ignores the products that used the same patterns and disappeared. A trait the winners share is not proof that it caused the win.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="22" y="16" width="22" height="22" rx="5" class="gh"/><rect x="52" y="16" width="22" height="22" rx="5" class="a"/><rect x="82" y="16" width="22" height="22" rx="5" class="gh"/><rect x="112" y="16" width="22" height="22" rx="5" class="gh"/><rect x="142" y="16" width="22" height="22" rx="5" class="gh"/><rect x="172" y="16" width="22" height="22" rx="5" class="gh"/><rect x="22" y="46" width="22" height="22" rx="5" class="gh"/><rect x="52" y="46" width="22" height="22" rx="5" class="gh"/><rect x="82" y="46" width="22" height="22" rx="5" class="gh"/><rect x="112" y="46" width="22" height="22" rx="5" class="gh"/><rect x="142" y="46" width="22" height="22" rx="5" class="a"/><rect x="172" y="46" width="22" height="22" rx="5" class="gh"/><rect x="22" y="76" width="22" height="22" rx="5" class="gh"/><rect x="52" y="76" width="22" height="22" rx="5" class="gh"/><rect x="82" y="76" width="22" height="22" rx="5" class="a"/><rect x="112" y="76" width="22" height="22" rx="5" class="gh"/><rect x="142" y="76" width="22" height="22" rx="5" class="gh"/><rect x="172" y="76" width="22" height="22" rx="5" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Competitive analysis</div></div>
+      <div><div class="label">Use when</div><div class="value">Borrowing patterns from leaders</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The pattern was tested with your users</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 5. Success Stories Mislead -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Advice</span>
+      <span class="num">05 / 10</span>
+      <h3>Success Stories Mislead</h3>
+      <p class="desc">Case studies, showcases, and founder advice come from the survivors. The failures that made the same choices are silent, so what looks like a recipe may be luck.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M14 100H206" class="ax"/><rect x="84" y="30" width="16" height="70" rx="3" class="a"/><rect x="104" y="20" width="16" height="80" rx="3" class="a"/><rect x="124" y="38" width="16" height="62" rx="3" class="a"/><rect x="18" y="90" width="10" height="10" rx="2" class="gh"/><rect x="32" y="90" width="10" height="10" rx="2" class="gh"/><rect x="46" y="90" width="10" height="10" rx="2" class="gh"/><rect x="60" y="90" width="10" height="10" rx="2" class="gh"/><rect x="150" y="90" width="10" height="10" rx="2" class="gh"/><rect x="164" y="90" width="10" height="10" rx="2" class="gh"/><rect x="178" y="90" width="10" height="10" rx="2" class="gh"/><rect x="192" y="90" width="10" height="10" rx="2" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Reading case studies</div></div>
+      <div><div class="label">Use when</div><div class="value">Advice comes from winners</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Failures are documented too</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="hook-model.html">Hook Model</a></div>
+    </div>
+  </article>
+  <!-- 6. Charts of the Survivors -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Charts</span>
+      <span class="num">06 / 10</span>
+      <h3>Charts of the Survivors</h3>
+      <p class="desc">Average revenue per customer can rise over time simply because low-value customers leave. The line shows who remained, not how anyone changed.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M14 104H206" class="ax"/><rect x="22" y="60" width="26" height="44" rx="3" class="b"/><rect x="58" y="68" width="26" height="36" rx="3" class="b"/><rect x="94" y="76" width="26" height="28" rx="3" class="b"/><rect x="130" y="82" width="26" height="22" rx="3" class="b"/><rect x="166" y="88" width="26" height="16" rx="3" class="b"/><polyline points="35,80 71,68 107,56 143,42 179,28" class="ln"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Charts over time</div></div>
+      <div><div class="label">Use when</div><div class="value">The group shrinks over time</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The same cohort is followed throughout</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="data-visualization.html">Data Visualization</a></div>
+    </div>
+  </article>
+  <!-- 7. Silent Evidence -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Concept</span>
+      <span class="num">07 / 10</span>
+      <h3>Silent Evidence</h3>
+      <p class="desc">Nassim Taleb’s name for the data that survivorship hides: the failed, the churned, the unpublished. Ask what the missing group would have shown before trusting the one in front of you.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="26" cy="22" r="7" class="gh"/><circle cx="54" cy="30" r="7" class="gh"/><circle cx="82" cy="22" r="7" class="gh"/><circle cx="110" cy="30" r="7" class="a"/><circle cx="138" cy="22" r="7" class="gh"/><circle cx="166" cy="30" r="7" class="gh"/><circle cx="194" cy="22" r="7" class="gh"/><circle cx="26" cy="58" r="7" class="gh"/><circle cx="54" cy="50" r="7" class="gh"/><circle cx="82" cy="58" r="7" class="gh"/><circle cx="110" cy="50" r="7" class="gh"/><circle cx="138" cy="58" r="7" class="a"/><circle cx="166" cy="50" r="7" class="gh"/><circle cx="194" cy="58" r="7" class="gh"/><circle cx="26" cy="78" r="7" class="gh"/><circle cx="54" cy="86" r="7" class="gh"/><circle cx="82" cy="78" r="7" class="gh"/><circle cx="110" cy="86" r="7" class="a"/><circle cx="138" cy="78" r="7" class="gh"/><circle cx="166" cy="86" r="7" class="gh"/><circle cx="194" cy="78" r="7" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Framing an analysis</div></div>
+      <div><div class="label">Use when</div><div class="value">The sample was filtered by an outcome</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Nothing was filtered out</div></div>
+    </div>
+  </article>
+  <!-- 8. Count the Ones Who Left -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Remedy</span>
+      <span class="num">08 / 10</span>
+      <h3>Count the Ones Who Left</h3>
+      <p class="desc">Track cohorts from the start, keep churned accounts in the denominator, and interview people who quit or never finished. The missing group is usually where the answer is.</p>
+    </div>
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 14V106" class="ln"/><circle cx="38" cy="22" r="6" class="a"/><circle cx="58" cy="22" r="6" class="a"/><circle cx="78" cy="22" r="6" class="a"/><circle cx="98" cy="22" r="6" class="a"/><circle cx="118" cy="22" r="6" class="a"/><circle cx="138" cy="22" r="6" class="a"/><circle cx="158" cy="22" r="6" class="a"/><circle cx="178" cy="22" r="6" class="a"/><circle cx="38" cy="42" r="6" class="a"/><circle cx="58" cy="42" r="6" class="a"/><circle cx="78" cy="42" r="6" class="a"/><circle cx="98" cy="42" r="6" class="a"/><circle cx="118" cy="42" r="6" class="a"/><circle cx="138" cy="42" r="6" class="a"/><circle cx="158" cy="42" r="6" class="gh"/><circle cx="178" cy="42" r="6" class="gh"/><circle cx="38" cy="62" r="6" class="a"/><circle cx="58" cy="62" r="6" class="a"/><circle cx="78" cy="62" r="6" class="a"/><circle cx="98" cy="62" r="6" class="a"/><circle cx="118" cy="62" r="6" class="gh"/><circle cx="138" cy="62" r="6" class="gh"/><circle cx="158" cy="62" r="6" class="gh"/><circle cx="178" cy="62" r="6" class="gh"/><circle cx="38" cy="82" r="6" class="a"/><circle cx="58" cy="82" r="6" class="a"/><circle cx="78" cy="82" r="6" class="gh"/><circle cx="98" cy="82" r="6" class="gh"/><circle cx="118" cy="82" r="6" class="gh"/><circle cx="138" cy="82" r="6" class="gh"/><circle cx="158" cy="82" r="6" class="gh"/><circle cx="178" cy="82" r="6" class="gh"/><circle cx="38" cy="102" r="6" class="gh"/><circle cx="58" cy="102" r="6" class="gh"/><circle cx="78" cy="102" r="6" class="gh"/><circle cx="98" cy="102" r="6" class="gh"/><circle cx="118" cy="102" r="6" class="gh"/><circle cx="138" cy="102" r="6" class="gh"/><circle cx="158" cy="102" r="6" class="gh"/><circle cx="178" cy="102" r="6" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Measurement design</div></div>
+      <div><div class="label">Use when</div><div class="value">Setting up analytics or research</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Drop-off is negligible</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Survivorship Bias in the Age of AI</h3>
+    <p>Models learn from what was published and kept. The failures nobody wrote about are missing from the training data too.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="24" width="26" height="34" rx="3" class="a"/><rect x="54" y="24" width="26" height="34" rx="3" class="a"/><rect x="88" y="24" width="26" height="34" rx="3" class="a"/><rect x="122" y="24" width="26" height="34" rx="3" class="gh"/><rect x="156" y="24" width="26" height="34" rx="3" class="gh"/><rect x="190" y="24" width="26" height="34" rx="3" class="gh"/><rect x="26" y="32" width="14" height="3" rx="1.5" class="b"/><rect x="26" y="39" width="14" height="3" rx="1.5" class="b"/><rect x="26" y="46" width="14" height="3" rx="1.5" class="b"/><rect x="60" y="32" width="14" height="3" rx="1.5" class="b"/><rect x="60" y="39" width="14" height="3" rx="1.5" class="b"/><rect x="60" y="46" width="14" height="3" rx="1.5" class="b"/><rect x="94" y="32" width="14" height="3" rx="1.5" class="b"/><rect x="94" y="39" width="14" height="3" rx="1.5" class="b"/><rect x="94" y="46" width="14" height="3" rx="1.5" class="b"/><path d="M14 76H206" class="ax"/><rect x="20" y="86" width="94" height="8" rx="4" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Trained on the Survivors</h3>
+      <p class="desc">A model learns from what was published and stayed online. Abandoned products, failed launches, and negative results are underrepresented, so its advice about what works leans toward the winners.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Best practice → survivors’ practice</div></div>
+      <div><div class="label">Use when</div><div class="value">Asking AI for best practices</div></div>
+      <div><div class="label">Watch for</div><div class="value">Confident advice with no failure data</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="sv"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="14" width="176" height="8" rx="4" class="a"/><rect x="20" y="30" width="42" height="8" rx="4" class="gh"/><rect x="20" y="46" width="150" height="8" rx="4" class="a"/><rect x="20" y="62" width="28" height="8" rx="4" class="gh"/><rect x="20" y="78" width="162" height="8" rx="4" class="a"/><rect x="20" y="94" width="36" height="8" rx="4" class="gh"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Evaluating Only Finished Chats</h3>
+      <p class="desc">Logs of an AI feature are dominated by conversations people finished. Those who gave up after a bad first answer leave short sessions that are easy to filter out as noise.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Finished sessions → all sessions</div></div>
+      <div><div class="label">Use when</div><div class="value">Evaluating an AI feature from logs</div></div>
+      <div><div class="label">Watch for</div><div class="value">Dropping short or abandoned sessions</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://web.archive.org/web/20190713234909/https://apps.dtic.mil/docs/citations/ADA091073" target="_blank" rel="noopener"><span class="title">A Method of Estimating Plane Vulnerability Based on Damage of Survivors — Abraham Wald, 1943</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.2307/2288257" target="_blank" rel="noopener"><span class="title">Abraham Wald’s Work on Aircraft Survivability — Mangel and Samaniego, 1984</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1093/rfs/9.4.1097" target="_blank" rel="noopener"><span class="title">Survivor Bias and Mutual Fund Performance — Elton, Gruber and Blake, 1996</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.ams.org/publicoutreach/feature-column/fc-2016-06" target="_blank" rel="noopener"><span class="title">The Legend of Abraham Wald — American Mathematical Society</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.scientificamerican.com/article/how-the-survivor-bias-distorts-reality/" target="_blank" rel="noopener"><span class="title">How the Survivor Bias Distorts Reality — Michael Shermer, Scientific American</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Survivorship_bias" target="_blank" rel="noopener"><span class="title">Survivorship Bias</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Abraham_Wald" target="_blank" rel="noopener"><span class="title">Abraham Wald</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© UX Guidelines · Survivorship Bias</div>
+</footer>
+
+</body>
+</html>

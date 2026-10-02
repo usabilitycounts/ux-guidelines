@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 55 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 57 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "+ Era de la IA",
@@ -11,6 +11,7 @@
   "+ Era de la IA",
   "+ Era de la IA",
   "+ Era de la IA",
+  "Wald, 1943",
   "+ Era de la IA",
   "+ Era de la IA",
   "1 / rango",
@@ -50,6 +51,7 @@
   "10 principios",
   "6 usos",
   "+ Era de la IA",
+  "Titchener, 1901",
   "16 tipos de gráficos",
   "+ Era de la IA",
   "6 patrones",
@@ -68,6 +70,7 @@
   "Ley de Conway",
   "Ley de Postel",
   "Ley de Goodhart",
+  "Sesgo de supervivencia",
   "Ley de Hofstadter",
   "Principio de Pareto",
   "Ley de Zipf",
@@ -107,6 +110,7 @@
   "Principios de la Gestalt",
   "Efecto von Restorff",
   "Ley de Weber-Fechner",
+  "Ilusión de Ebbinghaus",
   "Visualización de datos",
   "Iconos universales",
   "Divulgación progresiva",
@@ -125,6 +129,7 @@
   "El producto refleja al equipo que lo crea.",
   "Acepta con amplitud, envía con rigor.",
   "La meta deja de medir al ser meta.",
+  "Los fracasos que no ves cambian la conclusión.",
   "Todo tarda más de lo previsto.",
   "El ochenta viene del veinte por ciento.",
   "Unos pocos elementos concentran la mayor parte del uso.",
@@ -164,6 +169,7 @@
   "Cómo la mente agrupa lo que ve.",
   "Lo diferente es lo que se recuerda.",
   "La percepción sigue proporciones, no cantidades.",
+  "El mismo círculo parece más grande o más pequeño según lo que lo rodea.",
   "Dieciséis tipos de gráficos por pregunta.",
   "Los pocos íconos que todos entienden.",
   "Lo esencial ahora, el resto después.",

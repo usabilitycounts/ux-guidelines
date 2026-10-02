@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Sesgo</em> de supervivencia"
+ ],
+ "header .tagline": [
+  "Las pruebas que ves son <em>las que sobrevivieron</em>."
+ ],
+ "header .subtitle": [
+  "Las conclusiones sacadas solo de los casos que pasaron el filtro, como los usuarios activos, los productos exitosos o los aviones que regresaron, ignoran todo lo que se quedó por el camino. Salen demasiado optimistas y pueden atribuir el éxito a la causa equivocada."
+ ],
+ ".law-origin .body-text": [
+  "Cicerón cuenta que a Diágoras de Melos le mostraron las pinturas votivas de marineros que habían sobrevivido a naufragios, como prueba de que los dioses protegen a quienes rezan. Diágoras respondió que no había pinturas de los que se ahogaron, y que eran muchos más.",
+  "El caso moderno más conocido viene de la Segunda Guerra Mundial. En 1943, Abraham Wald, estadístico del Statistical Research Group de la Universidad de Columbia, escribió memorandos para estimar lo vulnerable que era cada parte de un avión a partir de los daños en los aparatos que regresaban. Las versiones populares simplifican sus matemáticas, pero la idea se sostiene: los aviones que vuelven solo pueden mostrar dónde puede recibir impactos un avión y aun así regresar."
+ ],
+ ".law-content .law-desc": [
+  "Cualquier grupo que puedas observar hoy ya ha pasado por el filtro que eliminó al resto. Las conclusiones que saques de él describen el filtro tanto como el grupo, y tienden al optimismo, porque lo que falta son justamente los fracasos."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-abraham-wald\">Abraham Wald</a> (1943)",
+  "Sesgo del superviviente",
+  "Preguntar quién falta en los datos"
+ ],
+ ".apply-list li": [
+  "Las métricas, los comentarios o la investigación vienen solo de personas que siguen activas.",
+  "Un equipo estudia productos exitosos o casos de estudio para decidir qué copiar.",
+  "Un gráfico sigue a un grupo que se reduce con el tiempo, como clientes, cuentas o sesiones.",
+  "Antes de sacar una conclusión, nombra el filtro por el que pasaron los datos y a quién eliminó.",
+  "Mantén los casos perdidos, abandonados y fallidos en el denominador, y sigue cada cohorte desde su inicio.",
+  "Recluta a personas que se fueron o nunca terminaron, porque tienen las razones que los supervivientes no pueden dar."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Analítica",
+  "Investigación",
+  "Estrategia",
+  "Consejos",
+  "Gráficos",
+  "Concepto",
+  "Remedio",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Blindar donde no hay agujeros",
+  "La analítica solo ve a quien se queda",
+  "Entrevistar solo a clientes",
+  "Copiar a los ganadores",
+  "Las historias de éxito engañan",
+  "Gráficos de supervivientes",
+  "La evidencia silenciosa",
+  "Contar a los que se fueron",
+  "Entrenado con los supervivientes",
+  "Evaluar solo los chats terminados"
+ ],
+ ".card .desc": [
+  "Los daños en los aviones que regresaban mostraban dónde podía recibir impactos un avión y aun así volver. Las zonas sin agujeros eran donde habían recibido impactos los aviones perdidos, así que eran las que había que proteger.",
+  "Las métricas de usuarios activos describen a quienes superaron el onboarding. Los que se toparon con un obstáculo se fueron y dejaron de generar datos, así que el panel parece más sano que el producto.",
+  "Reclutar entre la base de usuarios actual es preguntar a quienes el producto ya les funciona. Las razones de sus fallos las tienen quienes se fueron o nunca se registraron.",
+  "Estudiar a los líderes del mercado para encontrar los patrones de su éxito ignora los productos que usaron esos mismos patrones y desaparecieron. Un rasgo compartido por los ganadores no prueba que causara la victoria.",
+  "Los casos de estudio, los escaparates y los consejos de fundadores vienen de los supervivientes. Los fracasos que tomaron las mismas decisiones callan, así que lo que parece una receta puede ser suerte.",
+  "Los ingresos medios por cliente pueden subir con el tiempo solo porque se van los clientes de menor valor. La línea muestra quién se quedó, no cómo cambió nadie.",
+  "El nombre que da Nassim Taleb a los datos que oculta el sesgo de supervivencia: lo fracasado, lo abandonado, lo no publicado. Pregúntate qué habría mostrado el grupo que falta antes de fiarte del que tienes delante.",
+  "Sigue las cohortes desde el principio, mantén las cuentas perdidas en el denominador y entrevista a quienes lo dejaron o nunca terminaron. La respuesta suele estar en el grupo que falta.",
+  "Un modelo aprende de lo que se publicó y siguió en línea. Los productos abandonados, los lanzamientos fallidos y los resultados negativos están infrarrepresentados, así que sus consejos sobre lo que funciona se inclinan hacia los ganadores.",
+  "Los registros de una función de IA están dominados por las conversaciones que la gente terminó. Quienes se rindieron tras una mala primera respuesta dejan sesiones cortas, fáciles de descartar como ruido."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el sesgo",
+  "Solo se ven los que regresan",
+  "También se registran las pérdidas",
+  "Análisis de retención y de embudo",
+  "Leer métricas de usuarios activos",
+  "Cada cohorte se sigue desde el registro",
+  "Reclutamiento para investigación",
+  "Planificar entrevistas o encuestas",
+  "El estudio trata a propósito de usuarios fieles",
+  "Análisis de la competencia",
+  "Tomar patrones de los líderes",
+  "El patrón se probó con tus usuarios",
+  "Leer casos de estudio",
+  "Los consejos vienen de los ganadores",
+  "Los fracasos también están documentados",
+  "Gráficos a lo largo del tiempo",
+  "El grupo se reduce con el tiempo",
+  "Se sigue a la misma cohorte de principio a fin",
+  "Enmarcar un análisis",
+  "La muestra se filtró por un resultado",
+  "No se filtró nada",
+  "Diseño de la medición",
+  "Montar analítica o investigación",
+  "El abandono es insignificante",
+  "Buena práctica → práctica de los supervivientes",
+  "Pedir buenas prácticas a una IA",
+  "Consejos seguros sin datos de fracasos",
+  "Sesiones terminadas → todas las sesiones",
+  "Evaluar una función de IA con registros",
+  "Descartar sesiones cortas o abandonadas"
+ ],
+ ".ai-divider h3": [
+  "El sesgo de supervivencia en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los modelos aprenden de lo que se publicó y se conservó. Los fracasos sobre los que nadie escribió también faltan en los datos de entrenamiento."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Biais</em> du survivant"
+ ],
+ "header .tagline": [
+  "Les preuves que vous voyez sont <em>celles qui ont survécu</em>."
+ ],
+ "header .subtitle": [
+  "Des conclusions tirées uniquement des cas qui ont passé le filtre, comme les utilisateurs actifs, les produits à succès ou les avions revenus, ignorent tout ce qui a été éliminé en route. Elles sont trop optimistes et peuvent attribuer le succès à la mauvaise cause."
+ ],
+ ".law-origin .body-text": [
+  "Cicéron raconte qu'on montra à Diagoras de Mélos les ex-voto peints de marins rescapés de naufrages, comme preuve que les dieux protègent ceux qui prient. Diagoras répondit qu'il n'y avait aucun tableau de ceux qui s'étaient noyés, et qu'ils étaient bien plus nombreux.",
+  "Le cas moderne le plus connu date de la Seconde Guerre mondiale. En 1943, Abraham Wald, statisticien du Statistical Research Group de l'université Columbia, rédigea des notes pour estimer la vulnérabilité de chaque partie d'un avion à partir des dégâts sur les appareils revenus. Les récits populaires simplifient ses calculs, mais l'idée tient : les avions revenus ne peuvent montrer que les endroits où un avion peut être touché et revenir quand même."
+ ],
+ ".law-content .law-desc": [
+  "Tout groupe observable aujourd'hui a déjà été filtré par ce qui a éliminé les autres. Les conclusions qu'on en tire décrivent le filtre autant que le groupe, et elles penchent vers l'optimisme, car ce sont justement les échecs qui manquent."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-abraham-wald\">Abraham Wald</a> (1943)",
+  "Biais de survie",
+  "Demander qui manque dans les données"
+ ],
+ ".apply-list li": [
+  "Les métriques, les retours ou la recherche ne viennent que de personnes encore actives.",
+  "Une équipe étudie des produits à succès ou des études de cas pour décider quoi copier.",
+  "Un graphique suit un groupe qui se réduit avec le temps : clients, comptes ou sessions.",
+  "Avant de conclure, nommez le filtre par lequel les données sont passées et qui il a éliminé.",
+  "Gardez les cas perdus, abandonnés ou en échec dans le dénominateur, et suivez chaque cohorte depuis son début.",
+  "Recrutez des personnes qui sont parties ou n'ont jamais terminé : elles détiennent les raisons que les survivants ne peuvent pas donner."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Analytics",
+  "Recherche",
+  "Stratégie",
+  "Conseils",
+  "Graphiques",
+  "Concept",
+  "Remède",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Blinder là où il n'y a pas d'impacts",
+  "Les analytics ne voient que ceux qui restent",
+  "N'interroger que les clients",
+  "Copier les gagnants",
+  "Les success stories trompent",
+  "Des graphiques de survivants",
+  "Les preuves silencieuses",
+  "Compter ceux qui sont partis",
+  "Entraîné sur les survivants",
+  "N'évaluer que les conversations terminées"
+ ],
+ ".card .desc": [
+  "Les dégâts sur les avions revenus montraient où un avion pouvait être touché et rentrer quand même. Les zones sans impacts étaient celles où les avions perdus avaient été touchés : c'étaient elles qu'il fallait protéger.",
+  "Les métriques sur les utilisateurs actifs décrivent ceux qui ont franchi l'onboarding. Ceux qui ont buté sur un obstacle sont partis et ne produisent plus de données : le tableau de bord paraît plus sain que le produit.",
+  "Recruter dans la base d'utilisateurs actuelle, c'est interroger les personnes pour qui le produit fonctionne déjà. Les raisons de ses échecs se trouvent chez ceux qui sont partis ou ne se sont jamais inscrits.",
+  "Étudier les leaders du marché pour trouver le secret de leur réussite ignore les produits qui ont utilisé les mêmes recettes et ont disparu. Un trait partagé par les gagnants ne prouve pas qu'il a causé la victoire.",
+  "Études de cas, vitrines et conseils de fondateurs viennent des survivants. Les échecs qui ont fait les mêmes choix se taisent : ce qui ressemble à une recette peut n'être que de la chance.",
+  "Le revenu moyen par client peut augmenter avec le temps simplement parce que les clients les moins rentables partent. La courbe montre qui est resté, pas comment quiconque a changé.",
+  "Le nom que Nassim Taleb donne aux données que le biais du survivant cache : les échecs, les départs, les résultats jamais publiés. Demandez-vous ce qu'aurait montré le groupe manquant avant de faire confiance à celui que vous avez sous les yeux.",
+  "Suivez les cohortes dès le départ, gardez les comptes perdus dans le dénominateur et interrogez ceux qui ont abandonné ou n'ont jamais terminé. La réponse se trouve souvent dans le groupe manquant.",
+  "Un modèle apprend de ce qui a été publié et est resté en ligne. Les produits abandonnés, les lancements ratés et les résultats négatifs sont sous-représentés : ses conseils sur ce qui marche penchent du côté des gagnants.",
+  "Les journaux d'une fonctionnalité d'IA sont dominés par les conversations menées à terme. Ceux qui ont abandonné après une mauvaise première réponse laissent des sessions courtes, faciles à écarter comme du bruit."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer le biais",
+  "Seuls les retours sont visibles",
+  "Les pertes sont aussi enregistrées",
+  "Analyse de rétention et de funnel",
+  "Lire les métriques des utilisateurs actifs",
+  "Chaque cohorte est suivie dès l'inscription",
+  "Recrutement pour la recherche",
+  "Préparer des entretiens ou des enquêtes",
+  "L'étude porte volontairement sur les fidèles",
+  "Analyse concurrentielle",
+  "Emprunter des modèles aux leaders",
+  "Le modèle a été testé avec vos utilisateurs",
+  "Lire des études de cas",
+  "Les conseils viennent des gagnants",
+  "Les échecs sont aussi documentés",
+  "Graphiques dans le temps",
+  "Le groupe se réduit avec le temps",
+  "La même cohorte est suivie du début à la fin",
+  "Cadrer une analyse",
+  "L'échantillon a été filtré par un résultat",
+  "Rien n'a été filtré",
+  "Conception des mesures",
+  "Mettre en place analytics ou recherche",
+  "Les abandons sont négligeables",
+  "Bonne pratique → pratique des survivants",
+  "Demander des bonnes pratiques à une IA",
+  "Des conseils assurés sans données d'échec",
+  "Sessions terminées → toutes les sessions",
+  "Évaluer une fonctionnalité d'IA à partir des journaux",
+  "Écarter les sessions courtes ou abandonnées"
+ ],
+ ".ai-divider h3": [
+  "Le biais du survivant à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les modèles apprennent de ce qui a été publié et conservé. Les échecs dont personne n'a parlé manquent aussi dans les données d'entraînement."
+ ]
+}

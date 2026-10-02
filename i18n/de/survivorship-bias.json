@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Survivorship <em>Bias</em>"
+ ],
+ "header .tagline": [
+  "Was Sie sehen, ist <em>das, was überlebt hat</em>."
+ ],
+ "header .subtitle": [
+  "Schlüsse, die nur aus den Fällen gezogen werden, die es durchgeschafft haben, etwa aktive Nutzer, erfolgreiche Produkte oder zurückgekehrte Flugzeuge, übersehen alles, was unterwegs aussortiert wurde. Sie fallen zu optimistisch aus und können den Erfolg der falschen Ursache zuschreiben."
+ ],
+ ".law-origin .body-text": [
+  "Cicero berichtet, man habe Diagoras von Melos Votivbilder von Seeleuten gezeigt, die Schiffbrüche überlebt hatten, als Beweis, dass die Götter die Betenden schützen. Diagoras antwortete, es gebe keine Bilder von denen, die ertrunken seien, und das seien weit mehr.",
+  "Das bekannteste moderne Beispiel stammt aus dem Zweiten Weltkrieg. 1943 schrieb Abraham Wald, Statistiker der Statistical Research Group an der Columbia University, Memos dazu, wie sich die Verwundbarkeit einzelner Flugzeugteile aus den Schäden an zurückgekehrten Maschinen schätzen lässt. Populäre Nacherzählungen vereinfachen seine Mathematik, aber die Einsicht bleibt: Zurückgekehrte Flugzeuge können nur zeigen, wo eine Maschine getroffen werden und trotzdem zurückkommen kann."
+ ],
+ ".law-content .law-desc": [
+  "Jede Gruppe, die Sie heute beobachten können, wurde bereits von dem gefiltert, was die übrigen aussortiert hat. Schlüsse daraus beschreiben den Filter ebenso wie die Gruppe, und sie fallen zu optimistisch aus, weil gerade die Misserfolge fehlen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-abraham-wald\">Abraham Wald</a> (1943)",
+  "Survivor Bias",
+  "Fragen, wer in den Daten fehlt"
+ ],
+ ".apply-list li": [
+  "Kennzahlen, Feedback oder Forschung stammen nur von Menschen, die noch aktiv sind.",
+  "Ein Team untersucht erfolgreiche Produkte oder Fallstudien, um zu entscheiden, was es übernimmt.",
+  "Ein Diagramm verfolgt eine Gruppe, die mit der Zeit schrumpft, etwa Kunden, Konten oder Sitzungen.",
+  "Benennen Sie vor jeder Schlussfolgerung den Filter, den die Daten durchlaufen haben, und wen er entfernt hat.",
+  "Behalten Sie abgewanderte, abgebrochene und gescheiterte Fälle im Nenner und verfolgen Sie jede Kohorte von Anfang an.",
+  "Rekrutieren Sie Menschen, die gegangen sind oder nie abgeschlossen haben, denn sie kennen die Gründe, die die Überlebenden nicht nennen können."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Analytics",
+  "Forschung",
+  "Strategie",
+  "Ratschläge",
+  "Diagramme",
+  "Konzept",
+  "Abhilfe",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Panzerung, wo keine Löcher sind",
+  "Analytics sehen nur, wer bleibt",
+  "Nur Kunden befragen",
+  "Die Gewinner kopieren",
+  "Erfolgsgeschichten täuschen",
+  "Diagramme der Überlebenden",
+  "Stumme Zeugen",
+  "Die Gegangenen mitzählen",
+  "Trainiert auf den Überlebenden",
+  "Nur beendete Chats auswerten"
+ ],
+ ".card .desc": [
+  "Die Schäden an den zurückgekehrten Flugzeugen zeigten, wo eine Maschine getroffen werden und trotzdem heimkehren konnte. Die Stellen ohne Einschüsse waren die, an denen die verlorenen Flugzeuge getroffen worden waren, also galt es sie zu schützen.",
+  "Kennzahlen zu aktiven Nutzern beschreiben die Menschen, die das Onboarding geschafft haben. Wer auf ein Hindernis stieß, ist gegangen und liefert keine Daten mehr, sodass das Dashboard gesünder aussieht als das Produkt.",
+  "Wer aus der aktuellen Nutzerbasis rekrutiert, befragt die Menschen, für die das Produkt bereits funktioniert. Die Gründe für sein Scheitern kennen die, die abgewandert sind oder sich nie registriert haben.",
+  "Wer Marktführer nach den Mustern ihres Erfolgs untersucht, übersieht die Produkte, die dieselben Muster nutzten und verschwanden. Ein gemeinsames Merkmal der Gewinner beweist nicht, dass es den Sieg verursacht hat.",
+  "Fallstudien, Showcases und Ratschläge von Gründern stammen von den Überlebenden. Die Gescheiterten, die dieselben Entscheidungen trafen, schweigen, sodass ein scheinbares Rezept auch Glück sein kann.",
+  "Der durchschnittliche Umsatz pro Kunde kann mit der Zeit steigen, nur weil Kunden mit geringem Wert gehen. Die Linie zeigt, wer geblieben ist, nicht, wie sich jemand verändert hat.",
+  "Nassim Talebs Name für die Daten, die Survivorship Bias verbirgt: das Gescheiterte, das Abgewanderte, das Unveröffentlichte. Fragen Sie, was die fehlende Gruppe gezeigt hätte, bevor Sie der Gruppe vor Ihnen trauen.",
+  "Verfolgen Sie Kohorten von Anfang an, behalten Sie abgewanderte Konten im Nenner und befragen Sie Menschen, die aufgehört oder nie abgeschlossen haben. Die Antwort liegt meist in der fehlenden Gruppe.",
+  "Ein Modell lernt aus dem, was veröffentlicht wurde und online geblieben ist. Aufgegebene Produkte, gescheiterte Launches und negative Ergebnisse sind unterrepräsentiert, sodass seine Ratschläge zu dem, was funktioniert, zu den Gewinnern neigen.",
+  "Die Logs einer KI-Funktion werden von Gesprächen dominiert, die Menschen zu Ende geführt haben. Wer nach einer schlechten ersten Antwort aufgab, hinterlässt kurze Sitzungen, die sich leicht als Rauschen aussortieren lassen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Verzerrung erklären",
+  "Nur Rückkehrer sind sichtbar",
+  "Verluste werden ebenfalls erfasst",
+  "Retention- und Funnel-Analyse",
+  "Kennzahlen aktiver Nutzer lesen",
+  "Jede Kohorte wird ab der Registrierung verfolgt",
+  "Rekrutierung für Forschung",
+  "Interviews oder Umfragen planen",
+  "Die Studie gilt bewusst treuen Nutzern",
+  "Wettbewerbsanalyse",
+  "Muster von Marktführern übernehmen",
+  "Das Muster wurde mit Ihren Nutzern getestet",
+  "Fallstudien lesen",
+  "Ratschläge stammen von Gewinnern",
+  "Misserfolge sind ebenfalls dokumentiert",
+  "Diagramme über die Zeit",
+  "Die Gruppe schrumpft mit der Zeit",
+  "Dieselbe Kohorte wird durchgehend verfolgt",
+  "Eine Analyse rahmen",
+  "Die Stichprobe wurde nach einem Ergebnis gefiltert",
+  "Nichts wurde herausgefiltert",
+  "Messdesign",
+  "Analytics oder Forschung aufsetzen",
+  "Die Abwanderung ist vernachlässigbar",
+  "Best Practice → Praxis der Überlebenden",
+  "KI nach Best Practices fragen",
+  "Selbstsichere Ratschläge ohne Daten zu Misserfolgen",
+  "Beendete Sitzungen → alle Sitzungen",
+  "Eine KI-Funktion anhand von Logs bewerten",
+  "Kurze oder abgebrochene Sitzungen verwerfen"
+ ],
+ ".ai-divider h3": [
+  "Survivorship Bias im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Modelle lernen aus dem, was veröffentlicht und aufbewahrt wurde. Die Misserfolge, über die niemand geschrieben hat, fehlen auch in den Trainingsdaten."
+ ]
+}

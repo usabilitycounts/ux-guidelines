@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Survivorship <em>Bias</em>"
+ ],
+ "header .tagline": [
+  "The evidence you see is <em>what survived</em>."
+ ],
+ "header .subtitle": [
+  "Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause."
+ ],
+ ".law-origin .body-text": [
+  "Cicero tells of Diagoras of Melos being shown painted offerings from sailors who had survived shipwrecks, as proof that the gods protect those who pray. Diagoras replied that there were no paintings of the ones who drowned, and they were far more numerous.",
+  "The best-known modern case comes from the Second World War. In 1943 Abraham Wald, a statistician in Columbia University’s Statistical Research Group, wrote memos on estimating how vulnerable each part of an aircraft was from the damage on planes that came back. Popular retellings simplify his mathematics, but the insight holds: returning planes can only show where a plane can be hit and still return."
+ ],
+ ".law-content .law-desc": [
+  "Any group you can observe today has already been filtered by whatever removed the rest. Conclusions drawn from it describe the filter as much as the group, and they lean optimistic, because the failures are exactly what is missing."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-abraham-wald\">Abraham Wald</a> (1943)",
+  "Survivor bias",
+  "Ask who is missing from the data"
+ ],
+ ".apply-list li": [
+  "Metrics, feedback, or research come only from people who are still active.",
+  "A team studies successful products or case studies to decide what to copy.",
+  "A chart follows a group that shrinks over time, such as customers, accounts, or sessions.",
+  "Before drawing a conclusion, name the filter the data passed through and who it removed.",
+  "Keep churned, abandoned, and failed cases in the denominator, and follow each cohort from its start.",
+  "Recruit people who left or never finished, since they hold the reasons the survivors cannot give."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Analytics",
+  "Research",
+  "Strategy",
+  "Advice",
+  "Charts",
+  "Concept",
+  "Remedy",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Armor Where the Holes Aren’t",
+  "Analytics See Who Stayed",
+  "Interviewing Only Customers",
+  "Copying the Winners",
+  "Success Stories Mislead",
+  "Charts of the Survivors",
+  "Silent Evidence",
+  "Count the Ones Who Left",
+  "Trained on the Survivors",
+  "Evaluating Only Finished Chats"
+ ],
+ ".card .desc": [
+  "Damage on the planes that returned showed where a plane could be hit and still fly home. The places without holes were where the lost planes had been hit, so those were the parts to protect.",
+  "Metrics on active users describe the people who got past onboarding. Those who hit a wall left and stopped producing data, so the dashboard looks healthier than the product.",
+  "Recruiting from the current user base asks the people the product already works for. The reasons it fails live with people who churned or never signed up.",
+  "Studying market leaders for the patterns behind their success ignores the products that used the same patterns and disappeared. A trait the winners share is not proof that it caused the win.",
+  "Case studies, showcases, and founder advice come from the survivors. The failures that made the same choices are silent, so what looks like a recipe may be luck.",
+  "Average revenue per customer can rise over time simply because low-value customers leave. The line shows who remained, not how anyone changed.",
+  "Nassim Taleb’s name for the data that survivorship hides: the failed, the churned, the unpublished. Ask what the missing group would have shown before trusting the one in front of you.",
+  "Track cohorts from the start, keep churned accounts in the denominator, and interview people who quit or never finished. The missing group is usually where the answer is.",
+  "A model learns from what was published and stayed online. Abandoned products, failed launches, and negative results are underrepresented, so its advice about what works leans toward the winners.",
+  "Logs of an AI feature are dominated by conversations people finished. Those who gave up after a bad first answer leave short sessions that are easy to filter out as noise."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the bias",
+  "Only returns are visible",
+  "Losses are recorded too",
+  "Retention and funnel analysis",
+  "Reading metrics on active users",
+  "Every cohort is tracked from sign-up",
+  "Recruiting for research",
+  "Planning interviews or surveys",
+  "The study is about loyal users on purpose",
+  "Competitive analysis",
+  "Borrowing patterns from leaders",
+  "The pattern was tested with your users",
+  "Reading case studies",
+  "Advice comes from winners",
+  "Failures are documented too",
+  "Charts over time",
+  "The group shrinks over time",
+  "The same cohort is followed throughout",
+  "Framing an analysis",
+  "The sample was filtered by an outcome",
+  "Nothing was filtered out",
+  "Measurement design",
+  "Setting up analytics or research",
+  "Drop-off is negligible",
+  "Best practice → survivors’ practice",
+  "Asking AI for best practices",
+  "Confident advice with no failure data",
+  "Finished sessions → all sessions",
+  "Evaluating an AI feature from logs",
+  "Dropping short or abandoned sessions"
+ ],
+ ".ai-divider h3": [
+  "Survivorship Bias in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Models learn from what was published and kept. The failures nobody wrote about are missing from the training data too."
+ ]
+}

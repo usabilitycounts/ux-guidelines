@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Ebbinghaus-<em>Täuschung</em>"
+ ],
+ "header .tagline": [
+  "Größe wird an ihrer <em>Umgebung</em> gemessen."
+ ],
+ "header .subtitle": [
+  "Zwei gleich große Kreise wirken unterschiedlich groß, wenn der eine von großen und der andere von kleinen Kreisen umgeben ist. Jede Größe auf dem Bildschirm wird im Verhältnis zu ihrer Umgebung gelesen, sodass ein Button, ein Icon oder eine Blase in einem Diagramm größer oder kleiner wirken kann, als sie ist."
+ ],
+ ".law-origin .body-text": [
+  "Die Täuschung ist nach Hermann Ebbinghaus benannt, dem deutschen Psychologen, der vor allem durch seine Experimente zu Gedächtnis und Vergessen bekannt ist. Edward B. Titchener machte sie 1901 in einem Lehrbuch der experimentellen Psychologie im englischsprachigen Raum bekannt, daher ihr zweiter Name: Titchener-Kreise.",
+  "Die Größe erklärt nur einen Teil des Effekts. Eine Studie von 2005 zeigte, dass auch der Abstand zählt: Kreise nahe am Zentrum lassen es größer wirken, entfernte Kreise kleiner. Weil große Kreise nicht so nah heranrücken können wie kleine, hatten viele frühere Studien beide Ursachen vermischt."
+ ],
+ ".law-content .law-desc": [
+  "Das Auge beurteilt die Größe einer Form im Vergleich zu ihren Nachbarn, statt sie für sich zu messen. Von größeren Kreisen umgeben, wirkt ein Kreis kleiner; von kleineren umgeben, wirkt er größer. Auch wie nah diese Nachbarn stehen, verändert den Effekt."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-hermann-ebbinghaus\">Hermann Ebbinghaus</a>; bekannt gemacht von <a href=\"people.html#p-edward-b-titchener\">Edward B. Titchener</a> (1901)",
+  "Titchener-Kreise",
+  "Größen in ihrer echten Umgebung beurteilen"
+ ],
+ ".apply-list li": [
+  "Eine Aktion, ein Icon oder ein Badge steht zwischen Elementen, die viel größer oder viel kleiner sind.",
+  "Ein Diagramm kodiert Werte als Fläche, wie Blasendiagramme, Karten und Treemaps, und Leser vergleichen die Formen mit bloßem Auge.",
+  "Ein Review kann sich nicht einigen, ob zwei Elemente gleich groß sind.",
+  "Prüfen Sie die Größe eines Elements in seiner echten Umgebung, nicht allein auf einer leeren Zeichenfläche.",
+  "Wenn Größen genau verglichen werden müssen, richten Sie die Elemente an einer gemeinsamen Grundlinie aus oder zeigen Sie die Werte an.",
+  "Halten Sie die Abstände um Elemente, die gleich wirken sollen, einheitlich, denn benachbarte Elemente verändern die wahrgenommene Größe ebenfalls."
+ ],
+ ".card .tag": [
+  "Der Effekt",
+  "Abstände",
+  "Bedienelemente",
+  "Icons",
+  "Diagramme",
+  "Abhilfe",
+  "Forschung",
+  "Forschung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Nachbarn setzen den Maßstab",
+  "Auch der Abstand zählt",
+  "Ein Button zwischen großen Dingen",
+  "Icons in der Menge",
+  "Blasen täuschen",
+  "Auf gemeinsamer Grundlinie vergleichen",
+  "Erwachsene lassen sich stärker täuschen",
+  "Sehen oder Greifen",
+  "Generierte Diagramme brauchen einen zweiten Blick",
+  "Messen ist nicht Sehen"
+ ],
+ ".card .desc": [
+  "Derselbe Kreis wirkt zwischen großen Kreisen kleiner und zwischen kleinen größer. Am Kreis selbst ändert sich nichts, nur der Bezug, an dem das Auge ihn misst.",
+  "Kreise nahe am Zentrum lassen es größer wirken, entfernte Kreise kleiner. Der Abstand gehört zur Täuschung, nicht nur die Größe der Nachbarn.",
+  "Ein primärer Button neben einem großen Bild oder einer Überschrift wirkt kleiner, als er ist, während derselbe Button in einer spärlichen Werkzeugleiste groß wirkt. Beurteilen Sie seine Größe dort, wo er stehen wird.",
+  "Ein Icon neben größeren Icons wirkt zu klein, dasselbe Icon zwischen kleineren wirkt schwer. Die optische Größe muss im Kontext geprüft werden, nicht nur im Icon-Raster.",
+  "In Blasendiagrammen, Karten und Treemaps wirkt eine Form zwischen größeren Formen kleiner als eine zwischen kleineren. Flächen sind ohnehin schwer zu beurteilen, und die Täuschung verschärft das.",
+  "Wenn Größen genau verglichen werden müssen, nehmen Sie die Umgebung aus dem Urteil: Richten Sie die Elemente aus, geben Sie ihnen eine gemeinsame Grundlinie oder schreiben Sie die Zahl daneben.",
+  "Studierende wurden häufiger getäuscht als Kinder bis zehn Jahre, die weniger auf Kontext achten. Größe über ihre Umgebung zu lesen, scheint sich mit dem Alter zu entwickeln.",
+  "In einer Studie von Melvyn Goodale passten Personen, die nach der mittleren Scheibe griffen, ihren Griff an deren tatsächliche Größe an, nicht an die scheinbare; andere Arbeiten fanden auch die Hand getäuscht. Die Debatte stützte die Theorie getrennter visueller Bahnen für Wahrnehmung und Handlung.",
+  "Ein Modell erzeugt in Sekunden ein Blasendiagramm oder eine Treemap mit Flächen, die mathematisch korrekt und optisch irreführend sind. Prüfen Sie Flächenkodierungen so, wie Leser sie sehen werden.",
+  "Automatisierte Designprüfungen messen Pixel, nicht die wahrgenommene Größe, und lassen Elemente durch, die Menschen als ungleich lesen. Ergänzen Sie sie um einen Blick auf das Layout im Kontext."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Größen im Kontext festlegen",
+  "Die Größen auf dem Bildschirm schwanken stark",
+  "Ein Element steht allein",
+  "Abstände und Gruppierung",
+  "Elemente drängen sich um einen Fokus",
+  "Die Abstände sind großzügig und gleichmäßig",
+  "Primäre Aktionen",
+  "Der Button teilt sich den Platz mit großen Medien",
+  "Der Button steht für sich",
+  "Werkzeugleisten und Icon-Sets",
+  "Icons verschiedener Größe teilen eine Zeile",
+  "Ein einzelnes Icon",
+  "Datenvisualisierung",
+  "Größe kodiert einen Wert",
+  "Genauer Vergleich zählt",
+  "Vergleiche, auf die es ankommt",
+  "Leser müssen Elemente ordnen",
+  "Größe ist nur Dekoration",
+  "Den Effekt verstehen",
+  "Das Publikum umfasst mehrere Altersgruppen",
+  "Annehmen, dass alle es gleich sehen",
+  "Berühren und Zeigen",
+  "Ziele wirken unterschiedlich groß",
+  "Darauf vertrauen, dass die Hand das Auge korrigiert",
+  "Handgemacht → generiert",
+  "Diagramme stammen aus KI-Tools",
+  "Flächenkodierungen ungeprüft veröffentlicht",
+  "Pixel → Wahrnehmung",
+  "Design-Reviews automatisieren",
+  "Prüfungen, die nur Pixel messen"
+ ],
+ ".ai-divider h3": [
+  "Die Täuschung im Zeitalter der KI"
+ ],
+ ".ai-divider p": [
+  "Layouts und Diagramme entstehen heute schneller, als jemand sie im Kontext prüft, sodass Größen, die isoliert stimmen, ungeprüft bei den Menschen ankommen."
+ ]
+}

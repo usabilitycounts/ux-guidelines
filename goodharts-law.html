@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" data-page="goodhart"><head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=68','script');pl('i18n/'+eff+'/goodharts-law.json?v=33','fetch');}}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=72','script');pl('i18n/'+eff+'/goodharts-law.json?v=36','fetch');}}catch(e){}</script><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RYQWVH971M');</script>
@@ -30,7 +30,7 @@
 <meta name="twitter:description" content="Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Goodhart’s Law: When Metrics Become Targets and Stop Working", "description": "Charles Goodhart&#x27;s 1975 observation, sharpened by Marilyn Strathern: the moment a number is used to judge people, the number drifts away from what it was measuring. KPIs, OKRs, and AI training signals all run head-on into this.", "url": "https://www.ux-guidelines.com/goodharts-law.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/goodharts-law.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build The System"}, {"@type": "ListItem", "position": 3, "name": "Goodhart’s Law: When Metrics Become Targets and Stop Working", "item": "https://www.ux-guidelines.com/goodharts-law.html"}]}]}</script>
-<link rel="stylesheet" href="tokens.css?v=169">
+<link rel="stylesheet" href="tokens.css?v=170">
 <style>
   :root {--ai:#0d9488; }
   h1 { font-size: var(--fs-h1); font-weight:700; line-height: var(--lh-tight); max-width:1000px; }
@@ -76,7 +76,7 @@
   .gd .row i { height: 6px; border-radius: 3px; background: var(--skel-strong); opacity: 0.55; display: block; }
   .gd .check { width: 12px; height: 12px; border-radius: 50%; background: var(--il-accent); margin-left: auto; flex: none; }
   .gd .ghostln { height: 6px; border-radius: 3px; background: var(--skel); opacity: 0.12; }
-</style><script defer src="tokens.js?v=122"></script>
+</style><script defer src="tokens.js?v=126"></script>
 </head>
 <body>
 <nav class="topnav"><div class="brand-row"><button class="hamburger" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg></button><a href="index.html" class="brand">UX Guidelines</a></div></nav>
@@ -92,6 +92,7 @@
   <a href="conways-law.html" class="menu-link">Conway’s Law</a>
   <a href="postels-law.html" class="menu-link">Postel’s Law</a>
   <a href="goodharts-law.html" class="menu-link active">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
   <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
   <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
   <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
@@ -143,6 +144,7 @@
   <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
   <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
   <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
 </details>
 <details class="menu-group">
   <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
@@ -218,7 +220,8 @@
 <article class="card">
 <div class="card-header"><span class="tag">Definition</span><h3>When the Metric Becomes the Game</h3><p class="desc">The minute a team is rewarded on a number, that number stops measuring what it used to. People will hit the metric — by changing the work, changing the count, or both. The original phenomenon drifts out from under it.</p></div>
 <div class="demo"><div class="gd"><div class="plot"><svg viewBox="0 0 200 120" preserveAspectRatio="none"><path d="M12,96 L60,78 L110,52 L188,16" fill="none" stroke="var(--il-accent)" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round"/><path d="M12,60 L60,68 L110,84 L188,102" fill="none" stroke="#9a9a9a" stroke-width="3" opacity="0.45" vector-effect="non-scaling-stroke" stroke-linecap="round"/></svg></div></div></div>
-<div class="meta"><div><div class="label">Defined</div><div class="value">Measure → target → corrupt</div></div><div><div class="label">Effect</div><div class="value">Number rises · meaning falls</div></div></div>
+<div class="meta"><div><div class="label">Defined</div><div class="value">Measure → target → corrupt</div></div><div><div class="label">Effect</div><div class="value">Number rises · meaning falls</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="survivorship-bias.html">Survivorship Bias</a></div></div>
 </article>
 
 <article class="card">

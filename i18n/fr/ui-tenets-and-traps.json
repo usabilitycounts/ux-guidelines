@@ -10,7 +10,7 @@
  ],
  ".law-origin .body-text": [
   "Michael Medlock et Steve Herbst ont élaboré le cadre chez Microsoft en 2009, à partir d'une première version qu'ils datent de 2007. Neuf principes décrivent les qualités d'une bonne interface, chacun formulé avec la voix même de l'utilisateur, et 26 pièges nomment les problèmes courants et repérables qui usent ces qualités.",
-  "Il a remporté en 2013 le Planning and Design Excellence Award de Microsoft, et Microsoft a continué à l'enseigner après le départ des deux auteurs ; Meta et Amazon l'enseignent aussi. Depuis 2017, les auteurs le vendent sous forme de jeu de cartes à code couleur, et plus de 10 000 jeux sont partis chez des chercheurs du monde entier. Le jeu compte 26 pièges ; cette page couvre les 23 dont les définitions sont documentées publiquement."
+  "Il a remporté en 2013 le Planning and Design Excellence Award de Microsoft, et Microsoft a continué à l'enseigner après le départ des deux auteurs ; Meta et Amazon l'enseignent aussi. Depuis 2017, les auteurs le vendent sous forme de jeu de cartes à code couleur, et fin 2023, plus de 10 000 jeux étaient partis chez des chercheurs du monde entier. Le jeu compte 26 pièges ; cette page couvre les 23 dont les définitions sont documentées publiquement."
  ],
  ".law-content .law-desc": [
   "Un principe est une qualité que l'utilisateur devrait ressentir, formulée comme il la dirait : je sais ce que je peux faire, je n'attends pas, je peux annuler mes actions. Un piège est un schéma précis qui abîme l'une de ces qualités. Nommer le piège rend un constat précis ; le rattacher à son principe explique pourquoi il compte."
@@ -88,16 +88,16 @@
   "Le prompt vide cache tout"
  ],
  ".card .desc": [
-  "Aucun indice ne montre comment atteindre un objectif, et l'utilisateur n'a aucun apprentissage préalable pour pallier son absence. La fonctionnalité existe, mais pour cette personne, c'est tout comme si elle n'existait pas.",
-  "Un indice existe mais passe inaperçu ou se trouve lentement, parce qu'il se situe hors de la vision fovéale ou là où l'utilisateur ne pense pas regarder.",
+  "Aucun indice ne montre comment atteindre un objectif, et l'utilisateur n'a pas assez d'apprentissage préalable pour pallier son absence. La fonctionnalité existe, mais pour cette personne, c'est tout comme si elle n'existait pas.",
+  "Un indice existe mais passe inaperçu ou se trouve lentement, parce qu'il se situe hors de la vision fovéale ou que l'utilisateur ne s'attend pas à le voir.",
   "Quelque chose apparaît soudainement ou change rapidement et détourne l'utilisateur de son objectif. Le mouvement capte l'attention, qu'il la mérite ou non.",
   "Un indice essentiel est remarqué mais mal compris, si bien que l'utilisateur l'ignore. Il a l'air faux mais il est juste.",
   "Un indice est pris à tort pour le chemin vers un objectif. Il a l'air juste mais il est faux, et l'utilisateur s'y engage avant de s'en apercevoir.",
-  "L'utilisateur doit retenir une information facile à oublier, en la transportant d'un écran à l'autre au lieu de la voir là où il en a besoin.",
-  "Une relation importante entre deux indices ou plus n'est pas évidente, si bien que l'utilisateur ne voit pas quels contrôles vont ensemble.",
+  "L'utilisateur doit retenir une information facile à oublier, souvent en la transportant d'un écran à l'autre au lieu de la voir là où il en a besoin.",
+  "Une relation importante entre deux indices ou plus n'est pas évidente, si bien que l'utilisateur ne voit pas quels éléments vont ensemble.",
   "L'utilisateur ne voit pas, ne remarque pas ou ne comprend pas un retour dont il a besoin, et ne peut donc pas savoir si une action a fonctionné.",
   "L'utilisateur sait quoi faire, mais le faire demande un effort physique, est difficile ou impossible.",
-  "Les gestes de l'utilisateur produisent un résultat non voulu, généralement parce qu'un contrôle est trop proche d'un autre ou se déclenche trop facilement.",
+  "Les gestes de l'utilisateur produisent un résultat non voulu, par exemple quand un contrôle est trop proche d'un autre ou se déclenche trop facilement.",
   "Des performances médiocres, réelles ou perçues, ou une conception qui empêche d'avancer ou de revenir en arrière, privent l'utilisateur d'atteindre un objectif en temps voulu.",
   "Même quand l'interface est utilisée exactement comme prévu, atteindre un objectif demande plus de navigation qu'il ne faudrait, ou en donne l'impression.",
   "L'information est compréhensible, mais il y en a trop, et ce qui compte se perd parmi ce qui ne compte pas.",
@@ -108,7 +108,7 @@
   "L'utilisateur peut perdre son travail à cause de ce qu'il a fait, ou de ce qu'il n'a pas fait.",
   "Plusieurs indices pour la même action apparaissent à un même niveau de l'interface, ou à un niveau directement imbriqué, et l'utilisateur doit déterminer s'ils diffèrent.",
   "Un indice a une autre apparence, ou se trouve à un autre endroit, qu'ailleurs dans l'interface, si bien que ce que l'utilisateur a appris cesse de fonctionner.",
-  "Le même contrôle fait des choses différentes selon l'état du système, si bien que l'utilisateur ne peut pas prévoir ce qu'il va faire.",
+  "La même action a des conséquences différentes selon l'endroit ou l'état, si bien que l'utilisateur ne peut pas prévoir ce qu'elle va faire.",
   "Il n'existe pas de lieu unique où revenir pour commencer une tâche ou se réorienter, et plusieurs accueils concurrents laissent l'utilisateur incertain de l'endroit où il se trouve.",
   "Le système est visuellement déplaisant, ou ne suit pas son propre langage visuel, et les utilisateurs jugent sa qualité sur ce qu'ils voient.",
   "Un assistant prédit l'intention à chaque tour, si bien qu'un piège qui vivait dans la correction automatique se loge désormais dans chaque réponse. Ce qui compte le plus, c'est le faible coût, pour l'utilisateur, du rejet d'une supposition.",

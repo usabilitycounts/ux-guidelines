@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Illusion</em> d'Ebbinghaus"
+ ],
+ "header .tagline": [
+  "Une taille se juge <em>à ce qui l'entoure</em>."
+ ],
+ "header .subtitle": [
+  "Deux cercles identiques semblent de tailles différentes quand l'un est entouré de grands cercles et l'autre de petits. Chaque taille à l'écran se lit par rapport à son entourage : un bouton, une icône ou une bulle de graphique peut paraître plus grand ou plus petit qu'il ne l'est."
+ ],
+ ".law-origin .body-text": [
+  "L'illusion porte le nom de Hermann Ebbinghaus, le psychologue allemand surtout connu pour ses expériences sur la mémoire et l'oubli. Edward B. Titchener l'a fait connaître au public anglophone dans un manuel de psychologie expérimentale de 1901, d'où son autre nom : les cercles de Titchener.",
+  "La taille n'explique qu'une partie de l'effet. Une étude de 2005 a montré que la distance compte aussi : des cercles placés près du centre le font paraître plus grand, des cercles éloignés le font paraître plus petit. Comme de grands cercles ne peuvent pas s'approcher autant que de petits, beaucoup d'études antérieures avaient confondu les deux causes."
+ ],
+ ".law-content .law-desc": [
+  "L'œil juge la taille d'une forme par rapport à ses voisines au lieu de la mesurer seule. Entourez un cercle de cercles plus grands et il paraît plus petit ; entourez-le de cercles plus petits et il paraît plus grand. La proximité de ces voisines modifie aussi l'effet."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-hermann-ebbinghaus\">Hermann Ebbinghaus</a> ; popularisée par <a href=\"people.html#p-edward-b-titchener\">Edward B. Titchener</a> (1901)",
+  "Cercles de Titchener",
+  "Juger les tailles dans leur contexte réel"
+ ],
+ ".apply-list li": [
+  "Une action, une icône ou un badge se trouve parmi des éléments beaucoup plus grands ou beaucoup plus petits que lui.",
+  "Un graphique encode des valeurs par la surface, comme les graphiques à bulles, les cartes et les treemaps, et le lecteur compare les formes à l'œil.",
+  "Une revue n'arrive pas à trancher si deux éléments ont la même taille.",
+  "Vérifiez la taille d'un élément dans son vrai contexte, pas seul sur un plan de travail vide.",
+  "Quand des tailles doivent être comparées avec précision, alignez les éléments sur une ligne de base commune ou affichez les valeurs.",
+  "Gardez un espacement régulier autour des éléments qui doivent paraître égaux, car les éléments voisins modifient aussi la taille perçue."
+ ],
+ ".card .tag": [
+  "L'effet",
+  "Espacement",
+  "Commandes",
+  "Icônes",
+  "Graphiques",
+  "Remède",
+  "Recherche",
+  "Recherche",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Les voisins fixent l'échelle",
+  "La distance compte aussi",
+  "Un bouton parmi de grandes choses",
+  "Des icônes dans la foule",
+  "Les bulles trompent",
+  "Comparer sur une ligne de base commune",
+  "Les adultes s'y trompent davantage",
+  "Voir ou saisir",
+  "Les graphiques générés méritent un second regard",
+  "Mesurer n'est pas voir"
+ ],
+ ".card .desc": [
+  "Le même cercle paraît plus petit parmi de grands cercles et plus grand parmi de petits. Rien ne change dans le cercle, seulement la référence à laquelle l'œil le compare.",
+  "Des cercles placés près du centre le font paraître plus grand, et des cercles éloignés le font paraître plus petit. L'espacement fait partie de l'illusion, pas seulement la taille des voisins.",
+  "Un bouton principal à côté d'une grande image ou d'un titre paraît plus petit qu'il ne l'est, alors que le même bouton dans une barre d'outils clairsemée paraît grand. Jugez sa taille là où il vivra.",
+  "Une icône à côté d'icônes plus grandes paraît trop petite, et la même icône parmi de plus petites paraît lourde. La taille optique doit se vérifier en contexte, pas seulement dans la grille d'icônes.",
+  "Dans les graphiques à bulles, les cartes et les treemaps, une forme entourée de formes plus grandes paraît plus petite qu'une forme entourée de plus petites. Les surfaces sont déjà difficiles à juger, et l'illusion aggrave les choses.",
+  "Quand des tailles doivent être comparées avec précision, retirez l'entourage du jugement : alignez les éléments, donnez-leur une ligne de base commune ou affichez le chiffre à côté de chacun.",
+  "Les étudiants étaient trompés plus souvent que les enfants de dix ans et moins, moins sensibles au contexte. Lire la taille à travers son entourage semble se développer avec l'âge.",
+  "Dans une étude de Melvyn Goodale, les personnes qui saisissaient le disque central ajustaient leur prise à sa taille réelle et non à sa taille apparente ; d'autres travaux ont trouvé la main trompée elle aussi. Ce débat a nourri la théorie de voies visuelles distinctes pour la perception et l'action.",
+  "Un modèle produit un graphique à bulles ou une treemap en quelques secondes, avec des surfaces mathématiquement exactes mais trompeuses à l'œil. Vérifiez les encodages par surface comme un lecteur les verra.",
+  "Les contrôles de design automatisés mesurent des pixels, pas la taille perçue, et laissent passer des éléments que les gens verront comme inégaux. Associez-les à un regard sur la mise en page en contexte."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Dimensionner en contexte",
+  "Les tailles à l'écran varient beaucoup",
+  "Un élément est isolé",
+  "Espacement et regroupement",
+  "Des éléments se pressent autour d'un point focal",
+  "L'espacement est large et régulier",
+  "Actions principales",
+  "Le bouton partage l'espace avec de grands visuels",
+  "Le bouton est seul",
+  "Barres d'outils et jeux d'icônes",
+  "Des icônes de tailles différentes partagent une ligne",
+  "Une icône seule",
+  "Visualisation de données",
+  "La taille encode une valeur",
+  "La comparaison exacte compte",
+  "Les comparaisons importantes",
+  "Le lecteur doit classer des éléments",
+  "La taille n'est que décorative",
+  "Comprendre l'effet",
+  "Le public couvre plusieurs âges",
+  "Supposer que tout le monde le voit pareil",
+  "Toucher et pointer",
+  "La taille apparente des cibles varie",
+  "Compter sur la main pour corriger l'œil",
+  "Fait main → généré",
+  "Les graphiques viennent d'outils d'IA",
+  "Encodages par surface publiés sans relecture",
+  "Pixels → perception",
+  "Automatiser la revue de design",
+  "Des contrôles qui ne mesurent que des pixels"
+ ],
+ ".ai-divider h3": [
+  "L'illusion à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les mises en page et les graphiques se génèrent désormais plus vite que quiconque ne les vérifie en contexte : des tailles justes isolément arrivent au public sans contrôle."
+ ]
+}

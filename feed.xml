@@ -5,21 +5,35 @@
   <link>https://www.ux-guidelines.com/</link>
   <description>Research-backed laws, heuristics, and patterns of interface design, each explained with its origin, practice guidance, and what changes in the age of AI.</description>
   <language>en</language>
-  <lastBuildDate>Thu, 24 Sep 2026 03:41:03 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 09:40:12 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them</title>
-    <link>https://www.ux-guidelines.com/ui-tenets-and-traps.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/ui-tenets-and-traps.html</guid>
-    <pubDate>Thu, 24 Sep 2026 03:41:01 +0000</pubDate>
-    <description>A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.</description>
+    <title>Survivorship Bias: Why the Data You Can See Misleads</title>
+    <link>https://www.ux-guidelines.com/survivorship-bias.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/survivorship-bias.html</guid>
+    <pubDate>Wed, 30 Sep 2026 09:40:10 +0000</pubDate>
+    <description>Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.</description>
+  </item>
+  <item>
+    <title>Ebbinghaus Illusion: Why Surroundings Change Perceived Size</title>
+    <link>https://www.ux-guidelines.com/ebbinghaus-illusion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ebbinghaus-illusion.html</guid>
+    <pubDate>Wed, 30 Sep 2026 09:39:58 +0000</pubDate>
+    <description>Two identical circles look different sizes when one is ringed by large circles and the other by small ones. Every size on a screen is read against its surroundings, so a button, an icon, or a bubble in a chart can look bigger or smaller than it is.</description>
   </item>
   <item>
     <title>Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist</title>
     <link>https://www.ux-guidelines.com/microsoft-ai-guidelines.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/microsoft-ai-guidelines.html</guid>
-    <pubDate>Thu, 24 Sep 2026 03:40:53 +0000</pubDate>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
     <description>Eighteen guidelines for designing AI-infused products, grouped by when they bite: what you promise up front, how you behave during use, what happens when the system is wrong, and how it changes over time. The fourth group is the one most teams skip.</description>
+  </item>
+  <item>
+    <title>UI Tenets and Traps: Nine Tenets and the Design Traps That Break Them</title>
+    <link>https://www.ux-guidelines.com/ui-tenets-and-traps.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ui-tenets-and-traps.html</guid>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
+    <description>A heuristic evaluation framework of nine tenets and the traps that break them. Each trap is a specific, detectable design problem that maps to exactly one tenet, so a team can say precisely what is wrong and agree on why it matters.</description>
   </item>
   <item>
     <title>Zipf’s Law: Why a Few Items Get Most of the Use</title>
