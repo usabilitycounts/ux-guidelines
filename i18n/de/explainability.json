@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Erklärbarkeit</em>"
+ ],
+ "header .tagline": [
+  "Zeigen Sie <em>warum</em>, nicht nur was."
+ ],
+ "header .subtitle": [
+  "Erklärbare KI zeigt Menschen, warum ein System ein Ergebnis geliefert hat, damit sie es beurteilen, anfechten und entscheiden können, wie weit sie sich darauf verlassen. Ziel ist nicht mehr Vertrauen, sondern das richtige Maß."
+ ],
+ ".law-origin .body-text": [
+  "Erklärungen in der KI sind älter als die Blackbox. Anfang der 1970er-Jahre konnte MYCIN, ein Forschungssystem von <a href=\"people.html#p-edward-shortliffe\">Edward Shortliffe</a> in Stanford zur Diagnose von Blutinfektionen, zeigen, welche seiner von Hand geschriebenen Regeln zu einer Diagnose geführt hatten. Als undurchsichtige Modelle wie tiefe neuronale Netze übernahmen, konnten oft nicht einmal ihre Entwickler sagen, warum ein Modell ein bestimmtes Ergebnis lieferte.",
+  "Erklärbare KI (XAI) wurde in den 2010er-Jahren zu einem eigenen Forschungsfeld, mit Methoden wie LIME und SHAP, dem XAI-Programm der DARPA und dem Recht auf Erklärung in der europäischen DSGVO. <a href=\"people.html#p-cynthia-rudin\">Cynthia Rudin</a> argumentierte, dass folgenreiche Entscheidungen auf von Grund auf interpretierbaren Modellen beruhen sollten, und Forschung von Gagan Bansal, <a href=\"people.html#p-besmira-nushi\">Besmira Nushi</a>, <a href=\"people.html#p-dan-weld\">Dan Weld</a> und Kollegen zeigte, dass Erklärungen Menschen falsche Antworten einer KI ebenso bereitwillig annehmen lassen können wie richtige."
+ ],
+ ".law-content .law-desc": [
+  "Erklärbarkeit beschreibt, wie gut Menschen verstehen können, warum ein KI-System ein bestimmtes Ergebnis geliefert hat. Interpretierbarkeit betrifft, wie ein Modell insgesamt funktioniert; Erklärbarkeit betrifft dieses Ergebnis, für diese Person. Gute Erklärungen ermöglichen es, eine Entscheidung zu prüfen, anzufechten und das eigene Vertrauen in das System richtig einzustellen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-shortliffe\">Shortliffes</a> MYCIN (1970er) · Ribeiro et al. (2016)",
+  "Erklärbare KI (XAI)",
+  "Das Warum zeigen, überprüfbar"
+ ],
+ ".apply-list li": [
+  "Ein KI-System empfiehlt, sortiert, markiert oder entscheidet etwas, das für Menschen wichtig ist.",
+  "Menschen müssen beurteilen, ob sie sich auf eine Vorhersage verlassen oder sie übergehen.",
+  "Entscheidungen unterliegen Prüfungen, Einsprüchen oder Regeln wie dem Recht auf Erklärung der DSGVO.",
+  "Erklären Sie das konkrete Ergebnis in einfachen Worten und nennen Sie die wenigen Faktoren, die am meisten zählten.",
+  "Beantworten Sie die Frage, die Menschen tatsächlich stellen: oft, warum dieses Ergebnis und kein anderes.",
+  "Zielen Sie auf kalibriertes Vertrauen: Zeigen Sie Unsicherheit und Grenzen und testen Sie, ob Erklärungen helfen, Fehler zu erkennen."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Lokale Erklärungen",
+  "Kontrastiv",
+  "Zielgruppe",
+  "Vertrauen",
+  "Kalibrierung",
+  "Prüfung",
+  "Gestaltung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Blackbox öffnen",
+  "Dieses Ergebnis erklären",
+  "„Warum nicht?“ beantworten",
+  "Die Erklärung an den Leser anpassen",
+  "Verstehen ist nicht Vertrauen",
+  "Erklärungen können zu viel versprechen",
+  "Den Klugen Hans entlarven",
+  "Interpretierbar statt nachträglich erklärt",
+  "Geschriebene Begründung ist keine Erklärung",
+  "Quellen zeigen, nicht nur Sicherheit"
+ ],
+ ".card .desc": [
+  "Ein Blackbox-Modell liefert eine Antwort ohne Grund; ein Glasbox-Modell zeigt seinen Weg. Erklärungen sollten sagen, was das System getan hat, was es gerade tut, was als Nächstes kommt und auf welche Informationen es sich stützt.",
+  "Menschen wollen selten wissen, wie ein ganzes Modell funktioniert; sie wollen wissen, warum es dies über sie gesagt hat. Lokale Methoden wie LIME und SHAP zeigen, welche Eingaben eine einzelne Vorhersage nach oben oder unten gedrückt haben.",
+  "Menschen fragen meist, warum dieses Ergebnis statt des erwarteten. Tim Millers Überblick über sozialwissenschaftliche Forschung zeigt, dass gute Erklärungen kontrastiv sind und wenige Ursachen herausgreifen, statt jeden Faktor aufzuzählen.",
+  "Dieselbe Erklärung kann für Fachleute zu oberflächlich und für Einsteiger zu technisch sein. Beginnen Sie mit einem kurzen Grund in einfachen Worten und lassen Sie Menschen die Details öffnen, die sie brauchen.",
+  "In einer Studie von 2019 zu einem Zulassungsalgorithmus halfen interaktive Erklärungen den Menschen, seine Entscheidungen zu verstehen, ließen sie ihm aber nicht mehr vertrauen. Sie hielten ihn weiterhin für zu starr im Vergleich zu menschlichen Entscheidern, die Ausnahmen und Einsprüche berücksichtigen können.",
+  "Eine Studie von 2021 ergab, dass Erklärungen die Häufigkeit erhöhten, mit der Menschen die Empfehlung einer KI annahmen, egal ob sie richtig oder falsch war. Ziel ist kalibriertes Vertrauen: genug, um das System zu nutzen, aber nicht so viel, dass niemand mehr prüft.",
+  "Forscher fanden einen Bildklassifikator, der Pferde an einem Copyright-Hinweis in der Bildecke erkannte, nicht am Pferd. Erklärungen helfen Teams, solche Abkürzungen zu entdecken, bevor Nutzer darauf stoßen.",
+  "Cynthia Rudin argumentiert, dass bei folgenreichen Entscheidungen von Grund auf interpretierbare Modelle besser sind als Blackboxes mit nachträglich angefügten Erklärungen, weil eine separate Erklärung dem beschriebenen Modell nie ganz treu sein kann.",
+  "Die schrittweise Begründung eines Modells liest sich wie eine Erklärung, gibt aber nicht sicher wieder, wie die Antwort tatsächlich entstanden ist. Präsentieren Sie sie nicht als Beweis; verbinden Sie sie mit überprüfbaren Belegen.",
+  "Verknüpfen Sie jede Aussage mit ihrer Quelle, damit Menschen sie selbst prüfen können. Eine Quellenangabe lässt Menschen eine Antwort überprüfen; ein selbstsicherer Ton verlangt nur, dass sie glauben."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Idee erklären",
+  "Ein Modell entscheidet, ohne zu sagen warum",
+  "Das Ergebnis ist belanglos und folgenlos",
+  "Empfehlungen, Scores und Markierungen",
+  "Ein Ergebnis betrifft eine Person",
+  "Das ganze Modell auf einmal prüfen",
+  "Ablehnungen, Rankings und Absagen",
+  "Das Ergebnis hat die Person überrascht",
+  "Alle Faktoren auf einmal auflisten",
+  "Produkte mit gemischtem Publikum",
+  "Nutzer unterscheiden sich in ihrer Erfahrung",
+  "Eine Erklärung muss allen genügen",
+  "Folgenreiche Entscheidungen über Menschen",
+  "Erwarten, dass Erklärungen Akzeptanz schaffen",
+  "Vertrauen als einziges Ziel behandeln",
+  "KI, die Entscheidungen unterstützt",
+  "Testen, ob Erklärungen helfen",
+  "Nur messen, wie oft Menschen zustimmen",
+  "Modellprüfung und Qualitätssicherung",
+  "Die Genauigkeit wirkt zu gut, um wahr zu sein",
+  "Einen hohen Wert als Beweis für Verständnis nehmen",
+  "Kredit, Gesundheit und Justiz",
+  "Viel steht auf dem Spiel und Entscheidungen werden angefochten",
+  "Ein einfacheres Modell kostet zu viel Genauigkeit",
+  "Begründungstext → überprüfbare Belege",
+  "Die Begründung einer KI zeigen",
+  "Flüssige Begründung für einen Beweis halten",
+  "Sicherheit → Quellenangaben",
+  "KI beantwortet Fragen aus Dokumenten",
+  "Quellen, die die Aussage nicht stützen"
+ ],
+ ".ai-divider h3": [
+  "Erklärbarkeit im Zeitalter generativer KI"
+ ],
+ ".ai-divider p": [
+  "Sprachmodelle schreiben auf Wunsch flüssige Erklärungen. Dadurch werden Erklärungen billig herzustellen und leicht zu glauben, ob sie nun widerspiegeln, wie eine Antwort entstanden ist, oder nicht."
+ ]
+}

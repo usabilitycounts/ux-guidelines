@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Müller-Lyer <em>Illusion</em>"
+ ],
+ "header .tagline": [
+  "The ends of a line <em>change its length</em>."
+ ],
+ "header .subtitle": [
+  "Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look."
+ ],
+ ".law-origin .body-text": [
+  "The German psychologist and sociologist <a href=\"people.html#p-franz-carl-muller-lyer\">Franz Carl Müller-Lyer</a> published the figure in 1889. Two shafts of equal length, one capped with inward arrowheads and one with outward tails, look clearly unequal: the one with outward fins looks longer. In his original version, people asked to mark a midpoint placed it toward the tail end.",
+  "Explanations still compete. <a href=\"people.html#p-richard-gregory\">Richard Gregory</a> argued it is misapplied size constancy, because the figures resemble the near and far corners of buildings. Catherine Howe and Dale Purves traced it in 2005 to the statistics of natural images, and centroid accounts locate it in how the brain pools position signals. Claims from the 1960s that people in less carpentered environments see it less have since been challenged."
+ ],
+ ".law-content .law-desc": [
+  "Lines of equal length look different depending on what is at their ends: outward fins make a line look longer, inward arrowheads make it look shorter. The surrounding shapes change the perceived size of the thing itself, even when you know the lines are equal."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-franz-carl-muller-lyer\">Müller-Lyer</a> (1889)",
+  "Müller-Lyer figure",
+  "Check lengths by eye as well as by number"
+ ],
+ ".apply-list li": [
+  "Comparing lengths in charts, progress bars, or timelines.",
+  "Using arrows, chevrons, or angled shapes in navigation and diagrams.",
+  "Spacing icons and shapes that have pointed or flared ends.",
+  "Use plain, flat-ended bars on a shared baseline when people must compare lengths.",
+  "Review spacing and alignment by eye, and adjust optically where shapes have angled ends.",
+  "Label lengths that matter with numbers instead of relying on perception."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Charts",
+  "Navigation",
+  "Spacing",
+  "Diagrams",
+  "Explanation",
+  "Culture",
+  "Persistence",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Same Line, Different Length",
+  "Pointed Bars Mislead",
+  "Chevrons Change Perceived Width",
+  "Measure, Then Look",
+  "Arrowheads on Dimension Lines",
+  "A Shortcut for Depth",
+  "Carpentered Worlds?",
+  "Knowing Does Not Help",
+  "Generated Layouts Skip Optical Fixes",
+  "Stylized Charts From AI"
+ ],
+ ".card .desc": [
+  "Two shafts of identical length: one with arrowheads pointing in, one with tails pointing out. The tailed one looks longer, and it keeps looking longer even after you measure both.",
+  "Bars and progress indicators with arrow tips or flared caps are hard to compare, because their ends change how long they look. Use flat-ended bars on a common baseline for anything people must compare.",
+  "Breadcrumbs and step indicators drawn as chevrons can make equal segments look unequal. Check their widths and spacing by eye, not only in the inspector.",
+  "Pointed shapes don’t look centered when they are mathematically centered. A play icon placed exactly in the middle of a circle looks off to the left, so designers nudge it right. Correct optically, then document the adjustment.",
+  "Inward arrowheads on a measurement line make the distance look shorter than it is. For lengths that matter, use tick-mark ends and print the number.",
+  "Richard Gregory proposed that the brain reads inward fins as the near corner of a building and outward fins as the far corner of a room, and scales them as if they were at different distances. Others explain it with image statistics or position pooling.",
+  "In 1963 Segall, Campbell, and Herskovits found that the size of the illusion ranged from 1.4 to 20.3 percent across groups, and linked it to living among straight lines and right angles. Later work challenged that reading, and a 2025 review argues that the differences were largely artifacts.",
+  "Pigeons and a grey parrot have been shown to perceive the illusion too, and people still see it after measuring. Since awareness doesn’t fix it, design so that lengths read correctly at a glance.",
+  "AI layout and icon tools align shapes by their geometry, so arrows, chevrons, and play icons can come out looking off-center or uneven. Review generated work by eye and correct it optically.",
+  "AI chart tools may decorate bars with arrow tips, gradients, or 3D effects that distort comparisons. Ask for plain bars on a shared baseline, with values labeled."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the illusion",
+  "Elements have decorated ends",
+  "Ends are plain and flat",
+  "Bar charts and progress bars",
+  "Bars have decorative caps",
+  "Bars are flat and share a baseline",
+  "Breadcrumbs and step indicators",
+  "Segments use arrow shapes",
+  "Segments are plain rectangles",
+  "Icon and spacing reviews",
+  "Shapes have pointed or angled ends",
+  "Pixel-exact alignment is required, as in tables",
+  "Diagrams, maps, and annotations",
+  "Showing lengths or distances",
+  "The length is labeled with a number",
+  "Understanding perception",
+  "Explaining why the illusion happens",
+  "Treating one explanation as settled",
+  "Research with diverse audiences",
+  "Making claims about culture and perception",
+  "Assuming differences without testing",
+  "Design reviews",
+  "A layout depends on judging lengths",
+  "Lengths are labeled",
+  "Numeric → optical",
+  "Generating interfaces or icons",
+  "Shipping generated layouts unreviewed",
+  "Decorative → accurate",
+  "Generating charts with AI",
+  "Stylized bars for comparisons"
+ ],
+ ".ai-divider h3": [
+  "The Müller-Lyer Illusion in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated layouts and charts are built from numbers, not from what people perceive. Optical checks still need a human eye."
+ ]
+}

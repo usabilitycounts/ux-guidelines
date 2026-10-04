@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Lindy-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Was lange bestand, <em>wird wahrscheinlich weiter bestehen</em>."
+ ],
+ "header .subtitle": [
+  "Bei Ideen, Technologien und Konventionen gilt: Je länger etwas schon überlebt hat, desto länger wird es wahrscheinlich weiter überleben. Jedes Jahr, das es besteht, belegt seine Robustheit."
+ ],
+ ".law-origin .body-text": [
+  "Der Name stammt von Lindy's, einem New Yorker Delikatessengeschäft, in dem sich Komiker jeden Abend trafen, um das Showgeschäft zu sezieren. In einem Artikel in The New Republic von 1964 beschrieb Albert Goldman ihre Faustregel, Lindy's Law, mit der sie vorhersagten, wie lange die Fernsehkarriere eines Komikers dauern würde.",
+  "Benoit Mandelbrot gab ihr in Die fraktale Geometrie der Natur (1982) eine mathematische Form: Bei manchen Dingen ist die künftige Lebenserwartung proportional zur Vergangenheit. <a href=\"people.html#p-nassim-nicholas-taleb\">Nassim Nicholas Taleb</a> nannte sie in Antifragilität (2012) den Lindy-Effekt und dehnte sie auf alles ohne natürliche Obergrenze aus: Ist ein Buch seit vierzig Jahren lieferbar, darf man weitere vierzig erwarten."
+ ],
+ ".law-content .law-desc": [
+  "Bei nicht verderblichen Dingen wie Ideen, Büchern, Technologien und Konventionen gilt: Je länger etwas bestanden hat, desto länger wird es wahrscheinlich weiter bestehen. Die erwartete Restlebensdauer wächst mit dem Alter, statt zu schrumpfen, denn jedes überstandene Jahr belegt Robustheit."
+ ],
+ ".law-equation": [
+  "E[T − t | T > t] = p · t"
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Goldman (1964) · benannt von <a href=\"people.html#p-nassim-nicholas-taleb\">Taleb</a> (2012)",
+  "Lindy's Law",
+  "Auf Bewährtes setzen"
+ ],
+ ".apply-list li": [
+  "Sie wählen Muster, Konventionen oder Icons, die lange halten sollen.",
+  "Sie wählen Technologien, Standards oder Formate für ein langlebiges Produkt.",
+  "Sie entscheiden, auf welche Forschung, Inhalte oder Ideen Sie aufbauen.",
+  "Bevorzugen Sie Konventionen und Werkzeuge mit langer Bewährung gegenüber dem Trend des Jahres.",
+  "Halten Sie neue, unerprobte Teile austauschbar, falls sie sich nicht halten.",
+  "Wenden Sie den Effekt nur auf Dinge an, die sich nicht abnutzen, und denken Sie daran, dass er nur Überlebende zählt."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Muster",
+  "Technologie",
+  "Icons",
+  "Inhalte",
+  "Belege",
+  "Grenzen",
+  "Vorsicht",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Zwei Wochen, zwei Jahre",
+  "Alte Muster überdauern Trends",
+  "Langweilige Technologie wählen",
+  "Das Speichern-Icon überlebte die Diskette",
+  "Zeitlose Inhalte altern gut",
+  "Alte Befunde, die standhielten",
+  "Nicht für Dinge, die sich abnutzen",
+  "Er zählt nur Überlebende",
+  "Noch keine Bewährung",
+  "Lindy in den Trainingsdaten"
+ ],
+ ".card .desc": [
+  "Die Komiker bei Lindy's überlegten: Eine Show, die seit zwei Wochen läuft, kann mit zwei weiteren rechnen; eine, die seit zwei Jahren läuft, mit zwei weiteren Jahren. Das Alter selbst war die Prognose.",
+  "Tabs, Menüs, Links und Formulare haben Jahrzehnte voller Redesigns überlebt, und jedes weitere Jahr erhöht ihre Chancen. Visuelle Stile kommen und gehen viel schneller als die Interaktionen darunter.",
+  "Dan McKinleys Essay von 2015 plädiert für bewährte Werkzeuge, deren Fehlerbilder bekannt sind. Nach der Lindy-Logik überlebt eine seit Jahrzehnten laufende Datenbank eher ein Framework vom letzten Jahr.",
+  "Das Disketten-Symbol zum Speichern ist immer noch überall, lange nachdem Disketten verschwunden sind. Ein Symbol, das schon lange besteht, besteht weiter, weil so viele Menschen es gelernt haben.",
+  "Leitfäden zu Prinzipien, die seit Jahrzehnten gelten, bleiben nützlich; Inhalte zu den Werkzeugen des Jahres veralten. Investieren Sie in langlebige Themen, und datieren Sie, was veralten wird.",
+  "Ein Befund, der seit Jahrzehnten repliziert wird, ist eine bessere Wette als eine einzelne neue Studie. Fitts' Gesetz von 1954 sagt die Zeigezeit auf heutigen Touchscreens immer noch voraus.",
+  "Der Effekt gilt für Dinge ohne Verfallsdatum, etwa Ideen und Formate. Menschen, Geräte und Akkus nutzen sich ab: Ein 100-Jähriger stirbt eher im nächsten Jahr als ein 10-Jähriger, das Gegenteil dessen, was Lindy vorhersagen würde.",
+  "Lindy-Denken betrachtet, was überlebt hat. Es sagt nichts über die vielen alten Dinge, die verschwunden sind, und erkennt nicht, wann eine wirklich bessere neue Idee kommt. Wägen Sie es gegen den Survivorship Bias ab.",
+  "Modelle und KI-Plattformen ändern sich ständig. Bauen Sie auf langlebige Grundlagen wie offene Standards, reinen Text und stabile Schnittstellen, und halten Sie die KI-Schicht austauschbar, statt das Produkt an ein Modell zu binden.",
+  "Ideen, die lange bestanden haben, sind in dem, was Modelle gelernt haben, überrepräsentiert, daher neigen KI-Ratschläge zu etablierten Praktiken. Das hilft bei Konventionen und weniger bei wirklich neuen Problemen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Beurteilen, wie lange etwas hält",
+  "Das Ding nutzt sich mit dem Alter ab",
+  "Interaktionsmuster wählen",
+  "Es gibt eine langlebige Konvention",
+  "Die Konvention ist bei Ihren Nutzern gescheitert",
+  "Stack- und Tooling-Entscheidungen",
+  "Zuverlässigkeit zählt mehr als Neuheit",
+  "Nur das neue Werkzeug löst das Problem",
+  "Wahl von Icons und Symbolen",
+  "Ein Symbol ist weithin bekannt",
+  "Die Metapher verwirrt neue Nutzer",
+  "Content-Strategie und Dokumentation",
+  "Planen, was geschrieben wird",
+  "Das Thema ist tagesaktuell",
+  "Entscheiden, welcher Forschung man traut",
+  "Befunde widersprechen sich",
+  "Der Kontext hat sich grundlegend geändert",
+  "Den Effekt richtig anwenden",
+  "Die Lebensdauer von Ideen oder Werkzeugen vorhersagen",
+  "Die Lebensdauer von Hardware oder Menschen vorhersagen",
+  "Strategie und Roadmaps",
+  "Den Status quo verteidigen",
+  "Ein neuer Ansatz ist klar besser",
+  "Auf ein Modell setzen → auf Schnittstellen setzen",
+  "Auf KI-Plattformen aufbauen",
+  "Das Produkt an ein Modell binden",
+  "Etabliert → aufkommend",
+  "KI nach Best Practices fragen",
+  "Neue Antworten aus alten Daten erwarten"
+ ],
+ ".ai-divider h3": [
+  "Der Lindy-Effekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI-Werkzeuge ändern sich von Monat zu Monat und haben noch keine Bewährung hinter sich. Lindy rät, auf Beständiges zu bauen und neue Teile leicht austauschbar zu halten."
+ ]
+}

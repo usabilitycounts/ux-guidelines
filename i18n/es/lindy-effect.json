@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Efecto <em>Lindy</em>"
+ ],
+ "header .tagline": [
+  "Lo que ha durado <em>probablemente durará</em>."
+ ],
+ "header .subtitle": [
+  "En las ideas, las tecnologías y las convenciones, cuanto más tiempo ha sobrevivido algo, más probable es que siga sobreviviendo. Cada año que dura es una prueba de su solidez."
+ ],
+ ".law-origin .body-text": [
+  "El nombre viene de Lindy's, una charcutería de Nueva York donde los cómicos se reunían cada noche para analizar el mundo del espectáculo. En un artículo de The New Republic de 1964, Albert Goldman describió su regla popular, la ley de Lindy, para predecir cuánto duraría la carrera televisiva de un cómico.",
+  "Benoit Mandelbrot le dio forma matemática en La geometría fractal de la naturaleza (1982): para algunas cosas, la esperanza de vida futura es proporcional al pasado. <a href=\"people.html#p-nassim-nicholas-taleb\">Nassim Nicholas Taleb</a> la llamó efecto Lindy en Antifrágil (2012) y la extendió a todo lo que no tiene un límite natural: si un libro lleva cuarenta años en circulación, espera que siga otros cuarenta."
+ ],
+ ".law-content .law-desc": [
+  "En las cosas no perecederas, como las ideas, los libros, las tecnologías y las convenciones, cuanto más ha durado algo, más probable es que siga durando. La esperanza de vida restante crece con la edad en lugar de disminuir, porque cada año de supervivencia demuestra solidez."
+ ],
+ ".law-equation": [
+  "E[T − t | T > t] = p · t"
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Goldman (1964) · nombrado por <a href=\"people.html#p-nassim-nicholas-taleb\">Taleb</a> (2012)",
+  "Ley de Lindy",
+  "Apuesta por lo que ha durado"
+ ],
+ ".apply-list li": [
+  "Eliges patrones, convenciones o iconos que deberán durar.",
+  "Eliges tecnologías, estándares o formatos para un producto de larga vida.",
+  "Decides en qué investigaciones, contenidos o ideas vale la pena apoyarse.",
+  "Prefiere convenciones y herramientas con una larga trayectoria antes que la moda del año.",
+  "Haz que las piezas nuevas y no probadas sean reemplazables, por si no duran.",
+  "Aplícalo solo a lo que no se desgasta, y recuerda que solo cuenta a los supervivientes."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Patrones",
+  "Tecnología",
+  "Iconos",
+  "Contenido",
+  "Evidencia",
+  "Límites",
+  "Precaución",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Dos semanas, dos años",
+  "Los patrones antiguos sobreviven a las modas",
+  "Elige tecnología aburrida",
+  "El icono de guardar sobrevivió al disquete",
+  "El contenido atemporal envejece bien",
+  "Hallazgos antiguos que resistieron",
+  "No para lo que se desgasta",
+  "Solo cuenta a los supervivientes",
+  "Aún sin trayectoria",
+  "Lindy en los datos de entrenamiento"
+ ],
+ ".card .desc": [
+  "Los cómicos de Lindy's razonaban que un espectáculo que llevaba dos semanas podía esperar dos más, mientras que uno que llevaba dos años podía esperar otros dos años. La edad misma era el pronóstico.",
+  "Las pestañas, los menús, los enlaces y los formularios han sobrevivido a décadas de rediseños, y cada año que resisten aumenta sus probabilidades de durar. Los estilos visuales van y vienen mucho más rápido que las interacciones que visten.",
+  "El ensayo de Dan McKinley de 2015 defiende las herramientas probadas cuyos fallos se conocen. Según la lógica Lindy, una base de datos que funciona desde hace décadas tiene más probabilidades de durar que un framework lanzado el año pasado.",
+  "El icono del disquete para guardar sigue en todas partes, mucho después de que los disquetes desaparecieran. Un símbolo que ya ha durado sigue durando, porque mucha gente lo ha aprendido.",
+  "Las guías basadas en principios que se mantienen desde hace décadas siguen siendo útiles; el contenido sobre las herramientas del año caduca. Invierte en temas duraderos y pon fecha a lo que se quedará obsoleto.",
+  "Un hallazgo replicado durante décadas es mejor apuesta que un único estudio nuevo. La ley de Fitts, de 1954, sigue prediciendo el tiempo de apuntado en las pantallas táctiles de hoy.",
+  "El efecto se aplica a lo que no tiene fecha de caducidad, como las ideas y los formatos. Las personas, los dispositivos y las baterías se desgastan: alguien de 100 años tiene más probabilidades de morir el año que viene que alguien de 10, lo contrario de lo que predeciría Lindy.",
+  "El razonamiento Lindy mira lo que ha sobrevivido. No dice nada de las muchas cosas antiguas que desaparecieron, y no puede avisarte cuando llega una idea nueva de verdad mejor. Ponlo en la balanza con el sesgo de supervivencia.",
+  "Los modelos y las plataformas de IA cambian constantemente. Construye sobre bases duraderas como los estándares abiertos, el texto plano y las interfaces estables, y mantén la capa de IA reemplazable en lugar de atar el producto a un solo modelo.",
+  "Las ideas que han durado están sobrerrepresentadas en lo que aprendieron los modelos, así que los consejos de la IA se inclinan hacia la práctica establecida. Eso ayuda con las convenciones y menos con los problemas realmente nuevos."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Juzgar cuánto durará algo",
+  "La cosa se desgasta con la edad",
+  "Elegir patrones de interacción",
+  "Existe una convención duradera",
+  "La convención ha fallado con tus usuarios",
+  "Decisiones de stack y herramientas",
+  "La fiabilidad importa más que la novedad",
+  "Solo la herramienta nueva resuelve el problema",
+  "Elección de iconos y símbolos",
+  "Un símbolo es ampliamente reconocido",
+  "La metáfora confunde a los usuarios nuevos",
+  "Estrategia de contenido y documentación",
+  "Planificar qué escribir",
+  "El tema es de actualidad",
+  "Elegir en qué investigación confiar",
+  "Los hallazgos se contradicen",
+  "El contexto ha cambiado por completo",
+  "Aplicar bien el efecto",
+  "Predecir la vida de ideas o herramientas",
+  "Predecir la vida del hardware o de las personas",
+  "Estrategia y hojas de ruta",
+  "Defender el statu quo",
+  "Un enfoque nuevo es claramente mejor",
+  "Apostar por un modelo → apostar por las interfaces",
+  "Construir sobre plataformas de IA",
+  "Atar el producto a un solo modelo",
+  "Establecido → emergente",
+  "Pedir buenas prácticas a la IA",
+  "Esperar respuestas nuevas de datos viejos"
+ ],
+ ".ai-divider h3": [
+  "El efecto Lindy en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las herramientas de IA cambian cada mes y aún no tienen trayectoria. Lindy aconseja construir sobre lo que ha durado y mantener las piezas nuevas fáciles de sustituir."
+ ]
+}

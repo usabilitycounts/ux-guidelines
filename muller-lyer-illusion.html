@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" data-page="muller-lyer-illusion">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/muller-lyer-illusion.json?v=43','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.">
+<title>Müller-Lyer Illusion: When Arrow Ends Change Length — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/muller-lyer-illusion.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/muller-lyer-illusion.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/ilusion-de-muller-lyer.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/muller-lyer-tauschung.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/illusion-de-muller-lyer.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/muller-lyer-illusion.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/muller-lyer-illusion.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/muller-lyer-illusion.html">
+<meta property="og:title" content="Müller-Lyer Illusion: When Arrow Ends Change Length — UX Guidelines">
+<meta property="og:description" content="Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/muller-lyer-illusion.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/muller-lyer-illusion.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/muller-lyer-illusion.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Müller-Lyer Illusion: When Arrow Ends Change Length — UX Guidelines">
+<meta name="twitter:description" content="Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Müller-Lyer Illusion: When Arrow Ends Change Length", "description": "Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.", "url": "https://www.ux-guidelines.com/muller-lyer-illusion.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/muller-lyer-illusion.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Compose Pages"}, {"@type": "ListItem", "position": 3, "name": "Müller-Lyer Illusion: When Arrow Ends Change Length", "item": "https://www.ux-guidelines.com/muller-lyer-illusion.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=135"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link active">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Müller-Lyer <em>Illusion</em></h1>
+  <p class="tagline">The ends of a line <em>change its length</em>.</p>
+  <p class="subtitle">Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The German psychologist and sociologist <a href="people.html#p-franz-carl-muller-lyer">Franz Carl Müller-Lyer</a> published the figure in 1889. Two shafts of equal length, one capped with inward arrowheads and one with outward tails, look clearly unequal: the one with outward fins looks longer. In his original version, people asked to mark a midpoint placed it toward the tail end.</p>
+    <p class="body-text">Explanations still compete. <a href="people.html#p-richard-gregory">Richard Gregory</a> argued it is misapplied size constancy, because the figures resemble the near and far corners of buildings. Catherine Howe and Dale Purves traced it in 2005 to the statistics of natural images, and centroid accounts locate it in how the brain pools position signals. Claims from the 1960s that people in less carpentered environments see it less have since been challenged.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Illusion</div>
+    <p class="body-text law-desc">Lines of equal length look different depending on what is at their ends: outward fins make a line look longer, inward arrowheads make it look shorter. The surrounding shapes change the perceived size of the thing itself, even when you know the lines are equal.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-franz-carl-muller-lyer">Müller-Lyer</a> (1889)</div></div>
+      <div><div class="label">Also called</div><div class="value">Müller-Lyer figure</div></div>
+      <div><div class="label">In practice</div><div class="value">Check lengths by eye as well as by number</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Comparing lengths in charts, progress bars, or timelines.</li>
+      <li>Using arrows, chevrons, or angled shapes in navigation and diagrams.</li>
+      <li>Spacing icons and shapes that have pointed or flared ends.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Use plain, flat-ended bars on a shared baseline when people must compare lengths.</li>
+      <li>Review spacing and alignment by eye, and adjust optically where shapes have angled ends.</li>
+      <li>Label lengths that matter with numbers instead of relying on perception.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Same Line, Different Length -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Same Line, Different Length</h3>
+      <p class="desc">Two shafts of identical length: one with arrowheads pointing in, one with tails pointing out. The tailed one looks longer, and it keeps looking longer even after you measure both.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M60 38H160" class="ln"/><path d="M72 26L60 38L72 50" class="ln"/><path d="M148 26L160 38L148 50" class="ln"/><path d="M60 84H160" class="lg"/><path d="M48 72L60 84L48 96" class="lg"/><path d="M172 72L160 84L172 96" class="lg"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the illusion</div></div>
+      <div><div class="label">Use when</div><div class="value">Elements have decorated ends</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Ends are plain and flat</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="chartjunk.html">Chartjunk</a></div>
+    </div>
+  </article>
+  <!-- 2. Pointed Bars Mislead -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Charts</span>
+      <span class="num">02 / 10</span>
+      <h3>Pointed Bars Mislead</h3>
+      <p class="desc">Bars and progress indicators with arrow tips or flared caps are hard to compare, because their ends change how long they look. Use flat-ended bars on a common baseline for anything people must compare.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 104L200 104" class="ax"/><path d="M30 30H140L150 40L140 50H30Z" class="a"/><rect x="30" y="64" width="120" height="20" rx="2" class="b"/><path d="M30 20L30 104" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Bar charts and progress bars</div></div>
+      <div><div class="label">Use when</div><div class="value">Bars have decorative caps</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Bars are flat and share a baseline</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="data-visualization.html">Data Visualization</a></div>
+    </div>
+  </article>
+  <!-- 3. Chevrons Change Perceived Width -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Navigation</span>
+      <span class="num">03 / 10</span>
+      <h3>Chevrons Change Perceived Width</h3>
+      <p class="desc">Breadcrumbs and step indicators drawn as chevrons can make equal segments look unequal. Check their widths and spacing by eye, not only in the inspector.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M18 46H68L80 60L68 74H18L30 60Z" class="b"/><path d="M80 46H130L142 60L130 74H80L92 60Z" class="a"/><path d="M142 46H192L204 60L192 74H142L154 60Z" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Breadcrumbs and step indicators</div></div>
+      <div><div class="label">Use when</div><div class="value">Segments use arrow shapes</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Segments are plain rectangles</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="navigation-patterns.html">Navigation Patterns</a></div>
+    </div>
+  </article>
+  <!-- 4. Measure, Then Look -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Spacing</span>
+      <span class="num">04 / 10</span>
+      <h3>Measure, Then Look</h3>
+      <p class="desc">Pointed shapes don’t look centered when they are mathematically centered. A play icon placed exactly in the middle of a circle looks off to the left, so designers nudge it right. Correct optically, then document the adjustment.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="60" r="30" class="ol"/><path d="M60 44L86 60L60 76Z" class="gh"/><circle cx="150" cy="60" r="30" class="ol"/><path d="M144 44L170 60L144 76Z" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Icon and spacing reviews</div></div>
+      <div><div class="label">Use when</div><div class="value">Shapes have pointed or angled ends</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Pixel-exact alignment is required, as in tables</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="gestalt-principles.html">Gestalt Principles</a></div>
+    </div>
+  </article>
+  <!-- 5. Arrowheads on Dimension Lines -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Diagrams</span>
+      <span class="num">05 / 10</span>
+      <h3>Arrowheads on Dimension Lines</h3>
+      <p class="desc">Inward arrowheads on a measurement line make the distance look shorter than it is. For lengths that matter, use tick-mark ends and print the number.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="30" width="160" height="60" rx="4" class="ol"/><path d="M30 104H190" class="lg"/><path d="M36 98L30 104L36 110" class="lg"/><path d="M184 98L190 104L184 110" class="lg"/><text x="110" y="64" text-anchor="middle" class="ta">160 px</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Diagrams, maps, and annotations</div></div>
+      <div><div class="label">Use when</div><div class="value">Showing lengths or distances</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The length is labeled with a number</div></div>
+    </div>
+  </article>
+  <!-- 6. A Shortcut for Depth -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Explanation</span>
+      <span class="num">06 / 10</span>
+      <h3>A Shortcut for Depth</h3>
+      <p class="desc">Richard Gregory proposed that the brain reads inward fins as the near corner of a building and outward fins as the far corner of a room, and scales them as if they were at different distances. Others explain it with image statistics or position pooling.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M40 30L70 50V100L40 80Z" class="b"/><path d="M70 50L100 30V80L70 100Z" class="g"/><path d="M130 30L160 50V100L130 80Z" class="g"/><path d="M160 50L190 30V80L160 100Z" class="b"/><path d="M70 50L70 100" class="ln"/><path d="M160 50L160 100" class="ln"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Understanding perception</div></div>
+      <div><div class="label">Use when</div><div class="value">Explaining why the illusion happens</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Treating one explanation as settled</div></div>
+    </div>
+  </article>
+  <!-- 7. Carpentered Worlds? -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Culture</span>
+      <span class="num">07 / 10</span>
+      <h3>Carpentered Worlds?</h3>
+      <p class="desc">In 1963 Segall, Campbell, and Herskovits found that the size of the illusion ranged from 1.4 to 20.3 percent across groups, and linked it to living among straight lines and right angles. Later work challenged that reading, and a 2025 review argues that the differences were largely artifacts.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="26" y="80" width="12" height="20" rx="2" class="b"/><rect x="44" y="70" width="12" height="30" rx="2" class="b"/><rect x="62" y="40" width="12" height="60" rx="2" class="a"/><rect x="80" y="74" width="12" height="26" rx="2" class="b"/><rect x="98" y="66" width="12" height="34" rx="2" class="b"/><rect x="116" y="52" width="12" height="48" rx="2" class="a"/><rect x="134" y="78" width="12" height="22" rx="2" class="b"/><rect x="152" y="64" width="12" height="36" rx="2" class="b"/><rect x="170" y="30" width="12" height="70" rx="2" class="a"/><rect x="188" y="72" width="12" height="28" rx="2" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Research with diverse audiences</div></div>
+      <div><div class="label">Use when</div><div class="value">Making claims about culture and perception</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Assuming differences without testing</div></div>
+    </div>
+  </article>
+  <!-- 8. Knowing Does Not Help -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Persistence</span>
+      <span class="num">08 / 10</span>
+      <h3>Knowing Does Not Help</h3>
+      <p class="desc">Pigeons and a grey parrot have been shown to perceive the illusion too, and people still see it after measuring. Since awareness doesn’t fix it, design so that lengths read correctly at a glance.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="50" r="18" class="b"/><path d="M58 50h-14M82 50h14" class="lg"/><path d="M120 50H190" class="ln"/><path d="M112 42L120 50L112 58" class="ln"/><path d="M198 42L190 50L198 58" class="ln"/><text x="155" y="90" text-anchor="middle" class="t">same length</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Design reviews</div></div>
+      <div><div class="label">Use when</div><div class="value">A layout depends on judging lengths</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Lengths are labeled</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Müller-Lyer Illusion in the Age of AI</h3>
+    <p>Generated layouts and charts are built from numbers, not from what people perceive. Optical checks still need a human eye.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="20" width="180" height="80" rx="6" class="ol"/><rect x="36" y="40" width="36" height="36" rx="18" class="b"/><rect x="88" y="40" width="36" height="36" rx="18" class="b"/><rect x="140" y="40" width="36" height="36" rx="18" class="b"/><path d="M48 50L66 58L48 66Z" class="a"/><path d="M100 50L118 58L100 66Z" class="a"/><path d="M154 50L172 58L154 66Z" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Generated Layouts Skip Optical Fixes</h3>
+      <p class="desc">AI layout and icon tools align shapes by their geometry, so arrows, chevrons, and play icons can come out looking off-center or uneven. Review generated work by eye and correct it optically.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Numeric → optical</div></div>
+      <div><div class="label">Use when</div><div class="value">Generating interfaces or icons</div></div>
+      <div><div class="label">Watch for</div><div class="value">Shipping generated layouts unreviewed</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><path d="M30 30H130L140 40L130 50H30Z" class="ga"/><rect x="30" y="64" width="100" height="20" rx="2" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Stylized Charts From AI</h3>
+      <p class="desc">AI chart tools may decorate bars with arrow tips, gradients, or 3D effects that distort comparisons. Ask for plain bars on a shared baseline, with values labeled.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Decorative → accurate</div></div>
+      <div><div class="label">Use when</div><div class="value">Generating charts with AI</div></div>
+      <div><div class="label">Watch for</div><div class="value">Stylized bars for comparisons</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.biodiversitylibrary.org/page/35372625" target="_blank" rel="noopener"><span class="title">Optische Urteilstäuschungen — Franz Carl Müller-Lyer, 1889</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1073/pnas.0409314102" target="_blank" rel="noopener"><span class="title">The Müller-Lyer Illusion Explained by the Statistics of Image–Source Relationships — Howe and Purves, 2005</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1126/science.139.3556.769" target="_blank" rel="noopener"><span class="title">Cultural Differences in the Perception of Geometric Illusions — Segall, Campbell and Herskovits, 1963</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1037/rev0000549" target="_blank" rel="noopener"><span class="title">Is Visual Perception WEIRD? The Müller-Lyer Illusion and the Cultural Byproduct Hypothesis — Amir and Firestone, 2025</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/M%C3%BCller-Lyer_illusion" target="_blank" rel="noopener"><span class="title">Müller-Lyer Illusion</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Müller-Lyer Illusion</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" data-page="denomination-effect">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/denomination-effect.json?v=43','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.">
+<title>Denomination Effect: Why Small Amounts Are Easier to Spend — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/denomination-effect.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/denomination-effect.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/efecto-denominacion.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/stuckelungseffekt.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/effet-de-denomination.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/denomination-effect.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/denomination-effect.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/denomination-effect.html">
+<meta property="og:title" content="Denomination Effect: Why Small Amounts Are Easier to Spend — UX Guidelines">
+<meta property="og:description" content="People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/denomination-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/denomination-effect.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/denomination-effect.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Denomination Effect: Why Small Amounts Are Easier to Spend — UX Guidelines">
+<meta name="twitter:description" content="People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Denomination Effect: Why Small Amounts Are Easier to Spend", "description": "People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.", "url": "https://www.ux-guidelines.com/denomination-effect.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/denomination-effect.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Shape Choices"}, {"@type": "ListItem", "position": 3, "name": "Denomination Effect: Why Small Amounts Are Easier to Spend", "item": "https://www.ux-guidelines.com/denomination-effect.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=135"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link active">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Denomination <em>Effect</em></h1>
+  <p class="tagline">Small change <em>is easier to spend</em>.</p>
+  <p class="subtitle">People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Priya Raghubir and Joydeep Srivastava named the effect in 2009. In their first study, students given four quarters spent them on candy 63 percent of the time; students given a single dollar bill spent it only 26 percent of the time. At a gas station, customers given five $1 bills were likelier to buy something than those given one $5 bill.</p>
+    <p class="body-text">Earlier work pointed the same way: in 2006 Arul Mishra and colleagues described a bias for the whole, and in 1998 John Gourville showed that a price framed as pennies a day feels smaller than the same total per year. Raghubir and Srivastava also found that people deliberately choose large notes when they want to control their spending.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">People are less likely to spend money held in one large unit than the same amount in smaller units. Small units feel less valuable and easier to break into, while a large one feels like a whole worth protecting, which people use as a commitment device against spending.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">Raghubir and Srivastava (2009)</div></div>
+      <div><div class="label">Also called</div><div class="value">Bias for the whole</div></div>
+      <div><div class="label">In practice</div><div class="value">Choose the unit people see on purpose</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Presenting prices, plans, balances, or credits.</li>
+      <li>Designing virtual currencies, points, top-ups, or bundles.</li>
+      <li>Building budgeting or savings features that help people spend less.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Decide whether a price should feel small or whole, and choose the unit and period to match.</li>
+      <li>Show the real-money total next to any credits, tokens, or per-day prices.</li>
+      <li>Help people who want to save by grouping money into larger, separate amounts.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Four Quarters or One Dollar -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Four Quarters or One Dollar</h3>
+      <p class="desc">Students given four quarters spent them 63 percent of the time; those given a single dollar bill spent it 26 percent of the time. The value was identical. Only the denomination changed.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="36" cy="50" r="9" class="a"/><circle cx="36" cy="50" r="5" class="ol"/><circle cx="58" cy="50" r="9" class="a"/><circle cx="58" cy="50" r="5" class="ol"/><circle cx="80" cy="50" r="9" class="a"/><circle cx="80" cy="50" r="5" class="ol"/><circle cx="102" cy="50" r="9" class="a"/><circle cx="102" cy="50" r="5" class="ol"/><rect x="132" y="38" width="64" height="26" rx="3" class="b"/><text x="69" y="84" text-anchor="middle" class="t">63%</text><text x="164" y="84" text-anchor="middle" class="t">26%</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the effect</div></div>
+      <div><div class="label">Use when</div><div class="value">Amounts can be shown in different units</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The amount is fixed and unavoidable</div></div>
+    </div>
+  </article>
+  <!-- 2. Many Small or One Large -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Bundles</span>
+      <span class="num">02 / 10</span>
+      <h3>Many Small or One Large</h3>
+      <p class="desc">Customers given five $1 bills were likelier to spend than those given one $5 bill. Splitting a balance or allowance into small units makes it easier to spend, and keeping it whole makes it easier to save.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="40" width="60" height="30" rx="3" class="a"/><rect x="30" y="44" width="60" height="30" rx="3" class="a"/><rect x="40" y="48" width="60" height="30" rx="3" class="a"/><rect x="50" y="52" width="60" height="30" rx="3" class="a"/><rect x="60" y="56" width="60" height="30" rx="3" class="a"/><rect x="132" y="46" width="70" height="34" rx="3" class="b"/><text x="60" y="100" text-anchor="middle" class="t">5 × $1</text><text x="167" y="100" text-anchor="middle" class="t">1 × $5</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Wallets, balances, and allowances</div></div>
+      <div><div class="label">Use when</div><div class="value">You want to encourage or limit spending</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The balance cannot be divided</div></div>
+    </div>
+  </article>
+  <!-- 3. Pennies a Day -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Framing</span>
+      <span class="num">03 / 10</span>
+      <h3>Pennies a Day</h3>
+      <p class="desc">A price shown per day feels smaller than the same total per year, because it compares to trivial daily expenses. Use small periods honestly, and show the total that will actually be charged.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="30" width="70" height="60" rx="6" class="ol"/><text x="65" y="64" text-anchor="middle" class="ta">$1/day</text><rect x="120" y="30" width="70" height="60" rx="6" class="ol"/><text x="155" y="64" text-anchor="middle" class="t">$365/yr</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Pricing pages and donations</div></div>
+      <div><div class="label">Use when</div><div class="value">Choosing a billing period to display</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The per-day framing hides a large commitment</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="anchoring-effect.html">Anchoring Effect</a></div>
+    </div>
+  </article>
+  <!-- 4. Credits Hide the Price -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Virtual currency</span>
+      <span class="num">04 / 10</span>
+      <h3>Credits Hide the Price</h3>
+      <p class="desc">Points, coins, and credits in large numbers turn real money into small, abstract units that are easy to spend. Show what each purchase costs in real money, or the currency becomes a dark pattern.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="40" cy="40" r="10" class="a"/><circle cx="66" cy="40" r="10" class="a"/><circle cx="92" cy="40" r="10" class="a"/><circle cx="118" cy="40" r="10" class="a"/><circle cx="144" cy="40" r="10" class="a"/><circle cx="170" cy="40" r="10" class="a"/><circle cx="40" cy="66" r="10" class="a"/><circle cx="66" cy="66" r="10" class="a"/><circle cx="92" cy="66" r="10" class="a"/><circle cx="118" cy="66" r="10" class="a"/><circle cx="144" cy="66" r="10" class="a"/><circle cx="170" cy="66" r="10" class="a"/><text x="110" y="106" text-anchor="middle" class="t">1,200 credits</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Games, marketplaces, and AI credits</div></div>
+      <div><div class="label">Use when</div><div class="value">Selling in-app currency</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The exchange rate is hidden</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="dark-patterns.html">Dark Patterns</a></div>
+    </div>
+  </article>
+  <!-- 5. Cashless Spends Easier -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Pain of paying</span>
+      <span class="num">05 / 10</span>
+      <h3>Cashless Spends Easier</h3>
+      <p class="desc">Raghubir and Srivastava’s earlier research found people more willing to spend with credit or gift cards than with cash. One-tap payments remove the moment of handing over money; show the amount clearly at the moment of payment.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="40" y="34" width="140" height="52" rx="8" class="b"/><rect x="40" y="34" width="140" height="14" rx="0" class="g"/><rect x="54" y="64" width="40" height="10" rx="5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Checkout and saved payment methods</div></div>
+      <div><div class="label">Use when</div><div class="value">Payment takes one tap</div></div>
+      <div><div class="label">Avoid when</div><div class="value">People are trying to control spending</div></div>
+    </div>
+  </article>
+  <!-- 6. Big Notes as a Commitment -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Self-control</span>
+      <span class="num">06 / 10</span>
+      <h3>Big Notes as a Commitment</h3>
+      <p class="desc">People who want to control their spending prefer to receive money in large denominations, because breaking a large note feels like a decision. Savings features can borrow this by locking money into separate, whole pots.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="26" width="160" height="70" rx="6" class="ol"/><rect x="44" y="40" width="132" height="14" rx="7" class="a"/><rect x="44" y="62" width="60" height="14" rx="7" class="b"/><text x="110" y="108" text-anchor="middle" class="t">pay with one tap</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Budgeting and savings features</div></div>
+      <div><div class="label">Use when</div><div class="value">Users set spending goals</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Money must be available instantly</div></div>
+    </div>
+  </article>
+  <!-- 7. A Bias for the Whole -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Whole value</span>
+      <span class="num">07 / 10</span>
+      <h3>A Bias for the Whole</h3>
+      <p class="desc">A single large amount feels worth more than the same amount in pieces, so people protect it. Showing a goal as one whole number can make it feel more valuable to keep intact.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="30" width="160" height="60" rx="6" class="b"/><text x="110" y="66" text-anchor="middle" class="ta" style="font-size:22px">$100</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Goals, rewards, and balances</div></div>
+      <div><div class="label">Use when</div><div class="value">You want people to preserve a balance</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The total is too abstract to motivate</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="choice-architecture.html">Choice Architecture</a></div>
+    </div>
+  </article>
+  <!-- 8. Use It to Help, Not to Drain -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">08 / 10</span>
+      <h3>Use It to Help, Not to Drain</h3>
+      <p class="desc">The same framing that helps people save can push them to overspend. Small units and per-day prices are fair when the total is visible; they are manipulative when they hide it.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="40" y="40" width="40" height="60" rx="3" class="b"/><rect x="90" y="60" width="40" height="40" rx="3" class="a"/><rect x="140" y="30" width="40" height="70" rx="3" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Pricing and monetization reviews</div></div>
+      <div><div class="label">Use when</div><div class="value">Monetization depends on small units</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Never hide the total cost</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Denomination Effect in the Age of AI</h3>
+    <p>AI products bill in tokens, credits, and fractions of a cent. Tiny units make usage feel free until the bill arrives.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="30" width="180" height="60" rx="8" class="ol"/><text x="110" y="56" text-anchor="middle" class="t">0.002¢ per token</text><text x="110" y="76" text-anchor="middle" class="ta">$24.80 this month</text></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Tokens Feel Free</h3>
+      <p class="desc">Prices quoted per token or per thousand tokens look negligible, while monthly bills can be large. Show running totals in real money, and warn people before they cross a budget.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Per token → per month</div></div>
+      <div><div class="label">Use when</div><div class="value">Billing for AI usage</div></div>
+      <div><div class="label">Watch for</div><div class="value">Only showing per-token prices</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="20" width="160" height="80" rx="6" class="ol"/><rect x="44" y="34" width="132" height="10" rx="5" class="b"/><rect x="44" y="52" width="100" height="10" rx="5" class="b"/><rect x="44" y="74" width="60" height="14" rx="7" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Agents Spending for Users</h3>
+      <p class="desc">When an AI agent can buy things on someone’s behalf, the pain of paying disappears entirely. Set spending limits, confirm purchases above a threshold, and show what was spent.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Human pays → agent pays</div></div>
+      <div><div class="label">Use when</div><div class="value">Agents can make purchases</div></div>
+      <div><div class="label">Watch for</div><div class="value">Agents spending without limits</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1086/599222" target="_blank" rel="noopener"><span class="title">The Denomination Effect — Raghubir and Srivastava, 2009</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1086/209517" target="_blank" rel="noopener"><span class="title">Pennies-a-Day: The Effect of Temporal Reframing on Transaction Evaluation — John Gourville, 1998</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.npr.org/templates/story/story.php?storyId=104063298" target="_blank" rel="noopener"><span class="title">Why We Spend Coins Faster Than Bills — NPR, 2009</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Denomination_effect" target="_blank" rel="noopener"><span class="title">Denomination Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Denomination Effect</div>
+</footer>
+
+</body>
+</html>

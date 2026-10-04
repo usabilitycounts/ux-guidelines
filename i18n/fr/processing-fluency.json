@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Fluidité de <em>traitement</em>"
+ ],
+ "header .tagline": [
+  "Ce qui est facile à traiter <em>semble vrai</em>."
+ ],
+ "header .subtitle": [
+  "La facilité avec laquelle on lit, voit ou se rappelle quelque chose colore la façon dont on le juge. Un contenu facile à traiter paraît plus vrai, plus familier et plus sympathique, qu'il le mérite ou non."
+ ],
+ ".law-origin .body-text": [
+  "En 1981, Larry Jacoby et Mark Dallas ont avancé que l'on perçoit la fluidité avec laquelle on traite une information et qu'on interprète cette facilité comme de la familiarité : ce qu'on a déjà vu se traite plus facilement, donc tout ce qui est facile semble déjà vu. Les recherches ont depuis relié ce même sentiment de facilité aux jugements de goût, de confiance et de vérité.",
+  "<a href=\"people.html#p-rolf-reber\">Rolf Reber</a> et <a href=\"people.html#p-norbert-schwarz\">Norbert Schwarz</a> ont montré en 1999 que des affirmations imprimées en couleurs très contrastées étaient plus souvent jugées vraies que les mêmes affirmations peu contrastées, et avec Piotr Winkielman ils ont proposé que la fluidité soit à la base du plaisir esthétique. <a href=\"people.html#p-adam-alter\">Adam Alter</a> et Daniel Oppenheimer ont ensuite constaté que les actions nouvellement cotées aux noms faciles à prononcer faisaient mieux pendant leur première semaine de cotation."
+ ],
+ ".law-content .law-desc": [
+  "La fluidité de traitement est la facilité subjective avec laquelle on assimile une information. On prend cette facilité pour une qualité du contenu lui-même : un contenu fluide est jugé plus vrai, plus familier, plus beau et plus fiable, et on y réfléchit moins attentivement."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Jacoby et Dallas (1981) · <a href=\"people.html#p-rolf-reber\">Reber</a> et <a href=\"people.html#p-norbert-schwarz\">Schwarz</a> (1999)",
+  "Fluidité cognitive",
+  "Rendre faciles à lire les choses vraies et importantes"
+ ],
+ ".apply-list li": [
+  "Vous rédigez et mettez en forme un contenu qui doit être compris et cru.",
+  "Vous nommez des produits, des fonctionnalités, des offres ou des réglages.",
+  "Vous présentez des affirmations, des chiffres ou des réponses d'IA que l'on pourrait accepter sans vérifier.",
+  "Utilisez une typographie lisible, un contraste fort, des mots simples et des modèles familiers pour le contenu à lire.",
+  "Choisissez des noms faciles à prononcer et à écrire.",
+  "Ajoutez une friction délibérée, comme un récapitulatif ou une confirmation, là où la réflexion compte plus que la vitesse."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Typographie",
+  "Familiarité",
+  "Esthétique",
+  "Noms",
+  "Friction",
+  "Clarté",
+  "Prudence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Facile à lire, donc vrai",
+  "La lisibilité inspire confiance",
+  "Le familier semble facile, et bon",
+  "Les formes simples plaisent",
+  "Des noms faciles à dire",
+  "La facilité fait survoler",
+  "Les mots simples l’emportent",
+  "Les polices difficiles ne sont pas une solution",
+  "Fluide n'est pas exact",
+  "Signaler ce qu’il faut vérifier"
+ ],
+ ".card .desc": [
+  "Des affirmations en couleurs très contrastées étaient plus souvent jugées vraies que des affirmations identiques peu contrastées. La présentation changeait le jugement, pas le contenu.",
+  "Une typographie nette, un bon contraste et une longueur de ligne confortable rendent un contenu plus crédible et son auteur plus compétent. Dans une étude, une écriture manuscrite illisible entraînait de moins bonnes notes, parce qu'elle était difficile à traiter.",
+  "Ce qui est répété ou familier se traite plus facilement, et cette facilité devient de l'appréciation : c'est l'effet de simple exposition. Les modèles d'interaction familiers plaisent en partie parce qu'ils ne demandent aucun effort.",
+  "La fluidité explique en partie pourquoi les designs clairs, équilibrés et épurés paraissent beaux. Les formes de produits très inhabituelles sont plus difficiles à traiter et souvent moins appréciées, même si une dose modérée de nouveauté est bienvenue.",
+  "Les actions nouvellement cotées dont le nom et le symbole boursier se prononçaient facilement faisaient mieux pendant leur première semaine que les autres. Des noms faciles à dire et à écrire inspirent plus confiance et se retiennent mieux.",
+  "Quand le traitement paraît facile, on réfléchit plus superficiellement et on rate plus facilement les erreurs. Pour les étapes importantes, ajoutez un moment d'attention délibérée, comme un écran de vérification ou une confirmation à saisir.",
+  "Les mots compliqués et les phrases alambiquées réduisent la fluidité, et les lecteurs jugent l'auteur moins intelligent. Un langage simple paraît plus crédible, pas moins.",
+  "Une étude de 2007 suggérait qu'un texte difficile à lire pousse à réfléchir davantage, mais une vaste réplication en 2015 n'a trouvé aucun bénéfice. Ne dégradez pas la lisibilité pour forcer l'attention ; ajoutez plutôt de vrais points de contrôle.",
+  "Une réponse d'IA bien mise en forme et assurée paraît vraie parce qu'elle est facile à lire, quelle que soit son exactitude. Affichez sources et niveau de confiance, pour que la sensation de facilité ne soit pas le seul indice.",
+  "Comme un texte fluide invite à survoler, attirez l'attention sur les parties les plus susceptibles d'être fausses, comme les chiffres, les noms et les citations, au lieu de donner à toute la réponse la même apparence de certitude."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Les affirmations doivent inspirer confiance",
+  "Le contenu est purement décoratif",
+  "Texte courant, politiques et tarifs",
+  "Le contenu doit être lu et cru",
+  "Une typographie de titre volontairement expressive",
+  "Choisir des modèles d'interaction",
+  "Une convention familière existe",
+  "La convention a échoué auprès des utilisateurs",
+  "Design visuel et forme des produits",
+  "La première impression compte",
+  "La nouveauté est le but, comme dans l'art",
+  "Noms de produits, de fonctionnalités et d’offres",
+  "Choisir un nom",
+  "Un nom difficile est un choix de marque délibéré",
+  "Confirmations et vérifications",
+  "Les erreurs coûtent cher",
+  "L'action est courante et réversible",
+  "Textes d'interface et documentation",
+  "Expliquer un produit ou une décision",
+  "Les spécialistes ont besoin de termes techniques exacts",
+  "Décisions de design fondées sur la recherche",
+  "Envisager la disfluence comme outil",
+  "Rendre un texte volontairement difficile à lire",
+  "Soigné → vérifié",
+  "L'IA répond aux questions",
+  "Le soin tenant lieu de preuve",
+  "Texte uniforme → incertitude signalée",
+  "Les résultats de l'IA alimentent des décisions",
+  "Chaque phrase paraît aussi certaine"
+ ],
+ ".ai-divider h3": [
+  "La fluidité de traitement à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les réponses d'IA sont fluides par conception : soignées, assurées et faciles à lire. Cette fluidité les fait paraître vraies, et c'est justement là qu'il faut vérifier."
+ ]
+}

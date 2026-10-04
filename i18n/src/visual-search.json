@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Visual <em>Search</em>"
+ ],
+ "header .tagline": [
+  "Some things <em>pop out</em>. Others make you hunt."
+ ],
+ "header .subtitle": [
+  "Finding something on a screen is fast when it differs from everything around it by one feature, such as color or shape. When it shares features with its neighbors, people check items one by one, and every extra item adds time."
+ ],
+ ".law-origin .body-text": [
+  "Visual search, finding a target among distractors, is one of the most studied tasks in perception, and people do it on every screen: a product on a shelf, a friend in a crowd, a button in a toolbar. Researchers measure how the time to find the target grows as more distractors are added.",
+  "In 1980 <a href=\"people.html#p-anne-treisman\">Anne Treisman</a> and Garry Gelade proposed feature integration theory: simple features such as color, orientation, and motion are registered in parallel, so a unique one pops out, while combining features takes attention, one item at a time. <a href=\"people.html#p-jeremy-wolfe\">Jeremy Wolfe</a>’s guided search model (1989) showed how knowing the target’s features steers attention, and his later work showed that rare targets are often missed."
+ ],
+ ".law-content .law-desc": [
+  "A target that differs from everything around it by a single feature, such as color or shape, pops out no matter how many items there are. When the target shares features with the distractors, people check items one by one, and search time grows with every item added."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-anne-treisman\">Treisman</a> and Gelade (1980)",
+  "Feature and conjunction search",
+  "Give important items one unique feature"
+ ],
+ ".apply-list li": [
+  "People need to find a specific item in a list, grid, toolbar, or dashboard.",
+  "Critical states, errors, or exceptions must be spotted quickly.",
+  "Screens are dense, or lists and catalogs keep growing.",
+  "Give the item people must find a feature nothing else shares, such as a color paired with an icon.",
+  "Reduce and group distractors, and let people filter to shrink the set.",
+  "Keep items in consistent places, so prior knowledge guides the eye."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Conjunction",
+  "Status",
+  "Clutter",
+  "Guidance",
+  "Rare targets",
+  "Familiarity",
+  "Measurement",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Pop-Out",
+  "When Nothing Pops Out",
+  "Make Status a Single Feature",
+  "Every Distractor Costs Time",
+  "Let People Filter by Eye",
+  "Rare Things Get Missed",
+  "Familiar Layouts Search Faster",
+  "Search Time Grows With Set Size",
+  "Highlight the Answer",
+  "A Second Searcher"
+ ],
+ ".card .desc": [
+  "A single red X among black ones is found instantly, whether there are ten distractors or a hundred. When one feature is unique, the visual system finds it in parallel, before attention has to do any work.",
+  "Finding a green X among purple Xs and green Os means checking items one at a time, because the target shares a feature with every distractor. Long lists of similar items work the same way.",
+  "Encode the states people must spot, such as errors or overdue items, with one feature nothing else uses. Pair color with an icon or shape, so the item pops out for people who don’t see color differences.",
+  "In a serial search, each extra item adds time. Remove what isn’t needed, group what remains, and offer filters, so people search a smaller set.",
+  "Knowing a target’s features lets people ignore everything else: looking for a red K among red Cs and black Ks, they skip the black letters. Consistent colors or icons for each type of item let people narrow the search on sight.",
+  "Wolfe and colleagues found that searchers miss far more targets when targets are rare, as in airport baggage screening. Problems that seldom appear in a queue or report need more than a visual scan to be caught.",
+  "In real life, people look where things usually are. Knowledge of where a search box or a cart icon belongs guides the eye before any scanning begins, so keep items in consistent, expected places.",
+  "Plotting the time to find a target against the number of items shows whether a search is parallel or serial. In usability tests, time how long people take to find items as lists grow.",
+  "When AI finds the relevant row, passage, or setting, highlight it in place instead of just describing it. A highlight turns a serial search into pop-out, and showing why it was chosen lets people check it.",
+  "AI review can flag rare defects or risks that human searchers tend to miss. Calibrate its thresholds, and keep people in the loop, since it can miss rare things too."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining feature search",
+  "One item must be found fast",
+  "Everything is meant to be equal",
+  "Long lists and dense screens",
+  "Items look alike",
+  "The list is short",
+  "Dashboards and status lists",
+  "An exception must be spotted",
+  "Many states compete for attention",
+  "Menus, tables, and grids",
+  "People hunt for one item",
+  "People browse rather than search",
+  "Icon systems and categories",
+  "Items fall into types",
+  "Categories are arbitrary",
+  "Review, moderation, and QA queues",
+  "Problems are rare",
+  "Targets are common",
+  "Navigation and page templates",
+  "People return often",
+  "A one-off screen seen once",
+  "Usability testing",
+  "Lists or catalogs are growing",
+  "Comparing tasks of different difficulty",
+  "Serial search → pop-out",
+  "AI finds items in lists or documents",
+  "Highlighting without saying why",
+  "Human only → human plus AI",
+  "Screening for rare problems",
+  "Trusting AI to catch everything"
+ ],
+ ".ai-divider h3": [
+  "Visual Search in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can find the needle and point at it, turning a slow serial search into pop-out. It can also be a second pair of eyes for the rare things people miss."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Chartjunk</em>"
+ ],
+ "header .tagline": [
+  "La tinta que no muestra datos <em>estorba</em>."
+ ],
+ "header .subtitle": [
+  "Las cuadrículas gruesas, los ejes ornamentados, los fondos con textura, el 3D gratuito y las imágenes decorativas añaden tinta sin añadir información. Parte de ella malgasta atención; otra parte distorsiona los propios datos."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-edward-tufte\">Edward Tufte</a> acuñó el término en The Visual Display of Quantitative Information (1983), a partir de ideas de un curso de estadística en Princeton que impartía con John Tukey. La decoración, sostenía, genera tinta que no le dice nada nuevo a quien mira, y un buen gráfico dedica a los datos tanta tinta como sea posible.",
+  "Señaló los gráficos ilustrados de <a href=\"people.html#p-nigel-holmes\">Nigel Holmes</a> para Time, quien respondió que Tufte estaba atrapado en el mundo académico y era ciego a la necesidad comercial de captar al público. La investigación ha matizado el panorama: los gráficos adornados pueden recordarse mejor, y profesionales como Stephen Few y Robert Kosara consideran que la definición es demasiado vaga."
+ ],
+ ".law-content .law-desc": [
+  "El chartjunk es cualquier elemento visual de un gráfico que no hace falta para entender los datos o que distrae de ellos. Una parte solo compite por la atención, como las cuadrículas gruesas y los marcos; la peor distorsiona los datos, como las barras en 3D y las imágenes dibujadas fuera de escala."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-tufte\">Tufte</a> (1983)",
+  "Tinta sin datos",
+  "Quita la tinta que no muestra datos"
+ ],
+ ".apply-list li": [
+  "Diseñas paneles, informes y gráficos que se leen para obtener valores.",
+  "Un gráfico usa efectos 3D, imágenes decorativas, cuadrículas gruesas o fondos con textura.",
+  "Revisas gráficos generados o hechos con plantillas antes de publicarlos.",
+  "Quita o aligera todo elemento que no codifique datos ni ayude a leerlos.",
+  "No uses nunca decoración que distorsione la escala, como barras en 3D o imágenes desproporcionadas.",
+  "Conserva las anotaciones y los iconos con significado que ayudan a entender, y elimina el resto."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Cuadrícula",
+  "3D",
+  "Fondos",
+  "Debate",
+  "Memoria",
+  "Criterio",
+  "Accesibilidad",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Tinta que no dice nada",
+  "Aligera la cuadrícula",
+  "Una tercera dimensión distorsiona",
+  "Los fondos recargados ocultan comparaciones",
+  "Tufte contra Holmes",
+  "¿Basura útil?",
+  "No toda la basura es igual",
+  "Los iconos pueden ayudar",
+  "A los gráficos generados les encanta decorar",
+  "Las anotaciones no son basura"
+ ],
+ ".card .desc": [
+  "Los marcos, las cuadrículas oscuras, los ejes ornamentados y los fondos sombreados añaden tinta que no aporta nada nuevo. Si los quitas, los mismos datos se leen más rápido y con más claridad.",
+  "Las cuadrículas gruesas o densas compiten con los datos por la atención. Aclara y adelgaza las líneas, o quítalas, y conserva solo lo que ayuda a leer los valores.",
+  "Las barras y los gráficos circulares en 3D añaden una dimensión sin datos, y la perspectiva hace que valores iguales parezcan distintos. Los gráficos planos comparan con honestidad.",
+  "Los patrones, las fotos y las texturas ruidosas detrás de un gráfico dificultan comparar barras y líneas. Pon los datos sobre un fondo liso y deja las imágenes al lado del gráfico, no debajo.",
+  "Tufte calificó de chartjunk los gráficos ilustrados de Nigel Holmes para Time; Holmes respondió que los gráficos comerciales necesitan captar al público. La tensión entre el rigor estadístico y el atractivo visual sigue ahí.",
+  "Un estudio de 2010 halló que los gráficos adornados al estilo de Holmes se leían con la misma precisión que los sobrios y se recordaban mejor semanas después, y uno de 2013 que los pictogramas hacen las visualizaciones más memorables. La decoración tiene un coste, pero no siempre neto.",
+  "Robert Kosara clasifica los adornos en dañinos, como un fondo recargado; inofensivos, como un borde discreto; y útiles, como una anotación. Juzga cada elemento por lo que hace por la comprensión.",
+  "Un estudio de 2021 halló que los iconos con significado hacían los gráficos más accesibles para personas con discapacidad intelectual y del desarrollo. El gráfico más minimalista no siempre es el más comprensible.",
+  "Las herramientas de gráficos con IA suelen añadir por defecto degradados, barras 3D redondeadas, sombras e iconos genéricos. Pide codificaciones sencillas y revisa el resultado como el borrador de un diseñador.",
+  "La IA puede escribir anotaciones breves que señalan lo importante en un gráfico, el tipo útil de tinta extra. Comprueba con los datos cada cifra que mencione."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la idea",
+  "Un gráfico lleva decoración",
+  "Cada elemento codifica datos",
+  "Gráficos y tablas",
+  "La cuadrícula es oscura o densa",
+  "Hay que leer valores exactos en la cuadrícula",
+  "Gráficos de barras, circulares y de áreas",
+  "Plantear efectos 3D",
+  "La profundidad solo sirve de decoración",
+  "Infografías y gráficos destacados",
+  "El gráfico está sobre una imagen o un patrón",
+  "El fondo ya es liso",
+  "Gráficos editoriales y de marketing",
+  "Los gráficos deben llamar la atención",
+  "Los gráficos apoyan decisiones precisas",
+  "Presentaciones e infografías",
+  "El recuerdo importa más que la precisión",
+  "Paneles que se leen a diario para valores exactos",
+  "Revisiones de gráficos",
+  "Decidir qué quitar",
+  "Eliminar anotaciones que explican",
+  "Gráficos para públicos amplios",
+  "Los lectores varían en competencia numérica",
+  "Los iconos no tienen significado",
+  "Estilo por defecto → codificación sencilla",
+  "Generar gráficos con IA",
+  "Aceptar los estilos decorativos por defecto",
+  "Decoración → explicación",
+  "La IA anota gráficos",
+  "Anotaciones con cifras sin verificar"
+ ],
+ ".ai-divider h3": [
+  "El chartjunk en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los gráficos generados suelen llegar con estilo: degradados, sombras, brillos e iconos. La pregunta de la tinta útil ya forma parte de revisar lo que produce la IA."
+ ]
+}

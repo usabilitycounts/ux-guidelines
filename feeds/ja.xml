@@ -5,21 +5,98 @@
   <link>https://www.ux-guidelines.com/ja/</link>
   <description>研究に基づくインターフェースデザインの法則、ヒューリスティクス、パターン。それぞれの起源、実践のための指針、AI時代に何が変わるかを解説。</description>
   <language>ja</language>
-  <lastBuildDate>Sun, 04 Oct 2026 17:34:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>リリースログ</title>
-    <link>https://www.ux-guidelines.com/ja/release-log.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/release-log.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:54 +0000</pubDate>
-    <description>UX Guidelinesの新しいページと主な改善を、新しい順に。</description>
+    <title>ミュラー・リヤー錯視</title>
+    <link>https://www.ux-guidelines.com/ja/muller-lyer-illusion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/muller-lyer-illusion.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>同じ長さの2本の線も、一方が矢じり、もう一方が矢羽で終わると違って見える。インターフェースでは、シェブロン、とがったバー、角のあるアイコンが、物の長さや幅の見え方をひそかに変える。</description>
+  </item>
+  <item>
+    <title>カーブカット効果</title>
+    <link>https://www.ux-guidelines.com/ja/curb-cut-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/curb-cut-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>障害のある人のために作られた機能は、想定よりはるかに多くの人に使われるようになる。歩道の段差解消、字幕、読み上げは配慮として始まり、誰もが頼るものになった。</description>
+  </item>
+  <item>
+    <title>チャートジャンク</title>
+    <link>https://www.ux-guidelines.com/ja/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>太いグリッド線、装飾された軸、模様のある背景、不要な3D、飾りの絵は、情報を増やさずにインクだけを増やす。注意を無駄にするものもあれば、データそのものをゆがめるものもある。</description>
+  </item>
+  <item>
+    <title>額面効果</title>
+    <link>https://www.ux-guidelines.com/ja/denomination-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/denomination-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>同じ金額でも、人は一つの大きな単位より、小さな単位のほうがお金を手放しやすい。価格、残高、クレジットをどう分けて見せるかで、使われやすさが変わる。</description>
+  </item>
+  <item>
+    <title>曖昧さ効果</title>
+    <link>https://www.ux-guidelines.com/ja/ambiguity-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/ambiguity-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>選択を迫られると、人は情報の欠けた選択肢より、結果を見積もれる選択肢を選ぶ。未知の選択肢が同じくらい良くても変わらない。隠れた価格、あいまいな見込み、不明確な結果は人を遠ざける。</description>
+  </item>
+  <item>
+    <title>視覚探索</title>
+    <link>https://www.ux-guidelines.com/ja/visual-search.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/visual-search.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>画面上で何かを見つけるのは、それが色や形など一つの特徴で周囲のすべてと違うときは速い。周囲と特徴を共有していると、人は一つずつ確かめるので、項目が一つ増えるたびに時間がかかる。</description>
+  </item>
+  <item>
+    <title>画像優位性効果</title>
+    <link>https://www.ux-guidelines.com/ja/picture-superiority-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/picture-superiority-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>人は、同じ内容を文章で読むより、画像のほうが確実に思い出し、見分けられる。具体的で区別しやすい画像は、機能、手順、説明を記憶に残す。ただし、画像が意味を伝えていることが条件だ。</description>
+  </item>
+  <item>
+    <title>説明可能性</title>
+    <link>https://www.ux-guidelines.com/ja/explainability.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/explainability.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>説明可能なAIは、システムがなぜその結果を出したのかを人に示し、判断し、異議を唱え、どこまで頼るかを決められるようにする。目指すのは信頼を増やすことではなく、適切な量の信頼だ。</description>
+  </item>
+  <item>
+    <title>バナー・ブラインドネス</title>
+    <link>https://www.ux-guidelines.com/ja/banner-blindness.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/banner-blindness.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>人は、広告のように見えるもの、広告の隣にあるもの、いつも広告がある場所に現れるものを読み飛ばすことを学んでいる。バナー風に見せた重要なコンテンツは、広告と一緒に消えてしまう。</description>
+  </item>
+  <item>
+    <title>処理流暢性</title>
+    <link>https://www.ux-guidelines.com/ja/processing-fluency.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/processing-fluency.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>何かを読む、見る、思い出すときの楽さが、その判断を左右する。処理しやすいコンテンツは、それにふさわしいかどうかに関係なく、より正しく、なじみ深く、好ましく感じられる。</description>
+  </item>
+  <item>
+    <title>リンディ効果</title>
+    <link>https://www.ux-guidelines.com/ja/lindy-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/lindy-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>アイデア、技術、慣習では、すでに長く生き残ってきたものほど、この先も長く生き残る可能性が高い。存続した1年1年が、その頑健さの証拠になる。</description>
   </item>
   <item>
     <title>アンカリング効果</title>
     <link>https://www.ux-guidelines.com/ja/anchoring-effect.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/ja/anchoring-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:16 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
     <description>人は、最初に見た数字を出発点にして値を判断し、そこから十分に離れない。価格、初期値、比較の基準、見積もりには、選んだかどうかにかかわらず、すべてアンカーがある。</description>
+  </item>
+  <item>
+    <title>リリースログ</title>
+    <link>https://www.ux-guidelines.com/ja/release-log.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/release-log.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
+    <description>UX Guidelinesの新しいページと主な改善を、新しい順に。</description>
   </item>
   <item>
     <title>アラーム疲労</title>
@@ -369,7 +446,7 @@
     <link>https://www.ux-guidelines.com/ja/</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/ja/</guid>
     <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
-    <description>研究に裏付けられた71件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。</description>
+    <description>研究に裏付けられた82件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。</description>
   </item>
   <item>
     <title>ヤコブの法則</title>

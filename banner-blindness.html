@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" data-page="banner-blindness">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/banner-blindness.json?v=43','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.">
+<title>Banner Blindness: Why Users Ignore Anything That Looks Like an Ad — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/banner-blindness.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/banner-blindness.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/ceguera-a-los-banners.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/bannerblindheit.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/cecite-aux-bannieres.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/banner-blindness.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/banner-blindness.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/banner-blindness.html">
+<meta property="og:title" content="Banner Blindness: Why Users Ignore Anything That Looks Like an Ad — UX Guidelines">
+<meta property="og:description" content="People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/banner-blindness.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/banner-blindness.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/banner-blindness.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Banner Blindness: Why Users Ignore Anything That Looks Like an Ad — UX Guidelines">
+<meta name="twitter:description" content="People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Banner Blindness: Why Users Ignore Anything That Looks Like an Ad", "description": "People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.", "url": "https://www.ux-guidelines.com/banner-blindness.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/banner-blindness.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Compose Pages"}, {"@type": "ListItem", "position": 3, "name": "Banner Blindness: Why Users Ignore Anything That Looks Like an Ad", "item": "https://www.ux-guidelines.com/banner-blindness.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=135"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link active">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Banner <em>Blindness</em></h1>
+  <p class="tagline">If it looks like an ad, <em>it gets ignored</em>.</p>
+  <p class="subtitle">People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The term comes from 1998 usability tests by <a href="people.html#p-jan-panero-benway">Jan Panero Benway</a> and <a href="people.html#p-david-lane">David Lane</a> at Rice University. People searching a website for information often missed it when it was presented in a banner, and the effect hit internal links, such as navigational quick links, as hard as outside advertising.</p>
+    <p class="body-text">Eye-tracking studies since then have refined the picture: people often glance at ads at least once, but they process and remember little of them. The Nielsen Norman Group, founded by <a href="people.html#p-jakob-nielsen">Jakob Nielsen</a> and <a href="people.html#p-don-norman">Don Norman</a>, has documented the behavior across three decades, including a 2018 eye-tracking study led by <a href="people.html#p-kara-pernice">Kara Pernice</a>, and concluded that users ignore content that resembles ads, is close to ads, or appears in places traditionally dedicated to ads.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">Visitors consciously or unconsciously ignore page elements that they perceive, rightly or wrongly, to be advertising. Banner-like shape, placement at the top or the right edge, animation, and proximity to real ads all signal “ad”, and anything with those signals gets skipped.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-jan-panero-benway">Benway</a> and <a href="people.html#p-david-lane">Lane</a> (1998)</div></div>
+      <div><div class="label">Also called</div><div class="value">Ad blindness</div></div>
+      <div><div class="label">In practice</div><div class="value">Don’t make content look like an ad</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Placing announcements, promotions, alerts, or calls to action on a page.</li>
+      <li>A page carries advertising or sponsored content.</li>
+      <li>Users report missing information that was clearly displayed.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Style important content like the rest of the content, not like a banner.</li>
+      <li>Keep key information in the main reading path, away from ad slots and sidebars.</li>
+      <li>Test whether people actually see it, with eye tracking, first-click tests, or task success.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Obvious Link Nobody Saw -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>The Obvious Link Nobody Saw</h3>
+      <p class="desc">In the 1998 tests, people looking for information missed it when it sat in a large, colorful banner, the most visually prominent thing on the page. Prominence styled as an ad works against you.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="12" width="184" height="26" rx="5" class="a"/><rect x="30" y="22" width="64" height="6" rx="3" class="b"/><rect x="18" y="50" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="60" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="70" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="80" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="90" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="100" width="74.4" height="5" rx="2.5" class="b"/><rect x="152" y="50" width="50" height="56" rx="5" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the effect</div></div>
+      <div><div class="label">Use when</div><div class="value">Information sits in a banner</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Content looks like content</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="eye-scanning-patterns.html">Eye Scanning Patterns</a></div>
+    </div>
+  </article>
+  <!-- 2. The Right Rail Is Invisible -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Placement</span>
+      <span class="num">02 / 10</span>
+      <h3>The Right Rail Is Invisible</h3>
+      <p class="desc">Users expect ads at the top of the page and in the right-hand column, so they skip those areas. Don’t put essential links, filters, or help where ads usually live.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="14" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="25" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="36" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="47" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="58" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="69" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="80" width="124" height="5" rx="2.5" class="b"/><rect x="18" y="91" width="74.4" height="5" rx="2.5" class="b"/><rect x="152" y="14" width="50" height="44" rx="5" class="g"/><rect x="152" y="64" width="50" height="42" rx="5" class="g"/><rect x="160" y="76" width="34" height="7" rx="3.5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Page layout and sidebars</div></div>
+      <div><div class="label">Use when</div><div class="value">Placing key links or tools</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The sidebar holds real navigation people expect</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 3. Contrast Can Backfire -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Styling</span>
+      <span class="num">03 / 10</span>
+      <h3>Contrast Can Backfire</h3>
+      <p class="desc">Making content look different to stand out often makes it look like an ad instead. The Nielsen Norman Group advises against giving content an ad-like treatment; distinctiveness only helps if it doesn’t read as promotion.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="14" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="24" width="110.4" height="5" rx="2.5" class="b"/><rect x="18" y="38" width="184" height="32" rx="6" class="a"/><rect x="30" y="50" width="90" height="8" rx="4" class="b"/><rect x="18" y="82" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="92" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="102" width="110.4" height="5" rx="2.5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Promotions, alerts, and calls to action</div></div>
+      <div><div class="label">Use when</div><div class="value">Content needs emphasis</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The element really is an ad</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="von-restorff-effect.html">Von Restorff Effect</a></div>
+    </div>
+  </article>
+  <!-- 4. Ads Poison Their Neighbors -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Proximity</span>
+      <span class="num">04 / 10</span>
+      <h3>Ads Poison Their Neighbors</h3>
+      <p class="desc">Content placed right next to ads gets ignored with them. Keep a clear separation between real content and advertising, so useful things aren’t skipped by association.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="14" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="24" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="34" width="110.4" height="5" rx="2.5" class="b"/><rect x="18" y="50" width="88" height="56" rx="6" class="g"/><rect x="114" y="50" width="88" height="56" rx="6" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Pages with advertising</div></div>
+      <div><div class="label">Use when</div><div class="value">Content sits near ad slots</div></div>
+      <div><div class="label">Avoid when</div><div class="value">There are no ads on the page</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="gestalt-principles.html">Gestalt Principles</a></div>
+    </div>
+  </article>
+  <!-- 5. Inline Ads on Phones -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Mobile</span>
+      <span class="num">05 / 10</span>
+      <h3>Inline Ads on Phones</h3>
+      <p class="desc">On small screens, ads inside the content stream teach people to scroll quickly past anything that looks boxed or sponsored. Cards that look like ad units risk the same fate.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="80" y="6" width="60" height="108" rx="10" class="b"/><rect x="88" y="18" width="44" height="4" rx="2" class="g"/><rect x="88" y="27" width="44" height="4" rx="2" class="g"/><rect x="88" y="36" width="26.4" height="4" rx="2" class="g"/><rect x="88" y="48" width="44" height="30" rx="5" class="a"/><rect x="88" y="88" width="44" height="4" rx="2" class="g"/><rect x="88" y="97" width="26.4" height="4" rx="2" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Mobile feeds and articles</div></div>
+      <div><div class="label">Use when</div><div class="value">Content uses boxed cards</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every card is clearly content</div></div>
+    </div>
+  </article>
+  <!-- 6. Movement Signals an Ad -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Animation</span>
+      <span class="num">06 / 10</span>
+      <h3>Movement Signals an Ad</h3>
+      <p class="desc">Users dislike animated ads and learn to avoid motion in the periphery. Animating an announcement may make it look more like an ad, not less.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="14" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="25" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="36" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="47" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="58" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="69" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="80" width="110.4" height="5" rx="2.5" class="b"/><circle cx="176" cy="92" r="9" class="a"/><path d="M158 84q-5 8 0 16" class="lg"/><path d="M150 80q-7 12 0 24" class="lg"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Announcements and onboarding tips</div></div>
+      <div><div class="label">Use when</div><div class="value">Considering animation for emphasis</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Motion shows a real state change</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="alarm-fatigue.html">Alarm Fatigue</a></div>
+    </div>
+  </article>
+  <!-- 7. Your Own Banners Too -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Internal promos</span>
+      <span class="num">07 / 10</span>
+      <h3>Your Own Banners Too</h3>
+      <p class="desc">Banner blindness isn’t only about third-party ads. Your own promotional banners for features, sales, or newsletters are skipped for the same reasons, and so are cookie and app-install banners people have learned to dismiss.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="12" width="184" height="26" rx="5" class="a"/><rect x="18" y="50" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="61" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="72" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="83" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="94" width="110.4" height="5" rx="2.5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Feature launches and in-house promotions</div></div>
+      <div><div class="label">Use when</div><div class="value">Announcing something new</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Announcements are rare and inline</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="dark-patterns.html">Dark Patterns</a></div>
+    </div>
+  </article>
+  <!-- 8. Seen Is Not Noticed -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Evidence</span>
+      <span class="num">08 / 10</span>
+      <h3>Seen Is Not Noticed</h3>
+      <p class="desc">Eye tracking shows people often look at ads at least once, yet recall little. Glancing at an element is not the same as reading it, so measure task success and recall, not just visibility.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="14" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="25" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="36" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="47" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="58" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="69" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="80" width="116" height="5" rx="2.5" class="b"/><rect x="18" y="91" width="69.6" height="5" rx="2.5" class="b"/><rect x="146" y="14" width="56" height="92" rx="5" class="g"/><circle cx="34" cy="22" r="4.5" class="a"/><circle cx="96" cy="38" r="4.5" class="a"/><circle cx="52" cy="62" r="4.5" class="a"/><circle cx="118" cy="72" r="4.5" class="a"/><circle cx="172" cy="52" r="4.5" class="a"/><circle cx="88" cy="96" r="4.5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Usability testing and analytics</div></div>
+      <div><div class="label">Use when</div><div class="value">Judging whether content was seen</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Treating impressions as attention</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="visual-search.html">Visual Search</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Banner Blindness in the Age of AI</h3>
+    <p>Sponsored answers and promoted suggestions are arriving inside AI responses. People will learn to skip those too, unless they are honest and clearly labeled.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="16" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="27" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="38" width="110.4" height="5" rx="2.5" class="b"/><rect x="18" y="56" width="184" height="44" rx="6" class="g"/><rect x="30" y="68" width="34" height="8" rx="4" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Sponsored Answers</h3>
+      <p class="desc">As ads appear inside AI answers, people will learn to recognize and skip them, and may distrust the content around them. Label sponsored content clearly and keep it visually separate from the answer.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Search ads → answer ads</div></div>
+      <div><div class="label">Use when</div><div class="value">Monetizing AI responses</div></div>
+      <div><div class="label">Watch for</div><div class="value">Blending ads into the answer</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="automation-bias.html">Automation Bias</a></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="12" width="184" height="22" rx="5" class="g"/><rect x="18" y="46" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="56" width="110.4" height="5" rx="2.5" class="b"/><rect x="18" y="68" width="116" height="14" rx="7" class="a"/><rect x="18" y="92" width="184" height="5" rx="2.5" class="b"/><rect x="18" y="102" width="110.4" height="5" rx="2.5" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>AI Banners Get Ignored Too</h3>
+      <p class="desc">Generic “Try our new AI” banners are just another promotion, and they’re skipped like every other one. Introduce AI where it helps the task, inside the flow, instead of in a banner above it.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Banner → inline entry point</div></div>
+      <div><div class="label">Use when</div><div class="value">Launching an AI feature</div></div>
+      <div><div class="label">Watch for</div><div class="value">Announcing AI in a top banner</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="progressive-disclosure.html">Progressive Disclosure</a></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="http://www.ruf.rice.edu/~lane/papers/banner_blindness.pdf" target="_blank" rel="noopener"><span class="title">Banner Blindness: Web Searchers Often Miss ‘Obvious’ Links — Benway and Lane, 1998</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1002/acp.1742" target="_blank" rel="noopener"><span class="title">Is Banner Blindness Genuine? Eye Tracking Internet Text Advertising — Hervet et al., 2011</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/" target="_blank" rel="noopener"><span class="title">Banner Blindness Revisited: Users Dodge Ads on Mobile and Desktop — Kara Pernice, Nielsen Norman Group, 2018</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Banner_blindness" target="_blank" rel="noopener"><span class="title">Banner Blindness</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Banner Blindness</div>
+</footer>
+
+</body>
+</html>

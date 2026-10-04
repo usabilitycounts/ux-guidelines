@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Curb-Cut-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Für Behinderung gestalten, <em>und alle profitieren</em>."
+ ],
+ "header .subtitle": [
+  "Funktionen für Menschen mit Behinderung werden am Ende von weit mehr Menschen genutzt, als vorgesehen war. Bordsteinabsenkungen, Untertitel und Sprachausgabe begannen als Hilfen und wurden zu etwas, auf das sich alle verlassen."
+ ],
+ ".law-origin .body-text": [
+  "Bordsteinabsenkungen gab es in Kalamazoo, Michigan, schon 1945, doch die, die das Land veränderten, kamen aus Berkeley, Kalifornien. Anfang der 1970er Jahre gossen der Aktivist Michael Pachovas und Freunde eine provisorische Rampe aus Zement an einen Bordstein, und 1972 baute die Stadt auf Druck von Aktivisten ihre erste offizielle Absenkung an der Telegraph Avenue. Der Americans with Disabilities Act von 1990 machte sie zum Standard.",
+  "Dann nutzten sie alle: Eltern mit Kinderwagen, Arbeiter mit Rollwagen, Reisende mit Koffern. Eine Studie in einem Einkaufszentrum in Sarasota, Florida, ergab, dass neun von zehn Fußgängern ohne Gepäck einen Umweg machten, um eine Absenkung zu nutzen. <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> gab dem Effekt 2017 in einem Essay seinen Namen: Veränderungen für eine ausgeschlossene Gruppe kommen am Ende allen zugute."
+ ],
+ ".law-content .law-desc": [
+  "Funktionen, die für Menschen mit Behinderung gestaltet wurden, werden am Ende von einer weit größeren Gruppe genutzt und geschätzt, als vorgesehen war. Der Effekt ist mit Universal Design verwandt, aber oft ungeplant: Der breitere Nutzen zeigt sich erst, wenn die Hilfe existiert."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Bordsteinabsenkungen in Berkeley (1972) · benannt von <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> (2017)",
+  "Curb-Cut-Prinzip",
+  "Für Behinderung gestalten, allen nützen"
+ ],
+ ".apply-list li": [
+  "Sie priorisieren Barrierefreiheit oder erklären ihren Wert gegenüber Stakeholdern.",
+  "Sie gestalten Medien-, Eingabe-, Lese- oder Navigationsfunktionen.",
+  "Menschen haben vorübergehende oder situative Einschränkungen, etwa Lärm, Blendung oder nur eine freie Hand.",
+  "Gehen Sie von den Bedürfnissen von Menschen mit Behinderung aus, und suchen Sie dann alle anderen, die profitieren.",
+  "Machen Sie den barrierefreien Weg zum Standardweg, nicht zu einem eigenen Modus.",
+  "Testen Sie mit Menschen mit Behinderung, und sehen Sie den breiteren Nutzen als Bonus, nicht als Grund."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Medien",
+  "Spektrum",
+  "Eingabe",
+  "Hören",
+  "Kontrast",
+  "Sprache",
+  "Vorsicht",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Rampen für alle",
+  "Untertitel für alle",
+  "Dauerhaft, vorübergehend, situativ",
+  "Tastaturbedienung beschleunigt alle",
+  "Sprachausgabe auf dem Arbeitsweg",
+  "Kontrast in der Sonne",
+  "Einfache Sprache für alle Lesenden",
+  "Nicht nur ein Business Case",
+  "Assistive Technik im Mainstream",
+  "Generierte Alternativtexte und Untertitel"
+ ],
+ ".card .desc": [
+  "Bordsteinabsenkungen wurden für Rollstühle gebaut, dann übernahmen Kinderwagen, Rollwagen, Koffer, Fahrräder und Läufer sie. Heute sehen kaum noch Menschen darin eine Barrierefreiheitsfunktion, ein Zeichen dafür, dass der Effekt wirkt.",
+  "Untertitel für gehörlose und schwerhörige Menschen werden an lauten Orten, in stillen Büros, von Sprachlernenden und bei stumm startenden Videos genutzt. Untertiteln Sie jedes Video mit Sprache.",
+  "Microsofts Inclusive-Design-Toolkit stellt einer dauerhaften Behinderung vorübergehende und situative Varianten gegenüber: ein Arm, ein Arm in Gips, ein Elternteil mit Baby auf dem Arm. Gestalten Sie für den dauerhaften Fall, und die anderen profitieren mit.",
+  "Tastaturnavigation für Menschen, die keine Maus nutzen können, ist auch der Weg, auf dem Power-User durch ein Produkt fliegen. Eine logische Fokusreihenfolge und sichtbarer Fokus helfen allen, die Tasten bevorzugen.",
+  "Sprachausgabe wurde für blinde Menschen entwickelt, und heute hören Menschen Artikel, Studien und Bücher beim Pendeln oder nebenbei. Semantisches Markup und echter Text machen sie für beide nutzbar.",
+  "Hoher Kontrast, nötig für Menschen mit Sehbehinderung, hilft auch allen, die ein Smartphone in der Sonne oder einen billigen Bildschirm schräg ablesen. Halten Sie Kontrastverhältnisse für alle Texte und Bedienelemente ein.",
+  "Klar zu schreiben für Menschen mit kognitiven Beeinträchtigungen hilft auch Nicht-Muttersprachlern, müden Lesenden und allen, die überfliegen. Kurze Sätze und vertraute Wörter kosten Fachleute nichts.",
+  "Kritiker wie der Rechtswissenschaftler Blake Reid warnen, dass das Curb-Cut-Argument die Bedürfnisse von Menschen mit Behinderung hinter allgemeinen Nutzen stellen und Funktionen ausblenden kann, die nur ihnen helfen. Bauen Sie Barrierefreiheit, weil Menschen sie brauchen; der breitere Nutzen ist ein Bonus.",
+  "Sprachassistenten, Live-Untertitel und Vorlesefunktionen entstanden aus Technik für Menschen mit Behinderung. Beziehen Sie diese Menschen weiter in Tests ein, wenn sich die Funktionen ändern, denn sie sind am meisten darauf angewiesen.",
+  "KI kann Bilder beschreiben und Audio im großen Maßstab untertiteln, was auch allen hilft, die suchen und überfliegen. Fehler treffen jene am härtesten, die darauf angewiesen sind, also prüfen Sie generierte Beschreibungen wichtiger Inhalte."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Für eine Barrierefreiheitsfunktion argumentieren",
+  "Die Funktion ist eine individuelle Anpassung",
+  "Video- und Audioinhalte",
+  "Auf der Seite läuft ein Medium",
+  "Das Video hat weder Sprache noch bedeutsamen Ton",
+  "Barrierefreiheit einordnen",
+  "Entscheiden, für wen gestaltet wird",
+  "Situativ Eingeschränkte als Hauptzielgruppe behandeln",
+  "Formulare, Werkzeuge und Produktivitäts-Apps",
+  "Menschen wiederholen Aufgaben häufig",
+  "Das Gerät hat überhaupt keine Tastatur",
+  "Lange Artikel und Dokumente",
+  "Inhalte werden ausführlich gelesen",
+  "Der Text besteht aus kurzen Beschriftungen",
+  "Texte und Bedienelemente überall",
+  "Farben wählen",
+  "Rein dekorative Elemente",
+  "Anleitungen, Fehlermeldungen und Richtlinien",
+  "Text erklärt eine Aufgabe",
+  "Fachleute brauchen exakte Fachbegriffe",
+  "Planung und Fürsprache für Barrierefreiheit",
+  "Barrierefreiheit begründen",
+  "Allgemeiner Nutzen ist das einzige Argument",
+  "Assistiv → alltäglich",
+  "Sprache, Untertitel oder Beschreibungen ausliefern",
+  "Nur auf den Mainstream optimieren",
+  "Manuell → generiert",
+  "KI schreibt Alternativtexte oder Untertitel",
+  "Generierte Alternativtexte ungeprüft veröffentlichen"
+ ],
+ ".ai-divider h3": [
+  "Der Curb-Cut-Effekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Spracherkennung, Sprachausgabe und Bildbeschreibung begannen als assistive Technologien. KI hat sie zu Alltagsfunktionen gemacht."
+ ]
+}

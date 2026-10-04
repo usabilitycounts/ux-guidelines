@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Explicabilidad</em>"
+ ],
+ "header .tagline": [
+  "Muestra <em>por qué</em>, no solo qué."
+ ],
+ "header .subtitle": [
+  "La IA explicable muestra a las personas por qué un sistema produjo un resultado, para que puedan juzgarlo, cuestionarlo y decidir hasta qué punto confiar en él. El objetivo no es más confianza, sino la justa."
+ ],
+ ".law-origin .body-text": [
+  "La explicación en la IA es más antigua que la caja negra. A comienzos de los años setenta, MYCIN, el sistema de investigación de <a href=\"people.html#p-edward-shortliffe\">Edward Shortliffe</a> en Stanford para diagnosticar infecciones de la sangre, podía mostrar cuáles de sus reglas escritas a mano habían llevado a un diagnóstico. Cuando se impusieron modelos opacos como las redes neuronales profundas, a menudo ni sus propios diseñadores podían decir por qué un modelo daba cierto resultado.",
+  "La IA explicable (XAI) se convirtió en un campo propio en la década de 2010, con métodos como LIME y SHAP, el programa XAI de DARPA y el derecho a una explicación del RGPD europeo. <a href=\"people.html#p-cynthia-rudin\">Cynthia Rudin</a> defendió que las decisiones de alto riesgo deberían usar modelos interpretables por diseño, y la investigación de Gagan Bansal, <a href=\"people.html#p-besmira-nushi\">Besmira Nushi</a>, <a href=\"people.html#p-dan-weld\">Dan Weld</a> y sus colegas mostró que las explicaciones pueden hacer que la gente acepte las respuestas erróneas de una IA tan fácilmente como las correctas."
+ ],
+ ".law-content .law-desc": [
+  "La explicabilidad es la medida en que las personas pueden entender por qué un sistema de IA produjo un resultado concreto. La interpretabilidad trata de cómo funciona un modelo en conjunto; la explicabilidad trata de este resultado, para esta persona. Las buenas explicaciones permiten revisar una decisión, impugnarla y ajustar cuánto se confía en el sistema."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "MYCIN de <a href=\"people.html#p-edward-shortliffe\">Shortliffe</a> (años setenta) · Ribeiro et al. (2016)",
+  "IA explicable (XAI)",
+  "Mostrar el porqué de forma verificable"
+ ],
+ ".apply-list li": [
+  "Un sistema de IA recomienda, ordena, marca o decide algo que importa a las personas.",
+  "Las personas deben juzgar si confiar en una predicción o anularla.",
+  "Las decisiones están sujetas a revisión, apelación o normas como el derecho a una explicación del RGPD.",
+  "Explica el resultado concreto con palabras sencillas, nombrando los pocos factores que más pesaron.",
+  "Responde a la pregunta que la gente se hace de verdad, que suele ser por qué este resultado y no otro.",
+  "Busca una confianza calibrada: muestra la incertidumbre y los límites, y comprueba si las explicaciones ayudan a detectar errores."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Explicaciones locales",
+  "Contrastivo",
+  "Público",
+  "Confianza",
+  "Calibración",
+  "Auditoría",
+  "Diseño",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Abrir la caja negra",
+  "Explicar este resultado",
+  "Responder a «¿Por qué no?»",
+  "Adaptar la explicación al lector",
+  "Entender no es confiar",
+  "Las explicaciones pueden exagerar",
+  "Desenmascarar al Hans el Listo",
+  "Interpretable mejor que explicado",
+  "El razonamiento escrito no es una explicación",
+  "Mostrar fuentes, no solo seguridad"
+ ],
+ ".card .desc": [
+  "Un modelo de caja negra da una respuesta sin razón; un modelo de caja de cristal muestra su razonamiento. Las explicaciones deben decir qué hizo el sistema, qué está haciendo, qué hará después y en qué información se basa.",
+  "La gente rara vez quiere saber cómo funciona un modelo entero; quiere saber por qué dijo esto sobre ella. Métodos locales como LIME y SHAP muestran qué datos de entrada subieron o bajaron una predicción concreta.",
+  "La gente suele preguntar por qué este resultado y no el que esperaba. La revisión de Tim Miller sobre investigación en ciencias sociales concluye que las buenas explicaciones son contrastivas y destacan unas pocas causas en lugar de enumerar todos los factores.",
+  "La misma explicación puede resultar superficial para un experto y demasiado técnica para un principiante. Empieza con una razón breve en palabras sencillas y deja que la gente abra los detalles que necesite.",
+  "En un estudio de 2019 sobre un algoritmo de admisiones, las explicaciones interactivas ayudaron a la gente a entender sus decisiones, pero no aumentaron su confianza en él. Lo seguían viendo demasiado rígido frente a personas que pueden considerar excepciones y apelaciones.",
+  "Un estudio de 2021 halló que las explicaciones aumentaban la frecuencia con que la gente aceptaba la recomendación de una IA, tanto si era correcta como si no. El objetivo es una confianza calibrada: suficiente para usar el sistema, no tanta como para dejar de comprobar.",
+  "Unos investigadores encontraron un clasificador de imágenes que reconocía caballos por una marca de copyright en la esquina de las fotos, no por el caballo. Las explicaciones ayudan a los equipos a detectar atajos así antes de que los vean los usuarios.",
+  "Cynthia Rudin sostiene que, en decisiones de alto riesgo, los modelos interpretables por diseño son mejores que las cajas negras con explicaciones añadidas después, porque una explicación aparte no puede ser del todo fiel al modelo que describe.",
+  "El razonamiento paso a paso de un modelo parece una explicación, pero no hay garantía de que refleje cómo se produjo realmente la respuesta. No lo presentes como prueba; acompáñalo de evidencias que la gente pueda comprobar.",
+  "Vincula cada afirmación con la fuente de la que procede, para que la gente pueda verificarla por sí misma. Una cita permite comprobar una respuesta; un tono seguro solo pide que se la crean."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la idea",
+  "Un modelo decide sin decir por qué",
+  "El resultado es trivial y de bajo riesgo",
+  "Recomendaciones, puntuaciones y alertas",
+  "Un resultado afecta a una persona",
+  "Auditar todo el modelo de una vez",
+  "Denegaciones, clasificaciones y rechazos",
+  "El resultado sorprendió a la persona",
+  "Enumerar todos los factores a la vez",
+  "Productos con públicos diversos",
+  "Los usuarios difieren en experiencia",
+  "Una sola explicación debe servir para todos",
+  "Decisiones de alto riesgo sobre personas",
+  "Esperar que las explicaciones logren aceptación",
+  "Tratar la confianza como único objetivo",
+  "IA que apoya decisiones",
+  "Probar si las explicaciones ayudan",
+  "Medir solo con qué frecuencia la gente está de acuerdo",
+  "Revisión de modelos y control de calidad",
+  "La precisión parece demasiado buena para ser verdad",
+  "Tomar una buena puntuación como prueba de razonamiento",
+  "Crédito, salud y justicia",
+  "Hay mucho en juego y las decisiones se impugnan",
+  "Un modelo más simple cuesta demasiada precisión",
+  "Texto de razonamiento → evidencia comprobable",
+  "Mostrar el razonamiento de una IA",
+  "Tomar un razonamiento fluido como prueba",
+  "Seguridad → citas",
+  "La IA responde a partir de documentos",
+  "Citas que no respaldan la afirmación"
+ ],
+ ".ai-divider h3": [
+  "La explicabilidad en la era de la IA generativa"
+ ],
+ ".ai-divider p": [
+  "Los modelos de lenguaje redactan explicaciones fluidas cuando se les pide. Eso hace que las explicaciones sean baratas de producir y fáciles de creer, reflejen o no cómo se obtuvo la respuesta."
+ ]
+}

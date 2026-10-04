@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Chartjunk</em>"
+ ],
+ "header .tagline": [
+  "Ink that shows no data <em>gets in the way</em>."
+ ],
+ "header .subtitle": [
+  "Heavy gridlines, ornamented axes, textured backgrounds, gratuitous 3-D, and decorative pictures add ink without adding information. Some of it wastes attention; some of it distorts the data itself."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-edward-tufte\">Edward Tufte</a> coined the term in The Visual Display of Quantitative Information (1983), building on ideas from a Princeton statistics course he taught with John Tukey. Decoration, he argued, generates ink that tells the viewer nothing new, and good graphics devote as much of their ink as possible to the data.",
+  "He singled out the illustrated charts of Time’s <a href=\"people.html#p-nigel-holmes\">Nigel Holmes</a>, who replied that Tufte was trapped in the world of academia and blind to the commercial need to grab an audience. Research has since complicated the picture: embellished charts can be remembered better, and practitioners such as Stephen Few and Robert Kosara argue that the definition is too loose."
+ ],
+ ".law-content .law-desc": [
+  "Chartjunk is any visual element in a chart that isn’t needed to understand the data, or that distracts from it. Some of it only competes for attention, like heavy grids and frames; the worse kind distorts the data, like 3-D bars and pictures drawn out of scale."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-tufte\">Tufte</a> (1983)",
+  "Non-data-ink",
+  "Remove ink that does not show data"
+ ],
+ ".apply-list li": [
+  "Designing dashboards, reports, and charts that people read for values.",
+  "A chart uses 3-D effects, decorative images, heavy grids, or textured backgrounds.",
+  "Reviewing generated or templated charts before publishing.",
+  "Remove or lighten every element that doesn’t encode data or help people read it.",
+  "Never use decoration that distorts scale, such as 3-D bars or out-of-proportion pictures.",
+  "Keep annotations and meaningful icons that help people understand, and cut the rest."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Gridlines",
+  "3-D",
+  "Backgrounds",
+  "Debate",
+  "Memory",
+  "Judgment",
+  "Accessibility",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Ink That Says Nothing",
+  "Lighten the Grid",
+  "A Third Dimension Distorts",
+  "Busy Backgrounds Hide Comparisons",
+  "Tufte Versus Holmes",
+  "Useful Junk?",
+  "Not All Junk Is Equal",
+  "Icons Can Help",
+  "Generated Charts Love Decoration",
+  "Annotations Are Not Junk"
+ ],
+ ".card .desc": [
+  "Frames, dark grids, ornamented axes, and shaded backgrounds add ink that tells the viewer nothing new. Strip them away and the same data reads faster and more clearly.",
+  "Heavy or dense gridlines compete with the data for attention. Lighten and thin them, or remove them entirely, and keep only what helps people read values.",
+  "3-D bars and pies add a dimension that carries no data, and perspective makes equal values look unequal. Flat charts compare honestly.",
+  "Patterns, photos, and noisy textures behind a chart make bars and lines harder to compare. Put data on a plain background, and keep imagery beside the chart rather than under it.",
+  "Tufte attacked Nigel Holmes’s illustrated charts for Time as chartjunk; Holmes answered that commercial graphics need to grab an audience. The tension between statistical rigor and visual appeal hasn’t gone away.",
+  "A 2010 study found that Holmes-style embellished charts were read as accurately as plain ones and remembered better weeks later, and a 2013 study found that pictograms make visualizations more memorable. Decoration has a cost, but not always a net one.",
+  "Robert Kosara sorts embellishment into harmful, such as a busy background; harmless, such as a tasteful border; and helpful, such as an annotation. Judge each element by what it does to understanding.",
+  "A 2021 study found that semantically meaningful icons made charts more accessible to people with intellectual and developmental disabilities. The most minimal chart isn’t always the most understandable one.",
+  "AI chart tools often add gradients, rounded 3-D bars, shadows, and stock icons by default. Ask for plain encodings, and review the result as you would a designer’s draft.",
+  "AI can write short annotations that point out what matters in a chart, the helpful kind of extra ink. Check every number it states against the data."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the idea",
+  "A chart carries decoration",
+  "Every element encodes data",
+  "Charts and tables",
+  "Gridlines are dark or dense",
+  "Exact values must be read off the grid",
+  "Bar, pie, and area charts",
+  "Considering 3-D effects",
+  "Depth is used only as decoration",
+  "Infographics and hero charts",
+  "A chart sits on an image or pattern",
+  "The background is already plain",
+  "Editorial and marketing graphics",
+  "Charts must attract attention",
+  "Charts support precise decisions",
+  "Presentations and infographics",
+  "Recall matters more than precision",
+  "Dashboards read daily for exact values",
+  "Chart reviews",
+  "Deciding what to remove",
+  "Stripping annotations that explain",
+  "Charts for broad audiences",
+  "Readers vary in numeracy",
+  "Icons carry no meaning",
+  "Default styling → plain encoding",
+  "Generating charts with AI",
+  "Accepting decorative defaults",
+  "Decoration → explanation",
+  "AI annotates charts",
+  "Annotations with unverified numbers"
+ ],
+ ".ai-divider h3": [
+  "Chartjunk in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generated charts tend to arrive styled: gradients, shadows, glows, and icons. The data-ink question is now part of reviewing AI output."
+ ]
+}

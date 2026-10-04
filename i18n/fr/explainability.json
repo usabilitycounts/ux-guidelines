@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Explicabilité</em>"
+ ],
+ "header .tagline": [
+  "Montrez <em>pourquoi</em>, pas seulement quoi."
+ ],
+ "header .subtitle": [
+  "L'IA explicable montre aux gens pourquoi un système a produit un résultat, pour qu'ils puissent le juger, le contester et décider jusqu'où s'y fier. Le but n'est pas plus de confiance, mais la juste dose."
+ ],
+ ".law-origin .body-text": [
+  "L'explication en IA est plus ancienne que la boîte noire. Au début des années 1970, MYCIN, le système de recherche d'<a href=\"people.html#p-edward-shortliffe\">Edward Shortliffe</a> à Stanford pour diagnostiquer les infections du sang, pouvait montrer quelles règles écrites à la main avaient mené à un diagnostic. Avec l'essor de modèles opaques comme les réseaux de neurones profonds, même leurs concepteurs ne savaient souvent plus dire pourquoi un modèle donnait tel résultat.",
+  "L'IA explicable (XAI) est devenue un domaine à part entière dans les années 2010, avec des méthodes comme LIME et SHAP, le programme XAI de la DARPA et le droit à l'explication du RGPD européen. <a href=\"people.html#p-cynthia-rudin\">Cynthia Rudin</a> a soutenu que les décisions à fort enjeu devraient reposer sur des modèles interprétables par conception, et les recherches de Gagan Bansal, <a href=\"people.html#p-besmira-nushi\">Besmira Nushi</a>, <a href=\"people.html#p-dan-weld\">Dan Weld</a> et leurs collègues ont montré que les explications peuvent faire accepter les mauvaises réponses d'une IA aussi facilement que les bonnes."
+ ],
+ ".law-content .law-desc": [
+  "L'explicabilité désigne la capacité des gens à comprendre pourquoi un système d'IA a produit un résultat donné. L'interprétabilité porte sur le fonctionnement global d'un modèle ; l'explicabilité porte sur ce résultat, pour cette personne. De bonnes explications permettent de vérifier une décision, de la contester et d'ajuster sa confiance dans le système."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "MYCIN de <a href=\"people.html#p-edward-shortliffe\">Shortliffe</a> (années 1970) · Ribeiro et al. (2016)",
+  "IA explicable (XAI)",
+  "Montrer pourquoi, de façon vérifiable"
+ ],
+ ".apply-list li": [
+  "Un système d'IA recommande, classe, signale ou décide quelque chose d'important pour les gens.",
+  "Les gens doivent juger s'ils peuvent se fier à une prédiction ou la contourner.",
+  "Les décisions font l'objet de révisions, de recours ou de règles comme le droit à l'explication du RGPD.",
+  "Expliquez le résultat précis en mots simples, en nommant les quelques facteurs qui ont le plus compté.",
+  "Répondez à la question que les gens se posent vraiment, souvent : pourquoi ce résultat plutôt qu'un autre.",
+  "Visez une confiance calibrée : montrez l'incertitude et les limites, et vérifiez que les explications aident à repérer les erreurs."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Explications locales",
+  "Contrastif",
+  "Public",
+  "Confiance",
+  "Calibrage",
+  "Audit",
+  "Conception",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Ouvrir la boîte noire",
+  "Expliquer ce résultat",
+  "Répondre à « Pourquoi pas ? »",
+  "Adapter l'explication au lecteur",
+  "Comprendre n'est pas faire confiance",
+  "Les explications peuvent survendre",
+  "Démasquer le Hans le Malin",
+  "L'interprétable plutôt que l'expliqué",
+  "Un raisonnement écrit n'est pas une explication",
+  "Montrer les sources, pas seulement l’assurance"
+ ],
+ ".card .desc": [
+  "Un modèle boîte noire donne une réponse sans raison ; un modèle boîte de verre montre son raisonnement. Une explication doit dire ce que le système a fait, ce qu'il fait, ce qu'il fera ensuite et sur quelles informations il s'appuie.",
+  "Les gens veulent rarement savoir comment fonctionne un modèle entier ; ils veulent savoir pourquoi il a dit ceci, à leur sujet. Des méthodes locales comme LIME et SHAP montrent quelles entrées ont fait monter ou baisser une prédiction.",
+  "Les gens demandent surtout pourquoi ce résultat plutôt que celui qu'ils attendaient. La synthèse de Tim Miller sur les sciences sociales montre que les bonnes explications sont contrastives et retiennent quelques causes au lieu d'énumérer tous les facteurs.",
+  "La même explication peut être trop superficielle pour un expert et trop technique pour un débutant. Commencez par une raison courte en mots simples, et laissez les gens ouvrir les détails dont ils ont besoin.",
+  "Dans une étude de 2019 sur un algorithme d'admission, des explications interactives ont aidé les gens à comprendre ses décisions sans leur faire davantage confiance. Ils le jugeaient toujours trop rigide face à des décideurs humains capables de tenir compte des exceptions et des recours.",
+  "Une étude de 2021 a montré que les explications augmentaient la fréquence à laquelle les gens acceptaient la recommandation d'une IA, qu'elle soit juste ou fausse. Le but est une confiance calibrée : assez pour utiliser le système, pas au point de cesser de vérifier.",
+  "Des chercheurs ont découvert un classificateur d'images qui reconnaissait les chevaux grâce à une mention de copyright dans le coin des photos, et non au cheval. Les explications aident les équipes à repérer ces raccourcis avant les utilisateurs.",
+  "Cynthia Rudin soutient que pour les décisions à fort enjeu, les modèles interprétables par conception valent mieux que des boîtes noires accompagnées d'explications après coup, car une explication séparée ne peut pas être parfaitement fidèle au modèle qu'elle décrit.",
+  "Le raisonnement pas à pas d'un modèle ressemble à une explication, mais rien ne garantit qu'il reflète la façon dont la réponse a réellement été produite. Ne le présentez pas comme une preuve ; associez-le à des éléments vérifiables.",
+  "Reliez chaque affirmation à sa source, pour que les gens puissent la vérifier eux-mêmes. Une citation permet de vérifier une réponse ; un ton assuré demande seulement d'y croire."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'idée",
+  "Un modèle décide sans dire pourquoi",
+  "Le résultat est anodin et sans enjeu",
+  "Recommandations, scores et alertes",
+  "Un résultat concerne une personne",
+  "Auditer tout le modèle d'un coup",
+  "Refus, classements et rejets",
+  "Le résultat a surpris la personne",
+  "Énumérer tous les facteurs à la fois",
+  "Produits aux publics variés",
+  "Les utilisateurs ont des niveaux d'expertise différents",
+  "Une seule explication doit convenir à tous",
+  "Décisions à fort enjeu sur des personnes",
+  "Attendre des explications qu’elles fassent accepter",
+  "Faire de la confiance le seul objectif",
+  "IA d'aide à la décision",
+  "Tester si les explications aident",
+  "Mesurer seulement la fréquence d'accord",
+  "Revue de modèles et contrôle qualité",
+  "La précision semble trop belle pour être vraie",
+  "Prendre un bon score pour une preuve de raisonnement",
+  "Crédit, santé et justice",
+  "Les enjeux sont élevés et les décisions contestées",
+  "Un modèle plus simple coûte trop de précision",
+  "Texte de raisonnement → preuves vérifiables",
+  "Montrer le raisonnement d'une IA",
+  "Prendre un raisonnement fluide pour une preuve",
+  "Assurance → citations",
+  "L'IA répond à partir de documents",
+  "Des citations qui n'appuient pas l'affirmation"
+ ],
+ ".ai-divider h3": [
+  "L'explicabilité à l'ère de l'IA générative"
+ ],
+ ".ai-divider p": [
+  "Les modèles de langage rédigent sur demande des explications fluides. Elles deviennent bon marché à produire et faciles à croire, qu'elles reflètent ou non la façon dont la réponse a été obtenue."
+ ]
+}

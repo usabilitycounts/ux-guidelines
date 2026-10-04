@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto <em>rampa</em>"
+ ],
+ "header .tagline": [
+  "Diseña para la discapacidad <em>y todos salen ganando</em>."
+ ],
+ "header .subtitle": [
+  "Las funciones creadas para personas con discapacidad acaban usándolas muchas más personas de las previstas. Las rampas en las aceras, los subtítulos y la lectura en voz alta empezaron como adaptaciones y se volvieron imprescindibles para todos."
+ ],
+ ".law-origin .body-text": [
+  "En Kalamazoo, Michigan, ya había rampas en las aceras en 1945, pero las que cambiaron el país vinieron de Berkeley, California. A principios de los años setenta, el activista Michael Pachovas y unos amigos vertieron cemento para formar una rampa improvisada en un bordillo, y en 1972, presionada por los activistas, la ciudad instaló su primera rampa oficial en Telegraph Avenue. La Ley de Estadounidenses con Discapacidades de 1990 las convirtió en norma.",
+  "Después todo el mundo empezó a usarlas: padres con carritos, trabajadores con carretillas, viajeros con maletas. Un estudio en un centro comercial de Sarasota, Florida, halló que nueve de cada diez peatones sin carga se desviaban para usar una rampa. <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> le dio nombre al efecto en un ensayo de 2017: los cambios pensados para un grupo excluido acaban beneficiando a todos."
+ ],
+ ".law-content .law-desc": [
+  "Las funciones diseñadas para personas con discapacidad acaban siendo usadas y valoradas por un grupo mucho mayor del previsto. El efecto es pariente del diseño universal, pero a menudo no se planifica: el beneficio amplio aparece solo cuando la adaptación ya existe."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Rampas de Berkeley (1972) · nombrado por <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> (2017)",
+  "Principio de la rampa",
+  "Diseña para la discapacidad, beneficia a todos"
+ ],
+ ".apply-list li": [
+  "Priorizas el trabajo de accesibilidad o explicas su valor a las partes interesadas.",
+  "Diseñas funciones de contenido multimedia, entrada, lectura o navegación.",
+  "La gente tiene limitaciones temporales o situacionales, como ruido, reflejos o una sola mano libre.",
+  "Parte de las necesidades de las personas con discapacidad y luego busca a todos los demás que se benefician.",
+  "Haz que el camino accesible sea el camino por defecto, no un modo aparte.",
+  "Prueba con personas con discapacidad y trata el beneficio amplio como un extra, no como el motivo."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Multimedia",
+  "Espectro",
+  "Entrada",
+  "Escucha",
+  "Contraste",
+  "Lenguaje",
+  "Precaución",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Rampas para todos",
+  "Subtítulos para todos",
+  "Permanente, temporal, situacional",
+  "El teclado acelera a todos",
+  "Lectura en voz alta en el trayecto",
+  "Contraste al sol",
+  "Lenguaje claro para cualquier lector",
+  "No solo un argumento de negocio",
+  "La tecnología de apoyo se volvió masiva",
+  "Texto alternativo y subtítulos generados"
+ ],
+ ".card .desc": [
+  "Las rampas se hicieron para sillas de ruedas, y luego los carritos, las carretillas, las maletas, las bicis y los corredores se apropiaron de ellas. Hoy casi nadie las ve como una medida de accesibilidad, la señal de que el efecto funciona.",
+  "Los subtítulos pensados para personas sordas o con pérdida auditiva se usan en lugares ruidosos, en oficinas silenciosas, por quienes aprenden un idioma y en vídeos que se reproducen sin sonido. Subtitula todo vídeo con habla.",
+  "El kit de diseño inclusivo de Microsoft empareja una discapacidad permanente con sus versiones temporal y situacional: un solo brazo, un brazo escayolado, una madre o un padre con un bebé en brazos. Diseña para el caso permanente y los demás vienen detrás.",
+  "La navegación con teclado pensada para quien no puede usar un ratón es también como los usuarios avanzados vuelan por un producto. Un orden de foco lógico y un foco visible ayudan a todos los que prefieren las teclas.",
+  "La lectura en voz alta se creó para personas ciegas, y ahora la gente escucha artículos, estudios y libros mientras va al trabajo o hace otras cosas. El marcado semántico y el texto real hacen que funcione para ambos.",
+  "Un contraste alto, necesario para personas con baja visión, también ayuda a quien lee el móvil al sol o una pantalla barata en ángulo. Cumple las relaciones de contraste en todo texto y control.",
+  "Escribir con claridad para personas con discapacidad cognitiva también ayuda a hablantes no nativos, a lectores cansados y a quien lee en diagonal. Las frases cortas y las palabras conocidas no restan nada a los expertos.",
+  "Críticos como el jurista Blake Reid advierten que el argumento de la rampa puede relegar las necesidades de las personas con discapacidad tras los beneficios generales y dejar fuera funciones que solo les ayudan a ellas. Haz accesible porque la gente lo necesita; el beneficio amplio es un extra.",
+  "Los asistentes de voz, los subtítulos en directo y la lectura en voz alta nacieron de tecnología creada para personas con discapacidad. Mantenlas en las pruebas a medida que cambian estas funciones, porque son quienes más dependen de ellas.",
+  "La IA puede describir imágenes y subtitular audio a escala, lo que también ayuda a todos los que buscan y leen en diagonal. Los errores pesan más sobre quienes dependen de ello, así que revisa las descripciones generadas del contenido importante."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Defender una función de accesibilidad",
+  "La función es una adaptación individual",
+  "Contenido de vídeo y audio",
+  "Hay contenido multimedia en la página",
+  "El vídeo no tiene habla ni sonido relevante",
+  "Enmarcar el trabajo de accesibilidad",
+  "Decidir para quién diseñar",
+  "Tratar a los usuarios situacionales como público principal",
+  "Formularios, herramientas y apps de productividad",
+  "La gente repite tareas a menudo",
+  "El dispositivo no tiene teclado",
+  "Artículos y documentos largos",
+  "El contenido se lee con detenimiento",
+  "El texto son etiquetas cortas",
+  "Textos y controles en todas partes",
+  "Elegir colores",
+  "Elementos puramente decorativos",
+  "Instrucciones, errores y políticas",
+  "El texto explica una tarea",
+  "Los especialistas necesitan términos técnicos exactos",
+  "Planificación y defensa de la accesibilidad",
+  "Justificar el trabajo de accesibilidad",
+  "El beneficio general es el único argumento",
+  "Apoyo → cotidiano",
+  "Lanzar voz, subtítulos o descripciones",
+  "Optimizar solo para el público general",
+  "Manual → generado",
+  "La IA escribe texto alternativo o subtítulos",
+  "Publicar texto alternativo generado sin revisar"
+ ],
+ ".ai-divider h3": [
+  "El efecto rampa en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "El reconocimiento de voz, la lectura en voz alta y la descripción de imágenes empezaron como tecnología de apoyo. La IA las ha convertido en funciones cotidianas."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Búsqueda <em>visual</em>"
+ ],
+ "header .tagline": [
+  "Algunas cosas <em>saltan a la vista</em>. Otras hay que buscarlas."
+ ],
+ "header .subtitle": [
+  "Encontrar algo en una pantalla es rápido cuando se distingue de todo lo que lo rodea por un solo rasgo, como el color o la forma. Cuando comparte rasgos con sus vecinos, la gente revisa los elementos uno a uno, y cada elemento extra suma tiempo."
+ ],
+ ".law-origin .body-text": [
+  "La búsqueda visual, encontrar un objetivo entre distractores, es una de las tareas más estudiadas de la percepción, y la hacemos en cada pantalla: un producto en un estante, un amigo entre la multitud, un botón en una barra de herramientas. Los investigadores miden cómo crece el tiempo para encontrar el objetivo al añadir distractores.",
+  "En 1980, <a href=\"people.html#p-anne-treisman\">Anne Treisman</a> y Garry Gelade propusieron la teoría de integración de rasgos: los rasgos simples, como el color, la orientación y el movimiento, se registran en paralelo, así que uno único salta a la vista, mientras que combinar rasgos exige atención, elemento a elemento. El modelo de búsqueda guiada de <a href=\"people.html#p-jeremy-wolfe\">Jeremy Wolfe</a> (1989) mostró cómo conocer los rasgos del objetivo dirige la atención, y sus trabajos posteriores mostraron que los objetivos poco frecuentes suelen pasarse por alto."
+ ],
+ ".law-content .law-desc": [
+  "Un objetivo que se distingue de todo lo que lo rodea por un solo rasgo, como el color o la forma, salta a la vista sin importar cuántos elementos haya. Cuando comparte rasgos con los distractores, la gente revisa los elementos uno a uno, y el tiempo de búsqueda crece con cada elemento añadido."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-anne-treisman\">Treisman</a> y Gelade (1980)",
+  "Búsqueda de rasgos y de conjunción",
+  "Da a los elementos importantes un rasgo único"
+ ],
+ ".apply-list li": [
+  "La gente necesita encontrar un elemento concreto en una lista, una cuadrícula, una barra de herramientas o un panel.",
+  "Hay que detectar rápido estados críticos, errores o excepciones.",
+  "Las pantallas son densas, o las listas y catálogos no dejan de crecer.",
+  "Da al elemento que hay que encontrar un rasgo que nada más comparta, como un color junto a un icono.",
+  "Reduce y agrupa los distractores, y ofrece filtros para achicar el conjunto.",
+  "Mantén los elementos en lugares constantes para que el conocimiento previo guíe la mirada."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Conjunción",
+  "Estado",
+  "Desorden",
+  "Guía",
+  "Objetivos raros",
+  "Familiaridad",
+  "Medición",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Salta a la vista",
+  "Cuando nada destaca",
+  "Codifica el estado con un solo rasgo",
+  "Cada distractor cuesta tiempo",
+  "Deja filtrar con la mirada",
+  "Lo raro se pasa por alto",
+  "Los diseños conocidos se recorren antes",
+  "El tiempo de búsqueda crece con el número de elementos",
+  "Resalta la respuesta",
+  "Un segundo buscador"
+ ],
+ ".card .desc": [
+  "Una X roja entre X negras se encuentra al instante, haya diez distractores o cien. Cuando un rasgo es único, el sistema visual lo encuentra en paralelo, antes de que la atención tenga que intervenir.",
+  "Encontrar una X verde entre X moradas y O verdes obliga a revisar los elementos uno a uno, porque el objetivo comparte un rasgo con cada distractor. Las listas largas de elementos parecidos funcionan igual.",
+  "Codifica los estados que hay que detectar, como errores o elementos vencidos, con un rasgo que nada más use. Combina el color con un icono o una forma para que el elemento destaque también para quien no distingue colores.",
+  "En una búsqueda serial, cada elemento extra suma tiempo. Quita lo innecesario, agrupa lo que queda y ofrece filtros para que la gente busque en un conjunto más pequeño.",
+  "Conocer los rasgos de un objetivo permite ignorar lo demás: buscando una K roja entre C rojas y K negras, se saltan las letras negras. Usar colores o iconos constantes para cada tipo de elemento permite acotar la búsqueda a simple vista.",
+  "Wolfe y sus colegas vieron que se pasan por alto muchos más objetivos cuando son poco frecuentes, como en el control de equipajes en los aeropuertos. Los problemas que rara vez aparecen en una cola o un informe necesitan algo más que un vistazo para detectarse.",
+  "En la vida real, miramos donde suelen estar las cosas. Saber dónde va un buscador o el icono del carrito guía la mirada antes de empezar a buscar, así que mantén los elementos en lugares constantes y esperados.",
+  "Representar el tiempo para encontrar un objetivo frente al número de elementos muestra si una búsqueda es paralela o serial. En las pruebas de usabilidad, mide cuánto tarda la gente en encontrar elementos a medida que crecen las listas.",
+  "Cuando la IA encuentre la fila, el pasaje o el ajuste relevante, resáltalo en su sitio en lugar de solo describirlo. Un resaltado convierte una búsqueda serial en algo que salta a la vista, y mostrar por qué se eligió permite comprobarlo.",
+  "La revisión con IA puede señalar defectos o riesgos poco frecuentes que las personas tienden a pasar por alto. Calibra sus umbrales y mantén a las personas en el proceso, porque también puede pasar por alto lo raro."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la búsqueda de rasgos",
+  "Hay que encontrar algo rápido",
+  "Todo debe tener el mismo peso",
+  "Listas largas y pantallas densas",
+  "Los elementos se parecen",
+  "La lista es corta",
+  "Paneles y listas de estado",
+  "Hay que detectar una excepción",
+  "Muchos estados compiten por la atención",
+  "Menús, tablas y cuadrículas",
+  "La gente busca un elemento concreto",
+  "La gente explora en lugar de buscar",
+  "Sistemas de iconos y categorías",
+  "Los elementos se agrupan por tipos",
+  "Las categorías son arbitrarias",
+  "Colas de revisión, moderación y control de calidad",
+  "Los problemas son poco frecuentes",
+  "Los objetivos son frecuentes",
+  "Navegación y plantillas de página",
+  "La gente vuelve a menudo",
+  "Una pantalla que se ve una sola vez",
+  "Pruebas de usabilidad",
+  "Las listas o catálogos crecen",
+  "Comparar tareas de distinta dificultad",
+  "Búsqueda serial → salta a la vista",
+  "La IA encuentra elementos en listas o documentos",
+  "Resaltar sin decir por qué",
+  "Solo personas → personas e IA",
+  "Detectar problemas poco frecuentes",
+  "Confiar en que la IA lo detecte todo"
+ ],
+ ".ai-divider h3": [
+  "La búsqueda visual en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede encontrar la aguja y señalarla, convirtiendo una búsqueda serial lenta en algo que salta a la vista. También puede ser un segundo par de ojos para lo raro que se nos escapa."
+ ]
+}

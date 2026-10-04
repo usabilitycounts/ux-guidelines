@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Ilusión de <em>Müller-Lyer</em>"
+ ],
+ "header .tagline": [
+  "Los extremos de una línea <em>cambian su longitud</em>."
+ ],
+ "header .subtitle": [
+  "Dos líneas de la misma longitud parecen distintas cuando una termina en puntas de flecha y la otra en colas. En las interfaces, los chevrones, las barras puntiagudas y los iconos angulosos cambian sin que se note lo largo o ancho que parece algo."
+ ],
+ ".law-origin .body-text": [
+  "El psicólogo y sociólogo alemán <a href=\"people.html#p-franz-carl-muller-lyer\">Franz Carl Müller-Lyer</a> publicó la figura en 1889. Dos ejes de igual longitud, uno rematado con puntas hacia dentro y otro con colas hacia fuera, parecen claramente desiguales: el de las aletas abiertas parece más largo. En su versión original, las personas a las que se pedía marcar el punto medio lo situaban hacia el extremo de la cola.",
+  "Las explicaciones siguen compitiendo. <a href=\"people.html#p-richard-gregory\">Richard Gregory</a> sostuvo que es una constancia de tamaño mal aplicada, porque las figuras se parecen a las esquinas cercanas y lejanas de un edificio. Catherine Howe y Dale Purves la atribuyeron en 2005 a la estadística de las imágenes naturales, y las explicaciones del centroide la sitúan en cómo el cerebro agrupa las señales de posición. La idea de los años sesenta de que quienes viven en entornos menos «carpinteados» la perciben menos ha sido cuestionada."
+ ],
+ ".law-content .law-desc": [
+  "Las líneas de igual longitud parecen distintas según lo que haya en sus extremos: las aletas hacia fuera hacen que una línea parezca más larga y las puntas hacia dentro, más corta. Las formas que la rodean cambian el tamaño percibido del propio elemento, aunque sepas que las líneas son iguales."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-franz-carl-muller-lyer\">Müller-Lyer</a> (1889)",
+  "Figura de Müller-Lyer",
+  "Comprueba las longitudes a ojo además de con números"
+ ],
+ ".apply-list li": [
+  "Comparas longitudes en gráficos, barras de progreso o líneas de tiempo.",
+  "Usas flechas, chevrones o formas angulosas en la navegación y los diagramas.",
+  "Espacias iconos y formas con extremos puntiagudos o abiertos.",
+  "Usa barras sencillas de extremos planos sobre una línea base común cuando haya que comparar longitudes.",
+  "Revisa el espaciado y la alineación a ojo, y corrige ópticamente donde las formas tengan extremos angulosos.",
+  "Indica con números las longitudes importantes en lugar de confiar en la percepción."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Gráficos",
+  "Navegación",
+  "Espaciado",
+  "Diagramas",
+  "Explicación",
+  "Cultura",
+  "Persistencia",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Misma línea, distinta longitud",
+  "Las barras puntiagudas engañan",
+  "Los chevrones cambian el ancho percibido",
+  "Mide y luego mira",
+  "Puntas de flecha en las cotas",
+  "Un atajo para la profundidad",
+  "¿Mundos carpinteados?",
+  "Saberlo no ayuda",
+  "Los diseños generados omiten las correcciones ópticas",
+  "Gráficos estilizados por la IA"
+ ],
+ ".card .desc": [
+  "Dos ejes de longitud idéntica: uno con puntas de flecha hacia dentro y otro con colas hacia fuera. El de las colas parece más largo, y lo sigue pareciendo incluso después de medir ambos.",
+  "Las barras e indicadores de progreso con punta de flecha o extremos abiertos son difíciles de comparar, porque sus extremos cambian la longitud que aparentan. Usa barras de extremos planos sobre una línea base común para todo lo que haya que comparar.",
+  "Las migas de pan y los indicadores de pasos dibujados como chevrones pueden hacer que segmentos iguales parezcan desiguales. Revisa sus anchos y espacios a ojo, no solo en el inspector.",
+  "Las formas puntiagudas no parecen centradas cuando lo están matemáticamente. Un icono de reproducir colocado justo en el centro de un círculo parece desplazado a la izquierda, así que los diseñadores lo mueven a la derecha. Corrige ópticamente y documenta el ajuste.",
+  "Las puntas de flecha hacia dentro en una línea de cota hacen que la distancia parezca más corta de lo que es. Para las longitudes importantes, usa extremos con marcas y escribe el valor.",
+  "Richard Gregory propuso que el cerebro interpreta las aletas hacia dentro como la esquina saliente de un edificio y las aletas hacia fuera como la esquina interior de una habitación, y las escala como si estuvieran a distancias distintas. Otros lo explican con la estadística de las imágenes o la agrupación de posiciones.",
+  "En 1963, Segall, Campbell y Herskovits hallaron que la magnitud de la ilusión iba del 1,4 al 20,3 % según el grupo, y la relacionaron con vivir entre líneas rectas y ángulos rectos. Trabajos posteriores cuestionaron esa lectura, y una revisión de 2025 sostiene que las diferencias eran en gran parte artefactos.",
+  "Se ha demostrado que las palomas y un loro gris también perciben la ilusión, y la gente la sigue viendo después de medir. Como conocerla no la corrige, diseña para que las longitudes se lean bien de un vistazo.",
+  "Las herramientas de IA para diseños e iconos alinean las formas según su geometría, así que flechas, chevrones e iconos de reproducir pueden parecer descentrados o irregulares. Revisa a ojo lo generado y corrígelo ópticamente.",
+  "Las herramientas de gráficos con IA pueden adornar las barras con puntas, degradados o efectos 3D que distorsionan las comparaciones. Pide barras sencillas sobre una línea base común y con los valores indicados."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la ilusión",
+  "Los elementos tienen extremos decorados",
+  "Los extremos son sencillos y planos",
+  "Gráficos de barras y barras de progreso",
+  "Las barras tienen remates decorativos",
+  "Las barras son planas y comparten línea base",
+  "Migas de pan e indicadores de pasos",
+  "Los segmentos tienen forma de flecha",
+  "Los segmentos son rectángulos sencillos",
+  "Revisiones de iconos y espaciado",
+  "Las formas tienen extremos puntiagudos o angulosos",
+  "Se exige alineación al píxel, como en las tablas",
+  "Diagramas, mapas y anotaciones",
+  "Mostrar longitudes o distancias",
+  "La longitud está indicada con un número",
+  "Entender la percepción",
+  "Explicar por qué ocurre la ilusión",
+  "Dar por zanjada una sola explicación",
+  "Investigación con públicos diversos",
+  "Afirmar cosas sobre cultura y percepción",
+  "Suponer diferencias sin probarlas",
+  "Revisiones de diseño",
+  "Un diseño depende de juzgar longitudes",
+  "Las longitudes están indicadas",
+  "Numérico → óptico",
+  "Generar interfaces o iconos",
+  "Publicar diseños generados sin revisar",
+  "Decorativo → preciso",
+  "Generar gráficos con IA",
+  "Barras estilizadas para comparar"
+ ],
+ ".ai-divider h3": [
+  "La ilusión de Müller-Lyer en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los diseños y gráficos generados se construyen con números, no con lo que la gente percibe. Las comprobaciones ópticas siguen necesitando un ojo humano."
+ ]
+}

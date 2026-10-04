@@ -5,21 +5,98 @@
   <link>https://www.ux-guidelines.com/fr/</link>
   <description>Les lois, heuristiques et modèles de conception d'interface fondés sur la recherche, chacun expliqué avec son origine, des conseils pratiques et ce qui change à l'ère de l'IA.</description>
   <language>fr</language>
-  <lastBuildDate>Sun, 04 Oct 2026 17:34:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Journal des versions</title>
-    <link>https://www.ux-guidelines.com/fr/journal-des-versions.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/journal-des-versions.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:54 +0000</pubDate>
-    <description>Chaque nouvelle page et chaque amélioration notable de UX Guidelines, des plus récentes aux plus anciennes.</description>
+    <title>Illusion de Müller-Lyer</title>
+    <link>https://www.ux-guidelines.com/fr/illusion-de-muller-lyer.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/illusion-de-muller-lyer.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Deux lignes de même longueur paraissent différentes quand l'une se termine par des pointes de flèche et l'autre par des empennages. Dans les interfaces, chevrons, barres pointues et icônes anguleuses modifient discrètement la longueur ou la largeur perçue.</description>
+  </item>
+  <item>
+    <title>Effet bateau de trottoir</title>
+    <link>https://www.ux-guidelines.com/fr/effet-bateau-de-trottoir.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-bateau-de-trottoir.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Les fonctionnalités conçues pour les personnes handicapées finissent par servir bien plus de monde que prévu. Bateaux de trottoir, sous-titres et synthèse vocale sont nés comme aménagements et sont devenus indispensables à tous.</description>
+  </item>
+  <item>
+    <title>Chartjunk</title>
+    <link>https://www.ux-guidelines.com/fr/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Quadrillages épais, axes ornés, fonds texturés, 3D gratuite et images décoratives ajoutent de l'encre sans ajouter d'information. Une partie gaspille l'attention ; une autre déforme les données elles-mêmes.</description>
+  </item>
+  <item>
+    <title>Effet de dénomination</title>
+    <link>https://www.ux-guidelines.com/fr/effet-de-denomination.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-de-denomination.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>On se sépare plus facilement de son argent en petites coupures qu'en une seule grosse, même à montant égal. La façon dont un prix, un solde ou des crédits sont fractionnés change la facilité avec laquelle on les dépense.</description>
+  </item>
+  <item>
+    <title>Effet d'ambiguïté</title>
+    <link>https://www.ux-guidelines.com/fr/effet-d-ambiguite.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-d-ambiguite.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Face à un choix, on prend l'option dont on peut estimer l'issue plutôt qu'une option à laquelle il manque des informations, même quand l'inconnue est tout aussi bonne. Prix cachés, estimations vagues et résultats flous font fuir.</description>
+  </item>
+  <item>
+    <title>Recherche visuelle</title>
+    <link>https://www.ux-guidelines.com/fr/recherche-visuelle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/recherche-visuelle.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Trouver un élément à l'écran est rapide quand il se distingue de tout ce qui l'entoure par une seule caractéristique, comme la couleur ou la forme. Quand il partage des caractéristiques avec ses voisins, on examine les éléments un par un, et chaque élément de plus ajoute du temps.</description>
+  </item>
+  <item>
+    <title>Effet de supériorité de l'image</title>
+    <link>https://www.ux-guidelines.com/fr/effet-de-superiorite-de-l-image.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-de-superiorite-de-l-image.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>On se souvient des images et on les reconnaît plus sûrement que les mêmes idées écrites en texte. Des images concrètes et distinctes font retenir fonctionnalités, étapes et consignes, à condition qu'elles portent le sens.</description>
+  </item>
+  <item>
+    <title>Explicabilité</title>
+    <link>https://www.ux-guidelines.com/fr/explicabilite.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/explicabilite.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>L'IA explicable montre aux gens pourquoi un système a produit un résultat, pour qu'ils puissent le juger, le contester et décider jusqu'où s'y fier. Le but n'est pas plus de confiance, mais la juste dose.</description>
+  </item>
+  <item>
+    <title>Cécité aux bannières</title>
+    <link>https://www.ux-guidelines.com/fr/cecite-aux-bannieres.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/cecite-aux-bannieres.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>On a appris à sauter tout ce qui ressemble à une publicité, se trouve à côté d'une publicité ou apparaît là où vont d'habitude les publicités. Un contenu important présenté comme une bannière disparaît avec les pubs.</description>
+  </item>
+  <item>
+    <title>Fluidité de traitement</title>
+    <link>https://www.ux-guidelines.com/fr/fluidite-de-traitement.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/fluidite-de-traitement.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>La facilité avec laquelle on lit, voit ou se rappelle quelque chose colore la façon dont on le juge. Un contenu facile à traiter paraît plus vrai, plus familier et plus sympathique, qu'il le mérite ou non.</description>
+  </item>
+  <item>
+    <title>Effet Lindy</title>
+    <link>https://www.ux-guidelines.com/fr/effet-lindy.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-lindy.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>Pour les idées, les technologies et les conventions, plus une chose a déjà survécu longtemps, plus elle a de chances de continuer à survivre. Chaque année qui passe prouve sa solidité.</description>
   </item>
   <item>
     <title>Effet d'ancrage</title>
     <link>https://www.ux-guidelines.com/fr/effet-d-ancrage.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-d-ancrage.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:16 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
     <description>On juge une valeur en partant du premier chiffre vu, puis en s'en écartant trop peu. Prix, valeurs préremplies, références et estimations portent tous une ancre, qu'on la choisisse ou non.</description>
+  </item>
+  <item>
+    <title>Journal des versions</title>
+    <link>https://www.ux-guidelines.com/fr/journal-des-versions.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/journal-des-versions.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
+    <description>Chaque nouvelle page et chaque amélioration notable de UX Guidelines, des plus récentes aux plus anciennes.</description>
   </item>
   <item>
     <title>Fatigue des alarmes</title>
@@ -369,7 +446,7 @@
     <link>https://www.ux-guidelines.com/fr/</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/fr/</guid>
     <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
-    <description>Une bibliothèque grandissante de 71 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.</description>
+    <description>Une bibliothèque grandissante de 82 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.</description>
   </item>
   <item>
     <title>Loi de Jakob</title>

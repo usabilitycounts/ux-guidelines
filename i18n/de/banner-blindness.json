@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Banner<em>blindheit</em>"
+ ],
+ "header .tagline": [
+  "Was wie Werbung aussieht, <em>wird ignoriert</em>."
+ ],
+ "header .subtitle": [
+  "Menschen haben gelernt, alles zu überspringen, was wie Werbung aussieht, neben Werbung steht oder dort erscheint, wo üblicherweise Werbung ist. Wichtige Inhalte im Bannerstil verschwinden zusammen mit den Anzeigen."
+ ],
+ ".law-origin .body-text": [
+  "Der Begriff stammt aus Usability-Tests, die <a href=\"people.html#p-jan-panero-benway\">Jan Panero Benway</a> und <a href=\"people.html#p-david-lane\">David Lane</a> 1998 an der Rice University durchführten. Wer auf einer Website nach Informationen suchte, übersah sie oft, wenn sie in einem Banner standen, und der Effekt traf interne Links wie Navigations-Schnelllinks genauso hart wie externe Werbung.",
+  "Eyetracking-Studien haben das Bild seither verfeinert: Menschen werfen oft mindestens einen Blick auf Anzeigen, verarbeiten und behalten aber wenig davon. Die von <a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> und <a href=\"people.html#p-don-norman\">Don Norman</a> gegründete Nielsen Norman Group hat das Verhalten über drei Jahrzehnte dokumentiert, darunter in einer Eyetracking-Studie von <a href=\"people.html#p-kara-pernice\">Kara Pernice</a> aus dem Jahr 2018, und folgert, dass Nutzer Inhalte ignorieren, die wie Werbung aussehen, nah an Werbung stehen oder an traditionellen Werbeplätzen erscheinen."
+ ],
+ ".law-content .law-desc": [
+  "Besucher ignorieren bewusst oder unbewusst Seitenelemente, die sie, zu Recht oder nicht, für Werbung halten. Bannerform, Platzierung oben oder am rechten Rand, Animation und Nähe zu echter Werbung signalisieren alle „Anzeige“, und alles mit diesen Signalen wird übersprungen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-panero-benway\">Benway</a> und <a href=\"people.html#p-david-lane\">Lane</a> (1998)",
+  "Werbeblindheit",
+  "Inhalte nicht wie Werbung aussehen lassen"
+ ],
+ ".apply-list li": [
+  "Sie platzieren Ankündigungen, Aktionen, Hinweise oder Calls-to-Action auf einer Seite.",
+  "Eine Seite enthält Werbung oder gesponserte Inhalte.",
+  "Nutzer berichten, Informationen übersehen zu haben, die deutlich angezeigt waren.",
+  "Gestalten Sie wichtige Inhalte wie die übrigen Inhalte, nicht wie ein Banner.",
+  "Halten Sie Schlüsselinformationen im Hauptlesepfad, fern von Werbeplätzen und Seitenleisten.",
+  "Testen Sie, ob Menschen sie wirklich sehen, per Eyetracking, First-Click-Test oder Aufgabenerfolg."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Platzierung",
+  "Gestaltung",
+  "Nähe",
+  "Mobil",
+  "Animation",
+  "Eigenwerbung",
+  "Belege",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Der offensichtliche Link, den niemand sah",
+  "Die rechte Spalte ist unsichtbar",
+  "Kontrast kann nach hinten losgehen",
+  "Werbung vergiftet die Nachbarn",
+  "Inline-Werbung auf Smartphones",
+  "Bewegung signalisiert Werbung",
+  "Auch Ihre eigenen Banner",
+  "Gesehen ist nicht bemerkt",
+  "Gesponserte Antworten",
+  "Auch KI-Banner werden ignoriert"
+ ],
+ ".card .desc": [
+  "In den Tests von 1998 übersahen Menschen gesuchte Informationen, wenn sie in einem großen, farbigen Banner standen, dem auffälligsten Element der Seite. Auffälligkeit im Werbestil wirkt gegen Sie.",
+  "Nutzer erwarten Werbung oben auf der Seite und in der rechten Spalte, also überspringen sie diese Bereiche. Platzieren Sie dort keine wichtigen Links, Filter oder Hilfen.",
+  "Inhalte anders zu gestalten, damit sie herausstechen, lässt sie oft wie Werbung aussehen. Die Nielsen Norman Group rät davon ab, Inhalten eine werbeähnliche Gestaltung zu geben; Andersartigkeit hilft nur, wenn sie nicht nach Werbung aussieht.",
+  "Inhalte direkt neben Werbung werden mit ihr ignoriert. Halten Sie echte Inhalte und Werbung klar getrennt, damit Nützliches nicht aus Assoziation übersprungen wird.",
+  "Auf kleinen Bildschirmen bringt Werbung im Inhaltsstrom Menschen bei, über alles schnell hinwegzuscrollen, was eingerahmt oder gesponsert wirkt. Karten, die wie Werbeformate aussehen, droht dasselbe.",
+  "Nutzer mögen animierte Werbung nicht und lernen, Bewegung am Rand zu meiden. Eine Ankündigung zu animieren, kann sie eher wie Werbung wirken lassen.",
+  "Bannerblindheit betrifft nicht nur fremde Werbung. Ihre eigenen Werbebanner für Funktionen, Sales oder Newsletter werden aus denselben Gründen übersprungen, ebenso Cookie- und App-Install-Banner, die Menschen wegzuklicken gelernt haben.",
+  "Eyetracking zeigt, dass Menschen Anzeigen oft mindestens einmal ansehen, sich aber kaum daran erinnern. Einen Blick auf ein Element zu werfen ist nicht dasselbe, wie es zu lesen, also messen Sie Aufgabenerfolg und Erinnerung, nicht nur Sichtbarkeit.",
+  "Wenn Werbung in KI-Antworten erscheint, werden Menschen lernen, sie zu erkennen und zu überspringen, und misstrauen womöglich den Inhalten drumherum. Kennzeichnen Sie gesponserte Inhalte klar und trennen Sie sie optisch von der Antwort.",
+  "Allgemeine Banner wie „Testen Sie unsere neue KI“ sind nur eine weitere Werbung und werden wie jede andere übersprungen. Führen Sie KI dort ein, wo sie bei der Aufgabe hilft, im Ablauf statt in einem Banner darüber."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Informationen stehen in einem Banner",
+  "Inhalte sehen aus wie Inhalte",
+  "Seitenlayout und Seitenleisten",
+  "Wichtige Links oder Werkzeuge platzieren",
+  "Die Seitenleiste enthält erwartete Navigation",
+  "Aktionen, Hinweise und Calls-to-Action",
+  "Inhalte brauchen Betonung",
+  "Das Element ist wirklich Werbung",
+  "Seiten mit Werbung",
+  "Inhalte stehen nahe an Werbeplätzen",
+  "Auf der Seite gibt es keine Werbung",
+  "Mobile Feeds und Artikel",
+  "Inhalte nutzen eingerahmte Karten",
+  "Jede Karte ist eindeutig Inhalt",
+  "Ankündigungen und Onboarding-Tipps",
+  "Animation zur Betonung erwägen",
+  "Bewegung zeigt eine echte Zustandsänderung",
+  "Feature-Launches und Eigenwerbung",
+  "Etwas Neues ankündigen",
+  "Ankündigungen sind selten und im Inhalt",
+  "Usability-Tests und Analytics",
+  "Beurteilen, ob Inhalte gesehen wurden",
+  "Impressionen mit Aufmerksamkeit gleichsetzen",
+  "Suchanzeigen → Antwortanzeigen",
+  "KI-Antworten monetarisieren",
+  "Werbung in die Antwort mischen",
+  "Banner → eingebetteter Einstieg",
+  "Eine KI-Funktion einführen",
+  "KI in einem Banner oben ankündigen"
+ ],
+ ".ai-divider h3": [
+  "Bannerblindheit im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Gesponserte Antworten und beworbene Vorschläge tauchen in KI-Antworten auf. Menschen werden lernen, auch sie zu überspringen, es sei denn, sie sind ehrlich und klar gekennzeichnet."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Müller-Lyer-<em>Täuschung</em>"
+ ],
+ "header .tagline": [
+  "Die Enden einer Linie <em>verändern ihre Länge</em>."
+ ],
+ "header .subtitle": [
+  "Zwei gleich lange Linien wirken unterschiedlich, wenn die eine in Pfeilspitzen und die andere in Pfeilfedern endet. In Oberflächen verändern Chevrons, spitze Balken und kantige Icons unbemerkt, wie lang oder breit Dinge wirken."
+ ],
+ ".law-origin .body-text": [
+  "Der deutsche Psychologe und Soziologe <a href=\"people.html#p-franz-carl-muller-lyer\">Franz Carl Müller-Lyer</a> veröffentlichte die Figur 1889. Zwei gleich lange Schäfte, einer mit nach innen gerichteten Pfeilspitzen, einer mit nach außen gerichteten Federn, wirken deutlich ungleich: Der mit den offenen Flossen sieht länger aus. In seiner ursprünglichen Version setzten Menschen, die die Mitte markieren sollten, sie zum Federende hin.",
+  "Die Erklärungen konkurrieren bis heute. <a href=\"people.html#p-richard-gregory\">Richard Gregory</a> sah darin eine fehlgeleitete Größenkonstanz, weil die Figuren den nahen und fernen Ecken von Gebäuden ähneln. Catherine Howe und Dale Purves führten sie 2005 auf die Statistik natürlicher Bilder zurück, und Zentroid-Erklärungen verorten sie darin, wie das Gehirn Positionssignale bündelt. Die These aus den 1960er Jahren, Menschen in weniger „gezimmerten“ Umgebungen sähen sie schwächer, gilt inzwischen als umstritten."
+ ],
+ ".law-content .law-desc": [
+  "Gleich lange Linien wirken unterschiedlich, je nachdem, was an ihren Enden sitzt: Nach außen gerichtete Flossen lassen eine Linie länger, nach innen gerichtete Pfeilspitzen kürzer wirken. Die umgebenden Formen verändern die wahrgenommene Größe des Elements selbst, auch wenn man weiß, dass die Linien gleich sind."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-franz-carl-muller-lyer\">Müller-Lyer</a> (1889)",
+  "Müller-Lyer-Figur",
+  "Längen mit dem Auge und mit Zahlen prüfen"
+ ],
+ ".apply-list li": [
+  "Sie vergleichen Längen in Diagrammen, Fortschrittsbalken oder Zeitleisten.",
+  "Sie nutzen Pfeile, Chevrons oder kantige Formen in Navigation und Diagrammen.",
+  "Sie setzen Abstände zwischen Icons und Formen mit spitzen oder ausgestellten Enden.",
+  "Nutzen Sie schlichte Balken mit flachen Enden auf gemeinsamer Grundlinie, wenn Längen verglichen werden müssen.",
+  "Prüfen Sie Abstände und Ausrichtung mit dem Auge, und korrigieren Sie optisch, wo Formen kantige Enden haben.",
+  "Beschriften Sie wichtige Längen mit Zahlen, statt sich auf die Wahrnehmung zu verlassen."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Diagramme",
+  "Navigation",
+  "Abstände",
+  "Diagramme",
+  "Erklärung",
+  "Kultur",
+  "Beständigkeit",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Gleiche Linie, andere Länge",
+  "Spitze Balken täuschen",
+  "Chevrons verändern die wahrgenommene Breite",
+  "Erst messen, dann schauen",
+  "Pfeilspitzen an Maßlinien",
+  "Eine Abkürzung für Tiefe",
+  "Gezimmerte Welten?",
+  "Wissen hilft nicht",
+  "Generierte Layouts ohne optische Korrektur",
+  "Stilisierte Diagramme von KI"
+ ],
+ ".card .desc": [
+  "Zwei exakt gleich lange Schäfte: einer mit nach innen zeigenden Pfeilspitzen, einer mit nach außen zeigenden Federn. Der zweite wirkt länger, und er wirkt auch dann noch länger, wenn man beide nachgemessen hat.",
+  "Balken und Fortschrittsanzeigen mit Pfeilspitzen oder ausgestellten Enden sind schwer zu vergleichen, weil ihre Enden die wahrgenommene Länge verändern. Nutzen Sie für alles, was verglichen wird, flache Balken auf gemeinsamer Grundlinie.",
+  "Brotkrumen und Schrittanzeigen in Chevron-Form können gleich breite Segmente ungleich wirken lassen. Prüfen Sie Breiten und Abstände mit dem Auge, nicht nur im Inspektor.",
+  "Spitze Formen wirken nicht zentriert, wenn sie mathematisch zentriert sind. Ein Play-Icon genau in der Mitte eines Kreises wirkt nach links verschoben, darum rücken Designer es nach rechts. Korrigieren Sie optisch und dokumentieren Sie die Anpassung.",
+  "Nach innen gerichtete Pfeilspitzen an einer Maßlinie lassen den Abstand kürzer wirken, als er ist. Nutzen Sie für wichtige Längen Strichenden und schreiben Sie den Wert dazu.",
+  "Richard Gregory meinte, das Gehirn lese nach innen gerichtete Flossen als vorspringende Gebäudeecke und nach außen gerichtete als zurückliegende Raumecke und skaliere sie, als lägen sie in unterschiedlicher Entfernung. Andere erklären es mit Bildstatistik oder Positionsbündelung.",
+  "1963 fanden Segall, Campbell und Herskovits, dass die Stärke der Täuschung je nach Gruppe zwischen 1,4 und 20,3 Prozent lag, und brachten das mit einem Leben zwischen geraden Linien und rechten Winkeln in Verbindung. Spätere Arbeiten stellten diese Deutung infrage, und eine Übersicht von 2025 hält die Unterschiede weitgehend für Artefakte.",
+  "Auch Tauben und ein Graupapagei nehmen die Täuschung nachweislich wahr, und Menschen sehen sie noch nach dem Nachmessen. Da Wissen sie nicht aufhebt, gestalten Sie so, dass Längen auf einen Blick richtig gelesen werden.",
+  "KI-Werkzeuge für Layouts und Icons richten Formen nach ihrer Geometrie aus, sodass Pfeile, Chevrons und Play-Icons verschoben oder ungleichmäßig wirken können. Prüfen Sie Generiertes mit dem Auge und korrigieren Sie optisch.",
+  "KI-Diagrammwerkzeuge schmücken Balken womöglich mit Pfeilspitzen, Verläufen oder 3D-Effekten, die Vergleiche verzerren. Verlangen Sie schlichte Balken auf gemeinsamer Grundlinie mit beschrifteten Werten."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Täuschung erklären",
+  "Elemente haben verzierte Enden",
+  "Die Enden sind schlicht und flach",
+  "Balkendiagramme und Fortschrittsbalken",
+  "Balken haben dekorative Enden",
+  "Balken sind flach und teilen eine Grundlinie",
+  "Brotkrumen und Schrittanzeigen",
+  "Segmente haben Pfeilform",
+  "Segmente sind schlichte Rechtecke",
+  "Icon- und Abstands-Reviews",
+  "Formen haben spitze oder kantige Enden",
+  "Pixelgenaue Ausrichtung ist nötig, etwa in Tabellen",
+  "Diagramme, Karten und Anmerkungen",
+  "Längen oder Abstände zeigen",
+  "Die Länge ist mit einer Zahl beschriftet",
+  "Wahrnehmung verstehen",
+  "Erklären, warum die Täuschung entsteht",
+  "Eine Erklärung als abschließend behandeln",
+  "Forschung mit vielfältigen Zielgruppen",
+  "Aussagen über Kultur und Wahrnehmung treffen",
+  "Unterschiede ohne Tests annehmen",
+  "Design-Reviews",
+  "Ein Layout hängt vom Einschätzen von Längen ab",
+  "Längen sind beschriftet",
+  "Numerisch → optisch",
+  "Oberflächen oder Icons generieren",
+  "Generierte Layouts ungeprüft ausliefern",
+  "Dekorativ → genau",
+  "Diagramme mit KI erzeugen",
+  "Stilisierte Balken für Vergleiche"
+ ],
+ ".ai-divider h3": [
+  "Die Müller-Lyer-Täuschung im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Generierte Layouts und Diagramme entstehen aus Zahlen, nicht aus dem, was Menschen wahrnehmen. Optische Prüfungen brauchen weiter ein menschliches Auge."
+ ]
+}

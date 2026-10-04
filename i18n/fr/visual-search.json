@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Recherche <em>visuelle</em>"
+ ],
+ "header .tagline": [
+  "Certaines choses <em>sautent aux yeux</em>. D'autres se cherchent."
+ ],
+ "header .subtitle": [
+  "Trouver un élément à l'écran est rapide quand il se distingue de tout ce qui l'entoure par une seule caractéristique, comme la couleur ou la forme. Quand il partage des caractéristiques avec ses voisins, on examine les éléments un par un, et chaque élément de plus ajoute du temps."
+ ],
+ ".law-origin .body-text": [
+  "La recherche visuelle, trouver une cible parmi des distracteurs, est l'une des tâches les plus étudiées de la perception, et on la pratique sur chaque écran : un produit en rayon, un ami dans la foule, un bouton dans une barre d'outils. Les chercheurs mesurent comment le temps pour trouver la cible augmente quand on ajoute des distracteurs.",
+  "En 1980, <a href=\"people.html#p-anne-treisman\">Anne Treisman</a> et Garry Gelade ont proposé la théorie de l'intégration des caractéristiques : les caractéristiques simples comme la couleur, l'orientation et le mouvement sont traitées en parallèle, si bien qu'une caractéristique unique saute aux yeux, alors que combiner des caractéristiques demande de l'attention, un élément à la fois. Le modèle de recherche guidée de <a href=\"people.html#p-jeremy-wolfe\">Jeremy Wolfe</a> (1989) a montré comment connaître les caractéristiques de la cible oriente l'attention, et ses travaux ultérieurs ont montré que les cibles rares sont souvent manquées."
+ ],
+ ".law-content .law-desc": [
+  "Une cible qui se distingue de tout ce qui l'entoure par une seule caractéristique, comme la couleur ou la forme, saute aux yeux quel que soit le nombre d'éléments. Quand la cible partage des caractéristiques avec les distracteurs, on examine les éléments un par un, et le temps de recherche augmente à chaque élément ajouté."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-anne-treisman\">Treisman</a> et Gelade (1980)",
+  "Recherche de caractéristique et de conjonction",
+  "Donner une caractéristique unique aux éléments importants"
+ ],
+ ".apply-list li": [
+  "Les gens doivent trouver un élément précis dans une liste, une grille, une barre d'outils ou un tableau de bord.",
+  "Des états critiques, des erreurs ou des exceptions doivent être repérés rapidement.",
+  "Les écrans sont denses, ou les listes et catalogues ne cessent de grandir.",
+  "Donnez à l'élément à trouver une caractéristique que rien d'autre ne partage, comme une couleur associée à une icône.",
+  "Réduisez et regroupez les distracteurs, et proposez des filtres pour réduire l'ensemble.",
+  "Gardez les éléments à des emplacements constants, pour que les connaissances préalables guident le regard."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Conjonction",
+  "Statut",
+  "Encombrement",
+  "Guidage",
+  "Cibles rares",
+  "Familiarité",
+  "Mesure",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Ça saute aux yeux",
+  "Quand rien ne ressort",
+  "Coder le statut par une seule caractéristique",
+  "Chaque distracteur coûte du temps",
+  "Laisser filtrer d'un coup d'œil",
+  "Ce qui est rare passe inaperçu",
+  "Les mises en page familières se parcourent plus vite",
+  "Le temps de recherche croît avec le nombre d'éléments",
+  "Mettre la réponse en évidence",
+  "Un second chercheur"
+ ],
+ ".card .desc": [
+  "Un X rouge parmi des X noirs se trouve instantanément, qu'il y ait dix distracteurs ou cent. Quand une caractéristique est unique, le système visuel la repère en parallèle, avant que l'attention n'ait à intervenir.",
+  "Trouver un X vert parmi des X violets et des O verts oblige à examiner les éléments un par un, car la cible partage une caractéristique avec chaque distracteur. Les longues listes d'éléments semblables fonctionnent de la même façon.",
+  "Codez les états à repérer, comme les erreurs ou les retards, par une caractéristique que rien d'autre n'utilise. Associez la couleur à une icône ou une forme, pour que l'élément ressorte aussi pour les personnes qui ne distinguent pas les couleurs.",
+  "Dans une recherche séquentielle, chaque élément de plus ajoute du temps. Retirez le superflu, regroupez le reste et proposez des filtres, pour que la recherche porte sur un ensemble plus petit.",
+  "Connaître les caractéristiques d'une cible permet d'ignorer le reste : en cherchant un K rouge parmi des C rouges et des K noirs, on saute les lettres noires. Des couleurs ou icônes constantes par type d'élément permettent de réduire la recherche à vue.",
+  "Wolfe et ses collègues ont constaté que l'on manque bien plus de cibles quand elles sont rares, comme dans le contrôle des bagages à l'aéroport. Les problèmes rares dans une file ou un rapport demandent plus qu'un simple balayage visuel pour être détectés.",
+  "Dans la vie réelle, on regarde là où les choses se trouvent d'habitude. Savoir où se placent un champ de recherche ou une icône de panier guide le regard avant même le balayage : gardez les éléments à des emplacements constants et attendus.",
+  "Tracer le temps pour trouver une cible en fonction du nombre d'éléments montre si une recherche est parallèle ou séquentielle. En test d'utilisabilité, chronométrez le temps pour trouver des éléments à mesure que les listes s'allongent.",
+  "Quand l'IA trouve la ligne, le passage ou le réglage pertinent, mettez-le en évidence sur place au lieu de seulement le décrire. Une mise en évidence fait ressortir l'élément, et montrer pourquoi il a été choisi permet de le vérifier.",
+  "La revue par IA peut signaler des défauts ou risques rares que les humains ont tendance à manquer. Calibrez ses seuils, et gardez des humains dans la boucle, car elle peut aussi manquer des choses rares."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer la recherche de caractéristique",
+  "Un élément doit être trouvé vite",
+  "Tout doit avoir le même poids",
+  "Longues listes et écrans denses",
+  "Les éléments se ressemblent",
+  "La liste est courte",
+  "Tableaux de bord et listes de statuts",
+  "Une exception doit être repérée",
+  "De nombreux états se disputent l'attention",
+  "Menus, tableaux et grilles",
+  "On cherche un élément précis",
+  "On parcourt plutôt que de chercher",
+  "Systèmes d'icônes et catégories",
+  "Les éléments se répartissent en types",
+  "Les catégories sont arbitraires",
+  "Files de revue, de modération et de contrôle qualité",
+  "Les problèmes sont rares",
+  "Les cibles sont fréquentes",
+  "Navigation et gabarits de page",
+  "Les gens reviennent souvent",
+  "Un écran unique vu une seule fois",
+  "Tests d'utilisabilité",
+  "Les listes ou catalogues grandissent",
+  "Comparer des tâches de difficulté différente",
+  "Recherche séquentielle → saillance",
+  "L'IA trouve des éléments dans des listes ou documents",
+  "Mettre en évidence sans dire pourquoi",
+  "Humain seul → humain et IA",
+  "Détecter des problèmes rares",
+  "Compter sur l'IA pour tout attraper"
+ ],
+ ".ai-divider h3": [
+  "La recherche visuelle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut trouver l'aiguille et la montrer du doigt, transformant une recherche séquentielle lente en effet de saillance. Elle peut aussi servir de second regard pour les choses rares que l'on manque."
+ ]
+}

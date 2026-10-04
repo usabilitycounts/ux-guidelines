@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Illusion de <em>Müller-Lyer</em>"
+ ],
+ "header .tagline": [
+  "Les extrémités d'une ligne <em>changent sa longueur</em>."
+ ],
+ "header .subtitle": [
+  "Deux lignes de même longueur paraissent différentes quand l'une se termine par des pointes de flèche et l'autre par des empennages. Dans les interfaces, chevrons, barres pointues et icônes anguleuses modifient discrètement la longueur ou la largeur perçue."
+ ],
+ ".law-origin .body-text": [
+  "Le psychologue et sociologue allemand <a href=\"people.html#p-franz-carl-muller-lyer\">Franz Carl Müller-Lyer</a> a publié la figure en 1889. Deux tiges de même longueur, l'une coiffée de pointes tournées vers l'intérieur, l'autre d'empennages tournés vers l'extérieur, paraissent nettement inégales : celle aux ailettes ouvertes semble plus longue. Dans sa version d'origine, les personnes invitées à marquer le milieu le plaçaient du côté de l'empennage.",
+  "Les explications se disputent encore. <a href=\"people.html#p-richard-gregory\">Richard Gregory</a> y voyait une constance de taille mal appliquée, les figures évoquant les coins proches et lointains d'un bâtiment. Catherine Howe et Dale Purves l'ont rattachée en 2005 aux statistiques des images naturelles, et les explications par le centroïde la situent dans la façon dont le cerveau regroupe les signaux de position. L'idée, née dans les années 1960, que les personnes vivant dans des environnements moins « charpentés » y seraient moins sensibles a depuis été contestée."
+ ],
+ ".law-content .law-desc": [
+  "Des lignes de même longueur paraissent différentes selon ce qui se trouve à leurs extrémités : des ailettes ouvertes allongent la ligne, des pointes de flèche la raccourcissent. Les formes environnantes changent la taille perçue de l'élément lui-même, même quand on sait que les lignes sont égales."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-franz-carl-muller-lyer\">Müller-Lyer</a> (1889)",
+  "Figure de Müller-Lyer",
+  "Vérifier les longueurs à l'œil autant qu'en chiffres"
+ ],
+ ".apply-list li": [
+  "Vous comparez des longueurs dans des graphiques, des barres de progression ou des frises chronologiques.",
+  "Vous utilisez des flèches, des chevrons ou des formes anguleuses dans la navigation et les schémas.",
+  "Vous espacez des icônes et des formes aux extrémités pointues ou évasées.",
+  "Utilisez des barres simples à bouts plats sur une même ligne de base quand il faut comparer des longueurs.",
+  "Vérifiez espacements et alignements à l'œil, et corrigez optiquement les formes à bouts anguleux.",
+  "Indiquez en chiffres les longueurs importantes au lieu de vous fier à la perception."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Graphiques",
+  "Navigation",
+  "Espacement",
+  "Schémas",
+  "Explication",
+  "Culture",
+  "Persistance",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Même ligne, longueur différente",
+  "Les barres pointues trompent",
+  "Les chevrons changent la largeur perçue",
+  "Mesurer, puis regarder",
+  "Les flèches des cotes",
+  "Un raccourci pour la profondeur",
+  "Des mondes « charpentés » ?",
+  "Savoir ne suffit pas",
+  "Les mises en page générées oublient les corrections optiques",
+  "Des graphiques stylisés par l'IA"
+ ],
+ ".card .desc": [
+  "Deux tiges de longueur identique : l'une avec des pointes tournées vers l'intérieur, l'autre avec des empennages tournés vers l'extérieur. La seconde paraît plus longue, et le reste même après avoir mesuré les deux.",
+  "Les barres et indicateurs de progression à bout en flèche ou évasé sont difficiles à comparer, car leurs extrémités modifient leur longueur perçue. Utilisez des barres à bouts plats sur une ligne de base commune pour tout ce qu'il faut comparer.",
+  "Les fils d'Ariane et les indicateurs d'étapes dessinés en chevrons peuvent faire paraître inégaux des segments égaux. Vérifiez leurs largeurs et espacements à l'œil, pas seulement dans l'inspecteur.",
+  "Une forme pointue ne paraît pas centrée quand elle l'est mathématiquement. Une icône de lecture placée exactement au milieu d'un cercle semble décalée vers la gauche, alors les designers la poussent vers la droite. Corrigez optiquement, puis documentez l'ajustement.",
+  "Des pointes de flèche tournées vers l'intérieur sur une ligne de cote font paraître la distance plus courte qu'elle ne l'est. Pour les longueurs importantes, utilisez des extrémités à traits et indiquez la valeur.",
+  "Richard Gregory proposait que le cerveau lise les ailettes fermées comme le coin saillant d'un bâtiment et les ailettes ouvertes comme le coin rentrant d'une pièce, et les mette à l'échelle comme s'ils étaient à des distances différentes. D'autres l'expliquent par les statistiques des images ou le regroupement des positions.",
+  "En 1963, Segall, Campbell et Herskovits ont constaté que l'ampleur de l'illusion variait de 1,4 à 20,3 % selon les groupes, et l'ont liée à la vie au milieu de lignes droites et d'angles droits. Des travaux ultérieurs ont contesté cette lecture, et une synthèse de 2025 soutient que ces différences étaient en grande partie des artefacts.",
+  "On a montré que des pigeons et un perroquet gris perçoivent eux aussi l'illusion, et les gens la voient encore après avoir mesuré. Puisque la connaître ne la corrige pas, concevez pour que les longueurs se lisent correctement d'un coup d'œil.",
+  "Les outils d'IA de mise en page et d'icônes alignent les formes selon leur géométrie, si bien que flèches, chevrons et icônes de lecture peuvent paraître décentrés ou irréguliers. Revoyez le travail généré à l'œil et corrigez-le optiquement.",
+  "Les outils de graphiques par IA peuvent orner les barres de pointes, de dégradés ou d'effets 3D qui faussent les comparaisons. Demandez des barres simples sur une ligne de base commune, avec les valeurs indiquées."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'illusion",
+  "Les éléments ont des extrémités décorées",
+  "Les extrémités sont simples et plates",
+  "Graphiques en barres et barres de progression",
+  "Les barres ont des extrémités décoratives",
+  "Les barres sont plates et partagent une ligne de base",
+  "Fils d'Ariane et indicateurs d'étapes",
+  "Les segments ont une forme de flèche",
+  "Les segments sont de simples rectangles",
+  "Revues d'icônes et d'espacements",
+  "Les formes ont des extrémités pointues ou anguleuses",
+  "Un alignement au pixel près est requis, comme dans les tableaux",
+  "Schémas, cartes et annotations",
+  "Montrer des longueurs ou des distances",
+  "La longueur est indiquée en chiffres",
+  "Comprendre la perception",
+  "Expliquer pourquoi l'illusion se produit",
+  "Considérer une explication comme définitive",
+  "Recherche auprès de publics variés",
+  "Avancer des affirmations sur culture et perception",
+  "Supposer des différences sans les tester",
+  "Revues de design",
+  "Une mise en page dépend du jugement des longueurs",
+  "Les longueurs sont indiquées",
+  "Numérique → optique",
+  "Générer des interfaces ou des icônes",
+  "Livrer des mises en page générées sans relecture",
+  "Décoratif → exact",
+  "Générer des graphiques avec l'IA",
+  "Des barres stylisées pour comparer"
+ ],
+ ".ai-divider h3": [
+  "L'illusion de Müller-Lyer à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les mises en page et graphiques générés reposent sur des chiffres, pas sur ce que les gens perçoivent. Les vérifications optiques demandent toujours un œil humain."
+ ]
+}

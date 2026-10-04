@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Explainability</em>"
+ ],
+ "header .tagline": [
+  "Show people <em>why</em>, not just what."
+ ],
+ "header .subtitle": [
+  "Explainable AI gives people a view into why a system produced a result, so they can judge it, challenge it, and decide how far to rely on it. The goal isn’t more trust, but the right amount."
+ ],
+ ".law-origin .body-text": [
+  "Explanation in AI is older than the black box. In the early 1970s, <a href=\"people.html#p-edward-shortliffe\">Edward Shortliffe</a>’s MYCIN, a Stanford research system for diagnosing blood infections, could show which of its hand-written rules led to a diagnosis. As opaque models such as deep neural networks took over, even their designers often couldn’t say why a model produced a particular result.",
+  "Explainable AI (XAI) grew into its own field in the 2010s, with methods like LIME and SHAP, DARPA’s XAI program, and the right to explanation in the EU’s GDPR. <a href=\"people.html#p-cynthia-rudin\">Cynthia Rudin</a> argued that high-stakes decisions should use models that are interpretable by design, and research by Gagan Bansal, <a href=\"people.html#p-besmira-nushi\">Besmira Nushi</a>, <a href=\"people.html#p-dan-weld\">Dan Weld</a> and colleagues found that explanations can make people accept an AI’s wrong answers as readily as its right ones."
+ ],
+ ".law-content .law-desc": [
+  "Explainability is how well people can understand why an AI system produced a given result. Interpretability is about how a model works overall; explainability is about this result, for this person. Good explanations let people check a decision, contest it, and calibrate how much they rely on the system."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-shortliffe\">Shortliffe</a>’s MYCIN (1970s) · Ribeiro et al. (2016)",
+  "Explainable AI (XAI)",
+  "Show why, in terms people can check"
+ ],
+ ".apply-list li": [
+  "An AI system recommends, ranks, flags, or decides something that matters to people.",
+  "People need to judge whether to rely on a prediction or override it.",
+  "Decisions face review, appeal, or rules like the GDPR’s right to explanation.",
+  "Explain the specific result in plain words, naming the few factors that mattered most.",
+  "Answer the question people actually ask, which is often why this result rather than another.",
+  "Aim for calibrated trust: show uncertainty and limits, and test whether explanations help people catch mistakes."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Local explanations",
+  "Contrastive",
+  "Audience",
+  "Trust",
+  "Calibration",
+  "Auditing",
+  "Design",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Open the Black Box",
+  "Explain This Result",
+  "Answer “Why Not?”",
+  "Fit the Explanation to the Reader",
+  "Understanding Is Not Trust",
+  "Explanations Can Oversell",
+  "Catch the Clever Hans",
+  "Interpretable Beats Explained",
+  "Written Reasoning Is Not an Explanation",
+  "Show Sources, Not Just Confidence"
+ ],
+ ".card .desc": [
+  "A black-box model gives an answer without a reason; a glass-box model shows its work. Explanations should say what the system did, what it’s doing, what comes next, and what information it’s using.",
+  "People rarely want to know how a whole model works; they want to know why it said this, about them. Local methods such as LIME and SHAP show which inputs pushed a single prediction up or down.",
+  "People usually ask why this result rather than the one they expected. Tim Miller’s review of social science research found that good explanations are contrastive and pick out a few causes instead of listing every factor.",
+  "The same explanation can be too shallow for an expert and too technical for a beginner. Lead with a short reason in plain words, and let people open the details they need.",
+  "In a 2019 study of an admissions algorithm, interactive explanations helped people understand its decisions but didn’t make them trust it more. People still saw it as too rigid next to human decision-makers who can weigh exceptions and appeals.",
+  "A 2021 study found that explanations raised how often people accepted an AI’s recommendation, whether it was right or wrong. The aim is calibrated trust: enough to use the system, not so much that people stop checking.",
+  "Researchers found an image classifier that recognized horses by a copyright tag in the corner of the photos, not by the horse. Explanations help teams spot shortcuts like this before users meet them.",
+  "Cynthia Rudin argues that for high-stakes decisions, models that are interpretable by design beat black boxes with explanations added afterward, because a separate explanation can’t be fully faithful to the model it describes.",
+  "A model’s step-by-step reasoning reads like an explanation, but it isn’t guaranteed to reflect how the answer was actually produced. Don’t present it as proof; pair it with evidence people can check.",
+  "Point each claim to the source it came from, so people can verify it themselves. A citation lets people check an answer; a confident tone only asks them to believe it."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the idea",
+  "A model decides without saying why",
+  "The output is trivial and low stakes",
+  "Recommendations, scores, and flags",
+  "A result affects one person",
+  "Auditing the whole model at once",
+  "Denials, rankings, and rejections",
+  "The result surprised the person",
+  "Listing every factor at once",
+  "Products with mixed audiences",
+  "Users differ in expertise",
+  "One explanation must satisfy everyone",
+  "High-stakes decisions about people",
+  "Expecting explanations to win acceptance",
+  "Treating trust as the only goal",
+  "AI that assists decisions",
+  "Testing whether explanations help",
+  "Measuring only how often people agree",
+  "Model review and QA",
+  "Accuracy looks too good to be true",
+  "Treating a high score as proof of reasoning",
+  "Lending, health, and justice",
+  "Stakes are high and decisions contested",
+  "A simpler model costs too much accuracy",
+  "Reasoning text → checkable evidence",
+  "Showing an AI’s reasoning",
+  "Treating fluent reasoning as proof",
+  "Confidence → citations",
+  "AI answers questions from documents",
+  "Citations that don’t support the claim"
+ ],
+ ".ai-divider h3": [
+  "Explainability in the Age of Generative AI"
+ ],
+ ".ai-divider p": [
+  "Language models write fluent explanations on request. That makes explanations cheap to produce and easy to believe, whether or not they reflect how an answer was made."
+ ]
+}

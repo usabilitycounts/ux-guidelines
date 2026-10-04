@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Chartjunk</em>"
+ ],
+ "header .tagline": [
+  "Tinte, die keine Daten zeigt, <em>steht im Weg</em>."
+ ],
+ "header .subtitle": [
+  "Dicke Gitternetzlinien, verzierte Achsen, gemusterte Hintergründe, unnötiges 3D und dekorative Bilder fügen Tinte hinzu, aber keine Information. Manches verschwendet Aufmerksamkeit, manches verzerrt die Daten selbst."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-edward-tufte\">Edward Tufte</a> prägte den Begriff in The Visual Display of Quantitative Information (1983), aufbauend auf Ideen aus einem Statistikkurs in Princeton, den er mit John Tukey gab. Dekoration, so argumentierte er, erzeugt Tinte, die dem Betrachter nichts Neues sagt, und gute Grafiken widmen so viel Tinte wie möglich den Daten.",
+  "Er nahm die illustrierten Grafiken von <a href=\"people.html#p-nigel-holmes\">Nigel Holmes</a> für Time ins Visier, der erwiderte, Tufte sei in der akademischen Welt gefangen und blind für das kommerzielle Bedürfnis, ein Publikum zu gewinnen. Die Forschung hat das Bild seither verkompliziert: Verzierte Diagramme werden oft besser erinnert, und Praktiker wie Stephen Few und Robert Kosara halten die Definition für zu unscharf."
+ ],
+ ".law-content .law-desc": [
+  "Chartjunk ist jedes visuelle Element eines Diagramms, das zum Verständnis der Daten nicht nötig ist oder davon ablenkt. Manches konkurriert nur um Aufmerksamkeit, wie dicke Gitter und Rahmen; die schlimmere Sorte verzerrt die Daten, wie 3D-Balken und maßstabswidrig gezeichnete Bilder."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-tufte\">Tufte</a> (1983)",
+  "Nicht-Daten-Tinte",
+  "Tinte entfernen, die keine Daten zeigt"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Dashboards, Berichte und Diagramme, aus denen Werte abgelesen werden.",
+  "Ein Diagramm nutzt 3D-Effekte, dekorative Bilder, dicke Gitter oder gemusterte Hintergründe.",
+  "Sie prüfen generierte oder vorlagenbasierte Diagramme vor der Veröffentlichung.",
+  "Entfernen oder entschärfen Sie jedes Element, das keine Daten kodiert oder beim Ablesen hilft.",
+  "Nutzen Sie nie Dekoration, die den Maßstab verzerrt, etwa 3D-Balken oder unproportionierte Bilder.",
+  "Behalten Sie Anmerkungen und bedeutungstragende Icons, die beim Verstehen helfen, und streichen Sie den Rest."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Gitternetz",
+  "3D",
+  "Hintergründe",
+  "Debatte",
+  "Gedächtnis",
+  "Urteil",
+  "Barrierefreiheit",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Tinte, die nichts sagt",
+  "Das Gitter aufhellen",
+  "Eine dritte Dimension verzerrt",
+  "Unruhige Hintergründe verdecken Vergleiche",
+  "Tufte gegen Holmes",
+  "Nützlicher Ballast?",
+  "Nicht jeder Ballast ist gleich",
+  "Icons können helfen",
+  "Generierte Diagramme lieben Dekoration",
+  "Anmerkungen sind kein Ballast"
+ ],
+ ".card .desc": [
+  "Rahmen, dunkle Gitter, verzierte Achsen und schattierte Hintergründe fügen Tinte hinzu, die nichts Neues sagt. Entfernt man sie, lesen sich dieselben Daten schneller und klarer.",
+  "Dicke oder dichte Gitternetzlinien konkurrieren mit den Daten um Aufmerksamkeit. Hellen Sie sie auf und machen Sie sie dünner, oder entfernen Sie sie, und behalten Sie nur, was beim Ablesen hilft.",
+  "3D-Balken und -Torten fügen eine Dimension ohne Daten hinzu, und die Perspektive lässt gleiche Werte ungleich wirken. Flache Diagramme vergleichen ehrlich.",
+  "Muster, Fotos und unruhige Texturen hinter einem Diagramm erschweren den Vergleich von Balken und Linien. Setzen Sie Daten auf einen schlichten Hintergrund, und stellen Sie Bilder neben das Diagramm statt darunter.",
+  "Tufte bezeichnete Nigel Holmes' illustrierte Grafiken für Time als Chartjunk; Holmes antwortete, kommerzielle Grafiken müssten ein Publikum gewinnen. Die Spannung zwischen statistischer Strenge und visueller Wirkung besteht bis heute.",
+  "Eine Studie von 2010 fand, dass verzierte Diagramme im Stil von Holmes genauso genau gelesen und Wochen später besser erinnert wurden als schlichte, und eine Studie von 2013, dass Piktogramme Visualisierungen einprägsamer machen. Dekoration hat Kosten, aber nicht immer netto.",
+  "Robert Kosara teilt Verzierungen in schädliche, etwa einen unruhigen Hintergrund, harmlose, etwa einen dezenten Rahmen, und hilfreiche, etwa eine Anmerkung. Beurteilen Sie jedes Element danach, was es für das Verständnis tut.",
+  "Eine Studie von 2021 fand, dass bedeutungstragende Icons Diagramme für Menschen mit geistigen und Entwicklungsbeeinträchtigungen zugänglicher machten. Das minimalste Diagramm ist nicht immer das verständlichste.",
+  "KI-Diagrammwerkzeuge fügen oft standardmäßig Verläufe, abgerundete 3D-Balken, Schatten und Stock-Icons hinzu. Verlangen Sie schlichte Kodierungen, und prüfen Sie das Ergebnis wie den Entwurf eines Designers.",
+  "KI kann kurze Anmerkungen schreiben, die zeigen, worauf es in einem Diagramm ankommt, die hilfreiche Art zusätzlicher Tinte. Prüfen Sie jede genannte Zahl an den Daten."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Idee erklären",
+  "Ein Diagramm trägt Dekoration",
+  "Jedes Element kodiert Daten",
+  "Diagramme und Tabellen",
+  "Gitternetzlinien sind dunkel oder dicht",
+  "Exakte Werte müssen am Gitter abgelesen werden",
+  "Balken-, Kreis- und Flächendiagramme",
+  "3D-Effekte erwägen",
+  "Tiefe dient nur als Dekoration",
+  "Infografiken und Hero-Diagramme",
+  "Ein Diagramm liegt auf einem Bild oder Muster",
+  "Der Hintergrund ist bereits schlicht",
+  "Redaktionelle und Marketinggrafiken",
+  "Diagramme müssen Aufmerksamkeit erregen",
+  "Diagramme stützen präzise Entscheidungen",
+  "Präsentationen und Infografiken",
+  "Erinnerung zählt mehr als Präzision",
+  "Dashboards, die täglich auf exakte Werte gelesen werden",
+  "Diagramm-Reviews",
+  "Entscheiden, was entfernt wird",
+  "Erklärende Anmerkungen streichen",
+  "Diagramme für ein breites Publikum",
+  "Die Zahlenkompetenz der Lesenden variiert",
+  "Icons tragen keine Bedeutung",
+  "Standardstil → schlichte Kodierung",
+  "Diagramme mit KI erzeugen",
+  "Dekorative Voreinstellungen übernehmen",
+  "Dekoration → Erklärung",
+  "KI kommentiert Diagramme",
+  "Anmerkungen mit ungeprüften Zahlen"
+ ],
+ ".ai-divider h3": [
+  "Chartjunk im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Generierte Diagramme kommen oft gestylt: Verläufe, Schatten, Leuchteffekte und Icons. Die Frage nach der Daten-Tinte gehört heute zur Prüfung von KI-Ausgaben."
+ ]
+}

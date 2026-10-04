@@ -39,8 +39,9 @@ DESC = {
 FEED_URL = {lang: BASE + ('feed.xml' if lang == 'en' else f'{lang}/feed.xml') for lang in ['en'] + LANGS}
 LINK_BLOCK = '\n'.join(
     f'<link rel="alternate" type="application/rss+xml" title="UX Guidelines{"" if lang == "en" else " (" + NAME[lang] + ")"}"'
-    + ('' if lang == 'en' else f' hreflang="{HREFLANG[lang]}"') + f' href="{FEED_URL[lang]}">'
+    + f' href="{FEED_URL[lang]}"' + ('' if lang == 'en' else f' hreflang="{HREFLANG[lang]}"') + '>'
     for lang in ['en'] + LANGS)
+# href comes before hreflang so py/gen_slugs.py's hreflang rewrite never touches feed links
 LINK_RE = re.compile(r'(?:<link rel="alternate" type="application/rss\+xml"[^>]*>\n?)+')
 
 

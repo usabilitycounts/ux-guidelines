@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet bateau de <em>trottoir</em>"
+ ],
+ "header .tagline": [
+  "Concevez pour le handicap, <em>et tout le monde en profite</em>."
+ ],
+ "header .subtitle": [
+  "Les fonctionnalités conçues pour les personnes handicapées finissent par servir bien plus de monde que prévu. Bateaux de trottoir, sous-titres et synthèse vocale sont nés comme aménagements et sont devenus indispensables à tous."
+ ],
+ ".law-origin .body-text": [
+  "Des bateaux de trottoir existaient à Kalamazoo, dans le Michigan, dès 1945, mais ceux qui ont changé le pays sont venus de Berkeley, en Californie. Au début des années 1970, le militant Michael Pachovas et des amis ont coulé du ciment pour former une rampe sommaire au bord d'un trottoir, et en 1972, sous la pression des militants, la ville a installé son premier bateau officiel sur Telegraph Avenue. L'Americans with Disabilities Act de 1990 en a fait la norme.",
+  "Puis tout le monde s'en est servi : parents avec poussette, livreurs avec chariot, voyageurs avec valise. Une étude menée dans un centre commercial de Sarasota, en Floride, a montré que neuf piétons sans charge sur dix faisaient un détour pour emprunter un bateau. <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> a nommé l'effet en 2017 dans un essai : les changements conçus pour un groupe exclu finissent par profiter à tous."
+ ],
+ ".law-content .law-desc": [
+  "Les fonctionnalités conçues pour les personnes handicapées finissent par être utilisées et appréciées par un groupe bien plus large que prévu. L'effet est cousin de la conception universelle, mais souvent non planifié : le bénéfice élargi n'apparaît qu'une fois l'aménagement en place."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Bateaux de trottoir de Berkeley (1972) · nommé par <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> (2017)",
+  "Principe du bateau de trottoir",
+  "Concevoir pour le handicap, au bénéfice de tous"
+ ],
+ ".apply-list li": [
+  "Vous priorisez le travail d'accessibilité, ou en expliquez la valeur aux parties prenantes.",
+  "Vous concevez des fonctionnalités de média, de saisie, de lecture ou de navigation.",
+  "Les gens font face à des limites temporaires ou situationnelles : bruit, reflets, une seule main libre.",
+  "Partez des besoins des personnes handicapées, puis cherchez tous ceux qui en profitent aussi.",
+  "Faites du parcours accessible le parcours par défaut, pas un mode à part.",
+  "Testez avec des personnes handicapées, et voyez le bénéfice élargi comme un bonus, pas comme la raison."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Médias",
+  "Spectre",
+  "Saisie",
+  "Écoute",
+  "Contraste",
+  "Langage",
+  "Prudence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Des rampes pour tous",
+  "Des sous-titres pour tous",
+  "Permanent, temporaire, situationnel",
+  "Le clavier accélère tout le monde",
+  "La synthèse vocale dans les transports",
+  "Le contraste en plein soleil",
+  "Un langage clair pour tous les lecteurs",
+  "Pas seulement un argument économique",
+  "Les technologies d'assistance sont devenues grand public",
+  "Textes alternatifs et sous-titres générés"
+ ],
+ ".card .desc": [
+  "Les bateaux de trottoir ont été faits pour les fauteuils roulants, puis poussettes, chariots, valises, vélos et coureurs se les sont appropriés. Aujourd'hui, peu de gens y voient encore un aménagement d'accessibilité, signe que l'effet fonctionne.",
+  "Les sous-titres écrits pour les personnes sourdes et malentendantes servent dans les lieux bruyants, les bureaux silencieux, aux apprenants d'une langue et sur les vidéos qui démarrent sans le son. Sous-titrez chaque vidéo parlée.",
+  "La boîte à outils de conception inclusive de Microsoft associe un handicap permanent à ses versions temporaire et situationnelle : un seul bras, un bras dans le plâtre, un parent qui tient un bébé. Concevez pour le cas permanent, et les autres suivent.",
+  "La navigation au clavier conçue pour les personnes qui ne peuvent pas utiliser de souris est aussi ce qui permet aux utilisateurs avancés d'aller vite. Un ordre de focus logique et un focus visible aident tous ceux qui préfèrent les touches.",
+  "La synthèse vocale a été conçue pour les personnes aveugles, et l'on écoute désormais articles, études et livres en se déplaçant ou en faisant autre chose. Un balisage sémantique et du vrai texte la font fonctionner pour tous.",
+  "Un contraste élevé, indispensable aux personnes malvoyantes, aide aussi quiconque lit un téléphone au soleil ou un écran bon marché de biais. Respectez les ratios de contraste pour tout texte et toute commande.",
+  "Écrire clairement pour les personnes ayant un handicap cognitif aide aussi les non-natifs, les lecteurs fatigués et ceux qui survolent. Des phrases courtes et des mots courants ne font rien perdre aux experts.",
+  "Des critiques comme le juriste Blake Reid avertissent que l'argument du bateau de trottoir peut faire passer les besoins des personnes handicapées après les bénéfices généraux, et écarter les fonctionnalités qui n'aident qu'elles. Rendez accessible parce que des gens en ont besoin ; le bénéfice élargi est un bonus.",
+  "Les assistants vocaux, les sous-titres en direct et la lecture à voix haute sont issus de technologies conçues pour les personnes handicapées. Gardez-les dans vos tests au fil des évolutions, car ce sont elles qui en dépendent le plus.",
+  "L'IA peut décrire des images et sous-titrer de l'audio à grande échelle, ce qui aide aussi tous ceux qui cherchent et survolent. Les erreurs pèsent surtout sur ceux qui en dépendent : relisez les descriptions générées des contenus importants."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Défendre une fonctionnalité d'accessibilité",
+  "La fonctionnalité est un aménagement individuel",
+  "Contenus vidéo et audio",
+  "Un média est lu sur la page",
+  "La vidéo n'a ni parole ni son significatif",
+  "Cadrer le travail d'accessibilité",
+  "Décider pour qui concevoir",
+  "Traiter les utilisateurs en situation comme le public principal",
+  "Formulaires, outils et applications de productivité",
+  "Les gens répètent souvent les mêmes tâches",
+  "L'appareil n'a pas du tout de clavier",
+  "Longs articles et documents",
+  "Le contenu se lit longuement",
+  "Le texte se limite à de courts libellés",
+  "Textes et commandes partout",
+  "Choisir les couleurs",
+  "Éléments purement décoratifs",
+  "Instructions, erreurs et politiques",
+  "Le texte explique une tâche",
+  "Les spécialistes ont besoin de termes techniques exacts",
+  "Planification et plaidoyer pour l'accessibilité",
+  "Justifier le travail d'accessibilité",
+  "Le bénéfice général est le seul argument avancé",
+  "Assistance → quotidien",
+  "Livrer de la voix, des sous-titres ou des descriptions",
+  "Optimiser uniquement pour le grand public",
+  "Manuel → généré",
+  "L'IA rédige textes alternatifs ou sous-titres",
+  "Publier des textes alternatifs générés sans relecture"
+ ],
+ ".ai-divider h3": [
+  "L'effet bateau de trottoir à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "La reconnaissance vocale, la synthèse vocale et la description d'images ont commencé comme technologies d'assistance. L'IA en a fait des fonctionnalités de tous les jours."
+ ]
+}

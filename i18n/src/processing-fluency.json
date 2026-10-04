@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Processing <em>Fluency</em>"
+ ],
+ "header .tagline": [
+  "What is easy to process <em>feels true</em>."
+ ],
+ "header .subtitle": [
+  "The ease of reading, seeing, or recalling something colors how people judge it. Easy-to-process content feels more true, more familiar, and more likable, whether or not it deserves to."
+ ],
+ ".law-origin .body-text": [
+  "In 1981 Larry Jacoby and Mark Dallas argued that people sense how fluently they process something and read that ease as familiarity: things seen before are processed more easily, so anything easy feels as if it has been seen before. Research since then has tied the same feeling of ease to judgments of liking, confidence, and truth.",
+  "<a href=\"people.html#p-rolf-reber\">Rolf Reber</a> and <a href=\"people.html#p-norbert-schwarz\">Norbert Schwarz</a> showed in 1999 that statements printed in high-contrast colors were judged true more often than the same statements in low contrast, and with Piotr Winkielman they proposed that fluency underlies aesthetic pleasure. <a href=\"people.html#p-adam-alter\">Adam Alter</a> and Daniel Oppenheimer later found that newly listed stocks with easy-to-pronounce names did better in their first week of trading."
+ ],
+ ".law-content .law-desc": [
+  "Processing fluency is the subjective ease of taking in information. People misread that ease as a property of the content itself: fluent material is judged more true, more familiar, more beautiful, and more trustworthy, and people think about it less carefully."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Jacoby and Dallas (1981) · <a href=\"people.html#p-rolf-reber\">Reber</a> and <a href=\"people.html#p-norbert-schwarz\">Schwarz</a> (1999)",
+  "Cognitive fluency",
+  "Make the true and important things easy to read"
+ ],
+ ".apply-list li": [
+  "Writing and typesetting content that needs to be understood and trusted.",
+  "Naming products, features, plans, or settings.",
+  "Presenting claims, numbers, or AI output that people might accept without checking.",
+  "Use legible type, strong contrast, plain words, and familiar patterns for content people should read.",
+  "Choose names that are easy to say and spell.",
+  "Add deliberate friction, such as a summary or confirmation, where careful thought matters more than speed."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Typography",
+  "Familiarity",
+  "Aesthetics",
+  "Naming",
+  "Friction",
+  "Clarity",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Easy Reads as True",
+  "Legibility Earns Trust",
+  "Familiar Feels Easy, and Good",
+  "Simple Forms Please",
+  "Names You Can Say",
+  "Ease Makes People Skim",
+  "Plain Words Win",
+  "Hard Fonts Are Not a Fix",
+  "Fluent Is Not Correct",
+  "Highlight What to Check"
+ ],
+ ".card .desc": [
+  "Statements in high-contrast colors were judged true more often than identical statements in low contrast. The presentation changed the judgment, not the content.",
+  "Clean type, good contrast, and comfortable line length make content feel more credible and its author more competent. In one study, illegible handwriting led to lower essay grades because it was hard to process.",
+  "Repeated or familiar things are processed more easily, and that ease turns into liking, the mere exposure effect. Familiar interaction patterns feel better partly because they are effortless.",
+  "Fluency is part of why clear, balanced, uncluttered designs feel beautiful. Highly unusual product forms are harder to process and are often liked less, although a moderate dose of novelty is welcome.",
+  "Newly listed stocks with pronounceable names and ticker symbols did better in their first week than hard-to-pronounce ones. Names that are easy to say and spell feel more trustworthy and are easier to recall.",
+  "When processing feels easy, people think more shallowly, and they are more likely to miss errors. For consequential steps, add a moment of deliberate attention, such as a review screen or a typed confirmation.",
+  "Complex words and convoluted sentences lower fluency, and readers judge the writer as less intelligent. Simple language reads as more credible, not less.",
+  "A 2007 study suggested that hard-to-read text makes people think more carefully, but a large 2015 replication found no benefit. Don’t degrade legibility to force attention; add real checkpoints instead.",
+  "A well-formatted, confident AI answer feels true because it is easy to read, regardless of accuracy. Show sources and confidence, so the feeling of ease isn’t the only cue people have.",
+  "Because fluent text invites skimming, point attention at the parts most likely to be wrong, such as numbers, names, and citations, instead of making the whole answer look equally certain."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Claims must be trusted",
+  "The content is purely decorative",
+  "Body text, policies, and pricing",
+  "Content must be read and believed",
+  "Display type meant to be expressive",
+  "Choosing interaction patterns",
+  "A familiar convention exists",
+  "The convention has failed users",
+  "Visual design and product form",
+  "First impressions matter",
+  "Novelty is the point, as in art",
+  "Product, feature, and plan names",
+  "Choosing a name",
+  "A hard name is a deliberate brand choice",
+  "Confirmations and reviews",
+  "Errors are costly",
+  "The action is routine and reversible",
+  "Interface copy and documentation",
+  "Explaining a product or decision",
+  "Specialists need exact technical terms",
+  "Design decisions based on research",
+  "Considering disfluency as a tool",
+  "Making text harder to read on purpose",
+  "Polished → verified",
+  "AI answers questions",
+  "Polish standing in for evidence",
+  "Uniform text → flagged uncertainty",
+  "AI output feeds decisions",
+  "Every sentence looking equally certain"
+ ],
+ ".ai-divider h3": [
+  "Processing Fluency in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI answers are fluent by design: polished, confident, and easy to read. That fluency makes them feel true, which is exactly when people should check."
+ ]
+}

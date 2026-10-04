@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet de supériorité de l'<em>image</em>"
+ ],
+ "header .tagline": [
+  "Une image <em>se retient</em> mieux qu'un mot."
+ ],
+ "header .subtitle": [
+  "On se souvient des images et on les reconnaît plus sûrement que les mêmes idées écrites en texte. Des images concrètes et distinctes font retenir fonctionnalités, étapes et consignes, à condition qu'elles portent le sens."
+ ],
+ ".law-origin .body-text": [
+  "En 1967, <a href=\"people.html#p-roger-shepard\">Roger Shepard</a> a montré à des participants des centaines de mots, de phrases ou d'images, puis a testé ce qu'ils reconnaissaient. La reconnaissance était la meilleure pour les images, presque parfaite juste après la présentation. De nombreuses études ont depuis retrouvé le même avantage, en rappel comme en reconnaissance.",
+  "La théorie du double codage d'<a href=\"people.html#p-allan-paivio\">Allan Paivio</a> (1971) a fourni l'explication classique : l'image d'un objet concret est stockée à la fois comme image et comme étiquette verbale, alors qu'un mot n'est en général stocké que verbalement, si bien que les images disposent de deux chemins vers la mémoire. D'autres explications insistent sur le caractère distinctif des images, et l'avantage s'estompe quand les images se ressemblent trop."
+ ],
+ ".law-content .law-desc": [
+  "On retient mieux les images que les mots. Une image concrète est plus facile à reconnaître et à rappeler que la même idée en texte, surtout quand les images se distinguent nettement les unes des autres et qu'on a le temps de les regarder."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-roger-shepard\">Shepard</a> (1967) · <a href=\"people.html#p-allan-paivio\">Paivio</a> (1971)",
+  "Supériorité picturale",
+  "Associer les idées clés à des images distinctes"
+ ],
+ ".apply-list li": [
+  "Le contenu doit être retenu : onboarding, consignes, fonctionnalités ou marque.",
+  "Les lecteurs ont des niveaux de lecture, des langues ou des âges variés.",
+  "Vous expliquez des objets, des lieux, des étapes ou des comparaisons concrets.",
+  "Associez les concepts importants à des images concrètes et distinctes, et gardez aussi le libellé texte.",
+  "Montrez une image ou un schéma avant l'explication pour les personnes qui découvrent le sujet.",
+  "Rendez les images nettement différentes les unes des autres, et évitez les images pour les idées abstraites."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Double codage",
+  "Distinction",
+  "Onboarding",
+  "Compréhension",
+  "Âge",
+  "Limites",
+  "Marketing",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Les images restent",
+  "Deux codes valent mieux qu’un",
+  "Des images semblables perdent l'avantage",
+  "Montrer, puis expliquer",
+  "Les images font passer les consignes",
+  "Les personnes âgées en profitent le plus",
+  "Les mots peuvent être plus rapides",
+  "Mémorable n'est pas forcément clair",
+  "Des images génériques partout",
+  "Répondre avec une image"
+ ],
+ ".card .desc": [
+  "Face à des centaines d'éléments, on reconnaissait les images presque parfaitement, nettement mieux que les mots ou les phrases. De nombreuses études ont depuis retrouvé le même avantage en rappel et en reconnaissance.",
+  "L'image d'une chose concrète est stockée à la fois comme image et comme mot, alors qu'un mot abstrait n'est stocké que verbalement. Associer une icône à son libellé donne les deux codes.",
+  "Quand les images se ressemblent, l'avantage de mémoire disparaît. Un jeu d'icônes qui partagent toutes la même forme et la même graisse aide moins la reconnaissance qu'un jeu dont les éléments se distinguent nettement.",
+  "Voir une image avant de lire aide les apprenants peu familiers du sujet à construire un modèle mental que le texte vient compléter. Placez le schéma avant l'explication, pas après.",
+  "Une revue de la recherche en communication de santé a montré que les images améliorent l'attention, la compréhension, la mémorisation et l'observance, surtout chez les personnes peu à l'aise avec la lecture. Les consignes illustrées clairement sont mieux suivies.",
+  "L'avantage est plus grand chez les personnes âgées, dont la mémoire des mots décline plus que celle des images, et il persiste chez les personnes atteintes d'Alzheimer léger. Les images aident tout le monde, et beaucoup certaines personnes.",
+  "Sous la pression du temps, on peut reconnaître les mots plus vite que les images, car une image demande plus de temps à interpréter. Pour les actions fréquentes où la vitesse compte, un libellé clair vaut mieux qu'une icône inconnue.",
+  "Les images améliorent la mémorisation de la marque en publicité, mais on peut se souvenir d'une image et oublier le message. Veillez à ce que l'image montre l'argument, pas seulement quelque chose de frappant.",
+  "Les illustrations générées permettent de mettre une image sur chaque écran, mais des images au style uniforme perdent le caractère distinctif qui rend les images mémorables. Utilisez des images qui portent de l'information.",
+  "Une réponse d'IA qui inclut un schéma, un graphique ou une image peut se retenir mieux qu'un paragraphe. Proposez des visuels quand le contenu est concret, et vérifiez qu'ils sont exacts."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Le contenu doit être retenu",
+  "Le contenu sert une fois puis s'oublie",
+  "Icônes, illustrations et libellés",
+  "Les concepts sont concrets et représentables",
+  "Les concepts sont abstraits, sans image claire",
+  "Systèmes d'icônes et vignettes",
+  "Les images sont visuellement distinctes",
+  "Toutes les images partagent une forme et un style",
+  "Onboarding, aide et tutoriels",
+  "Les gens découvrent le sujet",
+  "Des experts cherchent un seul détail",
+  "Consignes, sécurité et contenus de santé",
+  "Les niveaux de lecture varient",
+  "L'image serait ambiguë",
+  "Produits pour personnes âgées",
+  "Retenir le contenu compte",
+  "Les images remplaceraient entièrement le texte",
+  "Barres d’outils, menus et actions rapides",
+  "La vitesse compte plus que la mémoire",
+  "Des icônes sans libellé pour des actions fréquentes",
+  "Pages marketing et publicités",
+  "La mémorisation de la marque compte",
+  "L'image n'a rien à voir avec le message",
+  "Décoration → information",
+  "Générer des illustrations avec l'IA",
+  "De l'art IA générique sur chaque page",
+  "Réponse texte → réponse visuelle",
+  "L'IA explique des concepts ou des données",
+  "Des schémas générés que personne n’a vérifiés"
+ ],
+ ".ai-divider h3": [
+  "La supériorité de l'image à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA rend les images bon marché et les réponses visuelles faciles. L'avantage de mémoire va aux images qui portent du sens, pas à la décoration."
+ ]
+}

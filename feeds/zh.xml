@@ -5,21 +5,98 @@
   <link>https://www.ux-guidelines.com/zh/</link>
   <description>基于研究的界面设计定律、启发式原则和模式，每一项都附有起源、实践指导，以及在 AI 时代发生的变化。</description>
   <language>zh-cn</language>
-  <lastBuildDate>Sun, 04 Oct 2026 17:34:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/zh/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>更新日志</title>
-    <link>https://www.ux-guidelines.com/zh/release-log.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/release-log.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:54 +0000</pubDate>
-    <description>UX Guidelines 的每个新页面和重要改进，按时间倒序排列。</description>
+    <title>缪勒-莱尔错觉</title>
+    <link>https://www.ux-guidelines.com/zh/muller-lyer-illusion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/muller-lyer-illusion.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>两条一样长的线，一条末端是箭头、另一条是箭尾时，看起来就不一样长。在界面中，V 形箭头、尖头条形和带棱角的图标会悄悄改变物体看起来的长度或宽度。</description>
+  </item>
+  <item>
+    <title>路缘坡效应</title>
+    <link>https://www.ux-guidelines.com/zh/curb-cut-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/curb-cut-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>为残障人士打造的功能，最终使用的人远远多于原本的设计对象。路缘坡、字幕和文字转语音起初都是无障碍设施，后来成了人人依赖的东西。</description>
+  </item>
+  <item>
+    <title>图表垃圾</title>
+    <link>https://www.ux-guidelines.com/zh/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>粗重的网格线、花哨的坐标轴、带纹理的背景、多余的 3D 效果和装饰性图片，增加了墨水却没有增加信息。有些只是浪费注意力，有些则会扭曲数据本身。</description>
+  </item>
+  <item>
+    <title>面额效应</title>
+    <link>https://www.ux-guidelines.com/zh/denomination-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/denomination-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>即使金额相同，人们也更容易花掉小面额的钱，而不是一张大面额的钱。价格、余额或积分如何拆分呈现，会改变人们花钱的意愿。</description>
+  </item>
+  <item>
+    <title>模糊效应</title>
+    <link>https://www.ux-guidelines.com/zh/ambiguity-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/ambiguity-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>面对选择时，人们会选结果能够估计的选项，而不是信息缺失的选项，即使未知的选项同样好。隐藏的价格、含糊的预估和不明确的结果都会把人推开。</description>
+  </item>
+  <item>
+    <title>视觉搜索</title>
+    <link>https://www.ux-guidelines.com/zh/visual-search.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/visual-search.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>当某个目标在颜色或形状等某一个特征上与周围所有东西都不同时，在屏幕上找到它会很快。当它与周围元素共享特征时，人们就得逐个查看，每多一个元素就多花一些时间。</description>
+  </item>
+  <item>
+    <title>图片优势效应</title>
+    <link>https://www.ux-guidelines.com/zh/picture-superiority-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/picture-superiority-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>比起以文字写出的同样内容，人们能更可靠地回忆和认出图片。具体、易区分的图片能让功能、步骤和说明被记住，前提是图片承载了意义。</description>
+  </item>
+  <item>
+    <title>可解释性</title>
+    <link>https://www.ux-guidelines.com/zh/explainability.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/explainability.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>可解释的 AI 让人们看到系统为什么得出某个结果，从而能够判断它、质疑它，并决定在多大程度上依赖它。目标不是更多的信任，而是恰当的信任。</description>
+  </item>
+  <item>
+    <title>横幅盲视</title>
+    <link>https://www.ux-guidelines.com/zh/banner-blindness.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/banner-blindness.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>人们已经学会跳过任何看起来像广告、紧挨着广告，或出现在广告常见位置的内容。做成横幅样式的重要内容，会和广告一起消失。</description>
+  </item>
+  <item>
+    <title>加工流畅性</title>
+    <link>https://www.ux-guidelines.com/zh/processing-fluency.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/processing-fluency.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>阅读、观看或回忆某样东西的难易程度，会影响人们对它的判断。容易加工的内容会显得更真实、更熟悉、更讨人喜欢，无论它是否配得上。</description>
+  </item>
+  <item>
+    <title>林迪效应</title>
+    <link>https://www.ux-guidelines.com/zh/lindy-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/lindy-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <description>对于思想、技术和惯例来说，一样东西已经存续得越久，就越可能继续存续下去。它每多存在一年，都是其稳健性的证明。</description>
   </item>
   <item>
     <title>锚定效应</title>
     <link>https://www.ux-guidelines.com/zh/anchoring-effect.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/zh/anchoring-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 17:34:16 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
     <description>人们判断一个数值时，会从最先看到的数字出发，而且调整得不够。价格、预设值、比较基准和估算都带着锚点，不管你是否有意选择。</description>
+  </item>
+  <item>
+    <title>更新日志</title>
+    <link>https://www.ux-guidelines.com/zh/release-log.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/zh/release-log.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:38:36 -0700</pubDate>
+    <description>UX Guidelines 的每个新页面和重要改进，按时间倒序排列。</description>
   </item>
   <item>
     <title>警报疲劳</title>
@@ -369,7 +446,7 @@
     <link>https://www.ux-guidelines.com/zh/</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/zh/</guid>
     <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
-    <description>一个不断成长的资料库，收录71篇以研究为依据的UX参考，为设计师、研究者和工程师而建。</description>
+    <description>一个不断成长的资料库，收录82篇以研究为依据的UX参考，为设计师、研究者和工程师而建。</description>
   </item>
   <item>
     <title>雅各布定律</title>

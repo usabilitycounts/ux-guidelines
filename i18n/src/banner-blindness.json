@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Banner <em>Blindness</em>"
+ ],
+ "header .tagline": [
+  "If it looks like an ad, <em>it gets ignored</em>."
+ ],
+ "header .subtitle": [
+  "People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads."
+ ],
+ ".law-origin .body-text": [
+  "The term comes from 1998 usability tests by <a href=\"people.html#p-jan-panero-benway\">Jan Panero Benway</a> and <a href=\"people.html#p-david-lane\">David Lane</a> at Rice University. People searching a website for information often missed it when it was presented in a banner, and the effect hit internal links, such as navigational quick links, as hard as outside advertising.",
+  "Eye-tracking studies since then have refined the picture: people often glance at ads at least once, but they process and remember little of them. The Nielsen Norman Group, founded by <a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> and <a href=\"people.html#p-don-norman\">Don Norman</a>, has documented the behavior across three decades, including a 2018 eye-tracking study led by <a href=\"people.html#p-kara-pernice\">Kara Pernice</a>, and concluded that users ignore content that resembles ads, is close to ads, or appears in places traditionally dedicated to ads."
+ ],
+ ".law-content .law-desc": [
+  "Visitors consciously or unconsciously ignore page elements that they perceive, rightly or wrongly, to be advertising. Banner-like shape, placement at the top or the right edge, animation, and proximity to real ads all signal “ad”, and anything with those signals gets skipped."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-panero-benway\">Benway</a> and <a href=\"people.html#p-david-lane\">Lane</a> (1998)",
+  "Ad blindness",
+  "Don’t make content look like an ad"
+ ],
+ ".apply-list li": [
+  "Placing announcements, promotions, alerts, or calls to action on a page.",
+  "A page carries advertising or sponsored content.",
+  "Users report missing information that was clearly displayed.",
+  "Style important content like the rest of the content, not like a banner.",
+  "Keep key information in the main reading path, away from ad slots and sidebars.",
+  "Test whether people actually see it, with eye tracking, first-click tests, or task success."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Placement",
+  "Styling",
+  "Proximity",
+  "Mobile",
+  "Animation",
+  "Internal promos",
+  "Evidence",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Obvious Link Nobody Saw",
+  "The Right Rail Is Invisible",
+  "Contrast Can Backfire",
+  "Ads Poison Their Neighbors",
+  "Inline Ads on Phones",
+  "Movement Signals an Ad",
+  "Your Own Banners Too",
+  "Seen Is Not Noticed",
+  "Sponsored Answers",
+  "AI Banners Get Ignored Too"
+ ],
+ ".card .desc": [
+  "In the 1998 tests, people looking for information missed it when it sat in a large, colorful banner, the most visually prominent thing on the page. Prominence styled as an ad works against you.",
+  "Users expect ads at the top of the page and in the right-hand column, so they skip those areas. Don’t put essential links, filters, or help where ads usually live.",
+  "Making content look different to stand out often makes it look like an ad instead. The Nielsen Norman Group advises against giving content an ad-like treatment; distinctiveness only helps if it doesn’t read as promotion.",
+  "Content placed right next to ads gets ignored with them. Keep a clear separation between real content and advertising, so useful things aren’t skipped by association.",
+  "On small screens, ads inside the content stream teach people to scroll quickly past anything that looks boxed or sponsored. Cards that look like ad units risk the same fate.",
+  "Users dislike animated ads and learn to avoid motion in the periphery. Animating an announcement may make it look more like an ad, not less.",
+  "Banner blindness isn’t only about third-party ads. Your own promotional banners for features, sales, or newsletters are skipped for the same reasons, and so are cookie and app-install banners people have learned to dismiss.",
+  "Eye tracking shows people often look at ads at least once, yet recall little. Glancing at an element is not the same as reading it, so measure task success and recall, not just visibility.",
+  "As ads appear inside AI answers, people will learn to recognize and skip them, and may distrust the content around them. Label sponsored content clearly and keep it visually separate from the answer.",
+  "Generic “Try our new AI” banners are just another promotion, and they’re skipped like every other one. Introduce AI where it helps the task, inside the flow, instead of in a banner above it."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Information sits in a banner",
+  "Content looks like content",
+  "Page layout and sidebars",
+  "Placing key links or tools",
+  "The sidebar holds real navigation people expect",
+  "Promotions, alerts, and calls to action",
+  "Content needs emphasis",
+  "The element really is an ad",
+  "Pages with advertising",
+  "Content sits near ad slots",
+  "There are no ads on the page",
+  "Mobile feeds and articles",
+  "Content uses boxed cards",
+  "Every card is clearly content",
+  "Announcements and onboarding tips",
+  "Considering animation for emphasis",
+  "Motion shows a real state change",
+  "Feature launches and in-house promotions",
+  "Announcing something new",
+  "Announcements are rare and inline",
+  "Usability testing and analytics",
+  "Judging whether content was seen",
+  "Treating impressions as attention",
+  "Search ads → answer ads",
+  "Monetizing AI responses",
+  "Blending ads into the answer",
+  "Banner → inline entry point",
+  "Launching an AI feature",
+  "Announcing AI in a top banner"
+ ],
+ ".ai-divider h3": [
+  "Banner Blindness in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Sponsored answers and promoted suggestions are arriving inside AI responses. People will learn to skip those too, unless they are honest and clearly labeled."
+ ]
+}

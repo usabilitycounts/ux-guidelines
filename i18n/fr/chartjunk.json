@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Chartjunk</em>"
+ ],
+ "header .tagline": [
+  "L'encre qui ne montre pas de données <em>encombre</em>."
+ ],
+ "header .subtitle": [
+  "Quadrillages épais, axes ornés, fonds texturés, 3D gratuite et images décoratives ajoutent de l'encre sans ajouter d'information. Une partie gaspille l'attention ; une autre déforme les données elles-mêmes."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-edward-tufte\">Edward Tufte</a> a forgé le terme dans The Visual Display of Quantitative Information (1983), à partir d'idées développées pour un cours de statistique à Princeton qu'il donnait avec John Tukey. La décoration, soutenait-il, produit de l'encre qui n'apprend rien de nouveau au lecteur, et un bon graphique consacre autant d'encre que possible aux données.",
+  "Il a pris pour cible les graphiques illustrés de <a href=\"people.html#p-nigel-holmes\">Nigel Holmes</a> pour Time, qui a répondu que Tufte restait enfermé dans le monde universitaire et aveugle au besoin commercial de capter un public. La recherche a depuis nuancé le tableau : les graphiques ornés peuvent être mieux mémorisés, et des praticiens comme Stephen Few et Robert Kosara jugent la définition trop floue."
+ ],
+ ".law-content .law-desc": [
+  "Le chartjunk désigne tout élément visuel d'un graphique qui n'est pas nécessaire pour comprendre les données, ou qui en détourne. Une partie ne fait que disputer l'attention, comme les quadrillages épais et les cadres ; la pire déforme les données, comme les barres en 3D et les images dessinées hors d'échelle."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-edward-tufte\">Tufte</a> (1983)",
+  "Encre non informative",
+  "Retirer l'encre qui ne montre pas de données"
+ ],
+ ".apply-list li": [
+  "Vous concevez des tableaux de bord, des rapports et des graphiques lus pour leurs valeurs.",
+  "Un graphique utilise des effets 3D, des images décoratives, un quadrillage épais ou un fond texturé.",
+  "Vous relisez des graphiques générés ou issus de modèles avant publication.",
+  "Retirez ou allégez tout élément qui n'encode pas de données et n'aide pas à les lire.",
+  "N'utilisez jamais de décoration qui fausse l'échelle, comme des barres en 3D ou des images disproportionnées.",
+  "Gardez les annotations et les icônes porteuses de sens qui aident à comprendre, et supprimez le reste."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Quadrillage",
+  "3D",
+  "Fonds",
+  "Débat",
+  "Mémoire",
+  "Jugement",
+  "Accessibilité",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Une encre qui ne dit rien",
+  "Alléger la grille",
+  "Une troisième dimension déforme",
+  "Les fonds chargés masquent les comparaisons",
+  "Tufte contre Holmes",
+  "Un encombrement utile ?",
+  "Tout encombrement ne se vaut pas",
+  "Les icônes peuvent aider",
+  "Les graphiques générés adorent la décoration",
+  "Les annotations ne sont pas de l'encombrement"
+ ],
+ ".card .desc": [
+  "Cadres, quadrillages sombres, axes ornés et fonds ombrés ajoutent de l'encre qui n'apprend rien de nouveau. Retirez-les et les mêmes données se lisent plus vite et plus clairement.",
+  "Un quadrillage épais ou dense dispute l'attention aux données. Éclaircissez-le et affinez-le, ou supprimez-le, et ne gardez que ce qui aide à lire les valeurs.",
+  "Les barres et camemberts en 3D ajoutent une dimension sans données, et la perspective fait paraître inégales des valeurs égales. Les graphiques plats comparent honnêtement.",
+  "Motifs, photos et textures bruyantes derrière un graphique rendent barres et courbes plus difficiles à comparer. Placez les données sur un fond uni, et mettez l'image à côté du graphique plutôt que dessous.",
+  "Tufte a qualifié de chartjunk les graphiques illustrés de Nigel Holmes pour Time ; Holmes a répondu que les graphiques commerciaux doivent capter un public. La tension entre rigueur statistique et attrait visuel n'a pas disparu.",
+  "Une étude de 2010 a montré que les graphiques ornés à la manière de Holmes étaient lus aussi exactement que les sobres et mieux mémorisés des semaines plus tard, et une étude de 2013 que les pictogrammes rendent les visualisations plus mémorables. La décoration a un coût, mais pas toujours un coût net.",
+  "Robert Kosara classe les ornements en nuisibles, comme un fond chargé ; inoffensifs, comme une bordure discrète ; et utiles, comme une annotation. Jugez chaque élément à son effet sur la compréhension.",
+  "Une étude de 2021 a montré que des icônes porteuses de sens rendaient les graphiques plus accessibles aux personnes ayant une déficience intellectuelle ou un trouble du développement. Le graphique le plus dépouillé n'est pas toujours le plus compréhensible.",
+  "Les outils de graphiques par IA ajoutent souvent par défaut dégradés, barres 3D arrondies, ombres et icônes génériques. Demandez des encodages simples, et relisez le résultat comme l'ébauche d'un designer.",
+  "L'IA peut rédiger de courtes annotations qui signalent ce qui compte dans un graphique : la bonne encre en plus. Vérifiez chaque chiffre qu'elle avance par rapport aux données."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'idée",
+  "Un graphique porte de la décoration",
+  "Chaque élément encode des données",
+  "Graphiques et tableaux",
+  "Le quadrillage est sombre ou dense",
+  "Il faut lire des valeurs exactes sur la grille",
+  "Graphiques en barres, en secteurs et en aires",
+  "Envisager des effets 3D",
+  "La profondeur ne sert que de décoration",
+  "Infographies et graphiques d'en-tête",
+  "Un graphique repose sur une image ou un motif",
+  "Le fond est déjà uni",
+  "Graphiques éditoriaux et marketing",
+  "Les graphiques doivent attirer l’attention",
+  "Les graphiques servent des décisions précises",
+  "Présentations et infographies",
+  "La mémorisation compte plus que la précision",
+  "Des tableaux de bord lus chaque jour pour des valeurs exactes",
+  "Revues de graphiques",
+  "Décider quoi retirer",
+  "Supprimer des annotations qui expliquent",
+  "Graphiques pour un large public",
+  "Les lecteurs ont des niveaux de numératie variés",
+  "Les icônes n'ont pas de sens",
+  "Style par défaut → encodage simple",
+  "Générer des graphiques avec l'IA",
+  "Accepter les styles décoratifs par défaut",
+  "Décoration → explication",
+  "L'IA annote des graphiques",
+  "Des annotations aux chiffres non vérifiés"
+ ],
+ ".ai-divider h3": [
+  "Le chartjunk à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les graphiques générés arrivent souvent stylisés : dégradés, ombres, halos et icônes. La question de l'encre utile fait désormais partie de la relecture des résultats d'IA."
+ ]
+}

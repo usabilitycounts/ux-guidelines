@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Ambiguity <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "People prefer <em>known odds</em> to unknown ones."
+ ],
+ "header .subtitle": [
+  "Given a choice, people pick the option whose outcome they can estimate over one with missing information, even when the unknown option is just as good. Hidden prices, vague estimates, and unclear results push people away."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Daniel Ellsberg</a> described the effect in 1961 with a thought experiment about an urn. It holds 30 balls: 10 red, and 20 that are some unknown mix of black and white. Betting on red has a known one-in-three chance; betting on black has, on average, the same chance, but nobody knows the exact odds. Most people bet on red.",
+  "His results became known as the Ellsberg paradox, because they break the standard assumption that people treat unknown probabilities as their best estimate. Later work found the effect strongest when the missing information is called to attention, and weaker when people feel competent in the domain, as Chip Heath and Amos Tversky showed in 1991."
+ ],
+ ".law-content .law-desc": [
+  "People tend to choose options whose chance of a good outcome is known over options where it is unknown, even when the unknown option is no worse. Missing information reads as risk, so people steer away from it or stop to look for more."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Ellsberg</a> (1961)",
+  "Ambiguity aversion",
+  "Fill in what people cannot know"
+ ],
+ ".apply-list li": [
+  "A price, fee, delivery date, or wait time is unclear or hidden.",
+  "People must choose between a familiar option and a new one with little information.",
+  "An action’s result is uncertain, such as a button, a setting, or an AI output.",
+  "Show prices, totals, and timelines up front, as a range if an exact figure isn’t possible.",
+  "Preview what will happen before people commit, with examples, samples, or undo.",
+  "Give new options evidence, such as reviews, trials, or clear guarantees, so they feel less unknown."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Pricing",
+  "Waiting",
+  "Logistics",
+  "Previews",
+  "Novelty",
+  "Evidence",
+  "Competence",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Ellsberg’s Urn",
+  "Contact Us for Pricing",
+  "Unknown Waits Feel Worse",
+  "Give a Range",
+  "Show What Will Happen",
+  "New Options Look Riskier",
+  "Reviews Fill the Gap",
+  "Expertise Reduces Aversion",
+  "Show Confidence and Sources",
+  "Predictable Agent Actions"
+ ],
+ ".card .desc": [
+  "Most people prefer to bet on the 10 known red balls rather than on black balls of unknown number, though both offer the same average chance. The missing information alone makes the second bet feel worse.",
+  "A hidden price is an unknown, and unknowns lose to a competitor with a visible number. Show prices, or at least ranges and examples, so buyers can estimate the cost.",
+  "A spinner with no estimate leaves people unable to judge whether to wait. A progress bar or a time estimate turns an ambiguous wait into a known one.",
+  "Delivery dates, response times, and refunds shown as ranges are better than nothing. Even an honest window removes the ambiguity that makes people hesitate at checkout.",
+  "A button whose result is unclear is an ambiguous bet. Previews, confirmation summaries, and undo make the outcome known before people commit.",
+  "A new feature, plan, or vendor has no track record, so people stick with what they know. Trials, guarantees, and evidence from others reduce how unknown it feels.",
+  "Ratings and reviews replace an unknown with a known quantity. A product with no reviews can lose to one with mediocre reviews, because some information beats none.",
+  "Heath and Tversky found people bet more readily on ambiguous events in areas where they feel knowledgeable. Explaining how something works can make an uncertain option feel safer.",
+  "An answer with no sign of how reliable it is feels like Ellsberg’s unknown urn. Show confidence, sources, or the basis for an answer, so people can judge it.",
+  "An agent whose next step is unknown makes people hesitate to let it act. Show the plan before it runs, and let people approve or edit the steps."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "One option has missing information",
+  "All options are equally clear",
+  "Pricing pages and quotes",
+  "Prices vary by customer",
+  "The price really cannot be estimated",
+  "Loading, processing, and queues",
+  "Tasks take more than a second or two",
+  "The wait is too short to notice",
+  "Checkout, shipping, and support",
+  "Exact dates are not known",
+  "The range is so wide it is useless",
+  "Destructive or complex actions",
+  "Results are hard to predict",
+  "The action is trivial and reversible",
+  "Launches and new plans",
+  "Competing with a familiar option",
+  "The new option has a proven record",
+  "Marketplaces and product pages",
+  "Products are new or unreviewed",
+  "Reviews would be fake or thin",
+  "Onboarding and explanations",
+  "Users are new to the domain",
+  "Users are already experts",
+  "Black box → stated basis",
+  "AI answers or recommends",
+  "Every answer looks equally certain",
+  "Unknown plan → visible plan",
+  "AI acts on the user’s behalf",
+  "Acting without showing the plan"
+ ],
+ ".ai-divider h3": [
+  "The Ambiguity Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI output is uncertain by nature. People are more willing to rely on it when they can see how confident it is and what it is based on."
+ ]
+}

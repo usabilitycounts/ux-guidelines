@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Stückelungs<em>effekt</em>"
+ ],
+ "header .tagline": [
+  "Kleingeld <em>gibt man leichter aus</em>."
+ ],
+ "header .subtitle": [
+  "Menschen trennen sich leichter von Geld in kleinen Einheiten als von einer großen, selbst wenn der Betrag gleich ist. Wie ein Preis, ein Guthaben oder Credits gestückelt sind, verändert, wie bereitwillig sie ausgegeben werden."
+ ],
+ ".law-origin .body-text": [
+  "Priya Raghubir und Joydeep Srivastava benannten den Effekt 2009. In ihrer ersten Studie gaben Studierende, die vier Vierteldollarmünzen bekamen, sie in 63 Prozent der Fälle für Süßigkeiten aus; wer einen einzelnen Dollarschein bekam, nur in 26 Prozent. An einer Tankstelle kauften Kunden mit fünf 1-Dollar-Scheinen eher etwas als Kunden mit einem 5-Dollar-Schein.",
+  "Frühere Arbeiten wiesen in dieselbe Richtung: 2006 beschrieben Arul Mishra und Kollegen eine Vorliebe für das Ganze, und 1998 zeigte John Gourville, dass ein Preis, als Cent pro Tag dargestellt, kleiner wirkt als dieselbe Summe pro Jahr. Raghubir und Srivastava fanden zudem, dass Menschen bewusst große Scheine wählen, wenn sie ihre Ausgaben kontrollieren wollen."
+ ],
+ ".law-content .law-desc": [
+  "Menschen geben Geld, das sie in einer großen Einheit halten, seltener aus als denselben Betrag in kleineren Einheiten. Kleine Einheiten wirken weniger wertvoll und leichter anzubrechen, während eine große sich wie ein schützenswertes Ganzes anfühlt, das Menschen als Selbstbindung gegen das Ausgeben nutzen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Raghubir und Srivastava (2009)",
+  "Vorliebe für das Ganze",
+  "Die angezeigte Einheit bewusst wählen"
+ ],
+ ".apply-list li": [
+  "Sie zeigen Preise, Tarife, Guthaben oder Credits an.",
+  "Sie gestalten virtuelle Währungen, Punkte, Aufladungen oder Pakete.",
+  "Sie bauen Budget- oder Sparfunktionen, die beim Wenigerausgeben helfen.",
+  "Entscheiden Sie, ob ein Preis klein oder ganz wirken soll, und wählen Sie Einheit und Zeitraum passend.",
+  "Zeigen Sie neben Credits, Tokens oder Tagespreisen immer den Betrag in echtem Geld.",
+  "Helfen Sie Sparwilligen, indem Sie Geld in größere, getrennte Beträge bündeln."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Pakete",
+  "Framing",
+  "Virtuelle Währung",
+  "Zahlungsschmerz",
+  "Selbstkontrolle",
+  "Ganzer Wert",
+  "Vorsicht",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Vier Münzen oder ein Schein",
+  "Viele kleine oder ein großer",
+  "Ein paar Cent am Tag",
+  "Credits verstecken den Preis",
+  "Bargeldlos gibt man leichter aus",
+  "Große Scheine als Selbstbindung",
+  "Eine Vorliebe für das Ganze",
+  "Zum Helfen, nicht zum Abschöpfen",
+  "Tokens fühlen sich kostenlos an",
+  "Agenten, die für Nutzer ausgeben"
+ ],
+ ".card .desc": [
+  "Studierende mit vier Vierteldollarmünzen gaben sie in 63 Prozent der Fälle aus, Studierende mit einem einzelnen Dollarschein in 26 Prozent. Der Wert war identisch. Nur die Stückelung war anders.",
+  "Kunden mit fünf 1-Dollar-Scheinen gaben eher etwas aus als Kunden mit einem 5-Dollar-Schein. Ein Guthaben in kleine Einheiten aufzuteilen erleichtert das Ausgeben, es ganz zu lassen erleichtert das Sparen.",
+  "Ein Preis pro Tag wirkt kleiner als dieselbe Summe pro Jahr, weil man ihn mit belanglosen Alltagsausgaben vergleicht. Nutzen Sie kleine Zeiträume ehrlich, und zeigen Sie die Summe, die tatsächlich abgebucht wird.",
+  "Punkte, Münzen und Credits in großen Zahlen verwandeln echtes Geld in kleine, abstrakte Einheiten, die sich leicht ausgeben lassen. Zeigen Sie, was jeder Kauf in echtem Geld kostet, sonst wird die Währung zum Dark Pattern.",
+  "Frühere Forschung von Raghubir und Srivastava zeigte, dass Menschen mit Kredit- oder Geschenkkarten bereitwilliger zahlen als mit Bargeld. Zahlen mit einem Tipp entfernt den Moment, in dem man Geld übergibt; zeigen Sie den Betrag beim Bezahlen deutlich an.",
+  "Wer seine Ausgaben kontrollieren will, lässt sich Geld lieber in großen Scheinen geben, weil das Anbrechen eines großen Scheins sich wie eine Entscheidung anfühlt. Sparfunktionen können das übernehmen, indem sie Geld in getrennte, ganze Töpfe legen.",
+  "Eine einzelne große Summe fühlt sich wertvoller an als derselbe Betrag in Stücken, also wird sie geschützt. Ein Ziel als eine ganze Zahl darzustellen, kann es wertvoller wirken lassen, sie zu bewahren.",
+  "Dasselbe Framing, das beim Sparen hilft, kann zu übermäßigem Ausgeben verleiten. Kleine Einheiten und Tagespreise sind fair, wenn die Summe sichtbar ist, und manipulativ, wenn sie sie verbergen.",
+  "Preise pro Token oder pro tausend Tokens wirken vernachlässigbar, während Monatsrechnungen hoch ausfallen können. Zeigen Sie laufende Summen in echtem Geld und warnen Sie, bevor ein Budget überschritten wird.",
+  "Wenn ein KI-Agent im Auftrag eines Menschen einkaufen kann, verschwindet der Zahlungsschmerz völlig. Setzen Sie Ausgabelimits, lassen Sie Käufe über einer Schwelle bestätigen und zeigen Sie, was ausgegeben wurde."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Beträge lassen sich in verschiedenen Einheiten zeigen",
+  "Der Betrag ist fest und unvermeidlich",
+  "Wallets, Guthaben und Taschengeld",
+  "Sie wollen Ausgaben fördern oder begrenzen",
+  "Das Guthaben lässt sich nicht teilen",
+  "Preisseiten und Spenden",
+  "Den angezeigten Abrechnungszeitraum wählen",
+  "Der Tagespreis verschleiert eine große Verpflichtung",
+  "Spiele, Marktplätze und KI-Credits",
+  "In-App-Währung verkaufen",
+  "Der Wechselkurs ist versteckt",
+  "Kasse und gespeicherte Zahlungsmittel",
+  "Zahlen geht mit einem Tipp",
+  "Menschen versuchen, ihre Ausgaben zu kontrollieren",
+  "Budget- und Sparfunktionen",
+  "Nutzer setzen Ausgabeziele",
+  "Das Geld muss sofort verfügbar sein",
+  "Ziele, Belohnungen und Guthaben",
+  "Menschen sollen ein Guthaben bewahren",
+  "Die Summe ist zu abstrakt, um zu motivieren",
+  "Preis- und Monetarisierungs-Reviews",
+  "Die Monetarisierung beruht auf kleinen Einheiten",
+  "Nie die Gesamtkosten verstecken",
+  "Pro Token → pro Monat",
+  "KI-Nutzung abrechnen",
+  "Nur Preise pro Token anzeigen",
+  "Mensch zahlt → Agent zahlt",
+  "Agenten können einkaufen",
+  "Agenten, die ohne Limit ausgeben"
+ ],
+ ".ai-divider h3": [
+  "Der Stückelungseffekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI-Produkte rechnen in Tokens, Credits und Bruchteilen eines Cents ab. Winzige Einheiten lassen die Nutzung kostenlos wirken, bis die Rechnung kommt."
+ ]
+}

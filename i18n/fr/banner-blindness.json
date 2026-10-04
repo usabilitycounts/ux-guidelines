@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Cécité aux <em>bannières</em>"
+ ],
+ "header .tagline": [
+  "Ce qui ressemble à une pub <em>est ignoré</em>."
+ ],
+ "header .subtitle": [
+  "On a appris à sauter tout ce qui ressemble à une publicité, se trouve à côté d'une publicité ou apparaît là où vont d'habitude les publicités. Un contenu important présenté comme une bannière disparaît avec les pubs."
+ ],
+ ".law-origin .body-text": [
+  "Le terme vient de tests d'utilisabilité menés en 1998 par <a href=\"people.html#p-jan-panero-benway\">Jan Panero Benway</a> et <a href=\"people.html#p-david-lane\">David Lane</a> à l'université Rice. Les personnes qui cherchaient une information sur un site la manquaient souvent quand elle était présentée dans une bannière, et l'effet touchait autant les liens internes, comme les raccourcis de navigation, que la publicité extérieure.",
+  "Les études d'oculométrie ont depuis affiné le tableau : on jette souvent au moins un coup d'œil aux publicités, mais on en traite et en retient peu. Le Nielsen Norman Group, fondé par <a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> et <a href=\"people.html#p-don-norman\">Don Norman</a>, a documenté ce comportement sur trois décennies, notamment dans une étude d'oculométrie de 2018 menée par <a href=\"people.html#p-kara-pernice\">Kara Pernice</a>, et conclu que les utilisateurs ignorent les contenus qui ressemblent à des publicités, se trouvent près de publicités ou apparaissent aux emplacements traditionnellement réservés à la publicité."
+ ],
+ ".law-content .law-desc": [
+  "Les visiteurs ignorent, consciemment ou non, les éléments de page qu'ils perçoivent, à tort ou à raison, comme de la publicité. Une forme de bannière, un emplacement en haut ou sur le bord droit, une animation et la proximité de vraies publicités signalent tous « pub », et tout ce qui porte ces signaux est sauté."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-panero-benway\">Benway</a> et <a href=\"people.html#p-david-lane\">Lane</a> (1998)",
+  "Cécité publicitaire",
+  "Ne pas faire ressembler un contenu à une pub"
+ ],
+ ".apply-list li": [
+  "Vous placez des annonces, des promotions, des alertes ou des appels à l'action sur une page.",
+  "Une page contient de la publicité ou du contenu sponsorisé.",
+  "Des utilisateurs disent avoir manqué une information pourtant bien affichée.",
+  "Présentez le contenu important comme le reste du contenu, pas comme une bannière.",
+  "Gardez l'information clé dans le parcours de lecture principal, loin des emplacements publicitaires et des colonnes latérales.",
+  "Vérifiez que les gens la voient vraiment, par oculométrie, tests de premier clic ou réussite des tâches."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Emplacement",
+  "Style",
+  "Proximité",
+  "Mobile",
+  "Animation",
+  "Promos internes",
+  "Preuves",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le lien évident que personne ne voyait",
+  "La colonne de droite est invisible",
+  "Le contraste peut se retourner contre vous",
+  "Les pubs contaminent leurs voisins",
+  "Les pubs intégrées sur téléphone",
+  "Le mouvement signale une pub",
+  "Vos propres bannières aussi",
+  "Vu n'est pas remarqué",
+  "Des réponses sponsorisées",
+  "Les bannières IA sont ignorées aussi"
+ ],
+ ".card .desc": [
+  "Dans les tests de 1998, les personnes qui cherchaient une information la manquaient quand elle se trouvait dans une grande bannière colorée, l'élément le plus visible de la page. Une mise en avant qui ressemble à une pub joue contre vous.",
+  "Les utilisateurs s'attendent à des publicités en haut de page et dans la colonne de droite, alors ils sautent ces zones. N'y placez pas de liens, filtres ou aides essentiels.",
+  "Rendre un contenu différent pour qu'il ressorte le fait souvent ressembler à une publicité. Le Nielsen Norman Group déconseille de donner au contenu un traitement publicitaire ; se distinguer n'aide que si cela ne ressemble pas à une promotion.",
+  "Un contenu placé juste à côté de publicités est ignoré avec elles. Gardez une séparation nette entre vrai contenu et publicité, pour que les éléments utiles ne soient pas sautés par association.",
+  "Sur petit écran, les publicités insérées dans le flux de contenu apprennent à faire défiler vite tout ce qui semble encadré ou sponsorisé. Les cartes qui ressemblent à des formats publicitaires risquent le même sort.",
+  "Les utilisateurs n'aiment pas les publicités animées et apprennent à éviter le mouvement en périphérie. Animer une annonce peut la faire ressembler davantage à une pub, pas moins.",
+  "La cécité aux bannières ne concerne pas que les publicités de tiers. Vos propres bannières pour des fonctionnalités, des soldes ou une newsletter sont sautées pour les mêmes raisons, tout comme les bannières de cookies et d'installation d'appli que l'on a appris à fermer.",
+  "L'oculométrie montre qu'on regarde souvent au moins une fois les publicités, mais qu'on en retient peu. Jeter un coup d'œil à un élément n'est pas le lire : mesurez la réussite des tâches et la mémorisation, pas seulement la visibilité.",
+  "À mesure que des publicités apparaissent dans les réponses d'IA, les gens apprendront à les reconnaître et à les sauter, et pourraient se méfier du contenu qui les entoure. Signalez clairement le contenu sponsorisé et séparez-le visuellement de la réponse.",
+  "Les bannières génériques « Essayez notre nouvelle IA » ne sont qu'une promotion de plus, et on les saute comme les autres. Introduisez l'IA là où elle aide la tâche, dans le parcours, plutôt que dans une bannière au-dessus."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "L'information est dans une bannière",
+  "Le contenu ressemble à du contenu",
+  "Mise en page et colonnes latérales",
+  "Placer des liens ou outils clés",
+  "La colonne contient une vraie navigation attendue",
+  "Promotions, alertes et appels à l'action",
+  "Le contenu doit être mis en avant",
+  "L'élément est vraiment une publicité",
+  "Pages avec publicité",
+  "Le contenu est près des emplacements publicitaires",
+  "Il n'y a pas de publicité sur la page",
+  "Fils et articles mobiles",
+  "Le contenu utilise des cartes encadrées",
+  "Chaque carte est clairement du contenu",
+  "Annonces et astuces d'onboarding",
+  "Envisager l'animation pour attirer l'attention",
+  "Le mouvement montre un vrai changement d'état",
+  "Lancements et promotions internes",
+  "Annoncer une nouveauté",
+  "Les annonces sont rares et intégrées au contenu",
+  "Tests d'utilisabilité et analytics",
+  "Juger si un contenu a été vu",
+  "Assimiler les impressions à de l'attention",
+  "Pubs de recherche → pubs dans les réponses",
+  "Monétiser les réponses d'IA",
+  "Fondre les pubs dans la réponse",
+  "Bannière → point d'entrée intégré",
+  "Lancer une fonctionnalité IA",
+  "Annoncer l'IA dans une bannière en haut de page"
+ ],
+ ".ai-divider h3": [
+  "La cécité aux bannières à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les réponses sponsorisées et les suggestions mises en avant arrivent dans les réponses d'IA. On apprendra à les sauter aussi, à moins qu'elles soient honnêtes et clairement signalées."
+ ]
+}

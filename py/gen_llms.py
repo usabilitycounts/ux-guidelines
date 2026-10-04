@@ -7,13 +7,13 @@ import re
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = 'https://www.ux-guidelines.com/'
 GROUPS = [
- ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','golden-ratio','silver-ratio','aspect-ratio','rule-of-thirds','rule-of-odds','canons-of-page-construction','line-length','gestalt-principles','negative-space','von-restorff-effect','weber-fechner-law','ebbinghaus-illusion']),
- ("Present And Explain", ['data-visualization','universal-icons','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
- ("Structure The Choices", ['hicks-law','jakobs-law','principle-of-least-astonishment','paradox-of-choice','satisficing','choice-architecture','nudge-theory','default-effect','social-proof','anchoring-effect','automation-bias','dark-patterns']),
- ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','stroop-effect','zipfs-law','navigation-patterns','doherty-threshold','change-blindness','alarm-fatigue','power-law-of-practice','yerkes-dodson-law']),
- ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
- ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','survivorship-bias','hofstadters-law','human-in-the-loop','out-of-the-loop-problem','pareto-principle']),
- ("Follow The Rulebooks", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','microsoft-ai-guidelines','ui-tenets-and-traps','chestertons-fence']),
+ ("Compose Pages", ['eye-scanning-patterns','visual-search','banner-blindness','gutenberg-principle','grid-and-hierarchy','golden-ratio','silver-ratio','aspect-ratio','rule-of-thirds','rule-of-odds','canons-of-page-construction','line-length','gestalt-principles','negative-space','von-restorff-effect','weber-fechner-law','ebbinghaus-illusion','muller-lyer-illusion']),
+ ("Explain Data", ['data-visualization','chartjunk','universal-icons','picture-superiority-effect','processing-fluency','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
+ ("Shape Choices", ['hicks-law','jakobs-law','principle-of-least-astonishment','paradox-of-choice','satisficing','choice-architecture','nudge-theory','default-effect','social-proof','anchoring-effect','denomination-effect','ambiguity-effect','automation-bias','dark-patterns']),
+ ("Design Controls", ['fitts-law','steering-law','contour-bias','stroop-effect','zipfs-law','navigation-patterns','doherty-threshold','change-blindness','alarm-fatigue','power-law-of-practice','yerkes-dodson-law']),
+ ("Retain Users", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
+ ("Build Systems", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','survivorship-bias','lindy-effect','hofstadters-law','human-in-the-loop','out-of-the-loop-problem','explainability','pareto-principle']),
+ ("Apply Standards", ['nielsens-heuristics','normans-principles','rams-principles','shneiderman-eight-golden-rules','tognazzinis-first-principles','wcag-pour','curb-cut-effect','microsoft-ai-guidelines','ui-tenets-and-traps','chestertons-fence']),
 ]
 
 

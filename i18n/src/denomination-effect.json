@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Denomination <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Small change <em>is easier to spend</em>."
+ ],
+ "header .subtitle": [
+  "People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it."
+ ],
+ ".law-origin .body-text": [
+  "Priya Raghubir and Joydeep Srivastava named the effect in 2009. In their first study, students given four quarters spent them on candy 63 percent of the time; students given a single dollar bill spent it only 26 percent of the time. At a gas station, customers given five $1 bills were likelier to buy something than those given one $5 bill.",
+  "Earlier work pointed the same way: in 2006 Arul Mishra and colleagues described a bias for the whole, and in 1998 John Gourville showed that a price framed as pennies a day feels smaller than the same total per year. Raghubir and Srivastava also found that people deliberately choose large notes when they want to control their spending."
+ ],
+ ".law-content .law-desc": [
+  "People are less likely to spend money held in one large unit than the same amount in smaller units. Small units feel less valuable and easier to break into, while a large one feels like a whole worth protecting, which people use as a commitment device against spending."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Raghubir and Srivastava (2009)",
+  "Bias for the whole",
+  "Choose the unit people see on purpose"
+ ],
+ ".apply-list li": [
+  "Presenting prices, plans, balances, or credits.",
+  "Designing virtual currencies, points, top-ups, or bundles.",
+  "Building budgeting or savings features that help people spend less.",
+  "Decide whether a price should feel small or whole, and choose the unit and period to match.",
+  "Show the real-money total next to any credits, tokens, or per-day prices.",
+  "Help people who want to save by grouping money into larger, separate amounts."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Bundles",
+  "Framing",
+  "Virtual currency",
+  "Pain of paying",
+  "Self-control",
+  "Whole value",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Four Quarters or One Dollar",
+  "Many Small or One Large",
+  "Pennies a Day",
+  "Credits Hide the Price",
+  "Cashless Spends Easier",
+  "Big Notes as a Commitment",
+  "A Bias for the Whole",
+  "Use It to Help, Not to Drain",
+  "Tokens Feel Free",
+  "Agents Spending for Users"
+ ],
+ ".card .desc": [
+  "Students given four quarters spent them 63 percent of the time; those given a single dollar bill spent it 26 percent of the time. The value was identical. Only the denomination changed.",
+  "Customers given five $1 bills were likelier to spend than those given one $5 bill. Splitting a balance or allowance into small units makes it easier to spend, and keeping it whole makes it easier to save.",
+  "A price shown per day feels smaller than the same total per year, because it compares to trivial daily expenses. Use small periods honestly, and show the total that will actually be charged.",
+  "Points, coins, and credits in large numbers turn real money into small, abstract units that are easy to spend. Show what each purchase costs in real money, or the currency becomes a dark pattern.",
+  "Raghubir and Srivastava’s earlier research found people more willing to spend with credit or gift cards than with cash. One-tap payments remove the moment of handing over money; show the amount clearly at the moment of payment.",
+  "People who want to control their spending prefer to receive money in large denominations, because breaking a large note feels like a decision. Savings features can borrow this by locking money into separate, whole pots.",
+  "A single large amount feels worth more than the same amount in pieces, so people protect it. Showing a goal as one whole number can make it feel more valuable to keep intact.",
+  "The same framing that helps people save can push them to overspend. Small units and per-day prices are fair when the total is visible; they are manipulative when they hide it.",
+  "Prices quoted per token or per thousand tokens look negligible, while monthly bills can be large. Show running totals in real money, and warn people before they cross a budget.",
+  "When an AI agent can buy things on someone’s behalf, the pain of paying disappears entirely. Set spending limits, confirm purchases above a threshold, and show what was spent."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Amounts can be shown in different units",
+  "The amount is fixed and unavoidable",
+  "Wallets, balances, and allowances",
+  "You want to encourage or limit spending",
+  "The balance cannot be divided",
+  "Pricing pages and donations",
+  "Choosing a billing period to display",
+  "The per-day framing hides a large commitment",
+  "Games, marketplaces, and AI credits",
+  "Selling in-app currency",
+  "The exchange rate is hidden",
+  "Checkout and saved payment methods",
+  "Payment takes one tap",
+  "People are trying to control spending",
+  "Budgeting and savings features",
+  "Users set spending goals",
+  "Money must be available instantly",
+  "Goals, rewards, and balances",
+  "You want people to preserve a balance",
+  "The total is too abstract to motivate",
+  "Pricing and monetization reviews",
+  "Monetization depends on small units",
+  "Never hide the total cost",
+  "Per token → per month",
+  "Billing for AI usage",
+  "Only showing per-token prices",
+  "Human pays → agent pays",
+  "Agents can make purchases",
+  "Agents spending without limits"
+ ],
+ ".ai-divider h3": [
+  "The Denomination Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI products bill in tokens, credits, and fractions of a cent. Tiny units make usage feel free until the bill arrives."
+ ]
+}

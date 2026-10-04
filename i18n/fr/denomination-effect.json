@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet de <em>dénomination</em>"
+ ],
+ "header .tagline": [
+  "La petite monnaie <em>se dépense plus facilement</em>."
+ ],
+ "header .subtitle": [
+  "On se sépare plus facilement de son argent en petites coupures qu'en une seule grosse, même à montant égal. La façon dont un prix, un solde ou des crédits sont fractionnés change la facilité avec laquelle on les dépense."
+ ],
+ ".law-origin .body-text": [
+  "Priya Raghubir et Joydeep Srivastava ont nommé l'effet en 2009. Dans leur première étude, des étudiants qui avaient reçu quatre pièces de 25 cents les dépensaient en bonbons dans 63 % des cas ; ceux qui avaient reçu un seul billet d'un dollar ne le dépensaient que dans 26 % des cas. Dans une station-service, les clients ayant reçu cinq billets de 1 dollar achetaient plus volontiers que ceux ayant reçu un billet de 5 dollars.",
+  "Des travaux antérieurs allaient dans le même sens : en 2006, Arul Mishra et ses collègues décrivaient un biais pour le tout, et en 1998 John Gourville montrait qu'un prix présenté en centimes par jour semble plus petit que le même total par an. Raghubir et Srivastava ont aussi constaté que l'on choisit délibérément de grosses coupures quand on veut maîtriser ses dépenses."
+ ],
+ ".law-content .law-desc": [
+  "On dépense moins volontiers une somme détenue en une seule grosse unité que le même montant en unités plus petites. Les petites unités paraissent moins précieuses et plus faciles à entamer, alors qu'une grosse coupure semble un tout à préserver, dont on se sert comme d'un garde-fou contre la dépense."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Raghubir et Srivastava (2009)",
+  "Biais pour le tout",
+  "Choisir à dessein l'unité affichée"
+ ],
+ ".apply-list li": [
+  "Vous présentez des prix, des offres, des soldes ou des crédits.",
+  "Vous concevez des monnaies virtuelles, des points, des recharges ou des lots.",
+  "Vous créez des fonctions de budget ou d'épargne qui aident à moins dépenser.",
+  "Décidez si un prix doit paraître petit ou entier, et choisissez l'unité et la période en conséquence.",
+  "Affichez le total en argent réel à côté des crédits, jetons ou prix par jour.",
+  "Aidez ceux qui veulent épargner en regroupant l'argent en montants plus gros et séparés."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Lots",
+  "Cadrage",
+  "Monnaie virtuelle",
+  "Douleur de payer",
+  "Maîtrise de soi",
+  "Valeur entière",
+  "Prudence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Quatre pièces ou un billet",
+  "Beaucoup de petits ou un gros",
+  "Quelques centimes par jour",
+  "Les crédits masquent le prix",
+  "Sans espèces, on dépense plus",
+  "Les gros billets comme engagement",
+  "Un biais pour le tout",
+  "Pour aider, pas pour ponctionner",
+  "Les jetons semblent gratuits",
+  "Des agents qui dépensent pour vous"
+ ],
+ ".card .desc": [
+  "Les étudiants qui recevaient quatre pièces de 25 cents les dépensaient dans 63 % des cas ; ceux qui recevaient un seul billet d'un dollar, dans 26 % des cas. La valeur était identique. Seule la coupure changeait.",
+  "Les clients ayant reçu cinq billets de 1 dollar dépensaient plus volontiers que ceux ayant reçu un billet de 5 dollars. Fractionner un solde ou une allocation en petites unités le rend plus facile à dépenser, le garder entier le rend plus facile à épargner.",
+  "Un prix affiché par jour paraît plus petit que le même total par an, car on le compare à de petites dépenses quotidiennes. Utilisez les petites périodes honnêtement, et affichez le total réellement facturé.",
+  "Les points, pièces et crédits en grands nombres transforment l'argent réel en petites unités abstraites faciles à dépenser. Affichez ce que coûte chaque achat en argent réel, sinon la monnaie devient un dark pattern.",
+  "Les recherches antérieures de Raghubir et Srivastava montraient qu'on dépense plus volontiers par carte de crédit ou carte cadeau qu'en espèces. Le paiement en un geste supprime le moment où l'on tend l'argent : affichez clairement le montant au moment du paiement.",
+  "Ceux qui veulent maîtriser leurs dépenses préfèrent recevoir de grosses coupures, car entamer un gros billet ressemble à une décision. Les fonctions d'épargne peuvent s'en inspirer en bloquant l'argent dans des cagnottes séparées et entières.",
+  "Une seule grosse somme paraît valoir plus que le même montant en morceaux, alors on la préserve. Présenter un objectif comme un seul nombre entier peut le rendre plus précieux à garder intact.",
+  "Le même cadrage qui aide à épargner peut pousser à trop dépenser. Les petites unités et les prix par jour sont honnêtes quand le total est visible ; ils sont manipulateurs quand ils le cachent.",
+  "Les prix par jeton ou par millier de jetons paraissent négligeables, alors que les factures mensuelles peuvent être élevées. Affichez des totaux cumulés en argent réel, et prévenez avant qu'un budget soit dépassé.",
+  "Quand un agent d'IA peut acheter pour quelqu'un, la douleur de payer disparaît complètement. Fixez des plafonds de dépense, faites confirmer les achats au-delà d'un seuil et montrez ce qui a été dépensé."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Les montants peuvent être affichés dans différentes unités",
+  "Le montant est fixe et inévitable",
+  "Portefeuilles, soldes et allocations",
+  "Vous voulez encourager ou limiter la dépense",
+  "Le solde ne peut pas être divisé",
+  "Pages de tarifs et dons",
+  "Choisir la période de facturation affichée",
+  "Le prix par jour masque un engagement important",
+  "Jeux, places de marché et crédits d'IA",
+  "Vendre une monnaie intégrée",
+  "Le taux de change est caché",
+  "Paiement et moyens de paiement enregistrés",
+  "Le paiement se fait en un geste",
+  "Les gens essaient de maîtriser leurs dépenses",
+  "Fonctions de budget et d'épargne",
+  "Les utilisateurs fixent des objectifs de dépense",
+  "L'argent doit être disponible immédiatement",
+  "Objectifs, récompenses et soldes",
+  "Vous voulez que les gens préservent un solde",
+  "Le total est trop abstrait pour motiver",
+  "Revues de tarification et de monétisation",
+  "La monétisation repose sur de petites unités",
+  "Ne jamais cacher le coût total",
+  "Par jeton → par mois",
+  "Facturer l'usage de l'IA",
+  "Afficher seulement le prix par jeton",
+  "L'humain paie → l'agent paie",
+  "Les agents peuvent faire des achats",
+  "Des agents qui dépensent sans limite"
+ ],
+ ".ai-divider h3": [
+  "L'effet de dénomination à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les produits d'IA facturent en jetons, en crédits et en fractions de centime. Les unités minuscules donnent l'impression que l'usage est gratuit, jusqu'à l'arrivée de la facture."
+ ]
+}

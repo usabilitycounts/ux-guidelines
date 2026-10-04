@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet d'<em>ambiguïté</em>"
+ ],
+ "header .tagline": [
+  "On préfère <em>les chances connues</em> aux inconnues."
+ ],
+ "header .subtitle": [
+  "Face à un choix, on prend l'option dont on peut estimer l'issue plutôt qu'une option à laquelle il manque des informations, même quand l'inconnue est tout aussi bonne. Prix cachés, estimations vagues et résultats flous font fuir."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Daniel Ellsberg</a> a décrit l'effet en 1961 avec une expérience de pensée sur une urne. Elle contient 30 boules : 10 rouges, et 20 qui forment un mélange inconnu de noires et de blanches. Parier sur le rouge offre une chance connue d'une sur trois ; parier sur le noir offre en moyenne la même chance, mais personne ne connaît la probabilité exacte. La plupart des gens parient sur le rouge.",
+  "Ses résultats sont devenus le paradoxe d'Ellsberg, car ils contredisent l'hypothèse classique selon laquelle on traite une probabilité inconnue comme sa meilleure estimation. Des travaux ultérieurs ont montré que l'effet est le plus fort quand on attire l'attention sur l'information manquante, et plus faible quand on se sent compétent dans le domaine, comme l'ont montré Chip Heath et Amos Tversky en 1991."
+ ],
+ ".law-content .law-desc": [
+  "On a tendance à choisir les options dont la chance d'un bon résultat est connue plutôt que celles où elle est inconnue, même quand l'option inconnue n'est pas moins bonne. L'information manquante se lit comme un risque, alors on l'évite ou l'on s'arrête pour en chercher davantage."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Ellsberg</a> (1961)",
+  "Aversion à l'ambiguïté",
+  "Combler ce que les gens ne peuvent pas savoir"
+ ],
+ ".apply-list li": [
+  "Un prix, des frais, une date de livraison ou un délai d'attente sont flous ou cachés.",
+  "Les gens doivent choisir entre une option familière et une nouvelle peu documentée.",
+  "Le résultat d'une action est incertain : un bouton, un réglage ou une réponse d'IA.",
+  "Affichez prix, totaux et délais dès le départ, sous forme de fourchette si un chiffre exact est impossible.",
+  "Montrez ce qui va se passer avant l'engagement : exemples, échantillons ou possibilité d'annuler.",
+  "Donnez des preuves aux nouvelles options, comme des avis, des essais ou des garanties claires, pour qu'elles paraissent moins inconnues."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Prix",
+  "Attente",
+  "Logistique",
+  "Aperçus",
+  "Nouveauté",
+  "Preuves",
+  "Compétence",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "L'urne d'Ellsberg",
+  "Contactez-nous pour connaître le prix",
+  "Une attente inconnue paraît pire",
+  "Donner une fourchette",
+  "Montrer ce qui va se passer",
+  "Le nouveau paraît plus risqué",
+  "Les avis comblent le vide",
+  "L'expertise réduit l'aversion",
+  "Montrer la confiance et les sources",
+  "Des actions d’agent prévisibles"
+ ],
+ ".card .desc": [
+  "La plupart des gens préfèrent parier sur les 10 boules rouges connues plutôt que sur des boules noires en nombre inconnu, alors que les deux offrent la même chance moyenne. L'information manquante suffit à faire paraître le second pari moins bon.",
+  "Un prix caché est une inconnue, et les inconnues perdent face à un concurrent qui affiche un chiffre. Affichez les prix, ou au moins des fourchettes et des exemples, pour que les acheteurs puissent estimer le coût.",
+  "Un indicateur de chargement sans estimation empêche de juger s'il vaut la peine d'attendre. Une barre de progression ou une estimation de durée transforme une attente ambiguë en attente connue.",
+  "Des dates de livraison, délais de réponse et remboursements donnés sous forme de fourchette valent mieux que rien. Même une fenêtre honnête lève l'ambiguïté qui fait hésiter au moment de payer.",
+  "Un bouton au résultat flou est un pari ambigu. Aperçus, récapitulatifs de confirmation et annulation rendent le résultat connu avant l'engagement.",
+  "Une nouvelle fonctionnalité, offre ou un nouveau fournisseur n'a pas d'historique, alors on s'en tient à ce qu'on connaît. Essais, garanties et témoignages réduisent la part d'inconnu.",
+  "Les notes et avis remplacent une inconnue par une quantité connue. Un produit sans avis peut perdre face à un produit aux avis moyens, car un peu d'information vaut mieux que rien.",
+  "Heath et Tversky ont constaté qu'on parie plus volontiers sur des événements ambigus dans les domaines où l'on se sent compétent. Expliquer comment une chose fonctionne peut rendre une option incertaine plus rassurante.",
+  "Une réponse sans indication de fiabilité ressemble à l'urne inconnue d'Ellsberg. Affichez le niveau de confiance, les sources ou le fondement d'une réponse, pour qu'on puisse en juger.",
+  "Un agent dont la prochaine étape est inconnue fait hésiter à le laisser agir. Montrez le plan avant l'exécution, et permettez d'approuver ou de modifier les étapes."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Une option manque d’informations",
+  "Toutes les options sont aussi claires",
+  "Pages de tarifs et devis",
+  "Les prix varient selon le client",
+  "Le prix est vraiment impossible à estimer",
+  "Chargements, traitements et files",
+  "Les tâches durent plus d'une ou deux secondes",
+  "L'attente est trop courte pour être remarquée",
+  "Paiement, livraison et support",
+  "Les dates exactes sont inconnues",
+  "La fourchette est si large qu’elle est inutile",
+  "Actions destructrices ou complexes",
+  "Les résultats sont difficiles à prévoir",
+  "L'action est anodine et réversible",
+  "Lancements et nouvelles offres",
+  "Concurrencer une option familière",
+  "La nouvelle option a fait ses preuves",
+  "Places de marché et fiches produit",
+  "Les produits sont nouveaux ou sans avis",
+  "Les avis seraient faux ou trop rares",
+  "Onboarding et explications",
+  "Les utilisateurs découvrent le domaine",
+  "Les utilisateurs sont déjà experts",
+  "Boîte noire → fondement explicite",
+  "L'IA répond ou recommande",
+  "Toutes les réponses paraissent aussi certaines",
+  "Plan inconnu → plan visible",
+  "L'IA agit pour l'utilisateur",
+  "Agir sans montrer le plan"
+ ],
+ ".ai-divider h3": [
+  "L'effet d'ambiguïté à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les résultats de l'IA sont incertains par nature. On s'y fie plus volontiers quand on voit son niveau de confiance et sur quoi elle s'appuie."
+ ]
+}

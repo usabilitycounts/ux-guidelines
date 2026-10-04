@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Ambiguitäts<em>effekt</em>"
+ ],
+ "header .tagline": [
+  "Menschen ziehen <em>bekannte Chancen</em> unbekannten vor."
+ ],
+ "header .subtitle": [
+  "Vor die Wahl gestellt, nehmen Menschen die Option, deren Ausgang sie einschätzen können, statt einer mit fehlenden Informationen, selbst wenn die unbekannte genauso gut ist. Versteckte Preise, vage Schätzungen und unklare Ergebnisse schrecken ab."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Daniel Ellsberg</a> beschrieb den Effekt 1961 mit einem Gedankenexperiment über eine Urne. Sie enthält 30 Kugeln: 10 rote und 20, die eine unbekannte Mischung aus schwarzen und weißen sind. Eine Wette auf Rot hat eine bekannte Chance von eins zu drei; eine Wette auf Schwarz hat im Mittel dieselbe Chance, doch niemand kennt die genaue Wahrscheinlichkeit. Die meisten setzen auf Rot.",
+  "Seine Ergebnisse wurden als Ellsberg-Paradoxon bekannt, weil sie der Standardannahme widersprechen, dass Menschen unbekannte Wahrscheinlichkeiten wie ihre beste Schätzung behandeln. Spätere Arbeiten fanden den Effekt am stärksten, wenn auf die fehlende Information hingewiesen wird, und schwächer, wenn Menschen sich im Fachgebiet kompetent fühlen, wie Chip Heath und Amos Tversky 1991 zeigten."
+ ],
+ ".law-content .law-desc": [
+  "Menschen wählen eher Optionen, deren Chance auf ein gutes Ergebnis bekannt ist, als solche, bei denen sie unbekannt ist, selbst wenn die unbekannte nicht schlechter ist. Fehlende Information wirkt wie ein Risiko, also meiden Menschen sie oder halten inne, um mehr herauszufinden."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Ellsberg</a> (1961)",
+  "Ambiguitätsaversion",
+  "Füllen, was Menschen nicht wissen können"
+ ],
+ ".apply-list li": [
+  "Ein Preis, eine Gebühr, ein Liefertermin oder eine Wartezeit ist unklar oder versteckt.",
+  "Menschen müssen zwischen einer vertrauten Option und einer neuen mit wenig Informationen wählen.",
+  "Das Ergebnis einer Aktion ist ungewiss, etwa bei einem Button, einer Einstellung oder einer KI-Ausgabe.",
+  "Zeigen Sie Preise, Summen und Zeitrahmen von Anfang an, als Spanne, wenn ein exakter Wert nicht möglich ist.",
+  "Zeigen Sie vor der Festlegung, was passieren wird, mit Beispielen, Mustern oder Rückgängig.",
+  "Geben Sie neuen Optionen Belege wie Bewertungen, Testphasen oder klare Garantien, damit sie weniger unbekannt wirken."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Preise",
+  "Warten",
+  "Logistik",
+  "Vorschauen",
+  "Neuheit",
+  "Belege",
+  "Kompetenz",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Ellsbergs Urne",
+  "Preis auf Anfrage",
+  "Unbekanntes Warten fühlt sich schlimmer an",
+  "Eine Spanne angeben",
+  "Zeigen, was passieren wird",
+  "Neues wirkt riskanter",
+  "Bewertungen füllen die Lücke",
+  "Fachwissen senkt die Abneigung",
+  "Zuverlässigkeit und Quellen zeigen",
+  "Vorhersehbare Agentenaktionen"
+ ],
+ ".card .desc": [
+  "Die meisten setzen lieber auf die 10 bekannten roten Kugeln als auf schwarze Kugeln in unbekannter Zahl, obwohl beide im Mittel dieselbe Chance bieten. Allein die fehlende Information lässt die zweite Wette schlechter wirken.",
+  "Ein versteckter Preis ist eine Unbekannte, und Unbekannte verlieren gegen einen Wettbewerber mit sichtbarer Zahl. Zeigen Sie Preise oder wenigstens Spannen und Beispiele, damit Käufer die Kosten abschätzen können.",
+  "Ein Ladesymbol ohne Schätzung lässt Menschen nicht beurteilen, ob sich das Warten lohnt. Ein Fortschrittsbalken oder eine Zeitangabe macht aus einer ungewissen Wartezeit eine bekannte.",
+  "Liefertermine, Antwortzeiten und Erstattungen als Spanne sind besser als nichts. Schon ein ehrliches Zeitfenster nimmt die Ungewissheit, die an der Kasse zögern lässt.",
+  "Ein Button mit unklarem Ergebnis ist eine ungewisse Wette. Vorschauen, Bestätigungszusammenfassungen und Rückgängig machen das Ergebnis bekannt, bevor Menschen sich festlegen.",
+  "Eine neue Funktion, ein neuer Tarif oder Anbieter hat keine Vorgeschichte, also bleiben Menschen beim Bekannten. Testphasen, Garantien und Erfahrungen anderer verringern, wie unbekannt es wirkt.",
+  "Sterne und Bewertungen ersetzen eine Unbekannte durch eine bekannte Größe. Ein Produkt ohne Bewertungen kann gegen eines mit mittelmäßigen verlieren, denn etwas Information ist besser als keine.",
+  "Heath und Tversky fanden, dass Menschen in Bereichen, in denen sie sich kundig fühlen, bereitwilliger auf ungewisse Ereignisse setzen. Zu erklären, wie etwas funktioniert, kann eine ungewisse Option sicherer wirken lassen.",
+  "Eine Antwort ohne Hinweis auf ihre Verlässlichkeit fühlt sich an wie Ellsbergs unbekannte Urne. Zeigen Sie Zuverlässigkeit, Quellen oder die Grundlage einer Antwort, damit Menschen sie beurteilen können.",
+  "Ein Agent, dessen nächster Schritt unbekannt ist, lässt Menschen zögern, ihn handeln zu lassen. Zeigen Sie den Plan vor der Ausführung, und lassen Sie Schritte genehmigen oder bearbeiten."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Einer Option fehlen Informationen",
+  "Alle Optionen sind gleich klar",
+  "Preisseiten und Angebote",
+  "Preise variieren je nach Kunde",
+  "Der Preis lässt sich wirklich nicht abschätzen",
+  "Laden, Verarbeitung und Warteschlangen",
+  "Aufgaben dauern länger als ein, zwei Sekunden",
+  "Die Wartezeit ist zu kurz, um aufzufallen",
+  "Kasse, Versand und Support",
+  "Genaue Termine sind unbekannt",
+  "Die Spanne ist so breit, dass sie nutzlos ist",
+  "Destruktive oder komplexe Aktionen",
+  "Ergebnisse sind schwer vorherzusagen",
+  "Die Aktion ist harmlos und umkehrbar",
+  "Einführungen und neue Tarife",
+  "Gegen eine vertraute Option antreten",
+  "Die neue Option hat sich bewährt",
+  "Marktplätze und Produktseiten",
+  "Produkte sind neu oder unbewertet",
+  "Bewertungen wären gefälscht oder spärlich",
+  "Onboarding und Erklärungen",
+  "Nutzer sind neu im Fachgebiet",
+  "Nutzer sind bereits Experten",
+  "Blackbox → benannte Grundlage",
+  "KI antwortet oder empfiehlt",
+  "Jede Antwort wirkt gleich sicher",
+  "Unbekannter Plan → sichtbarer Plan",
+  "KI handelt im Auftrag des Nutzers",
+  "Handeln, ohne den Plan zu zeigen"
+ ],
+ ".ai-divider h3": [
+  "Der Ambiguitätseffekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI-Ergebnisse sind von Natur aus ungewiss. Menschen verlassen sich eher darauf, wenn sie sehen, wie sicher die KI ist und worauf sie sich stützt."
+ ]
+}

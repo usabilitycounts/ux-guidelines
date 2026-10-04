@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto <em>denominación</em>"
+ ],
+ "header .tagline": [
+  "El suelto <em>se gasta más fácil</em>."
+ ],
+ "header .subtitle": [
+  "La gente se desprende del dinero con más facilidad en unidades pequeñas que en una grande, aunque la cantidad sea la misma. Cómo se fracciona un precio, un saldo o unos créditos cambia lo fácil que resulta gastarlos."
+ ],
+ ".law-origin .body-text": [
+  "Priya Raghubir y Joydeep Srivastava dieron nombre al efecto en 2009. En su primer estudio, los estudiantes que recibieron cuatro monedas de 25 centavos las gastaron en golosinas el 63 % de las veces; los que recibieron un solo billete de un dólar, solo el 26 %. En una gasolinera, los clientes que recibieron cinco billetes de 1 dólar compraron algo con más probabilidad que quienes recibieron uno de 5 dólares.",
+  "Trabajos anteriores apuntaban en la misma dirección: en 2006 Arul Mishra y sus colegas describieron un sesgo por el todo, y en 1998 John Gourville mostró que un precio presentado en céntimos al día parece menor que el mismo total al año. Raghubir y Srivastava también vieron que la gente elige a propósito billetes grandes cuando quiere controlar su gasto."
+ ],
+ ".law-content .law-desc": [
+  "La gente gasta con menos probabilidad el dinero que tiene en una sola unidad grande que la misma cantidad en unidades más pequeñas. Las unidades pequeñas parecen menos valiosas y más fáciles de romper, mientras que una grande se siente como un todo que hay que proteger, y la gente la usa como freno contra el gasto."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Raghubir y Srivastava (2009)",
+  "Sesgo por el todo",
+  "Elige a propósito la unidad que se muestra"
+ ],
+ ".apply-list li": [
+  "Muestras precios, planes, saldos o créditos.",
+  "Diseñas monedas virtuales, puntos, recargas o paquetes.",
+  "Creas funciones de presupuesto o ahorro que ayudan a gastar menos.",
+  "Decide si un precio debe parecer pequeño o completo, y elige la unidad y el periodo en consecuencia.",
+  "Muestra el total en dinero real junto a cualquier crédito, token o precio por día.",
+  "Ayuda a quien quiere ahorrar agrupando el dinero en cantidades más grandes y separadas."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Paquetes",
+  "Encuadre",
+  "Moneda virtual",
+  "Dolor de pagar",
+  "Autocontrol",
+  "Valor entero",
+  "Precaución",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Cuatro monedas o un billete",
+  "Muchos pequeños o uno grande",
+  "Unos céntimos al día",
+  "Los créditos ocultan el precio",
+  "Sin efectivo se gasta más",
+  "Billetes grandes como compromiso",
+  "Un sesgo por el todo",
+  "Para ayudar, no para exprimir",
+  "Los tokens parecen gratis",
+  "Agentes que gastan por ti"
+ ],
+ ".card .desc": [
+  "Los estudiantes con cuatro monedas de 25 centavos las gastaron el 63 % de las veces; los que tenían un solo billete de un dólar, el 26 %. El valor era idéntico. Solo cambiaba la denominación.",
+  "Los clientes con cinco billetes de 1 dólar gastaron más que los que tenían uno de 5 dólares. Dividir un saldo o una asignación en unidades pequeñas facilita gastarlo, y mantenerlo entero facilita ahorrarlo.",
+  "Un precio mostrado por día parece menor que el mismo total por año, porque se compara con gastos diarios insignificantes. Usa periodos pequeños con honestidad y muestra el total que realmente se cobrará.",
+  "Los puntos, monedas y créditos en cifras grandes convierten el dinero real en unidades pequeñas y abstractas fáciles de gastar. Muestra lo que cuesta cada compra en dinero real, o la moneda se convierte en un patrón oscuro.",
+  "La investigación previa de Raghubir y Srivastava mostró que la gente gasta con más facilidad con tarjetas de crédito o regalo que con efectivo. Pagar con un toque elimina el momento de entregar el dinero; muestra la cantidad con claridad al pagar.",
+  "Quien quiere controlar su gasto prefiere recibir el dinero en billetes grandes, porque romper uno se siente como una decisión. Las funciones de ahorro pueden aprovecharlo guardando el dinero en huchas separadas y enteras.",
+  "Una sola cantidad grande parece valer más que la misma cantidad a trozos, así que se protege. Mostrar un objetivo como un único número entero puede hacer que conservarlo parezca más valioso.",
+  "El mismo encuadre que ayuda a ahorrar puede empujar a gastar de más. Las unidades pequeñas y los precios por día son justos cuando el total es visible, y manipuladores cuando lo ocultan.",
+  "Los precios por token o por mil tokens parecen insignificantes, mientras que las facturas mensuales pueden ser altas. Muestra totales acumulados en dinero real y avisa antes de superar un presupuesto.",
+  "Cuando un agente de IA puede comprar en nombre de alguien, el dolor de pagar desaparece por completo. Fija límites de gasto, pide confirmación por encima de un umbral y muestra lo gastado."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Las cantidades pueden mostrarse en distintas unidades",
+  "La cantidad es fija e inevitable",
+  "Monederos, saldos y asignaciones",
+  "Quieres fomentar o limitar el gasto",
+  "El saldo no se puede dividir",
+  "Páginas de precios y donaciones",
+  "Elegir el periodo de facturación que se muestra",
+  "El precio por día oculta un compromiso grande",
+  "Juegos, marketplaces y créditos de IA",
+  "Vender moneda dentro de la app",
+  "El tipo de cambio está oculto",
+  "Pago y métodos de pago guardados",
+  "Se paga con un toque",
+  "La gente intenta controlar su gasto",
+  "Funciones de presupuesto y ahorro",
+  "Los usuarios fijan objetivos de gasto",
+  "El dinero debe estar disponible al instante",
+  "Objetivos, recompensas y saldos",
+  "Quieres que la gente conserve un saldo",
+  "El total es demasiado abstracto para motivar",
+  "Revisiones de precios y monetización",
+  "La monetización depende de unidades pequeñas",
+  "Nunca ocultes el coste total",
+  "Por token → por mes",
+  "Cobrar por el uso de IA",
+  "Mostrar solo precios por token",
+  "Paga la persona → paga el agente",
+  "Los agentes pueden hacer compras",
+  "Agentes que gastan sin límite"
+ ],
+ ".ai-divider h3": [
+  "El efecto denominación en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los productos de IA cobran en tokens, créditos y fracciones de céntimo. Las unidades diminutas hacen que el uso parezca gratis hasta que llega la factura."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto de <em>ambigüedad</em>"
+ ],
+ "header .tagline": [
+  "La gente prefiere <em>probabilidades conocidas</em> a las desconocidas."
+ ],
+ "header .subtitle": [
+  "Ante una elección, la gente se queda con la opción cuyo resultado puede estimar en lugar de una a la que le falta información, aunque la desconocida sea igual de buena. Los precios ocultos, las estimaciones vagas y los resultados poco claros ahuyentan."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Daniel Ellsberg</a> describió el efecto en 1961 con un experimento mental sobre una urna. Contiene 30 bolas: 10 rojas y 20 que son una mezcla desconocida de negras y blancas. Apostar al rojo tiene una probabilidad conocida de una entre tres; apostar al negro tiene, de media, la misma, pero nadie conoce la probabilidad exacta. La mayoría apuesta al rojo.",
+  "Sus resultados se conocieron como la paradoja de Ellsberg, porque rompen el supuesto clásico de que la gente trata una probabilidad desconocida como su mejor estimación. Trabajos posteriores hallaron que el efecto es más fuerte cuando se llama la atención sobre la información que falta, y más débil cuando la gente se siente competente en el tema, como mostraron Chip Heath y Amos Tversky en 1991."
+ ],
+ ".law-content .law-desc": [
+  "La gente tiende a elegir opciones cuya probabilidad de un buen resultado es conocida antes que otras en las que es desconocida, aunque la opción desconocida no sea peor. La información que falta se interpreta como riesgo, así que se evita o se busca más antes de decidir."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-daniel-ellsberg\">Ellsberg</a> (1961)",
+  "Aversión a la ambigüedad",
+  "Completa lo que la gente no puede saber"
+ ],
+ ".apply-list li": [
+  "Un precio, una comisión, una fecha de entrega o un tiempo de espera no están claros o están ocultos.",
+  "La gente debe elegir entre una opción conocida y otra nueva con poca información.",
+  "El resultado de una acción es incierto, como un botón, un ajuste o una respuesta de IA.",
+  "Muestra precios, totales y plazos desde el principio, como un rango si no es posible dar una cifra exacta.",
+  "Enseña lo que va a pasar antes de comprometerse, con ejemplos, muestras o la opción de deshacer.",
+  "Da pruebas a las opciones nuevas, como reseñas, pruebas gratuitas o garantías claras, para que parezcan menos desconocidas."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Precios",
+  "Espera",
+  "Logística",
+  "Vistas previas",
+  "Novedad",
+  "Pruebas",
+  "Competencia",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La urna de Ellsberg",
+  "Consúltenos el precio",
+  "Una espera desconocida se siente peor",
+  "Da un rango",
+  "Muestra lo que va a pasar",
+  "Lo nuevo parece más arriesgado",
+  "Las reseñas llenan el hueco",
+  "La experiencia reduce la aversión",
+  "Muestra la confianza y las fuentes",
+  "Acciones de agente previsibles"
+ ],
+ ".card .desc": [
+  "La mayoría prefiere apostar a las 10 bolas rojas conocidas antes que a bolas negras en número desconocido, aunque ambas ofrecen la misma probabilidad media. La información que falta basta para que la segunda apuesta parezca peor.",
+  "Un precio oculto es una incógnita, y las incógnitas pierden frente a un competidor que muestra una cifra. Muestra los precios, o al menos rangos y ejemplos, para que los compradores puedan estimar el coste.",
+  "Un indicador de carga sin estimación no deja juzgar si merece la pena esperar. Una barra de progreso o una estimación de tiempo convierte una espera ambigua en una conocida.",
+  "Las fechas de entrega, los tiempos de respuesta y los reembolsos mostrados como rangos son mejores que nada. Incluso una ventana honesta elimina la ambigüedad que hace dudar al pagar.",
+  "Un botón con un resultado poco claro es una apuesta ambigua. Las vistas previas, los resúmenes de confirmación y deshacer hacen que el resultado se conozca antes de comprometerse.",
+  "Una función, un plan o un proveedor nuevos no tienen historial, así que la gente se queda con lo que conoce. Las pruebas gratuitas, las garantías y la experiencia de otros reducen lo desconocido que parece.",
+  "Las valoraciones y reseñas sustituyen una incógnita por una cantidad conocida. Un producto sin reseñas puede perder frente a uno con reseñas mediocres, porque algo de información es mejor que nada.",
+  "Heath y Tversky vieron que la gente apuesta con más facilidad a sucesos ambiguos en los temas que conoce. Explicar cómo funciona algo puede hacer que una opción incierta parezca más segura.",
+  "Una respuesta sin indicación de fiabilidad se siente como la urna desconocida de Ellsberg. Muestra la confianza, las fuentes o la base de una respuesta para que la gente pueda juzgarla.",
+  "Un agente cuyo siguiente paso se desconoce hace dudar a la gente de dejarle actuar. Muestra el plan antes de ejecutarlo y deja aprobar o editar los pasos."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "A una opción le falta información",
+  "Todas las opciones son igual de claras",
+  "Páginas de precios y presupuestos",
+  "Los precios varían según el cliente",
+  "El precio de verdad no se puede estimar",
+  "Cargas, procesos y colas",
+  "Las tareas duran más de uno o dos segundos",
+  "La espera es demasiado corta para notarse",
+  "Pago, envío y soporte",
+  "No se conocen fechas exactas",
+  "El rango es tan amplio que no sirve",
+  "Acciones destructivas o complejas",
+  "Los resultados son difíciles de prever",
+  "La acción es trivial y reversible",
+  "Lanzamientos y planes nuevos",
+  "Competir con una opción conocida",
+  "La opción nueva tiene un historial probado",
+  "Marketplaces y fichas de producto",
+  "Los productos son nuevos o no tienen reseñas",
+  "Las reseñas serían falsas o escasas",
+  "Incorporación y explicaciones",
+  "Los usuarios son nuevos en el tema",
+  "Los usuarios ya son expertos",
+  "Caja negra → base explicada",
+  "La IA responde o recomienda",
+  "Todas las respuestas parecen igual de seguras",
+  "Plan desconocido → plan visible",
+  "La IA actúa en nombre del usuario",
+  "Actuar sin mostrar el plan"
+ ],
+ ".ai-divider h3": [
+  "El efecto de ambigüedad en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las respuestas de la IA son inciertas por naturaleza. La gente confía más en ellas cuando ve su nivel de confianza y en qué se basan."
+ ]
+}

@@ -2,7 +2,7 @@
 <html lang="en" data-page="index">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=75','script');pl('i18n/'+eff+'/index.json?v=38','fetch');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/index.json?v=43','fetch');}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <!-- Google tag (gtag.js) -->
@@ -16,11 +16,11 @@
 <meta name="description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <title>UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns</title>
 <link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" hreflang="fr" href="https://www.ux-guidelines.com/fr/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" hreflang="de" href="https://www.ux-guidelines.com/de/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" hreflang="es" href="https://www.ux-guidelines.com/es/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" hreflang="ja" href="https://www.ux-guidelines.com/ja/feed.xml">
-<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
 <link rel="canonical" href="https://www.ux-guidelines.com/">
 <link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/">
 <link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/">
@@ -42,7 +42,7 @@
 <meta name="twitter:title" content="UX Guidelines — Research-Backed UX Laws, Heuristics, and Design Patterns">
 <meta name="twitter:description" content="A library of research-backed design references: eye-scanning patterns, cognitive laws, usability heuristics, grids, icons, and data visualization — each explained with origins, practice, and what changes in the age of AI.">
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/", "potentialAction": {"@type": "SearchAction", "target": {"@type": "EntryPoint", "urlTemplate": "https://www.ux-guidelines.com/?q={search_term_string}"}, "query-input": "required name=search_term_string"}}]}</script>
-<link rel="stylesheet" href="tokens.css?v=170">
+<link rel="stylesheet" href="tokens.css?v=172">
 <style>
   
 
@@ -104,13 +104,20 @@
   .view-tabs .lang-tab { padding: 6px 2px 10px; border-radius: 0; font-size: 0.875rem; }
   .view-tabs .lang-tab.active, .view-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; font-weight: 600; color: var(--text-primary); }
   .view-tabs .tab-indicator { top: auto; bottom: -1px; height: 2px; border-radius: 0; background: var(--text-primary); box-shadow: none; }
-  .section-pills { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 0; max-width: none; width: 100%; }
+  /* Section tabs: a segmented control, the same as the theme tabs in the header */
+  .section-pills { position: relative; display: flex; flex-wrap: wrap; justify-content: center; gap: 2px; margin: 0 auto; max-width: 100%; width: max-content; padding: 3px; background: var(--surface-2); border-radius: 8px; }
   .section-pill { white-space: nowrap; }
   .home-sticky { position: sticky; top: 0; z-index: 50; background: var(--bg); padding-top: 10px; padding-bottom: 14px; margin-bottom: 8px; }
-  .section-pill { font-size: var(--fs-ui); font-weight: 500; color: var(--text-secondary); background: var(--surface-2); border: 0; border-radius: 999px; padding: 6px 14px; text-decoration: none; cursor: pointer; font-family: inherit; transition: background 0.15s ease, color 0.15s ease; }
-  .section-pill:hover { background: var(--ink-fill); color: var(--text-inverse); }
-  /* the section you are currently reading */
-  .section-pill.current { background: var(--ink-fill); color: var(--text-inverse); }
+  .section-pill { position: relative; z-index: 1; font-size: 0.8125rem; font-weight: 400; line-height: 1.4; color: var(--text-secondary); background: transparent; border: 0; border-radius: 5px; padding: 5px 14px; text-decoration: none; cursor: pointer; font-family: var(--font-sans); transition: background-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease; }
+  .section-pill:hover { color: var(--text-primary); }
+  /* the selected section: a raised white segment, like the active theme */
+  .section-pill.current { background: var(--bg); color: var(--text-primary); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); }
+  /* With the sliding segment in place, it carries the white and the shadow, and glides between tabs */
+  .section-pills.has-ind .section-pill.current { background: transparent; box-shadow: none; }
+  .section-ind { position: absolute; left: 0; top: 0; width: 0; height: 0; border-radius: 5px; background: var(--bg); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); transition: left 0.24s ease, top 0.24s ease, width 0.24s ease, height 0.24s ease; }
+  /* the newly chosen section eases in */
+  @keyframes sec-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .home-main .section.sec-in { animation: sec-in 0.28s ease both; }
   /* A pill jump must clear the sticky bar above it. The bar changes height
      when the pills wrap, so JS measures it; 76px is only the fallback. */
   .home-main .section { scroll-margin-top: calc(var(--home-sticky-h, 76px) + var(--home-section-gap, 14px)); }
@@ -127,9 +134,33 @@
     .home-main .section-head { flex-wrap: wrap; row-gap: 2px; }
     .pt-desc { flex: 1 0 100%; margin-left: 0; }
     /* pills: one scrolling line, as on phones */
-    .section-pills { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; padding: 0 20px; margin: 0 -20px; width: auto; }   /* runs edge to edge; the padding keeps the ends aligned */
-    .section-pills::-webkit-scrollbar { display: none; }
-    .section-pill { flex: 0 0 auto; scroll-snap-align: start; }
+    /* the segmented tabs wrap onto a second line, like the header's tab groups */
+  }
+  /* Phones: the section tabs become an accordion under the view tabs */
+  .section-dd { display: none; }
+  .acc { border: 1px solid var(--border); border-radius: 10px; background: var(--surface); overflow: hidden; }
+  /* same height and type as the language and theme dropdowns above (40px with the border) */
+  .acc-btn { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; height: 38px; padding: 0 12px 0 14px; font: inherit; font-size: 15px; font-weight: 400; color: var(--text-primary); background: transparent; border: 0; text-align: left; cursor: pointer; }
+  .acc-chev { flex-shrink: 0; color: var(--text-secondary); transition: transform 0.2s ease; }
+  .acc.open .acc-chev { transform: rotate(180deg); }
+  .acc-panel { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 0.22s ease; }
+  .acc.open .acc-panel { grid-template-rows: 1fr; }
+  .acc-inner { overflow: hidden; min-height: 0; }
+  .acc-list { border-top: 1px solid var(--border); padding: 4px 0; }
+  /* While the list is open the bar scrolls with the page, so every row stays reachable on short screens */
+  .home-sticky.acc-open { position: relative; }
+  .acc-opt { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; min-height: 44px; padding: 0 12px 0 14px; font: inherit; font-size: 15px; color: var(--text-primary); background: transparent; border: 0; text-align: left; cursor: pointer; }
+  .acc-opt:hover, .acc-opt:focus-visible { background: var(--demo-bg); }
+  .acc-check { flex-shrink: 0; visibility: hidden; }
+  .acc-opt[aria-pressed="true"] { font-weight: 600; }
+  .acc-opt[aria-pressed="true"] .acc-check { visibility: visible; }
+  @media (prefers-reduced-motion: reduce) { .acc-panel, .acc-chev { transition: none; } }
+  @media (max-width: 600px) {
+    .home-sticky .section-pills { display: none; }
+    .home-sticky .section-dd { display: block; text-align: left; }
+    /* sections drop their outline and sit on the page, separated by space */
+    .home-main .section { border: 0; border-radius: 0; padding: 0; background: transparent; }
+    .home-main .section + .section { margin-top: 36px; padding-top: 0; }
   }
   /* Tablet: screen beside the heading, links two across underneath */
   @media (min-width: 601px) and (max-width: 980px) {
@@ -189,7 +220,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 .lang-tab:hover { color: var(--text-primary); }
 .lang-tab.active { background: var(--bg); color: var(--text-primary); font-weight: 600; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); }
 .lang-tabs { position: relative; }
-.tab-indicator { position: absolute; top: 3px; bottom: 3px; left: 0; width: 0; border-radius: 5px; background: var(--bg); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); transition: left 0.18s ease, width 0.18s ease; opacity: 0; }
+.tab-indicator { position: absolute; top: 3px; bottom: 3px; left: 0; width: 0; border-radius: 5px; background: var(--bg); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.14); transition: left 0.24s ease, width 0.24s ease; opacity: 0; }
 .lang-tabs .lang-tab { position: relative; z-index: 1; }
 .lang-tabs.has-ind .lang-tab.active { background: transparent; box-shadow: none; }
 .lang-tab .lang-abbr { display: none; }
@@ -211,7 +242,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   .hero-dropdowns .dropdown { flex: 1 1 0; min-width: 0; }
 }
 </style>
-<script defer src="tokens.js?v=129"></script>
+<script defer src="tokens.js?v=135"></script>
 </head>
 <body>
 
@@ -233,21 +264,36 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <div class="menu-links">
 <a href="index.html" class="menu-link active">Home</a>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
   <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
   <a href="galls-law.html" class="menu-link">Gall’s Law</a>
   <a href="conways-law.html" class="menu-link">Conway’s Law</a>
   <a href="postels-law.html" class="menu-link">Postel’s Law</a>
   <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
   <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
   <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
   <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
   <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
   <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
   <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
   <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
   <a href="steering-law.html" class="menu-link">Steering Law</a>
   <a href="contour-bias.html" class="menu-link">Contour Bias</a>
@@ -260,19 +306,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
-  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
-  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
-  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
-  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
-  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
-  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
-  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
-  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
-  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
-</details>
-<details class="menu-group">
-  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
   <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
   <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
   <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
@@ -282,8 +316,10 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
   <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
   <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
   <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
   <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
@@ -298,11 +334,15 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
   <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
   <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
   <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
   <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
   <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
   <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
   <a href="millers-law.html" class="menu-link">Miller’s Law</a>
@@ -310,7 +350,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
 </details>
 <details class="menu-group">
-  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
   <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
   <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
   <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
@@ -321,6 +361,8 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <a href="default-effect.html" class="menu-link">Default Effect</a>
   <a href="social-proof.html" class="menu-link">Social Proof</a>
   <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
   <a href="automation-bias.html" class="menu-link">Automation Bias</a>
   <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
 </details>
@@ -347,7 +389,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     <h1>UX <em>Guidelines</em></h1>
     <span class="beta-pill">Beta</span>
   </div>
-  <p class="subtitle">A growing library of 71 research-backed UX references for designers, researchers, and engineers.</p>
+  <p class="subtitle">A growing library of 82 research-backed UX references for designers, researchers, and engineers.</p>
   <div class="lang-tabs theme-tabs" aria-label="Theme">
     <button type="button" class="lang-tab theme-tab" data-theme="light">Light</button>
     <button type="button" class="lang-tab theme-tab" data-theme="dark">Dark</button>
@@ -490,8 +532,11 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   var applyTheme = function (t) {
     try { localStorage.setItem('ux-theme', t); } catch (e) {}
     var r = document.documentElement;
-    r.classList.remove('dark', 'beige', 'blue');
-    if (t !== 'light') r.classList.add(t);
+    var swap = function () {
+      r.classList.remove('dark', 'beige', 'blue');
+      if (t !== 'light') r.classList.add(t);
+    };
+    if (window.uxFadeTheme) window.uxFadeTheme(swap); else swap();
   };
   document.querySelectorAll('.theme-tab').forEach(function (b) {
     var on = b.dataset.theme === cur;
@@ -523,7 +568,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     setTimeout(function () {
       if (window.uxLangUrl) location.href = window.uxLangUrl(code);
       else location.reload();
-    }, 190);
+    }, 260);   // after the indicator's 0.24s slide
   };
   document.querySelectorAll('.lang-tab[data-lang]').forEach(function (b) {
     var active = b.dataset.lang === cur;
@@ -542,7 +587,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   <button type="button" class="lang-tab view-tab" data-view="task">Task Type</button>
 </div>
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg><h2 class="category-label">Build The System</h2><span class="pt-desc">The laws behind the architecture, governing how teams, systems, and estimates really behave.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="7" height="7" x="14" y="3" rx="1"/><path d="M10 21V8a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1H3"/></svg><h2 class="category-label">Build Systems</h2><span class="pt-desc">The laws behind the architecture, governing how teams, systems, and estimates really behave.</span></div>
   <div class="cards-grid">
       <a class="card" href="teslers-law.html">
         <h3>Tesler’s Law</h3>
@@ -592,6 +637,14 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
         </div>
       </a>
+      <a class="card" href="lindy-effect.html">
+        <h3>Lindy Effect</h3>
+        <p class="desc">What has lasted is likely to last.</p>
+        <div class="card-foot">
+          <span class="tag">Goldman, 1964</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
       <a class="card" href="hofstadters-law.html">
         <h3>Hofstadter’s Law</h3>
         <p class="desc">Everything takes longer than expected.</p>
@@ -632,11 +685,104 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
         </div>
       </a>
+      <a class="card" href="explainability.html">
+        <h3>Explainability</h3>
+        <p class="desc">Show people why, not just what.</p>
+        <div class="card-foot">
+          <span class="tag">Shortliffe, 1970s</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg><h2 class="category-label">Apply Standards</h2><span class="pt-desc">The canonical checklists and standards that settle arguments and keep quality from drifting.</span></div>
+  <div class="cards-grid">
+      <a class="card" href="nielsens-heuristics.html">
+        <h3>Nielsen’s 10 Heuristics</h3>
+        <p class="desc">Ten usability principles — the standard checklist.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="normans-principles.html">
+        <h3>Norman’s Principles</h3>
+        <p class="desc">The vocabulary of everyday design.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="rams-principles.html">
+        <h3>Rams’ 10 Principles</h3>
+        <p class="desc">Ten questions good design must answer.</p>
+        <div class="card-foot">
+          <span class="tag">10 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="shneiderman-eight-golden-rules.html">
+        <h3>Shneiderman’s Eight Golden Rules</h3>
+        <p class="desc">Eight golden rules of interface design.</p>
+        <div class="card-foot">
+          <span class="tag">8 rules</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="tognazzinis-first-principles.html">
+        <h3>Tognazzini’s First Principles</h3>
+        <p class="desc">Sixteen principles for interaction design.</p>
+        <div class="card-foot">
+          <span class="tag">+ AI era</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="wcag-pour.html">
+        <h3>WCAG and POUR</h3>
+        <p class="desc">Perceivable, operable, understandable, robust.</p>
+        <div class="card-foot">
+          <span class="tag">4 principles</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="curb-cut-effect.html">
+        <h3>Curb Cut Effect</h3>
+        <p class="desc">Designed for disability, used by everyone.</p>
+        <div class="card-foot">
+          <span class="tag">Berkeley, 1972</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="chestertons-fence.html">
+        <h3>Chesterton’s Fence</h3>
+        <p class="desc">Understand it before you remove it.</p>
+        <div class="card-foot">
+          <span class="tag">6 rules</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="microsoft-ai-guidelines.html">
+        <h3>Microsoft’s 18 AI Guidelines</h3>
+        <p class="desc">Eighteen checks for AI that faces a user.</p>
+        <div class="card-foot">
+          <span class="tag">18 guidelines</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="ui-tenets-and-traps.html">
+        <h3>UI Tenets and Traps</h3>
+        <p class="desc">Nine tenets, and the traps that break them.</p>
+        <div class="card-foot">
+          <span class="tag">9 tenets</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
   </div>
 </section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg><h2 class="category-label">Design Actions And Controls</h2><span class="pt-desc">Targets, feedback, and forgiving controls, tuned to how hands and attention actually behave.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 4.1 12 6"/><path d="m5.1 8-2.9-.8"/><path d="m6 12-1.9 2"/><path d="M7.2 2.2 8 5.1"/><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"/></svg><h2 class="category-label">Design Controls</h2><span class="pt-desc">Targets, feedback, and forgiving controls, tuned to how hands and attention actually behave.</span></div>
   <div class="cards-grid">
       <a class="card" href="fitts-law.html">
         <h3>Fitts’s Law</h3>
@@ -721,86 +867,9 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   </div>
 </section>
 
-<section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg><h2 class="category-label">Follow The Rulebooks</h2><span class="pt-desc">The canonical checklists and standards that settle arguments and keep quality from drifting.</span></div>
-  <div class="cards-grid">
-      <a class="card" href="nielsens-heuristics.html">
-        <h3>Nielsen’s 10 Heuristics</h3>
-        <p class="desc">Ten usability principles — the standard checklist.</p>
-        <div class="card-foot">
-          <span class="tag">10 principles</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="normans-principles.html">
-        <h3>Norman’s Principles</h3>
-        <p class="desc">The vocabulary of everyday design.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="rams-principles.html">
-        <h3>Rams’ 10 Principles</h3>
-        <p class="desc">Ten questions good design must answer.</p>
-        <div class="card-foot">
-          <span class="tag">10 principles</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="shneiderman-eight-golden-rules.html">
-        <h3>Shneiderman’s Eight Golden Rules</h3>
-        <p class="desc">Eight golden rules of interface design.</p>
-        <div class="card-foot">
-          <span class="tag">8 rules</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="tognazzinis-first-principles.html">
-        <h3>Tognazzini’s First Principles</h3>
-        <p class="desc">Sixteen principles for interaction design.</p>
-        <div class="card-foot">
-          <span class="tag">+ AI era</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="wcag-pour.html">
-        <h3>WCAG and POUR</h3>
-        <p class="desc">Perceivable, operable, understandable, robust.</p>
-        <div class="card-foot">
-          <span class="tag">4 principles</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
-        </div>
-      </a>
-      <a class="card" href="chestertons-fence.html">
-        <h3>Chesterton’s Fence</h3>
-        <p class="desc">Understand it before you remove it.</p>
-        <div class="card-foot">
-          <span class="tag">6 rules</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="microsoft-ai-guidelines.html">
-        <h3>Microsoft’s 18 AI Guidelines</h3>
-        <p class="desc">Eighteen checks for AI that faces a user.</p>
-        <div class="card-foot">
-          <span class="tag">18 guidelines</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-      <a class="card" href="ui-tenets-and-traps.html">
-        <h3>UI Tenets and Traps</h3>
-        <p class="desc">Nine tenets, and the traps that break them.</p>
-        <div class="card-foot">
-          <span class="tag">9 tenets</span>
-          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
-        </div>
-      </a>
-  </div>
-</section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><h2 class="category-label">Keep Them Coming Back</h2><span class="pt-desc">Delight, memory, and habit — the reasons people return long after the first visit.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg><h2 class="category-label">Retain Users</h2><span class="pt-desc">Delight, memory, and habit — the reasons people return long after the first visit.</span></div>
   <div class="cards-grid">
       <a class="card" href="aesthetic-usability-effect.html">
         <h3>Aesthetic-Usability Effect</h3>
@@ -862,7 +931,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Lay Out The Page</h2><span class="pt-desc">Where the eye goes and why, and how structure decides what gets seen first.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg><h2 class="category-label">Compose Pages</h2><span class="pt-desc">Where the eye goes and why, and how structure decides what gets seen first.</span></div>
   <div class="cards-grid">
       <a class="card" href="eye-scanning-patterns.html">
         <h3>Eye-Scanning Patterns</h3>
@@ -870,6 +939,22 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
         <div class="card-foot">
           <span class="tag">6 patterns</span>
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="visual-search.html">
+        <h3>Visual Search</h3>
+        <p class="desc">Unique features pop out; similar items slow the hunt.</p>
+        <div class="card-foot">
+          <span class="tag">Treisman, 1980</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="banner-blindness.html">
+        <h3>Banner Blindness</h3>
+        <p class="desc">Anything that looks like an ad gets ignored.</p>
+        <div class="card-foot">
+          <span class="tag">Benway and Lane, 1998</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
         </div>
       </a>
       <a class="card" href="gutenberg-principle.html">
@@ -984,11 +1069,19 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
         </div>
       </a>
+      <a class="card" href="muller-lyer-illusion.html">
+        <h3>Müller-Lyer Illusion</h3>
+        <p class="desc">Arrow ends change how long a line looks.</p>
+        <div class="card-foot">
+          <span class="tag">Müller-Lyer, 1889</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
   </div>
 </section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg><h2 class="category-label">Present And Explain</h2><span class="pt-desc">Making information effortless to absorb, so understanding costs the reader as little as possible.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 3h20"/><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"/><path d="m7 21 5-5 5 5"/></svg><h2 class="category-label">Explain Data</h2><span class="pt-desc">Making information effortless to absorb, so understanding costs the reader as little as possible.</span></div>
   <div class="cards-grid">
       <a class="card" href="data-visualization.html">
         <h3>Data Visualization</h3>
@@ -998,12 +1091,36 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
         </div>
       </a>
+      <a class="card" href="chartjunk.html">
+        <h3>Chartjunk</h3>
+        <p class="desc">Ink that shows no data gets in the way.</p>
+        <div class="card-foot">
+          <span class="tag">Tufte, 1983</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
       <a class="card" href="universal-icons.html">
         <h3>Universal Icons</h3>
         <p class="desc">The few glyphs everyone already reads.</p>
         <div class="card-foot">
           <span class="tag">+ AI era</span>
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+        </div>
+      </a>
+      <a class="card" href="picture-superiority-effect.html">
+        <h3>Picture Superiority Effect</h3>
+        <p class="desc">Pictures are remembered better than words.</p>
+        <div class="card-foot">
+          <span class="tag">Shepard, 1967</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="processing-fluency.html">
+        <h3>Processing Fluency</h3>
+        <p class="desc">What is easy to process feels true.</p>
+        <div class="card-foot">
+          <span class="tag">Jacoby and Dallas, 1981</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
         </div>
       </a>
       <a class="card" href="progressive-disclosure.html">
@@ -1050,7 +1167,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 </section>
 
 <section class="section">
-  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg><h2 class="category-label">Structure The Choices</h2><span class="pt-desc">Shaping decisions people can actually make, without the paralysis that too many options bring.</span></div>
+  <div class="section-head"><svg class="section-ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 17 2 2 4-4"/><path d="m3 7 2 2 4-4"/><path d="M13 6h8"/><path d="M13 12h8"/><path d="M13 18h8"/></svg><h2 class="category-label">Shape Choices</h2><span class="pt-desc">Shaping decisions people can actually make, without the paralysis that too many options bring.</span></div>
   <div class="cards-grid">
       <a class="card" href="hicks-law.html">
         <h3>Hick’s Law</h3>
@@ -1132,6 +1249,22 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
           <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
         </div>
       </a>
+      <a class="card" href="denomination-effect.html">
+        <h3>Denomination Effect</h3>
+        <p class="desc">Small units get spent; big ones get saved.</p>
+        <div class="card-foot">
+          <span class="tag">Raghubir and Srivastava, 2009</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
+      <a class="card" href="ambiguity-effect.html">
+        <h3>Ambiguity Effect</h3>
+        <p class="desc">Known odds beat unknown ones.</p>
+        <div class="card-foot">
+          <span class="tag">Ellsberg, 1961</span>
+          <span class="arrow">Read <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
+        </div>
+      </a>
       <a class="card" href="automation-bias.html">
         <h3>Automation Bias</h3>
         <p class="desc">People over-trust the machine's suggestion.</p>
@@ -1161,7 +1294,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
 
 <script>
 (function () {
-  var TYPE_GROUPS = [{"label": "Every Page", "icon": "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "slugs": ["nielsens-heuristics", "normans-principles", "power-law-of-practice", "principle-of-least-astonishment", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "ui-tenets-and-traps", "wcag-pour"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"9.6\" width=\"176\" height=\"8.0\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"12\" y=\"27.2\" width=\"110\" height=\"7.2\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"41.6\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"52.8\" width=\"160\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "The rules that apply to every screen, from the first prototype to the shipped product."}, {"label": "Chat", "icon": "<path d=\"M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1\"/>", "slugs": ["automation-bias", "doherty-threshold", "human-in-the-loop", "microsoft-ai-guidelines", "out-of-the-loop-problem", "postels-law", "teslers-law", "uncanny-valley"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"84\" y=\"35.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"59.2\" width=\"84\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"12\" y=\"94.4\" width=\"176\" height=\"16.0\" rx=\"10\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><circle cx=\"179\" cy=\"102.4\" r=\"6\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Chat interfaces and AI copilots, where people weigh how much to trust the machine."}, {"label": "Dashboards", "icon": "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path d=\"m19 9-5 5-4-4-3 3\"/>", "slugs": ["alarm-fatigue", "change-blindness", "data-visualization", "ebbinghaus-illusion", "goodharts-law", "yerkes-dodson-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"74\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"136\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"43.2\" width=\"176\" height=\"65.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.12\"/><polyline points=\"24,94.4 56,76.8 88,83.2 120,62.4 152,68.8 178,52.8\" fill=\"none\" stroke=\"var(--pt-accent)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>", "desc": "Status at a glance, honestly measured, so the numbers guide attention instead of skewing it."}, {"label": "Detail Pages", "icon": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "slugs": ["canons-of-page-construction", "gestalt-principles", "line-length", "progressive-disclosure", "weber-fechner-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"112\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"30.4\" width=\"82\" height=\"46.4\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"32.0\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"43.2\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"54.4\" width=\"62\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"67.2\" width=\"46\" height=\"11.2\" rx=\"7\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"88.0\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"99.2\" width=\"150\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "One thing, fully explained, with depth available but never dumped on the reader at once."}, {"label": "Flows", "icon": "<circle cx=\"8\" cy=\"21\" r=\"1\"/><circle cx=\"19\" cy=\"21\" r=\"1\"/><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"/>", "slugs": ["dark-patterns", "fogg-behavior-model", "hook-model", "ikea-effect", "nudge-theory", "paradox-of-choice", "peak-end-rule", "zeigarnik-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><line x1=\"28\" y1=\"19.2\" x2=\"172\" y2=\"19.2\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.3\"/><circle cx=\"28\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><circle cx=\"100\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><circle cx=\"172\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><rect x=\"12\" y=\"38.4\" width=\"112\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"22\" y=\"46.4\" width=\"70\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"22\" y=\"57.6\" width=\"92\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"22\" y=\"68.8\" width=\"80\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"134\" y=\"38.4\" width=\"54\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"134\" y=\"97.6\" width=\"54\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Multi-step journeys that get finished, where momentum, memory, and a clear ending decide completion."}, {"label": "Forms", "icon": "<path d=\"M5 4h1a3 3 0 0 1 3 3 3 3 0 0 1 3-3h1\"/><path d=\"M13 20h-1a3 3 0 0 1-3-3 3 3 0 0 1-3 3H5\"/><path d=\"M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1\"/><path d=\"M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7\"/><path d=\"M9 7v10\"/>", "slugs": ["choice-architecture", "cognitive-load-theory", "curse-of-knowledge", "default-effect", "millers-law", "stroop-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"20.0\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"41.6\" width=\"64\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"50.4\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"72.0\" width=\"44\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"80.8\" width=\"86\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"101.6\" width=\"56\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Asking for input without losing people, keeping the effort small and the errors forgiving."}, {"label": "Landing Pages", "icon": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/><path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\"/><path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\"/>", "slugs": ["aesthetic-usability-effect", "aspect-ratio", "contour-bias", "eye-scanning-patterns", "golden-ratio", "gutenberg-principle", "jakobs-law", "negative-space", "rule-of-odds", "rule-of-thirds", "silver-ratio", "social-proof", "von-restorff-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"40\" y=\"27.2\" width=\"120\" height=\"10.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"55\" y=\"44.8\" width=\"90\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"74\" y=\"60.8\" width=\"52\" height=\"13.6\" rx=\"8.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"77\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"134\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "First impressions, trust, and the pitch, judged in the fraction of a second before reading."}, {"label": "Navigation", "icon": "<path d=\"M12 13v8\"/><path d=\"M12 3v3\"/><path d=\"M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z\"/>", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "satisficing", "steering-law", "universal-icons", "zipfs-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"46\" height=\"97.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"20\" y=\"19.2\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"32.0\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"44.8\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"57.6\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"70.4\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"68\" y=\"11.2\" width=\"120\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"68\" y=\"30.4\" width=\"120\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"41.6\" width=\"104\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"57.6\" width=\"120\" height=\"51.2\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/></svg>", "desc": "Getting around without getting lost, with easy targets and labels people already know."}, {"label": "Tables", "icon": "<path d=\"M12 3v18\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/>", "slugs": ["anchoring-effect", "grid-and-hierarchy", "serial-position-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"76\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"140\" y=\"11.2\" width=\"48\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"28.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"43.2\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"72.0\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"86.4\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"100.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"76\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"57.6\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/></svg>", "desc": "Scanning, comparing, and finding the row, where density and hierarchy matter more than decoration."}, {"label": "Other", "icon": "<path d=\"M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"3.5\"/>", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "pareto-principle", "survivorship-bias"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"72\" y=\"9.6\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><line x1=\"100\" y1=\"30.4\" x2=\"100\" y2=\"40\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"40\" y1=\"40\" x2=\"160\" y2=\"40\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"100\" y1=\"40\" x2=\"100\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><rect x=\"12\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"72\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"132\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"81.6\" width=\"96\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"97.6\" width=\"164\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "The people, plans, and decisions behind the product, rather than any one screen."}];
+  var TYPE_GROUPS = [{"label": "Every Page", "icon": "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"/><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"/>", "slugs": ["curb-cut-effect", "nielsens-heuristics", "normans-principles", "power-law-of-practice", "principle-of-least-astonishment", "processing-fluency", "rams-principles", "shneiderman-eight-golden-rules", "tognazzinis-first-principles", "ui-tenets-and-traps", "wcag-pour"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"9.6\" width=\"176\" height=\"8.0\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"12\" y=\"27.2\" width=\"110\" height=\"7.2\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"41.6\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"52.8\" width=\"160\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"68.8\" width=\"84\" height=\"33.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "The rules that apply to every screen, from the first prototype to the shipped product."}, {"label": "Chat", "icon": "<path d=\"M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z\"/><path d=\"M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1\"/>", "slugs": ["automation-bias", "doherty-threshold", "explainability", "human-in-the-loop", "microsoft-ai-guidelines", "out-of-the-loop-problem", "postels-law", "teslers-law", "uncanny-valley"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"84\" y=\"35.2\" width=\"104\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"59.2\" width=\"84\" height=\"15.2\" rx=\"9.5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><rect x=\"12\" y=\"94.4\" width=\"176\" height=\"16.0\" rx=\"10\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><circle cx=\"179\" cy=\"102.4\" r=\"6\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Chat interfaces and AI copilots, where people weigh how much to trust the machine."}, {"label": "Dashboards", "icon": "<path d=\"M3 3v16a2 2 0 0 0 2 2h16\"/><path d=\"m19 9-5 5-4-4-3 3\"/>", "slugs": ["alarm-fatigue", "change-blindness", "chartjunk", "data-visualization", "ebbinghaus-illusion", "goodharts-law", "muller-lyer-illusion", "yerkes-dodson-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"74\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"136\" y=\"11.2\" width=\"52\" height=\"22.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"43.2\" width=\"176\" height=\"65.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.12\"/><polyline points=\"24,94.4 56,76.8 88,83.2 120,62.4 152,68.8 178,52.8\" fill=\"none\" stroke=\"var(--pt-accent)\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.9\"/></svg>", "desc": "Status at a glance, honestly measured, so the numbers guide attention instead of skewing it."}, {"label": "Detail Pages", "icon": "<path d=\"M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z\"/><path d=\"M14 2v4a2 2 0 0 0 2 2h4\"/><path d=\"M10 9H8\"/><path d=\"M16 13H8\"/><path d=\"M16 17H8\"/>", "slugs": ["canons-of-page-construction", "gestalt-principles", "line-length", "picture-superiority-effect", "progressive-disclosure", "weber-fechner-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"112\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"30.4\" width=\"82\" height=\"46.4\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"104\" y=\"32.0\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"43.2\" width=\"84\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"54.4\" width=\"62\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"104\" y=\"67.2\" width=\"46\" height=\"11.2\" rx=\"7\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"88.0\" width=\"176\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"12\" y=\"99.2\" width=\"150\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "One thing, fully explained, with depth available but never dumped on the reader at once."}, {"label": "Flows", "icon": "<circle cx=\"8\" cy=\"21\" r=\"1\"/><circle cx=\"19\" cy=\"21\" r=\"1\"/><path d=\"M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12\"/>", "slugs": ["dark-patterns", "fogg-behavior-model", "hook-model", "ikea-effect", "nudge-theory", "peak-end-rule", "zeigarnik-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><circle cx=\"28\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><circle cx=\"100\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><circle cx=\"172\" cy=\"19.2\" r=\"9\" fill=\"var(--pt-skel)\" opacity=\"0.35\"/><rect x=\"12\" y=\"38.4\" width=\"112\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"22\" y=\"46.4\" width=\"70\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"22\" y=\"57.6\" width=\"92\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"22\" y=\"68.8\" width=\"80\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"134\" y=\"38.4\" width=\"54\" height=\"49.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"134\" y=\"97.6\" width=\"54\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Multi-step journeys that get finished, where momentum, memory, and a clear ending decide completion."}, {"label": "Forms", "icon": "<path d=\"M5 4h1a3 3 0 0 1 3 3 3 3 0 0 1 3-3h1\"/><path d=\"M13 20h-1a3 3 0 0 1-3-3 3 3 0 0 1-3 3H5\"/><path d=\"M5 16H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h1\"/><path d=\"M13 8h7a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-7\"/><path d=\"M9 7v10\"/>", "slugs": ["choice-architecture", "cognitive-load-theory", "curse-of-knowledge", "default-effect", "millers-law", "stroop-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"52\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"20.0\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"41.6\" width=\"64\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"50.4\" width=\"130\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"72.0\" width=\"44\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.5\"/><rect x=\"12\" y=\"80.8\" width=\"86\" height=\"12.0\" rx=\"5\" fill=\"none\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.4\"/><rect x=\"12\" y=\"101.6\" width=\"56\" height=\"12.8\" rx=\"8\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/></svg>", "desc": "Asking for input without losing people, keeping the effort small and the errors forgiving."}, {"label": "Landing Pages", "icon": "<path d=\"M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z\"/><path d=\"m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z\"/><path d=\"M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0\"/><path d=\"M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5\"/>", "slugs": ["aesthetic-usability-effect", "aspect-ratio", "banner-blindness", "contour-bias", "eye-scanning-patterns", "golden-ratio", "gutenberg-principle", "jakobs-law", "negative-space", "rule-of-odds", "rule-of-thirds", "silver-ratio", "social-proof", "von-restorff-effect"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"40\" y=\"27.2\" width=\"120\" height=\"10.4\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"55\" y=\"44.8\" width=\"90\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/><rect x=\"74\" y=\"60.8\" width=\"52\" height=\"13.6\" rx=\"8.5\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"77\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"134\" y=\"88.0\" width=\"46\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/></svg>", "desc": "First impressions, trust, and the pitch, judged in the fraction of a second before reading."}, {"label": "Navigation", "icon": "<path d=\"M12 13v8\"/><path d=\"M12 3v3\"/><path d=\"M18 6a2 2 0 0 1 1.387.56l2.307 2.22a1 1 0 0 1 0 1.44l-2.307 2.22A2 2 0 0 1 18 13H6a2 2 0 0 1-1.387-.56l-2.306-2.22a1 1 0 0 1 0-1.44l2.306-2.22A2 2 0 0 1 6 6z\"/>", "slugs": ["fitts-law", "hicks-law", "navigation-patterns", "satisficing", "steering-law", "universal-icons", "zipfs-law"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"46\" height=\"97.6\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/><rect x=\"20\" y=\"19.2\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"20\" y=\"32.0\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"44.8\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"57.6\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"20\" y=\"70.4\" width=\"30\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.4\"/><rect x=\"68\" y=\"11.2\" width=\"120\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.45\"/><rect x=\"68\" y=\"30.4\" width=\"120\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"41.6\" width=\"104\" height=\"5.6\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"68\" y=\"57.6\" width=\"120\" height=\"51.2\" rx=\"6\" fill=\"var(--pt-skel)\" opacity=\"0.15\"/></svg>", "desc": "Getting around without getting lost, with easy targets and labels people already know."}, {"label": "Tables", "icon": "<path d=\"M12 3v18\"/><rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M3 15h18\"/>", "slugs": ["ambiguity-effect", "anchoring-effect", "denomination-effect", "grid-and-hierarchy", "paradox-of-choice", "serial-position-effect", "visual-search"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"12\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"76\" y=\"11.2\" width=\"50\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"140\" y=\"11.2\" width=\"48\" height=\"6.4\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.55\"/><rect x=\"12\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"28.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"28.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"43.2\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"43.2\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"72.0\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"72.0\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"86.4\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"86.4\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"76\" y=\"100.8\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"100.8\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"12\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"76\" y=\"57.6\" width=\"50\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/><rect x=\"140\" y=\"57.6\" width=\"48\" height=\"4.8\" rx=\"3\" fill=\"var(--pt-skel)\" opacity=\"0.28\"/></svg>", "desc": "Scanning, comparing, and finding the row, where density and hierarchy matter more than decoration."}, {"label": "Other", "icon": "<path d=\"M8.3 10a.7.7 0 0 1-.626-1.079L11.4 3a.7.7 0 0 1 1.198-.043L16.3 8.9a.7.7 0 0 1-.572 1.1Z\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><circle cx=\"17.5\" cy=\"17.5\" r=\"3.5\"/>", "slugs": ["chestertons-fence", "conways-law", "galls-law", "hofstadters-law", "lindy-effect", "pareto-principle", "survivorship-bias"], "screen": "<svg viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\" aria-hidden=\"true\" focusable=\"false\"><rect x=\"72\" y=\"9.6\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.25\"/><line x1=\"100\" y1=\"30.4\" x2=\"100\" y2=\"40\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"40\" y1=\"40\" x2=\"160\" y2=\"40\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"100\" y1=\"40\" x2=\"100\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><line x1=\"160\" y1=\"40\" x2=\"160\" y2=\"48\" stroke=\"var(--pt-skel)\" stroke-width=\"2\" opacity=\"0.35\"/><rect x=\"12\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"72\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"132\" y=\"48\" width=\"56\" height=\"20.8\" rx=\"5\" fill=\"var(--pt-skel)\" opacity=\"0.2\"/><rect x=\"12\" y=\"81.6\" width=\"96\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-accent)\" opacity=\"0.9\"/><rect x=\"12\" y=\"97.6\" width=\"164\" height=\"8.8\" rx=\"4\" fill=\"var(--pt-skel)\" opacity=\"0.3\"/></svg>", "desc": "The people, plans, and decisions behind the product, rather than any one screen."}];
   var main = document.querySelector('.home-main');
   if (!main) return;
   var taskSections = Array.prototype.slice.call(main.querySelectorAll(':scope > .section'));
@@ -1211,6 +1344,7 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
       sec.appendChild(body);
       typeWrap.appendChild(sec);
     });
+    if (curView === 'type' && pills.length) applyFilter();
     observeScreens();   // build() replaces the screens, so re-arm the reveal
   }
   // Reveal each screen as its section scrolls in. Marked at parse time so a
@@ -1268,39 +1402,166 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
   tabsEl.parentNode.insertBefore(stickyBar, tabsEl);
   stickyBar.appendChild(tabsEl);
   stickyBar.appendChild(pillWrap);
-  // Pills double as a position indicator, so keep a handle on each one.
+  // On phones the section tabs fold into an accordion: the current section on
+  // a full-width bar that opens the whole list in place, with roomy rows.
+  var ddSlot = document.createElement('div');
+  ddSlot.className = 'section-dd';
+  stickyBar.appendChild(ddSlot);
+  // The pills are a second row of tabs: All, or one section at a time. The
+  // choice is kept per view for the session, so coming back from a page
+  // restores it.
   var pills = [];
+  var curView = 'type';
+  var filters = {};
+  try { filters = JSON.parse(sessionStorage.getItem('ux-home-filter') || '{}') || {}; } catch (e) {}
+  function sectionsFor(v) {
+    var secs = v === 'type' ? Array.prototype.slice.call(typeWrap.children) : taskSections;
+    secs.forEach(function (sec, i) { if (!sec.id) sec.id = 'sec-' + v + '-' + i; });
+    return secs.filter(function (sec) { return sec.querySelector('h2'); });
+  }
+  var ind = null;
+  function placeInd(animate) {
+    if (!ind) return;
+    var cur = pills.filter(function (p) { return p.a.classList.contains('current'); })[0];
+    if (!cur) { ind.style.width = '0'; return; }
+    if (!animate) ind.style.transition = 'none';
+    ind.style.left = cur.a.offsetLeft + 'px';
+    ind.style.top = cur.a.offsetTop + 'px';
+    ind.style.width = cur.a.offsetWidth + 'px';
+    ind.style.height = cur.a.offsetHeight + 'px';
+    if (!animate) { void ind.offsetWidth; ind.style.transition = ''; }
+  }
+  function applyFilter(animate) {
+    var secs = sectionsFor(curView);
+    var id = filters[curView] || '';
+    if (id && !secs.some(function (s) { return s.id === id; })) id = '';
+    secs.forEach(function (sec) { sec.style.display = !id || sec.id === id ? '' : 'none'; });
+    pills.forEach(function (p) {
+      var on = p.id === id;
+      p.a.classList.toggle('current', on);
+      p.a.setAttribute('aria-selected', on ? 'true' : 'false');
+      p.a.tabIndex = on ? 0 : -1;
+    });
+    accSync();
+    placeInd(animate);
+  }
+  function select(id) {
+    filters[curView] = id;
+    try { sessionStorage.setItem('ux-home-filter', JSON.stringify(filters)); } catch (e) {}
+    applyFilter(true);
+    sectionsFor(curView).forEach(function (s) {
+      s.classList.remove('sec-in');
+      if (s.style.display !== 'none') { void s.offsetWidth; s.classList.add('sec-in'); }
+    });
+    // If the bar is stuck over the content, bring the top of the list back under it.
+    var first = sectionsFor(curView).filter(function (s) { return s.style.display !== 'none'; })[0];
+    if (first && first.getBoundingClientRect().top < stickyBar.getBoundingClientRect().bottom) {
+      first.scrollIntoView({ block: 'start' });
+    }
+  }
+  var CHEV = '<svg class="acc-chev" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>';
+  var CHECK = '<svg class="acc-check" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>';
+  var acc = null;
+  function accSync() {
+    if (!acc) return;
+    var on = pills.filter(function (p) { return p.a.classList.contains('current'); })[0] || pills[0];
+    if (on) acc.val.textContent = on.a.textContent;
+    acc.opts.forEach(function (o, i) { o.setAttribute('aria-pressed', pills[i] === on ? 'true' : 'false'); });
+  }
+  function accOpen(open, focusBtn) {
+    if (!acc) return;
+    acc.wrap.classList.toggle('open', open);
+    acc.btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    acc.panel.inert = !open;
+    stickyBar.classList.toggle('acc-open', open);
+    if (open) {
+      // Unpinned, the bar falls back to its place in the page; bring it to the top of the scroller.
+      var sc = window.uxScroller || document.scrollingElement;
+      var off = stickyBar.getBoundingClientRect().top - (window.uxScroller ? sc.getBoundingClientRect().top : 0);
+      if (off < 0) sc.scrollTop += off;
+    }
+    if (!open && focusBtn) acc.btn.focus({ preventScroll: true });
+  }
+  function buildAccordion() {
+    var wrap = document.createElement('div');
+    wrap.className = 'acc';
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'acc-btn';
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-controls', 'section-acc-panel');
+    btn.innerHTML = '<span class="acc-val"></span>' + CHEV;
+    var panel = document.createElement('div');
+    panel.className = 'acc-panel';
+    panel.id = 'section-acc-panel';
+    panel.inert = true;
+    var list = document.createElement('div');
+    list.className = 'acc-list';
+    var opts = pills.map(function (p) {
+      var o = document.createElement('button');
+      o.type = 'button';
+      o.className = 'acc-opt';
+      o.innerHTML = '<span class="acc-name"></span>' + CHECK;
+      o.firstChild.textContent = p.a.textContent;
+      o.addEventListener('click', function () { accOpen(false); p.a.click(); });
+      list.appendChild(o);
+      return o;
+    });
+    var inner = document.createElement('div');
+    inner.className = 'acc-inner';
+    inner.appendChild(list);
+    panel.appendChild(inner);
+    wrap.appendChild(btn);
+    wrap.appendChild(panel);
+    btn.addEventListener('click', function () { accOpen(!wrap.classList.contains('open')); });
+    wrap.addEventListener('keydown', function (e) { if (e.key === 'Escape') { e.preventDefault(); accOpen(false, true); } });
+    acc = { wrap: wrap, btn: btn, panel: panel, val: btn.firstChild, opts: opts };
+    return wrap;
+  }
+  document.addEventListener('click', function (e) { if (acc && !acc.wrap.contains(e.target)) accOpen(false); });
   function buildPills(v) {
+    curView = v;
     pillWrap.innerHTML = '';
+    pillWrap.setAttribute('role', 'tablist');
+    pillWrap.setAttribute('aria-label', t('Sections'));
     pills = [];
-    var secs = v === 'type'
-      ? Array.prototype.slice.call(typeWrap.children)
-      : taskSections;
-    secs.forEach(function (sec, i) {
-      var h2 = sec.querySelector('h2');
-      if (!h2) return;
-      if (!sec.id) sec.id = 'sec-' + v + '-' + i;
+    var items = [{ id: '', label: t('All') }].concat(sectionsFor(v).map(function (sec) {
+      return { id: sec.id, label: sec.querySelector('h2').textContent };
+    }));
+    items.forEach(function (it) {
       var a = document.createElement('a');
       a.className = 'section-pill';
-      a.href = '#' + sec.id;
-      a.textContent = h2.textContent;
-      a.addEventListener('click', function (e) {
-        e.preventDefault();
-        sec.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
+      a.href = it.id ? '#' + it.id : '#';
+      a.setAttribute('role', 'tab');
+      a.textContent = it.label;
+      a.addEventListener('click', function (e) { e.preventDefault(); select(it.id); });
       pillWrap.appendChild(a);
-      pills.push({ a: a, sec: sec });
+      pills.push({ a: a, id: it.id });
     });
+    ind = document.createElement('span');
+    ind.className = 'section-ind';
+    ind.setAttribute('aria-hidden', 'true');
+    pillWrap.prepend(ind);
+    pillWrap.classList.add('has-ind');
+    applyFilter();
+    ddSlot.innerHTML = '';
+    ddSlot.appendChild(buildAccordion());
+    accSync();
     syncStickyHeight();
-    markCurrent();
   }
+  pillWrap.addEventListener('keydown', function (e) {
+    var keys = { ArrowRight: 1, ArrowLeft: -1, Home: 'first', End: 'last' };
+    if (!(e.key in keys) || !pills.length) return;
+    e.preventDefault();
+    var i = pills.map(function (p) { return p.a; }).indexOf(document.activeElement);
+    var k = keys[e.key];
+    var n = k === 'first' ? 0 : k === 'last' ? pills.length - 1 : (i + k + pills.length) % pills.length;
+    pills[n].a.focus();
+    select(pills[n].id);
+  });
 
-  // Which section is being read: the last one whose top has passed under the
-  // sticky pill row. At the very bottom the last section wins outright, since a
-  // short final section may never reach that line.
-  // How far below the sticky bar a jumped-to section comes to rest. The scroll
-  // stop and the spy that decides which pill is current must read the same
-  // number, or a click lands correctly and then highlights the pill above it.
+  // How far below the sticky bar a section comes to rest when the list is
+  // scrolled back under it.
   var SECTION_GAP = 14;
   function syncStickyHeight() {
     if (!stickyBar) return;
@@ -1308,44 +1569,8 @@ header .subtitle { font-size: 1rem; max-width: none; margin: 8px auto 0; line-he
     root.style.setProperty('--home-sticky-h', stickyBar.offsetHeight + 'px');
     root.style.setProperty('--home-section-gap', SECTION_GAP + 'px');
   }
-  function markCurrent() {
-    if (!pills.length) return;
-    var line = stickyBar.getBoundingClientRect().bottom + SECTION_GAP + 6;   // 6px of slack for rounding
-    var sc = window.uxScroller || document.documentElement;
-    var idx = 0;
-    for (var i = 0; i < pills.length; i++) {
-      if (pills[i].sec.getBoundingClientRect().top <= line) idx = i;
-    }
-    if (sc.scrollTop + sc.clientHeight >= sc.scrollHeight - 4) idx = pills.length - 1;
-    pills.forEach(function (p, i) {
-      var on = i === idx;
-      p.a.classList.toggle('current', on);
-      if (on) p.a.setAttribute('aria-current', 'true');
-      else p.a.removeAttribute('aria-current');
-    });
-    // On a phone the row scrolls sideways, so keep the marked pill in view.
-    var cur = pills[idx].a;
-    if (pillWrap.scrollWidth > pillWrap.clientWidth + 1) {
-      var pr = cur.getBoundingClientRect(), wr = pillWrap.getBoundingClientRect();
-      if (pr.left < wr.left || pr.right > wr.right) {
-        pillWrap.scrollTo({ left: cur.offsetLeft - (pillWrap.clientWidth - cur.offsetWidth) / 2, behavior: 'smooth' });
-      }
-    }
-  }
-  var spying = false;
-  function onSpyScroll() {
-    if (spying) return;
-    spying = true;
-    requestAnimationFrame(function () { spying = false; markCurrent(); });
-  }
-  window.addEventListener('scroll', onSpyScroll, { passive: true });
-  window.addEventListener('resize', function () { syncStickyHeight(); markCurrent(); });
-  // tokens.js is deferred, so the custom scroller does not exist yet while this
-  // inline script runs. Bind to it once it does, or the spy never hears a thing.
-  window.addEventListener('load', function () {
-    if (window.uxScroller) window.uxScroller.addEventListener('scroll', onSpyScroll, { passive: true });
-    markCurrent();
-  });
+  window.addEventListener('resize', function () { syncStickyHeight(); placeInd(false); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { placeInd(false); });
   function setView(v) {
     var byType = v === 'type';
     if (byType) build();

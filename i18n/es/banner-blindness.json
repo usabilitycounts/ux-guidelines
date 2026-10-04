@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Ceguera a los <em>banners</em>"
+ ],
+ "header .tagline": [
+  "Si parece un anuncio, <em>se ignora</em>."
+ ],
+ "header .subtitle": [
+  "La gente ha aprendido a saltarse todo lo que parece publicidad, está junto a anuncios o aparece donde suelen ir los anuncios. El contenido importante con aspecto de banner desaparece junto con la publicidad."
+ ],
+ ".law-origin .body-text": [
+  "El término surge de pruebas de usabilidad que <a href=\"people.html#p-jan-panero-benway\">Jan Panero Benway</a> y <a href=\"people.html#p-david-lane\">David Lane</a> hicieron en 1998 en la Universidad Rice. Las personas que buscaban información en un sitio web a menudo no la veían cuando estaba en un banner, y el efecto afectaba tanto a los enlaces internos, como los accesos rápidos de navegación, como a la publicidad externa.",
+  "Los estudios de seguimiento ocular han matizado el panorama: la gente suele mirar los anuncios al menos una vez, pero procesa y recuerda poco de ellos. El Nielsen Norman Group, fundado por <a href=\"people.html#p-jakob-nielsen\">Jakob Nielsen</a> y <a href=\"people.html#p-don-norman\">Don Norman</a>, ha documentado este comportamiento durante tres décadas, incluido un estudio de seguimiento ocular de 2018 dirigido por <a href=\"people.html#p-kara-pernice\">Kara Pernice</a>, y concluye que los usuarios ignoran el contenido que se parece a un anuncio, está cerca de anuncios o aparece en los lugares tradicionalmente reservados a la publicidad."
+ ],
+ ".law-content .law-desc": [
+  "Los visitantes ignoran, de forma consciente o no, los elementos de la página que perciben, con razón o sin ella, como publicidad. La forma de banner, la ubicación arriba o en el borde derecho, la animación y la cercanía a anuncios reales indican «anuncio», y todo lo que tiene esas señales se salta."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jan-panero-benway\">Benway</a> y <a href=\"people.html#p-david-lane\">Lane</a> (1998)",
+  "Ceguera publicitaria",
+  "No hagas que el contenido parezca un anuncio"
+ ],
+ ".apply-list li": [
+  "Colocas avisos, promociones, alertas o llamadas a la acción en una página.",
+  "Una página incluye publicidad o contenido patrocinado.",
+  "Los usuarios dicen no haber visto información que estaba claramente a la vista.",
+  "Presenta el contenido importante como el resto del contenido, no como un banner.",
+  "Mantén la información clave en el recorrido principal de lectura, lejos de los espacios publicitarios y las barras laterales.",
+  "Comprueba si la gente lo ve de verdad, con seguimiento ocular, pruebas de primer clic o éxito en las tareas."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Ubicación",
+  "Estilo",
+  "Proximidad",
+  "Móvil",
+  "Animación",
+  "Promos propias",
+  "Evidencia",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El enlace obvio que nadie vio",
+  "La columna derecha es invisible",
+  "El contraste puede volverse en contra",
+  "Los anuncios contaminan a sus vecinos",
+  "Anuncios integrados en el móvil",
+  "El movimiento delata un anuncio",
+  "También tus propios banners",
+  "Visto no es notado",
+  "Respuestas patrocinadas",
+  "Los banners de IA también se ignoran"
+ ],
+ ".card .desc": [
+  "En las pruebas de 1998, quienes buscaban información no la veían cuando estaba en un banner grande y colorido, el elemento más llamativo de la página. Destacar con aspecto de anuncio juega en tu contra.",
+  "Los usuarios esperan anuncios en la parte superior y en la columna derecha, así que se saltan esas zonas. No pongas allí enlaces, filtros ni ayudas esenciales.",
+  "Hacer que un contenido se vea distinto para que destaque a menudo hace que parezca un anuncio. El Nielsen Norman Group desaconseja dar al contenido un aspecto publicitario; diferenciarse solo ayuda si no parece una promoción.",
+  "El contenido colocado justo al lado de anuncios se ignora junto con ellos. Mantén una separación clara entre el contenido real y la publicidad para que lo útil no se salte por asociación.",
+  "En pantallas pequeñas, los anuncios dentro del flujo de contenido enseñan a pasar rápido por todo lo que parece enmarcado o patrocinado. Las tarjetas que parecen formatos publicitarios corren la misma suerte.",
+  "A los usuarios no les gustan los anuncios animados y aprenden a evitar el movimiento en la periferia. Animar un aviso puede hacer que parezca más un anuncio, no menos.",
+  "La ceguera a los banners no afecta solo a los anuncios de terceros. Tus propios banners de funciones, rebajas o boletines se saltan por las mismas razones, igual que los banners de cookies y de instalar la app que la gente ha aprendido a cerrar.",
+  "El seguimiento ocular muestra que la gente suele mirar los anuncios al menos una vez, pero recuerda poco. Echar un vistazo a un elemento no es leerlo, así que mide el éxito en las tareas y el recuerdo, no solo la visibilidad.",
+  "A medida que aparezcan anuncios dentro de las respuestas de la IA, la gente aprenderá a reconocerlos y saltárselos, y puede desconfiar del contenido que los rodea. Etiqueta con claridad el contenido patrocinado y sepáralo visualmente de la respuesta.",
+  "Los banners genéricos de «Prueba nuestra nueva IA» son una promoción más y se saltan como cualquier otra. Introduce la IA donde ayuda a la tarea, dentro del flujo, en lugar de en un banner encima."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "La información está en un banner",
+  "El contenido parece contenido",
+  "Diseño de página y barras laterales",
+  "Ubicar enlaces o herramientas clave",
+  "La barra lateral tiene navegación real que se espera",
+  "Promociones, alertas y llamadas a la acción",
+  "El contenido necesita énfasis",
+  "El elemento es realmente un anuncio",
+  "Páginas con publicidad",
+  "El contenido está cerca de espacios publicitarios",
+  "No hay anuncios en la página",
+  "Feeds y artículos en el móvil",
+  "El contenido usa tarjetas enmarcadas",
+  "Cada tarjeta es claramente contenido",
+  "Avisos y consejos de incorporación",
+  "Pensar en animar para destacar",
+  "El movimiento muestra un cambio de estado real",
+  "Lanzamientos y promociones propias",
+  "Anunciar algo nuevo",
+  "Los avisos son raros e integrados en el contenido",
+  "Pruebas de usabilidad y analítica",
+  "Juzgar si un contenido se vio",
+  "Confundir impresiones con atención",
+  "Anuncios de búsqueda → anuncios en respuestas",
+  "Monetizar respuestas de IA",
+  "Mezclar anuncios con la respuesta",
+  "Banner → punto de entrada integrado",
+  "Lanzar una función de IA",
+  "Anunciar la IA en un banner superior"
+ ],
+ ".ai-divider h3": [
+  "La ceguera a los banners en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las respuestas patrocinadas y las sugerencias promocionadas están llegando a las respuestas de la IA. La gente aprenderá a saltárselas también, a menos que sean honestas y estén bien etiquetadas."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Fluidez de <em>procesamiento</em>"
+ ],
+ "header .tagline": [
+  "Lo que es fácil de procesar <em>parece verdad</em>."
+ ],
+ "header .subtitle": [
+  "La facilidad con que se lee, se ve o se recuerda algo tiñe cómo se juzga. El contenido fácil de procesar parece más cierto, más familiar y más agradable, lo merezca o no."
+ ],
+ ".law-origin .body-text": [
+  "En 1981, Larry Jacoby y Mark Dallas sostuvieron que la gente percibe con qué fluidez procesa algo e interpreta esa facilidad como familiaridad: lo ya visto se procesa con más facilidad, así que todo lo fácil parece ya visto. Desde entonces, la investigación ha vinculado esa misma sensación de facilidad con juicios de agrado, confianza y verdad.",
+  "<a href=\"people.html#p-rolf-reber\">Rolf Reber</a> y <a href=\"people.html#p-norbert-schwarz\">Norbert Schwarz</a> mostraron en 1999 que las afirmaciones impresas en colores de alto contraste se juzgaban ciertas más a menudo que las mismas con bajo contraste, y con Piotr Winkielman propusieron que la fluidez está en la base del placer estético. <a href=\"people.html#p-adam-alter\">Adam Alter</a> y Daniel Oppenheimer hallaron después que las acciones recién cotizadas con nombres fáciles de pronunciar rendían mejor en su primera semana."
+ ],
+ ".law-content .law-desc": [
+  "La fluidez de procesamiento es la facilidad subjetiva con que se asimila la información. La gente interpreta esa facilidad como una cualidad del propio contenido: lo fluido se juzga más cierto, más familiar, más bello y más fiable, y se piensa en ello con menos cuidado."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Jacoby y Dallas (1981) · <a href=\"people.html#p-rolf-reber\">Reber</a> y <a href=\"people.html#p-norbert-schwarz\">Schwarz</a> (1999)",
+  "Fluidez cognitiva",
+  "Haz fácil de leer lo cierto y lo importante"
+ ],
+ ".apply-list li": [
+  "Redactas y maquetas contenido que debe entenderse y creerse.",
+  "Pones nombre a productos, funciones, planes o ajustes.",
+  "Presentas afirmaciones, cifras o respuestas de IA que la gente podría aceptar sin comprobar.",
+  "Usa tipografía legible, contraste alto, palabras sencillas y patrones conocidos para el contenido que hay que leer.",
+  "Elige nombres fáciles de decir y de escribir.",
+  "Añade fricción deliberada, como un resumen o una confirmación, donde pensar con cuidado importa más que la rapidez."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Tipografía",
+  "Familiaridad",
+  "Estética",
+  "Nombres",
+  "Fricción",
+  "Claridad",
+  "Precaución",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Fácil de leer, parece verdad",
+  "La legibilidad genera confianza",
+  "Lo familiar parece fácil, y bueno",
+  "Las formas sencillas agradan",
+  "Nombres que se pueden decir",
+  "La facilidad invita a leer por encima",
+  "Las palabras sencillas ganan",
+  "Las fuentes difíciles no son la solución",
+  "Fluido no es correcto",
+  "Señala qué comprobar"
+ ],
+ ".card .desc": [
+  "Las afirmaciones en colores de alto contraste se juzgaban ciertas más a menudo que afirmaciones idénticas con bajo contraste. La presentación cambió el juicio, no el contenido.",
+  "Una tipografía limpia, buen contraste y una longitud de línea cómoda hacen que el contenido parezca más creíble y su autor más competente. En un estudio, la letra ilegible llevó a peores notas en redacciones porque costaba procesarla.",
+  "Lo repetido o familiar se procesa con más facilidad, y esa facilidad se convierte en agrado: el efecto de mera exposición. Los patrones de interacción conocidos gustan en parte porque no cuestan esfuerzo.",
+  "La fluidez explica en parte por qué los diseños claros, equilibrados y despejados parecen bellos. Las formas de producto muy inusuales cuestan más de procesar y suelen gustar menos, aunque una dosis moderada de novedad es bienvenida.",
+  "Las acciones recién cotizadas con nombres y símbolos bursátiles pronunciables rindieron mejor en su primera semana que las de nombres difíciles. Los nombres fáciles de decir y escribir inspiran más confianza y se recuerdan mejor.",
+  "Cuando procesar resulta fácil, la gente piensa de forma más superficial y pasa por alto más errores. En los pasos importantes, añade un momento de atención deliberada, como una pantalla de revisión o una confirmación escrita.",
+  "Las palabras complicadas y las frases enrevesadas reducen la fluidez, y los lectores juzgan al autor como menos inteligente. El lenguaje sencillo parece más creíble, no menos.",
+  "Un estudio de 2007 sugirió que un texto difícil de leer hace pensar con más cuidado, pero una amplia réplica de 2015 no halló ningún beneficio. No empeores la legibilidad para forzar la atención; añade puntos de control reales.",
+  "Una respuesta de IA bien formateada y segura parece cierta porque es fácil de leer, sea exacta o no. Muestra las fuentes y el nivel de confianza para que la sensación de facilidad no sea la única pista.",
+  "Como el texto fluido invita a leer por encima, dirige la atención a las partes con más probabilidad de estar mal, como cifras, nombres y citas, en lugar de que toda la respuesta parezca igual de segura."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Las afirmaciones deben inspirar confianza",
+  "El contenido es puramente decorativo",
+  "Texto corrido, políticas y precios",
+  "El contenido debe leerse y creerse",
+  "Tipografía de titular deliberadamente expresiva",
+  "Elegir patrones de interacción",
+  "Existe una convención conocida",
+  "La convención ha fallado con los usuarios",
+  "Diseño visual y forma del producto",
+  "La primera impresión importa",
+  "La novedad es el objetivo, como en el arte",
+  "Nombres de productos, funciones y planes",
+  "Elegir un nombre",
+  "Un nombre difícil es una decisión de marca deliberada",
+  "Confirmaciones y revisiones",
+  "Los errores son caros",
+  "La acción es rutinaria y reversible",
+  "Textos de interfaz y documentación",
+  "Explicar un producto o una decisión",
+  "Los especialistas necesitan términos técnicos exactos",
+  "Decisiones de diseño basadas en investigación",
+  "Plantear la disfluidez como herramienta",
+  "Hacer un texto difícil de leer a propósito",
+  "Pulido → verificado",
+  "La IA responde preguntas",
+  "El pulido sustituye a la evidencia",
+  "Texto uniforme → incertidumbre señalada",
+  "Las respuestas de la IA alimentan decisiones",
+  "Todas las frases parecen igual de seguras"
+ ],
+ ".ai-divider h3": [
+  "La fluidez de procesamiento en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las respuestas de la IA son fluidas por diseño: pulidas, seguras y fáciles de leer. Esa fluidez hace que parezcan ciertas, justo cuando habría que comprobarlas."
+ ]
+}

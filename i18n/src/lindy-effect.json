@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Lindy <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "What has lasted <em>is likely to last</em>."
+ ],
+ "header .subtitle": [
+  "For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust."
+ ],
+ ".law-origin .body-text": [
+  "The name comes from Lindy’s, a New York delicatessen where comedians gathered every night to dissect show business. In a 1964 article in The New Republic, Albert Goldman described their folk rule, Lindy’s Law, for predicting how long a comedian’s career on television would last.",
+  "Benoit Mandelbrot gave it a mathematical form in The Fractal Geometry of Nature (1982): for some things, future life expectancy is proportional to the past. <a href=\"people.html#p-nassim-nicholas-taleb\">Nassim Nicholas Taleb</a> named it the Lindy effect in Antifragile (2012) and extended it to anything without a natural upper limit: if a book has been in print for forty years, expect it to stay in print for another forty."
+ ],
+ ".law-content .law-desc": [
+  "For non-perishable things, such as ideas, books, technologies, and conventions, the longer something has lasted, the longer it is likely to keep lasting. Expected remaining life grows with age instead of shrinking, because every year of survival is evidence of robustness."
+ ],
+ ".law-equation": [
+  "E[T − t | T > t] = p · t"
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Goldman (1964) · named by <a href=\"people.html#p-nassim-nicholas-taleb\">Taleb</a> (2012)",
+  "Lindy’s law",
+  "Bet on what has lasted"
+ ],
+ ".apply-list li": [
+  "Choosing patterns, conventions, or icons that will need to last.",
+  "Picking technologies, standards, or formats for a long-lived product.",
+  "Deciding which research, content, or ideas are worth building on.",
+  "Prefer conventions and tools with a long track record over this year’s trend.",
+  "Keep new, unproven parts swappable, so they can be replaced if they don’t last.",
+  "Apply it only to things that don’t wear out, and remember that it only counts survivors."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Patterns",
+  "Technology",
+  "Icons",
+  "Content",
+  "Evidence",
+  "Limits",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Two Weeks, Two Years",
+  "Old Patterns Outlast Trends",
+  "Choose Boring Technology",
+  "The Save Icon Outlived the Floppy",
+  "Evergreen Content Ages Well",
+  "Old Findings That Held Up",
+  "Not for Things That Wear Out",
+  "It Only Counts Survivors",
+  "No Track Record Yet",
+  "Lindy in the Training Data"
+ ],
+ ".card .desc": [
+  "The comedians at Lindy’s reasoned that a show that had run for two weeks could expect two more, while one that had run for two years could expect another two years. Age itself was the forecast.",
+  "Tabs, menus, links, and forms have survived decades of redesigns, and each year they survive raises the odds that they’ll last. Visual styles come and go far faster than the interactions underneath them.",
+  "Dan McKinley’s 2015 essay argues for proven tools whose failure modes are known. By the Lindy logic, a database that has run for decades is likelier to outlast a framework released last year.",
+  "The floppy disk save icon is still everywhere, long after floppy disks disappeared. A symbol that has already lasted keeps lasting, because so many people have learned it.",
+  "Guides built on principles that have held for decades stay useful; content about this year’s tools expires. Invest in long-lived subjects, and date anything that will go stale.",
+  "A finding that has been replicated for decades is a better bet than a single new study. Fitts’s 1954 law still predicts pointing time on today’s touchscreens.",
+  "The effect applies to things without an expiration date, like ideas and formats. People, devices, and batteries wear out: a 100-year-old is more likely to die in the next year than a 10-year-old, the opposite of what Lindy would predict.",
+  "Lindy reasoning looks at what has survived. It says nothing about the many old things that vanished, and it can’t tell you when a genuinely better new idea arrives. Weigh it against survivorship bias.",
+  "Models and AI platforms change constantly. Build on long-lived foundations such as open standards, plain text, and stable interfaces, and keep the AI layer swappable instead of coupling the product to one model.",
+  "Ideas that have lasted are overrepresented in what models learned, so AI advice leans toward established practice. That helps with conventions, and helps less with problems that are genuinely new."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Judging how long something will last",
+  "The thing wears out with age",
+  "Choosing interaction patterns",
+  "A long-lived convention exists",
+  "The convention has failed your users",
+  "Stack and tooling decisions",
+  "Reliability matters more than novelty",
+  "Only the new tool can solve the problem",
+  "Icon and symbol choices",
+  "A symbol is widely recognized",
+  "The metaphor confuses new users",
+  "Content strategy and documentation",
+  "Planning what to write",
+  "The topic is news",
+  "Choosing which research to trust",
+  "Findings conflict",
+  "The context has changed fundamentally",
+  "Applying the effect correctly",
+  "Predicting the life of ideas or tools",
+  "Predicting hardware or human lifespans",
+  "Strategy and roadmaps",
+  "Defending the status quo",
+  "A new approach is clearly better",
+  "Bet on a model → bet on interfaces",
+  "Building on AI platforms",
+  "Tying the product to one model",
+  "Established → emerging",
+  "Asking AI for best practices",
+  "Expecting novel answers from old data"
+ ],
+ ".ai-divider h3": [
+  "The Lindy Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI tools change month to month and have no track record yet. Lindy says to build on what has lasted, and keep the new parts easy to replace."
+ ]
+}

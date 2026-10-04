@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Picture Superiority <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "A picture is <em>remembered</em> better than a word."
+ ],
+ "header .subtitle": [
+  "People recall and recognize images more reliably than the same ideas written as text. Concrete, distinct pictures make features, steps, and instructions stick, as long as the pictures carry the meaning."
+ ],
+ ".law-origin .body-text": [
+  "In 1967 <a href=\"people.html#p-roger-shepard\">Roger Shepard</a> showed people hundreds of words, sentences, or pictures and then tested which ones they recognized. Recognition was best for pictures, close to perfect right after viewing. Many studies since have found the same advantage in both recall and recognition.",
+  "<a href=\"people.html#p-allan-paivio\">Allan Paivio</a>’s dual-coding theory (1971) offered the classic explanation: a picture of a concrete object is stored both as an image and as a verbal label, while a word is usually stored only verbally, so pictures have two routes back to memory. Other accounts point to how distinctive pictures are, and the advantage fades when pictures look too much alike."
+ ],
+ ".law-content .law-desc": [
+  "People remember pictures better than words. A concrete image is easier to recognize and recall later than the same idea in text, especially when the images differ clearly from one another and viewers have time to take them in."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-roger-shepard\">Shepard</a> (1967) · <a href=\"people.html#p-allan-paivio\">Paivio</a> (1971)",
+  "Pictorial superiority",
+  "Pair key ideas with distinct images"
+ ],
+ ".apply-list li": [
+  "Content needs to be remembered, such as onboarding, instructions, features, or a brand.",
+  "Readers vary in literacy, language, or age.",
+  "Explaining concrete objects, places, steps, or comparisons.",
+  "Pair important concepts with concrete, distinct images, and keep the text label too.",
+  "Show a picture or diagram before the explanation for people new to the topic.",
+  "Make images clearly different from one another, and skip pictures for abstract ideas."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Dual coding",
+  "Distinctiveness",
+  "Onboarding",
+  "Comprehension",
+  "Age",
+  "Limits",
+  "Marketing",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Pictures Stick",
+  "Two Codes Beat One",
+  "Similar Pictures Lose the Edge",
+  "Show, Then Tell",
+  "Pictures Help Instructions Land",
+  "Older Adults Benefit Most",
+  "Words Can Be Faster",
+  "Memorable Is Not the Same as Clear",
+  "Generic Imagery Everywhere",
+  "Answer With a Picture"
+ ],
+ ".card .desc": [
+  "Shown hundreds of items, people recognized pictures almost perfectly, clearly better than words or sentences. Many studies since have found the same advantage in recall and recognition.",
+  "A picture of a concrete thing is stored as both an image and a word, while an abstract word is stored only verbally. Pairing an icon with its label gives people both codes.",
+  "When pictures look alike, the memory advantage disappears. A set of icons that all share one shape and weight helps recognition less than a set whose members look clearly different.",
+  "Seeing a picture before reading helps learners with little prior knowledge build a mental model that the text then fills in. Put the diagram before the explanation, not after it.",
+  "A review of health communication research found that pictures improve attention, comprehension, recall, and adherence, especially for people with limited literacy. Instructions with clear pictures are followed more often.",
+  "The advantage is larger for older adults, whose memory for words declines more than their memory for pictures, and it persists in people with mild Alzheimer’s disease. Pictures help everyone, and help some people a lot.",
+  "Under time pressure, people can recognize words faster than pictures, because a picture takes longer to interpret. For frequent actions where speed matters, a clear label beats an unfamiliar icon.",
+  "Pictures improve brand recall in advertising, but people can remember an image and forget the message. Make sure the picture shows the claim, not just something striking.",
+  "Generated illustrations make it easy to put a picture on every screen, but images in one look-alike style lose the distinctiveness that makes pictures memorable. Use images that carry information.",
+  "An AI answer that includes a diagram, chart, or image can be remembered better than a paragraph. Offer visuals where the content is concrete, and check that they’re accurate."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Content must be remembered",
+  "Content is used once and forgotten",
+  "Icons, illustrations, and labels",
+  "Concepts are concrete and picturable",
+  "Concepts are abstract with no clear image",
+  "Icon systems and thumbnails",
+  "Images are visually distinct",
+  "All images share one shape and style",
+  "Onboarding, help, and tutorials",
+  "People are new to the topic",
+  "Experts scan for one detail",
+  "Instructions, safety, and health content",
+  "Readers have varied literacy",
+  "The picture would be ambiguous",
+  "Products for older adults",
+  "Remembering content matters",
+  "Pictures would replace the text entirely",
+  "Toolbars, menus, and quick actions",
+  "Speed matters more than memory",
+  "Icons without labels for frequent actions",
+  "Marketing pages and ads",
+  "Brand recall matters",
+  "The image is unrelated to the message",
+  "Decoration → information",
+  "Generating illustrations with AI",
+  "Generic AI art on every page",
+  "Text answer → visual answer",
+  "AI explains concepts or data",
+  "Generated diagrams nobody checked"
+ ],
+ ".ai-divider h3": [
+  "Picture Superiority in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI makes images cheap and makes visual answers easy. The memory advantage goes to pictures that carry meaning, not to decoration."
+ ]
+}

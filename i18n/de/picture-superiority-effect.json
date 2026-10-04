@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Bildüberlegenheits<em>effekt</em>"
+ ],
+ "header .tagline": [
+  "Ein Bild <em>bleibt</em> besser im Gedächtnis als ein Wort."
+ ],
+ "header .subtitle": [
+  "Menschen erinnern und erkennen Bilder zuverlässiger als dieselben Ideen als Text. Konkrete, unterscheidbare Bilder lassen Funktionen, Schritte und Anleitungen haften, sofern die Bilder die Bedeutung tragen."
+ ],
+ ".law-origin .body-text": [
+  "1967 zeigte <a href=\"people.html#p-roger-shepard\">Roger Shepard</a> Menschen Hunderte Wörter, Sätze oder Bilder und testete dann, welche sie wiedererkannten. Die Wiedererkennung war bei Bildern am besten, direkt nach dem Ansehen nahezu perfekt. Viele Studien haben seither denselben Vorteil beim Erinnern und Wiedererkennen gefunden.",
+  "<a href=\"people.html#p-allan-paivio\">Allan Paivio</a>s Theorie der dualen Kodierung (1971) lieferte die klassische Erklärung: Ein Bild eines konkreten Gegenstands wird sowohl als Bild als auch als sprachliche Bezeichnung gespeichert, ein Wort dagegen meist nur sprachlich, sodass Bilder zwei Wege zurück ins Gedächtnis haben. Andere Erklärungen betonen, wie unterscheidbar Bilder sind, und der Vorteil schwindet, wenn Bilder sich zu ähnlich sehen."
+ ],
+ ".law-content .law-desc": [
+  "Menschen behalten Bilder besser als Wörter. Ein konkretes Bild ist später leichter wiederzuerkennen und abzurufen als dieselbe Idee als Text, besonders wenn sich die Bilder deutlich voneinander unterscheiden und Betrachter Zeit haben, sie aufzunehmen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-roger-shepard\">Shepard</a> (1967) · <a href=\"people.html#p-allan-paivio\">Paivio</a> (1971)",
+  "Bildliche Überlegenheit",
+  "Schlüsselideen mit unterscheidbaren Bildern verbinden"
+ ],
+ ".apply-list li": [
+  "Inhalte sollen im Gedächtnis bleiben, etwa Onboarding, Anleitungen, Funktionen oder eine Marke.",
+  "Lesende unterscheiden sich in Lesefähigkeit, Sprache oder Alter.",
+  "Sie erklären konkrete Gegenstände, Orte, Schritte oder Vergleiche.",
+  "Verbinden Sie wichtige Konzepte mit konkreten, unterscheidbaren Bildern, und behalten Sie die Textbeschriftung bei.",
+  "Zeigen Sie Menschen, die neu im Thema sind, ein Bild oder Diagramm vor der Erklärung.",
+  "Gestalten Sie Bilder deutlich unterschiedlich, und verzichten Sie bei abstrakten Ideen auf Bilder."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Duale Kodierung",
+  "Unterscheidbarkeit",
+  "Onboarding",
+  "Verständnis",
+  "Alter",
+  "Grenzen",
+  "Marketing",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Bilder bleiben haften",
+  "Zwei Codes schlagen einen",
+  "Ähnliche Bilder verlieren den Vorteil",
+  "Erst zeigen, dann erklären",
+  "Bilder bringen Anleitungen an",
+  "Ältere profitieren am meisten",
+  "Wörter können schneller sein",
+  "Einprägsam ist nicht gleich klar",
+  "Generische Bilder überall",
+  "Mit einem Bild antworten"
+ ],
+ ".card .desc": [
+  "Aus Hunderten Elementen erkannten Menschen Bilder fast perfekt wieder, deutlich besser als Wörter oder Sätze. Viele Studien haben seither denselben Vorteil beim Erinnern und Wiedererkennen gefunden.",
+  "Ein Bild eines konkreten Dings wird als Bild und als Wort gespeichert, ein abstraktes Wort nur sprachlich. Ein Icon mit Beschriftung gibt Menschen beide Codes.",
+  "Sehen sich Bilder ähnlich, verschwindet der Gedächtnisvorteil. Ein Icon-Set, dessen Zeichen alle dieselbe Form und Strichstärke haben, hilft beim Wiedererkennen weniger als eines mit klar unterschiedlichen Zeichen.",
+  "Ein Bild vor dem Lesen hilft Lernenden mit wenig Vorwissen, ein mentales Modell aufzubauen, das der Text dann füllt. Setzen Sie das Diagramm vor die Erklärung, nicht danach.",
+  "Eine Übersicht zur Gesundheitskommunikation fand, dass Bilder Aufmerksamkeit, Verständnis, Erinnerung und Befolgung verbessern, besonders bei Menschen mit geringer Lesekompetenz. Anleitungen mit klaren Bildern werden öfter befolgt.",
+  "Der Vorteil ist bei älteren Erwachsenen größer, deren Gedächtnis für Wörter stärker nachlässt als für Bilder, und er bleibt bei Menschen mit leichter Alzheimer-Erkrankung bestehen. Bilder helfen allen, manchen sehr.",
+  "Unter Zeitdruck erkennen Menschen Wörter mitunter schneller als Bilder, weil ein Bild länger zu deuten ist. Bei häufigen Aktionen, bei denen Tempo zählt, schlägt eine klare Beschriftung ein unbekanntes Icon.",
+  "Bilder verbessern in der Werbung die Markenerinnerung, doch Menschen können sich an ein Bild erinnern und die Botschaft vergessen. Sorgen Sie dafür, dass das Bild die Aussage zeigt, nicht nur etwas Auffälliges.",
+  "Generierte Illustrationen machen es leicht, auf jeden Bildschirm ein Bild zu setzen, doch Bilder in einem gleichförmigen Stil verlieren die Unterscheidbarkeit, die Bilder einprägsam macht. Nutzen Sie Bilder, die Informationen tragen.",
+  "Eine KI-Antwort mit Diagramm, Grafik oder Bild bleibt oft besser im Gedächtnis als ein Absatz. Bieten Sie Visuelles an, wo Inhalte konkret sind, und prüfen Sie, ob es stimmt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Inhalte sollen im Gedächtnis bleiben",
+  "Inhalte werden einmal genutzt und vergessen",
+  "Icons, Illustrationen und Beschriftungen",
+  "Konzepte sind konkret und darstellbar",
+  "Konzepte sind abstrakt und ohne klares Bild",
+  "Icon-Systeme und Vorschaubilder",
+  "Bilder sind visuell unterscheidbar",
+  "Alle Bilder teilen Form und Stil",
+  "Onboarding, Hilfe und Tutorials",
+  "Menschen sind neu im Thema",
+  "Experten suchen ein einzelnes Detail",
+  "Anleitungen, Sicherheit und Gesundheitsinhalte",
+  "Die Lesekompetenz ist unterschiedlich",
+  "Das Bild wäre mehrdeutig",
+  "Produkte für ältere Menschen",
+  "Das Behalten von Inhalten ist wichtig",
+  "Bilder würden den Text ganz ersetzen",
+  "Werkzeugleisten, Menüs und Schnellaktionen",
+  "Tempo zählt mehr als Erinnerung",
+  "Icons ohne Beschriftung für häufige Aktionen",
+  "Marketingseiten und Anzeigen",
+  "Markenerinnerung ist wichtig",
+  "Das Bild hat nichts mit der Botschaft zu tun",
+  "Dekoration → Information",
+  "Illustrationen mit KI erzeugen",
+  "Generische KI-Kunst auf jeder Seite",
+  "Textantwort → visuelle Antwort",
+  "KI erklärt Konzepte oder Daten",
+  "Generierte Diagramme, die niemand geprüft hat"
+ ],
+ ".ai-divider h3": [
+  "Bildüberlegenheit im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI macht Bilder billig und visuelle Antworten einfach. Der Gedächtnisvorteil gehört Bildern, die Bedeutung tragen, nicht der Dekoration."
+ ]
+}

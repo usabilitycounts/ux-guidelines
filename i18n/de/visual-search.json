@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Visuelle <em>Suche</em>"
+ ],
+ "header .tagline": [
+  "Manches <em>springt ins Auge</em>. Anderes muss man suchen."
+ ],
+ "header .subtitle": [
+  "Etwas auf dem Bildschirm zu finden geht schnell, wenn es sich durch ein einziges Merkmal wie Farbe oder Form von allem ringsum unterscheidet. Teilt es Merkmale mit seinen Nachbarn, prüfen Menschen Element für Element, und jedes weitere Element kostet Zeit."
+ ],
+ ".law-origin .body-text": [
+  "Visuelle Suche, also ein Ziel unter Ablenkern zu finden, gehört zu den am besten untersuchten Aufgaben der Wahrnehmung, und Menschen erledigen sie auf jedem Bildschirm: ein Produkt im Regal, ein Freund in der Menge, ein Button in einer Werkzeugleiste. Forschende messen, wie die Suchzeit wächst, wenn mehr Ablenker hinzukommen.",
+  "1980 schlugen <a href=\"people.html#p-anne-treisman\">Anne Treisman</a> und Garry Gelade die Merkmalsintegrationstheorie vor: Einfache Merkmale wie Farbe, Orientierung und Bewegung werden parallel erfasst, sodass ein einzigartiges Merkmal ins Auge springt, während das Verknüpfen von Merkmalen Aufmerksamkeit erfordert, Element für Element. <a href=\"people.html#p-jeremy-wolfe\">Jeremy Wolfe</a>s Guided-Search-Modell (1989) zeigte, wie das Wissen um die Merkmale des Ziels die Aufmerksamkeit lenkt, und seine späteren Arbeiten zeigten, dass seltene Ziele oft übersehen werden."
+ ],
+ ".law-content .law-desc": [
+  "Ein Ziel, das sich durch ein einziges Merkmal wie Farbe oder Form von allem ringsum unterscheidet, springt ins Auge, egal wie viele Elemente es gibt. Teilt das Ziel Merkmale mit den Ablenkern, prüfen Menschen Element für Element, und die Suchzeit wächst mit jedem weiteren Element."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-anne-treisman\">Treisman</a> und Gelade (1980)",
+  "Merkmals- und Konjunktionssuche",
+  "Wichtigen Elementen ein einzigartiges Merkmal geben"
+ ],
+ ".apply-list li": [
+  "Menschen müssen ein bestimmtes Element in einer Liste, einem Raster, einer Werkzeugleiste oder einem Dashboard finden.",
+  "Kritische Zustände, Fehler oder Ausnahmen müssen schnell erkannt werden.",
+  "Bildschirme sind dicht gefüllt, oder Listen und Kataloge wachsen ständig.",
+  "Geben Sie dem gesuchten Element ein Merkmal, das nichts anderes hat, etwa eine Farbe zusammen mit einem Icon.",
+  "Reduzieren und gruppieren Sie Ablenker, und bieten Sie Filter an, um die Menge zu verkleinern.",
+  "Halten Sie Elemente an festen Orten, damit Vorwissen den Blick lenkt."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Konjunktion",
+  "Status",
+  "Unordnung",
+  "Lenkung",
+  "Seltene Ziele",
+  "Vertrautheit",
+  "Messung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Pop-out",
+  "Wenn nichts heraussticht",
+  "Status mit einem einzigen Merkmal kodieren",
+  "Jeder Ablenker kostet Zeit",
+  "Mit dem Auge filtern lassen",
+  "Seltenes wird übersehen",
+  "Vertraute Layouts durchsucht man schneller",
+  "Die Suchzeit wächst mit der Menge",
+  "Die Antwort hervorheben",
+  "Ein zweiter Suchender"
+ ],
+ ".card .desc": [
+  "Ein einzelnes rotes X unter schwarzen ist sofort gefunden, ob zehn Ablenker da sind oder hundert. Ist ein Merkmal einzigartig, findet das visuelle System es parallel, bevor die Aufmerksamkeit überhaupt arbeiten muss.",
+  "Ein grünes X unter violetten X und grünen O zu finden heißt, Element für Element zu prüfen, weil das Ziel mit jedem Ablenker ein Merkmal teilt. Lange Listen ähnlicher Einträge funktionieren genauso.",
+  "Kodieren Sie Zustände, die erkannt werden müssen, etwa Fehler oder Überfälliges, mit einem Merkmal, das sonst nichts nutzt. Kombinieren Sie Farbe mit einem Icon oder einer Form, damit das Element auch für Menschen heraussticht, die Farben nicht unterscheiden.",
+  "Bei einer seriellen Suche kostet jedes weitere Element Zeit. Entfernen Sie Unnötiges, gruppieren Sie den Rest und bieten Sie Filter an, damit Menschen eine kleinere Menge durchsuchen.",
+  "Wer die Merkmale eines Ziels kennt, kann alles andere ignorieren: Bei der Suche nach einem roten K unter roten C und schwarzen K überspringt man die schwarzen Buchstaben. Einheitliche Farben oder Icons je Elementtyp lassen Menschen die Suche auf einen Blick eingrenzen.",
+  "Wolfe und Kollegen fanden, dass Suchende weit mehr Ziele übersehen, wenn diese selten sind, etwa bei der Gepäckkontrolle am Flughafen. Probleme, die in einer Warteschlange oder einem Bericht selten auftauchen, brauchen mehr als einen prüfenden Blick.",
+  "Im echten Leben schaut man dorthin, wo Dinge gewöhnlich sind. Das Wissen, wo ein Suchfeld oder ein Warenkorb-Icon hingehört, lenkt den Blick, bevor das Absuchen beginnt, also halten Sie Elemente an festen, erwarteten Orten.",
+  "Trägt man die Zeit bis zum Fund gegen die Zahl der Elemente auf, zeigt sich, ob eine Suche parallel oder seriell verläuft. Messen Sie in Usability-Tests, wie lange Menschen brauchen, um Elemente zu finden, während Listen wachsen.",
+  "Wenn KI die relevante Zeile, Passage oder Einstellung findet, heben Sie sie an Ort und Stelle hervor, statt sie nur zu beschreiben. Eine Hervorhebung macht aus serieller Suche ein Pop-out, und die Begründung lässt Menschen sie prüfen.",
+  "KI-Prüfung kann seltene Mängel oder Risiken markieren, die Menschen leicht übersehen. Kalibrieren Sie die Schwellenwerte und behalten Sie Menschen im Prozess, denn auch KI übersieht Seltenes."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Merkmalssuche erklären",
+  "Ein Element muss schnell gefunden werden",
+  "Alles soll gleich gewichtet sein",
+  "Lange Listen und dichte Bildschirme",
+  "Elemente sehen sich ähnlich",
+  "Die Liste ist kurz",
+  "Dashboards und Statuslisten",
+  "Eine Ausnahme muss erkannt werden",
+  "Viele Zustände konkurrieren um Aufmerksamkeit",
+  "Menüs, Tabellen und Raster",
+  "Menschen suchen ein bestimmtes Element",
+  "Menschen stöbern eher, als zu suchen",
+  "Icon-Systeme und Kategorien",
+  "Elemente gehören zu Typen",
+  "Die Kategorien sind willkürlich",
+  "Prüf-, Moderations- und QA-Warteschlangen",
+  "Probleme sind selten",
+  "Ziele sind häufig",
+  "Navigation und Seitenvorlagen",
+  "Menschen kommen oft wieder",
+  "Ein einmaliger Bildschirm",
+  "Usability-Tests",
+  "Listen oder Kataloge wachsen",
+  "Aufgaben unterschiedlicher Schwierigkeit vergleichen",
+  "Serielle Suche → Pop-out",
+  "KI findet Elemente in Listen oder Dokumenten",
+  "Hervorheben ohne Begründung",
+  "Nur Mensch → Mensch plus KI",
+  "Nach seltenen Problemen suchen",
+  "Darauf vertrauen, dass KI alles findet"
+ ],
+ ".ai-divider h3": [
+  "Visuelle Suche im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann die Nadel finden und auf sie zeigen und so eine langsame serielle Suche in ein Pop-out verwandeln. Sie kann auch ein zweites Paar Augen für das Seltene sein, das Menschen übersehen."
+ ]
+}

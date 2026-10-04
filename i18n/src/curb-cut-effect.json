@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Curb Cut <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Design for disability, <em>and everyone benefits</em>."
+ ],
+ "header .subtitle": [
+  "Features built for disabled people end up used by far more people than they were designed for. Curb cuts, captions, and text-to-speech began as accommodations and became things everyone relies on."
+ ],
+ ".law-origin .body-text": [
+  "Curb cuts appeared in Kalamazoo, Michigan, as early as 1945, but the ones that changed the country came from Berkeley, California. In the early 1970s, disability activist Michael Pachovas and friends poured cement into a crude ramp at a curb, and in 1972, pressed by activists, the city installed its first official curb cut on Telegraph Avenue. The Americans with Disabilities Act of 1990 made them standard.",
+  "Then everyone started using them: parents with strollers, workers with carts, travelers with luggage. A study at a Sarasota, Florida, shopping mall found that nine out of ten unencumbered pedestrians went out of their way to use a curb cut. <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> named the curb-cut effect in a 2017 essay: changes designed for one excluded group end up benefiting everyone."
+ ],
+ ".law-content .law-desc": [
+  "Features designed for disabled people end up used and valued by a far larger group than they were made for. The effect is a cousin of universal design, but it is often unplanned: the wider benefit shows up only after the accommodation exists."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Berkeley curb cuts (1972) · named by <a href=\"people.html#p-angela-glover-blackwell\">Angela Glover Blackwell</a> (2017)",
+  "Curb-cut principle",
+  "Design for disability, benefit everyone"
+ ],
+ ".apply-list li": [
+  "Prioritizing accessibility work, or explaining its value to stakeholders.",
+  "Designing media, input, reading, or navigation features.",
+  "People face temporary or situational limits, such as noise, glare, or one free hand.",
+  "Start from the needs of disabled people, then look for everyone else who benefits.",
+  "Make the accessible path the default path, not a separate mode.",
+  "Test with disabled people, and treat the wider benefit as a bonus, not the reason."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Media",
+  "Spectrum",
+  "Input",
+  "Listening",
+  "Contrast",
+  "Language",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Ramps for Everyone",
+  "Captions for Everyone",
+  "Permanent, Temporary, Situational",
+  "Keyboard Access Speeds Everyone Up",
+  "Text-to-Speech on the Commute",
+  "Contrast in the Sun",
+  "Plain Language for Every Reader",
+  "Not Just a Business Case",
+  "Assistive Tech Went Mainstream",
+  "Generated Alt Text and Captions"
+ ],
+ ".card .desc": [
+  "Curb cuts were made for wheelchairs, and then strollers, carts, luggage, bikes, and runners took them over. Today few people notice them as an accessibility feature at all, which is the mark of the effect working.",
+  "Captions written for deaf and hard-of-hearing viewers are used in loud places, in quiet offices, by language learners, and on videos that autoplay muted. Caption every video with speech.",
+  "Microsoft’s inclusive design toolkit pairs a permanent disability with temporary and situational versions: one arm, an arm in a cast, a parent holding a baby. Design for the permanent case and the others come along.",
+  "Keyboard navigation built for people who can’t use a mouse is also how power users fly through a product. A logical focus order and visible focus help everyone who prefers the keys.",
+  "Text-to-speech was built for blind people, and now people listen to articles, papers, and books while commuting or multitasking. Semantic markup and real text make it work for both.",
+  "High contrast, required for people with low vision, also helps anyone reading a phone in sunlight or a cheap screen at an angle. Meet contrast ratios for all text and controls.",
+  "Writing clearly for people with cognitive disabilities also helps non-native speakers, tired readers, and anyone skimming. Short sentences and familiar words lose nothing for experts.",
+  "Critics such as legal scholar Blake Reid warn that the curb-cut argument can put disabled people’s needs behind general benefits, and leave out features that only help disabled people. Build accessibility because people need it; the wider benefit is a bonus.",
+  "Voice assistants, live captions, and read-aloud grew out of technology built for disabled people. Keep disabled people in testing as these features change, because they rely on them most.",
+  "AI can describe images and caption audio at scale, which also helps everyone who searches and skims. Errors land hardest on the people who depend on them, so review generated descriptions of important content."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Arguing for an accessibility feature",
+  "The feature is an individual accommodation",
+  "Video and audio content",
+  "Media plays on the page",
+  "The video has no speech or meaningful sound",
+  "Framing accessibility work",
+  "Deciding whom to design for",
+  "Treating situational users as the main audience",
+  "Forms, tools, and productivity apps",
+  "People repeat tasks often",
+  "The device has no keyboard at all",
+  "Long articles and documents",
+  "Content is read at length",
+  "Text is short labels",
+  "Text and controls everywhere",
+  "Choosing colors",
+  "Purely decorative elements",
+  "Instructions, errors, and policies",
+  "Text explains a task",
+  "Specialists need exact technical terms",
+  "Accessibility planning and advocacy",
+  "Justifying accessibility work",
+  "Broad benefit is the only argument made",
+  "Assistive → everyday",
+  "Shipping voice, captions, or descriptions",
+  "Tuning only for mainstream users",
+  "Manual → generated",
+  "AI writes alt text or captions",
+  "Publishing generated alt text unreviewed"
+ ],
+ ".ai-divider h3": [
+  "The Curb Cut Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Speech recognition, text-to-speech, and image description began as assistive technology. AI has made them everyday features."
+ ]
+}

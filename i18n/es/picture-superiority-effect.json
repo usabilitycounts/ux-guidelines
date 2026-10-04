@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto de superioridad de la <em>imagen</em>"
+ ],
+ "header .tagline": [
+  "Una imagen <em>se recuerda</em> mejor que una palabra."
+ ],
+ "header .subtitle": [
+  "La gente recuerda y reconoce las imágenes con más fiabilidad que las mismas ideas escritas. Las imágenes concretas y distintas hacen que funciones, pasos e instrucciones se queden, siempre que transmitan el significado."
+ ],
+ ".law-origin .body-text": [
+  "En 1967, <a href=\"people.html#p-roger-shepard\">Roger Shepard</a> mostró a varias personas cientos de palabras, frases o imágenes y luego comprobó cuáles reconocían. El reconocimiento fue mejor con las imágenes, casi perfecto justo después de verlas. Muchos estudios posteriores han hallado la misma ventaja tanto en el recuerdo como en el reconocimiento.",
+  "La teoría de la codificación dual de <a href=\"people.html#p-allan-paivio\">Allan Paivio</a> (1971) ofreció la explicación clásica: la imagen de un objeto concreto se almacena como imagen y como etiqueta verbal, mientras que una palabra suele almacenarse solo verbalmente, así que las imágenes tienen dos caminos de vuelta a la memoria. Otras explicaciones señalan lo distintivas que son las imágenes, y la ventaja se diluye cuando se parecen demasiado."
+ ],
+ ".law-content .law-desc": [
+  "La gente recuerda mejor las imágenes que las palabras. Una imagen concreta es más fácil de reconocer y recordar después que la misma idea en texto, sobre todo cuando las imágenes se distinguen bien entre sí y hay tiempo para asimilarlas."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-roger-shepard\">Shepard</a> (1967) · <a href=\"people.html#p-allan-paivio\">Paivio</a> (1971)",
+  "Superioridad pictórica",
+  "Acompaña las ideas clave con imágenes distintas"
+ ],
+ ".apply-list li": [
+  "El contenido debe recordarse: incorporación, instrucciones, funciones o una marca.",
+  "Los lectores varían en nivel de lectura, idioma o edad.",
+  "Explicas objetos, lugares, pasos o comparaciones concretos.",
+  "Acompaña los conceptos importantes con imágenes concretas y distintas, y mantén también la etiqueta de texto.",
+  "Muestra una imagen o un diagrama antes de la explicación a quien es nuevo en el tema.",
+  "Haz que las imágenes se diferencien claramente entre sí y evita las imágenes para ideas abstractas."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Codificación dual",
+  "Distinción",
+  "Incorporación",
+  "Comprensión",
+  "Edad",
+  "Límites",
+  "Marketing",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Las imágenes se quedan",
+  "Dos códigos mejor que uno",
+  "Las imágenes parecidas pierden la ventaja",
+  "Muestra y luego explica",
+  "Las imágenes hacen llegar las instrucciones",
+  "Las personas mayores son las que más ganan",
+  "Las palabras pueden ser más rápidas",
+  "Memorable no es lo mismo que claro",
+  "Imágenes genéricas por todas partes",
+  "Responde con una imagen"
+ ],
+ ".card .desc": [
+  "Ante cientos de elementos, la gente reconocía las imágenes casi a la perfección, claramente mejor que las palabras o las frases. Muchos estudios posteriores han hallado la misma ventaja en el recuerdo y el reconocimiento.",
+  "La imagen de algo concreto se guarda como imagen y como palabra, mientras que una palabra abstracta solo se guarda verbalmente. Acompañar un icono con su etiqueta da a la gente ambos códigos.",
+  "Cuando las imágenes se parecen, la ventaja en la memoria desaparece. Un conjunto de iconos con la misma forma y grosor ayuda menos al reconocimiento que uno cuyos elementos se distinguen con claridad.",
+  "Ver una imagen antes de leer ayuda a quien sabe poco del tema a construir un modelo mental que el texto completa. Pon el diagrama antes de la explicación, no después.",
+  "Una revisión de la investigación en comunicación sanitaria halló que las imágenes mejoran la atención, la comprensión, el recuerdo y el seguimiento de indicaciones, sobre todo en personas con poca alfabetización. Las instrucciones con imágenes claras se siguen más.",
+  "La ventaja es mayor en los adultos mayores, cuya memoria para las palabras decae más que la de las imágenes, y persiste en personas con alzhéimer leve. Las imágenes ayudan a todos, y a algunos mucho.",
+  "Con presión de tiempo, la gente puede reconocer las palabras antes que las imágenes, porque una imagen tarda más en interpretarse. Para acciones frecuentes en las que importa la rapidez, una etiqueta clara gana a un icono desconocido.",
+  "Las imágenes mejoran el recuerdo de marca en publicidad, pero la gente puede recordar una imagen y olvidar el mensaje. Asegúrate de que la imagen muestre el argumento, no solo algo llamativo.",
+  "Las ilustraciones generadas facilitan poner una imagen en cada pantalla, pero las imágenes con un estilo uniforme pierden lo distintivo que las hace memorables. Usa imágenes que aporten información.",
+  "Una respuesta de IA que incluye un diagrama, un gráfico o una imagen puede recordarse mejor que un párrafo. Ofrece elementos visuales cuando el contenido sea concreto y comprueba que sean correctos."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "El contenido debe recordarse",
+  "El contenido se usa una vez y se olvida",
+  "Iconos, ilustraciones y etiquetas",
+  "Los conceptos son concretos y representables",
+  "Los conceptos son abstractos y sin imagen clara",
+  "Sistemas de iconos y miniaturas",
+  "Las imágenes son visualmente distintas",
+  "Todas las imágenes comparten forma y estilo",
+  "Incorporación, ayuda y tutoriales",
+  "La gente es nueva en el tema",
+  "Los expertos buscan un solo detalle",
+  "Instrucciones, seguridad y contenido de salud",
+  "Los lectores tienen distintos niveles de lectura",
+  "La imagen sería ambigua",
+  "Productos para personas mayores",
+  "Recordar el contenido importa",
+  "Las imágenes sustituirían por completo al texto",
+  "Barras de herramientas, menús y acciones rápidas",
+  "La rapidez importa más que la memoria",
+  "Iconos sin etiqueta para acciones frecuentes",
+  "Páginas de marketing y anuncios",
+  "El recuerdo de marca importa",
+  "La imagen no tiene que ver con el mensaje",
+  "Decoración → información",
+  "Generar ilustraciones con IA",
+  "Arte de IA genérico en cada página",
+  "Respuesta en texto → respuesta visual",
+  "La IA explica conceptos o datos",
+  "Diagramas generados que nadie revisó"
+ ],
+ ".ai-divider h3": [
+  "La superioridad de la imagen en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA abarata las imágenes y facilita las respuestas visuales. La ventaja en la memoria es para las imágenes que transmiten significado, no para la decoración."
+ ]
+}

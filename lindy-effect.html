@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en" data-page="lindy-effect">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/lindy-effect.json?v=43','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.">
+<title>Lindy Effect: Why What Has Lasted Is Likely to Last — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/lindy-effect.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/lindy-effect.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/efecto-lindy.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/lindy-effekt.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/effet-lindy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/lindy-effect.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/lindy-effect.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/lindy-effect.html">
+<meta property="og:title" content="Lindy Effect: Why What Has Lasted Is Likely to Last — UX Guidelines">
+<meta property="og:description" content="For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/lindy-effect.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/lindy-effect.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/lindy-effect.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lindy Effect: Why What Has Lasted Is Likely to Last — UX Guidelines">
+<meta name="twitter:description" content="For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Lindy Effect: Why What Has Lasted Is Likely to Last", "description": "For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.", "url": "https://www.ux-guidelines.com/lindy-effect.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/lindy-effect.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build Systems"}, {"@type": "ListItem", "position": 3, "name": "Lindy Effect: Why What Has Lasted Is Likely to Last", "item": "https://www.ux-guidelines.com/lindy-effect.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=135"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link active">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Lindy <em>Effect</em></h1>
+  <p class="tagline">What has lasted <em>is likely to last</em>.</p>
+  <p class="subtitle">For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The name comes from Lindy’s, a New York delicatessen where comedians gathered every night to dissect show business. In a 1964 article in The New Republic, Albert Goldman described their folk rule, Lindy’s Law, for predicting how long a comedian’s career on television would last.</p>
+    <p class="body-text">Benoit Mandelbrot gave it a mathematical form in The Fractal Geometry of Nature (1982): for some things, future life expectancy is proportional to the past. <a href="people.html#p-nassim-nicholas-taleb">Nassim Nicholas Taleb</a> named it the Lindy effect in Antifragile (2012) and extended it to anything without a natural upper limit: if a book has been in print for forty years, expect it to stay in print for another forty.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">For non-perishable things, such as ideas, books, technologies, and conventions, the longer something has lasted, the longer it is likely to keep lasting. Expected remaining life grows with age instead of shrinking, because every year of survival is evidence of robustness.</p>
+    <p class="body-text law-equation">E[T − t | T > t] = p · t</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">Goldman (1964) · named by <a href="people.html#p-nassim-nicholas-taleb">Taleb</a> (2012)</div></div>
+      <div><div class="label">Also called</div><div class="value">Lindy’s law</div></div>
+      <div><div class="label">In practice</div><div class="value">Bet on what has lasted</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Choosing patterns, conventions, or icons that will need to last.</li>
+      <li>Picking technologies, standards, or formats for a long-lived product.</li>
+      <li>Deciding which research, content, or ideas are worth building on.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Prefer conventions and tools with a long track record over this year’s trend.</li>
+      <li>Keep new, unproven parts swappable, so they can be replaced if they don’t last.</li>
+      <li>Apply it only to things that don’t wear out, and remember that it only counts survivors.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Two Weeks, Two Years -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Two Weeks, Two Years</h3>
+      <p class="desc">The comedians at Lindy’s reasoned that a show that had run for two weeks could expect two more, while one that had run for two years could expect another two years. Age itself was the forecast.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="36" y="84" width="30" height="16" rx="3" class="b"/><rect x="76" y="68" width="30" height="16" rx="3" class="ga"/><rect x="126" y="52" width="30" height="48" rx="3" class="a"/><rect x="166" y="52" width="30" height="48" rx="3" class="ga"/><text x="51" y="114" text-anchor="middle" class="t">2 wk</text><text x="141" y="114" text-anchor="middle" class="t">2 yr</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the effect</div></div>
+      <div><div class="label">Use when</div><div class="value">Judging how long something will last</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The thing wears out with age</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="ambiguity-effect.html">Ambiguity Effect</a></div>
+    </div>
+  </article>
+  <!-- 2. Old Patterns Outlast Trends -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Patterns</span>
+      <span class="num">02 / 10</span>
+      <h3>Old Patterns Outlast Trends</h3>
+      <p class="desc">Tabs, menus, links, and forms have survived decades of redesigns, and each year they survive raises the odds that they’ll last. Visual styles come and go far faster than the interactions underneath them.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 104L200 104" class="ax"/><rect x="30" y="30" width="120" height="14" rx="7" class="a"/><rect x="30" y="52" width="40" height="14" rx="7" class="b"/><rect x="80" y="74" width="30" height="14" rx="7" class="b"/><rect x="120" y="52" width="24" height="14" rx="7" class="b"/><rect x="150" y="74" width="20" height="14" rx="7" class="b"/><text x="90" y="24" text-anchor="middle" class="t">tabs, menus, links</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Choosing interaction patterns</div></div>
+      <div><div class="label">Use when</div><div class="value">A long-lived convention exists</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The convention has failed your users</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 3. Choose Boring Technology -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Technology</span>
+      <span class="num">03 / 10</span>
+      <h3>Choose Boring Technology</h3>
+      <p class="desc">Dan McKinley’s 2015 essay argues for proven tools whose failure modes are known. By the Lindy logic, a database that has run for decades is likelier to outlast a framework released last year.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="30" width="46" height="60" rx="6" class="a"/><rect x="84" y="30" width="46" height="60" rx="6" class="b"/><rect x="138" y="30" width="46" height="60" rx="6" class="ga"/><text x="53" y="104" text-anchor="middle" class="t">proven</text><text x="161" y="104" text-anchor="middle" class="t">new</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Stack and tooling decisions</div></div>
+      <div><div class="label">Use when</div><div class="value">Reliability matters more than novelty</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Only the new tool can solve the problem</div></div>
+    </div>
+  </article>
+  <!-- 4. The Save Icon Outlived the Floppy -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Icons</span>
+      <span class="num">04 / 10</span>
+      <h3>The Save Icon Outlived the Floppy</h3>
+      <p class="desc">The floppy disk save icon is still everywhere, long after floppy disks disappeared. A symbol that has already lasted keeps lasting, because so many people have learned it.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="80" y="30" width="60" height="60" rx="6" class="a"/><rect x="94" y="30" width="32" height="20" rx="2" class="b"/><rect x="92" y="64" width="36" height="24" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Icon and symbol choices</div></div>
+      <div><div class="label">Use when</div><div class="value">A symbol is widely recognized</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The metaphor confuses new users</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="universal-icons.html">Universal Icons</a></div>
+    </div>
+  </article>
+  <!-- 5. Evergreen Content Ages Well -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Content</span>
+      <span class="num">05 / 10</span>
+      <h3>Evergreen Content Ages Well</h3>
+      <p class="desc">Guides built on principles that have held for decades stay useful; content about this year’s tools expires. Invest in long-lived subjects, and date anything that will go stale.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="20" width="70" height="84" rx="6" class="ol"/><rect x="42" y="34" width="46" height="5" rx="2.5" class="a"/><rect x="42" y="45" width="46" height="5" rx="2.5" class="a"/><rect x="42" y="56" width="46" height="5" rx="2.5" class="a"/><rect x="42" y="67" width="46" height="5" rx="2.5" class="a"/><rect x="42" y="78" width="27.6" height="5" rx="2.5" class="a"/><rect x="120" y="20" width="70" height="84" rx="6" class="ol"/><rect x="132" y="34" width="46" height="5" rx="2.5" class="gh"/><rect x="132" y="45" width="46" height="5" rx="2.5" class="gh"/><rect x="132" y="56" width="46" height="5" rx="2.5" class="gh"/><rect x="132" y="67" width="46" height="5" rx="2.5" class="gh"/><rect x="132" y="78" width="27.6" height="5" rx="2.5" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Content strategy and documentation</div></div>
+      <div><div class="label">Use when</div><div class="value">Planning what to write</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The topic is news</div></div>
+    </div>
+  </article>
+  <!-- 6. Old Findings That Held Up -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Evidence</span>
+      <span class="num">06 / 10</span>
+      <h3>Old Findings That Held Up</h3>
+      <p class="desc">A finding that has been replicated for decades is a better bet than a single new study. Fitts’s 1954 law still predicts pointing time on today’s touchscreens.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><circle cx="30" cy="50" r="4" class="a"/><circle cx="52" cy="53" r="4" class="a"/><circle cx="74" cy="56" r="4" class="a"/><circle cx="96" cy="50" r="4" class="a"/><circle cx="118" cy="53" r="4" class="a"/><circle cx="140" cy="56" r="4" class="a"/><circle cx="162" cy="50" r="4" class="a"/><circle cx="184" cy="53" r="4" class="a"/><path d="M24 52H200" class="lg"/><text x="40" y="30" text-anchor="start" class="t">1954</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Choosing which research to trust</div></div>
+      <div><div class="label">Use when</div><div class="value">Findings conflict</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The context has changed fundamentally</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="fitts-law.html">Fitts’s Law</a></div>
+    </div>
+  </article>
+  <!-- 7. Not for Things That Wear Out -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Limits</span>
+      <span class="num">07 / 10</span>
+      <h3>Not for Things That Wear Out</h3>
+      <p class="desc">The effect applies to things without an expiration date, like ideas and formats. People, devices, and batteries wear out: a 100-year-old is more likely to die in the next year than a 10-year-old, the opposite of what Lindy would predict.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="60" cy="56" r="22" class="b"/><rect x="42" y="82" width="36" height="20" rx="8" class="b"/><rect x="130" y="30" width="60" height="60" rx="6" class="a"/><rect x="140" y="40" width="40" height="6" rx="3" class="b"/><rect x="140" y="52" width="30" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Applying the effect correctly</div></div>
+      <div><div class="label">Use when</div><div class="value">Predicting the life of ideas or tools</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Predicting hardware or human lifespans</div></div>
+    </div>
+  </article>
+  <!-- 8. It Only Counts Survivors -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">08 / 10</span>
+      <h3>It Only Counts Survivors</h3>
+      <p class="desc">Lindy reasoning looks at what has survived. It says nothing about the many old things that vanished, and it can’t tell you when a genuinely better new idea arrives. Weigh it against survivorship bias.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="40" width="18" height="40" rx="4" class="a"/><rect x="46" y="40" width="18" height="40" rx="4" class="gh"/><rect x="72" y="40" width="18" height="40" rx="4" class="gh"/><rect x="98" y="40" width="18" height="40" rx="4" class="a"/><rect x="124" y="40" width="18" height="40" rx="4" class="gh"/><rect x="150" y="40" width="18" height="40" rx="4" class="gh"/><rect x="176" y="40" width="18" height="40" rx="4" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Strategy and roadmaps</div></div>
+      <div><div class="label">Use when</div><div class="value">Defending the status quo</div></div>
+      <div><div class="label">Avoid when</div><div class="value">A new approach is clearly better</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="survivorship-bias.html">Survivorship Bias</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Lindy Effect in the Age of AI</h3>
+    <p>AI tools change month to month and have no track record yet. Lindy says to build on what has lasted, and keep the new parts easy to replace.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="70" width="180" height="30" rx="6" class="a"/><rect x="30" y="30" width="40" height="30" rx="6" class="ga"/><rect x="80" y="30" width="40" height="30" rx="6" class="ga"/><rect x="130" y="30" width="40" height="30" rx="6" class="ga"/><text x="110" y="90" text-anchor="middle" class="t">stable foundation</text></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>No Track Record Yet</h3>
+      <p class="desc">Models and AI platforms change constantly. Build on long-lived foundations such as open standards, plain text, and stable interfaces, and keep the AI layer swappable instead of coupling the product to one model.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Bet on a model → bet on interfaces</div></div>
+      <div><div class="label">Use when</div><div class="value">Building on AI platforms</div></div>
+      <div><div class="label">Watch for</div><div class="value">Tying the product to one model</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="20" width="180" height="80" rx="6" class="ol"/><rect x="32" y="32" width="156" height="6" rx="3" class="a"/><rect x="32" y="44" width="126" height="6" rx="3" class="a"/><rect x="32" y="56" width="96" height="6" rx="3" class="a"/><rect x="32" y="68" width="156" height="6" rx="3" class="b"/><rect x="32" y="80" width="126" height="6" rx="3" class="b"/><rect x="32" y="92" width="96" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Lindy in the Training Data</h3>
+      <p class="desc">Ideas that have lasted are overrepresented in what models learned, so AI advice leans toward established practice. That helps with conventions, and helps less with problems that are genuinely new.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Established → emerging</div></div>
+      <div><div class="label">Use when</div><div class="value">Asking AI for best practices</div></div>
+      <div><div class="label">Watch for</div><div class="value">Expecting novel answers from old data</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://gwern.net/doc/statistics/probability/1964-goldman.pdf" target="_blank" rel="noopener"><span class="title">Lindy’s Law — Albert Goldman, The New Republic, 1964</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1016/j.physa.2017.05.077" target="_blank" rel="noopener"><span class="title">Lindy’s Law — Iddo Eliazar, Physica A, 2017</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Practice</h3>
+      <ul class="ref-list">
+        <li><a href="https://mcfunley.com/choose-boring-technology" target="_blank" rel="noopener"><span class="title">Choose Boring Technology — Dan McKinley, 2015</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Lindy_effect" target="_blank" rel="noopener"><span class="title">Lindy Effect</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Lindy Effect</div>
+</footer>
+
+</body>
+</html>
