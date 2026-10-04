@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Alarm<em>müdigkeit</em>"
+ ],
+ "header .tagline": [
+  "Wenn alles dringend ist, <em>ist nichts dringend</em>."
+ ],
+ "header .subtitle": [
+  "Wer häufigen Alarmen ausgesetzt ist, die meist falsch oder unwichtig sind, reagiert irgendwann nicht mehr. Man schließt, stummschaltet oder umgeht Alarme, und der seltene kritische wird genauso behandelt wie die übrigen."
+ ],
+ ".law-origin .body-text": [
+  "Die Idee ist so alt wie der Hirtenjunge, der „Wolf!“ rief: Wenn sich Warnungen immer wieder als falsch erweisen, reagiert niemand mehr. Bauarbeiter überhören Rückfahrwarner, und im Krankenhaus piepen Monitore an Beatmungsgeräten, Pumpen und Herzen so oft, meist aus geringfügigen Gründen, dass das Personal abstumpft.",
+  "Im Gesundheitswesen wurden die Kosten unübersehbar. Die FDA verzeichnete zwischen 2005 und 2008 566 alarmbezogene Todesfälle, das ECRI Institute erklärte Alarme zur größten Gefahr der Medizintechnik für 2014, und nach einer Sentinel-Event-Warnung von 2013 machte die Joint Commission die Alarmsicherheit zum nationalen Patientensicherheitsziel. Vor dem Zusammenstoß der Washingtoner Metro 2009 erhielten die Fahrdienstleiter rund 8.000 Gleisstromkreis-Alarme pro Woche."
+ ],
+ ".law-content .law-desc": [
+  "Alarmmüdigkeit ist die Abstumpfung, die eintritt, wenn Menschen häufig Alarme erhalten, die meist falsch oder unwichtig sind. Jeder Fehlalarm lehrt, dass man Alarme ignorieren kann, bis auch ein echter ignoriert wird."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Gesundheitswesen und Sicherheitstechnik",
+  "Alert Fatigue",
+  "Weniger, verlässlichere, umsetzbare Alarme"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Benachrichtigungen, Alarme, Warnungen oder Bestätigungsdialoge.",
+  "Ein Überwachungssystem oder Dashboard erzeugt mehr Alarme, als Menschen bearbeiten können.",
+  "Nutzer schließen, stummschalten oder deaktivieren Alarme, ohne sie zu lesen.",
+  "Streichen Sie falsche und wenig nützliche Alarme, bevor Sie neue hinzufügen.",
+  "Trennen Sie Schweregrade, und reservieren Sie Unterbrechungen für kritische Ereignisse.",
+  "Lassen Sie jeden Alarm sagen, was passiert ist und was zu tun ist, und Schwellenwerte anpassen."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Verlässlichkeit",
+  "Menge",
+  "Schweregrad",
+  "Benachrichtigungen",
+  "Warnungen",
+  "Inhalt",
+  "Messung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "„Wolf!“ rufen",
+  "Menschen folgen der Trefferquote",
+  "Achttausend pro Woche",
+  "Alarme abstufen",
+  "Benachrichtigungsflut",
+  "Zu viele Warnungen sagen nichts",
+  "Jeden Alarm umsetzbar machen",
+  "Die Reaktionsquote verfolgen",
+  "KI meldet alles",
+  "Hinweise, die niemand liest"
+ ],
+ ".card .desc": [
+  "Jeder Fehlalarm lehrt, dass man Alarme ignorieren kann. Im Krankenhaus führten Monitore, die ständig aus geringfügigen Gründen piepen, dazu, dass das ECRI Institute Alarme zur Gefahr Nummer eins der Medizintechnik für 2014 erklärte.",
+  "In einer Studie von 1995 reagierten Menschen auf Alarme ungefähr so oft, wie sich diese als echt erwiesen: Je unzuverlässiger der Alarm, desto seltener handelten sie. Senken Sie Fehlalarme, bevor Sie neue Alarme einführen.",
+  "Vor dem Zusammenstoß der Washingtoner Metro 2009 erhielten Fahrdienstleiter rund 8.000 Gleisstromkreis-Alarme pro Woche. Die Ermittler kamen zu dem Schluss, dass diese extrem hohe Rate sie völlig abgestumpft haben musste.",
+  "Nicht jeder Alarm verdient eine Unterbrechung. Trennen Sie kritisch, Warnung und Information mit eigener Behandlung, und reservieren Sie Ton, Bewegung und Modals für kritische Alarme.",
+  "Push-Benachrichtigungen, Badges und E-Mails, die der Interaktion wegen verschickt werden, bringen Menschen bei, sie wegzuwischen oder ganz abzuschalten. Lassen Sie Kategorien und Häufigkeit wählen, und senden Sie weniger, aber bessere Benachrichtigungen.",
+  "Die Hinweise nach Kaliforniens Proposition 65 stehen auf so vielen Produkten, dass sie kaum etwas mitteilen. Sind-Sie-sicher-Dialoge bei jeder Aktion werden aus Gewohnheit weggeklickt. Warnen Sie nur, wenn die Folgen real sind, und bieten Sie stattdessen Rückgängig an.",
+  "Ein Alarm sollte sagen, was passiert ist, warum es wichtig ist und was als Nächstes zu tun ist. Fassen Sie Duplikate zusammen, erlauben Sie Schlummern und anpassbare Schwellenwerte, wie es die Joint Commission für Alarmeinstellungen im Krankenhaus empfahl.",
+  "Wenn Menschen die meisten Alarme ignorieren oder wegklicken, ist das System kaputt, nicht die Menschen. Messen Sie, wie viele Alarme zu einer Handlung führen, und schaffen Sie die ab, die es nie tun.",
+  "Modelle, die Code, Transaktionen oder Systeme überwachen, sollen oft alles erwischen und erzeugen dabei Fluten wenig sicherer Alarme. Stimmen Sie sie auf Präzision ab, zeigen Sie die Zuverlässigkeit und bündeln Sie Befunde mit niedriger Priorität.",
+  "Ein Assistent, der jeder Antwort denselben Hinweis anhängt, bringt Menschen bei, Hinweise zu überspringen, auch den einen wichtigen. Reservieren Sie Warnungen für Antworten mit echtem Risiko."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Das Problem erklären",
+  "Die meisten Alarme sind falsch oder geringfügig",
+  "Alarme sind selten und verlässlich",
+  "Überwachungs- und Alarmsysteme",
+  "Alarme liegen oft falsch",
+  "Jeder Alarm wird geprüft",
+  "Betriebs- und Support-Dashboards",
+  "Die Alarmmenge übersteigt, was sich prüfen lässt",
+  "Die Menge ist gering und jeder Alarm umsetzbar",
+  "Alarm- und Benachrichtigungssysteme",
+  "Alarme sind unterschiedlich dringend",
+  "Jeder Alarm ist gleich kritisch",
+  "Push-Benachrichtigungen, Badges und E-Mail",
+  "Interaktionsziele drängen zu mehr Versand",
+  "Jede Benachrichtigung wurde angefordert",
+  "Bestätigungen und Warnhinweise",
+  "Die Aktion ist umkehrbar",
+  "Die Aktion ist zerstörerisch und endgültig",
+  "Inhalt und Einstellungen von Alarmen",
+  "Alarmen fehlt der Kontext",
+  "Der Alarm selbst ist die Anweisung",
+  "Alarm-Governance und Reviews",
+  "Alarme häufen sich mit der Zeit an",
+  "Alarme sind neu und ungetestet",
+  "Trefferquote → Präzision",
+  "KI überwacht Code, Sicherheit oder Transaktionen",
+  "Jede unsichere Meldung unterbricht",
+  "Pauschale Hinweise → gezielte Warnungen",
+  "KI-Antworten bergen echtes Risiko",
+  "Derselbe Hinweis unter jeder Antwort"
+ ],
+ ".ai-divider h3": [
+  "Alarmmüdigkeit im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann alles gleichzeitig überwachen, und sie meldet auch alles gleichzeitig, wenn man sie nicht anders einstellt."
+ ]
+}

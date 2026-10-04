@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principio de menor <em>sorpresa</em>"
+ ],
+ "header .tagline": [
+  "Haz <em>lo que la gente espera</em>."
+ ],
+ "header .subtitle": [
+  "Un componente debe comportarse como espera la mayoría de sus usuarios. Cada sorpresa cuesta atención y confianza, así que sigue las convenciones que la gente ya conoce, elige valores predeterminados sensatos y haz que cada control haga lo que parece que hace."
+ ],
+ ".law-origin .body-text": [
+  "Una de las primeras menciones a una «ley de menor sorpresa» apareció en el PL/I Bulletin en 1967. El PL/I de IBM se había hecho famoso por incumplirla: por sus reglas de precisión, 25 + 1/3 podía terminar en un error fatal o devolver 5,33 en lugar de 25,33. La ley apareció impresa por primera vez en 1972, en un artículo sobre lenguajes de programación de sistemas de Bergeron, Gannon, Shecter, Tompa y van Dam, que pedía que cada construcción se comportara exactamente como sugiere su sintaxis.",
+  "<a href=\"people.html#p-eric-s-raymond\">Eric S. Raymond</a> la convirtió en la regla de menor sorpresa en The Art of Unix Programming (2003): inspírate en programas funcionalmente parecidos que tus usuarios ya conocen. <a href=\"people.html#p-joshua-bloch\">Joshua Bloch</a> la aplicó al diseño de API en 2006. En diseño de interfaces suele resumirse en una frase de manual: las personas forman parte del sistema, y el diseño debe encajar con su experiencia, sus expectativas y sus modelos mentales."
+ ],
+ ".law-content .law-desc": [
+  "Un componente debe comportarse como espera la mayoría de sus usuarios. Cuando el comportamiento y la expectativa no coinciden, cambia el comportamiento y no a los usuarios: sigue las convenciones establecidas, elige valores predeterminados sensatos y haz que cada control haga lo que sugiere su aspecto."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "PL/I Bulletin (1967) · impreso en 1972",
+  "Principio de la menor sorpresa",
+  "Encajar con lo que los usuarios ya esperan"
+ ],
+ ".apply-list li": [
+  "Diseñas controles, atajos o gestos que ya tienen convenciones establecidas.",
+  "Eliges valores predeterminados, etiquetas o nombres para funciones, ajustes y API.",
+  "Los usuarios dudan, deshacen o dicen que no esperaban lo que pasó.",
+  "Toma las convenciones de la plataforma y de los productos que tus usuarios ya conocen.",
+  "Haz que cada etiqueta, icono y nombre prometa exactamente lo que hace el control.",
+  "Cuando una función necesaria sigue sorprendiendo, rediséñala en lugar de explicarla."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Convenciones",
+  "Etiquetas",
+  "Valores predeterminados",
+  "Coherencia",
+  "Público",
+  "Nombres",
+  "Remedio",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "25 + 1/3 = 5,33",
+  "Sigue a la plataforma",
+  "Di lo que va a pasar",
+  "Valores predeterminados sensatos",
+  "Mismo aspecto, mismo comportamiento",
+  "¿La sorpresa de quién?",
+  "Nombres que encajan con el comportamiento",
+  "Rediseña lo que sorprende",
+  "Vista previa antes de actuar",
+  "Encajar con el modelo mental"
+ ],
+ ".card .desc": [
+  "Por las reglas de precisión de PL/I, 25 + 1/3 podía terminar en un error fatal o, con los errores suprimidos, devolver 5,33 en lugar de 25,33. El lenguaje hacía exactamente lo que decían sus reglas y sorprendía a todo el que lo usaba.",
+  "La gente trae expectativas de todas las demás apps. F1 abre la ayuda en Windows, y pulsar ? muestra los atajos de teclado en Gmail, YouTube y Jira. Reutilizar una convención no cuesta nada aprenderla.",
+  "Un botón o un enlace debe decir exactamente qué esperar. Un botón Descargar que abre un formulario de registro, o un botón Continuar que cobra una tarjeta, rompe la promesa y la confianza que la acompaña.",
+  "La función parseInt de JavaScript leía antes '08' como octal por el cero inicial, un comportamiento predeterminado que causó años de errores hasta que ECMAScript 5 lo eliminó. Un valor predeterminado debe coincidir con lo que quiere decir la mayoría.",
+  "Lo que se parece debe comportarse igual. Dos botones idénticos que hacen cosas distintas, o un deslizamiento que archiva en una pantalla y borra en otra, sorprenden cada vez.",
+  "Lo que menos sorprende depende de quién lo use. Quien usa la línea de comandos espera las convenciones de opciones de Unix, quien usa Windows espera sus atajos y quien empieza no espera ninguna de las dos. Diseña para el público que tienes de verdad.",
+  "Las funciones y los métodos deben hacer lo que prometen sus nombres, sin efectos secundarios que el nombre no sugiera. Lo mismo vale para las interfaces: un interruptor llamado Notificaciones no debería también darte de baja del correo.",
+  "El corolario: si una función necesaria tiene un alto factor de sorpresa, puede ser necesario rediseñarla. Las pruebas de usabilidad muestran la sorpresa directamente: dudas, clics repetidos y un «espera, ¿qué ha pasado?».",
+  "Un asistente que reserva, envía o borra por su cuenta puede sorprender de formas difíciles de deshacer. Di qué va a pasar, muestra una vista previa y pregunta antes de actuar.",
+  "La gente trata a un asistente como a una persona, un buscador o una línea de comandos, según a qué se parezca. Explica desde el principio sus capacidades y límites para que su comportamiento encaje con el modelo que trae la gente."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el principio",
+  "El comportamiento sigue reglas internas",
+  "Los usuarios ya conocen las reglas",
+  "Atajos, gestos y controles",
+  "Existe una convención de la plataforma",
+  "La convención no sirve a tus usuarios",
+  "Botones, enlaces y elementos de menú",
+  "Redactar etiquetas de acción",
+  "El resultado es realmente desconocido",
+  "Ajustes, formularios y API",
+  "Elegir un valor predeterminado",
+  "Ningún valor sirve a la mayoría",
+  "Sistemas de diseño y componentes",
+  "Los controles se parecen",
+  "La diferencia está bien señalada",
+  "Productos con públicos mixtos",
+  "Los usuarios vienen de plataformas distintas",
+  "Todos comparten la misma formación",
+  "API, ajustes e interruptores",
+  "Nombrar funciones o controles",
+  "Un nombre no puede reflejar el comportamiento",
+  "Pruebas de usabilidad y revisiones",
+  "Los usuarios dudan o deshacen",
+  "La sorpresa es un detalle buscado",
+  "Sorpresa → vista previa",
+  "La IA actúa por el usuario",
+  "Acciones sin vista previa ni deshacer",
+  "Misterio → capacidades explicadas",
+  "Presentar una función de IA",
+  "Un campo vacío sin ninguna pista"
+ ],
+ ".ai-divider h3": [
+  "La menor sorpresa en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede dar una respuesta distinta a la misma pregunta y realizar acciones que nadie pidió. La previsibilidad hay que diseñarla."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Prinzip der geringsten <em>Überraschung</em>"
+ ],
+ "header .tagline": [
+  "Tun Sie, <em>was Menschen erwarten</em>."
+ ],
+ "header .subtitle": [
+  "Eine Komponente sollte sich so verhalten, wie die meisten ihrer Nutzer es erwarten. Jede Überraschung kostet Aufmerksamkeit und Vertrauen. Folgen Sie also den Konventionen, die Menschen bereits kennen, wählen Sie sinnvolle Standardwerte und lassen Sie jedes Bedienelement das tun, wonach es aussieht."
+ ],
+ ".law-origin .body-text": [
+  "Ein früher Hinweis auf ein „Law of Least Astonishment“ erschien 1967 im PL/I Bulletin. IBMs PL/I war berüchtigt dafür, es zu verletzen: Wegen seiner Genauigkeitsregeln konnte 25 + 1/3 mit einem fatalen Fehler abbrechen oder 5,33 statt 25,33 liefern. Gedruckt erschien das Gesetz erstmals 1972 in einem Artikel über Systemprogrammiersprachen von Bergeron, Gannon, Shecter, Tompa und van Dam, der forderte, dass sich jedes Konstrukt genau so verhält, wie seine Syntax es nahelegt.",
+  "<a href=\"people.html#p-eric-s-raymond\">Eric S. Raymond</a> machte daraus die Rule of Least Surprise in The Art of Unix Programming (2003): Orientieren Sie sich an funktional ähnlichen Programmen, die Ihre Nutzer schon kennen. <a href=\"people.html#p-joshua-bloch\">Joshua Bloch</a> wandte es 2006 auf API-Design an. Im Interface-Design wird es oft in einem Lehrbuchsatz zusammengefasst: Menschen sind Teil des Systems, und das Design sollte zu ihrer Erfahrung, ihren Erwartungen und ihren mentalen Modellen passen."
+ ],
+ ".law-content .law-desc": [
+  "Eine Komponente sollte sich so verhalten, wie die meisten ihrer Nutzer es erwarten. Weichen Verhalten und Erwartung voneinander ab, ändern Sie das Verhalten statt der Nutzer: Folgen Sie etablierten Konventionen, wählen Sie sinnvolle Standardwerte und lassen Sie jedes Bedienelement das tun, was sein Aussehen verspricht."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "PL/I Bulletin (1967) · gedruckt 1972",
+  "Principle of Least Surprise",
+  "Dem entsprechen, was Nutzer schon erwarten"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Bedienelemente, Tastenkürzel oder Gesten, für die es bereits etablierte Konventionen gibt.",
+  "Sie wählen Standardwerte, Beschriftungen oder Namen für Funktionen, Einstellungen und APIs.",
+  "Nutzer zögern, machen Aktionen rückgängig oder sagen, dass sie nicht erwartet haben, was passiert ist.",
+  "Übernehmen Sie Konventionen der Plattform und der Produkte, die Ihre Nutzer bereits kennen.",
+  "Sorgen Sie dafür, dass jede Beschriftung, jedes Symbol und jeder Name genau verspricht, was das Element tut.",
+  "Wenn eine notwendige Funktion immer wieder überrascht, gestalten Sie sie neu, statt sie zu erklären."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Konventionen",
+  "Beschriftungen",
+  "Standardwerte",
+  "Konsistenz",
+  "Zielgruppe",
+  "Benennung",
+  "Abhilfe",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "25 + 1/3 = 5,33",
+  "Der Plattform folgen",
+  "Sagen, was passiert",
+  "Sinnvolle Standardwerte",
+  "Gleiches Aussehen, gleiches Verhalten",
+  "Wessen Überraschung?",
+  "Namen, die zum Verhalten passen",
+  "Das Überraschende neu gestalten",
+  "Vorschau vor dem Handeln",
+  "Zum mentalen Modell passen"
+ ],
+ ".card .desc": [
+  "Wegen der Genauigkeitsregeln von PL/I konnte 25 + 1/3 mit einem fatalen Fehler abbrechen oder, bei unterdrückten Fehlern, 5,33 statt 25,33 liefern. Die Sprache tat genau, was ihre Regeln sagten, und überraschte alle, die sie benutzten.",
+  "Menschen bringen Erwartungen aus allen anderen Apps mit. F1 öffnet unter Windows die Hilfe, und ? zeigt in Gmail, YouTube und Jira die Tastenkürzel. Eine Konvention zu übernehmen kostet Nutzer keinen Lernaufwand.",
+  "Ein Button oder Link sollte genau sagen, was zu erwarten ist. Ein Download-Button, der ein Registrierungsformular öffnet, oder ein Weiter-Button, der eine Karte belastet, bricht das Versprechen und das Vertrauen gleich mit.",
+  "JavaScripts parseInt las '08' früher wegen der führenden Null als Oktalzahl, ein Standardverhalten, das jahrelang Fehler verursachte, bis ECMAScript 5 es abschaffte. Ein Standardwert sollte dem entsprechen, was die meisten meinen.",
+  "Was gleich aussieht, sollte sich gleich verhalten. Zwei identische Buttons mit unterschiedlicher Wirkung oder eine Wischgeste, die auf einem Bildschirm archiviert und auf einem anderen löscht, überraschen jedes Mal.",
+  "Was am wenigsten überrascht, hängt davon ab, wer es benutzt. Kommandozeilennutzer erwarten Unix-Konventionen für Optionen, Windows-Nutzer dessen Tastenkürzel und Einsteiger keins von beidem. Gestalten Sie für die Zielgruppe, die Sie tatsächlich haben.",
+  "Funktionen und Methoden sollten tun, was ihr Name verspricht, ohne Nebenwirkungen, die der Name nicht andeutet. Für Oberflächen gilt dasselbe: Ein Schalter namens Benachrichtigungen sollte nicht auch noch vom E-Mail-Newsletter abmelden.",
+  "Die Folgerung: Hat eine notwendige Funktion einen hohen Überraschungsfaktor, muss sie unter Umständen neu gestaltet werden. Usability-Tests zeigen Überraschung direkt: Zögern, wiederholte Klicks und ein „Moment, was ist passiert?“.",
+  "Ein Assistent, der eigenständig bucht, sendet oder löscht, kann auf schwer umkehrbare Weise überraschen. Sagen Sie, was passieren wird, zeigen Sie eine Vorschau und fragen Sie vor dem Handeln.",
+  "Menschen behandeln einen Assistenten wie eine Person, ein Suchfeld oder eine Kommandozeile, je nachdem, wem er ähnelt. Nennen Sie Fähigkeiten und Grenzen von Anfang an, damit sein Verhalten zum Modell der Menschen passt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Das Prinzip erklären",
+  "Verhalten folgt internen Regeln",
+  "Nutzer kennen die Regeln bereits",
+  "Tastenkürzel, Gesten und Bedienelemente",
+  "Es gibt eine Plattformkonvention",
+  "Die Konvention passt nicht zu Ihren Nutzern",
+  "Buttons, Links und Menüeinträge",
+  "Aktionsbeschriftungen schreiben",
+  "Das Ergebnis ist wirklich unbekannt",
+  "Einstellungen, Formulare und APIs",
+  "Einen Standardwert wählen",
+  "Kein Standardwert passt für die meisten",
+  "Designsysteme und Komponenten",
+  "Bedienelemente sehen sich ähnlich",
+  "Der Unterschied ist klar erkennbar",
+  "Produkte mit gemischten Zielgruppen",
+  "Nutzer kommen von verschiedenen Plattformen",
+  "Alle haben denselben Hintergrund",
+  "APIs, Einstellungen und Schalter",
+  "Funktionen oder Bedienelemente benennen",
+  "Ein Name kann das Verhalten nicht erfassen",
+  "Usability-Tests und Reviews",
+  "Nutzer zögern oder machen rückgängig",
+  "Die Überraschung ist bewusst als Freude gedacht",
+  "Überraschung → Vorschau",
+  "KI handelt für den Nutzer",
+  "Aktionen ohne Vorschau oder Rückgängig",
+  "Rätsel → genannte Fähigkeiten",
+  "Eine KI-Funktion einführen",
+  "Ein leeres Eingabefeld ohne Hinweise"
+ ],
+ ".ai-divider h3": [
+  "Geringste Überraschung im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann auf dieselbe Frage unterschiedlich antworten und Aktionen ausführen, um die niemand gebeten hat. Vorhersehbarkeit muss gestaltet werden."
+ ]
+}

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" data-page="alarm-fatigue">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=74','script');pl('i18n/'+eff+'/alarm-fatigue.json?v=37','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.">
+<title>Alarm Fatigue: When Too Many Alerts Get Ignored — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/alarm-fatigue.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/alarm-fatigue.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/fatiga-de-alarmas.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/alarmmudigkeit.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/fatigue-des-alarmes.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/alarm-fatigue.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/alarm-fatigue.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/alarm-fatigue.html">
+<meta property="og:title" content="Alarm Fatigue: When Too Many Alerts Get Ignored — UX Guidelines">
+<meta property="og:description" content="People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/alarm-fatigue.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/alarm-fatigue.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/alarm-fatigue.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alarm Fatigue: When Too Many Alerts Get Ignored — UX Guidelines">
+<meta name="twitter:description" content="People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Alarm Fatigue: When Too Many Alerts Get Ignored", "description": "People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.", "url": "https://www.ux-guidelines.com/alarm-fatigue.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/alarm-fatigue.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Design Actions And Controls"}, {"@type": "ListItem", "position": 3, "name": "Alarm Fatigue: When Too Many Alerts Get Ignored", "item": "https://www.ux-guidelines.com/alarm-fatigue.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=128"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link active">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Alarm <em>Fatigue</em></h1>
+  <p class="tagline">When everything is urgent, <em>nothing is</em>.</p>
+  <p class="subtitle">People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The idea is as old as the boy who cried wolf: when warnings keep proving false, people stop responding. Construction crews tune out back-up alarms, and in hospitals the monitors on ventilators, pumps, and hearts sound so often, mostly for minor reasons, that staff become desensitized.</p>
+    <p class="body-text">The cost became impossible to ignore in healthcare. The FDA cataloged 566 alarm-related deaths between 2005 and 2008, ECRI Institute named alarms the top health technology hazard for 2014, and after a 2013 sentinel event alert the Joint Commission made alarm safety a National Patient Safety Goal. In the 2009 Washington Metro collision, dispatchers had been receiving about 8,000 track-circuit alerts a week.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Problem</div>
+    <p class="body-text law-desc">Alarm fatigue is the desensitization that sets in when people receive frequent alerts, most of them false or unimportant. Each false alarm teaches people that alerts can be ignored, until a real one is ignored too.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">Healthcare and safety engineering</div></div>
+      <div><div class="label">Also called</div><div class="value">Alert fatigue</div></div>
+      <div><div class="label">In practice</div><div class="value">Fewer, more reliable, actionable alerts</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Designing notifications, alerts, warnings, or confirmation dialogs.</li>
+      <li>A monitoring system or dashboard raises more alerts than people can act on.</li>
+      <li>Users dismiss, mute, or disable alerts without reading them.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Cut false and low-value alerts before adding new ones.</li>
+      <li>Separate severity levels, and reserve interruptions for critical events.</li>
+      <li>Make every alert say what happened and what to do, and let people tune thresholds.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Crying Wolf -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Crying Wolf</h3>
+      <p class="desc">Every false alarm teaches people that alerts can be ignored. In hospitals, monitors that sound constantly for minor reasons led ECRI Institute to name alarms the number one health technology hazard for 2014.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M18 58Q18 36 30 36Q42 36 42 58H18Z" class="gh"/><circle cx="30" cy="62" r="3" class="gh"/><path d="M50 58Q50 36 62 36Q74 36 74 58H50Z" class="gh"/><circle cx="62" cy="62" r="3" class="gh"/><path d="M82 58Q82 36 94 36Q106 36 106 58H82Z" class="gh"/><circle cx="94" cy="62" r="3" class="gh"/><path d="M114 58Q114 36 126 36Q138 36 138 58H114Z" class="gh"/><circle cx="126" cy="62" r="3" class="gh"/><path d="M146 58Q146 36 158 36Q170 36 170 58H146Z" class="gh"/><circle cx="158" cy="62" r="3" class="gh"/><path d="M178 58Q178 36 190 36Q202 36 202 58H178Z" class="gh"/><circle cx="190" cy="62" r="3" class="gh"/><path d="M98 100Q98 78 110 78Q122 78 122 100H98Z" class="a"/><circle cx="110" cy="104" r="3" class="a"/><text x="110" y="116" text-anchor="middle" class="t">real</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the problem</div></div>
+      <div><div class="label">Use when</div><div class="value">Most alerts are false or minor</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Alerts are rare and reliable</div></div>
+    </div>
+  </article>
+  <!-- 2. People Match the Hit Rate -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Reliability</span>
+      <span class="num">02 / 10</span>
+      <h3>People Match the Hit Rate</h3>
+      <p class="desc">In a 1995 study, people responded to alarms at roughly the rate the alarms turned out to be true: the less reliable the alarm, the less often they acted. Cut false positives before adding alerts.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><path d="M20 100L200 20" class="lg"/><circle cx="20" cy="100" r="4" class="a"/><circle cx="56" cy="84" r="4" class="a"/><circle cx="92" cy="68" r="4" class="a"/><circle cx="128" cy="52" r="4" class="a"/><circle cx="164" cy="36" r="4" class="a"/><circle cx="200" cy="20" r="4" class="a"/><text x="170" y="112" text-anchor="middle" class="t">reliability</text><text x="30" y="30" text-anchor="start" class="t">response</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Monitoring and alerting systems</div></div>
+      <div><div class="label">Use when</div><div class="value">Alerts are often wrong</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every alert is verified</div></div>
+    </div>
+  </article>
+  <!-- 3. Eight Thousand a Week -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Volume</span>
+      <span class="num">03 / 10</span>
+      <h3>Eight Thousand a Week</h3>
+      <p class="desc">Before the 2009 Washington Metro collision, dispatchers were getting about 8,000 track-circuit alerts a week. Investigators concluded that the extremely high rate would have left them thoroughly desensitized.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="14" y="14" width="8" height="8" rx="2" class="b"/><rect x="26" y="14" width="8" height="8" rx="2" class="b"/><rect x="38" y="14" width="8" height="8" rx="2" class="b"/><rect x="50" y="14" width="8" height="8" rx="2" class="b"/><rect x="62" y="14" width="8" height="8" rx="2" class="b"/><rect x="74" y="14" width="8" height="8" rx="2" class="b"/><rect x="86" y="14" width="8" height="8" rx="2" class="b"/><rect x="98" y="14" width="8" height="8" rx="2" class="b"/><rect x="110" y="14" width="8" height="8" rx="2" class="b"/><rect x="122" y="14" width="8" height="8" rx="2" class="b"/><rect x="134" y="14" width="8" height="8" rx="2" class="b"/><rect x="146" y="14" width="8" height="8" rx="2" class="b"/><rect x="158" y="14" width="8" height="8" rx="2" class="b"/><rect x="170" y="14" width="8" height="8" rx="2" class="b"/><rect x="182" y="14" width="8" height="8" rx="2" class="b"/><rect x="194" y="14" width="8" height="8" rx="2" class="b"/><rect x="14" y="26" width="8" height="8" rx="2" class="b"/><rect x="26" y="26" width="8" height="8" rx="2" class="b"/><rect x="38" y="26" width="8" height="8" rx="2" class="b"/><rect x="50" y="26" width="8" height="8" rx="2" class="b"/><rect x="62" y="26" width="8" height="8" rx="2" class="b"/><rect x="74" y="26" width="8" height="8" rx="2" class="b"/><rect x="86" y="26" width="8" height="8" rx="2" class="b"/><rect x="98" y="26" width="8" height="8" rx="2" class="b"/><rect x="110" y="26" width="8" height="8" rx="2" class="b"/><rect x="122" y="26" width="8" height="8" rx="2" class="b"/><rect x="134" y="26" width="8" height="8" rx="2" class="b"/><rect x="146" y="26" width="8" height="8" rx="2" class="b"/><rect x="158" y="26" width="8" height="8" rx="2" class="b"/><rect x="170" y="26" width="8" height="8" rx="2" class="b"/><rect x="182" y="26" width="8" height="8" rx="2" class="b"/><rect x="194" y="26" width="8" height="8" rx="2" class="b"/><rect x="14" y="38" width="8" height="8" rx="2" class="b"/><rect x="26" y="38" width="8" height="8" rx="2" class="b"/><rect x="38" y="38" width="8" height="8" rx="2" class="b"/><rect x="50" y="38" width="8" height="8" rx="2" class="b"/><rect x="62" y="38" width="8" height="8" rx="2" class="b"/><rect x="74" y="38" width="8" height="8" rx="2" class="b"/><rect x="86" y="38" width="8" height="8" rx="2" class="b"/><rect x="98" y="38" width="8" height="8" rx="2" class="b"/><rect x="110" y="38" width="8" height="8" rx="2" class="b"/><rect x="122" y="38" width="8" height="8" rx="2" class="b"/><rect x="134" y="38" width="8" height="8" rx="2" class="b"/><rect x="146" y="38" width="8" height="8" rx="2" class="b"/><rect x="158" y="38" width="8" height="8" rx="2" class="b"/><rect x="170" y="38" width="8" height="8" rx="2" class="b"/><rect x="182" y="38" width="8" height="8" rx="2" class="b"/><rect x="194" y="38" width="8" height="8" rx="2" class="b"/><rect x="14" y="50" width="8" height="8" rx="2" class="b"/><rect x="26" y="50" width="8" height="8" rx="2" class="b"/><rect x="38" y="50" width="8" height="8" rx="2" class="b"/><rect x="50" y="50" width="8" height="8" rx="2" class="b"/><rect x="62" y="50" width="8" height="8" rx="2" class="b"/><rect x="74" y="50" width="8" height="8" rx="2" class="b"/><rect x="86" y="50" width="8" height="8" rx="2" class="b"/><rect x="98" y="50" width="8" height="8" rx="2" class="b"/><rect x="110" y="50" width="8" height="8" rx="2" class="b"/><rect x="122" y="50" width="8" height="8" rx="2" class="b"/><rect x="134" y="50" width="8" height="8" rx="2" class="b"/><rect x="146" y="50" width="8" height="8" rx="2" class="b"/><rect x="158" y="50" width="8" height="8" rx="2" class="b"/><rect x="170" y="50" width="8" height="8" rx="2" class="b"/><rect x="182" y="50" width="8" height="8" rx="2" class="b"/><rect x="194" y="50" width="8" height="8" rx="2" class="b"/><rect x="14" y="62" width="8" height="8" rx="2" class="b"/><rect x="26" y="62" width="8" height="8" rx="2" class="b"/><rect x="38" y="62" width="8" height="8" rx="2" class="b"/><rect x="50" y="62" width="8" height="8" rx="2" class="b"/><rect x="62" y="62" width="8" height="8" rx="2" class="b"/><rect x="74" y="62" width="8" height="8" rx="2" class="b"/><rect x="86" y="62" width="8" height="8" rx="2" class="b"/><rect x="98" y="62" width="8" height="8" rx="2" class="b"/><rect x="110" y="62" width="8" height="8" rx="2" class="b"/><rect x="122" y="62" width="8" height="8" rx="2" class="b"/><rect x="134" y="62" width="8" height="8" rx="2" class="b"/><rect x="146" y="62" width="8" height="8" rx="2" class="b"/><rect x="158" y="62" width="8" height="8" rx="2" class="b"/><rect x="170" y="62" width="8" height="8" rx="2" class="b"/><rect x="182" y="62" width="8" height="8" rx="2" class="b"/><rect x="194" y="62" width="8" height="8" rx="2" class="b"/><rect x="14" y="74" width="8" height="8" rx="2" class="b"/><rect x="26" y="74" width="8" height="8" rx="2" class="b"/><rect x="38" y="74" width="8" height="8" rx="2" class="b"/><rect x="50" y="74" width="8" height="8" rx="2" class="b"/><rect x="62" y="74" width="8" height="8" rx="2" class="b"/><rect x="74" y="74" width="8" height="8" rx="2" class="b"/><rect x="86" y="74" width="8" height="8" rx="2" class="b"/><rect x="98" y="74" width="8" height="8" rx="2" class="b"/><rect x="110" y="74" width="8" height="8" rx="2" class="b"/><rect x="122" y="74" width="8" height="8" rx="2" class="b"/><rect x="134" y="74" width="8" height="8" rx="2" class="b"/><rect x="146" y="74" width="8" height="8" rx="2" class="b"/><rect x="158" y="74" width="8" height="8" rx="2" class="b"/><rect x="170" y="74" width="8" height="8" rx="2" class="b"/><rect x="182" y="74" width="8" height="8" rx="2" class="b"/><rect x="194" y="74" width="8" height="8" rx="2" class="b"/><rect x="14" y="86" width="8" height="8" rx="2" class="b"/><rect x="26" y="86" width="8" height="8" rx="2" class="b"/><rect x="38" y="86" width="8" height="8" rx="2" class="b"/><rect x="50" y="86" width="8" height="8" rx="2" class="b"/><rect x="62" y="86" width="8" height="8" rx="2" class="b"/><rect x="74" y="86" width="8" height="8" rx="2" class="b"/><rect x="86" y="86" width="8" height="8" rx="2" class="b"/><rect x="98" y="86" width="8" height="8" rx="2" class="b"/><rect x="110" y="86" width="8" height="8" rx="2" class="b"/><rect x="122" y="86" width="8" height="8" rx="2" class="b"/><rect x="134" y="86" width="8" height="8" rx="2" class="b"/><rect x="146" y="86" width="8" height="8" rx="2" class="b"/><rect x="158" y="86" width="8" height="8" rx="2" class="b"/><rect x="170" y="86" width="8" height="8" rx="2" class="b"/><rect x="182" y="86" width="8" height="8" rx="2" class="b"/><rect x="194" y="86" width="8" height="8" rx="2" class="b"/><rect x="98" y="62" width="8" height="8" rx="2" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Operations and support dashboards</div></div>
+      <div><div class="label">Use when</div><div class="value">Alert volume exceeds what people can check</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Volume is low and each alert is actionable</div></div>
+    </div>
+  </article>
+  <!-- 4. Tier the Alerts -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Severity</span>
+      <span class="num">04 / 10</span>
+      <h3>Tier the Alerts</h3>
+      <p class="desc">Not every alert deserves an interruption. Separate critical, warning, and informational levels with distinct treatment, and reserve sound, motion, and modals for the critical ones.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="14" width="160" height="24" rx="5" class="a"/><rect x="30" y="46" width="160" height="24" rx="5" class="g"/><rect x="30" y="78" width="160" height="24" rx="5" class="b"/><text x="110" y="30" text-anchor="middle" class="t">critical</text><text x="110" y="62" text-anchor="middle" class="t">warning</text><text x="110" y="94" text-anchor="middle" class="t">info</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Alert and notification systems</div></div>
+      <div><div class="label">Use when</div><div class="value">Alerts differ in urgency</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Every alert is equally critical</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="von-restorff-effect.html">Von Restorff Effect</a></div>
+    </div>
+  </article>
+  <!-- 5. Notification Overload -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Notifications</span>
+      <span class="num">05 / 10</span>
+      <h3>Notification Overload</h3>
+      <p class="desc">Push notifications, badges, and emails sent for engagement train people to dismiss them, or to turn them all off. Let people choose categories and frequency, and send fewer, better notifications.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="78" y="6" width="64" height="108" rx="8" class="ol"/><rect x="84" y="16" width="52" height="10" rx="3" class="a"/><rect x="84" y="29" width="52" height="10" rx="3" class="b"/><rect x="84" y="42" width="52" height="10" rx="3" class="b"/><rect x="84" y="55" width="52" height="10" rx="3" class="b"/><rect x="84" y="68" width="52" height="10" rx="3" class="b"/><rect x="84" y="81" width="52" height="10" rx="3" class="b"/><rect x="84" y="94" width="52" height="10" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Push notifications, badges, and email</div></div>
+      <div><div class="label">Use when</div><div class="value">Engagement goals push for more sends</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Each notification was requested</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="hook-model.html">Hook Model</a></div>
+    </div>
+  </article>
+  <!-- 6. Over-Warning Says Nothing -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Warnings</span>
+      <span class="num">06 / 10</span>
+      <h3>Over-Warning Says Nothing</h3>
+      <p class="desc">California’s Proposition 65 labels appear on so many products that they communicate little. Are-you-sure dialogs on every action get clicked through by habit. Warn only when the consequences are real, and offer undo instead.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="30" width="38" height="60" rx="4" class="ol"/><path d="M39 44L49 62H29Z" class="g"/><rect x="66" y="30" width="38" height="60" rx="4" class="ol"/><path d="M85 44L95 62H75Z" class="g"/><rect x="112" y="30" width="38" height="60" rx="4" class="ol"/><path d="M131 44L141 62H121Z" class="g"/><rect x="158" y="30" width="38" height="60" rx="4" class="ol"/><path d="M177 44L187 62H167Z" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Confirmations and warning labels</div></div>
+      <div><div class="label">Use when</div><div class="value">The action is reversible</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The action is destructive and permanent</div></div>
+    </div>
+  </article>
+  <!-- 7. Make Every Alert Actionable -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Content</span>
+      <span class="num">07 / 10</span>
+      <h3>Make Every Alert Actionable</h3>
+      <p class="desc">An alert should say what happened, why it matters, and what to do next. Group duplicates, allow snoozing, and let thresholds be tuned, as the Joint Commission recommended for hospital alarm settings.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="22" width="172" height="76" rx="6" class="ol"/><rect x="24" y="22" width="6" height="76" rx="3" class="a"/><rect x="42" y="34" width="140" height="5" rx="2.5" class="b"/><rect x="42" y="44" width="84" height="5" rx="2.5" class="b"/><rect x="42" y="70" width="60" height="16" rx="8" class="a"/><rect x="110" y="70" width="50" height="16" rx="8" class="ol"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Alert content and settings</div></div>
+      <div><div class="label">Use when</div><div class="value">Alerts lack context</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The alert itself is the instruction</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="change-blindness.html">Change Blindness</a></div>
+    </div>
+  </article>
+  <!-- 8. Track the Response Rate -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Measurement</span>
+      <span class="num">08 / 10</span>
+      <h3>Track the Response Rate</h3>
+      <p class="desc">If people ignore or dismiss most alerts, the system is broken, not the people. Measure how many alerts lead to action, and retire the ones that never do.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="30" y="20" width="22" height="80" rx="3" class="b"/><rect x="30" y="90" width="22" height="10" rx="3" class="a"/><rect x="64" y="30" width="22" height="70" rx="3" class="b"/><rect x="64" y="92" width="22" height="8" rx="3" class="a"/><rect x="98" y="40" width="22" height="60" rx="3" class="b"/><rect x="98" y="88" width="22" height="12" rx="3" class="a"/><rect x="132" y="36" width="22" height="64" rx="3" class="b"/><rect x="132" y="94" width="22" height="6" rx="3" class="a"/><rect x="166" y="24" width="22" height="76" rx="3" class="b"/><rect x="166" y="91" width="22" height="9" rx="3" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Alert governance and reviews</div></div>
+      <div><div class="label">Use when</div><div class="value">Alerts accumulate over time</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Alerts are new and untested</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Alarm Fatigue in the Age of AI</h3>
+    <p>AI can watch everything at once, and it will flag everything at once unless it is tuned not to.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="6" class="gh"/><circle cx="46" cy="24" r="6" class="gh"/><circle cx="68" cy="24" r="6" class="gh"/><circle cx="90" cy="24" r="6" class="gh"/><circle cx="112" cy="24" r="6" class="gh"/><circle cx="134" cy="24" r="6" class="gh"/><circle cx="156" cy="24" r="6" class="gh"/><circle cx="178" cy="24" r="6" class="gh"/><circle cx="200" cy="24" r="6" class="gh"/><circle cx="24" cy="46" r="6" class="gh"/><circle cx="46" cy="46" r="6" class="gh"/><circle cx="68" cy="46" r="6" class="gh"/><circle cx="90" cy="46" r="6" class="gh"/><circle cx="112" cy="46" r="6" class="a"/><circle cx="134" cy="46" r="6" class="gh"/><circle cx="156" cy="46" r="6" class="gh"/><circle cx="178" cy="46" r="6" class="gh"/><circle cx="200" cy="46" r="6" class="gh"/><circle cx="24" cy="68" r="6" class="gh"/><circle cx="46" cy="68" r="6" class="gh"/><circle cx="68" cy="68" r="6" class="gh"/><circle cx="90" cy="68" r="6" class="gh"/><circle cx="112" cy="68" r="6" class="gh"/><circle cx="134" cy="68" r="6" class="gh"/><circle cx="156" cy="68" r="6" class="gh"/><circle cx="178" cy="68" r="6" class="gh"/><circle cx="200" cy="68" r="6" class="gh"/><circle cx="24" cy="90" r="6" class="gh"/><circle cx="46" cy="90" r="6" class="gh"/><circle cx="68" cy="90" r="6" class="gh"/><circle cx="90" cy="90" r="6" class="gh"/><circle cx="112" cy="90" r="6" class="gh"/><circle cx="134" cy="90" r="6" class="gh"/><circle cx="156" cy="90" r="6" class="gh"/><circle cx="178" cy="90" r="6" class="gh"/><circle cx="200" cy="90" r="6" class="gh"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>AI Flags Everything</h3>
+      <p class="desc">Models that watch code, transactions, or systems for problems often favor catching everything, which produces floods of low-confidence alerts. Tune for precision, show confidence, and batch the low-priority findings.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Recall → precision</div></div>
+      <div><div class="label">Use when</div><div class="value">AI monitors code, security, or transactions</div></div>
+      <div><div class="label">Watch for</div><div class="value">Every low-confidence flag interrupts</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="16" width="180" height="26" rx="5" class="ol"/><rect x="30" y="22" width="110" height="5" rx="2.5" class="b"/><rect x="30" y="32" width="90" height="4" rx="2" class="g"/><rect x="20" y="48" width="180" height="26" rx="5" class="ol"/><rect x="30" y="54" width="110" height="5" rx="2.5" class="b"/><rect x="30" y="64" width="90" height="4" rx="2" class="g"/><rect x="20" y="80" width="180" height="26" rx="5" class="ol"/><rect x="30" y="86" width="110" height="5" rx="2.5" class="b"/><rect x="30" y="96" width="90" height="4" rx="2" class="g"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Caveats Nobody Reads</h3>
+      <p class="desc">An assistant that adds the same disclaimer to every answer teaches people to skip disclaimers, including the one that matters. Reserve warnings for answers where the risk is real.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Blanket disclaimers → targeted warnings</div></div>
+      <div><div class="label">Use when</div><div class="value">AI answers carry real risk</div></div>
+      <div><div class="label">Watch for</div><div class="value">The same caveat on every answer</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1080/00140139508925269" target="_blank" rel="noopener"><span class="title">Human Probability Matching Behaviour in Response to Alarms of Varying Reliability — Bliss, Gilson and Deaton, 1995</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://psnet.ahrq.gov/primer/alert-fatigue" target="_blank" rel="noopener"><span class="title">Alert Fatigue — AHRQ Patient Safety Network</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Alarm_fatigue" target="_blank" rel="noopener"><span class="title">Alarm Fatigue</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Alarm_management" target="_blank" rel="noopener"><span class="title">Alarm Management</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/June_2009_Washington_Metro_train_collision" target="_blank" rel="noopener"><span class="title">June 2009 Washington Metro Train Collision</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Alarm Fatigue</div>
+</footer>
+
+</body>
+</html>

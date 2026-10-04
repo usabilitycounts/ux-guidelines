@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Veränderungs<em>blindheit</em>"
+ ],
+ "header .tagline": [
+  "Ist die Aufmerksamkeit woanders, <em>hat die Änderung nie stattgefunden</em>."
+ ],
+ "header .subtitle": [
+  "Menschen übersehen erstaunlich große Änderungen, wenn sie während eines Blinzelns, eines Neuladens, eines Schnitts oder einer Ablenkung geschehen. Oberflächen, die sich an Ort und Stelle ändern, ohne zu zeigen, was sich geändert hat, lassen Nutzer auf einen neuen Bildschirm blicken, den sie für den alten halten."
+ ],
+ ".law-origin .body-text": [
+  "1890 bemerkte William James, dass wir weit weniger von einer Szene wahrnehmen, als wir glauben. Filmeditoren lernten es in der Praxis: Anschlussfehler zwischen Einstellungen, etwa ein Glas, das sich wieder füllt, oder ein Schal, der die Farbe wechselt, entgehen dem Publikum regelmäßig. In den 1970er Jahren zeigte George McConkie, dass Wörter, die während einer Augenbewegung geändert wurden, oft unbemerkt blieben.",
+  "Der Begriff setzte sich 1997 durch. <a href=\"people.html#p-ronald-a-rensink\">Ronald Rensink</a>, Kevin O'Regan und James Clark zeigten, dass große Änderungen an einem Foto unbemerkt blieben, wenn ein kurzer leerer Bildschirm die beiden Versionen trennte, und <a href=\"people.html#p-daniel-simons\">Daniel Simons</a> und Daniel Levin benannten den Effekt und fassten die Forschung zusammen. In einer Feldstudie von 1998 tauschten Simons und Levin einen Fremden, der nach dem Weg fragte, mitten im Gespräch gegen eine andere Person aus, und etwa die Hälfte der Befragten bemerkte es nicht."
+ ],
+ ".law-content .law-desc": [
+  "Menschen bemerken eine Änderung nur, wenn ihre Aufmerksamkeit in dem Moment, in dem sie geschieht, auf dem Geänderten liegt. Geschieht die Änderung während eines Blinzelns, eines Neuladens, eines Schnitts oder einer Ablenkung, kann selbst ein großer Unterschied unbemerkt bleiben, während der Betrachter sicher ist, er hätte ihn gesehen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Quelle",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ronald-a-rensink\">Rensink</a>, O'Regan und Clark (1997)",
+  "Psychological Science, 1997",
+  "Zeigen Sie, was sich geändert hat, dort, wo der Nutzer hinsieht"
+ ],
+ ".apply-list li": [
+  "Inhalte aktualisieren sich nach dem Speichern, nach einem Filter oder durch eine Aktualisierung im Hintergrund.",
+  "Ein Bildschirm ändert sich, während der Nutzer woanders hinsieht, etwa beim Neuladen oder hinter einem Modal.",
+  "Menschen beobachten Dashboards, Warteschlangen oder Feeds auf Statusänderungen.",
+  "Aktualisieren Sie an Ort und Stelle statt neu zu laden, und behalten Sie Scrollposition und Fokus bei.",
+  "Markieren Sie geänderte Elemente mit einer kurzen Hervorhebung oder Animation nahe der Stelle, auf die der Nutzer blickt.",
+  "Ergänzen Sie bei wichtigen Änderungen einen dauerhaften Hinweis oder ein Protokoll, denn eine flüchtige Hervorhebung kann trotzdem übersehen werden."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Seitenaufbau",
+  "Feedback",
+  "Layout",
+  "Störung",
+  "Dashboards",
+  "Auswahl",
+  "Konzept",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Verborgen durch ein Flackern",
+  "Neuladen löscht den Unterschied",
+  "Hervorheben, was sich geändert hat",
+  "Aus den Augen, aus dem Sinn",
+  "Ablenkungen verdecken Änderungen",
+  "Stille Statusänderungen",
+  "Wahlblindheit",
+  "Selbstsicher und falsch",
+  "Änderungen, die durchrutschen",
+  "Antworten, die sich an Ort und Stelle ändern"
+ ],
+ ".card .desc": [
+  "Beim Flicker-Paradigma wechselt ein Foto mit einer leicht veränderten Kopie ab, getrennt durch einen kurzen leeren Bildschirm. Selbst große Änderungen können viele Durchgänge brauchen, manchmal über eine Minute. Änderungen an wichtigen Bildteilen werden schneller gefunden.",
+  "Ein vollständiges Neuladen leert den Bildschirm, dieselbe Störung wie beim Flackern. Wer einen Filter anwendet oder ein Formular speichert, kann übersehen, was sich geändert hat. Aktualisieren Sie an Ort und Stelle und behalten Sie die Scrollposition bei.",
+  "Eine kurze Hervorhebung einer aktualisierten Zeile, eines Feldes oder einer Summe lenkt den Blick dorthin, wo die Änderung geschah. Lassen Sie sie ausblenden, damit der Bildschirm wieder zur Ruhe kommt.",
+  "Änderungen fern vom Blickpunkt, etwa ein Badge in der Kopfzeile oder eine Summe oben in einem langen Formular, bleiben oft unbemerkt. Platzieren Sie Feedback neben dem Bedienelement, das es ausgelöst hat.",
+  "In den Mudsplash-Studien reichten kleine Flecken, die im Moment der Änderung an anderer Stelle erschienen, um sie zu verbergen, ganz ohne leeren Bildschirm. Gleichzeitige Animationen, Werbung und Pop-ups wirken genauso.",
+  "Eine Kachel, die zwischen Dutzenden anderen rot wird, übersieht man leicht, wenn gerade niemand hinsah. Nutzen Sie Warnungen, dauerhafte Änderungsmarker und ein Protokoll der Änderungen.",
+  "Johansson und Hall ließen Personen das attraktivere von zwei Gesichtern wählen und reichten ihnen heimlich das andere. Nur etwa ein Viertel bemerkte es, und viele begründeten eine Wahl, die sie nicht getroffen hatten. Ein klarer Bestätigungsschritt deckt die Abweichung auf.",
+  "Menschen überschätzen, wie gut sie Änderungen erkennen, ein Befund namens Change Blindness Blindness. Designer machen denselben Fehler bei ihren eigenen Bildschirmen. Prüfen Sie also, ob Nutzer etwas bemerkt haben, statt zu fragen, ob sie es würden.",
+  "Wenn KI ein Dokument oder einen Codeblock umschreibt, sieht eine geänderte Zahl oder ein gestrichener Satz aus wie der Rest. Zeigen Sie einen Diff, markieren Sie geänderte Stellen und lassen Sie Änderungen einzeln annehmen.",
+  "Eine neu generierte oder verfeinerte Antwort, die die vorige ersetzt, verbirgt, was anders ist. Bewahren Sie frühere Versionen auf und heben Sie hervor, was sich geändert hat."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Ein leerer Bildschirm trennt zwei Zustände",
+  "Die Änderung ist an Ort und Stelle animiert",
+  "Filtern, Speichern und Sortieren",
+  "Eine Aktion lädt die ganze Seite neu",
+  "Die ganze Seite soll sich ändern",
+  "Gespeicherte Änderungen und Live-Updates",
+  "Inhalte ändern sich nach einer Aktion",
+  "Änderungen sind ständig und Hervorhebungen werden zu Rauschen",
+  "Feedback und Status platzieren",
+  "Feedback erscheint weit weg von der Aktion",
+  "Der Nutzer wird zur Änderung geführt",
+  "Volle, animierte Bildschirme",
+  "Mehreres bewegt sich gleichzeitig",
+  "Die Änderung ist die einzige Bewegung",
+  "Überwachungs- und Betriebsbildschirme",
+  "Werte ändern sich unbeobachtet",
+  "Jemand beobachtet jeden Wert",
+  "Prüf- und Bestätigungsschritte",
+  "Optionen sehen sich ähnlich",
+  "Entscheidungen lassen sich mühelos rückgängig machen",
+  "Usability-Tests planen",
+  "Ein Team hält eine Änderung für offensichtlich",
+  "Die Änderung wurde mit Nutzern getestet",
+  "Umschreiben → Änderungen nachverfolgen",
+  "KI bearbeitet vorhandene Inhalte",
+  "Den ganzen Text stillschweigend ersetzen",
+  "Neu generieren → vergleichen",
+  "Antworten werden neu generiert oder verfeinert",
+  "Die alte Antwort verschwindet spurlos"
+ ],
+ ".ai-divider h3": [
+  "Veränderungsblindheit im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI schreibt Inhalte um, generiert sie neu und aktualisiert sie an Ort und Stelle. Je mehr sie auf einmal ändert, desto leichter übersieht man die eine Änderung, auf die es ankommt."
+ ]
+}

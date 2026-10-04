@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Alarm <em>Fatigue</em>"
+ ],
+ "header .tagline": [
+  "When everything is urgent, <em>nothing is</em>."
+ ],
+ "header .subtitle": [
+  "People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest."
+ ],
+ ".law-origin .body-text": [
+  "The idea is as old as the boy who cried wolf: when warnings keep proving false, people stop responding. Construction crews tune out back-up alarms, and in hospitals the monitors on ventilators, pumps, and hearts sound so often, mostly for minor reasons, that staff become desensitized.",
+  "The cost became impossible to ignore in healthcare. The FDA cataloged 566 alarm-related deaths between 2005 and 2008, ECRI Institute named alarms the top health technology hazard for 2014, and after a 2013 sentinel event alert the Joint Commission made alarm safety a National Patient Safety Goal. In the 2009 Washington Metro collision, dispatchers had been receiving about 8,000 track-circuit alerts a week."
+ ],
+ ".law-content .law-desc": [
+  "Alarm fatigue is the desensitization that sets in when people receive frequent alerts, most of them false or unimportant. Each false alarm teaches people that alerts can be ignored, until a real one is ignored too."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Healthcare and safety engineering",
+  "Alert fatigue",
+  "Fewer, more reliable, actionable alerts"
+ ],
+ ".apply-list li": [
+  "Designing notifications, alerts, warnings, or confirmation dialogs.",
+  "A monitoring system or dashboard raises more alerts than people can act on.",
+  "Users dismiss, mute, or disable alerts without reading them.",
+  "Cut false and low-value alerts before adding new ones.",
+  "Separate severity levels, and reserve interruptions for critical events.",
+  "Make every alert say what happened and what to do, and let people tune thresholds."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Reliability",
+  "Volume",
+  "Severity",
+  "Notifications",
+  "Warnings",
+  "Content",
+  "Measurement",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Crying Wolf",
+  "People Match the Hit Rate",
+  "Eight Thousand a Week",
+  "Tier the Alerts",
+  "Notification Overload",
+  "Over-Warning Says Nothing",
+  "Make Every Alert Actionable",
+  "Track the Response Rate",
+  "AI Flags Everything",
+  "Caveats Nobody Reads"
+ ],
+ ".card .desc": [
+  "Every false alarm teaches people that alerts can be ignored. In hospitals, monitors that sound constantly for minor reasons led ECRI Institute to name alarms the number one health technology hazard for 2014.",
+  "In a 1995 study, people responded to alarms at roughly the rate the alarms turned out to be true: the less reliable the alarm, the less often they acted. Cut false positives before adding alerts.",
+  "Before the 2009 Washington Metro collision, dispatchers were getting about 8,000 track-circuit alerts a week. Investigators concluded that the extremely high rate would have left them thoroughly desensitized.",
+  "Not every alert deserves an interruption. Separate critical, warning, and informational levels with distinct treatment, and reserve sound, motion, and modals for the critical ones.",
+  "Push notifications, badges, and emails sent for engagement train people to dismiss them, or to turn them all off. Let people choose categories and frequency, and send fewer, better notifications.",
+  "California’s Proposition 65 labels appear on so many products that they communicate little. Are-you-sure dialogs on every action get clicked through by habit. Warn only when the consequences are real, and offer undo instead.",
+  "An alert should say what happened, why it matters, and what to do next. Group duplicates, allow snoozing, and let thresholds be tuned, as the Joint Commission recommended for hospital alarm settings.",
+  "If people ignore or dismiss most alerts, the system is broken, not the people. Measure how many alerts lead to action, and retire the ones that never do.",
+  "Models that watch code, transactions, or systems for problems often favor catching everything, which produces floods of low-confidence alerts. Tune for precision, show confidence, and batch the low-priority findings.",
+  "An assistant that adds the same disclaimer to every answer teaches people to skip disclaimers, including the one that matters. Reserve warnings for answers where the risk is real."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the problem",
+  "Most alerts are false or minor",
+  "Alerts are rare and reliable",
+  "Monitoring and alerting systems",
+  "Alerts are often wrong",
+  "Every alert is verified",
+  "Operations and support dashboards",
+  "Alert volume exceeds what people can check",
+  "Volume is low and each alert is actionable",
+  "Alert and notification systems",
+  "Alerts differ in urgency",
+  "Every alert is equally critical",
+  "Push notifications, badges, and email",
+  "Engagement goals push for more sends",
+  "Each notification was requested",
+  "Confirmations and warning labels",
+  "The action is reversible",
+  "The action is destructive and permanent",
+  "Alert content and settings",
+  "Alerts lack context",
+  "The alert itself is the instruction",
+  "Alert governance and reviews",
+  "Alerts accumulate over time",
+  "Alerts are new and untested",
+  "Recall → precision",
+  "AI monitors code, security, or transactions",
+  "Every low-confidence flag interrupts",
+  "Blanket disclaimers → targeted warnings",
+  "AI answers carry real risk",
+  "The same caveat on every answer"
+ ],
+ ".ai-divider h3": [
+  "Alarm Fatigue in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can watch everything at once, and it will flag everything at once unless it is tuned not to."
+ ]
+}

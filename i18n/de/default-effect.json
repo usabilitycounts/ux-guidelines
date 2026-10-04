@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Default-<em>Effekt</em>"
+ ],
+ "header .tagline": [
+  "Die meisten <em>behalten, was man ihnen gibt</em>."
+ ],
+ "header .subtitle": [
+  "Was passiert, wenn Menschen nichts tun, ist die Option, bei der die meisten landen. Eine Voreinstellung zu wählen heißt, für die Mehrheit zu wählen, also verdient sie so viel Sorgfalt wie die Funktion selbst."
+ ],
+ ".law-origin .body-text": [
+  "1988 dokumentierten die Ökonomen William Samuelson und Richard Zeckhauser den Status-quo-Bias: Menschen bleiben überproportional beim bestehenden Zustand. 2001 stellten Brigitte Madrian und Dennis Shea fest, dass die Teilnahme stark stieg, als ein Unternehmen neue Beschäftigte automatisch in seinen Altersvorsorgeplan aufnahm, und viele beim voreingestellten Beitragssatz und Fonds blieben.",
+  "2003 verglichen Eric Johnson und Daniel Goldstein die Organspende in Europa: Länder, in denen man Spender ist, sofern man nicht widerspricht, hatten weit höhere Zustimmungsraten als Länder, in denen man aktiv zustimmen muss. Voreinstellungen wurden zum verlässlichsten Werkzeug der Nudge-Theorie und zu dem, das kritischer Prüfung am besten standhält."
+ ],
+ ".law-content .law-desc": [
+  "Der Default-Effekt ist die Neigung, die vorausgewählte Option anzunehmen. Er wirkt über Aufwand, denn nichts zu tun ist am einfachsten; über Verlustaversion, denn die Voreinstellung wird zum Bezugspunkt; und über implizite Empfehlung, denn Menschen lesen eine Voreinstellung als Rat."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Samuelson und Zeckhauser (1988) · Johnson und Goldstein (2003)",
+  "Status-quo-Bias",
+  "Vorauswählen, was den meisten Nutzern dient"
+ ],
+ ".apply-list li": [
+  "Sie legen Anfangswerte für Einstellungen, Formulare, Tarife und Datenschutzoptionen fest.",
+  "Die meisten werden die Einstellung nie wieder aufrufen.",
+  "Eine Wahl hat Folgen, über die Menschen selten nachdenken, etwa Datenweitergabe oder Verlängerungen.",
+  "Wählen Sie die Option vor, die den meisten Nutzern dient, nicht die, die nur dem Unternehmen nützt.",
+  "Machen Sie Voreinstellungen gut sichtbar und leicht änderbar.",
+  "Gehen Präferenzen weit auseinander, nutzen Sie personalisierte Voreinstellungen oder verlangen Sie eine aktive Wahl."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Aufnahme",
+  "Warum",
+  "Einstellungen",
+  "Arten",
+  "Datenschutz",
+  "Verlängerungen",
+  "Ethik",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Widerspruch oder Zustimmung",
+  "Automatische Aufnahme",
+  "Drei Gründe, warum Voreinstellungen bleiben",
+  "Die meisten Einstellungen ändern sich nie",
+  "Pauschal, intelligent und dauerhaft",
+  "Datenschutz durch Voreinstellung",
+  "Automatische Verlängerung ist eine Voreinstellung",
+  "Voreinstellungen sind Entscheidungen",
+  "Von KI gewählte Voreinstellungen",
+  "Training ist eine Voreinstellung"
+ ],
+ ".card .desc": [
+  "Länder, in denen Bürger Organspender sind, sofern sie nicht widersprechen, haben weit höhere Zustimmungsraten als Länder, in denen man aktiv zustimmen muss. Die Wahl ist dieselbe; nur die Voreinstellung unterscheidet sich.",
+  "Als neue Beschäftigte in einen Altersvorsorgeplan aufgenommen wurden, sofern sie nicht ablehnten, stieg die Teilnahme sprunghaft, und viele behielten jahrelang Beitragssatz und Fonds der Voreinstellung. Eine gute Voreinstellung leistet so viel wie tausend Erinnerungen.",
+  "Eine Voreinstellung zu ändern kostet Mühe. Die Voreinstellung wird zum Bezugspunkt, sodass ein Wechsel sich wie ein Verlust anfühlt. Und Menschen nehmen an, dass sie aus gutem Grund gewählt wurde, was wie eine Empfehlung wirkt.",
+  "Die Voreinstellungen, die Sie ausliefern, sind das Erlebnis der meisten Menschen. Viele entdecken nie, dass es Alternativen gibt, etwa die versteckte Auswahl an Klingeltönen auf einem Telefon. Behandeln Sie jede Voreinstellung als Designentscheidung, nicht als Nebensache.",
+  "Pauschale Voreinstellungen sind für alle gleich. Intelligente nutzen, was bekannt ist, etwa den Standort für die Währung. Dauerhafte merken sich die letzte Wahl, adaptive passen sich dem Verhalten an. Wählen Sie die Art danach, wie stark Präferenzen variieren.",
+  "Voreinstellungen zur Datenweitergabe entscheiden, was die meisten teilen. Artikel 25 der DSGVO verlangt Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen, also sollte die schützende Option vorausgewählt sein.",
+  "Die automatische Verlängerung ist eine Voreinstellung, die weiter abbucht. Zeigen Sie das Verlängerungsdatum, erinnern Sie vor der Abbuchung, und machen Sie das Abschalten so leicht wie das Einschalten.",
+  "Weil die meisten sie übernehmen, sind Voreinstellungen Entscheidungen, die für die Nutzer getroffen werden. Es gibt keine neutrale Option, also wählen Sie die, die Menschen mit genug Zeit und Information selbst wählen würden.",
+  "Modelle können für jede Person eine eigene Voreinstellung vorhersagen: die vorgeschlagene Antwort, die Einstellung, den Tarif. Zeigen Sie, dass sie für die Person gewählt wurde, erklären Sie warum, und halten Sie die Alternativen einen Tipp entfernt.",
+  "Ob Kundendaten zum Training von KI-Modellen genutzt werden, ist selbst eine Voreinstellung, und die meisten ändern sie nie. Zeigen Sie die Einstellung in dem Moment, in dem die Daten erhoben werden."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Eine Wahl ist als Zustimmung oder Widerspruch gestaltet",
+  "Alle entscheiden aktiv",
+  "Leistungen, Programme und Anmeldungen",
+  "Die Teilnahme nützt dem Nutzer klar",
+  "Die Aufnahme verpflichtet zu unerwarteten Kosten",
+  "Nutzerverhalten verstehen",
+  "Ein Redesign ändert, was vorausgewählt ist",
+  "Nutzer vergleichen jede Option aktiv",
+  "Einstellungs- und Präferenzbildschirme",
+  "Eine neue Einstellung ausliefern",
+  "Power-User passen alles an",
+  "Formulare und Kasse",
+  "Präferenzen variieren je nach Kontext",
+  "Die Nutzung persönlicher Daten würde aufdringlich wirken",
+  "Datenschutz- und Freigabeeinstellungen",
+  "Personenbezogene Daten erheben",
+  "Teilen ist der offensichtliche Zweck des Produkts",
+  "Abonnements und Abrechnung",
+  "Tarife verlängern sich automatisch",
+  "Die Verlängerung würde überraschen",
+  "Design-Reviews und Audits",
+  "Eine beliebige Voreinstellung festlegen",
+  "Nie: Jede Voreinstellung ist eine Wahl",
+  "Eine Voreinstellung → vorhergesagte Voreinstellungen",
+  "KI wählt Optionen vor",
+  "Voreinstellungen, die niemand sieht oder erklären kann",
+  "Versteckte Einstellung → sichtbare Wahl",
+  "Kundendaten für KI nutzen",
+  "Alle stillschweigend einbeziehen"
+ ],
+ ".ai-divider h3": [
+  "Der Default-Effekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann für jede Person eine andere Voreinstellung vorhersagen. Das macht Voreinstellungen hilfreicher und mächtiger als je zuvor."
+ ]
+}

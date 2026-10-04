@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Satisficing</em>"
+ ],
+ "header .tagline": [
+  "Menschen nehmen <em>die erste Option, die reicht</em>."
+ ],
+ "header .subtitle": [
+  "Statt nach der besten Option zu suchen, nehmen Menschen die erste, die ihre Messlatte überspringt. Online klicken Nutzer auf den ersten plausiblen Link, also muss die richtige Wahl wie die erste vernünftige aussehen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> prägte das Wort, eine Verbindung aus satisfy und suffice, 1956 und knüpfte an Ideen aus seinem Buch Administrative Behavior (1947) an. Echte Entscheider, so Simon, können die beste Option nicht berechnen, weil Informationen fehlen und die Probleme zu schwer sind. Sie suchen deshalb, bis etwas ein Anspruchsniveau erreicht, und nehmen es.",
+  "Die übergeordnete Idee nannte er begrenzte Rationalität; sie war zentral für die Arbeit, für die er 1978 den Wirtschaftsnobelpreis erhielt. 2002 stellten <a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> und Kollegen Maximierer, die das Beste suchen, den Satisficern gegenüber, die sich mit dem Ausreichenden begnügen, und fanden bei den Maximierern mehr Reue und weniger Zufriedenheit. Steve Krug übertrug die Idee aufs Webdesign: Nutzer treffen keine optimalen Entscheidungen, sie nehmen, was reicht."
+ ],
+ ".law-content .law-desc": [
+  "Satisficing heißt, die erste ausreichende Option zu wählen, statt nach der besten zu suchen. Menschen setzen ein Anspruchsniveau, nehmen die erste Option, die es erfüllt, und senken die Latte, wenn nichts passt. Das ist eine vernünftige Antwort auf knappe Zeit und Information, kein Denkfehler."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> (1956)",
+  "Entscheiden nach dem Prinzip „gut genug“",
+  "Die richtige Option zur ersten plausiblen machen"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Navigation, Menüs oder Suchergebnisse, die Nutzer nach einem Treffer absuchen.",
+  "Nutzer haben viele Optionen und wenig Zeit oder Aufmerksamkeit.",
+  "Menschen brechen Aufgaben ab, bei denen sie vor der Wahl alles vergleichen müssen.",
+  "Lassen Sie die richtige Wahl wie die erste vernünftige aussehen, mit klaren Beschriftungen und der wahrscheinlichsten Option zuerst.",
+  "Machen Sie Fehlgriffe günstig, mit einem einfachen Weg zurück und Rückgängig.",
+  "Bieten Sie eine sinnvolle Voreinstellung oder Empfehlung, damit „gut genug“ auch ein gutes Ergebnis ist."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Navigation",
+  "Korrektur",
+  "Suche",
+  "Umfragen",
+  "Maximierer",
+  "Faustregeln",
+  "Voreinstellungen",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Gut genug schlägt das Beste",
+  "Der erste plausible Link gewinnt",
+  "Raten gefahrlos machen",
+  "Die obersten Treffer gewinnen",
+  "Satisficing in Umfragen",
+  "Maximierer bereuen mehr",
+  "Anspruchsniveaus in der Praxis",
+  "Gut genug gut machen",
+  "Die erste Antwort wird genommen",
+  "Entwürfe, die reichen"
+ ],
+ ".card .desc": [
+  "Simons Modell hat drei Schritte: ein Anspruchsniveau setzen, die erste Option nehmen, die es erfüllt, und das Niveau anpassen, wenn nichts passt. Bei den meisten echten Entscheidungen kostet die Suche nach dem Besten mehr, als sie bringt.",
+  "Nutzer lesen eine Seite nicht und wägen jede Option ab. Sie überfliegen und klicken auf den ersten Link, der zu passen scheint. Beschriftungen müssen sich schnell erfassen lassen und eindeutig sein, denn ein Beinahe-Treffer wird angeklickt.",
+  "Weil Menschen raten, müssen Fehlgriffe billig sein. Ein sichtbarer Weg zurück, Brotkrumen und Rückgängig machen aus einem Fehlgriff einen kleinen Umweg statt einer Sackgasse.",
+  "Menschen wählen aus den ersten Suchergebnissen und schauen selten weiter. Stellen Sie den besten Treffer an den Anfang und zeigen Sie von jedem Ergebnis genug, um es auf einen Blick zu beurteilen.",
+  "Jon Krosnick zeigte, dass Befragte Aufwand sparen: Sie wählen die erste akzeptable Antwort, stimmen Aussagen zu, vergeben in einer Matrix überall dieselbe Bewertung oder antworten „weiß nicht“. Halten Sie Fragebögen kurz und variieren Sie die Formate.",
+  "In Schwartz' Studien berichteten Menschen, die stets das Beste suchen, von weniger Zufriedenheit und mehr Reue als jene, die sich mit Ausreichendem begnügen. Endlose Optionen treiben alle zum Maximieren und zur Reue.",
+  "Eine Studie mit 628 Gebrauchtwagenhändlern ergab, dass 97 Prozent ihre Preise per Satisficing festlegten: in der Mitte der Spanne beginnen und um etwa 3 Prozent senken, wenn das Auto nach 24 Tagen nicht verkauft war. Einfache, an ihre Umgebung angepasste Regeln können aufwendige Optimierung schlagen.",
+  "Weil Menschen die erste akzeptable Option nehmen, haben die Voreinstellung und der erste Eintrag das größte Gewicht. Machen Sie sie zur richtigen Wahl für die meisten, dann führt Satisficing zu guten Ergebnissen.",
+  "Auch bei KI-Antworten nehmen Menschen, was reicht: Eine flüssige, plausible Antwort beendet die Suche, selbst wenn sie falsch ist. Zeigen Sie Zuverlässigkeit und Quellen, damit eine ausreichende Antwort geprüft werden kann, bevor man ihr vertraut.",
+  "KI-Entwürfe werden oft unverändert übernommen, weil sie die Latte überspringen. Machen Sie das Bearbeiten leicht und heben Sie die Stellen hervor, die noch eine menschliche Entscheidung brauchen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Das Prinzip erklären",
+  "Die beste Option ist teuer zu finden",
+  "Viel steht auf dem Spiel und es gibt wenige Optionen",
+  "Menüs, Navigation und Linktexte",
+  "Nutzer suchen einen Treffer",
+  "Nutzer vergleichen sorgfältig, etwa beim Kauf",
+  "Navigation und mehrstufige Abläufe",
+  "Nutzer entscheiden schnell",
+  "Fehler sind teuer und unumkehrbar",
+  "Suche und Empfehlungen",
+  "Ergebnisse sind gerankt",
+  "Nutzer brauchen die vollständige Liste",
+  "Umfragen und Forschungsfragebögen",
+  "Fragebögen sind lang oder eintönig",
+  "Es gibt wenige, ansprechende Fragen",
+  "Auswahlreiche Produkte wie Shopping",
+  "Nutzer vergleichen viele Optionen",
+  "Vergleichen ist der Zweck, etwa in Recherchetools",
+  "Voreinstellungen und einfache Regeln gestalten",
+  "Optimale Antworten sind nicht berechenbar",
+  "Exakte Optimierung ist billig",
+  "Voreinstellungen, Presets und Vorlagen",
+  "Menschen nehmen, was man ihnen gibt",
+  "Keine Option passt für die meisten",
+  "Zehn Links → eine Antwort",
+  "KI beantwortet Fragen direkt",
+  "Flüssige Antworten ohne Quellen",
+  "Schreiben → Entwürfe übernehmen",
+  "KI erzeugt Entwürfe",
+  "Entwürfe veröffentlichen, die niemand geprüft hat"
+ ],
+ ".ai-divider h3": [
+  "Satisficing im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Eine flüssige KI-Antwort überspringt die Latte sofort. Menschen hören früher auf zu suchen, also muss „gut genug“ leicht überprüfbar sein."
+ ]
+}

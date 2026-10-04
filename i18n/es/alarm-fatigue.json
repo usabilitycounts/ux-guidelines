@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Fatiga de <em>alarmas</em>"
+ ],
+ "header .tagline": [
+  "Cuando todo es urgente, <em>nada lo es</em>."
+ ],
+ "header .subtitle": [
+  "Quien recibe alertas frecuentes, casi todas falsas o menores, deja de responder a ellas. Las descarta, las silencia o las esquiva, y la rara alerta crítica recibe el mismo trato que las demás."
+ ],
+ ".law-origin .body-text": [
+  "La idea es tan vieja como el pastorcito mentiroso: cuando los avisos resultan falsos una y otra vez, la gente deja de responder. Los obreros de la construcción dejan de oír las alarmas de marcha atrás, y en los hospitales los monitores de respiradores, bombas y corazón suenan tan a menudo, casi siempre por motivos menores, que el personal se insensibiliza.",
+  "En la sanidad el coste se volvió imposible de ignorar. La FDA registró 566 muertes relacionadas con alarmas entre 2005 y 2008, el ECRI Institute nombró las alarmas el principal riesgo de la tecnología sanitaria para 2014 y, tras una alerta de evento centinela en 2013, la Joint Commission convirtió la seguridad de las alarmas en un objetivo nacional de seguridad del paciente. Antes del choque del metro de Washington en 2009, los controladores recibían unas 8.000 alertas de circuito de vía por semana."
+ ],
+ ".law-content .law-desc": [
+  "La fatiga de alarmas es la insensibilización que aparece cuando se reciben alertas frecuentes, casi todas falsas o sin importancia. Cada falsa alarma enseña que las alertas se pueden ignorar, hasta que también se ignora una real."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Sanidad e ingeniería de seguridad",
+  "Fatiga de alertas",
+  "Alertas menos numerosas, fiables y accionables"
+ ],
+ ".apply-list li": [
+  "Diseñas notificaciones, alertas, avisos o diálogos de confirmación.",
+  "Un sistema de monitorización o un panel genera más alertas de las que se pueden atender.",
+  "Los usuarios descartan, silencian o desactivan las alertas sin leerlas.",
+  "Elimina las alertas falsas y de poco valor antes de añadir otras nuevas.",
+  "Separa los niveles de gravedad y reserva las interrupciones para los eventos críticos.",
+  "Haz que cada alerta diga qué pasó y qué hacer, y deja ajustar los umbrales."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Fiabilidad",
+  "Volumen",
+  "Gravedad",
+  "Notificaciones",
+  "Avisos",
+  "Contenido",
+  "Medición",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Que viene el lobo",
+  "La gente iguala la tasa de aciertos",
+  "Ocho mil por semana",
+  "Escalona las alertas",
+  "Saturación de notificaciones",
+  "Avisar de más no dice nada",
+  "Haz que cada alerta sea accionable",
+  "Mide la tasa de respuesta",
+  "La IA lo señala todo",
+  "Advertencias que nadie lee"
+ ],
+ ".card .desc": [
+  "Cada falsa alarma enseña que las alertas se pueden ignorar. En los hospitales, los monitores que suenan sin parar por motivos menores llevaron al ECRI Institute a nombrar las alarmas el principal riesgo de la tecnología sanitaria para 2014.",
+  "En un estudio de 1995, la gente respondía a las alarmas aproximadamente en la proporción en que resultaban ciertas: cuanto menos fiable la alarma, menos actuaban. Reduce los falsos positivos antes de añadir alertas.",
+  "Antes del choque del metro de Washington en 2009, los controladores recibían unas 8.000 alertas de circuito de vía por semana. Los investigadores concluyeron que esa tasa altísima los habría insensibilizado por completo.",
+  "No toda alerta merece una interrupción. Separa los niveles crítico, aviso e informativo con un tratamiento distinto, y reserva el sonido, el movimiento y los modales para los críticos.",
+  "Las notificaciones push, los distintivos y los correos enviados para generar interacción enseñan a la gente a descartarlos, o a desactivarlos todos. Deja elegir categorías y frecuencia, y envía menos notificaciones, pero mejores.",
+  "Las etiquetas de la Proposición 65 de California aparecen en tantos productos que apenas comunican nada. Los diálogos de «¿Seguro?» en cada acción se aceptan por costumbre. Avisa solo cuando las consecuencias sean reales y ofrece deshacer en su lugar.",
+  "Una alerta debe decir qué pasó, por qué importa y qué hacer a continuación. Agrupa duplicados, permite posponer y deja ajustar los umbrales, como recomendó la Joint Commission para la configuración de alarmas en hospitales.",
+  "Si la gente ignora o descarta la mayoría de las alertas, el que falla es el sistema, no las personas. Mide cuántas alertas llevan a una acción y retira las que nunca lo hacen.",
+  "Los modelos que vigilan código, transacciones o sistemas suelen priorizar no dejar escapar nada, lo que produce aluviones de alertas poco fiables. Ajústalos para la precisión, muestra el nivel de confianza y agrupa los hallazgos de baja prioridad.",
+  "Un asistente que añade la misma advertencia a cada respuesta enseña a saltarse las advertencias, incluida la que importa. Reserva los avisos para las respuestas donde el riesgo es real."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el problema",
+  "La mayoría de las alertas son falsas o menores",
+  "Las alertas son raras y fiables",
+  "Sistemas de monitorización y alertas",
+  "Las alertas fallan a menudo",
+  "Cada alerta se verifica",
+  "Paneles de operaciones y soporte",
+  "El volumen supera lo que se puede revisar",
+  "El volumen es bajo y cada alerta es accionable",
+  "Sistemas de alertas y notificaciones",
+  "Las alertas difieren en urgencia",
+  "Todas las alertas son igual de críticas",
+  "Notificaciones push, distintivos y correo",
+  "Los objetivos de interacción empujan a enviar más",
+  "Cada notificación fue solicitada",
+  "Confirmaciones y etiquetas de advertencia",
+  "La acción es reversible",
+  "La acción es destructiva y permanente",
+  "Contenido y ajustes de las alertas",
+  "Las alertas carecen de contexto",
+  "La propia alerta es la instrucción",
+  "Gobierno y revisión de alertas",
+  "Las alertas se acumulan con el tiempo",
+  "Las alertas son nuevas y no se han probado",
+  "Exhaustividad → precisión",
+  "La IA vigila código, seguridad o transacciones",
+  "Cada aviso poco fiable interrumpe",
+  "Advertencias genéricas → avisos específicos",
+  "Las respuestas de la IA conllevan un riesgo real",
+  "La misma advertencia en cada respuesta"
+ ],
+ ".ai-divider h3": [
+  "La fatiga de alarmas en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede vigilarlo todo a la vez, y lo señalará todo a la vez si no se ajusta para evitarlo."
+ ]
+}

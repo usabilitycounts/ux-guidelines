@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Change <em>Blindness</em>"
+ ],
+ "header .tagline": [
+  "If attention is elsewhere, <em>the change never happened</em>."
+ ],
+ "header .subtitle": [
+  "People miss surprisingly large changes when they happen during a blink, a reload, a cut, or a distraction. Interfaces that change in place without showing what changed leave users looking at a new screen while believing it is the old one."
+ ],
+ ".law-origin .body-text": [
+  "In 1890 William James observed that we take in far less of a scene than we feel we do. Film editors learned it in practice: continuity errors between shots, such as a glass that refills or a scarf that changes color, routinely slip past audiences. In the 1970s George McConkie showed that words changed during a reader’s eye movement often went unnoticed.",
+  "The term took hold in 1997. <a href=\"people.html#p-ronald-a-rensink\">Ronald Rensink</a>, Kevin O’Regan, and James Clark showed that large changes to a photograph went unseen when a brief blank separated the two versions, and <a href=\"people.html#p-daniel-simons\">Daniel Simons</a> and Daniel Levin named and reviewed the effect. In a 1998 field study, Simons and Levin swapped a stranger asking for directions for a different person mid-conversation, and about half the people did not notice."
+ ],
+ ".law-content .law-desc": [
+  "People notice a change only when their attention is on the thing that changed at the moment it changes. If the change happens during a blink, a reload, a cut, or a distraction, even a large difference can go unseen, while the viewer feels sure they would have caught it."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Source",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ronald-a-rensink\">Rensink</a>, O’Regan and Clark (1997)",
+  "Psychological Science, 1997",
+  "Show what changed, where the user is looking"
+ ],
+ ".apply-list li": [
+  "Content updates after a save, a filter, or a background refresh.",
+  "A screen changes while the user is looking somewhere else, such as during a reload or behind a modal.",
+  "People monitor dashboards, queues, or feeds for changes in status.",
+  "Update in place instead of reloading, and keep the user’s scroll position and focus.",
+  "Mark changed items with a brief highlight or animation near where the user is looking.",
+  "For important changes, add a persistent cue or a log, since a passing highlight can still be missed."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Page loads",
+  "Feedback",
+  "Layout",
+  "Noise",
+  "Dashboards",
+  "Choice",
+  "Concept",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Hidden by a Flicker",
+  "Reloads Erase the Difference",
+  "Highlight What Changed",
+  "Out of Sight, Out of Mind",
+  "Distractions Mask Change",
+  "Silent Status Changes",
+  "Choice Blindness",
+  "Confident and Wrong",
+  "Edits That Slip Past",
+  "Answers That Update in Place"
+ ],
+ ".card .desc": [
+  "In the flicker task, a photo alternates with a slightly altered copy, separated by a brief blank. Even large changes can take many cycles to find, sometimes more than a minute. Changes to the parts people care about are found faster.",
+  "A full reload blanks the screen, which is the same disruption as the flicker. People who apply a filter or save a form can miss what changed. Update in place and keep the scroll position.",
+  "A brief highlight on an updated row, field, or total draws attention to where the change happened. Let it fade, so the screen settles back to normal.",
+  "Changes far from where the user is looking, such as a badge in the header or a total at the top of a long form, often go unseen. Put feedback next to the control that caused it.",
+  "In the mudsplash studies, small blobs that appeared at the moment of change, away from it, were enough to hide it without any blank. Simultaneous animations, ads, and pop-ups do the same.",
+  "A tile that turns red among dozens of others is easy to miss when nobody was watching it at that moment. Use alerts, persistent change markers, and a log of what changed.",
+  "Johansson and Hall asked people to pick the more attractive of two faces, then secretly handed them the other one. Only about a quarter noticed, and many explained a choice they had not made. A clear confirmation step catches the mismatch.",
+  "People overestimate how well they detect changes, a finding called change blindness blindness. Designers make the same mistake about their own screens, so test whether users noticed instead of asking whether they would.",
+  "When AI rewrites a document or a block of code, a changed number or a deleted clause looks just like the rest. Show a diff, mark the changed spans, and let people accept changes one by one.",
+  "A regenerated or refined answer that replaces the previous one hides what is different. Keep earlier versions, and highlight what changed between them."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "A blank separates two states",
+  "The change is animated in place",
+  "Filters, saves, and sorting",
+  "An action reloads the whole page",
+  "The whole page is meant to change",
+  "Saved edits and live updates",
+  "Content changes after an action",
+  "Changes are constant and highlights become noise",
+  "Placing feedback and status",
+  "Feedback appears far from the action",
+  "The user is guided to the change",
+  "Busy, animated screens",
+  "Several things move at once",
+  "The change is the only motion",
+  "Monitoring and operations screens",
+  "Values update while unattended",
+  "Someone watches every value",
+  "Review and confirmation steps",
+  "Options look similar",
+  "Choices are trivial to undo",
+  "Planning usability tests",
+  "A team assumes a change is obvious",
+  "The change was tested with users",
+  "Rewrite → tracked changes",
+  "AI edits existing content",
+  "Silently replacing the whole text",
+  "Regenerate → compare",
+  "Answers are regenerated or refined",
+  "The old answer vanishes without a trace"
+ ],
+ ".ai-divider h3": [
+  "Change Blindness in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI rewrites, regenerates, and updates content in place. The more it changes at once, the easier it is to miss the one change that matters."
+ ]
+}

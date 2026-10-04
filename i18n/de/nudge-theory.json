@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Nudge-<em>Theorie</em>"
+ ],
+ "header .tagline": [
+  "Die bessere Wahl <em>zur leichteren machen</em>."
+ ],
+ "header .subtitle": [
+  "Ein Nudge verändert den Rahmen einer Entscheidung so, dass die bequeme, automatische Wahl die bessere ist, während alle Optionen offen bleiben. Er wirkt auf Gewohnheiten statt auf Argumente, was ihn wirksam, billig und leicht missbrauchbar macht."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> und <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> machten die Idee 2008 mit ihrem Buch Nudge berühmt, auch wenn der Kybernetiker James Wilk den Begriff schon früher verwendet hatte. Ein Nudge, schrieben sie, verändert Verhalten vorhersehbar, ohne eine Option zu verbieten oder Anreize wesentlich zu verändern, und er muss leicht und billig zu umgehen sein. Obst auf Augenhöhe zählt dazu, ein Verbot von Junkfood nicht.",
+  "Regierungen griffen die Idee schnell auf. Großbritannien gründete 2010 das Behavioural Insights Team, die erste Nudge Unit, und ähnliche Einheiten folgten in Australien, Kanada, Deutschland, Japan, bei der Weltbank und der Europäischen Kommission. Die Belege sind umstritten: Eine Metaanalyse von 2021 berichtete echte Effekte, eine Reanalyse von 2022 fand nach Korrektur des Publikationsbias keine Belege, und die eigenen Studien von Nudge Units zeigten weit kleinere Effekte als veröffentlichte Arbeiten."
+ ],
+ ".law-content .law-desc": [
+  "Ein Nudge verändert den Kontext einer Wahl so, dass schnelles, gewohnheitsmäßiges Denken bei der besseren Option landet, ohne Alternativen zu verbieten oder Anreize stark zu verändern. Voreinstellungen, Platzierung, Erinnerungen und das Zeigen, was andere tun, sind die üblichen Hebel."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> und <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Nudging, Verhaltensökonomik",
+  "Leicht und billig zu umgehen"
+ ],
+ ".apply-list li": [
+  "Sie wollen etwas fördern, das Menschen ohnehin vorhaben, etwa Sparen, eine Einrichtung abschließen oder ein Konto absichern.",
+  "Menschen handeln im Moment der Wahl aus Gewohnheit oder auf Autopilot.",
+  "Vorschriften oder Anreize wären zu bevormundend oder zu teuer.",
+  "Nutzen Sie die wichtigsten Hebel: Voreinstellungen, Auffälligkeit, sozialen Beweis, gut getimte Erinnerungen und weniger Reibung.",
+  "Halten Sie jeden Nudge leicht und billig umgehbar und offen in dem, was er tut.",
+  "Testen Sie Nudges mit Ihren eigenen Nutzern, denn veröffentlichte Effekte überschätzen die echten oft."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Auffälligkeit",
+  "Sozialer Beweis",
+  "Reibung",
+  "Zeitpunkt",
+  "Belege",
+  "Personalisierung",
+  "Ethik",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Fliege im Urinal",
+  "Die bessere Option in Reichweite rücken",
+  "Zeigen, was andere tun",
+  "Es leicht machen",
+  "Im richtigen Moment anstoßen",
+  "Kleiner als versprochen",
+  "Ein Nudge passt nicht für alle",
+  "Nudge statt Sludge",
+  "Personalisierte Nudges im großen Maßstab",
+  "Zum Prüfen anstoßen"
+ ],
+ ".card .desc": [
+  "Der Amsterdamer Flughafen Schiphol ließ eine Fliege in die Urinale ätzen, um das Zielen zu verbessern. Es ist der meistzitierte Nudge: eine kleine Änderung der Umgebung, die auf automatisches Verhalten wirkt, ganz ohne Anweisung.",
+  "In Snackläden an niederländischen Bahnhöfen stiegen die Verkäufe von Obst und gesunden Snacks, als man sie neben die Kasse stellte. In einer Oberfläche heißt das, die empfohlene Aktion dorthin zu setzen, wo die Aufmerksamkeit schon ist.",
+  "Wer unsicher ist, schaut auf andere. Wie viele Nachbarn pünktlich zahlen oder welchen Tarif die meisten Kunden wählen, kann Verhalten verändern, solange es stimmt und die Norm es wert ist, ihr zu folgen.",
+  "Das Behavioural Insights Team fasst seinen Ansatz als EAST zusammen: Easy, Attractive, Social, Timely, also leicht, attraktiv, sozial und zur rechten Zeit. Einen Schritt aus einem Ablauf zu entfernen bewirkt oft mehr als jede Überzeugungsarbeit.",
+  "Eine Erinnerung wirkt, wenn sie in einem Moment kommt, in dem man handeln kann. Schlagen Sie ein Backup vor, wenn das Gerät lädt, nicht mitten in einer Aufgabe.",
+  "Eine Auswertung der Studien zweier Nudge Units fand Effekte, die nur etwa ein Sechstel so groß waren wie in Fachzeitschriften, und eine Reanalyse von 2022 fand nach Korrektur des Publikationsbias insgesamt keine Belege. Voreinstellungen halten meist stand; viele andere Nudges sind schwach.",
+  "Menschen reagieren sehr unterschiedlich auf denselben Nudge. Forschung legt nahe, dass auf individuelle Unterschiede zugeschnittene Nudges besser wirken als eine Botschaft für alle, also segmentieren und testen Sie.",
+  "Thaler nennt Reibung, die gute Entscheidungen erschwert, Sludge, etwa ein Kündigungslabyrinth. Ein Nudge muss transparent und leicht zu umgehen sein; dient er dem Unternehmen gegen den Nutzer, ist er ein Dark Pattern.",
+  "KI kann Hinweise und Angebote auf Gewohnheiten und Stimmungen jedes Einzelnen zuschneiden, was Nudges wirksamer und schwerer erkennbar machen kann. Halten Sie sie transparent, und lassen Sie Menschen sehen, warum ihnen etwas gezeigt wurde.",
+  "Kleine Hinweise können übermäßigem Vertrauen in KI entgegenwirken: ein Link zum Prüfen der Quellen, eine Bestätigung vor riskanten Aktionen, das Hervorheben unsicherer Stellen. Nutzen Sie Nudges, um dort zu bremsen, wo die KI wahrscheinlich irrt."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Theorie erklären",
+  "Das Verhalten ist automatisch",
+  "Menschen brauchen Informationen zur Entscheidung",
+  "Platzierung von Aktionen und Angeboten",
+  "Eine Option dient Nutzern besser",
+  "Alle Optionen sind gleich gut",
+  "Onboarding, Erinnerungen und Tarifwahl",
+  "Das gewünschte Verhalten ist verbreitet",
+  "Die Norm ist niedrig, und sie zu zeigen schadet",
+  "Abläufe und Formulare",
+  "Ein Verhalten ist gewollt, wird aber nicht umgesetzt",
+  "Reibung schützt Nutzer vor Fehlern",
+  "Benachrichtigungen und Erinnerungen",
+  "Das Verhalten hat einen natürlichen Moment",
+  "Die Erinnerung würde unterbrechen",
+  "Experimente planen",
+  "Sich auf veröffentlichte Ergebnisse verlassen",
+  "Die Effekte wurden mit Ihren Nutzern getestet",
+  "Produkte mit vielfältigen Nutzern",
+  "Reaktionen unterscheiden sich je Gruppe",
+  "Die Nutzung persönlicher Daten würde aufdringlich wirken",
+  "Design-Reviews und Audits",
+  "Unternehmensziele wirken gegen Nutzer",
+  "Nie: Transparenz ist Pflicht",
+  "Ein Nudge → einer pro Person",
+  "KI personalisiert Hinweise oder Angebote",
+  "Nudges, die man weder sieht noch ablehnen kann",
+  "Übernehmen → prüfen",
+  "KI-Ergebnisse brauchen menschliche Kontrolle",
+  "Reibung bei jeder einzelnen Antwort"
+ ],
+ ".ai-divider h3": [
+  "Nudge-Theorie im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann einen Nudge auf die Gewohnheiten jedes Einzelnen zuschneiden, und sie braucht eigene Nudges, damit Menschen ihre Arbeit weiter prüfen."
+ ]
+}

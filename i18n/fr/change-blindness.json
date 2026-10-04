@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Cécité</em> au changement"
+ ],
+ "header .tagline": [
+  "Si l'attention est ailleurs, <em>le changement n'a jamais eu lieu</em>."
+ ],
+ "header .subtitle": [
+  "On rate des changements étonnamment importants lorsqu'ils surviennent pendant un clignement, un rechargement, une coupe ou une distraction. Une interface qui change sur place sans montrer ce qui a changé laisse l'utilisateur devant un nouvel écran qu'il croit être l'ancien."
+ ],
+ ".law-origin .body-text": [
+  "En 1890, William James observait que nous percevons bien moins d'une scène que nous ne le croyons. Les monteurs de cinéma l'ont appris par la pratique : les erreurs de raccord entre deux plans, comme un verre qui se remplit ou une écharpe qui change de couleur, échappent souvent au public. Dans les années 1970, George McConkie a montré que des mots modifiés pendant un mouvement des yeux passaient souvent inaperçus.",
+  "Le terme s'impose en 1997. <a href=\"people.html#p-ronald-a-rensink\">Ronald Rensink</a>, Kevin O'Regan et James Clark montrent que de grands changements sur une photo passent inaperçus lorsqu'un bref écran vide sépare les deux versions, et <a href=\"people.html#p-daniel-simons\">Daniel Simons</a> et Daniel Levin nomment et passent en revue l'effet. Dans une étude de terrain de 1998, Simons et Levin remplacent en pleine conversation un inconnu demandant son chemin par une autre personne : environ la moitié des gens ne remarquent rien."
+ ],
+ ".law-content .law-desc": [
+  "On ne remarque un changement que si l'attention est portée sur ce qui change au moment où cela change. Si le changement survient pendant un clignement, un rechargement, une coupe ou une distraction, même une grande différence peut passer inaperçue, alors que l'observateur est sûr qu'il l'aurait vue."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Source",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ronald-a-rensink\">Rensink</a>, O'Regan et Clark (1997)",
+  "Psychological Science, 1997",
+  "Montrer ce qui a changé, là où l'utilisateur regarde"
+ ],
+ ".apply-list li": [
+  "Le contenu se met à jour après un enregistrement, un filtre ou une actualisation en arrière-plan.",
+  "Un écran change pendant que l'utilisateur regarde ailleurs, par exemple lors d'un rechargement ou derrière une fenêtre modale.",
+  "Des personnes surveillent des tableaux de bord, des files ou des flux pour repérer des changements d'état.",
+  "Mettez à jour sur place plutôt que de recharger, et conservez la position de défilement et le focus.",
+  "Signalez les éléments modifiés par une brève mise en évidence ou une animation près de l'endroit où l'utilisateur regarde.",
+  "Pour les changements importants, ajoutez un repère persistant ou un historique : une mise en évidence passagère peut encore être manquée."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Chargement",
+  "Retour",
+  "Mise en page",
+  "Bruit",
+  "Tableaux de bord",
+  "Choix",
+  "Concept",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Caché par un clignotement",
+  "Le rechargement efface la différence",
+  "Mettre en évidence ce qui a changé",
+  "Loin des yeux, loin de l’esprit",
+  "Les distractions masquent le changement",
+  "Des changements d’état silencieux",
+  "La cécité au choix",
+  "Sûr de soi et dans l’erreur",
+  "Des modifications qui passent inaperçues",
+  "Des réponses mises à jour sur place"
+ ],
+ ".card .desc": [
+  "Dans la tâche du clignotement, une photo alterne avec une copie légèrement modifiée, séparées par un bref écran vide. Même de grands changements peuvent demander de nombreux cycles, parfois plus d'une minute. Les changements sur ce qui intéresse les gens sont trouvés plus vite.",
+  "Un rechargement complet vide l'écran, la même perturbation que le clignotement. Après avoir appliqué un filtre ou enregistré un formulaire, on peut rater ce qui a changé. Mettez à jour sur place et gardez la position de défilement.",
+  "Une brève mise en évidence sur une ligne, un champ ou un total mis à jour attire l'attention là où le changement a eu lieu. Laissez-la s'estomper pour que l'écran revienne à la normale.",
+  "Les changements éloignés de là où regarde l'utilisateur, comme un badge dans l'en-tête ou un total en haut d'un long formulaire, passent souvent inaperçus. Placez le retour à côté de la commande qui l'a provoqué.",
+  "Dans les études des « éclaboussures », de petites taches apparues au moment du changement, loin de lui, suffisaient à le masquer sans aucun écran vide. Les animations simultanées, les publicités et les pop-ups font de même.",
+  "Une tuile qui passe au rouge parmi des dizaines d'autres est facile à manquer si personne ne la regardait à ce moment-là. Utilisez des alertes, des marqueurs de changement persistants et un historique.",
+  "Johansson et Hall demandaient de choisir le plus attirant de deux visages, puis remettaient discrètement l'autre. Seul un quart environ s'en apercevait, et beaucoup justifiaient un choix qu'ils n'avaient pas fait. Une étape de confirmation claire révèle l'écart.",
+  "On surestime sa capacité à détecter les changements, un phénomène appelé cécité à la cécité au changement. Les designers font la même erreur sur leurs propres écrans : vérifiez si les utilisateurs ont remarqué au lieu de leur demander s'ils le feraient.",
+  "Quand l'IA réécrit un document ou un bloc de code, un chiffre modifié ou une clause supprimée ressemble au reste. Affichez un diff, marquez les passages modifiés et laissez accepter les changements un par un.",
+  "Une réponse régénérée ou affinée qui remplace la précédente cache ce qui a changé. Conservez les versions antérieures et mettez en évidence les différences."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Un écran vide sépare deux états",
+  "Le changement est animé sur place",
+  "Filtres, enregistrements et tris",
+  "Une action recharge toute la page",
+  "Toute la page doit changer",
+  "Modifications enregistrées et mises à jour en direct",
+  "Le contenu change après une action",
+  "Les changements sont constants et deviennent du bruit",
+  "Placer les retours et les statuts",
+  "Le retour apparaît loin de l'action",
+  "L'utilisateur est guidé vers le changement",
+  "Écrans chargés et animés",
+  "Plusieurs éléments bougent en même temps",
+  "Le changement est le seul mouvement",
+  "Écrans de supervision et d’exploitation",
+  "Les valeurs changent sans surveillance",
+  "Quelqu’un surveille chaque valeur",
+  "Étapes de vérification et de confirmation",
+  "Les options se ressemblent",
+  "Les choix sont faciles à annuler",
+  "Préparer des tests d'utilisabilité",
+  "Une équipe suppose qu'un changement est évident",
+  "Le changement a été testé avec des utilisateurs",
+  "Réécriture → suivi des modifications",
+  "L'IA modifie un contenu existant",
+  "Remplacer tout le texte en silence",
+  "Régénérer → comparer",
+  "Les réponses sont régénérées ou affinées",
+  "L'ancienne réponse disparaît sans trace"
+ ],
+ ".ai-divider h3": [
+  "La cécité au changement à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA réécrit, régénère et met à jour le contenu sur place. Plus elle change de choses à la fois, plus il est facile de rater le changement qui compte."
+ ]
+}

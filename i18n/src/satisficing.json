@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Satisficing</em>"
+ ],
+ "header .tagline": [
+  "People take <em>the first option that will do</em>."
+ ],
+ "header .subtitle": [
+  "Instead of searching for the best option, people take the first one that clears their bar. Online, that means users click the first link that looks plausible, so the right choice has to look like the first reasonable one."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> coined the word, a blend of satisfy and suffice, in 1956, building on ideas from his 1947 book Administrative Behavior. Real decision makers, he argued, can’t compute the best option, because information is missing and the problems are too hard. Instead they search until something clears an aspiration level, and take it.",
+  "He called the wider idea bounded rationality, and it was central to the work that won him the 1978 Nobel Memorial Prize in Economic Sciences. In 2002 <a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> and colleagues contrasted maximizers, who seek the best, with satisficers, who settle for good enough, and found the maximizers reported more regret and less happiness. Steve Krug carried the idea into web design: users don’t make optimal choices, they satisfice."
+ ],
+ ".law-content .law-desc": [
+  "Satisficing is choosing the first option that is good enough rather than searching for the best. People set an aspiration level, take the first option that meets it, and lower the bar if nothing does. It is a sensible response to limited time and information, not a failure of reasoning."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> (1956)",
+  "Good-enough decision making",
+  "Make the right option the first plausible one"
+ ],
+ ".apply-list li": [
+  "Designing navigation, menus, or search results that users scan for a match.",
+  "Users face many options with limited time or attention.",
+  "People abandon tasks that demand comparing everything before choosing.",
+  "Make the right choice look like the first reasonable one, with clear labels and the likeliest option first.",
+  "Make wrong guesses cheap to recover from, with an easy way back and undo.",
+  "Offer a sensible default or recommendation, so good enough is also a good outcome."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Navigation",
+  "Recovery",
+  "Search",
+  "Surveys",
+  "Maximizers",
+  "Rules of thumb",
+  "Defaults",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Good Enough Beats Best",
+  "The First Plausible Link Wins",
+  "Make Guessing Safe",
+  "The Top Results Win",
+  "Survey Satisficing",
+  "Maximizers Regret More",
+  "Aspiration Levels at Work",
+  "Make Good Enough Good",
+  "The First Answer Is Accepted",
+  "Good-Enough Drafts"
+ ],
+ ".card .desc": [
+  "Simon’s model has three steps: set an aspiration level, take the first option that meets it, and adjust the level if nothing does. In most real decisions, the cost of finding the best option outweighs what it adds.",
+  "Users don’t read a page and weigh every option. They scan, and click the first link that seems to match what they want. Labels have to be scannable and unambiguous, because a near miss gets clicked.",
+  "Because people guess, wrong guesses must be cheap. A visible way back, breadcrumbs, and undo turn a bad guess into a small detour instead of a dead end.",
+  "People choose from the first few search results and rarely look further. Put the best match first, and show enough of each result for someone to judge it at a glance.",
+  "Jon Krosnick showed that survey respondents cut effort: they pick the first acceptable answer, agree with statements, give the same rating down a grid, or choose don’t know. Keep questionnaires short and vary the formats.",
+  "In Schwartz’s studies, people who always seek the best option reported less happiness and more regret than those who settle for good enough. Endless options push everyone toward maximizing, and toward regret.",
+  "A study of 628 used-car dealers found 97 percent priced by satisficing: start mid-range, and cut about 3 percent if the car hasn’t sold after 24 days. Simple rules adapted to their environment can beat elaborate optimization.",
+  "Because people take the first acceptable option, the default and the first item carry the most weight. Make those the right choice for most people, and satisficing produces good outcomes.",
+  "People satisfice with AI answers too: a fluent, plausible answer ends the search, even when it’s wrong. Show confidence and sources, so a good-enough answer can be checked before it’s trusted.",
+  "AI drafts are often accepted as they are, because they clear the bar. Make editing easy, and highlight the parts that still need a human decision."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the principle",
+  "The best option is costly to find",
+  "Stakes are high and options are few",
+  "Menus, navigation, and link labels",
+  "Users scan for a match",
+  "Users compare carefully, as in purchases",
+  "Navigation and multi-step flows",
+  "Users choose quickly",
+  "Errors are costly and irreversible",
+  "Search and recommendations",
+  "Results are ranked",
+  "Users need the exhaustive list",
+  "Surveys and research questionnaires",
+  "Questionnaires are long or repetitive",
+  "Questions are few and engaging",
+  "Choice-heavy products such as shopping",
+  "Users compare many options",
+  "Comparison is the point, as in research tools",
+  "Designing defaults and simple rules",
+  "Optimal answers cannot be computed",
+  "Precise optimization is cheap",
+  "Defaults, presets, and templates",
+  "People accept what they are given",
+  "No option suits most people",
+  "Ten links → one answer",
+  "AI answers questions directly",
+  "Fluent answers with no sources",
+  "Writing → accepting drafts",
+  "AI generates drafts",
+  "Shipping drafts nobody reviewed"
+ ],
+ ".ai-divider h3": [
+  "Satisficing in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "A fluent AI answer clears the bar instantly. People stop searching sooner, so good enough has to be easy to check."
+ ]
+}

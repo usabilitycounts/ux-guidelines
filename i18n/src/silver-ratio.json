@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Silver <em>Ratio</em>"
+ ],
+ "header .tagline": [
+  "One to <em>two point four one four</em>."
+ ],
+ "header .subtitle": [
+  "The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part."
+ ],
+ ".law-origin .body-text": [
+  "The silver ratio has been studied since antiquity under other names, because of its ties to the square root of 2, the regular octagon, and the Pell numbers, whose ratios 5/2, 12/5, 29/12, and 70/29 close in on it. In a regular octagon, the width across the flats is exactly 1 + √2 times the length of a side.",
+  "Its name is recent, coined by analogy with the golden ratio: where φ solves x² = x + 1, σ solves x² = 2x + 1. ISO 216 paper, including A4, uses the closely related 1 : √2, which keeps its shape when folded in half. Cut the largest square from an A4 sheet and the strip left over is a silver rectangle."
+ ],
+ ".law-content .law-desc": [
+  "Two lengths are in the silver ratio when the larger is to the smaller as twice the larger plus the smaller is to the larger. The result, σ ≈ 2.414, gives a longer, more emphatic division than the golden ratio: about 71/29 instead of 62/38."
+ ],
+ ".law-equation": [
+  "a / b = (2a + b) / a = σ = 1 + √2 ≈ 2.414"
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Studied since antiquity · named after the golden ratio",
+  "Silver mean",
+  "Octagons, A4 paper, 71/29 splits"
+ ],
+ ".apply-list li": [
+  "Dividing a wide layout, banner, or panel into one dominant area and one narrow one.",
+  "Choosing proportions for hero images, cards, or crops that should feel long and calm.",
+  "Working with A-series paper or octagonal shapes, where the ratio is already built in.",
+  "Split a length at about 71/29, or make a rectangle about 2.4 times as wide as it is tall.",
+  "Remove two squares from a silver rectangle and the remainder is another silver rectangle, which gives a repeatable grid.",
+  "Round to a practical ratio such as 12:5 or 29:12, and trust your eye over the decimal."
+ ],
+ ".card .tag": [
+  "The geometry",
+  "Layout",
+  "Banners",
+  "Paper",
+  "Shape",
+  "Numbers",
+  "Type",
+  "Caution",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Two Squares and a Remainder",
+  "A 71/29 Split",
+  "Wide Heroes and Banners",
+  "Hidden in A4",
+  "The Octagon",
+  "Pell Ratios Stand In",
+  "A √2 Type Scale",
+  "Which Silver Ratio?",
+  "Proportion on Request",
+  "Folklore in the Answers"
+ ],
+ ".card .desc": [
+  "Cut two squares from a silver rectangle and what is left is a smaller silver rectangle. Repeat and you get a nested grid, the silver counterpart of the golden rectangle’s single square.",
+  "Dividing a page at the silver ratio gives a dominant main area and a narrow sidebar, a more decisive split than the golden ratio’s 62/38. It suits content beside navigation, filters, or a table of contents.",
+  "A rectangle about 2.4 times as wide as it is tall sits close to the 2.39:1 frame of widescreen cinema, so it reads as wide and cinematic. It leaves room for a headline beside the subject rather than on top of it.",
+  "A-series paper uses 1 : √2, so halving a sheet keeps its shape. Cut the largest square from an A4 page and the leftover strip is a silver rectangle, so print layouts inherit the ratio for free.",
+  "A regular octagon is 1 + √2 times as wide across its flats as each side is long. Octagonal badges, icons, and emblems carry the ratio inside them, which is one reason they look balanced.",
+  "The Pell numbers 1, 2, 5, 12, 29, 70 grow by roughly 2.414 at each step, so ratios such as 5:2, 12:5, and 29:12 make practical stand-ins. A 1200 × 500 banner is 12:5, within half a percent of σ.",
+  "The silver ratio’s close relative √2, about 1.414, makes a steep type scale such as 12, 17, 24, 34, and 48. Each level is clearly distinct from the next, which suits pages with few, strong levels of hierarchy.",
+  "In Japan, the term silver ratio (白銀比) often means 1 : √2, the Yamato ratio used in character design and architecture, not 1 : 2.414. When briefing a team, give the number rather than just the name.",
+  "Image and layout generators default to familiar frames such as 16:9 and 1:1. Name the ratio you want, such as 12:5, so the output follows your system instead of the tool’s default.",
+  "Ask AI about famous proportions and it may repeat claims that buildings, logos, or faces follow one ratio or another. Measure before you cite, since many of those claims don’t hold up."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Building a proportional grid",
+  "A layout needs nested divisions",
+  "A simple even grid is enough",
+  "Main content with a sidebar",
+  "One area should clearly dominate",
+  "Both areas matter equally",
+  "Hero images and banners",
+  "A wide, calm frame is needed",
+  "The subject needs height, as in portraits",
+  "Print and PDF layouts",
+  "Designing for A-series paper",
+  "The output is screen only",
+  "Icons, badges, and emblems",
+  "Drawing eight-sided shapes",
+  "The shape has nothing to do with octagons",
+  "Picking pixel dimensions",
+  "Exact irrational sizes are impractical",
+  "Templates demand exact sizes",
+  "Display-heavy pages",
+  "Hierarchy needs strong contrast",
+  "Dense interfaces need many close sizes",
+  "Briefs and specifications",
+  "Working with international teams",
+  "Everyone shares one definition",
+  "Default frame → specified ratio",
+  "Generating layouts or images",
+  "Accepting whatever frame the tool picks",
+  "Folklore → measurement",
+  "Researching proportion with AI",
+  "Citing claims without sources"
+ ],
+ ".ai-divider h3": [
+  "The Silver Ratio in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generative tools default to a few familiar frames and repeat a lot of folklore about proportion. Ask for the ratio you want and check what you are told."
+ ]
+}

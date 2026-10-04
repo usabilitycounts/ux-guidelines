@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Dark <em>patterns</em>"
+ ],
+ "header .tagline": [
+  "Gagner le clic, <em>perdre la confiance</em>."
+ ],
+ "header .subtitle": [
+  "Des interfaces conçues pour pousser les gens à acheter, s'abonner ou partager plus qu'ils ne le voulaient. Elles font grimper un indicateur pendant un trimestre, puis coûtent la confiance de ceux qui ont été piégés, et attirent de plus en plus d'amendes."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a>, designer d'expérience utilisateur britannique, a forgé le terme le 28 juillet 2010 en déposant darkpatterns.org, une bibliothèque de motifs destinée à nommer et dénoncer les interfaces trompeuses. Le site a depuis déménagé sur deceptive.design, et il a publié en 2023 le livre Deceptive Patterns.",
+  "La recherche et les régulateurs ont suivi. Une étude de 2019 menée par Arunesh Mathur et ses collègues à Princeton a analysé environ 11 000 sites marchands et relevé 1 818 cas de dark patterns. En 2022, la CNIL a sanctionné Google et Facebook pour leurs bannières de cookies, et en 2025 Amazon a réglé pour 2,5 milliards de dollars la plainte de la FTC sur l'inscription et la résiliation de Prime, sans reconnaître de faute."
+ ],
+ ".law-content .law-desc": [
+  "Un dark pattern est une interface conçue pour amener les gens à faire ce qu'ils ne voulaient pas faire, comme acheter, s'abonner ou partager des données. Il exploite les habitudes et les biais, et échange une conversion à court terme contre la confiance à long terme et, de plus en plus souvent, un risque juridique."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a> (2010)",
+  "Design trompeur",
+  "Les utilisateurs feraient-ils ce choix s'ils le comprenaient ?"
+ ],
+ ".apply-list li": [
+  "Vous concevez des parcours d'inscription, de paiement, de résiliation ou de consentement.",
+  "Un indicateur comme la conversion ou la rétention fait l'objet d'une forte pression.",
+  "Vous vérifiez l'honnêteté d'un parcours avant le lancement ou après une plainte.",
+  "Donnez le même poids visuel au choix que veut l'entreprise et à celui que l'utilisateur peut vouloir.",
+  "Affichez le prix total dès le départ, et laissez les gens partir comme ils sont arrivés.",
+  "Demandez pour chaque parcours si les utilisateurs feraient le même choix en le comprenant pleinement."
+ ],
+ ".card .tag": [
+  "Abonnements",
+  "Prix",
+  "Texte",
+  "Visuel",
+  "Vie privée",
+  "Urgence",
+  "Publicité",
+  "Remède",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le piège à cafards",
+  "Le prix au goutte-à-goutte",
+  "La culpabilisation",
+  "La diversion",
+  "Le « Privacy Zuckering »",
+  "La fausse urgence",
+  "L'appât et le leurre",
+  "Concevoir pour un choix éclairé",
+  "La persuasion à grande échelle",
+  "Refuser l'entraînement"
+ ],
+ ".card .desc": [
+  "Facile d'entrer, difficile de sortir. Selon la FTC, le parcours de résiliation de Prime, appelé en interne Iliad, faisait passer les gens par des pages d'offres répétées. Sous la pression de l'UE en 2022, Amazon a ramené la résiliation à deux clics en Europe.",
+  "Un prix d'appel bas, puis des frais ajoutés étape par étape jusqu'au paiement. Quand le vrai total apparaît, les gens ont investi tant d'efforts que beaucoup paient quand même. Affichez le prix complet dès le premier écran.",
+  "Un lien de refus rédigé pour faire honte : Non merci, je n'aime pas faire des économies. Il fait pression par la culpabilité au lieu de convaincre par la valeur. Formulez l'option de refus aussi simplement que l'option d'acceptation.",
+  "Un bouton vif pour ce que veut l'entreprise et un lien pâle pour ce que veut l'utilisateur, ou une case de consentement avec une double négation. Les installateurs de logiciels l'ont rendue célèbre en ajoutant des programmes sans rapport derrière un bouton Accepter bien visible.",
+  "Du nom de Mark Zuckerberg : des designs qui amènent les gens à partager plus qu'ils ne le voulaient. En 2022, la CNIL a infligé 150 millions d'euros d'amende à Google et 60 millions à Facebook, car accepter les cookies prenait un clic et les refuser plusieurs.",
+  "Des comptes à rebours qui redémarrent et des mentions Bientôt épuisé ! sur des stocks qui ne s'épuisent pas. En 2024, l'autorité britannique de la concurrence (CMA) a obtenu des engagements de Wowcher sur ces allégations précises. N'affichez que de vrais délais et de vrais stocks.",
+  "Annoncer quelque chose de gratuit ou bon marché que la plupart ne peuvent pas obtenir, puis les orienter vers une offre payante. En 2022, Intuit a accepté un règlement de 141 millions de dollars pour des publicités TurboTax vantant une déclaration gratuite à laquelle la plupart n'avaient pas droit.",
+  "Le test pour tout parcours : les gens feraient-ils le même choix s'ils le comprenaient pleinement ? Donnez le même poids au oui et au non, affichez le vrai total et rendez le départ aussi simple que l'arrivée. Plusieurs juridictions l'exigent désormais.",
+  "Un modèle peut générer des milliers de variantes d'un message et apprendre lesquelles fonctionnent sur qui. Soumettez les textes générés aux mêmes règles que les textes écrits à la main, et n'optimisez jamais pour la seule conversion.",
+  "En 2024, Meta prévoyait d'entraîner son IA sur les publications Facebook et Instagram, avec un refus accessible via des e-mails trompeurs, des redirections vers la connexion et un formulaire exigeant une raison. Refuser son consentement à l'entraînement d'une IA doit être aussi simple que le donner."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Abonnements et adhésions",
+  "Concevoir la façon dont on part",
+  "Résilier demande plus d'étapes que s'inscrire",
+  "Paiement et tarification",
+  "Des frais ou des taxes s'appliquent",
+  "Les frais n'apparaissent qu'à la dernière étape",
+  "Pop-ups, ventes additionnelles et newsletters",
+  "Proposer quelque chose de facultatif",
+  "L'option de refus se moque de l'utilisateur",
+  "Écrans de consentement et de choix",
+  "Présenter le oui et le non",
+  "Une option est cachée à la vue de tous",
+  "Consentement et réglages de confidentialité",
+  "Demander des données ou du suivi",
+  "Refuser demande plus de clics qu'accepter",
+  "Soldes, offres et réservations",
+  "Une offre est réellement limitée",
+  "Le délai ou la rareté est inventé",
+  "Formules, niveaux et offres gratuites",
+  "Promouvoir une option gratuite",
+  "La plupart ne peuvent pas profiter de l'offre annoncée",
+  "Revues et audits de design",
+  "Avant le lancement ou après des plaintes",
+  "Jamais : l'honnêteté n'a pas d'exception",
+  "Un motif → des millions de variantes",
+  "L'IA rédige des textes marketing ou de rétention",
+  "Optimiser uniquement pour la conversion",
+  "Refus enfoui → choix clair",
+  "Utiliser les données clients pour l'IA",
+  "Cacher le refus ou exiger une raison"
+ ],
+ ".ai-divider h3": [
+  "Les dark patterns à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut adapter le texte, le moment et l'offre à chaque personne. La persuasion devient plus efficace, et la manipulation moins chère et plus difficile à voir."
+ ]
+}

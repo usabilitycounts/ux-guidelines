@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Sozialer <em>Beweis</em>"
+ ],
+ "header .tagline": [
+  "Im Zweifel <em>tun, was andere tun</em>."
+ ],
+ "header .subtitle": [
+  "Wenn Menschen nicht wissen, was sie tun sollen, machen sie nach, was andere tun, und halten es für richtig. Bewertungen, Sterne und Nutzungszahlen machen sich diesen Instinkt zunutze, solange der Beweis echt ist und die Norm es wert ist, ihr zu folgen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> prägte den Begriff 1984 in seinem Buch Influence, wo er eines von sechs Prinzipien der Überzeugung ist, neben Gegenseitigkeit, Commitment und Konsistenz, Autorität, Sympathie und Knappheit. In unsicheren Situationen nehmen Menschen an, dass andere mehr wissen, und folgen ihnen.",
+  "Der bekannteste frühe Beleg stammt aus <a href=\"people.html#p-muzafer-sherif\">Muzafer Sherif</a>s Experiment von 1935. In einem dunklen Raum scheint sich ein unbewegter Lichtpunkt zu bewegen, und jede Person schätzte die Bewegung anders ein. In Gruppen näherten sich die Schätzungen einer gemeinsamen Antwort an, und die Personen behielten die Gruppenantwort bei, als sie wieder allein getestet wurden."
+ ],
+ ".law-content .law-desc": [
+  "Wenn Menschen unsicher sind, wie sie handeln sollen, schauen sie, was andere tun, und halten es für richtig. Sozialer Beweis wirkt am stärksten, wenn die Lage unklar ist, wenn es darauf ankommt, richtig zu liegen, und wenn die anderen ähnlich oder kundig wirken."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> (1984)",
+  "Informationaler sozialer Einfluss",
+  "Echte, relevante Belege zeigen, was andere tun"
+ ],
+ ".apply-list li": [
+  "Menschen stehen vor einer ungewohnten Wahl, etwa einem ersten Kauf, einem neuen Tarif oder einer neuen Funktion.",
+  "Vertrauen muss bei neuen Besuchern schnell entstehen.",
+  "Sie wollen ein Verhalten fördern, das die meisten ohnehin zeigen.",
+  "Zeigen Sie echte Bewertungen, Sterne und Nutzung von Menschen, die dem Besucher ähneln.",
+  "Nutzen Sie sozialen Beweis nur bei einer hohen Norm, denn eine niedrige Zahl kann nach hinten losgehen.",
+  "Fälschen Sie nie: Erfundene Bewertungen und aufgeblähte Zahlen zerstören Vertrauen und sind vielerorts verboten."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Handel",
+  "Ähnlichkeit",
+  "Normen",
+  "Rückschlag",
+  "Beliebtheit",
+  "Zahlen",
+  "Ethik",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das wandernde Licht",
+  "Bewertungen und Sterne",
+  "Menschen wie ich",
+  "Die meisten Gäste verwenden ihre Handtücher wieder",
+  "Der Bumerang-Effekt",
+  "Beliebtheit verstärkt sich selbst",
+  "Zahlen signalisieren Glaubwürdigkeit",
+  "Gefälschter Beweis ist Betrug",
+  "Generierte Bewertungen",
+  "Beliebtheit in den Trainingsdaten"
+ ],
+ ".card .desc": [
+  "In Sherifs Experiment schien sich ein unbewegtes Licht im dunklen Raum für verschiedene Menschen unterschiedlich weit zu bewegen. Gemeinsam näherten sich ihre Schätzungen an, und jeder behielt danach die Gruppenantwort. Ohne klare Antwort wurde die Gruppe zur Antwort.",
+  "Erfahrungsberichte und Bewertungen früherer Kunden bewegen neue zum Anmelden und Kaufen. Zeigen Sie die Verteilung der Bewertungen und aktuelle Rezensionen, nicht nur einen Durchschnitt, damit sich jeder selbst ein Urteil bilden kann.",
+  "Sozialer Beweis wirkt am stärksten, wenn er von Menschen kommt, die uns ähnlich sind. Bei einer Haustürsammlung brachte eine längere Liste früherer Spender mehr Spenden, besonders wenn darauf Freunde und Nachbarn standen. Zeigen Sie Stimmen aus der Rolle, Branche oder Region des Besuchers.",
+  "Hotelgäste, denen man sagte, dass die meisten Gäste ihre Handtücher wiederverwenden, taten das häufiger als Gäste mit einem Umweltappell, und noch häufiger, wenn sich die Botschaft auf Gäste bezog, die im selben Zimmer gewohnt hatten.",
+  "Als Haushalte den durchschnittlichen Energieverbrauch ihrer Nachbarschaft erfuhren, begannen die Sparsamen, mehr zu verbrauchen. Ein zustimmendes Smiley für niedrigen Verbrauch verhinderte das. Werben Sie nie mit einer niedrigen Norm, etwa damit, wie wenige ihr Profil vervollständigt haben.",
+  "Im MusicLab-Experiment machte die Anzeige der Downloadzahlen Hits ungleicher und weniger vorhersehbar: Frühe Beliebtheit wuchs wie eine Lawine. Sortierungen nach Beliebtheit machen Beliebtes noch beliebter, also bieten Sie auch Sortierungen wie neueste oder beste Übereinstimmung an.",
+  "Follower-, Like- und Aufrufzahlen prägen, wie vertrauenswürdig ein Konto wirkt, und dasselbe gilt für „genutzt von 10.000 Teams“ auf einer Landingpage. Halten Sie solche Zahlen aktuell und ehrlich, und zeigen Sie sie nur, wenn sie beeindrucken.",
+  "Bestellter Applaus und Lachkonserven sind alte Tricks; gefälschte Bewertungen sind die Online-Version. 2024 verabschiedete die US-Handelsaufsicht FTC eine Regel, die gefälschte Bewertungen und Erfahrungsberichte verbietet, auch von KI erzeugte.",
+  "KI macht gefälschte Bewertungen billig und überzeugend, und sie fasst auch echte zusammen. Kennzeichnen Sie KI-Zusammenfassungen, verlinken Sie die Originalbewertungen und prüfen Sie, ob die Verfasser das Produkt wirklich gekauft oder genutzt haben.",
+  "KI-Empfehlungen spiegeln, was in ihren Daten schon beliebt ist, eine Schleife sozialen Beweises im großen Maßstab. Zeigen Sie auch relevante, weniger beliebte Optionen, und erklären Sie, warum etwas empfohlen wird."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Das Prinzip erklären",
+  "Die Situation ist unklar",
+  "Menschen kennen die Antwort bereits",
+  "Produktseiten und Kasse",
+  "Käufer haben keine Erfahrung mit dem Produkt",
+  "Es gibt zu wenige Bewertungen, um etwas auszusagen",
+  "Erfahrungsberichte und Fallstudien",
+  "Zielgruppen unterscheiden sich nach Rolle oder Region",
+  "Ein allgemeines Zitat für alle",
+  "Hinweise und Onboarding-Botschaften",
+  "Das gewünschte Verhalten ist verbreitet",
+  "Das gewünschte Verhalten ist selten",
+  "Fortschritts-, Nutzungs- und Vergleichsmeldungen",
+  "Durchschnitte oder Prozentwerte zeigen",
+  "Die Norm, die Sie zeigen würden, ist niedrig",
+  "Rankings, Trends und Bestsellerlisten",
+  "Nach Beliebtheit sortieren",
+  "Neue Einträge brauchen eine faire Chance",
+  "Landingpages und Profile",
+  "Die Zahlen sind groß und wahr",
+  "Die Zahlen sind klein oder veraltet",
+  "Richtlinien für Bewertungen und Erfahrungsberichte",
+  "Belege sammeln und anzeigen",
+  "Nie: Belege müssen echt sein",
+  "Geschrieben → generiert",
+  "Bewertungen anzeigen oder zusammenfassen",
+  "Ungekennzeichnete KI-Zusammenfassungen oder -Bewertungen",
+  "Beliebt → relevant",
+  "KI empfiehlt Produkte oder Inhalte",
+  "Nur Beliebtes empfehlen"
+ ],
+ ".ai-divider h3": [
+  "Sozialer Beweis im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann in Sekunden überzeugende Bewertungen erzeugen, und sie lernt aus dem, was schon beliebt ist. Beides macht ehrlichen sozialen Beweis schwieriger und wertvoller."
+ ]
+}

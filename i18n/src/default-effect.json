@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Default <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "Most people <em>keep what they’re given</em>."
+ ],
+ "header .subtitle": [
+  "Whatever happens when people do nothing is the option most of them end up with. Choosing a default is choosing for the majority, so it deserves as much care as the feature itself."
+ ],
+ ".law-origin .body-text": [
+  "In 1988 the economists William Samuelson and Richard Zeckhauser documented status quo bias: people disproportionately stick with the current state of affairs. In 2001 Brigitte Madrian and Dennis Shea found that when a company enrolled new employees in its retirement plan automatically, participation rose sharply, and many stayed at the default contribution rate and fund.",
+  "In 2003 Eric Johnson and Daniel Goldstein compared organ donation across Europe: countries where people were donors unless they opted out had far higher consent than countries where people had to opt in. Defaults became the most reliable tool of nudge theory, and the one that best survives scrutiny."
+ ],
+ ".law-content .law-desc": [
+  "The default effect is the tendency to accept whatever option is preselected. It works through effort, since doing nothing is easiest; loss aversion, since the default becomes the reference point; and implied endorsement, since people read a default as a recommendation."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Samuelson and Zeckhauser (1988) · Johnson and Goldstein (2003)",
+  "Status quo bias",
+  "Preselect what serves most users"
+ ],
+ ".apply-list li": [
+  "Setting initial values for settings, forms, plans, and privacy options.",
+  "Most people will never revisit the setting.",
+  "A choice has consequences people rarely think about, such as data sharing or renewals.",
+  "Preselect the option that serves most users, not the one that only benefits the business.",
+  "Make defaults easy to see and easy to change.",
+  "Where preferences vary widely, use personalized defaults or ask for an active choice."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Enrollment",
+  "Why",
+  "Settings",
+  "Types",
+  "Privacy",
+  "Renewals",
+  "Ethics",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Opt Out or Opt In",
+  "Automatic Enrollment",
+  "Three Reasons Defaults Stick",
+  "Most Settings Never Change",
+  "Mass, Smart, and Persistent",
+  "Privacy by Default",
+  "Auto-Renew Is a Default",
+  "Defaults Are Decisions",
+  "AI-Chosen Defaults",
+  "Training Data Is a Default"
+ ],
+ ".card .desc": [
+  "Countries where citizens are organ donors unless they opt out have far higher consent than countries where people must opt in. The choice is identical; only the default differs.",
+  "When new employees were enrolled in a retirement plan unless they declined, participation jumped, and many kept the default contribution rate and fund for years. A good default does the work of a thousand reminders.",
+  "Changing a default takes effort. The default becomes the reference point, so switching feels like a loss. And people assume whoever set the default chose it for a reason, which reads as a recommendation.",
+  "The defaults you ship are the experience most people get. Many never discover that alternatives exist, like the hidden choice of ringtones on a phone. Treat every default as a design decision, not an afterthought.",
+  "Mass defaults are the same for everyone. Smart defaults use what is known, such as location for currency. Persistent defaults remember the last choice, and adaptive ones update as people act. Pick the type that matches how much preferences vary.",
+  "Defaults for data sharing decide what most people share. The EU’s GDPR, in Article 25, requires data protection by design and by default, so the protective setting should be the preselected one.",
+  "Automatic renewal is a default that keeps charging. Show the renewal date, remind people before they are charged, and make turning it off as easy as turning it on.",
+  "Because most people accept them, defaults are decisions made on users’ behalf. There is no neutral option, so pick the one people would choose with the time and information to decide.",
+  "Models can predict a personal default for each person: the suggested reply, the setting, the plan. Show that it was chosen for them, explain why, and keep the alternatives one tap away.",
+  "Whether customer data is used to train AI models is itself a default, and most people never change it. Put the setting in view at the moment data is collected."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "A choice is framed as opting in or out",
+  "Everyone makes the choice actively",
+  "Benefits, programs, and enrollment",
+  "Participation clearly helps the user",
+  "Enrollment commits people to unexpected costs",
+  "Understanding user behavior",
+  "A redesign changes what is preselected",
+  "Users actively compare every option",
+  "Settings and preferences screens",
+  "Shipping a new setting",
+  "Power users customize everything",
+  "Forms and checkout",
+  "Preferences vary by context",
+  "Using personal data would feel intrusive",
+  "Privacy and sharing settings",
+  "Collecting personal data",
+  "Sharing is the obvious purpose of the product",
+  "Subscriptions and billing",
+  "Plans renew automatically",
+  "The renewal would surprise people",
+  "Design reviews and audits",
+  "Setting any default",
+  "Never: every default is a choice",
+  "One default → predicted defaults",
+  "AI preselects options",
+  "Defaults nobody can see or explain",
+  "Buried setting → visible choice",
+  "Using customer data for AI",
+  "Opting everyone in silently"
+ ],
+ ".ai-divider h3": [
+  "The Default Effect in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can predict a different default for every person. That makes defaults more helpful, and more powerful, than ever."
+ ]
+}

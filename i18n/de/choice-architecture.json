@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Entscheidungs<em>architektur</em>"
+ ],
+ "header .tagline": [
+  "Es gibt <em>keine neutrale Art</em>, eine Wahl zu präsentieren."
+ ],
+ "header .subtitle": [
+  "Wie Optionen präsentiert werden, von der vorausgewählten bis zur Reihenfolge, prägt, was Menschen wählen. Etwas Gestaltung ist unvermeidlich, also gestalten Sie bewusst und im Interesse der Menschen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> und <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> prägten den Begriff 2008 in ihrem Buch Nudge. Wer Optionen anordnet, vom Kantinenleiter bis zum Formulardesigner, ist ihrer Ansicht nach ein Entscheidungsarchitekt und kann Menschen zu besseren Entscheidungen lenken, ohne eine Option zu verbieten. Diese Haltung nannten sie libertären Paternalismus.",
+  "Mit John Balz zählten sie die Werkzeuge auf: Standardeinstellungen, Fehler einplanen, Zuordnungen verständlich machen, Feedback geben, komplexe Entscheidungen strukturieren und Anreize setzen. Andere Forschende unterscheiden Elemente, die die Auswahl strukturieren, etwa die Zahl der Optionen und die Voreinstellung, von solchen, die sie beschreiben, etwa wie Merkmale gruppiert und benannt werden."
+ ],
+ ".law-content .law-desc": [
+  "Entscheidungsarchitektur ist die Gestaltung, wie Optionen präsentiert werden: wie viele es gibt, in welcher Reihenfolge und Beschreibung sie erscheinen und welche voreingestellt ist. Da keine Präsentation neutral ist, lenkt jede Oberfläche mit einer Auswahl die Entscheidung bereits. Die Frage ist nur, in welche Richtung."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> und <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Gestaltung der Entscheidungsumgebung",
+  "Voreinstellungen, Reihenfolge und Framing"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Formulare, Einstellungen, Tarife oder andere Bildschirme, auf denen Menschen zwischen Optionen wählen.",
+  "Sie legen Voreinstellungen für Datenschutz, Benachrichtigungen, Abonnements oder Tarifstufen fest.",
+  "Eine Entscheidung hat langfristige Folgen, die Menschen gern aufschieben, etwa beim Sparen oder bei der Sicherheit.",
+  "Wählen Sie Voreinstellungen, die den meisten Nutzern dienen, und machen Sie sie leicht änderbar.",
+  "Begrenzen oder gruppieren Sie Optionen, und ergänzen Sie Filter oder Vergleiche, wenn viele nötig sind.",
+  "Beschreiben Sie Merkmale so, wie sie Menschen wichtig sind, und zeigen Sie die Folgen jeder Wahl."
+ ],
+ ".card .tag": [
+  "Voreinstellungen",
+  "Aktive Wahl",
+  "Überlastung",
+  "Reihenfolge",
+  "Framing",
+  "Gruppierung",
+  "Zeit",
+  "Ethik",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Voreinstellung entscheidet",
+  "Fragen statt annehmen",
+  "Weniger Optionen oder bessere Werkzeuge",
+  "Reihenfolge ist ein Nudge",
+  "Merkmale übersetzen",
+  "Kategorien lenken die Verteilung",
+  "Jetzt zusagen, später handeln",
+  "Für den Nutzer, nicht gegen ihn",
+  "Voreinstellungen von Modellen",
+  "Eine Antwort, keine Wahl"
+ ],
+ ".card .desc": [
+  "Die meisten behalten, was vorausgewählt ist. In einer Studie war die Registrierung als Organspender doppelt so hoch, wo man widersprechen musste, wie dort, wo man zustimmen musste. Wählen Sie die Voreinstellung, die dem Nutzer dient, nicht nur dem Unternehmen.",
+  "Passt keine Voreinstellung für die meisten, verlangen Sie eine aktive Wahl: Nichts ist vorausgewählt, und man muss wählen, bevor es weitergeht. Das kostet einen Moment, verhindert aber, dass vielen still das Falsche zugeteilt wird.",
+  "Jede weitere Option kostet Zeit, und zu viele können eine Entscheidung blockieren. Begrenzen Sie die Alternativen oder bieten Sie Entscheidungshilfen wie Filter, Sortierung, Vergleiche und Empfehlungen.",
+  "Suchergebnisse, Rankings und Empfehlungen prägen die Wahl, denn die ersten und auffälligsten Optionen werden häufiger gewählt. Sortieren Sie nach dem, was dem Nutzer dient, nicht nach dem, was am meisten einbringt.",
+  "Übersetzen Sie Zahlen in Größen, die Menschen wichtig sind: Liter auf 100 Kilometer statt Kilometer pro Liter, die Gesamtkosten statt der Monatsrate. Wertende Kennzeichnungen wie gut oder schlecht machen Zahlen leichter vergleichbar.",
+  "Menschen verteilen Ressourcen gern gleichmäßig auf die angebotenen Kategorien, etwa auf die Fonds eines Altersvorsorgeplans. Zahl und Gruppierung der Optionen verändern das Ergebnis, also gruppieren Sie mit Absicht.",
+  "Menschen bevorzugen die Gegenwart vor der Zukunft. Beim Save-More-Tomorrow-Plan von Thaler und Benartzi verpflichteten sich Beschäftigte vorab, einen Teil künftiger Gehaltserhöhungen zu sparen, was die Ersparnisse ohne heutigen Verzicht erhöhte.",
+  "Dieselben Werkzeuge, die Menschen helfen, lassen sich gegen sie wenden. Dient Entscheidungsarchitektur dem Unternehmen auf Kosten des Nutzers, wird sie zum Dark Pattern. Fragen Sie, ob das Design dorthin führt, wohin Nutzer mit Bedenkzeit gehen würden.",
+  "Antwortvorschläge, intelligente Autovervollständigung und vorhergesagte Einstellungen sind Voreinstellungen, die ein Modell für jede Person wählt. Machen Sie sie leicht änderbar und zeigen Sie die Alternativen, statt sie zu verbergen.",
+  "Ein Assistent, der nur eine Empfehlung liefert, beseitigt die Auswahl ganz. Zeigen Sie bei folgenreichen Entscheidungen einige Optionen mit ihren Vor- und Nachteilen statt einer einzigen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Einstellungen, Tarife und Anmeldeformulare",
+  "Eine Option passt für die meisten",
+  "Keine Option passt für die meisten",
+  "Folgenreiche persönliche Präferenzen",
+  "Präferenzen gehen weit auseinander",
+  "Die Wahl bremst ohne Grund",
+  "Kataloge, Tarife und Auswahllisten",
+  "Es gibt Dutzende Optionen",
+  "Experten wollen die vollständige Liste",
+  "Suchergebnisse, Listen und Menüs",
+  "Optionen ranken oder empfehlen",
+  "Nutzer legen die Sortierung selbst fest",
+  "Preise und Vergleichstabellen",
+  "Zahlen sind schwer zu vergleichen",
+  "Die Zielgruppe arbeitet bereits mit der Kennzahl",
+  "Budgets, Portfolios und Aufteilungen",
+  "Menschen verteilen Ressourcen auf Optionen",
+  "Die Kategorien sind vom Fachgebiet vorgegeben",
+  "Spar-, Gesundheits- und Gewohnheitsfunktionen",
+  "Der Nutzen kommt erst später",
+  "Die Handlung muss jetzt erfolgen",
+  "Design-Reviews und Audits",
+  "Unternehmens- und Nutzerziele gehen auseinander",
+  "Nie: Es gibt keine neutrale Option",
+  "Feste Voreinstellungen → vorhergesagte Voreinstellungen",
+  "KI wählt Optionen vor",
+  "Die Alternativen verbergen",
+  "Zehn Ergebnisse → eine Antwort",
+  "KI empfiehlt Produkte oder Tarife",
+  "Eine einzige Empfehlung bei folgenreicher Wahl"
+ ],
+ ".ai-divider h3": [
+  "Entscheidungsarchitektur im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI legt heute Voreinstellungen fest und sortiert Optionen: Antwortvorschläge, Autovervollständigung, empfohlene Tarife, die eine Antwort. Das ist Entscheidungsarchitektur im großen Maßstab."
+ ]
+}

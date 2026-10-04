@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Satisfacción <em>suficiente</em>"
+ ],
+ "header .tagline": [
+  "La gente toma <em>la primera opción que le sirve</em>."
+ ],
+ "header .subtitle": [
+  "En lugar de buscar la mejor opción, la gente toma la primera que supera su listón. En línea, eso significa que los usuarios hacen clic en el primer enlace que parece plausible, así que la opción correcta tiene que parecer la primera razonable."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> acuñó la palabra satisficing, mezcla de satisfy y suffice, en 1956, a partir de ideas de su libro Administrative Behavior (1947). Quien decide en la vida real, sostenía, no puede calcular la mejor opción, porque falta información y los problemas son demasiado difíciles. Así que busca hasta que algo alcanza un nivel de aspiración, y lo toma.",
+  "A la idea general la llamó racionalidad limitada, y fue central en el trabajo que le valió el Premio Nobel de Economía en 1978. En 2002 <a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> y sus colegas compararon a los maximizadores, que buscan lo mejor, con quienes se conforman con lo suficiente, y vieron que los maximizadores declaraban más arrepentimiento y menos felicidad. Steve Krug llevó la idea al diseño web: los usuarios no eligen lo óptimo, eligen lo suficiente."
+ ],
+ ".law-content .law-desc": [
+  "La satisfacción suficiente consiste en elegir la primera opción que basta en lugar de buscar la mejor. Fijas un nivel de aspiración, tomas la primera opción que lo cumple y bajas el listón si nada lo hace. Es una respuesta sensata a la falta de tiempo e información, no un fallo de razonamiento."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> (1956)",
+  "Satisficing, decidir por lo suficiente",
+  "Haz que la opción correcta sea la primera plausible"
+ ],
+ ".apply-list li": [
+  "Diseñas navegación, menús o resultados de búsqueda que los usuarios recorren buscando una coincidencia.",
+  "Los usuarios tienen muchas opciones y poco tiempo o atención.",
+  "La gente abandona tareas que exigen compararlo todo antes de elegir.",
+  "Haz que la opción correcta parezca la primera razonable, con etiquetas claras y la opción más probable primero.",
+  "Haz que equivocarse cueste poco, con una forma fácil de volver y de deshacer.",
+  "Ofrece un valor predeterminado o una recomendación sensata para que lo suficiente también sea un buen resultado."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Navegación",
+  "Recuperación",
+  "Búsqueda",
+  "Encuestas",
+  "Maximizadores",
+  "Reglas prácticas",
+  "Predeterminados",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Lo suficiente le gana a lo mejor",
+  "Gana el primer enlace plausible",
+  "Que adivinar no tenga riesgo",
+  "Ganan los primeros resultados",
+  "Lo suficiente en las encuestas",
+  "Los maximizadores se arrepienten más",
+  "Niveles de aspiración en la práctica",
+  "Que lo suficiente sea bueno",
+  "Se acepta la primera respuesta",
+  "Borradores suficientes"
+ ],
+ ".card .desc": [
+  "El modelo de Simon tiene tres pasos: fijar un nivel de aspiración, tomar la primera opción que lo cumple y ajustar el nivel si nada lo hace. En la mayoría de las decisiones reales, encontrar la mejor opción cuesta más de lo que aporta.",
+  "Los usuarios no leen una página sopesando cada opción. La recorren y hacen clic en el primer enlace que parece encajar. Las etiquetas deben leerse de un vistazo y sin ambigüedad, porque una casi coincidencia recibirá el clic.",
+  "Como la gente adivina, equivocarse debe costar poco. Una forma visible de volver, las migas de pan y deshacer convierten un mal intento en un pequeño rodeo en lugar de un callejón sin salida.",
+  "La gente elige entre los primeros resultados de búsqueda y rara vez mira más allá. Pon la mejor coincidencia primero y muestra lo suficiente de cada resultado para juzgarlo de un vistazo.",
+  "Jon Krosnick mostró que quienes responden encuestas ahorran esfuerzo: eligen la primera respuesta aceptable, se muestran de acuerdo, ponen la misma nota en toda una cuadrícula o responden «no sé». Haz cuestionarios cortos y varía los formatos.",
+  "En los estudios de Schwartz, quienes siempre buscan la mejor opción declaraban menos felicidad y más arrepentimiento que quienes se conforman con lo suficiente. Las opciones infinitas empujan a todos a maximizar, y a arrepentirse.",
+  "Un estudio de 628 concesionarios de coches usados vio que el 97 % fijaba precios por satisfacción suficiente: empezar en la mitad del rango y bajar alrededor de un 3 % si el coche no se vendía en 24 días. Las reglas sencillas adaptadas a su entorno pueden superar a la optimización elaborada.",
+  "Como la gente toma la primera opción aceptable, el predeterminado y el primer elemento son los que más pesan. Haz que sean la opción correcta para la mayoría, y la satisfacción suficiente dará buenos resultados.",
+  "Con la IA también nos conformamos con lo suficiente: una respuesta fluida y plausible termina la búsqueda aunque sea errónea. Muestra el nivel de confianza y las fuentes para que una respuesta suficiente se pueda comprobar antes de creerla.",
+  "Los borradores de la IA a menudo se aceptan tal cual porque superan el listón. Facilita la edición y resalta las partes que aún necesitan una decisión humana."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el principio",
+  "La mejor opción es costosa de encontrar",
+  "Hay mucho en juego y pocas opciones",
+  "Menús, navegación y textos de enlace",
+  "Los usuarios buscan una coincidencia",
+  "Los usuarios comparan con cuidado, como al comprar",
+  "Navegación y flujos de varios pasos",
+  "Los usuarios eligen rápido",
+  "Los errores son caros e irreversibles",
+  "Búsqueda y recomendaciones",
+  "Los resultados están ordenados",
+  "Los usuarios necesitan la lista completa",
+  "Encuestas y cuestionarios de investigación",
+  "Los cuestionarios son largos o repetitivos",
+  "Hay pocas preguntas y son atractivas",
+  "Productos con mucha elección, como las compras",
+  "Los usuarios comparan muchas opciones",
+  "Comparar es el objetivo, como en herramientas de investigación",
+  "Diseñar predeterminados y reglas sencillas",
+  "Las respuestas óptimas no se pueden calcular",
+  "Optimizar con precisión es barato",
+  "Predeterminados, ajustes preestablecidos y plantillas",
+  "La gente acepta lo que se le da",
+  "Ninguna opción sirve a la mayoría",
+  "Diez enlaces → una respuesta",
+  "La IA responde directamente",
+  "Respuestas fluidas sin fuentes",
+  "Escribir → aceptar borradores",
+  "La IA genera borradores",
+  "Publicar borradores que nadie revisó"
+ ],
+ ".ai-divider h3": [
+  "La satisfacción suficiente en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Una respuesta fluida de la IA supera el listón al instante. La gente deja de buscar antes, así que lo suficiente tiene que ser fácil de comprobar."
+ ]
+}

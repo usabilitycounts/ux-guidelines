@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principle of Least <em>Astonishment</em>"
+ ],
+ "header .tagline": [
+  "Do what people <em>expect it to do</em>."
+ ],
+ "header .subtitle": [
+  "A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does."
+ ],
+ ".law-origin .body-text": [
+  "An early reference to a ’Law of Least Astonishment’ appeared in the PL/I Bulletin in 1967. IBM’s PL/I had become notorious for breaking it: because of its precision rules, 25 + 1/3 could stop with a fatal error or return 5.33 instead of 25.33. The law first appeared in print in 1972, in a paper on systems programming languages by Bergeron, Gannon, Shecter, Tompa, and van Dam, which asked that every construct behave exactly as its syntax suggests.",
+  "<a href=\"people.html#p-eric-s-raymond\">Eric S. Raymond</a> made it the Rule of Least Surprise in The Art of Unix Programming (2003): borrow from functionally similar programs your users already know. <a href=\"people.html#p-joshua-bloch\">Joshua Bloch</a> applied it to API design in 2006. In interface design it is often summed up in one textbook line: people are part of the system, and the design should match their experience, expectations, and mental models."
+ ],
+ ".law-content .law-desc": [
+  "A component should behave the way most of its users expect. When behavior and expectation differ, change the behavior rather than the users: follow established conventions, choose sensible defaults, and make every control do what its appearance suggests."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "PL/I Bulletin (1967) · in print 1972",
+  "Principle of least surprise",
+  "Match what users already expect"
+ ],
+ ".apply-list li": [
+  "Designing controls, shortcuts, or gestures that already have established conventions.",
+  "Choosing defaults, labels, or names for features, settings, and APIs.",
+  "Users hesitate, undo, or say they didn’t expect what happened.",
+  "Borrow conventions from the platform and from the products your users already know.",
+  "Make each label, icon, and name promise exactly what the control does.",
+  "When a necessary feature keeps surprising people, redesign it instead of explaining it."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Conventions",
+  "Labels",
+  "Defaults",
+  "Consistency",
+  "Audience",
+  "Naming",
+  "Remedy",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "25 + 1/3 = 5.33",
+  "Follow the Platform",
+  "Say What Happens",
+  "Sensible Defaults",
+  "Same Look, Same Behavior",
+  "Whose Surprise?",
+  "Names That Match Behavior",
+  "Redesign the Astonishing",
+  "Preview Before Acting",
+  "Matching the Mental Model"
+ ],
+ ".card .desc": [
+  "PL/I’s precision rules meant 25 + 1/3 could stop with a fatal error or, with errors suppressed, return 5.33 instead of 25.33. The language did exactly what its rules said and astonished everyone who used it.",
+  "People bring expectations from every other app. F1 opens help on Windows, and pressing ? lists the keyboard shortcuts in Gmail, YouTube, and Jira. Reusing a convention costs users nothing to learn.",
+  "A button or link should tell people exactly what to expect. A Download button that opens a sign-up form, or a Continue button that charges a card, breaks the promise and the trust that goes with it.",
+  "JavaScript’s parseInt once read ’08’ as octal because of the leading zero, a default that caused years of bugs until ECMAScript 5 dropped it. A default should match what most people mean.",
+  "Things that look alike should act alike. Two identical buttons that do different things, or a swipe that archives on one screen and deletes on another, surprise people every time.",
+  "What is least surprising depends on who is using it. Command-line users expect Unix flag conventions, Windows users expect its shortcuts, and beginners expect neither. Design for the audience you actually have.",
+  "Functions and methods should do what their names promise, with no side effects the name doesn’t suggest. The same goes for interfaces: a toggle labeled Notifications shouldn’t also unsubscribe someone from email.",
+  "The corollary: if a necessary feature has a high astonishment factor, it may be necessary to redesign it. Usability tests show surprise directly in hesitation, repeated clicks, and the words ’wait, what happened?’",
+  "An assistant that books, sends, or deletes on its own can astonish people in ways that are hard to undo. Say what will happen, show a preview, and ask before acting.",
+  "People treat an assistant like a person, a search box, or a command line, depending on what it resembles. State its capabilities and limits up front, so its behavior matches the model people bring."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the principle",
+  "Behavior follows internal rules",
+  "Users already know the rules",
+  "Shortcuts, gestures, and controls",
+  "A platform convention exists",
+  "The convention fails your users",
+  "Buttons, links, and menu items",
+  "Writing action labels",
+  "The outcome is genuinely unknown",
+  "Settings, forms, and APIs",
+  "Choosing a default value",
+  "No default suits most people",
+  "Design systems and components",
+  "Controls look alike",
+  "The difference is clearly signaled",
+  "Products with mixed audiences",
+  "Users come from different platforms",
+  "Everyone shares one background",
+  "APIs, settings, and toggles",
+  "Naming functions or controls",
+  "A name cannot capture the behavior",
+  "Usability testing and reviews",
+  "Users hesitate or undo",
+  "The surprise is a deliberate delight",
+  "Surprise → preview",
+  "AI takes actions for the user",
+  "Actions with no preview or undo",
+  "Mystery → stated capabilities",
+  "Introducing an AI feature",
+  "A blank prompt with no hints"
+ ],
+ ".ai-divider h3": [
+  "Least Astonishment in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can give a different answer to the same question and take actions nobody asked for. Predictability has to be designed in."
+ ]
+}

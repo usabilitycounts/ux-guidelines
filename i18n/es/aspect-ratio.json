@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Relación de <em>aspecto</em>"
+ ],
+ "header .tagline": [
+  "La forma del marco <em>da forma al contenido</em>."
+ ],
+ "header .subtitle": [
+  "La anchura de una imagen comparada con su altura, escrita como ancho:alto. La relación decide qué cabe en el marco, cómo se adapta el contenido desde un monitor ancho hasta un móvil en vertical y si la página salta mientras carga."
+ ],
+ ".law-origin .body-text": [
+  "En 1892 William Dickson y Thomas Edison fijaron el fotograma de la película de 35 mm en cuatro perforaciones de alto, lo que daba una imagen de unos 4:3. La proporción Academy de 1,375:1 de la época del sonoro se mantuvo cerca, y la televisión adoptó el 4:3 para poder emitir películas.",
+  "Cuando la televisión se llevó al público a principios de los años cincuenta, Hollywood se volvió panorámico con el CinemaScope, la VistaVision y el formato 1,85:1, estrenado en 1953, y el cine anamórfico se fijó en 2,39:1 en 1970. La alta definición adoptó el 16:9, las pantallas de ordenador pasaron del 4:3 al 16:10 y al 16:9 hacia 2010, y los móviles convirtieron el vídeo cuadrado y vertical en formatos cotidianos."
+ ],
+ ".law-content .law-desc": [
+  "La relación de aspecto es la proporción entre anchura y altura. Todo marco tiene una, y cuando el contenido y el marco no coinciden, algo tiene que ceder: la imagen se recorta, se rellena con bandas o se estira. Decidir cuál de antemano es el trabajo de diseño."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Proporciones comunes",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Dickson y Edison, película de 35 mm (1892)",
+  "1:1, 4:3, 3:2, 16:9, 9:16",
+  "Reserva el espacio y recorta a propósito"
+ ],
+ ".apply-list li": [
+  "Colocas imágenes, vídeos o incrustaciones cuyo tamaño no se conoce hasta que cargan.",
+  "Diseñas tarjetas, miniaturas o galerías que mezclan contenido de formas distintas.",
+  "Produces contenido para varias pantallas o plataformas, desde monitores anchos hasta móviles en vertical.",
+  "Indica anchura y altura, o la propiedad CSS aspect-ratio, para que el navegador reserve el espacio antes de que cargue el contenido.",
+  "Elige una relación por componente y recorta alrededor de un punto focal en lugar de mezclar formas.",
+  "Elige entre recortar y poner bandas a conciencia, y nunca estires fotos, caras ni logotipos."
+ ],
+ ".card .tag": [
+  "Saltos de diseño",
+  "Tarjetas",
+  "Conversión",
+  "Pantallas",
+  "Vídeo",
+  "Fotografía",
+  "Tamaño",
+  "Vocabulario",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Reserva el espacio",
+  "Una relación por retícula",
+  "Recortar, enmarcar o estirar",
+  "Ancho en escritorio, alto en móvil",
+  "El vídeo vertical es lo normal",
+  "Conoce las proporciones de la cámara",
+  "La diagonal no es el tamaño",
+  "Las proporciones transmiten un tono",
+  "Elige primero el marco",
+  "Revisa el recorte inteligente"
+ ],
+ ".card .desc": [
+  "Una imagen sin dimensiones carga con altura cero y luego empuja todo hacia abajo al aparecer. Los atributos width y height, o la propiedad CSS aspect-ratio, permiten al navegador guardar el hueco, lo que mantiene bajo el Cumulative Layout Shift.",
+  "Las miniaturas de formas distintas hacen una retícula irregular y difícil de recorrer. Recorta todas las imágenes de un componente a la misma relación con object-fit: cover y define un punto focal para que caras y productos sigan dentro del marco.",
+  "Cuando el contenido y el marco no coinciden hay tres opciones: recortar para llenar, añadir bandas (letterbox o pillarbox) o estirar. Recorta cuando los bordes no importan, usa bandas cuando no se puede cortar nada y evita estirar, porque lo deforma todo.",
+  "Los monitores son sobre todo 16:9 o 16:10, mientras que un móvil en vertical se acerca más a 9:19,5. Una cabecera compuesta para uno no sirve para el otro, así que sirve un recorte distinto en cada punto de ruptura.",
+  "El vídeo cuadrado se extendió con Instagram y Vine, y las historias, los Shorts y los Reels hicieron del 9:16 el estándar en el móvil. Graba y edita para el marco que la gente sostiene de verdad, no para el que tú acostumbras.",
+  "La mayoría de las cámaras disparan en 3:2 o 4:3. Recortar esas fotos para cabeceras 16:9 o miniaturas 1:1 sacrifica parte de la toma, así que planifica el recorte al elegir la imagen, no después.",
+  "Las pantallas se venden por su diagonal, pero con la misma diagonal una pantalla 16:9 tiene cerca de un 11 % menos de superficie que una 4:3, y mucha menos altura. La altura decide cuánta página cabe, así que compara las pantallas por sus dimensiones.",
+  "El 1:1 transmite estabilidad, el 4:3 practicidad, el 16:9 cine y el 2,39:1 épica. El 16:10 de muchos portátiles es 1,6:1, cerca del 1,618 del número áureo. Elige el marco por la sensación además de por lo que cabe.",
+  "Los generadores de imágenes y vídeo componen para la relación que pides, y recortar después rompe la composición. Elige la relación según dónde vivirá la imagen antes de generarla.",
+  "El recorte automático usa modelos de prominencia para conservar la parte importante de una imagen. Twitter abandonó su recorte por prominencia en 2021 después de que su propio estudio mostrara que el modelo favorecía unas caras sobre otras."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Imágenes, vídeos e incrustaciones",
+  "El tamaño del contenido se conoce de antemano",
+  "La altura es realmente desconocida, como en un texto del usuario",
+  "Retículas de productos, galerías y feeds",
+  "Las fuentes tienen muchas formas",
+  "La forma tiene significado, como en un catálogo de arte",
+  "Reproductores de vídeo e incrustaciones",
+  "Las relaciones de origen y marco difieren",
+  "La deformación se notaría, que es casi siempre",
+  "Imágenes de cabecera y banners",
+  "El diseño abarca móviles y escritorio",
+  "La imagen funciona con cualquier recorte",
+  "Vídeo social y móvil",
+  "El público mira en el móvil",
+  "El vídeo es para televisores o presentaciones",
+  "Elegir y recortar fotos",
+  "Las fotos deben llenar huecos fijos",
+  "El hueco coincide con el original",
+  "Elegir pantallas y dispositivos objetivo",
+  "Comparar pantallas por la diagonal",
+  "Las proporciones comparadas son iguales",
+  "Dirección de arte e imágenes de cabecera",
+  "Marcar el tono de una página",
+  "La plataforma impone el marco",
+  "Recortar después → componer para el marco",
+  "Generar imágenes o vídeo",
+  "Generar en cuadrado y recortar a panorámico",
+  "Recorte manual → recorte automático",
+  "Recortar imágenes a escala",
+  "Confiar sin revisar en recortes automáticos de personas"
+ ],
+ ".ai-divider h3": [
+  "La relación de aspecto en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA ya genera y recorta imágenes a escala. El marco hay que elegirlo antes de generar, y los recortes automáticos hay que revisarlos."
+ ]
+}

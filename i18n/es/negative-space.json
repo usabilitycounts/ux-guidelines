@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Espacio <em>negativo</em>"
+ ],
+ "header .tagline": [
+  "El vacío <em>es el que organiza</em>."
+ ],
+ "header .subtitle": [
+  "El espacio negativo es la zona vacía alrededor y entre los elementos. No es espacio sobrante: agrupa y separa el contenido, indica lo que importa y da al ojo un lugar donde descansar, sin una sola línea ni un solo recuadro."
+ ],
+ ".law-origin .body-text": [
+  "Los artistas tratan desde hace mucho el espacio alrededor del motivo como parte de la composición, y la idea japonesa de ma (間), el intervalo con sentido, da forma al diseño de jardines y a la arquitectura. En una imagen a dos tonos, invertir los tonos convierte el espacio alrededor del motivo en formas propias, una inversión figura-fondo que el psicólogo danés Edgar Rubin hizo famosa en 1915 con su jarrón que también son dos caras.",
+  "El diseño gráfico lo llama espacio en blanco, tras siglos de tinta negra sobre papel blanco. El espacio alrededor y entre los elementos separa grupos, indica jerarquía y hace que un diseño se sienta tranquilo. Algunos logotipos, como la flecha escondida de FedEx, convierten el espacio negativo en el propio motivo."
+ ],
+ ".law-content .law-desc": [
+  "El espacio negativo es la zona vacía alrededor y entre los elementos. Es una parte activa del diseño: agrupa lo relacionado, separa lo que no lo está, dirige la atención a lo que rodea y hace que un diseño se sienta tranquilo en lugar de recargado."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Práctica artística y de diseño · el ma (間) de la estética japonesa",
+  "Espacio en blanco",
+  "Da más espacio a lo que más importa"
+ ],
+ ".apply-list li": [
+  "Una pantalla se siente recargada, o todo en ella parece igual de importante.",
+  "Los elementos relacionados deben leerse como grupo sin recuadros ni separadores.",
+  "Un elemento, como una llamada a la acción o un titular, debe destacar.",
+  "Usa el espaciado, no líneas ni recuadros, para agrupar y separar el contenido.",
+  "Da el mayor espacio alrededor al elemento más importante.",
+  "Usa una escala de espaciado coherente para que el propio espacio se perciba intencionado."
+ ],
+ ".card .tag": [
+  "Agrupación",
+  "Énfasis",
+  "Lectura",
+  "Figura y fondo",
+  "Densidad",
+  "Sistemas",
+  "Tipografía",
+  "Móvil",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El espacio agrupa, las líneas dividen",
+  "El espacio indica importancia",
+  "Los márgenes ayudan a leer",
+  "El espacio se convierte en forma",
+  "Aireado o denso",
+  "Usa una escala de espaciado",
+  "El espacio dentro de la letra",
+  "Las pantallas pequeñas también necesitan espacio",
+  "Diseños generados sin un hueco",
+  "Las respuestas del chat necesitan aire"
+ ],
+ ".card .desc": [
+  "Según el principio Gestalt de proximidad, lo que está cerca se lee como grupo. Pon más espacio entre grupos que dentro de ellos y la página se organiza sola, sin necesidad de bordes.",
+  "Un elemento rodeado de espacio atrae la mirada. Un botón solo con márgenes amplios se impone al mismo botón apretado entre enlaces, así que da más espacio a la acción principal.",
+  "Unos márgenes generosos y el espacio entre párrafos enmarcan el texto y facilitan la lectura larga. Los diseñadores de libros llevan siglos equilibrando la caja de texto con sus márgenes.",
+  "En el jarrón de Rubin, el espacio blanco se lee como un jarrón y el oscuro como dos caras, y solo se ve uno a la vez. Los logotipos que esconden una segunda imagen en su espacio negativo premian una segunda mirada.",
+  "No toda pantalla debe ser aireada. Los paneles y las herramientas para expertos necesitan densidad, mientras que el marketing y la incorporación ganan con espacio. Ajusta el espacio a la atención que merece cada elemento.",
+  "El espacio parece intencionado cuando se repite. Una escala como 4, 8, 16, 24 y 32 hace que las mismas relaciones se vean iguales en todas partes, y eso es lo que permite al espacio transmitir significado.",
+  "El espaciado entre letras, entre palabras y entre líneas es espacio negativo a pequeña escala. Demasiado apretado, las palabras se emborronan; demasiado suelto, se deshacen. Ajusta el espaciado al tamaño: los titulares grandes suelen pedir un espaciado más cerrado que el texto corrido.",
+  "En el móvil es tentador recortar el espaciado para que quepa más. El espacio entre áreas táctiles evita toques erróneos, y el espacio entre secciones mantiene legible un desplazamiento largo.",
+  "Las herramientas de IA para diseños y diapositivas tienden a llenar el espacio disponible con más texto, imágenes y decoración. Edita el espacio tanto como el contenido y quita lo que no se gane su sitio.",
+  "Las respuestas largas de IA en un solo bloque denso cuestan de recorrer. El espacio entre párrafos, secciones y mensajes ayuda a encontrar la parte que se busca."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Formularios, listas y ajustes",
+  "El contenido se reparte en grupos",
+  "Los grupos deben compararse celda a celda",
+  "Llamadas a la acción y titulares",
+  "Un elemento debe liderar",
+  "Varias acciones importan por igual",
+  "Artículos y documentación",
+  "El texto es el contenido principal",
+  "Tablas de referencia densas",
+  "Logotipos, iconos e ilustración",
+  "Una segunda lectura añade sentido",
+  "La doble imagen confundiría",
+  "Elegir la densidad de un producto",
+  "Los usuarios leen más de lo que recorren",
+  "Los expertos necesitan muchos elementos a la vista",
+  "Sistemas de diseño y componentes",
+  "Muchas personas crean pantallas",
+  "Un diseño editorial único",
+  "Ajustes tipográficos y fuentes de marca",
+  "Ajustar el espaciado y el interlineado",
+  "Un titular apretado es el efecto buscado",
+  "Diseños móviles y áreas táctiles",
+  "Las áreas táctiles están muy juntas",
+  "El contenido es breve y solo de lectura",
+  "Lleno → editado",
+  "Generar diapositivas, páginas o pantallas",
+  "Aceptar todo lo que añade la herramienta",
+  "Bloque denso → secciones espaciadas",
+  "Mostrar respuestas largas de IA",
+  "Recortar el espaciado para que quepa más"
+ ],
+ ".ai-divider h3": [
+  "El espacio negativo en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las herramientas generativas llenan todo el espacio que se les da. Editar pensando en el vacío es hoy tan importante como editar el contenido."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Preuve <em>sociale</em>"
+ ],
+ "header .tagline": [
+  "Dans le doute, <em>on fait comme les autres</em>."
+ ],
+ "header .subtitle": [
+  "Quand on ne sait pas quoi faire, on copie ce que font les autres en supposant que c'est juste. Avis, notes et chiffres d'usage exploitent cet instinct, à condition que la preuve soit réelle et que la norme mérite d'être suivie."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> a forgé le terme dans son livre Influence (1984), où il figure parmi six principes de persuasion, avec la réciprocité, l'engagement et la cohérence, l'autorité, la sympathie et la rareté. Dans l'incertitude, on suppose que les autres en savent plus, et on les suit.",
+  "La preuve ancienne la plus connue vient de l'expérience de <a href=\"people.html#p-muzafer-sherif\">Muzafer Sherif</a> en 1935. Dans une pièce obscure, un point lumineux immobile semble bouger, et chacun estimait ce mouvement différemment. En groupe, les estimations convergeaient vers une réponse commune, que chacun gardait ensuite lorsqu'il était testé seul."
+ ],
+ ".law-content .law-desc": [
+  "Quand on ne sait pas comment agir, on regarde ce que font les autres et on suppose que c'est la bonne façon. La preuve sociale est la plus forte quand la situation est ambiguë, quand avoir raison compte et quand les autres semblent proches de nous ou compétents."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> (1984)",
+  "Influence sociale informationnelle",
+  "Montrer des preuves réelles et pertinentes de ce que font les autres"
+ ],
+ ".apply-list li": [
+  "Les gens font face à un choix inconnu : premier achat, nouvelle offre ou nouvelle fonctionnalité.",
+  "Il faut établir rapidement la confiance avec de nouveaux visiteurs.",
+  "Vous voulez encourager un comportement que la plupart des gens ont déjà.",
+  "Montrez de vrais avis, notes et usages de personnes semblables au visiteur.",
+  "N'utilisez la preuve sociale que si la norme est élevée : un chiffre faible peut se retourner contre vous.",
+  "Ne trichez jamais : les faux avis et les chiffres gonflés détruisent la confiance et sont illégaux dans bien des pays."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Commerce",
+  "Similarité",
+  "Normes",
+  "Effet inverse",
+  "Popularité",
+  "Chiffres",
+  "Éthique",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La lumière qui bouge",
+  "Avis et notes",
+  "Des gens comme moi",
+  "La plupart des clients réutilisent leurs serviettes",
+  "L'effet boomerang",
+  "La popularité s'auto-entretient",
+  "Les chiffres signalent la crédibilité",
+  "Une fausse preuve est une fraude",
+  "Des avis générés",
+  "La popularité dans les données d'entraînement"
+ ],
+ ".card .desc": [
+  "Dans l'expérience de Sherif, une lumière immobile dans une pièce obscure semblait bouger plus ou moins selon les personnes. Ensemble, leurs estimations convergeaient, et chacun gardait ensuite la réponse du groupe. Faute de réponse claire, le groupe devenait la réponse.",
+  "Les témoignages et les notes d'anciens clients incitent les nouveaux à s'inscrire et à acheter. Montrez la répartition des notes et des avis récents, pas seulement une moyenne, pour que chacun puisse juger.",
+  "La preuve sociale est la plus forte quand elle vient de gens qui nous ressemblent. Lors d'une collecte en porte-à-porte, une liste plus longue de donateurs précédents amenait plus de dons, surtout quand les noms étaient ceux d'amis et de voisins. Montrez des témoignages du même métier, secteur ou région que le visiteur.",
+  "Les clients d'hôtel à qui l'on disait que la plupart des clients réutilisaient leurs serviettes les réutilisaient plus souvent que ceux qui recevaient un appel écologique, et plus encore quand le message parlait des clients ayant séjourné dans leur propre chambre.",
+  "Quand on a indiqué aux ménages la consommation d'énergie moyenne du quartier, ceux qui étaient en dessous ont commencé à consommer plus. Ajouter un smiley approbateur pour une faible consommation l'a évité. N'affichez jamais une norme basse, comme le peu de gens ayant complété leur profil.",
+  "Dans l'expérience MusicLab, afficher le nombre de téléchargements a rendu les succès plus inégaux et moins prévisibles : la popularité initiale faisait boule de neige. Les tris par popularité rendent le populaire plus populaire : proposez aussi des tris par nouveauté ou par pertinence.",
+  "Le nombre d'abonnés, de mentions J'aime et de vues influence la crédibilité d'un compte, tout comme « utilisé par 10 000 équipes » sur une page d'accueil. Gardez ces chiffres à jour et honnêtes, et ne les montrez que s'ils impressionnent.",
+  "Les applaudissements commandés et les rires enregistrés sont de vieilles ficelles ; les faux avis en sont la version en ligne. En 2024, la Federal Trade Commission américaine a adopté une règle interdisant les faux avis et témoignages, y compris ceux générés par IA.",
+  "L'IA rend les faux avis bon marché et convaincants, et elle résume aussi les vrais. Signalez les résumés produits par IA, reliez-les aux avis d'origine et vérifiez que les auteurs ont bien acheté ou utilisé le produit.",
+  "Les recommandations de l'IA reflètent ce qui est déjà populaire dans leurs données : une boucle de preuve sociale à grande échelle. Faites aussi ressortir des options pertinentes moins populaires, et expliquez pourquoi un élément est recommandé."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer le principe",
+  "La situation est ambiguë",
+  "Les gens connaissent déjà la réponse",
+  "Fiches produit et paiement",
+  "Les acheteurs n'ont pas l'expérience du produit",
+  "Les avis sont trop peu nombreux pour signifier quoi que ce soit",
+  "Témoignages et études de cas",
+  "Les publics diffèrent selon le métier ou la région",
+  "Une citation générique pour tout le monde",
+  "Messages d'invitation et d'onboarding",
+  "Le comportement souhaité est courant",
+  "Le comportement souhaité est rare",
+  "Messages de progression, d'usage et de comparaison",
+  "Afficher des moyennes ou des pourcentages",
+  "La norme que vous montreriez est basse",
+  "Classements, tendances et meilleures ventes",
+  "Trier par popularité",
+  "Les nouveautés méritent leur chance",
+  "Pages d’accueil et profils",
+  "Les chiffres sont élevés et vrais",
+  "Les chiffres sont faibles ou périmés",
+  "Politiques d'avis et de témoignages",
+  "Collecter et afficher des preuves",
+  "Jamais : la preuve doit être réelle",
+  "Rédigé → généré",
+  "Afficher ou résumer des avis",
+  "Des résumés ou avis d'IA non signalés",
+  "Populaire → pertinent",
+  "L'IA recommande des produits ou des contenus",
+  "Ne recommander que ce qui est déjà populaire"
+ ],
+ ".ai-divider h3": [
+  "La preuve sociale à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut générer des avis convaincants en quelques secondes, et elle apprend de ce qui est déjà populaire. Les deux rendent la preuve sociale honnête plus difficile et plus précieuse."
+ ]
+}

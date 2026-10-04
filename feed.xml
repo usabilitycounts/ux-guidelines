@@ -5,21 +5,112 @@
   <link>https://www.ux-guidelines.com/</link>
   <description>Research-backed laws, heuristics, and patterns of interface design, each explained with its origin, practice guidance, and what changes in the age of AI.</description>
   <language>en</language>
-  <lastBuildDate>Wed, 30 Sep 2026 09:40:12 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 17:13:56 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Survivorship Bias: Why the Data You Can See Misleads</title>
-    <link>https://www.ux-guidelines.com/survivorship-bias.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/survivorship-bias.html</guid>
-    <pubDate>Wed, 30 Sep 2026 09:40:10 +0000</pubDate>
-    <description>Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.</description>
+    <title>Alarm Fatigue: When Too Many Alerts Get Ignored</title>
+    <link>https://www.ux-guidelines.com/alarm-fatigue.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/alarm-fatigue.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>People exposed to frequent alerts, most of them false or minor, stop responding to them. They dismiss, mute, or work around alerts, and the rare critical one gets the same treatment as the rest.</description>
+  </item>
+  <item>
+    <title>Choice Architecture: How Presenting Options Shapes Decisions</title>
+    <link>https://www.ux-guidelines.com/choice-architecture.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/choice-architecture.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>How options are presented, from which one is preselected to the order they appear in, shapes what people choose. Some design is unavoidable, so design it on purpose and in people’s interest.</description>
+  </item>
+  <item>
+    <title>Default Effect: Why Most People Keep the Preselected Option</title>
+    <link>https://www.ux-guidelines.com/default-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/default-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>Whatever happens when people do nothing is the option most of them end up with. Choosing a default is choosing for the majority, so it deserves as much care as the feature itself.</description>
+  </item>
+  <item>
+    <title>Aspect Ratio: Framing Images, Video, and Layouts</title>
+    <link>https://www.ux-guidelines.com/aspect-ratio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/aspect-ratio.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>An image’s width compared with its height, written width:height. The ratio decides what fits in the frame, how content adapts from wide monitors to upright phones, and whether the page jumps while it loads.</description>
+  </item>
+  <item>
+    <title>Principle of Least Astonishment: Design for What Users Expect</title>
+    <link>https://www.ux-guidelines.com/principle-of-least-astonishment.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/principle-of-least-astonishment.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.</description>
+  </item>
+  <item>
+    <title>Line Length: How Wide Text Should Be for Reading</title>
+    <link>https://www.ux-guidelines.com/line-length.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/line-length.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>The width of a line of text decides how easily the eye finds the next line. Lines that run too long lose the reader on the way back, and lines that are too short break the rhythm. For body text, 45 to 75 characters is the comfortable range.</description>
+  </item>
+  <item>
+    <title>Social Proof: Why People Follow What Others Do</title>
+    <link>https://www.ux-guidelines.com/social-proof.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/social-proof.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>When people aren’t sure what to do, they copy what others are doing and assume it’s right. Reviews, ratings, and usage numbers put that instinct to work, as long as the proof is real and the norm is worth following.</description>
+  </item>
+  <item>
+    <title>Silver Ratio: The 1 to 2.414 Proportion in Layout</title>
+    <link>https://www.ux-guidelines.com/silver-ratio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/silver-ratio.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.</description>
+  </item>
+  <item>
+    <title>Change Blindness: Why Users Miss What Changed on the Screen</title>
+    <link>https://www.ux-guidelines.com/change-blindness.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/change-blindness.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>People miss surprisingly large changes when they happen during a blink, a reload, a cut, or a distraction. Interfaces that change in place without showing what changed leave users looking at a new screen while believing it is the old one.</description>
+  </item>
+  <item>
+    <title>Nudge Theory: Steering Behavior Without Removing Choice</title>
+    <link>https://www.ux-guidelines.com/nudge-theory.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/nudge-theory.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.</description>
+  </item>
+  <item>
+    <title>Satisficing: Why Users Pick the First Good-Enough Option</title>
+    <link>https://www.ux-guidelines.com/satisficing.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/satisficing.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>Instead of searching for the best option, people take the first one that clears their bar. Online, that means users click the first link that looks plausible, so the right choice has to look like the first reasonable one.</description>
+  </item>
+  <item>
+    <title>Negative Space: Using White Space to Organize a Layout</title>
+    <link>https://www.ux-guidelines.com/negative-space.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/negative-space.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>Negative space is the empty area around and between elements. It isn’t leftover room: it groups and separates content, signals what matters, and gives the eye a place to rest, without a single line or box.</description>
+  </item>
+  <item>
+    <title>Dark Patterns: Deceptive Design and What to Do Instead</title>
+    <link>https://www.ux-guidelines.com/dark-patterns.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/dark-patterns.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:13:54 +0000</pubDate>
+    <description>Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.</description>
   </item>
   <item>
     <title>Ebbinghaus Illusion: Why Surroundings Change Perceived Size</title>
     <link>https://www.ux-guidelines.com/ebbinghaus-illusion.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/ebbinghaus-illusion.html</guid>
-    <pubDate>Wed, 30 Sep 2026 09:39:58 +0000</pubDate>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
     <description>Two identical circles look different sizes when one is ringed by large circles and the other by small ones. Every size on a screen is read against its surroundings, so a button, an icon, or a bubble in a chart can look bigger or smaller than it is.</description>
+  </item>
+  <item>
+    <title>Survivorship Bias: Why the Data You Can See Misleads</title>
+    <link>https://www.ux-guidelines.com/survivorship-bias.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/survivorship-bias.html</guid>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
+    <description>Conclusions drawn only from the cases that made it through, such as active users, successful products, or returning planes, ignore everything that was filtered out on the way. They come out too optimistic, and they can credit the wrong cause.</description>
   </item>
   <item>
     <title>Microsoft’s 18 Guidelines for Human-AI Interaction: The HAX Checklist</title>

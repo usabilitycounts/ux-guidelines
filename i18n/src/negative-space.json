@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Negative <em>Space</em>"
+ ],
+ "header .tagline": [
+  "The empty part <em>does the organizing</em>."
+ ],
+ "header .subtitle": [
+  "Negative space is the empty area around and between elements. It isn’t leftover room: it groups and separates content, signals what matters, and gives the eye a place to rest, without a single line or box."
+ ],
+ ".law-origin .body-text": [
+  "Artists have long treated the space around a subject as part of the composition, and the Japanese idea of ma (間), the meaningful interval, shapes garden design and architecture. In a two-tone image, reversing the tones turns the space around a subject into shapes of its own, a figure-ground reversal that the Danish psychologist Edgar Rubin made famous in 1915 with his vase that is also two faces.",
+  "Graphic design calls it white space, after centuries of black ink on white paper. The space around and between elements is what separates groups, signals hierarchy, and makes a layout feel calm. Some logos, such as FedEx’s hidden arrow, make the negative space the subject itself."
+ ],
+ ".law-content .law-desc": [
+  "Negative space is the empty area around and between elements. It is an active part of the design: it groups related things, separates unrelated ones, draws attention to what it surrounds, and makes a layout feel calm instead of crowded."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Art and design practice · ma (間) in Japanese aesthetics",
+  "White space",
+  "Give what matters the most room"
+ ],
+ ".apply-list li": [
+  "A screen feels crowded, or everything on it seems equally important.",
+  "Related items need to read as a group without boxes or dividers.",
+  "One element, such as a call to action or a headline, needs to stand out.",
+  "Use spacing, not lines and boxes, to group and separate content.",
+  "Give the most important element the most room around it.",
+  "Use a consistent spacing scale, so the space itself reads as deliberate."
+ ],
+ ".card .tag": [
+  "Grouping",
+  "Emphasis",
+  "Reading",
+  "Figure and ground",
+  "Density",
+  "Systems",
+  "Typography",
+  "Mobile",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Space Groups, Lines Divide",
+  "Room Signals Importance",
+  "Margins Help Reading",
+  "The Space Becomes the Shape",
+  "Calm or Dense",
+  "Use a Spacing Scale",
+  "Space Inside the Type",
+  "Small Screens Need Space Too",
+  "Generated Layouts Fill Every Gap",
+  "Chat Answers Need Air"
+ ],
+ ".card .desc": [
+  "By the Gestalt principle of proximity, things that sit close together read as a group. Put more space between groups than within them and a page organizes itself, with no borders needed.",
+  "An element with space around it draws the eye. A lone button with generous margins outranks the same button crowded among links, so give the primary action the most room.",
+  "Generous margins and paragraph spacing frame text and make long reading easier. Book designers have balanced the text block against its margins for centuries.",
+  "In Rubin’s vase the white space reads as a vase and the dark space as two faces, and you can only see one at a time. Logos that hide a second image in their negative space reward a second look.",
+  "Not every screen should be airy. Dashboards and expert tools need density, while marketing and onboarding benefit from room. Match the amount of space to how much attention each item deserves.",
+  "Space looks intentional when it repeats. A scale such as 4, 8, 16, 24, and 32 makes the same relationships look the same everywhere, which is what lets space carry meaning.",
+  "Letter spacing, word spacing, and line spacing are negative space at a small scale. Too tight and words blur together; too loose and they fall apart. Adjust spacing with the size: large display type usually needs tighter tracking than body text.",
+  "On phones it is tempting to cut spacing to fit more in. Space between touch targets prevents mis-taps, and space between sections keeps a long scroll readable.",
+  "AI layout and slide tools tend to fill the available space with more text, images, and decoration. Edit for space as much as for content, and remove what doesn’t earn its place.",
+  "Long AI answers set as one dense block are hard to scan. Space between paragraphs, sections, and messages helps people find the part they need."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Forms, lists, and settings",
+  "Content falls into groups",
+  "Groups must be compared cell by cell",
+  "Calls to action and headlines",
+  "One element should lead",
+  "Several actions matter equally",
+  "Articles and documentation",
+  "Text is the main content",
+  "Dense reference tables",
+  "Logos, icons, and illustration",
+  "A second reading adds meaning",
+  "The double image would confuse",
+  "Choosing a density for a product",
+  "Users read more than they scan",
+  "Experts need many items in view",
+  "Design systems and components",
+  "Many people build screens",
+  "A one-off editorial layout",
+  "Type settings and brand fonts",
+  "Setting tracking and leading",
+  "Tight display type is the look you want",
+  "Mobile layouts and touch targets",
+  "Targets sit close together",
+  "Content is read-only and short",
+  "Filled → edited",
+  "Generating slides, pages, or screens",
+  "Accepting every element the tool adds",
+  "Dense block → spaced sections",
+  "Displaying long AI answers",
+  "Removing spacing to fit more"
+ ],
+ ".ai-divider h3": [
+  "Negative Space in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Generative tools fill whatever space they’re given. Editing for emptiness is now as important as editing for content."
+ ]
+}

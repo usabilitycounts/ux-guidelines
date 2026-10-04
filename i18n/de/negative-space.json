@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Negativ<em>raum</em>"
+ ],
+ "header .tagline": [
+  "Die leere Fläche <em>übernimmt das Ordnen</em>."
+ ],
+ "header .subtitle": [
+  "Negativraum ist die leere Fläche um Elemente herum und zwischen ihnen. Er ist kein übrig gebliebener Platz: Er gruppiert und trennt Inhalte, zeigt, was wichtig ist, und gibt dem Auge einen Ruhepunkt, ganz ohne Linien oder Kästen."
+ ],
+ ".law-origin .body-text": [
+  "Künstler behandeln den Raum um ein Motiv seit Langem als Teil der Komposition, und die japanische Idee des ma (間), des bedeutungsvollen Zwischenraums, prägt Gartenkunst und Architektur. In einem zweifarbigen Bild verwandelt das Umkehren der Töne den Raum um ein Motiv in eigene Formen, eine Figur-Grund-Umkehr, die der dänische Psychologe Edgar Rubin 1915 mit seiner Vase berühmt machte, die zugleich zwei Gesichter ist.",
+  "Im Grafikdesign heißt er Weißraum, nach Jahrhunderten schwarzer Tinte auf weißem Papier. Der Raum um und zwischen Elementen trennt Gruppen, zeigt Hierarchie und lässt ein Layout ruhig wirken. Manche Logos, etwa der versteckte Pfeil von FedEx, machen den Negativraum selbst zum Motiv."
+ ],
+ ".law-content .law-desc": [
+  "Negativraum ist die leere Fläche um Elemente herum und zwischen ihnen. Er ist ein aktiver Teil des Designs: Er gruppiert Zusammengehöriges, trennt Unverbundenes, lenkt den Blick auf das, was er umgibt, und lässt ein Layout ruhig statt überladen wirken."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Kunst- und Gestaltungspraxis · ma (間) in der japanischen Ästhetik",
+  "Weißraum",
+  "Dem Wichtigsten den meisten Raum geben"
+ ],
+ ".apply-list li": [
+  "Ein Bildschirm wirkt überladen, oder alles darauf scheint gleich wichtig.",
+  "Zusammengehörige Elemente sollen ohne Kästen oder Trennlinien als Gruppe erkennbar sein.",
+  "Ein Element, etwa ein Call-to-Action oder eine Überschrift, soll hervorstechen.",
+  "Nutzen Sie Abstände statt Linien und Kästen, um Inhalte zu gruppieren und zu trennen.",
+  "Geben Sie dem wichtigsten Element den meisten Raum.",
+  "Nutzen Sie eine einheitliche Abstandsskala, damit der Raum selbst gewollt wirkt."
+ ],
+ ".card .tag": [
+  "Gruppierung",
+  "Betonung",
+  "Lesen",
+  "Figur und Grund",
+  "Dichte",
+  "Systeme",
+  "Typografie",
+  "Mobil",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Raum gruppiert, Linien trennen",
+  "Raum signalisiert Wichtigkeit",
+  "Ränder helfen beim Lesen",
+  "Der Raum wird zur Form",
+  "Luftig oder dicht",
+  "Eine Abstandsskala nutzen",
+  "Raum in der Schrift",
+  "Auch kleine Bildschirme brauchen Raum",
+  "Generierte Layouts füllen jede Lücke",
+  "Chat-Antworten brauchen Luft"
+ ],
+ ".card .desc": [
+  "Nach dem Gestaltgesetz der Nähe wird, was nah beieinander liegt, als Gruppe gelesen. Setzen Sie mehr Abstand zwischen Gruppen als innerhalb, und die Seite ordnet sich von selbst, ganz ohne Rahmen.",
+  "Ein Element mit Raum um sich herum zieht den Blick an. Ein einzelner Button mit großzügigem Rand schlägt denselben Button inmitten von Links, also geben Sie der Hauptaktion den meisten Raum.",
+  "Großzügige Ränder und Absatzabstände rahmen Text und erleichtern langes Lesen. Buchgestalter wägen den Satzspiegel seit Jahrhunderten gegen seine Ränder ab.",
+  "In Rubins Vase liest sich der weiße Raum als Vase und der dunkle als zwei Gesichter, und man sieht immer nur eines davon. Logos, die im Negativraum ein zweites Bild verbergen, belohnen den zweiten Blick.",
+  "Nicht jeder Bildschirm sollte luftig sein. Dashboards und Expertenwerkzeuge brauchen Dichte, Marketing und Onboarding profitieren von Raum. Bemessen Sie den Raum danach, wie viel Aufmerksamkeit jedes Element verdient.",
+  "Raum wirkt gewollt, wenn er sich wiederholt. Eine Skala wie 4, 8, 16, 24 und 32 lässt gleiche Beziehungen überall gleich aussehen, und genau das lässt Raum Bedeutung tragen.",
+  "Laufweite, Wortabstand und Zeilenabstand sind Negativraum im Kleinen. Zu eng, und Wörter verschwimmen; zu weit, und sie zerfallen. Passen Sie die Abstände an die Größe an: Große Displayschrift braucht meist eine engere Laufweite als Fließtext.",
+  "Auf Smartphones ist es verlockend, Abstände zu kürzen, um mehr unterzubringen. Abstand zwischen Touch-Zielen verhindert Fehltipps, und Abstand zwischen Abschnitten hält langes Scrollen lesbar.",
+  "KI-Werkzeuge für Layouts und Folien füllen den verfügbaren Raum gern mit mehr Text, Bildern und Dekoration. Redigieren Sie den Raum so sorgfältig wie den Inhalt, und entfernen Sie, was seinen Platz nicht verdient.",
+  "Lange KI-Antworten als ein dichter Block sind schwer zu überfliegen. Abstand zwischen Absätzen, Abschnitten und Nachrichten hilft, den gesuchten Teil zu finden."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Formulare, Listen und Einstellungen",
+  "Inhalte fallen in Gruppen",
+  "Gruppen müssen Zelle für Zelle verglichen werden",
+  "Calls-to-Action und Überschriften",
+  "Ein Element soll führen",
+  "Mehrere Aktionen sind gleich wichtig",
+  "Artikel und Dokumentation",
+  "Text ist der Hauptinhalt",
+  "Dichte Referenztabellen",
+  "Logos, Icons und Illustration",
+  "Eine zweite Lesart fügt Bedeutung hinzu",
+  "Das Doppelbild würde verwirren",
+  "Die Dichte eines Produkts wählen",
+  "Nutzer lesen mehr, als sie überfliegen",
+  "Experten brauchen viele Elemente im Blick",
+  "Designsysteme und Komponenten",
+  "Viele Menschen bauen Bildschirme",
+  "Ein einmaliges redaktionelles Layout",
+  "Schrifteinstellungen und Markenschriften",
+  "Laufweite und Zeilenabstand einstellen",
+  "Enge Displayschrift ist gewollt",
+  "Mobile Layouts und Touch-Ziele",
+  "Ziele liegen dicht beieinander",
+  "Inhalt ist kurz und nur zum Lesen",
+  "Gefüllt → redigiert",
+  "Folien, Seiten oder Bildschirme generieren",
+  "Jedes Element übernehmen, das das Werkzeug hinzufügt",
+  "Dichter Block → luftige Abschnitte",
+  "Lange KI-Antworten anzeigen",
+  "Abstände kürzen, um mehr unterzubringen"
+ ],
+ ".ai-divider h3": [
+  "Negativraum im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Generative Werkzeuge füllen jeden Raum, den sie bekommen. Auf Leere hin zu redigieren ist heute so wichtig wie den Inhalt zu redigieren."
+ ]
+}

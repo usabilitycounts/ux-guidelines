@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Número de <em>plata</em>"
+ ],
+ "header .tagline": [
+  "Uno a <em>dos coma cuatro uno cuatro</em>."
+ ],
+ "header .subtitle": [
+  "El número de plata, 1 + √2 o unos 2,414, divide el espacio con más decisión que el número áureo. Aparece en el octógono y en el papel A4, y da a los diseños una proporción alargada y tranquila con una parte claramente dominante."
+ ],
+ ".law-origin .body-text": [
+  "El número de plata se estudia desde la Antigüedad con otros nombres por su relación con la raíz cuadrada de 2, el octógono regular y los números de Pell, cuyos cocientes 5/2, 12/5, 29/12 y 70/29 se acercan a él. En un octógono regular, la anchura entre lados opuestos es exactamente 1 + √2 veces la longitud de un lado.",
+  "Su nombre es reciente y se acuñó por analogía con el número áureo: φ resuelve x² = x + 1 y σ resuelve x² = 2x + 1. El papel ISO 216, incluido el A4, usa la proporción cercana 1 : √2, que conserva su forma al doblarse por la mitad. Recorta el mayor cuadrado posible de una hoja A4 y la tira que queda es un rectángulo de plata."
+ ],
+ ".law-content .law-desc": [
+  "Dos longitudes están en proporción de plata cuando la mayor es a la menor como el doble de la mayor más la menor es a la mayor. El resultado, σ ≈ 2,414, da una división más alargada y enfática que el número áureo: unos 71/29 en lugar de 62/38."
+ ],
+ ".law-equation": [
+  "a / b = (2a + b) / a = σ = 1 + √2 ≈ 2,414"
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Estudiado desde la Antigüedad · nombrado por el número áureo",
+  "Media de plata",
+  "Octógonos, papel A4, divisiones 71/29"
+ ],
+ ".apply-list li": [
+  "Divides un diseño ancho, un banner o un panel en una zona dominante y otra estrecha.",
+  "Eliges proporciones para imágenes de cabecera, tarjetas o recortes que deben verse alargados y tranquilos.",
+  "Trabajas con papel de la serie A o formas octogonales, donde la proporción ya viene incluida.",
+  "Divide una longitud en torno a 71/29, o haz un rectángulo unas 2,4 veces más ancho que alto.",
+  "Quita dos cuadrados de un rectángulo de plata y lo que queda es otro rectángulo de plata, lo que da una retícula repetible.",
+  "Redondea a una proporción práctica como 12:5 o 29:12 y fíate más de tu ojo que de los decimales."
+ ],
+ ".card .tag": [
+  "La geometría",
+  "Diseño",
+  "Banners",
+  "Papel",
+  "Forma",
+  "Números",
+  "Tipografía",
+  "Cuidado",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Dos cuadrados y un resto",
+  "Una división 71/29",
+  "Cabeceras y banners anchos",
+  "Escondido en el A4",
+  "El octógono",
+  "Los cocientes de Pell como sustitutos",
+  "Una escala tipográfica en √2",
+  "¿Qué número de plata?",
+  "Proporciones a demanda",
+  "Mitos en las respuestas"
+ ],
+ ".card .desc": [
+  "Recorta dos cuadrados de un rectángulo de plata y lo que queda es un rectángulo de plata más pequeño. Si repites, obtienes una retícula anidada, la versión de plata del cuadrado único del rectángulo áureo.",
+  "Dividir una página según el número de plata da una zona principal dominante y una barra lateral estrecha, una división más clara que el 62/38 del número áureo. Encaja con contenido junto a navegación, filtros o un índice.",
+  "Un rectángulo unas 2,4 veces más ancho que alto se acerca al formato 2,39:1 del cine panorámico, así que se percibe amplio y cinematográfico. Deja sitio para un titular junto al motivo en lugar de encima.",
+  "El papel de la serie A usa 1 : √2, así que una hoja partida por la mitad conserva su forma. Recorta el mayor cuadrado de una página A4 y la tira sobrante es un rectángulo de plata, así que los diseños impresos heredan la proporción sin esfuerzo.",
+  "Un octógono regular es 1 + √2 veces más ancho entre lados opuestos que la longitud de cada lado. Las insignias, iconos y emblemas octogonales llevan la proporción dentro, una de las razones por las que se ven equilibrados.",
+  "Los números de Pell 1, 2, 5, 12, 29, 70 crecen unas 2,414 veces en cada paso, así que proporciones como 5:2, 12:5 y 29:12 son sustitutos prácticos. Un banner de 1200 × 500 es 12:5, a menos de medio punto porcentual de σ.",
+  "El pariente cercano del número de plata, √2, unos 1,414, da una escala tipográfica marcada como 12, 17, 24, 34 y 48. Cada nivel se distingue claramente del siguiente, lo que encaja con páginas de pocos niveles jerárquicos bien marcados.",
+  "En Japón, el término proporción de plata (白銀比) suele significar 1 : √2, la proporción Yamato que se usa en diseño de personajes y arquitectura, no 1 : 2,414. Al dar instrucciones a un equipo, indica el número y no solo el nombre.",
+  "Los generadores de imágenes y diseños usan por defecto formatos conocidos como 16:9 y 1:1. Indica la proporción que quieres, por ejemplo 12:5, para que el resultado siga tu sistema y no los ajustes de la herramienta.",
+  "Pregunta a una IA por proporciones famosas y puede repetir que edificios, logotipos o rostros siguen tal o cual proporción. Mide antes de citar, porque muchas de esas afirmaciones no se sostienen."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Construir una retícula proporcional",
+  "Un diseño necesita divisiones anidadas",
+  "Basta con una retícula uniforme sencilla",
+  "Contenido principal con barra lateral",
+  "Una zona debe dominar claramente",
+  "Las dos zonas importan por igual",
+  "Imágenes de cabecera y banners",
+  "Hace falta un marco ancho y tranquilo",
+  "El motivo necesita altura, como en un retrato",
+  "Diseños impresos y PDF",
+  "Diseñar para papel de la serie A",
+  "El resultado es solo para pantalla",
+  "Iconos, insignias y emblemas",
+  "Dibujar formas de ocho lados",
+  "La forma no tiene nada que ver con el octógono",
+  "Elegir dimensiones en píxeles",
+  "Las medidas irracionales exactas no son prácticas",
+  "Las plantillas exigen medidas exactas",
+  "Páginas con muchos titulares",
+  "La jerarquía necesita mucho contraste",
+  "Las interfaces densas necesitan muchos tamaños cercanos",
+  "Briefs y especificaciones",
+  "Trabajar con equipos internacionales",
+  "Todos comparten la misma definición",
+  "Formato por defecto → proporción indicada",
+  "Generar diseños o imágenes",
+  "Aceptar el formato que elija la herramienta",
+  "Mito → medición",
+  "Investigar proporciones con IA",
+  "Citar afirmaciones sin fuentes"
+ ],
+ ".ai-divider h3": [
+  "El número de plata en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las herramientas generativas recurren a unos pocos formatos conocidos y repiten muchos mitos sobre la proporción. Pide la proporción que quieres y comprueba lo que te dicen."
+ ]
+}

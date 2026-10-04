@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Longueur de <em>ligne</em>"
+ ],
+ "header .tagline": [
+  "Ni trop longue, <em>ni trop courte</em>."
+ ],
+ "header .subtitle": [
+  "La largeur d'une ligne de texte détermine la facilité avec laquelle l'œil trouve la ligne suivante. Des lignes trop longues égarent le lecteur au retour, des lignes trop courtes cassent le rythme. Pour le texte courant, 45 à 75 caractères est la plage confortable."
+ ],
+ ".law-origin .body-text": [
+  "Les imprimeurs ont trouvé des justifications confortables bien avant qu'on les teste : les lignes des livres mesurent traditionnellement environ 30 fois la taille du caractère. En 1929, <a href=\"people.html#p-miles-tinker\">Miles Tinker</a> et Donald Paterson ont mesuré la vitesse de lecture selon la longueur de ligne et constaté que des lignes moyennes, d'environ 59 à 97 millimètres en corps 10, se lisaient le mieux.",
+  "The Elements of Typographic Style (1992) de <a href=\"people.html#p-robert-bringhurst\">Robert Bringhurst</a> a donné aux designers la règle qu'ils citent encore : 45 à 75 caractères par ligne pour une seule colonne de texte, 66 étant souvent considéré comme idéal. Les recherches sur écran depuis, dont l'étude de Mary Dyson et Mark Haselgrove en 2001, ont montré que des lignes plus longues peuvent se lire plus vite à l'écran, même si la plupart des gens préfèrent des lignes moyennes."
+ ],
+ ".law-content .law-desc": [
+  "La longueur de ligne, ou justification, est la largeur d'une ligne de texte, généralement comptée en caractères. Des lignes trop longues rendent difficile de trouver le début de la suivante, et des lignes trop courtes cassent le rythme de lecture. Pour une seule colonne de texte courant, 45 à 75 caractères est la plage confortable."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-miles-tinker\">Tinker</a> et Paterson (1929) · <a href=\"people.html#p-robert-bringhurst\">Bringhurst</a> (1992)",
+  "Justification, mesure",
+  "max-width: 66ch"
+ ],
+ ".apply-list li": [
+  "Vous fixez la largeur d'articles, de documentation, d'aide ou de tout texte long.",
+  "Une mise en page laisse le texte occuper toute la largeur d'un grand écran.",
+  "Le texte se trouve dans des colonnes, des cartes ou des barres latérales peut-être trop étroites.",
+  "Limitez les colonnes de lecture à environ 45 à 75 caractères, par exemple avec max-width: 66ch.",
+  "Augmentez l'interlignage quand la justification s'élargit, et resserrez-le pour les colonnes étroites.",
+  "Laissez tableaux, code et médias déborder de la colonne de texte au lieu d'élargir la prose."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "CSS",
+  "Trop longue",
+  "Trop courte",
+  "Espacement",
+  "Recherche",
+  "Accessibilité",
+  "Public",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "45 à 75 caractères",
+  "Fixer la mesure en ch",
+  "Les lignes longues égarent le lecteur",
+  "Les lignes courtes cassent le rythme",
+  "Plus large, plus interligné",
+  "Le plus rapide n’est pas le préféré",
+  "Les WCAG disent 80 au maximum",
+  "Les débutants ont besoin de lignes plus courtes",
+  "Limiter la colonne de réponse",
+  "Des murs de texte générés"
+ ],
+ ".card .desc": [
+  "Pour une seule colonne de texte courant, 45 à 75 caractères par ligne, espaces comprises, est la plage sur laquelle les typographes s'appuient depuis des décennies, 66 étant souvent qualifié d'idéal. C'est un repère pour la lecture continue, pas une loi pour chaque bloc de texte.",
+  "En CSS, l'unité ch correspond à la largeur du chiffre zéro dans la police courante : max-width: 66ch maintient environ 66 caractères par ligne quelle que soit la taille du texte. Utiliser max-width plutôt que width permet à la colonne de rétrécir sur téléphone.",
+  "À la fin de chaque ligne, l'œil doit revenir au début de la suivante. Sur les lignes longues, ce retour rate sa cible : on saute une ligne ou on relit la même. Le texte pleine largeur sur un grand écran en est la cause habituelle.",
+  "En dessous d'environ 40 caractères, l'œil saute sans cesse, et le texte justifié se remplit de trous et de césures. Les justifications courtes conviennent aux légendes et notes marginales, pas aux paragraphes serrés dans des cartes étroites ou sur plusieurs colonnes.",
+  "Plus la justification est large, plus l'œil a besoin d'interlignage pour trouver la ligne suivante. Les justifications courtes peuvent être plus serrées. Modifiez l'interlignage quand vous modifiez la largeur de colonne, pour garder l'équilibre.",
+  "À l'écran, des lignes plus longues d'environ 95 à 100 caractères peuvent se lire plus vite avec la même compréhension, mais beaucoup préfèrent des lignes plus courtes ou moyennes. Dyson et Haselgrove ont proposé environ 55 caractères comme compromis entre vitesse et compréhension.",
+  "Le critère 1.4.8 des WCAG, Présentation visuelle (niveau AAA), demande que les blocs de texte ne dépassent pas 80 caractères de large, ou 40 pour le chinois, le japonais et le coréen. Les personnes ayant des difficultés de lecture ou de suivi visuel perdent leur place sur les lignes longues.",
+  "Les recommandations typographiques suggèrent 34 à 60 caractères pour les lecteurs débutants, avec 45 comme optimum, et 45 à 80 pour les lecteurs expérimentés, avec 60 comme optimum. Les contenus d'apprentissage, pour enfants et d'aide gagnent à rester vers le bas de la plage.",
+  "Un panneau de réponse pleine largeur sur un grand écran produit des lignes de 150 caractères ou plus. Limitez la prose à une justification de lecture, et laissez blocs de code et tableaux défiler horizontalement au lieu d'élargir le texte.",
+  "Les longues réponses en lignes longues sont difficiles à parcourir. Associez une justification raisonnable à des titres, des listes et des paragraphes courts, pour que le texte généré puisse être lu et pas seulement produit."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Texte courant et articles",
+  "Définir une colonne de lecture",
+  "Le texte est parcouru, pas lu, comme dans un tableau",
+  "Mises en page de lecture responsives",
+  "Le texte est dans un conteneur large",
+  "Le conteneur est déjà étroit",
+  "Mises en page larges sur ordinateur",
+  "Le texte occupe toute la fenêtre",
+  "Les lignes sont courtes de toute façon",
+  "Colonnes, barres latérales et cartes",
+  "Le texte est composé en colonnes étroites",
+  "Le texte est un court libellé ou une légende",
+  "Réglages typographiques",
+  "Changer la largeur de colonne",
+  "L'interlignage s'adapte déjà à chaque point de rupture",
+  "Choisir une justification par défaut",
+  "Vitesse et confort sont en concurrence",
+  "Le texte est survolé pour trouver une seule info",
+  "Expériences de lecture accessibles",
+  "Accompagner la basse vision ou la dyslexie",
+  "Le texte n'est pas un bloc, comme un simple libellé",
+  "Contenus d'apprentissage, pour enfants et d'aide",
+  "Les lecteurs sont débutants",
+  "Des experts survolent une documentation de référence",
+  "Pleine largeur → colonne de lecture",
+  "Concevoir une interface de chat IA",
+  "Une prose étirée pour des tableaux larges",
+  "Mur de texte → réponse structurée",
+  "Afficher de longues réponses d'IA",
+  "De longs paragraphes en pleine largeur"
+ ],
+ ".ai-divider h3": [
+  "La longueur de ligne à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les réponses de l'IA sont longues, et les panneaux de chat occupent souvent toute la largeur de la fenêtre. La justification qui convient à un livre convient aussi à une réponse."
+ ]
+}

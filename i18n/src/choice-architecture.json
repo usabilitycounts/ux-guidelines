@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Choice <em>Architecture</em>"
+ ],
+ "header .tagline": [
+  "There is no <em>neutral way</em> to present a choice."
+ ],
+ "header .subtitle": [
+  "How options are presented, from which one is preselected to the order they appear in, shapes what people choose. Some design is unavoidable, so design it on purpose and in people’s interest."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> and <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> coined the term in their 2008 book Nudge. Anyone who arranges options, from a cafeteria manager to a form designer, is a choice architect, they argued, and can steer people toward better choices without forbidding any option. They called the philosophy libertarian paternalism.",
+  "With John Balz they listed the tools: defaults, expecting error, understanding mappings, giving feedback, structuring complex choices, and creating incentives. Other researchers split the elements into those that structure the set of choices, such as the number of options and the default, and those that describe them, such as how attributes are grouped and labeled."
+ ],
+ ".law-content .law-desc": [
+  "Choice architecture is the design of how options are presented: how many there are, how they are ordered and described, and which one is selected by default. Because no presentation is neutral, every interface that offers a choice is already steering it. The question is only in which direction."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> and <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Decision environment design",
+  "Defaults, order, and framing"
+ ],
+ ".apply-list li": [
+  "Designing forms, settings, plans, or any screen where people choose between options.",
+  "Setting defaults for privacy, notifications, subscriptions, or plan tiers.",
+  "A choice has long-term consequences people tend to put off, such as saving or security.",
+  "Choose defaults that serve most users, and make changing them easy.",
+  "Limit or group options, and add filters or comparisons when many are needed.",
+  "Describe attributes in terms people care about, and show the consequences of each choice."
+ ],
+ ".card .tag": [
+  "Defaults",
+  "Active choice",
+  "Overload",
+  "Order",
+  "Framing",
+  "Grouping",
+  "Time",
+  "Ethics",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Defaults Decide",
+  "Ask Instead of Assuming",
+  "Fewer Options or Better Tools",
+  "Order Is a Nudge",
+  "Translate the Attributes",
+  "Partitions Shape Allocation",
+  "Commit Now, Act Later",
+  "For the User, Not Against",
+  "Defaults Set by Models",
+  "One Answer, No Choice"
+ ],
+ ".card .desc": [
+  "Most people keep whatever is preselected. In one study, organ donor registration was twice as high where people had to opt out as where they had to opt in. Pick the default that serves the user, not just the business.",
+  "When no default suits most people, require an active choice: nothing is preselected and people must pick before continuing. It costs a moment, but it avoids silently giving many people the wrong thing.",
+  "Each extra option takes time to evaluate, and too many can stall a decision. Either limit the alternatives or add decision aids such as filters, sorting, comparisons, and recommendations.",
+  "Search results, rankings, and recommendations shape what people pick, because the first and most prominent options get chosen more. Rank by what serves the user, not by what earns the most.",
+  "Convert numbers into terms people care about: gallons per 100 miles instead of miles per gallon, the total cost instead of the monthly payment. Evaluative labels such as good or poor make numbers easier to compare.",
+  "People tend to spread resources evenly across whatever categories are offered, such as the funds in a retirement plan. The number and grouping of options changes the outcome, so group with intent.",
+  "People favor the present over the future. Thaler and Benartzi’s Save More Tomorrow plan had employees commit in advance to save part of future raises, which raised savings without asking for sacrifice today.",
+  "The same tools that help people can be turned against them. When choice architecture serves the business at the user’s expense, it becomes a dark pattern. Ask whether the design points where users would go if they had time to think.",
+  "Suggested replies, smart autofill, and predicted settings are defaults chosen by a model for each person. Make them easy to change, and show the alternatives rather than hiding them.",
+  "An assistant that returns a single recommendation removes the choice set entirely. For consequential decisions, show a few options with their tradeoffs instead of one pick."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Settings, plans, and sign-up forms",
+  "One option suits most people",
+  "No option suits most people",
+  "Consequential personal preferences",
+  "Preferences vary widely",
+  "The choice slows people down for nothing",
+  "Catalogs, plans, and pickers",
+  "Options run into dozens",
+  "Experts want the complete list",
+  "Search results, lists, and menus",
+  "Ranking or recommending options",
+  "Users set the sort order themselves",
+  "Pricing and comparison tables",
+  "Numbers are hard to compare",
+  "The audience already works in the metric",
+  "Budgets, portfolios, and allocations",
+  "People split resources across options",
+  "Categories are fixed by the domain",
+  "Savings, health, and habit features",
+  "Benefits arrive in the future",
+  "The action must happen now",
+  "Design reviews and audits",
+  "Business and user goals diverge",
+  "Never: there is no neutral option",
+  "Fixed defaults → predicted defaults",
+  "AI preselects options",
+  "Hiding the alternatives",
+  "Ten results → one answer",
+  "AI recommends products or plans",
+  "A single pick for a high-stakes choice"
+ ],
+ ".ai-divider h3": [
+  "Choice Architecture in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI now sets the defaults and ranks the options: suggested replies, autofill, recommended plans, the single answer. That is choice architecture at scale."
+ ]
+}

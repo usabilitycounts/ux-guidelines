@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Patrones <em>oscuros</em>"
+ ],
+ "header .tagline": [
+  "Gana el clic, <em>pierde la confianza</em>."
+ ],
+ "header .subtitle": [
+  "Interfaces diseñadas para engañar a la gente para que compre, se suscriba o comparta más de lo que quería. Suben una métrica durante un trimestre, luego cuestan la confianza de quienes fueron engañados y, cada vez más, acarrean multas."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a>, diseñador de experiencia de usuario británico, acuñó el término el 28 de julio de 2010 al registrar darkpatterns.org, una biblioteca de patrones pensada para nombrar y señalar las interfaces engañosas. El sitio se trasladó después a deceptive.design, y en 2023 publicó el libro Deceptive Patterns.",
+  "La investigación y los reguladores llegaron después. Un estudio de 2019 de Arunesh Mathur y sus colegas en Princeton rastreó unas 11.000 tiendas en línea y encontró 1.818 casos de patrones oscuros. En 2022 la CNIL francesa multó a Google y Facebook por sus avisos de cookies, y en 2025 Amazon cerró por 2.500 millones de dólares la demanda de la FTC sobre el alta y la baja de Prime, sin admitir culpa."
+ ],
+ ".law-content .law-desc": [
+  "Un patrón oscuro es una interfaz diseñada para engañarte y que hagas algo que no querías, como comprar, suscribirte o compartir datos. Explota hábitos y sesgos, y cambia conversión a corto plazo por confianza a largo plazo y, cada vez más a menudo, por riesgo legal."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a> (2010)",
+  "Patrones de diseño engañoso",
+  "¿Lo elegirían los usuarios si lo entendieran?"
+ ],
+ ".apply-list li": [
+  "Diseñas flujos de alta, pago, baja o consentimiento.",
+  "Se presiona mucho una métrica como la conversión o la retención.",
+  "Revisas la honestidad de un flujo antes del lanzamiento o tras una queja.",
+  "Da el mismo peso visual a la opción que quiere el negocio y a la que puede querer el usuario.",
+  "Muestra el precio total desde el principio y deja que la gente se vaya como llegó.",
+  "Pregúntate en cada flujo si los usuarios elegirían lo mismo si lo entendieran por completo."
+ ],
+ ".card .tag": [
+  "Suscripciones",
+  "Precios",
+  "Texto",
+  "Visual",
+  "Privacidad",
+  "Urgencia",
+  "Publicidad",
+  "Remedio",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La trampa para cucarachas",
+  "Precio por goteo",
+  "Avergonzar para confirmar",
+  "Desvío de atención",
+  "Privacy Zuckering",
+  "Urgencia falsa",
+  "Cebo y cambio",
+  "Diseña para una elección informada",
+  "Persuasión a escala",
+  "Negarse al entrenamiento"
+ ],
+ ".card .desc": [
+  "Fácil entrar, difícil salir. Según la FTC, el flujo de baja de Prime, llamado internamente Iliad, llevaba a la gente por páginas repetidas de ofertas. Tras la presión de la UE en 2022, Amazon dejó la baja en dos clics en Europa.",
+  "Un precio de reclamo bajo y luego cargos añadidos paso a paso hasta el pago. Cuando aparece el total real, la gente ha invertido tanto esfuerzo que muchos pagan igualmente. Muestra el precio completo desde la primera pantalla.",
+  "Un enlace de rechazo redactado para avergonzar: No, gracias, no me gusta ahorrar. Presiona con culpa en lugar de convencer con valor. Redacta la opción de rechazo con la misma sencillez que la de aceptar.",
+  "Un botón llamativo para lo que quiere el negocio y un enlace tenue para lo que quiere el usuario, o una casilla de consentimiento con doble negación. Los instaladores de software lo hicieron famoso al colar programas ajenos tras un botón Aceptar bien visible.",
+  "Por Mark Zuckerberg: diseños que llevan a la gente a compartir más de lo que pretendía. En 2022 la CNIL multó a Google con 150 millones de euros y a Facebook con 60 millones porque aceptar las cookies costaba un clic y rechazarlas, varios.",
+  "Cuentas atrás que se reinician y avisos de ¡Últimas unidades! en productos que no se agotan. En 2024 la autoridad británica de competencia (CMA) obtuvo compromisos de Wowcher precisamente por esas afirmaciones. Muestra solo plazos reales y existencias reales.",
+  "Anunciar algo gratis o barato que la mayoría no puede conseguir y luego llevarla a una opción de pago. En 2022 Intuit aceptó un acuerdo de 141 millones de dólares por anuncios de TurboTax que prometían declarar gratis cuando la mayoría no cumplía los requisitos.",
+  "La prueba para cualquier flujo: ¿la gente elegiría lo mismo si lo entendiera por completo? Da el mismo peso al sí y al no, muestra el total real y haz que irse sea tan fácil como llegar. Varias jurisdicciones ya lo exigen.",
+  "Un modelo puede generar miles de variantes de un mensaje y aprender cuáles funcionan con quién. Somete los textos generados a las mismas reglas que los escritos a mano y nunca optimices solo para la conversión.",
+  "En 2024 Meta planeó entrenar su IA con publicaciones de Facebook e Instagram, con una exclusión a la que se llegaba mediante correos engañosos, redirecciones al inicio de sesión y un formulario que pedía un motivo. Negar el consentimiento para entrenar una IA debe ser tan fácil como darlo."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Suscripciones y membresías",
+  "Diseñar cómo se va la gente",
+  "Darse de baja cuesta más pasos que darse de alta",
+  "Pago y precios",
+  "Se aplican cargos o impuestos",
+  "Los cargos aparecen solo en el último paso",
+  "Ventanas emergentes, ventas adicionales y boletines",
+  "Ofrecer algo opcional",
+  "La opción de rechazo se burla del usuario",
+  "Pantallas de consentimiento y elección",
+  "Presentar el sí y el no",
+  "Una opción está escondida a la vista",
+  "Consentimiento y ajustes de privacidad",
+  "Pedir datos o seguimiento",
+  "Rechazar cuesta más clics que aceptar",
+  "Rebajas, ofertas y reservas",
+  "Una oferta es realmente limitada",
+  "El plazo o la escasez son inventados",
+  "Planes, niveles y ofertas gratuitas",
+  "Promocionar una opción gratuita",
+  "La mayoría no puede usar la oferta anunciada",
+  "Revisiones y auditorías de diseño",
+  "Antes del lanzamiento o tras quejas",
+  "Nunca: la honestidad no tiene excepciones",
+  "Un patrón → millones de variantes",
+  "La IA escribe textos de marketing o retención",
+  "Optimizar solo para la conversión",
+  "Exclusión escondida → elección clara",
+  "Usar datos de clientes para IA",
+  "Esconder la exclusión o exigir motivos"
+ ],
+ ".ai-divider h3": [
+  "Los patrones oscuros en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede adaptar el texto, el momento y la oferta a cada persona. Eso hace la persuasión más eficaz y la manipulación más barata y difícil de ver."
+ ]
+}

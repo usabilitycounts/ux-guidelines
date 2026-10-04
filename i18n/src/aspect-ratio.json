@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Aspect <em>Ratio</em>"
+ ],
+ "header .tagline": [
+  "The shape of the frame <em>shapes the content</em>."
+ ],
+ "header .subtitle": [
+  "An image’s width compared with its height, written width:height. The ratio decides what fits in the frame, how content adapts from wide monitors to upright phones, and whether the page jumps while it loads."
+ ],
+ ".law-origin .body-text": [
+  "In 1892 William Dickson and Thomas Edison set the frame of 35 mm film at four perforations high, which gave a picture of about 4:3. The sound-era Academy ratio of 1.375:1 stayed close to it, and television adopted 4:3 so that films could be shown on it.",
+  "When television drew audiences away in the early 1950s, Hollywood went wide with CinemaScope, VistaVision, and the flat 1.85:1 frame that debuted in 1953, and anamorphic film settled at 2.39:1 in 1970. HDTV standardized on 16:9, computer displays moved from 4:3 through 16:10 to 16:9 by around 2010, and phones made square and vertical video everyday formats."
+ ],
+ ".law-content .law-desc": [
+  "Aspect ratio is the proportion of width to height. Every frame has one, and when the content and the frame disagree, something has to give: the image is cropped, padded with bars, or stretched. Deciding which, ahead of time, is the design work."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Common ratios",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "Dickson and Edison, 35 mm film (1892)",
+  "1:1, 4:3, 3:2, 16:9, 9:16",
+  "Reserve the space and crop on purpose"
+ ],
+ ".apply-list li": [
+  "Placing images, video, or embeds whose size isn’t known until they load.",
+  "Designing cards, thumbnails, or galleries that mix content of different shapes.",
+  "Producing media for several screens or platforms, from wide monitors to upright phones.",
+  "Set width and height, or the CSS aspect-ratio property, so the browser reserves space before media loads.",
+  "Pick one ratio per component and crop to it around a focal point instead of mixing shapes.",
+  "Choose between cropping and bars deliberately, and never stretch photos, faces, or logos."
+ ],
+ ".card .tag": [
+  "Layout shift",
+  "Cards",
+  "Conversion",
+  "Screens",
+  "Video",
+  "Photography",
+  "Sizing",
+  "Vocabulary",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Reserve the Space",
+  "One Ratio per Grid",
+  "Crop, Box, or Stretch",
+  "Wide on Desktop, Tall on Phones",
+  "Vertical Video Is Native",
+  "Know the Camera Ratios",
+  "Diagonal Isn’t Size",
+  "Ratios Carry a Mood",
+  "Pick the Frame First",
+  "Check the Smart Crop"
+ ],
+ ".card .desc": [
+  "An image without dimensions loads at zero height, then pushes everything down when it arrives. Width and height attributes, or the CSS aspect-ratio property, let the browser hold the space, which keeps Cumulative Layout Shift low.",
+  "Thumbnails in mixed shapes make a grid ragged and hard to scan. Crop every image in a component to the same ratio with object-fit: cover, and set a focal point so faces and products stay in the frame.",
+  "When content and frame disagree there are three options: crop to fill, add bars (letterboxing or pillarboxing), or stretch. Crop when the edges don’t matter, add bars when nothing may be cut, and avoid stretching, which distorts everything.",
+  "Desktop monitors are mostly 16:9 or 16:10, while an upright phone is closer to 9:19.5. A hero composed for one is wrong for the other, so serve a different crop at each breakpoint.",
+  "Square video spread with Instagram and Vine, and stories, Shorts, and Reels made 9:16 the standard on phones. Shoot and edit for the frame people actually hold, not the one you are used to.",
+  "Most cameras shoot 3:2 or 4:3. Cropping those photos into 16:9 heroes or 1:1 thumbnails throws away part of the shot, so plan the crop when choosing the image, not after.",
+  "Screens are sold by their diagonal, but at the same diagonal a 16:9 screen has about 11 percent less area than a 4:3 one, and much less height. Height decides how much of a page fits, so compare screens by their dimensions.",
+  "1:1 feels stable, 4:3 practical, 16:9 cinematic, and 2.39:1 epic. The 16:10 of many laptops is 1.6:1, close to the golden ratio’s 1.618. Choose a frame for the feeling as well as the fit.",
+  "Image and video generators compose for the ratio you ask for, and cropping later cuts the composition apart. Choose the ratio for where the image will live before you generate it.",
+  "Automatic cropping uses saliency models to keep the important part of an image. Twitter dropped its saliency crop in 2021 after its own study found the model favored some faces over others."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Images, video, and embeds",
+  "The media size is known in advance",
+  "Content height is truly unknown, as with user text",
+  "Product grids, galleries, and feeds",
+  "Sources come in many shapes",
+  "The shape carries meaning, as in art catalogs",
+  "Video players and embeds",
+  "Source and frame ratios differ",
+  "Distortion would be noticed, which is almost always",
+  "Hero images and banners",
+  "The layout spans phones and desktops",
+  "The image works at any crop",
+  "Social and mobile video",
+  "Viewers watch on phones",
+  "The video is for TVs or presentations",
+  "Choosing and cropping photos",
+  "Photos must fill fixed slots",
+  "The slot matches the source",
+  "Choosing target screens and devices",
+  "Comparing displays by diagonal",
+  "The ratios being compared are the same",
+  "Art direction and hero imagery",
+  "Setting the tone of a page",
+  "The platform dictates the frame",
+  "Crop later → compose for the frame",
+  "Generating images or video",
+  "Generating square and cropping to wide",
+  "Manual crops → automatic crops",
+  "Cropping images at scale",
+  "Trusting automatic crops of people unreviewed"
+ ],
+ ".ai-divider h3": [
+  "Aspect Ratio in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI now generates and crops images at scale. The frame has to be chosen before generation, and automatic crops have to be checked."
+ ]
+}

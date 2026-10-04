@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-page="nudge-theory">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=74','script');pl('i18n/'+eff+'/nudge-theory.json?v=37','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.">
+<title>Nudge Theory: Steering Behavior Without Removing Choice — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/nudge-theory.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/nudge-theory.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/teoria-del-empujon.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/nudge-theorie.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/theorie-du-nudge.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/nudge-theory.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/nudge-theory.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/nudge-theory.html">
+<meta property="og:title" content="Nudge Theory: Steering Behavior Without Removing Choice — UX Guidelines">
+<meta property="og:description" content="A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/nudge-theory.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/nudge-theory.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/nudge-theory.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nudge Theory: Steering Behavior Without Removing Choice — UX Guidelines">
+<meta name="twitter:description" content="A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Nudge Theory: Steering Behavior Without Removing Choice", "description": "A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.", "url": "https://www.ux-guidelines.com/nudge-theory.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/nudge-theory.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Structure The Choices"}, {"@type": "ListItem", "position": 3, "name": "Nudge Theory: Steering Behavior Without Removing Choice", "item": "https://www.ux-guidelines.com/nudge-theory.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=128"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link active">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Nudge <em>Theory</em></h1>
+  <p class="tagline">Make the better choice <em>the easier one</em>.</p>
+  <p class="subtitle">A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="people.html#p-richard-thaler">Richard Thaler</a> and <a href="people.html#p-richard-thaler">Cass Sunstein</a> made the idea famous in their 2008 book Nudge, though the cybernetician James Wilk had used the term earlier. A nudge, they wrote, changes behavior predictably without forbidding any option or significantly changing incentives, and it has to be easy and cheap to avoid. Putting fruit at eye level counts; banning junk food doesn’t.</p>
+    <p class="body-text">Governments took it up quickly. The UK founded its Behavioural Insights Team, the original nudge unit, in 2010, and similar units followed in Australia, Canada, Germany, Japan, the World Bank, and the European Commission. The evidence is contested: a 2021 meta-analysis reported real effects, a 2022 reanalysis found no evidence for nudging after correcting for publication bias, and nudge units’ own trials showed effects far smaller than published studies.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Theory</div>
+    <p class="body-text law-desc">A nudge alters the context of a choice so that fast, habitual thinking lands on the better option, without banning alternatives or changing incentives much. Defaults, placement, reminders, and showing what others do are the common levers.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-richard-thaler">Thaler</a> and <a href="people.html#p-richard-thaler">Sunstein</a> (2008)</div></div>
+      <div><div class="label">Also called</div><div class="value">Nudging, behavioral insights</div></div>
+      <div><div class="label">In practice</div><div class="value">Easy and cheap to avoid</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Encouraging something people already intend to do, such as saving, finishing setup, or securing an account.</li>
+      <li>People act on habit or autopilot at the moment of choice.</li>
+      <li>Mandates or incentives would be too heavy-handed or too costly.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Use the main levers: defaults, salience, social proof, timely reminders, and less friction.</li>
+      <li>Keep every nudge easy and cheap to avoid, and open about what it is doing.</li>
+      <li>Test nudges with your own users, since published effects often overstate real ones.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Fly in the Urinal -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>The Fly in the Urinal</h3>
+      <p class="desc">Amsterdam’s Schiphol Airport etched an image of a fly into urinals to improve aim. It is the most cited nudge: a small change to the environment that works on automatic behavior without a single instruction.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M70 20H150V70Q150 104 110 104Q70 104 70 70Z" class="ol"/><path d="M104 66l6 -4l6 4l-6 4z" class="a"/><circle cx="110" cy="66" r="3" class="a"/><circle cx="110" cy="66" r="12" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the theory</div></div>
+      <div><div class="label">Use when</div><div class="value">The behavior is automatic</div></div>
+      <div><div class="label">Avoid when</div><div class="value">People need information to decide</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="default-effect.html">Default Effect</a></div>
+    </div>
+  </article>
+  <!-- 2. Put the Better Option Within Reach -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Salience</span>
+      <span class="num">02 / 10</span>
+      <h3>Put the Better Option Within Reach</h3>
+      <p class="desc">In snack shops at Dutch train stations, moving fruit and healthy snacks next to the register increased their sales. In an interface, the equivalent is placing the recommended action where attention already is.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="70" width="180" height="40" rx="5" class="ol"/><rect x="150" y="50" width="40" height="20" rx="3" class="b"/><circle cx="160" cy="44" r="5" class="a"/><circle cx="170" cy="44" r="5" class="a"/><circle cx="180" cy="44" r="5" class="a"/><rect x="26" y="30" width="18" height="40" rx="3" class="b"/><rect x="52" y="30" width="18" height="40" rx="3" class="b"/><rect x="78" y="30" width="18" height="40" rx="3" class="b"/><rect x="104" y="30" width="18" height="40" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Placement of actions and offers</div></div>
+      <div><div class="label">Use when</div><div class="value">One option serves users better</div></div>
+      <div><div class="label">Avoid when</div><div class="value">All options are equally good</div></div>
+    </div>
+  </article>
+  <!-- 3. Show What Others Do -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Social proof</span>
+      <span class="num">03 / 10</span>
+      <h3>Show What Others Do</h3>
+      <p class="desc">People look to others when unsure. Telling people how many neighbors pay on time, or which plan most customers choose, can move behavior, as long as it’s true and the norm is one worth following.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="30" cy="46" r="9" class="a"/><rect x="22" y="60" width="16" height="20" rx="6" class="a"/><circle cx="56" cy="46" r="9" class="a"/><rect x="48" y="60" width="16" height="20" rx="6" class="a"/><circle cx="82" cy="46" r="9" class="a"/><rect x="74" y="60" width="16" height="20" rx="6" class="a"/><circle cx="108" cy="46" r="9" class="a"/><rect x="100" y="60" width="16" height="20" rx="6" class="a"/><circle cx="134" cy="46" r="9" class="a"/><rect x="126" y="60" width="16" height="20" rx="6" class="a"/><circle cx="160" cy="46" r="9" class="a"/><rect x="152" y="60" width="16" height="20" rx="6" class="a"/><circle cx="186" cy="46" r="9" class="gh"/><rect x="178" y="60" width="16" height="20" rx="6" class="gh"/><rect x="20" y="94" width="180" height="6" rx="3" class="b"/><rect x="20" y="94" width="154" height="6" rx="3" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Onboarding, reminders, and plan choices</div></div>
+      <div><div class="label">Use when</div><div class="value">The desired behavior is common</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The norm is low, and showing it backfires</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="social-proof.html">Social Proof</a></div>
+    </div>
+  </article>
+  <!-- 4. Make It Easy -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Friction</span>
+      <span class="num">04 / 10</span>
+      <h3>Make It Easy</h3>
+      <p class="desc">The Behavioural Insights Team sums up its approach as EAST: make it Easy, Attractive, Social, and Timely. Removing one step from a flow often does more than any amount of persuasion.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="50" width="40" height="22" rx="4" class="b"/><rect x="90" y="50" width="40" height="22" rx="4" class="gh"/><rect x="160" y="50" width="40" height="22" rx="4" class="a"/><path d="M60 61H90M130 61H160" class="lg"/><path d="M76 40Q110 20 144 40" class="ln"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Flows and forms</div></div>
+      <div><div class="label">Use when</div><div class="value">A behavior is intended but not done</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Friction protects users from mistakes</div></div>
+    </div>
+  </article>
+  <!-- 5. Nudge at the Right Moment -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Timing</span>
+      <span class="num">05 / 10</span>
+      <h3>Nudge at the Right Moment</h3>
+      <p class="desc">A reminder works when it arrives at a moment people can act on it. Suggest a backup when the device is charging, not in the middle of a task.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="110" cy="60" r="40" class="ol"/><path d="M110 60V30M110 60L132 72" class="ln"/><circle cx="150" cy="26" r="10" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Notifications and reminders</div></div>
+      <div><div class="label">Use when</div><div class="value">The behavior has a natural moment</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The reminder would interrupt</div></div>
+    </div>
+  </article>
+  <!-- 6. Smaller Than Advertised -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Evidence</span>
+      <span class="num">06 / 10</span>
+      <h3>Smaller Than Advertised</h3>
+      <p class="desc">A study of trials run by two nudge units found effects about a sixth the size of those in academic journals, and a 2022 reanalysis found no overall evidence after correcting for publication bias. Defaults tend to hold up; many other nudges are weak.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="50" y="24" width="40" height="76" rx="3" class="b"/><rect x="130" y="84" width="40" height="16" rx="3" class="a"/><text x="70" y="114" text-anchor="middle" class="t">published</text><text x="150" y="114" text-anchor="middle" class="t">in the field</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Planning experiments</div></div>
+      <div><div class="label">Use when</div><div class="value">Relying on published results</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Effects were tested with your users</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="survivorship-bias.html">Survivorship Bias</a></div>
+    </div>
+  </article>
+  <!-- 7. One Nudge Doesn’t Fit All -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Personalization</span>
+      <span class="num">07 / 10</span>
+      <h3>One Nudge Doesn’t Fit All</h3>
+      <p class="desc">Responses to the same nudge differ widely between people. Research suggests nudges tailored to individual differences work better than a single message for everyone, so segment and test.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="40" cy="46" r="13" class="b"/><rect x="26" y="64" width="28" height="30" rx="8" class="b"/><rect x="28" y="18" width="24" height="10" rx="5" class="g"/><circle cx="86" cy="46" r="13" class="b"/><rect x="72" y="64" width="28" height="30" rx="8" class="b"/><rect x="74" y="18" width="24" height="10" rx="5" class="a"/><circle cx="132" cy="46" r="13" class="b"/><rect x="118" y="64" width="28" height="30" rx="8" class="b"/><rect x="120" y="18" width="24" height="10" rx="5" class="g"/><circle cx="178" cy="46" r="13" class="b"/><rect x="164" y="64" width="28" height="30" rx="8" class="b"/><rect x="166" y="18" width="24" height="10" rx="5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Products with diverse users</div></div>
+      <div><div class="label">Use when</div><div class="value">Responses vary across groups</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Personal data use would feel invasive</div></div>
+    </div>
+  </article>
+  <!-- 8. Nudge, Not Sludge -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Ethics</span>
+      <span class="num">08 / 10</span>
+      <h3>Nudge, Not Sludge</h3>
+      <p class="desc">Thaler calls friction that makes good choices harder sludge, like a cancellation maze. A nudge must be transparent and easy to avoid; when it serves the business against the user, it is a dark pattern.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="30" width="80" height="60" rx="6" class="ol"/><path d="M40 60H80" class="ln"/><path d="M70 50L80 60L70 70" class="ln"/><rect x="120" y="30" width="80" height="60" rx="6" class="ol"/><path d="M130 40H190V80H130Z" class="gh"/><path d="M140 50H180V70H140Z" class="gh"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Design reviews and audits</div></div>
+      <div><div class="label">Use when</div><div class="value">Business goals pull against users</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Never: transparency is required</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="dark-patterns.html">Dark Patterns</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Nudge Theory in the Age of AI</h3>
+    <p>AI can tailor a nudge to each person’s habits, and it needs nudges of its own to keep people checking its work.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="30" cy="40" r="10" class="b"/><rect x="18" y="60" width="24" height="6" rx="3" class="g"/><rect x="18" y="70" width="18" height="6" rx="3" class="b"/><circle cx="70" cy="40" r="10" class="b"/><rect x="58" y="60" width="24" height="6" rx="3" class="a"/><rect x="58" y="70" width="18" height="6" rx="3" class="b"/><circle cx="110" cy="40" r="10" class="b"/><rect x="98" y="60" width="24" height="6" rx="3" class="g"/><rect x="98" y="70" width="18" height="6" rx="3" class="b"/><circle cx="150" cy="40" r="10" class="b"/><rect x="138" y="60" width="24" height="6" rx="3" class="a"/><rect x="138" y="70" width="18" height="6" rx="3" class="b"/><circle cx="190" cy="40" r="10" class="b"/><rect x="178" y="60" width="24" height="6" rx="3" class="g"/><rect x="178" y="70" width="18" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Personalized Nudges at Scale</h3>
+      <p class="desc">AI can tailor prompts and offers to each person’s habits and moods, which may make nudges more effective and harder to notice. Keep them transparent, and give people a way to see why they were shown something.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">One nudge → one per person</div></div>
+      <div><div class="label">Use when</div><div class="value">AI personalizes prompts or offers</div></div>
+      <div><div class="label">Watch for</div><div class="value">Nudges people cannot see or refuse</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="18" width="180" height="60" rx="8" class="b"/><rect x="34" y="30" width="150" height="5" rx="2.5" class="g"/><rect x="34" y="41" width="150" height="5" rx="2.5" class="g"/><rect x="34" y="52" width="90" height="5" rx="2.5" class="g"/><rect x="20" y="88" width="70" height="18" rx="9" class="a"/><rect x="98" y="88" width="70" height="18" rx="9" class="ol"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Nudging Toward Verification</h3>
+      <p class="desc">Small prompts can counter overreliance on AI: a check-the-sources link, a confirmation before risky actions, highlighting the uncertain parts. Use nudges to slow people down where the AI is likely to be wrong.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Accept → review</div></div>
+      <div><div class="label">Use when</div><div class="value">AI output needs human checks</div></div>
+      <div><div class="label">Watch for</div><div class="value">Friction on every single answer</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1073/pnas.2107346118" target="_blank" rel="noopener"><span class="title">The Effectiveness of Nudging: A Meta-Analysis of Choice Architecture Interventions — Mertens et al., 2021</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1073/pnas.2200300119" target="_blank" rel="noopener"><span class="title">No Evidence for Nudging After Adjusting for Publication Bias — Maier et al., 2022</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.3982/ECTA18709" target="_blank" rel="noopener"><span class="title">RCTs to Scale: Comprehensive Evidence from Two Nudge Units — DellaVigna and Linos, 2022</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Practice</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.bi.team/publications/east-four-simple-ways-to-apply-behavioural-insights/" target="_blank" rel="noopener"><span class="title">EAST: Four Simple Ways to Apply Behavioural Insights — Behavioural Insights Team, 2014</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Nudge_theory" target="_blank" rel="noopener"><span class="title">Nudge Theory</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Behavioural_Insights_Team" target="_blank" rel="noopener"><span class="title">Behavioural Insights Team</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Nudge Theory</div>
+</footer>
+
+</body>
+</html>

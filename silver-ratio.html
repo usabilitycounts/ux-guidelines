@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" data-page="silver-ratio">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=74','script');pl('i18n/'+eff+'/silver-ratio.json?v=37','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.">
+<title>Silver Ratio: The 1 to 2.414 Proportion in Layout — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/silver-ratio.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/silver-ratio.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/numero-de-plata.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/silberner-schnitt.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/nombre-d-argent.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/silver-ratio.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/silver-ratio.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/silver-ratio.html">
+<meta property="og:title" content="Silver Ratio: The 1 to 2.414 Proportion in Layout — UX Guidelines">
+<meta property="og:description" content="The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/silver-ratio.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/silver-ratio.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/silver-ratio.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Silver Ratio: The 1 to 2.414 Proportion in Layout — UX Guidelines">
+<meta name="twitter:description" content="The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Silver Ratio: The 1 to 2.414 Proportion in Layout", "description": "The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.", "url": "https://www.ux-guidelines.com/silver-ratio.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/silver-ratio.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Lay Out The Page"}, {"@type": "ListItem", "position": 3, "name": "Silver Ratio: The 1 to 2.414 Proportion in Layout", "item": "https://www.ux-guidelines.com/silver-ratio.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=128"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link active">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Silver <em>Ratio</em></h1>
+  <p class="tagline">One to <em>two point four one four</em>.</p>
+  <p class="subtitle">The silver ratio, 1 + √2 or about 2.414, divides space more decisively than the golden ratio. It turns up in octagons and A4 paper, and it gives layouts a long, calm proportion with one clearly dominant part.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">The silver ratio has been studied since antiquity under other names, because of its ties to the square root of 2, the regular octagon, and the Pell numbers, whose ratios 5/2, 12/5, 29/12, and 70/29 close in on it. In a regular octagon, the width across the flats is exactly 1 + √2 times the length of a side.</p>
+    <p class="body-text">Its name is recent, coined by analogy with the golden ratio: where φ solves x² = x + 1, σ solves x² = 2x + 1. ISO 216 paper, including A4, uses the closely related 1 : √2, which keeps its shape when folded in half. Cut the largest square from an A4 sheet and the strip left over is a silver rectangle.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Ratio</div>
+    <p class="body-text law-desc">Two lengths are in the silver ratio when the larger is to the smaller as twice the larger plus the smaller is to the larger. The result, σ ≈ 2.414, gives a longer, more emphatic division than the golden ratio: about 71/29 instead of 62/38.</p>
+    <p class="body-text law-equation">a / b = (2a + b) / a = σ = 1 + √2 ≈ 2.414</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">Studied since antiquity · named after the golden ratio</div></div>
+      <div><div class="label">Also called</div><div class="value">Silver mean</div></div>
+      <div><div class="label">In practice</div><div class="value">Octagons, A4 paper, 71/29 splits</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Dividing a wide layout, banner, or panel into one dominant area and one narrow one.</li>
+      <li>Choosing proportions for hero images, cards, or crops that should feel long and calm.</li>
+      <li>Working with A-series paper or octagonal shapes, where the ratio is already built in.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Split a length at about 71/29, or make a rectangle about 2.4 times as wide as it is tall.</li>
+      <li>Remove two squares from a silver rectangle and the remainder is another silver rectangle, which gives a repeatable grid.</li>
+      <li>Round to a practical ratio such as 12:5 or 29:12, and trust your eye over the decimal.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Two Squares and a Remainder -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The geometry</span>
+      <span class="num">01 / 10</span>
+      <h3>Two Squares and a Remainder</h3>
+      <p class="desc">Cut two squares from a silver rectangle and what is left is a smaller silver rectangle. Repeat and you get a nested grid, the silver counterpart of the golden rectangle’s single square.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="14" y="20" width="80" height="80" rx="2" class="b"/><rect x="96" y="20" width="80" height="80" rx="2" class="b"/><rect x="178" y="20" width="32" height="80" rx="2" class="a"/><rect x="14" y="20" width="196" height="80" rx="2" class="ol"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Building a proportional grid</div></div>
+      <div><div class="label">Use when</div><div class="value">A layout needs nested divisions</div></div>
+      <div><div class="label">Avoid when</div><div class="value">A simple even grid is enough</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="grid-and-hierarchy.html">Grid and Hierarchy</a></div>
+    </div>
+  </article>
+  <!-- 2. A 71/29 Split -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Layout</span>
+      <span class="num">02 / 10</span>
+      <h3>A 71/29 Split</h3>
+      <p class="desc">Dividing a page at the silver ratio gives a dominant main area and a narrow sidebar, a more decisive split than the golden ratio’s 62/38. It suits content beside navigation, filters, or a table of contents.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="16" y="16" width="134" height="88" rx="4" class="b"/><rect x="154" y="16" width="50" height="88" rx="4" class="a"/><rect x="28" y="30" width="100" height="5" rx="2.5" class="g"/><rect x="28" y="42" width="100" height="5" rx="2.5" class="g"/><rect x="28" y="54" width="100" height="5" rx="2.5" class="g"/><rect x="28" y="66" width="100" height="5" rx="2.5" class="g"/><rect x="28" y="78" width="60" height="5" rx="2.5" class="g"/><text x="83" y="116" text-anchor="middle" class="t">71</text><text x="179" y="116" text-anchor="middle" class="t">29</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Main content with a sidebar</div></div>
+      <div><div class="label">Use when</div><div class="value">One area should clearly dominate</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Both areas matter equally</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="golden-ratio.html">Golden Ratio</a></div>
+    </div>
+  </article>
+  <!-- 3. Wide Heroes and Banners -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Banners</span>
+      <span class="num">03 / 10</span>
+      <h3>Wide Heroes and Banners</h3>
+      <p class="desc">A rectangle about 2.4 times as wide as it is tall sits close to the 2.39:1 frame of widescreen cinema, so it reads as wide and cinematic. It leaves room for a headline beside the subject rather than on top of it.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="10" y="14" width="200" height="92" rx="5" class="ol"/><rect x="20" y="30" width="180" height="74.6" rx="3" class="b"/><path d="M20 92L70 62L100 80L140 46L200 84V104.6H20Z" class="a"/><circle cx="170" cy="46" r="8" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Hero images and banners</div></div>
+      <div><div class="label">Use when</div><div class="value">A wide, calm frame is needed</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The subject needs height, as in portraits</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="rule-of-thirds.html">Rule of Thirds</a></div>
+    </div>
+  </article>
+  <!-- 4. Hidden in A4 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Paper</span>
+      <span class="num">04 / 10</span>
+      <h3>Hidden in A4</h3>
+      <p class="desc">A-series paper uses 1 : √2, so halving a sheet keeps its shape. Cut the largest square from an A4 page and the leftover strip is a silver rectangle, so print layouts inherit the ratio for free.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="75" y="6" width="70" height="99" rx="2" class="ol"/><rect x="75" y="6" width="70" height="70" rx="2" class="b"/><rect x="75" y="76" width="70" height="29" rx="2" class="a"/><text x="110" y="116" text-anchor="middle" class="t">1 : √2</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Print and PDF layouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing for A-series paper</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The output is screen only</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="canons-of-page-construction.html">Canons of Page Construction</a></div>
+    </div>
+  </article>
+  <!-- 5. The Octagon -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Shape</span>
+      <span class="num">05 / 10</span>
+      <h3>The Octagon</h3>
+      <p class="desc">A regular octagon is 1 + √2 times as wide across its flats as each side is long. Octagonal badges, icons, and emblems carry the ratio inside them, which is one reason they look balanced.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><polygon points="93,18.96 127,18.96 151.04,43 151.04,77 127,101.04 93,101.04 68.96,77 68.96,43" class="a"/><path d="M68.96 109.04L151.04 109.04" class="ax"/><path d="M93 12.96L127 12.96" class="lg"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Icons, badges, and emblems</div></div>
+      <div><div class="label">Use when</div><div class="value">Drawing eight-sided shapes</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The shape has nothing to do with octagons</div></div>
+    </div>
+  </article>
+  <!-- 6. Pell Ratios Stand In -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Numbers</span>
+      <span class="num">06 / 10</span>
+      <h3>Pell Ratios Stand In</h3>
+      <p class="desc">The Pell numbers 1, 2, 5, 12, 29, 70 grow by roughly 2.414 at each step, so ratios such as 5:2, 12:5, and 29:12 make practical stand-ins. A 1200 × 500 banner is 12:5, within half a percent of σ.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 104L200 104" class="ax"/><rect x="30" y="101" width="24" height="3" rx="3" class="b"/><rect x="64" y="98" width="24" height="6" rx="3" class="b"/><rect x="98" y="89" width="24" height="15" rx="3" class="b"/><rect x="132" y="68" width="24" height="36" rx="3" class="b"/><rect x="166" y="17" width="24" height="87" rx="3" class="a"/><text x="42" y="116" text-anchor="middle" class="t">1</text><text x="76" y="116" text-anchor="middle" class="t">2</text><text x="110" y="116" text-anchor="middle" class="t">5</text><text x="144" y="116" text-anchor="middle" class="t">12</text><text x="178" y="116" text-anchor="middle" class="t">29</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Picking pixel dimensions</div></div>
+      <div><div class="label">Use when</div><div class="value">Exact irrational sizes are impractical</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Templates demand exact sizes</div></div>
+    </div>
+  </article>
+  <!-- 7. A √2 Type Scale -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Type</span>
+      <span class="num">07 / 10</span>
+      <h3>A √2 Type Scale</h3>
+      <p class="desc">The silver ratio’s close relative √2, about 1.414, makes a steep type scale such as 12, 17, 24, 34, and 48. Each level is clearly distinct from the next, which suits pages with few, strong levels of hierarchy.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="98" width="40" height="6" rx="3" class="b"/><rect x="24" y="84" width="56" height="8.5" rx="4.25" class="b"/><rect x="24" y="66" width="80" height="12" rx="6" class="b"/><rect x="24" y="42" width="112" height="17" rx="8.5" class="b"/><rect x="24" y="10" width="160" height="24" rx="12" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Display-heavy pages</div></div>
+      <div><div class="label">Use when</div><div class="value">Hierarchy needs strong contrast</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Dense interfaces need many close sizes</div></div>
+    </div>
+  </article>
+  <!-- 8. Which Silver Ratio? -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">08 / 10</span>
+      <h3>Which Silver Ratio?</h3>
+      <p class="desc">In Japan, the term silver ratio (白銀比) often means 1 : √2, the Yamato ratio used in character design and architecture, not 1 : 2.414. When briefing a team, give the number rather than just the name.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="30" width="50" height="70.7" rx="3" class="ga"/><rect x="96" y="46" width="108" height="44.7" rx="3" class="a"/><text x="49" y="114" text-anchor="middle" class="t">1 : √2</text><text x="150" y="104" text-anchor="middle" class="t">1 : 2.414</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Briefs and specifications</div></div>
+      <div><div class="label">Use when</div><div class="value">Working with international teams</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Everyone shares one definition</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>The Silver Ratio in the Age of AI</h3>
+    <p>Generative tools default to a few familiar frames and repeat a lot of folklore about proportion. Ask for the ratio you want and check what you are told.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="22" width="184" height="76" rx="4" class="b"/><rect x="30" y="22" width="160" height="76" rx="2" class="gh"/><rect x="18" y="33" width="184" height="54" rx="2" class="ga"/><circle cx="110" cy="60" r="14" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Proportion on Request</h3>
+      <p class="desc">Image and layout generators default to familiar frames such as 16:9 and 1:1. Name the ratio you want, such as 12:5, so the output follows your system instead of the tool’s default.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Default frame → specified ratio</div></div>
+      <div><div class="label">Use when</div><div class="value">Generating layouts or images</div></div>
+      <div><div class="label">Watch for</div><div class="value">Accepting whatever frame the tool picks</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="20" width="120" height="48" rx="12" class="b"/><rect x="32" y="32" width="96" height="5" rx="2.5" class="g"/><rect x="32" y="44" width="57.6" height="5" rx="2.5" class="g"/><rect x="80" y="76" width="120" height="28" rx="10" class="ol"/><text x="140" y="94" text-anchor="middle" class="ta">≈ φ ?</text></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Folklore in the Answers</h3>
+      <p class="desc">Ask AI about famous proportions and it may repeat claims that buildings, logos, or faces follow one ratio or another. Measure before you cite, since many of those claims don’t hold up.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Folklore → measurement</div></div>
+      <div><div class="label">Use when</div><div class="value">Researching proportion with AI</div></div>
+      <div><div class="label">Watch for</div><div class="value">Citing claims without sources</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Reference</h3>
+      <ul class="ref-list">
+        <li><a href="https://mathworld.wolfram.com/SilverRatio.html" target="_blank" rel="noopener"><span class="title">Silver Ratio — Wolfram MathWorld</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://oeis.org/A000129" target="_blank" rel="noopener"><span class="title">Pell Numbers — OEIS A000129</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Silver_ratio" target="_blank" rel="noopener"><span class="title">Silver Ratio</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Pell_number" target="_blank" rel="noopener"><span class="title">Pell Number</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/ISO_216" target="_blank" rel="noopener"><span class="title">ISO 216</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Silver Ratio</div>
+</footer>
+
+</body>
+</html>

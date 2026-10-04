@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Nudge <em>Theory</em>"
+ ],
+ "header .tagline": [
+  "Make the better choice <em>the easier one</em>."
+ ],
+ "header .subtitle": [
+  "A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> and <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> made the idea famous in their 2008 book Nudge, though the cybernetician James Wilk had used the term earlier. A nudge, they wrote, changes behavior predictably without forbidding any option or significantly changing incentives, and it has to be easy and cheap to avoid. Putting fruit at eye level counts; banning junk food doesn’t.",
+  "Governments took it up quickly. The UK founded its Behavioural Insights Team, the original nudge unit, in 2010, and similar units followed in Australia, Canada, Germany, Japan, the World Bank, and the European Commission. The evidence is contested: a 2021 meta-analysis reported real effects, a 2022 reanalysis found no evidence for nudging after correcting for publication bias, and nudge units’ own trials showed effects far smaller than published studies."
+ ],
+ ".law-content .law-desc": [
+  "A nudge alters the context of a choice so that fast, habitual thinking lands on the better option, without banning alternatives or changing incentives much. Defaults, placement, reminders, and showing what others do are the common levers."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> and <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Nudging, behavioral insights",
+  "Easy and cheap to avoid"
+ ],
+ ".apply-list li": [
+  "Encouraging something people already intend to do, such as saving, finishing setup, or securing an account.",
+  "People act on habit or autopilot at the moment of choice.",
+  "Mandates or incentives would be too heavy-handed or too costly.",
+  "Use the main levers: defaults, salience, social proof, timely reminders, and less friction.",
+  "Keep every nudge easy and cheap to avoid, and open about what it is doing.",
+  "Test nudges with your own users, since published effects often overstate real ones."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Salience",
+  "Social proof",
+  "Friction",
+  "Timing",
+  "Evidence",
+  "Personalization",
+  "Ethics",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Fly in the Urinal",
+  "Put the Better Option Within Reach",
+  "Show What Others Do",
+  "Make It Easy",
+  "Nudge at the Right Moment",
+  "Smaller Than Advertised",
+  "One Nudge Doesn’t Fit All",
+  "Nudge, Not Sludge",
+  "Personalized Nudges at Scale",
+  "Nudging Toward Verification"
+ ],
+ ".card .desc": [
+  "Amsterdam’s Schiphol Airport etched an image of a fly into urinals to improve aim. It is the most cited nudge: a small change to the environment that works on automatic behavior without a single instruction.",
+  "In snack shops at Dutch train stations, moving fruit and healthy snacks next to the register increased their sales. In an interface, the equivalent is placing the recommended action where attention already is.",
+  "People look to others when unsure. Telling people how many neighbors pay on time, or which plan most customers choose, can move behavior, as long as it’s true and the norm is one worth following.",
+  "The Behavioural Insights Team sums up its approach as EAST: make it Easy, Attractive, Social, and Timely. Removing one step from a flow often does more than any amount of persuasion.",
+  "A reminder works when it arrives at a moment people can act on it. Suggest a backup when the device is charging, not in the middle of a task.",
+  "A study of trials run by two nudge units found effects about a sixth the size of those in academic journals, and a 2022 reanalysis found no overall evidence after correcting for publication bias. Defaults tend to hold up; many other nudges are weak.",
+  "Responses to the same nudge differ widely between people. Research suggests nudges tailored to individual differences work better than a single message for everyone, so segment and test.",
+  "Thaler calls friction that makes good choices harder sludge, like a cancellation maze. A nudge must be transparent and easy to avoid; when it serves the business against the user, it is a dark pattern.",
+  "AI can tailor prompts and offers to each person’s habits and moods, which may make nudges more effective and harder to notice. Keep them transparent, and give people a way to see why they were shown something.",
+  "Small prompts can counter overreliance on AI: a check-the-sources link, a confirmation before risky actions, highlighting the uncertain parts. Use nudges to slow people down where the AI is likely to be wrong."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the theory",
+  "The behavior is automatic",
+  "People need information to decide",
+  "Placement of actions and offers",
+  "One option serves users better",
+  "All options are equally good",
+  "Onboarding, reminders, and plan choices",
+  "The desired behavior is common",
+  "The norm is low, and showing it backfires",
+  "Flows and forms",
+  "A behavior is intended but not done",
+  "Friction protects users from mistakes",
+  "Notifications and reminders",
+  "The behavior has a natural moment",
+  "The reminder would interrupt",
+  "Planning experiments",
+  "Relying on published results",
+  "Effects were tested with your users",
+  "Products with diverse users",
+  "Responses vary across groups",
+  "Personal data use would feel invasive",
+  "Design reviews and audits",
+  "Business goals pull against users",
+  "Never: transparency is required",
+  "One nudge → one per person",
+  "AI personalizes prompts or offers",
+  "Nudges people cannot see or refuse",
+  "Accept → review",
+  "AI output needs human checks",
+  "Friction on every single answer"
+ ],
+ ".ai-divider h3": [
+  "Nudge Theory in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can tailor a nudge to each person’s habits, and it needs nudges of its own to keep people checking its work."
+ ]
+}

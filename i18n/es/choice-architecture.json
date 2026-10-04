@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Arquitectura de la <em>elección</em>"
+ ],
+ "header .tagline": [
+  "No hay <em>forma neutral</em> de presentar una elección."
+ ],
+ "header .subtitle": [
+  "La forma de presentar las opciones, desde cuál viene preseleccionada hasta el orden en que aparecen, condiciona lo que la gente elige. Algo de diseño es inevitable, así que hazlo a propósito y en interés de las personas."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> y <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> acuñaron el término en su libro Nudge de 2008. Quien ordena opciones, desde el encargado de un comedor hasta quien diseña un formulario, es para ellos un arquitecto de la elección y puede orientar a la gente hacia mejores decisiones sin prohibir ninguna opción. Llamaron a esa filosofía paternalismo libertario.",
+  "Con John Balz enumeraron las herramientas: valores predeterminados, anticipar errores, entender las correspondencias, dar retroalimentación, estructurar elecciones complejas y crear incentivos. Otros investigadores separan los elementos que estructuran el conjunto de opciones, como su número y el valor predeterminado, de los que las describen, como la forma de agrupar y etiquetar los atributos."
+ ],
+ ".law-content .law-desc": [
+  "La arquitectura de la elección es el diseño de cómo se presentan las opciones: cuántas hay, en qué orden y con qué descripción aparecen y cuál viene seleccionada por defecto. Como ninguna presentación es neutral, toda interfaz que ofrece una elección ya la está orientando. La única pregunta es hacia dónde."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> y <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Diseño del entorno de decisión",
+  "Valores predeterminados, orden y encuadre"
+ ],
+ ".apply-list li": [
+  "Diseñas formularios, ajustes, planes o cualquier pantalla donde se elige entre opciones.",
+  "Defines valores predeterminados de privacidad, notificaciones, suscripciones o niveles de plan.",
+  "Una elección tiene consecuencias a largo plazo que la gente tiende a aplazar, como el ahorro o la seguridad.",
+  "Elige valores predeterminados que sirvan a la mayoría y haz que sea fácil cambiarlos.",
+  "Limita o agrupa las opciones, y añade filtros o comparaciones cuando hagan falta muchas.",
+  "Describe los atributos en términos que importen a la gente y muestra las consecuencias de cada elección."
+ ],
+ ".card .tag": [
+  "Predeterminados",
+  "Elección activa",
+  "Sobrecarga",
+  "Orden",
+  "Encuadre",
+  "Agrupación",
+  "Tiempo",
+  "Ética",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "El predeterminado decide",
+  "Pregunta en vez de suponer",
+  "Menos opciones o mejores herramientas",
+  "El orden también empuja",
+  "Traduce los atributos",
+  "Las categorías orientan el reparto",
+  "Comprométete hoy, actúa mañana",
+  "A favor del usuario, no en su contra",
+  "Predeterminados elegidos por modelos",
+  "Una respuesta, ninguna elección"
+ ],
+ ".card .desc": [
+  "La mayoría se queda con lo que viene preseleccionado. En un estudio, el registro como donante de órganos era el doble donde había que renunciar expresamente que donde había que apuntarse. Elige el predeterminado que sirve al usuario, no solo al negocio.",
+  "Cuando ningún predeterminado sirve a la mayoría, exige una elección activa: no hay nada preseleccionado y hay que elegir para continuar. Cuesta un momento, pero evita dar en silencio la opción equivocada a mucha gente.",
+  "Cada opción extra cuesta tiempo, y demasiadas pueden bloquear una decisión. Limita las alternativas o añade ayudas a la decisión como filtros, ordenación, comparaciones y recomendaciones.",
+  "Los resultados de búsqueda, los rankings y las recomendaciones condicionan la elección, porque las primeras opciones y las más visibles se eligen más. Ordena según lo que sirve al usuario, no según lo que más ingresos deja.",
+  "Convierte los números en términos que importen: litros por cada 100 kilómetros en lugar de kilómetros por litro, el coste total en lugar de la cuota mensual. Las etiquetas valorativas como bueno o malo facilitan comparar números.",
+  "La gente tiende a repartir los recursos por igual entre las categorías que se le ofrecen, como los fondos de un plan de pensiones. El número y la agrupación de las opciones cambian el resultado, así que agrupa con intención.",
+  "Preferimos el presente al futuro. El plan Save More Tomorrow de Thaler y Benartzi hacía que los empleados se comprometieran de antemano a ahorrar parte de sus futuros aumentos, lo que subió el ahorro sin pedir sacrificios hoy.",
+  "Las mismas herramientas que ayudan a la gente pueden volverse en su contra. Cuando la arquitectura de la elección sirve al negocio a costa del usuario, se convierte en un patrón oscuro. Pregúntate si el diseño lleva adonde los usuarios irían si tuvieran tiempo para pensar.",
+  "Las respuestas sugeridas, el autocompletado inteligente y los ajustes predichos son predeterminados que un modelo elige para cada persona. Haz que sea fácil cambiarlos y muestra las alternativas en lugar de esconderlas.",
+  "Un asistente que devuelve una sola recomendación elimina por completo el conjunto de opciones. En decisiones importantes, muestra algunas opciones con sus ventajas e inconvenientes en lugar de una sola."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Ajustes, planes y formularios de alta",
+  "Una opción sirve a la mayoría",
+  "Ninguna opción sirve a la mayoría",
+  "Preferencias personales importantes",
+  "Las preferencias varían mucho",
+  "La elección frena sin motivo",
+  "Catálogos, planes y selectores",
+  "Las opciones se cuentan por decenas",
+  "Los expertos quieren la lista completa",
+  "Resultados de búsqueda, listas y menús",
+  "Ordenar o recomendar opciones",
+  "El usuario elige el orden",
+  "Precios y tablas comparativas",
+  "Los números cuestan de comparar",
+  "El público ya trabaja con esa métrica",
+  "Presupuestos, carteras y repartos",
+  "La gente reparte recursos entre opciones",
+  "Las categorías vienen dadas por el ámbito",
+  "Funciones de ahorro, salud y hábitos",
+  "Los beneficios llegan en el futuro",
+  "La acción debe ocurrir ahora",
+  "Revisiones y auditorías de diseño",
+  "Los objetivos del negocio y del usuario divergen",
+  "Nunca: no existe una opción neutral",
+  "Predeterminados fijos → predeterminados predichos",
+  "La IA preselecciona opciones",
+  "Esconder las alternativas",
+  "Diez resultados → una respuesta",
+  "La IA recomienda productos o planes",
+  "Una sola opción para una decisión importante"
+ ],
+ ".ai-divider h3": [
+  "La arquitectura de la elección en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA ya fija los predeterminados y ordena las opciones: respuestas sugeridas, autocompletado, planes recomendados, la respuesta única. Es arquitectura de la elección a escala."
+ ]
+}

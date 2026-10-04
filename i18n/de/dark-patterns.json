@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Dark <em>Patterns</em>"
+ ],
+ "header .tagline": [
+  "Den Klick gewinnen, <em>das Vertrauen verlieren</em>."
+ ],
+ "header .subtitle": [
+  "Oberflächen, die darauf angelegt sind, Menschen zum Kaufen, Abonnieren oder Teilen von mehr zu verleiten, als sie wollten. Sie heben eine Kennzahl für ein Quartal und kosten danach das Vertrauen der Getäuschten, und immer öfter ziehen sie Bußgelder nach sich."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a>, ein britischer UX-Designer, prägte den Begriff am 28. Juli 2010, als er darkpatterns.org registrierte, eine Musterbibliothek, die täuschende Oberflächen benennen und anprangern sollte. Die Website ist inzwischen zu deceptive.design umgezogen, und 2023 veröffentlichte er das Buch Deceptive Patterns.",
+  "Forschung und Aufsichtsbehörden folgten. Eine Studie von Arunesh Mathur und Kollegen in Princeton durchsuchte 2019 rund 11.000 Shopping-Websites und fand 1.818 Fälle von Dark Patterns. 2022 verhängte die französische CNIL Bußgelder gegen Google und Facebook wegen ihrer Cookie-Banner, und 2025 legte Amazon das Verfahren der FTC zu Anmeldung und Kündigung von Prime für 2,5 Milliarden Dollar bei, ohne ein Fehlverhalten einzuräumen."
+ ],
+ ".law-content .law-desc": [
+  "Ein Dark Pattern ist eine Oberfläche, die Menschen zu etwas verleiten soll, das sie nicht wollten, etwa zu kaufen, zu abonnieren oder Daten zu teilen. Es nutzt Gewohnheiten und Verzerrungen aus und tauscht kurzfristige Conversion gegen langfristiges Vertrauen und immer häufiger gegen rechtliche Risiken."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a> (2010)",
+  "Deceptive Design Patterns",
+  "Würden Nutzer das wählen, wenn sie es verstünden?"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Anmelde-, Bezahl-, Kündigungs- oder Einwilligungsabläufe.",
+  "Eine Kennzahl wie Conversion oder Bindung wird stark vorangetrieben.",
+  "Sie prüfen einen Ablauf vor dem Start oder nach einer Beschwerde auf Ehrlichkeit.",
+  "Geben Sie der Wahl, die das Unternehmen will, und der, die der Nutzer wollen könnte, dasselbe visuelle Gewicht.",
+  "Zeigen Sie den vollen Preis von Anfang an, und lassen Sie Menschen so gehen, wie sie gekommen sind.",
+  "Fragen Sie bei jedem Ablauf, ob Nutzer dieselbe Wahl träfen, wenn sie ihn ganz verstünden."
+ ],
+ ".card .tag": [
+  "Abonnements",
+  "Preise",
+  "Text",
+  "Visuell",
+  "Datenschutz",
+  "Dringlichkeit",
+  "Werbung",
+  "Abhilfe",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Die Kakerlakenfalle",
+  "Tropfenweise Preise",
+  "Confirmshaming",
+  "Irreführung",
+  "Privacy Zuckering",
+  "Falsche Dringlichkeit",
+  "Köder und Austausch",
+  "Für informierte Entscheidungen gestalten",
+  "Überzeugung im großen Maßstab",
+  "Widerspruch gegen Training"
+ ],
+ ".card .desc": [
+  "Leicht hinein, schwer hinaus. Laut FTC führte Amazons Prime-Kündigung, intern Iliad genannt, durch wiederholte Seiten mit Angeboten. Auf Druck der EU machte Amazon 2022 die Kündigung in Europa mit zwei Klicks möglich.",
+  "Ein niedriger Lockpreis, dann Schritt für Schritt Gebühren bis zur Kasse. Bis der echte Gesamtpreis erscheint, haben Menschen so viel Aufwand investiert, dass viele trotzdem zahlen. Zeigen Sie den vollen Preis ab dem ersten Bildschirm.",
+  "Ein Ablehnungslink, der beschämen soll: Nein danke, ich spare nicht gern Geld. Er übt Druck durch Schuldgefühle aus, statt mit Nutzen zu überzeugen. Formulieren Sie die Ablehnung so schlicht wie die Zustimmung.",
+  "Ein leuchtender Button für das, was das Unternehmen will, und ein blasser Link für das, was der Nutzer will, oder eine Einwilligung mit doppelter Verneinung. Software-Installer machten sie berühmt, indem sie fremde Programme hinter einem auffälligen Akzeptieren-Button mitinstallierten.",
+  "Benannt nach Mark Zuckerberg: Designs, die Menschen mehr teilen lassen, als sie wollten. 2022 verhängte die CNIL gegen Google 150 Millionen und gegen Facebook 60 Millionen Euro, weil Cookies mit einem Klick akzeptiert, aber nur mit mehreren abgelehnt werden konnten.",
+  "Countdowns, die neu starten, und Fast ausverkauft!-Hinweise auf Ware, die nicht knapp ist. 2024 erwirkte die britische Wettbewerbsbehörde CMA von Wowcher Zusagen genau wegen solcher Angaben. Zeigen Sie nur echte Fristen und echte Bestände.",
+  "Etwas Kostenloses oder Günstiges bewerben, das die meisten gar nicht bekommen, und sie dann zu einem bezahlten Angebot lenken. 2022 stimmte Intuit einem Vergleich über 141 Millionen Dollar zu, wegen TurboTax-Werbung für kostenlose Steuererklärungen, für die die meisten nicht infrage kamen.",
+  "Der Test für jeden Ablauf: Würden Menschen dieselbe Wahl treffen, wenn sie sie ganz verstünden? Geben Sie Ja und Nein dasselbe Gewicht, zeigen Sie den echten Gesamtpreis und machen Sie das Gehen so leicht wie das Kommen. Mehrere Rechtsordnungen verlangen das inzwischen.",
+  "Ein Modell kann Tausende Varianten einer Botschaft erzeugen und lernen, welche bei wem wirken. Messen Sie generierte Texte an denselben Regeln wie handgeschriebene, und optimieren Sie nie nur auf Conversion.",
+  "2024 wollte Meta KI mit Beiträgen von Facebook und Instagram trainieren, wobei der Widerspruch über irreführende E-Mails, Umleitungen zum Login und ein Formular mit Begründungspflicht führte. Die Einwilligung ins KI-Training zu verweigern sollte so leicht sein, wie sie zu erteilen."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Abonnements und Mitgliedschaften",
+  "Gestalten, wie Menschen gehen",
+  "Kündigen braucht mehr Schritte als Anmelden",
+  "Kasse und Preisgestaltung",
+  "Gebühren oder Steuern fallen an",
+  "Gebühren erscheinen erst im letzten Schritt",
+  "Pop-ups, Upsells und Newsletter",
+  "Etwas Optionales anbieten",
+  "Die Ablehnung macht sich über den Nutzer lustig",
+  "Einwilligungs- und Auswahlbildschirme",
+  "Ja und Nein präsentieren",
+  "Eine Option ist gut sichtbar versteckt",
+  "Einwilligung und Datenschutzeinstellungen",
+  "Nach Daten oder Tracking fragen",
+  "Ablehnen braucht mehr Klicks als Akzeptieren",
+  "Sales, Angebote und Buchungen",
+  "Ein Angebot ist wirklich begrenzt",
+  "Frist oder Knappheit sind erfunden",
+  "Tarife, Stufen und Gratisangebote",
+  "Eine kostenlose Option bewerben",
+  "Die meisten können das beworbene Angebot nicht nutzen",
+  "Design-Reviews und Audits",
+  "Vor dem Start oder nach Beschwerden",
+  "Nie: Ehrlichkeit kennt keine Ausnahme",
+  "Ein Muster → Millionen Varianten",
+  "KI schreibt Marketing- oder Bindungstexte",
+  "Nur auf Conversion optimieren",
+  "Versteckter Widerspruch → klare Wahl",
+  "Kundendaten für KI nutzen",
+  "Den Widerspruch verstecken oder Gründe verlangen"
+ ],
+ ".ai-divider h3": [
+  "Dark Patterns im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann Text, Zeitpunkt und Angebot auf jede Person zuschneiden. Das macht Überzeugung wirksamer und Manipulation billiger und schwerer zu erkennen."
+ ]
+}

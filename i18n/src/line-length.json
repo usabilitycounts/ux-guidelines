@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Line <em>Length</em>"
+ ],
+ "header .tagline": [
+  "Not too long, <em>not too short</em>."
+ ],
+ "header .subtitle": [
+  "The width of a line of text decides how easily the eye finds the next line. Lines that run too long lose the reader on the way back, and lines that are too short break the rhythm. For body text, 45 to 75 characters is the comfortable range."
+ ],
+ ".law-origin .body-text": [
+  "Printers worked out comfortable measures long before anyone tested them; book lines have traditionally run about 30 times the size of the type. In 1929 <a href=\"people.html#p-miles-tinker\">Miles Tinker</a> and Donald Paterson measured reading speed across line lengths and found that moderate lines, roughly 59 to 97 millimeters at 10-point type, read best.",
+  "<a href=\"people.html#p-robert-bringhurst\">Robert Bringhurst</a>’s The Elements of Typographic Style (1992) gave designers the rule they still quote: 45 to 75 characters per line for a single column of text, with 66 widely regarded as ideal. Screen research since then, including Mary Dyson and Mark Haselgrove’s 2001 study, has found that longer lines can be read faster on screen, while most people still prefer moderate ones."
+ ],
+ ".law-content .law-desc": [
+  "Line length, or measure, is the width of a line of text, usually counted in characters. Lines that are too long make it hard to find the start of the next one, and lines that are too short break the reading rhythm. For a single column of body text, 45 to 75 characters is the comfortable range."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-miles-tinker\">Tinker</a> and Paterson (1929) · <a href=\"people.html#p-robert-bringhurst\">Bringhurst</a> (1992)",
+  "Measure",
+  "max-width: 66ch"
+ ],
+ ".apply-list li": [
+  "Setting the width of articles, documentation, help content, or any long text.",
+  "A layout lets text run the full width of a wide screen.",
+  "Text sits in columns, cards, or sidebars that may be too narrow.",
+  "Cap reading columns at about 45 to 75 characters, for example with max-width: 66ch.",
+  "Increase line height as the measure grows, and tighten it for narrow columns.",
+  "Let tables, code, and media run wider than the text column instead of widening the prose."
+ ],
+ ".card .tag": [
+  "The classic",
+  "CSS",
+  "Too long",
+  "Too short",
+  "Spacing",
+  "Research",
+  "Accessibility",
+  "Audience",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "45 to 75 Characters",
+  "Set the Measure in ch",
+  "Long Lines Lose the Reader",
+  "Short Lines Break the Rhythm",
+  "Wider Measure, More Leading",
+  "Fastest Is Not Favorite",
+  "WCAG Says 80 at Most",
+  "Beginners Need Shorter Lines",
+  "Cap the Answer Column",
+  "Walls of Generated Text"
+ ],
+ ".card .desc": [
+  "For a single column of body text, 45 to 75 characters per line, counting letters and spaces, is the range typographers have relied on for decades, with 66 often called ideal. It is a guide for continuous reading, not a law for every block of text.",
+  "In CSS, the ch unit is the width of the digit zero in the current font, so max-width: 66ch holds about 66 characters per line at any text size. Using max-width rather than width lets the column shrink on phones.",
+  "At the end of each line the eye has to sweep back to the start of the next. On long lines that return sweep misses, and readers skip a line or reread the same one. Full-width text on a wide monitor is the usual culprit.",
+  "Below about 40 characters the eye jumps constantly, and justified text fills with gaps and hyphens. Short measures are fine for captions and marginal notes, but not for paragraphs squeezed into narrow cards or several columns.",
+  "The wider the measure, the more line spacing the eye needs to find the next line. Short measures can be set tighter. Change line height when you change column width, so the two stay in balance.",
+  "On screen, longer lines of around 95 to 100 characters can be read faster with the same comprehension, yet many people prefer shorter or moderate lines. Dyson and Haselgrove suggested about 55 characters as a compromise between speed and comprehension.",
+  "WCAG success criterion 1.4.8, Visual Presentation (level AAA), asks that blocks of text be no wider than 80 characters, or 40 for Chinese, Japanese, and Korean. People with reading or visual tracking difficulties lose their place on long lines.",
+  "Typographic guidance suggests 34 to 60 characters for novice readers, with 45 as the optimum, and 45 to 80 for experienced readers, with 60 as the optimum. Learning, children’s, and help content benefits from the shorter end.",
+  "A full-width answer pane on a wide monitor produces lines of 150 characters or more. Cap the prose at a reading measure, and let code blocks and tables scroll sideways instead of widening the text.",
+  "Long answers set in long lines are hard to scan. Pair a sensible measure with headings, lists, and short paragraphs, so generated text can be read and not just produced."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Body text and articles",
+  "Setting a reading column",
+  "Text is scanned, not read, as in tables",
+  "Responsive reading layouts",
+  "Text sits in a wide container",
+  "The container is already narrow",
+  "Wide desktop layouts",
+  "Text spans the full window",
+  "Lines are short anyway",
+  "Columns, sidebars, and cards",
+  "Text is set in narrow columns",
+  "The text is a short label or caption",
+  "Typography settings",
+  "Changing column width",
+  "Line height already adjusts per breakpoint",
+  "Choosing a default measure",
+  "Speed and comfort compete",
+  "Text is skimmed for a single fact",
+  "Accessible reading experiences",
+  "Supporting low vision or dyslexia",
+  "The text is not a block, such as a single label",
+  "Learning, kids, and help content",
+  "Readers are beginners",
+  "Experts skim reference material",
+  "Full width → reading column",
+  "Designing an AI chat interface",
+  "Prose stretched to fit wide tables",
+  "Wall of text → structured answer",
+  "Displaying long AI answers",
+  "Long paragraphs at full width"
+ ],
+ ".ai-divider h3": [
+  "Line Length in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI answers are long, and chat panes often stretch the full width of the window. The measure that suits a book suits an answer too."
+ ]
+}

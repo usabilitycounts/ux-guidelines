@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Satisficing</em>"
+ ],
+ "header .tagline": [
+  "On prend <em>la première option qui convient</em>."
+ ],
+ "header .subtitle": [
+  "Plutôt que de chercher la meilleure option, on prend la première qui passe la barre. En ligne, les utilisateurs cliquent sur le premier lien plausible : le bon choix doit donc ressembler au premier choix raisonnable."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> a forgé le mot, contraction de satisfy et suffice, en 1956, à partir d'idées de son livre Administrative Behavior (1947). Les vrais décideurs, selon lui, ne peuvent pas calculer la meilleure option : l'information manque et les problèmes sont trop complexes. Ils cherchent donc jusqu'à ce qu'une option atteigne un niveau d'aspiration, et la prennent.",
+  "Il a appelé l'idée plus large rationalité limitée, au cœur des travaux qui lui ont valu le prix Nobel d'économie en 1978. En 2002, <a href=\"people.html#p-barry-schwartz\">Barry Schwartz</a> et ses collègues ont opposé les maximisateurs, qui cherchent le meilleur, aux satisficeurs, qui se contentent du suffisant : les maximisateurs déclaraient plus de regrets et moins de bonheur. Steve Krug a transposé l'idée au web : les utilisateurs ne font pas des choix optimaux, ils se contentent du suffisant."
+ ],
+ ".law-content .law-desc": [
+  "Le satisficing consiste à choisir la première option suffisante plutôt qu'à chercher la meilleure. On fixe un niveau d'aspiration, on prend la première option qui l'atteint, et on abaisse la barre si rien ne convient. C'est une réponse raisonnable au manque de temps et d'information, pas un défaut de raisonnement."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-herbert-a-simon\">Herbert A. Simon</a> (1956)",
+  "Décision « suffisante »",
+  "Faire du bon choix la première option plausible"
+ ],
+ ".apply-list li": [
+  "Vous concevez une navigation, des menus ou des résultats de recherche que les utilisateurs parcourent en quête d'une correspondance.",
+  "Les utilisateurs ont beaucoup d'options et peu de temps ou d'attention.",
+  "Les gens abandonnent les tâches qui exigent de tout comparer avant de choisir.",
+  "Faites ressembler le bon choix au premier choix raisonnable, avec des libellés clairs et l'option la plus probable en premier.",
+  "Rendez les erreurs peu coûteuses, avec un retour facile et une annulation.",
+  "Proposez une valeur par défaut ou une recommandation sensée, pour que le suffisant soit aussi un bon résultat."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Navigation",
+  "Récupération",
+  "Recherche",
+  "Enquêtes",
+  "Maximisateurs",
+  "Règles empiriques",
+  "Valeurs par défaut",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le suffisant bat le meilleur",
+  "Le premier lien plausible gagne",
+  "Rendre les essais sans risque",
+  "Les premiers résultats gagnent",
+  "Le satisficing dans les enquêtes",
+  "Les maximisateurs regrettent plus",
+  "Le niveau d'aspiration en pratique",
+  "Rendre le suffisant bon",
+  "La première réponse est acceptée",
+  "Des brouillons suffisants"
+ ],
+ ".card .desc": [
+  "Le modèle de Simon compte trois étapes : fixer un niveau d'aspiration, prendre la première option qui l'atteint et ajuster le niveau si rien ne convient. Dans la plupart des décisions réelles, trouver la meilleure option coûte plus qu'elle ne rapporte.",
+  "Les utilisateurs ne lisent pas une page en pesant chaque option. Ils parcourent et cliquent sur le premier lien qui semble correspondre. Les libellés doivent être lisibles d'un coup d'œil et sans ambiguïté, car un quasi-correspondant sera cliqué.",
+  "Puisque les gens devinent, une erreur doit coûter peu. Un retour visible, un fil d'Ariane et l'annulation transforment une mauvaise piste en petit détour plutôt qu'en impasse.",
+  "On choisit parmi les premiers résultats de recherche et on regarde rarement plus loin. Placez la meilleure correspondance en tête, et montrez assez de chaque résultat pour qu'on puisse en juger d'un coup d'œil.",
+  "Jon Krosnick a montré que les répondants économisent leur effort : ils choisissent la première réponse acceptable, approuvent les affirmations, donnent la même note sur toute une grille ou répondent « ne sais pas ». Gardez les questionnaires courts et variez les formats.",
+  "Dans les études de Schwartz, les personnes qui cherchent toujours la meilleure option déclaraient moins de bonheur et plus de regrets que celles qui se contentent du suffisant. Des options sans fin poussent tout le monde à maximiser, et au regret.",
+  "Une étude de 628 concessionnaires de voitures d'occasion a montré que 97 % fixaient leurs prix par satisficing : partir du milieu de la fourchette et baisser d'environ 3 % si la voiture n'était pas vendue après 24 jours. Des règles simples adaptées à leur environnement peuvent battre une optimisation élaborée.",
+  "Puisque les gens prennent la première option acceptable, la valeur par défaut et le premier élément pèsent le plus. Faites-en le bon choix pour la plupart des gens, et le satisficing produira de bons résultats.",
+  "On se contente aussi du suffisant avec l'IA : une réponse fluide et plausible met fin à la recherche, même fausse. Montrez le niveau de confiance et les sources, pour qu'une réponse suffisante puisse être vérifiée avant d'être crue.",
+  "Les brouillons de l'IA sont souvent acceptés tels quels, parce qu'ils passent la barre. Facilitez la modification et signalez les parties qui demandent encore une décision humaine."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer le principe",
+  "La meilleure option est coûteuse à trouver",
+  "Les enjeux sont élevés et les options peu nombreuses",
+  "Menus, navigation et libellés de liens",
+  "Les utilisateurs cherchent une correspondance",
+  "Les utilisateurs comparent avec soin, comme pour un achat",
+  "Navigation et parcours en plusieurs étapes",
+  "Les utilisateurs choisissent vite",
+  "Les erreurs sont coûteuses et irréversibles",
+  "Recherche et recommandations",
+  "Les résultats sont classés",
+  "Les utilisateurs ont besoin de la liste exhaustive",
+  "Enquêtes et questionnaires de recherche",
+  "Les questionnaires sont longs ou répétitifs",
+  "Les questions sont peu nombreuses et engageantes",
+  "Produits riches en choix, comme le shopping",
+  "Les utilisateurs comparent beaucoup d’options",
+  "Comparer est le but, comme dans les outils de recherche",
+  "Concevoir des valeurs par défaut et des règles simples",
+  "Les réponses optimales sont incalculables",
+  "L'optimisation précise est peu coûteuse",
+  "Valeurs par défaut, préréglages et modèles",
+  "Les gens acceptent ce qu’on leur donne",
+  "Aucune option ne convient à la plupart",
+  "Dix liens → une réponse",
+  "L'IA répond directement aux questions",
+  "Des réponses fluides sans sources",
+  "Rédiger → accepter des brouillons",
+  "L'IA génère des brouillons",
+  "Publier des brouillons que personne n’a relus"
+ ],
+ ".ai-divider h3": [
+  "Le satisficing à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Une réponse fluide de l'IA passe la barre instantanément. On arrête de chercher plus tôt : le suffisant doit donc être facile à vérifier."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet de <em>défaut</em>"
+ ],
+ "header .tagline": [
+  "La plupart des gens <em>gardent ce qu’on leur donne</em>."
+ ],
+ "header .subtitle": [
+  "Ce qui arrive quand on ne fait rien est l'option que la plupart des gens finissent par avoir. Choisir une valeur par défaut, c'est choisir pour la majorité : elle mérite autant de soin que la fonctionnalité elle-même."
+ ],
+ ".law-origin .body-text": [
+  "En 1988, les économistes William Samuelson et Richard Zeckhauser ont mis en évidence le biais de statu quo : on s'en tient de manière disproportionnée à la situation existante. En 2001, Brigitte Madrian et Dennis Shea ont constaté que lorsqu'une entreprise inscrivait automatiquement ses nouveaux salariés à son plan de retraite, la participation augmentait fortement, et beaucoup gardaient le taux de cotisation et le fonds par défaut.",
+  "En 2003, Eric Johnson et Daniel Goldstein ont comparé le don d'organes en Europe : les pays où l'on est donneur sauf refus explicite affichaient un consentement bien plus élevé que ceux où il faut s'inscrire. Les valeurs par défaut sont devenues l'outil le plus fiable de la théorie du nudge, et celui qui résiste le mieux à l'examen."
+ ],
+ ".law-content .law-desc": [
+  "L'effet de défaut est la tendance à accepter l'option présélectionnée. Il agit par l'effort, puisque ne rien faire est le plus simple ; par l'aversion à la perte, puisque le défaut devient le point de référence ; et par la recommandation implicite, puisqu'on lit le défaut comme un conseil."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Samuelson et Zeckhauser (1988) · Johnson et Goldstein (2003)",
+  "Biais de statu quo",
+  "Présélectionner ce qui sert la plupart des utilisateurs"
+ ],
+ ".apply-list li": [
+  "Vous définissez les valeurs initiales de réglages, de formulaires, d'offres et d'options de confidentialité.",
+  "La plupart des gens ne reviendront jamais sur le réglage.",
+  "Un choix a des conséquences auxquelles on pense rarement, comme le partage de données ou les renouvellements.",
+  "Présélectionnez l'option qui sert la plupart des utilisateurs, pas celle qui ne profite qu'à l'entreprise.",
+  "Rendez les valeurs par défaut faciles à voir et à changer.",
+  "Quand les préférences varient beaucoup, utilisez des défauts personnalisés ou demandez un choix actif."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Inscription",
+  "Pourquoi",
+  "Réglages",
+  "Types",
+  "Confidentialité",
+  "Renouvellements",
+  "Éthique",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Refuser ou adhérer",
+  "L'inscription automatique",
+  "Trois raisons pour lesquelles le défaut reste",
+  "La plupart des réglages ne changent jamais",
+  "Défauts de masse, intelligents et persistants",
+  "La confidentialité par défaut",
+  "Le renouvellement automatique est un défaut",
+  "Les défauts sont des décisions",
+  "Des défauts choisis par l'IA",
+  "L'entraînement est un défaut"
+ ],
+ ".card .desc": [
+  "Les pays où l'on est donneur d'organes sauf refus explicite ont un consentement bien plus élevé que ceux où il faut s'inscrire. Le choix est identique ; seule la valeur par défaut change.",
+  "Quand les nouveaux salariés étaient inscrits à un plan de retraite sauf refus, la participation a bondi, et beaucoup ont gardé pendant des années le taux et le fonds par défaut. Un bon défaut fait le travail de mille rappels.",
+  "Changer un défaut demande un effort. Le défaut devient le point de référence, si bien que changer ressemble à une perte. Et on suppose que celui qui a fixé le défaut l'a choisi pour une raison, ce qui se lit comme une recommandation.",
+  "Les valeurs par défaut que vous livrez sont l'expérience qu'ont la plupart des gens. Beaucoup ne découvrent jamais qu'il existe d'autres options, comme le choix caché de sonneries d'un téléphone. Traitez chaque défaut comme une décision de design, pas comme un détail.",
+  "Les défauts de masse sont les mêmes pour tous. Les défauts intelligents utilisent ce que l'on sait, comme la localisation pour la devise. Les défauts persistants retiennent le dernier choix, et les adaptatifs évoluent selon les actions. Choisissez le type selon la variabilité des préférences.",
+  "Les défauts de partage de données déterminent ce que la plupart des gens partagent. L'article 25 du RGPD exige la protection des données dès la conception et par défaut : le réglage protecteur doit être celui qui est présélectionné.",
+  "Le renouvellement automatique est un défaut qui continue de facturer. Affichez la date de renouvellement, prévenez avant le prélèvement et rendez la désactivation aussi simple que l'activation.",
+  "Puisque la plupart des gens les acceptent, les défauts sont des décisions prises à la place des utilisateurs. Aucune option n'est neutre : choisissez celle que les gens prendraient avec le temps et l'information nécessaires pour décider.",
+  "Les modèles peuvent prédire un défaut personnel pour chacun : la réponse suggérée, le réglage, l'offre. Indiquez qu'il a été choisi pour la personne, expliquez pourquoi et gardez les alternatives à portée d'un geste.",
+  "L'utilisation des données clients pour entraîner des modèles d'IA est elle-même un défaut, que la plupart des gens ne changent jamais. Rendez le réglage visible au moment où les données sont collectées."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Un choix est présenté comme une adhésion ou un refus",
+  "Tout le monde fait un choix actif",
+  "Avantages, programmes et inscriptions",
+  "La participation sert clairement l'utilisateur",
+  "L'inscription engage à des coûts inattendus",
+  "Comprendre le comportement des utilisateurs",
+  "Une refonte change ce qui est présélectionné",
+  "Les utilisateurs comparent activement chaque option",
+  "Écrans de réglages et de préférences",
+  "Livrer un nouveau réglage",
+  "Les utilisateurs avancés personnalisent tout",
+  "Formulaires et paiement",
+  "Les préférences varient selon le contexte",
+  "L'usage de données personnelles paraîtrait intrusif",
+  "Réglages de confidentialité et de partage",
+  "Collecter des données personnelles",
+  "Le partage est la raison d’être évidente du produit",
+  "Abonnements et facturation",
+  "Les offres se renouvellent automatiquement",
+  "Le renouvellement surprendrait les gens",
+  "Revues et audits de design",
+  "Définir n’importe quelle valeur par défaut",
+  "Jamais : chaque défaut est un choix",
+  "Un défaut → des défauts prédits",
+  "L'IA présélectionne des options",
+  "Des défauts que personne ne voit ni n’explique",
+  "Réglage enfoui → choix visible",
+  "Utiliser les données clients pour l'IA",
+  "Inscrire tout le monde en silence"
+ ],
+ ".ai-divider h3": [
+  "L'effet de défaut à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut prédire une valeur par défaut différente pour chaque personne. Les défauts deviennent plus utiles, et plus puissants, que jamais."
+ ]
+}

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" data-page="principle-of-least-astonishment">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=74','script');pl('i18n/'+eff+'/principle-of-least-astonishment.json?v=37','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.">
+<title>Principle of Least Astonishment: Design for What Users Expect — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/principle-of-least-astonishment.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/principle-of-least-astonishment.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/principio-de-menor-sorpresa.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/prinzip-der-geringsten-uberraschung.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/principe-de-moindre-surprise.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/principle-of-least-astonishment.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/principle-of-least-astonishment.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/principle-of-least-astonishment.html">
+<meta property="og:title" content="Principle of Least Astonishment: Design for What Users Expect — UX Guidelines">
+<meta property="og:description" content="A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/principle-of-least-astonishment.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/principle-of-least-astonishment.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/principle-of-least-astonishment.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Principle of Least Astonishment: Design for What Users Expect — UX Guidelines">
+<meta name="twitter:description" content="A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Principle of Least Astonishment: Design for What Users Expect", "description": "A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.", "url": "https://www.ux-guidelines.com/principle-of-least-astonishment.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/principle-of-least-astonishment.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Structure The Choices"}, {"@type": "ListItem", "position": 3, "name": "Principle of Least Astonishment: Design for What Users Expect", "item": "https://www.ux-guidelines.com/principle-of-least-astonishment.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=128"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link active">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Principle of Least <em>Astonishment</em></h1>
+  <p class="tagline">Do what people <em>expect it to do</em>.</p>
+  <p class="subtitle">A component should behave the way most of its users expect. Every surprise costs attention and trust, so follow the conventions people already know, choose sensible defaults, and make each control do what it looks like it does.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">An early reference to a ’Law of Least Astonishment’ appeared in the PL/I Bulletin in 1967. IBM’s PL/I had become notorious for breaking it: because of its precision rules, 25 + 1/3 could stop with a fatal error or return 5.33 instead of 25.33. The law first appeared in print in 1972, in a paper on systems programming languages by Bergeron, Gannon, Shecter, Tompa, and van Dam, which asked that every construct behave exactly as its syntax suggests.</p>
+    <p class="body-text"><a href="people.html#p-eric-s-raymond">Eric S. Raymond</a> made it the Rule of Least Surprise in The Art of Unix Programming (2003): borrow from functionally similar programs your users already know. <a href="people.html#p-joshua-bloch">Joshua Bloch</a> applied it to API design in 2006. In interface design it is often summed up in one textbook line: people are part of the system, and the design should match their experience, expectations, and mental models.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principle</div>
+    <p class="body-text law-desc">A component should behave the way most of its users expect. When behavior and expectation differ, change the behavior rather than the users: follow established conventions, choose sensible defaults, and make every control do what its appearance suggests.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value">PL/I Bulletin (1967) · in print 1972</div></div>
+      <div><div class="label">Also called</div><div class="value">Principle of least surprise</div></div>
+      <div><div class="label">In practice</div><div class="value">Match what users already expect</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Designing controls, shortcuts, or gestures that already have established conventions.</li>
+      <li>Choosing defaults, labels, or names for features, settings, and APIs.</li>
+      <li>Users hesitate, undo, or say they didn’t expect what happened.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Borrow conventions from the platform and from the products your users already know.</li>
+      <li>Make each label, icon, and name promise exactly what the control does.</li>
+      <li>When a necessary feature keeps surprising people, redesign it instead of explaining it.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. 25 + 1/3 = 5.33 -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>25 + 1/3 = 5.33</h3>
+      <p class="desc">PL/I’s precision rules meant 25 + 1/3 could stop with a fatal error or, with errors suppressed, return 5.33 instead of 25.33. The language did exactly what its rules said and astonished everyone who used it.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="20" width="160" height="80" rx="6" class="ol"/><text x="110" y="52" text-anchor="middle" class="ta">25 + 1/3</text><path d="M50 64L170 64" class="ax"/><text x="110" y="86" text-anchor="middle" class="ta">= 5.33</text><text x="170" y="86" text-anchor="middle" class="t">?</text></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the principle</div></div>
+      <div><div class="label">Use when</div><div class="value">Behavior follows internal rules</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Users already know the rules</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="default-effect.html">Default Effect</a></div>
+    </div>
+  </article>
+  <!-- 2. Follow the Platform -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Conventions</span>
+      <span class="num">02 / 10</span>
+      <h3>Follow the Platform</h3>
+      <p class="desc">People bring expectations from every other app. F1 opens help on Windows, and pressing ? lists the keyboard shortcuts in Gmail, YouTube, and Jira. Reusing a convention costs users nothing to learn.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="40" width="44" height="44" rx="8" class="ol"/><text x="46" y="68" text-anchor="middle" class="ta">?</text><path d="M76 62H100" class="lg"/><rect x="108" y="18" width="92" height="88" rx="5" class="ol"/><rect x="118" y="30" width="18" height="8" rx="2" class="g"/><rect x="142" y="31" width="48" height="6" rx="3" class="b"/><rect x="118" y="44" width="18" height="8" rx="2" class="g"/><rect x="142" y="45" width="48" height="6" rx="3" class="b"/><rect x="118" y="58" width="18" height="8" rx="2" class="g"/><rect x="142" y="59" width="48" height="6" rx="3" class="b"/><rect x="118" y="72" width="18" height="8" rx="2" class="g"/><rect x="142" y="73" width="48" height="6" rx="3" class="b"/><rect x="118" y="86" width="18" height="8" rx="2" class="g"/><rect x="142" y="87" width="48" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Shortcuts, gestures, and controls</div></div>
+      <div><div class="label">Use when</div><div class="value">A platform convention exists</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The convention fails your users</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="jakobs-law.html">Jakob’s Law</a></div>
+    </div>
+  </article>
+  <!-- 3. Say What Happens -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Labels</span>
+      <span class="num">03 / 10</span>
+      <h3>Say What Happens</h3>
+      <p class="desc">A button or link should tell people exactly what to expect. A Download button that opens a sign-up form, or a Continue button that charges a card, breaks the promise and the trust that goes with it.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="46" width="70" height="26" rx="13" class="a"/><rect x="34" y="56" width="42" height="6" rx="3" class="b"/><path d="M98 59H122" class="lg"/><rect x="130" y="18" width="70" height="84" rx="5" class="ol"/><rect x="140" y="30" width="50" height="10" rx="3" class="gh"/><rect x="140" y="48" width="50" height="10" rx="3" class="gh"/><rect x="140" y="66" width="50" height="10" rx="3" class="gh"/><rect x="140" y="86" width="50" height="8" rx="4" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Buttons, links, and menu items</div></div>
+      <div><div class="label">Use when</div><div class="value">Writing action labels</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The outcome is genuinely unknown</div></div>
+    </div>
+  </article>
+  <!-- 4. Sensible Defaults -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Defaults</span>
+      <span class="num">04 / 10</span>
+      <h3>Sensible Defaults</h3>
+      <p class="desc">JavaScript’s parseInt once read ’08’ as octal because of the leading zero, a default that caused years of bugs until ECMAScript 5 dropped it. A default should match what most people mean.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="26" width="160" height="24" rx="5" class="ol"/><rect x="40" y="34" width="60" height="8" rx="4" class="b"/><path d="M170 35L176 41L182 35" class="lg"/><rect x="30" y="62" width="160" height="50" rx="5" class="ol"/><rect x="30" y="62" width="160" height="16" rx="0" class="a"/><rect x="40" y="84" width="80" height="6" rx="3" class="b"/><rect x="40" y="96" width="80" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Settings, forms, and APIs</div></div>
+      <div><div class="label">Use when</div><div class="value">Choosing a default value</div></div>
+      <div><div class="label">Avoid when</div><div class="value">No default suits most people</div></div>
+    </div>
+  </article>
+  <!-- 5. Same Look, Same Behavior -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Consistency</span>
+      <span class="num">05 / 10</span>
+      <h3>Same Look, Same Behavior</h3>
+      <p class="desc">Things that look alike should act alike. Two identical buttons that do different things, or a swipe that archives on one screen and deletes on another, surprise people every time.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="26" width="64" height="24" rx="12" class="a"/><rect x="126" y="26" width="64" height="24" rx="12" class="a"/><path d="M62 58V76" class="lg"/><path d="M158 58V76" class="lg"/><rect x="46" y="80" width="32" height="26" rx="4" class="g"/><path d="M142 84L174 104M174 84L142 104" class="ln"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Design systems and components</div></div>
+      <div><div class="label">Use when</div><div class="value">Controls look alike</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The difference is clearly signaled</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="normans-principles.html">Norman’s Principles</a></div>
+    </div>
+  </article>
+  <!-- 6. Whose Surprise? -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Audience</span>
+      <span class="num">06 / 10</span>
+      <h3>Whose Surprise?</h3>
+      <p class="desc">What is least surprising depends on who is using it. Command-line users expect Unix flag conventions, Windows users expect its shortcuts, and beginners expect neither. Design for the audience you actually have.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="50" cy="46" r="15" class="g"/><rect x="34" y="72" width="32" height="22" rx="8" class="g"/><circle cx="110" cy="46" r="15" class="a"/><rect x="94" y="72" width="32" height="22" rx="8" class="a"/><circle cx="170" cy="46" r="15" class="b"/><rect x="154" y="72" width="32" height="22" rx="8" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Products with mixed audiences</div></div>
+      <div><div class="label">Use when</div><div class="value">Users come from different platforms</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Everyone shares one background</div></div>
+    </div>
+  </article>
+  <!-- 7. Names That Match Behavior -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Naming</span>
+      <span class="num">07 / 10</span>
+      <h3>Names That Match Behavior</h3>
+      <p class="desc">Functions and methods should do what their names promise, with no side effects the name doesn’t suggest. The same goes for interfaces: a toggle labeled Notifications shouldn’t also unsubscribe someone from email.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="26" width="34" height="18" rx="9" class="a"/><circle cx="49" cy="35" r="7" class="b"/><rect x="70" y="30" width="90" height="10" rx="5" class="b"/><rect x="24" y="64" width="34" height="18" rx="9" class="ol"/><circle cx="33" cy="73" r="7" class="g"/><rect x="70" y="68" width="66" height="10" rx="5" class="b"/><rect x="140" y="66" width="56" height="14" rx="7" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">APIs, settings, and toggles</div></div>
+      <div><div class="label">Use when</div><div class="value">Naming functions or controls</div></div>
+      <div><div class="label">Avoid when</div><div class="value">A name cannot capture the behavior</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="postels-law.html">Postel’s Law</a></div>
+    </div>
+  </article>
+  <!-- 8. Redesign the Astonishing -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Remedy</span>
+      <span class="num">08 / 10</span>
+      <h3>Redesign the Astonishing</h3>
+      <p class="desc">The corollary: if a necessary feature has a high astonishment factor, it may be necessary to redesign it. Usability tests show surprise directly in hesitation, repeated clicks, and the words ’wait, what happened?’</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 104L200 104" class="ax"/><path d="M20 104L20 14" class="ax"/><polyline points="30,92 60,88 80,24 100,86 130,90" class="lg"/><polyline points="130,90 160,92 190,92" class="ln"/><circle cx="80" cy="24" r="4" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Usability testing and reviews</div></div>
+      <div><div class="label">Use when</div><div class="value">Users hesitate or undo</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The surprise is a deliberate delight</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Least Astonishment in the Age of AI</h3>
+    <p>AI can give a different answer to the same question and take actions nobody asked for. Predictability has to be designed in.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="18" width="110" height="30" rx="10" class="b"/><rect x="30" y="26" width="90" height="4" rx="2" class="g"/><rect x="30" y="35" width="54" height="4" rx="2" class="g"/><rect x="70" y="58" width="130" height="50" rx="6" class="ga"/><rect x="82" y="70" width="106" height="5" rx="2.5" class="b"/><rect x="82" y="80" width="106" height="5" rx="2.5" class="b"/><rect x="82" y="90" width="63.6" height="5" rx="2.5" class="b"/><rect x="150" y="92" width="40" height="10" rx="5" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Preview Before Acting</h3>
+      <p class="desc">An assistant that books, sends, or deletes on its own can astonish people in ways that are hard to undo. Say what will happen, show a preview, and ask before acting.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Surprise → preview</div></div>
+      <div><div class="label">Use when</div><div class="value">AI takes actions for the user</div></div>
+      <div><div class="label">Watch for</div><div class="value">Actions with no preview or undo</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="14" width="160" height="92" rx="6" class="ol"/><path d="M48 32l4 4l7-8" class="ln"/><rect x="68" y="30" width="100" height="8" rx="4" class="b"/><path d="M48 50l4 4l7-8" class="ln"/><rect x="68" y="48" width="86" height="8" rx="4" class="b"/><path d="M48 68l4 4l7-8" class="ln"/><rect x="68" y="66" width="72" height="8" rx="4" class="b"/><path d="M48 86l10 10M58 86l-10 10" class="lg"/><rect x="68" y="87" width="70" height="8" rx="4" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Matching the Mental Model</h3>
+      <p class="desc">People treat an assistant like a person, a search box, or a command line, depending on what it resembles. State its capabilities and limits up front, so its behavior matches the model people bring.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Mystery → stated capabilities</div></div>
+      <div><div class="label">Use when</div><div class="value">Introducing an AI feature</div></div>
+      <div><div class="label">Watch for</div><div class="value">A blank prompt with no hints</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1016/S0065-2458(08)60510-0" target="_blank" rel="noopener"><span class="title">Systems Programming Languages — Bergeron, Gannon, Shecter, Tompa and van Dam, 1972</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Practice</h3>
+      <ul class="ref-list">
+        <li><a href="http://www.catb.org/esr/writings/taoup/html/ch11s01.html" target="_blank" rel="noopener"><span class="title">Applying the Rule of Least Surprise — Eric S. Raymond, The Art of Unix Programming, 2003</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1145/1176617.1176622" target="_blank" rel="noopener"><span class="title">How to Design a Good API and Why It Matters — Joshua Bloch, 2006</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_astonishment" target="_blank" rel="noopener"><span class="title">Principle of Least Astonishment</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Convention_over_configuration" target="_blank" rel="noopener"><span class="title">Convention over Configuration</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Principle of Least Astonishment</div>
+</footer>
+
+</body>
+</html>

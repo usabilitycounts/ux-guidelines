@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Ceguera</em> al cambio"
+ ],
+ "header .tagline": [
+  "Si la atención está en otra parte, <em>el cambio nunca ocurrió</em>."
+ ],
+ "header .subtitle": [
+  "La gente pasa por alto cambios sorprendentemente grandes cuando ocurren durante un parpadeo, una recarga, un corte o una distracción. Las interfaces que cambian en el sitio sin mostrar qué cambió dejan al usuario ante una pantalla nueva que cree que es la anterior."
+ ],
+ ".law-origin .body-text": [
+  "En 1890 William James observó que captamos mucho menos de una escena de lo que creemos. Los montadores de cine lo aprendieron en la práctica: los errores de continuidad entre planos, como un vaso que se vuelve a llenar o una bufanda que cambia de color, pasan inadvertidos al público una y otra vez. En los años setenta, George McConkie mostró que las palabras cambiadas durante un movimiento ocular a menudo no se notaban.",
+  "El término se asentó en 1997. <a href=\"people.html#p-ronald-a-rensink\">Ronald Rensink</a>, Kevin O'Regan y James Clark mostraron que grandes cambios en una foto pasaban inadvertidos cuando una breve pantalla en blanco separaba las dos versiones, y <a href=\"people.html#p-daniel-simons\">Daniel Simons</a> y Daniel Levin le dieron nombre al efecto y revisaron la investigación. En un estudio de campo de 1998, Simons y Levin cambiaron a un desconocido que pedía indicaciones por otra persona a mitad de la conversación, y cerca de la mitad de la gente no lo notó."
+ ],
+ ".law-content .law-desc": [
+  "Solo notas un cambio si tu atención está en lo que cambia en el momento en que cambia. Si el cambio ocurre durante un parpadeo, una recarga, un corte o una distracción, incluso una gran diferencia puede pasar inadvertida, mientras quien mira está seguro de que la habría visto."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "Fuente",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-ronald-a-rensink\">Rensink</a>, O'Regan y Clark (1997)",
+  "Psychological Science, 1997",
+  "Muestra qué cambió, donde mira el usuario"
+ ],
+ ".apply-list li": [
+  "El contenido se actualiza tras guardar, aplicar un filtro o refrescarse en segundo plano.",
+  "Una pantalla cambia mientras el usuario mira a otro lado, por ejemplo durante una recarga o detrás de un modal.",
+  "Las personas vigilan paneles, colas o feeds en busca de cambios de estado.",
+  "Actualiza en el sitio en lugar de recargar, y conserva la posición de desplazamiento y el foco.",
+  "Marca los elementos cambiados con un breve resaltado o una animación cerca de donde mira el usuario.",
+  "Para los cambios importantes, añade una señal persistente o un registro, porque un resaltado pasajero también se puede perder."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Carga",
+  "Respuesta",
+  "Diseño",
+  "Ruido",
+  "Paneles",
+  "Elección",
+  "Concepto",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Oculto por un parpadeo",
+  "Recargar borra la diferencia",
+  "Resalta lo que cambió",
+  "Ojos que no ven",
+  "Las distracciones ocultan el cambio",
+  "Cambios de estado silenciosos",
+  "Ceguera a la elección",
+  "Seguros y equivocados",
+  "Ediciones que se cuelan",
+  "Respuestas que cambian en el sitio"
+ ],
+ ".card .desc": [
+  "En la tarea de parpadeo, una foto se alterna con una copia ligeramente alterada, separadas por una breve pantalla en blanco. Incluso los cambios grandes pueden tardar muchos ciclos en encontrarse, a veces más de un minuto. Los cambios en lo que importa a la gente se encuentran antes.",
+  "Una recarga completa deja la pantalla en blanco, la misma interrupción que el parpadeo. Quien aplica un filtro o guarda un formulario puede no ver qué cambió. Actualiza en el sitio y conserva la posición de desplazamiento.",
+  "Un breve resaltado en una fila, un campo o un total actualizado lleva la atención a donde ocurrió el cambio. Deja que se desvanezca para que la pantalla vuelva a la normalidad.",
+  "Los cambios lejos de donde mira el usuario, como una insignia en la cabecera o un total al principio de un formulario largo, a menudo pasan inadvertidos. Pon la respuesta junto al control que la provocó.",
+  "En los estudios de las salpicaduras, pequeñas manchas que aparecían en el momento del cambio, lejos de él, bastaban para ocultarlo sin ninguna pantalla en blanco. Las animaciones simultáneas, los anuncios y las ventanas emergentes hacen lo mismo.",
+  "Un mosaico que se pone rojo entre decenas de otros es fácil de pasar por alto si nadie lo miraba en ese momento. Usa alertas, marcadores de cambio persistentes y un registro de lo que cambió.",
+  "Johansson y Hall pedían elegir la más atractiva de dos caras y luego entregaban en secreto la otra. Solo una cuarta parte aproximadamente lo notó, y muchos justificaron una elección que no habían hecho. Un paso de confirmación claro detecta el desajuste.",
+  "La gente sobrestima su capacidad para detectar cambios, un hallazgo llamado ceguera a la ceguera al cambio. Los diseñadores cometen el mismo error con sus propias pantallas, así que comprueba si los usuarios lo notaron en vez de preguntar si lo notarían.",
+  "Cuando la IA reescribe un documento o un bloque de código, un número cambiado o una cláusula eliminada se ve igual que el resto. Muestra un diff, marca los fragmentos cambiados y deja aceptar los cambios uno a uno.",
+  "Una respuesta regenerada o refinada que reemplaza a la anterior oculta qué es diferente. Guarda las versiones anteriores y resalta qué cambió entre ellas."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Una pantalla en blanco separa dos estados",
+  "El cambio se anima en el sitio",
+  "Filtros, guardado y ordenación",
+  "Una acción recarga toda la página",
+  "Toda la página debe cambiar",
+  "Ediciones guardadas y actualizaciones en vivo",
+  "El contenido cambia tras una acción",
+  "Los cambios son constantes y los resaltados se vuelven ruido",
+  "Ubicar respuestas y estados",
+  "La respuesta aparece lejos de la acción",
+  "Se guía al usuario hacia el cambio",
+  "Pantallas cargadas y animadas",
+  "Varias cosas se mueven a la vez",
+  "El cambio es el único movimiento",
+  "Pantallas de supervisión y operaciones",
+  "Los valores cambian sin vigilancia",
+  "Alguien vigila cada valor",
+  "Pasos de revisión y confirmación",
+  "Las opciones se parecen",
+  "Las elecciones se deshacen sin esfuerzo",
+  "Planificar pruebas de usabilidad",
+  "Un equipo da por obvio un cambio",
+  "El cambio se probó con usuarios",
+  "Reescritura → control de cambios",
+  "La IA edita contenido existente",
+  "Reemplazar todo el texto en silencio",
+  "Regenerar → comparar",
+  "Las respuestas se regeneran o refinan",
+  "La respuesta anterior desaparece sin dejar rastro"
+ ],
+ ".ai-divider h3": [
+  "La ceguera al cambio en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA reescribe, regenera y actualiza contenido en el sitio. Cuanto más cambia a la vez, más fácil es pasar por alto el único cambio que importa."
+ ]
+}

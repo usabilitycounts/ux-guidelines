@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Seiten<em>verhältnis</em>"
+ ],
+ "header .tagline": [
+  "Die Form des Rahmens <em>formt den Inhalt</em>."
+ ],
+ "header .subtitle": [
+  "Die Breite eines Bildes im Verhältnis zu seiner Höhe, geschrieben als Breite:Höhe. Das Verhältnis entscheidet, was in den Rahmen passt, wie sich Inhalte vom breiten Monitor bis zum hochkant gehaltenen Smartphone anpassen und ob die Seite beim Laden springt."
+ ],
+ ".law-origin .body-text": [
+  "1892 legten William Dickson und Thomas Edison das Bild des 35-mm-Films auf vier Perforationslöcher Höhe fest, was ein Bild von etwa 4:3 ergab. Das Academy-Format von 1,375:1 aus der Tonfilmzeit blieb nah daran, und das Fernsehen übernahm 4:3, damit Filme gezeigt werden konnten.",
+  "Als das Fernsehen Anfang der 1950er Jahre das Publikum abzog, ging Hollywood in die Breite: mit CinemaScope, VistaVision und dem 1953 eingeführten Format 1,85:1, und der anamorphotische Film pendelte sich 1970 bei 2,39:1 ein. HDTV setzte auf 16:9, Computerbildschirme wanderten von 4:3 über 16:10 bis etwa 2010 zu 16:9, und Smartphones machten quadratische und vertikale Videos alltäglich."
+ ],
+ ".law-content .law-desc": [
+  "Das Seitenverhältnis ist das Verhältnis von Breite zu Höhe. Jeder Rahmen hat eines, und wenn Inhalt und Rahmen nicht zusammenpassen, muss etwas nachgeben: Das Bild wird beschnitten, mit Balken aufgefüllt oder gestreckt. Vorab zu entscheiden, was davon, ist die Designarbeit."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Übliche Verhältnisse",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Dickson und Edison, 35-mm-Film (1892)",
+  "1:1, 4:3, 3:2, 16:9, 9:16",
+  "Platz reservieren und bewusst beschneiden"
+ ],
+ ".apply-list li": [
+  "Sie platzieren Bilder, Videos oder Einbettungen, deren Größe erst beim Laden bekannt ist.",
+  "Sie gestalten Karten, Vorschaubilder oder Galerien mit Inhalten unterschiedlicher Formen.",
+  "Sie produzieren Medien für mehrere Bildschirme oder Plattformen, vom Breitbildmonitor bis zum hochkant gehaltenen Smartphone.",
+  "Geben Sie Breite und Höhe oder die CSS-Eigenschaft aspect-ratio an, damit der Browser den Platz vor dem Laden reserviert.",
+  "Wählen Sie ein Verhältnis pro Komponente und beschneiden Sie um einen Fokuspunkt, statt Formen zu mischen.",
+  "Entscheiden Sie bewusst zwischen Beschnitt und Balken, und strecken Sie nie Fotos, Gesichter oder Logos."
+ ],
+ ".card .tag": [
+  "Layoutverschiebung",
+  "Karten",
+  "Umwandlung",
+  "Bildschirme",
+  "Video",
+  "Fotografie",
+  "Größe",
+  "Vokabular",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Den Platz reservieren",
+  "Ein Verhältnis pro Raster",
+  "Beschneiden, einrahmen oder strecken",
+  "Breit am Desktop, hoch am Smartphone",
+  "Vertikales Video ist der Normalfall",
+  "Die Kameraformate kennen",
+  "Die Diagonale ist nicht die Größe",
+  "Verhältnisse tragen eine Stimmung",
+  "Zuerst den Rahmen wählen",
+  "Den Smart Crop prüfen"
+ ],
+ ".card .desc": [
+  "Ein Bild ohne Maße lädt mit der Höhe null und schiebt dann alles nach unten, sobald es erscheint. Die Attribute width und height oder die CSS-Eigenschaft aspect-ratio lassen den Browser den Platz freihalten, was den Cumulative Layout Shift niedrig hält.",
+  "Vorschaubilder in gemischten Formen machen ein Raster unruhig und schwer zu überfliegen. Beschneiden Sie alle Bilder einer Komponente mit object-fit: cover auf dasselbe Verhältnis und setzen Sie einen Fokuspunkt, damit Gesichter und Produkte im Bild bleiben.",
+  "Passen Inhalt und Rahmen nicht zusammen, gibt es drei Möglichkeiten: beschneiden, Balken hinzufügen (Letterbox oder Pillarbox) oder strecken. Beschneiden Sie, wenn die Ränder unwichtig sind, nutzen Sie Balken, wenn nichts fehlen darf, und vermeiden Sie das Strecken, das alles verzerrt.",
+  "Monitore sind meist 16:9 oder 16:10, ein hochkant gehaltenes Smartphone eher 9:19,5. Ein Hero-Bild, das für das eine komponiert ist, passt nicht zum anderen, also liefern Sie an jedem Breakpoint einen eigenen Ausschnitt.",
+  "Quadratisches Video verbreitete sich mit Instagram und Vine, und Stories, Shorts und Reels machten 9:16 zum Standard auf Smartphones. Drehen und schneiden Sie für den Rahmen, den Menschen tatsächlich halten, nicht für den, den Sie gewohnt sind.",
+  "Die meisten Kameras fotografieren in 3:2 oder 4:3. Diese Fotos auf 16:9-Heros oder 1:1-Vorschaubilder zu beschneiden kostet einen Teil des Motivs, also planen Sie den Ausschnitt schon bei der Bildauswahl, nicht danach.",
+  "Bildschirme werden nach ihrer Diagonale verkauft, doch bei gleicher Diagonale hat ein 16:9-Bildschirm rund 11 Prozent weniger Fläche als ein 4:3-Bildschirm und deutlich weniger Höhe. Die Höhe entscheidet, wie viel von einer Seite sichtbar ist, also vergleichen Sie Bildschirme nach ihren Maßen.",
+  "1:1 wirkt stabil, 4:3 sachlich, 16:9 filmisch und 2,39:1 episch. Das 16:10 vieler Laptops entspricht 1,6:1, nah am Goldenen Schnitt von 1,618. Wählen Sie einen Rahmen nach der Wirkung, nicht nur nach dem Platz.",
+  "Bild- und Videogeneratoren komponieren für das angefragte Verhältnis, und späteres Beschneiden zerschneidet die Komposition. Wählen Sie das Verhältnis passend zum Einsatzort, bevor Sie generieren.",
+  "Automatisches Beschneiden nutzt Salienzmodelle, um den wichtigen Teil eines Bildes zu behalten. Twitter schaffte seinen Salienz-Ausschnitt 2021 ab, nachdem eine eigene Studie gezeigt hatte, dass das Modell manche Gesichter bevorzugte."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Bilder, Videos und Einbettungen",
+  "Die Mediengröße ist vorab bekannt",
+  "Die Höhe ist wirklich unbekannt, etwa bei Nutzertext",
+  "Produktraster, Galerien und Feeds",
+  "Quellen haben viele Formen",
+  "Die Form trägt Bedeutung, etwa in Kunstkatalogen",
+  "Videoplayer und Einbettungen",
+  "Quell- und Rahmenverhältnis weichen ab",
+  "Die Verzerrung fiele auf, also fast immer",
+  "Hero-Bilder und Banner",
+  "Das Layout reicht vom Smartphone bis zum Desktop",
+  "Das Bild funktioniert in jedem Ausschnitt",
+  "Social- und Mobile-Video",
+  "Zuschauer schauen am Smartphone",
+  "Das Video ist für Fernseher oder Präsentationen",
+  "Fotos auswählen und beschneiden",
+  "Fotos müssen feste Plätze füllen",
+  "Der Platz passt zur Quelle",
+  "Zielbildschirme und Geräte wählen",
+  "Displays nach der Diagonale vergleichen",
+  "Die verglichenen Verhältnisse sind gleich",
+  "Art Direction und Hero-Bilder",
+  "Den Ton einer Seite setzen",
+  "Die Plattform gibt den Rahmen vor",
+  "Später beschneiden → für den Rahmen komponieren",
+  "Bilder oder Videos generieren",
+  "Quadratisch generieren und auf breit beschneiden",
+  "Manueller Ausschnitt → automatischer Ausschnitt",
+  "Bilder in großem Maßstab beschneiden",
+  "Automatischen Ausschnitten von Menschen ungeprüft vertrauen"
+ ],
+ ".ai-divider h3": [
+  "Das Seitenverhältnis im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI erzeugt und beschneidet Bilder inzwischen in großem Maßstab. Der Rahmen muss vor der Generierung feststehen, und automatische Ausschnitte müssen geprüft werden."
+ ]
+}

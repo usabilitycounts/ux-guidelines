@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Format d'<em>image</em>"
+ ],
+ "header .tagline": [
+  "La forme du cadre <em>façonne le contenu</em>."
+ ],
+ "header .subtitle": [
+  "Le rapport entre la largeur et la hauteur d'une image, noté largeur:hauteur. Il décide de ce qui tient dans le cadre, de la façon dont le contenu s'adapte d'un grand écran à un téléphone tenu droit, et de si la page saute pendant le chargement."
+ ],
+ ".law-origin .body-text": [
+  "En 1892, William Dickson et Thomas Edison fixent l'image du film 35 mm à quatre perforations de haut, soit un format d'environ 4:3. Le format Academy de 1,375:1, à l'époque du parlant, en reste proche, et la télévision adopte le 4:3 pour pouvoir diffuser les films.",
+  "Quand la télévision détourne le public au début des années 1950, Hollywood passe au large avec le CinemaScope, la VistaVision et le format 1,85:1 apparu en 1953, et le format anamorphique se fixe à 2,39:1 en 1970. La TVHD adopte le 16:9, les écrans d'ordinateur passent du 4:3 au 16:10 puis au 16:9 vers 2010, et les téléphones font de la vidéo carrée et verticale des formats courants."
+ ],
+ ".law-content .law-desc": [
+  "Le format d'image est le rapport entre la largeur et la hauteur. Chaque cadre en a un, et quand le contenu et le cadre ne s'accordent pas, il faut céder quelque chose : l'image est recadrée, bordée de bandes ou étirée. Décider laquelle à l'avance, c'est le travail de design."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Ratios courants",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Dickson et Edison, film 35 mm (1892)",
+  "1:1, 4:3, 3:2, 16:9, 9:16",
+  "Réserver l'espace et recadrer volontairement"
+ ],
+ ".apply-list li": [
+  "Vous placez des images, des vidéos ou des intégrations dont la taille n'est connue qu'au chargement.",
+  "Vous concevez des cartes, des vignettes ou des galeries qui mélangent des contenus de formes différentes.",
+  "Vous produisez des médias pour plusieurs écrans ou plateformes, des grands moniteurs aux téléphones tenus droits.",
+  "Indiquez largeur et hauteur, ou la propriété CSS aspect-ratio, pour que le navigateur réserve l'espace avant le chargement.",
+  "Choisissez un format par composant et recadrez autour d'un point focal au lieu de mélanger les formes.",
+  "Choisissez délibérément entre recadrage et bandes, et n'étirez jamais les photos, les visages ou les logos."
+ ],
+ ".card .tag": [
+  "Décalage de mise en page",
+  "Cartes",
+  "Conversion",
+  "Écrans",
+  "Vidéo",
+  "Photographie",
+  "Dimensions",
+  "Vocabulaire",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Réserver l'espace",
+  "Un format par grille",
+  "Recadrer, encadrer ou étirer",
+  "Large sur ordinateur, haut sur téléphone",
+  "La vidéo verticale est native",
+  "Connaître les formats des appareils",
+  "La diagonale n'est pas la taille",
+  "Les formats ont une humeur",
+  "Choisir le cadre d'abord",
+  "Vérifier le recadrage intelligent"
+ ],
+ ".card .desc": [
+  "Une image sans dimensions se charge avec une hauteur nulle, puis repousse tout vers le bas en arrivant. Les attributs width et height, ou la propriété CSS aspect-ratio, permettent au navigateur de réserver la place, ce qui limite le Cumulative Layout Shift.",
+  "Des vignettes de formes différentes rendent une grille irrégulière et difficile à parcourir. Recadrez toutes les images d'un composant au même format avec object-fit: cover, et définissez un point focal pour garder visages et produits dans le cadre.",
+  "Quand le contenu et le cadre ne s'accordent pas, trois options : recadrer pour remplir, ajouter des bandes (letterbox ou pillarbox), ou étirer. Recadrez quand les bords importent peu, ajoutez des bandes quand rien ne doit être coupé, et évitez d'étirer, ce qui déforme tout.",
+  "Les moniteurs sont surtout en 16:9 ou 16:10, alors qu'un téléphone tenu droit est plus proche du 9:19,5. Une image d'en-tête composée pour l'un ne convient pas à l'autre : servez un recadrage différent à chaque point de rupture.",
+  "La vidéo carrée s'est répandue avec Instagram et Vine, et les stories, Shorts et Reels ont fait du 9:16 la norme sur téléphone. Filmez et montez pour le cadre que les gens tiennent vraiment, pas pour celui dont vous avez l'habitude.",
+  "La plupart des appareils photo produisent du 3:2 ou du 4:3. Recadrer ces photos en en-têtes 16:9 ou en vignettes 1:1 sacrifie une partie de l'image : prévoyez le recadrage au moment de choisir la photo, pas après.",
+  "Les écrans sont vendus selon leur diagonale, mais à diagonale égale un écran 16:9 a environ 11 % de surface en moins qu'un 4:3, et bien moins de hauteur. C'est la hauteur qui décide de la part de page visible : comparez les écrans par leurs dimensions.",
+  "Le 1:1 paraît stable, le 4:3 pratique, le 16:9 cinématographique et le 2,39:1 épique. Le 16:10 de nombreux portables vaut 1,6:1, proche du 1,618 du nombre d'or. Choisissez un cadre pour l'impression qu'il donne autant que pour ce qu'il contient.",
+  "Les générateurs d'images et de vidéos composent pour le format demandé, et recadrer ensuite découpe la composition. Choisissez le format selon l'endroit où l'image vivra avant de la générer.",
+  "Le recadrage automatique s'appuie sur des modèles de saillance pour garder la partie importante d'une image. Twitter a abandonné son recadrage par saillance en 2021 après que sa propre étude a montré que le modèle favorisait certains visages."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Images, vidéos et intégrations",
+  "La taille du média est connue à l'avance",
+  "La hauteur est vraiment inconnue, comme pour un texte saisi",
+  "Grilles de produits, galeries et fils",
+  "Les sources ont des formes variées",
+  "La forme a un sens, comme dans un catalogue d'art",
+  "Lecteurs vidéo et intégrations",
+  "Les formats de la source et du cadre diffèrent",
+  "La déformation se verrait, ce qui est presque toujours le cas",
+  "Images d'en-tête et bannières",
+  "La mise en page couvre téléphones et ordinateurs",
+  "L'image fonctionne quel que soit le recadrage",
+  "Vidéo sociale et mobile",
+  "Les spectateurs regardent sur téléphone",
+  "La vidéo est destinée à la télévision ou aux présentations",
+  "Choisir et recadrer des photos",
+  "Les photos doivent remplir des emplacements fixes",
+  "L'emplacement correspond à la source",
+  "Choisir des écrans et appareils cibles",
+  "Comparer des écrans par leur diagonale",
+  "Les formats comparés sont identiques",
+  "Direction artistique et images d'en-tête",
+  "Donner le ton d'une page",
+  "La plateforme impose le cadre",
+  "Recadrer après → composer pour le cadre",
+  "Générer des images ou des vidéos",
+  "Générer en carré puis recadrer en large",
+  "Recadrage manuel → recadrage automatique",
+  "Recadrer des images à grande échelle",
+  "Faire confiance sans contrôle aux recadrages de personnes"
+ ],
+ ".ai-divider h3": [
+  "Le format d'image à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA génère et recadre désormais des images à grande échelle. Le cadre doit être choisi avant la génération, et les recadrages automatiques doivent être vérifiés."
+ ]
+}

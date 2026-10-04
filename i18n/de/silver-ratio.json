@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Silberner <em>Schnitt</em>"
+ ],
+ "header .tagline": [
+  "Eins zu <em>zwei Komma vier eins vier</em>."
+ ],
+ "header .subtitle": [
+  "Der Silberne Schnitt, 1 + √2 oder etwa 2,414, teilt Flächen entschiedener als der Goldene Schnitt. Er steckt im Achteck und im A4-Papier und gibt Layouts eine lange, ruhige Proportion mit einem klar dominierenden Teil."
+ ],
+ ".law-origin .body-text": [
+  "Der Silberne Schnitt wird seit der Antike unter anderen Namen untersucht, weil er mit der Quadratwurzel aus 2, dem regelmäßigen Achteck und den Pell-Zahlen zusammenhängt, deren Verhältnisse 5/2, 12/5, 29/12 und 70/29 sich ihm nähern. In einem regelmäßigen Achteck ist der Abstand zwischen gegenüberliegenden Seiten genau 1 + √2 mal so groß wie eine Seitenlänge.",
+  "Sein Name ist jung und in Anlehnung an den Goldenen Schnitt entstanden: φ löst x² = x + 1, σ löst x² = 2x + 1. Papier nach ISO 216, darunter A4, nutzt das verwandte Verhältnis 1 : √2, das beim Falten auf die Hälfte erhalten bleibt. Schneiden Sie das größte Quadrat aus einem A4-Blatt, ist der übrige Streifen ein silbernes Rechteck."
+ ],
+ ".law-content .law-desc": [
+  "Zwei Längen stehen im Silbernen Schnitt, wenn sich die größere zur kleineren verhält wie das Doppelte der größeren plus die kleinere zur größeren. Das Ergebnis, σ ≈ 2,414, ergibt eine längere, betontere Teilung als der Goldene Schnitt: etwa 71/29 statt 62/38."
+ ],
+ ".law-equation": [
+  "a / b = (2a + b) / a = σ = 1 + √2 ≈ 2,414"
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "Seit der Antike untersucht · benannt nach dem Goldenen Schnitt",
+  "Silbernes Mittel",
+  "Achtecke, A4-Papier, Teilungen 71/29"
+ ],
+ ".apply-list li": [
+  "Sie teilen ein breites Layout, ein Banner oder ein Panel in einen dominierenden und einen schmalen Bereich.",
+  "Sie wählen Proportionen für Hero-Bilder, Karten oder Ausschnitte, die lang und ruhig wirken sollen.",
+  "Sie arbeiten mit Papier der A-Reihe oder achteckigen Formen, in denen das Verhältnis schon steckt.",
+  "Teilen Sie eine Länge etwa bei 71/29, oder machen Sie ein Rechteck etwa 2,4-mal so breit wie hoch.",
+  "Nehmen Sie zwei Quadrate aus einem silbernen Rechteck: Der Rest ist wieder ein silbernes Rechteck, was ein wiederholbares Raster ergibt.",
+  "Runden Sie auf ein praktisches Verhältnis wie 12:5 oder 29:12, und vertrauen Sie Ihrem Auge mehr als den Nachkommastellen."
+ ],
+ ".card .tag": [
+  "Die Geometrie",
+  "Layout",
+  "Banner",
+  "Papier",
+  "Form",
+  "Zahlen",
+  "Typografie",
+  "Vorsicht",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Zwei Quadrate und ein Rest",
+  "Eine Teilung von 71/29",
+  "Breite Heros und Banner",
+  "Versteckt in A4",
+  "Das Achteck",
+  "Pell-Verhältnisse als Ersatz",
+  "Eine Schriftskala in √2",
+  "Welcher Silberne Schnitt?",
+  "Proportionen auf Anfrage",
+  "Mythen in den Antworten"
+ ],
+ ".card .desc": [
+  "Schneiden Sie zwei Quadrate aus einem silbernen Rechteck, bleibt ein kleineres silbernes Rechteck übrig. Wiederholt ergibt das ein verschachteltes Raster, das silberne Gegenstück zum einzelnen Quadrat des goldenen Rechtecks.",
+  "Eine Seite im Silbernen Schnitt zu teilen ergibt einen dominierenden Hauptbereich und eine schmale Seitenleiste, eine entschiedenere Teilung als die 62/38 des Goldenen Schnitts. Sie passt zu Inhalten neben Navigation, Filtern oder einem Inhaltsverzeichnis.",
+  "Ein Rechteck, etwa 2,4-mal so breit wie hoch, liegt nahe am 2,39:1-Format des Breitwandkinos und wirkt deshalb weit und filmisch. Es lässt Platz für eine Überschrift neben dem Motiv statt darüber.",
+  "Papier der A-Reihe nutzt 1 : √2, daher behält ein halbiertes Blatt seine Form. Schneiden Sie das größte Quadrat aus einer A4-Seite, ist der Reststreifen ein silbernes Rechteck, und Drucklayouts erben das Verhältnis ganz von selbst.",
+  "Ein regelmäßiges Achteck ist zwischen gegenüberliegenden Seiten 1 + √2 mal so breit, wie eine Seite lang ist. Achteckige Abzeichen, Icons und Embleme tragen das Verhältnis in sich, ein Grund, warum sie ausgewogen wirken.",
+  "Die Pell-Zahlen 1, 2, 5, 12, 29, 70 wachsen bei jedem Schritt etwa um den Faktor 2,414, daher sind Verhältnisse wie 5:2, 12:5 und 29:12 praktische Ersatzwerte. Ein Banner von 1200 × 500 ist 12:5 und liegt weniger als ein halbes Prozent neben σ.",
+  "Der nahe Verwandte √2, etwa 1,414, ergibt eine steile Schriftskala wie 12, 17, 24, 34 und 48. Jede Stufe hebt sich klar von der nächsten ab, was zu Seiten mit wenigen, starken Hierarchieebenen passt.",
+  "In Japan bezeichnet der Begriff silbernes Verhältnis (白銀比) oft 1 : √2, das Yamato-Verhältnis aus Figurendesign und Architektur, und nicht 1 : 2,414. Nennen Sie im Briefing eines Teams die Zahl statt nur den Namen.",
+  "Bild- und Layoutgeneratoren nutzen standardmäßig vertraute Formate wie 16:9 und 1:1. Nennen Sie das gewünschte Verhältnis, etwa 12:5, damit das Ergebnis Ihrem System folgt statt der Voreinstellung des Werkzeugs.",
+  "Fragen Sie eine KI nach berühmten Proportionen, wiederholt sie womöglich, dass Gebäude, Logos oder Gesichter diesem oder jenem Verhältnis folgen. Messen Sie nach, bevor Sie zitieren, denn viele dieser Behauptungen halten nicht."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Ein proportionales Raster aufbauen",
+  "Ein Layout braucht verschachtelte Teilungen",
+  "Ein einfaches gleichmäßiges Raster genügt",
+  "Hauptinhalt mit Seitenleiste",
+  "Ein Bereich soll klar dominieren",
+  "Beide Bereiche sind gleich wichtig",
+  "Hero-Bilder und Banner",
+  "Ein breiter, ruhiger Rahmen ist gefragt",
+  "Das Motiv braucht Höhe, etwa bei Porträts",
+  "Druck- und PDF-Layouts",
+  "Für Papier der A-Reihe gestalten",
+  "Die Ausgabe erfolgt nur am Bildschirm",
+  "Icons, Abzeichen und Embleme",
+  "Achteckige Formen zeichnen",
+  "Die Form hat nichts mit Achtecken zu tun",
+  "Pixelmaße wählen",
+  "Exakte irrationale Maße sind unpraktisch",
+  "Vorlagen verlangen exakte Maße",
+  "Seiten mit vielen Überschriften",
+  "Die Hierarchie braucht starken Kontrast",
+  "Dichte Oberflächen brauchen viele nahe Größen",
+  "Briefings und Spezifikationen",
+  "Mit internationalen Teams arbeiten",
+  "Alle teilen dieselbe Definition",
+  "Standardformat → festgelegtes Verhältnis",
+  "Layouts oder Bilder generieren",
+  "Jedes Format akzeptieren, das das Werkzeug wählt",
+  "Mythos → Messung",
+  "Proportionen mit KI recherchieren",
+  "Behauptungen ohne Quellen zitieren"
+ ],
+ ".ai-divider h3": [
+  "Der Silberne Schnitt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Generative Werkzeuge greifen auf wenige vertraute Formate zurück und wiederholen viele Mythen über Proportionen. Fordern Sie das gewünschte Verhältnis an und prüfen Sie, was Ihnen erzählt wird."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Longitud de <em>línea</em>"
+ ],
+ "header .tagline": [
+  "Ni demasiado larga, <em>ni demasiado corta</em>."
+ ],
+ "header .subtitle": [
+  "La anchura de una línea de texto decide lo fácil que es para el ojo encontrar la siguiente. Las líneas demasiado largas pierden al lector en el regreso, y las demasiado cortas rompen el ritmo. Para el texto corrido, de 45 a 75 caracteres es el rango cómodo."
+ ],
+ ".law-origin .body-text": [
+  "Los impresores dieron con medidas cómodas mucho antes de que nadie las probara; las líneas de los libros han medido tradicionalmente unas 30 veces el cuerpo de la letra. En 1929 <a href=\"people.html#p-miles-tinker\">Miles Tinker</a> y Donald Paterson midieron la velocidad de lectura con distintas longitudes de línea y vieron que las líneas moderadas, de unos 59 a 97 milímetros en cuerpo 10, se leían mejor.",
+  "The Elements of Typographic Style (1992), de <a href=\"people.html#p-robert-bringhurst\">Robert Bringhurst</a>, dio a los diseñadores la regla que aún citan: de 45 a 75 caracteres por línea para una sola columna de texto, con 66 considerado a menudo ideal. La investigación en pantalla desde entonces, como el estudio de Mary Dyson y Mark Haselgrove de 2001, ha visto que las líneas más largas pueden leerse más rápido en pantalla, aunque la mayoría prefiere líneas moderadas."
+ ],
+ ".law-content .law-desc": [
+  "La longitud de línea, o medida, es la anchura de una línea de texto, que suele contarse en caracteres. Las líneas demasiado largas dificultan encontrar el inicio de la siguiente, y las demasiado cortas rompen el ritmo de lectura. Para una sola columna de texto corrido, de 45 a 75 caracteres es el rango cómodo."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-miles-tinker\">Tinker</a> y Paterson (1929) · <a href=\"people.html#p-robert-bringhurst\">Bringhurst</a> (1992)",
+  "Medida",
+  "max-width: 66ch"
+ ],
+ ".apply-list li": [
+  "Defines la anchura de artículos, documentación, ayuda o cualquier texto largo.",
+  "Un diseño deja que el texto ocupe todo el ancho de una pantalla grande.",
+  "El texto está en columnas, tarjetas o barras laterales que pueden ser demasiado estrechas.",
+  "Limita las columnas de lectura a unos 45 a 75 caracteres, por ejemplo con max-width: 66ch.",
+  "Aumenta el interlineado cuando crece la medida y redúcelo en columnas estrechas.",
+  "Deja que tablas, código y contenido multimedia sean más anchos que la columna de texto en lugar de ensanchar la prosa."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "CSS",
+  "Demasiado larga",
+  "Demasiado corta",
+  "Espaciado",
+  "Investigación",
+  "Accesibilidad",
+  "Público",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "De 45 a 75 caracteres",
+  "Fija la medida en ch",
+  "Las líneas largas pierden al lector",
+  "Las líneas cortas rompen el ritmo",
+  "Más medida, más interlineado",
+  "Lo más rápido no es lo preferido",
+  "Las WCAG dicen 80 como máximo",
+  "Los principiantes necesitan líneas más cortas",
+  "Limita la columna de respuesta",
+  "Muros de texto generado"
+ ],
+ ".card .desc": [
+  "Para una sola columna de texto corrido, de 45 a 75 caracteres por línea, contando letras y espacios, es el rango en el que los tipógrafos confían desde hace décadas, con 66 considerado a menudo ideal. Es una guía para la lectura continua, no una ley para cada bloque de texto.",
+  "En CSS, la unidad ch equivale a la anchura del cero en la fuente actual, así que max-width: 66ch mantiene unos 66 caracteres por línea con cualquier tamaño de texto. Usar max-width en lugar de width permite que la columna se estreche en el móvil.",
+  "Al final de cada línea el ojo tiene que volver al principio de la siguiente. En líneas largas ese regreso falla, y el lector se salta una línea o relee la misma. El texto a todo lo ancho en un monitor grande es el culpable habitual.",
+  "Por debajo de unos 40 caracteres el ojo salta constantemente, y el texto justificado se llena de huecos y guiones. Las medidas cortas sirven para pies de foto y notas al margen, no para párrafos apretados en tarjetas estrechas o en varias columnas.",
+  "Cuanto más ancha es la medida, más interlineado necesita el ojo para encontrar la siguiente línea. Las medidas cortas pueden ir más juntas. Cambia el interlineado cuando cambies el ancho de columna para mantener el equilibrio.",
+  "En pantalla, las líneas más largas, de unos 95 a 100 caracteres, pueden leerse más rápido con la misma comprensión, pero mucha gente prefiere líneas más cortas o moderadas. Dyson y Haselgrove propusieron unos 55 caracteres como término medio entre velocidad y comprensión.",
+  "El criterio de conformidad 1.4.8 de las WCAG, Presentación visual (nivel AAA), pide que los bloques de texto no superen los 80 caracteres de ancho, o 40 en chino, japonés y coreano. Las personas con dificultades de lectura o de seguimiento visual pierden el hilo en líneas largas.",
+  "Las recomendaciones tipográficas sugieren de 34 a 60 caracteres para lectores principiantes, con 45 como óptimo, y de 45 a 80 para lectores experimentados, con 60 como óptimo. El contenido educativo, infantil y de ayuda gana con el extremo corto.",
+  "Un panel de respuesta a todo lo ancho en un monitor grande produce líneas de 150 caracteres o más. Limita la prosa a una medida de lectura y deja que los bloques de código y las tablas se desplacen en horizontal en lugar de ensanchar el texto.",
+  "Las respuestas largas en líneas largas cuestan de recorrer. Combina una medida sensata con títulos, listas y párrafos cortos para que el texto generado se pueda leer, y no solo producir."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Texto corrido y artículos",
+  "Definir una columna de lectura",
+  "El texto se recorre, no se lee, como en tablas",
+  "Diseños de lectura adaptables",
+  "El texto está en un contenedor ancho",
+  "El contenedor ya es estrecho",
+  "Diseños anchos de escritorio",
+  "El texto ocupa toda la ventana",
+  "Las líneas ya son cortas",
+  "Columnas, barras laterales y tarjetas",
+  "El texto va en columnas estrechas",
+  "El texto es una etiqueta corta o un pie de foto",
+  "Ajustes tipográficos",
+  "Cambiar el ancho de columna",
+  "El interlineado ya se ajusta en cada punto de ruptura",
+  "Elegir una medida predeterminada",
+  "Velocidad y comodidad compiten",
+  "El texto se recorre buscando un solo dato",
+  "Experiencias de lectura accesibles",
+  "Apoyar la baja visión o la dislexia",
+  "El texto no es un bloque, como una etiqueta suelta",
+  "Contenido educativo, infantil y de ayuda",
+  "Los lectores son principiantes",
+  "Expertos que recorren material de referencia",
+  "Ancho completo → columna de lectura",
+  "Diseñar una interfaz de chat con IA",
+  "Prosa estirada para encajar tablas anchas",
+  "Muro de texto → respuesta estructurada",
+  "Mostrar respuestas largas de IA",
+  "Párrafos largos a todo lo ancho"
+ ],
+ ".ai-divider h3": [
+  "La longitud de línea en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Las respuestas de la IA son largas, y los paneles de chat a menudo ocupan todo el ancho de la ventana. La medida que sirve para un libro sirve también para una respuesta."
+ ]
+}

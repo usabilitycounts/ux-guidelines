@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto <em>predeterminado</em>"
+ ],
+ "header .tagline": [
+  "La mayoría <em>se queda con lo que le dan</em>."
+ ],
+ "header .subtitle": [
+  "Lo que ocurre cuando la gente no hace nada es la opción con la que acaba la mayoría. Elegir un valor predeterminado es elegir por la mayoría, así que merece tanto cuidado como la propia función."
+ ],
+ ".law-origin .body-text": [
+  "En 1988 los economistas William Samuelson y Richard Zeckhauser documentaron el sesgo del statu quo: la gente se aferra de forma desproporcionada a la situación actual. En 2001 Brigitte Madrian y Dennis Shea vieron que, cuando una empresa inscribía automáticamente a los empleados nuevos en su plan de pensiones, la participación subía mucho, y muchos se quedaban con la aportación y el fondo predeterminados.",
+  "En 2003 Eric Johnson y Daniel Goldstein compararon la donación de órganos en Europa: los países donde se es donante salvo renuncia expresa tenían un consentimiento mucho mayor que aquellos donde había que apuntarse. Los predeterminados se convirtieron en la herramienta más fiable de la teoría del empujón, y la que mejor resiste el escrutinio."
+ ],
+ ".law-content .law-desc": [
+  "El efecto predeterminado es la tendencia a aceptar la opción preseleccionada. Actúa por el esfuerzo, porque no hacer nada es lo más fácil; por la aversión a la pérdida, porque el predeterminado se vuelve el punto de referencia; y por la recomendación implícita, porque la gente lo lee como un consejo."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "Samuelson y Zeckhauser (1988) · Johnson y Goldstein (2003)",
+  "Sesgo del statu quo",
+  "Preselecciona lo que sirve a la mayoría"
+ ],
+ ".apply-list li": [
+  "Defines los valores iniciales de ajustes, formularios, planes y opciones de privacidad.",
+  "La mayoría nunca volverá a ese ajuste.",
+  "Una elección tiene consecuencias en las que casi nadie piensa, como compartir datos o las renovaciones.",
+  "Preselecciona la opción que sirve a la mayoría de los usuarios, no la que solo beneficia al negocio.",
+  "Haz que los predeterminados sean fáciles de ver y de cambiar.",
+  "Si las preferencias varían mucho, usa predeterminados personalizados o pide una elección activa."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Inscripción",
+  "Por qué",
+  "Ajustes",
+  "Tipos",
+  "Privacidad",
+  "Renovaciones",
+  "Ética",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Renunciar o apuntarse",
+  "Inscripción automática",
+  "Tres razones por las que el predeterminado se queda",
+  "La mayoría de los ajustes nunca cambia",
+  "Generales, inteligentes y persistentes",
+  "Privacidad por defecto",
+  "La renovación automática es un predeterminado",
+  "Los predeterminados son decisiones",
+  "Predeterminados elegidos por la IA",
+  "El entrenamiento es un predeterminado"
+ ],
+ ".card .desc": [
+  "Los países donde se es donante de órganos salvo renuncia expresa tienen un consentimiento mucho mayor que aquellos donde hay que apuntarse. La elección es idéntica; solo cambia el predeterminado.",
+  "Cuando a los empleados nuevos se les inscribía en un plan de pensiones salvo que lo rechazaran, la participación se disparó, y muchos mantuvieron durante años la aportación y el fondo predeterminados. Un buen predeterminado hace el trabajo de mil recordatorios.",
+  "Cambiar un predeterminado cuesta esfuerzo. El predeterminado se convierte en el punto de referencia, así que cambiar se siente como una pérdida. Y la gente supone que quien lo fijó lo eligió por algo, lo que se lee como una recomendación.",
+  "Los predeterminados que publicas son la experiencia que tiene la mayoría. Muchos nunca descubren que hay alternativas, como la selección oculta de tonos de un teléfono. Trata cada predeterminado como una decisión de diseño, no como un detalle.",
+  "Los predeterminados generales son iguales para todos. Los inteligentes usan lo que se sabe, como la ubicación para la moneda. Los persistentes recuerdan la última elección, y los adaptativos cambian según lo que hace la persona. Elige el tipo según cuánto varíen las preferencias.",
+  "Los predeterminados para compartir datos deciden lo que comparte la mayoría. El artículo 25 del RGPD exige protección de datos desde el diseño y por defecto, así que la opción protectora debe ser la preseleccionada.",
+  "La renovación automática es un predeterminado que sigue cobrando. Muestra la fecha de renovación, avisa antes del cobro y haz que desactivarla sea tan fácil como activarla.",
+  "Como la mayoría los acepta, los predeterminados son decisiones tomadas en nombre de los usuarios. No existe una opción neutral, así que elige la que la gente escogería con el tiempo y la información necesarios para decidir.",
+  "Los modelos pueden predecir un predeterminado personal para cada persona: la respuesta sugerida, el ajuste, el plan. Indica que se eligió para ella, explica por qué y deja las alternativas a un toque.",
+  "Que los datos de los clientes se usen para entrenar modelos de IA es en sí un predeterminado, y la mayoría nunca lo cambia. Muestra el ajuste en el momento en que se recogen los datos."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Una elección se plantea como apuntarse o renunciar",
+  "Todos eligen de forma activa",
+  "Beneficios, programas e inscripciones",
+  "Participar beneficia claramente al usuario",
+  "La inscripción compromete a costes inesperados",
+  "Entender la conducta de los usuarios",
+  "Un rediseño cambia lo preseleccionado",
+  "Los usuarios comparan activamente cada opción",
+  "Pantallas de ajustes y preferencias",
+  "Publicar un ajuste nuevo",
+  "Los usuarios avanzados lo personalizan todo",
+  "Formularios y pago",
+  "Las preferencias varían según el contexto",
+  "Usar datos personales resultaría invasivo",
+  "Ajustes de privacidad y de compartir",
+  "Recopilar datos personales",
+  "Compartir es el propósito evidente del producto",
+  "Suscripciones y facturación",
+  "Los planes se renuevan solos",
+  "La renovación sorprendería a la gente",
+  "Revisiones y auditorías de diseño",
+  "Fijar cualquier predeterminado",
+  "Nunca: todo predeterminado es una elección",
+  "Un predeterminado → predeterminados predichos",
+  "La IA preselecciona opciones",
+  "Predeterminados que nadie ve ni explica",
+  "Ajuste escondido → elección visible",
+  "Usar datos de clientes para IA",
+  "Incluir a todos en silencio"
+ ],
+ ".ai-divider h3": [
+  "El efecto predeterminado en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede predecir un predeterminado distinto para cada persona. Eso hace los predeterminados más útiles, y más poderosos, que nunca."
+ ]
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" data-page="dark-patterns">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=74','script');pl('i18n/'+eff+'/dark-patterns.json?v=37','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.">
+<title>Dark Patterns: Deceptive Design and What to Do Instead — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="canonical" href="https://www.ux-guidelines.com/dark-patterns.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/dark-patterns.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/patrones-oscuros.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/dark-patterns.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/dark-patterns.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/dark-patterns.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/dark-patterns.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/dark-patterns.html">
+<meta property="og:title" content="Dark Patterns: Deceptive Design and What to Do Instead — UX Guidelines">
+<meta property="og:description" content="Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/dark-patterns.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/dark-patterns.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/dark-patterns.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dark Patterns: Deceptive Design and What to Do Instead — UX Guidelines">
+<meta name="twitter:description" content="Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Dark Patterns: Deceptive Design and What to Do Instead", "description": "Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.", "url": "https://www.ux-guidelines.com/dark-patterns.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/dark-patterns.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Structure The Choices"}, {"@type": "ListItem", "position": 3, "name": "Dark Patterns: Deceptive Design and What to Do Instead", "item": "https://www.ux-guidelines.com/dark-patterns.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=170">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=128"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build The System</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Actions And Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Follow The Rulebooks</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Keep Them Coming Back</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Lay Out The Page</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Present And Explain</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Structure The Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link active">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Dark <em>Patterns</em></h1>
+  <p class="tagline">Win the click, <em>lose the trust</em>.</p>
+  <p class="subtitle">Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="people.html#p-harry-brignull">Harry Brignull</a>, a UK user experience designer, coined the term on 28 July 2010 when he registered darkpatterns.org, a pattern library meant to name and shame deceptive interfaces. The site has since moved to deceptive.design, and in 2023 he published the book Deceptive Patterns.</p>
+    <p class="body-text">Research and regulators followed. A 2019 study by Arunesh Mathur and colleagues at Princeton crawled about 11,000 shopping sites and found 1,818 instances of dark patterns. In 2022 France’s CNIL fined Google and Facebook over cookie banners, and in 2025 Amazon settled the FTC’s case over Prime sign-up and cancellation for $2.5 billion, without admitting wrongdoing.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Pattern</div>
+    <p class="body-text law-desc">A dark pattern is an interface crafted to trick people into doing something they didn’t mean to do, such as buying, subscribing, or sharing data. It works by exploiting habits and biases, and it trades short-term conversion for long-term trust and, more and more often, legal risk.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-harry-brignull">Harry Brignull</a> (2010)</div></div>
+      <div><div class="label">Also called</div><div class="value">Deceptive design patterns</div></div>
+      <div><div class="label">In practice</div><div class="value">Would users choose this if they understood it?</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Designing sign-up, checkout, cancellation, or consent flows.</li>
+      <li>A metric such as conversion or retention is being pushed hard.</li>
+      <li>Reviewing a flow for honesty before launch, or after a complaint.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Give the choice the business wants and the choice the user may want the same visual weight.</li>
+      <li>Show the full price up front, and let people leave the way they joined.</li>
+      <li>Ask of each flow whether users would make the same choice if they fully understood it.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. The Roach Motel -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Subscriptions</span>
+      <span class="num">01 / 10</span>
+      <h3>The Roach Motel</h3>
+      <p class="desc">Easy to get in, hard to get out. The FTC said Amazon’s Prime cancellation flow, known internally as Iliad, routed people through repeated pages of offers. Under EU pressure in 2022, Amazon made cancellation two clicks in Europe.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="44" width="36" height="32" rx="4" class="a"/><path d="M58 60H84" class="ln"/><rect x="88" y="20" width="112" height="80" rx="5" class="ol"/><path d="M100 32H188V48H112V64H188V80H112V92H200" class="lg"/><circle cx="200" cy="92" r="4" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Subscriptions and memberships</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing how people leave</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Canceling takes more steps than joining</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="peak-end-rule.html">Peak-End Rule</a><a href="choice-architecture.html">Choice Architecture</a><a href="nudge-theory.html">Nudge Theory</a><a href="default-effect.html">Default Effect</a><a href="social-proof.html">Social Proof</a></div>
+    </div>
+  </article>
+  <!-- 2. Drip Pricing -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Pricing</span>
+      <span class="num">02 / 10</span>
+      <h3>Drip Pricing</h3>
+      <p class="desc">A low headline price, with fees and charges added step by step until checkout. By the time the real total appears, people have invested enough effort that many pay it anyway. Show the full price from the first screen.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 104L200 104" class="ax"/><rect x="26" y="74" width="26" height="30" rx="3" class="b"/><rect x="62" y="64" width="26" height="40" rx="3" class="b"/><rect x="98" y="52" width="26" height="52" rx="3" class="b"/><rect x="134" y="38" width="26" height="66" rx="3" class="b"/><rect x="170" y="18" width="26" height="86" rx="3" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Checkout and pricing</div></div>
+      <div><div class="label">Use when</div><div class="value">Fees or taxes apply</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Fees appear only at the last step</div></div>
+    </div>
+  </article>
+  <!-- 3. Confirmshaming -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Copy</span>
+      <span class="num">03 / 10</span>
+      <h3>Confirmshaming</h3>
+      <p class="desc">A decline link worded to shame: No thanks, I don’t like saving money. It pressures people with guilt instead of persuading them with value. Word the decline option as plainly as the accept option.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="40" y="12" width="140" height="96" rx="6" class="ol"/><rect x="56" y="26" width="108" height="5" rx="2.5" class="g"/><rect x="56" y="36" width="64.8" height="5" rx="2.5" class="g"/><rect x="56" y="56" width="108" height="22" rx="11" class="a"/><rect x="80" y="90" width="60" height="5" rx="2.5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Pop-ups, upsells, and newsletters</div></div>
+      <div><div class="label">Use when</div><div class="value">Offering something optional</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The decline option mocks the user</div></div>
+    </div>
+  </article>
+  <!-- 4. Misdirection -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Visual</span>
+      <span class="num">04 / 10</span>
+      <h3>Misdirection</h3>
+      <p class="desc">A bright button for what the business wants and a faint link for what the user wants, or a consent box with a double negative. Software installers made it famous by bundling unrelated programs behind a prominent Accept button.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="16" width="172" height="88" rx="6" class="ol"/><rect x="38" y="28" width="140" height="4" rx="2" class="b"/><rect x="38" y="37" width="140" height="4" rx="2" class="b"/><rect x="38" y="46" width="84" height="4" rx="2" class="b"/><rect x="110" y="70" width="72" height="22" rx="11" class="a"/><rect x="38" y="79" width="40" height="4" rx="2" class="b"/><rect x="38" y="58" width="10" height="10" rx="2" class="ga"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Consent and choice screens</div></div>
+      <div><div class="label">Use when</div><div class="value">Presenting yes and no</div></div>
+      <div><div class="label">Avoid when</div><div class="value">One option is hidden in plain sight</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="von-restorff-effect.html">Von Restorff Effect</a></div>
+    </div>
+  </article>
+  <!-- 5. Privacy Zuckering -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Privacy</span>
+      <span class="num">05 / 10</span>
+      <h3>Privacy Zuckering</h3>
+      <p class="desc">Named after Mark Zuckerberg: designs that get people to share more than they intended. In 2022 France’s CNIL fined Google €150 million and Facebook €60 million because accepting cookies took one click and refusing took several.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="14" y="64" width="192" height="46" rx="6" class="ol"/><rect x="26" y="74" width="100" height="4" rx="2" class="b"/><rect x="26" y="83" width="60" height="4" rx="2" class="b"/><rect x="140" y="72" width="56" height="14" rx="7" class="a"/><rect x="140" y="90" width="56" height="12" rx="6" class="gh"/><rect x="24" y="18" width="30" height="22" rx="4" class="gh"/><rect x="64" y="18" width="30" height="22" rx="4" class="gh"/><rect x="104" y="18" width="30" height="22" rx="4" class="gh"/><rect x="144" y="18" width="30" height="22" rx="4" class="gh"/><rect x="184" y="18" width="30" height="22" rx="4" class="gh"/><path d="M168 102V48H185V40" class="lg"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Consent and privacy settings</div></div>
+      <div><div class="label">Use when</div><div class="value">Asking for data or tracking</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Refusing takes more clicks than accepting</div></div>
+    </div>
+  </article>
+  <!-- 6. Fake Urgency -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Urgency</span>
+      <span class="num">06 / 10</span>
+      <h3>Fake Urgency</h3>
+      <p class="desc">Countdown timers that reset, and Running out! labels on stock that isn’t running out. In 2024 the UK’s Competition and Markets Authority secured undertakings from Wowcher over exactly these claims. Show only real deadlines and real stock.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="60" r="34" class="ol"/><path d="M70 60V38M70 60L86 70" class="ln"/><text x="150" y="56" text-anchor="middle" class="ta">00:59</text><rect x="118" y="68" width="64" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Sales, offers, and booking</div></div>
+      <div><div class="label">Use when</div><div class="value">An offer really is limited</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The deadline or scarcity is invented</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="hook-model.html">Hook Model</a></div>
+    </div>
+  </article>
+  <!-- 7. Bait and Switch -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Advertising</span>
+      <span class="num">07 / 10</span>
+      <h3>Bait and Switch</h3>
+      <p class="desc">Advertise something free or cheap that most people can’t actually get, then steer them to a paid option. In 2022 Intuit agreed to a $141 million settlement over TurboTax ads for free filing that most filers didn’t qualify for.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="24" y="34" width="70" height="40" rx="6" class="g"/><text x="59" y="58" text-anchor="middle" class="t">FREE</text><path d="M30 74L88 34" class="ln"/><path d="M102 54H124" class="lg"/><rect x="132" y="22" width="72" height="64" rx="6" class="a"/><rect x="144" y="92" width="48" height="6" rx="3" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Plans, tiers, and free offers</div></div>
+      <div><div class="label">Use when</div><div class="value">Promoting a free option</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Most people cannot use the advertised offer</div></div>
+    </div>
+  </article>
+  <!-- 8. Design for Informed Choice -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Remedy</span>
+      <span class="num">08 / 10</span>
+      <h3>Design for Informed Choice</h3>
+      <p class="desc">The test for any flow: would people make the same choice if they fully understood it? Give yes and no equal weight, show the real total, and make leaving as easy as joining. Several jurisdictions now require exactly that.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="44" width="70" height="30" rx="15" class="a"/><rect x="120" y="44" width="70" height="30" rx="15" class="a"/><path d="M57 59l6 6l11-12" class="ln"/><path d="M147 59l6 6l11-12" class="ln"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Design reviews and audits</div></div>
+      <div><div class="label">Use when</div><div class="value">Before launch or after complaints</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Never: honesty has no exceptions</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="paradox-of-choice.html">Paradox of Choice</a></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Dark Patterns in the Age of AI</h3>
+    <p>AI can tailor copy, timing, and offers to each person. That makes persuasion more effective and manipulation cheaper and harder to see.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="18" width="28" height="22" rx="4" class="b"/><rect x="52" y="18" width="28" height="22" rx="4" class="b"/><rect x="86" y="18" width="28" height="22" rx="4" class="a"/><rect x="120" y="18" width="28" height="22" rx="4" class="b"/><rect x="154" y="18" width="28" height="22" rx="4" class="b"/><rect x="188" y="18" width="28" height="22" rx="4" class="b"/><rect x="18" y="48" width="28" height="22" rx="4" class="b"/><rect x="52" y="48" width="28" height="22" rx="4" class="a"/><rect x="86" y="48" width="28" height="22" rx="4" class="b"/><rect x="120" y="48" width="28" height="22" rx="4" class="b"/><rect x="154" y="48" width="28" height="22" rx="4" class="b"/><rect x="188" y="48" width="28" height="22" rx="4" class="b"/><rect x="18" y="78" width="28" height="22" rx="4" class="a"/><rect x="52" y="78" width="28" height="22" rx="4" class="b"/><rect x="86" y="78" width="28" height="22" rx="4" class="b"/><rect x="120" y="78" width="28" height="22" rx="4" class="b"/><rect x="154" y="78" width="28" height="22" rx="4" class="b"/><rect x="188" y="78" width="28" height="22" rx="4" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Persuasion at Scale</h3>
+      <p class="desc">A model can generate thousands of variants of a message and learn which ones work on whom. Hold generated copy to the same rules as handwritten copy, and never optimize for conversion alone.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">One pattern → millions of variants</div></div>
+      <div><div class="label">Use when</div><div class="value">AI writes marketing or retention copy</div></div>
+      <div><div class="label">Watch for</div><div class="value">Optimizing only for conversion</div></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="16" width="56" height="88" rx="5" class="ol"/><rect x="82" y="16" width="56" height="88" rx="5" class="ol"/><rect x="144" y="16" width="56" height="88" rx="5" class="ol"/><rect x="28" y="28" width="40" height="4" rx="2" class="b"/><rect x="28" y="39" width="40" height="4" rx="2" class="b"/><rect x="28" y="50" width="40" height="4" rx="2" class="b"/><rect x="28" y="61" width="40" height="4" rx="2" class="b"/><rect x="28" y="72" width="40" height="4" rx="2" class="b"/><rect x="28" y="83" width="24" height="4" rx="2" class="b"/><rect x="90" y="28" width="40" height="4" rx="2" class="b"/><rect x="90" y="39" width="40" height="4" rx="2" class="b"/><rect x="90" y="50" width="40" height="4" rx="2" class="b"/><rect x="90" y="61" width="40" height="4" rx="2" class="b"/><rect x="90" y="72" width="40" height="4" rx="2" class="b"/><rect x="90" y="83" width="24" height="4" rx="2" class="b"/><rect x="152" y="84" width="26" height="12" rx="6" class="gh"/><circle cx="159" cy="90" r="4" class="g"/><path d="M76 60H82M138 60H144" class="lg"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Opting Out of Training</h3>
+      <p class="desc">In 2024 Meta planned to train AI on Facebook and Instagram posts, with an opt-out reached through misleading emails, login redirects, and a form that asked for a reason. Refusing consent for AI training should be as easy as giving it.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Buried opt-out → clear choice</div></div>
+      <div><div class="label">Use when</div><div class="value">Using customer data for AI</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding the opt-out or demanding reasons</div></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.deceptive.design/" target="_blank" rel="noopener"><span class="title">Deceptive Patterns (formerly darkpatterns.org) — Harry Brignull</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.deceptive.design/types" target="_blank" rel="noopener"><span class="title">Types of Deceptive Pattern — Harry Brignull</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1145/3359183" target="_blank" rel="noopener"><span class="title">Dark Patterns at Scale: Findings from a Crawl of 11K Shopping Websites — Mathur et al., 2019</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Enforcement</h3>
+      <ul class="ref-list">
+        <li><a href="https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon" target="_blank" rel="noopener"><span class="title">FTC Secures Historic $2.5 Billion Settlement Against Amazon — Federal Trade Commission, 2025</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://www.cnil.fr/en/cookies-cnil-fines-google-total-150-million-euros-and-facebook-60-million-euros-non-compliance" target="_blank" rel="noopener"><span class="title">Cookies: CNIL Fines Google and Facebook — CNIL, 2022</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Dark_pattern" target="_blank" rel="noopener"><span class="title">Dark Pattern</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Dark Patterns</div>
+</footer>
+
+</body>
+</html>

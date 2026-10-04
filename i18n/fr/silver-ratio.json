@@ -1,0 +1,145 @@
+{
+ "header h1": [
+  "Nombre d'<em>argent</em>"
+ ],
+ "header .tagline": [
+  "Un pour <em>deux virgule quatre un quatre</em>."
+ ],
+ "header .subtitle": [
+  "Le nombre d'argent, 1 + √2, soit environ 2,414, divise l'espace de façon plus tranchée que le nombre d'or. On le trouve dans l'octogone et le format A4, et il donne aux mises en page une proportion allongée et calme, avec une partie nettement dominante."
+ ],
+ ".law-origin .body-text": [
+  "Le nombre d'argent est étudié depuis l'Antiquité sous d'autres noms, en raison de ses liens avec la racine carrée de 2, l'octogone régulier et les nombres de Pell, dont les rapports 5/2, 12/5, 29/12 et 70/29 s'en rapprochent. Dans un octogone régulier, la largeur entre deux côtés opposés vaut exactement 1 + √2 fois la longueur d'un côté.",
+  "Son nom est récent, forgé par analogie avec le nombre d'or : φ est solution de x² = x + 1, σ de x² = 2x + 1. Le papier ISO 216, dont l'A4, utilise le rapport voisin 1 : √2, qui garde sa forme quand on plie la feuille en deux. Découpez le plus grand carré possible dans une feuille A4 : la bande restante est un rectangle d'argent."
+ ],
+ ".law-content .law-desc": [
+  "Deux longueurs sont dans le rapport d'argent quand la plus grande est à la plus petite ce que deux fois la plus grande plus la plus petite est à la plus grande. Le résultat, σ ≈ 2,414, donne une division plus allongée et plus affirmée que le nombre d'or : environ 71/29 au lieu de 62/38."
+ ],
+ ".law-equation": [
+  "a / b = (2a + b) / a = σ = 1 + √2 ≈ 2,414"
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Étudié depuis l'Antiquité · nommé d'après le nombre d'or",
+  "Moyenne d'argent",
+  "Octogones, papier A4, partages 71/29"
+ ],
+ ".apply-list li": [
+  "Vous divisez une mise en page large, une bannière ou un panneau en une zone dominante et une zone étroite.",
+  "Vous choisissez les proportions d'images d'en-tête, de cartes ou de recadrages qui doivent paraître allongés et calmes.",
+  "Vous travaillez avec du papier de la série A ou des formes octogonales, où le rapport est déjà présent.",
+  "Partagez une longueur à environ 71/29, ou faites un rectangle environ 2,4 fois plus large que haut.",
+  "Retirez deux carrés d'un rectangle d'argent : le reste est un autre rectangle d'argent, ce qui donne une grille répétable.",
+  "Arrondissez à un rapport pratique comme 12:5 ou 29:12, et fiez-vous à votre œil plutôt qu'aux décimales."
+ ],
+ ".card .tag": [
+  "La géométrie",
+  "Mise en page",
+  "Bannières",
+  "Papier",
+  "Forme",
+  "Nombres",
+  "Typographie",
+  "Attention",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Deux carrés et un reste",
+  "Un partage 71/29",
+  "Des bannières et des en-têtes larges",
+  "Caché dans l'A4",
+  "L'octogone",
+  "Les rapports de Pell en renfort",
+  "Une échelle typographique en √2",
+  "Quel nombre d'argent ?",
+  "Des proportions sur demande",
+  "Des idées reçues dans les réponses"
+ ],
+ ".card .desc": [
+  "Retirez deux carrés d'un rectangle d'argent : ce qui reste est un rectangle d'argent plus petit. En répétant l'opération, on obtient une grille imbriquée, pendant argenté du carré unique du rectangle d'or.",
+  "Diviser une page selon le nombre d'argent donne une zone principale dominante et une colonne latérale étroite, un partage plus net que le 62/38 du nombre d'or. Il convient à un contenu à côté d'une navigation, de filtres ou d'une table des matières.",
+  "Un rectangle environ 2,4 fois plus large que haut est proche du format 2,39:1 du cinéma en scope : il paraît large et cinématographique. Il laisse de la place pour un titre à côté du sujet plutôt que par-dessus.",
+  "Le papier de la série A utilise 1 : √2, donc une feuille coupée en deux garde sa forme. Découpez le plus grand carré d'une page A4 : la bande restante est un rectangle d'argent, et les mises en page imprimées héritent du rapport sans effort.",
+  "Un octogone régulier est 1 + √2 fois plus large entre deux côtés opposés que la longueur d'un côté. Les badges, icônes et emblèmes octogonaux portent ce rapport en eux, ce qui explique en partie leur équilibre.",
+  "Les nombres de Pell 1, 2, 5, 12, 29, 70 croissent d'environ 2,414 à chaque étape : des rapports comme 5:2, 12:5 et 29:12 font de bons substituts. Une bannière de 1200 × 500 est en 12:5, à moins d'un demi pour cent de σ.",
+  "Proche parent du nombre d'argent, √2, soit environ 1,414, donne une échelle typographique marquée comme 12, 17, 24, 34 et 48. Chaque niveau se distingue nettement du suivant, ce qui convient aux pages avec peu de niveaux hiérarchiques bien marqués.",
+  "Au Japon, le terme « rapport d'argent » (白銀比) désigne souvent 1 : √2, le rapport Yamato utilisé dans le design de personnages et l'architecture, et non 1 : 2,414. Quand vous briefez une équipe, donnez le nombre plutôt que le nom.",
+  "Les générateurs d'images et de mises en page utilisent par défaut des formats familiers comme 16:9 et 1:1. Indiquez le rapport voulu, par exemple 12:5, pour que le résultat suive votre système plutôt que les réglages de l'outil.",
+  "Interrogez une IA sur les proportions célèbres et elle peut répéter que des bâtiments, des logos ou des visages suivent tel ou tel rapport. Mesurez avant de citer : beaucoup de ces affirmations ne tiennent pas."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Construire une grille proportionnelle",
+  "Une mise en page demande des divisions imbriquées",
+  "Une grille régulière simple suffit",
+  "Contenu principal avec colonne latérale",
+  "Une zone doit nettement dominer",
+  "Les deux zones comptent autant",
+  "Images d'en-tête et bannières",
+  "Il faut un cadre large et calme",
+  "Le sujet demande de la hauteur, comme un portrait",
+  "Mises en page imprimées et PDF",
+  "Concevoir pour le papier de la série A",
+  "La sortie est uniquement à l'écran",
+  "Icônes, badges et emblèmes",
+  "Dessiner des formes à huit côtés",
+  "La forme n'a rien à voir avec l'octogone",
+  "Choisir des dimensions en pixels",
+  "Des tailles irrationnelles exactes sont peu pratiques",
+  "Les gabarits exigent des tailles exactes",
+  "Pages riches en titres",
+  "La hiérarchie demande un fort contraste",
+  "Les interfaces denses demandent de nombreuses tailles proches",
+  "Briefs et spécifications",
+  "Travailler avec des équipes internationales",
+  "Tout le monde partage la même définition",
+  "Format par défaut → rapport précisé",
+  "Générer des mises en page ou des images",
+  "Accepter le format choisi par l'outil",
+  "Idée reçue → mesure",
+  "Étudier les proportions avec l'IA",
+  "Citer des affirmations sans sources"
+ ],
+ ".ai-divider h3": [
+  "Le nombre d'argent à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les outils génératifs s'en tiennent à quelques formats familiers et répètent beaucoup d'idées reçues sur les proportions. Demandez le rapport que vous voulez et vérifiez ce qu'on vous dit."
+ ]
+}

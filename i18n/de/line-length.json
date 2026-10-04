@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Zeilen<em>länge</em>"
+ ],
+ "header .tagline": [
+  "Nicht zu lang, <em>nicht zu kurz</em>."
+ ],
+ "header .subtitle": [
+  "Die Breite einer Textzeile entscheidet, wie leicht das Auge die nächste Zeile findet. Zu lange Zeilen verlieren den Leser auf dem Rückweg, zu kurze brechen den Rhythmus. Für Fließtext sind 45 bis 75 Zeichen der angenehme Bereich."
+ ],
+ ".law-origin .body-text": [
+  "Drucker fanden angenehme Satzbreiten lange bevor sie jemand testete; Buchzeilen waren traditionell etwa 30-mal so breit wie der Schriftgrad. 1929 maßen <a href=\"people.html#p-miles-tinker\">Miles Tinker</a> und Donald Paterson die Lesegeschwindigkeit bei verschiedenen Zeilenlängen und fanden, dass mittlere Zeilen von etwa 59 bis 97 Millimetern bei 10-Punkt-Schrift am besten zu lesen waren.",
+  "<a href=\"people.html#p-robert-bringhurst\">Robert Bringhurst</a>s The Elements of Typographic Style (1992) gab Designern die Regel, die sie bis heute zitieren: 45 bis 75 Zeichen pro Zeile für eine einzelne Textspalte, wobei 66 weithin als ideal gilt. Bildschirmstudien seither, darunter die von Mary Dyson und Mark Haselgrove aus dem Jahr 2001, zeigten, dass längere Zeilen am Bildschirm schneller gelesen werden können, während die meisten Menschen mittlere bevorzugen."
+ ],
+ ".law-content .law-desc": [
+  "Die Zeilenlänge, auch Satzbreite, ist die Breite einer Textzeile, meist in Zeichen gezählt. Zu lange Zeilen erschweren es, den Anfang der nächsten zu finden, zu kurze brechen den Leserhythmus. Für eine einzelne Spalte Fließtext sind 45 bis 75 Zeichen der angenehme Bereich."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-miles-tinker\">Tinker</a> und Paterson (1929) · <a href=\"people.html#p-robert-bringhurst\">Bringhurst</a> (1992)",
+  "Satzbreite",
+  "max-width: 66ch"
+ ],
+ ".apply-list li": [
+  "Sie legen die Breite von Artikeln, Dokumentation, Hilfetexten oder anderen langen Texten fest.",
+  "Ein Layout lässt Text über die volle Breite eines großen Bildschirms laufen.",
+  "Text steht in Spalten, Karten oder Seitenleisten, die zu schmal sein könnten.",
+  "Begrenzen Sie Lesespalten auf etwa 45 bis 75 Zeichen, zum Beispiel mit max-width: 66ch.",
+  "Erhöhen Sie den Zeilenabstand mit wachsender Satzbreite, und verringern Sie ihn bei schmalen Spalten.",
+  "Lassen Sie Tabellen, Code und Medien breiter laufen als die Textspalte, statt den Fließtext zu verbreitern."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "CSS",
+  "Zu lang",
+  "Zu kurz",
+  "Abstände",
+  "Forschung",
+  "Barrierefreiheit",
+  "Zielgruppe",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "45 bis 75 Zeichen",
+  "Die Satzbreite in ch angeben",
+  "Lange Zeilen verlieren den Leser",
+  "Kurze Zeilen brechen den Rhythmus",
+  "Breitere Zeilen, mehr Durchschuss",
+  "Am schnellsten ist nicht am beliebtesten",
+  "WCAG sagt höchstens 80",
+  "Einsteiger brauchen kürzere Zeilen",
+  "Die Antwortspalte begrenzen",
+  "Generierte Textwände"
+ ],
+ ".card .desc": [
+  "Für eine einzelne Spalte Fließtext sind 45 bis 75 Zeichen pro Zeile, Buchstaben und Leerzeichen eingerechnet, der Bereich, auf den sich Typografen seit Jahrzehnten verlassen, wobei 66 oft als ideal gilt. Das ist ein Richtwert für fortlaufendes Lesen, kein Gesetz für jeden Textblock.",
+  "In CSS entspricht die Einheit ch der Breite der Ziffer Null in der aktuellen Schrift, daher hält max-width: 66ch bei jeder Schriftgröße etwa 66 Zeichen pro Zeile. Mit max-width statt width kann die Spalte auf Smartphones schrumpfen.",
+  "Am Ende jeder Zeile muss das Auge zurück zum Anfang der nächsten springen. Bei langen Zeilen verfehlt dieser Rücksprung das Ziel, und Leser überspringen eine Zeile oder lesen dieselbe noch einmal. Text in voller Breite auf einem großen Monitor ist der übliche Grund.",
+  "Unter etwa 40 Zeichen springt das Auge ständig, und Blocksatz füllt sich mit Lücken und Trennungen. Kurze Satzbreiten eignen sich für Bildunterschriften und Randnotizen, nicht für Absätze in schmalen Karten oder mehreren Spalten.",
+  "Je breiter die Zeile, desto mehr Zeilenabstand braucht das Auge, um die nächste zu finden. Kurze Zeilen können enger gesetzt werden. Passen Sie den Zeilenabstand an, wenn Sie die Spaltenbreite ändern, damit beides im Gleichgewicht bleibt.",
+  "Am Bildschirm lassen sich längere Zeilen von etwa 95 bis 100 Zeichen bei gleichem Verständnis schneller lesen, doch viele Menschen bevorzugen kürzere oder mittlere Zeilen. Dyson und Haselgrove schlugen etwa 55 Zeichen als Kompromiss zwischen Tempo und Verständnis vor.",
+  "WCAG-Erfolgskriterium 1.4.8, Visuelle Präsentation (Stufe AAA), verlangt, dass Textblöcke nicht breiter als 80 Zeichen sind, bei Chinesisch, Japanisch und Koreanisch 40. Menschen mit Lese- oder Blickführungsschwierigkeiten verlieren bei langen Zeilen die Stelle.",
+  "Typografische Empfehlungen nennen 34 bis 60 Zeichen für ungeübte Leser, mit 45 als Optimum, und 45 bis 80 für geübte Leser, mit 60 als Optimum. Lern-, Kinder- und Hilfeinhalte profitieren vom kürzeren Ende.",
+  "Ein Antwortbereich in voller Breite erzeugt auf einem großen Monitor Zeilen mit 150 Zeichen oder mehr. Begrenzen Sie den Fließtext auf eine Lesebreite, und lassen Sie Codeblöcke und Tabellen seitlich scrollen, statt den Text zu verbreitern.",
+  "Lange Antworten in langen Zeilen sind schwer zu überfliegen. Kombinieren Sie eine sinnvolle Satzbreite mit Überschriften, Listen und kurzen Absätzen, damit generierter Text gelesen und nicht nur produziert wird."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Fließtext und Artikel",
+  "Eine Lesespalte festlegen",
+  "Text wird überflogen statt gelesen, etwa in Tabellen",
+  "Responsive Leselayouts",
+  "Text steht in einem breiten Container",
+  "Der Container ist bereits schmal",
+  "Breite Desktop-Layouts",
+  "Text füllt das ganze Fenster",
+  "Die Zeilen sind ohnehin kurz",
+  "Spalten, Seitenleisten und Karten",
+  "Text steht in schmalen Spalten",
+  "Der Text ist eine kurze Beschriftung oder Bildunterschrift",
+  "Typografische Einstellungen",
+  "Die Spaltenbreite ändern",
+  "Der Zeilenabstand passt sich schon je Breakpoint an",
+  "Eine Standard-Satzbreite wählen",
+  "Tempo und Komfort konkurrieren",
+  "Text wird nach einer einzelnen Angabe überflogen",
+  "Barrierefreie Leseerlebnisse",
+  "Sehbehinderung oder Legasthenie unterstützen",
+  "Der Text ist kein Block, etwa eine einzelne Beschriftung",
+  "Lern-, Kinder- und Hilfeinhalte",
+  "Die Leser sind Einsteiger",
+  "Experten überfliegen Referenzmaterial",
+  "Volle Breite → Lesespalte",
+  "Eine KI-Chatoberfläche gestalten",
+  "Fließtext, gestreckt für breite Tabellen",
+  "Textwand → gegliederte Antwort",
+  "Lange KI-Antworten anzeigen",
+  "Lange Absätze in voller Breite"
+ ],
+ ".ai-divider h3": [
+  "Zeilenlänge im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI-Antworten sind lang, und Chatfenster reichen oft über die volle Breite. Die Satzbreite, die zu einem Buch passt, passt auch zu einer Antwort."
+ ]
+}

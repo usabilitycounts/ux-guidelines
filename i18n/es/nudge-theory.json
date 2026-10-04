@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Teoría del <em>empujón</em>"
+ ],
+ "header .tagline": [
+  "Haz que la mejor opción <em>sea la más fácil</em>."
+ ],
+ "header .subtitle": [
+  "Un empujón (nudge) cambia el contexto de una decisión para que la opción fácil y automática sea la mejor, mientras todas las opciones siguen abiertas. Actúa sobre el hábito y no sobre el argumento, lo que lo hace eficaz, barato y fácil de usar mal."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> y <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> hicieron famosa la idea con su libro Nudge en 2008, aunque el cibernético James Wilk ya había usado el término. Un empujón, escribieron, cambia la conducta de forma predecible sin prohibir ninguna opción ni cambiar mucho los incentivos, y debe ser fácil y barato de evitar. Poner la fruta a la altura de los ojos cuenta; prohibir la comida basura, no.",
+  "Los gobiernos la adoptaron enseguida. El Reino Unido fundó en 2010 su Behavioural Insights Team, la primera unidad de nudges, y le siguieron equipos parecidos en Australia, Canadá, Alemania, Japón, el Banco Mundial y la Comisión Europea. La evidencia es discutida: un metaanálisis de 2021 informó de efectos reales, un reanálisis de 2022 no halló pruebas tras corregir el sesgo de publicación, y los propios ensayos de las unidades mostraron efectos mucho menores que los estudios publicados."
+ ],
+ ".law-content .law-desc": [
+  "Un empujón altera el contexto de una elección para que el pensamiento rápido y habitual acabe en la mejor opción, sin prohibir alternativas ni cambiar mucho los incentivos. Los valores predeterminados, la ubicación, los recordatorios y mostrar lo que hacen otros son las palancas habituales."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> y <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Nudging, ciencias del comportamiento",
+  "Fácil y barato de evitar"
+ ],
+ ".apply-list li": [
+  "Quieres fomentar algo que la gente ya pretende hacer, como ahorrar, terminar la configuración o proteger una cuenta.",
+  "La gente actúa por hábito o en piloto automático en el momento de elegir.",
+  "Las obligaciones o los incentivos serían demasiado intrusivos o costosos.",
+  "Usa las palancas principales: predeterminados, prominencia, prueba social, recordatorios oportunos y menos fricción.",
+  "Haz que cada empujón sea fácil y barato de evitar, y transparente en lo que hace.",
+  "Prueba los empujones con tus propios usuarios, porque los efectos publicados suelen exagerar los reales."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Prominencia",
+  "Prueba social",
+  "Fricción",
+  "Momento",
+  "Evidencia",
+  "Personalización",
+  "Ética",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La mosca en el urinario",
+  "Pon la mejor opción al alcance",
+  "Muestra lo que hacen los demás",
+  "Hazlo fácil",
+  "Empuja en el momento justo",
+  "Menor de lo que se anuncia",
+  "Un empujón no sirve para todos",
+  "Empujón, no lodo",
+  "Empujones personalizados a escala",
+  "Empujar a verificar"
+ ],
+ ".card .desc": [
+  "El aeropuerto de Schiphol, en Ámsterdam, grabó la imagen de una mosca en los urinarios para mejorar la puntería. Es el empujón más citado: un pequeño cambio en el entorno que actúa sobre una conducta automática sin una sola instrucción.",
+  "En las tiendas de aperitivos de las estaciones neerlandesas, poner la fruta y los snacks saludables junto a la caja aumentó sus ventas. En una interfaz, lo equivalente es colocar la acción recomendada donde ya está la atención.",
+  "Cuando dudamos, miramos a los demás. Decir cuántos vecinos pagan a tiempo, o qué plan elige la mayoría de los clientes, puede cambiar la conducta, siempre que sea verdad y la norma merezca seguirse.",
+  "El Behavioural Insights Team resume su enfoque como EAST: fácil, atractivo, social y oportuno (Easy, Attractive, Social, Timely). Quitar un paso de un flujo suele lograr más que cualquier persuasión.",
+  "Un recordatorio funciona cuando llega en un momento en que se puede actuar. Sugiere una copia de seguridad cuando el dispositivo está cargando, no en mitad de una tarea.",
+  "Un estudio de los ensayos de dos unidades de nudges halló efectos de alrededor de una sexta parte de los publicados en revistas académicas, y un reanálisis de 2022 no encontró pruebas globales tras corregir el sesgo de publicación. Los predeterminados suelen aguantar; muchos otros empujones son débiles.",
+  "Las reacciones a un mismo empujón varían mucho entre personas. La investigación sugiere que los empujones adaptados a las diferencias individuales funcionan mejor que un único mensaje para todos, así que segmenta y prueba.",
+  "Thaler llama lodo (sludge) a la fricción que dificulta las buenas decisiones, como un laberinto para darse de baja. Un empujón debe ser transparente y fácil de evitar; cuando sirve al negocio en contra del usuario, es un patrón oscuro.",
+  "La IA puede adaptar avisos y ofertas a los hábitos y el ánimo de cada persona, lo que puede hacer los empujones más eficaces y más difíciles de notar. Mantenlos transparentes y deja ver por qué se mostró algo.",
+  "Pequeños avisos pueden contrarrestar la confianza excesiva en la IA: un enlace para revisar las fuentes, una confirmación antes de acciones arriesgadas, resaltar las partes inciertas. Usa empujones para frenar donde es probable que la IA se equivoque."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la teoría",
+  "La conducta es automática",
+  "La gente necesita información para decidir",
+  "Ubicación de acciones y ofertas",
+  "Una opción sirve mejor a los usuarios",
+  "Todas las opciones son igual de buenas",
+  "Incorporación, recordatorios y elección de plan",
+  "La conducta deseada es común",
+  "La norma es baja y mostrarla resulta contraproducente",
+  "Flujos y formularios",
+  "Una conducta se pretende pero no se hace",
+  "La fricción protege de errores",
+  "Notificaciones y recordatorios",
+  "La conducta tiene un momento natural",
+  "El recordatorio interrumpiría",
+  "Planificar experimentos",
+  "Confiar en resultados publicados",
+  "Los efectos se probaron con tus usuarios",
+  "Productos con usuarios diversos",
+  "Las reacciones varían según el grupo",
+  "Usar datos personales resultaría invasivo",
+  "Revisiones y auditorías de diseño",
+  "Los objetivos del negocio van contra los usuarios",
+  "Nunca: la transparencia es obligatoria",
+  "Un empujón → uno por persona",
+  "La IA personaliza avisos u ofertas",
+  "Empujones que no se ven ni se pueden rechazar",
+  "Aceptar → revisar",
+  "Los resultados de la IA necesitan revisión humana",
+  "Fricción en cada respuesta"
+ ],
+ ".ai-divider h3": [
+  "La teoría del empujón en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede adaptar un empujón a los hábitos de cada persona, y necesita sus propios empujones para que la gente siga revisando su trabajo."
+ ]
+}

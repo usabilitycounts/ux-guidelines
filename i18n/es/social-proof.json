@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Prueba <em>social</em>"
+ ],
+ "header .tagline": [
+  "Ante la duda, <em>haz lo que hacen los demás</em>."
+ ],
+ "header .subtitle": [
+  "Cuando la gente no sabe qué hacer, copia lo que hacen otros y da por hecho que es lo correcto. Las reseñas, las valoraciones y las cifras de uso aprovechan ese instinto, siempre que la prueba sea real y la norma merezca seguirse."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> acuñó el término en su libro Influence (1984), donde es uno de los seis principios de la persuasión, junto con la reciprocidad, el compromiso y la coherencia, la autoridad, la simpatía y la escasez. En situaciones inciertas, suponemos que los demás saben más y los seguimos.",
+  "La prueba temprana más conocida es el experimento de <a href=\"people.html#p-muzafer-sherif\">Muzafer Sherif</a> de 1935. En una sala a oscuras, un punto de luz inmóvil parece moverse, y cada persona estimaba el movimiento de forma distinta. En grupo, las estimaciones convergían en una respuesta común, y cada cual la mantenía al volver a hacer la prueba a solas."
+ ],
+ ".law-content .law-desc": [
+  "Cuando no sabemos cómo actuar, miramos lo que hacen los demás y suponemos que es lo correcto. La prueba social es más fuerte cuando la situación es ambigua, cuando acertar importa y cuando los demás parecen parecidos a nosotros o entendidos."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-robert-cialdini\">Robert Cialdini</a> (1984)",
+  "Influencia social informativa",
+  "Muestra pruebas reales y pertinentes de lo que hacen otros"
+ ],
+ ".apply-list li": [
+  "La gente afronta una elección desconocida, como una primera compra, un plan nuevo o una función nueva.",
+  "Hay que generar confianza rápido con visitantes nuevos.",
+  "Quieres fomentar una conducta que la mayoría ya tiene.",
+  "Muestra reseñas, valoraciones y uso reales de personas parecidas al visitante.",
+  "Usa la prueba social solo cuando la norma es alta, porque una cifra baja puede ser contraproducente.",
+  "Nunca la falsees: las reseñas inventadas y las cifras infladas destruyen la confianza y son ilegales en muchos lugares."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Comercio",
+  "Similitud",
+  "Normas",
+  "Efecto contrario",
+  "Popularidad",
+  "Cifras",
+  "Ética",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La luz que se mueve",
+  "Reseñas y valoraciones",
+  "Gente como yo",
+  "La mayoría de los huéspedes reutiliza sus toallas",
+  "El efecto bumerán",
+  "La popularidad se retroalimenta",
+  "Las cifras transmiten credibilidad",
+  "La prueba falsa es fraude",
+  "Reseñas generadas",
+  "La popularidad en los datos de entrenamiento"
+ ],
+ ".card .desc": [
+  "En el experimento de Sherif, una luz inmóvil en una sala a oscuras parecía moverse más o menos según la persona. Juntos, sus cálculos convergían, y cada uno mantenía después la respuesta del grupo. Sin una respuesta clara, el grupo se convertía en la respuesta.",
+  "Los testimonios y las valoraciones de clientes anteriores animan a los nuevos a registrarse y comprar. Muestra la distribución de las valoraciones y reseñas recientes, no solo una media, para que cada cual juzgue por sí mismo.",
+  "La prueba social es más fuerte cuando viene de gente que vemos parecida. En una campaña benéfica puerta a puerta, una lista más larga de donantes previos atrajo más donaciones, sobre todo cuando los nombres eran de amigos y vecinos. Muestra testimonios del mismo puesto, sector o región que el visitante.",
+  "Los huéspedes de hotel a los que se dijo que la mayoría reutilizaba las toallas las reutilizaron más que quienes recibieron un mensaje ecológico, y aún más cuando el mensaje se refería a quienes se habían alojado en su misma habitación.",
+  "Cuando se informó a los hogares del consumo medio de energía de su barrio, los que estaban por debajo empezaron a consumir más. Añadir una cara sonriente de aprobación al bajo consumo lo evitó. Nunca anuncies una norma baja, como lo pocos que han completado su perfil.",
+  "En el experimento MusicLab, mostrar el número de descargas hizo los éxitos más desiguales y menos predecibles: la popularidad temprana crecía como una bola de nieve. Ordenar por popularidad hace lo popular más popular, así que ofrece también orden por novedad o por relevancia.",
+  "Los seguidores, los «me gusta» y las visualizaciones influyen en lo fiable que parece una cuenta, igual que «usado por 10.000 equipos» en una página de inicio. Mantén esas cifras actualizadas y honestas, y muéstralas solo si impresionan.",
+  "Los aplausos pagados y las risas enlatadas son trucos antiguos; las reseñas falsas son la versión en línea. En 2024 la Comisión Federal de Comercio de EE. UU. aprobó una norma que prohíbe las reseñas y testimonios falsos, incluidos los generados con IA.",
+  "La IA hace las reseñas falsas baratas y convincentes, y también resume las reales. Etiqueta los resúmenes de IA, enlázalos con las reseñas originales y verifica que quienes opinan compraron o usaron el producto.",
+  "Las recomendaciones de la IA reflejan lo que ya es popular en sus datos, un bucle de prueba social a escala. Muestra también opciones pertinentes menos populares y explica por qué se recomienda algo."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el principio",
+  "La situación es ambigua",
+  "La gente ya sabe la respuesta",
+  "Fichas de producto y pago",
+  "Los compradores no conocen el producto",
+  "Hay demasiado pocas reseñas para que signifiquen algo",
+  "Testimonios y casos de estudio",
+  "Los públicos difieren por puesto o región",
+  "Una cita genérica para todos",
+  "Avisos y mensajes de incorporación",
+  "La conducta deseada es común",
+  "La conducta deseada es rara",
+  "Mensajes de progreso, uso y comparación",
+  "Mostrar medias o porcentajes",
+  "La norma que mostrarías es baja",
+  "Rankings, tendencias y más vendidos",
+  "Ordenar por popularidad",
+  "Las novedades merecen una oportunidad justa",
+  "Páginas de inicio y perfiles",
+  "Las cifras son altas y ciertas",
+  "Las cifras son bajas o están desfasadas",
+  "Políticas de reseñas y testimonios",
+  "Recopilar y mostrar pruebas",
+  "Nunca: la prueba debe ser real",
+  "Escrito → generado",
+  "Mostrar o resumir reseñas",
+  "Resúmenes o reseñas de IA sin etiquetar",
+  "Popular → pertinente",
+  "La IA recomienda productos o contenido",
+  "Recomendar solo lo que ya es popular"
+ ],
+ ".ai-divider h3": [
+  "La prueba social en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede generar reseñas convincentes en segundos y aprende de lo que ya es popular. Ambas cosas hacen la prueba social honesta más difícil y más valiosa."
+ ]
+}

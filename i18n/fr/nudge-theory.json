@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Théorie du <em>nudge</em>"
+ ],
+ "header .tagline": [
+  "Faire du meilleur choix <em>le plus facile</em>."
+ ],
+ "header .subtitle": [
+  "Un nudge modifie le contexte d'une décision pour que le choix facile et automatique soit le meilleur, tout en laissant chaque option ouverte. Il agit sur l'habitude plutôt que sur l'argument, ce qui le rend efficace, peu coûteux et facile à détourner."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> et <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> ont rendu l'idée célèbre avec leur livre Nudge en 2008, même si le cybernéticien James Wilk avait employé le terme avant eux. Un nudge, écrivent-ils, modifie le comportement de façon prévisible sans interdire aucune option ni changer sensiblement les incitations, et il doit être facile et peu coûteux à éviter. Mettre les fruits à hauteur des yeux compte ; interdire la malbouffe, non.",
+  "Les gouvernements s'en sont vite emparés. Le Royaume-Uni a créé en 2010 son Behavioural Insights Team, la première « nudge unit », et des équipes semblables ont suivi en Australie, au Canada, en Allemagne, au Japon, à la Banque mondiale et à la Commission européenne. Les preuves sont discutées : une méta-analyse de 2021 a rapporté des effets réels, une réanalyse de 2022 n'a trouvé aucune preuve après correction du biais de publication, et les essais des nudge units elles-mêmes ont montré des effets bien plus faibles que les études publiées."
+ ],
+ ".law-content .law-desc": [
+  "Un nudge modifie le contexte d'un choix pour que la pensée rapide et habituelle aboutisse à la meilleure option, sans interdire d'alternatives ni beaucoup changer les incitations. Les valeurs par défaut, l'emplacement, les rappels et l'exemple des autres sont les leviers courants."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> et <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Nudging, sciences comportementales",
+  "Facile et peu coûteux à éviter"
+ ],
+ ".apply-list li": [
+  "Encourager ce que les gens ont déjà l'intention de faire, comme épargner, terminer une configuration ou sécuriser un compte.",
+  "Les gens agissent par habitude ou en pilote automatique au moment du choix.",
+  "Des obligations ou des incitations seraient trop lourdes ou trop coûteuses.",
+  "Utilisez les principaux leviers : valeurs par défaut, saillance, preuve sociale, rappels bien placés et moins de friction.",
+  "Rendez chaque nudge facile et peu coûteux à éviter, et transparent sur ce qu'il fait.",
+  "Testez les nudges avec vos propres utilisateurs, car les effets publiés surestiment souvent les effets réels."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Saillance",
+  "Preuve sociale",
+  "Friction",
+  "Moment",
+  "Preuves",
+  "Personnalisation",
+  "Éthique",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La mouche dans l'urinoir",
+  "Mettre la meilleure option à portée de main",
+  "Montrer ce que font les autres",
+  "Rendre les choses faciles",
+  "Pousser au bon moment",
+  "Plus faible qu’annoncé",
+  "Un nudge ne convient pas à tous",
+  "Un nudge, pas du sludge",
+  "Des nudges personnalisés à grande échelle",
+  "Pousser à vérifier"
+ ],
+ ".card .desc": [
+  "L'aéroport de Schiphol, à Amsterdam, a gravé l'image d'une mouche dans ses urinoirs pour améliorer la visée. C'est le nudge le plus cité : un petit changement de l'environnement qui agit sur un comportement automatique sans la moindre consigne.",
+  "Dans les snack-bars des gares néerlandaises, placer les fruits et les en-cas sains près de la caisse a augmenté leurs ventes. Dans une interface, l'équivalent est de placer l'action recommandée là où se porte déjà l'attention.",
+  "Dans le doute, on regarde les autres. Dire combien de voisins paient à temps, ou quelle offre la plupart des clients choisissent, peut faire évoluer les comportements, à condition que ce soit vrai et que la norme mérite d'être suivie.",
+  "Le Behavioural Insights Team résume son approche par EAST : rendre les choses faciles, attrayantes, sociales et opportunes (Easy, Attractive, Social, Timely). Retirer une étape d'un parcours fait souvent plus que n'importe quelle persuasion.",
+  "Un rappel fonctionne quand il arrive à un moment où l'on peut agir. Proposez une sauvegarde quand l'appareil est en charge, pas au milieu d'une tâche.",
+  "Une étude des essais menés par deux nudge units a trouvé des effets environ six fois plus faibles que ceux des revues académiques, et une réanalyse de 2022 n'a trouvé aucune preuve globale après correction du biais de publication. Les valeurs par défaut tiennent bien ; beaucoup d'autres nudges sont faibles.",
+  "Les réactions à un même nudge varient beaucoup d'une personne à l'autre. La recherche suggère que des nudges adaptés aux différences individuelles fonctionnent mieux qu'un message unique pour tous : segmentez et testez.",
+  "Thaler appelle sludge la friction qui rend les bons choix plus difficiles, comme un parcours de résiliation labyrinthique. Un nudge doit être transparent et facile à éviter ; quand il sert l'entreprise contre l'utilisateur, c'est un dark pattern.",
+  "L'IA peut adapter invitations et offres aux habitudes et à l'humeur de chacun, ce qui peut rendre les nudges plus efficaces et plus difficiles à remarquer. Gardez-les transparents, et permettez de voir pourquoi quelque chose a été montré.",
+  "De petites invitations peuvent contrer la dépendance excessive à l'IA : un lien pour vérifier les sources, une confirmation avant une action risquée, la mise en évidence des parties incertaines. Utilisez les nudges pour ralentir là où l'IA risque de se tromper."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer la théorie",
+  "Le comportement est automatique",
+  "Les gens ont besoin d'informations pour décider",
+  "Emplacement des actions et des offres",
+  "Une option sert mieux les utilisateurs",
+  "Toutes les options se valent",
+  "Onboarding, rappels et choix d’offre",
+  "Le comportement souhaité est courant",
+  "La norme est basse, et la montrer se retourne contre vous",
+  "Parcours et formulaires",
+  "Un comportement est voulu mais pas réalisé",
+  "La friction protège les utilisateurs des erreurs",
+  "Notifications et rappels",
+  "Le comportement a un moment naturel",
+  "Le rappel interromprait",
+  "Planifier des expériences",
+  "Se fier aux résultats publiés",
+  "Les effets ont été testés avec vos utilisateurs",
+  "Produits aux utilisateurs variés",
+  "Les réactions diffèrent selon les groupes",
+  "L'usage de données personnelles paraîtrait intrusif",
+  "Revues et audits de design",
+  "Les objectifs de l'entreprise s'opposent à ceux des utilisateurs",
+  "Jamais : la transparence est obligatoire",
+  "Un nudge → un par personne",
+  "L'IA personnalise invitations ou offres",
+  "Des nudges invisibles ou impossibles à refuser",
+  "Accepter → vérifier",
+  "Les résultats de l'IA demandent une vérification humaine",
+  "De la friction sur chaque réponse"
+ ],
+ ".ai-divider h3": [
+  "La théorie du nudge à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut adapter un nudge aux habitudes de chacun, et elle a besoin de ses propres nudges pour que les gens continuent à vérifier son travail."
+ ]
+}

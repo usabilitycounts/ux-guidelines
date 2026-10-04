@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principe de moindre <em>surprise</em>"
+ ],
+ "header .tagline": [
+  "Faites <em>ce que les gens attendent</em>."
+ ],
+ "header .subtitle": [
+  "Un composant doit se comporter comme la plupart de ses utilisateurs s'y attendent. Chaque surprise coûte de l'attention et de la confiance : suivez les conventions que les gens connaissent déjà, choisissez des valeurs par défaut sensées et faites en sorte que chaque commande fasse ce qu'elle semble faire."
+ ],
+ ".law-origin .body-text": [
+  "Une première mention d'une « loi de moindre surprise » paraît dans le PL/I Bulletin en 1967. Le langage PL/I d'IBM était devenu célèbre pour l'enfreindre : à cause de ses règles de précision, 25 + 1/3 pouvait provoquer une erreur fatale ou renvoyer 5,33 au lieu de 25,33. La loi apparaît pour la première fois dans une publication en 1972, dans un article sur les langages de programmation système de Bergeron, Gannon, Shecter, Tompa et van Dam, qui demandait que chaque construction se comporte exactement comme sa syntaxe le suggère.",
+  "<a href=\"people.html#p-eric-s-raymond\">Eric S. Raymond</a> en a fait la règle de moindre surprise dans The Art of Unix Programming (2003) : inspirez-vous de programmes fonctionnellement proches que vos utilisateurs connaissent déjà. <a href=\"people.html#p-joshua-bloch\">Joshua Bloch</a> l'a appliquée à la conception d'API en 2006. En design d'interface, on la résume souvent par une phrase de manuel : les gens font partie du système, et la conception doit correspondre à leur expérience, à leurs attentes et à leurs modèles mentaux."
+ ],
+ ".law-content .law-desc": [
+  "Un composant doit se comporter comme la plupart de ses utilisateurs s'y attendent. Quand le comportement et l'attente divergent, changez le comportement plutôt que les utilisateurs : suivez les conventions établies, choisissez des valeurs par défaut sensées et faites en sorte que chaque commande fasse ce que son apparence suggère."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "PL/I Bulletin (1967) · publié en 1972",
+  "Principe de la moindre surprise",
+  "Correspondre à ce que les utilisateurs attendent déjà"
+ ],
+ ".apply-list li": [
+  "Vous concevez des commandes, des raccourcis ou des gestes qui ont déjà des conventions établies.",
+  "Vous choisissez des valeurs par défaut, des libellés ou des noms pour des fonctionnalités, des réglages et des API.",
+  "Les utilisateurs hésitent, annulent ou disent qu'ils ne s'attendaient pas à ce qui s'est passé.",
+  "Reprenez les conventions de la plateforme et des produits que vos utilisateurs connaissent déjà.",
+  "Faites en sorte que chaque libellé, icône et nom promette exactement ce que fait la commande.",
+  "Quand une fonctionnalité nécessaire continue de surprendre, repensez-la au lieu de l'expliquer."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Conventions",
+  "Libellés",
+  "Valeurs par défaut",
+  "Cohérence",
+  "Public",
+  "Noms",
+  "Remède",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "25 + 1/3 = 5,33",
+  "Suivre la plateforme",
+  "Dire ce qui va se passer",
+  "Des valeurs par défaut sensées",
+  "Même apparence, même comportement",
+  "La surprise de qui ?",
+  "Des noms fidèles au comportement",
+  "Repenser ce qui surprend",
+  "Prévisualiser avant d’agir",
+  "Correspondre au modèle mental"
+ ],
+ ".card .desc": [
+  "Les règles de précision de PL/I faisaient que 25 + 1/3 pouvait provoquer une erreur fatale ou, si les erreurs étaient masquées, renvoyer 5,33 au lieu de 25,33. Le langage faisait exactement ce que disaient ses règles, et surprenait tous ceux qui l'utilisaient.",
+  "Les gens apportent les attentes de toutes les autres applications. F1 ouvre l'aide sous Windows, et la touche ? affiche les raccourcis clavier dans Gmail, YouTube et Jira. Reprendre une convention ne coûte rien à apprendre.",
+  "Un bouton ou un lien doit dire exactement à quoi s'attendre. Un bouton Télécharger qui ouvre un formulaire d'inscription, ou un bouton Continuer qui débite une carte, rompt la promesse et la confiance qui va avec.",
+  "La fonction parseInt de JavaScript lisait autrefois '08' en octal à cause du zéro initial, un comportement par défaut qui a causé des années de bugs jusqu'à ce qu'ECMAScript 5 l'abandonne. Une valeur par défaut doit correspondre à ce que veulent dire la plupart des gens.",
+  "Ce qui se ressemble doit se comporter de la même façon. Deux boutons identiques qui font des choses différentes, ou un balayage qui archive sur un écran et supprime sur un autre, surprennent à chaque fois.",
+  "Ce qui surprend le moins dépend de qui l'utilise. Les habitués de la ligne de commande attendent les conventions d'options Unix, les utilisateurs de Windows ses raccourcis, et les débutants ni l'un ni l'autre. Concevez pour le public que vous avez réellement.",
+  "Les fonctions et méthodes doivent faire ce que leur nom promet, sans effet de bord que le nom ne laisse pas deviner. C'est pareil pour les interfaces : un interrupteur intitulé Notifications ne devrait pas aussi désabonner des e-mails.",
+  "Le corollaire : si une fonctionnalité nécessaire a un fort facteur de surprise, il peut être nécessaire de la repenser. Les tests d'utilisabilité montrent la surprise directement : hésitations, clics répétés et « attends, il s'est passé quoi ? ».",
+  "Un assistant qui réserve, envoie ou supprime de lui-même peut surprendre d'une façon difficile à réparer. Dites ce qui va se passer, montrez un aperçu et demandez avant d'agir.",
+  "On traite un assistant comme une personne, un champ de recherche ou une ligne de commande selon ce à quoi il ressemble. Annoncez d'emblée ses capacités et ses limites pour que son comportement corresponde au modèle des gens."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer le principe",
+  "Le comportement suit des règles internes",
+  "Les utilisateurs connaissent déjà les règles",
+  "Raccourcis, gestes et commandes",
+  "Une convention de plateforme existe",
+  "La convention ne convient pas à vos utilisateurs",
+  "Boutons, liens et éléments de menu",
+  "Rédiger des libellés d'action",
+  "Le résultat est réellement inconnu",
+  "Réglages, formulaires et API",
+  "Choisir une valeur par défaut",
+  "Aucune valeur ne convient à la majorité",
+  "Design systems et composants",
+  "Les commandes se ressemblent",
+  "La différence est clairement signalée",
+  "Produits aux publics variés",
+  "Les utilisateurs viennent de plateformes différentes",
+  "Tout le monde partage le même bagage",
+  "API, réglages et interrupteurs",
+  "Nommer des fonctions ou des commandes",
+  "Un nom ne peut pas décrire le comportement",
+  "Tests d'utilisabilité et revues",
+  "Les utilisateurs hésitent ou annulent",
+  "La surprise est un plaisir voulu",
+  "Surprise → aperçu",
+  "L'IA agit pour l'utilisateur",
+  "Actions sans aperçu ni annulation",
+  "Mystère → capacités annoncées",
+  "Présenter une fonctionnalité IA",
+  "Un champ vide sans aucune indication"
+ ],
+ ".ai-divider h3": [
+  "La moindre surprise à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut donner une réponse différente à la même question et agir sans qu'on le lui demande. La prévisibilité doit être conçue."
+ ]
+}

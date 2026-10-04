@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Architecture du <em>choix</em>"
+ ],
+ "header .tagline": [
+  "Il n'existe <em>aucune façon neutre</em> de présenter un choix."
+ ],
+ "header .subtitle": [
+  "La façon de présenter les options, de celle qui est présélectionnée à l'ordre d'affichage, influence ce que les gens choisissent. Une part de design est inévitable : faites-la volontairement, et dans l'intérêt des gens."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-richard-thaler\">Richard Thaler</a> et <a href=\"people.html#p-richard-thaler\">Cass Sunstein</a> ont forgé le terme dans leur livre Nudge en 2008. Quiconque organise des options, du gérant de cafétéria au concepteur de formulaires, est selon eux un architecte du choix, capable d'orienter les gens vers de meilleurs choix sans interdire aucune option. Ils ont appelé cette philosophie le paternalisme libertarien.",
+  "Avec John Balz, ils en ont listé les outils : les valeurs par défaut, l'anticipation des erreurs, la compréhension des correspondances, le retour d'information, la structuration des choix complexes et les incitations. D'autres chercheurs distinguent les éléments qui structurent l'ensemble des choix, comme le nombre d'options et la valeur par défaut, de ceux qui les décrivent, comme le regroupement et l'étiquetage des attributs."
+ ],
+ ".law-content .law-desc": [
+  "L'architecture du choix est la conception de la façon dont les options sont présentées : combien il y en a, dans quel ordre et avec quelle description, et laquelle est sélectionnée par défaut. Aucune présentation n'étant neutre, toute interface qui propose un choix l'oriente déjà. La seule question est dans quel sens."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-richard-thaler\">Thaler</a> et <a href=\"people.html#p-richard-thaler\">Sunstein</a> (2008)",
+  "Conception de l'environnement de décision",
+  "Valeurs par défaut, ordre et cadrage"
+ ],
+ ".apply-list li": [
+  "Vous concevez des formulaires, des réglages, des offres ou tout écran où l'on choisit entre des options.",
+  "Vous définissez des valeurs par défaut pour la confidentialité, les notifications, les abonnements ou les niveaux d'offre.",
+  "Un choix a des conséquences à long terme que l'on a tendance à repousser, comme l'épargne ou la sécurité.",
+  "Choisissez des valeurs par défaut qui servent la plupart des utilisateurs, et rendez-les faciles à changer.",
+  "Limitez ou regroupez les options, et ajoutez filtres ou comparaisons quand il en faut beaucoup.",
+  "Décrivez les attributs dans des termes qui comptent pour les gens, et montrez les conséquences de chaque choix."
+ ],
+ ".card .tag": [
+  "Valeurs par défaut",
+  "Choix actif",
+  "Surcharge",
+  "Ordre",
+  "Cadrage",
+  "Regroupement",
+  "Temps",
+  "Éthique",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Le défaut décide",
+  "Demander plutôt que supposer",
+  "Moins d'options ou de meilleurs outils",
+  "L'ordre est un coup de pouce",
+  "Traduire les attributs",
+  "Les catégories orientent la répartition",
+  "S'engager maintenant, agir plus tard",
+  "Pour l'utilisateur, pas contre lui",
+  "Des défauts choisis par des modèles",
+  "Une réponse, aucun choix"
+ ],
+ ".card .desc": [
+  "La plupart des gens gardent ce qui est présélectionné. Dans une étude, l'inscription comme donneur d'organes était deux fois plus élevée là où il fallait refuser explicitement que là où il fallait s'inscrire. Choisissez le défaut qui sert l'utilisateur, pas seulement l'entreprise.",
+  "Quand aucun défaut ne convient à la plupart, exigez un choix actif : rien n'est présélectionné et il faut choisir avant de continuer. Cela coûte un instant, mais évite de donner en silence la mauvaise option à beaucoup de gens.",
+  "Chaque option supplémentaire demande du temps, et trop d'options peuvent bloquer une décision. Limitez les alternatives ou ajoutez des aides à la décision : filtres, tris, comparaisons et recommandations.",
+  "Les résultats de recherche, classements et recommandations influencent les choix, car les options en tête et les plus visibles sont plus choisies. Classez selon ce qui sert l'utilisateur, pas selon ce qui rapporte le plus.",
+  "Convertissez les chiffres dans des termes qui comptent : litres aux 100 kilomètres plutôt que kilomètres par litre, le coût total plutôt que la mensualité. Des étiquettes évaluatives comme bon ou médiocre rendent les chiffres plus faciles à comparer.",
+  "On a tendance à répartir ses ressources également entre les catégories proposées, comme les fonds d'un plan d'épargne retraite. Le nombre et le regroupement des options changent le résultat : regroupez à dessein.",
+  "On privilégie le présent au futur. Le plan Save More Tomorrow de Thaler et Benartzi faisait s'engager les salariés à l'avance à épargner une part de leurs futures augmentations, ce qui a accru l'épargne sans sacrifice immédiat.",
+  "Les mêmes outils qui aident les gens peuvent se retourner contre eux. Quand l'architecture du choix sert l'entreprise aux dépens de l'utilisateur, elle devient un dark pattern. Demandez-vous si le design mène là où les utilisateurs iraient s'ils avaient le temps de réfléchir.",
+  "Les réponses suggérées, la saisie automatique intelligente et les réglages prédits sont des valeurs par défaut choisies par un modèle pour chaque personne. Rendez-les faciles à changer, et montrez les alternatives au lieu de les cacher.",
+  "Un assistant qui renvoie une seule recommandation supprime entièrement l'ensemble des choix. Pour les décisions importantes, montrez quelques options avec leurs compromis plutôt qu'un seul choix."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Réglages, offres et formulaires d'inscription",
+  "Une option convient à la plupart",
+  "Aucune option ne convient à la plupart",
+  "Préférences personnelles importantes",
+  "Les préférences varient beaucoup",
+  "Le choix ralentit pour rien",
+  "Catalogues, offres et sélecteurs",
+  "Les options se comptent par dizaines",
+  "Les experts veulent la liste complète",
+  "Résultats de recherche, listes et menus",
+  "Classer ou recommander des options",
+  "L'utilisateur choisit lui-même l'ordre de tri",
+  "Tarifs et tableaux comparatifs",
+  "Les chiffres sont difficiles à comparer",
+  "Le public utilise déjà l'indicateur",
+  "Budgets, portefeuilles et répartitions",
+  "Les gens répartissent leurs ressources entre options",
+  "Les catégories sont imposées par le domaine",
+  "Fonctions d'épargne, de santé et d'habitudes",
+  "Les bénéfices arrivent plus tard",
+  "L'action doit avoir lieu maintenant",
+  "Revues et audits de design",
+  "Les objectifs de l'entreprise et de l'utilisateur divergent",
+  "Jamais : il n'existe pas d'option neutre",
+  "Défauts fixes → défauts prédits",
+  "L'IA présélectionne des options",
+  "Cacher les alternatives",
+  "Dix résultats → une réponse",
+  "L'IA recommande des produits ou des offres",
+  "Un choix unique pour une décision à fort enjeu"
+ ],
+ ".ai-divider h3": [
+  "L'architecture du choix à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA fixe désormais les valeurs par défaut et classe les options : réponses suggérées, saisie automatique, offres recommandées, réponse unique. C'est l'architecture du choix à grande échelle."
+ ]
+}

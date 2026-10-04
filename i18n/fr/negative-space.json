@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Espace <em>négatif</em>"
+ ],
+ "header .tagline": [
+  "Le vide <em>fait le travail d'organisation</em>."
+ ],
+ "header .subtitle": [
+  "L'espace négatif est la zone vide autour et entre les éléments. Ce n'est pas de la place perdue : il regroupe et sépare les contenus, signale ce qui compte et offre à l'œil un lieu de repos, sans une seule ligne ni un seul cadre."
+ ],
+ ".law-origin .body-text": [
+  "Les artistes traitent depuis longtemps l'espace autour du sujet comme une partie de la composition, et la notion japonaise de ma (間), l'intervalle chargé de sens, façonne l'art des jardins et l'architecture. Dans une image en deux tons, inverser les tons transforme l'espace autour du sujet en formes à part entière : c'est le renversement figure-fond, rendu célèbre en 1915 par le psychologue danois Edgar Rubin avec son vase qui est aussi deux visages.",
+  "Le graphisme l'appelle espace blanc, après des siècles d'encre noire sur papier blanc. L'espace autour et entre les éléments sépare les groupes, signale la hiérarchie et rend une mise en page apaisée. Certains logos, comme la flèche cachée de FedEx, font de l'espace négatif le sujet lui-même."
+ ],
+ ".law-content .law-desc": [
+  "L'espace négatif est la zone vide autour et entre les éléments. C'est une partie active du design : il regroupe ce qui va ensemble, sépare ce qui ne va pas ensemble, attire l'attention sur ce qu'il entoure et rend une mise en page apaisée plutôt que chargée."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "Pratique artistique et graphique · le ma (間) de l’esthétique japonaise",
+  "Espace blanc",
+  "Donner le plus de place à ce qui compte"
+ ],
+ ".apply-list li": [
+  "Un écran paraît chargé, ou tout y semble aussi important.",
+  "Des éléments liés doivent se lire comme un groupe sans cadres ni séparateurs.",
+  "Un élément, comme un appel à l'action ou un titre, doit ressortir.",
+  "Utilisez l'espacement, pas les lignes et les cadres, pour regrouper et séparer les contenus.",
+  "Donnez le plus d'espace autour de l'élément le plus important.",
+  "Utilisez une échelle d'espacement cohérente, pour que l'espace lui-même paraisse voulu."
+ ],
+ ".card .tag": [
+  "Regroupement",
+  "Emphase",
+  "Lecture",
+  "Figure et fond",
+  "Densité",
+  "Systèmes",
+  "Typographie",
+  "Mobile",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "L'espace regroupe, les lignes divisent",
+  "L'espace signale l'importance",
+  "Les marges aident à lire",
+  "L'espace devient la forme",
+  "Aéré ou dense",
+  "Utiliser une échelle d'espacement",
+  "L'espace dans les lettres",
+  "Les petits écrans ont aussi besoin d'espace",
+  "Des mises en page générées sans un vide",
+  "Les réponses de chat ont besoin d’air"
+ ],
+ ".card .desc": [
+  "Selon le principe gestaltiste de proximité, ce qui est proche se lit comme un groupe. Mettez plus d'espace entre les groupes qu'à l'intérieur, et la page s'organise d'elle-même, sans bordures.",
+  "Un élément entouré d'espace attire l'œil. Un bouton seul avec de larges marges l'emporte sur le même bouton noyé parmi des liens : donnez le plus d'espace à l'action principale.",
+  "Des marges généreuses et un espacement entre paragraphes encadrent le texte et facilitent la lecture longue. Les concepteurs de livres équilibrent le bloc de texte et ses marges depuis des siècles.",
+  "Dans le vase de Rubin, l'espace blanc se lit comme un vase et l'espace sombre comme deux visages, et on ne voit que l'un à la fois. Les logos qui cachent une seconde image dans leur espace négatif récompensent un second regard.",
+  "Tous les écrans ne doivent pas être aérés. Les tableaux de bord et les outils experts ont besoin de densité, tandis que le marketing et l'onboarding gagnent à respirer. Ajustez l'espace à l'attention que mérite chaque élément.",
+  "L'espace paraît voulu quand il se répète. Une échelle comme 4, 8, 16, 24 et 32 donne la même apparence aux mêmes relations partout, et c'est ce qui permet à l'espace de porter du sens.",
+  "L'interlettrage, l'espace entre les mots et l'interlignage sont de l'espace négatif à petite échelle. Trop serrés, les mots se confondent ; trop lâches, ils se désagrègent. Ajustez l'espacement selon la taille : les grands titres demandent en général un interlettrage plus serré que le texte courant.",
+  "Sur téléphone, on est tenté de réduire l'espacement pour en faire tenir plus. L'espace entre les cibles tactiles évite les erreurs de toucher, et l'espace entre les sections garde un long défilement lisible.",
+  "Les outils de mise en page et de diapositives par IA ont tendance à remplir l'espace disponible de textes, d'images et de décorations. Éditez l'espace autant que le contenu, et retirez ce qui ne mérite pas sa place.",
+  "De longues réponses d'IA en un seul bloc dense sont difficiles à parcourir. L'espace entre paragraphes, sections et messages aide à trouver la partie utile."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Formulaires, listes et réglages",
+  "Le contenu se répartit en groupes",
+  "Les groupes doivent être comparés cellule par cellule",
+  "Appels à l'action et titres",
+  "Un élément doit mener",
+  "Plusieurs actions comptent autant",
+  "Articles et documentation",
+  "Le texte est le contenu principal",
+  "Tableaux de référence denses",
+  "Logos, icônes et illustration",
+  "Une seconde lecture ajoute du sens",
+  "La double image sèmerait la confusion",
+  "Choisir la densité d’un produit",
+  "Les utilisateurs lisent plus qu’ils ne parcourent",
+  "Les experts ont besoin de voir beaucoup d'éléments",
+  "Design systems et composants",
+  "Beaucoup de personnes créent des écrans",
+  "Une mise en page éditoriale unique",
+  "Réglages typographiques et polices de marque",
+  "Régler l'interlettrage et l'interlignage",
+  "Un titre serré est l'effet recherché",
+  "Mises en page mobiles et cibles tactiles",
+  "Les cibles sont proches les unes des autres",
+  "Le contenu est court et en lecture seule",
+  "Rempli → édité",
+  "Générer des diapositives, des pages ou des écrans",
+  "Accepter tout ce que l'outil ajoute",
+  "Bloc dense → sections aérées",
+  "Afficher de longues réponses d'IA",
+  "Réduire l'espacement pour en faire tenir plus"
+ ],
+ ".ai-divider h3": [
+  "L'espace négatif à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les outils génératifs remplissent tout l'espace qu'on leur donne. Éditer pour le vide est désormais aussi important qu'éditer le contenu."
+ ]
+}

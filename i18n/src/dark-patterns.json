@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Dark <em>Patterns</em>"
+ ],
+ "header .tagline": [
+  "Win the click, <em>lose the trust</em>."
+ ],
+ "header .subtitle": [
+  "Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a>, a UK user experience designer, coined the term on 28 July 2010 when he registered darkpatterns.org, a pattern library meant to name and shame deceptive interfaces. The site has since moved to deceptive.design, and in 2023 he published the book Deceptive Patterns.",
+  "Research and regulators followed. A 2019 study by Arunesh Mathur and colleagues at Princeton crawled about 11,000 shopping sites and found 1,818 instances of dark patterns. In 2022 France’s CNIL fined Google and Facebook over cookie banners, and in 2025 Amazon settled the FTC’s case over Prime sign-up and cancellation for $2.5 billion, without admitting wrongdoing."
+ ],
+ ".law-content .law-desc": [
+  "A dark pattern is an interface crafted to trick people into doing something they didn’t mean to do, such as buying, subscribing, or sharing data. It works by exploiting habits and biases, and it trades short-term conversion for long-term trust and, more and more often, legal risk."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-harry-brignull\">Harry Brignull</a> (2010)",
+  "Deceptive design patterns",
+  "Would users choose this if they understood it?"
+ ],
+ ".apply-list li": [
+  "Designing sign-up, checkout, cancellation, or consent flows.",
+  "A metric such as conversion or retention is being pushed hard.",
+  "Reviewing a flow for honesty before launch, or after a complaint.",
+  "Give the choice the business wants and the choice the user may want the same visual weight.",
+  "Show the full price up front, and let people leave the way they joined.",
+  "Ask of each flow whether users would make the same choice if they fully understood it."
+ ],
+ ".card .tag": [
+  "Subscriptions",
+  "Pricing",
+  "Copy",
+  "Visual",
+  "Privacy",
+  "Urgency",
+  "Advertising",
+  "Remedy",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Roach Motel",
+  "Drip Pricing",
+  "Confirmshaming",
+  "Misdirection",
+  "Privacy Zuckering",
+  "Fake Urgency",
+  "Bait and Switch",
+  "Design for Informed Choice",
+  "Persuasion at Scale",
+  "Opting Out of Training"
+ ],
+ ".card .desc": [
+  "Easy to get in, hard to get out. The FTC said Amazon’s Prime cancellation flow, known internally as Iliad, routed people through repeated pages of offers. Under EU pressure in 2022, Amazon made cancellation two clicks in Europe.",
+  "A low headline price, with fees and charges added step by step until checkout. By the time the real total appears, people have invested enough effort that many pay it anyway. Show the full price from the first screen.",
+  "A decline link worded to shame: No thanks, I don’t like saving money. It pressures people with guilt instead of persuading them with value. Word the decline option as plainly as the accept option.",
+  "A bright button for what the business wants and a faint link for what the user wants, or a consent box with a double negative. Software installers made it famous by bundling unrelated programs behind a prominent Accept button.",
+  "Named after Mark Zuckerberg: designs that get people to share more than they intended. In 2022 France’s CNIL fined Google €150 million and Facebook €60 million because accepting cookies took one click and refusing took several.",
+  "Countdown timers that reset, and Running out! labels on stock that isn’t running out. In 2024 the UK’s Competition and Markets Authority secured undertakings from Wowcher over exactly these claims. Show only real deadlines and real stock.",
+  "Advertise something free or cheap that most people can’t actually get, then steer them to a paid option. In 2022 Intuit agreed to a $141 million settlement over TurboTax ads for free filing that most filers didn’t qualify for.",
+  "The test for any flow: would people make the same choice if they fully understood it? Give yes and no equal weight, show the real total, and make leaving as easy as joining. Several jurisdictions now require exactly that.",
+  "A model can generate thousands of variants of a message and learn which ones work on whom. Hold generated copy to the same rules as handwritten copy, and never optimize for conversion alone.",
+  "In 2024 Meta planned to train AI on Facebook and Instagram posts, with an opt-out reached through misleading emails, login redirects, and a form that asked for a reason. Refusing consent for AI training should be as easy as giving it."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Subscriptions and memberships",
+  "Designing how people leave",
+  "Canceling takes more steps than joining",
+  "Checkout and pricing",
+  "Fees or taxes apply",
+  "Fees appear only at the last step",
+  "Pop-ups, upsells, and newsletters",
+  "Offering something optional",
+  "The decline option mocks the user",
+  "Consent and choice screens",
+  "Presenting yes and no",
+  "One option is hidden in plain sight",
+  "Consent and privacy settings",
+  "Asking for data or tracking",
+  "Refusing takes more clicks than accepting",
+  "Sales, offers, and booking",
+  "An offer really is limited",
+  "The deadline or scarcity is invented",
+  "Plans, tiers, and free offers",
+  "Promoting a free option",
+  "Most people cannot use the advertised offer",
+  "Design reviews and audits",
+  "Before launch or after complaints",
+  "Never: honesty has no exceptions",
+  "One pattern → millions of variants",
+  "AI writes marketing or retention copy",
+  "Optimizing only for conversion",
+  "Buried opt-out → clear choice",
+  "Using customer data for AI",
+  "Hiding the opt-out or demanding reasons"
+ ],
+ ".ai-divider h3": [
+  "Dark Patterns in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can tailor copy, timing, and offers to each person. That makes persuasion more effective and manipulation cheaper and harder to see."
+ ]
+}
