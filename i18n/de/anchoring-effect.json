@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Anker<em>effekt</em>"
+ ],
+ "header .tagline": [
+  "Die erste Zahl <em>setzt den Rahmen</em>."
+ ],
+ "header .subtitle": [
+  "Menschen beurteilen einen Wert, indem sie von der zuerst gesehenen Zahl ausgehen und sich zu wenig davon entfernen. Preise, Voreinstellungen, Vergleichswerte und Schätzungen tragen alle einen Anker, ob Sie ihn wählen oder nicht."
+ ],
+ ".law-origin .body-text": [
+  "Der Ankereffekt fiel zuerst in der Psychophysik auf: Wer eine Reihe von Reizen beurteilt, vergleicht die übrigen mit dem ersten und dem letzten. <a href=\"people.html#p-amos-tversky\">Amos Tversky</a> und <a href=\"people.html#p-daniel-kahneman\">Daniel Kahneman</a> formalisierten ihn 1974 in ihrem Aufsatz über Urteile unter Unsicherheit als Verankerung und Anpassung: Menschen gehen von einem Anfangswert aus und passen ihn an, aber nicht weit genug.",
+  "Ihre Demonstrationen waren eindrucksvoll. Mit fünf Sekunden Zeit, um 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1 zu schätzen, lag der Median bei 2.250; mit denselben Zahlen in aufsteigender Reihenfolge bei 512. Die Antwort lautet 40.320. Später fanden <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> und Kollegen, dass Menschen mit höheren letzten beiden Ziffern ihrer Sozialversicherungsnummer 60 bis 120 Prozent mehr für dieselben Gegenstände boten."
+ ],
+ ".law-content .law-desc": [
+  "Wenn Menschen einen Wert schätzen, gehen sie von der gerade verfügbaren Zahl aus, dem Anker, und entfernen sich zu wenig davon. Der Anker wirkt selbst dann, wenn er offensichtlich irrelevant ist, und das Wissen um den Effekt schwächt ihn kaum."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-amos-tversky\">Tversky</a> und <a href=\"people.html#p-daniel-kahneman\">Kahneman</a> (1974)",
+  "Anchoring Bias, Verankerung und Anpassung",
+  "Die erste Zahl, die man sieht, bewusst wählen"
+ ],
+ ".apply-list li": [
+  "Sie zeigen Preise, Tarife, Rabatte oder andere Zahlen, die Menschen beurteilen.",
+  "Sie legen Vorgabewerte in Formularen, Schiebereglern, Trinkgeld- oder Spendenfeldern fest.",
+  "Sie bitten Menschen oder ein Team um Schätzungen.",
+  "Entscheiden Sie, welche Zahl Menschen zuerst sehen, denn sie rahmt alles Weitere.",
+  "Nutzen Sie nur echte Vergleichswerte: tatsächlich verlangte frühere Preise und klar benannte Bezugswerte.",
+  "Wenn Sie ein unverzerrtes Urteil brauchen, fragen Sie danach, bevor Sie irgendeine Zahl zeigen."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Preise",
+  "Rabatte",
+  "Eingaben",
+  "Forschung",
+  "Dashboards",
+  "Teams",
+  "Abhilfe",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Das Glücksrad",
+  "Die erste Stufe setzt den Maßstab",
+  "Vorher und jetzt",
+  "Vorgabewerte ziehen Antworten an",
+  "Fragen können Zahlen säen",
+  "Bezugswerte sind Anker",
+  "Die erste Zahl im Raum",
+  "Das Gegenteil bedenken",
+  "Der erste Vorschlag verankert",
+  "Zahlen im Prompt"
+ ],
+ ".card .desc": [
+  "Bevor sie den Anteil afrikanischer Länder in den Vereinten Nationen schätzten, sahen Teilnehmende ein Rad auf 10 oder 65 stehen bleiben. Wer 10 gesehen hatte, schätzte im Schnitt 25 Prozent, wer 65 gesehen hatte, 45 Prozent. Eine Zahl, die sie für zufällig hielten, verschob ihre Antwort.",
+  "Eine teure Option setzt den Bezugspunkt, der die übrigen vernünftig wirken lässt, so wie ein Auto neben einem teureren Modell erschwinglich aussieht. Ordnen Sie Tarife und Stufen bewusst, und sorgen Sie dafür, dass jede Stufe eine echte Wahl ist.",
+  "Ein durchgestrichener Originalpreis verankert das Gefühl eines Schnäppchens. Zeigen Sie nur tatsächlich verlangte Preise: Nach EU-Recht muss ein angegebener früherer Preis der niedrigste der 30 Tage vor der Ermäßigung sein.",
+  "Vorgegebene Spendenbeträge, Trinkgeldprozente und die Startposition eines Schiebereglers verankern, was Menschen eingeben. Wählen Sie Vorgaben mit Absicht, und lassen Sie Felder leer, wenn Sie die eigene Schätzung der Menschen brauchen.",
+  "Die Frage, ob etwas mehr oder weniger als 50 Stunden dauert, verankert die folgende Schätzung. Bitten Sie in Umfragen und Interviews um offene Schätzungen, bevor Sie einen Vergleichswert nennen.",
+  "Der gezeigte Vergleich, ob Vormonat, Ziel oder Branchendurchschnitt, entscheidet, ob eine Zahl gut oder schlecht wirkt. Wählen Sie Bezugswerte bewusst und beschriften Sie sie klar.",
+  "In Gruppendiskussionen kann, wer zuerst spricht, das Ergebnis unverhältnismäßig prägen. Sammeln Sie Schätzungen unabhängig voneinander, bevor Sie sie besprechen, wie es Planning Poker tut.",
+  "Warnungen helfen kaum: Selbst wer gewarnt wurde, dass ein Anker die Antwort verfälscht, oder für Genauigkeit bezahlt wurde, ließ sich noch ziehen. Die verlässlichste Abhilfe ist, Gründe aufzuschreiben, warum der Anker falsch sein könnte.",
+  "Der erste Entwurf, die erste Schätzung oder Empfehlung einer KI wird zum Ausgangspunkt, den Menschen anpassen, statt neu zu denken. Fragen Sie bei Schätzungen und Urteilen zuerst nach der eigenen Antwort der Menschen, bevor Sie die der KI zeigen.",
+  "Studien zeigen, dass auch Sprachmodelle dem Ankereffekt unterliegen: Eine Zahl im Prompt kann eine Schätzung zu sich ziehen. Lassen Sie Zahlen aus Prompts weg, wenn das Modell unabhängig urteilen soll."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Schätzungen folgen einer beliebigen Zahl",
+  "Menschen kennen den echten Wert bereits",
+  "Preisseiten und Tariftabellen",
+  "Es gibt mehrere Stufen",
+  "Eine Stufe dient nur als Köder",
+  "Sales und Rabatte",
+  "Es gibt einen echten früheren Preis",
+  "Der Originalpreis wurde nie verlangt",
+  "Spenden-, Trinkgeld- und Mengenfelder",
+  "Vorgaben helfen bei schnellen Entscheidungen",
+  "Sie brauchen eine unverzerrte Schätzung",
+  "Umfragen und Interviews",
+  "Nach Schätzungen fragen",
+  "Der Vergleich mit einem Richtwert ist das Ziel",
+  "Kennzahlen und Reporting",
+  "Leistung im Zeitverlauf zeigen",
+  "Der Bezugswert würde in die Irre führen",
+  "Schätzung, Planung und Reviews",
+  "Teams schätzen gemeinsam",
+  "Daten entscheiden die Frage ohnehin",
+  "Entscheidungsreviews",
+  "Eine Zahl kam vor dem Urteil",
+  "Es gab keinen Anker",
+  "Leere Seite → KI-Anker",
+  "KI schlägt Zahlen oder Entwürfe vor",
+  "Die KI-Schätzung zeigen, bevor Menschen nachdenken",
+  "Neutraler Prompt → gelenkter Prompt",
+  "KI um Schätzungen oder Bewertungen bitten",
+  "Prompts, die die Antwort andeuten"
+ ],
+ ".ai-divider h3": [
+  "Der Ankereffekt im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Der erste Vorschlag einer KI wird zum Anker, von dem aus Menschen korrigieren. Wo unabhängiges Urteil zählt, sollte es vor dem der Maschine kommen."
+ ]
+}

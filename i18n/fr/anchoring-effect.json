@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Effet d'<em>ancrage</em>"
+ ],
+ "header .tagline": [
+  "Le premier chiffre <em>fixe le cadre</em>."
+ ],
+ "header .subtitle": [
+  "On juge une valeur en partant du premier chiffre vu, puis en s'en écartant trop peu. Prix, valeurs préremplies, références et estimations portent tous une ancre, qu'on la choisisse ou non."
+ ],
+ ".law-origin .body-text": [
+  "L'ancrage a d'abord été observé en psychophysique : quand on juge une série de stimuli, on compare les autres au premier et au dernier. <a href=\"people.html#p-amos-tversky\">Amos Tversky</a> et <a href=\"people.html#p-daniel-kahneman\">Daniel Kahneman</a> l'ont formalisé en 1974, dans leur article sur le jugement en situation d'incertitude, sous le nom d'ancrage et ajustement : on part d'une valeur initiale et on l'ajuste, mais pas assez.",
+  "Leurs démonstrations étaient frappantes. Avec cinq secondes pour estimer 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1, l'estimation médiane était de 2 250 ; avec les mêmes chiffres dans l'ordre croissant, elle tombait à 512. La réponse est 40 320. Plus tard, <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> et ses collègues ont constaté que les personnes dont les deux derniers chiffres du numéro de sécurité sociale étaient élevés enchérissaient de 60 à 120 % de plus pour les mêmes objets."
+ ],
+ ".law-content .law-desc": [
+  "Quand on estime une valeur, on part du chiffre disponible, l'ancre, et on s'en écarte trop peu. L'ancre agit même quand elle est manifestement sans rapport, et connaître l'effet l'affaiblit à peine."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-amos-tversky\">Tversky</a> et <a href=\"people.html#p-daniel-kahneman\">Kahneman</a> (1974)",
+  "Biais d'ancrage, ancrage et ajustement",
+  "Choisir le premier chiffre que l’on voit"
+ ],
+ ".apply-list li": [
+  "Vous affichez des prix, des offres, des remises ou tout chiffre que les gens vont juger.",
+  "Vous définissez des valeurs préremplies dans des formulaires, curseurs, pourboires ou dons.",
+  "Vous demandez des estimations à des personnes ou à une équipe.",
+  "Décidez quel chiffre les gens voient en premier, car il cadre tout ce qui suit.",
+  "N'utilisez que de vraies valeurs de référence : des prix réellement pratiqués et des références clairement indiquées.",
+  "Quand il vous faut un jugement non biaisé, demandez-le avant de montrer le moindre chiffre."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Prix",
+  "Remises",
+  "Saisies",
+  "Recherche",
+  "Tableaux de bord",
+  "Équipes",
+  "Remède",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "La roue de la fortune",
+  "La première formule fixe l'échelle",
+  "Avant et maintenant",
+  "Les valeurs préremplies attirent les réponses",
+  "Les questions peuvent semer des chiffres",
+  "Les références sont des ancres",
+  "Le premier chiffre prononcé",
+  "Envisager l'inverse",
+  "La première suggestion ancre",
+  "Des chiffres dans le prompt"
+ ],
+ ".card .desc": [
+  "Avant d'estimer la part des pays africains à l'ONU, les participants voyaient une roue s'arrêter sur 10 ou 65. Ceux qui avaient vu 10 estimaient en moyenne 25 % ; ceux qui avaient vu 65, 45 %. Un chiffre qu'ils savaient aléatoire déplaçait leur réponse.",
+  "Une option chère fixe la référence qui rend les autres raisonnables, comme une voiture paraît abordable à côté d'un modèle plus cher. Ordonnez offres et niveaux avec intention, et assurez-vous que chaque niveau est une option qu'on choisirait vraiment.",
+  "Un prix d'origine barré ancre l'impression de bonne affaire. N'affichez que des prix réellement pratiqués : les règles européennes exigent désormais que le prix antérieur indiqué soit le plus bas pratiqué dans les 30 jours précédant la remise.",
+  "Les montants de don préremplis, les pourcentages de pourboire et la position initiale d'un curseur ancrent ce que les gens saisissent. Choisissez-les à dessein, et laissez les champs vides quand il vous faut l'estimation des gens eux-mêmes.",
+  "Demander si une tâche prend plus ou moins de 50 heures ancre l'estimation qui suit. En enquête et en entretien, demandez une estimation ouverte avant de proposer toute valeur de référence.",
+  "La comparaison affichée, mois précédent, objectif ou moyenne du secteur, décide si un chiffre paraît bon ou mauvais. Choisissez les références avec intention et indiquez-les clairement.",
+  "Dans une discussion de groupe, la première personne à parler peut avoir une influence disproportionnée sur le résultat. Recueillez les estimations séparément avant d'en discuter, comme le fait le planning poker.",
+  "Les avertissements aident à peine : des personnes prévenues que l'ancre fausserait leur réponse, ou payées pour être précises, restaient influencées. Le remède le plus fiable est de lister les raisons pour lesquelles l'ancre pourrait être fausse.",
+  "Le premier brouillon, la première estimation ou la première recommandation d'une IA devient le point de départ qu'on ajuste au lieu de repenser. Pour les estimations et les jugements, demandez la réponse des gens avant de montrer celle de l'IA.",
+  "Des études ont montré que les modèles de langage subissent aussi l'ancrage : un chiffre dans le prompt peut attirer une estimation vers lui. Retirez les chiffres des prompts quand vous voulez un jugement indépendant du modèle."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Les estimations suivent un chiffre arbitraire",
+  "Les gens connaissent déjà la vraie valeur",
+  "Pages de tarifs et tableaux d’offres",
+  "Plusieurs niveaux sont proposés",
+  "Un niveau n'existe que comme leurre",
+  "Soldes et remises",
+  "Un vrai prix antérieur existe",
+  "Le prix d'origine n'a jamais été pratiqué",
+  "Saisies de dons, pourboires et quantités",
+  "Les valeurs préremplies aident à décider vite",
+  "Il vous faut une estimation non biaisée",
+  "Enquêtes et entretiens",
+  "Demander des estimations",
+  "La comparaison à une référence est le but",
+  "Indicateurs et reporting",
+  "Montrer une performance dans le temps",
+  "La référence induirait en erreur",
+  "Estimation, planification et revues",
+  "L'équipe estime ensemble",
+  "Les données trancheront de toute façon",
+  "Revues de décision",
+  "Un chiffre a précédé le jugement",
+  "Aucune ancre n'était présente",
+  "Page blanche → ancre de l'IA",
+  "L'IA propose des chiffres ou des brouillons",
+  "Montrer l'estimation de l'IA avant que les gens réfléchissent",
+  "Prompt neutre → prompt orienté",
+  "Demander à l'IA des estimations ou des notes",
+  "Des prompts qui suggèrent la réponse"
+ ],
+ ".ai-divider h3": [
+  "L'ancrage à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "La première suggestion d'une IA devient l'ancre à partir de laquelle on corrige. Quand le jugement indépendant compte, il doit venir avant celui de la machine."
+ ]
+}

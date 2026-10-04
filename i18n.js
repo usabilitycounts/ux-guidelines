@@ -97,6 +97,7 @@
     "IKEA Effect": ["Effet IKEA", "IKEA-Effekt", "Efecto IKEA", "イケア効果", "宜家效应"],
     "Contour Bias": ["Biais des contours", "Kontur-Bias", "Sesgo de contorno", "輪郭バイアス", "轮廓偏好"],
     "Automation Bias": ["Biais d’automatisation", "Automation Bias", "Sesgo de automatización", "自動化バイアス", "自动化偏差"],
+    "Release Log": ["Journal des versions", "Versionsverlauf", "Registro de cambios", "リリースログ", "更新日志"],
     "By Year": ["Par année", "Nach Jahr", "Por año", "年代順", "按年份"],
     "Uncanny Valley": ["Vallée de l’étrange", "Uncanny Valley", "Valle inquietante", "不気味の谷", "恐怖谷"],
     "Von Restorff Effect": ["Effet von Restorff", "Von-Restorff-Effekt", "Efecto von Restorff", "フォン・レストルフ効果", "冯·雷斯托夫效应"],
@@ -130,6 +131,7 @@
     "Default Effect": ["Effet de défaut", "Default-Effekt", "Efecto predeterminado", "デフォルト効果", "默认效应"],
     "Social Proof": ["Preuve sociale", "Sozialer Beweis", "Prueba social", "社会的証明", "社会认同"],
     "Alarm Fatigue": ["Fatigue des alarmes", "Alarmmüdigkeit", "Fatiga de alarmas", "アラーム疲労", "警报疲劳"],
+    "Anchoring Effect": ["Effet d'ancrage", "Ankereffekt", "Efecto ancla", "アンカリング効果", "锚定效应"],
     "Miller's Law": ["Loi de Miller", "Millers Gesetz", "Ley de Miller", "ミラーの法則", "米勒定律"],
     "Gall's Law": ["Loi de Gall", "Galls Gesetz", "Ley de Gall", "ゴールの法則", "加尔定律"],
     "Goodhart's Law": ["Loi de Goodhart", "Goodharts Gesetz", "Ley de Goodhart", "グッドハートの法則", "古德哈特定律"],
@@ -178,11 +180,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une bibliothèque grandissante de 70 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
-      de: "Eine wachsende Bibliothek von 70 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
-      es: "Una biblioteca creciente de 70 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
-      ja: "研究に裏付けられた70件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
-      zh: "一个不断成长的资料库，收录70篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
+      fr: "Une bibliothèque grandissante de 71 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
+      de: "Eine wachsende Bibliothek von 71 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
+      es: "Una biblioteca creciente de 71 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
+      ja: "研究に裏付けられた71件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
+      zh: "一个不断成长的资料库，收录71篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -512,6 +514,13 @@
       es: "Quien recibe alertas frecuentes, casi todas falsas o menores, deja de responder a ellas. Las descarta, las silencia o las esquiva, y la rara alerta crítica recibe el mismo trato que las demás.",
       ja: "大半が誤報や些細なものである頻繁な警報にさらされると、人は反応しなくなる。警報を閉じ、消音し、回避するようになり、まれな重大警報も同じ扱いを受けてしまう。",
       zh: "频繁接收警报，而其中大多是误报或小事，人们就会不再理会。他们关掉、静音或绕开警报，偶尔出现的严重警报也会遭到同样的对待。" } },
+    "anchoring-effect": { tag: {
+      fr: "Le premier chiffre fixe le cadre.", de: "Die erste Zahl setzt den Rahmen.", es: "El primer número marca el marco.", ja: "最初の数字が枠を決める。", zh: "第一个数字定下框架。" }, sub: {
+      fr: "On juge une valeur en partant du premier chiffre vu, puis en s'en écartant trop peu. Prix, valeurs préremplies, références et estimations portent tous une ancre, qu'on la choisisse ou non.",
+      de: "Menschen beurteilen einen Wert, indem sie von der zuerst gesehenen Zahl ausgehen und sich zu wenig davon entfernen. Preise, Voreinstellungen, Vergleichswerte und Schätzungen tragen alle einen Anker, ob Sie ihn wählen oder nicht.",
+      es: "La gente juzga un valor partiendo del primer número que vio y alejándose demasiado poco de él. Los precios, los valores predeterminados, las referencias y las estimaciones llevan todos un ancla, la elijas o no.",
+      ja: "人は、最初に見た数字を出発点にして値を判断し、そこから十分に離れない。価格、初期値、比較の基準、見積もりには、選んだかどうかにかかわらず、すべてアンカーがある。",
+      zh: "人们判断一个数值时，会从最先看到的数字出发，而且调整得不够。价格、预设值、比较基准和估算都带着锚点，不管你是否有意选择。" } },
     "navigation": { tag: {
       fr: "Aidez les gens à savoir où ils sont, où ils peuvent aller et comment revenir.", de: "Hilf Menschen zu wissen, wo sie sind, wohin sie können und wie sie zurückkommen.", es: "Ayuda a la gente a saber dónde está, adónde puede ir y cómo volver.", ja: "今どこにいて、どこへ行けて、どう戻れるかを伝える。", zh: "让人们知道自己在哪、能去哪、怎么回来。" }, sub: {
       fr: "La navigation est le tissu conjonctif d'un produit. Chaque couche a un rôle différent — donnez-leur le bon poids et la structure devient invisible.",
@@ -567,6 +576,8 @@
       fr: "Tous les termes utilisés sur UX Guidelines, en une référence alphabétique.", de: "Jeder Begriff auf UX Guidelines, in einer alphabetischen Referenz.", es: "Cada término usado en UX Guidelines, en una referencia alfabética.", ja: "UX Guidelinesで使われるすべての用語を、アルファベット順に。", zh: "UX Guidelines中使用的所有术语，按字母排序的完整参考。" } },
     "people": { sub: {
       fr: "Les chercheurs, designers et ingénieurs derrière chaque loi et principe de ce site.", de: "Die Forschenden, Designer und Ingenieure hinter jedem Gesetz und Prinzip auf dieser Website.", es: "Los investigadores, diseñadores e ingenieros detrás de cada ley y principio de este sitio.", ja: "このサイトのすべての法則と原則の背後にいる研究者、デザイナー、エンジニアたち。", zh: "本站每条定律与原则背后的研究者、设计师和工程师。" } },
+    "release-log": { sub: {
+      fr: "Chaque nouvelle page et chaque amélioration notable de UX Guidelines, des plus récentes aux plus anciennes.", de: "Jede neue Seite und jede nennenswerte Verbesserung an UX Guidelines, die neuesten zuerst.", es: "Cada página nueva y cada mejora destacada de UX Guidelines, de la más reciente a la más antigua.", ja: "UX Guidelinesの新しいページと主な改善を、新しい順に。", zh: "UX Guidelines 的每个新页面和重要改进，按时间倒序排列。" } },
     "sitemap": { sub: {
       fr: "Toutes les pages de UX Guidelines, groupées par section.", de: "Jede Seite auf UX Guidelines, nach Abschnitten gruppiert.", es: "Cada página de UX Guidelines, agrupada por sección.", ja: "UX Guidelinesの全ページを、セクションごとに。", zh: "UX Guidelines的所有页面，按栏目分组。" } }
   };
@@ -636,7 +647,7 @@
     // Whatever happens, let the text show again: the skeletons are a stand-in
     // for this fetch, not a state the page should be able to get stuck in.
     const done = () => document.documentElement.classList.remove('i18n-wait');
-    fetch('i18n/' + lang + '/' + page + '.json?v=37')
+    fetch('i18n/' + lang + '/' + page + '.json?v=38')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); done(); })
       .catch(done);

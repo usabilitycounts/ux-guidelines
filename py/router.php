@@ -48,6 +48,8 @@ if (preg_match('#^/(fr|de|es|ja|zh)(?:/(.*))?$#', $uri, $m)) {
   $rest = isset($m[2]) ? $m[2] : '';
   if ($rest === '' || $rest === 'index') $rest = 'index.html';
   if (substr($rest, -1) === '/') $rest = rtrim($rest, '/') . '.html';
+  // each language has its own RSS feed
+  if ($rest === 'feed.xml' && is_file($root . '/feeds/' . $lang . '.xml')) return send_file($root . '/feeds/' . $lang . '.xml', $mime);
   // an asset under the prefix is the same asset at the root
   if (is_file($root . '/' . $rest) && !preg_match('/\.html$/', $rest)) return send_file($root . '/' . $rest, $mime);
   if (!preg_match('/\.html$/', $rest)) $rest .= '.html';

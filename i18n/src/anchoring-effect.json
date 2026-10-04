@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Anchoring <em>Effect</em>"
+ ],
+ "header .tagline": [
+  "The first number <em>sets the frame</em>."
+ ],
+ "header .subtitle": [
+  "People judge a value by starting from whatever number they saw first and adjusting too little. Prices, presets, baselines, and estimates all carry an anchor, whether you choose it or not."
+ ],
+ ".law-origin .body-text": [
+  "Anchoring was first noticed in psychophysics: when people judge a series of stimuli, they compare the rest against the first and last. <a href=\"people.html#p-amos-tversky\">Amos Tversky</a> and <a href=\"people.html#p-daniel-kahneman\">Daniel Kahneman</a> formalized it in their 1974 paper on judgment under uncertainty as anchoring and adjustment: people start from an initial value and adjust, but not far enough.",
+  "Their demonstrations were striking. Given five seconds to estimate 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1, people guessed a median of 2,250; given the same numbers in ascending order, the median was 512. The answer is 40,320. Later, <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> and colleagues found that people with higher last two digits of their social security number bid 60 to 120 percent more for the same items."
+ ],
+ ".law-content .law-desc": [
+  "When people estimate a value, they start from whatever number is at hand, the anchor, and adjust away from it too little. The anchor works even when it is obviously irrelevant, and knowing about the effect barely weakens it."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-amos-tversky\">Tversky</a> and <a href=\"people.html#p-daniel-kahneman\">Kahneman</a> (1974)",
+  "Anchoring bias, anchoring and adjustment",
+  "Choose the first number people see"
+ ],
+ ".apply-list li": [
+  "Showing prices, plans, discounts, or any number people will judge.",
+  "Setting preset values in forms, sliders, tips, or donations.",
+  "Asking people, or a team, for estimates.",
+  "Decide which number people see first, because it frames everything after it.",
+  "Use only real reference values: genuine earlier prices and clearly labeled baselines.",
+  "When you need an unbiased judgment, ask for it before showing any number."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Pricing",
+  "Discounts",
+  "Inputs",
+  "Research",
+  "Dashboards",
+  "Teams",
+  "Remedy",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "The Wheel of Fortune",
+  "The First Tier Sets the Scale",
+  "Was and Now",
+  "Presets Pull Answers Toward Them",
+  "Questions Can Plant Numbers",
+  "Baselines Are Anchors",
+  "The First Number in the Room",
+  "Consider the Opposite",
+  "The First Suggestion Anchors",
+  "Numbers in the Prompt"
+ ],
+ ".card .desc": [
+  "Before estimating the share of African countries in the United Nations, people watched a wheel stop on 10 or 65. Those who saw 10 guessed 25 percent on average; those who saw 65 guessed 45 percent. A number they knew was random moved their answer.",
+  "A high-priced option sets the reference that makes the others look reasonable, the way a car looks affordable next to a more expensive model. Order plans and tiers deliberately, and make sure every tier is one people would really choose.",
+  "A struck-through original price anchors the sense of a bargain. Show only prices that were really charged: EU rules now require a stated earlier price to be the lowest one charged in the 30 days before the discount.",
+  "Preset donation amounts, tip percentages, and slider starting points anchor what people enter. Choose presets on purpose, and leave fields blank when you need people’s own estimate.",
+  "Asking whether something takes more or less than 50 hours anchors the estimate that follows. In surveys and interviews, ask for open estimates before offering any reference value.",
+  "The comparison you show, whether last month, a target, or an industry average, decides whether a number reads as good or bad. Choose baselines deliberately and label them clearly.",
+  "In group discussions, whoever speaks first can have a disproportionate effect on the outcome. Collect estimates independently before discussing them, as planning poker does.",
+  "Warnings barely help: people told that an anchor would contaminate their answer, or paid to be accurate, were still pulled by it. The most reliable remedy is to list reasons the anchor might be wrong.",
+  "An AI’s first draft, estimate, or recommendation becomes the starting point people adjust from instead of rethinking. For estimates and judgments, ask people for their own answer before showing the AI’s.",
+  "Studies have found that language models show anchoring too: a number in the prompt can pull an estimate toward it. Leave figures out of prompts when you want the model to judge independently."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "Estimates follow an arbitrary number",
+  "People already know the real value",
+  "Pricing pages and plan tables",
+  "Several tiers are offered",
+  "A tier exists only as a decoy",
+  "Sales and discounts",
+  "A real earlier price exists",
+  "The original price was never charged",
+  "Donation, tip, and quantity inputs",
+  "Presets help people decide quickly",
+  "You need an unbiased estimate",
+  "Surveys and interviews",
+  "Asking for estimates",
+  "Comparison to a benchmark is the point",
+  "Metrics and reporting",
+  "Showing performance over time",
+  "The baseline would mislead",
+  "Estimation, planning, and critiques",
+  "Teams estimate together",
+  "Data will settle the answer anyway",
+  "Decision reviews",
+  "A number came before the judgment",
+  "No anchor was present",
+  "Blank page → AI anchor",
+  "AI suggests numbers or drafts",
+  "Showing the AI’s estimate before people think",
+  "Neutral prompt → seeded prompt",
+  "Asking AI for estimates or ratings",
+  "Prompts that hint at the answer"
+ ],
+ ".ai-divider h3": [
+  "Anchoring in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "An AI’s first suggestion becomes the anchor people edit from. Where independent judgment matters, it should come before the machine’s."
+ ]
+}

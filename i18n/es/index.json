@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Una biblioteca creciente de 70 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
+  "Una biblioteca creciente de 71 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros."
  ],
  ".card .tag": [
   "+ Era de la IA",
@@ -74,6 +74,7 @@
   "Thaler y Sunstein, 2008",
   "Johnson y Goldstein, 2003",
   "Cialdini, 1984",
+  "Tversky y Kahneman, 1974",
   "Mosier, 1996",
   "Brignull, 2010"
  ],
@@ -146,6 +147,7 @@
   "Teoría del empujón",
   "Efecto predeterminado",
   "Prueba social",
+  "Efecto ancla",
   "Sesgo de automatización",
   "Patrones oscuros"
  ],
@@ -218,6 +220,7 @@
   "Haz que la mejor opción sea la más fácil.",
   "La mayoría se queda con lo preseleccionado.",
   "Ante la duda, la gente copia lo que hacen otros.",
+  "El primer número marca el marco.",
   "Confiamos demasiado en la máquina.",
   "Trucos que ganan el clic y pierden la confianza."
  ]

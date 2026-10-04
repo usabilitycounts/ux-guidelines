@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>UX Guidelines (Français)</title>
+  <link>https://www.ux-guidelines.com/fr/</link>
+  <description>Les lois, heuristiques et modèles de conception d'interface fondés sur la recherche, chacun expliqué avec son origine, des conseils pratiques et ce qui change à l'ère de l'IA.</description>
+  <language>fr</language>
+  <lastBuildDate>Sun, 04 Oct 2026 17:34:56 +0000</lastBuildDate>
+  <atom:link href="https://www.ux-guidelines.com/fr/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Journal des versions</title>
+    <link>https://www.ux-guidelines.com/fr/journal-des-versions.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/journal-des-versions.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:34:54 +0000</pubDate>
+    <description>Chaque nouvelle page et chaque amélioration notable de UX Guidelines, des plus récentes aux plus anciennes.</description>
+  </item>
+  <item>
+    <title>Effet d'ancrage</title>
+    <link>https://www.ux-guidelines.com/fr/effet-d-ancrage.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-d-ancrage.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:34:16 +0000</pubDate>
+    <description>On juge une valeur en partant du premier chiffre vu, puis en s'en écartant trop peu. Prix, valeurs préremplies, références et estimations portent tous une ancre, qu'on la choisisse ou non.</description>
+  </item>
+  <item>
+    <title>Fatigue des alarmes</title>
+    <link>https://www.ux-guidelines.com/fr/fatigue-des-alarmes.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/fatigue-des-alarmes.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Exposées à des alertes fréquentes, pour la plupart fausses ou mineures, les personnes cessent d'y réagir. Elles les ferment, les coupent ou les contournent, et la rare alerte critique subit le même sort que les autres.</description>
+  </item>
+  <item>
+    <title>Format d'image</title>
+    <link>https://www.ux-guidelines.com/fr/format-d-image.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/format-d-image.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Le rapport entre la largeur et la hauteur d'une image, noté largeur:hauteur. Il décide de ce qui tient dans le cadre, de la façon dont le contenu s'adapte d'un grand écran à un téléphone tenu droit, et de si la page saute pendant le chargement.</description>
+  </item>
+  <item>
+    <title>Cécité au changement</title>
+    <link>https://www.ux-guidelines.com/fr/cecite-au-changement.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/cecite-au-changement.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>On rate des changements étonnamment importants lorsqu'ils surviennent pendant un clignement, un rechargement, une coupe ou une distraction. Une interface qui change sur place sans montrer ce qui a changé laisse l'utilisateur devant un nouvel écran qu'il croit être l'ancien.</description>
+  </item>
+  <item>
+    <title>Architecture du choix</title>
+    <link>https://www.ux-guidelines.com/fr/architecture-du-choix.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/architecture-du-choix.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>La façon de présenter les options, de celle qui est présélectionnée à l'ordre d'affichage, influence ce que les gens choisissent. Une part de design est inévitable : faites-la volontairement, et dans l'intérêt des gens.</description>
+  </item>
+  <item>
+    <title>Dark patterns</title>
+    <link>https://www.ux-guidelines.com/fr/dark-patterns.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/dark-patterns.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Des interfaces conçues pour pousser les gens à acheter, s'abonner ou partager plus qu'ils ne le voulaient. Elles font grimper un indicateur pendant un trimestre, puis coûtent la confiance de ceux qui ont été piégés, et attirent de plus en plus d'amendes.</description>
+  </item>
+  <item>
+    <title>Effet de défaut</title>
+    <link>https://www.ux-guidelines.com/fr/effet-de-defaut.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-de-defaut.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Ce qui arrive quand on ne fait rien est l'option que la plupart des gens finissent par avoir. Choisir une valeur par défaut, c'est choisir pour la majorité : elle mérite autant de soin que la fonctionnalité elle-même.</description>
+  </item>
+  <item>
+    <title>Longueur de ligne</title>
+    <link>https://www.ux-guidelines.com/fr/longueur-de-ligne.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/longueur-de-ligne.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>La largeur d'une ligne de texte détermine la facilité avec laquelle l'œil trouve la ligne suivante. Des lignes trop longues égarent le lecteur au retour, des lignes trop courtes cassent le rythme. Pour le texte courant, 45 à 75 caractères est la plage confortable.</description>
+  </item>
+  <item>
+    <title>Espace négatif</title>
+    <link>https://www.ux-guidelines.com/fr/espace-negatif.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/espace-negatif.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>L'espace négatif est la zone vide autour et entre les éléments. Ce n'est pas de la place perdue : il regroupe et sépare les contenus, signale ce qui compte et offre à l'œil un lieu de repos, sans une seule ligne ni un seul cadre.</description>
+  </item>
+  <item>
+    <title>Théorie du nudge</title>
+    <link>https://www.ux-guidelines.com/fr/theorie-du-nudge.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/theorie-du-nudge.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Un nudge modifie le contexte d'une décision pour que le choix facile et automatique soit le meilleur, tout en laissant chaque option ouverte. Il agit sur l'habitude plutôt que sur l'argument, ce qui le rend efficace, peu coûteux et facile à détourner.</description>
+  </item>
+  <item>
+    <title>Principe de moindre surprise</title>
+    <link>https://www.ux-guidelines.com/fr/principe-de-moindre-surprise.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principe-de-moindre-surprise.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Un composant doit se comporter comme la plupart de ses utilisateurs s'y attendent. Chaque surprise coûte de l'attention et de la confiance : suivez les conventions que les gens connaissent déjà, choisissez des valeurs par défaut sensées et faites en sorte que chaque commande fasse ce qu'elle semble faire.</description>
+  </item>
+  <item>
+    <title>Satisficing</title>
+    <link>https://www.ux-guidelines.com/fr/satisficing.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/satisficing.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Plutôt que de chercher la meilleure option, on prend la première qui passe la barre. En ligne, les utilisateurs cliquent sur le premier lien plausible : le bon choix doit donc ressembler au premier choix raisonnable.</description>
+  </item>
+  <item>
+    <title>Nombre d'argent</title>
+    <link>https://www.ux-guidelines.com/fr/nombre-d-argent.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/nombre-d-argent.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Le nombre d'argent, 1 + √2, soit environ 2,414, divise l'espace de façon plus tranchée que le nombre d'or. On le trouve dans l'octogone et le format A4, et il donne aux mises en page une proportion allongée et calme, avec une partie nettement dominante.</description>
+  </item>
+  <item>
+    <title>Preuve sociale</title>
+    <link>https://www.ux-guidelines.com/fr/preuve-sociale.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/preuve-sociale.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>Quand on ne sait pas quoi faire, on copie ce que font les autres en supposant que c'est juste. Avis, notes et chiffres d'usage exploitent cet instinct, à condition que la preuve soit réelle et que la norme mérite d'être suivie.</description>
+  </item>
+  <item>
+    <title>Illusion d'Ebbinghaus</title>
+    <link>https://www.ux-guidelines.com/fr/illusion-d-ebbinghaus.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/illusion-d-ebbinghaus.html</guid>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
+    <description>Deux cercles identiques semblent de tailles différentes quand l'un est entouré de grands cercles et l'autre de petits. Chaque taille à l'écran se lit par rapport à son entourage : un bouton, une icône ou une bulle de graphique peut paraître plus grand ou plus petit qu'il ne l'est.</description>
+  </item>
+  <item>
+    <title>Biais du survivant</title>
+    <link>https://www.ux-guidelines.com/fr/biais-du-survivant.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/biais-du-survivant.html</guid>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
+    <description>Des conclusions tirées uniquement des cas qui ont passé le filtre, comme les utilisateurs actifs, les produits à succès ou les avions revenus, ignorent tout ce qui a été éliminé en route. Elles sont trop optimistes et peuvent attribuer le succès à la mauvaise cause.</description>
+  </item>
+  <item>
+    <title>Les 18 règles d’IA de Microsoft</title>
+    <link>https://www.ux-guidelines.com/fr/les-18-regles-d-ia-de-microsoft.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/les-18-regles-d-ia-de-microsoft.html</guid>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
+    <description>Dix-huit règles pour concevoir des produits enrichis par l'IA, regroupées selon le moment où elles mordent : ce que vous promettez au départ, comment vous vous comportez pendant l'usage, ce qui se passe quand le système se trompe, et comment il change avec le temps. Le quatrième groupe est celui que la plupart des équipes sautent.</description>
+  </item>
+  <item>
+    <title>Principes et pièges de l'UI</title>
+    <link>https://www.ux-guidelines.com/fr/principes-et-pieges-de-l-ui.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principes-et-pieges-de-l-ui.html</guid>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
+    <description>Un cadre d'évaluation heuristique composé de neuf principes et des pièges qui les enfreignent. Chaque piège est un problème de conception précis et repérable, rattaché à un seul principe, si bien qu'une équipe peut dire exactement ce qui ne va pas et s'accorder sur la raison pour laquelle cela compte.</description>
+  </item>
+  <item>
+    <title>Loi de Zipf</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-zipf.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-zipf.html</guid>
+    <pubDate>Thu, 17 Sep 2026 01:13:25 -0700</pubDate>
+    <description>Classez n'importe quel ensemble selon la fréquence d'utilisation et les chiffres s'effondrent sur une courbe raide et prévisible : le deuxième élément reçoit environ la moitié du trafic du premier, le troisième environ un tiers. La navigation, le classement des résultats de recherche et la priorité des fonctionnalités se placent tous sur cette courbe.</description>
+  </item>
+  <item>
+    <title>Problème de sortie de boucle</title>
+    <link>https://www.ux-guidelines.com/fr/probleme-de-sortie-de-boucle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/probleme-de-sortie-de-boucle.html</guid>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
+    <description>Le problème de performance lié à la sortie de boucle : surveiller une automatisation érode justement les compétences nécessaires pour reprendre la main quand elle échoue. Plus le système fonctionne longtemps sans incident, moins la personne qui l'observe s'exerce — et la reprise en main survient toujours au moment le plus difficile.</description>
+  </item>
+  <item>
+    <title>Effet Stroop</title>
+    <link>https://www.ux-guidelines.com/fr/effet-stroop.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-stroop.html</guid>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
+    <description>La lecture est automatique ; nommer une couleur ne l'est pas. Quand un libellé et sa couleur portent deux sens différents — un bouton Supprimer en vert, un badge de réussite en rouge — les deux lectures entrent en collision : la personne ralentit, hésite et se trompe de clic plus souvent.</description>
+  </item>
+  <item>
+    <title>Humain dans la boucle</title>
+    <link>https://www.ux-guidelines.com/fr/humain-dans-la-boucle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/humain-dans-la-boucle.html</guid>
+    <pubDate>Wed, 16 Sep 2026 19:41:32 -0700</pubDate>
+    <description>Garder une personne au cœur d'une décision automatisée par conception, et non par hasard. Le modèle précise où se situe le jugement humain — valider chaque action, superviser un flux d'actions ou ne pas intervenir du tout — et ce que coûte chaque choix.</description>
+  </item>
+  <item>
+    <title>Canons de construction de la page</title>
+    <link>https://www.ux-guidelines.com/fr/canons-de-construction-de-la-page.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/canons-de-construction-de-la-page.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:30:55 -0700</pubDate>
+    <description>Les rapports classiques de marges et de bloc de texte derrière les mises en page lisibles. Un bloc de texte dans la proportion même de la page, une marge intérieure plus étroite que l’extérieure, un pied plus profond que la tête : des règles reconstruites à partir de manuscrits médiévaux qui donnent encore à un écran de lecture un air composé.</description>
+  </item>
+  <item>
+    <title>Règle des nombres impairs</title>
+    <link>https://www.ux-guidelines.com/fr/regle-des-nombres-impairs.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/regle-des-nombres-impairs.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:30:55 -0700</pubDate>
+    <description>Les groupes de trois ou de cinq paraissent plus naturels que les groupes pairs, ce qui compte pour les cartes de fonctionnalités et les images. Un nombre impair offre à l’œil un milieu où se poser ; un nombre pair se scinde en paires et demande à être comparé.</description>
+  </item>
+  <item>
+    <title>Nombre d’or</title>
+    <link>https://www.ux-guidelines.com/fr/nombre-d-or.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/nombre-d-or.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:13:35 -0700</pubDate>
+    <description>Un rapport d’environ 1,618 qui divise une longueur de sorte que la petite partie soit à la grande ce que la grande est au tout. Les designers s’en servent pour dimensionner colonnes, échelles typographiques et recadrages qui paraissent posés — tant qu’il reste un outil, pas une règle.</description>
+  </item>
+  <item>
+    <title>Règle des tiers</title>
+    <link>https://www.ux-guidelines.com/fr/regle-des-tiers.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/regle-des-tiers.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:13:35 -0700</pubDate>
+    <description>Divisez le cadre en trois colonnes et trois rangées, et placez ce qui compte sur les lignes et leurs quatre croisements. La plus vieille règle de composition de la photographie fonctionne aussi bien pour les images hero, les recadrages et le premier écran d’une page.</description>
+  </item>
+  <item>
+    <title>Par année</title>
+    <link>https://www.ux-guidelines.com/fr/par-annee.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/par-annee.html</guid>
+    <pubDate>Sun, 23 Aug 2026 16:28:22 -0700</pubDate>
+    <description>Toutes les références de la bibliothèque par ordre chronologique — des ratios de Weber en 1834 au modèle Hook en 2014 — avec l’année où chacune a été établie.</description>
+  </item>
+  <item>
+    <title>Biais d’automatisation</title>
+    <link>https://www.ux-guidelines.com/fr/biais-d-automatisation.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/biais-d-automatisation.html</guid>
+    <pubDate>Sun, 23 Aug 2026 16:12:04 -0700</pubDate>
+    <description>Mosier et Skitka ont montré dans les années 1990 que l’on fait trop confiance aux suggestions automatisées — en les suivant quand elles sont fausses et en ratant ce que la machine rate. À l’ère de l’IA, c’est le biais contre lequel chaque interface doit être conçue.</description>
+  </item>
+  <item>
+    <title>À propos</title>
+    <link>https://www.ux-guidelines.com/fr/a-propos.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/a-propos.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Qui fait ce site, et pourquoi il existe.</description>
+  </item>
+  <item>
+    <title>Effet esthétique-utilisabilité</title>
+    <link>https://www.ux-guidelines.com/fr/effet-esthetique-utilisabilite.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-esthetique-utilisabilite.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'étude de Masaaki Kurosu et Kaori Kashimura sur les distributeurs bancaires (1995) : les interfaces jugées belles sont notées plus faciles à utiliser — qu'elles le soient ou non. Le soin visuel achète de la patience et de la confiance, et peut masquer de vrais problèmes.</description>
+  </item>
+  <item>
+    <title>La clôture de Chesterton</title>
+    <link>https://www.ux-guidelines.com/fr/la-cloture-de-chesterton.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/la-cloture-de-chesterton.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La règle de G. K. Chesterton pour les réformateurs : la clôture qui vous semble inutile a été construite par quelqu'un qui avait une raison. Comprenez d'abord la raison — vous aurez alors gagné le droit de la retirer.</description>
+  </item>
+  <item>
+    <title>Théorie de la charge cognitive</title>
+    <link>https://www.ux-guidelines.com/fr/theorie-de-la-charge-cognitive.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/theorie-de-la-charge-cognitive.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La théorie de John Sweller, affinée par la suite, divise l'effort mental en trois charges : intrinsèque (la tâche elle-même), extrinsèque (le surcoût de l'interface) et essentielle (l'apprentissage réel). Le travail du design est de réduire celle du milieu.</description>
+  </item>
+  <item>
+    <title>Biais des contours</title>
+    <link>https://www.ux-guidelines.com/fr/biais-des-contours.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/biais-des-contours.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Moshe Bar et Maital Neta ont montré en 2006 que les gens préfèrent les objets courbes aux objets anguleux — les contours pointus sont lus comme une menace au premier regard. La rondeur met à l’aise ; l’angle exige l’attention. Les deux sont des outils.</description>
+  </item>
+  <item>
+    <title>Loi de Conway</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-conway.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-conway.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'observation de Melvin Conway (1968) sur la programmation — et la règle la plus fiable pour prédire où un produit aura des coutures. Partout où l'équipe doit passer le relais, le produit le fait aussi.</description>
+  </item>
+  <item>
+    <title>Malédiction du savoir</title>
+    <link>https://www.ux-guidelines.com/fr/malediction-du-savoir.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/malediction-du-savoir.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Nommée par les économistes Camerer, Loewenstein et Weber en 1989 : une fois que vous savez quelque chose, vous ne pouvez plus simuler l'esprit de quelqu'un qui l'ignore. C'est pourquoi les experts écrivent des documentations confuses et les équipes livrent du jargon.</description>
+  </item>
+  <item>
+    <title>Visualisation de données</title>
+    <link>https://www.ux-guidelines.com/fr/visualisation-de-donnees.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/visualisation-de-donnees.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Seize types de graphiques regroupés par la question à laquelle ils répondent — comparaison, relation, distribution et composition. Choisissez le graphique qui correspond à la question, pas celui qui impressionne.</description>
+  </item>
+  <item>
+    <title>Seuil de Doherty</title>
+    <link>https://www.ux-guidelines.com/fr/seuil-de-doherty.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/seuil-de-doherty.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La recherche IBM de Walter Doherty et A. J. Thadani (1982) : quand un système répond en moins de 400 millisecondes, la productivité s'envole — l'utilisateur et l'ordinateur restent dans le même fil de pensée. Associée ici aux limites classiques de temps de réponse que toute interface respecte encore.</description>
+  </item>
+  <item>
+    <title>Schémas de lecture visuelle</title>
+    <link>https://www.ux-guidelines.com/fr/schemas-de-lecture-visuelle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/schemas-de-lecture-visuelle.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Des décennies de recherche en oculométrie montrent que les gens ne lisent pas les interfaces — ils les balaient selon des formes prévisibles. Voici les six schémas et où chacun apparaît.</description>
+  </item>
+  <item>
+    <title>Loi de Fitts</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-fitts.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-fitts.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Le temps pour atteindre une cible dépend de sa taille et de sa distance. La loi de Fitts régit chaque bouton, lien et zone tactile — et explique pourquoi les bords et les coins semblent si rapides.</description>
+  </item>
+  <item>
+    <title>Modèle comportemental de Fogg</title>
+    <link>https://www.ux-guidelines.com/fr/modele-comportemental-de-fogg.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/modele-comportemental-de-fogg.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Le modèle de BJ Fogg (2009) dit qu'un comportement ne se produit que lorsque Motivation, Capacité et Incitation (son mot d'origine était Déclencheur) atterrissent ensemble. Retirez-en un et l'action n'a pas lieu — même si les deux autres sont au maximum. Le modèle fonde le behavior design, la technologie persuasive et la méthode Tiny Habits.</description>
+  </item>
+  <item>
+    <title>Loi de Gall</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-gall.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-gall.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'observation de John Gall (1975), tirée de Systemantics : on ne peut pas concevoir un système complexe de zéro et le faire fonctionner. Les systèmes complexes descendent de systèmes simples livrés et utilisés. Sautez l'ancêtre simple et le descendant ne respire jamais.</description>
+  </item>
+  <item>
+    <title>Principes de la Gestalt</title>
+    <link>https://www.ux-guidelines.com/fr/principes-de-la-gestalt.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principes-de-la-gestalt.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'esprit regroupe automatiquement ce qu'il voit. Ces dix principes de perception expliquent comment les gens lisent une structure dans une mise en page avant de lire un seul mot.</description>
+  </item>
+  <item>
+    <title>Glossaire</title>
+    <link>https://www.ux-guidelines.com/fr/glossaire.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/glossaire.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Tous les termes utilisés sur UX Guidelines, en une référence alphabétique.</description>
+  </item>
+  <item>
+    <title>Loi de Goodhart</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-goodhart.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-goodhart.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'observation de Charles Goodhart (1975), affûtée par Marilyn Strathern : dès qu'un chiffre sert à juger des personnes, il dérive de ce qu'il mesurait. KPIs, OKRs et signaux d'entraînement d'IA s'y heurtent de plein fouet.</description>
+  </item>
+  <item>
+    <title>Grille et hiérarchie</title>
+    <link>https://www.ux-guidelines.com/fr/grille-et-hierarchie.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/grille-et-hierarchie.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les grilles organisent l'espace et la hiérarchie dirige l'attention. Ensemble, elles forment la couche silencieuse sous toute interface bien résolue — celle que les utilisateurs ne remarquent jamais quand elle est juste.</description>
+  </item>
+  <item>
+    <title>Principe de Gutenberg</title>
+    <link>https://www.ux-guidelines.com/fr/principe-de-gutenberg.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principe-de-gutenberg.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Sur les pages au poids uniforme, l'œil balaie du haut-gauche au bas-droite. Le principe de Gutenberg cartographie cette gravité de lecture — et où placer ce qui compte.</description>
+  </item>
+  <item>
+    <title>Loi de Hick</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-hick.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-hick.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.</description>
+  </item>
+  <item>
+    <title>Loi de Hofstadter</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-hofstadter.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-hofstadter.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Tirée du livre de Douglas Hofstadter (1979) Gödel, Escher, Bach. La blague autoréférentielle qui est aussi une règle de travail pour l'estimation logicielle : chaque projet prend plus de temps que votre estimation honnête, et gonfler l'estimation n'y change rien. La loi est devenue fondatrice de la façon dont les équipes livrent — et des barres de progression que les utilisateurs fixent des yeux.</description>
+  </item>
+  <item>
+    <title>Modèle Hook</title>
+    <link>https://www.ux-guidelines.com/fr/modele-hook.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/modele-hook.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Le cadre de Nir Eyal (2014) pour créer des produits générateurs d'habitudes. Quatre phases que l'utilisateur traverse, encore et encore, jusqu'à ce que le produit devienne un réflexe. Le livre trace aussi la ligne entre les hooks dont l'utilisateur est reconnaissant et ceux qu'il regrette.</description>
+  </item>
+  <item>
+    <title>Effet IKEA</title>
+    <link>https://www.ux-guidelines.com/fr/effet-ikea.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-ikea.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Norton, Mochon et Ariely ont montré en 2012 que les gens accordent bien plus de valeur aux choses qu’ils ont aidé à construire. L’effort — même minime — transforme les utilisateurs en co-créateurs, et les co-créateurs en propriétaires.</description>
+  </item>
+  <item>
+    <title>UX Guidelines</title>
+    <link>https://www.ux-guidelines.com/fr/</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Une bibliothèque grandissante de 71 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.</description>
+  </item>
+  <item>
+    <title>Loi de Jakob</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-jakob.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-jakob.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les gens passent le plus clair de leur temps sur d'autres sites, donc ils s'attendent à ce que le vôtre fonctionne pareil. Suivez les conventions — et restez attentif, car l'IA est en train de les réécrire.</description>
+  </item>
+  <item>
+    <title>Loi de Miller</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-miller.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-miller.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'article de George Miller (1956) a chiffré la mémoire de travail — environ sept blocs. Le chiffre est flou ; la leçon est que la mémoire est limitée, et que le design doit regrouper l'information pour qu'on la retienne sans effort.</description>
+  </item>
+  <item>
+    <title>Modèles de navigation</title>
+    <link>https://www.ux-guidelines.com/fr/modeles-de-navigation.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/modeles-de-navigation.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La navigation est le tissu conjonctif d'un produit. Chaque couche joue un rôle différent — donnez-leur le bon poids et la structure devient invisible.</description>
+  </item>
+  <item>
+    <title>Les 10 heuristiques de Nielsen</title>
+    <link>https://www.ux-guidelines.com/fr/les-10-heuristiques-de-nielsen.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/les-10-heuristiques-de-nielsen.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les dix heuristiques d'utilisabilité de Jakob Nielsen restent la liste de contrôle la plus utilisée pour trouver les problèmes d'interface — chacune expliquée avec un exemple moderne et concret.</description>
+  </item>
+  <item>
+    <title>Principes de Norman</title>
+    <link>https://www.ux-guidelines.com/fr/principes-de-norman.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principes-de-norman.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>"The Design of Everyday Things" de Don Norman (1988) a posé un petit ensemble de principes de design devenu le fondement de l'IHM. Le postulat : un objet bien conçu vous dit ce qu'il fait, comment l'utiliser et si vous avez réussi — sans mode d'emploi.</description>
+  </item>
+  <item>
+    <title>Paradoxe du choix</title>
+    <link>https://www.ux-guidelines.com/fr/paradoxe-du-choix.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/paradoxe-du-choix.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Plus d'options peut signifier moins de décisions. La recherche derrière la surcharge de choix — et les patterns qui aident à sortir de la paralysie décisionnelle.</description>
+  </item>
+  <item>
+    <title>Principe de Pareto</title>
+    <link>https://www.ux-guidelines.com/fr/principe-de-pareto.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/principe-de-pareto.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Vilfredo Pareto a remarqué en 1896 que 80 % des terres d'Italie appartenaient à 20 % de sa population. Le motif se répète dans le logiciel, le support, la performance et la stratégie produit — l'essentiel de la valeur vient d'une petite fraction de l'effort. Savoir lequel des 20 % : tout est là.</description>
+  </item>
+  <item>
+    <title>Règle pic-fin</title>
+    <link>https://www.ux-guidelines.com/fr/regle-pic-fin.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/regle-pic-fin.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les recherches de Daniel Kahneman montrent que les gens jugent une expérience à son moment le plus intense et à son moment final — pas à sa moyenne. Concevez le pic, réussissez l'atterrissage, et corrigez d'abord le pire moment.</description>
+  </item>
+  <item>
+    <title>Personnalités</title>
+    <link>https://www.ux-guidelines.com/fr/personnalites.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/personnalites.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les chercheurs, designers et ingénieurs derrière chaque loi et principe de ce site.</description>
+  </item>
+  <item>
+    <title>Loi de Postel</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-postel.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-postel.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Le principe de robustesse de Jon Postel (1980) est né de la spécification TCP — une règle pour que les réseaux tolèrent des pairs négligents sans le devenir eux-mêmes. La même règle s'applique aux interfaces : soyez strict sur ce que vous produisez, indulgent avec ce que les utilisateurs vous donnent.</description>
+  </item>
+  <item>
+    <title>Loi de puissance de la pratique</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-puissance-de-la-pratique.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-puissance-de-la-pratique.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Snoddy (1926) l'a observé et Newell et Rosenbloom (1981) l'ont formalisé : à mesure qu'on répète une tâche, son temps suit une courbe en loi de puissance. Gains rapides au début, plus doux ensuite, et une longue traîne où la pratique paie encore — juste moins.</description>
+  </item>
+  <item>
+    <title>Divulgation progressive</title>
+    <link>https://www.ux-guidelines.com/fr/divulgation-progressive.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/divulgation-progressive.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La divulgation progressive relègue les options avancées ou rarement utilisées à une couche secondaire, gardant le premier écran centré sur ce dont la plupart des utilisateurs ont besoin la plupart du temps. C'est le compromis de travail entre puissance et simplicité.</description>
+  </item>
+  <item>
+    <title>Les 10 principes de Rams</title>
+    <link>https://www.ux-guidelines.com/fr/les-10-principes-de-rams.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/les-10-principes-de-rams.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Dieter Rams a écrit ces principes du bon design dans les années 1970 chez Braun. Cinquante ans plus tard, ils décrivent toujours ce qui rend un produit numérique authentiquement bon.</description>
+  </item>
+  <item>
+    <title>Effet de position sérielle</title>
+    <link>https://www.ux-guidelines.com/fr/effet-de-position-serielle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-de-position-serielle.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Hermann Ebbinghaus a découvert que les gens retiennent le mieux les premiers et derniers éléments d'une série — primauté et récence — tandis que le milieu se brouille. L'effet décide de ce qui va aux extrémités de vos menus, listes et parcours.</description>
+  </item>
+  <item>
+    <title>Les huit règles d'or de Shneiderman</title>
+    <link>https://www.ux-guidelines.com/fr/les-huit-regles-d-or-de-shneiderman.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/les-huit-regles-d-or-de-shneiderman.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les huit règles d'or du design d'interface de Ben Shneiderman, tirées de Designing the User Interface, distillent des décennies de recherche en IHM en règles qui gouvernent encore chaque écran : cohérence, raccourcis, feedback, clôture, gestion des erreurs, annulation, contrôle et charge mémorielle.</description>
+  </item>
+  <item>
+    <title>Loi du pilotage</title>
+    <link>https://www.ux-guidelines.com/fr/loi-du-pilotage.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-du-pilotage.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Johnny Accot et Shumin Zhai ont étendu la loi de Fitts au déplacement le long d'un chemin contraint : le temps croît avec la longueur du tunnel et diminue avec sa largeur. Elle gouverne les menus imbriqués, les curseurs et chaque glisser.</description>
+  </item>
+  <item>
+    <title>Loi de Tesler</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-tesler.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-tesler.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Tout système porte une part irréductible de complexité. La seule question est de savoir qui l'absorbe — le système ou l'utilisateur. Un bon design en prend discrètement autant qu'il peut.</description>
+  </item>
+  <item>
+    <title>Premiers principes de Tognazzini</title>
+    <link>https://www.ux-guidelines.com/fr/premiers-principes-de-tognazzini.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/premiers-principes-de-tognazzini.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Les First Principles of Interaction Design de Bruce « Tog » Tognazzini, écrits et affinés sur AskTog.com au fil de décennies chez Apple, Sun et Nielsen Norman Group. Moins un catéchisme qu'un ensemble de règles de travail — chacune tirée de produits livrés et de patterns qui ont tenu à l'échelle.</description>
+  </item>
+  <item>
+    <title>Vallée de l’étrange</title>
+    <link>https://www.ux-guidelines.com/fr/vallee-de-l-etrange.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/vallee-de-l-etrange.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Masahiro Mori a observé en 1970 que l’affinité pour une figure humanoïde croît avec le réalisme, puis s’effondre dans le malaise juste avant d’être convaincante. La vallée engloutit désormais les voix et les textes, pas seulement les visages.</description>
+  </item>
+  <item>
+    <title>Icônes universelles</title>
+    <link>https://www.ux-guidelines.com/fr/icones-universelles.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/icones-universelles.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Un petit ensemble de glyphes est devenu un langage quasi universel. Utilisez-les tels qu'ils sont compris, associez-les à des libellés et gardez un seul jeu cohérent.</description>
+  </item>
+  <item>
+    <title>Effet von Restorff</title>
+    <link>https://www.ux-guidelines.com/fr/effet-von-restorff.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-von-restorff.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Hedwig von Restorff a montré en 1933 que lorsqu'un élément d'un groupe diffère des autres, c'est celui-là qu'on retient. L'effet d'isolation explique pourquoi une seule couleur d'accent fonctionne — et pourquoi dix ne fonctionnent pas.</description>
+  </item>
+  <item>
+    <title>WCAG et POUR</title>
+    <link>https://www.ux-guidelines.com/fr/wcag-et-pour.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/wcag-et-pour.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>L'accessibilité repose sur quatre principes — Perceptible, Utilisable, Compréhensible, Robuste. Voici ce que chacun signifie et les critères de succès que chaque équipe devrait connaître.</description>
+  </item>
+  <item>
+    <title>Loi de Weber-Fechner</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-weber-fechner.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-weber-fechner.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Ernst Weber (1834) et Gustav Fechner (1860) ont formalisé la relation entre stimulus physique et intensité perçue. Le plus petit changement détectable n'est pas une quantité fixe — c'est une proportion fixe de ce qui existe déjà. La loi apparaît dans le volume, la luminosité, les prix, le poids, le timing d'animation et le contraste.</description>
+  </item>
+  <item>
+    <title>Loi de Yerkes-Dodson</title>
+    <link>https://www.ux-guidelines.com/fr/loi-de-yerkes-dodson.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/loi-de-yerkes-dodson.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>La découverte de Robert Yerkes et John Dodson (1908) : la performance s'améliore avec un niveau modéré de stress ou de stimulation, mais seulement jusqu'à un certain point. Au-delà, elle chute. La courbe est un U inversé — et les tâches complexes ont un optimum plus étroit que les simples.</description>
+  </item>
+  <item>
+    <title>Effet Zeigarnik</title>
+    <link>https://www.ux-guidelines.com/fr/effet-zeigarnik.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/fr/effet-zeigarnik.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>Bluma Zeigarnik a découvert que les tâches interrompues et incomplètes sont bien mieux mémorisées que les tâches terminées. Les boucles ouvertes ramènent les gens — le moteur derrière les barres de progression, les séries et chaque relance « complétez votre profil ».</description>
+  </item>
+</channel>
+</rss>

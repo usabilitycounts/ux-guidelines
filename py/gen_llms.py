@@ -9,7 +9,7 @@ BASE = 'https://www.ux-guidelines.com/'
 GROUPS = [
  ("Lay Out The Page", ['eye-scanning-patterns','gutenberg-principle','grid-and-hierarchy','golden-ratio','silver-ratio','aspect-ratio','rule-of-thirds','rule-of-odds','canons-of-page-construction','line-length','gestalt-principles','negative-space','von-restorff-effect','weber-fechner-law','ebbinghaus-illusion']),
  ("Present And Explain", ['data-visualization','universal-icons','progressive-disclosure','cognitive-load-theory','millers-law','serial-position-effect','curse-of-knowledge']),
- ("Structure The Choices", ['hicks-law','jakobs-law','principle-of-least-astonishment','paradox-of-choice','satisficing','choice-architecture','nudge-theory','default-effect','social-proof','automation-bias','dark-patterns']),
+ ("Structure The Choices", ['hicks-law','jakobs-law','principle-of-least-astonishment','paradox-of-choice','satisficing','choice-architecture','nudge-theory','default-effect','social-proof','anchoring-effect','automation-bias','dark-patterns']),
  ("Design Actions And Controls", ['fitts-law','steering-law','contour-bias','stroop-effect','zipfs-law','navigation-patterns','doherty-threshold','change-blindness','alarm-fatigue','power-law-of-practice','yerkes-dodson-law']),
  ("Keep Them Coming Back", ['aesthetic-usability-effect','peak-end-rule','uncanny-valley','zeigarnik-effect','fogg-behavior-model','hook-model','ikea-effect']),
  ("Build The System", ['teslers-law','galls-law','conways-law','postels-law','goodharts-law','survivorship-bias','hofstadters-law','human-in-the-loop','out-of-the-loop-problem','pareto-principle']),
@@ -34,7 +34,7 @@ def main():
         out.append('')
     out.append('## Reference')
     out.append('')
-    for p, label in [('glossary', 'Glossary of UX terms'), ('people', 'The researchers behind the laws'), ('by-year', 'Chronological timeline of the laws'), ('about', 'About the site')]:
+    for p, label in [('glossary', 'Glossary of UX terms'), ('people', 'The researchers behind the laws'), ('by-year', 'Chronological timeline of the laws'), ('release-log', 'New pages and improvements, by date'), ('about', 'About the site')]:
         out.append(f'- [{label}]({BASE}{p}.html)')
     with open(f'{SITE}/llms.txt', 'w') as f:
         f.write('\n'.join(out) + '\n')

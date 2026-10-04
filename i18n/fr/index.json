@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Une bibliothèque grandissante de 70 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
+  "Une bibliothèque grandissante de 71 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs."
  ],
  ".card .tag": [
   "+ Ère de l'IA",
@@ -74,6 +74,7 @@
   "Thaler et Sunstein, 2008",
   "Johnson et Goldstein, 2003",
   "Cialdini, 1984",
+  "Tversky et Kahneman, 1974",
   "Mosier, 1996",
   "Brignull, 2010"
  ],
@@ -146,6 +147,7 @@
   "Théorie du nudge",
   "Effet de défaut",
   "Preuve sociale",
+  "Effet d'ancrage",
   "Biais d’automatisation",
   "Dark patterns"
  ],
@@ -218,6 +220,7 @@
   "Faire du meilleur choix le plus facile.",
   "La plupart des gens gardent ce qui est présélectionné.",
   "Dans le doute, on imite les autres.",
+  "Le premier chiffre fixe le cadre.",
   "On fait trop confiance à la machine.",
   "Des astuces qui gagnent le clic et perdent la confiance."
  ]

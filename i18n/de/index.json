@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "Eine wachsende Bibliothek von 70 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
+  "Eine wachsende Bibliothek von 71 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler."
  ],
  ".card .tag": [
   "+ KI-Ära",
@@ -74,6 +74,7 @@
   "Thaler und Sunstein, 2008",
   "Johnson und Goldstein, 2003",
   "Cialdini, 1984",
+  "Tversky und Kahneman, 1974",
   "Mosier, 1996",
   "Brignull, 2010"
  ],
@@ -146,6 +147,7 @@
   "Nudge-Theorie",
   "Default-Effekt",
   "Sozialer Beweis",
+  "Ankereffekt",
   "Automation Bias",
   "Dark Patterns"
  ],
@@ -218,6 +220,7 @@
   "Die bessere Wahl zur leichteren machen.",
   "Die meisten behalten, was vorausgewählt ist.",
   "Im Zweifel machen Menschen nach, was andere tun.",
+  "Die erste Zahl setzt den Rahmen.",
   "Menschen vertrauen der Maschine zu sehr.",
   "Tricks, die den Klick gewinnen und das Vertrauen verlieren."
  ]

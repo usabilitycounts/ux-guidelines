@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>UX Guidelines (日本語)</title>
+  <link>https://www.ux-guidelines.com/ja/</link>
+  <description>研究に基づくインターフェースデザインの法則、ヒューリスティクス、パターン。それぞれの起源、実践のための指針、AI時代に何が変わるかを解説。</description>
+  <language>ja</language>
+  <lastBuildDate>Sun, 04 Oct 2026 17:34:56 +0000</lastBuildDate>
+  <atom:link href="https://www.ux-guidelines.com/ja/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>リリースログ</title>
+    <link>https://www.ux-guidelines.com/ja/release-log.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/release-log.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:34:54 +0000</pubDate>
+    <description>UX Guidelinesの新しいページと主な改善を、新しい順に。</description>
+  </item>
+  <item>
+    <title>アンカリング効果</title>
+    <link>https://www.ux-guidelines.com/ja/anchoring-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/anchoring-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 17:34:16 +0000</pubDate>
+    <description>人は、最初に見た数字を出発点にして値を判断し、そこから十分に離れない。価格、初期値、比較の基準、見積もりには、選んだかどうかにかかわらず、すべてアンカーがある。</description>
+  </item>
+  <item>
+    <title>アラーム疲労</title>
+    <link>https://www.ux-guidelines.com/ja/alarm-fatigue.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/alarm-fatigue.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>大半が誤報や些細なものである頻繁な警報にさらされると、人は反応しなくなる。警報を閉じ、消音し、回避するようになり、まれな重大警報も同じ扱いを受けてしまう。</description>
+  </item>
+  <item>
+    <title>アスペクト比</title>
+    <link>https://www.ux-guidelines.com/ja/aspect-ratio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/aspect-ratio.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>画像の幅と高さの比で、幅:高さと書く。この比が、枠に何が収まるか、横長のモニターから縦に持ったスマートフォンまでコンテンツがどう適応するか、読み込み中にページがずれるかどうかを決める。</description>
+  </item>
+  <item>
+    <title>変化盲</title>
+    <link>https://www.ux-guidelines.com/ja/change-blindness.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/change-blindness.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>瞬き、再読み込み、カット、気をそらすものの最中に起きた変化は、驚くほど大きくても見落とされる。何が変わったかを示さずにその場で変わる画面は、ユーザーに新しい画面を古い画面だと思わせたままにする。</description>
+  </item>
+  <item>
+    <title>選択アーキテクチャ</title>
+    <link>https://www.ux-guidelines.com/ja/choice-architecture.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/choice-architecture.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>どれをあらかじめ選んでおくか、どの順に並べるかといった選択肢の見せ方が、人の選ぶものを左右する。デザインは避けられないのだから、意図をもって、人のために設計しよう。</description>
+  </item>
+  <item>
+    <title>ダークパターン</title>
+    <link>https://www.ux-guidelines.com/ja/dark-patterns.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/dark-patterns.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>購入、登録、情報の共有を、本人の意図以上にさせるよう仕組まれたインターフェース。四半期の間は指標を押し上げるが、その後はだまされた人々の信頼を失い、罰金を招くことも増えている。</description>
+  </item>
+  <item>
+    <title>デフォルト効果</title>
+    <link>https://www.ux-guidelines.com/ja/default-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/default-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>人が何もしなかったときに起きることが、大多数の人が最終的に選ぶ選択肢になる。デフォルトを選ぶことは大多数のために選ぶことであり、機能そのものと同じくらいの注意を払うべきだ。</description>
+  </item>
+  <item>
+    <title>行長</title>
+    <link>https://www.ux-guidelines.com/ja/line-length.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/line-length.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>1行の幅は、目が次の行をどれだけ楽に見つけられるかを左右する。長すぎる行は戻る途中で読み手を迷わせ、短すぎる行はリズムを壊す。本文なら、45〜75文字が快適な範囲だ。</description>
+  </item>
+  <item>
+    <title>ネガティブスペース</title>
+    <link>https://www.ux-guidelines.com/ja/negative-space.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/negative-space.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>ネガティブスペースとは、要素の周りや間にある空白のことだ。余った場所ではない。線や枠を一本も使わずに、コンテンツをまとめて分け、何が大事かを示し、目に休む場所を与える。</description>
+  </item>
+  <item>
+    <title>ナッジ理論</title>
+    <link>https://www.ux-guidelines.com/ja/nudge-theory.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/nudge-theory.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>ナッジは、すべての選択肢を残したまま、楽で自動的な選択がより良い選択になるよう、意思決定の状況を変える。議論ではなく習慣に働きかけるので、効果的で安価だが、悪用もしやすい。</description>
+  </item>
+  <item>
+    <title>驚き最小の原則</title>
+    <link>https://www.ux-guidelines.com/ja/principle-of-least-astonishment.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/principle-of-least-astonishment.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>コンポーネントは、大多数のユーザーが期待するとおりに振る舞うべきだ。驚きのたびに注意と信頼が失われる。人がすでに知っている慣習に従い、妥当な初期値を選び、どの操作も見た目どおりに動くようにしよう。</description>
+  </item>
+  <item>
+    <title>満足化</title>
+    <link>https://www.ux-guidelines.com/ja/satisficing.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/satisficing.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>人は最善の選択肢を探すのではなく、自分の基準を満たした最初のものを選ぶ。オンラインでは、ユーザーはもっともらしく見える最初のリンクをクリックする。だから正しい選択肢は、最初の妥当な選択肢に見えなければならない。</description>
+  </item>
+  <item>
+    <title>白銀比</title>
+    <link>https://www.ux-guidelines.com/ja/silver-ratio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/silver-ratio.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>白銀比（1 + √2、約2.414）は、黄金比よりもはっきりと空間を分ける。八角形やA4用紙に現れ、レイアウトに、一方が明確に主となる横長で落ち着いたプロポーションを与える。</description>
+  </item>
+  <item>
+    <title>社会的証明</title>
+    <link>https://www.ux-guidelines.com/ja/social-proof.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/social-proof.html</guid>
+    <pubDate>Sun, 04 Oct 2026 10:19:00 -0700</pubDate>
+    <description>人はどうすべきか分からないとき、他の人の行動をまね、それが正しいと考える。レビュー、評価、利用者数はこの本能を活かす。ただし、証拠が本物であり、従う価値のある規範である場合に限る。</description>
+  </item>
+  <item>
+    <title>エビングハウス錯視</title>
+    <link>https://www.ux-guidelines.com/ja/ebbinghaus-illusion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/ebbinghaus-illusion.html</guid>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
+    <description>同じ大きさの円でも、一方を大きな円で、もう一方を小さな円で囲むと、違う大きさに見える。画面上の大きさはすべて周囲との関係で読まれるため、ボタンやアイコン、グラフのバブルは実際より大きくも小さくも見えうる。</description>
+  </item>
+  <item>
+    <title>生存者バイアス</title>
+    <link>https://www.ux-guidelines.com/ja/survivorship-bias.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/survivorship-bias.html</guid>
+    <pubDate>Thu, 01 Oct 2026 22:20:22 -0700</pubDate>
+    <description>アクティブユーザーや成功した製品、帰還した飛行機のように、選別を通り抜けたケースだけから引き出した結論は、途中でふるい落とされたものをすべて見落とす。結論は楽観的になりすぎ、成功を間違った原因のおかげにしかねない。</description>
+  </item>
+  <item>
+    <title>マイクロソフトの18のAIガイドライン</title>
+    <link>https://www.ux-guidelines.com/ja/microsoft-ai-guidelines.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/microsoft-ai-guidelines.html</guid>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
+    <description>AIを組み込んだプロダクトを設計するための18のガイドライン。効いてくるタイミングごとに分けてある。最初に何を約束するか、利用中にどう振る舞うか、システムが間違ったときに何が起きるか、そして時間とともにどう変わるか。4つ目のグループは、多くのチームが飛ばすところだ。</description>
+  </item>
+  <item>
+    <title>UIの原則と落とし穴</title>
+    <link>https://www.ux-guidelines.com/ja/ui-tenets-and-traps.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/ui-tenets-and-traps.html</guid>
+    <pubDate>Wed, 23 Sep 2026 20:50:13 -0700</pubDate>
+    <description>9つの原則と、それを破る落とし穴からなるヒューリスティック評価のフレームワーク。落とし穴はそれぞれ、検出できる具体的な設計上の問題で、ちょうど1つの原則に対応する。だからチームは何が悪いのかを正確に言え、なぜそれが重要なのかについて合意できる。</description>
+  </item>
+  <item>
+    <title>ジップの法則</title>
+    <link>https://www.ux-guidelines.com/ja/zipfs-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/zipfs-law.html</guid>
+    <pubDate>Thu, 17 Sep 2026 01:13:25 -0700</pubDate>
+    <description>何であれ利用頻度で並べ替えると、件数は急で予測可能な曲線に沿って落ちていく。2位の項目は1位のおよそ半分、3位はおよそ3分の1のトラフィックになる。ナビゲーション、検索結果の順位、機能の優先順位は、いずれもこの曲線の上にある。</description>
+  </item>
+  <item>
+    <title>アウト・オブ・ザ・ループ問題</title>
+    <link>https://www.ux-guidelines.com/ja/out-of-the-loop-problem.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/out-of-the-loop-problem.html</guid>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
+    <description>アウト・オブ・ザ・ループのパフォーマンス問題。自動化を監視していると、いざ失敗したときに引き継ぐために必要な能力そのものが失われていく。システムが順調に動き続けるほど、見ている人が実際に手を動かす機会は減り、しかも引き継ぎはいつも最も難しい瞬間に訪れる。</description>
+  </item>
+  <item>
+    <title>ストループ効果</title>
+    <link>https://www.ux-guidelines.com/ja/stroop-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/stroop-effect.html</guid>
+    <pubDate>Wed, 16 Sep 2026 20:09:17 -0700</pubDate>
+    <description>読むことは自動的に起きるが、色の名前を答えることはそうではない。ラベルとその色が違う意味を伝えるとき——緑色の「削除」ボタン、赤色の成功バッジ——二つの読み取りが衝突し、人は動作が遅くなり、ためらい、押し間違いが増える。</description>
+  </item>
+  <item>
+    <title>ヒューマン・イン・ザ・ループ</title>
+    <link>https://www.ux-guidelines.com/ja/human-in-the-loop.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/human-in-the-loop.html</guid>
+    <pubDate>Wed, 16 Sep 2026 19:41:32 -0700</pubDate>
+    <description>自動化された判断の中に人を残すことを、偶然ではなく設計として行う。このパターンは、人の判断がどこに置かれるのか——すべての操作を承認するのか、流れを監督するのか、まったく関与しないのか——と、それぞれの選択が何を代償にするのかを示す。</description>
+  </item>
+  <item>
+    <title>ページ構成のカノン</title>
+    <link>https://www.ux-guidelines.com/ja/canons-of-page-construction.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/canons-of-page-construction.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:30:55 -0700</pubDate>
+    <description>読みやすいページレイアウトを支える、余白と版面の古典的な比率。ページと同じ比率の版面、外側より狭い内側の余白、天より深い地——中世の写本から再構成されたルールは、今も読むための画面に整った印象を与える。</description>
+  </item>
+  <item>
+    <title>奇数の法則</title>
+    <link>https://www.ux-guidelines.com/ja/rule-of-odds.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/rule-of-odds.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:30:55 -0700</pubDate>
+    <description>3つや5つの群は偶数の群より自然に見え、機能カードや画像で効いてくる。奇数は視線に休める中心を与え、偶数は対に分かれて比較を求める。</description>
+  </item>
+  <item>
+    <title>黄金比</title>
+    <link>https://www.ux-guidelines.com/ja/golden-ratio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/golden-ratio.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:13:35 -0700</pubDate>
+    <description>約1.618の比率。小さい部分と大きい部分の関係が、大きい部分と全体の関係に等しくなるように線分を分ける。デザイナーはこれを使って、落ち着いて見えるカラム幅、文字サイズの段階、トリミングを決める——ルールではなく道具にとどめている限り。</description>
+  </item>
+  <item>
+    <title>三分割法</title>
+    <link>https://www.ux-guidelines.com/ja/rule-of-thirds.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/rule-of-thirds.html</guid>
+    <pubDate>Wed, 16 Sep 2026 09:13:35 -0700</pubDate>
+    <description>フレームを3列3段に分け、大事なものを線とその4つの交点の上に置く。写真における最古の構図ルールは、ヒーロー画像やトリミング、ページの最初の画面にもそのまま効く。</description>
+  </item>
+  <item>
+    <title>年代順</title>
+    <link>https://www.ux-guidelines.com/ja/by-year.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/by-year.html</guid>
+    <pubDate>Sun, 23 Aug 2026 16:28:22 -0700</pubDate>
+    <description>ライブラリのすべてのリファレンスを年代順に——1834年のウェーバーの比率から2014年のフックモデルまで——それぞれが確立された年とともに。</description>
+  </item>
+  <item>
+    <title>自動化バイアス</title>
+    <link>https://www.ux-guidelines.com/ja/automation-bias.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/automation-bias.html</guid>
+    <pubDate>Sun, 23 Aug 2026 16:12:04 -0700</pubDate>
+    <description>モジャーとスキトカは1990年代、人が自動化された提案を過信することを示した — 間違っていても従い、機械が見逃したものを見逃す。AI時代、これはあらゆるインターフェースが設計で立ち向かうべきバイアスだ。</description>
+  </item>
+  <item>
+    <title>概要</title>
+    <link>https://www.ux-guidelines.com/ja/about.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/about.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>このサイトを作っているのは誰か、なぜ存在するのか。</description>
+  </item>
+  <item>
+    <title>美的ユーザビリティ効果</title>
+    <link>https://www.ux-guidelines.com/ja/aesthetic-usability-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/aesthetic-usability-effect.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1995年、黒須正明と鹿志村香によるATM研究——人々が美しいと感じるインターフェースは、実際の使いやすさに関係なく、使いやすいと評価される。磨き込みは忍耐と信頼を買い、本当の問題を隠すこともある。</description>
+  </item>
+  <item>
+    <title>チェスタトンのフェンス</title>
+    <link>https://www.ux-guidelines.com/ja/chestertons-fence.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/chestertons-fence.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>G・K・チェスタトンが改革者に向けたルール——あなたが無意味だと思うそのフェンスは、理由があって誰かが建てたものだ。まず理由を理解すること。そのときはじめて、取り除く権利を得る。</description>
+  </item>
+  <item>
+    <title>認知負荷理論</title>
+    <link>https://www.ux-guidelines.com/ja/cognitive-load-theory.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/cognitive-load-theory.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ジョン・スウェラーの理論は、後の精緻化を経て、頭の負担を3つの負荷に分ける。内在的負荷（タスクそのもの）、外在的負荷（インターフェースのオーバーヘッド）、そして学習関連負荷（本物の学び）。デザインの仕事は、真ん中を削ることだ。</description>
+  </item>
+  <item>
+    <title>輪郭バイアス</title>
+    <link>https://www.ux-guidelines.com/ja/contour-bias.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/contour-bias.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>モシェ・バーとマイタル・ネタは2006年、人は鋭い物より曲線的な物を好むことを示した — 尖った輪郭は一瞥で脅威として読まれる。丸みはユーザーをくつろがせ、鋭さは注意を要求する。どちらも道具だ。</description>
+  </item>
+  <item>
+    <title>コンウェイの法則</title>
+    <link>https://www.ux-guidelines.com/ja/conways-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/conways-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1968年のメルヴィン・コンウェイの観察——プロダクトの「継ぎ目」がどこにできるかを予測する最も確実なルール。チームが仕事を引き継ぐ場所には、プロダクトにも継ぎ目ができる。</description>
+  </item>
+  <item>
+    <title>知識の呪い</title>
+    <link>https://www.ux-guidelines.com/ja/curse-of-knowledge.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/curse-of-knowledge.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1989年、経済学者カメラー、ローウェンスタイン、ウェーバーが命名——何かを知ってしまうと、それを知らない人の心をシミュレートできなくなる。専門家がわかりにくいドキュメントを書き、チームが専門用語を世に出してしまう理由がこれだ。</description>
+  </item>
+  <item>
+    <title>データビジュアライゼーション</title>
+    <link>https://www.ux-guidelines.com/ja/data-visualization.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/data-visualization.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>答える問いで分類した16種類のチャート——比較、関係、分布、構成。印象的に見えるチャートではなく、問いに合ったチャートを選ぶこと。</description>
+  </item>
+  <item>
+    <title>ドハティのしきい値</title>
+    <link>https://www.ux-guidelines.com/ja/doherty-threshold.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/doherty-threshold.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1982年、ウォルター・ドハティとA・J・タダニによるIBMの研究——システムが400ミリ秒以内に応答すると、生産性は跳ね上がる。ユーザーとコンピュータが同じ思考の流れにとどまるからだ。ここでは、あらゆるインターフェースが今も従う古典的な応答時間の限界値とあわせて紹介する。</description>
+  </item>
+  <item>
+    <title>視線走査パターン</title>
+    <link>https://www.ux-guidelines.com/ja/eye-scanning-patterns.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/eye-scanning-patterns.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>数十年のアイトラッキング研究が示すのは、人はインターフェースを読まず、予測可能な形で走査するということ。ここでは6つのパターンと、それぞれが現れる場面を紹介する。</description>
+  </item>
+  <item>
+    <title>フィッツの法則</title>
+    <link>https://www.ux-guidelines.com/ja/fitts-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/fitts-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ターゲットに到達する時間は、その大きさと距離で決まる。フィッツの法則はすべてのボタン、リンク、タップ領域を支配し、画面の端や角がなぜ速く感じられるかを説明する。</description>
+  </item>
+  <item>
+    <title>フォッグ行動モデル</title>
+    <link>https://www.ux-guidelines.com/ja/fogg-behavior-model.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/fogg-behavior-model.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>BJフォッグの2009年のモデルによれば、行動はモチベーション、能力、プロンプト（当初の用語はトリガー）が同時に着地したときにのみ起こる。どれか一つを取り除けば、他の二つが最大でも行動は起こらない。このモデルは行動デザイン、説得的テクノロジー、タイニー・ハビットの基盤である。</description>
+  </item>
+  <item>
+    <title>ゴールの法則</title>
+    <link>https://www.ux-guidelines.com/ja/galls-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/galls-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1975年、ジョン・ゴールがSystemanticsで述べた観察——複雑なシステムをゼロから設計して機能させることはできない。機能する複雑なシステムは、実際に出荷され使われた単純なシステムの子孫である。単純な祖先を飛ばせば、子孫は決して息をしない。</description>
+  </item>
+  <item>
+    <title>ゲシュタルトの原則</title>
+    <link>https://www.ux-guidelines.com/ja/gestalt-principles.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/gestalt-principles.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>心は見たものを自動的にグループ化する。この10の知覚原則は、人が一語も読む前にレイアウトから構造を読み取る仕組みを説明する。</description>
+  </item>
+  <item>
+    <title>用語集</title>
+    <link>https://www.ux-guidelines.com/ja/glossary.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/glossary.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>UX Guidelines全体で使われるすべての用語を、ひとつのアルファベット順リファレンスに。</description>
+  </item>
+  <item>
+    <title>グッドハートの法則</title>
+    <link>https://www.ux-guidelines.com/ja/goodharts-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/goodharts-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1975年のチャールズ・グッドハートの観察を、マリリン・ストラザーンが研ぎ澄ました——数字が人を評価するために使われた瞬間、その数字は本来測っていたものから乖離していく。KPI、OKR、AIの訓練シグナルはすべてこの問題に正面から突き当たる。</description>
+  </item>
+  <item>
+    <title>グリッドと階層</title>
+    <link>https://www.ux-guidelines.com/ja/grid-and-hierarchy.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/grid-and-hierarchy.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>グリッドは空間を整理し、階層は注意を導く。両者は、よく練られたインターフェースの下に潜む静かな層を形づくる——正しくできているとき、ユーザーが決して気づかない部分だ。</description>
+  </item>
+  <item>
+    <title>グーテンベルクの原則</title>
+    <link>https://www.ux-guidelines.com/ja/gutenberg-principle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/gutenberg-principle.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>要素の重みが均等なページでは、視線は左上から右下へと流れる。グーテンベルクの原則はこの「読みの重力」を地図化し、重要なものをどこに置くべきかを示す。</description>
+  </item>
+  <item>
+    <title>ヒックの法則</title>
+    <link>https://www.ux-guidelines.com/ja/hicks-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/hicks-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>提示する選択肢が多いほど、あらゆる決定に時間がかかる。ヒックの法則はメニュー、設定、オンボーディングの設計と、その回避テクニックを形づくる。</description>
+  </item>
+  <item>
+    <title>ホフスタッターの法則</title>
+    <link>https://www.ux-guidelines.com/ja/hofstadters-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/hofstadters-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1979年、ダグラス・ホフスタッターの『ゲーデル、エッシャー、バッハ』より。自己言及的なジョークでありながら、ソフトウェア見積もりの実用則でもある——あらゆるプロジェクトは正直な見積もりより長くかかり、見積もりを水増ししても解決しない。この法則は、チームの出荷の仕方——そしてユーザーが見つめるプログレスバー——の土台となった。</description>
+  </item>
+  <item>
+    <title>フックモデル</title>
+    <link>https://www.ux-guidelines.com/ja/hook-model.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/hook-model.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>2014年、ニール・イヤールが提唱した習慣形成プロダクトのフレームワーク。ユーザーが繰り返し通過する4つのフェーズを経て、プロダクトは反射になる。同書はまた、ユーザーが感謝するフックと後悔するフックの境界線を引いている。</description>
+  </item>
+  <item>
+    <title>イケア効果</title>
+    <link>https://www.ux-guidelines.com/ja/ikea-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/ikea-effect.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ノートン、モション、アリエリーは2012年、人は自分が組み立てに関わったものをはるかに高く評価することを示した。わずかな手間でも、ユーザーは共同制作者になり、共同制作者は所有者になる。</description>
+  </item>
+  <item>
+    <title>UX Guidelines</title>
+    <link>https://www.ux-guidelines.com/ja/</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>研究に裏付けられた71件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。</description>
+  </item>
+  <item>
+    <title>ヤコブの法則</title>
+    <link>https://www.ux-guidelines.com/ja/jakobs-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/jakobs-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>人々は他のサイトで大半の時間を過ごすため、あなたのサイトも同じように動くことを期待する。慣習に従うこと——そしてAIが慣習を書き換えつつある今、注意深く見守ること。</description>
+  </item>
+  <item>
+    <title>ミラーの法則</title>
+    <link>https://www.ux-guidelines.com/ja/millers-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/millers-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1956年のジョージ・ミラーの論文はワーキングメモリに数字を与えた——約7チャンク。数字自体は曖昧だが、教訓は明確だ。記憶は小さく、デザインの仕事は情報をまとめてユーザーが負担なく保持できるようにすることである。</description>
+  </item>
+  <item>
+    <title>ナビゲーションパターン</title>
+    <link>https://www.ux-guidelines.com/ja/navigation-patterns.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/navigation-patterns.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ナビゲーションはプロダクトの結合組織である。各層はそれぞれ異なる仕事を担う——適切な重みを与えれば、構造は見えなくなる。</description>
+  </item>
+  <item>
+    <title>ニールセンの10ヒューリスティクス</title>
+    <link>https://www.ux-guidelines.com/ja/nielsens-heuristics.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/nielsens-heuristics.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ヤコブ・ニールセンの10のユーザビリティヒューリスティクスは、今なおインターフェースの問題を見つけるために最も広く使われているチェックリストである——それぞれを現代的で実践的な例とともに解説する。</description>
+  </item>
+  <item>
+    <title>ノーマンの原則</title>
+    <link>https://www.ux-guidelines.com/ja/normans-principles.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/normans-principles.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ドン・ノーマンの『誰のためのデザイン？』（1988）は、HCIの基盤となった一連のデザイン原則を提示した。前提はこうだ——よくデザインされたものは、それが何をするのか、どう使うのか、正しくできたのかを、マニュアルなしで教えてくれる。</description>
+  </item>
+  <item>
+    <title>選択のパラドックス</title>
+    <link>https://www.ux-guidelines.com/ja/paradox-of-choice.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/paradox-of-choice.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>選択肢が増えると、かえって決定が減ることがある。選択過多の研究と、決定麻痺から人々を導くパターンを紹介する。</description>
+  </item>
+  <item>
+    <title>パレートの法則</title>
+    <link>https://www.ux-guidelines.com/ja/pareto-principle.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/pareto-principle.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1896年、ヴィルフレド・パレートはイタリアの土地の8割が2割の人々に所有されていることに気づいた。このパターンはソフトウェア、サポート、パフォーマンス、プロダクト戦略で繰り返される——価値の大半はごく一部の入力から生まれる。どの2割かを知ることがすべてだ。</description>
+  </item>
+  <item>
+    <title>ピーク・エンドの法則</title>
+    <link>https://www.ux-guidelines.com/ja/peak-end-rule.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/peak-end-rule.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ダニエル・カーネマンの研究は、人が体験を平均ではなく、最も強烈な瞬間と最後の瞬間で判断することを示している。ピークを設計し、着地を決め、最悪の瞬間を最初に直そう。</description>
+  </item>
+  <item>
+    <title>人物</title>
+    <link>https://www.ux-guidelines.com/ja/people.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/people.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>このサイトのすべての法則と原則を支える研究者、デザイナー、エンジニアたち。</description>
+  </item>
+  <item>
+    <title>ポステルの法則</title>
+    <link>https://www.ux-guidelines.com/ja/postels-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/postels-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1980年、ジョン・ポステルの堅牢性原則はTCP仕様から生まれた——ネットワークが雑な相手を許容しながら、自らは雑にならないためのルール。同じルールはインターフェースにもきれいに当てはまる。生成するものには厳格に、ユーザーが渡してくるものには寛容に。</description>
+  </item>
+  <item>
+    <title>練習の冪法則</title>
+    <link>https://www.ux-guidelines.com/ja/power-law-of-practice.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/power-law-of-practice.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>スノディ（1926）が観察し、ニューウェルとローゼンブルーム（1981）が定式化した——タスクを繰り返すほど、所要時間は冪法則の曲線に従って減る。序盤の急激な向上、その後の緩やかな改善、そして練習がまだ報われる長い尾。ただし、報酬は小さくなっていく。</description>
+  </item>
+  <item>
+    <title>段階的開示</title>
+    <link>https://www.ux-guidelines.com/ja/progressive-disclosure.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/progressive-disclosure.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>段階的開示は、高度な機能やめったに使われないオプションを二次レイヤーに退避させ、最初の画面を「ほとんどのユーザーがほとんどの場合に必要とするもの」に集中させる。パワーとシンプルさの間の、実用的な妥協点である。</description>
+  </item>
+  <item>
+    <title>ラムスの10原則</title>
+    <link>https://www.ux-guidelines.com/ja/rams-principles.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/rams-principles.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ディーター・ラムスは1970年代、ブラウン社でこの良いデザインの原則を書いた。50年経った今も、デジタルプロダクトを本当に良いものにする条件を言い当てている。</description>
+  </item>
+  <item>
+    <title>系列位置効果</title>
+    <link>https://www.ux-guidelines.com/ja/serial-position-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/serial-position-effect.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ヘルマン・エビングハウスは、人が系列の最初と最後の項目を最もよく思い出し——初頭効果と新近効果——真ん中はぼやけることを発見した。この効果が、メニュー、リスト、フローの両端に何を置くべきかを決める。</description>
+  </item>
+  <item>
+    <title>シュナイダーマンの8つの黄金律</title>
+    <link>https://www.ux-guidelines.com/ja/shneiderman-eight-golden-rules.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/shneiderman-eight-golden-rules.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ベン・シュナイダーマンの『Designing the User Interface』に示されたインターフェースデザインの8つの黄金律は、数十年のHCI研究を、今もあらゆる画面を支配するルールへと蒸留したものだ——一貫性、ショートカット、フィードバック、完結、エラー処理、取り消し、コントロール、記憶負荷。</description>
+  </item>
+  <item>
+    <title>ステアリングの法則</title>
+    <link>https://www.ux-guidelines.com/ja/steering-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/steering-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ジョニー・アコットとシュミン・ザイは、フィッツの法則を制約された経路に沿った移動へと拡張した——時間はトンネルの長さとともに増え、幅とともに減る。この法則は、入れ子のメニュー、スライダー、そしてあらゆるドラッグ操作を支配する。</description>
+  </item>
+  <item>
+    <title>テスラーの法則</title>
+    <link>https://www.ux-guidelines.com/ja/teslers-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/teslers-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>あらゆるシステムには削減できない複雑さがある。問題はそれを誰が引き受けるかだ——システムか、ユーザーか。良いデザインは、できる限り多くを静かに引き受ける。</description>
+  </item>
+  <item>
+    <title>トグナッツィーニの第一原則</title>
+    <link>https://www.ux-guidelines.com/ja/tognazzinis-first-principles.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/tognazzinis-first-principles.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ブルース・「トグ」・トグナッツィーニのインタラクションデザイン第一原則。Apple、Sun、ニールセン・ノーマン・グループでの数十年にわたり、AskTog.comで書かれ磨かれてきた。教理問答というより実践則の集まりで、どれも実際に出荷されたプロダクトとスケールしたパターンから得られたものだ。</description>
+  </item>
+  <item>
+    <title>不気味の谷</title>
+    <link>https://www.ux-guidelines.com/ja/uncanny-valley.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/uncanny-valley.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>森政弘は1970年、人間らしい姿への親近感はリアルさとともに高まり、本物と見分けがつく直前に不快感へと急落すると指摘した。谷はいまや顔だけでなく、声と文章も呑み込む。</description>
+  </item>
+  <item>
+    <title>ユニバーサルアイコン</title>
+    <link>https://www.ux-guidelines.com/ja/universal-icons.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/universal-icons.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>少数のグリフが、ほぼ世界共通の言語になった。理解されている通りに使い、ラベルを添え、一貫したセットを保とう。</description>
+  </item>
+  <item>
+    <title>フォン・レストルフ効果</title>
+    <link>https://www.ux-guidelines.com/ja/von-restorff-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/von-restorff-effect.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ヘートヴィヒ・フォン・レストルフは1933年、グループの中で1つだけ異なる項目があると、人はそれを記憶することを示した。孤立効果は、アクセントカラーが1色なら効き、10色では効かない理由である。</description>
+  </item>
+  <item>
+    <title>WCAGとPOUR</title>
+    <link>https://www.ux-guidelines.com/ja/wcag-pour.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/wcag-pour.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>アクセシビリティは4つの原則の上に成り立つ——知覚可能、操作可能、理解可能、堅牢。それぞれの意味と、すべてのチームが知っておくべき達成基準を解説する。</description>
+  </item>
+  <item>
+    <title>ウェーバー・フェヒナーの法則</title>
+    <link>https://www.ux-guidelines.com/ja/weber-fechner-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/weber-fechner-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>エルンスト・ウェーバー（1834）とグスタフ・フェヒナー（1860）は、物理的刺激と知覚される強度の関係を定式化した。検知できる最小の変化は固定量ではなく、すでにある量に対する固定比率である。この法則は音量、明るさ、価格、重さ、アニメーションのタイミング、コントラストに現れる。</description>
+  </item>
+  <item>
+    <title>ヤーキーズ・ドットソンの法則</title>
+    <link>https://www.ux-guidelines.com/ja/yerkes-dodson-law.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/yerkes-dodson-law.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>1908年、ロバート・ヤーキーズとジョン・ドットソンの発見——適度なストレスや刺激はパフォーマンスを向上させるが、それはある点までのこと。それを超えると低下する。形は逆U字型で、複雑なタスクほど最適域は狭い。</description>
+  </item>
+  <item>
+    <title>ツァイガルニク効果</title>
+    <link>https://www.ux-guidelines.com/ja/zeigarnik-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/ja/zeigarnik-effect.html</guid>
+    <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
+    <description>ブルーマ・ツァイガルニクは、中断された未完了のタスクが、完了したタスクよりはるかによく記憶されることを発見した。開いたループは人を引き戻す——プログレスバー、ストリーク、あらゆる「プロフィールを完成させましょう」の後押しを動かすエンジンである。</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Efecto <em>ancla</em>"
+ ],
+ "header .tagline": [
+  "El primer número <em>marca el marco</em>."
+ ],
+ "header .subtitle": [
+  "La gente juzga un valor partiendo del primer número que vio y alejándose demasiado poco de él. Los precios, los valores predeterminados, las referencias y las estimaciones llevan todos un ancla, la elijas o no."
+ ],
+ ".law-origin .body-text": [
+  "El anclaje se observó primero en la psicofísica: al juzgar una serie de estímulos, la gente compara el resto con el primero y el último. <a href=\"people.html#p-amos-tversky\">Amos Tversky</a> y <a href=\"people.html#p-daniel-kahneman\">Daniel Kahneman</a> lo formalizaron en su artículo de 1974 sobre el juicio en condiciones de incertidumbre como anclaje y ajuste: se parte de un valor inicial y se ajusta, pero no lo suficiente.",
+  "Sus demostraciones fueron llamativas. Con cinco segundos para estimar 8 × 7 × 6 × 5 × 4 × 3 × 2 × 1, la estimación mediana fue de 2.250; con los mismos números en orden ascendente, fue de 512. La respuesta es 40.320. Más tarde, <a href=\"people.html#p-dan-ariely\">Dan Ariely</a> y sus colegas vieron que las personas con los dos últimos dígitos de su número de seguridad social más altos pujaban entre un 60 y un 120 % más por los mismos objetos."
+ ],
+ ".law-content .law-desc": [
+  "Cuando estimamos un valor, partimos del número que tenemos a mano, el ancla, y nos alejamos demasiado poco de él. El ancla funciona aunque sea claramente irrelevante, y conocer el efecto apenas lo debilita."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-amos-tversky\">Tversky</a> y <a href=\"people.html#p-daniel-kahneman\">Kahneman</a> (1974)",
+  "Sesgo de anclaje, anclaje y ajuste",
+  "Elige el primer número que se ve"
+ ],
+ ".apply-list li": [
+  "Muestras precios, planes, descuentos o cualquier número que la gente va a juzgar.",
+  "Defines valores predeterminados en formularios, controles deslizantes, propinas o donaciones.",
+  "Pides estimaciones a personas o a un equipo.",
+  "Decide qué número ve la gente primero, porque enmarca todo lo que viene después.",
+  "Usa solo valores de referencia reales: precios anteriores que de verdad se cobraron y referencias bien etiquetadas.",
+  "Cuando necesites un juicio sin sesgo, pídelo antes de mostrar cualquier número."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Precios",
+  "Descuentos",
+  "Campos",
+  "Investigación",
+  "Paneles",
+  "Equipos",
+  "Remedio",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "La rueda de la fortuna",
+  "El primer nivel fija la escala",
+  "Antes y ahora",
+  "Los valores predeterminados atraen las respuestas",
+  "Las preguntas pueden sembrar números",
+  "Las referencias son anclas",
+  "El primer número en la sala",
+  "Piensa en lo contrario",
+  "La primera sugerencia ancla",
+  "Números en el prompt"
+ ],
+ ".card .desc": [
+  "Antes de estimar el porcentaje de países africanos en las Naciones Unidas, los participantes veían una rueda detenerse en 10 o en 65. Quienes vieron 10 estimaron un 25 % de media; quienes vieron 65, un 45 %. Un número que sabían aleatorio movió su respuesta.",
+  "Una opción cara fija la referencia que hace razonables a las demás, igual que un coche parece asequible junto a un modelo más caro. Ordena planes y niveles con intención, y asegúrate de que cada nivel sea una opción que alguien elegiría de verdad.",
+  "Un precio original tachado ancla la sensación de ganga. Muestra solo precios que se cobraron de verdad: las normas de la UE exigen ahora que el precio anterior indicado sea el más bajo aplicado en los 30 días previos al descuento.",
+  "Los importes de donación predeterminados, los porcentajes de propina y la posición inicial de un control deslizante anclan lo que la gente introduce. Elígelos a propósito y deja los campos vacíos cuando necesites la estimación propia de la gente.",
+  "Preguntar si algo lleva más o menos de 50 horas ancla la estimación que sigue. En encuestas y entrevistas, pide estimaciones abiertas antes de ofrecer cualquier valor de referencia.",
+  "La comparación que muestras, ya sea el mes anterior, un objetivo o la media del sector, decide si un número parece bueno o malo. Elige las referencias con intención y etiquétalas con claridad.",
+  "En las discusiones de grupo, quien habla primero puede influir de forma desproporcionada en el resultado. Recoge las estimaciones por separado antes de discutirlas, como hace el planning poker.",
+  "Las advertencias apenas sirven: personas avisadas de que un ancla contaminaría su respuesta, o pagadas por acertar, seguían influidas. El remedio más fiable es enumerar razones por las que el ancla podría estar equivocada.",
+  "El primer borrador, estimación o recomendación de una IA se convierte en el punto de partida que se ajusta en lugar de repensarlo. Para estimaciones y juicios, pide la respuesta de las personas antes de mostrar la de la IA.",
+  "Algunos estudios han visto que los modelos de lenguaje también sufren anclaje: un número en el prompt puede atraer la estimación hacia él. Quita las cifras de los prompts cuando quieras que el modelo juzgue de forma independiente."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "Las estimaciones siguen un número arbitrario",
+  "La gente ya conoce el valor real",
+  "Páginas de precios y tablas de planes",
+  "Se ofrecen varios niveles",
+  "Un nivel existe solo como señuelo",
+  "Rebajas y descuentos",
+  "Existe un precio anterior real",
+  "El precio original nunca se cobró",
+  "Campos de donación, propina y cantidad",
+  "Los predeterminados ayudan a decidir rápido",
+  "Necesitas una estimación sin sesgo",
+  "Encuestas y entrevistas",
+  "Pedir estimaciones",
+  "La comparación con una referencia es el objetivo",
+  "Métricas e informes",
+  "Mostrar el rendimiento en el tiempo",
+  "La referencia induciría a error",
+  "Estimación, planificación y revisiones",
+  "El equipo estima en conjunto",
+  "Los datos zanjarán la cuestión de todos modos",
+  "Revisiones de decisiones",
+  "Un número llegó antes del juicio",
+  "No había ningún ancla",
+  "Página en blanco → ancla de la IA",
+  "La IA sugiere números o borradores",
+  "Mostrar la estimación de la IA antes de que la gente piense",
+  "Prompt neutro → prompt sesgado",
+  "Pedir a la IA estimaciones o valoraciones",
+  "Prompts que insinúan la respuesta"
+ ],
+ ".ai-divider h3": [
+  "El anclaje en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La primera sugerencia de una IA se convierte en el ancla desde la que se corrige. Cuando importa el juicio independiente, debe llegar antes que el de la máquina."
+ ]
+}

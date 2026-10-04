@@ -3,7 +3,7 @@
   "UX <em>Guidelines</em>"
  ],
  "header .subtitle": [
-  "A growing library of 70 research-backed UX references for designers, researchers, and engineers."
+  "A growing library of 71 research-backed UX references for designers, researchers, and engineers."
  ],
  ".card .tag": [
   "+ AI era",
@@ -74,6 +74,7 @@
   "Thaler and Sunstein, 2008",
   "Johnson and Goldstein, 2003",
   "Cialdini, 1984",
+  "Tversky and Kahneman, 1974",
   "Mosier, 1996",
   "Brignull, 2010"
  ],
@@ -146,6 +147,7 @@
   "Nudge Theory",
   "Default Effect",
   "Social Proof",
+  "Anchoring Effect",
   "Automation Bias",
   "Dark Patterns"
  ],
@@ -218,6 +220,7 @@
   "Make the better choice the easier one.",
   "Most people keep whatever is preselected.",
   "When unsure, people copy what others do.",
+  "The first number sets the frame.",
   "People over-trust the machine's suggestion.",
   "Tricks that win the click and lose the trust."
  ]

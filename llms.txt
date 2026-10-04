@@ -44,6 +44,7 @@
 - [Nudge Theory: Steering Behavior Without Removing Choice](https://www.ux-guidelines.com/nudge-theory.html): A nudge changes the setting of a decision so the easy, automatic choice is the better one, while every option stays open. It works on habit rather than argument, which makes it effective, cheap, and easy to abuse.
 - [Default Effect: Why Most People Keep the Preselected Option](https://www.ux-guidelines.com/default-effect.html): Whatever happens when people do nothing is the option most of them end up with. Choosing a default is choosing for the majority, so it deserves as much care as the feature itself.
 - [Social Proof: Why People Follow What Others Do](https://www.ux-guidelines.com/social-proof.html): When people aren’t sure what to do, they copy what others are doing and assume it’s right. Reviews, ratings, and usage numbers put that instinct to work, as long as the proof is real and the norm is worth following.
+- [Anchoring Effect: How the First Number Shapes Every Judgment](https://www.ux-guidelines.com/anchoring-effect.html): People judge a value by starting from whatever number they saw first and adjusting too little. Prices, presets, baselines, and estimates all carry an anchor, whether you choose it or not.
 - [Automation Bias: Why People Over-Trust the Machine](https://www.ux-guidelines.com/automation-bias.html): Mosier and Skitka showed in the 1990s that people over-trust automated suggestions — following them when wrong and missing what the machine misses. In the age of AI, this is the bias every interface has to design against.
 - [Dark Patterns: Deceptive Design and What to Do Instead](https://www.ux-guidelines.com/dark-patterns.html): Interfaces crafted to trick people into buying, subscribing, or sharing more than they meant to. They lift a metric for a quarter, then cost the trust of the people who were tricked, and increasingly they draw fines.
 
@@ -101,4 +102,5 @@
 - [Glossary of UX terms](https://www.ux-guidelines.com/glossary.html)
 - [The researchers behind the laws](https://www.ux-guidelines.com/people.html)
 - [Chronological timeline of the laws](https://www.ux-guidelines.com/by-year.html)
+- [New pages and improvements, by date](https://www.ux-guidelines.com/release-log.html)
 - [About the site](https://www.ux-guidelines.com/about.html)
