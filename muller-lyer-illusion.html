@@ -2,7 +2,7 @@
 <html lang="en" data-page="muller-lyer-illusion">
 <head>
 <meta charset="UTF-8">
-<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=80','script');pl('i18n/'+eff+'/muller-lyer-illusion.json?v=43','fetch');}}catch(e){}</script>
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=81','script');pl('i18n/'+eff+'/muller-lyer-illusion.json?v=43','fetch');}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <!-- Google tag (gtag.js) -->
@@ -58,7 +58,7 @@
   .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
   .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
 </style>
-<script defer src="tokens.js?v=135"></script>
+<script defer src="tokens.js?v=136"></script>
 </head>
 <body>
 
@@ -290,7 +290,7 @@
       <h3>Measure, Then Look</h3>
       <p class="desc">Pointed shapes don’t look centered when they are mathematically centered. A play icon placed exactly in the middle of a circle looks off to the left, so designers nudge it right. Correct optically, then document the adjustment.</p>
     </div>
-    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="60" r="30" class="ol"/><path d="M60 44L86 60L60 76Z" class="gh"/><circle cx="150" cy="60" r="30" class="ol"/><path d="M144 44L170 60L144 76Z" class="a"/></svg></div></div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="60" r="32" class="b"/><path d="M58 45L82 60L58 75Z" class="g"/><circle cx="150" cy="60" r="32" class="b"/><path d="M142 45L166 60L142 75Z" class="a"/></svg></div></div>
     <div class="meta">
       <div><div class="label">Best for</div><div class="value">Icon and spacing reviews</div></div>
       <div><div class="label">Use when</div><div class="value">Shapes have pointed or angled ends</div></div>
@@ -306,7 +306,7 @@
       <h3>Arrowheads on Dimension Lines</h3>
       <p class="desc">Inward arrowheads on a measurement line make the distance look shorter than it is. For lengths that matter, use tick-mark ends and print the number.</p>
     </div>
-    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="30" width="160" height="60" rx="4" class="ol"/><path d="M30 104H190" class="lg"/><path d="M36 98L30 104L36 110" class="lg"/><path d="M184 98L190 104L184 110" class="lg"/><text x="110" y="64" text-anchor="middle" class="ta">160 px</text></svg></div></div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="40" y="16" width="140" height="40" rx="6" class="b"/><path d="M40 74H180" class="lg"/><path d="M47 67L40 74L47 81" class="lg"/><path d="M173 67L180 74L173 81" class="lg"/><path d="M40 100L96 100" class="ln"/><path d="M124 100L180 100" class="ln"/><path d="M40 92v16M180 92v16" class="ln"/><rect x="99" y="95" width="22" height="10" rx="5" class="a"/></svg></div></div>
     <div class="meta">
       <div><div class="label">Best for</div><div class="value">Diagrams, maps, and annotations</div></div>
       <div><div class="label">Use when</div><div class="value">Showing lengths or distances</div></div>
@@ -351,7 +351,7 @@
       <h3>Knowing Does Not Help</h3>
       <p class="desc">Pigeons and a grey parrot have been shown to perceive the illusion too, and people still see it after measuring. Since awareness doesn’t fix it, design so that lengths read correctly at a glance.</p>
     </div>
-    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="70" cy="50" r="18" class="b"/><path d="M58 50h-14M82 50h14" class="lg"/><path d="M120 50H190" class="ln"/><path d="M112 42L120 50L112 58" class="ln"/><path d="M198 42L190 50L198 58" class="ln"/><text x="155" y="90" text-anchor="middle" class="t">same length</text></svg></div></div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 60Q60 24 100 60Q60 96 20 60Z" class="b"/><circle cx="60" cy="60" r="16" class="g"/><circle cx="60" cy="60" r="6" class="a"/><path d="M130 40H194" class="ln"/><path d="M139 31L130 40L139 49" class="ln"/><path d="M185 31L194 40L185 49" class="ln"/><path d="M130 80H194" class="lg"/><path d="M121 71L130 80L121 89" class="lg"/><path d="M203 71L194 80L203 89" class="lg"/></svg></div></div>
     <div class="meta">
       <div><div class="label">Best for</div><div class="value">Design reviews</div></div>
       <div><div class="label">Use when</div><div class="value">A layout depends on judging lengths</div></div>
@@ -366,7 +366,7 @@
   </div>
 
   <article class="card">
-    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="20" width="180" height="80" rx="6" class="ol"/><rect x="36" y="40" width="36" height="36" rx="18" class="b"/><rect x="88" y="40" width="36" height="36" rx="18" class="b"/><rect x="140" y="40" width="36" height="36" rx="18" class="b"/><path d="M48 50L66 58L48 66Z" class="a"/><path d="M100 50L118 58L100 66Z" class="a"/><path d="M154 50L172 58L154 66Z" class="a"/></svg></div></div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="48" cy="64" r="26" class="b"/><circle cx="110" cy="64" r="26" class="b"/><circle cx="172" cy="64" r="26" class="b"/><path d="M38 52L58 64L38 76Z" class="g"/><path d="M104 52L116 64L104 76" class="lg"/><path d="M160 64H184M176 56L184 64L176 72" class="lg"/><path d="M200 12L203 19L210 22L203 25L200 32L197 25L190 22L197 19Z" class="a"/></svg></div></div>
     <div class="card-header">
       <span class="tag ai-tag">✦ AI Era</span>
       <span class="num">09 / 10</span>
