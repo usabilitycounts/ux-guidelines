@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principle of <em>Least Privilege</em>"
+ ],
+ "header .tagline": [
+  "Grant only <em>what the task needs</em>."
+ ],
+ "header .subtitle": [
+  "Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-jerome-saltzer\">Jerome Saltzer</a> stated the principle in 1974: every program and every privileged user of a system should operate with the least privilege needed to complete the job. In 1975 he and <a href=\"people.html#p-michael-schroeder\">Michael Schroeder</a> made it one of the design principles for protecting information in computer systems, building on work such as <a href=\"people.html#p-roger-needham\">Roger Needham</a>’s 1972 discussion of granting privileges dynamically.",
+  "Early Unix put it into practice: its login program started with superuser rights and gave them up the moment they were no longer needed. The same idea now runs through user accounts, app permissions, OAuth scopes, and the tools given to AI agents."
+ ],
+ ".law-content .law-desc": [
+  "The principle of least privilege says that every user, process, or program should be able to access only the information and resources needed for its legitimate purpose. For design, it means asking for less, asking at the moment it matters, and making ordinary, limited access the default."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jerome-saltzer\">Saltzer</a> (1974) · <a href=\"people.html#p-jerome-saltzer\">Saltzer</a> and <a href=\"people.html#p-michael-schroeder\">Schroeder</a> (1975)",
+  "Principle of least authority",
+  "Ask only for what the task needs"
+ ],
+ ".apply-list li": [
+  "Designing permission requests, sign-in scopes, or sharing settings.",
+  "Defining roles and access levels for teams, admins, and guests.",
+  "Giving an AI agent tools, data, or the ability to act on someone’s behalf.",
+  "Request access when a feature needs it, explain why, and keep working when people say no.",
+  "Make standard, limited access the default, and elevate only for the task at hand.",
+  "Review access over time, and revoke what is no longer used."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Timing",
+  "Permissions",
+  "Scopes",
+  "Accounts",
+  "Prompts",
+  "Roles",
+  "Limits",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Only What the Job Needs",
+  "Drop It When You Are Done",
+  "Ask When It Is Needed",
+  "Request Scopes Incrementally",
+  "Make Ordinary Access the Default",
+  "Elevation Prompts Wear Thin",
+  "Design Roles Around Tasks",
+  "The True Minimum Is Hard to Find",
+  "Give Agents Scoped Tools",
+  "Confirm the Irreversible"
+ ],
+ ".card .desc": [
+  "Saltzer’s rule is simple: every program and every privileged user should operate with the least privilege needed to finish the job. A backup account can run backups; it doesn’t need to install software.",
+  "Early Unix’s login program started with superuser rights and gave them up as soon as they were no longer needed. Grant elevated access at the last possible moment, and take it back right after.",
+  "A 2012 study found that only 17 percent of Android users paid attention to permissions at install time, and just 3 percent could answer all the comprehension questions. Ask for access in context, when a feature needs it, and say why.",
+  "Sign in with basic access first, and ask for more only when someone reaches a feature that needs it. Incremental authorization keeps the first request small and easy to agree to.",
+  "In a 2010 study of Windows users, all 45 participants worked in administrator accounts, and 91 percent didn’t know the benefits of low-privilege ones. Make limited accounts the default and elevation easy, so people aren’t pushed to run as admin.",
+  "The same study found that 69 percent of participants didn’t respond to Windows’ elevation prompts correctly. When prompts appear constantly, people approve them by habit, so keep them rare and tied to clearly consequential actions.",
+  "Giving someone read-write access when read access would do violates least privilege. Build roles such as viewer, editor, and admin around real jobs, and default new members to the most limited one that works.",
+  "Predicting exactly what access a program or person will need is impractical, so the access actually granted usually exceeds the true minimum. Remove what is clearly unnecessary, then review and revoke over time.",
+  "OWASP lists excessive agency, meaning too much functionality, permission, or autonomy, as a top risk for LLM applications. Give an agent only the tools and data its task requires, with the narrowest permissions that work.",
+  "Let agents act on their own within narrow bounds, and pause for a person before anything consequential or hard to undo, such as payments, deletions, or messages sent on someone’s behalf."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the idea",
+  "Deciding what access to grant",
+  "Access is already minimal",
+  "Admin actions and sudo-style flows",
+  "A task needs temporary power",
+  "Access must persist for the role",
+  "Mobile and desktop permissions",
+  "A feature needs camera, location, or contacts",
+  "Batching every request at install",
+  "OAuth and third-party sign-in",
+  "Features need different data",
+  "Requesting all scopes up front",
+  "Account setup and team invites",
+  "New users choose an access level",
+  "Everyone is made an admin by default",
+  "Confirmation and elevation dialogs",
+  "Prompts appear often",
+  "Prompting for routine, reversible actions",
+  "Team and workspace permissions",
+  "Roles are being defined",
+  "One role fits everyone",
+  "Access reviews and audits",
+  "Permissions accumulate",
+  "Assuming access was right-sized once",
+  "Full access → task-scoped tools",
+  "Connecting agents to accounts and APIs",
+  "Agents that inherit all of a user’s rights",
+  "Act freely → confirm what matters",
+  "Designing agent autonomy",
+  "Approval prompts for every step"
+ ],
+ ".ai-divider h3": [
+  "Least Privilege in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI agents read data, call tools, and act for people. Every tool and permission they hold is something a mistake or a malicious prompt can use."
+ ]
+}

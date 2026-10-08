@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" data-page="principle-of-least-privilege">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=82','script');pl('i18n/'+eff+'/principle-of-least-privilege.json?v=44','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.">
+<title>Principle of Least Privilege: Grant Only What the Task Needs — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/principle-of-least-privilege.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/principle-of-least-privilege.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/principio-de-minimo-privilegio.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/prinzip-der-minimalen-rechte.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/principe-du-moindre-privilege.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/principle-of-least-privilege.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/principle-of-least-privilege.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/principle-of-least-privilege.html">
+<meta property="og:title" content="Principle of Least Privilege: Grant Only What the Task Needs — UX Guidelines">
+<meta property="og:description" content="Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/principle-of-least-privilege.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/principle-of-least-privilege.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/principle-of-least-privilege.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Principle of Least Privilege: Grant Only What the Task Needs — UX Guidelines">
+<meta name="twitter:description" content="Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Principle of Least Privilege: Grant Only What the Task Needs", "description": "Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.", "url": "https://www.ux-guidelines.com/principle-of-least-privilege.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/principle-of-least-privilege.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Build Systems"}, {"@type": "ListItem", "position": 3, "name": "Principle of Least Privilege: Grant Only What the Task Needs", "item": "https://www.ux-guidelines.com/principle-of-least-privilege.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=137"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+  <a href="principle-of-least-privilege.html" class="menu-link active">Principle of Least Privilege</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="cognitive-models-of-information-retrieval.html" class="menu-link">Cognitive Models of Information Retrieval</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="decision-fatigue.html" class="menu-link">Decision Fatigue</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1>Principle of <em>Least Privilege</em></h1>
+  <p class="tagline">Grant only <em>what the task needs</em>.</p>
+  <p class="subtitle">Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text"><a href="people.html#p-jerome-saltzer">Jerome Saltzer</a> stated the principle in 1974: every program and every privileged user of a system should operate with the least privilege needed to complete the job. In 1975 he and <a href="people.html#p-michael-schroeder">Michael Schroeder</a> made it one of the design principles for protecting information in computer systems, building on work such as <a href="people.html#p-roger-needham">Roger Needham</a>’s 1972 discussion of granting privileges dynamically.</p>
+    <p class="body-text">Early Unix put it into practice: its login program started with superuser rights and gave them up the moment they were no longer needed. The same idea now runs through user accounts, app permissions, OAuth scopes, and the tools given to AI agents.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Principle</div>
+    <p class="body-text law-desc">The principle of least privilege says that every user, process, or program should be able to access only the information and resources needed for its legitimate purpose. For design, it means asking for less, asking at the moment it matters, and making ordinary, limited access the default.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-jerome-saltzer">Saltzer</a> (1974) · <a href="people.html#p-jerome-saltzer">Saltzer</a> and <a href="people.html#p-michael-schroeder">Schroeder</a> (1975)</div></div>
+      <div><div class="label">Also called</div><div class="value">Principle of least authority</div></div>
+      <div><div class="label">In practice</div><div class="value">Ask only for what the task needs</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Designing permission requests, sign-in scopes, or sharing settings.</li>
+      <li>Defining roles and access levels for teams, admins, and guests.</li>
+      <li>Giving an AI agent tools, data, or the ability to act on someone’s behalf.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Request access when a feature needs it, explain why, and keep working when people say no.</li>
+      <li>Make standard, limited access the default, and elevate only for the task at hand.</li>
+      <li>Review access over time, and revoke what is no longer used.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Only What the Job Needs -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Only What the Job Needs</h3>
+      <p class="desc">Saltzer’s rule is simple: every program and every privileged user should operate with the least privilege needed to finish the job. A backup account can run backups; it doesn’t need to install software.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="46" y="18" width="26" height="22" rx="5" class="b"/><rect x="80" y="18" width="26" height="22" rx="5" class="a"/><rect x="114" y="18" width="26" height="22" rx="5" class="b"/><rect x="148" y="18" width="26" height="22" rx="5" class="b"/><rect x="46" y="48" width="26" height="22" rx="5" class="b"/><rect x="80" y="48" width="26" height="22" rx="5" class="b"/><rect x="114" y="48" width="26" height="22" rx="5" class="a"/><rect x="148" y="48" width="26" height="22" rx="5" class="b"/><rect x="46" y="78" width="26" height="22" rx="5" class="b"/><rect x="80" y="78" width="26" height="22" rx="5" class="b"/><rect x="114" y="78" width="26" height="22" rx="5" class="b"/><rect x="148" y="78" width="26" height="22" rx="5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the idea</div></div>
+      <div><div class="label">Use when</div><div class="value">Deciding what access to grant</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Access is already minimal</div></div>
+    </div>
+  </article>
+  <!-- 2. Drop It When You Are Done -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Timing</span>
+      <span class="num">02 / 10</span>
+      <h3>Drop It When You Are Done</h3>
+      <p class="desc">Early Unix’s login program started with superuser rights and gave them up as soon as they were no longer needed. Grant elevated access at the last possible moment, and take it back right after.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="30" y="26" width="26" height="74" rx="4" class="a"/><rect x="66" y="76" width="22" height="24" rx="4" class="g"/><rect x="96" y="76" width="22" height="24" rx="4" class="g"/><rect x="126" y="76" width="22" height="24" rx="4" class="g"/><rect x="156" y="76" width="22" height="24" rx="4" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Admin actions and sudo-style flows</div></div>
+      <div><div class="label">Use when</div><div class="value">A task needs temporary power</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Access must persist for the role</div></div>
+    </div>
+  </article>
+  <!-- 3. Ask When It Is Needed -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Permissions</span>
+      <span class="num">03 / 10</span>
+      <h3>Ask When It Is Needed</h3>
+      <p class="desc">A 2012 study found that only 17 percent of Android users paid attention to permissions at install time, and just 3 percent could answer all the comprehension questions. Ask for access in context, when a feature needs it, and say why.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="78" y="8" width="64" height="106" rx="10" class="b"/><rect x="86" y="20" width="48" height="4" rx="2" class="g"/><rect x="86" y="29" width="48" height="4" rx="2" class="g"/><rect x="86" y="38" width="28.8" height="4" rx="2" class="g"/><rect x="84" y="52" width="52" height="40" rx="6" class="g"/><rect x="98" y="78" width="24" height="8" rx="4" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Mobile and desktop permissions</div></div>
+      <div><div class="label">Use when</div><div class="value">A feature needs camera, location, or contacts</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Batching every request at install</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="progressive-disclosure.html">Progressive Disclosure</a></div>
+    </div>
+  </article>
+  <!-- 4. Request Scopes Incrementally -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Scopes</span>
+      <span class="num">04 / 10</span>
+      <h3>Request Scopes Incrementally</h3>
+      <p class="desc">Sign in with basic access first, and ask for more only when someone reaches a feature that needs it. Incremental authorization keeps the first request small and easy to agree to.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="18" width="50" height="18" rx="5" class="a"/><rect x="30" y="46" width="100" height="18" rx="5" class="b"/><rect x="30" y="74" width="160" height="18" rx="5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">OAuth and third-party sign-in</div></div>
+      <div><div class="label">Use when</div><div class="value">Features need different data</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Requesting all scopes up front</div></div>
+    </div>
+  </article>
+  <!-- 5. Make Ordinary Access the Default -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Accounts</span>
+      <span class="num">05 / 10</span>
+      <h3>Make Ordinary Access the Default</h3>
+      <p class="desc">In a 2010 study of Windows users, all 45 participants worked in administrator accounts, and 91 percent didn’t know the benefits of low-privilege ones. Make limited accounts the default and elevation easy, so people aren’t pushed to run as admin.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="46" cy="62" r="9" class="g"/><rect x="31" y="74" width="30" height="18" rx="8" class="g"/><circle cx="110" cy="62" r="9" class="g"/><rect x="95" y="74" width="30" height="18" rx="8" class="g"/><circle cx="174" cy="62" r="9" class="g"/><rect x="159" y="74" width="30" height="18" rx="8" class="g"/><circle cx="185" cy="54" r="6" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Account setup and team invites</div></div>
+      <div><div class="label">Use when</div><div class="value">New users choose an access level</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Everyone is made an admin by default</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="default-effect.html">Default Effect</a></div>
+    </div>
+  </article>
+  <!-- 6. Elevation Prompts Wear Thin -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Prompts</span>
+      <span class="num">06 / 10</span>
+      <h3>Elevation Prompts Wear Thin</h3>
+      <p class="desc">The same study found that 69 percent of participants didn’t respond to Windows’ elevation prompts correctly. When prompts appear constantly, people approve them by habit, so keep them rare and tied to clearly consequential actions.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="24" width="38" height="72" rx="6" class="b"/><rect x="25" y="34" width="24" height="4" rx="2" class="g"/><rect x="25" y="42" width="14.4" height="4" rx="2" class="g"/><rect x="25" y="78" width="24" height="9" rx="4.5" class="a"/><rect x="65" y="24" width="38" height="72" rx="6" class="b"/><rect x="72" y="34" width="24" height="4" rx="2" class="g"/><rect x="72" y="42" width="14.4" height="4" rx="2" class="g"/><rect x="72" y="78" width="24" height="9" rx="4.5" class="a"/><rect x="112" y="24" width="38" height="72" rx="6" class="b"/><rect x="119" y="34" width="24" height="4" rx="2" class="g"/><rect x="119" y="42" width="14.4" height="4" rx="2" class="g"/><rect x="119" y="78" width="24" height="9" rx="4.5" class="a"/><rect x="159" y="24" width="38" height="72" rx="6" class="b"/><rect x="166" y="34" width="24" height="4" rx="2" class="g"/><rect x="166" y="42" width="14.4" height="4" rx="2" class="g"/><rect x="166" y="78" width="24" height="9" rx="4.5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Confirmation and elevation dialogs</div></div>
+      <div><div class="label">Use when</div><div class="value">Prompts appear often</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Prompting for routine, reversible actions</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="alarm-fatigue.html">Alarm Fatigue</a></div>
+    </div>
+  </article>
+  <!-- 7. Design Roles Around Tasks -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Roles</span>
+      <span class="num">07 / 10</span>
+      <h3>Design Roles Around Tasks</h3>
+      <p class="desc">Giving someone read-write access when read access would do violates least privilege. Build roles such as viewer, editor, and admin around real jobs, and default new members to the most limited one that works.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="40" y="16" width="36" height="18" rx="4" class="a"/><rect x="40" y="40" width="36" height="18" rx="4" class="a"/><rect x="40" y="64" width="36" height="18" rx="4" class="a"/><rect x="40" y="88" width="36" height="18" rx="4" class="a"/><rect x="92" y="16" width="36" height="18" rx="4" class="a"/><rect x="92" y="40" width="36" height="18" rx="4" class="a"/><rect x="92" y="64" width="36" height="18" rx="4" class="b"/><rect x="92" y="88" width="36" height="18" rx="4" class="b"/><rect x="144" y="16" width="36" height="18" rx="4" class="a"/><rect x="144" y="40" width="36" height="18" rx="4" class="b"/><rect x="144" y="64" width="36" height="18" rx="4" class="b"/><rect x="144" y="88" width="36" height="18" rx="4" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Team and workspace permissions</div></div>
+      <div><div class="label">Use when</div><div class="value">Roles are being defined</div></div>
+      <div><div class="label">Avoid when</div><div class="value">One role fits everyone</div></div>
+    </div>
+  </article>
+  <!-- 8. The True Minimum Is Hard to Find -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Limits</span>
+      <span class="num">08 / 10</span>
+      <h3>The True Minimum Is Hard to Find</h3>
+      <p class="desc">Predicting exactly what access a program or person will need is impractical, so the access actually granted usually exceeds the true minimum. Remove what is clearly unnecessary, then review and revoke over time.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="30" y="36" width="70" height="16" rx="8" class="g"/><rect x="30" y="66" width="160" height="16" rx="8" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Access reviews and audits</div></div>
+      <div><div class="label">Use when</div><div class="value">Permissions accumulate</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Assuming access was right-sized once</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Least Privilege in the Age of AI</h3>
+    <p>AI agents read data, call tools, and act for people. Every tool and permission they hold is something a mistake or a malicious prompt can use.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M60 60L140 30M60 60L140 90" class="ln"/><circle cx="56" cy="60" r="16" class="a"/><rect x="132" y="18" width="26" height="24" rx="5" class="g"/><rect x="172" y="18" width="26" height="24" rx="5" class="b"/><rect x="132" y="48" width="26" height="24" rx="5" class="b"/><rect x="172" y="48" width="26" height="24" rx="5" class="b"/><rect x="132" y="78" width="26" height="24" rx="5" class="g"/><rect x="172" y="78" width="26" height="24" rx="5" class="b"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>Give Agents Scoped Tools</h3>
+      <p class="desc">OWASP lists excessive agency, meaning too much functionality, permission, or autonomy, as a top risk for LLM applications. Give an agent only the tools and data its task requires, with the narrowest permissions that work.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Full access → task-scoped tools</div></div>
+      <div><div class="label">Use when</div><div class="value">Connecting agents to accounts and APIs</div></div>
+      <div><div class="label">Watch for</div><div class="value">Agents that inherit all of a user’s rights</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="human-in-the-loop.html">Human-in-the-Loop</a></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M24 60L150 60" class="lg"/><circle cx="30" cy="60" r="7" class="g"/><circle cx="56" cy="60" r="7" class="g"/><circle cx="82" cy="60" r="7" class="g"/><circle cx="108" cy="60" r="7" class="g"/><circle cx="134" cy="60" r="7" class="g"/><rect x="160" y="42" width="36" height="36" rx="8" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Confirm the Irreversible</h3>
+      <p class="desc">Let agents act on their own within narrow bounds, and pause for a person before anything consequential or hard to undo, such as payments, deletions, or messages sent on someone’s behalf.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Act freely → confirm what matters</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing agent autonomy</div></div>
+      <div><div class="label">Watch for</div><div class="value">Approval prompts for every step</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="decision-fatigue.html">Decision Fatigue</a></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Original</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1145/361011.361067" target="_blank" rel="noopener"><span class="title">Protection and the Control of Information Sharing in Multics — Saltzer, 1974</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1109/PROC.1975.9939" target="_blank" rel="noopener"><span class="title">The Protection of Information in Computer Systems — Saltzer and Schroeder, 1975</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1145/1479992.1480073" target="_blank" rel="noopener"><span class="title">Protection Systems and Protection Implementations — Needham, 1972</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1145/2335356.2335360" target="_blank" rel="noopener"><span class="title">Android Permissions: User Attention, Comprehension, and Behavior — Felt et al., 2012</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1145/1837110.1837112" target="_blank" rel="noopener"><span class="title">Do Windows Users Follow the Principle of Least Privilege? — Motiee, Hawkey and Beznosov, 2010</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Practice</h3>
+      <ul class="ref-list">
+        <li><a href="https://developer.apple.com/design/human-interface-guidelines/privacy" target="_blank" rel="noopener"><span class="title">Requesting Permission — Apple Human Interface Guidelines</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://developer.android.com/training/permissions/requesting" target="_blank" rel="noopener"><span class="title">Request Runtime Permissions — Android Developers</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://developers.google.com/identity/protocols/oauth2/web-server#incrementalAuth" target="_blank" rel="noopener"><span class="title">Incremental Authorization — Google Identity</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://genai.owasp.org/llmrisk/llm062025-excessive-agency/" target="_blank" rel="noopener"><span class="title">LLM06: Excessive Agency — OWASP Top 10 for LLM Applications</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege" target="_blank" rel="noopener"><span class="title">Principle of Least Privilege</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Privilege_escalation" target="_blank" rel="noopener"><span class="title">Privilege Escalation</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Principle of Least Privilege</div>
+</footer>
+
+</body>
+</html>

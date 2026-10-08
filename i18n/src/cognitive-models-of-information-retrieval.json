@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Cognitive Models of <em>Information Retrieval</em>"
+ ],
+ "header .tagline": [
+  "Search is a path, <em>not a single query</em>."
+ ],
+ "header .subtitle": [
+  "People rarely type one perfect query and get one perfect answer. They start with a vague need, learn from what they find, change their words, and gather pieces along the way. Search design works when it supports that path."
+ ],
+ ".law-origin .body-text": [
+  "In 1989 <a href=\"people.html#p-marcia-bates\">Marcia Bates</a> described berrypicking: people don’t run one query and stop, but change their search as they learn from each result, gathering information bit by bit from many sources. She set it against the classic model of information retrieval, shaped by researchers such as <a href=\"people.html#p-gerard-salton\">Gerard Salton</a>, which treated search as a single match between a query and a set of documents.",
+  "Bates’s view drew on and connected other work on how people seek information: <a href=\"people.html#p-nicholas-belkin\">Nicholas Belkin</a>’s anomalous state of knowledge, the gap people sense but can’t describe; <a href=\"people.html#p-carol-kuhlthau\">Carol Kuhlthau</a>’s stages of the search process; <a href=\"people.html#p-peter-pirolli\">Peter Pirolli</a> and <a href=\"people.html#p-stuart-card\">Stuart Card</a>’s information foraging; and <a href=\"people.html#p-gary-marchionini\">Gary Marchionini</a>’s distinction between looking something up and exploring to learn."
+ ],
+ ".law-content .law-desc": [
+  "Cognitive models of information retrieval describe how a person’s understanding of what they need meets the way a system organizes information. They show search as an evolving, exploratory process shaped by feedback, partial knowledge, and feelings, rather than a single match between a query and a document."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-marcia-bates\">Bates</a> (1989) · <a href=\"people.html#p-nicholas-belkin\">Belkin</a> et al. (1982)",
+  "Information-seeking models",
+  "Support search that evolves"
+ ],
+ ".apply-list li": [
+  "Designing search, browse, and filtering for sites, apps, and knowledge bases.",
+  "People research, compare, or learn rather than look up a single known fact.",
+  "Adding conversational or AI-powered search to a product.",
+  "Make it easy to refine: keep the query editable, suggest related terms, and show filters.",
+  "Offer many ways in, such as browsing, related links, and citations, alongside the search box.",
+  "Keep the trail visible with history, saved items, and the sources behind every answer."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Tactics",
+  "Exploration",
+  "Scent",
+  "Knowledge gaps",
+  "Feelings",
+  "Orienteering",
+  "Feedback",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Search Is Berrypicking",
+  "Support Many Ways In",
+  "Lookup Is Not the Only Search",
+  "Follow the Information Scent",
+  "People Can’t Always Name What They Need",
+  "Uncertainty Peaks Midway",
+  "Small Steps Beat One Big Query",
+  "Let Results Reshape the Query",
+  "Answers Can Hide the Path",
+  "Keep the Trail Visible"
+ ],
+ ".card .desc": [
+  "Bates showed that people don’t run one query and stop. Each result teaches them something, so they change their terms and pick up useful pieces along the way, like picking berries from many bushes.",
+  "Bates listed tactics such as following footnotes, searching citations, scanning a shelf, and browsing by subject or author. Give people related links, references, and browse paths alongside the search box.",
+  "Marchionini separated lookup, finding a known item, from learning and investigating, where goals are fuzzy and change. Exploratory search needs overviews, filters, and comparison, not just a ranked list.",
+  "Pirolli and Card found that people forage for information the way animals forage for food, following cues like link labels and leaving when the scent weakens. Write labels and snippets that predict what lies behind them.",
+  "Belkin’s anomalous state of knowledge means people often search for something they can’t yet describe. Offer suggestions, examples, and browsing, so they can recognize what they need instead of naming it.",
+  "Kuhlthau found that uncertainty and anxiety rise during the exploration stage of a search and fall once a focus forms. Help people through the messy middle with orientation, saved findings, and a sense of progress.",
+  "In a 2004 study, people often reached even known targets in small, local steps, such as opening a folder or following a link, instead of typing one query. Support stepwise paths with breadcrumbs, recent items, and clear navigation.",
+  "Salton showed that feedback from people about which results are relevant can improve the next round. Make refinement easy with filters, query suggestions, and more-like-this options.",
+  "A single generated answer skips the berrypicking that helps people learn and judge. Show the sources behind an answer, and let people open them, compare, and branch off.",
+  "Conversational search makes the evolving query hard to see. Show the history of questions and results, and let people return to earlier branches to refine them."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the model",
+  "People research a topic",
+  "The answer is a single known fact",
+  "Libraries, docs, and content sites",
+  "Search alone misses related material",
+  "The collection is tiny",
+  "Research and shopping tools",
+  "Goals are open-ended",
+  "People want one quick answer",
+  "Navigation and results pages",
+  "People bounce between pages",
+  "Labels are already specific",
+  "Search boxes and empty states",
+  "Users lack the right vocabulary",
+  "People know the exact name",
+  "Long research tasks",
+  "People feel lost partway through",
+  "Searches are short and routine",
+  "Files, email, and intranets",
+  "People know roughly where things are",
+  "Relying on search alone",
+  "Search results and recommendations",
+  "First results are rarely final",
+  "Hiding the query after search",
+  "One answer → sources to explore",
+  "Adding AI answers to search",
+  "Answers with no way to dig deeper",
+  "Hidden history → a visible trail",
+  "Designing chat-based search",
+  "Conversations that can’t be revisited"
+ ],
+ ".ai-divider h3": [
+  "Information Retrieval in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "Natural language search was long a distant goal for researchers. Conversational AI makes it real, and changes how the search path looks."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Decision Fatigue</em>"
+ ],
+ "header .tagline": [
+  "Every choice makes <em>the next one worse</em>."
+ ],
+ "header .subtitle": [
+  "After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh."
+ ],
+ ".law-origin .body-text": [
+  "Journalist John Tierney popularized the term in 2011, drawing on research by <a href=\"people.html#p-roy-baumeister\">Roy Baumeister</a>, <a href=\"people.html#p-kathleen-vohs\">Kathleen Vohs</a> and colleagues. In a 2008 series of studies, people who had just made many choices persisted less on later tasks and showed weaker self-control than people who had not.",
+  "The idea is tied to ego depletion, the theory that self-control draws on a limited resource, and that theory has struggled to replicate: a 23-lab effort in 2016 found an effect close to zero, and research with <a href=\"people.html#p-carol-dweck\">Carol Dweck</a> suggested depletion appears mainly in people who believe willpower runs out. Field studies still show choices drifting late in long sessions."
+ ],
+ ".law-content .law-desc": [
+  "Decision fatigue is the decline in the quality of decisions after a long session of making them. People who are worn out from choosing avoid trade-offs, put decisions off, take the default or the status quo, and become more impulsive."
+ ],
+ ".law-meta .label": [
+  "Origin",
+  "Also called",
+  "In practice"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-vohs\">Vohs</a> et al. (2008) · Tierney (2011)",
+  "Choice fatigue",
+  "Put the important choices first"
+ ],
+ ".apply-list li": [
+  "Designing flows with many decisions in a row, such as configurators, onboarding, or checkout.",
+  "Building tools for people who make repeated judgments all day, such as reviewers, clinicians, or moderators.",
+  "People abandon long flows or accept whatever is preselected.",
+  "Cut decisions that don’t need to be made, and set sensible defaults for the rest.",
+  "Order the flow so the most important choices come first, and let people save and return.",
+  "Don’t exploit fatigue: keep upsells and consequential prompts away from the end of a long session."
+ ],
+ ".card .tag": [
+  "The classic",
+  "Sequence",
+  "Defaults",
+  "Avoidance",
+  "Field evidence",
+  "Commerce",
+  "Caution",
+  "Replication",
+  "✦ AI Era",
+  "✦ AI Era"
+ ],
+ ".card h3": [
+  "Every Choice Draws Down",
+  "Put Big Choices First",
+  "Tired People Take the Default",
+  "Fatigue Breeds Postponing",
+  "Prescriptions Late in the Day",
+  "Checkout Impulses",
+  "The Hungry Judges Study",
+  "Is Willpower Really a Tank?",
+  "AI Can Carry the Small Decisions",
+  "Approval Prompts Wear Out"
+ ],
+ ".card .desc": [
+  "In 2008 studies, people who had just made a long series of choices persisted less on later tasks and showed weaker self-control. A long run of small decisions erodes the quality of the ones that follow.",
+  "In field experiments with car buyers configuring a new car, those who started with the options that had the most choices accepted more of the defaults later on. Order decisions so the ones that matter most come first.",
+  "People who are worn out from deciding fall back on the default or the status quo. Late in a flow, the preselected option carries more weight, so make sure it is the one that serves the person.",
+  "Decision fatigue makes people plan less, procrastinate, and avoid choices altogether. Let people save progress and come back, instead of forcing every decision in one sitting.",
+  "A 2014 study found that clinicians grew more likely to prescribe antibiotics for respiratory infections as their clinic sessions went on. Decision support matters most late in a shift, when judgment is most worn down.",
+  "Candy sits by the register because shoppers reach it worn out from a store full of trade-offs. Placing upsells and add-ons where people are most depleted works, but it trades their trust for a sale.",
+  "A 2011 study reported that favorable parole rulings fell from about 65 percent to nearly zero over each session and recovered after a break. Critics pointed out that cases were not heard in random order, so treat dramatic single studies with care.",
+  "A 23-lab replication in 2016 found almost no ego-depletion effect, and other research found depletion mainly in people who believe willpower is limited. Reduce decision load because it is good design, not because a fuel-tank model of the mind is proven.",
+  "Let AI handle routine choices, such as sorting, drafting, and filling in sensible defaults, so people save their attention for the decisions that matter. Keep those decisions visible and easy to change.",
+  "AI agents that ask permission for every step train people to approve without reading. Batch routine actions, and save confirmation for the steps that are consequential or hard to undo."
+ ],
+ ".meta .label": [
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Best for",
+  "Use when",
+  "Avoid when",
+  "Shift",
+  "Use when",
+  "Watch for",
+  "Shift",
+  "Use when",
+  "Watch for"
+ ],
+ ".meta .value": [
+  "Explaining the effect",
+  "People face many decisions in a row",
+  "Decisions are few and simple",
+  "Configurators and onboarding",
+  "A flow has many decisions",
+  "Dependencies dictate the order",
+  "Long forms and checkouts",
+  "Later steps offer defaults",
+  "Defaults favor the business over the user",
+  "Long applications and setup",
+  "People abandon partway through",
+  "The task is short and urgent",
+  "Professional and clinical tools",
+  "People make repeated judgments",
+  "Each decision is fully automated",
+  "Checkout and upsell design",
+  "Add-ons appear at the end",
+  "Testing whether to exploit fatigue",
+  "Citing research to stakeholders",
+  "A finding sounds too clean",
+  "One study must carry a decision",
+  "Weighing the evidence",
+  "Arguing from depletion theory",
+  "Treating fatigue as settled science",
+  "Many small choices → a few real ones",
+  "AI assists repetitive work",
+  "Hiding consequential choices inside automation",
+  "Prompt for everything → prompt for what matters",
+  "Designing agent permissions",
+  "Confirmations people click through"
+ ],
+ ".ai-divider h3": [
+  "Decision Fatigue in the Age of AI"
+ ],
+ ".ai-divider p": [
+  "AI can take routine decisions off people’s plates, or bury them in approvals. Which one happens depends on what the system asks people to decide."
+ ]
+}

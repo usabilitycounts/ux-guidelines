@@ -5,84 +5,105 @@
   <link>https://www.ux-guidelines.com/</link>
   <description>Research-backed laws, heuristics, and patterns of interface design, each explained with its origin, practice guidance, and what changes in the age of AI.</description>
   <language>en</language>
-  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 08:49:35 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Müller-Lyer Illusion: When Arrow Ends Change Length</title>
-    <link>https://www.ux-guidelines.com/muller-lyer-illusion.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/muller-lyer-illusion.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.</description>
+    <title>Cognitive Models of Information Retrieval: How People Really Search</title>
+    <link>https://www.ux-guidelines.com/cognitive-models-of-information-retrieval.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/cognitive-models-of-information-retrieval.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:49:06 +0000</pubDate>
+    <description>People rarely type one perfect query and get one perfect answer. They start with a vague need, learn from what they find, change their words, and gather pieces along the way. Search design works when it supports that path.</description>
   </item>
   <item>
-    <title>Curb Cut Effect: Designing for Disability Benefits Everyone</title>
-    <link>https://www.ux-guidelines.com/curb-cut-effect.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/curb-cut-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Features built for disabled people end up used by far more people than they were designed for. Curb cuts, captions, and text-to-speech began as accommodations and became things everyone relies on.</description>
+    <title>Principle of Least Privilege: Grant Only What the Task Needs</title>
+    <link>https://www.ux-guidelines.com/principle-of-least-privilege.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/principle-of-least-privilege.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>Every person, program, and AI agent should get only the access its job requires, and only for as long as it needs it. Less access means a smaller blast radius when something goes wrong, and fewer frightening choices for the people asked to grant it.</description>
   </item>
   <item>
-    <title>Chartjunk: Decoration That Gets in the Way of Data</title>
-    <link>https://www.ux-guidelines.com/chartjunk.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/chartjunk.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Heavy gridlines, ornamented axes, textured backgrounds, gratuitous 3-D, and decorative pictures add ink without adding information. Some of it wastes attention; some of it distorts the data itself.</description>
-  </item>
-  <item>
-    <title>Denomination Effect: Why Small Amounts Are Easier to Spend</title>
-    <link>https://www.ux-guidelines.com/denomination-effect.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/denomination-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.</description>
+    <title>Decision Fatigue: Why Choices Get Worse as They Pile Up</title>
+    <link>https://www.ux-guidelines.com/decision-fatigue.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/decision-fatigue.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.</description>
   </item>
   <item>
     <title>Ambiguity Effect: Why People Avoid the Unknown Option</title>
     <link>https://www.ux-guidelines.com/ambiguity-effect.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/ambiguity-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>Given a choice, people pick the option whose outcome they can estimate over one with missing information, even when the unknown option is just as good. Hidden prices, vague estimates, and unclear results push people away.</description>
-  </item>
-  <item>
-    <title>Visual Search: Why Some Things Pop Out and Others Hide</title>
-    <link>https://www.ux-guidelines.com/visual-search.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/visual-search.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Finding something on a screen is fast when it differs from everything around it by one feature, such as color or shape. When it shares features with its neighbors, people check items one by one, and every extra item adds time.</description>
-  </item>
-  <item>
-    <title>Picture Superiority Effect: Why Images Are Remembered Better Than Words</title>
-    <link>https://www.ux-guidelines.com/picture-superiority-effect.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/picture-superiority-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>People recall and recognize images more reliably than the same ideas written as text. Concrete, distinct pictures make features, steps, and instructions stick, as long as the pictures carry the meaning.</description>
-  </item>
-  <item>
-    <title>Explainability: Showing People Why the AI Decided</title>
-    <link>https://www.ux-guidelines.com/explainability.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/explainability.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Explainable AI gives people a view into why a system produced a result, so they can judge it, challenge it, and decide how far to rely on it. The goal isn’t more trust, but the right amount.</description>
   </item>
   <item>
     <title>Banner Blindness: Why Users Ignore Anything That Looks Like an Ad</title>
     <link>https://www.ux-guidelines.com/banner-blindness.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/banner-blindness.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>People have learned to skip anything that looks like an advertisement, sits next to ads, or appears where ads usually go. Important content styled as a banner disappears along with the ads.</description>
   </item>
   <item>
-    <title>Processing Fluency: Why Easy Feels True, Good, and Familiar</title>
-    <link>https://www.ux-guidelines.com/processing-fluency.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/processing-fluency.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>The ease of reading, seeing, or recalling something colors how people judge it. Easy-to-process content feels more true, more familiar, and more likable, whether or not it deserves to.</description>
+    <title>Chartjunk: Decoration That Gets in the Way of Data</title>
+    <link>https://www.ux-guidelines.com/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Heavy gridlines, ornamented axes, textured backgrounds, gratuitous 3-D, and decorative pictures add ink without adding information. Some of it wastes attention; some of it distorts the data itself.</description>
+  </item>
+  <item>
+    <title>Curb Cut Effect: Designing for Disability Benefits Everyone</title>
+    <link>https://www.ux-guidelines.com/curb-cut-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/curb-cut-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Features built for disabled people end up used by far more people than they were designed for. Curb cuts, captions, and text-to-speech began as accommodations and became things everyone relies on.</description>
+  </item>
+  <item>
+    <title>Denomination Effect: Why Small Amounts Are Easier to Spend</title>
+    <link>https://www.ux-guidelines.com/denomination-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/denomination-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>People part with money more easily in small units than in one large one, even when the amounts are equal. How a price, a balance, or a credit is broken up changes how readily people spend it.</description>
+  </item>
+  <item>
+    <title>Explainability: Showing People Why the AI Decided</title>
+    <link>https://www.ux-guidelines.com/explainability.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/explainability.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Explainable AI gives people a view into why a system produced a result, so they can judge it, challenge it, and decide how far to rely on it. The goal isn’t more trust, but the right amount.</description>
   </item>
   <item>
     <title>Lindy Effect: Why What Has Lasted Is Likely to Last</title>
     <link>https://www.ux-guidelines.com/lindy-effect.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/lindy-effect.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>For ideas, technologies, and conventions, the longer something has already survived, the longer it is likely to keep surviving. Every year it lasts is evidence that it is robust.</description>
+  </item>
+  <item>
+    <title>Müller-Lyer Illusion: When Arrow Ends Change Length</title>
+    <link>https://www.ux-guidelines.com/muller-lyer-illusion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/muller-lyer-illusion.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Two lines of the same length look different when one ends in arrowheads and the other in tails. In interfaces, chevrons, pointed bars, and angled icons quietly change how long or wide things look.</description>
+  </item>
+  <item>
+    <title>Picture Superiority Effect: Why Images Are Remembered Better Than Words</title>
+    <link>https://www.ux-guidelines.com/picture-superiority-effect.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/picture-superiority-effect.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>People recall and recognize images more reliably than the same ideas written as text. Concrete, distinct pictures make features, steps, and instructions stick, as long as the pictures carry the meaning.</description>
+  </item>
+  <item>
+    <title>Processing Fluency: Why Easy Feels True, Good, and Familiar</title>
+    <link>https://www.ux-guidelines.com/processing-fluency.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/processing-fluency.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>The ease of reading, seeing, or recalling something colors how people judge it. Easy-to-process content feels more true, more familiar, and more likable, whether or not it deserves to.</description>
+  </item>
+  <item>
+    <title>Visual Search: Why Some Things Pop Out and Others Hide</title>
+    <link>https://www.ux-guidelines.com/visual-search.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/visual-search.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Finding something on a screen is fast when it differs from everything around it by one feature, such as color or shape. When it shares features with its neighbors, people check items one by one, and every extra item adds time.</description>
   </item>
   <item>
     <title>Anchoring Effect: How the First Number Shapes Every Judgment</title>

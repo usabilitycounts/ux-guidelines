@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Kognitive Modelle des <em>Information Retrieval</em>"
+ ],
+ "header .tagline": [
+  "Suche ist ein Weg, <em>keine einzelne Anfrage</em>."
+ ],
+ "header .subtitle": [
+  "Menschen tippen selten eine perfekte Anfrage und erhalten eine perfekte Antwort. Sie beginnen mit einem vagen Bedürfnis, lernen aus dem Gefundenen, ändern ihre Begriffe und sammeln unterwegs Teile ein. Suchgestaltung funktioniert, wenn sie diesen Weg unterstützt."
+ ],
+ ".law-origin .body-text": [
+  "1989 beschrieb <a href=\"people.html#p-marcia-bates\">Marcia Bates</a> das Beerenpflücken: Menschen stellen nicht eine Anfrage und hören auf, sondern ändern ihre Suche, während sie aus jedem Ergebnis lernen, und sammeln Informationen Stück für Stück aus vielen Quellen. Sie stellte es dem klassischen Modell des Information Retrieval gegenüber, geprägt von Forschern wie <a href=\"people.html#p-gerard-salton\">Gerard Salton</a>, das Suche als einzelnen Abgleich zwischen einer Anfrage und einer Menge von Dokumenten behandelte.",
+  "Bates' Sicht stützte sich auf andere Arbeiten zur Informationssuche und verband sie: <a href=\"people.html#p-nicholas-belkin\">Nicholas Belkin</a>s anomalen Wissenszustand, die Lücke, die Menschen spüren, aber nicht beschreiben können; <a href=\"people.html#p-carol-kuhlthau\">Carol Kuhlthau</a>s Phasen des Suchprozesses; das Information Foraging von <a href=\"people.html#p-peter-pirolli\">Peter Pirolli</a> und <a href=\"people.html#p-stuart-card\">Stuart Card</a>; und <a href=\"people.html#p-gary-marchionini\">Gary Marchionini</a>s Unterscheidung zwischen Nachschlagen und erkundendem Lernen."
+ ],
+ ".law-content .law-desc": [
+  "Kognitive Modelle des Information Retrieval beschreiben, wie das Verständnis eines Menschen von seinem Bedarf auf die Art trifft, wie ein System Informationen organisiert. Sie zeigen Suche als sich entwickelnden, erkundenden Prozess, geprägt von Rückmeldungen, Teilwissen und Gefühlen, statt als einzelnen Abgleich zwischen Anfrage und Dokument."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-marcia-bates\">Bates</a> (1989) · <a href=\"people.html#p-nicholas-belkin\">Belkin</a> et al. (1982)",
+  "Modelle der Informationssuche",
+  "Suche unterstützen, die sich entwickelt"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Suche, Browsing und Filter für Websites, Apps und Wissensdatenbanken.",
+  "Menschen recherchieren, vergleichen oder lernen, statt eine einzelne bekannte Tatsache nachzuschlagen.",
+  "Sie fügen einem Produkt konversationelle oder KI-gestützte Suche hinzu.",
+  "Machen Sie Verfeinern leicht: Halten Sie die Anfrage bearbeitbar, schlagen Sie verwandte Begriffe vor und zeigen Sie Filter.",
+  "Bieten Sie viele Zugänge wie Browsing, verwandte Links und Quellenangaben neben dem Suchfeld.",
+  "Halten Sie die Spur sichtbar mit Verlauf, gespeicherten Elementen und den Quellen hinter jeder Antwort."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Taktiken",
+  "Erkundung",
+  "Duftspur",
+  "Wissenslücken",
+  "Gefühle",
+  "Orientierung",
+  "Rückmeldung",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Suchen ist Beerenpflücken",
+  "Viele Zugänge bieten",
+  "Nachschlagen ist nicht die einzige Suche",
+  "Der Informationsspur folgen",
+  "Menschen können nicht immer benennen, was sie brauchen",
+  "Unsicherheit erreicht in der Mitte ihren Höhepunkt",
+  "Kleine Schritte schlagen eine große Anfrage",
+  "Ergebnisse die Anfrage formen lassen",
+  "Antworten können den Weg verbergen",
+  "Die Spur sichtbar halten"
+ ],
+ ".card .desc": [
+  "Bates zeigte, dass Menschen nicht eine Anfrage stellen und aufhören. Jedes Ergebnis lehrt sie etwas, also ändern sie ihre Begriffe und sammeln unterwegs nützliche Teile ein, wie beim Beerenpflücken an vielen Sträuchern.",
+  "Bates nannte Taktiken wie Fußnoten folgen, Zitate suchen, ein Regal absuchen und nach Thema oder Autor browsen. Bieten Sie verwandte Links, Quellenangaben und Browse-Pfade neben dem Suchfeld.",
+  "Marchionini unterschied das Nachschlagen, also das Finden eines bekannten Elements, vom Lernen und Untersuchen, bei dem Ziele unscharf sind und sich ändern. Erkundende Suche braucht Überblicke, Filter und Vergleiche, nicht nur eine Rangliste.",
+  "Pirolli und Card fanden, dass Menschen nach Informationen suchen wie Tiere nach Nahrung: Sie folgen Hinweisen wie Linkbeschriftungen und gehen, wenn die Spur schwächer wird. Schreiben Sie Beschriftungen und Snippets, die vorhersagen, was dahinter liegt.",
+  "Belkins anomaler Wissenszustand bedeutet, dass Menschen oft nach etwas suchen, das sie noch nicht beschreiben können. Bieten Sie Vorschläge, Beispiele und Browsing, damit sie erkennen, was sie brauchen, statt es benennen zu müssen.",
+  "Kuhlthau fand, dass Unsicherheit und Angst in der Erkundungsphase einer Suche zunehmen und abnehmen, sobald sich ein Fokus bildet. Helfen Sie Menschen durch die chaotische Mitte mit Orientierung, gespeicherten Funden und einem Gefühl von Fortschritt.",
+  "In einer Studie von 2004 erreichten Menschen selbst bekannte Ziele oft in kleinen, lokalen Schritten, etwa durch Öffnen eines Ordners oder Folgen eines Links, statt eine Anfrage zu tippen. Unterstützen Sie schrittweise Wege mit Breadcrumbs, zuletzt verwendeten Elementen und klarer Navigation.",
+  "Salton zeigte, dass Rückmeldungen von Menschen darüber, welche Ergebnisse relevant sind, die nächste Runde verbessern können. Machen Sie Verfeinern leicht mit Filtern, Anfragevorschlägen und Optionen für ähnliche Ergebnisse.",
+  "Eine einzelne generierte Antwort überspringt das Beerenpflücken, das Menschen beim Lernen und Urteilen hilft. Zeigen Sie die Quellen hinter einer Antwort und lassen Sie Menschen sie öffnen, vergleichen und abzweigen.",
+  "Konversationelle Suche macht die sich entwickelnde Anfrage schwer erkennbar. Zeigen Sie den Verlauf von Fragen und Ergebnissen und lassen Sie Menschen zu früheren Zweigen zurückkehren, um sie zu verfeinern."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Das Modell erklären",
+  "Menschen recherchieren ein Thema",
+  "Die Antwort ist eine einzelne bekannte Tatsache",
+  "Bibliotheken, Dokumentation und Content-Sites",
+  "Die Suche allein übersieht Verwandtes",
+  "Die Sammlung ist winzig",
+  "Recherche- und Shopping-Werkzeuge",
+  "Ziele sind offen",
+  "Menschen wollen eine schnelle Antwort",
+  "Navigation und Ergebnisseiten",
+  "Menschen springen zwischen Seiten hin und her",
+  "Beschriftungen sind bereits präzise",
+  "Suchfelder und leere Zustände",
+  "Nutzern fehlt das passende Vokabular",
+  "Menschen kennen den genauen Namen",
+  "Lange Rechercheaufgaben",
+  "Menschen fühlen sich mittendrin verloren",
+  "Suchen sind kurz und routiniert",
+  "Dateien, E-Mail und Intranets",
+  "Menschen wissen ungefähr, wo etwas liegt",
+  "Sich allein auf die Suche verlassen",
+  "Suchergebnisse und Empfehlungen",
+  "Erste Ergebnisse sind selten endgültig",
+  "Die Anfrage nach der Suche ausblenden",
+  "Eine Antwort → Quellen zum Erkunden",
+  "KI-Antworten in die Suche einbauen",
+  "Antworten ohne Möglichkeit, tiefer zu gehen",
+  "Versteckter Verlauf → sichtbare Spur",
+  "Chatbasierte Suche gestalten",
+  "Gespräche, die man nicht wieder aufrufen kann"
+ ],
+ ".ai-divider h3": [
+  "Information Retrieval im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "Suche in natürlicher Sprache war für Forscher lange ein fernes Ziel. Konversationelle KI macht sie real und verändert, wie der Suchweg aussieht."
+ ]
+}

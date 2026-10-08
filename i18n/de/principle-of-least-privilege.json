@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Prinzip der <em>minimalen Rechte</em>"
+ ],
+ "header .tagline": [
+  "Nur gewähren, <em>was die Aufgabe braucht</em>."
+ ],
+ "header .subtitle": [
+  "Jede Person, jedes Programm und jeder KI-Agent sollte nur den Zugriff erhalten, den die Aufgabe erfordert, und nur so lange wie nötig. Weniger Zugriff bedeutet weniger Schaden, wenn etwas schiefgeht, und weniger beängstigende Entscheidungen für die Menschen, die ihn gewähren sollen."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-jerome-saltzer\">Jerome Saltzer</a> formulierte das Prinzip 1974: Jedes Programm und jeder privilegierte Nutzer eines Systems sollte mit den geringsten Rechten arbeiten, die zur Erledigung der Aufgabe nötig sind. 1975 machten er und <a href=\"people.html#p-michael-schroeder\">Michael Schroeder</a> es zu einem der Gestaltungsprinzipien für den Schutz von Informationen in Computersystemen, aufbauend auf Arbeiten wie <a href=\"people.html#p-roger-needham\">Roger Needham</a>s Überlegungen von 1972 zur dynamischen Vergabe von Rechten.",
+  "Das frühe Unix setzte es um: Sein Anmeldeprogramm startete mit Superuser-Rechten und gab sie ab, sobald sie nicht mehr gebraucht wurden. Dieselbe Idee prägt heute Benutzerkonten, App-Berechtigungen, OAuth-Scopes und die Werkzeuge, die KI-Agenten erhalten."
+ ],
+ ".law-content .law-desc": [
+  "Das Prinzip der minimalen Rechte besagt, dass jeder Nutzer, Prozess oder jedes Programm nur auf die Informationen und Ressourcen zugreifen darf, die für seinen legitimen Zweck nötig sind. Für die Gestaltung heißt das: weniger verlangen, im richtigen Moment fragen und gewöhnlichen, begrenzten Zugriff zur Voreinstellung machen."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jerome-saltzer\">Saltzer</a> (1974) · <a href=\"people.html#p-jerome-saltzer\">Saltzer</a> und <a href=\"people.html#p-michael-schroeder\">Schroeder</a> (1975)",
+  "Prinzip der geringsten Autorität",
+  "Nur verlangen, was die Aufgabe braucht"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Berechtigungsanfragen, Anmelde-Scopes oder Freigabeeinstellungen.",
+  "Sie definieren Rollen und Zugriffsebenen für Teams, Administratoren und Gäste.",
+  "Sie geben einem KI-Agenten Werkzeuge, Daten oder die Möglichkeit, im Namen anderer zu handeln.",
+  "Fragen Sie nach Zugriff, wenn eine Funktion ihn braucht, erklären Sie warum, und funktionieren Sie auch nach einer Ablehnung weiter.",
+  "Machen Sie standardmäßigen, begrenzten Zugriff zur Voreinstellung und erhöhen Sie Rechte nur für die aktuelle Aufgabe.",
+  "Überprüfen Sie Zugriffe regelmäßig und entziehen Sie, was nicht mehr genutzt wird."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Zeitpunkt",
+  "Berechtigungen",
+  "Scopes",
+  "Konten",
+  "Abfragen",
+  "Rollen",
+  "Grenzen",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Nur was die Aufgabe braucht",
+  "Abgeben, sobald fertig",
+  "Fragen, wenn es nötig ist",
+  "Scopes schrittweise anfragen",
+  "Normalen Zugriff zum Standard machen",
+  "Rechteabfragen nutzen sich ab",
+  "Rollen um Aufgaben herum gestalten",
+  "Das echte Minimum ist schwer zu finden",
+  "Agenten bekommen begrenzte Werkzeuge",
+  "Das Unumkehrbare bestätigen"
+ ],
+ ".card .desc": [
+  "Saltzers Regel ist einfach: Jedes Programm und jeder privilegierte Nutzer sollte mit den geringsten Rechten arbeiten, die zur Erledigung der Aufgabe nötig sind. Ein Backup-Konto kann Backups ausführen; es muss keine Software installieren.",
+  "Das Anmeldeprogramm des frühen Unix startete mit Superuser-Rechten und gab sie ab, sobald sie nicht mehr gebraucht wurden. Gewähren Sie erhöhte Rechte so spät wie möglich und nehmen Sie sie gleich danach wieder zurück.",
+  "Eine Studie von 2012 ergab, dass nur 17 Prozent der Android-Nutzer bei der Installation auf Berechtigungen achteten und nur 3 Prozent alle Verständnisfragen richtig beantworteten. Fragen Sie im Kontext nach Zugriff, wenn eine Funktion ihn braucht, und sagen Sie warum.",
+  "Melden Sie Menschen zunächst mit Basiszugriff an und fragen Sie erst nach mehr, wenn jemand eine Funktion erreicht, die es braucht. Schrittweise Autorisierung hält die erste Anfrage klein und leicht zuzustimmen.",
+  "In einer Studie von 2010 mit Windows-Nutzern arbeiteten alle 45 Teilnehmenden mit Administratorkonten, und 91 Prozent kannten die Vorteile von Konten mit wenigen Rechten nicht. Machen Sie eingeschränkte Konten zum Standard und Rechteerhöhung einfach, damit niemand gedrängt wird, als Admin zu arbeiten.",
+  "Dieselbe Studie ergab, dass 69 Prozent der Teilnehmenden nicht richtig auf die Rechteabfragen von Windows reagierten. Wenn Abfragen ständig erscheinen, werden sie aus Gewohnheit bestätigt. Halten Sie sie also selten und an klar folgenreiche Aktionen gebunden.",
+  "Lese- und Schreibzugriff zu geben, wenn Lesezugriff genügt, verletzt das Prinzip der minimalen Rechte. Bauen Sie Rollen wie Betrachter, Bearbeiter und Admin um echte Aufgaben herum und geben Sie neuen Mitgliedern standardmäßig die eingeschränkteste Rolle, die funktioniert.",
+  "Genau vorherzusagen, welchen Zugriff ein Programm oder eine Person brauchen wird, ist unrealistisch, daher übersteigt der gewährte Zugriff meist das echte Minimum. Entfernen Sie, was eindeutig unnötig ist, und überprüfen und entziehen Sie dann im Lauf der Zeit.",
+  "OWASP zählt übermäßige Handlungsfähigkeit, also zu viel Funktionalität, Berechtigung oder Autonomie, zu den größten Risiken von LLM-Anwendungen. Geben Sie einem Agenten nur die Werkzeuge und Daten, die seine Aufgabe erfordert, mit den engsten Berechtigungen, die funktionieren.",
+  "Lassen Sie Agenten innerhalb enger Grenzen selbst handeln, und lassen Sie sie vor allem Folgenreichen oder schwer Umkehrbaren auf einen Menschen warten, etwa Zahlungen, Löschungen oder Nachrichten im Namen anderer."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Die Idee erklären",
+  "Entscheiden, welcher Zugriff gewährt wird",
+  "Der Zugriff ist bereits minimal",
+  "Admin-Aktionen und sudo-artige Abläufe",
+  "Eine Aufgabe braucht vorübergehend mehr Rechte",
+  "Der Zugriff muss für die Rolle bestehen bleiben",
+  "Berechtigungen auf Mobilgeräten und Desktop",
+  "Eine Funktion braucht Kamera, Standort oder Kontakte",
+  "Alle Anfragen bei der Installation bündeln",
+  "OAuth und Anmeldung über Dritte",
+  "Funktionen brauchen unterschiedliche Daten",
+  "Alle Scopes vorab anfragen",
+  "Kontoeinrichtung und Teameinladungen",
+  "Neue Nutzer wählen eine Zugriffsebene",
+  "Alle sind standardmäßig Admin",
+  "Bestätigungs- und Rechtedialoge",
+  "Abfragen erscheinen häufig",
+  "Für routinemäßige, umkehrbare Aktionen abfragen",
+  "Team- und Workspace-Berechtigungen",
+  "Rollen werden definiert",
+  "Eine Rolle passt für alle",
+  "Zugriffsprüfungen und Audits",
+  "Berechtigungen sammeln sich an",
+  "Annehmen, der Zugriff sei einmal richtig bemessen worden",
+  "Vollzugriff → aufgabenbezogene Werkzeuge",
+  "Agenten mit Konten und APIs verbinden",
+  "Agenten, die alle Rechte eines Nutzers erben",
+  "Frei handeln → das Wichtige bestätigen",
+  "Die Autonomie eines Agenten gestalten",
+  "Freigaben für jeden Schritt"
+ ],
+ ".ai-divider h3": [
+  "Minimale Rechte im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI-Agenten lesen Daten, rufen Werkzeuge auf und handeln für Menschen. Jedes Werkzeug und jede Berechtigung, die sie besitzen, kann ein Fehler oder ein bösartiger Prompt ausnutzen."
+ ]
+}

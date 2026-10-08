@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Modèles cognitifs de la <em>recherche d’information</em>"
+ ],
+ "header .tagline": [
+  "La recherche est un chemin, <em>pas une seule requête</em>."
+ ],
+ "header .subtitle": [
+  "Les gens tapent rarement une requête parfaite pour obtenir une réponse parfaite. Ils partent d'un besoin flou, apprennent de ce qu'ils trouvent, changent de mots et rassemblent des éléments en chemin. La conception de la recherche fonctionne quand elle accompagne ce chemin."
+ ],
+ ".law-origin .body-text": [
+  "En 1989, <a href=\"people.html#p-marcia-bates\">Marcia Bates</a> a décrit la cueillette de baies : on ne lance pas une requête pour s'arrêter là, on fait évoluer sa recherche en apprenant de chaque résultat, et on rassemble l'information peu à peu à partir de nombreuses sources. Elle l'a opposée au modèle classique de la recherche d'information, façonné par des chercheurs comme <a href=\"people.html#p-gerard-salton\">Gerard Salton</a>, qui considérait la recherche comme un simple appariement entre une requête et un ensemble de documents.",
+  "La vision de Bates s'appuie sur d'autres travaux sur la recherche d'information et les relie : l'état anomal de connaissance de <a href=\"people.html#p-nicholas-belkin\">Nicholas Belkin</a>, cette lacune qu'on perçoit sans pouvoir la décrire ; les étapes du processus de recherche de <a href=\"people.html#p-carol-kuhlthau\">Carol Kuhlthau</a> ; la quête d'information de <a href=\"people.html#p-peter-pirolli\">Peter Pirolli</a> et <a href=\"people.html#p-stuart-card\">Stuart Card</a> ; et la distinction de <a href=\"people.html#p-gary-marchionini\">Gary Marchionini</a> entre chercher une information précise et explorer pour apprendre."
+ ],
+ ".law-content .law-desc": [
+  "Les modèles cognitifs de la recherche d'information décrivent comment la compréhension qu'a une personne de son besoin rencontre la façon dont un système organise l'information. Ils montrent la recherche comme un processus évolutif et exploratoire, façonné par les retours, des connaissances partielles et des émotions, plutôt que comme un simple appariement entre une requête et un document."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-marcia-bates\">Bates</a> (1989) · <a href=\"people.html#p-nicholas-belkin\">Belkin</a> et al. (1982)",
+  "Modèles de recherche d'information",
+  "Accompagner une recherche qui évolue"
+ ],
+ ".apply-list li": [
+  "Vous concevez la recherche, la navigation et les filtres de sites, d'applications et de bases de connaissances.",
+  "Les gens se documentent, comparent ou apprennent, plutôt que de chercher un fait précis.",
+  "Vous ajoutez une recherche conversationnelle ou assistée par l'IA à un produit.",
+  "Facilitez l'affinage : gardez la requête modifiable, suggérez des termes liés et montrez des filtres.",
+  "Proposez plusieurs portes d'entrée, comme la navigation, les liens connexes et les références, à côté du champ de recherche.",
+  "Gardez la trace visible avec l'historique, les éléments enregistrés et les sources derrière chaque réponse."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Tactiques",
+  "Exploration",
+  "Piste",
+  "Lacunes",
+  "Émotions",
+  "Orientation",
+  "Retour",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Chercher, c’est cueillir des baies",
+  "Multiplier les portes d’entrée",
+  "Chercher un fait n’est pas tout",
+  "Suivre la piste de l’information",
+  "On ne sait pas toujours nommer ce qu’on cherche",
+  "L'incertitude culmine à mi-parcours",
+  "De petits pas valent mieux qu’une grosse requête",
+  "Laisser les résultats remodeler la requête",
+  "Les réponses peuvent masquer le chemin",
+  "Garder la trace visible"
+ ],
+ ".card .desc": [
+  "Bates a montré qu'on ne lance pas une requête pour s'arrêter là. Chaque résultat apprend quelque chose, alors on change ses termes et on ramasse des éléments utiles en chemin, comme on cueille des baies sur plusieurs buissons.",
+  "Bates a recensé des tactiques comme suivre les notes de bas de page, rechercher les citations, parcourir un rayon et naviguer par sujet ou par auteur. Proposez des liens connexes, des références et des parcours de navigation à côté du champ de recherche.",
+  "Marchionini a distingué la recherche ponctuelle, trouver un élément connu, de l'apprentissage et de l'investigation, où les objectifs sont flous et changent. La recherche exploratoire a besoin de vues d'ensemble, de filtres et de comparaisons, pas seulement d'une liste classée.",
+  "Pirolli et Card ont montré qu'on cherche l'information comme les animaux cherchent leur nourriture, en suivant des indices comme les libellés des liens et en partant quand la piste s'affaiblit. Rédigez des libellés et des extraits qui annoncent ce qui se trouve derrière.",
+  "L'état anomal de connaissance de Belkin signifie qu'on cherche souvent quelque chose qu'on ne sait pas encore décrire. Proposez des suggestions, des exemples et de la navigation, pour qu'on reconnaisse ce dont on a besoin au lieu de devoir le nommer.",
+  "Kuhlthau a montré que l'incertitude et l'anxiété augmentent pendant la phase d'exploration d'une recherche et retombent une fois qu'un axe se dessine. Aidez les gens à traverser ce milieu confus grâce à des repères, des trouvailles enregistrées et un sentiment de progression.",
+  "Dans une étude de 2004, les gens atteignaient souvent même des cibles connues par petites étapes locales, comme ouvrir un dossier ou suivre un lien, plutôt qu'en tapant une requête. Accompagnez ces parcours pas à pas avec un fil d'Ariane, des éléments récents et une navigation claire.",
+  "Salton a montré que les indications des gens sur les résultats pertinents peuvent améliorer le tour suivant. Facilitez l'affinage avec des filtres, des suggestions de requête et des options « plus de résultats similaires ».",
+  "Une réponse générée unique saute la cueillette qui aide à apprendre et à juger. Montrez les sources derrière une réponse, et laissez les gens les ouvrir, les comparer et bifurquer.",
+  "La recherche conversationnelle rend la requête évolutive difficile à voir. Montrez l'historique des questions et des résultats, et laissez les gens revenir à des branches antérieures pour les affiner."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer le modèle",
+  "Les gens se documentent sur un sujet",
+  "La réponse est un fait précis et connu",
+  "Bibliothèques, documentation et sites de contenu",
+  "La recherche seule manque les contenus liés",
+  "La collection est minuscule",
+  "Outils de recherche documentaire et d'achat",
+  "Les objectifs sont ouverts",
+  "On veut une réponse rapide",
+  "Navigation et pages de résultats",
+  "Les gens rebondissent de page en page",
+  "Les libellés sont déjà précis",
+  "Champs de recherche et états vides",
+  "Les utilisateurs manquent du bon vocabulaire",
+  "On connaît le nom exact",
+  "Longues recherches documentaires",
+  "On se sent perdu en cours de route",
+  "Les recherches sont courtes et routinières",
+  "Fichiers, e-mails et intranets",
+  "On sait à peu près où sont les choses",
+  "Compter uniquement sur la recherche",
+  "Résultats de recherche et recommandations",
+  "Les premiers résultats sont rarement définitifs",
+  "Masquer la requête après la recherche",
+  "Une réponse → des sources à explorer",
+  "Ajouter des réponses d'IA à la recherche",
+  "Des réponses sans moyen de creuser",
+  "Historique caché → trace visible",
+  "Concevoir une recherche par chat",
+  "Des conversations impossibles à revisiter"
+ ],
+ ".ai-divider h3": [
+  "La recherche d'information à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "La recherche en langage naturel est longtemps restée un objectif lointain pour les chercheurs. L'IA conversationnelle la rend réelle, et change l'allure du chemin de recherche."
+ ]
+}

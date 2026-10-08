@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" data-page="decision-fatigue">
+<head>
+<meta charset="UTF-8">
+<script>try{var t=localStorage.getItem('ux-theme');if(t&&t!=='light')document.documentElement.classList.add(t);var qm=location.search.match(/[?&]lang=([a-z]{2})\b/);var l=qm?qm[1]:localStorage.getItem('ux-lang');if(/^(fr|de|es|ja|zh)$/.test(l)&&!/^\/(fr|de|es|ja|zh)(\/|$)/.test(location.pathname)){var p=location.pathname.replace(/^\//,'');if(/^([a-z0-9-]+\.html)?$/.test(p)&&p!=='roadmap.html'&&p!=='design-system.html')location.replace('/'+l+'/'+p+location.search+location.hash);}var pre=location.pathname.match(/^\/(fr|de|es|ja|zh)(\/|$)/);var eff=pre?pre[1]:l;if(/^(fr|de|es|ja|zh)$/.test(eff)){var r=document.documentElement;r.classList.add('i18n-wait');setTimeout(function(){r.classList.remove('i18n-wait');},1800);var hd=document.head;function pl(u,a){var k=document.createElement('link');k.rel='preload';k.as=a;k.href=u;hd.appendChild(k);}pl('i18n.js?v=82','script');pl('i18n/'+eff+'/decision-fatigue.json?v=44','fetch');}}catch(e){}</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYQWVH971M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RYQWVH971M');
+</script>
+<meta name="description" content="After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.">
+<title>Decision Fatigue: Why Choices Get Worse as They Pile Up — UX Guidelines</title>
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines" href="https://www.ux-guidelines.com/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Français)" href="https://www.ux-guidelines.com/fr/feed.xml" hreflang="fr">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Deutsch)" href="https://www.ux-guidelines.com/de/feed.xml" hreflang="de">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (Español)" href="https://www.ux-guidelines.com/es/feed.xml" hreflang="es">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (日本語)" href="https://www.ux-guidelines.com/ja/feed.xml" hreflang="ja">
+<link rel="alternate" type="application/rss+xml" title="UX Guidelines (中文)" href="https://www.ux-guidelines.com/zh/feed.xml" hreflang="zh-Hans">
+<link rel="canonical" href="https://www.ux-guidelines.com/decision-fatigue.html">
+<link rel="alternate" hreflang="en" href="https://www.ux-guidelines.com/decision-fatigue.html">
+<link rel="alternate" hreflang="es" href="https://www.ux-guidelines.com/es/fatiga-de-decision.html">
+<link rel="alternate" hreflang="de" href="https://www.ux-guidelines.com/de/entscheidungsmudigkeit.html">
+<link rel="alternate" hreflang="fr" href="https://www.ux-guidelines.com/fr/fatigue-decisionnelle.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://www.ux-guidelines.com/zh/decision-fatigue.html">
+<link rel="alternate" hreflang="ja" href="https://www.ux-guidelines.com/ja/decision-fatigue.html">
+<link rel="alternate" hreflang="x-default" href="https://www.ux-guidelines.com/decision-fatigue.html">
+<meta property="og:title" content="Decision Fatigue: Why Choices Get Worse as They Pile Up — UX Guidelines">
+<meta property="og:description" content="After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.ux-guidelines.com/decision-fatigue.html">
+<meta property="og:site_name" content="UX Guidelines">
+<meta property="og:image" content="https://www.ux-guidelines.com/og/en/decision-fatigue.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:image" content="https://www.ux-guidelines.com/og/en/decision-fatigue.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Decision Fatigue: Why Choices Get Worse as They Pile Up — UX Guidelines">
+<meta name="twitter:description" content="After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "TechArticle", "headline": "Decision Fatigue: Why Choices Get Worse as They Pile Up", "description": "After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.", "url": "https://www.ux-guidelines.com/decision-fatigue.html", "inLanguage": "en", "mainEntityOfPage": "https://www.ux-guidelines.com/decision-fatigue.html", "publisher": {"@type": "Organization", "name": "UX Guidelines", "url": "https://www.ux-guidelines.com/"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "UX Guidelines", "item": "https://www.ux-guidelines.com/"}, {"@type": "ListItem", "position": 2, "name": "Shape Choices"}, {"@type": "ListItem", "position": 3, "name": "Decision Fatigue: Why Choices Get Worse as They Pile Up", "item": "https://www.ux-guidelines.com/decision-fatigue.html"}]}]}</script>
+<link rel="stylesheet" href="tokens.css?v=172">
+<style>
+  .gx { position: absolute; top: 30px; left: 0; right: 0; bottom: 0; padding: 8px 14px; }
+  .gx svg { width: 100%; height: 100%; display: block; }
+  .gx .a { fill: var(--il-accent); }
+  .gx .b { fill: var(--skel-strong); opacity: 0.22; }
+  .gx .g { fill: var(--skel-strong); opacity: 0.45; }
+  .gx .gh { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; stroke-dasharray: 3 3; opacity: 0.55; }
+  .gx .ga { fill: none; stroke: var(--il-accent); stroke-width: 2; stroke-dasharray: 3 3; }
+  .gx .ax { stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.35; fill: none; }
+  .gx .ol { fill: none; stroke: var(--skel-strong); stroke-width: 1.5; opacity: 0.5; }
+  .gx .ln { fill: none; stroke: var(--il-accent); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+  .gx .lg { fill: none; stroke: var(--skel-strong); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.45; }
+  .gx .t { fill: var(--skel-strong); opacity: 0.7; font: 600 9px/1 var(--font-sans, system-ui, sans-serif); }
+  .gx .ta { fill: var(--il-accent); font: 700 10px/1 var(--font-sans, system-ui, sans-serif); }
+</style>
+<script defer src="tokens.js?v=137"></script>
+</head>
+<body>
+
+<nav class="topnav">
+  <div class="brand-row">
+    <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+    </button>
+    <a href="index.html" class="brand">UX Guidelines</a>
+  </div>
+</nav>
+
+<div class="menu-overlay" id="menu-overlay"></div>
+<aside class="menu-panel" id="menu-panel" aria-hidden="true">
+  <button class="menu-close" aria-label="Close menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+  </button>
+  <h2 class="menu-label">Navigate</h2>
+  <div class="menu-links">
+<a href="index.html" class="menu-link">Home</a>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Build Systems</h3></summary>
+  <a href="teslers-law.html" class="menu-link">Tesler’s Law</a>
+  <a href="galls-law.html" class="menu-link">Gall’s Law</a>
+  <a href="conways-law.html" class="menu-link">Conway’s Law</a>
+  <a href="postels-law.html" class="menu-link">Postel’s Law</a>
+  <a href="goodharts-law.html" class="menu-link">Goodhart’s Law</a>
+  <a href="survivorship-bias.html" class="menu-link">Survivorship Bias</a>
+  <a href="lindy-effect.html" class="menu-link">Lindy Effect</a>
+  <a href="hofstadters-law.html" class="menu-link">Hofstadter’s Law</a>
+  <a href="pareto-principle.html" class="menu-link">Pareto Principle</a>
+  <a href="zipfs-law.html" class="menu-link">Zipf’s Law</a>
+  <a href="human-in-the-loop.html" class="menu-link">Human-in-the-Loop</a>
+  <a href="out-of-the-loop-problem.html" class="menu-link">Out-of-the-Loop Problem</a>
+  <a href="explainability.html" class="menu-link">Explainability</a>
+  <a href="principle-of-least-privilege.html" class="menu-link">Principle of Least Privilege</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Apply Standards</h3></summary>
+  <a href="nielsens-heuristics.html" class="menu-link">Nielsen’s 10 Heuristics</a>
+  <a href="normans-principles.html" class="menu-link">Norman’s Principles</a>
+  <a href="rams-principles.html" class="menu-link">Rams’ 10 Principles</a>
+  <a href="shneiderman-eight-golden-rules.html" class="menu-link">Shneiderman’s Eight Golden Rules</a>
+  <a href="tognazzinis-first-principles.html" class="menu-link">Tognazzini’s First Principles</a>
+  <a href="wcag-pour.html" class="menu-link">WCAG and POUR</a>
+  <a href="curb-cut-effect.html" class="menu-link">Curb Cut Effect</a>
+  <a href="chestertons-fence.html" class="menu-link">Chesterton’s Fence</a>
+  <a href="microsoft-ai-guidelines.html" class="menu-link">Microsoft’s 18 AI Guidelines</a>
+  <a href="ui-tenets-and-traps.html" class="menu-link">UI Tenets and Traps</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Design Controls</h3></summary>
+  <a href="fitts-law.html" class="menu-link">Fitts’s Law</a>
+  <a href="steering-law.html" class="menu-link">Steering Law</a>
+  <a href="contour-bias.html" class="menu-link">Contour Bias</a>
+  <a href="stroop-effect.html" class="menu-link">Stroop Effect</a>
+  <a href="navigation-patterns.html" class="menu-link">Navigation Patterns</a>
+  <a href="cognitive-models-of-information-retrieval.html" class="menu-link">Cognitive Models of Information Retrieval</a>
+  <a href="doherty-threshold.html" class="menu-link">Doherty Threshold</a>
+  <a href="change-blindness.html" class="menu-link">Change Blindness</a>
+  <a href="alarm-fatigue.html" class="menu-link">Alarm Fatigue</a>
+  <a href="power-law-of-practice.html" class="menu-link">Power Law of Practice</a>
+  <a href="yerkes-dodson-law.html" class="menu-link">Yerkes-Dodson Law</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Retain Users</h3></summary>
+  <a href="aesthetic-usability-effect.html" class="menu-link">Aesthetic-Usability Effect</a>
+  <a href="peak-end-rule.html" class="menu-link">Peak-End Rule</a>
+  <a href="uncanny-valley.html" class="menu-link">Uncanny Valley</a>
+  <a href="zeigarnik-effect.html" class="menu-link">Zeigarnik Effect</a>
+  <a href="fogg-behavior-model.html" class="menu-link">Fogg Behavior Model</a>
+  <a href="hook-model.html" class="menu-link">Hook Model</a>
+  <a href="ikea-effect.html" class="menu-link">IKEA Effect</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Compose Pages</h3></summary>
+  <a href="eye-scanning-patterns.html" class="menu-link">Eye Scanning Patterns</a>
+  <a href="visual-search.html" class="menu-link">Visual Search</a>
+  <a href="banner-blindness.html" class="menu-link">Banner Blindness</a>
+  <a href="gutenberg-principle.html" class="menu-link">Gutenberg Principle</a>
+  <a href="grid-and-hierarchy.html" class="menu-link">Grid and Hierarchy</a>
+  <a href="golden-ratio.html" class="menu-link">Golden Ratio</a>
+  <a href="silver-ratio.html" class="menu-link">Silver Ratio</a>
+  <a href="aspect-ratio.html" class="menu-link">Aspect Ratio</a>
+  <a href="rule-of-thirds.html" class="menu-link">Rule of Thirds</a>
+  <a href="rule-of-odds.html" class="menu-link">Rule of Odds</a>
+  <a href="canons-of-page-construction.html" class="menu-link">Canons of Page Construction</a>
+  <a href="line-length.html" class="menu-link">Line Length</a>
+  <a href="gestalt-principles.html" class="menu-link">Gestalt Principles</a>
+  <a href="negative-space.html" class="menu-link">Negative Space</a>
+  <a href="von-restorff-effect.html" class="menu-link">Von Restorff Effect</a>
+  <a href="weber-fechner-law.html" class="menu-link">Weber-Fechner Law</a>
+  <a href="ebbinghaus-illusion.html" class="menu-link">Ebbinghaus Illusion</a>
+  <a href="muller-lyer-illusion.html" class="menu-link">Müller-Lyer Illusion</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Explain Data</h3></summary>
+  <a href="data-visualization.html" class="menu-link">Data Visualization</a>
+  <a href="chartjunk.html" class="menu-link">Chartjunk</a>
+  <a href="universal-icons.html" class="menu-link">Universal Icons</a>
+  <a href="picture-superiority-effect.html" class="menu-link">Picture Superiority Effect</a>
+  <a href="processing-fluency.html" class="menu-link">Processing Fluency</a>
+  <a href="progressive-disclosure.html" class="menu-link">Progressive Disclosure</a>
+  <a href="cognitive-load-theory.html" class="menu-link">Cognitive Load Theory</a>
+  <a href="millers-law.html" class="menu-link">Miller’s Law</a>
+  <a href="serial-position-effect.html" class="menu-link">Serial Position Effect</a>
+  <a href="curse-of-knowledge.html" class="menu-link">Curse of Knowledge</a>
+</details>
+<details class="menu-group">
+  <summary class="menu-group-label"><h3>Shape Choices</h3></summary>
+  <a href="hicks-law.html" class="menu-link">Hick’s Law</a>
+  <a href="jakobs-law.html" class="menu-link">Jakob’s Law</a>
+  <a href="principle-of-least-astonishment.html" class="menu-link">Principle of Least Astonishment</a>
+  <a href="paradox-of-choice.html" class="menu-link">Paradox of Choice</a>
+  <a href="decision-fatigue.html" class="menu-link active">Decision Fatigue</a>
+  <a href="satisficing.html" class="menu-link">Satisficing</a>
+  <a href="choice-architecture.html" class="menu-link">Choice Architecture</a>
+  <a href="nudge-theory.html" class="menu-link">Nudge Theory</a>
+  <a href="default-effect.html" class="menu-link">Default Effect</a>
+  <a href="social-proof.html" class="menu-link">Social Proof</a>
+  <a href="anchoring-effect.html" class="menu-link">Anchoring Effect</a>
+  <a href="denomination-effect.html" class="menu-link">Denomination Effect</a>
+  <a href="ambiguity-effect.html" class="menu-link">Ambiguity Effect</a>
+  <a href="automation-bias.html" class="menu-link">Automation Bias</a>
+  <a href="dark-patterns.html" class="menu-link">Dark Patterns</a>
+</details>
+<a href="about.html" class="menu-link">About</a>
+<a href="glossary.html" class="menu-link">Glossary</a>
+<a href="people.html" class="menu-link">People</a>
+<a href="by-year.html" class="menu-link">By Year</a>
+<a href="release-log.html" class="menu-link">Release Log</a>
+<a href="sitemap.html" class="menu-link">Site Map</a>
+</div>
+</aside>
+
+<header>
+  <h1><em>Decision Fatigue</em></h1>
+  <p class="tagline">Every choice makes <em>the next one worse</em>.</p>
+  <p class="subtitle">After a long run of decisions, people choose less carefully: they take the default, put things off, or grab whatever is easiest. Design the sequence so the decisions that matter come while attention is still fresh.</p>
+</header>
+<section class="law-feature">
+  <div class="law-origin">
+    <div class="feature-label">Origin</div>
+    <p class="body-text">Journalist John Tierney popularized the term in 2011, drawing on research by <a href="people.html#p-roy-baumeister">Roy Baumeister</a>, <a href="people.html#p-kathleen-vohs">Kathleen Vohs</a> and colleagues. In a 2008 series of studies, people who had just made many choices persisted less on later tasks and showed weaker self-control than people who had not.</p>
+    <p class="body-text">The idea is tied to ego depletion, the theory that self-control draws on a limited resource, and that theory has struggled to replicate: a 23-lab effort in 2016 found an effect close to zero, and research with <a href="people.html#p-carol-dweck">Carol Dweck</a> suggested depletion appears mainly in people who believe willpower runs out. Field studies still show choices drifting late in long sessions.</p>
+  </div>
+  <div class="law-content">
+    <div class="feature-label">The Effect</div>
+    <p class="body-text law-desc">Decision fatigue is the decline in the quality of decisions after a long session of making them. People who are worn out from choosing avoid trade-offs, put decisions off, take the default or the status quo, and become more impulsive.</p>
+    <div class="law-meta">
+      <div><div class="label">Origin</div><div class="value"><a href="people.html#p-kathleen-vohs">Vohs</a> et al. (2008) · Tierney (2011)</div></div>
+      <div><div class="label">Also called</div><div class="value">Choice fatigue</div></div>
+      <div><div class="label">In practice</div><div class="value">Put the important choices first</div></div>
+    </div>
+  </div>
+</section>
+<section class="apply-feature">
+  <div class="apply-when">
+    <div class="feature-label">When to Use</div>
+    <ul class="apply-list">
+      <li>Designing flows with many decisions in a row, such as configurators, onboarding, or checkout.</li>
+      <li>Building tools for people who make repeated judgments all day, such as reviewers, clinicians, or moderators.</li>
+      <li>People abandon long flows or accept whatever is preselected.</li>
+    </ul>
+  </div>
+  <div class="apply-how">
+    <div class="feature-label">How to Use</div>
+    <ul class="apply-list">
+      <li>Cut decisions that don’t need to be made, and set sensible defaults for the rest.</li>
+      <li>Order the flow so the most important choices come first, and let people save and return.</li>
+      <li>Don’t exploit fatigue: keep upsells and consequential prompts away from the end of a long session.</li>
+    </ul>
+  </div>
+</section>
+
+
+<main class="grid">
+
+  <!-- 1. Every Choice Draws Down -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">The classic</span>
+      <span class="num">01 / 10</span>
+      <h3>Every Choice Draws Down</h3>
+      <p class="desc">In 2008 studies, people who had just made a long series of choices persisted less on later tasks and showed weaker self-control. A long run of small decisions erodes the quality of the ones that follow.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><circle cx="30" cy="40" r="9" class="g"/><circle cx="62" cy="40" r="9" class="g"/><circle cx="94" cy="40" r="9" class="g"/><circle cx="126" cy="40" r="9" class="g"/><circle cx="158" cy="40" r="9" class="g"/><circle cx="190" cy="40" r="9" class="g"/><rect x="20" y="76" width="180" height="14" rx="7" class="b"/><rect x="20" y="76" width="42" height="14" rx="7" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Explaining the effect</div></div>
+      <div><div class="label">Use when</div><div class="value">People face many decisions in a row</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Decisions are few and simple</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="paradox-of-choice.html">Paradox of Choice</a><a href="principle-of-least-privilege.html">Principle of Least Privilege</a></div>
+    </div>
+  </article>
+  <!-- 2. Put Big Choices First -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Sequence</span>
+      <span class="num">02 / 10</span>
+      <h3>Put Big Choices First</h3>
+      <p class="desc">In field experiments with car buyers configuring a new car, those who started with the options that had the most choices accepted more of the defaults later on. Order decisions so the ones that matter most come first.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="20" width="84" height="80" rx="8" class="a"/><rect x="114" y="20" width="24" height="38" rx="5" class="b"/><rect x="144" y="20" width="24" height="38" rx="5" class="b"/><rect x="174" y="20" width="24" height="38" rx="5" class="b"/><rect x="114" y="62" width="24" height="38" rx="5" class="b"/><rect x="144" y="62" width="24" height="38" rx="5" class="b"/><rect x="174" y="62" width="24" height="38" rx="5" class="b"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Configurators and onboarding</div></div>
+      <div><div class="label">Use when</div><div class="value">A flow has many decisions</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Dependencies dictate the order</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="choice-architecture.html">Choice Architecture</a></div>
+    </div>
+  </article>
+  <!-- 3. Tired People Take the Default -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Defaults</span>
+      <span class="num">03 / 10</span>
+      <h3>Tired People Take the Default</h3>
+      <p class="desc">People who are worn out from deciding fall back on the default or the status quo. Late in a flow, the preselected option carries more weight, so make sure it is the one that serves the person.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="16" width="180" height="22" rx="6" class="b"/><circle cx="37" cy="27" r="6" class="a"/><rect x="52" y="25" width="90" height="5" rx="2.5" class="a"/><rect x="20" y="46" width="180" height="22" rx="6" class="b"/><circle cx="37" cy="57" r="6" class="g"/><rect x="52" y="55" width="70" height="5" rx="2.5" class="g"/><rect x="20" y="76" width="180" height="22" rx="6" class="b"/><circle cx="37" cy="87" r="6" class="g"/><rect x="52" y="85" width="110" height="5" rx="2.5" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Long forms and checkouts</div></div>
+      <div><div class="label">Use when</div><div class="value">Later steps offer defaults</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Defaults favor the business over the user</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="default-effect.html">Default Effect</a></div>
+    </div>
+  </article>
+  <!-- 4. Fatigue Breeds Postponing -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Avoidance</span>
+      <span class="num">04 / 10</span>
+      <h3>Fatigue Breeds Postponing</h3>
+      <p class="desc">Decision fatigue makes people plan less, procrastinate, and avoid choices altogether. Let people save progress and come back, instead of forcing every decision in one sitting.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="30" width="180" height="14" rx="7" class="b"/><rect x="20" y="30" width="84" height="14" rx="7" class="a"/><rect x="94" y="62" width="12" height="34" rx="3" class="g"/><rect x="114" y="62" width="12" height="34" rx="3" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Long applications and setup</div></div>
+      <div><div class="label">Use when</div><div class="value">People abandon partway through</div></div>
+      <div><div class="label">Avoid when</div><div class="value">The task is short and urgent</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="zeigarnik-effect.html">Zeigarnik Effect</a></div>
+    </div>
+  </article>
+  <!-- 5. Prescriptions Late in the Day -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Field evidence</span>
+      <span class="num">05 / 10</span>
+      <h3>Prescriptions Late in the Day</h3>
+      <p class="desc">A 2014 study found that clinicians grew more likely to prescribe antibiotics for respiratory infections as their clinic sessions went on. Decision support matters most late in a shift, when judgment is most worn down.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="28" y="82" width="16" height="18" rx="3" class="g"/><rect x="52" y="74" width="16" height="26" rx="3" class="g"/><rect x="76" y="68" width="16" height="32" rx="3" class="g"/><rect x="100" y="58" width="16" height="42" rx="3" class="g"/><rect x="124" y="50" width="16" height="50" rx="3" class="g"/><rect x="148" y="38" width="16" height="62" rx="3" class="a"/><rect x="172" y="26" width="16" height="74" rx="3" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Professional and clinical tools</div></div>
+      <div><div class="label">Use when</div><div class="value">People make repeated judgments</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Each decision is fully automated</div></div>
+    </div>
+  </article>
+  <!-- 6. Checkout Impulses -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Commerce</span>
+      <span class="num">06 / 10</span>
+      <h3>Checkout Impulses</h3>
+      <p class="desc">Candy sits by the register because shoppers reach it worn out from a store full of trade-offs. Placing upsells and add-ons where people are most depleted works, but it trades their trust for a sale.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="18" y="34" width="18" height="52" rx="3" class="b"/><rect x="42" y="34" width="18" height="52" rx="3" class="b"/><rect x="66" y="34" width="18" height="52" rx="3" class="b"/><rect x="90" y="34" width="18" height="52" rx="3" class="b"/><rect x="114" y="34" width="18" height="52" rx="3" class="b"/><rect x="150" y="26" width="52" height="68" rx="6" class="g"/><circle cx="140" cy="44" r="5" class="a"/><circle cx="140" cy="58" r="5" class="a"/><circle cx="140" cy="72" r="5" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Checkout and upsell design</div></div>
+      <div><div class="label">Use when</div><div class="value">Add-ons appear at the end</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Testing whether to exploit fatigue</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="dark-patterns.html">Dark Patterns</a></div>
+    </div>
+  </article>
+  <!-- 7. The Hungry Judges Study -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Caution</span>
+      <span class="num">07 / 10</span>
+      <h3>The Hungry Judges Study</h3>
+      <p class="desc">A 2011 study reported that favorable parole rulings fell from about 65 percent to nearly zero over each session and recovered after a break. Critics pointed out that cases were not heard in random order, so treat dramatic single studies with care.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M20 100L200 100" class="ax"/><rect x="26" y="34" width="14" height="66" rx="3" class="g"/><rect x="46" y="46" width="14" height="54" rx="3" class="g"/><rect x="66" y="58" width="14" height="42" rx="3" class="g"/><rect x="86" y="70" width="14" height="30" rx="3" class="g"/><rect x="106" y="84" width="14" height="16" rx="3" class="g"/><rect x="140" y="34" width="14" height="66" rx="3" class="a"/><rect x="160" y="48" width="14" height="52" rx="3" class="g"/><rect x="180" y="62" width="14" height="38" rx="3" class="g"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Citing research to stakeholders</div></div>
+      <div><div class="label">Use when</div><div class="value">A finding sounds too clean</div></div>
+      <div><div class="label">Avoid when</div><div class="value">One study must carry a decision</div></div>
+    </div>
+  </article>
+  <!-- 8. Is Willpower Really a Tank? -->
+  <article class="card">
+    <div class="card-header">
+      <span class="tag">Replication</span>
+      <span class="num">08 / 10</span>
+      <h3>Is Willpower Really a Tank?</h3>
+      <p class="desc">A 23-lab replication in 2016 found almost no ego-depletion effect, and other research found depletion mainly in people who believe willpower is limited. Reduce decision load because it is good design, not because a fuel-tank model of the mind is proven.</p>
+    </div>
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="46" y="14" width="52" height="92" rx="10" class="b"/><rect x="46" y="80" width="52" height="26" rx="10" class="a"/><rect x="122" y="14" width="52" height="92" rx="10" class="b"/><rect x="122" y="24" width="52" height="82" rx="10" class="a"/></svg></div></div>
+    <div class="meta">
+      <div><div class="label">Best for</div><div class="value">Weighing the evidence</div></div>
+      <div><div class="label">Use when</div><div class="value">Arguing from depletion theory</div></div>
+      <div><div class="label">Avoid when</div><div class="value">Treating fatigue as settled science</div></div>
+    </div>
+  </article>
+
+  <div class="ai-divider">
+    <span class="spark">✦</span>
+    <h3>Decision Fatigue in the Age of AI</h3>
+    <p>AI can take routine decisions off people’s plates, or bury them in approvals. Which one happens depends on what the system asks people to decide.</p>
+  </div>
+
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="14" width="180" height="12" rx="6" class="b"/><circle cx="31" cy="20" r="3.5" class="g"/><rect x="20" y="32" width="180" height="12" rx="6" class="b"/><circle cx="31" cy="38" r="3.5" class="g"/><rect x="20" y="50" width="180" height="12" rx="6" class="b"/><circle cx="31" cy="56" r="3.5" class="g"/><rect x="20" y="72" width="180" height="34" rx="8" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">09 / 10</span>
+      <h3>AI Can Carry the Small Decisions</h3>
+      <p class="desc">Let AI handle routine choices, such as sorting, drafting, and filling in sensible defaults, so people save their attention for the decisions that matter. Keep those decisions visible and easy to change.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Many small choices → a few real ones</div></div>
+      <div><div class="label">Use when</div><div class="value">AI assists repetitive work</div></div>
+      <div><div class="label">Watch for</div><div class="value">Hiding consequential choices inside automation</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="automation-bias.html">Automation Bias</a></div>
+    </div>
+  </article>
+  <article class="card">
+    <div class="demo"><div class="gx"><svg viewBox="0 0 220 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><rect x="20" y="18" width="54" height="38" rx="6" class="b"/><rect x="48" y="42" width="20" height="8" rx="4" class="a"/><rect x="82" y="18" width="54" height="38" rx="6" class="b"/><rect x="110" y="42" width="20" height="8" rx="4" class="a"/><rect x="144" y="18" width="54" height="38" rx="6" class="b"/><rect x="172" y="42" width="20" height="8" rx="4" class="a"/><rect x="20" y="64" width="54" height="38" rx="6" class="b"/><rect x="48" y="88" width="20" height="8" rx="4" class="a"/><rect x="82" y="64" width="54" height="38" rx="6" class="b"/><rect x="110" y="88" width="20" height="8" rx="4" class="a"/><rect x="144" y="64" width="54" height="38" rx="6" class="b"/><rect x="172" y="88" width="20" height="8" rx="4" class="a"/></svg></div></div>
+    <div class="card-header">
+      <span class="tag ai-tag">✦ AI Era</span>
+      <span class="num">10 / 10</span>
+      <h3>Approval Prompts Wear Out</h3>
+      <p class="desc">AI agents that ask permission for every step train people to approve without reading. Batch routine actions, and save confirmation for the steps that are consequential or hard to undo.</p>
+    </div>
+    <div class="meta">
+      <div><div class="label">Shift</div><div class="value">Prompt for everything → prompt for what matters</div></div>
+      <div><div class="label">Use when</div><div class="value">Designing agent permissions</div></div>
+      <div><div class="label">Watch for</div><div class="value">Confirmations people click through</div></div>
+      <div class="related"><span class="related-label">Related</span><a href="alarm-fatigue.html">Alarm Fatigue</a></div>
+    </div>
+  </article>
+</main>
+
+<section class="references">
+  <div class="ref-label">Further Reading</div>
+  <div class="ref-groups">
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Research</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1037/0022-3514.94.5.883" target="_blank" rel="noopener"><span class="title">Making Choices Impairs Subsequent Self-Control — Vohs et al., 2008</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1086/652463" target="_blank" rel="noopener"><span class="title">Order in Product Customization Decisions: Evidence from Field Experiments — Levav et al., 2010</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1073/pnas.1018033108" target="_blank" rel="noopener"><span class="title">Extraneous Factors in Judicial Decisions — Danziger, Levav and Avnaim-Pesso, 2011</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1073/pnas.1110910108" target="_blank" rel="noopener"><span class="title">Overlooked Factors in the Analysis of Parole Decisions — Weinshall-Margel and Shapard, 2011</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1001/jamainternmed.2014.5225" target="_blank" rel="noopener"><span class="title">Time of Day and the Decision to Prescribe Antibiotics — Linder et al., 2014</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Replication</h3>
+      <ul class="ref-list">
+        <li><a href="https://doi.org/10.1177/1745691616652873" target="_blank" rel="noopener"><span class="title">A Multilab Preregistered Replication of the Ego-Depletion Effect — Hagger et al., 2016</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://doi.org/10.1177/0956797610384745" target="_blank" rel="noopener"><span class="title">Ego Depletion: Is It All in Your Head? — Job, Dweck and Walton, 2010</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+    <div class="ref-group">
+      <h3 class="label ref-source-label">Wikipedia</h3>
+      <ul class="ref-list">
+        <li><a href="https://en.wikipedia.org/wiki/Decision_fatigue" target="_blank" rel="noopener"><span class="title">Decision Fatigue</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Ego_depletion" target="_blank" rel="noopener"><span class="title">Ego Depletion</span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="copyright">© Patrick Neeman 2026 • UX Guidelines · Decision Fatigue</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principe du <em>moindre privilège</em>"
+ ],
+ "header .tagline": [
+  "N'accordez que <em>ce que la tâche exige</em>."
+ ],
+ "header .subtitle": [
+  "Chaque personne, programme et agent d'IA ne devrait obtenir que l'accès dont sa tâche a besoin, et seulement le temps nécessaire. Moins d'accès, c'est moins de dégâts quand quelque chose tourne mal, et moins de choix inquiétants pour ceux à qui on le demande."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-jerome-saltzer\">Jerome Saltzer</a> a énoncé le principe en 1974 : chaque programme et chaque utilisateur privilégié d'un système devrait fonctionner avec le moins de privilèges nécessaires pour accomplir sa tâche. En 1975, avec <a href=\"people.html#p-michael-schroeder\">Michael Schroeder</a>, il en a fait l'un des principes de conception pour protéger l'information dans les systèmes informatiques, en s'appuyant sur des travaux comme ceux de <a href=\"people.html#p-roger-needham\">Roger Needham</a> qui, en 1972, évoquait l'attribution dynamique des privilèges.",
+  "Les débuts d'Unix l'ont mis en pratique : son programme de connexion démarrait avec les droits de superutilisateur et y renonçait dès qu'ils n'étaient plus nécessaires. La même idée traverse aujourd'hui les comptes utilisateurs, les autorisations des applications, les portées OAuth et les outils confiés aux agents d'IA."
+ ],
+ ".law-content .law-desc": [
+  "Le principe du moindre privilège veut que chaque utilisateur, processus ou programme n'accède qu'aux informations et ressources nécessaires à sa finalité légitime. En conception, cela signifie demander moins, demander au moment où cela compte, et faire d'un accès ordinaire et limité la valeur par défaut."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jerome-saltzer\">Saltzer</a> (1974) · <a href=\"people.html#p-jerome-saltzer\">Saltzer</a> et <a href=\"people.html#p-michael-schroeder\">Schroeder</a> (1975)",
+  "Principe de moindre autorité",
+  "Ne demander que ce que la tâche exige"
+ ],
+ ".apply-list li": [
+  "Vous concevez des demandes d'autorisation, des portées de connexion ou des réglages de partage.",
+  "Vous définissez des rôles et des niveaux d'accès pour des équipes, des administrateurs et des invités.",
+  "Vous donnez à un agent d'IA des outils, des données ou la capacité d'agir au nom de quelqu'un.",
+  "Demandez l'accès quand une fonctionnalité en a besoin, expliquez pourquoi, et continuez de fonctionner en cas de refus.",
+  "Faites d'un accès standard et limité la valeur par défaut, et n'élevez les droits que pour la tâche en cours.",
+  "Réexaminez les accès dans le temps et révoquez ce qui ne sert plus."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Moment",
+  "Autorisations",
+  "Portées",
+  "Comptes",
+  "Demandes",
+  "Rôles",
+  "Limites",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Seulement ce que la tâche exige",
+  "Y renoncer une fois terminé",
+  "Demander au moment voulu",
+  "Demander les portées progressivement",
+  "Faire de l'accès ordinaire la norme",
+  "Les demandes d'élévation s'usent",
+  "Concevoir les rôles autour des tâches",
+  "Le vrai minimum est difficile à trouver",
+  "Des outils à portée limitée pour les agents",
+  "Confirmer l'irréversible"
+ ],
+ ".card .desc": [
+  "La règle de Saltzer est simple : chaque programme et chaque utilisateur privilégié doit fonctionner avec le moins de privilèges nécessaires pour terminer sa tâche. Un compte de sauvegarde peut lancer des sauvegardes ; il n'a pas besoin d'installer de logiciels.",
+  "Le programme de connexion des débuts d'Unix démarrait avec les droits de superutilisateur et y renonçait dès qu'ils n'étaient plus nécessaires. Accordez les droits élevés au dernier moment possible, et reprenez-les juste après.",
+  "Une étude de 2012 a montré que seuls 17 % des utilisateurs d'Android prêtaient attention aux autorisations lors de l'installation, et que 3 % seulement répondaient correctement à toutes les questions de compréhension. Demandez l'accès en contexte, quand une fonctionnalité en a besoin, et dites pourquoi.",
+  "Connectez avec un accès de base d'abord, et ne demandez davantage que lorsque la personne atteint une fonctionnalité qui en a besoin. L'autorisation progressive garde la première demande petite et facile à accepter.",
+  "Dans une étude de 2010 sur des utilisateurs de Windows, les 45 participants travaillaient tous avec un compte administrateur, et 91 % ignoraient les avantages des comptes à privilèges limités. Faites des comptes limités la valeur par défaut et rendez l'élévation facile, pour que personne ne soit poussé à travailler en administrateur.",
+  "La même étude a montré que 69 % des participants ne répondaient pas correctement aux demandes d'élévation de Windows. Quand les demandes apparaissent sans cesse, on les accepte par habitude : gardez-les rares et liées à des actions clairement lourdes de conséquences.",
+  "Accorder un accès en lecture et écriture quand la lecture suffit viole le moindre privilège. Construisez des rôles comme lecteur, éditeur et administrateur autour de vraies tâches, et attribuez par défaut aux nouveaux membres le plus limité qui convient.",
+  "Prévoir exactement l'accès dont un programme ou une personne aura besoin est irréaliste, si bien que l'accès accordé dépasse généralement le vrai minimum. Supprimez ce qui est clairement inutile, puis réexaminez et révoquez au fil du temps.",
+  "L'OWASP classe l'agentivité excessive, c'est-à-dire trop de fonctionnalités, d'autorisations ou d'autonomie, parmi les principaux risques des applications de LLM. Ne donnez à un agent que les outils et les données que sa tâche exige, avec les autorisations les plus étroites possibles.",
+  "Laissez les agents agir seuls dans des limites étroites, et faites-les s'arrêter pour demander à une personne avant toute action lourde de conséquences ou difficile à annuler, comme un paiement, une suppression ou un message envoyé au nom de quelqu'un."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'idée",
+  "Décider quels accès accorder",
+  "L'accès est déjà minimal",
+  "Actions d'administration et élévation de droits",
+  "Une tâche nécessite un pouvoir temporaire",
+  "L'accès doit durer pour le rôle",
+  "Autorisations mobiles et ordinateur",
+  "Une fonctionnalité a besoin de l'appareil photo, de la position ou des contacts",
+  "Regrouper toutes les demandes à l'installation",
+  "OAuth et connexion tierce",
+  "Les fonctionnalités exigent des données différentes",
+  "Demander toutes les portées d'emblée",
+  "Création de comptes et invitations",
+  "Les nouveaux utilisateurs choisissent un niveau d'accès",
+  "Tout le monde est administrateur par défaut",
+  "Dialogues de confirmation et d'élévation",
+  "Les demandes apparaissent souvent",
+  "Demander pour des actions routinières et réversibles",
+  "Autorisations d'équipe et d'espace de travail",
+  "Les rôles sont en cours de définition",
+  "Un seul rôle convient à tous",
+  "Revues et audits des accès",
+  "Les autorisations s'accumulent",
+  "Supposer que l'accès a été bien dimensionné une fois pour toutes",
+  "Accès complet → outils limités à la tâche",
+  "Connecter des agents à des comptes et des API",
+  "Des agents qui héritent de tous les droits d'un utilisateur",
+  "Agir librement → confirmer ce qui compte",
+  "Concevoir l'autonomie d'un agent",
+  "Des demandes de validation à chaque étape"
+ ],
+ ".ai-divider h3": [
+  "Le moindre privilège à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "Les agents d'IA lisent des données, appellent des outils et agissent pour les gens. Chaque outil et chaque autorisation qu'ils détiennent peut servir à une erreur ou à une instruction malveillante."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Principio de <em>mínimo privilegio</em>"
+ ],
+ "header .tagline": [
+  "Concede solo <em>lo que la tarea necesita</em>."
+ ],
+ "header .subtitle": [
+  "Cada persona, programa y agente de IA debería obtener solo el acceso que su tarea requiere, y solo durante el tiempo necesario. Menos acceso significa menos daño cuando algo falla, y menos decisiones inquietantes para quienes deben concederlo."
+ ],
+ ".law-origin .body-text": [
+  "<a href=\"people.html#p-jerome-saltzer\">Jerome Saltzer</a> formuló el principio en 1974: cada programa y cada usuario privilegiado de un sistema debería operar con el mínimo privilegio necesario para completar su tarea. En 1975, junto con <a href=\"people.html#p-michael-schroeder\">Michael Schroeder</a>, lo convirtió en uno de los principios de diseño para proteger la información en los sistemas informáticos, a partir de trabajos como el de <a href=\"people.html#p-roger-needham\">Roger Needham</a>, que en 1972 trató la asignación dinámica de privilegios.",
+  "Los primeros Unix lo pusieron en práctica: su programa de inicio de sesión arrancaba con derechos de superusuario y renunciaba a ellos en cuanto dejaban de ser necesarios. La misma idea recorre hoy las cuentas de usuario, los permisos de las aplicaciones, los alcances de OAuth y las herramientas que se dan a los agentes de IA."
+ ],
+ ".law-content .law-desc": [
+  "El principio de mínimo privilegio establece que cada usuario, proceso o programa solo debe acceder a la información y los recursos necesarios para su finalidad legítima. En diseño, significa pedir menos, pedir en el momento en que importa y hacer del acceso ordinario y limitado la opción predeterminada."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-jerome-saltzer\">Saltzer</a> (1974) · <a href=\"people.html#p-jerome-saltzer\">Saltzer</a> y <a href=\"people.html#p-michael-schroeder\">Schroeder</a> (1975)",
+  "Principio de mínima autoridad",
+  "Pedir solo lo que la tarea necesita"
+ ],
+ ".apply-list li": [
+  "Diseñas solicitudes de permisos, alcances de inicio de sesión o ajustes para compartir.",
+  "Defines roles y niveles de acceso para equipos, administradores e invitados.",
+  "Das a un agente de IA herramientas, datos o la capacidad de actuar en nombre de alguien.",
+  "Pide acceso cuando una función lo necesite, explica por qué y sigue funcionando si la respuesta es no.",
+  "Haz del acceso estándar y limitado la opción predeterminada, y eleva los privilegios solo para la tarea en curso.",
+  "Revisa los accesos con el tiempo y revoca lo que ya no se usa."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Momento",
+  "Permisos",
+  "Alcances",
+  "Cuentas",
+  "Avisos",
+  "Roles",
+  "Límites",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Solo lo que la tarea necesita",
+  "Renunciar al terminar",
+  "Pedir cuando hace falta",
+  "Pedir alcances de forma gradual",
+  "El acceso ordinario como predeterminado",
+  "Los avisos de elevación se desgastan",
+  "Diseñar roles en torno a tareas",
+  "El mínimo real es difícil de encontrar",
+  "Herramientas acotadas para los agentes",
+  "Confirmar lo irreversible"
+ ],
+ ".card .desc": [
+  "La regla de Saltzer es sencilla: cada programa y cada usuario privilegiado debe operar con el mínimo privilegio necesario para terminar su tarea. Una cuenta de copias de seguridad puede hacer copias; no necesita instalar software.",
+  "El programa de inicio de sesión de los primeros Unix arrancaba con derechos de superusuario y renunciaba a ellos en cuanto dejaban de ser necesarios. Concede los privilegios elevados en el último momento posible y retíralos justo después.",
+  "Un estudio de 2012 halló que solo el 17 % de los usuarios de Android prestaba atención a los permisos al instalar, y solo el 3 % respondía bien todas las preguntas de comprensión. Pide acceso en contexto, cuando una función lo necesite, y explica por qué.",
+  "Inicia sesión con acceso básico y pide más solo cuando la persona llegue a una función que lo necesite. La autorización gradual mantiene la primera solicitud pequeña y fácil de aceptar.",
+  "En un estudio de 2010 con usuarios de Windows, los 45 participantes trabajaban con cuentas de administrador, y el 91 % desconocía las ventajas de las cuentas con pocos privilegios. Haz de las cuentas limitadas la opción predeterminada y facilita la elevación, para que nadie se vea empujado a trabajar como administrador.",
+  "El mismo estudio halló que el 69 % de los participantes no respondía correctamente a los avisos de elevación de Windows. Cuando los avisos aparecen constantemente, se aprueban por costumbre, así que mantenlos escasos y ligados a acciones claramente importantes.",
+  "Dar acceso de lectura y escritura cuando bastaría con lectura viola el mínimo privilegio. Crea roles como lector, editor y administrador en torno a tareas reales, y asigna por defecto a los nuevos miembros el más limitado que funcione.",
+  "Predecir con exactitud qué acceso necesitará un programa o una persona es poco práctico, así que el acceso concedido suele superar el mínimo real. Elimina lo que claramente sobra y luego revisa y revoca con el tiempo.",
+  "OWASP señala la agencia excesiva, es decir, demasiada funcionalidad, permisos o autonomía, como uno de los principales riesgos de las aplicaciones de LLM. Da a un agente solo las herramientas y los datos que su tarea requiere, con los permisos más estrechos que funcionen.",
+  "Deja que los agentes actúen solos dentro de límites estrechos, y que se detengan a consultar a una persona antes de cualquier cosa importante o difícil de deshacer, como pagos, eliminaciones o mensajes enviados en nombre de alguien."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar la idea",
+  "Decidir qué acceso conceder",
+  "El acceso ya es mínimo",
+  "Acciones de administración y flujos tipo sudo",
+  "Una tarea necesita poder temporal",
+  "El acceso debe persistir para el rol",
+  "Permisos en móvil y escritorio",
+  "Una función necesita cámara, ubicación o contactos",
+  "Agrupar todas las solicitudes al instalar",
+  "OAuth e inicio de sesión de terceros",
+  "Las funciones necesitan datos distintos",
+  "Pedir todos los alcances de entrada",
+  "Creación de cuentas e invitaciones",
+  "Los nuevos usuarios eligen un nivel de acceso",
+  "Todos son administradores por defecto",
+  "Diálogos de confirmación y elevación",
+  "Los avisos aparecen a menudo",
+  "Avisar en acciones rutinarias y reversibles",
+  "Permisos de equipo y espacio de trabajo",
+  "Se están definiendo los roles",
+  "Un solo rol sirve para todos",
+  "Revisiones y auditorías de acceso",
+  "Los permisos se acumulan",
+  "Suponer que el acceso quedó bien ajustado de una vez",
+  "Acceso total → herramientas acotadas a la tarea",
+  "Conectar agentes a cuentas y API",
+  "Agentes que heredan todos los derechos de un usuario",
+  "Actuar libremente → confirmar lo que importa",
+  "Diseñar la autonomía de un agente",
+  "Aprobaciones en cada paso"
+ ],
+ ".ai-divider h3": [
+  "El mínimo privilegio en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "Los agentes de IA leen datos, usan herramientas y actúan por las personas. Cada herramienta y permiso que tienen puede aprovecharlo un error o una instrucción maliciosa."
+ ]
+}

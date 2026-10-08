@@ -143,6 +143,9 @@
     "Processing Fluency": ["Fluidité de traitement", "Verarbeitungsflüssigkeit", "Fluidez de procesamiento", "処理流暢性", "加工流畅性"],
     "Chartjunk": ["Chartjunk", "Chartjunk", "Chartjunk", "チャートジャンク", "图表垃圾"],
     "Explainability": ["Explicabilité", "Erklärbarkeit", "Explicabilidad", "説明可能性", "可解释性"],
+    "Decision Fatigue": ["Fatigue décisionnelle", "Entscheidungsmüdigkeit", "Fatiga de decisión", "決断疲れ", "决策疲劳"],
+    "Principle of Least Privilege": ["Principe du moindre privilège", "Prinzip der minimalen Rechte", "Principio de mínimo privilegio", "最小権限の原則", "最小权限原则"],
+    "Cognitive Models of Information Retrieval": ["Modèles cognitifs de la recherche d’information", "Kognitive Modelle des Information Retrieval", "Modelos cognitivos de recuperación de información", "情報検索の認知モデル", "信息检索的认知模型"],
     "Miller's Law": ["Loi de Miller", "Millers Gesetz", "Ley de Miller", "ミラーの法則", "米勒定律"],
     "Gall's Law": ["Loi de Gall", "Galls Gesetz", "Ley de Gall", "ゴールの法則", "加尔定律"],
     "Goodhart's Law": ["Loi de Goodhart", "Goodharts Gesetz", "Ley de Goodhart", "グッドハートの法則", "古德哈特定律"],
@@ -191,11 +194,11 @@
   // per-page tagline and subtitle: PAGE[data-page or filename] = { tag: {...}, sub: {...} }
   const HEAD = {
     "index": { sub: {
-      fr: "Une bibliothèque grandissante de 82 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
-      de: "Eine wachsende Bibliothek von 82 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
-      es: "Una biblioteca creciente de 82 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
-      ja: "研究に裏付けられた82件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
-      zh: "一个不断成长的资料库，收录82篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
+      fr: "Une bibliothèque grandissante de 85 références UX fondées sur la recherche, pour les designers, chercheurs et ingénieurs.",
+      de: "Eine wachsende Bibliothek von 85 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.",
+      es: "Una biblioteca creciente de 85 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.",
+      ja: "研究に裏付けられた85件のUXリファレンスからなる、デザイナー、リサーチャー、エンジニアのための成長し続けるライブラリ。",
+      zh: "一个不断成长的资料库，收录85篇以研究为依据的UX参考，为设计师、研究者和工程师而建。" } },
     "hick": { tag: {
       fr: "Plus de choix, des décisions plus longues.", de: "Mehr Auswahl, längere Entscheidungen.", es: "Más opciones, decisiones más largas.", ja: "選択肢が増えるほど、決定は遅くなる。", zh: "选择越多，决定越慢。" }, sub: {
       fr: "Plus vous présentez de choix, plus chaque décision prend du temps. La loi de Hick façonne les menus, les réglages et l'onboarding — ainsi que les techniques pour la contourner.",
@@ -609,6 +612,27 @@
       es: "La IA explicable muestra a las personas por qué un sistema produjo un resultado, para que puedan juzgarlo, cuestionarlo y decidir hasta qué punto confiar en él. El objetivo no es más confianza, sino la justa.",
       ja: "説明可能なAIは、システムがなぜその結果を出したのかを人に示し、判断し、異議を唱え、どこまで頼るかを決められるようにする。目指すのは信頼を増やすことではなく、適切な量の信頼だ。",
       zh: "可解释的 AI 让人们看到系统为什么得出某个结果，从而能够判断它、质疑它，并决定在多大程度上依赖它。目标不是更多的信任，而是恰当的信任。" } },
+    "decision-fatigue": { tag: {
+      fr: "Chaque choix dégrade le suivant.", de: "Jede Wahl verschlechtert die nächste.", es: "Cada elección empeora la siguiente.", ja: "選ぶたびに、次の選択が悪くなる。", zh: "每做一个选择，下一个就更糟。" }, sub: {
+      fr: "Après une longue série de décisions, on choisit moins soigneusement : on prend l'option par défaut, on remet à plus tard ou on saisit ce qui est le plus simple. Organisez la séquence pour que les décisions importantes arrivent pendant que l'attention est encore fraîche.",
+      de: "Nach einer langen Reihe von Entscheidungen wählen Menschen weniger sorgfältig: Sie nehmen die Voreinstellung, schieben auf oder greifen zum Einfachsten. Gestalten Sie die Abfolge so, dass die wichtigen Entscheidungen kommen, solange die Aufmerksamkeit noch frisch ist.",
+      es: "Tras una larga serie de decisiones, la gente elige con menos cuidado: acepta lo predeterminado, lo deja para luego o toma lo más fácil. Diseña la secuencia para que las decisiones importantes lleguen mientras la atención sigue fresca.",
+      ja: "長く決断を続けると、人は選び方が雑になる。初期設定を受け入れ、先送りし、いちばん楽なものを選ぶ。重要な決断が、注意力がまだ新鮮なうちに来るように順序を設計しよう。",
+      zh: "连续做了很多决定之后，人们会选得越来越草率：接受默认选项、往后拖，或者挑最省事的。把顺序设计好，让重要的决定出现在注意力还充沛的时候。" } },
+    "principle-of-least-privilege": { tag: {
+      fr: "N'accordez que ce que la tâche exige.", de: "Nur gewähren, was die Aufgabe braucht.", es: "Concede solo lo que la tarea necesita.", ja: "作業に必要なものだけを与える。", zh: "只授予任务所需的权限。" }, sub: {
+      fr: "Chaque personne, programme et agent d'IA ne devrait obtenir que l'accès dont sa tâche a besoin, et seulement le temps nécessaire. Moins d'accès, c'est moins de dégâts quand quelque chose tourne mal, et moins de choix inquiétants pour ceux à qui on le demande.",
+      de: "Jede Person, jedes Programm und jeder KI-Agent sollte nur den Zugriff erhalten, den die Aufgabe erfordert, und nur so lange wie nötig. Weniger Zugriff bedeutet weniger Schaden, wenn etwas schiefgeht, und weniger beängstigende Entscheidungen für die Menschen, die ihn gewähren sollen.",
+      es: "Cada persona, programa y agente de IA debería obtener solo el acceso que su tarea requiere, y solo durante el tiempo necesario. Menos acceso significa menos daño cuando algo falla, y menos decisiones inquietantes para quienes deben concederlo.",
+      ja: "人もプログラムもAIエージェントも、その仕事に必要なアクセスだけを、必要な間だけ持つべきだ。アクセスが少なければ、問題が起きたときの被害は小さくなり、許可を求められる人が直面する不安な選択も減る。",
+      zh: "每个人、每个程序和每个 AI 代理，都只应获得完成工作所需的访问权限，而且只在需要的时间内持有。访问越少，出问题时的影响范围就越小，被要求授权的人面对的令人不安的选择也越少。" } },
+    "cognitive-models-of-information-retrieval": { tag: {
+      fr: "La recherche est un chemin, pas une seule requête.", de: "Suche ist ein Weg, keine einzelne Anfrage.", es: "Buscar es un camino, no una sola consulta.", ja: "検索は一度のクエリではなく、道のりだ。", zh: "搜索是一条路径，而不是一次查询。" }, sub: {
+      fr: "Les gens tapent rarement une requête parfaite pour obtenir une réponse parfaite. Ils partent d'un besoin flou, apprennent de ce qu'ils trouvent, changent de mots et rassemblent des éléments en chemin. La conception de la recherche fonctionne quand elle accompagne ce chemin.",
+      de: "Menschen tippen selten eine perfekte Anfrage und erhalten eine perfekte Antwort. Sie beginnen mit einem vagen Bedürfnis, lernen aus dem Gefundenen, ändern ihre Begriffe und sammeln unterwegs Teile ein. Suchgestaltung funktioniert, wenn sie diesen Weg unterstützt.",
+      es: "La gente rara vez escribe una consulta perfecta y obtiene una respuesta perfecta. Empieza con una necesidad vaga, aprende de lo que encuentra, cambia sus palabras y reúne piezas por el camino. El diseño de búsqueda funciona cuando acompaña ese camino.",
+      ja: "人が完璧なクエリを一度入力して、完璧な答えを得ることはまれだ。漠然としたニーズから始まり、見つけたものから学び、言葉を変え、途中で断片を集めていく。検索のデザインは、その道のりを支えるときにうまく機能する。",
+      zh: "人们很少输入一个完美的查询就得到一个完美的答案。他们从模糊的需求出发，从找到的内容中学习，调整用词，并在途中收集零散的信息。搜索设计只有支持这条路径，才能真正奏效。" } },
     "navigation": { tag: {
       fr: "Aidez les gens à savoir où ils sont, où ils peuvent aller et comment revenir.", de: "Hilf Menschen zu wissen, wo sie sind, wohin sie können und wie sie zurückkommen.", es: "Ayuda a la gente a saber dónde está, adónde puede ir y cómo volver.", ja: "今どこにいて、どこへ行けて、どう戻れるかを伝える。", zh: "让人们知道自己在哪、能去哪、怎么回来。" }, sub: {
       fr: "La navigation est le tissu conjonctif d'un produit. Chaque couche a un rôle différent — donnez-leur le bon poids et la structure devient invisible.",
@@ -735,7 +759,7 @@
     // Whatever happens, let the text show again: the skeletons are a stand-in
     // for this fetch, not a state the page should be able to get stuck in.
     const done = () => document.documentElement.classList.remove('i18n-wait');
-    fetch('i18n/' + lang + '/' + page + '.json?v=43')
+    fetch('i18n/' + lang + '/' + page + '.json?v=44')
       .then(r => (r.ok ? r.json() : null))
       .then(d => { if (d) applyOverlay(d); done(); })
       .catch(done);

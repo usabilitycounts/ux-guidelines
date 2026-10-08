@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "Modelos cognitivos de <em>recuperación de información</em>"
+ ],
+ "header .tagline": [
+  "Buscar es un camino, <em>no una sola consulta</em>."
+ ],
+ "header .subtitle": [
+  "La gente rara vez escribe una consulta perfecta y obtiene una respuesta perfecta. Empieza con una necesidad vaga, aprende de lo que encuentra, cambia sus palabras y reúne piezas por el camino. El diseño de búsqueda funciona cuando acompaña ese camino."
+ ],
+ ".law-origin .body-text": [
+  "En 1989, <a href=\"people.html#p-marcia-bates\">Marcia Bates</a> describió la recolección de bayas: la gente no lanza una consulta y se detiene, sino que cambia su búsqueda a medida que aprende de cada resultado, y reúne la información poco a poco a partir de muchas fuentes. La contrapuso al modelo clásico de recuperación de información, moldeado por investigadores como <a href=\"people.html#p-gerard-salton\">Gerard Salton</a>, que trataba la búsqueda como un único emparejamiento entre una consulta y un conjunto de documentos.",
+  "La visión de Bates se apoyó en otros trabajos sobre la búsqueda de información y los conectó: el estado anómalo de conocimiento de <a href=\"people.html#p-nicholas-belkin\">Nicholas Belkin</a>, la laguna que la gente percibe pero no sabe describir; las etapas del proceso de búsqueda de <a href=\"people.html#p-carol-kuhlthau\">Carol Kuhlthau</a>; la búsqueda de alimento informativo de <a href=\"people.html#p-peter-pirolli\">Peter Pirolli</a> y <a href=\"people.html#p-stuart-card\">Stuart Card</a>; y la distinción de <a href=\"people.html#p-gary-marchionini\">Gary Marchionini</a> entre consultar un dato y explorar para aprender."
+ ],
+ ".law-content .law-desc": [
+  "Los modelos cognitivos de recuperación de información describen cómo la comprensión que tiene una persona de lo que necesita se encuentra con la forma en que un sistema organiza la información. Muestran la búsqueda como un proceso evolutivo y exploratorio, moldeado por la retroalimentación, el conocimiento parcial y las emociones, y no como un simple emparejamiento entre consulta y documento."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-marcia-bates\">Bates</a> (1989) · <a href=\"people.html#p-nicholas-belkin\">Belkin</a> et al. (1982)",
+  "Modelos de búsqueda de información",
+  "Apoyar búsquedas que evolucionan"
+ ],
+ ".apply-list li": [
+  "Diseñas búsqueda, navegación y filtros para sitios, aplicaciones y bases de conocimiento.",
+  "La gente investiga, compara o aprende, en lugar de consultar un único dato conocido.",
+  "Añades búsqueda conversacional o con IA a un producto.",
+  "Facilita refinar: mantén la consulta editable, sugiere términos relacionados y muestra filtros.",
+  "Ofrece muchas vías de entrada, como navegación, enlaces relacionados y referencias, junto al cuadro de búsqueda.",
+  "Mantén visible el rastro con historial, elementos guardados y las fuentes detrás de cada respuesta."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Tácticas",
+  "Exploración",
+  "Rastro",
+  "Lagunas",
+  "Emociones",
+  "Orientación",
+  "Retroalimentación",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Buscar es recolectar bayas",
+  "Ofrecer muchas vías de entrada",
+  "Consultar no es la única búsqueda",
+  "Seguir el rastro de la información",
+  "No siempre sabemos nombrar lo que necesitamos",
+  "La incertidumbre culmina a mitad del camino",
+  "Pasos pequeños mejor que una gran consulta",
+  "Que los resultados reformulen la consulta",
+  "Las respuestas pueden ocultar el camino",
+  "Mantener visible el rastro"
+ ],
+ ".card .desc": [
+  "Bates mostró que la gente no lanza una consulta y se detiene. Cada resultado le enseña algo, así que cambia sus términos y recoge piezas útiles por el camino, como quien recoge bayas de muchos arbustos.",
+  "Bates enumeró tácticas como seguir notas al pie, buscar citas, recorrer un estante y navegar por tema o autor. Ofrece enlaces relacionados, referencias y rutas de navegación junto al cuadro de búsqueda.",
+  "Marchionini distinguió la consulta, encontrar algo conocido, del aprendizaje y la investigación, donde los objetivos son difusos y cambian. La búsqueda exploratoria necesita visiones de conjunto, filtros y comparaciones, no solo una lista ordenada.",
+  "Pirolli y Card hallaron que la gente busca información como los animales buscan alimento: sigue pistas como las etiquetas de los enlaces y se marcha cuando el rastro se debilita. Escribe etiquetas y fragmentos que anticipen lo que hay detrás.",
+  "El estado anómalo de conocimiento de Belkin implica que la gente a menudo busca algo que todavía no sabe describir. Ofrece sugerencias, ejemplos y navegación, para que reconozca lo que necesita en lugar de tener que nombrarlo.",
+  "Kuhlthau halló que la incertidumbre y la ansiedad aumentan durante la etapa de exploración de una búsqueda y disminuyen cuando se forma un enfoque. Ayuda a la gente a atravesar ese tramo confuso con orientación, hallazgos guardados y sensación de progreso.",
+  "En un estudio de 2004, la gente llegaba a menudo incluso a objetivos conocidos con pasos pequeños y locales, como abrir una carpeta o seguir un enlace, en lugar de escribir una consulta. Apoya los recorridos paso a paso con migas de pan, elementos recientes y una navegación clara.",
+  "Salton mostró que las indicaciones de la gente sobre qué resultados son relevantes pueden mejorar la siguiente ronda. Facilita refinar con filtros, sugerencias de consulta y opciones de resultados similares.",
+  "Una única respuesta generada se salta la recolección que ayuda a aprender y a juzgar. Muestra las fuentes detrás de una respuesta y deja que la gente las abra, las compare y se desvíe.",
+  "La búsqueda conversacional hace difícil ver cómo evoluciona la consulta. Muestra el historial de preguntas y resultados, y deja que la gente vuelva a ramas anteriores para refinarlas."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el modelo",
+  "La gente investiga un tema",
+  "La respuesta es un único dato conocido",
+  "Bibliotecas, documentación y sitios de contenido",
+  "La búsqueda sola pierde material relacionado",
+  "La colección es diminuta",
+  "Herramientas de investigación y compra",
+  "Los objetivos son abiertos",
+  "La gente quiere una respuesta rápida",
+  "Navegación y páginas de resultados",
+  "La gente rebota entre páginas",
+  "Las etiquetas ya son específicas",
+  "Cuadros de búsqueda y estados vacíos",
+  "A los usuarios les falta el vocabulario adecuado",
+  "La gente conoce el nombre exacto",
+  "Tareas largas de investigación",
+  "La gente se siente perdida a mitad de camino",
+  "Las búsquedas son breves y rutinarias",
+  "Archivos, correo e intranets",
+  "La gente sabe más o menos dónde están las cosas",
+  "Confiar solo en la búsqueda",
+  "Resultados de búsqueda y recomendaciones",
+  "Los primeros resultados rara vez son definitivos",
+  "Ocultar la consulta tras buscar",
+  "Una respuesta → fuentes que explorar",
+  "Añadir respuestas de IA a la búsqueda",
+  "Respuestas sin forma de profundizar",
+  "Historial oculto → rastro visible",
+  "Diseñar búsqueda por chat",
+  "Conversaciones que no se pueden revisar"
+ ],
+ ".ai-divider h3": [
+  "La recuperación de información en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La búsqueda en lenguaje natural fue durante mucho tiempo una meta lejana para los investigadores. La IA conversacional la hace realidad y cambia el aspecto del camino de búsqueda."
+ ]
+}

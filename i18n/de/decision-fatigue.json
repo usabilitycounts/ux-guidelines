@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Entscheidungsmüdigkeit</em>"
+ ],
+ "header .tagline": [
+  "Jede Wahl <em>verschlechtert die nächste</em>."
+ ],
+ "header .subtitle": [
+  "Nach einer langen Reihe von Entscheidungen wählen Menschen weniger sorgfältig: Sie nehmen die Voreinstellung, schieben auf oder greifen zum Einfachsten. Gestalten Sie die Abfolge so, dass die wichtigen Entscheidungen kommen, solange die Aufmerksamkeit noch frisch ist."
+ ],
+ ".law-origin .body-text": [
+  "Der Journalist John Tierney machte den Begriff 2011 bekannt und stützte sich dabei auf Forschung von <a href=\"people.html#p-roy-baumeister\">Roy Baumeister</a>, <a href=\"people.html#p-kathleen-vohs\">Kathleen Vohs</a> und Kollegen. In einer Studienreihe von 2008 hielten Menschen, die gerade viele Entscheidungen getroffen hatten, bei späteren Aufgaben weniger durch und zeigten schwächere Selbstkontrolle als andere.",
+  "Die Idee hängt mit der Ego-Depletion zusammen, der Theorie, dass Selbstkontrolle eine begrenzte Ressource verbraucht, und diese Theorie lässt sich schlecht replizieren: Ein Projekt mit 23 Laboren fand 2016 einen Effekt nahe null, und Forschung mit <a href=\"people.html#p-carol-dweck\">Carol Dweck</a> deutet darauf hin, dass Erschöpfung vor allem bei Menschen auftritt, die glauben, Willenskraft gehe zur Neige. Feldstudien zeigen dennoch, dass Entscheidungen gegen Ende langer Sitzungen abdriften."
+ ],
+ ".law-content .law-desc": [
+  "Entscheidungsmüdigkeit ist der Qualitätsverlust von Entscheidungen nach einer langen Phase des Entscheidens. Wer vom Wählen erschöpft ist, meidet Abwägungen, schiebt Entscheidungen auf, nimmt die Voreinstellung oder den Status quo und handelt impulsiver."
+ ],
+ ".law-meta .label": [
+  "Ursprung",
+  "Auch genannt",
+  "In der Praxis"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-vohs\">Vohs</a> et al. (2008) · Tierney (2011)",
+  "Wahlmüdigkeit",
+  "Wichtige Entscheidungen zuerst"
+ ],
+ ".apply-list li": [
+  "Sie gestalten Abläufe mit vielen Entscheidungen hintereinander, etwa Konfiguratoren, Onboarding oder Checkout.",
+  "Sie bauen Werkzeuge für Menschen, die den ganzen Tag wiederholt urteilen, etwa Prüfer, Ärzte oder Moderatoren.",
+  "Menschen brechen lange Abläufe ab oder übernehmen, was vorausgewählt ist.",
+  "Streichen Sie unnötige Entscheidungen und setzen Sie für die übrigen sinnvolle Voreinstellungen.",
+  "Ordnen Sie den Ablauf so, dass die wichtigsten Entscheidungen zuerst kommen, und lassen Sie Menschen speichern und später weitermachen.",
+  "Nutzen Sie Müdigkeit nicht aus: Halten Sie Zusatzverkäufe und folgenreiche Abfragen vom Ende langer Sitzungen fern."
+ ],
+ ".card .tag": [
+  "Der Klassiker",
+  "Reihenfolge",
+  "Voreinstellungen",
+  "Vermeidung",
+  "Feldbeleg",
+  "Handel",
+  "Vorsicht",
+  "Replikation",
+  "✦ KI-Ära",
+  "✦ KI-Ära"
+ ],
+ ".card h3": [
+  "Jede Wahl zehrt",
+  "Große Entscheidungen zuerst",
+  "Müde Menschen nehmen die Voreinstellung",
+  "Müdigkeit fördert Aufschieben",
+  "Verschreibungen am späten Tag",
+  "Impulskäufe an der Kasse",
+  "Die Studie der hungrigen Richter",
+  "Ist Willenskraft wirklich ein Tank?",
+  "KI kann die kleinen Entscheidungen tragen",
+  "Freigabe-Abfragen nutzen sich ab"
+ ],
+ ".card .desc": [
+  "In Studien von 2008 hielten Menschen, die gerade eine lange Reihe von Entscheidungen getroffen hatten, bei späteren Aufgaben weniger durch und zeigten schwächere Selbstkontrolle. Eine lange Folge kleiner Entscheidungen untergräbt die Qualität der folgenden.",
+  "In Feldexperimenten mit Autokäufern, die einen Neuwagen konfigurierten, übernahmen diejenigen, die mit den Optionen mit den meisten Auswahlmöglichkeiten begannen, später mehr Voreinstellungen. Ordnen Sie Entscheidungen so, dass die wichtigsten zuerst kommen.",
+  "Wer vom Entscheiden erschöpft ist, greift auf die Voreinstellung oder den Status quo zurück. Spät im Ablauf hat die vorausgewählte Option mehr Gewicht, also sorgen Sie dafür, dass sie der Person dient.",
+  "Entscheidungsmüdigkeit lässt Menschen weniger planen, aufschieben und Entscheidungen ganz meiden. Lassen Sie Menschen ihren Fortschritt speichern und zurückkehren, statt jede Entscheidung in einer Sitzung zu erzwingen.",
+  "Eine Studie von 2014 ergab, dass Ärzte im Verlauf ihrer Sprechstunden häufiger Antibiotika gegen Atemwegsinfekte verschrieben. Entscheidungshilfen zählen am meisten spät in der Schicht, wenn das Urteilsvermögen am stärksten nachlässt.",
+  "Süßigkeiten liegen an der Kasse, weil Kunden dort erschöpft von einem Laden voller Abwägungen ankommen. Zusatzverkäufe dort zu platzieren, wo Menschen am erschöpftesten sind, wirkt, tauscht aber ihr Vertrauen gegen einen Verkauf.",
+  "Eine Studie von 2011 berichtete, dass günstige Bewährungsentscheidungen im Verlauf jeder Sitzung von etwa 65 Prozent auf fast null fielen und sich nach einer Pause erholten. Kritiker wiesen darauf hin, dass die Fälle nicht in zufälliger Reihenfolge verhandelt wurden. Gehen Sie mit spektakulären Einzelstudien vorsichtig um.",
+  "Eine Replikation mit 23 Laboren fand 2016 kaum einen Ego-Depletion-Effekt, und andere Forschung fand Erschöpfung vor allem bei Menschen, die Willenskraft für begrenzt halten. Reduzieren Sie die Entscheidungslast, weil das gutes Design ist, nicht weil ein Tankmodell des Geistes bewiesen wäre.",
+  "Überlassen Sie der KI Routineentscheidungen wie Sortieren, Entwerfen und das Ausfüllen sinnvoller Voreinstellungen, damit Menschen ihre Aufmerksamkeit für die wichtigen Entscheidungen behalten. Halten Sie diese Entscheidungen sichtbar und leicht änderbar.",
+  "KI-Agenten, die für jeden Schritt um Erlaubnis fragen, gewöhnen Menschen daran, ungelesen zuzustimmen. Bündeln Sie Routineaktionen und heben Sie Bestätigungen für folgenreiche oder schwer rückgängig zu machende Schritte auf."
+ ],
+ ".meta .label": [
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Am besten für",
+  "Verwenden wenn",
+  "Vermeiden wenn",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung",
+  "Wandel",
+  "Verwenden wenn",
+  "Achtung"
+ ],
+ ".meta .value": [
+  "Den Effekt erklären",
+  "Menschen treffen viele Entscheidungen hintereinander",
+  "Entscheidungen sind wenige und einfach",
+  "Konfiguratoren und Onboarding",
+  "Ein Ablauf hat viele Entscheidungen",
+  "Abhängigkeiten bestimmen die Reihenfolge",
+  "Lange Formulare und Checkouts",
+  "Spätere Schritte bieten Voreinstellungen",
+  "Voreinstellungen begünstigen das Unternehmen statt der Nutzer",
+  "Lange Anträge und Einrichtungen",
+  "Menschen brechen mittendrin ab",
+  "Die Aufgabe ist kurz und dringend",
+  "Berufliche und klinische Werkzeuge",
+  "Menschen urteilen wiederholt",
+  "Jede Entscheidung ist vollständig automatisiert",
+  "Gestaltung von Checkout und Zusatzverkäufen",
+  "Zusatzoptionen erscheinen am Ende",
+  "Prüfen, ob man Müdigkeit ausnutzen sollte",
+  "Forschung gegenüber Stakeholdern zitieren",
+  "Ein Befund klingt zu glatt",
+  "Eine einzige Studie soll eine Entscheidung tragen",
+  "Die Beweislage abwägen",
+  "Mit der Depletion-Theorie argumentieren",
+  "Müdigkeit als gesicherte Wissenschaft behandeln",
+  "Viele kleine Entscheidungen → wenige echte",
+  "KI unterstützt wiederkehrende Arbeit",
+  "Folgenreiche Entscheidungen in der Automatisierung verstecken",
+  "Alles abfragen → das Wichtige abfragen",
+  "Berechtigungen für Agenten gestalten",
+  "Bestätigungen, die weggeklickt werden"
+ ],
+ ".ai-divider h3": [
+  "Entscheidungsmüdigkeit im KI-Zeitalter"
+ ],
+ ".ai-divider p": [
+  "KI kann Menschen Routineentscheidungen abnehmen oder sie unter Freigaben begraben. Was davon passiert, hängt davon ab, was das System sie entscheiden lässt."
+ ]
+}

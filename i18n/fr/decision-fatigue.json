@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Fatigue décisionnelle</em>"
+ ],
+ "header .tagline": [
+  "Chaque choix <em>dégrade le suivant</em>."
+ ],
+ "header .subtitle": [
+  "Après une longue série de décisions, on choisit moins soigneusement : on prend l'option par défaut, on remet à plus tard ou on saisit ce qui est le plus simple. Organisez la séquence pour que les décisions importantes arrivent pendant que l'attention est encore fraîche."
+ ],
+ ".law-origin .body-text": [
+  "Le journaliste John Tierney a popularisé le terme en 2011, en s'appuyant sur les recherches de <a href=\"people.html#p-roy-baumeister\">Roy Baumeister</a>, <a href=\"people.html#p-kathleen-vohs\">Kathleen Vohs</a> et leurs collègues. Dans une série d'études de 2008, les personnes qui venaient de faire de nombreux choix persévéraient moins sur les tâches suivantes et montraient moins de maîtrise de soi que les autres.",
+  "L'idée est liée à l'épuisement de l'ego, la théorie selon laquelle la maîtrise de soi puise dans une ressource limitée, et cette théorie se réplique mal : un effort mené par 23 laboratoires en 2016 a trouvé un effet proche de zéro, et des recherches menées avec <a href=\"people.html#p-carol-dweck\">Carol Dweck</a> suggèrent que l'épuisement apparaît surtout chez ceux qui croient que la volonté s'épuise. Les études de terrain montrent pourtant des choix qui dérivent en fin de longues sessions."
+ ],
+ ".law-content .law-desc": [
+  "La fatigue décisionnelle est la baisse de qualité des décisions après une longue session à en prendre. Les personnes épuisées par les choix évitent les arbitrages, repoussent les décisions, prennent l'option par défaut ou le statu quo, et deviennent plus impulsives."
+ ],
+ ".law-meta .label": [
+  "Origine",
+  "Aussi appelée",
+  "En pratique"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-vohs\">Vohs</a> et al. (2008) · Tierney (2011)",
+  "Fatigue du choix",
+  "Placer les choix importants en premier"
+ ],
+ ".apply-list li": [
+  "Vous concevez des parcours comportant de nombreuses décisions d'affilée, comme des configurateurs, une prise en main ou un paiement.",
+  "Vous créez des outils pour des personnes qui portent des jugements répétés toute la journée, comme des relecteurs, des cliniciens ou des modérateurs.",
+  "Les gens abandonnent les longs parcours ou acceptent ce qui est présélectionné.",
+  "Supprimez les décisions inutiles et proposez des valeurs par défaut sensées pour les autres.",
+  "Ordonnez le parcours pour que les choix les plus importants viennent en premier, et permettez d'enregistrer pour revenir plus tard.",
+  "N'exploitez pas la fatigue : tenez les ventes additionnelles et les demandes lourdes de conséquences à l'écart de la fin d'une longue session."
+ ],
+ ".card .tag": [
+  "Le classique",
+  "Ordre",
+  "Par défaut",
+  "Évitement",
+  "Terrain",
+  "Commerce",
+  "Prudence",
+  "Réplication",
+  "✦ Ère de l'IA",
+  "✦ Ère de l'IA"
+ ],
+ ".card h3": [
+  "Chaque choix puise dans la réserve",
+  "Les grands choix d'abord",
+  "Fatigué, on prend l'option par défaut",
+  "La fatigue pousse à remettre à plus tard",
+  "Des prescriptions en fin de journée",
+  "Achats impulsifs en caisse",
+  "L’étude des juges affamés",
+  "La volonté est-elle vraiment un réservoir ?",
+  "L'IA peut porter les petites décisions",
+  "Les demandes de validation s’usent"
+ ],
+ ".card .desc": [
+  "Dans des études de 2008, les personnes qui venaient de faire une longue série de choix persévéraient moins sur les tâches suivantes et montraient moins de maîtrise de soi. Une longue suite de petites décisions érode la qualité de celles qui suivent.",
+  "Dans des expériences de terrain avec des acheteurs configurant une voiture neuve, ceux qui commençaient par les options offrant le plus de choix acceptaient ensuite davantage de valeurs par défaut. Ordonnez les décisions pour que les plus importantes viennent en premier.",
+  "Les personnes épuisées par les décisions se rabattent sur l'option par défaut ou le statu quo. En fin de parcours, l'option présélectionnée pèse davantage : assurez-vous qu'elle sert la personne.",
+  "La fatigue décisionnelle fait moins planifier, procrastiner et éviter carrément de choisir. Permettez d'enregistrer sa progression et de revenir, au lieu d'imposer toutes les décisions en une seule fois.",
+  "Une étude de 2014 a montré que les médecins prescrivaient de plus en plus d'antibiotiques pour les infections respiratoires au fil de leurs consultations. L'aide à la décision compte surtout en fin de service, quand le jugement est le plus usé.",
+  "Les bonbons sont placés près de la caisse parce que les clients y arrivent épuisés par un magasin rempli d'arbitrages. Placer ventes additionnelles et options là où les gens sont le plus épuisés fonctionne, mais échange leur confiance contre une vente.",
+  "Une étude de 2011 a rapporté que les décisions de libération conditionnelle favorables passaient d'environ 65 % à presque zéro au fil de chaque séance, puis remontaient après une pause. Des critiques ont souligné que les dossiers n'étaient pas examinés dans un ordre aléatoire : maniez les études spectaculaires isolées avec prudence.",
+  "Une réplication menée par 23 laboratoires en 2016 n'a trouvé presque aucun effet d'épuisement de l'ego, et d'autres recherches ne l'ont observé que chez ceux qui croient la volonté limitée. Réduisez la charge de décisions parce que c'est une bonne conception, non parce qu'un modèle de l'esprit en réservoir serait prouvé.",
+  "Confiez à l'IA les choix routiniers, comme trier, rédiger un premier jet ou remplir des valeurs par défaut sensées, pour que les gens gardent leur attention pour les décisions qui comptent. Gardez ces décisions visibles et faciles à modifier.",
+  "Les agents d'IA qui demandent la permission à chaque étape habituent les gens à valider sans lire. Regroupez les actions routinières et réservez la confirmation aux étapes lourdes de conséquences ou difficiles à annuler."
+ ],
+ ".meta .label": [
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Idéal pour",
+  "À utiliser quand",
+  "À éviter quand",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller",
+  "Évolution",
+  "À utiliser quand",
+  "À surveiller"
+ ],
+ ".meta .value": [
+  "Expliquer l'effet",
+  "Les gens enchaînent de nombreuses décisions",
+  "Les décisions sont rares et simples",
+  "Configurateurs et prise en main",
+  "Un parcours comporte de nombreuses décisions",
+  "Les dépendances imposent l'ordre",
+  "Longs formulaires et paiements",
+  "Les dernières étapes proposent des valeurs par défaut",
+  "Les valeurs par défaut favorisent l'entreprise plutôt que l'utilisateur",
+  "Longs dossiers et configurations",
+  "Les gens abandonnent en cours de route",
+  "La tâche est courte et urgente",
+  "Outils professionnels et cliniques",
+  "Les gens portent des jugements répétés",
+  "Chaque décision est entièrement automatisée",
+  "Conception du paiement et des ventes additionnelles",
+  "Les options apparaissent à la fin",
+  "Se demander s'il faut exploiter la fatigue",
+  "Citer la recherche aux parties prenantes",
+  "Un résultat semble trop net",
+  "Une seule étude doit porter une décision",
+  "Évaluer les preuves",
+  "S'appuyer sur la théorie de l'épuisement",
+  "Traiter la fatigue comme une science établie",
+  "Beaucoup de petits choix → quelques vrais choix",
+  "L'IA aide aux tâches répétitives",
+  "Cacher des choix lourds de conséquences dans l'automatisation",
+  "Tout valider → valider ce qui compte",
+  "Concevoir les permissions d'un agent",
+  "Des confirmations validées machinalement"
+ ],
+ ".ai-divider h3": [
+  "La fatigue décisionnelle à l'ère de l'IA"
+ ],
+ ".ai-divider p": [
+  "L'IA peut décharger les gens des décisions routinières, ou les noyer sous les validations. Tout dépend de ce que le système leur demande de décider."
+ ]
+}

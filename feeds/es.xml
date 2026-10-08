@@ -5,84 +5,105 @@
   <link>https://www.ux-guidelines.com/es/</link>
   <description>Leyes, heurísticas y patrones de diseño de interfaces basados en la investigación, cada uno explicado con su origen, consejos prácticos y lo que cambia en la era de la IA.</description>
   <language>es</language>
-  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 08:49:35 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/es/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Ilusión de Müller-Lyer</title>
-    <link>https://www.ux-guidelines.com/es/ilusion-de-muller-lyer.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/ilusion-de-muller-lyer.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Dos líneas de la misma longitud parecen distintas cuando una termina en puntas de flecha y la otra en colas. En las interfaces, los chevrones, las barras puntiagudas y los iconos angulosos cambian sin que se note lo largo o ancho que parece algo.</description>
+    <title>Modelos cognitivos de recuperación de información</title>
+    <link>https://www.ux-guidelines.com/es/modelos-cognitivos-de-recuperacion-de-informacion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/modelos-cognitivos-de-recuperacion-de-informacion.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:49:06 +0000</pubDate>
+    <description>La gente rara vez escribe una consulta perfecta y obtiene una respuesta perfecta. Empieza con una necesidad vaga, aprende de lo que encuentra, cambia sus palabras y reúne piezas por el camino. El diseño de búsqueda funciona cuando acompaña ese camino.</description>
   </item>
   <item>
-    <title>Efecto rampa</title>
-    <link>https://www.ux-guidelines.com/es/efecto-rampa.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-rampa.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Las funciones creadas para personas con discapacidad acaban usándolas muchas más personas de las previstas. Las rampas en las aceras, los subtítulos y la lectura en voz alta empezaron como adaptaciones y se volvieron imprescindibles para todos.</description>
+    <title>Principio de mínimo privilegio</title>
+    <link>https://www.ux-guidelines.com/es/principio-de-minimo-privilegio.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/principio-de-minimo-privilegio.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>Cada persona, programa y agente de IA debería obtener solo el acceso que su tarea requiere, y solo durante el tiempo necesario. Menos acceso significa menos daño cuando algo falla, y menos decisiones inquietantes para quienes deben concederlo.</description>
   </item>
   <item>
-    <title>Chartjunk</title>
-    <link>https://www.ux-guidelines.com/es/chartjunk.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/chartjunk.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Las cuadrículas gruesas, los ejes ornamentados, los fondos con textura, el 3D gratuito y las imágenes decorativas añaden tinta sin añadir información. Parte de ella malgasta atención; otra parte distorsiona los propios datos.</description>
-  </item>
-  <item>
-    <title>Efecto denominación</title>
-    <link>https://www.ux-guidelines.com/es/efecto-denominacion.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-denominacion.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>La gente se desprende del dinero con más facilidad en unidades pequeñas que en una grande, aunque la cantidad sea la misma. Cómo se fracciona un precio, un saldo o unos créditos cambia lo fácil que resulta gastarlos.</description>
+    <title>Fatiga de decisión</title>
+    <link>https://www.ux-guidelines.com/es/fatiga-de-decision.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/fatiga-de-decision.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>Tras una larga serie de decisiones, la gente elige con menos cuidado: acepta lo predeterminado, lo deja para luego o toma lo más fácil. Diseña la secuencia para que las decisiones importantes lleguen mientras la atención sigue fresca.</description>
   </item>
   <item>
     <title>Efecto de ambigüedad</title>
     <link>https://www.ux-guidelines.com/es/efecto-de-ambiguedad.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-de-ambiguedad.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>Ante una elección, la gente se queda con la opción cuyo resultado puede estimar en lugar de una a la que le falta información, aunque la desconocida sea igual de buena. Los precios ocultos, las estimaciones vagas y los resultados poco claros ahuyentan.</description>
-  </item>
-  <item>
-    <title>Búsqueda visual</title>
-    <link>https://www.ux-guidelines.com/es/busqueda-visual.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/busqueda-visual.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Encontrar algo en una pantalla es rápido cuando se distingue de todo lo que lo rodea por un solo rasgo, como el color o la forma. Cuando comparte rasgos con sus vecinos, la gente revisa los elementos uno a uno, y cada elemento extra suma tiempo.</description>
-  </item>
-  <item>
-    <title>Efecto de superioridad de la imagen</title>
-    <link>https://www.ux-guidelines.com/es/efecto-de-superioridad-de-la-imagen.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-de-superioridad-de-la-imagen.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>La gente recuerda y reconoce las imágenes con más fiabilidad que las mismas ideas escritas. Las imágenes concretas y distintas hacen que funciones, pasos e instrucciones se queden, siempre que transmitan el significado.</description>
-  </item>
-  <item>
-    <title>Explicabilidad</title>
-    <link>https://www.ux-guidelines.com/es/explicabilidad.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/explicabilidad.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>La IA explicable muestra a las personas por qué un sistema produjo un resultado, para que puedan juzgarlo, cuestionarlo y decidir hasta qué punto confiar en él. El objetivo no es más confianza, sino la justa.</description>
   </item>
   <item>
     <title>Ceguera a los banners</title>
     <link>https://www.ux-guidelines.com/es/ceguera-a-los-banners.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/es/ceguera-a-los-banners.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>La gente ha aprendido a saltarse todo lo que parece publicidad, está junto a anuncios o aparece donde suelen ir los anuncios. El contenido importante con aspecto de banner desaparece junto con la publicidad.</description>
   </item>
   <item>
-    <title>Fluidez de procesamiento</title>
-    <link>https://www.ux-guidelines.com/es/fluidez-de-procesamiento.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/es/fluidez-de-procesamiento.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>La facilidad con que se lee, se ve o se recuerda algo tiñe cómo se juzga. El contenido fácil de procesar parece más cierto, más familiar y más agradable, lo merezca o no.</description>
+    <title>Chartjunk</title>
+    <link>https://www.ux-guidelines.com/es/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Las cuadrículas gruesas, los ejes ornamentados, los fondos con textura, el 3D gratuito y las imágenes decorativas añaden tinta sin añadir información. Parte de ella malgasta atención; otra parte distorsiona los propios datos.</description>
+  </item>
+  <item>
+    <title>Efecto rampa</title>
+    <link>https://www.ux-guidelines.com/es/efecto-rampa.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-rampa.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Las funciones creadas para personas con discapacidad acaban usándolas muchas más personas de las previstas. Las rampas en las aceras, los subtítulos y la lectura en voz alta empezaron como adaptaciones y se volvieron imprescindibles para todos.</description>
+  </item>
+  <item>
+    <title>Efecto denominación</title>
+    <link>https://www.ux-guidelines.com/es/efecto-denominacion.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-denominacion.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>La gente se desprende del dinero con más facilidad en unidades pequeñas que en una grande, aunque la cantidad sea la misma. Cómo se fracciona un precio, un saldo o unos créditos cambia lo fácil que resulta gastarlos.</description>
+  </item>
+  <item>
+    <title>Explicabilidad</title>
+    <link>https://www.ux-guidelines.com/es/explicabilidad.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/explicabilidad.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>La IA explicable muestra a las personas por qué un sistema produjo un resultado, para que puedan juzgarlo, cuestionarlo y decidir hasta qué punto confiar en él. El objetivo no es más confianza, sino la justa.</description>
   </item>
   <item>
     <title>Efecto Lindy</title>
     <link>https://www.ux-guidelines.com/es/efecto-lindy.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-lindy.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>En las ideas, las tecnologías y las convenciones, cuanto más tiempo ha sobrevivido algo, más probable es que siga sobreviviendo. Cada año que dura es una prueba de su solidez.</description>
+  </item>
+  <item>
+    <title>Ilusión de Müller-Lyer</title>
+    <link>https://www.ux-guidelines.com/es/ilusion-de-muller-lyer.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/ilusion-de-muller-lyer.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Dos líneas de la misma longitud parecen distintas cuando una termina en puntas de flecha y la otra en colas. En las interfaces, los chevrones, las barras puntiagudas y los iconos angulosos cambian sin que se note lo largo o ancho que parece algo.</description>
+  </item>
+  <item>
+    <title>Efecto de superioridad de la imagen</title>
+    <link>https://www.ux-guidelines.com/es/efecto-de-superioridad-de-la-imagen.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/efecto-de-superioridad-de-la-imagen.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>La gente recuerda y reconoce las imágenes con más fiabilidad que las mismas ideas escritas. Las imágenes concretas y distintas hacen que funciones, pasos e instrucciones se queden, siempre que transmitan el significado.</description>
+  </item>
+  <item>
+    <title>Fluidez de procesamiento</title>
+    <link>https://www.ux-guidelines.com/es/fluidez-de-procesamiento.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/fluidez-de-procesamiento.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>La facilidad con que se lee, se ve o se recuerda algo tiñe cómo se juzga. El contenido fácil de procesar parece más cierto, más familiar y más agradable, lo merezca o no.</description>
+  </item>
+  <item>
+    <title>Búsqueda visual</title>
+    <link>https://www.ux-guidelines.com/es/busqueda-visual.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/es/busqueda-visual.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Encontrar algo en una pantalla es rápido cuando se distingue de todo lo que lo rodea por un solo rasgo, como el color o la forma. Cuando comparte rasgos con sus vecinos, la gente revisa los elementos uno a uno, y cada elemento extra suma tiempo.</description>
   </item>
   <item>
     <title>Efecto ancla</title>
@@ -446,7 +467,7 @@
     <link>https://www.ux-guidelines.com/es/</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/es/</guid>
     <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
-    <description>Una biblioteca creciente de 82 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.</description>
+    <description>Una biblioteca creciente de 85 referencias de UX basadas en la investigación para diseñadores, investigadores e ingenieros.</description>
   </item>
   <item>
     <title>Ley de Jakob</title>

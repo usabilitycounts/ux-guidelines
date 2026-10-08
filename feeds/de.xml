@@ -5,84 +5,105 @@
   <link>https://www.ux-guidelines.com/de/</link>
   <description>Forschungsbasierte Gesetze, Heuristiken und Muster des Interface-Designs, jeweils erklärt mit Ursprung, Praxishinweisen und dem, was sich im KI-Zeitalter ändert.</description>
   <language>de</language>
-  <lastBuildDate>Sun, 04 Oct 2026 22:10:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 08:49:35 +0000</lastBuildDate>
   <atom:link href="https://www.ux-guidelines.com/de/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
-    <title>Müller-Lyer-Täuschung</title>
-    <link>https://www.ux-guidelines.com/de/muller-lyer-tauschung.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/muller-lyer-tauschung.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Zwei gleich lange Linien wirken unterschiedlich, wenn die eine in Pfeilspitzen und die andere in Pfeilfedern endet. In Oberflächen verändern Chevrons, spitze Balken und kantige Icons unbemerkt, wie lang oder breit Dinge wirken.</description>
+    <title>Kognitive Modelle des Information Retrieval</title>
+    <link>https://www.ux-guidelines.com/de/kognitive-modelle-des-information-retrieval.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/kognitive-modelle-des-information-retrieval.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:49:06 +0000</pubDate>
+    <description>Menschen tippen selten eine perfekte Anfrage und erhalten eine perfekte Antwort. Sie beginnen mit einem vagen Bedürfnis, lernen aus dem Gefundenen, ändern ihre Begriffe und sammeln unterwegs Teile ein. Suchgestaltung funktioniert, wenn sie diesen Weg unterstützt.</description>
   </item>
   <item>
-    <title>Curb-Cut-Effekt</title>
-    <link>https://www.ux-guidelines.com/de/curb-cut-effekt.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/curb-cut-effekt.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Funktionen für Menschen mit Behinderung werden am Ende von weit mehr Menschen genutzt, als vorgesehen war. Bordsteinabsenkungen, Untertitel und Sprachausgabe begannen als Hilfen und wurden zu etwas, auf das sich alle verlassen.</description>
+    <title>Prinzip der minimalen Rechte</title>
+    <link>https://www.ux-guidelines.com/de/prinzip-der-minimalen-rechte.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/prinzip-der-minimalen-rechte.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>Jede Person, jedes Programm und jeder KI-Agent sollte nur den Zugriff erhalten, den die Aufgabe erfordert, und nur so lange wie nötig. Weniger Zugriff bedeutet weniger Schaden, wenn etwas schiefgeht, und weniger beängstigende Entscheidungen für die Menschen, die ihn gewähren sollen.</description>
   </item>
   <item>
-    <title>Chartjunk</title>
-    <link>https://www.ux-guidelines.com/de/chartjunk.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/chartjunk.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Dicke Gitternetzlinien, verzierte Achsen, gemusterte Hintergründe, unnötiges 3D und dekorative Bilder fügen Tinte hinzu, aber keine Information. Manches verschwendet Aufmerksamkeit, manches verzerrt die Daten selbst.</description>
-  </item>
-  <item>
-    <title>Stückelungseffekt</title>
-    <link>https://www.ux-guidelines.com/de/stuckelungseffekt.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/stuckelungseffekt.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Menschen trennen sich leichter von Geld in kleinen Einheiten als von einer großen, selbst wenn der Betrag gleich ist. Wie ein Preis, ein Guthaben oder Credits gestückelt sind, verändert, wie bereitwillig sie ausgegeben werden.</description>
+    <title>Entscheidungsmüdigkeit</title>
+    <link>https://www.ux-guidelines.com/de/entscheidungsmudigkeit.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/entscheidungsmudigkeit.html</guid>
+    <pubDate>Thu, 08 Oct 2026 08:17:48 +0000</pubDate>
+    <description>Nach einer langen Reihe von Entscheidungen wählen Menschen weniger sorgfältig: Sie nehmen die Voreinstellung, schieben auf oder greifen zum Einfachsten. Gestalten Sie die Abfolge so, dass die wichtigen Entscheidungen kommen, solange die Aufmerksamkeit noch frisch ist.</description>
   </item>
   <item>
     <title>Ambiguitätseffekt</title>
     <link>https://www.ux-guidelines.com/de/ambiguitatseffekt.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/de/ambiguitatseffekt.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>Vor die Wahl gestellt, nehmen Menschen die Option, deren Ausgang sie einschätzen können, statt einer mit fehlenden Informationen, selbst wenn die unbekannte genauso gut ist. Versteckte Preise, vage Schätzungen und unklare Ergebnisse schrecken ab.</description>
-  </item>
-  <item>
-    <title>Visuelle Suche</title>
-    <link>https://www.ux-guidelines.com/de/visuelle-suche.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/visuelle-suche.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Etwas auf dem Bildschirm zu finden geht schnell, wenn es sich durch ein einziges Merkmal wie Farbe oder Form von allem ringsum unterscheidet. Teilt es Merkmale mit seinen Nachbarn, prüfen Menschen Element für Element, und jedes weitere Element kostet Zeit.</description>
-  </item>
-  <item>
-    <title>Bildüberlegenheitseffekt</title>
-    <link>https://www.ux-guidelines.com/de/bilduberlegenheitseffekt.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/bilduberlegenheitseffekt.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Menschen erinnern und erkennen Bilder zuverlässiger als dieselben Ideen als Text. Konkrete, unterscheidbare Bilder lassen Funktionen, Schritte und Anleitungen haften, sofern die Bilder die Bedeutung tragen.</description>
-  </item>
-  <item>
-    <title>Erklärbarkeit</title>
-    <link>https://www.ux-guidelines.com/de/erklarbarkeit.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/erklarbarkeit.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Erklärbare KI zeigt Menschen, warum ein System ein Ergebnis geliefert hat, damit sie es beurteilen, anfechten und entscheiden können, wie weit sie sich darauf verlassen. Ziel ist nicht mehr Vertrauen, sondern das richtige Maß.</description>
   </item>
   <item>
     <title>Bannerblindheit</title>
     <link>https://www.ux-guidelines.com/de/bannerblindheit.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/de/bannerblindheit.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>Menschen haben gelernt, alles zu überspringen, was wie Werbung aussieht, neben Werbung steht oder dort erscheint, wo üblicherweise Werbung ist. Wichtige Inhalte im Bannerstil verschwinden zusammen mit den Anzeigen.</description>
   </item>
   <item>
-    <title>Verarbeitungsflüssigkeit</title>
-    <link>https://www.ux-guidelines.com/de/verarbeitungsflussigkeit.html</link>
-    <guid isPermaLink="true">https://www.ux-guidelines.com/de/verarbeitungsflussigkeit.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
-    <description>Wie leicht sich etwas lesen, sehen oder erinnern lässt, färbt das Urteil darüber. Leicht verarbeitbare Inhalte wirken wahrer, vertrauter und sympathischer, ob sie es verdienen oder nicht.</description>
+    <title>Chartjunk</title>
+    <link>https://www.ux-guidelines.com/de/chartjunk.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/chartjunk.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Dicke Gitternetzlinien, verzierte Achsen, gemusterte Hintergründe, unnötiges 3D und dekorative Bilder fügen Tinte hinzu, aber keine Information. Manches verschwendet Aufmerksamkeit, manches verzerrt die Daten selbst.</description>
+  </item>
+  <item>
+    <title>Curb-Cut-Effekt</title>
+    <link>https://www.ux-guidelines.com/de/curb-cut-effekt.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/curb-cut-effekt.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Funktionen für Menschen mit Behinderung werden am Ende von weit mehr Menschen genutzt, als vorgesehen war. Bordsteinabsenkungen, Untertitel und Sprachausgabe begannen als Hilfen und wurden zu etwas, auf das sich alle verlassen.</description>
+  </item>
+  <item>
+    <title>Stückelungseffekt</title>
+    <link>https://www.ux-guidelines.com/de/stuckelungseffekt.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/stuckelungseffekt.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Menschen trennen sich leichter von Geld in kleinen Einheiten als von einer großen, selbst wenn der Betrag gleich ist. Wie ein Preis, ein Guthaben oder Credits gestückelt sind, verändert, wie bereitwillig sie ausgegeben werden.</description>
+  </item>
+  <item>
+    <title>Erklärbarkeit</title>
+    <link>https://www.ux-guidelines.com/de/erklarbarkeit.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/erklarbarkeit.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Erklärbare KI zeigt Menschen, warum ein System ein Ergebnis geliefert hat, damit sie es beurteilen, anfechten und entscheiden können, wie weit sie sich darauf verlassen. Ziel ist nicht mehr Vertrauen, sondern das richtige Maß.</description>
   </item>
   <item>
     <title>Lindy-Effekt</title>
     <link>https://www.ux-guidelines.com/de/lindy-effekt.html</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/de/lindy-effekt.html</guid>
-    <pubDate>Sun, 04 Oct 2026 21:40:50 +0000</pubDate>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
     <description>Bei Ideen, Technologien und Konventionen gilt: Je länger etwas schon überlebt hat, desto länger wird es wahrscheinlich weiter überleben. Jedes Jahr, das es besteht, belegt seine Robustheit.</description>
+  </item>
+  <item>
+    <title>Müller-Lyer-Täuschung</title>
+    <link>https://www.ux-guidelines.com/de/muller-lyer-tauschung.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/muller-lyer-tauschung.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Zwei gleich lange Linien wirken unterschiedlich, wenn die eine in Pfeilspitzen und die andere in Pfeilfedern endet. In Oberflächen verändern Chevrons, spitze Balken und kantige Icons unbemerkt, wie lang oder breit Dinge wirken.</description>
+  </item>
+  <item>
+    <title>Bildüberlegenheitseffekt</title>
+    <link>https://www.ux-guidelines.com/de/bilduberlegenheitseffekt.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/bilduberlegenheitseffekt.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Menschen erinnern und erkennen Bilder zuverlässiger als dieselben Ideen als Text. Konkrete, unterscheidbare Bilder lassen Funktionen, Schritte und Anleitungen haften, sofern die Bilder die Bedeutung tragen.</description>
+  </item>
+  <item>
+    <title>Verarbeitungsflüssigkeit</title>
+    <link>https://www.ux-guidelines.com/de/verarbeitungsflussigkeit.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/verarbeitungsflussigkeit.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Wie leicht sich etwas lesen, sehen oder erinnern lässt, färbt das Urteil darüber. Leicht verarbeitbare Inhalte wirken wahrer, vertrauter und sympathischer, ob sie es verdienen oder nicht.</description>
+  </item>
+  <item>
+    <title>Visuelle Suche</title>
+    <link>https://www.ux-guidelines.com/de/visuelle-suche.html</link>
+    <guid isPermaLink="true">https://www.ux-guidelines.com/de/visuelle-suche.html</guid>
+    <pubDate>Sun, 04 Oct 2026 15:13:50 -0700</pubDate>
+    <description>Etwas auf dem Bildschirm zu finden geht schnell, wenn es sich durch ein einziges Merkmal wie Farbe oder Form von allem ringsum unterscheidet. Teilt es Merkmale mit seinen Nachbarn, prüfen Menschen Element für Element, und jedes weitere Element kostet Zeit.</description>
   </item>
   <item>
     <title>Ankereffekt</title>
@@ -446,7 +467,7 @@
     <link>https://www.ux-guidelines.com/de/</link>
     <guid isPermaLink="true">https://www.ux-guidelines.com/de/</guid>
     <pubDate>Sun, 23 Aug 2026 01:54:05 -0700</pubDate>
-    <description>Eine wachsende Bibliothek von 82 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.</description>
+    <description>Eine wachsende Bibliothek von 85 forschungsbasierten UX-Referenzen für Designer, Forschende und Entwickler.</description>
   </item>
   <item>
     <title>Jakobs Gesetz</title>

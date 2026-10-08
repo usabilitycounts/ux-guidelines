@@ -14,6 +14,7 @@
   "Agosto de 2026"
  ],
  ".rl-date": [
+  "8 de octubre",
   "4 de octubre",
   "2 de octubre",
   "1 de octubre",
@@ -35,6 +36,7 @@
   "23 de agosto"
  ],
  ".rl-kind": [
+  "Páginas nuevas",
   "Páginas nuevas",
   "Mejoras",
   "Mejoras",
@@ -62,6 +64,9 @@
   "Mejoras"
  ],
  ".rl-pages a": [
+  "Modelos cognitivos de recuperación de información",
+  "Fatiga de decisión",
+  "Principio de mínimo privilegio",
   "Fatiga de alarmas",
   "Efecto de ambigüedad",
   "Efecto ancla",

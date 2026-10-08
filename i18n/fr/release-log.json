@@ -14,6 +14,7 @@
   "Août 2026"
  ],
  ".rl-date": [
+  "8 octobre",
   "4 octobre",
   "2 octobre",
   "1er octobre",
@@ -35,6 +36,7 @@
   "23 août"
  ],
  ".rl-kind": [
+  "Nouvelles pages",
   "Nouvelles pages",
   "Améliorations",
   "Améliorations",
@@ -62,6 +64,9 @@
   "Améliorations"
  ],
  ".rl-pages a": [
+  "Modèles cognitifs de la recherche d’information",
+  "Fatigue décisionnelle",
+  "Principe du moindre privilège",
   "Fatigue des alarmes",
   "Effet d'ambiguïté",
   "Effet d'ancrage",

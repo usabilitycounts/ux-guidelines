@@ -1,0 +1,142 @@
+{
+ "header h1": [
+  "<em>Fatiga de decisión</em>"
+ ],
+ "header .tagline": [
+  "Cada elección <em>empeora la siguiente</em>."
+ ],
+ "header .subtitle": [
+  "Tras una larga serie de decisiones, la gente elige con menos cuidado: acepta lo predeterminado, lo deja para luego o toma lo más fácil. Diseña la secuencia para que las decisiones importantes lleguen mientras la atención sigue fresca."
+ ],
+ ".law-origin .body-text": [
+  "El periodista John Tierney popularizó el término en 2011, a partir de la investigación de <a href=\"people.html#p-roy-baumeister\">Roy Baumeister</a>, <a href=\"people.html#p-kathleen-vohs\">Kathleen Vohs</a> y sus colegas. En una serie de estudios de 2008, las personas que acababan de tomar muchas decisiones persistían menos en tareas posteriores y mostraban menos autocontrol que las demás.",
+  "La idea está ligada al agotamiento del ego, la teoría de que el autocontrol consume un recurso limitado, y esa teoría se replica mal: un esfuerzo de 23 laboratorios en 2016 encontró un efecto cercano a cero, y la investigación con <a href=\"people.html#p-carol-dweck\">Carol Dweck</a> sugiere que el agotamiento aparece sobre todo en quienes creen que la fuerza de voluntad se acaba. Aun así, los estudios de campo muestran decisiones que se desvían al final de sesiones largas."
+ ],
+ ".law-content .law-desc": [
+  "La fatiga de decisión es el deterioro de la calidad de las decisiones tras una larga sesión tomándolas. Quien está agotado de elegir evita las disyuntivas, aplaza decisiones, acepta lo predeterminado o el statu quo y se vuelve más impulsivo."
+ ],
+ ".law-meta .label": [
+  "Origen",
+  "También llamada",
+  "En la práctica"
+ ],
+ ".law-meta .value": [
+  "<a href=\"people.html#p-kathleen-vohs\">Vohs</a> et al. (2008) · Tierney (2011)",
+  "Fatiga de elección",
+  "Poner primero las decisiones importantes"
+ ],
+ ".apply-list li": [
+  "Diseñas flujos con muchas decisiones seguidas, como configuradores, incorporación o pago.",
+  "Creas herramientas para personas que emiten juicios repetidos todo el día, como revisores, médicos o moderadores.",
+  "La gente abandona flujos largos o acepta lo que viene preseleccionado.",
+  "Elimina las decisiones innecesarias y fija valores predeterminados sensatos para el resto.",
+  "Ordena el flujo para que las decisiones más importantes vayan primero, y permite guardar y volver más tarde.",
+  "No explotes la fatiga: mantén las ventas adicionales y las peticiones importantes lejos del final de una sesión larga."
+ ],
+ ".card .tag": [
+  "El clásico",
+  "Secuencia",
+  "Predeterminados",
+  "Evitación",
+  "Evidencia de campo",
+  "Comercio",
+  "Precaución",
+  "Replicación",
+  "✦ Era de la IA",
+  "✦ Era de la IA"
+ ],
+ ".card h3": [
+  "Cada elección desgasta",
+  "Primero las grandes decisiones",
+  "Cansados, aceptamos lo predeterminado",
+  "La fatiga invita a aplazar",
+  "Recetas al final del día",
+  "Impulsos en la caja",
+  "El estudio de los jueces hambrientos",
+  "¿La fuerza de voluntad es un depósito?",
+  "La IA puede cargar con las decisiones pequeñas",
+  "Las peticiones de aprobación se desgastan"
+ ],
+ ".card .desc": [
+  "En estudios de 2008, las personas que acababan de tomar una larga serie de decisiones persistían menos en tareas posteriores y mostraban menos autocontrol. Una larga sucesión de pequeñas decisiones erosiona la calidad de las siguientes.",
+  "En experimentos de campo con compradores que configuraban un coche nuevo, quienes empezaban por las opciones con más alternativas aceptaban después más valores predeterminados. Ordena las decisiones para que las más importantes vayan primero.",
+  "Quien está agotado de decidir recurre a lo predeterminado o al statu quo. Al final de un flujo, la opción preseleccionada pesa más, así que asegúrate de que sirva a la persona.",
+  "La fatiga de decisión hace que la gente planifique menos, procrastine y evite elegir. Permite guardar el progreso y volver, en lugar de forzar todas las decisiones de una sentada.",
+  "Un estudio de 2014 halló que los médicos recetaban cada vez más antibióticos para infecciones respiratorias a medida que avanzaban sus sesiones de consulta. El apoyo a la decisión importa sobre todo al final del turno, cuando el juicio está más desgastado.",
+  "Los dulces están junto a la caja porque los clientes llegan agotados de una tienda llena de disyuntivas. Colocar ventas adicionales donde la gente está más agotada funciona, pero cambia su confianza por una venta.",
+  "Un estudio de 2011 informó que las resoluciones favorables de libertad condicional caían de alrededor del 65 % a casi cero a lo largo de cada sesión y se recuperaban tras una pausa. Los críticos señalaron que los casos no se veían en orden aleatorio, así que trata con cuidado los estudios aislados y espectaculares.",
+  "Una replicación de 23 laboratorios en 2016 apenas encontró efecto de agotamiento del ego, y otra investigación lo halló sobre todo en quienes creen que la fuerza de voluntad es limitada. Reduce la carga de decisiones porque es buen diseño, no porque esté demostrado un modelo de la mente como depósito.",
+  "Deja que la IA se ocupe de las elecciones rutinarias, como ordenar, redactar borradores o rellenar valores predeterminados sensatos, para que la gente reserve su atención para las decisiones que importan. Mantén esas decisiones visibles y fáciles de cambiar.",
+  "Los agentes de IA que piden permiso en cada paso acostumbran a la gente a aprobar sin leer. Agrupa las acciones rutinarias y reserva la confirmación para los pasos importantes o difíciles de deshacer."
+ ],
+ ".meta .label": [
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Ideal para",
+  "Usar cuando",
+  "Evitar cuando",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con",
+  "Cambio",
+  "Usar cuando",
+  "Cuidado con"
+ ],
+ ".meta .value": [
+  "Explicar el efecto",
+  "La gente toma muchas decisiones seguidas",
+  "Las decisiones son pocas y sencillas",
+  "Configuradores e incorporación",
+  "Un flujo tiene muchas decisiones",
+  "Las dependencias imponen el orden",
+  "Formularios largos y pagos",
+  "Los pasos finales ofrecen predeterminados",
+  "Los predeterminados favorecen a la empresa, no al usuario",
+  "Solicitudes y configuraciones largas",
+  "La gente abandona a mitad de camino",
+  "La tarea es corta y urgente",
+  "Herramientas profesionales y clínicas",
+  "La gente emite juicios repetidos",
+  "Cada decisión está totalmente automatizada",
+  "Diseño del pago y de ventas adicionales",
+  "Los extras aparecen al final",
+  "Valorar si explotar la fatiga",
+  "Citar investigación ante las partes interesadas",
+  "Un hallazgo parece demasiado limpio",
+  "Un solo estudio debe sostener una decisión",
+  "Sopesar la evidencia",
+  "Argumentar con la teoría del agotamiento",
+  "Tratar la fatiga como ciencia asentada",
+  "Muchas decisiones pequeñas → unas pocas reales",
+  "La IA ayuda en tareas repetitivas",
+  "Ocultar decisiones importantes en la automatización",
+  "Pedir permiso para todo → para lo que importa",
+  "Diseñar los permisos de un agente",
+  "Confirmaciones que se aprueban por inercia"
+ ],
+ ".ai-divider h3": [
+  "La fatiga de decisión en la era de la IA"
+ ],
+ ".ai-divider p": [
+  "La IA puede quitar a la gente las decisiones rutinarias o enterrarla en aprobaciones. Lo que ocurra depende de lo que el sistema le pida decidir."
+ ]
+}
